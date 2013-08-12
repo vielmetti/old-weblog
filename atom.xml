@@ -4,7 +4,7 @@
   <title><![CDATA[Edward Vielmetti on Github]]></title>
   <link href="http://vielmetti.github.io/atom.xml" rel="self"/>
   <link href="http://vielmetti.github.io/"/>
-  <updated>2013-08-11T20:55:11-04:00</updated>
+  <updated>2013-08-11T22:39:56-04:00</updated>
   <id>http://vielmetti.github.io/</id>
   <author>
     <name><![CDATA[Edward Vielmetti]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Notes on Octopress]]></title>
+    <link href="http://vielmetti.github.io/blog/2013/08/11/notes-on-octopress/"/>
+    <updated>2013-08-11T22:33:00-04:00</updated>
+    <id>http://vielmetti.github.io/blog/2013/08/11/notes-on-octopress</id>
+    <content type="html"><![CDATA[<p>Some notes while I am still new to the system.</p>
+
+<ol>
+<li>It doesn&rsquo;t have comments; presumably there&rsquo;s some way to wire up
+an external comment system of some type to handle that, like Disqus.</li>
+<li>I really wanted to start doing this by having a flexible sidebar.
+There is a sidebar with some default information in it (github repos,
+recent pinboard bookmarks) but not a flexible editable sidebar. I suppose
+that&rsquo;s why there&rsquo;s source code.</li>
+<li>I miss &ldquo;edit this page&rdquo; as a button; that&rsquo;s the downside of not having
+a web-based content management system.</li>
+<li>Out of the box it looks nicer than Jekyll&rsquo;s default config, and I
+heartily approve of that. I am sure there are other styles I can try too.</li>
+<li>I&rsquo;m going to have to step up my reading skills if I&rsquo;m going to understand
+everything behind this system, especially my Ruby reading skills.</li>
+<li>The default config&rsquo;s mobile design is pretty good on my phone, better
+than the best I&rsquo;ve been able to do so far with Typepad.</li>
+<li>I like it that github is doing the hosting because there&rsquo;s not much to
+worry about that &ndash; I don&rsquo;t have to do any more in the way of babysitting
+a machine just to have a blog.</li>
+</ol>
+
+
+<p>So far so good, nothing too weird, everything pretty straightforward.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[test]]></title>
@@ -27,7 +59,7 @@
     <link href="http://vielmetti.github.io/blog/2013/08/11/installing-octopress/"/>
     <updated>2013-08-11T17:00:00-04:00</updated>
     <id>http://vielmetti.github.io/blog/2013/08/11/installing-octopress</id>
-    <content type="html"><![CDATA[<p>Started to install Octopress on my Mac, but got into a problem
+    <content type="html"><![CDATA[<p>Started to install <a href="http://octopress.org/">Octopress</a> on my Mac, but got into a problem
 where one of the dependencies wanted a later version of ruby
 (or at least a later patchlevel) than the one I had just built.
 That&rsquo;s enough to stop me for now.</p>

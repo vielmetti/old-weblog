@@ -4,7 +4,7 @@
   <title><![CDATA[Category: notes | Edward Vielmetti on Github]]></title>
   <link href="http://vielmetti.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://vielmetti.github.io/"/>
-  <updated>2013-08-11T20:55:11-04:00</updated>
+  <updated>2013-08-11T22:39:56-04:00</updated>
   <id>http://vielmetti.github.io/</id>
   <author>
     <name><![CDATA[Edward Vielmetti]]></name>
@@ -18,7 +18,7 @@
     <link href="http://vielmetti.github.io/blog/2013/08/11/installing-octopress/"/>
     <updated>2013-08-11T17:00:00-04:00</updated>
     <id>http://vielmetti.github.io/blog/2013/08/11/installing-octopress</id>
-    <content type="html"><![CDATA[<p>Started to install Octopress on my Mac, but got into a problem
+    <content type="html"><![CDATA[<p>Started to install <a href="http://octopress.org/">Octopress</a> on my Mac, but got into a problem
 where one of the dependencies wanted a later version of ruby
 (or at least a later patchlevel) than the one I had just built.
 That&rsquo;s enough to stop me for now.</p>
