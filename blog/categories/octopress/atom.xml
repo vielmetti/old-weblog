@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Edward Vielmetti on Github]]></title>
   <link href="http://vielmetti.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://vielmetti.github.io/"/>
-  <updated>2013-08-11T22:52:45-04:00</updated>
+  <updated>2013-08-11T22:55:39-04:00</updated>
   <id>http://vielmetti.github.io/</id>
   <author>
     <name><![CDATA[Edward Vielmetti]]></name>
@@ -42,6 +42,40 @@ a machine just to have a blog.</li>
 
 
 <p>So far so good, nothing too weird, everything pretty straightforward.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Octopress on MacOS X 10.6.8]]></title>
+    <link href="http://vielmetti.github.io/blog/2013/08/11/installing-octopress/"/>
+    <updated>2013-08-11T17:00:00-04:00</updated>
+    <id>http://vielmetti.github.io/blog/2013/08/11/installing-octopress</id>
+    <content type="html"><![CDATA[<p>Started to install <a href="http://octopress.org/">Octopress</a> on my Mac, but got into a problem
+where one of the dependencies wanted a later version of ruby
+(or at least a later patchlevel) than the one I had just built.
+That&rsquo;s enough to stop me for now.</p>
+
+<p>But not for very long!</p>
+
+<p>This <a href="http://stackoverflow.com/questions/10553887/having-trouble-installing-any-ruby-1-9-x-with-rbenv-on-mac-osx-due-to-psych-ya">Stack Overflow</a> post gives the syntax for installing a particular
+patchlevel of ruby, and so I did it.</p>
+
+<p>Then it came to creating a repo on github, and I got confused; should
+the URL be vielmetti.github.com or vielmetti.github.io ? Because one part
+of the doc used one name and the in-line code example used another. I
+had a skew between the two, and now it looks like things are hopelessly
+confused (or at least confused enough that I should delete a repo and
+start over).</p>
+
+<p>Finally, I found this <a href="http://www.nicecabbage.com/blog/2012/03/04/blogging-for-rubyists/">Nice Cabbage</a> post which strips the install
+down to its very barest minimum; that brought me past a hurdle with
+the above mentioned github repo.</p>
+
+<p>One last issue: the system was complaining with an OS X credentials error,
+&ldquo;error: git-credential-osxkeychain died of signal 11&rdquo;. To fix that, I went
+to a <a href="https://help.github.com/articles/set-up-git">page where I could get the latest version</a> and updated my copy.</p>
+
+<p>Since you&rsquo;re reading this, it must work! Yay!</p>
 ]]></content>
   </entry>
   
