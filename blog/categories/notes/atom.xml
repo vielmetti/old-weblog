@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: notes | My Octopress Blog]]></title>
+  <title><![CDATA[Category: notes | Edward Vielmetti on Github]]></title>
   <link href="http://vielmetti.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://vielmetti.github.io/"/>
-  <updated>2013-08-11T20:27:51-04:00</updated>
+  <updated>2013-08-11T20:32:26-04:00</updated>
   <id>http://vielmetti.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Edward Vielmetti]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
