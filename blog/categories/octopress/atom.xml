@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Edward Vielmetti on Github]]></title>
   <link href="http://vielmetti.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://vielmetti.github.io/"/>
-  <updated>2013-08-12T00:02:33-04:00</updated>
+  <updated>2013-08-12T00:05:44-04:00</updated>
   <id>http://vielmetti.github.io/</id>
   <author>
     <name><![CDATA[Edward Vielmetti]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Octopress rake new post]]></title>
+    <link href="http://vielmetti.github.io/blog/2013/08/11/testing-octopress-rake-new-post/"/>
+    <updated>2013-08-11T23:28:00-04:00</updated>
+    <id>http://vielmetti.github.io/blog/2013/08/11/testing-octopress-rake-new-post</id>
+    <content type="html"><![CDATA[<p>Aha, creating a new post is as easy as</p>
+
+<p><code>
+$ rake new_post["Title of your new post"]
+</code></p>
+
+<p>A permalink will be generated from the title of the page. See the
+<a href="http://octopress.org/docs/blogging/">blogging basics</a> page for more.</p>
+
+<p>Blockquotes work like so:</p>
+
+<p><blockquote><p>Lincolns and Olds, Michiganders</p><footer><strong>Michael Joyce</strong> <cite>BAD:IDEA</cite></footer></blockquote></p>
+
+<p><a href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-0476?byte=115058701;focusrgn=C02;subview=standard;view=reslist">BAD:IDEA</a> is a conference that Bill Doster and I organized more than
+25 years ago; it&rsquo;s tied up in the U of Michigan archives protected by
+FERPA. I need to pry it loose (since it&rsquo;s my educational records, I should
+be able to see them).</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Notes on Octopress]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[Edward Vielmetti on Github]]></title>
   <link href="http://vielmetti.github.io/atom.xml" rel="self"/>
   <link href="http://vielmetti.github.io/"/>
-  <updated>2013-08-12T00:02:33-04:00</updated>
+  <updated>2013-08-12T00:05:44-04:00</updated>
   <id>http://vielmetti.github.io/</id>
   <author>
     <name><![CDATA[Edward Vielmetti]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Octopress rake new post]]></title>
+    <link href="http://vielmetti.github.io/blog/2013/08/11/testing-octopress-rake-new-post/"/>
+    <updated>2013-08-11T23:28:00-04:00</updated>
+    <id>http://vielmetti.github.io/blog/2013/08/11/testing-octopress-rake-new-post</id>
+    <content type="html"><![CDATA[<p>Aha, creating a new post is as easy as</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake new_post["Title of your new post"]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>A permalink will be generated from the title of the page. See the
+<a href="http://octopress.org/docs/blogging/">blogging basics</a> page for more.</p>
+
+<p>Blockquotes work like so:</p>
+
+<blockquote><p>Lincolns and Olds, Michiganders</p><footer><strong>Michael Joyce</strong> <cite>BAD:IDEA</cite></footer></blockquote>
+
+
+<p><a href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-0476?byte=115058701;focusrgn=C02;subview=standard;view=reslist">BAD:IDEA</a> is a conference that Bill Doster and I organized more than
+25 years ago; it&rsquo;s tied up in the U of Michigan archives protected by
+FERPA. I need to pry it loose (since it&rsquo;s my educational records, I should
+be able to see them).</p>
+
+<p><span class='pullquote-right' data-pullquote='styled with CSS'>
+If you are going to use a <a href="http://octopress.org/docs/plugins/pullquote/">pull quote</a> in your paragraph, just write
+as normal. You&rsquo;ll find the one pithy piece that makes the whole thing
+hang together, and you&rsquo;ll call it out with simple punctuation. The
+pull quote is styled with CSS so there&rsquo;s no duplication of text and
+no need to write things in a funny way to make it make sense. The only
+slightly weird thing is that the pull quote text is not selectable,
+even though it looks like it should be. That&rsquo;s mighty fancy CSS
+footwork!
+</span></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[That new blog smell]]></title>
