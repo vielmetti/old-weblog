@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: paper | Edward Vielmetti on Github]]></title>
+  <link href="http://vielmetti.github.io/blog/categories/paper/atom.xml" rel="self"/>
+  <link href="http://vielmetti.github.io/"/>
+  <updated>2013-08-14T17:22:12-04:00</updated>
+  <id>http://vielmetti.github.io/</id>
+  <author>
+    <name><![CDATA[Edward Vielmetti]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[That new notebook smell]]></title>
+    <link href="http://vielmetti.github.io/blog/2013/08/14/that-new-notebook-smell/"/>
+    <updated>2013-08-14T17:19:00-04:00</updated>
+    <id>http://vielmetti.github.io/blog/2013/08/14/that-new-notebook-smell</id>
+    <content type="html"><![CDATA[<p>No, not a new laptop, but a new bound quadrille paper notebook,
+purchased from <a href="http://literatibookstore.wordpress.com/">Literati</a>. There&rsquo;s nothing quite so much fun as
+going through a year and a half of paper, copying out the good
+bits, and starting over again afresh.</p>
+]]></content>
+  </entry>
+  
+</feed>
