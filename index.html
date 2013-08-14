@@ -9,9 +9,8 @@
   <meta name="author" content="Edward Vielmetti">
 
   
-  <meta name="description" content="Setting up Octopress has given me a chance to look through some of
-my old Github repositories and re-assess what&rsquo;s there and how to
-improve on &hellip;">
+  <meta name="description" content="I&rsquo;m on the lookout for tools that I can invoke from the command line
+that are wise to the JSON file format. So many Unix tools assume that &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +78,70 @@ improve on &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/13/command-line-json-tools/">Command Line JSON Tools</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-13T23:57:00-04:00" pubdate data-updated="true">Aug 13<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;m on the lookout for tools that I can invoke from the command line
+that are wise to the JSON file format.</p>
+
+<p>So many Unix tools assume that there&rsquo;s one record per line, and
+are less than useful when dealing with a blob of JSON. The objective
+here is to be able to do non-trivial JSON transformations without
+dropping into a programming language or an editor to do the task.</p>
+
+<p>What I&rsquo;ve found and installed so far:</p>
+
+<ul>
+<li>Antonin Hildebrand&rsquo;s <a href="https://github.com/darwin/csv2json">csv2json</a> gem, written in Ruby; it converts
+CSV files to JSON, or JSON files to CSV.</li>
+<li>Marc Lehmann&rsquo;s <a href="http://search.cpan.org/dist/JSON-XS/bin/json_xs">JSON-XS</a> command line utility, which pretty-prints
+JSON and converts to and from several file formats; in Perl, with an
+interface that lets you apply a perl command to each JSON object</li>
+<li>Kyle Keen&rsquo;s <a href="http://kmkeen.com/jshon/">jshon</a>, an ambitious parser and processor for JSON files
+that is designed for command line use; built on top of <a href="http://www.digip.org/jansson/">Jansson</a>.</li>
+<li>Micha Niskin&rsquo;s <a href="https://github.com/micha/jsawk">jsawk</a>, &ldquo;like awk, but for JSON&rdquo;; lets you apply
+a Javascript transform to each JSON object as it streams by</li>
+<li>Dave Dopson&rsquo;s <a href="https://github.com/ddopson/underscore-cli">underscore-cli</a>, a &ldquo;command-line utility belt for
+hacking JSON&rdquo;, with functions in Javascript using the underscore.js
+JSON library</li>
+</ul>
+
+
+<p>Chances are good that one or the other of these packages will get
+you one step further than you are if you had been trying to manipulate
+JSON with sed and awk!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -638,6 +701,10 @@ not ready for that just as of yet.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/08/13/command-line-json-tools/">Command Line JSON Tools</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/08/12/looking-over-old-github-repos/">Looking Over Old Github Repos</a>
       </li>
     
@@ -651,10 +718,6 @@ not ready for that just as of yet.</p>
     
       <li class="post">
         <a href="/blog/2013/08/11/that-new-blog-smell/">That New Blog Smell</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/08/11/notes-on-octopress/">Notes on Octopress</a>
       </li>
     
   </ul>

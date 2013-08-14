@@ -4,7 +4,7 @@
   <title><![CDATA[Edward Vielmetti on Github]]></title>
   <link href="http://vielmetti.github.io/atom.xml" rel="self"/>
   <link href="http://vielmetti.github.io/"/>
-  <updated>2013-08-12T22:46:57-04:00</updated>
+  <updated>2013-08-14T00:28:47-04:00</updated>
   <id>http://vielmetti.github.io/</id>
   <author>
     <name><![CDATA[Edward Vielmetti]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Command line JSON tools]]></title>
+    <link href="http://vielmetti.github.io/blog/2013/08/13/command-line-json-tools/"/>
+    <updated>2013-08-13T23:57:00-04:00</updated>
+    <id>http://vielmetti.github.io/blog/2013/08/13/command-line-json-tools</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m on the lookout for tools that I can invoke from the command line
+that are wise to the JSON file format.</p>
+
+<p>So many Unix tools assume that there&rsquo;s one record per line, and
+are less than useful when dealing with a blob of JSON. The objective
+here is to be able to do non-trivial JSON transformations without
+dropping into a programming language or an editor to do the task.</p>
+
+<p>What I&rsquo;ve found and installed so far:</p>
+
+<ul>
+<li>Antonin Hildebrand&rsquo;s <a href="https://github.com/darwin/csv2json">csv2json</a> gem, written in Ruby; it converts
+CSV files to JSON, or JSON files to CSV.</li>
+<li>Marc Lehmann&rsquo;s <a href="http://search.cpan.org/dist/JSON-XS/bin/json_xs">JSON-XS</a> command line utility, which pretty-prints
+JSON and converts to and from several file formats; in Perl, with an
+interface that lets you apply a perl command to each JSON object</li>
+<li>Kyle Keen&rsquo;s <a href="http://kmkeen.com/jshon/">jshon</a>, an ambitious parser and processor for JSON files
+that is designed for command line use; built on top of <a href="http://www.digip.org/jansson/">Jansson</a>.</li>
+<li>Micha Niskin&rsquo;s <a href="https://github.com/micha/jsawk">jsawk</a>, &ldquo;like awk, but for JSON&rdquo;; lets you apply
+a Javascript transform to each JSON object as it streams by</li>
+<li>Dave Dopson&rsquo;s <a href="https://github.com/ddopson/underscore-cli">underscore-cli</a>, a &ldquo;command-line utility belt for
+hacking JSON&rdquo;, with functions in Javascript using the underscore.js
+JSON library</li>
+</ul>
+
+
+<p>Chances are good that one or the other of these packages will get
+you one step further than you are if you had been trying to manipulate
+JSON with sed and awk!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Looking over old Github repos]]></title>
