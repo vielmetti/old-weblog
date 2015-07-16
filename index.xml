@@ -6,8 +6,40 @@
     <description>Recent content on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2015 11:22:36 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2015 18:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>custom views of taxonomies</title>
+      <link>http://vielmetti.github.io/post/2015-07-16-custom-views-of-taxonomies/</link>
+      <pubDate>Thu, 16 Jul 2015 18:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015-07-16-custom-views-of-taxonomies/</guid>
+      <description>&lt;p&gt;One of the motivation ideas behind going to the work to move
+a big weblog to a new platform is to get better control over
+categories. With Typepad, every category looks about the same;
+the idea now is with Hugo I can have separate categories that
+look different. For instance:&lt;/p&gt;
+
+&lt;p&gt;There are a number of recipes in the collection, which should
+be sorted alphabetically or by key ingredient, not chronologically.&lt;/p&gt;
+
+&lt;p&gt;There are a number of posts about books in the collection, which
+should be connected to a lookup for that book in your favorite
+bookstore or my favorite library.&lt;/p&gt;
+
+&lt;p&gt;There are a number of people mentioned, and a people index would
+be great so you can browse and not just search.&lt;/p&gt;
+
+&lt;p&gt;Mostly I&amp;rsquo;m after improving the browsing experience, as much for
+me as for anyone else. If you have to find things with a search
+engine, you are stuck in a world where you have to know that something
+has a particular name. By offering a browsing infrastructure first,
+you cherrypick the best search terms and put them up front.&lt;/p&gt;
+
+&lt;p&gt;Some of this will need pen and paper design&amp;hellip;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>a2b3 lunch at Ayse&#39;s, Art Fair 2015 edition</title>
@@ -501,22 +533,6 @@ mosquitto:
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/</guid>
       <description>&lt;p&gt;Wasem&#39;s brought gooseberries to today&#39;s Ann Arbor Farmers Market. There were two varieties, one with smaller berries and one with larger berries. Delicious just as is.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ann Arbor City Council for July 6, 2015: online video stream goes dark</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</link>
-      <pubDate>Mon, 06 Jul 2015 20:13:02 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</guid>
-      <description>&lt;p&gt;If you&#39;re trying to follow Ann Arbor City Council via the online feed, you&#39;ll be disappointed tonight as the feed is not working.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d133bbbf970c img-responsive&#34; style=&#34;width: 570px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-07-06 at 8.11.01 PM&#34; title=&#34;Screen Shot 2015-07-06 at 8.11.01 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-580wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The CTN live stream for channel 16 is currently down and being looked at. Sorry for the inconvenience. &lt;a href=&#34;https://twitter.com/hashtag/ctnannarbor?src=hash&#34;&gt;#ctnannarbor&lt;/a&gt;&lt;/p&gt;&amp;mdash; CTN Ann Arbor (@CTNAnnArbor) &lt;a href=&#34;https://twitter.com/CTNAnnArbor/status/618198005737488384&#34;&gt;July 6, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
     

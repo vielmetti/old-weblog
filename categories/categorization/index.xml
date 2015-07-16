@@ -6,8 +6,40 @@
     <description>Recent content in Categorization on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2013 14:20:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2015 18:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/categorization/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>custom views of taxonomies</title>
+      <link>http://vielmetti.github.io/post/2015-07-16-custom-views-of-taxonomies/</link>
+      <pubDate>Thu, 16 Jul 2015 18:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015-07-16-custom-views-of-taxonomies/</guid>
+      <description>&lt;p&gt;One of the motivation ideas behind going to the work to move
+a big weblog to a new platform is to get better control over
+categories. With Typepad, every category looks about the same;
+the idea now is with Hugo I can have separate categories that
+look different. For instance:&lt;/p&gt;
+
+&lt;p&gt;There are a number of recipes in the collection, which should
+be sorted alphabetically or by key ingredient, not chronologically.&lt;/p&gt;
+
+&lt;p&gt;There are a number of posts about books in the collection, which
+should be connected to a lookup for that book in your favorite
+bookstore or my favorite library.&lt;/p&gt;
+
+&lt;p&gt;There are a number of people mentioned, and a people index would
+be great so you can browse and not just search.&lt;/p&gt;
+
+&lt;p&gt;Mostly I&amp;rsquo;m after improving the browsing experience, as much for
+me as for anyone else. If you have to find things with a search
+engine, you are stuck in a world where you have to know that something
+has a particular name. By offering a browsing infrastructure first,
+you cherrypick the best search terms and put them up front.&lt;/p&gt;
+
+&lt;p&gt;Some of this will need pen and paper design&amp;hellip;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Categories and their utter impossibility of reflecting the current real world</title>
