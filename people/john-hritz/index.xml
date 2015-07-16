@@ -55,8 +55,8 @@
       <pubDate>Fri, 28 Mar 2008 21:56:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-03-28-kanban-or-manag/</guid>
-      <description>&lt;p&gt;
-I wrote a few years back about a &lt;a href=&#34;http://www.flickr.com/photos/jhritz/6225044/&#34;&gt;mini-kanban that John Hritz had put together to remember to refill washer fluid&lt;/a&gt;.  There are a lot of colorful sticky notes around my workplace these days, so I thought I&#39;d read up on how kanban-inspired systems are being used for process management in the software development and other non-manufacturing worlds.
+      <description>&lt;p&gt;&lt;p&gt;
+I wrote a few years back about a &lt;a href=&#34;http://www.flickr.com/photos/jhritz/6225044/&#34;&gt;mini-kanban that John Hritz had put together to remember to refill washer fluid&lt;/a&gt;.  There are a lot of colorful sticky notes around my workplace these days, so I thought I&amp;rsquo;d read up on how kanban-inspired systems are being used for process management in the software development and other non-manufacturing worlds.
 &lt;/p&gt;&lt;p&gt;
 Some inspiring examples (with post-its to illustrate):
 &lt;/p&gt;&lt;p&gt;
@@ -64,15 +64,13 @@ Corey Ladis on &lt;a href=&#34;http://leansoftwareengineering.com/2007/08/29/kan
 &lt;/p&gt;&lt;blockquote&gt;
 A perfect state of flow may be very difficult, or at least uneconomical, to achieve in a robust product development process. But we can get pretty close with a well-tuned kanban pull system. We have managed to combine most of the flexibility of craft production with most of the control of a pipeline. Work-in-process is limited, and cycle time can be managed. Most importantly, it is a highly transparent and repeatable process with all of the right conditions for continuous improvement.
 &lt;/blockquote&gt;&lt;p&gt;
-oh, wait a second, this is starting to be spooky: &lt;a href=&#34;http://ourfounder.typepad.com/leblog/2008/02/modus-cooperand.html&#34;&gt;Jim Benson&#39;s notes on the new people at his Modus Cooperandi:&lt;/a&gt;
+oh, wait a second, this is starting to be spooky: &lt;a href=&#34;http://ourfounder.typepad.com/leblog/2008/02/modus-cooperand.html&#34;&gt;Jim Benson&amp;rsquo;s notes on the new people at his Modus Cooperandi:&lt;/a&gt;
 &lt;/p&gt;&lt;blockquote&gt;
 Corey Ladas - Corey has been a proponent of iterative and evolutionary design methods since the early 1990’s, and was an early practitioner and vocal promoter of Agile methods at Microsoft. Corey began collaborating with David Anderson at Microsoft in 2004, united by a common interest in the application of Lean, Theory of Constraints, and Statistical Process Control methods to software development. In 2007, Corey joined David at Corbis to implement kanban systems for the development of enterprise IT projects.
 &lt;/blockquote&gt;&lt;p&gt;
-Time to talk to Jim...
+Time to talk to Jim&amp;hellip;
 &lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/kanban&#34; rel=&#34;tag&#34;&gt;kanban&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/management&#34; rel=&#34;tag&#34;&gt;management&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;
-
-
+&amp;lt;!&amp;ndash; technorati tags start &amp;ndash;&amp;gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/kanban&#34; rel=&#34;tag&#34;&gt;kanban&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/management&#34; rel=&#34;tag&#34;&gt;management&lt;/a&gt;&lt;/p&gt;&amp;lt;!&amp;ndash; technorati tags end &amp;ndash;&amp;gt;&lt;/p&gt;
 </description>
     </item>
     

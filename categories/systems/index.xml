@@ -84,5 +84,226 @@ the core of your efforts.&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Systems attract systems people</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-08-systems-attract-systems-people/</link>
+      <pubDate>Wed, 08 May 2013 00:48:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-08-systems-attract-systems-people/</guid>
+      <description>&lt;p&gt;From Systemantics, the systems bible:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;While Systems-people share certain attributes in common, each specific system tends to attract people with specific sets of attributes. For example, people who are attracted to auto racing are likely to be people who enjoy driving fast, tinkering with high-powered cars, and beating other people in fierce competition. The System calls forth those attributes in its members and rewards the extreme degrees of them. But a word of warning is in order.&amp;nbsp;&lt;em&gt;A priori&lt;/em&gt;&amp;nbsp;guesses as to what traits are fostered by a given system are likely to be wrong. Furthermore, those traits are not necessarily conducive to successful operation of the System itself, e.g., the qualities necessary for being elected president do not include the ability to run the country.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Systems attract not only Systems-people who have attributes for success&amp;nbsp;&lt;em&gt;within&lt;/em&gt;&amp;nbsp;the system. They also attract individuals who possess specialized attributes adapted to allow them to thrive at the expense of the system, i.e., persons who&amp;nbsp;&lt;em&gt;parasitize&lt;/em&gt;&amp;nbsp;them. As the barnacle attaches to the whale, these persons attach themselves to systems, getting a free ride and a free lunch as long as the system survives.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www2.ece.ohio-state.edu/~fasiha/systemantics/&#34; target=&#34;_self&#34;&gt;A copy of the Systemantics 1975 edition is online&lt;/a&gt;, at The Ohio State University, which probably doesn&#39;t know that it&#39;s there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Outages, cable failures, and postmortems: sources for information</title>
+      <link>http://vielmetti.github.io/post/2013/2013-03-24-outages-cable-failures-and-postmortems-sources-for-information/</link>
+      <pubDate>Sun, 24 Mar 2013 13:08:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-03-24-outages-cable-failures-and-postmortems-sources-for-information/</guid>
+      <description>&lt;p&gt;If you, like me, are interested in how systems work and when they fail, here are three good sources to look at from the internet persective on global network behavior.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://puck.nether.net/mailman/listinfo/outages&#34; target=&#34;_self&#34;&gt;outages mailing list&lt;/a&gt; (outages at outages.org) describes itself as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The primary goal of this mailing list (&amp;quot;outages&amp;quot;) is for outages-reporting that would apply to failures of major communications infrastructure components having significant traffic-carrying capacity, similar to what FCC provided prior to 9/11 days but they seem to have pulled back due to terrorism concerns. Some also believe that LEC&amp;#39;s and IXC&amp;#39;s also like this model as they no longer have to air their dirty laundry. Then again, this mailing list is not about making anyone look bad, its all about information sharing and keeping network operators &amp;amp; end users abreast on the situation as close to real-time information as possible in order to assess and respond to major outage such as routing voice/data via different carriers which may directly or indirectly impact us and our customers. A reliable communications network is essential in times of crisis.&amp;#0160;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There&amp;#39;s always good information about bad news to be found here, with a typical exchange being &amp;quot;I lost some circuits to city X&amp;quot; and the reply &amp;quot;Company Y has a fiber cut in city Z&amp;quot;.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;A second excellent source of global routing information about failures and reconfigurations of the global internet is the weblog that&amp;#39;s written by the company Renesys. The &lt;a href=&#34;http://renesys.com/blog/&#34; target=&#34;_self&#34;&gt;Renesys Blog&lt;/a&gt;&amp;#0160;has as of this writing details about network connectivity problems to North and South Korea, a fiber cut in the Black Sea that disrupted traffic as far away as Oman (3000+ km away), and details of a submarine cable landing in Cuba.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;Finally - though there is not really a finally in this world where part of the Internet is always under repair - there is a &lt;a href=&#34;https://plus.google.com/communities/115136140203018391796&#34; target=&#34;_self&#34;&gt;&amp;quot;Postmortems&amp;quot; discussion group on Google Plus&lt;/a&gt; where reports come in after the fact of people describing just what went wrong with their complex system and (usually) what they plan to do next to avoid the next round of similar failures. From squirrel-induced cascading power failures to denial of service attacks to runaway email systems, there&amp;#39;s a new lesson to be learned from each after-action review of failure.&lt;/p&gt;
+&lt;p&gt;All of these groups overlap somewhat with the &lt;a href=&#34;http://catless.ncl.ac.uk/Risks/&#34; target=&#34;_self&#34;&gt;RISKS Digest&lt;/a&gt;, one of the oldest mailing lists still around on the internet, that covers risks to the public from computing technology.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prediction markets are too easy to game, so let&#39;s play games instead</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-23-prediction-markets/</link>
+      <pubDate>Thu, 23 Jun 2011 09:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-23-prediction-markets/</guid>
+      <description>&lt;p&gt;Prediction markets provide a nice, idealized way to use market mechanisms to predict the future. They are a slightly idealized version of an office betting pool and allow small scale bets (real or virtual) on future events. Unlike a real futures market, where you can get guarantees of future performance on things like delivery of gasoline or frozen orange juice, there&amp;#39;s no way that betting on some prospective GOP hopeful will lift your candidate to office.&lt;/p&gt;
+&lt;p&gt;Market manipulation is the bane of most prediction markets. Consider Intrade, a prediction market in which GOP hopefuls are listed. The media will report that a newcomer is trading well, but won&amp;#39;t necessarily note that the frontrunner&amp;#39;s place is based on less than $500 worth of daily trades. If someone were to want to bump their favorite over the top for at least a little while it would only take pocket money from a proper hidden campaign pocket to game the system in your favor.&lt;/p&gt;
+&lt;p&gt;Gaming the system is a problem in systems that pretend to be markets, and where some ideal form of market is lionized as a way to gain enlightenment from the invisible hand of Adam Smith. Turning the system into a game to be one sullies the economist&amp;#39;s ideals of a rational allocation of resources based on infinite economic rigor.&lt;/p&gt;
+&lt;p&gt;Why fight people&amp;#39;s tendencies to want to subvert the intent of the system builder? The new hot trend in online environments is gamification, where gaming the system becomes the whole goal of the system. Unlike markets, which try to come to truth with some single-valued score of value, games have the opportunity to bring the world into a lovely multi-valued focus, with different people winning each at their own version of the game. The introduction of badges, short term competitions, lots of ways to score points and other fun side games overwhelms the narrow trading interests in market-based predicitons.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;The future of prediction markets lives inside complex predictive games. The game design has to take into account not only the rapid conclusions that you can draw when you have an efficient market for opinions, but also the continuous efforts you have to keep up to maintain people&amp;#39;s attention on a topic for any length of time. The good games reward active participation; the challenge becomes how to draw conclusions from the work of engaged gamers working inside your system.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to &lt;a href=&#34;http://xca2.com/&#34; target=&#34;_self&#34;&gt;Brian Kerr&lt;/a&gt; for the idea. Games are on my mind because of the work of the Ann Arbor District Library and Eli Neiburger to &lt;a href=&#34;http://play.aadl.org&#34; target=&#34;_self&#34;&gt;build games into the summer reading program&lt;/a&gt; at the library. I tried to &lt;a href=&#34;http://vielmetti.typepad.com/superpatron/2007/02/predicting_hold.html&#34; target=&#34;_self&#34;&gt;predict library use&lt;/a&gt;&amp;#0160;with a prediction market in 2007, and &lt;a href=&#34;http://home.inklingmarkets.com/markets/17016&#34; target=&#34;_self&#34;&gt;attendance at lunch&lt;/a&gt;&amp;#0160;in 2009, using Inkling Markets. The game of choice at the Workantile Exchange is a version of bingo; when I bring my kid to work an alert player may win. The &lt;a href=&#34;http://www.intrade.com/v4/markets/contract/?contractId=652757&#34; target=&#34;_self&#34;&gt;Intrade GOP market&lt;/a&gt; shows the book of available trades; at this writing, purchasing about 300 shares of Mitt Romney would push the price up 8% at a cost of less than $1200. &lt;a href=&#34;http://www.empireavenue.com/&#34; target=&#34;_self&#34;&gt;Empire Avenue&lt;/a&gt; turns social media friendships into a giant game, with badges and prizes.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>System mapping</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-13-system-mapping/</link>
+      <pubDate>Mon, 13 Jun 2011 14:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-13-system-mapping/</guid>
+      <description>&lt;p&gt;It&amp;#39;s always good to collect a lot of examples as you look to map out a system. For that you want to have generative tools that suggest the kinds of examples that you want to look for.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34; target=&#34;_self&#34;&gt;power outage maps I have been collecting&lt;/a&gt; started with the generative system of making a blank entry for each of 50 states, and looking to collect one in each state. I&amp;#39;ve done similar exercises where the generator is the first letter of the alphabet collecting examples A-Z. You are looking for breadth in your view, and something that constrains the search so that you don&amp;#39;t spend too much time in one place before going on.&lt;/p&gt;
+&lt;p&gt;It helps to have some kind of rudimentary ranking algorithm when wrapping up your search, so that you can look for gaps into which another example will fit. The utility map effort looks like it&amp;#39;s going to generate a simple checklist for each map, so that I can give each one a score on completeness (0 = no map, add 1 for county by county stats, add 1 for city by city stats, add 1 for zoom to the outage, add 1 for systemwide counts etc).&lt;/p&gt;
+&lt;p&gt;Put the things you collect into categories that have names, so that you can start working with abstractions instead of concrete instances. The list of categories becomes another place to generate a bounded set of additional elements.&lt;/p&gt;
+&lt;p&gt;Once you have all of these you can start to think about plausible things that might be in the system that you haven&amp;#39;t found yet. My piece on &amp;quot;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/unknowledge-management.html&#34; target=&#34;_self&#34;&gt;unknowledge management&lt;/a&gt;&amp;quot; (the phrase is &lt;a href=&#34;http://www.munnecke.com/papers/dragons.htm&#34; target=&#34;_self&#34;&gt;from Tom Munnecke&lt;/a&gt;) where the task becomes looking for names for things that don&amp;#39;t exist yet but that might plausibly exist given the system that you have described. This means that you end up with something peculiar to search for, and either it doesn&amp;#39;t exist yet, it can&amp;#39;t exist (and your models are off), or you find it.&lt;/p&gt;
+&lt;p&gt;So the iterative process looks like&lt;/p&gt;
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;describe a search space&lt;/p&gt;
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;collect examples&lt;/p&gt;
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;rank along common attributes&lt;/p&gt;
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;categorize into abstractions&lt;/p&gt;
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;synthesize the undiscovered instances&lt;/p&gt;
+&lt;p&gt;and that seems to be as good a plan as any for survey of the field.&lt;/p&gt;
+&lt;p&gt;This &lt;a href=&#34;http://www.jhsph.edu/clf/programs/eating/proj_foodsystem.html&#34; target=&#34;_self&#34;&gt;food system map of Baltimore&lt;/a&gt;&amp;#0160;looks like an instance of the structure of this work. In academia, the &lt;a href=&#34;http://scholar.google.com/scholar?q=survey+article&amp;amp;hl=en&amp;amp;as_sdt=0&amp;amp;as_vis=1&amp;amp;oi=scholart&#34; target=&#34;_self&#34;&gt;survey article&lt;/a&gt;&amp;#0160;(Google Scholar) is structured in much the same way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guthery&#39;s Law: &#34;In an evolving man-machine system, the man will get dumber faster than the machine gets smarter.&#34;</title>
+      <link>http://vielmetti.github.io/post/2011/2011-02-27-gutherys-law/</link>
+      <pubDate>Sun, 27 Feb 2011 14:40:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-02-27-gutherys-law/</guid>
+      <description>&lt;p&gt;I quoted Guthery&amp;#39;s Law in a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/02/my-career-in-food-service.html&#34; target=&#34;_self&#34;&gt;1986 contribution to Risks Digest&lt;/a&gt;&amp;#0160;about fast-food computing; here&amp;#39;s the &lt;a href=&#34;http://catless.ncl.ac.uk/Risks/4.28.html#subj6&#34; target=&#34;_self&#34;&gt;original citation from Scott Guthery&lt;/a&gt;, who was at ASCVX6 at the time.&lt;/p&gt;
+&lt;p&gt;He&amp;#39;s now &lt;a href=&#34;http://www.tmcnet.com/tmcnet/columnists/columnist.aspx?id=100309&#34; target=&#34;_self&#34;&gt;contributing a column to TMCnet&lt;/a&gt;, looking particularly at risks to the public from smart medical devices operated by less-smart humans.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>November 7-9, 2008: Language as a Complex Adaptive System, Ann Arbor, MI</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-29-november-7-9-2008-language-as-a-complex-adaptive-system-ann-arbor-mi/</link>
+      <pubDate>Wed, 29 Oct 2008 12:35:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-29-november-7-9-2008-language-as-a-complex-adaptive-system-ann-arbor-mi/</guid>
+      <description>&lt;p&gt;The theme builds upon foundations laid by colleagues from different
+branches of linguistics, psychology, and complex systems. The speakers
+are active in their recognition of complexity in their respective
+areas, ranging from language usage, structure, and change,
+sociolinguistics, cognitive linguistics, anthropology, language
+evolution, first language acquisition, second language acquisition,
+psycholinguistics and language processing, language education,
+individual differences, and language testing.&lt;/p&gt;&lt;p&gt;Conference Schedule is available at &lt;a href=&#34;http://elicorpora.info/LLC/schedule&#34; target=&#34;_blank&#34;&gt;http://elicorpora.info/LLC/&lt;wbr /&gt;schedule&lt;/a&gt;&lt;/p&gt;&lt;p&gt;(Free) Registration required&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Dates:&lt;/strong&gt; November 7-9, 2008&lt;br /&gt;
+&lt;strong&gt;Venue:&lt;/strong&gt; The Michigan League, University of Michigan&lt;strong&gt;&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;Here&amp;#39;s a big additional amount of description of the event, from their web site:&lt;/p&gt;&lt;div class=&#34;content&#34;&gt;
+   &lt;h3&gt;Conference Overview&lt;/h3&gt;
+   &lt;p&gt;A
+conference of invited presentations is to be held in Ann Arbor on
+November 7-9 2008 to celebrate the 60th Anniversary of Language
+Learning and to explore a paradigm shift currently taking place across
+the language sciences, the growing realization of Language as a Complex
+Adaptive System.&lt;/p&gt;
+   &lt;p&gt; Language Learning was first
+published from the University of Michigan in 1948. Its subtitle then
+was &amp;quot;A Quarterly Journal of Applied Linguistics&amp;quot;; indeed the beginnings
+of &amp;quot;Applied Linguistics&amp;quot; have been attributed to this usage. In the 60
+years since, the subtitle has evolved to become &amp;quot;A Journal of Research
+in Language Studies&amp;quot; reflecting our mission: &lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Language Learning is a scientific journal
+dedicated to the understanding of language learning broadly defined. It
+publishes research articles that systematically apply methods of
+inquiry from disciplines including psychology, linguistics, cognitive
+science, educational inquiry, neuroscience, ethnography,
+sociolinguistics, sociology, and semiotics. It is concerned with
+fundamental theoretical issues in language learning such as child,
+second, and foreign language acquisition, language education,
+bilingualism, literacy, language representation in mind and brain,
+culture, cognition, pragmatics, and intergroup relations.&lt;/p&gt;&lt;/blockquote&gt;
+   
+   &lt;p&gt;The
+conference in 2008 will mark our 60th anniversary and our remarkable
+success towards these ends. Members of the board, past editors, our
+colleagues at Wiley-Blackwell, and friends and confederates in this
+enterprise are gathering to celebrate.&lt;/p&gt;
+   &lt;p&gt;The topic of
+the conference is Language as a Complex Adaptive System. Recent
+research across a variety of disciplines in the cognitive sciences has
+demonstrated that patterns of use determine how language is acquired,
+is structured, and changes over time. However, there is mounting
+evidence that processes of language acquisition, use, and change are
+not independent from one another but are facets of the same complex
+adaptive system. This theme builds upon foundations laid by colleagues
+from different branches of linguistics, psychology, and complex systems
+(including Clay Beckner, Richard Blythe, Joan Bybee, Morten H.
+Christiansen, William Croft, Nick C. Ellis, John Holland, Jinyun Ke,
+Diane Larsen-Freeman, and Tom Schoenemann) at a meeting at the Santa Fe
+Institute in 2007. &amp;quot;The Five Graces Group&amp;quot; (named after their rather
+special accommodations there) are offering a position paper on Language
+as a Complex Adaptive System as the introductory piece for the
+conference followed by ten individual papers that discuss substantive
+areas of language from this perspective. The authors of these ten
+papers are active in their recognition of complexity in their
+respective areas, ranging from language usage, structure and change,
+sociolinguistics, cognitive linguistics, anthropology, language
+evolution, first language acquisition, second language acquisition,
+psycholinguistics and language processing, language education,
+individual differences, and language testing. Discussion of these
+papers will be led by members of the board of Language Learning in
+order to contextualize these influences within Applied Linguistics and
+the Language Sciences more generally.&lt;/p&gt;
+   &lt;p&gt;Written papers
+based on these presentations will form a special issue of the journal
+Language Learning (2009, Volume 59, Supplement 1). The proceedings will
+also be recorded and later made available through Wiley-Blackwell and
+the University of Michigan as a webcast.&lt;/p&gt;&lt;p&gt;The previous day there&amp;#39;s a seminar on campus:&lt;/p&gt;&lt;h3&gt;&lt;font color=&#34;red&#34;&gt;Emergence in Physical, Biological, and Social Systems III&lt;/font&gt;&lt;/h3&gt;
+&lt;h3&gt;November 7, 2008&lt;/h3&gt;
+&lt;h3&gt;340 West Hall, University of Michigan&lt;/h3&gt;
+&lt;h3&gt;9 am-4:30 pm&lt;/h3&gt;
+
+&lt;h3&gt;Talks and Poster Session open to the public&lt;/h3&gt;
+&lt;br /&gt;
+&lt;p&gt;
+Our goal is to help
+encourage the formation of a coherent community of researchers on
+campus grouped around
+the general theme of complexity, emergence, and collective effects.
+This third ICAM meeting at the University of Michigan is timed to
+connect to the University of Michigan conference on &lt;a href=&#34;http://elicorpora.info/LLC/overview&#34;&gt;&amp;quot;Language as a Complex Adaptive System&amp;quot;&lt;/a&gt; (Nov.8-9, 2008)&lt;/p&gt;
+&lt;p&gt;
+The meeting is intended for an audience with a wide range of backgrounds.&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Speakers&lt;/h2&gt;
+&lt;br /&gt;
+&lt;strong&gt;Nicholas Ellis&lt;/strong&gt;
+&lt;br /&gt;Psychology, University of Michigan
+&lt;br /&gt;&lt;em&gt;The dynamics of second language emergence: Cycles of language use, language change, and laguage acquisition&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;John Holland&lt;/strong&gt;
+&lt;br /&gt;Psychology, University of Michigan
+&lt;br /&gt;&lt;em&gt;Complex Adaptive Systems&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Diarmaid O&amp;#39;Foighill&lt;/strong&gt;
+&lt;br /&gt;Ecology and Evolutionary Biology, University of Michigan
+&lt;br /&gt;&lt;em&gt;Emergence: An Evolutionary Perspective&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Leonard Sander&lt;/strong&gt;
+&lt;br /&gt;Physics, University of Michigan
+&lt;br /&gt;&lt;em&gt;Emergence, scaling, and fractals&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Michal Zochowski&lt;/strong&gt;
+&lt;br /&gt;Physics, University of Michigan
+&lt;br /&gt;&lt;em&gt;Understanding neural dynamics of brain function&lt;/em&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;h2&gt;Poster Session&lt;/h2&gt;
+&lt;p&gt;
+A poster session will be held.
+If you are interested in presenting at the poster session,
+please send your title and abstract by November 3rd
+to Howard Oishi ( &lt;a href=&#34;mailto:hoishi@umich.edu&#34;&gt;hoishi@umich.edu&lt;/a&gt; ).
+Posters will be displayed outside of 340 West Hall.
+There is foam board available that is 36&amp;quot;x48&amp;quot;, so please try to keep
+your poster within these dimensions.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;h2&gt;Organizers&lt;/h2&gt;
+&lt;p&gt;J. W. Allen, Physics, University of Michigan&lt;br /&gt;
+C. P. Simon, Mathematics and Center for the Study of Complex Systems, University of Michigan&lt;br /&gt;
+S. E. Page, Political Science, Economics, and Complex Systems, University of Michigan&lt;/p&gt;
+  &lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

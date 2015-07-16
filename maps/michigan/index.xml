@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michigan on tracker</title>
+    <link>http://vielmetti.github.io/maps/michigan/</link>
+    <description>Recent content in Michigan on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Mar 2011 00:46:23 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/maps/michigan/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2010 Michigan census data</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-22-2010-michigan-census-data/</link>
+      <pubDate>Tue, 22 Mar 2011 00:46:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-22-2010-michigan-census-data/</guid>
+      <description>&lt;p&gt;Census data for Michigan from the 2010 census will be used for reapportionment. When the data is available, this chart will show it. The release date was at 2:00 p.m. on March 22, 2011.&lt;/p&gt;
+&lt;p&gt;&lt;iframe ameborder=&#34;0&#34; height=&#34;351&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;http://2010.census.gov/2010census/data/embedstate.html?state=MI&#34; width=&#34;550&#34;&gt;IFRAMES not supported&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;More, much more, when it actually shows up; from &lt;a href=&#34;http://www.census.gov&#34;&gt;census.gov&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;News releases&lt;/h3&gt;
+&lt;p&gt;From the Census, &lt;a href=&#34;http://www.census.gov/newsroom/releases/archives/2010_census/cb11-cn106.html&#34;&gt;U.S. Census Bureau Delivers Michigan&amp;#39;s 2010 Census Population Totals, Including First Look at Race and Hispanic Origin Data for Legislative Redistricting&lt;/a&gt; (cb11-cn106, 3/22/11).&lt;/p&gt;
+&lt;blockquote&gt;Data for Michigan show that the five most populous incorporated places and their 2010 Census counts are Detroit, 713,777; Grand Rapids, 188,040; Warren, 134,056; Sterling Heights, 129,699; and Lansing, 114,297. Detroit decreased by 25.0 percent since the 2000 Census. Grand Rapids decreased by 4.9 percent, Warren decreased by 3.0 percent, Sterling Heights grew by 4.2 percent, and Lansing decreased by 4.1 percent.&lt;/blockquote&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;From the Census, &lt;a href=&#34;http://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/Michigan/&#34;&gt;download the data tables&lt;/a&gt;, about 30 megabytes.&lt;/p&gt;
+&lt;p&gt;The census data for 2010 is in &lt;a href=&#34;http://factfinder2.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t&#34;&gt;American Factfinder&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://2010.census.gov/news/img/cb11cn106_mi_perchange_2010map.jpg&#34;&gt;&lt;img alt=&#34;image from 2010.census.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e600bf2a7970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e600bf2a7970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from 2010.census.gov&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Some projects:&lt;/p&gt;
+&lt;p&gt;Do a cartogram with the data. You have a &lt;a href=&#34;http://gis.glin.net/geoserver/wfs?request=getfeature&amp;amp;service=wfs&amp;amp;version=1.0.0&amp;amp;typename=glin:mi_county_boundaries_2000&amp;amp;outputformat=shape-zip&#34;&gt;shapefile of Michigan counties&lt;/a&gt;, a tool called &lt;a href=&#34;http://scapetoad.choros.ch/&#34;&gt;ScapeToad&lt;/a&gt; that does the Gastner/Newman [2004] diffusion-based algorithm, and an editor (which must exist) to insert in the appropriate data into the file.&lt;/p&gt;
+&lt;p&gt;Cartograms of Michigan for reference; from DailyKos in 2006, &lt;a href=&#34;http://www.dailykos.com/story/2006/12/16/281584/-Blue-wave-in-Michigan-(with-cartograms)&#34;&gt;Blue Wave in Michigan&lt;/a&gt;. This map shows margin of error by congressional district, in 2006. It&amp;#39;s not 2010 census data, but...if you had the cartogram to show what was happening with population change, you could start to see some redistricting expectations.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://i129.photobucket.com/albums/p205/bschak/MI/MIresults2006.png&#34;&gt;&lt;img alt=&#34;image from i129.photobucket.com&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e6012823c970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e6012823c970c-320wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from i129.photobucket.com&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is election data, but I&amp;#39;m looking for census data in the same style.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edward Vielmetti writes &lt;strong&gt;Vacuum&lt;/strong&gt;, a weblog since 1999.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -37,5 +37,67 @@
 </description>
     </item>
     
+    <item>
+      <title>Pinboard now supports gopher:// URLs</title>
+      <link>http://vielmetti.github.io/post/2011/2011-10-15-pinboard-now-supports-gopher-urls/</link>
+      <pubDate>Sat, 15 Oct 2011 00:10:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-10-15-pinboard-now-supports-gopher-urls/</guid>
+      <description>&lt;p&gt;from @pinboard&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;a href=&#34;https://twitter.com/#!/Pinboard&#34; title=&#34;Pinboard&#34;&gt;@Pinboard&lt;/a&gt;:&amp;#0160;&lt;a href=&#34;https://twitter.com/#!/vielmetti&#34; rel=&#34;nofollow&#34;&gt;@&lt;strong&gt;vielmetti&lt;/strong&gt;&lt;/a&gt;&amp;#0160;&lt;a href=&#34;https://twitter.com/#!/doctorlinguist&#34; rel=&#34;nofollow&#34;&gt;@&lt;strong&gt;doctorlinguist&lt;/strong&gt;&lt;/a&gt;&amp;#0160;alright, extremely proud to announce Pinboard now supports the gopher:// scheme&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div&gt;To test, go to&amp;#0160;&lt;a href=&#34;https://pinboard.in/u:vielmetti/b:7fb419764b79&#34; target=&#34;_self&#34;&gt;https://pinboard.in/u:vielmetti/b:7fb419764b79&lt;/a&gt;&amp;#0160;and examine what you get, following the link to its logical conclusions. To really test, get a Gopher client; I am using &lt;a href=&#34;http://gopher.floodgap.com/overbite/&#34; target=&#34;_self&#34;&gt;Overbite Chrome&lt;/a&gt; from Floodgap Systems.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Thanks to Cameron Kaiser for noticing, and to&amp;#0160;Maciej Ceglowski for making it happen.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+For more coverage of Gopherspace, I occasionally write something at &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/gopher&#34; target=&#34;_self&#34;&gt;http://vielmetti.typepad.com/vacuum/gopher&lt;/a&gt; .&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How twitter and gopher were born, (or) why you should make it work on the worst system first</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-01-how-twitter-and-gopher-were-born-or-why-you-should-make-it-work-on-the-worst-system-first/</link>
+      <pubDate>Sun, 01 Feb 2009 15:42:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-01-how-twitter-and-gopher-were-born-or-why-you-should-make-it-work-on-the-worst-system-first/</guid>
+      <description>&lt;p&gt;this post on &amp;quot;&lt;a href=&#34;http://www.140characters.com/2009/01/30/how-twitter-was-born/&#34;&gt;how twitter was born&lt;/a&gt;&amp;quot; is making the rounds; thanks to &lt;a href=&#34;http://twitter.com/pzriddle&#34;&gt;Prentiss Riddle&lt;/a&gt; for alerting me to it.&amp;#0160;&amp;#0160; The best quote from it is the use case that involves the worst possible internet device in the world: text messages from a mobile phone.&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;I remember that @Jack’s first use case was city-related: telling people that the club he’s at is &lt;em&gt;happening&lt;/em&gt;.
+“I want to have a dispatch service that connects us on our phones using
+text.” His idea was to make it so simple that you don’t even think
+about what you’re doing, you just type something and send it. Typing
+something on your phone in those days meant you were probably messing
+with T9 text input, unless you were sporting a relatively rare
+smartphone. Even so, everyone in our group got the idea instantly and
+wanted it.&lt;/p&gt;&lt;p&gt;As a point of comparison, here&amp;#39;s&lt;a href=&#34;http://yourtech.typepad.com/main/2007/04/from_the_archiv.html&#34;&gt; part of the origin story for Gopher&lt;/a&gt;, the early 1990s internet system:&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;Full-text searching was like a new thing under the sun five years ago,&amp;quot; notes McCahill.&amp;#0160; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;The
+two, with assistance from the newly formed Gopher Team, fine-tuned the
+prototype as music from Nirvana and Mudhoney blared in the background. &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;It
+was a fun time,&amp;quot; recalls team member Torrey. &amp;quot;It was a lot of late
+nights and weekends and a lot of beer, pizza and speed metal.&amp;quot; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;Eventually, the team needed some files to dump into their baby Gopher so they could demonstrate its text-searching capability.&amp;#0160; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;We
+took the Usenet (the Internet&amp;#39;s newsgroup system) cookbook and put that
+into it,&amp;quot; says McCahill. &amp;quot;That was the first thing - so first the
+Gopher was serving recipes up. We figured everybody ate, and it was a
+good way of illustrating what full-text searching could do.&amp;quot; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;If
+you were looking for recipes with eggplant, you simply typed in the
+word and the application would locate every eggplant reference - a
+dazzling capability in 1991. &lt;/p&gt;&lt;p&gt;nothing quite like having a real use for the system you build while building it.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

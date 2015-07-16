@@ -172,5 +172,152 @@ ewashtenaw.org&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Is the a2gov.org website down?</title>
+      <link>http://vielmetti.github.io/post/2013/2013-12-07-is-the-a2govorg-website-down/</link>
+      <pubDate>Sat, 07 Dec 2013 14:36:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-12-07-is-the-a2govorg-website-down/</guid>
+      <description>&lt;p&gt;Saturday, 7 December 2013 - ANN ARBOR - It looks like the &lt;a href=&#34;http://www.a2gov.org&#34;&gt;a2gov.org&lt;/a&gt; web site is not functioning correctly.&lt;/p&gt;
+
+&lt;p&gt;The error behavior is strange, in that every valid page fetched yields a blank page, but if you go to a page that&#39;s not valid on the site you get a 404 error (and another blank page).&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t know if a2gov.org email is also affected. &lt;/p&gt;
+
+&lt;p&gt;UPDATE: All systems appear to be functioning correctly again at 3:10p Saturday.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Is AnnArbor.com down?</title>
+      <link>http://vielmetti.github.io/post/2013/2013-12-06-is-annarborcom-down/</link>
+      <pubDate>Fri, 06 Dec 2013 01:00:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-12-06-is-annarborcom-down/</guid>
+      <description>&lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;p&gt;UPDATE 12/7/13: Mostly. All articles on the old site now redirect to mlive.com. I am told this will be back working by Monday 12/9/13.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b02390333970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b02390333970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-12-06 at 12.58.24 AM&#34; title=&#34;Screen shot 2013-12-06 at 12.58.24 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b02390333970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;No idea if it will come back.&lt;/p&gt;
+
+&lt;p&gt;At the moment, all www.annarbor.com URLs redirect to the MLive Ann Arbor home page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The 3d Ann Arbor Civic Tech meetup - a writeup</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-26-the-3d-ann-arbor-civic-tech-meetup-a-writeup/</link>
+      <pubDate>Tue, 26 Nov 2013 08:12:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-26-the-3d-ann-arbor-civic-tech-meetup-a-writeup/</guid>
+      <description>&lt;p&gt;We had a good time and a lively discussion at the 3d Ann Arbor Civic Technology meetup. There were about 18 people in attendance, including the City of Ann Arbor CFO/CIO, the webmaster from Washtenaw County, several U of Michigan SI students, some townies, a fellow who drove down from Lansing who had organized Code Michigan hackathon, and a number of folks who were drawn in from Meetup. (who did I miss)&lt;/p&gt;
+
+&lt;p&gt;After everyone introduced themselves we did a few rounds of discussion of the projects that people were working on with public data as well as some talk about data that wasn&#39;t available in easy formats. Projects included&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the detailed data from the 1,4 Dioxane plume that is spreading under Ann Arbor&lt;/li&gt;
+&lt;li&gt;traffic crash facts and accident reports to inform pedestrian safety discussions&lt;/li&gt;
+&lt;li&gt;estimating rental property utility costs from crowdsourced data&lt;/li&gt;
+&lt;li&gt;liberating restaurant inspections from proprietary databases&lt;/li&gt;
+&lt;li&gt;data about dangerous buildings and nuisance properties&lt;/li&gt;
+&lt;li&gt;adopt-a-storm-drain&lt;/li&gt;
+&lt;li&gt;report from a &#34;data dive&#34; that looked at non-profit data in a hackathon&lt;/li&gt;
+&lt;li&gt;(what did I miss)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not all of these projects were actively in development (several were &#34;gee wouldn&#39;t be nice if&#34;) and there was not one single effort that everyone focused on. Instead it was a healthy back and forth about a lot of possible directions.&lt;/p&gt;
+
+&lt;p&gt;We started at 7p and ended at 830p, and people stayed around talking until 9p. I&#39;m happy with the turnout and with the people who showed up, and am hopeful that the next meeting (in January) will be as well received. We had an offer to host it in a Washtenaw County facility for the next event.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pedestrian safety in Ann Arbor is a downtown issue</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-20-pedestrian-safety-in-ann-arbor-is-a-downtown-issue/</link>
+      <pubDate>Wed, 20 Nov 2013 07:52:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-20-pedestrian-safety-in-ann-arbor-is-a-downtown-issue/</guid>
+      <description>&lt;p&gt;Pedestrian safety in Ann Arbor is a downtown issue, as illustrated by this map of 2012 car-pedestrian crashes.&lt;/p&gt;
+
+&lt;p&gt;What, if anything, is the Ann Arbor DDA and the City of Ann Arbor doing to make the downtown streetscape safer for pedestrians? Most of the rhetoric in recent City Council meetings has been about pedestrian safety in neighborhoods, but that&#39;s visibly not the only issue at hand.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0161f39d970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0161f39d970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-11-20 at 7.12.42 AM&#34; title=&#34;Screen shot 2013-11-20 at 7.12.42 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0161f39d970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Data from &lt;a href=&#34;http://www.michigantrafficcrashfacts.org/&#34;&gt;Michigan Traffic Crash Facts&lt;/a&gt;. &#34;Current Query: Crashes for the year 2012 in Ann Arbor (Washtenaw County) filtered by Crash: Pedestrian (Pedestrian involved)&#34;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor area closings for Monday, 18 November 2013</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-18-ann-arbor-area-closings-for-monday-18-november-2013/</link>
+      <pubDate>Mon, 18 Nov 2013 09:26:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-18-ann-arbor-area-closings-for-monday-18-november-2013/</guid>
+      <description>&lt;p&gt;High winds took down trees and knocked out power to thousands in Washtenaw County the night of 17 November 2013, and the next morning a number of schools and government offices closed because of lack of power.&lt;/p&gt;
+
+&lt;p&gt;From various sources including email and twitter; this is surely incomplete.&lt;/p&gt;
+
+&lt;p&gt;Ann Arbor Public Schools: Tappan and King are closed today due to power outages at both schools. Tonight&#39;s Listen and Learn at Tappan will be rescheduled. Bryant Elementary now closed in Ann Arbor due to power outage-caused heating failure. Students that arrived at school sent back home.&lt;/p&gt;
+
+&lt;p&gt;Ann Arbor District Library: &#34;The power is out at Malletts Creek Branch, it is currently closed. All other @aadl locations will open at 10 AM. Stay tuned for updates!&#34;&lt;/p&gt;
+
+&lt;p&gt;Ypsilanti Township offices are closed.&lt;/p&gt;
+
+&lt;p&gt;14-B District Court is closed.&lt;/p&gt;
+
+&lt;p&gt;Eastern Michigan University: Rec/IM: Due to technical problems, the Jones Pool will be closed until further notice. We apologize for the inconvenience. (via @EMU_Swoop)&lt;/p&gt;
+
+&lt;p&gt;Chelsea Police say power is still out and is expected to be out for &#34;the next several hours,&#34; as of 8:15 a.m. Chelsea schools have also been closed. (Heritage News) Chelsea Center for the Arts will be closed today, Monday, November 18, 2013 due to a citywide power outage.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>University of Michigan Computer and Video Game Archive (CVGA) Fifth Anniversary</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-16-university-of-michigan-computer-and-video-game-archive-cvga-fifth-anniversary/</link>
+      <pubDate>Sat, 16 Nov 2013 20:33:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-16-university-of-michigan-computer-and-video-game-archive-cvga-fifth-anniversary/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0136b662970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0136b662970c img-responsive&#34; alt=&#34;Aael-cvga-300x225&#34; title=&#34;Aael-cvga-300x225&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0136b662970c-800wi&#34; border=&#34;0&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;I went with S and J to the &lt;a href=&#34;http://www.lib.umich.edu/computer-video-game-archive&#34;&gt;University of Michigan Computer and Video Game Archive&lt;/a&gt; (CVGA) on the UM North Campus in the basement of the Duderstadt Center. They were celebrating their fifth anniversary with cupcakes and a Mario tournament. The boys had a chance to play games, and I had a chance to talk to &lt;a href=&#34;http://www.lib.umich.edu/users/superman&#34;&gt;David S. Carter&lt;/a&gt; (aka superman@umich.edu) about the collection. Here are some notes.&lt;/p&gt;
+
+&lt;p&gt;There are about 5000 games in the collection, and about half of them are donated. An annual collection budget of about $13,000 buys new games and the occasional old console from eBay. The archive has a near complete collection of US consoles, and Dave said they are looking to expand their international coverage. One of their latest acquisitions was a DVD system that plays only one title. The archive would like to improve its collection of handheld games.&lt;/p&gt;
+
+&lt;p&gt;The biggest challenge of the next five years is with digital rights management (DRM). The DRM systems envisioned would lock a game to a particular piece of console hardware, making it impossible to have used games and very hard for a library to add a title to a collection. For network-delivered games like Steam it&#39;s equally hard for the library to spend $10 on a license, when licenses negotiated by libraries for things like electronic versions of journals are usually for much more.&lt;/p&gt;
+
+&lt;p&gt;Dave said the archive was pretty much where they want to be after 5 years. He knew they were on the right track when they got space in the library even before they had a budget. The challenge of next five years is less collection building and more about building connections across campus and around the world to other research collections. He compared the collection to early film and video collections, now standard at all research libraries, but once considered a novelty.&lt;/p&gt;
+
+&lt;p&gt;Other comparable collections are at the &lt;a href=&#34;http://www.cah.utexas.edu/projects/videogamearchive/index.php&#34;&gt;University of Texas at Austin&lt;/a&gt; and at &lt;a href=&#34;http://library.stanford.edu/news/2013/03/stanford-libraries-preserves-historical-software-collection-federal-agency&#34;&gt;Stanford&lt;/a&gt;. Public libraries so not tend to have research collections, preferring to  either use video games strictly for events or to have a circulating collection where you check out current games like any other video or music media.&lt;/p&gt;
+
+&lt;p&gt;I asked Dave about the &lt;a href=&#34;https://archive.org/details/historicalsoftware&#34;&gt;Internet Archive&#39;s online gaming collection&lt;/a&gt;, and especially about the role of emulation in preserving games. He told me that emulation does not preserve original game play, especially the ergonomics of controllers. Playing on original game hardware with original video hardware gives you an accurate rendition of original game play experience. (Besides, you can&#39;t play &lt;a href=&#34;http://mirlyn.lib.umich.edu/Record/005840579&#34;&gt;Duck Hunt&lt;/a&gt; without an old fashioned TV because the game depends on sensing the scan lines on the TV.) Some old games are very hard to enjoy on original hardware and the limitations of the controls, not the game itself, are what trips up your enjoyment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Web Analytics Wednesday planning</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-15-ann-arbor-web-analytics-wednesday-planning/</link>
+      <pubDate>Fri, 15 Nov 2013 20:06:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-15-ann-arbor-web-analytics-wednesday-planning/</guid>
+      <description>&lt;p&gt;I&#39;m working with a few other folks on setting up a relatively regular local group that has discussions of tools like Google Analytics and other systems used to instrument web sites and web applications. We&#39;re looking at a date in January 2014 to start, and a Wednesday as the day of the week we think might work best. Let me know if you&#39;re interested, or join the &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/events/151859352/&#34;&gt;Ann Arbor Web Analytics Wednesday meetup&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tasty Green Cafe at Ann Arbor City Hall</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-15-tasty-green-cafe-at-ann-arbor-city-hall/</link>
+      <pubDate>Fri, 15 Nov 2013 14:39:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-15-tasty-green-cafe-at-ann-arbor-city-hall/</guid>
+      <description>&lt;p&gt;If you&#39;re looking to bump into city employees and talk shop, there&#39;s no better place to stop in than at the &lt;a href=&#34;http://arborwiki.org/Tasty_Green_Cafe&#34;&gt;Tasty Green Cafe&lt;/a&gt; inside Ann Arbor City Hall. The menu includes the usual coffee drinks plus lunchtime choices like meat and spinach pies. There are three tables inside and a few more outside on the patio, and you get a nice view of the city hall fountain (which isn&#39;t running at the moment).&lt;/p&gt;
+
+&lt;p&gt;Lunch (a meat pie and a coke) was $5.01. &lt;/p&gt;
+
+&lt;p&gt;I talked briefly with City Attorney &lt;a href=&#34;http://arborwiki.org/Stephen_Postema&#34;&gt;Stephen Postema&lt;/a&gt; and his thoughts on proposed FOIA legislation coming from Lansing (he&#39;s skeptical). I told him about my new &lt;a href=&#34;http://www.damnarbor.com/2013/11/welcome-to-foia-friday.html&#34;&gt;FOIA Friday column on Damn Arbor&lt;/a&gt;, and he recognized Damn Arbor because it once wrote about his &lt;a href=&#34;http://www.damnarbor.com/2011/04/what-if-anything-is-hipster.html&#34;&gt;status as a hipster&lt;/a&gt; (he&#39;s not).&lt;/p&gt;
+
+&lt;p&gt;Environmental Coordinator &lt;a href=&#34;http://arborwiki.org/Matt_Naud&#34;&gt;Matt Naud&lt;/a&gt; and I talked about the upcoming &lt;a href=&#34;http://meetup.com/a2civictech&#34;&gt;a2civictech meetup&lt;/a&gt;, and he referred me to the &lt;a href=&#34;https://www.wegowise.com/&#34;&gt;WeGoWise&lt;/a&gt; program in Boston that&#39;s reducing people&#39;s energy and water bills - similar, in spirit at least, to the &lt;a href=&#34;https://dteenergy.mediaroom.com/index.php?s=26817&amp;amp;item=72330&#34;&gt;OPower insert&lt;/a&gt; in my recent DTE bill that told us we used a lot of electricity compared to our neighbors.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

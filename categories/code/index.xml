@@ -61,28 +61,349 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
     </item>
     
     <item>
-      <title>stuck on a postcard / postful / curl problem</title>
-      <link>http://vielmetti.github.io/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</link>
-      <pubDate>Tue, 30 Dec 2008 15:00:21 +0000</pubDate>
+      <title>a few very small mobile apps, as I learn jQuery Mobile</title>
+      <link>http://vielmetti.github.io/post/2013/2013-10-11-a-few-very-small-mobile-apps-as-i-learn-jquery-mobile/</link>
+      <pubDate>Fri, 11 Oct 2013 01:29:30 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</guid>
-      <description>&lt;p&gt;FIXED, see the bottom.&amp;#0160; 12/31&lt;/p&gt;&lt;p&gt;rather than give up in total frustration, here&amp;#39;s what I am trying to implement, using &amp;quot;curl&amp;quot; to drive the system.&amp;#0160; This is from the &lt;a href=&#34;http://www.postful.com/developer/guide&#34;&gt;&amp;quot;postful&amp;quot; API docs&lt;/a&gt;.&lt;/p&gt;&lt;h4 style=&#34;margin-left: 40px;&#34;&gt;1. Upload the document.&lt;/h4&gt;
+      <guid>http://vielmetti.github.io/post/2013/2013-10-11-a-few-very-small-mobile-apps-as-i-learn-jquery-mobile/</guid>
+      <description>&lt;p&gt;I&#39;m putting together a few mobile apps (in the form of mobile web sites) that are designed for small-screen phone use. Here&#39;s what&#39;s in the works. Each of these are likely to change over time, so don&#39;t get too fond of anything just yet.&lt;/p&gt;
 
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;To uploading a document, submit a POST to:&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/m/a2trees.html&#34;&gt;a2trees&lt;/a&gt; app provides some kind of on-the-go listing of street trees in Ann Arbor that are interesting. The observation that there is a great apple crop in 2013 and that there are city trees laden with nice apples just waiting to be picked was the motivation. It&#39;s really bare-bones now, with not more more in the way of detail than my old &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/07/amelanchier-shadbush-juneberry-sugar-plum-inventory-for-ann-arbor-2009.html&#34;&gt;juneberry listing&lt;/a&gt; post, except neatly set up for mobile use.&lt;/p&gt;
 
-&lt;pre style=&#34;margin-left: 40px;&#34;&gt;http://www.postful.com/service/upload&lt;/pre&gt;
+&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/m/index.html&#34;&gt;mobile web&lt;/a&gt; app is self-referential in that it tries to collect useful bookmarks to mobile-ready versions of things like newspaper, bus, weather, netnews, and other web pages specially formatted for mobile use. I got tired of typing in the URL to fetch the bus listing so I put it on a menu. This is an up-to-dated version of the list I kept of &lt;a href=&#34;http://www.monkey.org/~emv/m/&#34;&gt;mobile sites on monkey.org&lt;/a&gt; dating back about 5 years from when I had a Blackberry and was collecting same. The project is &lt;a href=&#34;http://github.com/vielmetti/mobile&#34;&gt;up on Github&lt;/a&gt; (and has been for the past 5 years!) but there&#39;s not much more to look at than data. Please do feel free to give me feedback there as well as here.&lt;/p&gt;
 
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;Be sure to include the Content-Type and Content-Length headers and the document itself as the body of the request.&lt;/p&gt;
+&lt;p&gt;Finally two power outage related mobile sites. The &lt;a href=&#34;http://vielmetti.typepad.com/power-outage-maps/index.html&#34;&gt;mobile power outage maps&lt;/a&gt; collection is a slow but sure approach to turning my popular &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34;&gt;power outage maps&lt;/a&gt; blog post into something more tidy for the small screen. The state it&#39;s in is functional but not complete, and I expect I&#39;ll chip away at it as storms or outages warrant. A second and new app for me is a &lt;a href=&#34;http://vielmetti.typepad.com/power-outage-maps/index-ziplookup.html&#34;&gt;utility company finder&lt;/a&gt; site that takes as its input the first three digits of a zip code and returns the utility companies that serve that area, or type the utility name and get back a list of 3-digit zips it serves. The big caveats on this are that it&#39;s slow, slow, slow, and that the data set it&#39;s derived from is nominally from 2011 but shows many signs of not being kept up to date with utility mergers and name changes since then.&lt;/p&gt;
 
-&lt;pre style=&#34;margin-left: 40px;&#34;&gt;&lt;code&gt;POST /upload HTTP/1.0&lt;br /&gt;Content-Type: application/octet-stream&lt;br /&gt;Content-Length: 301456&lt;br /&gt;&lt;br /&gt;... file content here ...&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All of these &#34;mobile&#34; things are browser-based right now, so you can try them from whatever system you are likely to be typing at. They use &lt;a href=&#34;http://jquerymobile.com&#34;&gt;jQuery Mobile&lt;/a&gt; for the fancy bits, and I&#39;m pretty happy so far in just how far I get with that system using HTML do to the work and not having to write a bunch of Javascript to get things to work. On the server side I have been generating these as static sites using old-fashioned Unix shell scripts and makefiles, and though it&#39;s not elegant by any means, it is well within exactly the kind of coding environment I&#39;ve been using since the 1980s.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taking inventory of old Github projects</title>
+      <link>http://vielmetti.github.io/post/2013/2013-08-12-taking-inventory-of-old-github-projects/</link>
+      <pubDate>Mon, 12 Aug 2013 23:52:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-08-12-taking-inventory-of-old-github-projects/</guid>
+      <description>&lt;p&gt;Setting up &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; has given me a chance to look through some of
+&lt;a href=&#34;https://github.com/vielmetti&#34;&gt;my old Github repositories&lt;/a&gt; and re-assess what&#39;s there and how to 
+improve on them. &lt;/p&gt;
 
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;If the upload is successful, you will receive a response like the following:&lt;/p&gt;
+&lt;p&gt;This is more like a wish list than an actual set of directions, and it
+reflects how much the world has moved since I first signed up for a
+github account.&lt;/p&gt;
 
-&lt;pre style=&#34;margin-left: 40px;&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;br /&gt;&amp;lt;upload&amp;gt;&lt;br /&gt; &amp;lt;id&amp;gt;290797321.waltershandy.2&amp;lt;/id&amp;gt;&lt;br /&gt;&amp;lt;/upload&amp;gt;&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/aadl-amazon-linky&#34;&gt;aadl-amazon-linky&lt;/a&gt; and &lt;a href=&#34;http://vielmetti.typepad.com/superpatron&#34;&gt;superpatron&lt;/a&gt;. Both of these are interfaces
+to the &lt;a href=&#34;http://aadl.org&#34;&gt;Ann Arbor District Library&lt;/a&gt; catalog, which has a very accessible
+programming interface with things like RSS feeds for catalog searches.
+I&#39;d like to go back and revisit two parts of this. One was a Greasemonkey
+plugin to put library results in Amazon; that should be a Chrome plugin.
+The second was a &#34;&lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/79567788/&#34;&gt;wall of books&lt;/a&gt;&#34; report displaying an RSS query as a
+page full of book cover images. Of the two, the second looks easiest to
+recreate; I just checked in some new code, &lt;a href=&#34;https://github.com/vielmetti/superpatron/blob/master/tools/wall-by-keyword.sh&#34;&gt;wall by keyword&lt;/a&gt;, which does
+the trick.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/vielmetti-shelltools&#34;&gt;vielmetti-shelltools&lt;/a&gt;. This is a small collection of shell scripts
+that I carry around with me and put on whatever system I happen to be
+working on. It would be worthwhile to go back through and compare
+what I used then with what I use now and refresh the collection.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/postcard&#34;&gt;postcard&lt;/a&gt;. This was a hopeful project to use various web-to-postcard
+APIs to generate custom postcards on the fly from the command line. Alas,
+several of those APIs have disappeared. The real action in this market is
+sending a real postcard from your iPhone or Android phone, with products
+like &lt;a href=&#34;http://postagramapp.com/&#34;&gt;Postagram&lt;/a&gt; leading the way. The other neat feature is to go to a drugstore
+and make an instant print, then stick a stamp on the back and mail it.
+(&lt;a href=&#34;http://communitynetworking2008.wordpress.com/&#34;&gt;Steve Cisler&lt;/a&gt; taught me that trick.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/twitter-mutual-friends&#34;&gt;twitter-mutual-friends&lt;/a&gt;. Once upon a time, the Twitter API was so
+simple that you could write a useful application in four lines of shell
+script. Now the API has improved itself, and it&#39;s gotten a lot more 
+complicated. Look at simple apps like &lt;a href=&#34;https://github.com/gianu/latest_tweets&#34;&gt;latest_tweets&lt;/a&gt; by gianu to
+get an idea of what you&#39;re up against now.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/mobile&#34;&gt;mobile&lt;/a&gt;. Again, once upon a time, I had a Blackberry phone which
+had the world&#39;s worst usable web browser. Fortunately there were enough
+web sites that had a minimalist presentation that I was able to put
+together a directory of workable sites, which I used for quite a while.
+Now I have an Android phone that runs Chrome as well as apps and I don&#39;t
+need the list of sites quite so much; still, it&#39;s worthwhile to have
+a place to collect them when I find them.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;What is critical in this response is the &lt;strong&gt;id&lt;/strong&gt; assigned by the server to your document, in this example &lt;strong&gt;290797321.waltershandy.2&lt;/strong&gt;. You will use that id to reference the document in the next step.&lt;/p&gt;&lt;p&gt;I think it should work with&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;font-size: 12px; font-family: Courier;&#34;&gt;curl -v --user edward.vielmeti@gmail.com:t0ps3kr3t&amp;#0160; --data-binary &amp;quot;upload=@m-28-shield.png&amp;quot; http://postful.com/service/upload&lt;/span&gt;&lt;/p&gt;&lt;p&gt;but, it doesn&amp;#39;t.&amp;#0160; ideas?&amp;#0160; mac os if it matters, the &lt;/p&gt;&lt;p&gt;% curl --version&lt;br /&gt;curl 7.16.3 (powerpc-apple-darwin9.0) libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3&lt;br /&gt;Protocols: tftp ftp telnet dict ldap http file https ftps &lt;br /&gt;Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz&amp;#0160;&lt;/p&gt;&lt;p&gt;update: typo fixed&lt;/p&gt;&lt;p&gt;update2: working now!&amp;#0160; command line is&lt;/p&gt;&lt;p style=&#34;font-family: Courier;&#34;&gt;curl -k -v --user edward.vielmetti@gmail.com:s4x4s54&amp;#0160; --data-binary &amp;quot;@m-28-shield.png&amp;quot;&lt;a href=&#34;https://postful.com/service/upload&#34; target=&#34;_blank&#34;&gt; https://postful.com/service/&lt;wbr /&gt;upload&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;font-family: Helvetica;&#34;&gt;note three things: &amp;quot;-k&amp;quot; option; https, not http:; spell the user name right (duh).&lt;/p&gt;&lt;p style=&#34;font-family: Helvetica;&#34;&gt;next task: get the address side formatted right.&lt;/p&gt;
+&lt;p&gt;So when it&#39;s time to write some code here are some ideas for where
+to start again!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>octopress up and running</title>
+      <link>http://vielmetti.github.io/post/2013/2013-08-11-octopress-up-and-running/</link>
+      <pubDate>Sun, 11 Aug 2013 21:56:54 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-08-11-octopress-up-and-running/</guid>
+      <description>&lt;p&gt;I am using Octopress to build a new web site at &lt;a href=&#34;http://vielmetti.github.io&#34;&gt;http://vielmetti.github.io&lt;/a&gt;. This looks like it will be a good place as any to write about code and any github projects I am working on. I will keep writing about everything else here.&lt;/p&gt;
 
+&lt;p&gt;To write in Octopress you put files in a directory written in Markdown. Then you use a command line tool called &#39;rake&#39;, the Ruby version of &#39;make&#39;, to do the publishing. Files that have changed get checked in to github. Then the whole site is put into static files, so that it all loads fast.&lt;/p&gt;
 
+&lt;p&gt;Amazing how much more time you have for hacking when you are not on Facebook.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, 1 June 2013, 11:15 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-01-hacker-news-summary-1-june-2013-1115-pm-est-edition/</link>
+      <pubDate>Sat, 01 Jun 2013 23:57:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-01-hacker-news-summary-1-june-2013-1115-pm-est-edition/</guid>
+      <description>&lt;p&gt;A late night Hacker News summary, pulling from&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_self&#34;&gt;https://news.ycombinator.com/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;1.&amp;#0160;&lt;a href=&#34;http://arstechnica.com/tech-policy/2013/06/apple-betrayed-by-its-own-law-firm/&#34; target=&#34;_self&#34;&gt;Apple betrayed by its own law firm.&lt;/a&gt;&amp;#0160;John&amp;#0160;J.&amp;#0160;McAleese, III, an attorney at one of&amp;#0160;Apple&amp;#39;s own go-to law firms, (Morgan, Lewis &amp;amp; Bockius), was behind a patent troll lawsuit from Flatworld Interactives. McAleese has been digitally erased from the Morgan Lewis site. (Ars Technica) &amp;quot;I predict this is going to be as much fun to watch as the Prenda Law case!&amp;quot;&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5806966&#34; target=&#34;_self&#34;&gt;( 4 comments )&lt;/a&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;2. &lt;a href=&#34;http://dehora.net/journal/2013/06/01/on-go/&#34; target=&#34;_self&#34;&gt;Bill de hOra writes about the Go language&lt;/a&gt;. &amp;quot;To my mind it bucks some orthodoxy on what a good effective language is supposed to look like; for that alone, it&amp;#39;s interesting. It makes sensible engineering decisions and&amp;#0160;is squarely in the category of languages I consider viable for server-side systems that you have to live with over time.&amp;quot;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;3. &lt;a href=&#34;http://www.nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html&#34; target=&#34;_self&#34;&gt;In the New York Times&lt;/a&gt;, Wikileaks founder Julian Assange takes on the banality of Google&amp;#39;s &amp;quot;Don&amp;#39;t be evil&amp;quot;. His review starts:&amp;#0160;&lt;a href=&#34;http://www.newdigitalage.com/&#34; target=&#34;_self&#34;&gt;“THE New Digital Age”&lt;/a&gt; is a startlingly clear and provocative blueprint for technocratic imperialism, from two of its leading witch doctors, Eric Schmidt and Jared Cohen, who construct a new idiom for United States global power in the 21st century.&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5805460&#34; target=&#34;_self&#34;&gt;138 comments:&lt;/a&gt;&amp;#0160;&amp;quot;But I must confess, that Julian Assange seem to be rather well spoken. And language wise - at least - it was a rather joy to read. Seemingly unlike the book he was reviewing.&amp;quot;&lt;/p&gt;
+4. code search on Github turns up tens of thousands of PHP projects susceptible to a SQL injection attack.&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5805025&#34; target=&#34;_self&#34;&gt;79 comments:&lt;/a&gt;&amp;#0160;&amp;quot;There&amp;#39;s more low-hanging fruit, if you&amp;#39;re willing to use more specialized searches.&amp;quot;
+&lt;p&gt;5. Manish Burman and Brandon Kase &lt;a href=&#34;http://bkase.github.io/CUDA-grep/finalreport.html&#34;&gt;wrote a version of grep that uses hardware acceleration from the CUDA libraries&lt;/a&gt; to run 2 to 10 times as fast as standard grep. &lt;a href=&#34;https://news.ycombinator.com/item?id=5803943&#34;&gt;22 comments&lt;/a&gt; include discussion from the developers.&lt;/p&gt;
+&lt;p&gt;6. &lt;a href=&#34;http://www.cartoonbrew.com/ideas-commentary/max-headroom-and-the-strange-world-of-pseudo-cgi-82745.html&#34;&gt;Max Headroom and the Strange World of Pseudo-CGI&lt;/a&gt;, a discussion in Cartoon Brew of the weird pseudo-computer animated graphics of the 1980s that were done with a series of non-computer techniques. &lt;a href=&#34;https://news.ycombinator.com/item?id=5803755&#34;&gt;19 comments&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;7. &amp;quot;Cruise ships are similar to assisted living centers in the amenities provided, costs per month, and many other areas.&amp;quot; J Am Geriatr Soc. 2004 Nov;52(11):1951-4. &lt;a href=&#34;https://news.ycombinator.com/item?id=5806006&#34;&gt;7 comments&lt;/a&gt;: &amp;quot;I met an elderly woman that lived on a cruise ship. She need a walked but was otherwise in good health. She knew everyone on the ship, and made new friends with every cruise. To her it was an awesome life, rather than being stuck in some home. The discounts you get for multiple cruises made it quite affordable for her. Eventually she would need more healthcare but she was going to stay as long as she could.&amp;quot;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, Wednesday 29 May 2013, 5:00 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-29-hacker-news-summary-wednesday-29-may-2013-500-pm-est-edition/</link>
+      <pubDate>Wed, 29 May 2013 17:48:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-29-hacker-news-summary-wednesday-29-may-2013-500-pm-est-edition/</guid>
+      <description>&lt;p&gt;Welcome to the Wednesday version of a daily Hacker News summary. In the news today: a new Gmail interface, a Drupal security breach, how to negotiate a job offer, Bill Gates goes to India, and Mary Meeker&#39;s Internet Trends.&lt;/p&gt;
+&lt;p&gt;I&#39;m going to diverge a little from past practice and pick and choose a little more carefully than normally, going a little beyond the top 8 to find the stories that actually interest me.&lt;/p&gt;
+&lt;p&gt;1. Gmail is getting a new user interface, one that adds tabs and more integration with Google+. (&lt;a href=&#34;http://gmailblog.blogspot.com/2013/05/a-new-inbox-that-puts-you-back-in.html&#34;&gt;Gmail Blog&lt;/a&gt;) &#34;I know we feel the need to comment on everything right away these days, but honestly there isn&#39;t much to say about this feature until we&#39;ve actually used it.&#34; (&lt;a href=&#34;https://news.ycombinator.com/item?id=5787063&#34;&gt;223 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;2. &#34;The Drupal.org Security Team and Infrastructure Team has discovered unauthorized access to account information on Drupal.org and groups.drupal.org.&#34; Users are advised to change their password, not to reuse passwords between sites, and to turn on two-factor authentication. 
+(&lt;a href=&#34;https://drupal.org/news/130529SecurityUpdate&#34;&gt;drupal.org&lt;/a&gt;) 
+&#34;Malicious files were placed on association.drupal.org servers via a third-party application used by that site.&#34; - and commenters are wondering which third-party app was involved. 
+(&lt;a href=&#34;https://news.ycombinator.com/item?id=5788909&#34;&gt;7 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;3. For $100/node/month, Linode announces a managed IT infrastructure. 
+(&lt;a href=&#34;https://blog.linode.com/2013/05/29/introducing-linode-managed/&#34;&gt;Linode&lt;/a&gt;) 
+&#34;If the remote hands are awesome, this is well worth $100 per node. If they are anything but awesome, this wouldn&#39;t be worth it for any amount of money.&#34; 
+(&lt;a href=&#34;https://news.ycombinator.com/item?id=5788576&#34;&gt;28 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;4. &#34;The Magazine&#34; has been sold by founder Marco Arment to editor Glenn Fleishman.
+(&lt;a href=&#34;http://www.marco.org/2013/05/29/sold-the-magazine&#34;&gt;Marco Arment&lt;/a&gt;)
+Instapaper. Tumblr. and now The Magazine. Sounds like Marco is clearing house a bit.
+(&lt;a href=&#34;https://news.ycombinator.com/item?id=5787079&#34;&gt;57 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;5. How to negotiate a job offer. &#34;If you’re not currently working, and you don’t have competing offers, you’re pretty much out of luck.&#34;
+(&lt;a href=&#34;http://blog.upstart.com/2013/05/how-to-negotiate-job-offer.html&#34;&gt;Upstart&lt;/a&gt;)
+&#34;The &#34;Pre-Reqs&#34; piece is not right. You really don&#39;t need to have another job offer or a current job to negotiate. &#34;
+(&lt;a href=&#34;https://news.ycombinator.com/item?id=5787759&#34;&gt;44 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;6. Bill Gates is going to India because it has the grand challenge of extreme poverty and also the resources to attack that problem. He&#39;s also going to pick up some dance moves from a Bollywood star.
+(&lt;a href=&#34;http://www.thegatesnotes.com/Topics/Development/Why-Im-Going-to-India&#34;&gt;The Gates Notes&lt;/a&gt;)
+&#34;Have you seen real poverty? Just take a trip to Mumbai and visit the slums there.&#34;
+(&lt;a href=&#34;https://news.ycombinator.com/item?id=5788874&#34;&gt;25 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;7. Amazon announces &#34;Login with Amazon&#34; as a single sign-on function for web sites.
+(&lt;a href=&#34;http://phx.corporate-ir.net/phoenix.zhtml?c=176060&amp;p=irol-newsArticle&amp;ID=1824961&amp;highlight=&#34;&gt;Amazon PR&lt;/a&gt;)
+&#34;I think this is a great idea. I don&#39;t love the Facebook OAuth flow and the amount of access most apps ask for.&#34;
+(&lt;a href=&#34;https://news.ycombinator.com/item?id=5786554&#34;&gt;69 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;8. Mary Meeker&#39;s Internet Trends. 
+(&lt;a href=&#34;https://news.ycombinator.com/item?id=5786828&#34;&gt;17 comments&lt;/a&gt;)
+&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/22135327&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013&#34; title=&#34;KPCB Internet Trends 2013&#34; target=&#34;_blank&#34;&gt;KPCB Internet Trends 2013&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/kleinerperkins&#34; target=&#34;_blank&#34;&gt;Kleiner Perkins Caufield &amp; Byers&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, Tuesday 28 May 2013, 9:45 p.m edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-tuesday-28-may-2013-945-pm-edition/</link>
+      <pubDate>Tue, 28 May 2013 22:22:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-tuesday-28-may-2013-945-pm-edition/</guid>
+      <description>&lt;p&gt;&lt;p&gt;A late evening version of Hacker News for Tuesday 28 May 2013. I&amp;#39;ve added links to the comments for each entry, and try to pull out a useful quote from the comments if there are any that are easy to find. Of interest: Pixar raytracing, Liberty Reserve money laundering, and Harvard email snooping.&lt;/p&gt;
+&lt;p&gt;1. A breakdown of github pull requests by acceptance rate, for a variety of languages and projects. If you want to get your pull request accepted, don&amp;#39;t write C++, write Scala; and contribute to projects like Akka&amp;#0160;and&amp;#0160;backbone-fundamentals that take 80+% of pull requests. (&lt;a href=&#34;http://paulmillr.com/posts/github-pull-request-stats/&#34; target=&#34;_self&#34;&gt;Paul Miller&lt;/a&gt;)&amp;#0160;&amp;quot;&lt;span style=&#34;color: #000000;&#34;&gt;I&amp;#39;m surprised the acceptance rate is so high.&amp;quot;&lt;/span&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=5783616&#34; target=&#34;_self&#34;&gt;28 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;2. &amp;quot;Pixar&amp;#39;s lighting/rendering systems were completely redone for their new film&amp;#0160;&lt;em&gt;Monsters University.&amp;quot; &lt;/em&gt;Correspondence with Chris Horne, who worked on MU. &amp;quot;So our Director of Photography went to a studio that is so clearly raytracing averse and essentially said &amp;quot;We&amp;#39;re raytracing everything.&amp;quot; (&lt;a href=&#34;http://thisanimatedlife.blogspot.com/2013/05/pixars-chris-horne-sheds-new-light-on.html?m=1&#34; target=&#34;_self&#34;&gt;Mason Smith&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5781904&#34; target=&#34;_self&#34;&gt;92 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;3. &amp;quot;Liberty Reserve, which was incorporated in 2006, was a &amp;quot;bank of choice for the criminal underworld,&amp;quot; according to the indictment, which said the operation allegedly laundered the money through 55 million transactions before it was shut down earlier this month.&amp;quot; $6 billion was allegedly laundered. (&lt;a href=&#34;http://online.wsj.com/article/SB10001424127887323855804578511121238052256.html&#34; target=&#34;_self&#34;&gt;Wall Street Journal&lt;/a&gt;) The comments note the precarious legal position of various Bitcoin exchanges. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5783261&#34; target=&#34;_self&#34;&gt;50 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;4. Topcoat is &amp;quot;CSS for clean and fast web apps&amp;quot;.&amp;#0160;&lt;a href=&#34;https://github.com/topcoat/topcoat/archive/0.3.0.zip&#34; id=&#34;download-btn&#34;&gt;Download version 0.3&lt;/a&gt;&amp;#0160;(Github). The comments compare it to Twitter Bootstrap and Zurb Foundation. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5781369&#34; target=&#34;_self&#34;&gt;78 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;5. Thomas Friedman writes about HireArt, which has HR software to better match candidates with job openings by tailoring tests and quizzes to the qualifications for the job. (&lt;a href=&#34;http://www.nytimes.com/2013/05/29/opinion/friedman-how-to-get-a-job.html?_r=0&#34; target=&#34;_self&#34;&gt;NY Times&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5784074&#34; target=&#34;_self&#34;&gt;no comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;6. Evelynn Hammonds will step down as Harvard College dean, in the wake of a scandal involving searches of Harvard faculty and staff email accounts. She will return to teaching&amp;#0160;and research in the History of Science and African and African American Studies departments. (&lt;a href=&#34;http://www.boston.com/metrodesk/2013/05/28/evelynn-hammonds-step-down-harvard-college-dean/WRRTRAKHRIGj7ANBSiAxbL/story.html&#34; target=&#34;_self&#34;&gt;Boston.com&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5782595&#34; target=&#34;_self&#34;&gt;18 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;7. A Facebook engineer waxes poetical about his four years with the company and the engineering challenges he has faced. (&lt;a href=&#34;https://www.facebook.com/ry/posts/10151494199879822&#34; target=&#34;_self&#34;&gt;Ryan Patterson&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5783945&#34; target=&#34;_self&#34;&gt;1 comment&lt;/a&gt;) (why is this on the top 10)
+&lt;/p&gt;
+&lt;div&gt;8. You have 13 days to buy the Humble Indie Bundle 8 with 7 games for Windows, Mac OS X, and Linux. Pay what you want. (&lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_self&#34;&gt;Humble Bundle&lt;/a&gt;) The comments have game reviews, many of which are favorable. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5781632&#34; target=&#34;_self&#34;&gt;53 comments&lt;/a&gt;)
+&lt;p&gt;9. Build startups and systems to help the &amp;quot;unexotic underclass&amp;quot;, which lives in small town America and includes single moms, returning veterans, and others who live outside of the startup-fueled glitz of Silicon Valley (&lt;a href=&#34;https://miter.mit.edu/the-unexotic-underclass/&#34; target=&#34;_self&#34;&gt;C.Z. Nnaemeka&lt;/a&gt;) &amp;quot;Condense the article down and you&amp;#39;re left with this nugget of advice: You&amp;#39;ll have a better chance of success if you target unsaturated, boring markets.&amp;quot; (&lt;a href=&#34;https://news.ycombinator.com/item?id=5782704&#34; target=&#34;_self&#34;&gt;28 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;10. Pure is &amp;quot;a set of small, responsive CSS modules that you can use in every web project&amp;quot; brought to you by Yahoo! The library is tiny and works well with mobile applications. (&lt;a href=&#34;http://purecss.io/&#34; target=&#34;_self&#34;&gt;Pure&lt;/a&gt;) The core developers of Pure are contributing in the comments. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5779494&#34; target=&#34;_self&#34;&gt;106 comments&lt;/a&gt;)&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&amp;#0160;&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;
+&lt;div class=&#34;zemanta-article-ul zemanta-article-ul-image&#34; style=&#34;margin: 0; padding: 0; overflow: hidden;&#34;&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://thisanimatedlife.blogspot.com/2013/05/pixars-chris-horne-sheds-new-light-on.html?m=1&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/172890198_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://thisanimatedlife.blogspot.com/2013/05/pixars-chris-horne-sheds-new-light-on.html?m=1&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Pixar moves to raytracing&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/on-summarization.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_68_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/on-summarization.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;On summarization&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/hacker-news-summary-for-tuesday-28-may-2013-700-am-edition.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_40_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/hacker-news-summary-for-tuesday-28-may-2013-700-am-edition.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Hacker News summary for Tuesday 28 May 2013, 7:00 a.m. edition&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://techcrunch.com/2013/05/18/the-evolution-of-hacker-news/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/170193173_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://techcrunch.com/2013/05/18/the-evolution-of-hacker-news/&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;The Evolution Of Hacker News&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://r.zemanta.com/?u=http%3A//www.telegraph.co.uk/finance/10085600/Liberty-Reserve-shut-down-in-6bn-money-laundering-case.html&amp;amp;a=172922921&amp;amp;rid=ae33a4ef-c4ea-47f1-ba98-a860b60e3468&amp;amp;e=1499ea9ced130ac9d496eda82c57a7c8&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/172922921_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://r.zemanta.com/?u=http%3A//www.telegraph.co.uk/finance/10085600/Liberty-Reserve-shut-down-in-6bn-money-laundering-case.html&amp;amp;a=172922921&amp;amp;rid=ae33a4ef-c4ea-47f1-ba98-a860b60e3468&amp;amp;e=1499ea9ced130ac9d496eda82c57a7c8&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Liberty Reserve shut down in $6bn money laundering case&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Tuesday 28 May 2013, 7:00 a.m. edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-for-tuesday-28-may-2013-700-am-edition/</link>
+      <pubDate>Tue, 28 May 2013 07:45:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-for-tuesday-28-may-2013-700-am-edition/</guid>
+      <description>&lt;p&gt;Here&amp;#39;s a summary of the top stories on Hacker News at this moment, as part of daily exercise to do a closer reading of the tech news. See &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/on-summarization.html&#34; target=&#34;_self&#34;&gt;On Summarization&lt;/a&gt; for more background.&lt;/p&gt;
+&lt;p&gt;1. &amp;quot;Opera for desktop has not only been redesigned; it&amp;#39;s also completely re-engineered under the hood. With the Chromium engine, users get a standards-compliant and high-performance browser.&amp;quot; (&lt;a href=&#34;http://business.opera.com/press/releases/desktop/2013-05-28&#34; target=&#34;_self&#34;&gt;Opera&lt;/a&gt;) &amp;quot;The price of switching to Chromium: 
+Opera.app = 37.8 MB, 
+Opera Next.app = 103.1 MB&amp;quot; (&lt;a href=&#34;https://twitter.com/maxart/status/339296249842892800&#34; target=&#34;_self&#34;&gt;@maxart via @gen&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;2. &amp;quot;The Haskell Platform is the easiest way to get started with programming Haskell. It comes with all you need to get up and running.&amp;quot; For Windows, OSX and Linux. &amp;#0160;Current release:&amp;#0160;&lt;a href=&#34;http://www.haskell.org/platform/changelog.html&#34;&gt;2013.2.0.0&lt;/a&gt;&amp;#0160;(&lt;a href=&#34;http://www.haskell.org/platform/?v=2013.2.0.0&#34; target=&#34;_self&#34;&gt;Haskell&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;3. John Dryden, a Batavia IL teacher, is under fire from the school administration after informing his students of their Fifth Amendment rights against self-incrimination. The students were given a survey with their names on it asking about drug, alcohol, and tobacco use. (&lt;a href=&#34;http://www.dailyherald.com/article/20130525/news/705259921/&#34; target=&#34;_self&#34;&gt;Daily Herald&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;4. Sony has made a lot of money selling insurance and making movies and music, and has lost quite a bit selling electronics. Analysts wonder if Sony should exit the electronics business rather than invest in strengthening it. (&lt;a href=&#34;http://www.nytimes.com/2013/05/28/business/global/sonys-bread-and-butter-its-not-electronics.html?_r=0&#34; target=&#34;_self&#34;&gt;NY Times&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;5. There is a problem with the spacing on Facebook&amp;#39;s display of text in the timeline, and 3 pixels of added whitespace would fix it. &amp;quot;I&amp;#39;m sorry for rageskitching about Facebook, but I can&amp;#39;t help it.&amp;quot; (&lt;a href=&#34;http://blog.garrytan.com/rageskitching-facebook-2013-edition-3px-of-padding-makes-all-the-difference-in-the-world&#34; target=&#34;_self&#34;&gt;Garry Tan&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;6. &amp;quot;Michael Markieta, a transportation planner at global engineering and design firm Arup, has spent the last year developing visualisations of flight paths crossing the globe.&amp;quot; The maps are very pretty. (&lt;a href=&#34;http://www.bbc.co.uk/news/in-pictures-22657086&#34; target=&#34;_self&#34;&gt;BBC&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;7.&amp;#0160;&amp;quot;Identify a pattern, run a mask, put recovered passes in a new dict, run again with rules, identify a new pattern, etc.&amp;quot; How password cracking is done. (&lt;a href=&#34;http://arstechnica.com/security/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/&#34; target=&#34;_self&#34;&gt;Ars Technica&lt;/a&gt;) &amp;quot;Correct horse battery staple.&amp;quot; (&lt;a href=&#34;http://xkcd.com/936/&#34; target=&#34;_self&#34;&gt;XKCD&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;8. &amp;quot;I am still learning to manage my time better and would love to hear your thoughts if you’ll are a startup dad/mom.&amp;quot; Some productivity hints from a father of a young child who runs a startup. (&lt;a href=&#34;http://sahilparikh.com/post/51539972450/productivity-hacks-of-a-startup-dad&#34; target=&#34;_self&#34;&gt;Sahil Parikh&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;9. &amp;quot;These cases are covered under a new HTML5 called the&amp;#0160;&lt;a href=&#34;http://wiki.whatwg.org/wiki/Meta_referrer&#34;&gt;meta referrer&lt;/a&gt;. Now a simple tag can be used, such as&amp;#0160;&lt;code&gt;&amp;lt;meta name=&amp;quot;referrer&amp;quot; content=&amp;quot;always&amp;quot;&amp;gt;&lt;/code&gt;, to specify the exact behaviour of the HTTP Referrer regardless of whether we&amp;#39;re using HTTP or HTTPS.&amp;quot; (&lt;a href=&#34;http://smerity.com/articles/2013/where_did_all_the_http_referrers_go.html&#34; target=&#34;_self&#34;&gt;Stephen Merity&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;10. Find a set of complementary colours just by moving your mouse around. (&lt;a href=&#34;http://colourco.de/&#34; target=&#34;_self&#34;&gt;Colourco.de&lt;/a&gt;)&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, Monday 27 May 2013, 3:00 p.m. edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-27-hacker-news-summary-monday-27-may-2013-300-pm-edition/</link>
+      <pubDate>Mon, 27 May 2013 15:19:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-27-hacker-news-summary-monday-27-may-2013-300-pm-edition/</guid>
+      <description>&lt;p&gt;A summary of Hacker News from 3:00 p.m. on Memorial Day. It&amp;#39;s getting faster to produce these, but it still takes at least a minute or two per each.&lt;/p&gt;
+&lt;p&gt;I wonder about the churn rate of the Hacker News front page. How long do you have to wait to ensure that the top 10 posts have all cycled out? Every day is clearly enough, but I&amp;#39;m suspecting that it might take as little as 12 hours to cycle through what passes for news. A useful bit of code would monitor the site, send off a batch of 10 articles to be summarized, and then wait checking periodically until those 10 have all fallen from favor to send out a new batch of 10.&lt;/p&gt;
+&lt;p&gt;1. Google has plans to outfit high-altitue blimps with telecommunications gear to serve Africa. &amp;quot;Small-scale trials&amp;#0160;&lt;a href=&#34;http://google-africa.blogspot.se/2013/03/announcing-new-tv-white-spaces-trial-in.html&#34;&gt;are underway&lt;/a&gt;&amp;#0160;in Cape Town, South Africa,&amp;quot; using TV &amp;quot;white spaces&amp;quot; between channels as frequencies. (&lt;a href=&#34;http://www.wired.co.uk/news/archive/2013-05/26/google-blimps&#34; target=&#34;_self&#34;&gt;Wired UK&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;2. Matt writes a love letter to Wordpress after 10 years of working on it. (&lt;a href=&#34;http://ma.tt/2013/05/dear-wordpress/&#34; target=&#34;_self&#34;&gt;Matt Mullenweg&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;3. &amp;quot;When not even a Stanford or MIT engineering degree is good enough to keep an engineer employed at 60, there is genuinely no market for engineers that age. Plan accordingly.&amp;quot; (&lt;a href=&#34;http://lionoftheblogosphere.wordpress.com/2013/05/25/sucks-to-be-an-old-engineer/&#34; target=&#34;_self&#34;&gt;Lion of the Blogosphere&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;4. Haxe 3.0 is out. Haxe is a multi-platform, strictly typed modern language for cross-system and mobile development. (&lt;a href=&#34;http://haxe.org/download&#34; target=&#34;_self&#34;&gt;Haxe&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;5. &amp;quot;The hottest tech start-ups are solving all the problems of being twenty years old, with cash on hand, because that’s who thinks them up.&amp;quot; (&lt;a href=&#34;http://www.newyorker.com/reporting/2013/05/27/130527fa_fact_packer&#34; target=&#34;_self&#34;&gt;George Packer&lt;/a&gt;, New Yorker) Not so fast; &amp;quot;many of the hottest tech start-ups are solving the problems of being a business, because that’s where all the money is.&amp;quot; (&lt;a href=&#34;http://www.washingtonpost.com/blogs/wonkblog/wp/2013/05/27/is-silicon-valley-only-interested-in-the-problems-of-twentysomethings/&#34; target=&#34;_self&#34;&gt;Ezra Klein&lt;/a&gt;, Washington Post)&lt;/p&gt;
+&lt;p&gt;6. &amp;quot;Unless you put time and effort into reading about and implementing exploits, your home-grown cryptography based security mechanisms don&amp;#39;t stand much of a chance against real-world attacks.&amp;quot; You are dangerously bad at cryptography; some examples follow. (&lt;a href=&#34;http://happybearsoftware.com/you-are-dangerously-bad-at-cryptography.html&#34; target=&#34;_self&#34;&gt;Ali, Happy Bear Software)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;7. If you&amp;#39;re looking for open source clones of your favorite games, you&amp;#39;ve found it here. (&lt;a href=&#34;http://osgameclones.com/&#34; target=&#34;_self&#34;&gt;Open Source Game Clones&lt;/a&gt;)&amp;#0160;&lt;/p&gt;
+&lt;p&gt;8. Some silly new annotations for you if you are written Java code, from the Google Annotations Gallery. (&lt;a href=&#34;https://code.google.com/p/gag/&#34; target=&#34;_self&#34;&gt;GAG&lt;/a&gt;) Start with @Noop and end with @Palindrome.&lt;/p&gt;
+&lt;p&gt;9. &amp;quot;It&amp;#39;s nuts that to make a new laptop relatively unthreatening and accessible for an enthusiastic 90-something requires going across a dozen System Preferences panes and sub-panes, and simply having to accept certain things as inevitably confusing.&amp;quot; Setting up a Mac for Grandma is an exercise in appreciating the accessibility problems of the Internet. (&lt;a href=&#34;http://blog.accursedware.com/nonagenarian-laptop/&#34; target=&#34;_self&#34;&gt;Accursed Ware&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;10. An explanation of SQL joins in Venn diagrams from 2007. (&lt;a href=&#34;http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html&#34; target=&#34;_self&#34;&gt;Jeff Atwood&lt;/a&gt;) Inspired by a previous post (&lt;a href=&#34;http://www.khankennels.com/blog/index.php/archives/2007/04/20/getting-joins/&#34; target=&#34;_self&#34;&gt;Ligaya Turmelle&lt;/a&gt;). Stack Overflow takes on the more complicated questions where the relationships don&amp;#39;t fit into Venn diagrams so neatly. (&lt;a href=&#34;http://stackoverflow.com/questions/13997365/sql-joins-as-venn-diagram&#34; target=&#34;_self&#34;&gt;Stack Overflow&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Sunday 26 May 2013, 6:00 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-26-hacker-news-summary-for-sunday-26-may-2013-600-pm-est-edition/</link>
+      <pubDate>Sun, 26 May 2013 18:18:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-26-hacker-news-summary-for-sunday-26-may-2013-600-pm-est-edition/</guid>
+      <description>&lt;p&gt;&lt;p&gt;Compiled hastily, here&amp;#39;s a summary of today&amp;#39;s Hacker News top 10. Based solely on the top 10, it&amp;#39;s a slow news day.&lt;/p&gt;
+&lt;p&gt;1. &amp;quot;If you try to get several regular polygons to meet snugly at a point in the plane, what’s the most sides any of the polygons can have? The answer is 42.&amp;quot; (&lt;a href=&#34;http://johncarlosbaez.wordpress.com/2013/05/25/42/&#34; target=&#34;_self&#34;&gt;Azimuth Project&lt;/a&gt;) Some observations of mathematical questions for which the answer is 42 or a multiple thereof, in time for &lt;a href=&#34;http://towelday.org/&#34; target=&#34;_self&#34;&gt;Towel Day&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;2. He took the $300k bonus (&lt;a href=&#34;http://boundary.com/blog/2013/05/26/i-took-the-300k/&#34; target=&#34;_self&#34;&gt;Cliff Moon&lt;/a&gt;), a follow up to yesterday&amp;#39;s account of someone who didn&amp;#39;t (&lt;a href=&#34;http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html&#34; target=&#34;_self&#34;&gt;Tom Preston-Warner&lt;/a&gt;). It turned out well for both of them.&lt;/p&gt;
+&lt;p&gt;3. &amp;quot;How far out is it possible to overhang blocks from the edge of a table without them toppling?&amp;quot; The answer, surprisingly, is infinitely far. (&lt;a href=&#34;http://www.datagenetics.com/blog/may32013/index.html&#34; target=&#34;_self&#34;&gt;DataGenetics&lt;/a&gt;)&lt;/p&gt;
+&lt;div&gt;4. Paypal has a cross-site scripting (XSS) vulnerability. (&lt;a href=&#34;http://seclists.org/fulldisclosure/2013/May/163&#34; target=&#34;_self&#34;&gt;Robert Kugler, Full Disclosure&lt;/a&gt;) Paypal pays bug bounties for people who find problems, but only to people over 18; the researcher who located this defect is a 17 yr old German student.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;5. &amp;quot;In 2012, under threat from fundamentalist rebels, a team of archivists, librarians, and couriers evacuated an irreplaceable trove of manuscripts from Timbuktu at great personal risk.&amp;quot; Help save a library in exile, there&amp;#39;s more work to be done. (&lt;a href=&#34;http://www.indiegogo.com/projects/timbuktu-libraries-in-exile&#34; target=&#34;_self&#34;&gt;Kickstarter&lt;/a&gt;)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;6. Rustboot is a tiny 32 bit kernel written in Rust. (&lt;a href=&#34;https://github.com/charliesome/rustboot&#34; target=&#34;_self&#34;&gt;Charlie Somerville&lt;/a&gt;, Github)&amp;#0160;Rust is a curly-brace, block-structured expression language oriented toward concerns of “programming in the large”. (&lt;a href=&#34;http://www.rust-lang.org/&#34; target=&#34;_self&#34;&gt;Rust&lt;/a&gt;)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;7.&amp;#0160;Cameron D&amp;#39;Ambrosio has been locked up&amp;#0160;without bail for weeks &amp;ndash; facing terrorism charges and 20 years in prison &amp;ndash; all for something he posted on Facebook after the Boston Marathon bombing. (&lt;a href=&#34;https://cms.fightforthefuture.org/teenager/&#34; target=&#34;_self&#34;&gt;Fight For The Future&lt;/a&gt;)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;8. People who have enough savings to be unafraid of being fired are happier at work than those who depend on every paycheck (&lt;a href=&#34;http://www.mrmoneymustache.com/2011/04/30/weekend-edition-retire-in-your-mind-even-if-you-love-your-job/&#34; target=&#34;_self&#34;&gt;Mr. Money Moustache&lt;/a&gt;)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;9. Twitter is a big deal because &amp;quot;it&amp;#39;s a new messaging protocol, where you don&amp;#39;t specify the recipients. New protocols are rare.&amp;quot; (&lt;a href=&#34;http://paulgraham.com/twitter.html&#34; target=&#34;_self&#34;&gt;Paul Graham&lt;/a&gt;, 2009)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;10. BetterPlace, a &amp;quot;fat startup&amp;quot; that tried to &amp;quot;change the world&amp;quot; about how people drive, has failed. (&lt;a href=&#34;http://www.eytanlevit.com/post/51416804786/betterplace-the-fat-startup&#34; target=&#34;_self&#34;&gt;Eytan Levit&lt;/a&gt;) &amp;quot;Their biggest assumption was that people are willing to compromise on a less convenient/more risky car solution just because it’s eco-friendly.&amp;quot;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Saturday, 25 May 2013, 10:15 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-25-hacker-news-summary-for-saturday-25-may-2013-1015-pm-est-edition/</link>
+      <pubDate>Sat, 25 May 2013 22:49:15 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-25-hacker-news-summary-for-saturday-25-may-2013-1015-pm-est-edition/</guid>
+      <description>&lt;p&gt;The top 10 stories on &lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_self&#34;&gt;Hacker News&lt;/a&gt; this instant, summarized quickly. It&amp;#39;s taking me about 3 minutes per article to read and digest it well enough to write down a few words about it.&lt;/p&gt;
+&lt;p&gt;1. Poll: &amp;quot;What is your hourly rate, or your monthly salary converted into hourly rate (divided by ~165 hours) in USD?&amp;quot; (&lt;a href=&#34;https://news.ycombinator.com/item?id=5769348&#34; target=&#34;_self&#34;&gt;csomar&lt;/a&gt;) Much discussion in the comments as to whether people are charging too little.&lt;/p&gt;
+&lt;p&gt;2. 98% of venture capitalists aren&amp;#39;t dumb (&lt;a href=&#34;http://www.bothsidesofthetable.com/2013/05/25/as-populist-as-it-may-feel-98-of-vcs-arent-dumb/&#34; target=&#34;_self&#34;&gt;Mark Suster&lt;/a&gt;), a response to &amp;quot;Dear Dumb VC&amp;quot; (&lt;a href=&#34;https://medium.com/what-i-learned-building/e17153fde5f1&#34; target=&#34;_self&#34;&gt;Andy Dunn&lt;/a&gt;). Hot entrepreneur vs. VC action.&lt;/p&gt;
+&lt;p&gt;3. Google has dropped XMPP for federated chat in favor of its own chat protocols that don&amp;#39;t interoperate, and an XMPP protocol standards engineer is not happy about it. (&lt;a href=&#34;https://plus.google.com/116276248303121270590/posts/ggNwh9eLYWu&#34; target=&#34;_self&#34;&gt;Ralph Meijer&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;4. A $300,000 salary from Microsoft is not enough enticement, and Github&amp;#39;s co-founder relates his leaving Microsoft in 2008 to start Github. (&lt;a href=&#34;http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html?&#34; target=&#34;_self&#34;&gt;Tom Preston-Werner&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;5. Open plan offices are bad for worker health and productivity, and older workers especially hate the noise. (&lt;a href=&#34;http://qz.com/85400/moving-to-open-plan-offices-makes-employees-less-productive-less-happy-and-more-likely-to-get-sick/#&#34; target=&#34;_self&#34;&gt;Quartz&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;6. &amp;quot;This tutorial will teach you the main ideas of Unsupervised Feature Learning and Deep Learning.&amp;quot; (&lt;a href=&#34;http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial&#34; target=&#34;_self&#34;&gt;Stanford&lt;/a&gt;) It&amp;#39;s written in a wiki, and is available in both English and Chinese.&lt;/p&gt;
+&lt;p&gt;7. You need to know these HTML5 features: DNS prefetching, link prefetching, the download attribute, regular expressions for input santization, and the datalist element for autocomplete suggestions. (&lt;a href=&#34;http://daker.me/2013/05/5-html5-features-you-need-to-know.html&#34; target=&#34;_self&#34;&gt;Adnane Belmadiaf&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;8. To transform the lives of poor individuals in Uganda, give people cash. They will use it to train themselves and their incomes will go up. (&lt;a href=&#34;http://chrisblattman.com/2013/05/23/dear-governments-want-to-help-the-poor-and-transform-your-economy-give-people-cash/&#34; target=&#34;_self&#34;&gt;Chris Blattman&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;9. Don&amp;#39;t even consider programming in a language that allows you to have null pointer exceptions, and avoid languages that are dynamically typed. (&lt;a href=&#34;http://sebastiansylvan.wordpress.com/2013/05/25/language-design-deal-breakers/&#34; target=&#34;_self&#34;&gt;Sebastian Sylvan&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;10. &amp;quot;Different from line-based or character-based diff, ydiff is “language-based”. It parses the programs and then performs structural comparison on the parse trees.&amp;quot; (&lt;a href=&#34;http://yinwang0.wordpress.com/2012/01/03/ydiff/&#34; target=&#34;_self&#34;&gt;Yin Wang&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Friday, 24 May 2013, 8:00 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-24-hacker-news-summary-for-friday-24-may-2013-800-pm-est-edition/</link>
+      <pubDate>Fri, 24 May 2013 20:32:35 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-24-hacker-news-summary-for-friday-24-may-2013-800-pm-est-edition/</guid>
+      <description>&lt;p&gt;An attempt to catch the top news of &lt;a href=&#34;http://news.ycombinator.com&#34; target=&#34;_self&#34;&gt;Hacker News&lt;/a&gt; on a Friday evening and summarize the top 10 stories; I won&amp;#39;t make any decisions about what should be in the top 10, just note them here with a summary. It took me about 30 minutes to summarize 10 stories, without being selective about which ones were important.&lt;/p&gt;
+&lt;p&gt;1. Ben Howdle is &amp;quot;Too scared to write a line of code&amp;quot; (&lt;a href=&#34;https://medium.com/i-m-h-o/eef96ea6f4cb?imm_mid=0a9102&amp;amp;cmp=em-velocity-newsletters-vl-save20-20130523-direct&#34; target=&#34;_self&#34;&gt;Medium&lt;/a&gt;). This reminds me of the Donald Knuth quote, &amp;quot;Premature optimization is the root of all evil&amp;quot;.&lt;/p&gt;
+&lt;p&gt;2. Yahoo has &amp;quot;submitted a bid for the video site&amp;quot; Hulu (&lt;a href=&#34;http://allthingsd.com/20130524/yet-another-hulu-bidder-yahoo-is-in-too/&#34; target=&#34;_self&#34;&gt;All Things D&lt;/a&gt;). They&amp;#39;re not the only ones bidding, with Directv, Time Warner Cable, and several others in the running.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;3. Benjamin BenBen lets you visualize &amp;quot;how CSS rules are applied to a page&amp;quot; (&lt;a href=&#34;http://css.benjaminbenben.com/&#34; target=&#34;_self&#34;&gt;css.benjaminbenben.com&lt;/a&gt;). If it&amp;#39;s hanging, give Chrome a try.&lt;/p&gt;
+&lt;p&gt;4. B is &amp;quot;fast on the road and agile in the air&amp;quot; (&lt;a href=&#34;http://www.kickstarter.com/projects/2017062404/b-go-beyond&#34; target=&#34;_self&#34;&gt;Kickstarter&lt;/a&gt;). It&amp;#39;s a four-wheeled remote control vehicle that doubles as a quadcopter when the going gets rough.&lt;/p&gt;
+&lt;p&gt;5. &amp;quot;If you already have a strong passphrase on your SSH private key, then converting it from the traditional private key format to PKCS#8 is roughly comparable to adding two extra keystrokes to your passphrase, for free.&amp;quot; (&lt;a href=&#34;http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html&#34; target=&#34;_self&#34;&gt;Martin Kleppmann&lt;/a&gt;) Bonus: it&amp;#39;s only four lines of shell to do this and verify that it works.&lt;/p&gt;
+&lt;p&gt;6. Plan 9 has some very tightly written, very strange C code; &amp;quot;it’s not every day that you come across code that makes you feel funny because of its unusual syntactic structure&amp;quot; (&lt;a href=&#34;http://computationallyendowed.com/blog/2012/12/03/ifs-and-ands-and-plan-9s-source-code.html&#34; rel=&#34;author&#34; target=&#34;_self&#34;&gt;Spiros Eliopoulos&lt;/a&gt;). In this case it&amp;#39;s nested if() clauses without indents that replace a more traditional use of &amp;amp;&amp;amp;.&lt;/p&gt;
+&lt;p&gt;7. &amp;quot;In December 2007, I&amp;#0160;left a cushy job to start a company.&amp;#0160;That company failed.&amp;#0160;This blog outlines that story.&amp;quot; (&lt;a href=&#34;http://thedayseries.tumblr.com/post/963728807/the-day-our-investors-came-to-see-the-office&#34; target=&#34;_self&#34;&gt;Ryan Angilly&lt;/a&gt;) Today: the day our investors came to see the office.&lt;/p&gt;
+&lt;p&gt;8. vnc-over-gif &amp;quot;serves screen updates as animated gif over http.&amp;quot; (&lt;a href=&#34;https://github.com/sidorares/vnc-over-gif&#34; target=&#34;_self&#34;&gt;Github&lt;/a&gt;) See also &amp;quot;&lt;a href=&#34;https://github.com/videlalvaro/gifsockets&#34; target=&#34;_self&#34;&gt;gifsockets&lt;/a&gt;&amp;quot; which lets you do socket communication in a browser via an animated gif. [:dancing banana:]&lt;/p&gt;
+&lt;p&gt;9. &amp;quot;main;&amp;quot; is the shortest crashing C program, which will compile and then SIGSEGV. (&amp;#0160;&lt;a href=&#34;http://llbit.se/?p=1744&#34; target=&#34;_self&#34;&gt;Jesper Öqvist&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;10. New versions of jQuery (1.10 and 2.0.1) are out. (&lt;a href=&#34;http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/&#34; target=&#34;_self&#34;&gt;jQuery&lt;/a&gt;) What&amp;#39;s new: &amp;quot;Our main goal with these two releases is to synchronize the features and behavior of the 1.x and 2.x lines, as we pledged a year ago when jQuery 2.0 was announced.&amp;quot;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>You are likely to be eaten by a grue.</title>
+      <link>http://vielmetti.github.io/post/2011/2011-01-21-you-are-likely-to-be-eaten-by-a-grue/</link>
+      <pubDate>Fri, 21 Jan 2011 22:25:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-01-21-you-are-likely-to-be-eaten-by-a-grue/</guid>
+      <description>&lt;p&gt;The video, entitled &#34;It is pitch dark&#34;, from nerdcore hip-hop grandmaster &lt;a href=&#34;http://frontalot.com/&#34;&gt;MC Frontalot&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title=&#34;YouTube video player&#34; class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;560&#34; height=&#34;345&#34; src=&#34;http://www.youtube.com/embed/4nigRT2KmCE?rel=0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://frontalot.com/index.php/?page=lyrics&amp;amp;lyricid=47&#34;&gt;lyrics&lt;/a&gt;, in part:&lt;/p&gt;
+&lt;blockquote&gt;You are likely to be eaten by a grue. If this predicament seems particularly cruel, consider whose fault it could be: not a torch or a match in your inventory.&lt;/blockquote&gt;
+&lt;p&gt;What is a grue?&lt;/p&gt;
+&lt;blockquote&gt;The grue is a sinister, lurking presence in the dark places of the earth. Its favorite diet is adventurers, but its insatiable appetite is tempered by its fear of light. No grue has ever been seen by the light of day, and few have survived its fearsome jaws to tell the tale.&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.jstor.org/pss/2183381&#34;&gt;More on &#34;Grue&#34; and Grue&lt;/a&gt;, The Philosophical Review © 1961 Duke University Press.  
+&lt;blockquote&gt;Mr. Grue believes that grass is grue, taken here to mean that it is green until the year 2000 and blue afterward.&lt;/blockquote&gt;
+Grue is the color of the y2k problem - green (providing riches) until the year 2000, and blue (providing sadness) afterwards.  Noted here, as &lt;a href=&#34;http://www.commercialventvac.com/y2k.html&#34;&gt;The Year 2000 Crisis: One software engineers&#39; perspective&#34;&lt;/a&gt;:
+&lt;blockquote&gt;
+This is not a new problem.  There is a paradox, called &#34;Goodman&#39;s Grue-Bleen paradox&#34;, which describes what we&#39;re facing.  See The fall 1983 issue of the Bulletin of the Santayana Society, &#34;on Grue and Bleen&#34;, by  Angus Kerr-Lawson.  See also Goodman&#39;s Paradox.  In the paradox, an object is &#34;grue&#34; if it is green between a certain time, T, and blue after T.  An object is &#34;bleen&#34; if it is blue before T, and green after T.  The paradox is how to tell the difference between something which is green and something which is grue.  At the moment, it is impossible to know.  After T, it will be easy.  Similarly, it is easy to tell the difference between something which is green and something which is bleen.  But after T, it might not be.  Further, any system built on distingushing between green and blue will work properly now with green, blue, and bleen objects, but will fail after time T. 
+&lt;/blockquote&gt;
+Is there a relationship between the &#34;grue&#34; of Zork and the &#34;grue&#34; of the color paradox?
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Map Warper: stretch an old map to fit the new landscape</title>
+      <link>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</link>
+      <pubDate>Wed, 24 Jun 2009 22:34:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.vizworld.com/2009/06/testing-map-warper-beta/&#34; target=&#34;_blank&#34;&gt;http://www.vizworld.com/2009/&lt;wbr /&gt;06/testing-map-warper-beta/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Maitri has a great write-up of Map Warper, a tool for taking old maps and stretching them (rectifying them) to match another base map.&amp;#0160; &lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;a href=&#34;http://thinkwhere.wordpress.com/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/thinkwhere.wordpress.com&amp;#39;);&#34;&gt;Tim Waters&lt;/a&gt; has developed an open source tool called &lt;a href=&#34;http://warper.geothings.net/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/warper.geothings.net&amp;#39;);&#34;&gt;Map Warper (Beta)&lt;/a&gt; into which you can upload a scanned map, &lt;a href=&#34;http://www.photonics.com/directory/dictionary/lookup.asp?url=lookup&amp;amp;entrynum=5970&amp;amp;letter=g&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/www.photonics.com&amp;#39;);&#34;&gt;georectify&lt;/a&gt;
+it and save it out as an image or a map layer.&amp;#0160; As a former resident of
+New Orleans, where a transparent recovery and historic preservation are
+daily uphill battles, this tool can be invaluable in saving and sharing
+ancient and new maps of the city’s original development and
+re-development since Hurricane Katrina and The Flood.&amp;#0160; The following
+shows how, in under ten minutes, I georectified an 1895 map of the
+French Quarter and Garden District of New Orleans and exported it to
+Google Maps.&lt;/p&gt;&lt;p&gt;Worth a look, especially if the bits of history you have collected include maps that don&amp;#39;t quite line up with the current street maps.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>whitehouse.gov: sending data to statse.webtrendslive.com</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-20-whitehousegov-sending-data-to-statsewebtrendslivecom/</link>
+      <pubDate>Tue, 20 Jan 2009 22:59:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-20-whitehousegov-sending-data-to-statsewebtrendslivecom/</guid>
+      <description>&lt;pre&gt;&lt;a href=&#34;http://www.whitehouse.gov&#34;&gt;On the page:&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&#34;sourceRowText&#34;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;/includes/webtrends.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&#34;http://www.whitehouse.gov/includes/webtrends.js&#34;&gt;in that code:&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;function WebTrends(){&lt;br /&gt; var that=this;&lt;br /&gt;    // begin: user modifiable&lt;br /&gt; this.dcsid=&amp;quot;dcs0l9nq800000ctek411lue6_2c8b&amp;quot;;&lt;br /&gt;&lt;strong&gt;    this.domain=&amp;quot;statse.webtrendslive.com&amp;quot;;&lt;/strong&gt;&lt;br /&gt;    this.timezone=-5;&lt;br /&gt; this.fpcdom=&amp;quot;.whitehouse.gov&amp;quot;;&lt;br /&gt;  this.onsitedoms=&amp;quot;&amp;quot;;&lt;br /&gt; this.downloadtypes=&amp;quot;xls,doc,pdf,txt,csv,zip&amp;quot;;&lt;br /&gt;   this.rightclicktypes=&amp;quot;xls,doc,pdf,txt,csv,zip&amp;quot;;&lt;br /&gt; this.trackevents=true;&lt;br /&gt;    this.enabled=true;&lt;br /&gt;    this.i18n=false;&lt;br /&gt;  this.fpc=&amp;quot;WT_FPC&amp;quot;;&lt;br /&gt;  // end: user modifiable&lt;br /&gt;   this.DCS={};&lt;br /&gt;  this.WT={};&lt;br /&gt;   this.DCSext={};&lt;br /&gt;   this.images=[];&lt;br /&gt;   this.index=0;&lt;br /&gt; this.exre=(function(){return(window.RegExp?new RegExp(&amp;quot;dcs(uri)|(ref)|(aut)|(met)|(sta)|(sip)|(pro)&lt;br /&gt;|(byt)|(dat)|(p3p)|(cfg)|(redirect)|(cip)&amp;quot;,&amp;quot;i&amp;quot;):&amp;quot;&amp;quot;);})();&lt;br /&gt;  this.re=(function(){return(window.RegExp?(that.i18n?{&amp;quot;%25&amp;quot;:/\%/g}:{&amp;quot;%09&amp;quot;:/\t/g,&amp;quot;%20&amp;quot;:/ /g,&amp;quot;%23&amp;quot;:/\#&lt;br /&gt;/g,&amp;quot;%26&amp;quot;:/\&amp;amp;/g,&amp;quot;%2B&amp;quot;:/\+/g,&amp;quot;%3F&amp;quot;:/\?/g,&amp;quot;%5C&amp;quot;:/\\/g,&amp;quot;%22&amp;quot;:/\&amp;quot;/g,&amp;quot;%7F&amp;quot;:/\x7F/g,&amp;quot;%A0&amp;quot;:/\xA0/g}):&amp;quot;&amp;quot;);})(&lt;br /&gt;);&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;&lt;a href=&#34;http://www.whitehouse.gov/privacy/&#34;&gt;in the privacy policy:&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/pre&gt;&lt;p&gt;Browser information collected on the web site: We log IP addresses,
+which are the locations of computers or networks on the Internet, and
+analyze them in order to improve the value of our site. We also collect
+aggregate numbers of page hits in order to track the popularity of
+certain pages and improve the value of our site. We do not gather,
+request, record, require, collect or track any Internet users&amp;#39; Personal
+Information through these processes.&lt;/p&gt;&lt;pre&gt;&lt;br /&gt;&lt;/pre&gt;
 </description>
     </item>
     

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snow Computing on tracker</title>
+    <link>http://vielmetti.github.io/categories/snow-computing/</link>
+    <description>Recent content in Snow Computing on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2009 13:04:45 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/categories/snow-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Snow computing</title>
+      <link>http://vielmetti.github.io/post/2009/2009-04-08-snow-computing/</link>
+      <pubDate>Wed, 08 Apr 2009 13:04:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-04-08-snow-computing/</guid>
+      <description>&lt;p&gt;So much talk about cloud computing, so being complementary I&amp;#39;ll link to some bits on snow computing.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://contrarythinking.wordpress.com/2009/02/03/snow-computing/&#34;&gt;On CRM usage on &amp;quot;snow days&amp;quot; from John Paterson:&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;There has been a lot of press articles related to
+computing-in-the-bad-weather, talking about rolling out VPNs to
+peoples’ homes, how to protect the in-house network from home-borne
+viruses, but web based CRM needs nothing so complex - just log in and
+go! Sometimes life doesn’t need to be so complex.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;http://old.cs.ncl.ac.uk/research/pubs/articles/papers/247.pdf&#34;&gt;Dr. Richard Snow writes about fault tolerance in railway scheduling (PDF):&lt;/a&gt;&lt;/p&gt;&lt;div class=&#34;snap_preview&#34;&gt;
+&lt;/div&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;&lt;br /&gt;The trainset is a digitally controlled model railway that have been used at the University of Newcastle for investigations, experiments and student projects in real time and distributed control [11]. The railway layout is mounted on three separate boards that can be independently controlled by separate computers.&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;a href=&#34;http://www.springerlink.com/content/xw34526475u18k3q/&#34;&gt;More about snow, this about modeling snow drifting from Schmidt at USDA:&lt;/a&gt;&lt;/p&gt;&lt;div class=&#34;Abstract&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;a name=&#34;Abs1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;AbstractHeading&#34;&gt;Abstract&amp;#0160;&amp;#0160;&lt;/span&gt;Transport
+rates, measured by weighing snow blown into a filter fabric trap, were
+greater over hard snow or ice than for the same wind speed over soft,
+fresh snow surfaces. Analysis of wind speed profiles from nine
+blizzards showed that friction between moving particles and the surface
+was less, and particle speeds were greater over hard surfaces.
+Transport rates at a given wind speed increased rapidly as aerodynamic
+roughness decreased in the rough-smooth transition region. Bagnold&amp;#39;s
+theory for bed load transport provided a useful framework for the
+analysis.&lt;/div&gt;&lt;p&gt;&lt;br /&gt;So, what we have includes modeling systems when there is inclement weather, modeling the transport of fine particles during inclement weather, and building simulators that are computer controlled to let you see how things work.&amp;#0160; All fun ideas.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.pasty.com/heikki/heikkilunta.html&#34;&gt;(More info at pasty.com)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>P A Wozniak on tracker</title>
+    <link>http://vielmetti.github.io/people/p-a-wozniak/</link>
+    <description>Recent content in P A Wozniak on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Aug 2008 14:11:50 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/people/p-a-wozniak/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Supermemo: repetition is the very soul of the net</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-12-supermemo-repet/</link>
+      <pubDate>Tue, 12 Aug 2008 14:11:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-12-supermemo-repet/</guid>
+      <description>&lt;p&gt;I wrote about SuperMemo some months back, but if I&#39;ve told you once, I&#39;ve told you 146 times: &lt;a href=&#34;http://www.google.com/search?q=%22repetition+is+the+very+soul+of+the+net%22&#34;&gt;repetition is the very soul of the net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.supermemo.com/&#34;&gt;SuperMemo&lt;/a&gt; is a piece of software from P A Wozniak, originally developed in 1987 as a DOS program for learning languages.&amp;nbsp; Wozniak, a student of molecular biology, was frustrated by the amount of knowledge he lost after cramming for an exam, and worked to develop methods for improving long term memory.&amp;nbsp; His 1992 masters thesis, &lt;a href=&#34;http://www.supermemo.com/english/ol.htm&#34;&gt;Optimization of Learning&lt;/a&gt;, covered the early work on Supermemo and a discussion of spaced repetition in learning.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve been using some of the principles from SuperMemo, in particular the discussion of&lt;a href=&#34;http://www.supermemo.com/articles/paper.htm&#34;&gt; using SuperMemo without a computer&lt;/a&gt;, to structure some organized retrospective looks at what I have been interested in over time and also to trigger follow up contacts with people and ideas that would have otherwise been forgotten.&amp;nbsp; The important element of &lt;a href=&#34;http://en.wikipedia.org/wiki/Spaced_repetition&#34;&gt;spaced repetition&lt;/a&gt; is used not to remember facts and figures but to trigger memory of people and the context I saw them in.&amp;nbsp; The idea is that you structure a process to revisit previous days efforts - more recent days more frequently, and old days less frequently - and use that memory jogger to keep you connected.&lt;/p&gt;
+
+&lt;p&gt;What makes this newly easy (or at least easier) is some combination of tools and search engines not originally available in 1987, combined with my existing frequent blogging.&amp;nbsp; &amp;nbsp;Let me provide two examples, with some source code.&lt;/p&gt;
+
+&lt;p&gt;I keep a personal wiki with a page for each day.&amp;nbsp; This is actually the second of those I have tried doing - the first was on custom pre-release versions of the Socialtext software and I reanimated it on the current Socialtext hosted platform.&amp;nbsp; The notion is that you have a wiki page named &amp;quot;2008 August 12&amp;quot;, or really one page possible for every day, and you take notes on or about that day there or link to it to refer to it.&amp;nbsp; &amp;nbsp;There&#39;s a little bit of code that I wrote to make links from that page to a series of days spaced in the past and future which I include as a block on that page, making it easy to hyperlink forwards and backwards in time.&amp;nbsp; That&#39;s good, as far as I do have things in my personal wiki (though maintaining that every day is a burden and I often have big blank spots when the burden of diligence is too great).&lt;/p&gt;
+
+&lt;p&gt;The second and more immediately practical approach uses search engines to replace explicit page dates to slice up the world into punctuated time slices.&amp;nbsp; &amp;nbsp; I use this with my weblog, creating searches like&lt;br /&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;a href=&#34;http://www.google.com/search?q=site%3Avielmetti.typepad.com+%22August+12%2C+2007%22&#34;&gt;site:vielmetti.typepad.com &amp;quot;August 12, 2007&amp;quot;&lt;/a&gt;&lt;br /&gt;to methodically revisit the past.&amp;nbsp; As I said, it helps if you post daily, or have a tool like the delicious.com tag poster to do it for you.&amp;nbsp; &lt;/p&gt;
+
+&lt;p&gt;The code I wrote which I&#39;ll share is based on &amp;quot;day.sh&amp;quot; which I released some time ago.&amp;nbsp; That tool prints the date a specified time in the past; this new tool, &amp;quot;&lt;a href=&#34;http://monkey.org/~emv/src/spaced-days.tar&#34;&gt;spaced-days&lt;/a&gt;&amp;quot;, creates a series of days formatted appropriately for whatever you want to paste them into.&amp;nbsp; The sample I have generates Socialtext formatted wiki pages but minor edits will generate Mediawiki pages and more major ones could make HTML with the formatted searches above.&lt;/p&gt;
+
+&lt;p&gt;So if I&#39;m thinking about my cousin&#39;s wedding two years ago, or next year&#39;s St Urho&#39;s Day celebrations, or the Burns Park Run for 2009, it&#39;s because there was just enough reminders to jog 1/n of my memory and not the whole darn thing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

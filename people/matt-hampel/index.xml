@@ -77,5 +77,17 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
 </description>
     </item>
     
+    <item>
+      <title>Merge the Ann Arbor Community Television Network with the Ann Arbor District Library&#39;s video services?</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-31-ann-arbors-community-television-network-a-study-by-matt-hampel/</link>
+      <pubDate>Wed, 31 Dec 2008 15:24:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-31-ann-arbors-community-television-network-a-study-by-matt-hampel/</guid>
+      <description>&lt;p&gt;Matt Hampel has released &lt;a href=&#34;http://matth.org/ctn/&#34;&gt;a study of Ann Arbor&amp;#39;s Community Television Network&lt;/a&gt;.&amp;#0160; He writes about an organization that was innovative and forward-looking in the 1970s that is now running with little public oversight and with only the most tentative ways of engaging with the public through networks other than cable television.&lt;/p&gt;
+&lt;p&gt;Most notable in the whole discussion is &lt;a href=&#34;http://matth.org/ctn/?p=57&#34;&gt;a comparison of CTN&amp;#39;s video archiving and online access system with a similar setup at the Ann Arbor District Library&lt;/a&gt;.&amp;#0160; The library has direct access into the CTN digital network feeds, and uses off the shelf software to transcode video for delivery to cable.&amp;#0160; Where CTN is hamstrung by a reliance on city IT staff to do technology development - an IT staff that only does necessary maintenance - the AADL has an active IT department that is doing development in support of their mission.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m sure that the people at CTN are doing a good job at their core mission, of teaching people how to do video production.&amp;#0160; The system is failing where it fails because there is not a corresponding core set of priority on video distribution and access beyond their cable television franchise.&amp;#0160; The whole system looks like it would be better off if CTN lopped off the approximately $180,000 per year they spend on City of Ann Arbor IT services and instead merged that effort into &lt;a href=&#34;http://www.aadl.org/video&#34;&gt;the Ann Arbor District Library&amp;#39;s existing video efforts.&amp;#0160; &lt;/a&gt;That would put both innovative production and innovative distribution under the same roof, and move citizens closer to access to &lt;a href=&#34;http://deoxy.org/seize_it.htm#p11&#34;&gt;public production libraries&lt;/a&gt; to let them be the media, not just consume it on channel 19.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

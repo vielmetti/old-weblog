@@ -59,5 +59,91 @@
 </description>
     </item>
     
+    <item>
+      <title>Ann Arbor DDA has a new web site, and real time parking information is available again</title>
+      <link>http://vielmetti.github.io/post/2013/2013-07-16-ann-arbor-dda-has-a-new-web-site-and-real-time-parking-information-is-available-again/</link>
+      <pubDate>Tue, 16 Jul 2013 12:19:07 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-07-16-ann-arbor-dda-has-a-new-web-site-and-real-time-parking-information-is-available-again/</guid>
+      <description>&lt;p&gt;The Ann Arbor DDA has launched a new web site, and one of the features of it is &lt;a href=&#34;http://www.a2dda.org/transportation/&#34; target=&#34;_self&#34;&gt;a map with information available in real time &lt;/a&gt;about parking availability at various structures.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901e4ab396970b-pi&#34;&gt;&lt;img alt=&#34;Ann-arbor-dda-parking-availability-map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901e4ab396970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901e4ab396970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Ann-arbor-dda-parking-availability-map&#34; /&gt;&lt;/a&gt;&lt;br /&gt;The structures are in a shade of pale blue, and the lots are in pale green; my current location is marked with a bubble. &lt;/p&gt;
+&lt;p&gt;If you&amp;#39;re looking for just space available information, there&amp;#39;s a JSON file with that data; you&amp;#39;ll have to unpack it to map structures to their ID numbers. I don&amp;#39;t know how stable the URL for that data will be (&lt;a href=&#34;http://www.a2dda.org/map/AADDACount.json&#34; target=&#34;_self&#34;&gt;http://www.a2dda.org/map/AADDACount.json&lt;/a&gt;) over time.&lt;/p&gt;
+&lt;p&gt;As always, if you&amp;#39;re going to be fetching a file as part of an application you are building, and you fetch it repeatedly, please cache the data for a reasonable time and use common sense not to surprise anyone with what you are doing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Public hearing December 7, 2011 to discuss increase of hourly parking rates in Ann Arbor</title>
+      <link>http://vielmetti.github.io/post/2011/2011-11-29-a2dda-parking-increase/</link>
+      <pubDate>Tue, 29 Nov 2011 00:17:28 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-11-29-a2dda-parking-increase/</guid>
+      <description>&lt;p&gt;Notice of Public Hearing&lt;/p&gt;
+&lt;p&gt;Under Paragraph 8 of the &lt;span style=&#34;background-color: #bfbfff;&#34;&gt;City/DDA Parking Agreement&lt;/span&gt;, the public  must be provided with an opportunity to speak at a public hearing  before changes are made to hourly parking meter rates.    A public  hearing has been scheduled to elicit feedback on a proposed  change to increase the hourly parking meter rate $0.10/hour, from  $1.40/hour to $1.50/hour in September 2012.&lt;/p&gt;
+&lt;p&gt;Wednesday, December 7, 2011 at 12 noon&lt;/p&gt;
+&lt;p&gt;Ann Arbor Downtown Development Authority Office&lt;/p&gt;
+&lt;p&gt;150 S. Fifth Avenue, Third Floor Ann Arbor, MI  48104&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On knowing about more public meetings than you possibly could attend</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-23-public-meetings/</link>
+      <pubDate>Mon, 23 May 2011 08:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-23-public-meetings/</guid>
+      <description>&lt;p&gt;Here&amp;#39;s an overly simplified description of the process by which you can learn about, and participate in, more public meetings on more topics of public interest than you could possibly attend in person - without ever relying on someone else&amp;#39;s account of what transpired at that meeting.&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;Identify the &lt;strong&gt;public body&lt;/strong&gt; which has oversight or jurisdiction over the issue in question. There may be multiples of these, at the local, county, state and federal levels, plus occasionally a treaty organization or two that gets involved.&lt;/p&gt;
+&lt;p&gt;Identify the &lt;strong&gt;governing board&lt;/strong&gt; of the body, and the individual members of the board. Your direct questions about agenda items will go to them.&lt;/p&gt;
+&lt;p&gt;Identify the staff member who is &lt;strong&gt;board secretary&lt;/strong&gt;. They are your best contact for details like board minutes and notices of upcoming meetings.&lt;/p&gt;
+&lt;p&gt;Ask the board secretary that you be &lt;strong&gt;notified of upcoming board events&lt;/strong&gt;, per the Open Meetings Act. Put any future dates on your calendar. Note that meeting times can change on short notice.&lt;/p&gt;
+&lt;p&gt;Ask for copies of &lt;strong&gt;board packets&lt;/strong&gt; for upcoming board events, per the Freedom of Information Act, and probably because it&amp;#39;s as easy as cc&amp;#39;ing you on an existing email list.&lt;/p&gt;
+&lt;p&gt;Determine if there are &lt;strong&gt;audio and video recordings of board meetings&lt;/strong&gt;, and if they are streamed live online. Ask for details about access.&lt;/p&gt;
+&lt;p&gt;Identify a member of the public whose affairs are affected by the public body who needs &lt;strong&gt;assistive technology&lt;/strong&gt; to participate in meetings, and work on their behalf to gain access to meeting materials in machine-readable formats.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Read minutes of past meetings&lt;/strong&gt;. If those minutes are not online, request of the board secretary that copies be put online. Note that in most cases draft copies of meeting minutes should be available before they are approved at the next meeting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Read agendas of upcoming meetings&lt;/strong&gt;. In some cases, detailed agendas will be available, complete with supporting records which are intended to to help the board members make decisions. Ask the board secretary for information about any details which are not obvious from the published agenda. Note that agendas can change on short notice.&lt;/p&gt;
+&lt;p&gt;Contact &lt;strong&gt;individual board members in private &lt;/strong&gt;regarding items on current and future agendas. If you are brief, concise, and narrowly focused, you can provide them with assistance in their work in upcoming meetings.&lt;/p&gt;
+&lt;p&gt;Contact &lt;strong&gt;the board as a whole in public&lt;/strong&gt; to make a public statement about a topic. Note that although I leave this at the very end, this is what most people think about when they go to public meetings - standing up, all shaky, in front of a microphone and giving their opinion. By the time you have gotten to the mike, it&amp;#39;s always best that your message (however popular or unpopular) is at the very least not a surprise.&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor DDA revised committee meeting schedule, March 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-27-a2dda-committee-revised/</link>
+      <pubDate>Sun, 27 Mar 2011 19:46:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-27-a2dda-committee-revised/</guid>
+      <description>&lt;p&gt;Details? See &lt;a href=&#34;http://a2dda.org&#34; target=&#34;_self&#34;&gt;http://a2dda.org&lt;/a&gt;&amp;#0160;or call 734-994-6697.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e6026733e970c-pi&#34;&gt;&lt;img alt=&#34;March 2011 Committee Meeting Notices Filed with Clerk&amp;#39;s Office&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e6026733e970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e6026733e970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;March 2011 Committee Meeting Notices Filed with Clerk&amp;#39;s Office&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;em&gt;Edward Vielmetti seeks out public meetings which also serve a light snack.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>on the media and government - watching the DDA, day 3</title>
+      <link>http://vielmetti.github.io/post/2009/2009-07-01-on-the-media-and-government-watching-the-dda-day-3/</link>
+      <pubDate>Wed, 01 Jul 2009 23:33:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-07-01-on-the-media-and-government-watching-the-dda-day-3/</guid>
+      <description>&lt;p&gt;day 3 notes&lt;/p&gt;&lt;p&gt;I ducked out at the end of the second day of MT training and headed off to the DDA meeting downtown.&amp;#0160; The meeting had started on time, but I didn&amp;#39;t get there on time, so I missed some of the initial public commentary.&lt;/p&gt;&lt;p&gt;In addition to the usual crowd of developers, city staff, and other interested parties, there were three reporters in attendance: Dave Askins from the Ann Arbor Chronicle; Andrew Cluley, a news reporter at 89.1 WEMU FM; and Dave Gershman from the Ann Arbor News.&amp;#0160; Some part of the DDA meeting was also recorded by video cameras; I haven&amp;#39;t figured out yet how to replay that.&lt;/p&gt;&lt;p&gt;It&amp;#39;s instructive to see the different viewpoints that these three media channels provide, and to figure out what added perspective you could get from it.&lt;/p&gt;&lt;p&gt;Dave Askins was twittering out notes on &lt;a href=&#34;http://twitter.com/A2ChronicleMeet&#34;&gt;@A2ChronicleMeet&lt;/a&gt; with a running play by play.&amp;#0160; I&amp;#39;m certain that it will be part of the raw materials for a long, descriptive, detailed account of the meeting, complete with bits of reflection on logos on garbage cans and the ins and outs of what roles and responsibilities flow to the mayor pro tem.&amp;#0160; Dave gave a great talk at &lt;a href=&#34;http://igniteannarbor.com&#34;&gt;Ignite Ann Arbor&lt;/a&gt; 1 the previous night about how the extremely descriptive style of news that the Chronicle publishes serves them well in reviewing things long after the fact, even if wading through 7000 words seems like a bit long for right now in a world where reporters are used to publishing 500 or 1000.&lt;/p&gt;&lt;p&gt;Andrew Cluely from WEMU was in the back taking a few notes, and he had his recorder out front at the end of the meeting with one of the board members.&amp;#0160; I looked online really hard for where the story might have been posted already, and came up at best with &lt;a href=&#34;http://www.publicbroadcasting.net/wemu/news.newsmain?action=search&amp;amp;advanced=true&amp;amp;newSearch=true&amp;amp;searchOption=1&amp;amp;TEASE_WORDS=cluley&amp;amp;BYLINE_WORDS=&amp;amp;Submit=Search&#34;&gt;this page where it might be&lt;/a&gt;, buried deep on a search string.&amp;#0160; There&amp;#39;s some wasted opportunity here, since the same-day audio clip is going to give you a perspective on decisions later - if, and only if, you can find it again.&lt;/p&gt;&lt;p&gt;Dave Gershman filed two stories from the Ann Arbor News - one on how the DDA&amp;#39;s &lt;a href=&#34;http://www.mlive.com/news/ann-arbor/index.ssf/2009/07/downtown_ann_arbor_mural_plan.html&#34;&gt;decision on public arts funding impacts the murals proposed by Fire Up Downtown&lt;/a&gt;, and one on how &lt;a href=&#34;http://www.mlive.com/news/ann-arbor/index.ssf/2009/07/ann_arbor_expects_federal_prog.html&#34;&gt;federal stimulus money will save $1.5 million in financing costs for the Library Lot underground garage&lt;/a&gt;.&amp;#0160; The mural story attracted MLive&amp;#39;s usual crowd of incredibly lame, rude, and anonymous commenters - people who didn&amp;#39;t add any value to the story.&lt;/p&gt;&lt;p&gt;Now I know that there were a lot more stories to be told out of that event - the continuing saga of somewhat confused people figuring out how e-Park meters work, the continuing series of anecdotes about how the Maynard St structure is always full without any supporting data or analysis, and the parliamentary maneuvers about whether Leigh Greden should be able to vote in the seat reserved for the mayor as mayor pro tem.&amp;#0160; &lt;/p&gt;&lt;p&gt;Where do you start with news?&amp;#0160; Small town politics of parking meters.&amp;#0160; I&amp;#39;m told that new employees at the New York Times and returning international correspondents once worked the sanitation beat as their first stint (and I can&amp;#39;t source that quote, even though I&amp;#39;d like to, because I didn&amp;#39;t bookmark that link).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DDA meeting, downtown, today; I have 4 minutes on the agenda; here&#39;s what I said</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-07-dda-meeting-downtown-today-i-have-4-minutes-on-the-agenda-heres-what-i-said/</link>
+      <pubDate>Wed, 07 Jan 2009 12:36:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-07-dda-meeting-downtown-today-i-have-4-minutes-on-the-agenda-heres-what-i-said/</guid>
+      <description>&lt;p&gt;Thanks all for your suggestions; I gave them my 4 minutes. Here&amp;#39;s what I said.&lt;/p&gt;&lt;p&gt;
+1. &amp;#0160;Not going to talk about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/08/link-bus-2008-m.html&#34;&gt;the Link Bus and how bad the signage is&lt;/a&gt;; I did my own pocket schedule and now I&amp;#39;m OK.&amp;#0160; This is not the right board to give that feedback to.&lt;/p&gt;&lt;p&gt;
+2. &amp;#0160;Not going to talk about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/12/the-bus-game-why-its-important-to-get-the-aatas-mobile-ridetrak-back-online.html&#34;&gt;how the AATA Ridetrak is down&lt;/a&gt; and how it&amp;#39;s been down for a month; that&amp;#39;s a message to the AATA board, not this board.&lt;/p&gt;&lt;p&gt;
+3. &amp;#0160;Not going to talk about &lt;a href=&#34;http://goodspeedupdate.com/2008/2368&#34;&gt;Rob Goodspeed&amp;#39;s article showing that structures are on average half empty&lt;/a&gt; (which got an immediate response from Rene Greff), because I don&amp;#39;t generally drive to town.&lt;/p&gt;&lt;p&gt;What I did talk about:&lt;/p&gt;&lt;p&gt;Sidewalks are not promptly cleared after snow storms, to the detriment of pedestrians. &amp;#0160;In particular there is a dangerous part at the curb, where &lt;a href=&#34;http://www.a2gov.org/government/safetyservices/Police/Pages/SnowRemovalonSidewalks.aspx&#34;&gt;the property owner (who is responsible for the sidewalk)&lt;/a&gt; and &lt;a href=&#34;http://www.a2gov.org/GOVERNMENT/PUBLICSERVICES/FIELDOPERATIONS/Pages/SnowRemoval.aspx&#34;&gt;the city (who is responsible for the street)&lt;/a&gt; share responsibility for the failure to clear the curb, resulting in huge puddles at corners.&lt;/p&gt;&lt;p&gt;
+I showed the DDA my pair of Yaktrax (&lt;a href=&#34;http://bit.ly/yaktrax&#34; target=&#34;_blank&#34;&gt;http://bit.ly/yaktrax&lt;/a&gt;) and suggested that someone could make good money selling them from a cart on the street on icy days. (thanks to John Hritz for that timely holiday present).&lt;/p&gt;&lt;p&gt;Look for more coverage from the &lt;a href=&#34;http://annarborchronicle.com&#34;&gt;Ann Arbor Chronicle&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

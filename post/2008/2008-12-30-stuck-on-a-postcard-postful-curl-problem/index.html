@@ -129,8 +129,6 @@ networks
 <pre style="margin-left: 40px;"><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br />&lt;upload&gt;<br /> &lt;id&gt;290797321.waltershandy.2&lt;/id&gt;<br />&lt;/upload&gt;<br /></code></pre>
 
 <p style="margin-left: 40px;">What is critical in this response is the <strong>id</strong> assigned by the server to your document, in this example <strong>290797321.waltershandy.2</strong>. You will use that id to reference the document in the next step.</p><p>I think it should work with</p><p><span style="font-size: 12px; font-family: Courier;">curl -v --user edward.vielmeti@gmail.com:t0ps3kr3t&#0160; --data-binary &quot;upload=@m-28-shield.png&quot; http://postful.com/service/upload</span></p><p>but, it doesn&#39;t.&#0160; ideas?&#0160; mac os if it matters, the </p><p>% curl --version<br />curl 7.16.3 (powerpc-apple-darwin9.0) libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3<br />Protocols: tftp ftp telnet dict ldap http file https ftps <br />Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz&#0160;</p><p>update: typo fixed</p><p>update2: working now!&#0160; command line is</p><p style="font-family: Courier;">curl -k -v --user edward.vielmetti@gmail.com:s4x4s54&#0160; --data-binary &quot;@m-28-shield.png&quot;<a href="https://postful.com/service/upload" target="_blank"> https://postful.com/service/<wbr />upload</a></p><p style="font-family: Helvetica;">note three things: &quot;-k&quot; option; https, not http:; spell the user name right (duh).</p><p style="font-family: Helvetica;">next task: get the address side formatted right.</p>
-
-
  
 	</body> 
 </td>

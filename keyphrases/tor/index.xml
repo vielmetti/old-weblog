@@ -25,5 +25,19 @@
 </description>
     </item>
     
+    <item>
+      <title>TOR network anonymity compromised by Javascript exploit</title>
+      <link>http://vielmetti.github.io/post/2013/2013-08-05-tor-network-anonymity-compromised-by-javascript-exploit/</link>
+      <pubDate>Mon, 05 Aug 2013 07:55:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-08-05-tor-network-anonymity-compromised-by-javascript-exploit/</guid>
+      <description>&lt;p&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.torproject.org/&#34; target=&#34;_self&#34;&gt;TOR&lt;/a&gt;&lt;/strong&gt; is an anonymous network set up originally by the US Navy in order to support cloaked access by the US Government to the Internet. Users access the network through a computer or browser set up to point traffic towards a network of &amp;quot;onion routers&amp;quot;, which scramble the path that the packet takes to eventually reach the Internet. There are also provisions for &amp;quot;dark&amp;quot; web sites or hidden service operators to exist within the TOR network, which should in theory be reachable anonymously by TOR users but not the great outside Internet. A 2005 era web site &lt;a href=&#34;http://www.onion-router.net/&#34; target=&#34;_self&#34;&gt;describes the theory&lt;/a&gt; behind onion routing.&lt;/p&gt;
+&lt;p&gt;The TOR network operators have encouraged a broad spectrum of users to participate in the system, and it has become favored of several unsavory business enterprises that take advantage of the anonymity provided to transact business that would be shut down on the public Internet. (Or so it is alleged; I haven&amp;#39;t seen that first hand).&lt;/p&gt;
+&lt;p&gt;In early August, 2013, the TOR network was compromised. A popular browser for the system, the &lt;a href=&#34;https://www.torproject.org/projects/torbrowser.html.en&#34; target=&#34;_self&#34;&gt;Tor Browser Bundle&lt;/a&gt;, was attacked with a Javascript exploit that causes the nominally anonymous system to report its real IP address and MAC address to a central server, thus decloaking the device. The allegations are flying around as to who did this attack, but it&amp;#39;s been alleged that a government is behind it because there are no indications that the exploit inserts any malware - just this deanonymizing task.&lt;/p&gt;
+&lt;p&gt;More reading via Techmeme:&amp;#0160;&lt;a href=&#34;http://arstechnica.com/tech-policy/2013/08/alleged-tor-hidden-service-operator-busted-for-child-porn-distribution/&#34; target=&#34;_self&#34;&gt;Alleged Tor hidden service operator busted for child porn distribution&lt;/a&gt;&amp;#0160;(Ars Technica);&amp;#0160;&lt;a href=&#34;http://boingboing.net/2013/08/04/anonymous-web-host-shut-down.html&#34; target=&#34;_self&#34;&gt;Anonymous Web-host shut down, owner arrested; Tor users compromised by Javascript exploit&lt;/a&gt; (Boing Boing);&amp;#0160;&lt;a href=&#34;http://bitcoinmagazine.com/freedom-hosting-taken-down-founder-arrestes-users-fed-javascript-exploits/&#34; target=&#34;_self&#34;&gt;Freedom Hosting Taken Down, Founder Arrested, Users fed Javascript Exploits&lt;/a&gt; (Bitcoin Magazine);&amp;#0160;&lt;a href=&#34;https://blog.torproject.org/blog/hidden-services-current-events-and-freedom-hosting&#34; target=&#34;_self&#34;&gt;Hidden Services, Current Events, and Freedom Hosting&lt;/a&gt;&amp;#0160;(Tor Project).&lt;/p&gt;
+&lt;pre&gt;&lt;br /&gt;&lt;/pre&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
