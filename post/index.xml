@@ -25,12 +25,14 @@ don&amp;rsquo;t all fit on a single page. Sort through the design to make
 old things reachable, and then worry next about the formatter.
 (This is done at least minimally, though the provided paginator
 interface uses a list structure that&amp;rsquo;s not nice. Still, it gets
-me to what I need to in a ping.)&lt;/p&gt;&lt;/li&gt;
+me to what I need to in a ping.) Open discussion on gohugo is
+&lt;a href=&#34;http://discuss.gohugo.io/t/pagination-and-group-by-date/1441/3&#34;&gt;Pagination and group by date&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Publish to Github Pages, using vielmetti.github.io. I did this
 once (using Octopress) so it should be straightforward to do it again.
 I already do have a proper github repo (or nearly proper, it may
-be missing some key bits).&lt;/p&gt;&lt;/li&gt;
+be missing some key bits). Done; don&amp;rsquo;t have a perfect build script
+yet, but there&amp;rsquo;s at least a start.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Import all sorts more nonsense here, including a bunch of Superpatron
 and Blogger&amp;rsquo;s Secret and FOIA Coordiator weblogs. There&amp;rsquo;s no particular
@@ -41,11 +43,16 @@ just HTML.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Sort out theme issues so that I get a reasonable display for category
 and subcategory pages. I may have to write some things down by hand
-to get an understanding of what I really want.&lt;/p&gt;&lt;/li&gt;
+to get an understanding of what I really want. As it is right now
+those pages render as blank, in part because I need to convert a bunch
+of data imperfectly imported, which was throwing errors in my
+templates, which in turn was breaking the build. Dealing with the
+errored out builds is a question again for gohugo,
+&lt;a href=&#34;http://discuss.gohugo.io/t/taxononomy/1445&#34;&gt;taxononomy&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Deal with the date problems. Lots of dates got imported without a timezone,
 but that was not the real issue; the real issue was also that lots got
-imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out.&lt;/p&gt;&lt;/li&gt;
+imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out and it seems to fix things.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;

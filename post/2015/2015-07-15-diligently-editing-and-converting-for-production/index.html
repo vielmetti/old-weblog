@@ -124,12 +124,14 @@ don&rsquo;t all fit on a single page. Sort through the design to make
 old things reachable, and then worry next about the formatter.
 (This is done at least minimally, though the provided paginator
 interface uses a list structure that&rsquo;s not nice. Still, it gets
-me to what I need to in a ping.)</p></li>
+me to what I need to in a ping.) Open discussion on gohugo is
+<a href="http://discuss.gohugo.io/t/pagination-and-group-by-date/1441/3">Pagination and group by date</a>.</p></li>
 
 <li><p>Publish to Github Pages, using vielmetti.github.io. I did this
 once (using Octopress) so it should be straightforward to do it again.
 I already do have a proper github repo (or nearly proper, it may
-be missing some key bits).</p></li>
+be missing some key bits). Done; don&rsquo;t have a perfect build script
+yet, but there&rsquo;s at least a start.</p></li>
 
 <li><p>Import all sorts more nonsense here, including a bunch of Superpatron
 and Blogger&rsquo;s Secret and FOIA Coordiator weblogs. There&rsquo;s no particular
@@ -140,11 +142,16 @@ just HTML.</p></li>
 
 <li><p>Sort out theme issues so that I get a reasonable display for category
 and subcategory pages. I may have to write some things down by hand
-to get an understanding of what I really want.</p></li>
+to get an understanding of what I really want. As it is right now
+those pages render as blank, in part because I need to convert a bunch
+of data imperfectly imported, which was throwing errors in my
+templates, which in turn was breaking the build. Dealing with the
+errored out builds is a question again for gohugo,
+<a href="http://discuss.gohugo.io/t/taxononomy/1445">taxononomy</a></p></li>
 
 <li><p>Deal with the date problems. Lots of dates got imported without a timezone,
 but that was not the real issue; the real issue was also that lots got
-imported with &ldquo;layout: post&rdquo;. Take that out.</p></li>
+imported with &ldquo;layout: post&rdquo;. Take that out and it seems to fix things.</p></li>
 
 <li><p>Request a dump of the image cache from Typepad.</p></li>
 </ol>
