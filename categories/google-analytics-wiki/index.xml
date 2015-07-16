@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Analytics Wiki on tracker</title>
+    <link>http://localhost:1313/categories/google-analytics-wiki/</link>
+    <description>Recent content in Google Analytics Wiki on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jun 2009 13:35:08 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/google-analytics-wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>wiki wednesday: using google analytics to find places to add to your content</title>
+      <link>http://localhost:1313/post/2009/2009-06-23-wiki-wednesday-using-google-analytics-to-find-places-to-add-to-your-content/</link>
+      <pubDate>Tue, 23 Jun 2009 13:35:08 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2009/2009-06-23-wiki-wednesday-using-google-analytics-to-find-places-to-add-to-your-content/</guid>
+      <description>&lt;p&gt;Of course it isn&amp;#39;t Wednesday yet, but I&amp;#39;ll be a day early.&lt;/p&gt;&lt;p&gt;One of the things I&amp;#39;ve been tracking over at Arborwiki with our analytics install is the fraction of pages that people hit that don&amp;#39;t exist yet.&amp;#0160; These are marked on screen so that if you know what you are looking for you&amp;#39;ll recognize it, but often people don&amp;#39;t, so they click through and get a blank edit screen.&lt;/p&gt;&lt;p&gt;Every so often people do edit this page - but often they don&amp;#39;t.&amp;#0160; &lt;/p&gt;&lt;p&gt;A reasonable goal is to try to minimize the number of times people get frustrated, so one way to track that is to look at the fraction of pages over time where people hit a blank page and try to minimize that.&amp;#0160; Looking at it over the last 3 months it appears that 3.2% of page views go to a page that doesn&amp;#39;t exist yet - if you do a &amp;quot;Top Content&amp;quot; report, and then filter for the string &amp;quot;redlink&amp;quot;, you&amp;#39;ll get what you want.&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011570540df2970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Picture 5&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef011570540df2970c image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011570540df2970c-800wi&#34; title=&#34;Picture 5&#34; /&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;One way to do continuous improvement, then, is to run a simple report for the pages on any given day, and look through them for ones where people clicked and didn&amp;#39;t find anything.&amp;#0160; Go to those wanted pages and search until you can put in something at least minimal for them.&lt;/p&gt;&lt;p&gt;Today&amp;#39;s crop of such pages includes the &lt;a href=&#34;http://arborwiki.org/city/Ann%20Arbor%20Wine%20Club&#34;&gt;Ann Arbor Wine Club&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Edward%20Burger&#34;&gt;Edward Burger&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Michael%20R.%20Reid&#34;&gt;Michael R. Reid&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Miles%20Street&#34;&gt;Miles Street&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Native%20Plant%20Nursery&#34;&gt;Native Plant Nursery&lt;/a&gt;, and &lt;a href=&#34;http://arborwiki.org/city/Oakland%20Cruisers&#34;&gt;Oakland Cruisers&lt;/a&gt;.&amp;#0160; With any small amount of diligence you can whittle away at the edges and reduce the failure rate over time.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

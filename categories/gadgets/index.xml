@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gadgets on tracker</title>
+    <link>http://localhost:1313/categories/gadgets/</link>
+    <description>Recent content in Gadgets on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jul 2014 11:14:58 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gadgets/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Acer C720 Chromebook as a Minecraft machine?</title>
+      <link>http://localhost:1313/post/2014/2014-07-29-acer-c720-chromebook-as-a-minecraft-machine/</link>
+      <pubDate>Tue, 29 Jul 2014 11:14:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-07-29-acer-c720-chromebook-as-a-minecraft-machine/</guid>
+      <description>&lt;p&gt;I&#39;m looking into getting an Acer C720 Chromebook as a next computer.&lt;/p&gt;
+
+&lt;p&gt;Shopping sources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.google.com/intl/en-US/chrome/devices/acer-c720-chromebook.html#ac-c720&#34;&gt;Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/offer-listing/B00FNPD1VW/ref=dp_olp_new?ie=UTF8&amp;amp;condition=new&#34;&gt;via Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.newegg.com/Product/Product.aspx?Item=N82E16834314360&#34;&gt;Newegg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prices vary; I had seen less than $175, but now (late July 2014) it&#39;s running about $200. &lt;/p&gt;
+
+&lt;p&gt;Of particular interest is the ability of this system to run Linux. Your choices are&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dnschneid/crouton&#34;&gt;Crouton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://chrubuntu.blogspot.ca/&#34;&gt;Chrubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of especially particular interest is Minecraft on a Chromebook. Here&#39;s a &lt;A href=&#34;http://doctor-not-magician.blogspot.com/2014/01/minecraft-on-acer-c720-chromebook.html&#34;&gt;walk through of Minecraft on an Acer C720 with Crouton&lt;/a&gt;, which reports that &#34;[f]ull screen with all the graphical options turned up to full, you should see around 35 frames per second rising to 50 when all the chunks have loaded.&#34;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

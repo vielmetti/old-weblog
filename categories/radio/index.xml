@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radio on tracker</title>
+    <link>http://localhost:1313/categories/radio/</link>
+    <description>Recent content in Radio on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 May 2015 13:50:57 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building a dipole antenna for your SDR tuner stick from an old set of headphones</title>
+      <link>http://localhost:1313/post/2015/2015-05-29-building-a-dipole-antenna-for-your-sdr-tuner-stick-from-an-old-set-of-headphones/</link>
+      <pubDate>Fri, 29 May 2015 13:50:57 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-05-29-building-a-dipole-antenna-for-your-sdr-tuner-stick-from-an-old-set-of-headphones/</guid>
+      <description>&lt;p&gt;Some notes before I try to do the build.&lt;/p&gt;
+
+&lt;p&gt;The parts I have or know I can get: cheap earbud headphones, NooElec NESDR Mini 2 SDR tuner stick with whip antenna, Nokia 635 phone, antenna from an older NESDR Mini SDR tuner stick.&lt;/p&gt;
+
+&lt;p&gt;Parts I need: a short adapter cable that provides antenna in for the SDR stick as a headphone jack socket.&lt;/p&gt;
+
+&lt;p&gt;The SDR tuner comes with an antenna, but I want to replace it with a dipole - especially one cut to have a center point for FM broadcast on 88.3 (WCBN) and a second one for 2 meter ham radio on local repeaters (W8UM on 145.23 and N8DUY on 145.15). Some sort of adapter jack (or alligator clips) should be all I need.&lt;/p&gt;
+
+&lt;p&gt;I can test the antenna on my Nokia 635 which has an FM tuner connected with the headphone jack as the antenna, and the ideal situation will be to have an antenna that I can just plug either into my phone or into my SDR tuner interchangeably. Once I figure all that out, the next next step is to make these antenna inputs for other radios. One step at a time though.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll be working from the tutorial &lt;a href=&#34;http://willus.com/author/antenna.shtml&#34;&gt;Making a Dipole FM Antenna&lt;/a&gt; on willus.com .&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two repaired shortwave receivers in one day !</title>
+      <link>http://localhost:1313/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</link>
+      <pubDate>Sun, 17 May 2015 22:04:12 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</guid>
+      <description>&lt;p&gt;From the fix-it-yourself department, two successful radio repairs in one day.&lt;/p&gt;
+
+&lt;p&gt;For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. &lt;/p&gt;
+
+&lt;p&gt;For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again. I&#39;m especially happy about the Sony because I had feared that it was a complicated repair. There&#39;s some corrosion on the battery terminals and I might be forewarned that would be the first thing to look at again. A discussion of another repair is written up by &lt;a href=&#34;http://idlenot.com/?p=1481&#34;&gt;KE1RI&lt;/a&gt; to replace an audio capacitor, fortunately I haven&#39;t had to do that.&lt;/p&gt;
+
+&lt;p&gt;Both stations are tuned to R Havana Cuba&#39;s Sunday night programming on 6000 KHz.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>W8UM 145.23 repeater for Sunday night net, 19 April 2015</title>
+      <link>http://localhost:1313/post/2015/2015-04-19-w8um-14523-repeater-for-sunday-night-net-19-april-2015/</link>
+      <pubDate>Sun, 19 Apr 2015 21:06:09 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-04-19-w8um-14523-repeater-for-sunday-night-net-19-april-2015/</guid>
+      <description>&lt;p&gt;As seen with gqrx on my Mac.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77c1585970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c77c1585970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-04-19 at 8.15.39 PM&#34; title=&#34;Screen Shot 2015-04-19 at 8.15.39 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77c1585970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The readout on the radio says 145.2169 Mhz instead of 145.2300 Mhz, I think that means the receiver has drifted 16.1 KHz from peak, or perhaps the listed frequency is not what I&#39;m looking at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Listening to Radio Havana Cuba via shortwave</title>
+      <link>http://localhost:1313/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</link>
+      <pubDate>Wed, 17 Dec 2014 15:36:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</guid>
+      <description>&lt;p&gt;Radio Havana Cuba was one of my cold war era shortwave radio presets. I don&#39;t have a working shortwave radio of my own any more, and the miracle of the Internet means that you can now tune in broadcasts directly from the broadcaster without the inconvenience of shortwave tuning.&lt;/p&gt;
+
+&lt;p&gt;The best way really to listen to a station like R Havana Cuba is via shortwave. Here are a couple of ways that you can do that. Note that broadcasts in English are not 24 hours a day, and that shortwave reception varies widely by time of day and location of receiving station.&lt;/p&gt;
+
+&lt;p&gt;The key to do this is to acquaint yourself with &lt;a href=&#34;http://websdr.org/&#34;&gt;WebSDR&lt;/a&gt;, a project that allows multiple listeners to tune into the signal of a single wideband radio. You&#39;ll need to pick a receiver that has an antenna that covers the appropriate part of the broadcast band, and you&#39;ll need also a schedule for when the station is broadcasting.&lt;/p&gt;
+
+&lt;p&gt;Many shortwave schedules and stations can be located via &lt;a href=&#34;http://www.short-wave.info/&#34;&gt;short-wave.info&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0abdf50970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; title=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a schedule and a frequency, use WebSDR to find a suitable listening location. My two favorites for monitoring Havana are the original &lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;WedSDR at U Twente&lt;/a&gt; and &lt;a href=&#34;http://96.225.100.244:8902/&#34;&gt;K2SDR in New Jersey&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Of course you can tune in via &lt;a href=&#34;http://tunein.com/radio/Radio-Havana-Cuba-p1687/&#34;&gt;TuneIn&lt;/a&gt; and get to the broadcast direct. The sound will be more clear, and the reception more reasonable. But there&#39;s really something to be said for experiencing broadcast radio through the medium of radio rather than this newfangled Internet thing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some notes on Echolink and websdr</title>
+      <link>http://localhost:1313/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</link>
+      <pubDate>Tue, 09 Dec 2014 01:03:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</guid>
+      <description>&lt;p&gt;Echolink is a system that lets amateur radio operators transmit from their computer, through a relay at a suitable Echolink server. You have to be a licensed ham to get on the network, and typically there&#39;s a two-way repeater set up to some radio station so that you can hear what&#39;s being said on RF and vice versa.&lt;/p&gt;
+
+&lt;p&gt;websdr is a system that lets anyone listen to a slice of radio spectrum. There are websdr servers running around the globe, each tuned in to some particular slice of the radio waves. Multiple people can tune in at the same time and hear their own piece of the airwaves.&lt;/p&gt;
+
+&lt;p&gt;The interesting thing happens when you connect these two systems together. Some small number of the websdr receivers tune into the 2 meter band, which is the typical band used by Echolink. Using Echolink (or in my case the Mac application Echomac) I identified an Echolink host in the vicinity of the websdr receiver, then connected to it. Sure enough, I was able to hear my call sign back in through the websdr front end.&lt;/p&gt;
+
+&lt;p&gt;This little image shows the result. Transmitted via DM0ZHS, and monitored at http://129.187.5.188:8901/ on 145237.50 kHz, I&#39;m sending from Isen, Germany and receiving the transmission at the Olympic Tower in Munich, Germany.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0a4d614970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0a4d614970c img-responsive&#34; style=&#34;width: 590px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-12-09 at 1.00.38 AM&#34; title=&#34;Screen Shot 2014-12-09 at 1.00.38 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0a4d614970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tune in to Skywarn nets in 50 states when severe weather threatens</title>
+      <link>http://localhost:1313/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/</link>
+      <pubDate>Fri, 04 Apr 2014 01:43:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/</guid>
+      <description>&lt;p&gt;Putting together a &lt;a href=&#34;http://twitter.com/vielmetti/lists/skywarn&#34;&gt;Twitter list&lt;/a&gt; and a set of Broadcastify radio feeds for Skywarn networks. I&#39;ll only be adding these when I have confirmed to listen to traffic. There are also Skywarn twitter lists from &lt;a href=&#34;https://twitter.com/KE4KMD/lists/skywarn&#34;&gt;KE4KMD&lt;/a&gt; that were used to compile this, and a national &lt;a href=&#34;http://skywarn.org&#34;&gt;skywarn.org&lt;/a&gt; that has a national directory. &lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.afn.org/~afn09444/weather/skywarn.html&#34;&gt;Index to SKYWARN Web Pages on the Internet&lt;/a&gt; is from Todd L. Sherman KB4MHH and has been updated since 1996; it is an excellent reference. &lt;a href=&#34;http://wx5tvs.com/storm-spotters.html&#34;&gt;SKYWARN Storm Spotters&lt;/a&gt; from David Drummond is another national list.&lt;/p&gt;
+
+&lt;p&gt;For an account of the use of Twitter for SKYWARN activities, read &lt;a href=&#34;https://ams.confex.com/ams/41BC2WxWarn/webprogram/Paper225882.html&#34;&gt;#tSpotter: SKYWARN in the Social Media Age&lt;/a&gt;, a paper presented to the American Metorological Society in 2013.&lt;/p&gt;
+
+&lt;p&gt;So far I have details for 29 of 50 states compiled here as of April 5, 2014.&lt;/p&gt;
+
+&lt;h2&gt;Alabama&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/alwx&#34;&gt;alwx&lt;/a&gt;. Mobile area: #&lt;a href=&#34;http://www.tchat.io/rooms/mobwx&#34;&gt;mobwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.alabamaskywarn.org/&#34;&gt;Alabama Skywarn Foundation&lt;/a&gt; has statewide connections.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.radioreference.com/apps/db/?aid=4234&#34;&gt;Alabama severe weather frequencies&lt;/a&gt;, Radio Reference.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nalsw.net/&#34;&gt;Skywarn North Alabama / Southern Middle Tennessee&lt;/a&gt; (WX4HUN) supports NWS Huntsville, Alabama. Twitter: @&lt;a href=&#34;https://twitter.com/WX4HUN_Skywarn&#34;&gt;WX4HUN_Skywarn&lt;/a&gt;, @&lt;a href=&#34;https://twitter.com/Activation_HUN&#34;&gt;Activation_HUN&lt;/a&gt;. Hashtag #&lt;a href=&#34;http://tchat.io/rooms/hunwx&#34;&gt;HUNwx&lt;/a&gt;. Listen on Broadcastify, &lt;a href=&#34;http://www.broadcastify.com/listen/feed/11675&#34;&gt;N4IDX 146.960&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://alert-alabama.org/&#34;&gt;ALERT&lt;/a&gt; (Alabama Emergency Response Team) supports NWS Birmingham. Twitter: @&lt;a href=&#34;https://twitter.com/k4nws&#34;&gt;k4nws&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.eastalabamaskywarn.com/&#34;&gt;East Alabama Skywarn&lt;/a&gt; serves Lee County and surrounding counties.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.w4ap.org/modules.php?name=SkyWarn&#34;&gt;Central Alabama Skywarn&lt;/a&gt; serves the Montgomery area. W4AP 146.840 repeater, training net Thursdays 7:00 p.m. CT.&lt;/p&gt;
+
+&lt;h2&gt;Alaska&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/akwx&#34;&gt;akwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;National Weather Service on Twitter: @&lt;a href=&#34;http://twitter.com/NWSJuneau&#34;&gt;NWSJuneau&lt;/a&gt;, @&lt;a href=&#34;http://twitter.com/NWSAnchorage&#34;&gt;NWSAnchorage&lt;/a&gt;, @&lt;a href=&#34;https://twitter.com/NWSFairbanks&#34;&gt;NWSFairbanks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.kl7kc.com/index.html&#34;&gt;Arctic Amateur Radio Club&lt;/a&gt;, KL4KC.&lt;/p&gt;
+
+&lt;p&gt;NWS Fairbanks ham radio Skywarn station, &lt;a href=&#34;http://pafg.arh.noaa.gov/ham.php&#34;&gt;KL7FWX&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Arizona&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/azwx&#34;&gt;azwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://skywarnaz.org/&#34;&gt;Skywarn Arizona Sector 1&lt;/a&gt; covers the Tucson area and is particularly active during monsoon season.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.copahams.org/skywarn-in-arizona.html&#34;&gt;Maricopa Amateur Radio Association&lt;/a&gt; covers the Phoenix area.&lt;/p&gt;
+
+&lt;h2&gt;Arkansas&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/arwx&#34;&gt;arwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.arkskywarn.org/&#34;&gt;Arkansas Skywarn&lt;/a&gt;, and a Twitter feed @&lt;a href=&#34;https://twitter.com/arkskywarn&#34;&gt;arkskywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/5167&#34;&gt;CAREN&lt;/a&gt;, Central Arkansas Radio Emergency Net via Broadcastify. Little Rock area, monitored April 4, 2014.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.broadcastify.com/listen/feed/5419&#34;&gt;W5RHS&lt;/a&gt; SKYWARN Repeater 147.120 Mhz via Broadcastify. West of Benton Arkansas, Saline County, linked to other Arkansas Skywarn nets.&lt;/p&gt;
+
+&lt;h2&gt;California&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cawx&#34;&gt;cawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.swskywarn.org/&#34;&gt;Southwest California Skywarn&lt;/a&gt; serves the NWS San Diego office. Facebook: &lt;a href=&#34;https://www.facebook.com/SanDiegoCountySkywarn&#34;&gt;San Diego County Skywarn&lt;/a&gt;. Twitter: @&lt;a href=&#34;https://twitter.com/SnDgCo_Skywarn&#34;&gt;SnDgCo_Skywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Colorado&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cowx&#34;&gt;cowx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.w9tec.com/chaseradio/co.html&#34;&gt;Eastern Colorado Severe Weather Frequencies&lt;/a&gt; from W9TEC, last updated 1/2010.&lt;/p&gt;
+
+&lt;h2&gt;Connecticut&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ctwx&#34;&gt;ctwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ctskywarn.com/&#34;&gt;Connecticut Skywarn&lt;/a&gt; has maps of frequencies in use and reporting areas.&lt;/p&gt;
+
+&lt;h2&gt;Delaware&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dewx&#34;&gt;dewx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;District of Columbia&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dcwx&#34;&gt;dcwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.wx4lwx.org/&#34;&gt;National Capital Area Skywarn Support Group&lt;/a&gt; covers the Baltimore/Washington metro area. &lt;a href=&#34;http://www.erh.noaa.gov/lwx/skywarn/subnet.html&#34;&gt;WX4LWX&lt;/a&gt; frequency plan.&lt;/p&gt;
+
+&lt;h2&gt;Florida&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/flwx&#34;&gt;flwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flaglerskywarn.org/&#34;&gt;Flagler Skywarn&lt;/a&gt;, Jacksonville area.&lt;/p&gt;
+
+&lt;h2&gt;Georgia&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/gawx&#34;&gt;gawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Hawaii&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/hiwx&#34;&gt;hiwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Idaho&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/idwx&#34;&gt;idwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Illinois&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ilwx&#34;&gt;ilwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://chicagolandskywarn.org/&#34;&gt;Chicagoland Skywarn&lt;/a&gt; covers the greater Chicago area. (Broadcastify feed is down).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.northernilskywarn.org/&#34;&gt;Northern Illinois Skywarn&lt;/a&gt; covers Boone and Winnebago counties.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lakecountyskywarn.org/&#34;&gt;Lake County Skywarn&lt;/a&gt; serves Libertyville, IL. The repeater for Skywarn is run by &lt;a href=&#34;http://www.races.org/&#34;&gt;Lake County RACES/ARES&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Indiana&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/inwx&#34;&gt;inwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/6063&#34;&gt;Central Indiana Skywarn Repeater Net W9ICE&lt;/a&gt; via Broadcastify. 39 county system.
+&lt;a href=&#34;http://www.w9nws.org/&#34;&gt;Central Indiana Skywarn&lt;/a&gt; web site. Indianapolis area, serves &lt;a href=&#34;http://www.crh.noaa.gov/ind/&#34;&gt;NWS Indianapolis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.fwrc.info/index.php/skywarn&#34;&gt;Fort Wayne Radio Club SKYWARN&lt;/a&gt; is part of &lt;a href=&#34;http://www.imoskywarn.org/&#34;&gt;IMO Skywarn&lt;/a&gt;. IMO (&#34;Indiana-Michigan-Ohio&#34;) covers a 37 county warning area in northern Indiana, southernmost Michigan, and northwestern Ohio. &lt;/p&gt;
+
+&lt;h2&gt;Iowa&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/iawx&#34;&gt;iawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Kansas&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/kswx&#34;&gt;kswx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Kentucky&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/kywx&#34;&gt;kywx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Louisiana&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/lawx&#34;&gt;lawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nelaskywarn.org&#34;&gt;Northeast Louisiana Skywarn&lt;/a&gt;, Twitter @&lt;a href=&#34;https://twitter.com/nelaskywarn&#34;&gt;nelaskywarn&lt;/a&gt;. Web page is 404 on 4/5/14.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://info.louisiana.edu/mahler/skywarn/&#34;&gt;Lafayette SKYWARN Group&lt;/a&gt;. &lt;a href=&#34;http://info.louisiana.edu/mahler/r1.html&#34;&gt;537 System&lt;/a&gt; repeater, KF5VH on 145.370 MHz.&lt;/p&gt;
+
+&lt;h2&gt;Maine&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mewx&#34;&gt;mewx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Maryland&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mdwx&#34;&gt;mdwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Massachusetts&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mawx&#34;&gt;mawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Taunton (Boston) area covers southern New England. Twitter: @&lt;a href=&#34;http://twitter.com/wx1box&#34;&gt;wx1box&lt;/a&gt;. &lt;a href=&#34;http://www.wx1box.org/&#34;&gt;WX1BOX Skywarn&lt;/a&gt; web site. Echolink &lt;em&gt;NEW-ENG&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Michigan&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/miwx&#34;&gt;miwx&lt;/a&gt;, #&lt;a href=&#34;http://tchat.io/rooms/wmiwx&#34;&gt;wmiwx&lt;/a&gt; (Western Michigan), #&lt;a href=&#34;http://tchat.io/rooms/upwx&#34;&gt;upwx&lt;/a&gt; (Upper Peninsula).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kcra-mi.net/skywarn/mission.html&#34;&gt;Upper Peninsula Skywarn&lt;/a&gt;, 15 counties in the UP. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13447&#34;&gt;K8MDH 147.315 Mhz&lt;/a&gt;, Keewenaw County Skywarn/ARES via Broadcastify. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.kentcountyskywarn.org/&#34;&gt;Kent County Skywarn&lt;/a&gt; covers the Grand Rapids area. Facebook: &lt;a href=&#34;https://www.facebook.com/kcskywarn&#34;&gt;KentCounty Skywarn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lansingarpsc.com/skywarn.html&#34;&gt;Lansing Area Skywarn&lt;/a&gt; covers Ingham County. Listen live to the &lt;a href=&#34;http://www.lansingarpsc.com/listenlive.html&#34;&gt;Okemos repeater&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ottawaskywarn.org/&#34;&gt;Ottawa County Skywarn&lt;/a&gt;, Holland MI area. Listen online to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13885&#34;&gt;K8DAA 147.060&lt;/a&gt; via Broadcastify (down 4/6/14)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/19998&#34;&gt;Washtenaw County Skywarn&lt;/a&gt;, N8DUY repeater. Ann Arbor area. (Broadcastify feed back in service 2015-05-09)&lt;/p&gt;
+
+&lt;h2&gt;Minnesota&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mnwx&#34;&gt;mnwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.metroskywarn.org/&#34;&gt;Metro Skywarn&lt;/a&gt; serves the Minneapolis / St Paul area. Twitter: @&lt;a href=&#34;https://twitter.com/metroskywarn&#34;&gt;metroskywarn&lt;/a&gt;. Feed: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/1796&#34;&gt;Metro Skywarn - South Metro Area&lt;/a&gt; via Broadcastify.&lt;/p&gt;
+
+&lt;h2&gt;Mississippi&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mswx&#34;&gt;mswx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tupeloarc.org/skywarn.htm&#34;&gt;Northeast Mississippi Skywarn&lt;/a&gt; (Tupelo area) via Tupelo Amateur Radio Club.&lt;/p&gt;
+
+&lt;h2&gt;Missouri&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mowx&#34;&gt;mowx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/773&#34;&gt;N0NWS 145.490&lt;/a&gt; MHz Southwest Missouri SkyWarn Severe Weather Net via Broadcastify. &lt;a href=&#34;https://www.facebook.com/SMRSSW&#34;&gt;SMSSW&lt;/a&gt; on Facebook.&lt;/p&gt;
+
+&lt;h2&gt;Montana&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mtwx&#34;&gt;mtwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nebraska&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/newx&#34;&gt;newx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nevada&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nvwx&#34;&gt;nvwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;New Hampshire&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nhwx&#34;&gt;nhwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;New Jersey&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/njwx&#34;&gt;njwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.bergenskywarn.org/&#34;&gt;Bergen Skywarn&lt;/a&gt; covers Bergen and Passaic counties. Twitter: @&lt;a href=&#34;https://twitter.com/WX2BC&#34;&gt;WX2BC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.capemayskywarn.net/&#34;&gt;Cape May County Skywarn&lt;/a&gt; is 147.42 simplex. &lt;/p&gt;
+
+&lt;h2&gt;New Mexico&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nmwx&#34;&gt;nmwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;New York&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nywx&#34;&gt;nywx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nyc-skywarn.org/&#34;&gt;New York City Skywarn&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2&gt;North Carolina&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ncwx&#34;&gt;ncwx&lt;/a&gt;. Wilmington area: #&lt;a href=&#34;http://tchat.io/rooms/ilmwx&#34;&gt;ilmwx&lt;/a&gt;. Eastern North Carolina: #&lt;a href=&#34;http://tchat.io/rooms/encwx&#34;&gt;encwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;SE North Carolina: &lt;a href=&#34;https://www.facebook.com/pages/RBC-Skywarn/296347410513805&#34;&gt;RBC Skywarn (Facebook)&lt;/a&gt;. Attached to &lt;a href=&#34;http://www.weather.gov/ilm/&#34;&gt;NWS Wilmington, NC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ccskywarn.net/&#34;&gt;Central Carolina Skywarn&lt;/a&gt; web site. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/5620&#34;&gt;Monitor Central Carolina Skywarn&lt;/a&gt; WB4TQD on Broadcastify; serves Raleigh, NC and surrounding counties.&lt;/p&gt;
+
+&lt;h2&gt;North Dakota&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ndwx&#34;&gt;ndwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Ohio&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ohwx&#34;&gt;ohwx&lt;/a&gt;. Cincinnati area #&lt;a href=&#34;http://tchat.io/rooms/cincywx&#34;&gt;cincywx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.severe-weather.org/&#34;&gt;Central Ohio Severe Weather Network&lt;/a&gt; supports NWS Wilmington, OH.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ccskywarn.org/&#34;&gt;Cuyahoga County Skywarn&lt;/a&gt; supports the Cleveland area. Twitter: @&lt;a href=&#34;https://twitter.com/CuyahogaSkywarn&#34;&gt;CuyahogaSkywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cincinnati&#39;s &lt;a href=&#34;http://warn.org&#34;&gt;Weather Amateur Radio Network&lt;/a&gt; (WARN). Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/5096&#34;&gt;W8NWS&lt;/a&gt; on Broadcastify. 146.88 MHz. 17 counties surrounding Hamilton County, Ohio. Twitter: @&lt;a href=&#34;http://twitter.com/cincyskywarn&#34;&gt;CincySkywarn&lt;/a&gt;, #&lt;a href=&#34;http://tchat.io/rooms/cincywx&#34;&gt;cincywx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Oklahoma&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/okwx&#34;&gt;okwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.radioreference.com/apps/db/?aid=1871&#34;&gt;Oklahoma weather frequencies&lt;/a&gt; on Radio Reference.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.okarkskywarn.org/&#34;&gt;Eastern Oklahoma / Northwestern Arkansas Skywarn&lt;/a&gt; is out of Tulsa, Oklahoma. Station [WX5TUL].&lt;/p&gt;
+
+&lt;h2&gt;Oregon&lt;/h2&gt;
+
+&lt;h2&gt;Pennsylvania&lt;/h2&gt;
+
+&lt;h2&gt;Rhode Island&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/riwx&#34;&gt;riwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;South Carolina&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/scwx&#34;&gt;scwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;South Dakota&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/sdwx&#34;&gt;sdwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Tennessee&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/tnwx&#34;&gt;tnwx&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.etskywarn.net/&#34;&gt;East Tennessee Skywarn&lt;/a&gt;, and a twitter feed @&lt;a href=&#34;https://twitter.com/etskywarn&#34;&gt;etskywarn&lt;/a&gt;. Knoxville area.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/MiddleTennesseeSkywarnSpotters&#34;&gt;Middle Tennessee Skywarn Spotters&lt;/a&gt; (Facebook; not active). Nashville area.
+&lt;a href=&#34;http://mtears.org/sns/&#34;&gt;MTEARS&lt;/a&gt; radio network. &lt;a href=&#34;http://nashvillesevereweather.com/&#34;&gt;Nashville Severe Weather&lt;/a&gt; web site, @&lt;a href=&#34;http://twitter.com/nashseverewx&#34;&gt;NashSevereWX&lt;/a&gt;. Spotter reports from Nashville, #&lt;a href=&#34;http://tchat.io/rooms/tspotter&#34;&gt;tspotter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Memphis area: #&lt;a href=&#34;http://tchat.io/rooms/memwx&#34;&gt;memwx&lt;/a&gt;. Spotter reports from Memphis, #&lt;a href=&#34;http://tchat.io/rooms/mspotter&#34;&gt;mspotter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Texas&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/txwx&#34;&gt;txwx&lt;/a&gt;. Dallas/Fort Worth, #&lt;a href=&#34;http://www.tchat.io/rooms/dfwwx&#34;&gt;dfwwx&lt;/a&gt;. Lubbock, #&lt;a href=&#34;http://www.tchat.io/rooms/lubwx&#34;&gt;lubwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fort Worth / Dallas: @&lt;a href=&#34;http://twitter.com/wx5fwd&#34;&gt;wx5fwd&lt;/a&gt;, NWS Fort Worth Skywarn radio desk. &lt;a href=&#34;http://wx5fwd.org/&#34;&gt;WX5FWD SKYWARN Team&lt;/a&gt; web site. EchoLink conference &lt;em&gt;WX5FWD&lt;/em&gt; (372418).&lt;/p&gt;
+
+&lt;p&gt;Denton County: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/8307&#34;&gt;W5NGU 146.920&lt;/a&gt; via Broadcastify. &lt;a href=&#34;http://www.dcara.net/&#34;&gt;Denton County Amateur Radio Association&lt;/a&gt; web site. &lt;a href=&#34;http://www.denton-ares.org/&#34;&gt;Denton ARES&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Wichita County: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/4682/&#34;&gt;Wichita County ARES 146.940&lt;/a&gt; via Broadcastify.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://skywarn.n4ki.us/&#34;&gt;East Texas Skywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Utah&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/utwx&#34;&gt;utwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Vermont&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/vtwx&#34;&gt;vtwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Virginia&lt;/h2&gt;
+
+&lt;h2&gt;Washington State&lt;/h2&gt;
+
+&lt;h2&gt;West Virginia&lt;/h2&gt;
+
+&lt;h2&gt;Wisconsin&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/wiwx&#34;&gt;wiwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mke-skywarn.org&#34;&gt;Milwaukee Area Skywarn Association&lt;/a&gt;, Twitter @&lt;a href=&#34;http://twitter.com/mkeskywarn&#34;&gt;mkeskywarn&lt;/a&gt;. Weather nets are on the 146.91 repeater; listen to the &lt;a href=&#34;http://www.mrc91.org/index.html&#34;&gt;Milwaukee Radio Club&lt;/a&gt; WI9MRC directly, or &lt;a href=&#34;https://www.broadcastify.com/listen/feed/12865&#34;&gt;WI9MRC 146.91&lt;/a&gt; on Broadcastify.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.wx9grb.org/&#34;&gt;Packerland Amateur Skywarn Society&lt;/a&gt;, serving the Green Bay area. Twitter @&lt;a href=&#34;http://twitter.com/WX9GRBSkywarn&#34;&gt;WX9GRBSkywarn&lt;/a&gt;. Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/15791&#34;&gt;Green Bay Area Repeaters&lt;/a&gt; on Broadcastify.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.midwestsstrc.org/&#34;&gt;MidWest SSTRC&lt;/a&gt; covers the Madison area. Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/10414&#34;&gt;MidWest Amateur Severe Storm Tracking Response Center&lt;/a&gt; on Broadcastify.&lt;/p&gt;
+
+&lt;h2&gt;Wyoming&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>decoding radio digital modes without a radio, using WebSDR and fldigi</title>
+      <link>http://localhost:1313/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</link>
+      <pubDate>Sun, 09 Feb 2014 02:23:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</guid>
+      <description>&lt;p&gt;I&#39;m interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to &#34;listen&#34; to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Fldigi-HB9ERN&#34; title=&#34;Fldigi-HB9ERN&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I think I have all of the components, but I have yet to be able to get everything to work as expected. Here&#39;s what I have:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;WebSDR&lt;/a&gt; from http://websdr.ewi.utwente.nl:8901/ . This is a software-defined radio tuning  to the radio airwaves at the University of Twente in the Netherlands; it runs in your browser. There are 87 of these systems running around the world, listed at &lt;a href=&#34;http://websdr.org/&#34;&gt;websdr.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.w1hkj.com/Fldigi.html&#34;&gt;fldigi&lt;/a&gt; from http://www.w1hkj.com/Fldigi.html . This software for Windows, Linux and OS X, runs on your local system and takes an audio signal and decodes it in one of many digital modes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://code.google.com/p/soundflower/&#34;&gt;Soundflower&lt;/a&gt; from https://code.google.com/p/soundflower/ . This is a Mac system extension that allows you to redirect the audio output of one program (e.g. your browser) into the audio input of another program (e.g. fldigi). Not strictly necessary because the fldigi can also just decode whatever it hears through the computer&#39;s built in microphone. I picked up the recommendation from an article on &lt;a href=&#34;http://www.hamradioandvision.com/websdr-digital-modes/&#34;&gt;HamRadioAndVision&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A number of people have done Youtube videos describing what they are doing to make this work. For example, &lt;a href=&#34;http://www.oz9aec.net/index.php/component/content/article/63-sdr/290-fun-with-websdr-and-fldigi&#34;&gt;OZ9AEC&lt;/a&gt; has a 6 minute Youtube from 2009 shows reception in single channel and multichannel mode. He doesn&#39;t use Soundflower, just the built in mic of his Mac.&lt;/p&gt;
+
+&lt;p&gt;Not described here - and probably what I need to figure out next - are two key bits of information. Where do you tune to pick up digital signals? And, more importantly, which decoder do you use? It&#39;s not hard to pick out which modulation is being used if you have some practice, but as of this writing I couldn&#39;t readily tell you what WEFAX sounds like compared to RTTY. Still sorting through those details before I can claim to have mastered this.&lt;/p&gt;
+
+&lt;p&gt;Note also that this should work with a local software-defined radio as well, or even with a &#34;hardware-defined radio&#34; placed near your mic or patched in with a mic cable.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chasing the elusive weather balloon</title>
+      <link>http://localhost:1313/post/2012/2012-06-08-chasing-the-elusive-weather-balloon/</link>
+      <pubDate>Fri, 08 Jun 2012 08:26:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-06-08-chasing-the-elusive-weather-balloon/</guid>
+      <description>&lt;p&gt;Thursday&amp;#39;s adventure was &lt;a href=&#34;http://drgeorgesk.blogspot.com/&#34; target=&#34;_self&#34;&gt;George Albercook&amp;#39;s launch&lt;/a&gt; and successful retrieval of a &lt;a class=&#34;zem_slink&#34; href=&#34;http://en.wikipedia.org/wiki/Weather_balloon&#34; rel=&#34;wikipedia&#34; target=&#34;_blank&#34; title=&#34;Weather balloon&#34;&gt;weather balloon&lt;/a&gt;, with a payload of radios, cameras, and GPS &lt;a class=&#34;zem_slink&#34; href=&#34;http://en.wikipedia.org/wiki/Telemetry&#34; rel=&#34;wikipedia&#34; target=&#34;_blank&#34; title=&#34;Telemetry&#34;&gt;telemetry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here&amp;#39;s a map of the &lt;a href=&#34;http://aprs.fi/#!mt=roadmap&amp;amp;z=11&amp;amp;call=a%2FKC8SBA&amp;amp;timerange=21600&#34; target=&#34;_self&#34;&gt;telemetry that was visible through APRS.FI&lt;/a&gt;&amp;#0160;for the duration of the launch. The device is identified as &lt;a href=&#34;http://aprs.fi/#!mt=roadmap&amp;amp;z=9&amp;amp;call=a%2FKC8SBA&amp;amp;timerange=21600&#34; target=&#34;_self&#34;&gt;KC8SBA&lt;/a&gt;. Note that for some reason tracking didn&amp;#39;t pick up until a few minutes after the launch, and the tracking was also silent for a while until just before the descent.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0163063d3688970d-pi&#34;&gt;&lt;img alt=&#34;Kc8sba-weather-balloon-telemetry&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0163063d3688970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0163063d3688970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Kc8sba-weather-balloon-telemetry&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Another view of the same area is from the &lt;a href=&#34;http://fultonoh-auditor.ddti.net/Map.aspx&#34; target=&#34;_self&#34;&gt;Fulton County (Ohio) Auditor&amp;#39;s map,&lt;/a&gt;&amp;#0160;the organizationresponsible for property assessments. Their online mapping system shows parcel by parcel ownership so that if you did need to find the spot by owner you could. A field near to the one that the balloon&amp;#39;s payload landed in looks like this, with big squares of farmland:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017615266d6e970c-pi&#34;&gt;&lt;img alt=&#34;Map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017615266d6e970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017615266d6e970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Map&#34; /&gt;&lt;/a&gt;&lt;br /&gt;The &lt;a href=&#34;https://www.facebook.com/AlbercookScientific&#34; target=&#34;_self&#34;&gt;Albercook Scientific timeline on Facebook&lt;/a&gt;&amp;#0160;has many more details, and I&amp;#39;m sure that once all of the pictures from the payload are decoded there will be more pictures and explanation of how this all came together!&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What do you tune into during severe weather?</title>
+      <link>http://localhost:1313/post/2011/2011-05-29-severe-weather/</link>
+      <pubDate>Sun, 29 May 2011 22:02:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-05-29-severe-weather/</guid>
+      <description>&lt;p&gt;I get all the news I need from the weather report. Here&amp;#39;s where I get the weather report from.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;, to chat with people who are also in their basements. The local hash tag is &lt;a href=&#34;https://twitter.com/#!/search/%23miwx&#34; target=&#34;_self&#34;&gt;#miwx&lt;/a&gt; for severe weather. I have a list &lt;a href=&#34;http://twitter.com/vielmetti/weather&#34; target=&#34;_self&#34;&gt;@vielmetti/weather&lt;/a&gt; that I follow for the news.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://wunderground.com&#34; target=&#34;_self&#34;&gt;Weather Underground&lt;/a&gt; for radar and forecasts and what not. I like the &lt;a href=&#34;http://classic.wunderground.com&#34; target=&#34;_self&#34;&gt;classic version of the user interface&lt;/a&gt;, which is busy and deep and which I know well enough to navigate. The &lt;a href=&#34;http://m.wund.com/&#34; target=&#34;_self&#34;&gt;minimalist mobile version of the site&lt;/a&gt;&amp;#0160;is starkly unbusy and works fine even on a relatively dumb smart phone. &amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SKYWARN&lt;/strong&gt;, the local ham radio emergency weather channel. The local repeater is&amp;#0160;&lt;a href=&#34;http://arborwiki.org/city/N8DUY&#34; target=&#34;_self&#34;&gt;N8DUY&lt;/a&gt;, located near I-94 and M-14 in Scio Township, available at&amp;#0160;145.150&amp;#0160;Mhz or via the&amp;#0160;&lt;a href=&#34;http://www.radioreference.com/apps/audio/?action=wp&amp;amp;feedId=5230&#34; target=&#34;_self&#34;&gt;Radio Reference relay online&lt;/a&gt;. This is the single best source of real time news during events.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.dteenergy.com/map/outage.html&#34; target=&#34;_self&#34;&gt;DTE Energy outage map&lt;/a&gt;&amp;#0160;is good for tracking storm damage starting about 30 minutes after the storm has gone through - you start to pick up which power outages will take a long time to fix. Note in this map below from Sunday, May 29, 2011, that the storm damage near Lansing ends at the DTE boundary; that doesn&amp;#39;t mean there isn&amp;#39;t more storm damage, only that I don&amp;#39;t have a map of the other.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88c2d284970d-pi&#34;&gt;&lt;img alt=&#34;Picture 22&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e88c2d284970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88c2d284970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 22&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Television&lt;/strong&gt;, which we don&amp;#39;t have for over the air reception. WDIV Channel 4 &amp;quot;Click On Detroit&amp;quot; has useful email weather alerts and a &lt;a href=&#34;http://detroit.justweather.com/&#34; target=&#34;_self&#34;&gt;Detroit JustWeather&lt;/a&gt; page, and WXYZ Channel 7&amp;#39;s &lt;a href=&#34;https://twitter.com/#!/search/%23backchannel&#34; target=&#34;_self&#34;&gt;#backchannel&lt;/a&gt; on Twitter always has good chatter from the news desk there.&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AM/FM radio&lt;/strong&gt;. Locally the best bet is &lt;a href=&#34;http://weather.detroit.cbslocal.com/auto/wwjtvV4/MI/Detroit.html&#34; target=&#34;_self&#34;&gt;WWJ &amp;quot;News radio 950&lt;/a&gt;&amp;quot;, with traffic and weather together on the 8&amp;#39;s; it&amp;#39;s intended to be listened to while you are driving, and they do talk&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weather band radio, &lt;/strong&gt;which speaks in a synthesized scary voice. There are receivers that only turn on when there is an alert in your area, but I don&amp;#39;t have one. &lt;a href=&#34;http://www.crh.noaa.gov/dtx/wxradio.php&#34; target=&#34;_self&#34;&gt;Details from National Weather Service Detroit&lt;/a&gt; about the network of weather radios in the area.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weather facsimile&lt;/strong&gt;. Again, never have managed to do this, but if you have the right radio you can decode faxes with weather maps on the that are broadcast over the air. Also known as WEFAX, the technology dates from the 1920s. Details if you are good at such things from &lt;a href=&#34;http://www.nws.noaa.gov/om/marine/radiofax.htm&#34;&gt;National Weather Service marine forecast services&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be able to get real time notifications of severe weather even if you have no power, no cell tower, and no Internet; that&amp;#39;s why you have batteries for your radio.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;405&#34; src=&#34;http://www.youtube.com/embed/K0oMPfigUWY&#34; width=&#34;500&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;
+&lt;div class=&#34;zemanta-article-ul zemanta-article-ul-image&#34; style=&#34;margin: 0; padding: 0; overflow: hidden;&#34;&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/05/power-outage-mapping.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/88105452_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/05/power-outage-mapping.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Power Outage Mapping&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/05/severe-weather.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_75_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/05/severe-weather.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;What do you tune into during severe weather?&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/06/dte-substation-fire-and-ann-arbor-power-outage-june-28-2012.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/97196957_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/06/dte-substation-fire-and-ann-arbor-power-outage-june-28-2012.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;DTE substation fire and Ann Arbor power outage, June 28, 2012&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/04/severe-weather-expected-sunday-april-15-2012.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/84345573_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/04/severe-weather-expected-sunday-april-15-2012.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Severe weather expected Sunday, April 15, 2012 for #annarbor area #miwx&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

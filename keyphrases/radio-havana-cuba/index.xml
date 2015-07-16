@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radio Havana Cuba on tracker</title>
+    <link>http://localhost:1313/keyphrases/radio-havana-cuba/</link>
+    <description>Recent content in Radio Havana Cuba on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Dec 2014 15:36:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/keyphrases/radio-havana-cuba/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Listening to Radio Havana Cuba via shortwave</title>
+      <link>http://localhost:1313/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</link>
+      <pubDate>Wed, 17 Dec 2014 15:36:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</guid>
+      <description>&lt;p&gt;Radio Havana Cuba was one of my cold war era shortwave radio presets. I don&#39;t have a working shortwave radio of my own any more, and the miracle of the Internet means that you can now tune in broadcasts directly from the broadcaster without the inconvenience of shortwave tuning.&lt;/p&gt;
+
+&lt;p&gt;The best way really to listen to a station like R Havana Cuba is via shortwave. Here are a couple of ways that you can do that. Note that broadcasts in English are not 24 hours a day, and that shortwave reception varies widely by time of day and location of receiving station.&lt;/p&gt;
+
+&lt;p&gt;The key to do this is to acquaint yourself with &lt;a href=&#34;http://websdr.org/&#34;&gt;WebSDR&lt;/a&gt;, a project that allows multiple listeners to tune into the signal of a single wideband radio. You&#39;ll need to pick a receiver that has an antenna that covers the appropriate part of the broadcast band, and you&#39;ll need also a schedule for when the station is broadcasting.&lt;/p&gt;
+
+&lt;p&gt;Many shortwave schedules and stations can be located via &lt;a href=&#34;http://www.short-wave.info/&#34;&gt;short-wave.info&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0abdf50970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; title=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a schedule and a frequency, use WebSDR to find a suitable listening location. My two favorites for monitoring Havana are the original &lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;WedSDR at U Twente&lt;/a&gt; and &lt;a href=&#34;http://96.225.100.244:8902/&#34;&gt;K2SDR in New Jersey&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Of course you can tune in via &lt;a href=&#34;http://tunein.com/radio/Radio-Havana-Cuba-p1687/&#34;&gt;TuneIn&lt;/a&gt; and get to the broadcast direct. The sound will be more clear, and the reception more reasonable. But there&#39;s really something to be said for experiencing broadcast radio through the medium of radio rather than this newfangled Internet thing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

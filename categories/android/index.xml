@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on tracker</title>
+    <link>http://localhost:1313/categories/android/</link>
+    <description>Recent content in Android on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Sep 2014 08:44:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>github on the very small screen is not much fun</title>
+      <link>http://localhost:1313/post/2014/2014-09-30-github-on-the-very-small-screen-is-not-much-fun/</link>
+      <pubDate>Tue, 30 Sep 2014 08:44:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-30-github-on-the-very-small-screen-is-not-much-fun/</guid>
+      <description>&lt;p&gt;Github is not much fun on a very small screen.&lt;/p&gt;
+
+&lt;p&gt;Octodroid does a competent job of letting you add comments to issues and scrolling through issues. It isn&#39;t so wonderful if you have gone to some trouble to categorize issues by milestone.&lt;/p&gt;
+
+&lt;p&gt;None of the github Android clients I have give any access to the github wiki.&lt;/p&gt;
+
+&lt;p&gt;Mostly the difficult part is that I had a well worked out workflow that moved open issues or if my inbox and into github, and the small screen simply does not make that a smooth process. Short of getting a bigger screen, I don&#39;t see any way to support that kind of flow on a small device.&lt;/p&gt;
+
+&lt;p&gt;I simply do not see enough on this little device screen to make it useful for assisting decision making about what to do next. While an omnipresent device is ideal for instant response to the top of the inbox, it is really limiting for handling overflow situations.&lt;/p&gt;
+
+&lt;p&gt;If I had to stick to the small screen indefinitely I would cancel some projects that are just too frustrating to keep up with. Surprisingly, blogging would stay. Pushing out commentary in an unlinked one way scroll only demands a modest typing skill and has only a minimum need for structure. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some new apps for my Android phone</title>
+      <link>http://localhost:1313/post/2014/2014-03-02-some-new-apps-for-my-android-phone/</link>
+      <pubDate>Sun, 02 Mar 2014 17:13:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-03-02-some-new-apps-for-my-android-phone/</guid>
+      <description>&lt;p&gt;I organize lunch on Thursdays every week, and I ask my lunch group a question so that people can say a few words after they introduce themselves. This week the food was at &lt;a href=&#34;http://arborwiki.org/Taco_King&#34;&gt;Taco King&lt;/a&gt; (yummy) and the question was about new apps for people&#39;s phones that they added, or apps that they uninstalled. It was a good way to get some insight into the new parts of the net that are explored only through apps.&lt;/p&gt;
+
+&lt;p&gt;Some new ones to me or recommendations that were shared included:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mywickr.com/en/index.php&#34;&gt;Wickr&lt;/a&gt;, a secure messaging app with self-destructing messages like Snapchat&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt;, an instant messaging app like WhatsApp&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://slack.com&#34;&gt;Slack&lt;/a&gt;, the mobile client for the IRC-like group network&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mapillary.com/&#34;&gt;Mapillary&lt;/a&gt;, a crowd-sourced version of Google Street View&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gasbuddy.com/GasBuddyMobileApps.aspx&#34;&gt;GasBuddy&lt;/a&gt;, a crowd-sourced view of gasoline prices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is just a fraction of all of the apps listed. It feels like the app space still has a lot of room in it for innovation, but you&#39;ll notice that for each of these my short description is harkening back to some other application that more people know about. &lt;/p&gt;
+
+&lt;p&gt;What&#39;s your favorite new app? Email me, or @vielmetti on Twitter, or post a comment here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

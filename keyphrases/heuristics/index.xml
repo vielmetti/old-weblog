@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heuristics on tracker</title>
+    <link>http://localhost:1313/keyphrases/heuristics/</link>
+    <description>Recent content in Heuristics on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2008 09:00:39 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/keyphrases/heuristics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Expert heuristics for problem solving - George Polya&#39;s &#34;How To Solve It&#34;</title>
+      <link>http://localhost:1313/post/2008/2008-05-09-expert-heuristi/</link>
+      <pubDate>Fri, 09 May 2008 09:00:39 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-05-09-expert-heuristi/</guid>
+      <description>&lt;p&gt;It is characteristic of an expert to have a systematic approach to problem solving.&lt;/p&gt;
+
+&lt;p&gt;A very good example of this is George Polya&#39;s &lt;a href=&#34;http://edwardvielmetti.vox.com/library/post/this-book-wow.html&#34;&gt;How To Solve It&lt;/a&gt;, subtitled &#34;A new aspect of the mathematical method&#34;.  In it he prepares the math student for a problem solving approach, not so much by the memorization of zillions of dry facts, but an approach and a set of heuristics (read &#34;methods&#34;, &#34;rules&#34;, or even &#34;hacks&#34;) for dealing with a broad range of mathematical questions, discovery and invention.&lt;/p&gt;
+
+&lt;p&gt;The core of How To Solve It is a structured approach to problem solving, and a dictionary of techniques which can be applied to this structure. &lt;/p&gt;
+
+&lt;p&gt;First. You have to understand the problem.&lt;br /&gt;
+Second.  Find the connection between the data and the unknown.  You may be obliged to consider auxiliary problems if an immediate connection cannot be found.  You should obtain eventually a plan of the solution.&lt;br /&gt;
+Third.  Carry out your plan.&lt;br /&gt;
+Fourth.  Examine the solution obtained.&lt;/p&gt;
+
+&lt;p&gt;The dictionary of heuristic follows with short pithy entries on technique, questions like &#34;What is the unknown?&#34; and strategies like &#34;Decomposing and recombining&#34;.&lt;/p&gt;
+
+&lt;p&gt;This book is a math book, but more than that it&#39;s a way of thinking about things - and as such, I&#39;ve found it useful to refer to whenever I embark on a new project to help me understand what I&#39;m after and the sorts of things I need to learn along the way to get to a satisfactory answer.  It is as well a brilliant example of how to distill expertise into a handbook which can carry on teaching long after the expert is gone.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

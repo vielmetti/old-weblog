@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vermont on tracker</title>
+    <link>http://localhost:1313/maps/vermont/</link>
+    <description>Recent content in Vermont on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Aug 2011 02:11:57 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/maps/vermont/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2011 Vermont flood maps after Irene</title>
+      <link>http://localhost:1313/post/2011/2011-08-30-2011-vermont-flood-maps-irene/</link>
+      <pubDate>Tue, 30 Aug 2011 02:11:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-08-30-2011-vermont-flood-maps-irene/</guid>
+      <description>&lt;p&gt;Vermont was hard hit by Irene. There are lots of photos and videos out there showing some of the devastation and flooding; here are maps that give some sense for the area involved.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/pages/Vermont-Flooding-2011/212455332141871&#34; target=&#34;_self&#34;&gt;Vermont Flooding 2011 on Facebook&lt;/a&gt;&amp;#0160;is a good community resource, as is &lt;a href=&#34;https://www.facebook.com/MRVpostIrene&#34; target=&#34;_self&#34;&gt;Mad River Valley Hurricane Irene&lt;/a&gt;. For volunteer coordination, see the &lt;a href=&#34;http://vtresponse.wordpress.com/&#34; target=&#34;_self&#34;&gt;VTResponse&lt;/a&gt; weblog.&lt;/p&gt;
+&lt;p&gt;Detailed city maps showing flooded areas are not yet available. FEMA maps show the most vulnerable areas, and are available for &lt;a href=&#34;http://www.ci.burlington.vt.us/planning/zoning/flood_recovery/sfha_maps.php&#34; target=&#34;_self&#34;&gt;Burlington&lt;/a&gt;,&amp;#0160;&lt;a href=&#34;http://www.montpelier-vt.org/community/344.html&#34; target=&#34;_self&#34;&gt;Montpelier&lt;/a&gt;, &lt;a href=&#34;http://www.waitsfieldvt.us/flood/FIRM.cfm&#34; target=&#34;_self&#34;&gt;Waitsfield&lt;/a&gt;, and other cities.&lt;/p&gt;
+&lt;p&gt;A collaborative map of the incident is &lt;a href=&#34;http://vtirene.crowdmap.com/&#34; target=&#34;_self&#34;&gt;VTIrene&lt;/a&gt;, hosted on Crowdmap. Another &lt;a href=&#34;http://www.scoop.it/t/vtirene&#34; target=&#34;_self&#34;&gt;VTIrene collection by Dan Dowling on Scoop.IT&lt;/a&gt;&amp;#0160;has an aggregation of news, video, and twitter accounts.&lt;/p&gt;
+&lt;p&gt;Compare with the 1927 flood; the Landscape Change Program at the University of Vermont has &lt;a href=&#34;http://www.uvm.edu/landscape/1927_flood/&#34; target=&#34;_self&#34;&gt;aerial photography of that event.&lt;/a&gt;&amp;#0160;See the National Weather Service&amp;#39;s &lt;a href=&#34;http://www.erh.noaa.gov/btv/events/27flood.shtml&#34; target=&#34;_self&#34;&gt;Flood of 1927&lt;/a&gt; information.&lt;/p&gt;
+&lt;p&gt;River information from the &lt;a href=&#34;http://www.erh.noaa.gov/nerfc/&#34; target=&#34;_self&#34;&gt;Northeast River Forecast Center (RFC).&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015434f48f3d970c-pi&#34;&gt;&lt;img alt=&#34;Vermont-river-conditions&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef015434f48f3d970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015434f48f3d970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Vermont-river-conditions&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vermont road information from VTrans. Please check current road conditions; this is not a current road map. An &lt;a href=&#34;http://511.vermont.gov/main.jsf&#34; target=&#34;_self&#34;&gt;interactive Google map of Vermont highway conditions&lt;/a&gt; has more precision.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e8b14cbd3970d-pi&#34;&gt;&lt;img alt=&#34;VT_statewide&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e8b14cbd3970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e8b14cbd3970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;VT_statewide&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;oe=UTF8&amp;amp;msa=0&amp;amp;msid=207918639007223745572.0004abbcfd13f9b62a59d&#34; target=&#34;_self&#34;&gt;Vermont New Road Closures&lt;/a&gt; is a crowd-sourced map, which includes information about local roads not otherwise noted on the official map. This is a snapshot from August 31, 2011.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01543502a7f8970c-pi&#34;&gt;&lt;img alt=&#34;Vermont-new-road-closures&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01543502a7f8970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01543502a7f8970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Vermont-new-road-closures&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://crisislanding.appspot.com/?crisis=2011_flooding_vermont&#34; target=&#34;_self&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://crisislanding.appspot.com/?crisis=2011_flooding_vermont&#34; target=&#34;_self&#34;&gt;Google.org&amp;#39;s Vermont Flooding 2011 map&lt;/a&gt;&amp;#0160;has a series of map overlays; this one depicts bridges out, roads closed, and towns that are isolated. Much of the data can be downloaded in KML formats, and the interactive version of this lets you zoom in; this snapshot is observed August 31, 2011.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0153912f41b4970b-pi&#34;&gt;&lt;img alt=&#34;Google-crisis-response-vermont-2011&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0153912f41b4970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0153912f41b4970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Google-crisis-response-vermont-2011&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;One day and seven day precipitation totals, from &lt;a href=&#34;http://www.erh.noaa.gov/nerfc/obsprecip.shtml&#34; target=&#34;_self&#34;&gt;NERFC&lt;/a&gt; and &lt;a href=&#34;http://water.weather.gov/precip/&#34; target=&#34;_self&#34;&gt;AHPS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015434f4abfc970c-pi&#34;&gt;&lt;img alt=&#34;Northeast-one-day-rainfall&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef015434f4abfc970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015434f4abfc970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Northeast-one-day-rainfall&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e8b14e11d970d-pi&#34;&gt;&lt;img alt=&#34;Northeast-seven-day-rainfall&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e8b14e11d970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e8b14e11d970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Northeast-seven-day-rainfall&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

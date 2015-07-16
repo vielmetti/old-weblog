@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Havana Cuba on tracker</title>
+    <link>http://localhost:1313/cities/havana-cuba/</link>
+    <description>Recent content in Havana Cuba on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 May 2015 22:04:12 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/cities/havana-cuba/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Two repaired shortwave receivers in one day !</title>
+      <link>http://localhost:1313/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</link>
+      <pubDate>Sun, 17 May 2015 22:04:12 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</guid>
+      <description>&lt;p&gt;From the fix-it-yourself department, two successful radio repairs in one day.&lt;/p&gt;
+
+&lt;p&gt;For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. &lt;/p&gt;
+
+&lt;p&gt;For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again. I&#39;m especially happy about the Sony because I had feared that it was a complicated repair. There&#39;s some corrosion on the battery terminals and I might be forewarned that would be the first thing to look at again. A discussion of another repair is written up by &lt;a href=&#34;http://idlenot.com/?p=1481&#34;&gt;KE1RI&lt;/a&gt; to replace an audio capacitor, fortunately I haven&#39;t had to do that.&lt;/p&gt;
+
+&lt;p&gt;Both stations are tuned to R Havana Cuba&#39;s Sunday night programming on 6000 KHz.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Listening to Radio Havana Cuba via shortwave</title>
+      <link>http://localhost:1313/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</link>
+      <pubDate>Wed, 17 Dec 2014 15:36:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</guid>
+      <description>&lt;p&gt;Radio Havana Cuba was one of my cold war era shortwave radio presets. I don&#39;t have a working shortwave radio of my own any more, and the miracle of the Internet means that you can now tune in broadcasts directly from the broadcaster without the inconvenience of shortwave tuning.&lt;/p&gt;
+
+&lt;p&gt;The best way really to listen to a station like R Havana Cuba is via shortwave. Here are a couple of ways that you can do that. Note that broadcasts in English are not 24 hours a day, and that shortwave reception varies widely by time of day and location of receiving station.&lt;/p&gt;
+
+&lt;p&gt;The key to do this is to acquaint yourself with &lt;a href=&#34;http://websdr.org/&#34;&gt;WebSDR&lt;/a&gt;, a project that allows multiple listeners to tune into the signal of a single wideband radio. You&#39;ll need to pick a receiver that has an antenna that covers the appropriate part of the broadcast band, and you&#39;ll need also a schedule for when the station is broadcasting.&lt;/p&gt;
+
+&lt;p&gt;Many shortwave schedules and stations can be located via &lt;a href=&#34;http://www.short-wave.info/&#34;&gt;short-wave.info&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0abdf50970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; title=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a schedule and a frequency, use WebSDR to find a suitable listening location. My two favorites for monitoring Havana are the original &lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;WedSDR at U Twente&lt;/a&gt; and &lt;a href=&#34;http://96.225.100.244:8902/&#34;&gt;K2SDR in New Jersey&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Of course you can tune in via &lt;a href=&#34;http://tunein.com/radio/Radio-Havana-Cuba-p1687/&#34;&gt;TuneIn&lt;/a&gt; and get to the broadcast direct. The sound will be more clear, and the reception more reasonable. But there&#39;s really something to be said for experiencing broadcast radio through the medium of radio rather than this newfangled Internet thing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

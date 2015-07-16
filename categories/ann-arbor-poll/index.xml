@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ann Arbor Poll on tracker</title>
+    <link>http://localhost:1313/categories/ann-arbor-poll/</link>
+    <description>Recent content in Ann Arbor Poll on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Mar 2011 22:11:33 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ann-arbor-poll/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What are we going to do about South U? Vote early, vote often!</title>
+      <link>http://localhost:1313/post/2011/2011-03-31-poll-ann-arbor-south-university/</link>
+      <pubDate>Thu, 31 Mar 2011 22:11:33 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-03-31-poll-ann-arbor-south-university/</guid>
+      <description>&lt;p&gt;For reference, see the Arborwiki &lt;a href=&#34;http://arborwiki.org/city/South_University&#34;&gt;South University&lt;/a&gt; page, which has some fragments of history that might be referenced in one or more poll items.&lt;/p&gt;
+&lt;p&gt;
+&lt;iframe src=&#34;http://widget.allourideas.org/a2southu&#34; width=500 height=410 frameborder=0 scrolling=&#34;no&#34;&gt; &lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edward Vielmetti misses Steve&#39;s Lunch.&lt;/em&gt;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

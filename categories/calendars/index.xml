@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calendars on tracker</title>
+    <link>http://localhost:1313/categories/calendars/</link>
+    <description>Recent content in Calendars on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Jan 2008 10:26:50 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/calendars/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to keep your new year&#39;s resolution</title>
+      <link>http://localhost:1313/post/2008/2008-01-03-how-to-keep-you/</link>
+      <pubDate>Thu, 03 Jan 2008 10:26:50 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-01-03-how-to-keep-you/</guid>
+      <description>&lt;p&gt;
+Every year about this time, people make a bunch of promises to themselves, spurred on by blank pages in the shiny new calendar.  And every year, sometime in the next few weeks, they will be regretting all of those new commitments and will slide back to their old habits.
+&lt;/p&gt;&lt;p&gt;
+Here&#39;s some set of resolutions I have made for myself, and some way to keep them over time.
+&lt;/p&gt;&lt;p&gt;
+1.  Walk 10000 steps a day, seasonally adjusted.  I&#39;m doing this with the help of &lt;a href=&#34;http://www.walkertracker.com&#34;&gt;Walker Tracker&lt;/a&gt;, which I&#39;ve been using long enough to get some sense for seasonal variation in my exercise (and my motivation to track exercise) based on the weather and the shorter days.  January is actually the easy month for this since the weather isn&#39;t getting worse; the hard months are October and November.  Time commitment is 5-10 minutes every 2 or 3 days to upload the numbers; my pedometer has a 7 day memory so I can miss a day and still be in sync.
+&lt;/p&gt;&lt;p&gt;
+2.  Remember people&#39;s birthdays.  The current birthday-tracking tools are Google Calendar, Facebook, and the Mac OS Address Book; they all fail to notify me enough ahead of time to stick something in the mail.    Perhaps I should switch to my sister&#39;s strategy of remembering birth months, which allows for making this a 12x/year task instead of a 365x/year task.  Time commitment is a couple of hours once or twice a month, plus eternal vigilance for keeping track of people&#39;s birthdays.
+&lt;/p&gt;&lt;p&gt;
+3.  Send a postcard.  This should be an attainable goal, but I&#39;m currently just a tiny bit away from having all of the materials at hand to send a postcard to anyone I know at any time.  The current bottleneck is postage stamps - I have postcards a-plenty, and enough postal addresses in enough places to get by.  The Post Office has a &lt;a href=&#34;http://shop.usps.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10152&amp;amp;storeId=10001&amp;amp;categoryId=11833&amp;amp;productId=21414&amp;amp;langId=-1&#34;&gt;postcard stamps by mail&lt;/a&gt; subscription, which would send 100 postcard stamps per month for $26; that seems a little much, though it would force the issue.  Time commitment is about 15 minutes a card now, though it would probably be easy to get this down to 5 minutes if I got everything sorted out.
+&lt;/p&gt;&lt;p&gt;
+4.  Log my hours to Basecamp.  Basecamp, bless its blackened soul, lets you track every hour of the working day; it doesn&#39;t make it particularly easy to report on what you&#39;ve done so that you make sure it happens.  This Javascript bookmarket gives you in one click what it takes Basecamp 8 to do, shows you a report of hours logged to date for today.   &lt;a href=&#34;http://www.phpkitchen.com/index.php?/archives/766-Basecamp-Bookmarklet-Hours-Logged-Today.html&#34;&gt;Demain Turner&#39;s Basecamp Bookmarklet: Hours Logged Today.&lt;/a&gt;  Time commitment is about 30 minutes a day in making sure that everything I do has a prescribed category.
+&lt;/p&gt;&lt;p&gt;
+5.  Never eat lunch alone.  I have Thursday covered pretty well, but all of the other days are suspect.  As a family saying goes, &#34;no meal unaccounted for&#34;, and by sometimes not having a good lunch plan I don&#39;t manage to eat as well as I should.   Some piece of this is technology (e.g. trying Noonhat to automate this), some of it is day-before planning (make sure to bring in a lunch to eat with coworkers), some of it is scheduling two weeks out so that you have a nice queue and some is last minute Twittering.    This should be doable in about an hour of planning a week.
+&lt;/p&gt;&lt;p&gt;
+These are less &#34;new years resolutions&#34; and more &#34;ongoing patterns to try to maintain&#34;.  The typical pattern follows this simple rule:
+&lt;/p&gt;&lt;blockquote&gt;
+That which is measured, improves.
+&lt;/blockquote&gt;&lt;p&gt;
+which is true so long as the tool you are using to measure does not impose its own burden of measurement.   The best measurement tools generally watch you passively as you go about your ordinary events and log quietly and unobtrusively; the worst ones attach a cognitive overhead of perpetual self-surveillance.
+&lt;/p&gt;
+&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/calendar&#34; rel=&#34;tag&#34;&gt;calendar&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/newyears&#34; rel=&#34;tag&#34;&gt;newyears&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/resolution&#34; rel=&#34;tag&#34;&gt;resolution&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

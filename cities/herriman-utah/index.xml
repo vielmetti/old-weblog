@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Herriman Utah on tracker</title>
+    <link>http://localhost:1313/cities/herriman-utah/</link>
+    <description>Recent content in Herriman Utah on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Sep 2010 02:51:22 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/cities/herriman-utah/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Herriman Fire (Utah) map and current news</title>
+      <link>http://localhost:1313/post/2010/2010-09-20-herriman-fire-utah-map-and-current-news/</link>
+      <pubDate>Mon, 20 Sep 2010 02:51:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2010/2010-09-20-herriman-fire-utah-map-and-current-news/</guid>
+      <description>&lt;p&gt;There is a large fire near Herriman, Utah, known as the Herriman Fire or the Machine Gun Fire. Some details.&lt;/p&gt;
+&lt;p&gt;On twitter, follow &lt;a href=&#34;http://twitter.com/#search?q=%23herrimanfire&#34; target=&#34;_self&#34;&gt;#herrimanfire&lt;/a&gt;&amp;#0160;.&lt;/p&gt;
+&lt;p&gt;Maps are being produced with evacuation zones. Look for one that loads fast, which means that a typical output from a GIS system with every road marked in loving detail is not what you want. &amp;#0160;See e.g.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bit.ly/9Rx8c2&#34; target=&#34;_self&#34;&gt;800kb map&lt;/a&gt; hosted on Google Docs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.scribd.com/doc/37757165/Evacuation-Map-Herriman-Fire-Machine-Gun-Fire-Utah-23-30-PT&#34; target=&#34;_self&#34;&gt;8.1mb map&lt;/a&gt; hosted on Scribd, a copy of the official map, loads faster&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.herriman.org/news/docs/evac_map.pdf&#34; target=&#34;_self&#34;&gt;8.1mb map, original pdf in loving detail&lt;/a&gt;, from &lt;a href=&#34;http://herriman.org&#34; target=&#34;_self&#34;&gt;City of Herriman&lt;/a&gt;; do not download unless you need it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note to self, it would be worthwhile to GIS managers to have an option for &amp;quot;emergency map&amp;quot; that automatically produces a space-efficient map that can be used in the field.&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

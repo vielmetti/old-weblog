@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jon Udell on tracker</title>
+    <link>http://localhost:1313/people/jon-udell/</link>
+    <description>Recent content in Jon Udell on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2009 11:57:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/people/jon-udell/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jon Udell and Andrew Turner talking about neogeography</title>
+      <link>http://localhost:1313/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</link>
+      <pubDate>Sun, 03 May 2009 11:57:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://itc.conversationsnetwork.org/shows/detail4040.html&#34;&gt;Two friends, Jon Udell and Andrew Turner, in this piece on IT Conversations:&lt;/a&gt;&lt;/p&gt;&lt;div class=&#34;blockquote efsSummary&#34; style=&#34;margin-left: 40px;&#34;&gt;Neocartography, neogeography, the geospatial
+web: These words and phrases evoke the unfolding drama at the
+intersection of physical and virtual space. Andrew Turner is in the
+thick of the action. In this conversation with host Jon Udell he
+discusses GeoCommons, pocketmaps, collaborative data curation, and the
+evolution of design in a world of networked spatial and temporal data.&lt;/div&gt;&lt;p&gt;&lt;br /&gt;some more things to keep track of: &lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;@&lt;a href=&#34;http://twitter.com/ajturner&#34;&gt;ajturner&lt;/a&gt; and @&lt;a href=&#34;http://twitter.com/judell&#34;&gt;judell&lt;/a&gt; on Twitter; &lt;/li&gt;
+&lt;li&gt;the new &lt;a href=&#34;http://www.georss.org/wiki/Main_Page&#34;&gt;GeoRSS wiki&lt;/a&gt;;&amp;#0160;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.mapufacture.com/2008/07/30/pocketmaps-paper-maps-of-dynamic-data/&#34;&gt;pocketmaps&lt;/a&gt; from kml files&lt;/li&gt;
+&lt;li&gt;the Vancouver (BC) Sun&amp;#39;s &lt;a href=&#34;http://www.vancouversun.com/news/most-ticketed-areas.html&#34;&gt;parking ticket database visualized&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Andrew&amp;#39;s blog at &lt;a href=&#34;http://highearthorbit.com/&#34;&gt;High Earth Orbit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;it was the kind of interview that made me want to have a parallel &amp;quot;URL track&amp;quot; that would launch the pages were being referenced as they were referenced; I wonder if there&amp;#39;s any closed captioning standard that would be useful for that task.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

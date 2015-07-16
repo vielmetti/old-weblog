@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems on tracker</title>
+    <link>http://localhost:1313/categories/systems/</link>
+    <description>Recent content in Systems on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Nov 2014 09:05:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How does this system even work?</title>
+      <link>http://localhost:1313/post/2014/2014-11-21-how-does-this-system-even-work/</link>
+      <pubDate>Fri, 21 Nov 2014 09:05:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-11-21-how-does-this-system-even-work/</guid>
+      <description>&lt;p&gt;Some questions to ask while you&#39;re trying to sort this out.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Draw a diagram of the entire system, from one end
+to the other. Label the parts. Identify especially the
+parts that &#34;just work&#34;, because undoubtably there are 
+unexpected cases that won&#39;t work just when you need them 
+to work. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Identify the message flows through the system.
+Where do signals get generated, where do they get
+retransmitted, where do they get changed and when
+does a human interpret them? Look for feedback loops,
+where messages oscillate between two parts of a system.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Figure out what kind of time scale you need to operate
+on, and understand the characteristics of delays within
+the system. Identify the cycle time of critical components,
+how often they can be queried and especially how long it
+takes to return an accurate reading. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Form follows funding. Understand the financial flows
+through the system that constrain the data flows. If a
+process costs money, sort out the planning and
+budgeting implications of making a change. Systems that
+are subject to external regulation may have unexpected
+constraints on operations and reporting, &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Complex working systems are in a perpetual state of
+partial failure, and often the resolution of partial failures
+involves human inputs. Consider the human element in
+the systems design, and draw that into your functional
+design.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It&#39;s possible to overthink all of these, and some of the
+parts decompose into smaller parts that are in turn rather
+complex. Inside every complex working system is a simpler
+system that works, and you are looking to identify that at
+the core of your efforts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>January 23, 2014: Metro-North computer &#34;glitch&#34; strands NYC commuters</title>
+      <link>http://localhost:1313/post/2014/2014-01-23-january-23-2014-metro-north-computer-glitch-strands-nyc-commuters/</link>
+      <pubDate>Thu, 23 Jan 2014 22:40:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-01-23-january-23-2014-metro-north-computer-glitch-strands-nyc-commuters/</guid>
+      <description>&lt;p&gt;ABC News reports:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Metro-North, the nation&#39;s second-busiest commuter railroad, was brought to a standstill for nearly two hours on Thursday night after computer problems caused signal issues system-wide, railroad officials said.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://newyork.cbslocal.com/2014/01/23/metro-north-service-suspended-on-hudson-harlem-and-new-haven-lines/&#34;&gt;CBS&lt;/a&gt; has this diagnosis of what went wrong, and why&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The cause of the outage remained under investigation Thursday night. “We can’t say what the cause of it is. We’re still trying to figure that out,” Daniels told 1010 WINS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For a good read on after-incident reporting, I always refer people to the &lt;a href=&#34;https://plus.google.com/communities/115136140203018391796&#34;&gt;Postmortems&lt;/a&gt; group on Google+ - it&#39;s an excellent source of descriptions of what happened when computers &#34;glitch&#34; (because they rarely glitch all by themselves).&lt;/p&gt;
+
+&lt;p&gt;UPDATE: &lt;a href=&#34;http://online.wsj.com/article/AP3e0d4e92f5dd41a09b091619239c819a.html&#34;&gt;AP/WSJ&lt;/a&gt; The Metro-North computer &#34;glitch&#34; described as human error, AP story:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MTA head Thomas Prendergast said Friday that computers that run Metro-North&#39;s signal system lost power at 7:45 p.m. Thursday when one of two main power supply units was taken out of service for replacement.&lt;/p&gt;
+  
+  &lt;p&gt;He said technicians performing the work did not realize that a wire was disconnected on the other main power supply unit.﻿&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

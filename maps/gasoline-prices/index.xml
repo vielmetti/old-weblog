@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gasoline Prices on tracker</title>
+    <link>http://localhost:1313/maps/gasoline-prices/</link>
+    <description>Recent content in Gasoline Prices on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2008 11:47:30 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/maps/gasoline-prices/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Michigan gas price maps from GasBuddy</title>
+      <link>http://localhost:1313/post/2008/2008-06-11-michigan-gas-pr/</link>
+      <pubDate>Wed, 11 Jun 2008 11:47:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-06-11-michigan-gas-pr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://gasbuddy.com/Gas_Prices/Michigan/index.aspx&#34;&gt;&lt;img alt=&#34;Picture_7&#34; title=&#34;Picture_7&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/11/picture_7.png&#34; border=&#34;0&#34;  /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&#34;http://gasbuddy.com&#34;&gt;GasBuddy&lt;/a&gt; has built a very nice infrastructure for tracking gas prices across the county.  If you sign up, you can update the site with current observations of pricing; if you don&#39;t sign up, you can still view individual and aggregated data.&lt;br /&gt;
+&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;&lt;br /&gt;
+The map above is not quite enough to decide where to stop, except to note that if you happen to be heading south you should probably fill up in Ohio, not Michigan (tax differences account for the price difference).  To do the real time decision support to save you a dollar or two on your next tank, use &lt;a href=&#34;http://www.gasbuddytogo.com&#34;&gt;Gas Buddy To Go&lt;/a&gt; on your mobile phone and plug in the city or zip code you&#39;re in to get the lowest prices in that area.  &lt;br /&gt;
+&lt;/p&gt;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

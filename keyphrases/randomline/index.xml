@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Randomline on tracker</title>
+    <link>http://localhost:1313/keyphrases/randomline/</link>
+    <description>Recent content in Randomline on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Sep 2014 15:52:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/keyphrases/randomline/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>do next?</title>
+      <link>http://localhost:1313/post/2014/2014-09-27-do-next/</link>
+      <pubDate>Sat, 27 Sep 2014 15:52:45 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-27-do-next/</guid>
+      <description>&lt;p&gt;One algorithm for deciding what to do next is simply to identify
+the item with the closest deadline and work on that. There is nothing
+like a deadline to focus the mind, and it is better to get the items
+that demand short term attention into the calendar and to allot the
+time to tackle them. Bernie Galler described this approach to me once,
+and it stuck.&lt;/p&gt;
+
+&lt;p&gt;A second approach is to put everything you might ever want to do
+in a big pile and pick something at random from it to work on. I
+use github issues to track my big pile of things to do, and alas
+it does not have a random() function. Fortunately though there is
+a Github API, and that combined with &lt;code&gt;jq&lt;/code&gt; and my &lt;code&gt;randomline&lt;/code&gt; script
+are enough to approximate that.&lt;/p&gt;
+
+&lt;p&gt;A third very reasonable approach is to ask someone what they would
+like you to do; or even better yet anticipate what they would ask
+and do it before they ask.&lt;/p&gt;
+
+&lt;p&gt;That reminds me, I have work to do.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contactually, an early review of this contact manager</title>
+      <link>http://localhost:1313/post/2013/2013-01-21-contactually-an-early-review-of-this-contact-manager/</link>
+      <pubDate>Mon, 21 Jan 2013 16:13:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-01-21-contactually-an-early-review-of-this-contact-manager/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m on a 30 day trial of &lt;a href=&#34;http://www.contactually.com&#34;
+target=&#34;_self&#34;&gt;Contactually&lt;/a&gt;, a contact manager that seems to
+handle one important function only: reminding you to follow up
+periodically with people who are important to you.&lt;/p&gt;
+
+&lt;p&gt;On the plus side, it does a good job of importing data from my
+Google account and from a handful of social media sites, and by
+doing so the amount of manual labor needed to do something with it
+is kept to a minimum. New contacts are created by it watching your
+inbox.&lt;/p&gt;
+
+&lt;p&gt;On the minus side, its sense of creating reminders depends on
+creating buckets of similar contacts to be reminded on a similar
+schedule, and the process of putting a living, breathing, complex
+human being into exactly one bucket is difficult if not impossible
+to do completely. They try to make a game of it, which at least
+lets you speed through decisions, but it&amp;rsquo;s still a difficult
+task.&lt;/p&gt;
+
+&lt;p&gt;Once you have someone in a bucket it pulls a few of
+them out of that bucket every so often and reminds you to follow
+up with them. You can mark someone as followed up via email or
+through some other method, so it will keep track of phone calls or
+in-person meetings or whatever if you need to.&lt;/p&gt;
+
+&lt;p&gt;When I used to use &lt;a href=&#34;http://en.wikipedia.org/wiki/Sage_ACT!&#34; target=&#34;_self&#34;&gt;ACT&lt;/a&gt;!, once upon a long time ago, I was better at following up with people because I kept track of when I last contacted people. I&amp;#39;m always surprised that native contact managers don&amp;#39;t have a field that they keep updated for &amp;quot;last contacted&amp;quot; that can easily be sorted and will automatically be populated from other things that the system knows. ACT! never made it into my Internet world successfully, but I still remember its ideas.&amp;#0160;&lt;/p&gt;
+
+&lt;p&gt;Contactually is interesting, in the way that every single new contact manager is interesting. The price point is $0/mo (for a cut-down version), $20/mo (for what I have now), and $99/mo/user (for an enterprise version that I have no interest in). At $20/mo I had better be able to point to $1000/mo in new value coming from this, and based on the experience to date, I can&amp;#39;t say yet that it&amp;#39;s worthwhile to me at that price point. But I like the idea - hey, let your computer unearth some long-lost friends to remind you to chat with from time to time! I&amp;#39;m just not sure that I couldn&amp;#39;t get the same results by taking my contact list, putting it in a file, and then generating a &lt;a href=&#34;https://github.com/vielmetti/vielmetti-shelltools/blob/master/randomline&#34; target=&#34;_self&#34;&gt;random line in the file&lt;/a&gt; to inspire me.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on tracker</title>
+    <link>http://localhost:1313/categories/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jun 2015 12:49:59 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>running mjpg-streamer on a Raspberry Pi 2 with an old Logitech webcam</title>
+      <link>http://localhost:1313/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/</link>
+      <pubDate>Sat, 27 Jun 2015 12:49:59 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/</guid>
+      <description>&lt;p&gt;I followed the instructions on &lt;a href=&#34;http://www.linuxmediaserver.net/linux-basics/streaming-webcam-raspberry-pi/&#34;&gt;this post on LinuxMediaServer.net&lt;/a&gt; to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware.&lt;/p&gt;
+
+&lt;p&gt;lsusb returns this device:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bus 001 Device 004: ID 046d:08ae Logitech, Inc. QuickCam for Notebooks&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I had to add a driver for the camera:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sudo modprobe gspca_zc3xx&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The camera I have shows up as /dev/video0 and has a resolution of 320x240:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sudo ./mjpg_streamer -i &#34;./input_uvc.so -r 320x240 -d /dev/video0&#34; -o &#34;./output_http.so -w www&#34; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Existence proof, showing that it works. You should be able to recognize the Festifools t-shirt.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a58928970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a58928970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-27 at 12.35.07 PM&#34; title=&#34;Screen Shot 2015-06-27 at 12.35.07 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a58928970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It&#39;s not an awesome camera, but the resolution is perfectly adequate to a small task. A next challenge, should I choose to take it on, is to wrap up all of the dependencies into a Dockerfile and do a Docker build. I&#39;m going to wait on that until Docker 1.7.1 drops since 1.7.0 is not stable on ARM platforms. I haven&#39;t yet successfully managed to get Docker on the Pi to read from USB devices (but how hard, indeed, could it be).&lt;/p&gt;
+
+&lt;p&gt;UPDATE: looks like @chuckleb built a Dockerfile for this for Ubuntu at &lt;a href=&#34;https://registry.hub.docker.com/u/chuckleb/mjpg-streamer/&#34;&gt;chuckleb/mjpg-streamer&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;UPDATE 2: If you&#39;re using the Raspberry Pi camera, &lt;a href=&#34;http://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi&#34;&gt;Miguel Grinberg has these build instructions for that device&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ham Radio on tracker</title>
+    <link>http://localhost:1313/categories/ham-radio/</link>
+    <description>Recent content in Ham Radio on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2015 13:43:57 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ham-radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Disappointed by some amateur radio contests</title>
+      <link>http://localhost:1313/post/2015/2015-06-28-disappointed-by-amateur-radio-contests/</link>
+      <pubDate>Sun, 28 Jun 2015 13:43:57 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-28-disappointed-by-amateur-radio-contests/</guid>
+      <description>&lt;p&gt;I was at a ham radio field day event. The people were friendly, but the focus was on the contests they were working on. I don&#39;t think that&#39;s the part of the hobby I&#39;m most interested in.&lt;/p&gt;
+
+&lt;p&gt;The contest setup seems so incredibly inefficient. If the goal is to make the maximum number of two way connections in the minimum amount of time, you&#39;d think that there would be more efficient ways to do it than to throw your call sign out on some frequency that&#39;s hopefully both being listened to at the moment but also not being transmitted on at the same time. It feels really noisy and unnecessarily difficult. I am told that some contesters use software defined radio to watch more of the band - that seems more effective than just listening to one narrow channel and hoping for the best.&lt;/p&gt;
+
+&lt;p&gt;I guess I&#39;m much more used to using repeaters than I am to simplex operations. With a repeater at least you have a positive acknowledgement that your transmission was received by a machine, and with that you can get a better sense for what you sound like on the air. I&#39;m also used to a station acting as &#34;net control&#34; and acknowledging people and managing the flow of conversations. In contrast the contest sounds like chaos.&lt;/p&gt;
+
+&lt;p&gt;For whatever the unfamiliarity is, the other reality is that to listen to it, contests can be pretty boring. People give out the barest of bare minimum of information about their station and then move on.&lt;/p&gt;
+
+&lt;p&gt;What Field Day brings to mind is a much more interesting event I was a little part of last year, the &lt;a href=&#34;http://www.nj2bb.org/museum/&#34;&gt;Museum Ships Weekend Event&lt;/a&gt; run by The Battleship New Jersey Amateur Radio Station NJ2BB. I went to the Hands-On Museum in early June 2014 and listened and talked to shipboard radio stations on museum ships around the world. It was a lot more fun because the station operators were less concerned about maximizing the count of their contacts and more interested in telling the stories of their museums. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Field Day 2014</title>
+      <link>http://localhost:1313/post/2014/2014-06-24-ann-arbor-field-day-2014/</link>
+      <pubDate>Tue, 24 Jun 2014 11:31:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-06-24-ann-arbor-field-day-2014/</guid>
+      <description>&lt;p&gt;Thanks to Dan KB6NU for these details of Field Day in Ann Arbor June 27-29 2014.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As for Field Day, It will be at the Ann Arbor Airport, near the soccer fields.  We&#39;ll be setting up antennas on Friday night, breakfast is at Mark&#39;s Midtown Coney Island down on State at 8 am Saturday, more setup will commence after breakfast, operating will start at 2pm Saturday and run through 2pm Sunday.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&#39;ll fill in with more details when I have them; I hope to get involved in the fun.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kilo delta 8 oscar quebec golf</title>
+      <link>http://localhost:1313/post/2014/2014-03-23-kilo-delta-8-oscar-quebec-golf/</link>
+      <pubDate>Sun, 23 Mar 2014 20:19:55 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-03-23-kilo-delta-8-oscar-quebec-golf/</guid>
+      <description>&lt;p&gt;Aka &lt;a href=&#34;http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3220083&#34;&gt;KD8OQG&lt;/a&gt;, my ham radio call sign.&lt;/p&gt;
+
+&lt;p&gt;I use it most frequently on Sunday nights, for the &lt;a href=&#34;http://www.umich.edu/~umarc/net/net.html&#34;&gt;W8UM net&lt;/a&gt; (145.230 MHz, -600 kHz shift, 100 Hz PL) every Sunday at 8 PM Eastern run by the University of Michigan Amateur Radio Club.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

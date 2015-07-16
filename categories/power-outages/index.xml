@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power Outages on tracker</title>
+    <link>http://localhost:1313/categories/power-outages/</link>
+    <description>Recent content in Power Outages on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jun 2015 14:40:22 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/power-outages/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Simulating a power grid with RTDS</title>
+      <link>http://localhost:1313/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</link>
+      <pubDate>Wed, 24 Jun 2015 14:40:22 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</guid>
+      <description>&lt;p&gt;Noted as an example of &#34;how do they do that&#34;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The RTDS simulates any user-defined electrical system with models of complex electrical components, such as transmission lines, generators and transformers. The components can be precisely defined to match your equipment characteristics. Through real-time simulation, your relay or control equipment is tested in closed-loop mode, acting on the simulated system as it would in the actual installation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.kinectrics.com/Solutions/Pages/real-time-digital-simulator-rtds.aspx&#34;&gt;Kinetrics&lt;/a&gt; has a page on RTDS describing how it&#39;s used. The vendor of the software is &lt;a href=&#34;https://www.rtds.com/&#34;&gt;RTDS Technologies&lt;/a&gt; which describes it also thusly:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are the pioneer and exclusive supplier of this custom hardware and software, which is specifically designed to perform real time electromagnetic transient simulations.&lt;/p&gt;
+  
+  &lt;p&gt;The Simulator operates continuously in real time while providing accurate results over a frequency range from DC to kilohertz range. It is used for closed loop testing of protective relay and control systems, power hardware in the loop studies, and much more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www4vip.inl.gov/research/real-time-digital-simulator/&#34;&gt;Idaho National Laboratory has one of these simulators&lt;/a&gt;. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The system’s graphical user interface, proprietary software and mathematical algorithms can simulate any modern electric power grid configuration. As new equipment or components are added or subtracted from the simulator’s configuration, the model instantly updates. For example, INL researchers can run simulated system–failure scenarios such as a control system cyber intrusion or a physical damage event such as a terrorist attack or natural disaster and instantly detect the order and reasoning for why dedicated relays, breakers or substations failed.&lt;/p&gt;
+  
+  &lt;p&gt;The ability to simulate real–time power grid information is a key factor in detecting previously unknown vulnerabilities and providing emergency planners with a path forward for responding to grid failures. The RTDS Simulator enables power industry experts to define the network configuration and run real time tests for many aspects of service life allowing system problems to be discovered faster, and solutions to be designed and tested immediately.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Handy then that you don&#39;t need to have a real blackout to experiment with the effects of a blackout!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Components for a $100 solar charging system?</title>
+      <link>http://localhost:1313/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</link>
+      <pubDate>Sat, 06 Sep 2014 14:46:38 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</guid>
+      <description>&lt;p&gt;The challenge I put to myself is to spend not more than $100 and get a functioning solar powered charging station. The alternate name is a &#34;camping power supply&#34; for off-the-grid operations.&lt;/p&gt;
+
+&lt;p&gt;Breaking down the components it looks like this would be a combination of the following:&lt;/p&gt;
+
+&lt;p&gt;Solar panel. Estimate as a start that you want to generate 40 watts of power at peak times, using a panel that&#39;s small enough and portable enough that you can move it to where there&#39;s the best sun, but not necessarily so portable that you&#39;re carrying it with you in your backpack.&lt;/p&gt;
+
+&lt;p&gt;Voltage regulator. Take the power off the panel and regulate it so that it can provide a safe and steady 12 volt current. &lt;/p&gt;
+
+&lt;p&gt;Deep cycle battery. Provide a battery backup for your system, so that you have enough power to recharge a phone. Note that these might be bundled into &#34;portable car jump starters&#34;, so shop at your favorite auto parts store too.&lt;/p&gt;
+
+&lt;p&gt;Powered USB hub. If you were building this strictly out of components, you&#39;d look for a device that was powered by 12V and that provided 5V USB power at 2A for as many sockets as you had phones that you wanted to simultaneously charge.&lt;/p&gt;
+
+&lt;p&gt;Inverter. Convert 12V DC to 120V AC, for some small number of amps; for maximum flexibility in supporting devices that need AC. (I already have one of these in my car that&#39;s rated at 12V, 10 amps.)&lt;/p&gt;
+
+&lt;p&gt;Backpack battery pack. I&#39;m imagining something a little bit bigger than a phone but smaller than a laptop that&#39;s just a battery brick providing USB power at 5V and 2A to charge a phone.&lt;/p&gt;
+
+&lt;p&gt;Remember that the budget for all of this is $100, so there may be unavoidable conflicts in requirements because all of this stuff just costs more than that; I don&#39;t really know.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll update this post with specific descriptions of components and approximate pricing available in late 2014.&lt;/p&gt;
+
+&lt;p&gt;UPDATE 9/9/14&lt;/p&gt;
+
+&lt;p&gt;Some brand names to start out:&lt;/p&gt;
+
+&lt;p&gt;Nokero (&#34;no kerosene&#34;) makes direct charging devices and solar light bulbs. A device with a solar panel and no battery that can charge your burner phone (not your iPhone or iPad) runs $20-25. &lt;a href=&#34;http://www.nokero.com&#34;&gt;nokero.com&lt;/a&gt; Via John Hritz, who pointed me at &lt;a href=&#34;http://inhabitat.com/how-the-nokero-sunray-pro-power-solar-charger-saved-my-skin-my-sanity-during-hurricane-sandy/&#34;&gt;this account on Inhabitant&lt;/a&gt; of how a Nokero device was used during Hurricane Sandy as a cell phone charger that actually worked.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>16 July 2014 Ann Arbor widespread power interruptions, 800 pm</title>
+      <link>http://localhost:1313/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</link>
+      <pubDate>Wed, 16 Jul 2014 20:10:49 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</guid>
+      <description>&lt;p&gt;Multiple people around Ann Arbor Michigan reported power blips at about 8 pm Wednesday 16 July 2014. Detailed explanation of the incident is unavailable at this time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sawnee EMC (north of Atlanta, GA) power outage map</title>
+      <link>http://localhost:1313/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</link>
+      <pubDate>Tue, 11 Feb 2014 14:12:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</guid>
+      <description>&lt;p&gt;Sawnee EMC has a recently new &lt;a href=&#34;http://www.sawnee.com/content/current-outages&#34;&gt;power outage map&lt;/a&gt;, including a map &lt;a href=&#34;http://sawneearcgis.sawnee.com/sawnee.apps/outage-mobile/index.html&#34;&gt;optimized for mobile access&lt;/a&gt;. The &lt;a href=&#34;http://www.sawnee.com/documents/press/REL112613.htm&#34;&gt;press release&lt;/a&gt; they issued back in November 2013 has a lot more details.&lt;/p&gt;
+
+&lt;p&gt;Sawnee EMC serves electrical customers in portions of Forsyth, Fulton, Dawson, Lumpkin, Cherokee, Hall, &amp;amp; Gwinnett counties, in an area north of Atlanta, Georgia.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d756425970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73d756425970d img-responsive&#34; style=&#34;width: 578px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Sawnee-emc-service-area-map&#34; title=&#34;Sawnee-emc-service-area-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d756425970d-580wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Atlanta area is expecting severe weather and ice the week of February 12, 2014, according to the &lt;a href=&#34;http://www.ajc.com/news/news/winters-storm-warnings-advisories-and-watches-fore/ndJgM/&#34;&gt;Atlanta Journal-Constitution&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But this time, it’s not just the snow. It’s the ice that has forecasters and government leaders most concerned. And the worst of the storm may not roll through until Wednesday, according to chief meteorologist Glenn Burns with Channel 2 Action News.&lt;/p&gt;
+  
+  &lt;p&gt;“Do be prepared for massive power outages as this is likely to be a massive weather event,” Burns said Monday evening.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more power information in the Atlanta area see the &lt;a href=&#34;http://outagemap.georgiapower.com/external/default.html&#34;&gt;Georgia Power outage map&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>February 5, 2014: Philadelphia area power outages due to ice storm</title>
+      <link>http://localhost:1313/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</link>
+      <pubDate>Wed, 05 Feb 2014 16:50:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</guid>
+      <description>&lt;p&gt;February 5, 2014: More than 623,000 customers were without power in the service area covered by PECO (Philadelphia, PA area) at the peak of an ice storm on Wednesday. This is the second worst storm that the company has reported, right behind Hurricane Sandy.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcb58299970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fcb58299970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Peco-outage-map-feb-5-2014&#34; title=&#34;Peco-outage-map-feb-5-2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcb58299970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://www.peco.com/CustomerService/OutageCenter/OutageMap/Pages/OutageMap.aspx&#34;&gt;PECO power outage map&lt;/a&gt; does not go into lots of detail on the map, but it does list individual communities and their outage status in county by county detail pages. Emily Babay from Philly.com graphed the outages as they increased over the span of the morning.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Here&amp;#39;s how PECO outages have escalated this a.m., based on my semi-regular outage map checks: &lt;a href=&#34;http://t.co/4KS2HpLboD&#34;&gt;pic.twitter.com/4KS2HpLboD&lt;/a&gt;&lt;/p&gt;&amp;mdash; Emily Babay (@emilybabay) &lt;a href=&#34;https://twitter.com/emilybabay/statuses/431100862874648576&#34;&gt;February 5, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Local news stories:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://abclocal.go.com/wpvi/story?section=news/local&amp;amp;id=9420173&#34;&gt;ABC 6&lt;/a&gt;, WPVI -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A PECO spokesperson said on Action News that some customers could be without power for days, and some could even be without power into the weekend. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.philly.com/philly/news/Discontent_continues_Freezing_rain_cracking_limbs_slick_sidewalks.html#g20lTTKHi8TZMHZt.99&#34;&gt;Philly.com&lt;/a&gt; -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Gov. Tom Corbett said at a noon press conference that utility crews from out of state would be called in to help with the wide-spread outages. He said as Pennsylvania energy companies had received some 750,000 calls so far, but his office had yet to declare a state of emergency.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How many power outages are there in the nation?</title>
+      <link>http://localhost:1313/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</link>
+      <pubDate>Wed, 08 Jan 2014 12:23:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fbe3afd5970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fbe3afd5970b img-responsive&#34; alt=&#34;Indianapolis-Power-Light-2014-01-08-outage-map&#34; title=&#34;Indianapolis-Power-Light-2014-01-08-outage-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fbe3afd5970b-800wi&#34; border=&#34;0&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The world of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34;&gt;power outage maps&lt;/a&gt; is a very fragmented one, with what looks like dozens of designs and systems and no apparent standardization. There&#39;s no way that I know to get a USA-wide power outage map without going to all 50 states worth of utilities and piecing together incompatible maps. Some places - like Lansing, Michigan&#39;s &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013.html&#34;&gt;BWL&lt;/a&gt;, don&#39;t have maps, making customer communication difficult.&lt;/p&gt;
+
+&lt;p&gt;If you can&#39;t map the whole nation, the next best thing is to count the number of outages nationwide. Here too there&#39;s no one centralized resource to make that happen. What there is, however, is a very efficient system developed by a world where making that power go back on is important - the nation&#39;s utility lineman.&lt;/p&gt;
+
+&lt;p&gt;There is a company, &lt;a href=&#34;http://linemanbarn.com/&#34;&gt;Lineman Barn&lt;/a&gt;, which has a &lt;a href=&#34;https://www.facebook.com/lineman.barn&#34;&gt;Facebook page&lt;/a&gt; that tracks all kinds of storm-related damage and helps people who do that work connect to each other and find work. (Lineman Barn sells logo clothing for the trade.) When a storm hits, you&#39;ll see periodic updates every 6 to 24 hours of utilities that have lines down.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Established in 2003 to bring pride and recognition to the trade, Lineman Barn is the First Choice of Linemen and their families for custom shirts, hats, decals, gifts, JOBS and Lineman Safety News.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So without further ado here are the outage numbers from January 6, 2014, at noon. Note that many of these utilities have maps that you can see on the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34;&gt;power outage maps&lt;/a&gt; page. 
+By my count that&#39;s 150,192 lines out nationwide.&lt;/p&gt;
+
+&lt;pre&gt;
+Indianapolis Power &amp; Light: 28,418
+ComEd: 23,221
+Hydro Quebec: 20,350
+Ameren-Illinois: 12,667
+Entergy-Arkansas: 7,285
+South Central Indiana REMC: 6,719
+Southern California Edison: 5,652
+Oncor: 5,632
+Central Maine Power: 4,939
+Duke Energy-Indiana: 4,042
+AEP-Ohio: 3,144
+AEP-Indiana &amp; Michigan Power: 2,935
+ConEdison: 2,719
+NB Power: 2,399
+Duke Energy-NC: 2,354
+Nova Scotia Power: 2,177
+AEP-Appalachian Power: 2,048
+NYSEG: 1,943
+Ameren-Missouri: 1,670
+Bangor Hydro: 1,529
+Hydro One: 1,516
+United REMC: 1,416
+Pepco: 1,275
+Empire Electric District: 1,219
+Dayton Power &amp; Light: 1,010
+Florida Power &amp; Light: 1,009
+AEP-Kentucky Power: 904
+&lt;/pre&gt;
+
+&lt;p&gt;Image credit: Indianapolis Power and Light outage map, http://apps.iplpower.com/outages/outagemap.aspx&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Metro North power outage</title>
+      <link>http://localhost:1313/post/2013/2013-09-27-metro-north-power-outage/</link>
+      <pubDate>Fri, 27 Sep 2013 23:42:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-09-27-metro-north-power-outage/</guid>
+      <description>&lt;p&gt;A power outage on a 138,000 volt line that provides power to Metro North trains in New York has snarled commutes from Connecticut to New York City and has also affected Amtrak service in the busy New York - Boston corridor. Work is underway to put in a temporary fix by diverting power from surrounding businesses and neighborhoods. A backup feeder line was offline, and full service restoration may take weeks.&lt;/p&gt;
+
+&lt;p&gt;Metro North is responding by putting diesel trains into service and by running buses to try to accommodate the 130,000 daily commuters on the line, but this provides only about a third of the capacity needed for a normal commute.&lt;/p&gt;
+
+&lt;p&gt;NY Times, &#34;Power Failure Disrupts Metro North’s New Haven Line; May Last Days&#34;, &lt;a href=&#34;http://www.nytimes.com/2013/09/26/nyregion/metro-norths-new-haven-line-suspended-after-power-loss.html&#34;&gt;September 25, 2013&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The disruption began after a Consolidated Edison feeder cable in Mount Vernon, N.Y., failed around 5:20 a.m., snarling service between Stamford, Conn., and Grand Central Terminal.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CT Post, &#34;Metro-North, Con Edison tested plan that led to failure&#34;, &lt;a href=&#34;http://www.ctpost.com/local/article/Metro-North-service-What-you-need-to-know-4845143.php&#34;&gt;September 26, 2013&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Though it may take officials weeks to determine the cause, it appears the 138,000 volt line that was left to bear the burden of energizing trains along an eight-mile stretch of track in Westchester County, N.Y., from Pelham to Rye became overwhelmed and superheated.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bloomberg Business Week, &#34;Delayed NYC Commuters Ask Why Metro-North Power Failed Again&#34;, &lt;a href=&#34;http://www.businessweek.com/news/2013-09-27/stranded-nyc-commuters-ask-why-metro-north-power-failed-again#p1&#34;&gt;September 27, 2013&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Connecticut Governor Dannel Malloy, a Democrat, said yesterday that Con Edison representatives told him the company is working to get a portion of the electricity needed to the commuter line. The power would come from three transformers to be tested this weekend, Malloy said. He said updates will be provided to residents the night before the Sept. 30 commute. “There appears to have been little plan for this type of catastrophic failure,” Malloy said during the briefing at Grand Central.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baseball Radio on tracker</title>
+    <link>http://localhost:1313/categories/baseball-radio/</link>
+    <description>Recent content in Baseball Radio on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Sep 2013 12:26:11 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/baseball-radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Listening to baseball online with Global Tuners radio</title>
+      <link>http://localhost:1313/post/2013/2013-09-13-listening-to-baseball-online-with-global-tuners-radio/</link>
+      <pubDate>Fri, 13 Sep 2013 12:26:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-09-13-listening-to-baseball-online-with-global-tuners-radio/</guid>
+      <description>&lt;p&gt;It&#39;s not easy to do, but with a little bit of perseverance and a little bit of luck you may be able to listen to your favorite baseball team online without an MLB subscription by way of &lt;a href=&#34;http://www.globaltuners.com&#34;&gt;Global Tuners&lt;/a&gt;. Here&#39;s how it works (and why it&#39;s hard).&lt;/p&gt;
+
+&lt;p&gt;First, you&#39;ll need a &lt;a href=&#34;http://www.globaltuners.com&#34;&gt;Global Tuners&lt;/a&gt; account. This service provides you access to dozens of AM, FM, and short wave receivers around the world. The way it works is that the receivers are hooked up to a digital front end that lets you tune them remotely and that plays back the audio through the net. In general only one person can tune in at a time, so it&#39;s first come first served. &lt;/p&gt;
+
+&lt;p&gt;Second, you&#39;ll need to have some idea of which AM and FM stations your favorite team&#39;s radio network covers. For example, the &lt;a href=&#34;http://detroit.tigers.mlb.com/det/schedule/radioaffiliates.jsp&#34;&gt;Detroit Tigers radio network&lt;/a&gt; has AM and FM station ranging from Houghton in the U.P. to Toledo Ohio and Angola Indiana, and the &lt;a href=&#34;http://houston.astros.mlb.com/hou/schedule/radio_affiliates.jsp&#34;&gt;Houston Astros radio network&lt;/a&gt; also covers San Antonio and Shreveport. If the Tigers play the Astros, you can possibly tune to either network&#39;s stations - you&#39;ll either get home or away team coverage.&lt;/p&gt;
+
+&lt;p&gt;Finally, and here&#39;s the tricky part, you&#39;ll want to figure out which of the tuners covers which of the stations you are interested in. As it happens none of the tuners cover any stations that the Tigers routinely broadcast on, but the Astros are on KTKR 760 AM &lt;a href=&#34;http://www.ticket760.com/main.html&#34;&gt;Ticket 760&lt;/a&gt; in San Antonio, and there&#39;s a &lt;a href=&#34;http://www.globaltuners.com/receiver/info.php?r=1155&#34;&gt;receiver in San Antonio&lt;/a&gt; that might be free to listen through to them.&lt;/p&gt;
+
+&lt;p&gt;Figuring out radio channels can be weird - some stations have higher power and transmit over clear channels for long distances, and others don&#39;t cover much more ground than the city they are based in. So the &#34;best&#34; channel to tune in might be for a station that&#39;s powerful but far away. When you search through the MLB.com site for stations, look for the &#34;flagship&#34; station listed, which often broadcasts with higher power and over a greater distance than the other stations in the network. As an example, here&#39;s a report of &lt;a href=&#34;http://globaltuners.blogspot.com/2011/10/knbr.html&#34;&gt;hearing the San Francisco Giants&lt;/a&gt; from a tuner in Phoenix, AZ more than 600 miles away.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The signal was weak at a distance of over 650 miles, with little interference from other stations but some noise and fading.  Nonetheless, the content was usable and the station IDs clear.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The hobby of DXing gets an extra boost when you can tune in to radios that are far away. It&#39;s fun to scan the dial and hear what&#39;s out there. Most tuners have a band scan listing that you can see what&#39;s there. I listen to remote radio stations on &lt;a href=&#34;http://www.tunein.com&#34;&gt;Tunein&lt;/a&gt; as well, but there&#39;s not the same sense of being there when the reception is too perfect, and the baseball powers that be block internet-based games over regular radio channels.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

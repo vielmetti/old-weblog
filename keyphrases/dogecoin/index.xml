@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dogecoin on tracker</title>
+    <link>http://localhost:1313/keyphrases/dogecoin/</link>
+    <description>Recent content in Dogecoin on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Dec 2013 14:02:49 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/keyphrases/dogecoin/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dogecoin suffers wallet heist. Such currency! Very profit!</title>
+      <link>http://localhost:1313/post/2013/2013-12-26-dogecoin-suffers-wallet-heist-such-currency-very-profit/</link>
+      <pubDate>Thu, 26 Dec 2013 14:02:49 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-12-26-dogecoin-suffers-wallet-heist-such-currency-very-profit/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb27046c970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fb27046c970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Dogecoinlogo&#34; title=&#34;Dogecoinlogo&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb27046c970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dogecoin is an alternative to Bitcoin, in the sense that it has the same structure as Bitcoin of being backed by cryptography and by conspicuous consumption of computing power and electricity. It&#39;s distinguished from Bitcoin in that Dogecoin is also backed by a meme of a cute dog. Such currency! Very profit!&lt;/p&gt;
+
+&lt;p&gt;Everything is fun and games until the criminal element gets involved, in which case you can be pretty sure that your cryptocurrency has been validated. Case in point, a &lt;a href=&#34;http://doges.org/index.php/topic,5283.0.html&#34;&gt;hack of Dogewallet&lt;/a&gt; caused several people&#39;s stash of Dogecoins to vanish into the hands of an as of yet unknown person who managed to get to the file system of the Dogewallet &#34;secure&#34; system and change the destination address for Dogecoin transfers. About 30 million coins were stolen.&lt;/p&gt;
+
+&lt;p&gt;Details are on the the &lt;a href=&#34;http://doges.org/index.php/topic,5283.0.html&#34;&gt;Dogecoin forum&lt;/a&gt;, and I found out about this via Clay Shirky.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Long story short, as we&#39;re learning the hard way, never trust a web wallet with anything you&#39;d be afraid to lose.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Dogecoin was all libertarian cryptocurrency fun til ~30M coins were stolen from Dogewallet. Now people want the cops: &lt;a href=&#34;http://t.co/ooi4xXMf25&#34;&gt;http://t.co/ooi4xXMf25&lt;/a&gt;&lt;/p&gt;&amp;mdash; Clay Shirky (@cshirky) &lt;a href=&#34;https://twitter.com/cshirky/statuses/416067071076626432&#34;&gt;December 26, 2013&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

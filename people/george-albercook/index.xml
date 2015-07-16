@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>George Albercook on tracker</title>
+    <link>http://localhost:1313/people/george-albercook/</link>
+    <description>Recent content in George Albercook on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Jun 2012 08:26:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/people/george-albercook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Chasing the elusive weather balloon</title>
+      <link>http://localhost:1313/post/2012/2012-06-08-chasing-the-elusive-weather-balloon/</link>
+      <pubDate>Fri, 08 Jun 2012 08:26:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-06-08-chasing-the-elusive-weather-balloon/</guid>
+      <description>&lt;p&gt;Thursday&amp;#39;s adventure was &lt;a href=&#34;http://drgeorgesk.blogspot.com/&#34; target=&#34;_self&#34;&gt;George Albercook&amp;#39;s launch&lt;/a&gt; and successful retrieval of a &lt;a class=&#34;zem_slink&#34; href=&#34;http://en.wikipedia.org/wiki/Weather_balloon&#34; rel=&#34;wikipedia&#34; target=&#34;_blank&#34; title=&#34;Weather balloon&#34;&gt;weather balloon&lt;/a&gt;, with a payload of radios, cameras, and GPS &lt;a class=&#34;zem_slink&#34; href=&#34;http://en.wikipedia.org/wiki/Telemetry&#34; rel=&#34;wikipedia&#34; target=&#34;_blank&#34; title=&#34;Telemetry&#34;&gt;telemetry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here&amp;#39;s a map of the &lt;a href=&#34;http://aprs.fi/#!mt=roadmap&amp;amp;z=11&amp;amp;call=a%2FKC8SBA&amp;amp;timerange=21600&#34; target=&#34;_self&#34;&gt;telemetry that was visible through APRS.FI&lt;/a&gt;&amp;#0160;for the duration of the launch. The device is identified as &lt;a href=&#34;http://aprs.fi/#!mt=roadmap&amp;amp;z=9&amp;amp;call=a%2FKC8SBA&amp;amp;timerange=21600&#34; target=&#34;_self&#34;&gt;KC8SBA&lt;/a&gt;. Note that for some reason tracking didn&amp;#39;t pick up until a few minutes after the launch, and the tracking was also silent for a while until just before the descent.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0163063d3688970d-pi&#34;&gt;&lt;img alt=&#34;Kc8sba-weather-balloon-telemetry&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0163063d3688970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0163063d3688970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Kc8sba-weather-balloon-telemetry&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Another view of the same area is from the &lt;a href=&#34;http://fultonoh-auditor.ddti.net/Map.aspx&#34; target=&#34;_self&#34;&gt;Fulton County (Ohio) Auditor&amp;#39;s map,&lt;/a&gt;&amp;#0160;the organizationresponsible for property assessments. Their online mapping system shows parcel by parcel ownership so that if you did need to find the spot by owner you could. A field near to the one that the balloon&amp;#39;s payload landed in looks like this, with big squares of farmland:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017615266d6e970c-pi&#34;&gt;&lt;img alt=&#34;Map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017615266d6e970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017615266d6e970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Map&#34; /&gt;&lt;/a&gt;&lt;br /&gt;The &lt;a href=&#34;https://www.facebook.com/AlbercookScientific&#34; target=&#34;_self&#34;&gt;Albercook Scientific timeline on Facebook&lt;/a&gt;&amp;#0160;has many more details, and I&amp;#39;m sure that once all of the pictures from the payload are decoded there will be more pictures and explanation of how this all came together!&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

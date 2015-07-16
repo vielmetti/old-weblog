@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sidebars on tracker</title>
+    <link>http://localhost:1313/sidebar/</link>
+    <description>Recent content in Sidebars on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jul 2015 02:32:07 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/sidebar/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Calendar of events</title>
+      <link>http://localhost:1313/sidebar/calendar/</link>
+      <pubDate>Tue, 14 Jul 2015 02:32:07 -0400</pubDate>
+      
+      <guid>http://localhost:1313/sidebar/calendar/</guid>
+      <description>
+
+&lt;h3 id=&#34;calendar-of-events:a631103cf606bbead447236a29c6889e&#34;&gt;Calendar of events&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wednesday July 15, 2015, 4:30 p.m. &amp;ldquo;Living Writers&amp;rdquo; show on WCBN&lt;/li&gt;
+&lt;li&gt;Thursday July 16, 2015, noon: a2b3 lunch, Ayse&amp;rsquo;s, Ann Arbor MI&lt;/li&gt;
+&lt;li&gt;Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

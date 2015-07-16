@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weather on tracker</title>
+    <link>http://localhost:1313/categories/weather/</link>
+    <description>Recent content in Weather on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jun 2015 10:39:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/weather/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using blitzortung.org and lightningmaps.org to watch lightning roll in</title>
+      <link>http://localhost:1313/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</link>
+      <pubDate>Wed, 24 Jun 2015 10:39:24 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a3e4ed970b img-responsive&#34; style=&#34;width: 332px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; title=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-350wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A brief note on two pages I refer to during severe weather, like the storms that rolled through the area on Monday night and Tuesday early morning that led to &lt;a href=&#34;https://localwiki.org/ann-arbor/June_2015_Manchester_tornado&#34;&gt;tornado damage in Manchester&lt;/a&gt; on the morning of June 23, 2015.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lightningmaps.org/&#34;&gt;LightningMaps.org&lt;/a&gt; has a zoomable near real time map of lightning strikes. You can zoom and pan around looking at locations of lightning strikes, with a small (less than 10 seconds) delay. When everything lines up right you can see the lightning strike on your computer before you hear the thunder.&lt;/p&gt;
+
+&lt;p&gt;The LightningMaps data comes from the &lt;a href=&#34;http://www.blitzortung.org&#34;&gt;BlitzOrtung&lt;/a&gt; project, which has deployed a set of custom designed lightning detectors world wide. From their page:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&#34;Blitzortung.org&#34; is a lightning detection network for the location of electromagnetic discharges in the atmosphere (lightning discharges) based on the time of arrival (TOA) and time of group arrival (TOGA) method. It consists of several lightning receivers and one central processing server. The stations transmit their data in short time intervals over the Internet to our server. Every data sentence contains the precise time of arrival of the received lightning discharge impulse (&#34;sferic&#34;) and the exact geographic position of the receiver. With this information from all stations the exact positions of the discharges are computed. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Blitzortung is working on a new generation of lightning detectors, which are not yet available, and they are no longer manufacturing their first generation of detectors. Even so the US coverage of lightning detection is very good and recommended for storm tracking. The project lead is Egon Wanke of Dusseldorf, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor flooding on Sunday, June 14, 2015</title>
+      <link>http://localhost:1313/post/2015/2015-06-14-ann-arbor-flooding-on-sunday-june-14-2015/</link>
+      <pubDate>Sun, 14 Jun 2015 16:05:05 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-14-ann-arbor-flooding-on-sunday-june-14-2015/</guid>
+      <description>&lt;p&gt;A severe storm dumped a bunch of water on Ann Arbor on Sunday, June 14, 2015. Here are reports of flood locations as monitored on Twitter. All times Eastern.&lt;/p&gt;
+
+&lt;p&gt;6:09 p.m. Huron River well down from its crest at 14.95 feet; flood stage is 16 feet, last observation is 13.57 feet at 5:15 P.M.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0842855d970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0842855d970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Annm4_hg&#34; title=&#34;Annm4_hg&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0842855d970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;4:28 p.m. Huron River downstream from Allen Creek surged from about 700 cfs to over 2200 cfs in the span of less than an hour at about 2:00 p.m.  Most recent instantaneous value: 1,630   06-14-2015  15:15 EST&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d127c3c1970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d127c3c1970c img-responsive&#34; style=&#34;width: 580px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;USGS.04174500.01.00060..20150614.20150614.log.0.p50.pres&#34; title=&#34;USGS.04174500.01.00060..20150614.20150614.log.0.p50.pres&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d127c3c1970c-580wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;4:09 p.m. Mallett&#39;s Creek gauge run by USGS is spiking. Most recent instantaneous value: 1,010   06-14-2015  14:30 EST&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d127c225970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d127c225970c img-responsive&#34; style=&#34;width: 580px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;USGS.04174518.02.00060..20150612.20150614.log.0.p50.pres&#34; title=&#34;USGS.04174518.02.00060..20150612.20150614.log.0.p50.pres&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d127c225970c-580wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;4:02 p.m. Report via WEMU&#39;s Jessica Webster (@a2jess) of flooding at Hill St and Division St in Ann Arbor. Jess is running the &#34;In With The In Crowd&#34; show on 89.1 FM. Photo from RydeMedia (@rydekiosk).&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;S. Division and Hill St. &lt;a href=&#34;https://twitter.com/annarbornews&#34;&gt;@annarbornews&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/annarbor?src=hash&#34;&gt;#annarbor&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/umich?src=hash&#34;&gt;#umich&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/urbankayaking?src=hash&#34;&gt;#urbankayaking&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/flood?src=hash&#34;&gt;#flood&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/PureMichigan?src=hash&#34;&gt;#PureMichigan&lt;/a&gt; &lt;a href=&#34;http://t.co/Z0B3QlVIyY&#34;&gt;pic.twitter.com/Z0B3QlVIyY&lt;/a&gt;&lt;/p&gt;&amp;mdash; RydeMedia (@rydekiosk) &lt;a href=&#34;https://twitter.com/rydekiosk/status/610175793369620480&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;3:40 p.m. Photo from WDIV Channel 4 Detroit (@Local4News) of flooding at Fingerle Lumber (Lake Fingerle). &lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Check out the streets flooded in downtown Ann Arbor! Full flood/thunderstorm warning list: &lt;a href=&#34;http://t.co/veTebEEww3&#34;&gt;http://t.co/veTebEEww3&lt;/a&gt; &lt;a href=&#34;http://t.co/9CIgODg5RG&#34;&gt;pic.twitter.com/9CIgODg5RG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Local 4 WDIV Detroit (@Local4News) &lt;a href=&#34;https://twitter.com/Local4News/status/610169994350080000&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;3:12 p.m. Flooding at Church St and Roosevelt, reported by Anna Cook (@AnnaNotherOne16). This photo set also appears on Channel 4 WDIV&#39;s web site with credit.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Flooding in Ann Arbor &lt;a href=&#34;https://twitter.com/hashtag/4stormpics?src=hash&#34;&gt;#4stormpics&lt;/a&gt; &lt;a href=&#34;http://t.co/nFaUJr88ca&#34;&gt;pic.twitter.com/nFaUJr88ca&lt;/a&gt;&lt;/p&gt;&amp;mdash; Anna Cook (@AnnaNotherOne16) &lt;a href=&#34;https://twitter.com/AnnaNotherOne16/status/610162941665640448&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;3:10 p.m. Flooding at Snyder and Edgewood, reported by MLive&#39;s Hassan Hodges (@mapgoblin). Also a photo set by Andrea Zastrow (@andreaz on Flickr).&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/flooding?src=hash&#34;&gt;#flooding&lt;/a&gt; in &lt;a href=&#34;https://twitter.com/hashtag/AnnArbor?src=hash&#34;&gt;#AnnArbor&lt;/a&gt; at Snyder and Edgewood. Be careful out there, water is deeper than you think CC &lt;a href=&#34;https://twitter.com/annarbornews&#34;&gt;@annarbornews&lt;/a&gt; &lt;a href=&#34;http://t.co/hbAB7LaKg2&#34;&gt;pic.twitter.com/hbAB7LaKg2&lt;/a&gt;&lt;/p&gt;&amp;mdash; hassan hodges (@mapgoblin) &lt;a href=&#34;https://twitter.com/mapgoblin/status/610162483903361024&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Allmendinger Park Flooding, 6/15/2015 &lt;a href=&#34;https://twitter.com/hashtag/flickr?src=hash&#34;&gt;#flickr&lt;/a&gt; by Andrea Zastrow - Snyder and Edgewood &lt;a href=&#34;https://t.co/wxnC3hftvF&#34;&gt;https://t.co/wxnC3hftvF&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/a2flood?src=hash&#34;&gt;#a2flood&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/610187999846883328&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;2:38 p.m. Depot Street between Fourth Ave and Main Street has standing water - this is previously known as &#34;Lake Barracuda&#34;. Report from Patti Smith (@teacherpatti).&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Depot &lt;a href=&#34;http://t.co/LUn6qZ3t5I&#34;&gt;pic.twitter.com/LUn6qZ3t5I&lt;/a&gt;&lt;/p&gt;&amp;mdash; TeacherPatti (@TeacherPatti) &lt;a href=&#34;https://twitter.com/TeacherPatti/status/610154461537943552&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;2:26 p.m. Flooding at 1st and Kingsley, right next to the new municipal rain garden at that corner. Reported by @voxphoto (Ross Orr).&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Flooding over the curbs at 1st &amp;amp; Kingsley &lt;a href=&#34;https://twitter.com/hashtag/AnnArbor?src=hash&#34;&gt;#AnnArbor&lt;/a&gt;. Avoid! &lt;a href=&#34;https://twitter.com/ArborWX&#34;&gt;@ArborWX&lt;/a&gt; &lt;a href=&#34;https://twitter.com/TeacherPatti&#34;&gt;@TeacherPatti&lt;/a&gt; &lt;a href=&#34;http://t.co/rCfWdJ7Koz&#34;&gt;pic.twitter.com/rCfWdJ7Koz&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ross Orr (@voxphoto) &lt;a href=&#34;https://twitter.com/voxphoto/status/610151297463922688&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;2:07 p.m. Flooding on Packard at E Stadium and on Iroquois. I was driving through it, it wasn&#39;t fun. Photo by Saul Vielmetti (@tallervielmetti) who was not driving. I radioed in a report to the N8DUY repeater which was monitored by Chris Dzombak (@ArborWX).&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/vielmetti&#34;&gt;@vielmetti&lt;/a&gt; checked in on N8DUY reporting intense rainfall at Packard and E Stadium with flooding on nearby streets&lt;/p&gt;&amp;mdash; ArborWX (@ArborWX) &lt;a href=&#34;https://twitter.com/ArborWX/status/610148403620769794&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Flooding on Stadium Blvd between Packard and S. Industrial &lt;a href=&#34;https://twitter.com/A2GOV&#34;&gt;@A2GOV&lt;/a&gt; &lt;a href=&#34;http://t.co/ZJ1XLjlR5r&#34;&gt;pic.twitter.com/ZJ1XLjlR5r&lt;/a&gt;&lt;/p&gt;&amp;mdash; Saul Vielmetti (@tallervielmetti) &lt;a href=&#34;https://twitter.com/tallervielmetti/status/610146566024921088&#34;&gt;June 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>super cold (but sunny; don&#39;t forget that it was sunny)</title>
+      <link>http://localhost:1313/post/2015/2015-02-20-super-cold-but-sunny-dont-forget-that-it-was-sunny/</link>
+      <pubDate>Fri, 20 Feb 2015 00:28:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-02-20-super-cold-but-sunny-dont-forget-that-it-was-sunny/</guid>
+      <description>&lt;p&gt;One of my favorite weather forecasts comes from &lt;a href=&#34;http://www.forecast.io&#34;&gt;forecast.io&lt;/a&gt;. This screen shows the ensemble set of forecasts they have for temperature for tomorrow (February 20, 2015), highlighting the 8:00 a.m. reading.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7508be5970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7508be5970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-02-20 at 12.18.04 AM&#34; title=&#34;Screen Shot 2015-02-20 at 12.18.04 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7508be5970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You&#39;ll note from this graph that there are several weather models they are pulling from. The one of them that has the coldest predicted weather is &lt;a href=&#34;http://weather.rap.ucar.edu/model/&#34;&gt;RAP&lt;/a&gt; from the National Center for Atmospheric Research in Boulder, Colorado. Looking at their set of pages they have a nice cold temperature forecast map. Brrr! You have to head pretty far to escape the frigid air, it looks like the vector towards warmth is to the southwest&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07f43e96970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07f43e96970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Ruc12hr_sfc_temp&#34; title=&#34;Ruc12hr_sfc_temp&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07f43e96970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Your mileage (and temperature) may vary from the predictions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non-traditional maps to monitor severe weather</title>
+      <link>http://localhost:1313/post/2014/2014-11-22-non-traditional-maps-to-monitor-severe-weather/</link>
+      <pubDate>Sat, 22 Nov 2014 13:06:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-11-22-non-traditional-maps-to-monitor-severe-weather/</guid>
+      <description>&lt;p&gt;When ordinary weather maps don&#39;t tell you what the worst of the weather is like out there, I turn to these sources for information.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Twitter, especially. A search this morning for &#34;ann arbor ice&#34; gave plenty of illustrations why it was not suitable to be out walking around. Streets and highways were bad, and a Delta flight slid off the runway at DTW. For Michigan weather follow the &lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt; hashtag.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Google Maps with the &#34;traffic&#34; overlay. Zoom way out, and you&#39;ll see splotches of red, showing where traffic is moving at significantly lower than posted speeds; zoom in, and you get recent reports from motorists using Waze reporting specific incidents.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Broadcastify&#39;s &#34;top feeds&#34;. Here you count on citizens monitoring public safety traffic to give you an idea of what kinds of places are working a lot of incidents. The &lt;a href=&#34;http://www.broadcastify.com/listen/top&#34;&gt;top feeds&lt;/a&gt; can also be set up to generate alerts on your phone if you use their mobile app.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power outage maps, for when storms and incidents get really bad. There&#39;s no one single source to go to, but if you can figure out which utility company covers an area, their outage map is a good measure of storm location or path and intensity.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The morning&#39;s problem was ice. An unusual and good map of ice risk is the &lt;a href=&#34;http://www.spia-index.com/&#34;&gt;SPIA Index&lt;/a&gt;, a metric that combines an ice forecast with a wind forecast to predict damage. &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tune in to Skywarn nets in 50 states when severe weather threatens</title>
+      <link>http://localhost:1313/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/</link>
+      <pubDate>Fri, 04 Apr 2014 01:43:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/</guid>
+      <description>&lt;p&gt;Putting together a &lt;a href=&#34;http://twitter.com/vielmetti/lists/skywarn&#34;&gt;Twitter list&lt;/a&gt; and a set of Broadcastify radio feeds for Skywarn networks. I&#39;ll only be adding these when I have confirmed to listen to traffic. There are also Skywarn twitter lists from &lt;a href=&#34;https://twitter.com/KE4KMD/lists/skywarn&#34;&gt;KE4KMD&lt;/a&gt; that were used to compile this, and a national &lt;a href=&#34;http://skywarn.org&#34;&gt;skywarn.org&lt;/a&gt; that has a national directory. &lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.afn.org/~afn09444/weather/skywarn.html&#34;&gt;Index to SKYWARN Web Pages on the Internet&lt;/a&gt; is from Todd L. Sherman KB4MHH and has been updated since 1996; it is an excellent reference. &lt;a href=&#34;http://wx5tvs.com/storm-spotters.html&#34;&gt;SKYWARN Storm Spotters&lt;/a&gt; from David Drummond is another national list.&lt;/p&gt;
+
+&lt;p&gt;For an account of the use of Twitter for SKYWARN activities, read &lt;a href=&#34;https://ams.confex.com/ams/41BC2WxWarn/webprogram/Paper225882.html&#34;&gt;#tSpotter: SKYWARN in the Social Media Age&lt;/a&gt;, a paper presented to the American Metorological Society in 2013.&lt;/p&gt;
+
+&lt;p&gt;So far I have details for 29 of 50 states compiled here as of April 5, 2014.&lt;/p&gt;
+
+&lt;h2&gt;Alabama&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/alwx&#34;&gt;alwx&lt;/a&gt;. Mobile area: #&lt;a href=&#34;http://www.tchat.io/rooms/mobwx&#34;&gt;mobwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.alabamaskywarn.org/&#34;&gt;Alabama Skywarn Foundation&lt;/a&gt; has statewide connections.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.radioreference.com/apps/db/?aid=4234&#34;&gt;Alabama severe weather frequencies&lt;/a&gt;, Radio Reference.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nalsw.net/&#34;&gt;Skywarn North Alabama / Southern Middle Tennessee&lt;/a&gt; (WX4HUN) supports NWS Huntsville, Alabama. Twitter: @&lt;a href=&#34;https://twitter.com/WX4HUN_Skywarn&#34;&gt;WX4HUN_Skywarn&lt;/a&gt;, @&lt;a href=&#34;https://twitter.com/Activation_HUN&#34;&gt;Activation_HUN&lt;/a&gt;. Hashtag #&lt;a href=&#34;http://tchat.io/rooms/hunwx&#34;&gt;HUNwx&lt;/a&gt;. Listen on Broadcastify, &lt;a href=&#34;http://www.broadcastify.com/listen/feed/11675&#34;&gt;N4IDX 146.960&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://alert-alabama.org/&#34;&gt;ALERT&lt;/a&gt; (Alabama Emergency Response Team) supports NWS Birmingham. Twitter: @&lt;a href=&#34;https://twitter.com/k4nws&#34;&gt;k4nws&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.eastalabamaskywarn.com/&#34;&gt;East Alabama Skywarn&lt;/a&gt; serves Lee County and surrounding counties.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.w4ap.org/modules.php?name=SkyWarn&#34;&gt;Central Alabama Skywarn&lt;/a&gt; serves the Montgomery area. W4AP 146.840 repeater, training net Thursdays 7:00 p.m. CT.&lt;/p&gt;
+
+&lt;h2&gt;Alaska&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/akwx&#34;&gt;akwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;National Weather Service on Twitter: @&lt;a href=&#34;http://twitter.com/NWSJuneau&#34;&gt;NWSJuneau&lt;/a&gt;, @&lt;a href=&#34;http://twitter.com/NWSAnchorage&#34;&gt;NWSAnchorage&lt;/a&gt;, @&lt;a href=&#34;https://twitter.com/NWSFairbanks&#34;&gt;NWSFairbanks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.kl7kc.com/index.html&#34;&gt;Arctic Amateur Radio Club&lt;/a&gt;, KL4KC.&lt;/p&gt;
+
+&lt;p&gt;NWS Fairbanks ham radio Skywarn station, &lt;a href=&#34;http://pafg.arh.noaa.gov/ham.php&#34;&gt;KL7FWX&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Arizona&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/azwx&#34;&gt;azwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://skywarnaz.org/&#34;&gt;Skywarn Arizona Sector 1&lt;/a&gt; covers the Tucson area and is particularly active during monsoon season.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.copahams.org/skywarn-in-arizona.html&#34;&gt;Maricopa Amateur Radio Association&lt;/a&gt; covers the Phoenix area.&lt;/p&gt;
+
+&lt;h2&gt;Arkansas&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/arwx&#34;&gt;arwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.arkskywarn.org/&#34;&gt;Arkansas Skywarn&lt;/a&gt;, and a Twitter feed @&lt;a href=&#34;https://twitter.com/arkskywarn&#34;&gt;arkskywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/5167&#34;&gt;CAREN&lt;/a&gt;, Central Arkansas Radio Emergency Net via Broadcastify. Little Rock area, monitored April 4, 2014.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.broadcastify.com/listen/feed/5419&#34;&gt;W5RHS&lt;/a&gt; SKYWARN Repeater 147.120 Mhz via Broadcastify. West of Benton Arkansas, Saline County, linked to other Arkansas Skywarn nets.&lt;/p&gt;
+
+&lt;h2&gt;California&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cawx&#34;&gt;cawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.swskywarn.org/&#34;&gt;Southwest California Skywarn&lt;/a&gt; serves the NWS San Diego office. Facebook: &lt;a href=&#34;https://www.facebook.com/SanDiegoCountySkywarn&#34;&gt;San Diego County Skywarn&lt;/a&gt;. Twitter: @&lt;a href=&#34;https://twitter.com/SnDgCo_Skywarn&#34;&gt;SnDgCo_Skywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Colorado&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cowx&#34;&gt;cowx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.w9tec.com/chaseradio/co.html&#34;&gt;Eastern Colorado Severe Weather Frequencies&lt;/a&gt; from W9TEC, last updated 1/2010.&lt;/p&gt;
+
+&lt;h2&gt;Connecticut&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ctwx&#34;&gt;ctwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ctskywarn.com/&#34;&gt;Connecticut Skywarn&lt;/a&gt; has maps of frequencies in use and reporting areas.&lt;/p&gt;
+
+&lt;h2&gt;Delaware&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dewx&#34;&gt;dewx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;District of Columbia&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dcwx&#34;&gt;dcwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.wx4lwx.org/&#34;&gt;National Capital Area Skywarn Support Group&lt;/a&gt; covers the Baltimore/Washington metro area. &lt;a href=&#34;http://www.erh.noaa.gov/lwx/skywarn/subnet.html&#34;&gt;WX4LWX&lt;/a&gt; frequency plan.&lt;/p&gt;
+
+&lt;h2&gt;Florida&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/flwx&#34;&gt;flwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flaglerskywarn.org/&#34;&gt;Flagler Skywarn&lt;/a&gt;, Jacksonville area.&lt;/p&gt;
+
+&lt;h2&gt;Georgia&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/gawx&#34;&gt;gawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Hawaii&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/hiwx&#34;&gt;hiwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Idaho&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/idwx&#34;&gt;idwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Illinois&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ilwx&#34;&gt;ilwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://chicagolandskywarn.org/&#34;&gt;Chicagoland Skywarn&lt;/a&gt; covers the greater Chicago area. (Broadcastify feed is down).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.northernilskywarn.org/&#34;&gt;Northern Illinois Skywarn&lt;/a&gt; covers Boone and Winnebago counties.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lakecountyskywarn.org/&#34;&gt;Lake County Skywarn&lt;/a&gt; serves Libertyville, IL. The repeater for Skywarn is run by &lt;a href=&#34;http://www.races.org/&#34;&gt;Lake County RACES/ARES&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Indiana&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/inwx&#34;&gt;inwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/6063&#34;&gt;Central Indiana Skywarn Repeater Net W9ICE&lt;/a&gt; via Broadcastify. 39 county system.
+&lt;a href=&#34;http://www.w9nws.org/&#34;&gt;Central Indiana Skywarn&lt;/a&gt; web site. Indianapolis area, serves &lt;a href=&#34;http://www.crh.noaa.gov/ind/&#34;&gt;NWS Indianapolis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.fwrc.info/index.php/skywarn&#34;&gt;Fort Wayne Radio Club SKYWARN&lt;/a&gt; is part of &lt;a href=&#34;http://www.imoskywarn.org/&#34;&gt;IMO Skywarn&lt;/a&gt;. IMO (&#34;Indiana-Michigan-Ohio&#34;) covers a 37 county warning area in northern Indiana, southernmost Michigan, and northwestern Ohio. &lt;/p&gt;
+
+&lt;h2&gt;Iowa&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/iawx&#34;&gt;iawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Kansas&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/kswx&#34;&gt;kswx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Kentucky&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/kywx&#34;&gt;kywx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Louisiana&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/lawx&#34;&gt;lawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nelaskywarn.org&#34;&gt;Northeast Louisiana Skywarn&lt;/a&gt;, Twitter @&lt;a href=&#34;https://twitter.com/nelaskywarn&#34;&gt;nelaskywarn&lt;/a&gt;. Web page is 404 on 4/5/14.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://info.louisiana.edu/mahler/skywarn/&#34;&gt;Lafayette SKYWARN Group&lt;/a&gt;. &lt;a href=&#34;http://info.louisiana.edu/mahler/r1.html&#34;&gt;537 System&lt;/a&gt; repeater, KF5VH on 145.370 MHz.&lt;/p&gt;
+
+&lt;h2&gt;Maine&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mewx&#34;&gt;mewx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Maryland&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mdwx&#34;&gt;mdwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Massachusetts&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mawx&#34;&gt;mawx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Taunton (Boston) area covers southern New England. Twitter: @&lt;a href=&#34;http://twitter.com/wx1box&#34;&gt;wx1box&lt;/a&gt;. &lt;a href=&#34;http://www.wx1box.org/&#34;&gt;WX1BOX Skywarn&lt;/a&gt; web site. Echolink &lt;em&gt;NEW-ENG&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Michigan&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/miwx&#34;&gt;miwx&lt;/a&gt;, #&lt;a href=&#34;http://tchat.io/rooms/wmiwx&#34;&gt;wmiwx&lt;/a&gt; (Western Michigan), #&lt;a href=&#34;http://tchat.io/rooms/upwx&#34;&gt;upwx&lt;/a&gt; (Upper Peninsula).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kcra-mi.net/skywarn/mission.html&#34;&gt;Upper Peninsula Skywarn&lt;/a&gt;, 15 counties in the UP. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13447&#34;&gt;K8MDH 147.315 Mhz&lt;/a&gt;, Keewenaw County Skywarn/ARES via Broadcastify. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.kentcountyskywarn.org/&#34;&gt;Kent County Skywarn&lt;/a&gt; covers the Grand Rapids area. Facebook: &lt;a href=&#34;https://www.facebook.com/kcskywarn&#34;&gt;KentCounty Skywarn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lansingarpsc.com/skywarn.html&#34;&gt;Lansing Area Skywarn&lt;/a&gt; covers Ingham County. Listen live to the &lt;a href=&#34;http://www.lansingarpsc.com/listenlive.html&#34;&gt;Okemos repeater&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ottawaskywarn.org/&#34;&gt;Ottawa County Skywarn&lt;/a&gt;, Holland MI area. Listen online to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13885&#34;&gt;K8DAA 147.060&lt;/a&gt; via Broadcastify (down 4/6/14)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/19998&#34;&gt;Washtenaw County Skywarn&lt;/a&gt;, N8DUY repeater. Ann Arbor area. (Broadcastify feed back in service 2015-05-09)&lt;/p&gt;
+
+&lt;h2&gt;Minnesota&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mnwx&#34;&gt;mnwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.metroskywarn.org/&#34;&gt;Metro Skywarn&lt;/a&gt; serves the Minneapolis / St Paul area. Twitter: @&lt;a href=&#34;https://twitter.com/metroskywarn&#34;&gt;metroskywarn&lt;/a&gt;. Feed: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/1796&#34;&gt;Metro Skywarn - South Metro Area&lt;/a&gt; via Broadcastify.&lt;/p&gt;
+
+&lt;h2&gt;Mississippi&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mswx&#34;&gt;mswx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tupeloarc.org/skywarn.htm&#34;&gt;Northeast Mississippi Skywarn&lt;/a&gt; (Tupelo area) via Tupelo Amateur Radio Club.&lt;/p&gt;
+
+&lt;h2&gt;Missouri&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mowx&#34;&gt;mowx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/773&#34;&gt;N0NWS 145.490&lt;/a&gt; MHz Southwest Missouri SkyWarn Severe Weather Net via Broadcastify. &lt;a href=&#34;https://www.facebook.com/SMRSSW&#34;&gt;SMSSW&lt;/a&gt; on Facebook.&lt;/p&gt;
+
+&lt;h2&gt;Montana&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mtwx&#34;&gt;mtwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nebraska&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/newx&#34;&gt;newx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nevada&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nvwx&#34;&gt;nvwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;New Hampshire&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nhwx&#34;&gt;nhwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;New Jersey&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/njwx&#34;&gt;njwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.bergenskywarn.org/&#34;&gt;Bergen Skywarn&lt;/a&gt; covers Bergen and Passaic counties. Twitter: @&lt;a href=&#34;https://twitter.com/WX2BC&#34;&gt;WX2BC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.capemayskywarn.net/&#34;&gt;Cape May County Skywarn&lt;/a&gt; is 147.42 simplex. &lt;/p&gt;
+
+&lt;h2&gt;New Mexico&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nmwx&#34;&gt;nmwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;New York&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/nywx&#34;&gt;nywx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nyc-skywarn.org/&#34;&gt;New York City Skywarn&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2&gt;North Carolina&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ncwx&#34;&gt;ncwx&lt;/a&gt;. Wilmington area: #&lt;a href=&#34;http://tchat.io/rooms/ilmwx&#34;&gt;ilmwx&lt;/a&gt;. Eastern North Carolina: #&lt;a href=&#34;http://tchat.io/rooms/encwx&#34;&gt;encwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;SE North Carolina: &lt;a href=&#34;https://www.facebook.com/pages/RBC-Skywarn/296347410513805&#34;&gt;RBC Skywarn (Facebook)&lt;/a&gt;. Attached to &lt;a href=&#34;http://www.weather.gov/ilm/&#34;&gt;NWS Wilmington, NC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ccskywarn.net/&#34;&gt;Central Carolina Skywarn&lt;/a&gt; web site. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/5620&#34;&gt;Monitor Central Carolina Skywarn&lt;/a&gt; WB4TQD on Broadcastify; serves Raleigh, NC and surrounding counties.&lt;/p&gt;
+
+&lt;h2&gt;North Dakota&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ndwx&#34;&gt;ndwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Ohio&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ohwx&#34;&gt;ohwx&lt;/a&gt;. Cincinnati area #&lt;a href=&#34;http://tchat.io/rooms/cincywx&#34;&gt;cincywx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.severe-weather.org/&#34;&gt;Central Ohio Severe Weather Network&lt;/a&gt; supports NWS Wilmington, OH.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ccskywarn.org/&#34;&gt;Cuyahoga County Skywarn&lt;/a&gt; supports the Cleveland area. Twitter: @&lt;a href=&#34;https://twitter.com/CuyahogaSkywarn&#34;&gt;CuyahogaSkywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cincinnati&#39;s &lt;a href=&#34;http://warn.org&#34;&gt;Weather Amateur Radio Network&lt;/a&gt; (WARN). Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/5096&#34;&gt;W8NWS&lt;/a&gt; on Broadcastify. 146.88 MHz. 17 counties surrounding Hamilton County, Ohio. Twitter: @&lt;a href=&#34;http://twitter.com/cincyskywarn&#34;&gt;CincySkywarn&lt;/a&gt;, #&lt;a href=&#34;http://tchat.io/rooms/cincywx&#34;&gt;cincywx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Oklahoma&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/okwx&#34;&gt;okwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.radioreference.com/apps/db/?aid=1871&#34;&gt;Oklahoma weather frequencies&lt;/a&gt; on Radio Reference.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.okarkskywarn.org/&#34;&gt;Eastern Oklahoma / Northwestern Arkansas Skywarn&lt;/a&gt; is out of Tulsa, Oklahoma. Station [WX5TUL].&lt;/p&gt;
+
+&lt;h2&gt;Oregon&lt;/h2&gt;
+
+&lt;h2&gt;Pennsylvania&lt;/h2&gt;
+
+&lt;h2&gt;Rhode Island&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/riwx&#34;&gt;riwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;South Carolina&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/scwx&#34;&gt;scwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;South Dakota&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/sdwx&#34;&gt;sdwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Tennessee&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/tnwx&#34;&gt;tnwx&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.etskywarn.net/&#34;&gt;East Tennessee Skywarn&lt;/a&gt;, and a twitter feed @&lt;a href=&#34;https://twitter.com/etskywarn&#34;&gt;etskywarn&lt;/a&gt;. Knoxville area.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/MiddleTennesseeSkywarnSpotters&#34;&gt;Middle Tennessee Skywarn Spotters&lt;/a&gt; (Facebook; not active). Nashville area.
+&lt;a href=&#34;http://mtears.org/sns/&#34;&gt;MTEARS&lt;/a&gt; radio network. &lt;a href=&#34;http://nashvillesevereweather.com/&#34;&gt;Nashville Severe Weather&lt;/a&gt; web site, @&lt;a href=&#34;http://twitter.com/nashseverewx&#34;&gt;NashSevereWX&lt;/a&gt;. Spotter reports from Nashville, #&lt;a href=&#34;http://tchat.io/rooms/tspotter&#34;&gt;tspotter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Memphis area: #&lt;a href=&#34;http://tchat.io/rooms/memwx&#34;&gt;memwx&lt;/a&gt;. Spotter reports from Memphis, #&lt;a href=&#34;http://tchat.io/rooms/mspotter&#34;&gt;mspotter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Texas&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/txwx&#34;&gt;txwx&lt;/a&gt;. Dallas/Fort Worth, #&lt;a href=&#34;http://www.tchat.io/rooms/dfwwx&#34;&gt;dfwwx&lt;/a&gt;. Lubbock, #&lt;a href=&#34;http://www.tchat.io/rooms/lubwx&#34;&gt;lubwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fort Worth / Dallas: @&lt;a href=&#34;http://twitter.com/wx5fwd&#34;&gt;wx5fwd&lt;/a&gt;, NWS Fort Worth Skywarn radio desk. &lt;a href=&#34;http://wx5fwd.org/&#34;&gt;WX5FWD SKYWARN Team&lt;/a&gt; web site. EchoLink conference &lt;em&gt;WX5FWD&lt;/em&gt; (372418).&lt;/p&gt;
+
+&lt;p&gt;Denton County: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/8307&#34;&gt;W5NGU 146.920&lt;/a&gt; via Broadcastify. &lt;a href=&#34;http://www.dcara.net/&#34;&gt;Denton County Amateur Radio Association&lt;/a&gt; web site. &lt;a href=&#34;http://www.denton-ares.org/&#34;&gt;Denton ARES&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Wichita County: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/4682/&#34;&gt;Wichita County ARES 146.940&lt;/a&gt; via Broadcastify.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://skywarn.n4ki.us/&#34;&gt;East Texas Skywarn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Utah&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/utwx&#34;&gt;utwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Vermont&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/vtwx&#34;&gt;vtwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Virginia&lt;/h2&gt;
+
+&lt;h2&gt;Washington State&lt;/h2&gt;
+
+&lt;h2&gt;West Virginia&lt;/h2&gt;
+
+&lt;h2&gt;Wisconsin&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/wiwx&#34;&gt;wiwx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mke-skywarn.org&#34;&gt;Milwaukee Area Skywarn Association&lt;/a&gt;, Twitter @&lt;a href=&#34;http://twitter.com/mkeskywarn&#34;&gt;mkeskywarn&lt;/a&gt;. Weather nets are on the 146.91 repeater; listen to the &lt;a href=&#34;http://www.mrc91.org/index.html&#34;&gt;Milwaukee Radio Club&lt;/a&gt; WI9MRC directly, or &lt;a href=&#34;https://www.broadcastify.com/listen/feed/12865&#34;&gt;WI9MRC 146.91&lt;/a&gt; on Broadcastify.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.wx9grb.org/&#34;&gt;Packerland Amateur Skywarn Society&lt;/a&gt;, serving the Green Bay area. Twitter @&lt;a href=&#34;http://twitter.com/WX9GRBSkywarn&#34;&gt;WX9GRBSkywarn&lt;/a&gt;. Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/15791&#34;&gt;Green Bay Area Repeaters&lt;/a&gt; on Broadcastify.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.midwestsstrc.org/&#34;&gt;MidWest SSTRC&lt;/a&gt; covers the Madison area. Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/10414&#34;&gt;MidWest Amateur Severe Storm Tracking Response Center&lt;/a&gt; on Broadcastify.&lt;/p&gt;
+
+&lt;h2&gt;Wyoming&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>snowedoutatlanta - January 28, 2014 Atlanta snowstorm paralyzes city</title>
+      <link>http://localhost:1313/post/2014/2014-01-29-january-28-2014-atlanta-snowstorm-paralyzes-city/</link>
+      <pubDate>Wed, 29 Jan 2014 00:39:08 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-01-29-january-28-2014-atlanta-snowstorm-paralyzes-city/</guid>
+      <description>&lt;p&gt;It&#39;s cold here in Ann Arbor, but we more or less know how to deal with it. Not so in Atlanta, where slippery roads led to gridlock on the highways and midnight traffic jams.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d696a66970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73d696a66970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Atlanta-snowstorm-midnight-traffic-jam-january-28-2014&#34; title=&#34;Atlanta-snowstorm-midnight-traffic-jam-january-28-2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d696a66970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the &lt;a href=&#34;http://www.ajc.com/news/news/atlanta-snow-jam-2014-metro-commuters-recount-thei/nc5qF/&#34;&gt;Atlanta Journal-Constitution&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It was a day when a 10-mile commute could take you at least six hours. For those heading from downtown to the burbs, it was even worse. The interstates were a gridlocked mess long before the snow finished falling Tuesday. And side streets? Even worse. Some people ditched their vehicles and set out on foot. Others tried to help stranded strangers. And many persevered, moving a few inches an hour toward home.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A Facebook page, &lt;a href=&#34;https://www.facebook.com/groups/397839673695382/&#34;&gt;SnowedOutAtlanta&lt;/a&gt;, was set up to help stranded motorists, and it has spawned a &lt;a href=&#34;https://mapsengine.google.com/map/u/0/edit?mid=zCPqWODXYzLY.kQ7WuEIEQXNs&#34;&gt;Stranded Driver Shelter Map&lt;/a&gt;, a clip of which is below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d696a7c970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73d696a7c970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Atlanta-snowstorm-stranded-driver-shelter-map-January-28-2014&#34; title=&#34;Atlanta-snowstorm-stranded-driver-shelter-map-January-28-2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d696a7c970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kroger, Walmart, and Home Depot have opened their stores as shelters, if you can get to them.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: The &lt;a href=&#34;http://www.wunderground.com/blog/JeffMasters/comment.html?entrynum=2622&#34;&gt;Jeff Masters blog from Weather Underground&lt;/a&gt; has the situation in detail.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A dangerous winter storm swept through the Deep South on Tuesday, dumping 1 - 4&#34; of snow and 1/4&#34; - 1/2&#34; of ice on a region unused to dealing with severe winter weather. Travel chaos resulted in many cities, and at least nine people died in storm-related accidents. Officially, 2.6&#34; of snow fell at the Atlanta Airport from Winter Storm Leon, and snow amounts across the city ranged from 1.5&#34; - 3.5&#34;. But with temperatures in the low 20s, and only 40 snow plows and 30 sand trucks to handle the snow, Atlanta streets and highways quickly turned into parking lots during the afternoon snow, as schools, businesses, and government offices all closed nearly simultaneously, sending a huge number of vehicles onto the roads. Atlanta experienced its worst traffic day of all-time, and thousands of motorists were forced to abandon their vehicles, with many spending the night sheltering in stores, stalled cars, or strangers&#39; homes. A Facebook group dubbed &lt;a href=&#34;https://www.facebook.com/groups/397839673695382/&#34;&gt;SnowedOutAtlanta&lt;/a&gt;, meant to connect stranded motorists with people willing to put them up for the night, had thousands of members by Tuesday night. Hundreds of children never made it home, and were forced to spend the night at their schools or at bus shelters. There were 940 confirmed traffic accidents in Atlanta, with more than 100 involving injuries, according to the Georgia public safety commissioner. It was Atlanta&#39;s worst driving day since the infamous Snow Jam of 1982, when 6&#34; of snow also created traffic chaos, stranding thousands of motorists.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Live blog: November 17, 2013 tornadoes in Illinois and Indiana, severe weather in Michigan</title>
+      <link>http://localhost:1313/post/2013/2013-11-17-live-blog-november-17-2013-tornado-outbreak-in-central-illinois/</link>
+      <pubDate>Sun, 17 Nov 2013 22:45:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-11-17-live-blog-november-17-2013-tornado-outbreak-in-central-illinois/</guid>
+      <description>&lt;p&gt;Live blog of tornado and severe weather outbreak on Sunday, 17 November 2013. Worst affected were several towns in central and southern Illinois and in central Indiana.&lt;/p&gt;
+
+&lt;p&gt;12:15pm Monday. &lt;a href=&#34;http://www.usatoday.com/story/news/nation/2013/11/18/weather-tornadoes-twister-midwest-illinois/3625235/&#34;&gt;USA Today&lt;/a&gt; reports the death toll as 6 in Illinois, and 2 in Michigan. I don&#39;t have details on the Michigan deaths. The report includes 1 minute 30 of tornado videos.&lt;/p&gt;
+
+&lt;p&gt;11:45am Monday. DTE Energy has a &lt;a href=&#34;https://www.facebook.com/media/set/?set=a.10151986496861465.1073741856.84420741464&amp;amp;type=1&#34;&gt;storm damage in Michigan&lt;/a&gt; photo set on Facebook. 270,000 DTE customers are without power. Map: &lt;a href=&#34;http://www.dteenergy.com/map/outage.html&#34;&gt;DTE Outage Map&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;11:15am Monday. The Chicago Tribune has a good &lt;a href=&#34;http://galleries.apps.chicagotribune.com/chi-photos-windy-chicago-20131116/&#34;&gt;photo gallery of storm damage&lt;/a&gt; across the state of Illinois.&lt;/p&gt;
+
+&lt;p&gt;1120p. &lt;a href=&#34;http://bigstory.ap.org/article/state-state-look-storm-tornadoes-midwest&#34;&gt;AP&lt;/a&gt; has a state by state brief overview.&lt;/p&gt;
+
+&lt;p&gt;1100p. Power outage totals in Michigan. Latest from DTE Energy is 200K without power in SE Michigan as of 10:15 pm, per Detroit Free Press. 180K Consumers Energy subscribers in Michigan without power at 10:00 pm, per Fox 17 News.&lt;/p&gt;
+
+&lt;p&gt;1045p. Details from Washington, IL, about 20 miles east of Peoria, IL.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tchat.io/rooms/washingtonil&#34;&gt;#WashingtonIL&lt;/a&gt; twitter feed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pjstar.com/article/20131117/NEWS/131119271&#34;&gt;Peoria Journal-Star&lt;/a&gt;: Tornado in Washington claims one life, injures dozens&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.chicagotribune.com/news/local/breaking/chi-forecast-warm-windy-and-stormy-weekend-20131116,0,3131638.story&#34;&gt;Chicago Tribune&lt;/a&gt;: Tornadoes, storms beat path of destruction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1035p. Updated &lt;a href=&#34;http://www.spc.noaa.gov/climo/reports/today.html&#34;&gt;Today&#39;s Storm Reports&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b01427a14970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b01427a14970c&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Today_filtered-1&#34; title=&#34;Today_filtered-1&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b01427a14970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1030p. &lt;a href=&#34;http://www.dteenergy.com/map/outage.html&#34;&gt;DTE Outage Map&lt;/a&gt; for Southeastern Michigan (excerpt from total). Lots of damage.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0142c4f4970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0142c4f4970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-11-17 at 10.26.45 PM&#34; title=&#34;Screen shot 2013-11-17 at 10.26.45 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0142c4f4970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1025p. Tornado videos from 11/17/2013 &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gObNkCnINo0#t=2&#34;&gt;Roanoke, IL tornado&lt;/a&gt; video from Adam Lucio on Youtube&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=05o6FdeebNM&#34;&gt;Coal City, IL tornado&lt;/a&gt; video&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hzmz2oCtkLw&#34;&gt;Gifford, IL tornado damage&lt;/a&gt; video from Brett Adair, Live Storms Media&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=z5Jzs-RQxVk&#34;&gt;Washington, IL tornado&lt;/a&gt; video from Melodye Buckingham&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=L9gxh4ElZx4&#34;&gt;Washington, IL tornado damage&lt;/a&gt; video from Mike Brady, KDR Media&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1015p. Running down the list of summaries for the afternoon. &lt;a href=&#34;https://en.wikipedia.org/wiki/November_17,_2013_tornado_outbreak&#34;&gt;Wikipedia&lt;/a&gt; has a page, which is as good a start as an overview as anything, listing 7 confirmed deaths and 32 separate incidents with a maximum intensity of EF4.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/November_17,_2013_tornado_outbreak&#34;&gt;Wikipedia&lt;/a&gt; &#34;November 17, 2013 tornado outbreak&#34;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;620p. Heading to &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/11/ignite-ann-arbor-8-sunday-14-november-2013-blau-auditorium.html&#34;&gt;Ignite Ann Arbor 8&lt;/a&gt; in Ann Arbor, so I&#39;m closing up this live blog for now. The storm was less intense in the Ann Arbor area than elsewhere, so other news sources will be better for current news.&lt;/p&gt;
+
+&lt;p&gt;615p. Photos coming out of the Kokomo, Indiana area show significant damage to a fire station there. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kokomotribune.com/&#34;&gt;Kokomo Tribune&lt;/a&gt; stories&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;“&lt;a href=&#34;https://twitter.com/1800BoardUp&#34;&gt;@1800BoardUp&lt;/a&gt;: Severe damage to Kokomo Fire Dept. Station 6. Everyone out safe. &lt;a href=&#34;https://twitter.com/search?q=%23INwx&amp;amp;src=hash&#34;&gt;#INwx&lt;/a&gt; &lt;a href=&#34;http://t.co/brkWNSKw5e&#34;&gt;pic.twitter.com/brkWNSKw5e&lt;/a&gt;”&lt;/p&gt;&amp;mdash; Lisa (@aerolisa1) &lt;a href=&#34;https://twitter.com/aerolisa1/statuses/402211320768245760&#34;&gt;November 17, 2013&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+600p. 150+ without power west of Briarwood Mall, Ann Arbor, per DTE Outage Map. Whole Foods Cranbrook Mall is closed because of power outage. (@WFMCranbrookAA).&lt;/p&gt;
+
+&lt;p&gt;545p. Multiple reports via twitter of power surges and dips in the Chelsea / Dexter / Ann Arbor / Ypsilanti area, nothing yet on the DTE Outage Map.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dteenergy.com/map/outage.html&#34;&gt;DTE Outage Map&lt;/a&gt; from DTE Energy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;525p. Live blog from NPR&#39;s &#34;The Two Way&#34; says the Weather Service has issued 109 tornado warnings today, depicted here.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.npr.org/blogs/thetwo-way/2013/11/17/245817868/tornadoes-in-illinois-cause-severe-damage&#34;&gt;The Two Way live blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nws.noaa.gov/regsci/gis/today.html&#34;&gt;NWS Polygons&lt;/a&gt; map&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0140df8b970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0140df8b970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Warn_us_today1&#34; title=&#34;Warn_us_today1&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0140df8b970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;515p. Severe Thunderstorm warning til 615p for Washtenaw County, MI: Washtenaw EOC via scanner &lt;a href=&#34;http://www.tchat.io/rooms/miwx&#34;&gt;#miwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;510p update. Report of &#34;NEW: At least 330k power outages across MO, IL, IN, MI, &amp;amp; KY&#34; via @WCL_Shawn and &lt;a href=&#34;http://www.tchat.io/rooms/miwx&#34;&gt;#miwx&lt;/a&gt;. AP reports &lt;a href=&#34;http://t.co/gyNy2KMLuk&#34;&gt;2 dead in New Minden, IL&lt;/a&gt;, in the southern part of the state. WXYZ: Severe storm warning for Livingston Co. until 5:45pm via &lt;a href=&#34;http://tchat.io/rooms/7FirstAlert&#34;&gt;#7FirstAlert&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tchat.io/rooms/miwx&#34;&gt;#miwx&lt;/a&gt;, Twitter stream of weather news, via tchat.io&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://t.co/gyNy2KMLuk&#34;&gt;2 dead in New Minden, IL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tchat.io/rooms/7FirstAlert&#34;&gt;#7FirstAlert&lt;/a&gt;, twitter feed from WXYZ Ch 7 Detroit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;500p update. WLNS is streaming live coverage of Lansing, MI weather. WLIW has a live blog of damage across the state of Indiana.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wlns.com/story/23992610/watch-severe-weather-coming-to-mid-michigan&#34;&gt;WLNS&lt;/a&gt;, Lansing Ch. 6&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wbiw.com/state/archive/2013/11/damage-reports-pour-in-around-state.php&#34;&gt;WILW live blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;450p update. The Washtenaw County SKYWARN net is active. No traffic to report yet. Now monitoring Washtenaw County public safety.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/5230&#34;&gt;Washtenaw County SKYWARN&lt;/a&gt;, 15 listeners on Broadcastify; no audio yet.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/3913/web&#34;&gt;Washtenaw County public safety&lt;/a&gt;, Broadcastify&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;430p update. Tornado on the ground in Knox County, Indiana, with reports of home damage per Broadcastify.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/2762&#34;&gt;Knox County Indiana&lt;/a&gt; public safety, 1335 listeners on Broadcastify&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;415p update&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;...SIGNIFICANT WEATHER ADVISORY... &lt;/p&gt;
+  
+  &lt;p&gt;AT 357 PM EST...NATIONAL WEATHER SERVICE DOPPLER RADAR INDICATED 
+  STRONG THUNDERSTORMS ALONG A LINE EXTENDING FROM 50 MILES WEST OF 
+  FOWLERVILLE TO 49 MILES WEST OF MANCHESTER...MOVING EAST AT 65 MPH. 
+  WINDS UP TO 60 MPH...HEAVY DOWNPOURS...ARE POSSIBLE WITH THESE 
+  STORMS. &lt;/p&gt;
+  
+  &lt;p&gt;THUNDERSTORMS WILL BE NEAR... 
+  MANCHESTER AND GREGORY AT 440 PM EST... 
+  FOWLERVILLE AND CHELSEA AT 445 PM EST... 
+  OAK GROVE AND PINCKNEY AT 450 PM EST... 
+  WHITMORE LAKE AND SALINE AT 455 PM EST... 
+  HARTLAND AND ANN ARBOR AT 500 PM EST... 
+  GUSTY WINDS MAY CAUSE BRANCHES TO BE BLOWN DOWN...AND LOOSE 
+  OBJECTS TO BLOW AROUND. SEEK SHELTER IN A STURDY STRUCTURE UNTIL 
+  THESE STORMS HAVE PASSED.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3:55 p.m. Updated &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=39.86135&amp;amp;lon=-87.44216&amp;amp;zoom=6&amp;amp;type=darkmap&amp;amp;units=english&amp;amp;pin=Manhattan%2C+IL+60442%2C+USA&amp;amp;plat=41.422531&amp;amp;plon=-87.985893&amp;amp;tl.play=0&amp;amp;tl.spd=2&amp;amp;viewportstart=now-3600&amp;amp;viewportend=now%2B0&amp;amp;groupSevere=1&amp;amp;groupHurricane=1&amp;amp;groupFire=1&amp;amp;groupCamsPhotos=1&amp;amp;groupRealEstate=1&amp;amp;eyedropper=0&amp;amp;extremes=0&amp;amp;fault=0&amp;amp;favs=0&amp;amp;femaflood=0&amp;amp;fire=0&amp;amp;firewfas=0&amp;amp;fissures=0&amp;amp;fronts=0&amp;amp;hurrevac=0&amp;amp;hur=0&amp;amp;labels=0&amp;amp;lightning=0&amp;amp;livesurge=0&amp;amp;mm=0&amp;amp;ndfd=0&amp;amp;rad=0&amp;amp;dir=1&amp;amp;dir.mode=driving&amp;amp;sst=0&amp;amp;sat=0&amp;amp;seismicrisk=0&amp;amp;svr=1&amp;amp;svr.opa=70&amp;amp;ski=0&amp;amp;snowfall=0&amp;amp;stateLines=0&amp;amp;stormreports=0&amp;amp;tor=0&amp;amp;tfk=0&amp;amp;tsunami=0&amp;amp;riv=0&amp;amp;wxsn=0&amp;amp;cams=0&amp;amp;pix=0&#34;&gt;Wundermap&lt;/a&gt; for 3:55 p.m. I&#39;ll be watching Indiana weather next since it seems to be coming our way. &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b01403987970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b01403987970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-11-17 at 3.55.59 PM&#34; title=&#34;Screen shot 2013-11-17 at 3.55.59 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b01403987970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;3:10 p.m. Tornado warnings in SE Newaygo County, Michigan, N of Grand Rapids. New &lt;a href=&#34;http://www.spc.noaa.gov/products/outlook/day1otlk.html&#34;&gt;Public Severe Weather map&lt;/a&gt; from NWS puts highest risk in Indiana.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f7902970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b013f7902970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Day1otlk_2000&#34; title=&#34;Day1otlk_2000&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f7902970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2:54 p.m. EST Special weather statement -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;...SIGNIFICANT WEATHER ADVISORY... &lt;/p&gt;
+  
+  &lt;p&gt;AT 243 PM EST...NATIONAL WEATHER SERVICE DOPPLER RADAR INDICATED STRONG THUNDERSTORMS ALONG A LINE EXTENDING FROM 6 MILES SOUTHWEST OF CHELSEA TO 7 MILES SOUTHEAST OF MANCHESTER...MOVING NORTHEAST AT 65 MPH. WINDS UP TO 50 MPH...ARE POSSIBLE WITH THESE STORMS. &lt;/p&gt;
+  
+  &lt;p&gt;THUNDERSTORMS WILL BE NEAR... 
+  * CHELSEA BY 250 PM EST... 
+  * MILAN AND SALINE BY 255 PM EST... 
+  * WILLIS AND YPSILANTI BY 300 PM EST... 
+  * DIXBORO BY 305 PM EST... 
+  * SALEM BY 310 PM EST... &lt;/p&gt;
+  
+  &lt;p&gt;GUSTY WINDS MAY CAUSE SMALL BRANCHES TO BE BLOWN DOWN...AND LOOSE 
+  OBJECTS TO BLOW AROUND. SEEK SHELTER IN A STURDY STRUCTURE UNTIL 
+  THESE STORMS HAVE PASSED.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2:51 p.m. Switching focus from Illinois to western Michigan. Severe thunderstorms off of Lake Michigan are hitting the western part of the state. Reports of 62 mile gust at Muskegon, trees down there. Update with latest Wundermap.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Western Michigan weather on &lt;a href=&#34;http://tchat.io/rooms/wmiwx&#34;&gt;#wmiwx&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/stid/26/amateur&#34;&gt;Michigan amateur radio repeaters&lt;/a&gt; on Broadcastify&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f5051970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b013f5051970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-11-17 at 2.51.06 PM&#34; title=&#34;Screen shot 2013-11-17 at 2.51.06 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f5051970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2:45 p.m. Some channels from Broadcastify that have severe weather and public service information, looking now at the &lt;a href=&#34;http://www.broadcastify.com/listen/top/?rl=rr&#34;&gt;Broadcastify top channels&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Skywarn&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/6063&#34;&gt;Central Indiana SKYWARN&lt;/a&gt; 496 listeners. W9ICE 146.970 MHz covers 39 counties&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/11525&#34;&gt;Northeast Illinois SKYWARN&lt;/a&gt; 195 listeners. WA9VGI 442.900 MHz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Public Safety&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/11251&#34;&gt;Tazewell County, IL&lt;/a&gt; 1895 listeners. Severe storm damage to &lt;a href=&#34;http://www.tchat.io/rooms/washingtonil&#34;&gt;#WashingtonIL&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/10406/web&#34;&gt;Illinois Statewide Emergency Management and ISP Live Audio Feed&lt;/a&gt;. 718 listeners.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/1137&#34;&gt;Grundy County, IL&lt;/a&gt; 576 listeners.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2:30 p.m. EST &lt;a href=&#34;http://www.wunderground.com/wundermap?lat=39.86135&amp;amp;lon=-87.44216&amp;amp;zoom=6&amp;amp;type=darkmap&amp;amp;units=english&amp;amp;pin=Manhattan%2C+IL+60442%2C+USA&amp;amp;plat=41.422531&amp;amp;plon=-87.985893&amp;amp;tl.play=0&amp;amp;tl.spd=2&amp;amp;viewportstart=now-3600&amp;amp;viewportend=now%2B0&amp;amp;groupSevere=1&amp;amp;groupHurricane=1&amp;amp;groupFire=1&amp;amp;groupCamsPhotos=1&amp;amp;groupRealEstate=1&amp;amp;eyedropper=0&amp;amp;extremes=0&amp;amp;fault=0&amp;amp;favs=0&amp;amp;femaflood=0&amp;amp;fire=0&amp;amp;firewfas=0&amp;amp;fissures=0&amp;amp;fronts=0&amp;amp;hurrevac=0&amp;amp;hur=0&amp;amp;labels=0&amp;amp;lightning=0&amp;amp;livesurge=0&amp;amp;mm=0&amp;amp;ndfd=0&amp;amp;rad=0&amp;amp;dir=1&amp;amp;dir.mode=driving&amp;amp;sst=0&amp;amp;sat=0&amp;amp;seismicrisk=0&amp;amp;svr=1&amp;amp;svr.opa=70&amp;amp;ski=0&amp;amp;snowfall=0&amp;amp;stateLines=0&amp;amp;stormreports=0&amp;amp;tor=0&amp;amp;tfk=0&amp;amp;tsunami=0&amp;amp;riv=0&amp;amp;wxsn=0&amp;amp;cams=0&amp;amp;pix=0&#34;&gt;Wundermap&lt;/a&gt; snapshot.
+&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f1880970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b013f1880970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-11-17 at 2.22.04 PM&#34; title=&#34;Screen shot 2013-11-17 at 2.22.04 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f1880970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2:15 p.m. EST Updated NWS &lt;a href=&#34;http://www.spc.noaa.gov/products/md/md2018.html&#34;&gt;Mesoscale Discussion 2018&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SUMMARY...WIDESPREAD DAMAGING WINDS AND SEVERAL TORNADOES...SOME OF WHICH SHOULD BE SIGNIFICANT...WILL EVOLVE FROM IL INTO IND AND LOWER MI THROUGH MID-AFTERNOON.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013eaee5970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b013eaee5970c&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Mcd2018&#34; title=&#34;Mcd2018&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013eaee5970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2:00 p.m. EST Reports from the Illinois statewide scanner include news that cell service coverage is down in some areas. Some sources for power outage maps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ameren.com/sites/aiu/outagecenter/pages/outagecenter.aspx&#34;&gt;Ameren Illinois&lt;/a&gt;. 83,000+ without power at 1:50 PM EST (12:50 PM CST)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comed.com/_layouts/comedsp/OutageMap.aspx&#34;&gt;ComEd&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013eebf3970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b013eebf3970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-11-17 at 1.59.51 PM&#34; title=&#34;Screen shot 2013-11-17 at 1.59.51 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013eebf3970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1:45 p.m. EST Other live blogs/channels of weather:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.weather.com/news/tornado-central/live-updates-tornado-oubreak-widespread-damaging-winds-sunday-20131117?hootPostID=42c2e0cbe31f1721682924f523352879&#34;&gt;The Weather Channel live blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themiragestaff.tumblr.com/post/67266501456/severe-weather-updates&#34;&gt;Chicago Sun-Times live blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tchat.io/rooms/washingtonil&#34;&gt;#WashingtonIL&lt;/a&gt; Washington, Illinois severely damaged via tchat.io/Twitter&lt;/li&gt;
+&lt;li&gt;Soldier Field being evacuated (Chicago Bears game). &lt;a href=&#34;http://www.tchat.io/rooms/bears&#34;&gt;#Bears&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Television: &lt;a href=&#34;http://t.co/9ZUlndGO28&#34;&gt;WGN-TV&lt;/a&gt; Chicago&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Image from Twitter, @ChrisKhoury182 and credit to @AnthonyKhoury20 , from Washington, Tazewell County, Illinois, near Peoria.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;Prayers to &lt;a href=&#34;https://twitter.com/search?q=%23WashingtonIL&amp;amp;src=hash&#34;&gt;#WashingtonIL&lt;/a&gt; &lt;a href=&#34;http://t.co/QygeOckO3B&#34;&gt;pic.twitter.com/QygeOckO3B&lt;/a&gt;&lt;/p&gt;&amp;mdash; Chris Khoury (@ChrisKhoury182) &lt;a href=&#34;https://twitter.com/ChrisKhoury182/statuses/402137855717150720&#34;&gt;November 17, 2013&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;1:30 p.m. EST: Weather map showing location of outbreak:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.spc.noaa.gov/climo/reports/today.html&#34;&gt;Today&#39;s Storm Reports&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f0ca7970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b013f0ca7970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Today&#34; title=&#34;Today&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b013f0ca7970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1:15 p.m. EST: Monitoring the following: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tchat.io/rooms/miwx&#34;&gt;#miwx&lt;/a&gt; Michigan weather on Twitter via tchat.io&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tchat.io/rooms/ilwx&#34;&gt;#ilwx&lt;/a&gt; Illinois weather on Twitter via tchat.io&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tchat.io/rooms/backchannel&#34;&gt;#backchannel&lt;/a&gt; WXYZ Detroit Ch 7 on Twitter via tchat.io&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/10406/web&#34;&gt;Illinois Statewide Emergency Management and ISP Live Audio Feed&lt;/a&gt; via Broadcastify&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>University of Michigan softball team in severe weather in Oklahoma City on May 31, 2013</title>
+      <link>http://localhost:1313/post/2013/2013-05-31-university-of-michigan-softball-team-in-severe-weather-in-oklahoma-city-on-may-31-2013/</link>
+      <pubDate>Fri, 31 May 2013 20:57:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-05-31-university-of-michigan-softball-team-in-severe-weather-in-oklahoma-city-on-may-31-2013/</guid>
+      <description>&lt;p&gt;The University of Michigan softball team is in Oklahoma City for the Women&#39;s College World Series games. They were caught in the May 31, 2013 tornadoes in that area. The team, along with other teams in the games took shelter in an underground parking garage.&lt;/p&gt;
+&lt;p&gt;News coverage: &lt;a href=&#34;http://www.wxyz.com/dpp/news/womens-college-world-series-postponed-by-weather&#34;&gt;WXYZ/AP&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;We have moves back into the underground garage as a precautionary measure &lt;a href=&#34;https://twitter.com/search/%23OKC&#34;&gt;#OKC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michigan Softball (@umichsoftball) &lt;a href=&#34;https://twitter.com/umichsoftball/status/340635994434961408&#34;&gt;June 1, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;Michigan players getting comfortable in the underground garage &lt;a href=&#34;https://twitter.com/search/%23OKC&#34;&gt;#OKC&lt;/a&gt; &lt;a href=&#34;http://t.co/a3qTD8lTc4&#34; title=&#34;http://twitter.com/umichsoftball/status/340642538945921024/photo/1&#34;&gt;twitter.com/umichsoftball/…&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michigan Softball (@umichsoftball) &lt;a href=&#34;https://twitter.com/umichsoftball/status/340642538945921024&#34;&gt;June 1, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;I&#39;m listening to the local NBC affiliate, &lt;a href=&#34;http://www.nbcnews.com/video/nbcnews.com/52048284&#34;&gt;KFOR&lt;/a&gt;, which is doing live coverage of the Oklahoma City tornadoes (plural).&lt;/p&gt;
+&lt;p&gt;I&#39;m following &lt;a href=&#34;https://twitter.com/G_Garno&#34;&gt;Greg Garno&lt;/a&gt; who is with the team reporting for the Michigan Daily.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/search/%23Michigan&#34;&gt;#Michigan&lt;/a&gt; softball falls in the opening round of the WCWS as Michigan loses 7-1 and Oklahoma&#39;s Keilani Ricketts throws a no-hitter.&lt;/p&gt;&amp;mdash; Greg Garno (@G_Garno) &lt;a href=&#34;https://twitter.com/G_Garno/status/340324789300387840&#34;&gt;May 31, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Here&#39;s a snapshot of the weather map, note multiple tornado cells (purple triangles) on the radar.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019102c9d5a0970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019102c9d5a0970c&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Okc-tornado-radar-loop-may-31-2013&#34; title=&#34;Okc-tornado-radar-loop-may-31-2013&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019102c9d5a0970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;Here&amp;rsquo;s preliminary tornado track maps.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;RT @&lt;a href=&#34;https://twitter.com/nwsnorman&#34;&gt;nwsnorman&lt;/a&gt;: 837pm - PRELIM tornado tracks for S OKC and Tinker AFB &lt;a href=&#34;https://twitter.com/search/%23okwx&#34;&gt;#okwx&lt;/a&gt; &lt;a href=&#34;http://t.co/HYTiqq2vok&#34; title=&#34;http://twitter.com/NWSNorman/status/340643478168039424/photo/1&#34;&gt;twitter.com/NWSNorman/stat…&lt;/a&gt;&lt;/p&gt;&amp;mdash; Weather Underground (@wunderground) &lt;a href=&#34;https://twitter.com/wunderground/status/340643683475017728&#34;&gt;June 1, 2013&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2013 Moore Oklahoma tornado path map</title>
+      <link>http://localhost:1313/post/2013/2013-05-21-2013-moore-oklahoma-tornado-path-map/</link>
+      <pubDate>Tue, 21 May 2013 14:16:55 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-05-21-2013-moore-oklahoma-tornado-path-map/</guid>
+      <description>&lt;p&gt;This map from the National Weather Service in Norman, Oklahoma (&lt;a href=&#34;http://www.theatlanticcities.com/neighborhoods/2013/05/moore-oklahoma-has-uncanny-history-violent-tornadoes/5655/&#34; target=&#34;_self&#34;&gt;via Atlantic Cities&lt;/a&gt;) shows the destructive path of the Moore, Oklahoma tornado of 20 May 2013. This is a preliminary map that also shows the track of a 3 May 1999 tornado that followed a very similar path.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2a7926970d-pi&#34;&gt;&lt;img alt=&#34;2013-moore-oklahoma-tornado-path-map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192aa2a7926970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2a7926970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;2013-moore-oklahoma-tornado-path-map&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;#39;s too much graphic, devastating imagery from the scene which I won&amp;#39;t include here. &lt;a href=&#34;http://classic.wunderground.com/blog/JeffMasters/comment.html?entrynum=2413&#34; target=&#34;_self&#34;&gt;Dr Jeff Masters has an excellent overview of the meteorology of the event&lt;/a&gt;, including accounts of debris being thrown 100 miles in the air to land on Tulsa, Oklahoma.&lt;/p&gt;
+&lt;p&gt;UPDATE: The &lt;a href=&#34;http://www.nnvl.noaa.gov/MediaDetail2.php?MediaID=1352&amp;amp;MediaTypeID=1&#34; target=&#34;_self&#34;&gt;National Environmental Visualization Laboratory has this image of radar rotational velocity across the storms&lt;/a&gt; of that day, showing tornadic activity in darker colors. (Credit: NOAA)&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2b009e970d-pi&#34;&gt;&lt;img alt=&#34;1352v1_20130521-Moore_Tornado-Rotation&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192aa2b009e970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2b009e970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;1352v1_20130521-Moore_Tornado-Rotation&#34; /&gt;&lt;/a&gt;&lt;br /&gt;UPDATE: The &lt;a href=&#34;http://google.org/crisismap/2013-oklahoma-tornado&#34; target=&#34;_self&#34;&gt;Google Crisis Map for 2013 Oklahoma tornadoes&lt;/a&gt; includes a track of the tornado plus shelter information and links to other local resources. I&amp;#39;ve included a snapshot from Tuesday evening, May 21, 2013.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019102647eb2970c-pi&#34;&gt;&lt;img alt=&#34;Google-Moore-Oklahoma-Tornado-path-track-crisis-map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019102647eb2970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019102647eb2970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Google-Moore-Oklahoma-Tornado-path-track-crisis-map&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;UPDATE: A second National Weather Service map shows the detail of where the tornado was at its maximum intensity. (Credit: National Weather Service, Norman OK, via Facebook)&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2deeed970d-pi&#34;&gt;&lt;img alt=&#34;Nws-moore-tornado-path-outline-ef-5&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192aa2deeed970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2deeed970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Nws-moore-tornado-path-outline-ef-5&#34; /&gt;&lt;/a&gt;&lt;br /&gt;UPDATE: The &lt;a href=&#34;http://www.nytimes.com/interactive/2013/05/20/us/oklahoma-tornado-map.html&#34; target=&#34;_self&#34;&gt;New York Times has a detailed tornado track map&lt;/a&gt; for the Moore, Oklahoma tornado. I&amp;#39;ve excerpted a piece of it here by way of illustration. Their article also has before and after aerial photos of the damage.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191026c133d970c-pi&#34;&gt;&lt;img alt=&#34;New-York-Times-Moore-Oklahoma-Tornado-Track-Map-excerpt&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0191026c133d970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191026c133d970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;New-York-Times-Moore-Oklahoma-Tornado-Track-Map-excerpt&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Severe weather expected Sunday, April 15, 2012 for</title>
+      <link>http://localhost:1313/post/2012/2012-04-15-severe-weather-expected-sunday-april-15-2012/</link>
+      <pubDate>Sun, 15 Apr 2012 02:59:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-04-15-severe-weather-expected-sunday-april-15-2012/</guid>
+      <description>&lt;p&gt;The 2:40am map from &lt;a href=&#34;http://classic.wunderground.com&#34; target=&#34;_self&#34;&gt;Wunderground&lt;/a&gt; is a good marker of things to come for the Ann Arbor area.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016765242297970b-pi&#34;&gt;&lt;img alt=&#34;2xradara4&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef016765242297970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016765242297970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;2xradara4&#34; /&gt;&lt;/a&gt;&lt;br /&gt;As always, for DTE power outage information, the &lt;a href=&#34;http://www.dteenergy.com/map/outage.html&#34; target=&#34;_self&#34;&gt;DTE Power Outage map&lt;/a&gt; is a place to go. Our old analog meter was replaced by a digital one, so there&amp;#39;s one additional point of non-mechanical failure to watch for. The page on&lt;a href=&#34;http://www.dteenergy.com/residentialCustomers/problemsSafety/outageCenter/claims.html&#34; target=&#34;_self&#34;&gt; DTE outage claims&lt;/a&gt; is worth noting.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://forecast.weather.gov/hazards/?wfo=dtx&amp;amp;lat=42.2561&amp;amp;lon=-83.8406&amp;amp;pil=DTXHWODTX&amp;amp;iss=1334433720&amp;amp;etn=0000&amp;amp;maptype=text&#34; target=&#34;_self&#34;&gt;3am forecast from NWS:&lt;/a&gt;&amp;#0160;&lt;/p&gt;
+&lt;pre&gt;SCATTERED THUNDERSTORMS ARE EXPECTED AFTER 2 AM AS A WARM FRONT
+LIFTS INTO THE REGION FROM THE SOUTH. THESE STORMS ARE NOT EXPECTED
+TO BE SEVERE. THE STRONGEST STORMS WILL BE CAPABLE OF PRODUCING WIND
+GUSTS TO 20 MPH AND PEA SIZED HAIL. THESE STORMS WILL MOVE TO THE
+NORTHEAST AROUND 30 MPH.&lt;/pre&gt;
+&lt;pre&gt;SPOTTER ACTIVATION WILL NOT BE NEEDED TODAY AND TONIGHT.
+&lt;/pre&gt;
+&lt;p&gt;Ann Arbor &lt;a href=&#34;http://www.aareced.com/reced.home/reced.teamsports/team_sports_cancellations&#34; target=&#34;_self&#34;&gt;Rec and Ed notifies for cancellations&lt;/a&gt;&amp;#0160;on a page worth watching.&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A visit to Dexter after the Dexter tornado</title>
+      <link>http://localhost:1313/post/2012/2012-03-18-a-visit-to-dexter-after-the-dexter-tornado/</link>
+      <pubDate>Sun, 18 Mar 2012 02:13:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-03-18-a-visit-to-dexter-after-the-dexter-tornado/</guid>
+      <description>&lt;p&gt;
+&lt;div class=&#34;photo-wrap photo-xid-6a00d8341c4f1a53ef01630301e9c3970d&#34; id=&#34;photo-xid-6a00d8341c4f1a53ef01630301e9c3970d&#34; style=&#34;display: block; margin-left: auto; margin-right: auto; width: 500px;&#34;&gt;&lt;a href=&#34;http://farm8.staticflickr.com/7199/6847816744_2f3b1fc932_b.jpg&#34;&gt;&lt;img alt=&#34;image from farm8.staticflickr.com&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01630301e9c3970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01630301e9c3970d-500wi&#34; title=&#34;image from farm8.staticflickr.com&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Photo: &lt;a href=&#34;http://www.flickr.com/photos/andyfowler/6847816744/in/photostream/&#34; target=&#34;_self&#34;&gt;Hudson Mills Metropark golf course&lt;/a&gt;,&amp;#0160;&amp;#0160;&lt;a href=&#34;http://creativecommons.org/licenses/by/2.0/&#34; title=&#34;Attribution License&#34;&gt;Some rights reserved&lt;/a&gt;&amp;#0160;by&amp;#0160;&lt;a href=&#34;http://www.flickr.com/photos/andyfowler/&#34;&gt;Andy Fowler&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;DEXTER, Michigan. As much as possible, I tried not to be the tornado gawker. I probably failed.&lt;/p&gt;
+&lt;p&gt;Update: photo from Andy Fowler, map from National Weather Service.&lt;/p&gt;
+&lt;p&gt;Busch&amp;#39;s was giving away water that had been donated, and cookies, to affected residents. Their store was very close to one of the neighborhoods that was worst hit (Huron Farms). With police blocking the entrance to that neighborhood, you had the feeling that the store was being exceptionally kind to its neighbors and that it was exceptionally lucky.&lt;/p&gt;
+&lt;p&gt;Second Street was worst hit in the old part of Dexter village. Every second house on the downhill side of Second had a blue tarp on part of a roof, but the uphill side had no roof damage. Several businesses on Second were damaged, including a laudromat that was completely demolished.&lt;/p&gt;
+&lt;p&gt;The tornado crossed the Norfolk Southern tracks right by the Dexter Mill. Several homes on Huron Street had blue tarps as well. The Dexter cider mill looked OK, but it was closed for the season. Damage at the Dexter Mill included large sheets of metal that had been twisted around like crumpled paper.&lt;/p&gt;
+&lt;p&gt;Downtown was completely normal with no visible damage. The Dexter Bakery smelled like a bakery that my great aunt might have taken me to 30 years ago. The Dairy Queen was serving up standard issue cones, with a long line in the unseasonably warm March summer.&lt;/p&gt;
+&lt;p&gt;Many trucks went past as I enjoyed my cone with trailers or truckbeds full of full-grown trees, cut into short logs or big chunks. Signs were up everywhere for home repair and remodeling, and a number of insurance companies had trucks or vans parked to take claims.&lt;/p&gt;
+&lt;p&gt;It was a remarkable storm, in part because of the damage, and in part because there was no loss of life. It could have been much, much worse. I am sure that residents of Dexter will be glad for construction to rebuild homes and put people&amp;#39;s lives back towards normal.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;photo-wrap photo-xid-6a00d8341c4f1a53ef01630301eed7970d&#34; id=&#34;photo-xid-6a00d8341c4f1a53ef01630301eed7970d&#34; style=&#34;display: block; margin-left: auto; margin-right: auto; width: 500px;&#34;&gt;&lt;a href=&#34;http://www.crh.noaa.gov/images/dtx/web/Dexterpath3200.jpg&#34;&gt;&lt;img alt=&#34;image from www.crh.noaa.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01630301eed7970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01630301eed7970d-500wi&#34; title=&#34;image from www.crh.noaa.gov&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+Tornado path, National Weather Service. Collected from the &lt;a href=&#34;http://www.arborwiki.org/city/March_2012_Dexter_tornado&#34; target=&#34;_self&#34;&gt;March 2012 Dexter tornado&lt;/a&gt; page on Arborwiki.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mix tape music for hurricanes</title>
+      <link>http://localhost:1313/post/2011/2011-08-26-mix-tape-music-for-hurricanes/</link>
+      <pubDate>Fri, 26 Aug 2011 11:28:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-08-26-mix-tape-music-for-hurricanes/</guid>
+      <description>&lt;p&gt;WNYC has put together the &lt;a href=&#34;http://culture.wnyc.org/articles/features/2011/aug/26/dark-stormy-mixtape/&#34; target=&#34;_self&#34;&gt;Dark and Stormy mix tape&lt;/a&gt;, featuring Lena Horne&amp;#39;s Stormy Weather and Prince&amp;#39;s Purple Rain on side A, and Nanci Griffith&amp;#39;s cover of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/09/wasnt-that-a-mi.html&#34; target=&#34;_self&#34;&gt;Wasn&amp;#39;t That a Mighty Storm&lt;/a&gt; on side B.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Galveston had a seawall&amp;#0160;&lt;br /&gt;To keep the water down,&amp;#0160;&lt;br /&gt;But the high tide from the ocean&amp;#0160;&lt;br /&gt;Washed water over the town.&amp;#0160;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The New Yorker has&amp;#0160;&lt;a href=&#34;http://www.newyorker.com/online/blogs/newsdesk/2011/08/hurricane-irene-playlist.html&#34; target=&#34;_self&#34;&gt;The iPod of the Hurricane, songs for a windy weekend&lt;/a&gt;, leading with&amp;#0160;Wynonie Harris, “She’s Gone with the Wind”.&lt;/p&gt;
+&lt;p&gt;The Broward-Palm Beach New Times shares&amp;#0160;&lt;a href=&#34;http://blogs.browardpalmbeach.com/countygrind/2011/08/hurricane_irene_mix_tape_start.php&#34; target=&#34;_self&#34;&gt;Hurricane Irene Mixtape Starter Kit -- Just in Case, Safety First&lt;/a&gt;, advising &amp;quot;Stay prepared, and make tons of mix CDs for your hand-crankable boombox.&amp;quot;&lt;/p&gt;
+&lt;p&gt;More mix tapes: &lt;a href=&#34;http://www.cassettefrommyex.com/&#34; target=&#34;_self&#34;&gt;Cassette from my Ex&lt;/a&gt;, Jason Bittner&amp;#39;s book on the mix tape as a totem of personal compilations of 80s/90s romantic entanglements.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Weather forecast for Tubilustrium: Wednesday, March 23, 2011</title>
+      <link>http://localhost:1313/post/2011/2011-03-21-tubilistrium-weather/</link>
+      <pubDate>Mon, 21 Mar 2011 19:28:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-03-21-tubilistrium-weather/</guid>
+      <description>&lt;p&gt;There&amp;#39;s a storm coming, which may bring some mix of rain, snow, sleet, freezing rain, and ice pellets to Ann Arbor. The worst of it will be on Wednesday, March 23 2011, &amp;#0160;the date of the Roman festival of &lt;a href=&#34;http://sights.seindal.dk/sight/1200_Tubilustrium.html&#34; target=&#34;_self&#34;&gt;Tubilustrium&lt;/a&gt;. This event was&amp;#0160;held in honor of Vulcan, the god of fire and metal working.&lt;/p&gt;
+&lt;p&gt;Some charts, graphs, maps etc.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://weatherspark.com/#!graphs;a=USA/MI/Ann_Arbor;dt=23;mspp=900000&#34; target=&#34;_self&#34;&gt;Weatherspark forecast&lt;/a&gt;&amp;#0160;has a nice spark-line style chart interface; this is an excerpt from the full page. The graphic is used under the generous licensing terms from Weatherspark, which reads &amp;quot;Please don&amp;#39;t abuse the service.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e3603943970b-pi&#34;&gt;&lt;img alt=&#34;Weatherspark-tubilustrium-2011-forecast&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e3603943970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e3603943970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Weatherspark-tubilustrium-2011-forecast&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The 48 hour forecast ice accumulation composite show the chance of ice accumulations more than 0.25 inches; this from the &lt;a href=&#34;http://www.hpc.ncep.noaa.gov/&#34; target=&#34;_self&#34;&gt;Hydrometeorological Prediction Center&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.hpc.ncep.noaa.gov/wwd/day2_pice_gt_25.gif&#34;&gt;&lt;img alt=&#34;image from www.hpc.ncep.noaa.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e86e05531970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e86e05531970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from www.hpc.ncep.noaa.gov&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The three-day cumulative precipitation forecast makes it pretty clear we&amp;#39;re going to get some kind of weather, but if you squint you can make the difficulty of a precise forecast clear. Depending on a few degrees change in temperature, Ann Arbor and the area could get mostly rain, mostly snow, some nasty ice or the dreaded &amp;quot;wintry mix&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.hpc.ncep.noaa.gov/qpf/d13_fill.gif&#34;&gt;&lt;img alt=&#34;image from www.hpc.ncep.noaa.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e3603d47970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e3603d47970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from www.hpc.ncep.noaa.gov&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Your recipes are welcome for the &amp;quot;wintry mix&amp;quot; portion of this forecast.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edward Vielmetti has a map for every occasion. Contact him at 734-330-2465 or edward.vielmetti@gmail.com .&lt;/em&gt;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>The tremors come, the tremors go, they love the wintry weather: frost quakes in Ohio</title>
+      <link>http://localhost:1313/post/2011/2011-02-10-the-tremors-come-the-tremors-go-they-love-the-wintry-weather-frost-quakes-in-ohio/</link>
+      <pubDate>Thu, 10 Feb 2011 23:49:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-02-10-the-tremors-come-the-tremors-go-they-love-the-wintry-weather-frost-quakes-in-ohio/</guid>
+      <description>&lt;p&gt;The Dayton Daily News notes an &lt;a href=&#34;http://www.daytondailynews.com/news/dayton-news/frost-quakes-shake-southwest-ohio-indiana--1078511.html&#34; target=&#34;_self&#34;&gt;overnight frost quake centered around Darke County, Ohio&lt;/a&gt;&amp;#0160;on February 10, 2011.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The quake, or cryoseism as it’s known in scientific circles, occurs when moisture soaks into the soil and a quick freeze causes a sudden, even violent expansion and contraction. Darke County’s 911 director Brandon Redmond said the quakes erupted for eight hours Thursday, starting at 1 a.m. The heaviest reports were between 5:30-7:30 a.m.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No reports came through to the USGS Do you feel it service that I can locate (searches for &lt;a href=&#34;http://earthquake.usgs.gov/earthquakes/dyfi/archives.php?query=Indiana&amp;amp;search=Search+Archives&#34; target=&#34;_self&#34;&gt;Indiana&lt;/a&gt; and &lt;a href=&#34;http://earthquake.usgs.gov/earthquakes/dyfi/archives.php?query=ohio&amp;amp;search=Search+Archives&#34; target=&#34;_self&#34;&gt;Ohio&lt;/a&gt; came up blank.)&lt;/p&gt;
+&lt;p&gt;A similar ice quake happened on Lake Mendota near the University of Wisconsin in 2008, close enough for a &lt;a href=&#34;http://www.news.wisc.edu/14680&#34; target=&#34;_self&#34;&gt;geology department seismograph&lt;/a&gt; to pick up a reading.&lt;/p&gt;
+&lt;p&gt;The Jan 31, 1986 &lt;a href=&#34;http://docs.lib.noaa.gov/rescue/journals/this_week_in_noaa/GC58N61986jan31.pdf&#34; target=&#34;_self&#34;&gt;This Week in NOAA&lt;/a&gt;&amp;#0160;describes the analysis of frost quake events in Maine.&lt;/p&gt;
+&lt;p&gt;The most thorough analysis I&amp;#39;ve found is&amp;#0160;&lt;a href=&#34;http://www.springerlink.com/content/8r26447765k5n182/&#34; target=&#34;_self&#34;&gt;Frost quakes as a particular class of seismic events: Observations within the East-European platform&lt;/a&gt; A. A. Nikonov ,&amp;#0160;IZVESTIYA PHYSICS OF THE SOLID EARTH Volume 46, Number 3, 257-273, DOI: 10.1134/S1069351310030079 . Alas, subscription only; the abstract:&lt;/p&gt;
+&lt;div&gt;
+&lt;blockquote&gt;The group of quakes, which are caused by fast freezing of water-saturated soils or rocks at abrupt drop of winter temperatures often occurring in the middle and high latitudes of Eurasia, is considered. The review of little-known literature is given; the statistical data on the distribution of earthquakes in seasons and the time of day in various regions of Eurasia are presented. Special attention is paid to the East European Platform; using the data for this platform, with thorough consideration of reference quakes along with the weather conditions, the signs of a specific class of nontectonic seismic events are determined. The question concerning the necessity of the frost quakes’ discrimination in compilation of tectonic earthquake catalogues in certain regions is stated.&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;Translated from the original Russian, which is transliterated as&amp;#0160;Morozoboinye sotryaseniya kak osobyi klass seismicheskikh yavlenii (po materialam Vostochno-Evropeiskoi platformy). The dedication is&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The tremors come, the tremors go, They love the wintry weather, With periods fast and periods slow – Perplexing altogether C.B. Hammond. &lt;a href=&#34;http://srl.geoscienceworld.org/cgi/content/extract/77/4/483&#34; target=&#34;_self&#34;&gt;The song of the seismologist.&lt;/a&gt; 1911.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The original &lt;a href=&#34;http://books.google.com/books?id=CPLOAAAAMAAJ&amp;amp;lpg=PA224&amp;amp;ots=ea3aIOF_Bu&amp;amp;dq=%22the%20song%20of%20the%20seismologist%22&amp;amp;pg=PA225#v=onepage&amp;amp;q=%22the%20song%20of%20the%20seismologist%22&amp;amp;f=false&#34; target=&#34;_self&#34;&gt;Song of the Seismlologist&lt;/a&gt;&amp;#0160;is from the Bulletin of the Seismological Society of America.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5f248054970c-pi&#34;&gt;&lt;img alt=&#34;Picture 4&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e5f248054970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5f248054970c-800wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 4&#34; /&gt;&lt;/a&gt;More frost quake accounts, &lt;a href=&#34;http://news.google.com/newspapers?id=dxIgAAAAIBAJ&amp;amp;sjid=RmYFAAAAIBAJ&amp;amp;dq=frost%201908%20danbury&amp;amp;pg=3215%2C2174225&#34; target=&#34;_self&#34;&gt;from 1908 in Connecticut&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e865b2866970d-pi&#34;&gt;&lt;img alt=&#34;Picture 47&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e865b2866970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e865b2866970d-800wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 47&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Michigan 2009 strawberry season delayed by cold weather</title>
+      <link>http://localhost:1313/post/2009/2009-06-14-michigan-2009-strawberry-season-delayed-by-cold-weather/</link>
+      <pubDate>Sun, 14 Jun 2009 23:42:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2009/2009-06-14-michigan-2009-strawberry-season-delayed-by-cold-weather/</guid>
+      <description>&lt;p&gt;Here&amp;#39;s some reports from around the state of the strawberry crop.&amp;#0160; (We&amp;#39;re planning a trip to Rowe&amp;#39;s in Rawsonville for Father&amp;#39;s Day).&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.freshplaza.com/news_detail.asp?id=45468&#34;&gt;From the Detroit Free Press via FreshPlaza:&lt;/a&gt;&lt;/p&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;At DeGroot&amp;#39;s Strawberries in Gregory, 16 acres of lush plants are close to ripening.&lt;br /&gt;&lt;br /&gt;&amp;quot;It&amp;#39;s
+not too hot and could be a little warmer,&amp;quot; says Marsha DeGroot, who
+with her family has owned the Livingston County farm since 1978. &amp;quot;But
+the lovely winter with lots of snow made for a nice insulating blanket
+for the plants.&amp;quot;&lt;br /&gt;&lt;br /&gt;Pick-your-own strawberries will be $1.20 a
+pound at DeGroot&amp;#39;s this year. Whittaker&amp;#39;s strawberries sell for $1.25 a
+pound. And at Rowe&amp;#39;s Produce Farm in Ypsilanti, the cost is $1.46 per
+pound, up 3 cents from last year.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;http://www.freshplaza.com/news_detail.asp?id=45470&#34;&gt;From mlive.com again via FreshPlaza&lt;/a&gt; on the season in mid-Michigan:&lt;/p&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;Geri R. Hingston and her husband, James H. Hingston, own Hingstons
+Country, 18670 Dice in Merrill, a 4-acre you-pick farm with
+strawberries and other produce.&lt;br /&gt;&lt;br /&gt;Customers usually begin
+harvesting the fruit about June 14, but she said she probably will
+delay by five or more days because of cooler weather, frost warnings
+and bees not coming out to pollinate.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;http://www.miningjournal.net/page/content.detail/id/528487.html&#34;&gt;A June 8 story in the Marquette Mining Journal (via the Escanaba Press) about UP strawberries:&lt;/a&gt;&lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;There were also a few days where overnight lows dropped close to
+the freezing mark at the Delta County Airport, however, it is possible
+inland areas did drop to or below freezing,&amp;quot; said Fleegel.&lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;A call by the Daily Press to Victor Ledvina, owner of Ledvina&amp;#39;s Strawberry Farm in Flat Rock was unsuccessful.&lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;There was also no indication of when picking would begin at Ledvina&amp;#39;s Strawberry Farm.&lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;Dave
+Pellegrini, operator of Pellegrini&amp;#39;s Strawberry Farm said they had been
+irrigating five out of the past eight nights to prevent the fragile
+blossoms from frosting over.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;/p&gt;The full moon in June is called the strawberry moon; it was on June 7.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

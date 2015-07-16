@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maps on tracker</title>
+    <link>http://localhost:1313/categories/maps/</link>
+    <description>Recent content in Maps on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jun 2015 10:39:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/maps/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using blitzortung.org and lightningmaps.org to watch lightning roll in</title>
+      <link>http://localhost:1313/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</link>
+      <pubDate>Wed, 24 Jun 2015 10:39:24 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a3e4ed970b img-responsive&#34; style=&#34;width: 332px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; title=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-350wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A brief note on two pages I refer to during severe weather, like the storms that rolled through the area on Monday night and Tuesday early morning that led to &lt;a href=&#34;https://localwiki.org/ann-arbor/June_2015_Manchester_tornado&#34;&gt;tornado damage in Manchester&lt;/a&gt; on the morning of June 23, 2015.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lightningmaps.org/&#34;&gt;LightningMaps.org&lt;/a&gt; has a zoomable near real time map of lightning strikes. You can zoom and pan around looking at locations of lightning strikes, with a small (less than 10 seconds) delay. When everything lines up right you can see the lightning strike on your computer before you hear the thunder.&lt;/p&gt;
+
+&lt;p&gt;The LightningMaps data comes from the &lt;a href=&#34;http://www.blitzortung.org&#34;&gt;BlitzOrtung&lt;/a&gt; project, which has deployed a set of custom designed lightning detectors world wide. From their page:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&#34;Blitzortung.org&#34; is a lightning detection network for the location of electromagnetic discharges in the atmosphere (lightning discharges) based on the time of arrival (TOA) and time of group arrival (TOGA) method. It consists of several lightning receivers and one central processing server. The stations transmit their data in short time intervals over the Internet to our server. Every data sentence contains the precise time of arrival of the received lightning discharge impulse (&#34;sferic&#34;) and the exact geographic position of the receiver. With this information from all stations the exact positions of the discharges are computed. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Blitzortung is working on a new generation of lightning detectors, which are not yet available, and they are no longer manufacturing their first generation of detectors. Even so the US coverage of lightning detection is very good and recommended for storm tracking. The project lead is Egon Wanke of Dusseldorf, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strange Alaska</title>
+      <link>http://localhost:1313/post/2015/2015-03-14-strange-alaska/</link>
+      <pubDate>Sat, 14 Mar 2015 22:46:51 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-03-14-strange-alaska/</guid>
+      <description>&lt;p&gt;This strange map of Alaska from the National Park Service annexes parts of Canada.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0ec55e2970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0ec55e2970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-14 at 10.33.54 PM&#34; title=&#34;Screen Shot 2015-03-14 at 10.33.54 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0ec55e2970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to eagle eyed Canadian Kai Petainen for pointing this out. Original at &lt;a href=&#34;http://www.nps.gov/state/ak/index.htm&#34;&gt;http://www.nps.gov/state/ak/index.htm&lt;/a&gt;, which is an embed of &lt;a href=&#34;http://www.nps.gov/maps/embed.html?mapId=f0cc55f0-99a6-4be4-a4d8-b9cbdb5931db#ak/parks&#34;&gt;this full state map&lt;/a&gt;. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cleaning polygons in R and Shapely</title>
+      <link>http://localhost:1313/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</link>
+      <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</guid>
+      <description>&lt;p&gt;The project of the week has been an effort to generate a set of maps - 2935 of them, in fact. The source data is from the Department of Energy, listing a set of utility companies and the counties they cover; the goal is to have a boundary map generated for each utility company. I know it won&#39;t be a perfect boundary (most utility companies have at least one county that they only provide service to part of), but as a start it&#39;s a pretty good one.&lt;/p&gt;
+
+&lt;p&gt;The DOE data is based on their Form EIA-861, and I&#39;m working from the 2013 data set. See &lt;a href=&#34;http://www.eia.gov/electricity/data/eia861/&#34;&gt;Electric power sales, revenue, and energy efficiency Form EIA-861 detailed data files&lt;/a&gt; if you want to get your own files. It&#39;s provided as Excel (XLSX) files, so you&#39;ll need something compatible to read them; I ended up using &lt;a href=&#34;http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html&#34;&gt;in2csv from csvkit&lt;/a&gt; as the first part of the pipeline to break these apart.&lt;/p&gt;
+
+&lt;p&gt;You get lines from the provided file that look like this:&lt;/p&gt;
+
+&lt;pre&gt;
+Data Year,Utility Number,Utility Name,State,County
+2013,5109,DTE Electric Company,MI,Shiawassee
+2013,5109,DTE Electric Company,MI,St Clair
+2013,5109,DTE Electric Company,MI,Tuscola
+2013,5109,DTE Electric Company,MI,Washtenaw
+2013,5109,DTE Electric Company,MI,Wayne
+&lt;/pre&gt;
+
+&lt;p&gt;The next challenge is to pull a map for each county served. To do this, convert the (State,County) list to a FIPS code, using a table like this one from ORNL called &lt;a href=&#34;http://cta.ornl.gov/transnet/CoFIPS00.txt&#34;&gt;CoFIPS00.txt&lt;/a&gt;. (MI,Washtenaw) turns into 26161. Feed a list of FIPS codes into the Census Reporter geo API, and out comes GeoJSON files, like so: &lt;a href=&#34;http://api.censusreporter.org/1.0/geo/show/tiger2013?geo_ids=05000US26103,05000US26003&#34;&gt;GeoJSON for Marquette and Alger Counties, Michigan&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;We have a list of counties for each utility, so at minimum we&#39;re set right there. But we need to get 2935 of them, and it&#39;s kind of slow to wait for each one to return before fetching the next one. That motivates the use of &lt;a href=&#34;http://www.gnu.org/software/parallel/&#34;&gt;GNU Parallel&lt;/a&gt;, a shell tool for executing jobs in parallel. On my four core MacBook Air I ran 32 jobs in parallel, and 2935 fetches (using &#34;curl&#34;) took 287 seconds with the median elapsed time for each job at about 3 seconds - about a 31x speedup vs doing things serially.&lt;/p&gt;
+
+&lt;p&gt;However, the GeoJSON provided is really one shape per county, and we&#39;re looking for a complete service area in a single shape, so we need to merge the result together. Here a useful tool is the &#34;R&#34; stats package, particularly the &#34;rgeos&#34;, &#34;rgdal&#34;, and &#34;maptools&#34; packages. &lt;/p&gt;
+
+&lt;p&gt;The first step is the &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgdal/docs/ogrInfo&#34;&gt;readOGR() function from the rgdal library&lt;/a&gt;. It takes a variety of input map formats including GeoJSON and shape files and pulls them into a Spatial vector object in R. rgdal is an R interface to Frank Warmerdam&#39;s &lt;a href=&#34;http://www.gdal.org/&#34;&gt;Geospatial Data Abstraction Library&lt;/a&gt;, and it handles both raster and vector geospatial data formats.&lt;/p&gt;
+
+&lt;p&gt;Next, use the &lt;a href=&#34;http://www.inside-r.org/packages/cran/maptools/docs/unionSpatialPolygons&#34;&gt;unionSpatialPolygons() function from the maptools library&lt;/a&gt; to merge the county polygons into a single polygon. The docs say that this is a wrapper around the &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgeos/docs/gUnion&#34;&gt;gUnion() function from the rgeos library&lt;/a&gt;. rgeos comes from the Google Summer of Code 2010, and this &lt;a href=&#34;https://gsoc2010r.wordpress.com/2010/06/10/rgeos-introduction/&#34;&gt;introduction to the project&lt;/a&gt; explains the motivation. rgeos provides an R interface to &lt;a href=&#34;http://trac.osgeo.org/geos/&#34;&gt;GEOS&lt;/a&gt;, which is in turn a C++ port of &lt;a href=&#34;http://tsusiatsoftware.net/jts/main.html&#34;&gt;JTS&lt;/a&gt;, the Java Topology Suite.&lt;/p&gt;
+
+&lt;p&gt;After you run the unionSpatialPolygons() operation, you will inevitably find that there are tiny holes in your unioned map. Geographic boundaries are complex, and as a result there are often little areas that don&#39;t quite touch, leaving little bits of land that aren&#39;t included anywhere. This algorithm from stackoverflow, &lt;a href=&#34;http://stackoverflow.com/questions/12663263/dissolve-holes-in-polygon-in-r&#34;&gt;Dissolve holes in polygon in R&lt;/a&gt;, takes care of the issue. &lt;/p&gt;
+
+&lt;pre&gt;
+G.rings = Filter(function(f){f@ringDir==1},G.union@polygons[[1]]@Polygons)
+G.bounds = SpatialPolygons(list(Polygons(G.rings,ID=1)))
+&lt;/pre&gt;
+
+&lt;p&gt;As the Polygon documentation note for ringDir: &#34;the ring direction of the ring (polygon) coordinates, holes are expected to be anti-clockwise&#34;&lt;/p&gt;
+
+&lt;p&gt;Having done this cleanup work, we return a GeoJSON file with the &lt;a href=&#34;http://www.rdocumentation.org/packages/leafletR/functions/toGeoJSON&#34;&gt;toGeoJSON() function from the leafletR package&lt;/a&gt;. Now I probably don&#39;t need to pull in all of leafletR; there&#39;s a &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgdal/docs/writeOGR&#34;&gt;writeOGR() function in the rgdal package&lt;/a&gt; that should also do the same work. The aside, though, is that &lt;a href=&#34;https://github.com/chgrl/leafletR&#34;&gt;leafletR&lt;/a&gt; creates nice maps in R using the &lt;a href=&#34;http://leafletjs.com/&#34;&gt;Leaflet&lt;/a&gt; Javascript library.&lt;/p&gt;
+
+&lt;p&gt;With all that done, we have a new GeoJSON file that&#39;s a cleaned up merge of multiple county outlines done in R. However, the process isn&#39;t quite done. Some of the merged files don&#39;t have holes, but they do have &#34;slivers&#34;, little angular bits of geometry from where two counties don&#39;t quite touch at their corners. I didn&#39;t find an algorithm to unsliver in R, but this &lt;a href=&#34;http://gis.stackexchange.com/questions/120286/removing-small-polygons-gaps-in-a-shapely-polygon&#34;&gt;Removing small polygons gaps in a Shapely polygon&lt;/a&gt; did the trick. &lt;/p&gt;
+
+&lt;pre&gt;
+# Here&#39;s the algorithm
+fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style=JOIN_STYLE.mitre)
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://toblerity.org/shapely/manual.html&#34;&gt;Shapely&lt;/a&gt; from Sean Gilles is a &#34;Python package for set-theoretic analysis and manipulation of planar features using (via Python’s ctypes module) functions from the well known and widely deployed GEOS library.&#34; So we&#39;re back to GEOS, which is also supported by R...which means I suspect this algorithm translates directly back into R by proper invocation of the equivalent &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgeos/docs/gBuffer&#34;&gt;gBuffer() function from the rgeos package&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;No matter, I installed Shapely. It&#39;s pretty fast, and if I had time to refine this operation I&#39;d try to port all of the R code back into python using Shapely to see if I could get a meaningful speedup improvement.&lt;/p&gt;
+
+&lt;p&gt;All this description! Here&#39;s the code.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/vielmetti/13f6feae14111ff1c148&#34;&gt;unsliver.py&lt;/a&gt; - in Python with the Shapely library&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/450495defeff6e4d1440&#34;&gt;mergeGeoJSON.Rscript&lt;/a&gt; - in R with rgeos, sp, rgdal, maptools, and leafletR&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And here&#39;s a picture:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/vielmetti/2a6feadf268ca2b686e7.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Thanks go to Joe Germuska (for Census Reporter and csvkit), Markus Spath (for R help), Matt Hampel (for mapping help), Jacob Wasserman (for Shapely help), Stan Gregg (for outage mapping), Mohan Kartha (for GNU Parallel and AWS help), and anyone else who I missed along the way.                                          &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maps with Leaflet and LeafletR</title>
+      <link>http://localhost:1313/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</link>
+      <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</guid>
+      <description>&lt;pre&gt;
+&gt; style &lt;- styleGrad(prop=&#34;score&#34;, breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg=&#34;score&#34;)
+&gt; leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)
+&lt;/pre&gt;
+
+&lt;p&gt;So, progress.&lt;/p&gt;
+
+&lt;p&gt;One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.&lt;/p&gt;
+
+&lt;p&gt;A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.&lt;/p&gt;
+
+&lt;p&gt;A screenshot of the result is below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; title=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some big caveats.&lt;/p&gt;
+
+&lt;p&gt;My color palette is all wrong - I need to think that through. &lt;/p&gt;
+
+&lt;p&gt;This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.&lt;/p&gt;
+
+&lt;p&gt;The map needs labels of some sort. (How they will look when everything is smushed together, don&#39;t know.)&lt;/p&gt;
+
+&lt;p&gt;It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.&lt;/p&gt;
+
+&lt;p&gt;The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.&lt;/p&gt;
+
+&lt;p&gt;RESTAURANT NAMES ARE IN ALL CAPS AND THAT&#39;S SHOUTING.&lt;/p&gt;
+
+&lt;p&gt;Leaflet can do all sorts of things and I&#39;ve hardly scratched the surface.&lt;/p&gt;
+
+&lt;p&gt;I probably could do this all in R - or all in Python - but I&#39;m trying to spin up on both systems &amp;amp; thus really want to use each for what they are good at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kinder Morgan gas pipeline maps</title>
+      <link>http://localhost:1313/post/2014/2014-11-23-kinder-morgan-gas-pipeline-maps/</link>
+      <pubDate>Sun, 23 Nov 2014 08:25:38 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-11-23-kinder-morgan-gas-pipeline-maps/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.kindermorgan.com/&#34;&gt;Kinder Morgan&lt;/a&gt; runs a number of pipelines that carry natural gas through the United States. Detailed maps are available that show the current status for these pipelines.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d09750e7970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d09750e7970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-11-23 at 8.13.33 AM&#34; title=&#34;Screen Shot 2014-11-23 at 8.13.33 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d09750e7970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This map is from the &lt;a href=&#34;http://webapps.elpaso.com/PortalUI/DefaultKM.aspx?TSP=TGPD&#34;&gt;Tennessee Gas Pipeline&lt;/a&gt; which carries gas from the Gulf Coast to the Northeast US. The map is accompanied by a series of operational data and alerts that tell gas shippers what to expect, provide gas consumption forecasts based on the weather, and alerts users of the pipeline of exceptional events in the case of equipment failure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non-traditional maps to monitor severe weather</title>
+      <link>http://localhost:1313/post/2014/2014-11-22-non-traditional-maps-to-monitor-severe-weather/</link>
+      <pubDate>Sat, 22 Nov 2014 13:06:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-11-22-non-traditional-maps-to-monitor-severe-weather/</guid>
+      <description>&lt;p&gt;When ordinary weather maps don&#39;t tell you what the worst of the weather is like out there, I turn to these sources for information.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Twitter, especially. A search this morning for &#34;ann arbor ice&#34; gave plenty of illustrations why it was not suitable to be out walking around. Streets and highways were bad, and a Delta flight slid off the runway at DTW. For Michigan weather follow the &lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt; hashtag.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Google Maps with the &#34;traffic&#34; overlay. Zoom way out, and you&#39;ll see splotches of red, showing where traffic is moving at significantly lower than posted speeds; zoom in, and you get recent reports from motorists using Waze reporting specific incidents.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Broadcastify&#39;s &#34;top feeds&#34;. Here you count on citizens monitoring public safety traffic to give you an idea of what kinds of places are working a lot of incidents. The &lt;a href=&#34;http://www.broadcastify.com/listen/top&#34;&gt;top feeds&lt;/a&gt; can also be set up to generate alerts on your phone if you use their mobile app.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Power outage maps, for when storms and incidents get really bad. There&#39;s no one single source to go to, but if you can figure out which utility company covers an area, their outage map is a good measure of storm location or path and intensity.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The morning&#39;s problem was ice. An unusual and good map of ice risk is the &lt;a href=&#34;http://www.spia-index.com/&#34;&gt;SPIA Index&lt;/a&gt;, a metric that combines an ice forecast with a wind forecast to predict damage. &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chicago aviation donut</title>
+      <link>http://localhost:1313/post/2014/2014-09-26-chicago-aviation-donut/</link>
+      <pubDate>Fri, 26 Sep 2014 10:32:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-26-chicago-aviation-donut/</guid>
+      <description>&lt;p&gt;A fire at the Chicago air traffic control center (ZAU) forced rerouting of air traffic near O&#39;Hare and Midway airports. This picture, credit to Paul Saffo via Facebook, shows the impact. &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d36e0970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb078d36e0970d img-responsive&#34; style=&#34;width: 453px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Ohare-donut&#34; title=&#34;Ohare-donut&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d36e0970d-500wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This map is from the FAA - compare it for scale.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d6ab4970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb078d6ab4970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Zau_tier&#34; title=&#34;Zau_tier&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d6ab4970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lansing, Michigan (LBWL) crowdsourced power outage map of 29 December 2013</title>
+      <link>http://localhost:1313/post/2013/2013-12-29-lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013/</link>
+      <pubDate>Sun, 29 Dec 2013 10:42:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-12-29-lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; hit the Lansing area hard,
+and the municipal power authority has not handled the resulting
+outages as well as citizens would have them do. &lt;/p&gt;
+
+&lt;p&gt;The Lansing, Michigan area has electrical service from LBWL,
+the &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt;. Even though the surrounding
+area is served by Consumers Energy, LBWL serves an area roughly
+encompassing Lansing and East Lansing. For one thing,
+LBWL does not maintain an outage map online, which is relatively 
+unusual in this day and age.&lt;/p&gt;
+
+&lt;p&gt;The map below is a crowd-sourced tracking of outages and
+restorations in the Lansing area. It&#39;s been put together
+under the lead of @&lt;a href=&#34;http://twitter.com/jsiarto&#34;&gt;jsiarto&lt;/a&gt; (Jeff Siarto) with the help of
+other Lansing area residents and with data pulled in part from
+the &lt;a href=&#34;https://www.facebook.com/LansingBWL&#34;&gt;LBWL Facebook page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fb51d76a970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; title=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sources to look for more information -&lt;/p&gt;
+
+&lt;p&gt;I wrote up the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; with some maps of the 
+other damage to the area.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt; is a municipally owned public utility,
+governed by a Board of Commissioners. The board is made up of eight
+Lansing residents, each appointed for a four-year term on the board
+by the Mayor and confirmed by City Council.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://mapsengine.google.com/map/u/0/edit?mid=zQmyH1IIAz6Y.kuBivwl-Ve2I&#34;&gt;Lansing Area Power Outages map&lt;/a&gt; is a Google map, and this image
+is just a snapshot of it.&lt;/p&gt;
+
+&lt;p&gt;News coverage -&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.wilx.com/news/headlines/East-Lansing-Resident-Creates-Public-BWL-Outage-Map-237336791.html&#34;&gt;WILX-TV&lt;/a&gt; - East Lansing Resident Creates Public BWL Outage Map&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unlike Consumers Energy and DTE, Lansing Board of Water and Light doesn&#39;t have a real time outage map for customers, but it&#39;s something the company is currently developing, according to company spokesperson Steve Serkaian.&lt;/p&gt;
+  
+  &lt;p&gt;&#34;We&#39;re working on a &#34;smart grid&#34; system that&#39;s similar to what other utilities offer, but it&#39;s something that costs a significant amount of money to implement,&#34; he said. &#34;But we have heard our customers loud and clear and we&#39;re committed to working on communicating with them better.&#34;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lansingstatejournal.com/article/20131227/NEWS01/312270013/BWL-leader-We-heard-loud-clear-&#34;&gt;Lansing State Journal&lt;/a&gt; - Board of Water and Light: &#39;We have heard loud and clear&#39;; BWL promises to review its handling of the ice storm cleanup&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(BWL General Manager J. Peter Lark) said BWL is running at “optimum” staffing levels. On Friday, he said, 30 crews were on the ground, a figure that includes 12 line crews and five tree-trimming crews. Crews are made up of two or three people, with most line crews using three.
+  The utility to date has brought in outside help from five other municipally owned utilities, but Lark said Friday he doesn’t plan to bring in more — at least one BWL employee would have to ride with the outside crew, and that would reduce the number of BWL crews in operation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://michiganradio.org/post/most-power-restored-michigan-lbwl-still-has-work-do&#34;&gt;Michigan Radio&lt;/a&gt; - Most power restored in Michigan, LBWL still has work to do&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Most of those still without power are customers of Lansing’s public utility. Angry customers showed up at a company press conference yesterday to complain about the slow repairs. The number of Lansing Board of Water and Light customers without power actually increased yesterday as melting ice from tree limbs damaged more power lines.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://lansingonlinenews.com/news/5-lingering-questions-about-the-lansing-ice-storm-yours/&#34;&gt;Lansing Online News&lt;/a&gt; - 5 lingering questions about the Lansing ice storm – yours?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The press conference confirmed communication failures on the part of the officials involved. But when will that get better? Why not now? When will the outages be over? When will the community return to normal? When will the powers-that-be get their act together so people can make wise choices? Temperatures are expected to plunge into single digits tonight. What should people whose power is out do now? Move their families, especially the elderly and infirm, to other locations? Can people with pets still take them to the Ingham County Animal Shelter? When will those who should have the answers start communicating effectively?&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maps of South Sudan and its capital city of Juba</title>
+      <link>http://localhost:1313/post/2013/2013-12-23-maps-of-south-sudan-and-its-capital-city-of-juba/</link>
+      <pubDate>Mon, 23 Dec 2013 02:54:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-12-23-maps-of-south-sudan-and-its-capital-city-of-juba/</guid>
+      <description>&lt;p&gt;Some maps of South Sudan, which is in the news today because of an emerging civil war.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.unocha.org/south-sudan/&#34;&gt;UNOCHA South Sudan&lt;/a&gt; describes the displaced persons in South Sudan:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;On 20-21 December (2013), the security situation remained stable but tense in Juba. It is estimated that at least 20,000 people are sheltering at the two main UNMISS bases in town. During assessments in different neighbourhoods of Juba, protection agencies found several areas deserted, and witnessed looting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf411c5970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3faf411c5970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;South-sudan-unocha-displaced-persons-map&#34; title=&#34;South-sudan-unocha-displaced-persons-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf411c5970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UNOCHA briefing map detail shows the detail of cities. Juba is in the province of Central Equatoria.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf424c1970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3faf424c1970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;BriefingMap-South-Sudan-UNOCHA-October-2012&#34; title=&#34;BriefingMap-South-Sudan-UNOCHA-October-2012&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf424c1970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stamen Design highlights South Sudan in a &lt;a href=&#34;http://content.stamen.com/the_world_by_national_geographic_is_live&#34;&gt;2011 post describing The World&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stamen&#39;s first iPad app and our first project with the National Geographic Society, is available for &lt;a href=&#34;https://itunes.apple.com/us/app/the-world-by-national-geographic/id454811793&#34;&gt;download from Apple&#39;s app store&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b03809da9970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b03809da9970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Stamen-design-national-geographic-southsudan&#34; title=&#34;Stamen-design-national-geographic-southsudan&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b03809da9970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, &lt;a href=&#34;http://www.southsudanmaps.org/&#34;&gt;SouthSudanMaps.org&lt;/a&gt; has detailed maps of a number of cities in the country. This is an excerpt of detail of the city of Juba.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0380cb88970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0380cb88970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Juba-map-excerpt-south-sudan-maps&#34; title=&#34;Juba-map-excerpt-south-sudan-maps&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0380cb88970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.goss-online.org/magnoliaPublic/en/Business-and-Industry/Documents-for-Investors/mainColumnParagraphs/0/content_files/file9/South%20Sudan%20Investor%20Guide_24_11_11.pdf&#34;&gt;Republic of South Sudan Investor Guide&lt;/a&gt; has more maps, and a number of descriptions of the country from a perspective of trying to attract foreign investment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2013 Moore Oklahoma tornado path map</title>
+      <link>http://localhost:1313/post/2013/2013-05-21-2013-moore-oklahoma-tornado-path-map/</link>
+      <pubDate>Tue, 21 May 2013 14:16:55 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-05-21-2013-moore-oklahoma-tornado-path-map/</guid>
+      <description>&lt;p&gt;This map from the National Weather Service in Norman, Oklahoma (&lt;a href=&#34;http://www.theatlanticcities.com/neighborhoods/2013/05/moore-oklahoma-has-uncanny-history-violent-tornadoes/5655/&#34; target=&#34;_self&#34;&gt;via Atlantic Cities&lt;/a&gt;) shows the destructive path of the Moore, Oklahoma tornado of 20 May 2013. This is a preliminary map that also shows the track of a 3 May 1999 tornado that followed a very similar path.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2a7926970d-pi&#34;&gt;&lt;img alt=&#34;2013-moore-oklahoma-tornado-path-map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192aa2a7926970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2a7926970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;2013-moore-oklahoma-tornado-path-map&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;#39;s too much graphic, devastating imagery from the scene which I won&amp;#39;t include here. &lt;a href=&#34;http://classic.wunderground.com/blog/JeffMasters/comment.html?entrynum=2413&#34; target=&#34;_self&#34;&gt;Dr Jeff Masters has an excellent overview of the meteorology of the event&lt;/a&gt;, including accounts of debris being thrown 100 miles in the air to land on Tulsa, Oklahoma.&lt;/p&gt;
+&lt;p&gt;UPDATE: The &lt;a href=&#34;http://www.nnvl.noaa.gov/MediaDetail2.php?MediaID=1352&amp;amp;MediaTypeID=1&#34; target=&#34;_self&#34;&gt;National Environmental Visualization Laboratory has this image of radar rotational velocity across the storms&lt;/a&gt; of that day, showing tornadic activity in darker colors. (Credit: NOAA)&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2b009e970d-pi&#34;&gt;&lt;img alt=&#34;1352v1_20130521-Moore_Tornado-Rotation&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192aa2b009e970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2b009e970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;1352v1_20130521-Moore_Tornado-Rotation&#34; /&gt;&lt;/a&gt;&lt;br /&gt;UPDATE: The &lt;a href=&#34;http://google.org/crisismap/2013-oklahoma-tornado&#34; target=&#34;_self&#34;&gt;Google Crisis Map for 2013 Oklahoma tornadoes&lt;/a&gt; includes a track of the tornado plus shelter information and links to other local resources. I&amp;#39;ve included a snapshot from Tuesday evening, May 21, 2013.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019102647eb2970c-pi&#34;&gt;&lt;img alt=&#34;Google-Moore-Oklahoma-Tornado-path-track-crisis-map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019102647eb2970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019102647eb2970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Google-Moore-Oklahoma-Tornado-path-track-crisis-map&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;UPDATE: A second National Weather Service map shows the detail of where the tornado was at its maximum intensity. (Credit: National Weather Service, Norman OK, via Facebook)&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2deeed970d-pi&#34;&gt;&lt;img alt=&#34;Nws-moore-tornado-path-outline-ef-5&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192aa2deeed970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aa2deeed970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Nws-moore-tornado-path-outline-ef-5&#34; /&gt;&lt;/a&gt;&lt;br /&gt;UPDATE: The &lt;a href=&#34;http://www.nytimes.com/interactive/2013/05/20/us/oklahoma-tornado-map.html&#34; target=&#34;_self&#34;&gt;New York Times has a detailed tornado track map&lt;/a&gt; for the Moore, Oklahoma tornado. I&amp;#39;ve excerpted a piece of it here by way of illustration. Their article also has before and after aerial photos of the damage.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191026c133d970c-pi&#34;&gt;&lt;img alt=&#34;New-York-Times-Moore-Oklahoma-Tornado-Track-Map-excerpt&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0191026c133d970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191026c133d970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;New-York-Times-Moore-Oklahoma-Tornado-Track-Map-excerpt&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oklahoma earthquakes, November 5-7 2011 and historical</title>
+      <link>http://localhost:1313/post/2011/2011-11-06-oklahoma-earthquakes-november-2011/</link>
+      <pubDate>Sun, 06 Nov 2011 00:26:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-11-06-oklahoma-earthquakes-november-2011/</guid>
+      <description>&lt;p&gt;ANN ARBOR USA, November 5-7, 2011 (Vacuum News) - There were a series of earthquakes in Lincoln County, Oklahoma, but we didn&#39;t feel them here in Ann Arbor, Michigan.&lt;/p&gt;
+
+&lt;p&gt;Some maps and news from people who did feel the quakes follow. The data here are preliminary, and you&#39;ll want to go to the &lt;a href=&#34;http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/usb0006klz.php&#34;&gt;USGS page for the Oklahoma quake&lt;/a&gt; for details, and &lt;a href=&#34;http://earthquake.usgs.gov/earthquakes/states/oklahoma/history.php&#34;&gt;Oklahoma earthquake history&lt;/a&gt; to figure out how normal this is. The &lt;a href=&#34;http://www.okgeosurvey1.gov/&#34;&gt;Oklahoma Geological Survey&lt;/a&gt; is likely to also have excellent data. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nytimes.com/2011/11/07/us/oklahoma-earthquake-sets-a-record.html&#34;&gt;News coverage from the New York Times&lt;/a&gt; quotes Austin Holland, a research seismologist with the Oklahoma Geological Survey; Don Blakeman, a geophysicist at the National Earthquake Information Center; and Justin Reese, who runs the &lt;a href=&#34;http://boomarangdiner.com/&#34;&gt;Boomarang Diner&lt;/a&gt; in Chandler, Oklahoma.&lt;/p&gt;
+
+&lt;p&gt;The earthquake, originally reported at magnitude 5.2 and then upgraded to 5.6, was said to be felt [as far away as Milwaukee] - a claim which is being tested and that I haven&#39;t confirmed. &lt;a href=&#34;http://earthquakes.tafoni.net/&#34;&gt;Additional aftershocks were reported&lt;/a&gt;; the map is by &lt;a href=&#34;http://www.tafoni.net/&#34;&gt;Dawn Endico&lt;/a&gt; using the Google Maps API. Earthquake data provided by the U.S. Geological Survey on Mon, 07 Nov 2011 01:14:04 GMT.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015436ae8148970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef015436ae8148970c&#34; alt=&#34;Okquake-aftershocks&#34; title=&#34;Okquake-aftershocks&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015436ae8148970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Damage to homes in the area has been reported to the &lt;a href=&#34;https://www.facebook.com/pages/Lincoln-County-Emergency-Management/102898463116252&#34;&gt;Lincoln County Emergency Management&lt;/a&gt; system on Facebook.&lt;/p&gt;
+
+&lt;p&gt;A map, from USGS - did you feel it?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015436a9b285970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef015436a9b285970c&#34; alt=&#34;Usb0006klz_ciim&#34; title=&#34;Usb0006klz_ciim&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015436a9b285970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another map, this one showing historical patterns; the red marks are quakes. The &lt;a href=&#34;http://www.ogs.ou.edu/pubsscanned/EP9p9earthquakes.pdf&#34;&gt;source document&lt;/a&gt; gives more seismic data.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015392d66d75970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef015392d66d75970b&#34; alt=&#34;EP9p9earthquakes&#34; title=&#34;EP9p9earthquakes&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015392d66d75970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This ESPN football reporter covers the story live, though it&#39;s hard to know that it&#39;s not a story from the Onion News Network.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;480&#34; height=&#34;360&#34; src=&#34;http://www.youtube.com/embed/5rb9mreulR4&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;[Vacuum News] is a production of Edward Vielmetti. &#34;Most men are engaged in business the greater part of their lives, because the soul abhors a vacuum, and they have not discovered any continuous employment for man’s nobler faculties.&#34; Thoreau&lt;/p&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>September 2011 flooding on the Susquehanna River basin after Tropical Storm Lee</title>
+      <link>http://localhost:1313/post/2011/2011-09-08-september-2011-flooding-on-the-susquehanna-river-basin-after-tropical-storm-lee/</link>
+      <pubDate>Thu, 08 Sep 2011 10:43:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-09-08-september-2011-flooding-on-the-susquehanna-river-basin-after-tropical-storm-lee/</guid>
+      <description>&lt;p&gt;&lt;p&gt;The remnants of Tropical Storm Lee have made their way slowly from the Gulf of Mexico to the northeastern United States, bringing a storm with a slow-moving heavy rain. There is widespread flooding in the Susquehanna River basin and flash floods across the area. The Weather Underground&amp;#39;s &lt;a href=&#34;http://www.wunderground.com/blog/JeffMasters/comment.html?entrynum=1921&#34; target=&#34;_self&#34;&gt;Jeff Masters has commentary on the storm&lt;/a&gt; from the morning of September 8, 2011, saying&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;An extreme rainfall event unprecedented in recorded history has hit the&amp;#0160;&lt;a href=&#34;http://www.wunderground.com/history/airport/KBGM/2011/09/07/DailyHistory.html&#34; target=&#34;_blank&#34;&gt;Binghamton, New York&lt;/a&gt;&amp;#0160;area, where 7.49&amp;quot; fell yesterday. This is the second year in a row Binghamton has recorded a 1-in-100 year rain event; their previous all-time record was set last September, when 4.68&amp;quot; fell on Sep 30 - Oct. 1, 2010. Records go back to 1890 in the city. The skies have now cleared in Binghamton, with this morning&amp;#39;s rain bringing the city&amp;#39;s total rainfall for the 40-hour event to 9.02&amp;quot;. However, another large region of rain lies just to the south in Pennsylvania, and all of the rivers in the surrounding region are in major or record flood. The Susquehanna River at Binghamton is at 25&amp;#39;, its highest level since records began in 1847, and is expected to overtop the flood walls protecting the city this afternoon. In Hershey, Pennsylvania, Swatara Creek is 18&amp;#39; over flood stage, and more than 8&amp;#39; above its record flood crest. Widespread flash flooding is occurring across the entire area, and over 10,000 people have been evacuated from their homes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For current information, tune in to local news. Among the sources I have found that are broadcasting emergency flood coverage are &lt;a href=&#34;http://www.wnep.com/&#34; target=&#34;_self&#34;&gt;WNEP&lt;/a&gt;&amp;#0160;TV-16 Scranton, the &lt;a href=&#34;http://www.timesleader.com/&#34; target=&#34;_self&#34;&gt;Times Leader&lt;/a&gt;&amp;#0160;in Wilkes-Barre, the &lt;a href=&#34;http://thetimes-tribune.com/&#34; target=&#34;_self&#34;&gt;Times Tribune&lt;/a&gt;, and&amp;#0160;&lt;a href=&#34;http://www.wbng.com/&#34; target=&#34;_self&#34;&gt;WBNG-TV&lt;/a&gt;&amp;#0160;12 Binghamton.&lt;/p&gt;
+&lt;p&gt;Emergency services channels can be tuned in via Radio Reference for&amp;#0160;&lt;a href=&#34;http://www.radioreference.com/apps/audio/?feedId=381&#34;&gt;Binghamton, Broome, Tioga, and Susquehanna Counties&lt;/a&gt;;&amp;#0160;&lt;a href=&#34;http://www.radioreference.com/apps/audio/?feedId=3790&#34;&gt;Lycoming County Public Safety&lt;/a&gt;;&amp;#0160;&lt;a href=&#34;http://www.radioreference.com/apps/audio/?feedId=5590&#34;&gt;Bradford County Fire&lt;/a&gt;;&amp;#0160;&lt;a href=&#34;http://www.radioreference.com/apps/audio/?feedId=3751&#34;&gt;Schoharie County Public Safety&lt;/a&gt;; and other systems.&lt;/p&gt;
+&lt;p&gt;Here are some maps.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.erh.noaa.gov/marfc&#34; target=&#34;_self&#34;&gt;Middle Atlantic River Forecast Center&lt;/a&gt; is a good first place to look for current information. This map from Wednesday, September 7, 2011 shows the flooding outlook for the area.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e8b618d94970d-pi&#34;&gt;&lt;img alt=&#34;Fop&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e8b618d94970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e8b618d94970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Fop&#34; /&gt;&lt;/a&gt; &lt;br /&gt;From the same source, point by point forecast river conditions:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015435414bfc970c-pi&#34;&gt;&lt;img alt=&#34;Fcst&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef015435414bfc970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015435414bfc970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Fcst&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This rain map, which &lt;a href=&#34;http://twitpic.com/6hrvdq&#34; target=&#34;_self&#34;&gt;Jeremy Denlinger pulled from the National Weather Service&lt;/a&gt;, shows a 72 hour rainfall total for the area.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015435417b48970c-pi&#34;&gt;&lt;img alt=&#34;392650910&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef015435417b48970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef015435417b48970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;392650910&#34; /&gt;&lt;/a&gt; &lt;br /&gt;Flooding in the Wilkes-Barre, PA area lead to mandatory evacuation of low-lying areas of the Wyoming Valley, according to &lt;a href=&#34;http://www.timesleader.com/news/Mandatory-Evacuation-of-Wyoming-Valley.html&#34; target=&#34;_self&#34;&gt;a story in the Times-Leader&lt;/a&gt; which ran &lt;a href=&#34;http://maps.google.com/maps/ms?msa=0&amp;amp;msid=204467194966469707759.0004ac6c7a26fe28003ae&amp;amp;ie=UTF8&amp;amp;vpsrc=6&amp;amp;ll=41.245805,-75.956726&amp;amp;spn=0.309768,0.411987&amp;amp;t=p&amp;amp;z=10&amp;amp;source=embed&#34; target=&#34;_self&#34;&gt;this map of affected areas&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0153916edf03970b-pi&#34;&gt;&lt;img alt=&#34;Wilkes-barre-evacuation&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0153916edf03970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0153916edf03970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Wilkes-barre-evacuation&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;span style=&#34;font-size: 14px; font-weight: normal;&#34;&gt;Forecasters are comparing the impact of this storm to the 1972 &lt;a href=&#34;http://en.wikipedia.org/wiki/Hurricane_Agnes&#34; target=&#34;_self&#34;&gt;Hurricane Agnes&lt;/a&gt;. The National Weather Service has a &lt;a href=&#34;http://www.erh.noaa.gov/marfc/Flood/agnes.html&#34; target=&#34;_self&#34;&gt;detailed meteorological account of the flooding from that storm&lt;/a&gt;.&lt;/span&gt;&lt;/h1&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Huron River: May 25, 2011 flooding</title>
+      <link>http://localhost:1313/post/2011/2011-05-26-huron-river-may-2011-flood/</link>
+      <pubDate>Thu, 26 May 2011 00:21:10 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-05-26-huron-river-may-2011-flood/</guid>
+      <description>&lt;p&gt;The river is high. Will it flood? That&amp;#39;s a very good question to ask in the morning before a storm; and the answer today turned out to be yes. Roads were inundated, Lake Barracuda emerged from its stormwater geyser, Depot Street filled with water, Mullholland Creek popped a manhole cover, and S. Main Street near Michigan Stadium filled. West Park&amp;#39;s new water features get a workout.&lt;/p&gt;
+&lt;p&gt;Basements have taken on water, and the full extent of storm damage is unknown yet until we get the May 26 predicted rains.&lt;/p&gt;
+&lt;p&gt;Media coverage: &lt;a href=&#34;http://www.detnews.com/article/20110525/METRO/105250422/1409/Homes--roads--rivers-flood--more-heavy-rain-expected&#34; target=&#34;_self&#34;&gt;Detroit News&lt;/a&gt;, noting that this is the 6th worst flood to date; &lt;a href=&#34;http://annarbor.com/news/ann-arbor-area-braces-for-yet-more-spring-storms-as-flood-warning-and-rain-continue/&#34; target=&#34;_self&#34;&gt;AnnArbor.com&lt;/a&gt;, collecting more flood photos, including those of Lake Fingerle. &amp;#0160;&lt;/p&gt;
+&lt;p&gt;A few photos, with photo credits:&lt;/p&gt;
+&lt;p&gt;Lake Barracuda, captured at Depot Street by photographer &lt;strong&gt;&lt;a href=&#34;http://chrisdzombak.com/&#34; target=&#34;_self&#34;&gt;Chris Dzombak&lt;/a&gt;.&lt;/strong&gt; Photo used with permission, all rights reserved. The lake is named after Barracuda Networks, which occupies the new stilt-built stay-dry construction at 201 Depot St. More photos from Chris in the Flickr set &lt;a href=&#34;http://www.flickr.com/photos/chrisdzombak/sets/72157626805238056/&#34; target=&#34;_self&#34;&gt;Flooding at Depot/4th&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eb92987970b-pi&#34;&gt;&lt;img alt=&#34;Download-2&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538eb92987970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eb92987970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Download-2&#34; /&gt;&lt;/a&gt; &lt;br /&gt;The river seen from above, taken by &lt;strong&gt;Kai Petainen&lt;/strong&gt;, used with permission. His set &lt;a href=&#34;http://www.flickr.com/photos/ahknaten/sets/72157626806006708/with/5760676860/&#34; target=&#34;_self&#34;&gt;Huron River Flood&lt;/a&gt;&amp;#0160;has photos and some short video taken from Island Park downstream to the Arboretum. &amp;#0160;Kai writes for Forbes with the weblog &lt;a href=&#34;http://blogs.forbes.com/kaipetainen/&#34; target=&#34;_self&#34;&gt;Sisu Investor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eb96e31970b-pi&#34;&gt;&lt;img alt=&#34;5759470639_6ede3551c5&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538eb96e31970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eb96e31970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;5759470639_6ede3551c5&#34; /&gt;&lt;/a&gt; &lt;br /&gt;Map of total rainfall storm to date for this storm, from the &lt;a href=&#34;http://www.wunderground.com&#34; target=&#34;_self&#34;&gt;Weather Underground&lt;/a&gt;, as of 1:05 a.m. Thursday. Pick &amp;quot;total precipitation&amp;quot; from the radar screen, or pop out the &amp;quot;1 hr precipitation&amp;quot; from the side in the &lt;a href=&#34;http://classic.wunderground.com&#34; target=&#34;_self&#34;&gt;Weather Underground Classic&lt;/a&gt; user interface and animate to watch storms come in.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eb9b06e970b-pi&#34;&gt;&lt;img alt=&#34;WUNIDS_map-1&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538eb9b06e970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eb9b06e970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;WUNIDS_map-1&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;If you&amp;#39;re looking for data, you&amp;#39;ll find the specific current and recent historical information from these sources.&lt;/p&gt;
+&lt;p&gt;The USGS &amp;#0160;&lt;a href=&#34;http://water.usgs.gov/data/&#34; target=&#34;_self&#34;&gt;Water Data Discovery page&lt;/a&gt; describes the &lt;a href=&#34;http://water.usgs.gov&#34; target=&#34;_self&#34;&gt;National Water Information System&lt;/a&gt;&amp;#0160;which has reat time, predictive, and historical data for use.&lt;/p&gt;
+&lt;p&gt;USGS National Water Information System real-time water data for gauges in the area is measured every 15 minutes and reported with 60-90 minutes delay. Look at the gauges for the &lt;a href=&#34;http://waterdata.usgs.gov/mi/nwis/uv?site_no=04174500&#34; target=&#34;_self&#34;&gt;Huron River at Ann Arbor&lt;/a&gt;, and you&amp;#39;ll see a graph showing current levels. It&amp;#39;s also possible to go back and get the data as data going back as far as 120 days, and to retrieve prior years data on a daily basis.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;There is also a gauge on Allen Creek which has collected data from some storms, but which is not in the National Water Information System and not always online. Allen Creek empties into the Huron River just downstream of Argo Dam, and at peak flow it can dump at least 1500 cubic feet per second into the river. I have seen data from one storm, and it looks like this can turn into 600 cubic feet per second at the next gauge, though that&amp;#39;s only one data point.&lt;/p&gt;
+&lt;p&gt;You can look yourself at the tabular data for the &lt;a href=&#34;http://waterdata.usgs.gov/nwisweb/data/exsa_rat/04174500.rdb&#34;&gt;river rating of the Huron River at Wall Street&lt;/a&gt;, which shows a level by level matching of flow vs water height. If the river is very low (300 cfs), then a sudden burst of 600 cfs will raise the level of the river by about a foot, and a burst of 1500 cfs will raise the level of the river by about two feet.&lt;/p&gt;
+&lt;p&gt;River forecasts come out routinely between 9:00 a.m. and 11:00 a.m. and if needed a second forecast goes out between 9:00 p.m. and 11:00 p.m., according to National Weather Service meteorologist &lt;strong&gt;Danny Costello&lt;/strong&gt;.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;For more media information about products provided by the NWS, here&amp;#39;s a slide deck I found on the Grand Rapids NOAA site as a media briefing. It explains in one of the slides a key aspect of predictions: the weather service changes from &amp;quot;watch&amp;quot; to &amp;quot;warning&amp;quot; when a forecast probability goes up to 80% likelihood of the event occurring.&lt;/p&gt;
+&lt;div id=&#34;__ss_8097232&#34; style=&#34;width: 425px;&#34;&gt;&lt;strong style=&#34;display: block; margin: 12px 0 4px;&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/edwardvielmetti/noaa-2011-hydromediaseminar&#34; title=&#34;Noaa 2011 hydro_media_seminar&#34;&gt;Noaa 2011 hydro_media_seminar&lt;/a&gt;&lt;/strong&gt; &lt;iframe frameborder=&#34;0&#34; height=&#34;355&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;http://www.slideshare.net/slideshow/embed_code/8097232&#34; width=&#34;425&#34;&gt;&lt;/iframe&gt;
+&lt;div style=&#34;padding: 5px 0 12px;&#34;&gt;More river watching tomorrow.&lt;/div&gt;
+&lt;/div&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>North Central River flood outlook, April 3-8, 2011</title>
+      <link>http://localhost:1313/post/2011/2011-04-04-north-central-river-flood-outlook-april-3-8-2011/</link>
+      <pubDate>Mon, 04 Apr 2011 00:41:50 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-04-04-north-central-river-flood-outlook-april-3-8-2011/</guid>
+      <description>&lt;p&gt;A snapshot of the &lt;a href=&#34;http://www.crh.noaa.gov/ncrfc/content/water/fop.php&#34; target=&#34;_self&#34;&gt;flood outlook from the North Central River Forecast Center&lt;/a&gt;&amp;#0160;shows what a wet spring week will do to river levels.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.crh.noaa.gov/images/ncrfc/data/flood_outlooks/fop/fop1.jpg&#34;&gt;&lt;img alt=&#34;image from www.crh.noaa.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e605d178f970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e605d178f970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from www.crh.noaa.gov&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://waterwatch.usgs.gov/new/images/flood/us/floodb.gif&#34;&gt;&lt;img alt=&#34;image from waterwatch.usgs.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e87386f04970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e87386f04970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from waterwatch.usgs.gov&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;The Huron River in Ann Arbor will have high water this week.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://water.weather.gov/resources/hydrographs/annm4_hg.png&#34;&gt;&lt;img alt=&#34;image from water.weather.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e36a7eb8970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e36a7eb8970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from water.weather.gov&#34; /&gt;&lt;/a&gt; &lt;br /&gt;Edward Vielmetti splashes in puddles.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Huron River water level watching: USGS National Water Information System</title>
+      <link>http://localhost:1313/post/2011/2011-03-23-huron-river-waterwatch/</link>
+      <pubDate>Wed, 23 Mar 2011 13:41:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-03-23-huron-river-waterwatch/</guid>
+      <description>&lt;p&gt;Follow the &lt;a href=&#34;http://waterdata.usgs.gov/nwis/uv/?site_no=04174500&#34; target=&#34;_self&#34;&gt;level of the Huron River as it goes through Ann Arbor&lt;/a&gt;&amp;#0160;with the USGS National Water Information System. On March 23, the river is rising, but it&amp;#39;s also fluctuating in levels, enough that it&amp;#39;s difficult to determine whether current trends would lead you to believe that there is any risk of flooding.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://137.227.241.67/nwisweb/data/img/USGS.04174500.02.00065..20110316.20110323..0..gif&#34;&gt;&lt;img alt=&#34;image from 137.227.241.67&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e36a71f0970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e36a71f0970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from 137.227.241.67&#34; /&gt;&lt;/a&gt;If you were to watch this closely, what would you watch?&lt;/p&gt;
+&lt;p&gt;The USGS will give you an alert if the level of the river is above or below a certain level.&lt;/p&gt;
+&lt;p&gt;The first derivative is the rate of change of the water level. You&amp;#39;d want to track that to note trends. If you measured the difference between adjacent water levels, you&amp;#39;d identify spikes, which have been associated with work on the dam in the past; those will give you a metric on the order of rate of change in inches per hour. If you did some smoothing, you&amp;#39;d find trending measured in feet per day.&lt;/p&gt;
+&lt;p&gt;The second derivative is the rate of the rate of change of the water level; you&amp;#39;re looking for that to identify erratic behavior. As a rule of thumb a time series with large movements in both directions (up and down) over a short amount of time is a sign of river disturbance.&lt;/p&gt;
+&lt;p&gt;A plausible approach would be to compute a smoothed curve, and then alert on deviations from the smoothed curve. You&amp;#39;d love to be able to tell the difference between sudden downpour, steady rain, flash flood, work on the dam, and dam failure.&lt;/p&gt;
+&lt;p&gt;Another strip chart to line up with this is rainfail (measured in convenient units) and precipitation forecast.&lt;/p&gt;
+&lt;p&gt;This forecast is from &lt;a href=&#34;http://waterwatch.usgs.gov/new/index.php?m=real&amp;amp;r=mi&amp;amp;w=map&#34; target=&#34;_self&#34;&gt;USGS Waterwatch for Michigan&lt;/a&gt;. Hidden behind the projected water level is a rainfall forecast for the watershed.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://water.weather.gov/resources/hydrographs/annm4_hg.png&#34;&gt;&lt;img alt=&#34;image from water.weather.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e36a7eb8970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e36a7eb8970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from water.weather.gov&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Statewide data, if you want to look for more, from &lt;a href=&#34;http://waterwatch.usgs.gov/new/index.php?m=real&amp;amp;r=mi&amp;amp;w=map&#34; target=&#34;_self&#34;&gt;Waterwatch&lt;/a&gt;. The black dots are flooding, blue are near flood.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://waterwatch.usgs.gov/new/images/real/mi/realb.gif&#34;&gt;&lt;img alt=&#34;image from waterwatch.usgs.gov&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e600fbfe7970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e600fbfe7970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from waterwatch.usgs.gov&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;em&gt;Edward Vielmetti watches water levels on the Huron River. Write to him at edward.vielmetti@gmail.com.&amp;#0160;&lt;/em&gt;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

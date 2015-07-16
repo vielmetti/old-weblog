@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wiki on tracker</title>
+    <link>http://localhost:1313/categories/wiki/</link>
+    <description>Recent content in Wiki on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Sep 2014 16:33:52 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>For machines, by machines: Wikipedia is for bots</title>
+      <link>http://localhost:1313/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</link>
+      <pubDate>Fri, 26 Sep 2014 16:33:52 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</guid>
+      <description>&lt;p&gt;What is Wikipedia for? It&#39;s for bots.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.theverge.com/2014/2/18/5412636/this-machine-kills-trolls-how-wikipedia-robots-snuff-out-vandalism&#34;&gt;This machine kills trolls: How Wikipedia’s robots and cyborgs snuff out vandalism&lt;/a&gt; writes up the work of the Wikipedia contributors who have written robots (bots) that automatically extirpate contributions to the encyclopedia that are unwanted.&lt;/p&gt;
+
+&lt;p&gt;Alas, the result of all of this highly efficient robot-driven editing is that many new editors first interaction with the system is not with a human being, but with a faceless robot. The real worry is that the crowd of new editors that used to flock to the site to provide modest and well-intentioned edits are being systematically pushed away by the overroboticism of the systems administration. &lt;/p&gt;
+
+&lt;p&gt;Bot vs bot is a long term war that has no human winners, and the quality of the resulting system is poorer because the bots feed largely on newbies. Only when you master the gauntlet of robot overlords do you eventually get welcomed into the inner sanctum of humanity. Those who stay will be always watched over by the machines, and only a few in the Wikipedia elite will master the necessary skills to automatically patrol the recent changes based on their programming efforts.&lt;/p&gt;
+
+&lt;p&gt;Inspired by a fascinating talk at &lt;a href=&#34;http://icos.umich.edu&#34;&gt;ICOS&lt;/a&gt; by Wikimedia Foundation researcher &lt;a href=&#34;http://www-users.cs.umn.edu/~halfak/&#34;&gt;Aaron Halfaker&lt;/a&gt;, who might come to different conclusions from the same data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making sense of Ferguson, Missouri via the St Louis Localwiki</title>
+      <link>http://localhost:1313/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</link>
+      <pubDate>Thu, 21 Aug 2014 20:06:07 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</guid>
+      <description>&lt;p&gt;The St Louis, Missouri Localwiki - &lt;a href=&#34;http://localwiki.net/st-louis&#34;&gt;http://localwiki.net/st-louis&lt;/a&gt; - was mostly empty when the events in Ferguson, MO started on August 9, 2014 with the death of 18 year old student Michael Brown. As with any event where there&#39;s a lot that&#39;s going on in an unfamiliar area, I was drawn to making some sense of what was happening. This has been especially true when the coverage on the #&lt;a href=&#34;http://twitter.com/hashtag/ferguson&#34;&gt;ferguson&lt;/a&gt; hashtag overwhelmed my Twitter feed, which had been usually quiet at night.&lt;/p&gt;
+
+&lt;p&gt;The Localwiki crew - including Jason Denizac, Marina Kukso, Philip Neustrom, James Halliday, and others have been super helpful in filling in the blanks on the Localwiki map around Ferguson. It&#39;s been helpful to get one step away from the relentless outsider media scrum and read background pieces by local journalists from places like the 
+&lt;a href=&#34;http://localwiki.net/st-louis/Riverfront_Times&#34;&gt;Riverfront Times&lt;/a&gt;, the 
+&lt;a href=&#34;http://localwiki.net/st-louis/St._Louis_American&#34;&gt;St. Louis American&lt;/a&gt;, and the 
+&lt;a href=&#34;http://localwiki.net/st-louis/St._Louis_Post-Dispatch&#34;&gt;St. Louis Post-Dispatch&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Writing and editing a localwiki has been a helpful way for me to process some of the difficult things that have gone on. It turns a helpless feeling into some sort of community engagement. I am conscious that I&#39;m not always going to be engaged in this effort at the level that I am now, so there&#39;s some extra care not to leave too many loose ends in the process. As of this writing (August 21, 2014) there are about 150 pages in the St. Louis Localwiki, which is just barely a start.&lt;/p&gt;
+
+&lt;p&gt;Ideally someone local to the scene would eventually happen upon the localwiki and find it useful, or someone who was comfortable in the localwiki space would move to the area and be drawn to it as a way to document their surroundings. To some extent I feel like as much of an outside tourist as the news media that parachuted into the area to cover events; yet it doesn&#39;t really feel that way so much. Time will tell.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notes from my talk on Arborwiki and Localwiki at eChicago, 2013</title>
+      <link>http://localhost:1313/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</link>
+      <pubDate>Mon, 29 Apr 2013 00:06:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</guid>
+      <description>&lt;p&gt;I had the good fortune to talk about &lt;a href=&#34;http://arborwiki.org&#34; target=&#34;_self&#34;&gt;Arborwiki&lt;/a&gt; and &lt;a href=&#34;http://www.localwiki.org&#34; target=&#34;_self&#34;&gt;Localwiki&lt;/a&gt; at eChicago in April 2013. Here are the notes that I took in preparation for the talk; the actual text of the talk varied from this, since I was speaking impromptu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About Arborwiki&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Who: &lt;/strong&gt;More than a dozen core contributors over the lifespan of the project, plus many more who have made small edits to pages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Where&lt;/strong&gt;: Greater Ann Arbor - including Washtenaw County and the farmers who come to the Farmers Market from surrounding counties.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When&lt;/strong&gt;: Started in September 2005 as a class project at Community High School, then moved to servers at the Ann Arbor District Library.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What&lt;/strong&gt;: About 10,000 pages, including the most popular &lt;a href=&#34;http://arborwiki.org/Birthday_Deals&#34; target=&#34;_self&#34;&gt;Birthday Deals&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/Volunteer_Opportunities&#34; target=&#34;_self&#34;&gt;Volunteer Opportunities&lt;/a&gt;, and perennial favorite &lt;a href=&#34;http://arborwiki.org/Donuts&#34; target=&#34;_self&#34;&gt;Donuts&lt;/a&gt; and &lt;a href=&#34;http://arborwiki.org/paczki&#34; target=&#34;_self&#34;&gt;Paczki&lt;/a&gt; pages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;: To build community information about the Ann Arbor area.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guiding principles&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Locality, not notability, is the main criterion for relevance; if it&amp;#39;s here, then it&amp;#39;s relevant.&lt;/p&gt;
+&lt;p&gt;Take a local point of view, not a neutral point of view; original text and personal views welcomed.&lt;/p&gt;
+&lt;p&gt;Lots of external links to reference sources.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;State of the project&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Arborwiki is a mature system - it has over 10,000 pages in it, and thus there&amp;#39;s likely to be something about most things that people might look for that are relevant to the Ann Arbor area.&lt;/p&gt;
+&lt;p&gt;One advantage to maturity is that a lot of people know about the project through a popular &amp;quot;&lt;a href=&#34;http://arborwiki.org/Birthday_Deals&#34; target=&#34;_self&#34;&gt;Birthday Deals&lt;/a&gt;&amp;quot; page, and we don&amp;#39;t have to explain in the abstract what we&amp;#39;re working on - that individual page gets about two hundred visits per day.&lt;/p&gt;
+&lt;p&gt;A second advantage is that we&amp;#39;ve gotten tremendous amounts of cooperation from the &lt;a href=&#34;http://aadl.org&#34; target=&#34;_self&#34;&gt;Ann Arbor District Library&lt;/a&gt; system, including help with research, links, technical support, and free hosting for this community project.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Challenges of a mature system&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;#39;s no &amp;quot;new wiki&amp;quot; smell, and we can&amp;#39;t count on having a barn-raising strategy for people who want to document their community for the first time. Any enthusiasm has to be in the context of a lot of things that already exist.&lt;/p&gt;
+&lt;p&gt;The core of regular contributors is relatively small compared to the number of pages in the system. It would take 30+ page edits per day of existing pages just to get enough eyes on the older parts of Arborwiki just to keep each page refreshed to be less than a year since its latest edit.&lt;/p&gt;
+&lt;p&gt;There are too many short, uninformative pages with just a single bare link and no photo, no map, no template etc. One editor - and that would be me - went through a long period of emphasizing quantity over quality. Now that the quantity is there, it&amp;#39;s time to focus on quality.&lt;/p&gt;
+&lt;p&gt;The site needs more photos and better support from photographers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Ypsiwiki problem&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once upon a time there was a separate &lt;a href=&#34;http://arborwiki.org/Ypsiwiki&#34; target=&#34;_self&#34;&gt;Ypsiwiki&lt;/a&gt; which covered Ypsilanti. It was decided to merge those pages in because there was too much project overlap and not quite enough of a critical mass to keep the two systems separate. The Arborwiki name was retained, and as a result, there&amp;#39;s resistance overall from contributors from Ypsilanti to contribute to a project that&amp;#39;s not theirs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What to do next&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Improve the most popular pages on the site. Use Google Analytics to identify the pages that get the most traffic, and go through them page by page to ensure that they are up to date, correct, accurate, and informative.&lt;/p&gt;
+&lt;p&gt;Create new pages based on a &amp;quot;Page not found&amp;quot; report from Google Analytics, noting where people click on terms that get them to a blank or empty page.&lt;/p&gt;
+&lt;p&gt;Visit a random page in the site and make it better. Add a map, a photograph, a category, or a paragraph of information.&lt;/p&gt;
+&lt;p&gt;Learn the seasonal rhythms of the site. For example, the Paczki page gets traffic for about a week a year, but the Donuts page gets steady traffic year round.&lt;/p&gt;
+&lt;p&gt;Follow public meetings like the meetings of the &lt;a href=&#34;http://arborwiki.org/Ann_Arbor_City_Council&#34; target=&#34;_self&#34;&gt;Ann Arbor City Council&lt;/a&gt;, and tweet out links to projects or issues that are relevant agenda items.&lt;/p&gt;
+&lt;p&gt;Wish someone a happy birthday by sending them a link to the Birthday Deals page on Facebook.&lt;/p&gt;
+&lt;p&gt;Reward new contributors by recognizing them in public through Facebook or Twitter links to their new contributions.&lt;/p&gt;
+&lt;p&gt;Recognize that a Localwiki project has a natural size, and identify where you are in the process.&lt;/p&gt;
+&lt;p&gt;Pay attention to traffic patterns - popular pages, referral sites, keywords used.&lt;/p&gt;
+&lt;p&gt;If you want traffic, track the news, and befriend local media so that they are aware of the resource.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

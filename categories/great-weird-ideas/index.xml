@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Great Weird Ideas on tracker</title>
+    <link>http://localhost:1313/categories/great-weird-ideas/</link>
+    <description>Recent content in Great Weird Ideas on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Nov 2014 18:27:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/great-weird-ideas/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>That bright idea of yours might cost you $25,000</title>
+      <link>http://localhost:1313/post/2014/2014-11-14-that-bright-idea-of-yours-might-cost-you-25000/</link>
+      <pubDate>Fri, 14 Nov 2014 18:27:45 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-11-14-that-bright-idea-of-yours-might-cost-you-25000/</guid>
+      <description>&lt;p&gt;A cautionary tale.&lt;/p&gt;
+
+&lt;p&gt;What&#39;s the value of an idea? Consider that some ideas might have a negative value; indeed that most of them might. It may take you some substantial investment to test out your idea, to prove it, to build something minimal to show people that it was real. And then when you&#39;re ready with it there might be a net result that you finally have talked to enough people that you know that you need to scrap it and start over.&lt;/p&gt;
+
+&lt;p&gt;If then I am skeptical of your great new project and want to be critical of it first rather than embrace it, it&#39;s not because I don&#39;t think that you should be at all ashamed or sad to have come up with anything good. It&#39;s more for me - this is the first step of defensiveness that will help me not get involved.&lt;/p&gt;
+
+&lt;p&gt;Please, if I pitch something in your direction, try to dissuade me from doing it. Tell me that no one has done it, or that everyone has done it, or that there&#39;s no customers, or that it would cost too much to try, or that it can&#39;t scale, or whatever. Shake me out of my temporary enthusiasm. I can generate a lot of ideas that each might take $25,000 to prove out, and the faster I can get to &#34;no&#34; the happier I&#39;ll be.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How are you going to keep them down on the farm, after they&#39;ve seen 5D?</title>
+      <link>http://localhost:1313/post/2014/2014-04-07-how-are-you-going-to-keep-them-down-on-the-farm-after-theyve-seen-5d/</link>
+      <pubDate>Mon, 07 Apr 2014 00:20:07 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-04-07-how-are-you-going-to-keep-them-down-on-the-farm-after-theyve-seen-5d/</guid>
+      <description>&lt;p&gt;I spent some quality time playing the dreadfully addictive game &#34;2048&#34;. (No, I won&#39;t link to it.) After beating it a few times, I went looking for higher dimensional versions and found a 2048 3D, 4D, and 5D version. And, after playing and beating &lt;a href=&#34;http://cesarkawakami.github.io/2048-5D/&#34;&gt;2048 5D&lt;/a&gt; I am no longer satisfied with most of the user interfaces that I see. &lt;/p&gt;
+
+&lt;p&gt;5 dimensional thinking on a 2x2x2x2x2 board is really not all that hard, once you bend your mind to it. You use the arrow keys to navigate in small steps, AWSD to navigate in larger steps, and QE for the largest steps. Of course the steps aren&#39;t really larger when you consider the full dimensions of the space, but based on how the cells are laid down on a flat screen that&#39;s a reasonable approximation.&lt;/p&gt;
+
+&lt;p&gt;After successfully navigating a 5D space, the traditional presentation of a list as a scrolling 1-dimensional space, or even a web browser&#39;s narrow navigational confines, seems impossibly small. I can page up and down in a browser, but what would it mean to page left and right? Or to page in and out, or hither and yon? (Pick some more navigational opposites.) Tabs help a little bit for the left-right navigation, and windows perhaps are the in-out method, but what of hither and yon?&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s a small proposal. The browser could keep track not just of the history of which pages you have seen in the past, but also the order that you&#39;ve seen them in. Over time, that flow history turns into a graph of expected page transitions. Your browser could respond to some command that was &#34;show me the next page I&#39;m likely to go to&#34;, and that would be inferred by the history mechanism. The &#34;next&#34; button would always be active.&lt;/p&gt;
+
+&lt;p&gt;I suppose this is related to my routine preference for guided randomness in my work. I would rather not try to work my way down a list where I decide explicitly what to do next. Rather, the computer uses some algorithm to select a next thing (a roll of the dice, or some weighted choice) and that&#39;s the next thing to do. With the right sorts of dimensional logic, there could be a couple of different things that would be reasonably &#34;next&#34; and they would be surprising but plausible next things to work through.&lt;/p&gt;
+
+&lt;p&gt;What&#39;s kind of sad is that the hyperspace of my idealistic youth - where the network was big, and you used spatial metaphors to zoom down information pathways of your own choosing - has been replaced by the UIs of Facebook, Twitter, or even email where the &#34;read the top, refresh, read the top again&#34; is what you&#39;re guided down. There&#39;s no more chasing down endless hyperlinks - everything you might want is predigested and put in front of you, and if you don&#39;t like it you can just hit refresh like some slot-machine player and hope for better.&lt;/p&gt;
+
+&lt;p&gt;So I want some space to work in, not just lists, and not just read from the top. Let me decorate rooms with ideas, and traverse some kind of non-linear structure to get from one idea to the next. Vannevar Bush&#39;s &#34;memex&#34; had trails that led through it, and it didn&#39;t pretend that you could instantly go from one idea to the next without passing through something else. When I think I want to carve out some space for thinking, and have it be something other than the infinite scrolling list. &lt;/p&gt;
+
+&lt;p&gt;File under &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/great-weird-ideas/&#34;&gt;Great Weird Ideas&lt;/a&gt;. Previously in Great Weird Ideas, a musing on &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/top-of-mind-vs-top-of-page.html&#34;&gt;top of page&lt;/a&gt;. A non-linear structure for organizing thought is &lt;a href=&#34;http://www.thebrain.com/community/big-thinker-quotes/jerry/&#34;&gt;Jerry&#39;s Brain&lt;/a&gt;. Previous musings on a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/01/graph-structured-rolodex.html&#34;&gt;graph-structured rolodex&lt;/a&gt;. A 2004 lunch with Peter Morville, described in terms of a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2004/03/findability_sus.html&#34;&gt;memory palace&lt;/a&gt;. Network Access to Multimedia Information, &lt;a href=&#34;http://www.apps.ietf.org/rfc/rfc1614.html&#34;&gt;RFC 1614&lt;/a&gt;, describes the chaotic immediately pre-World Wide Web days of 1994.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Great weird ideas vs. slow accretion of interesting things</title>
+      <link>http://localhost:1313/post/2012/2012-01-01-great-weird-ideas-vs-slow-accretion-of-interesting-things/</link>
+      <pubDate>Sun, 01 Jan 2012 15:08:49 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-01-01-great-weird-ideas-vs-slow-accretion-of-interesting-things/</guid>
+      <description>&lt;p&gt;From time to time I have &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/great-weird-ideas/&#34; target=&#34;_self&#34;&gt;great weird ideas&lt;/a&gt;, but those don&amp;#39;t happen every day. So instead of using this weblog just to catch the brainstorms I have to be also prepared to have it slowly collect the ordinary things that catch my eye long enough to be worth saving.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

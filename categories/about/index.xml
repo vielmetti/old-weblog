@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on tracker</title>
+    <link>http://localhost:1313/categories/about/</link>
+    <description>Recent content in About on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jul 2015 22:26:21 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>a great many things</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-a-great-many-things/</link>
+      <pubDate>Tue, 14 Jul 2015 22:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-a-great-many-things/</guid>
+      <description>&lt;p&gt;This weblog, which may or may not ever see the
+light of day, is about a great many things.&lt;/p&gt;
+
+&lt;p&gt;There are other blogs waiting to be written that
+don&amp;rsquo;t have that infinite vista; they could easily
+be much more narrow. What, then, do you write about?
+Let&amp;rsquo;s count some of the options.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docker on the Raspberry Pi, following Hypriot&amp;rsquo;s lead.&lt;/li&gt;
+&lt;li&gt;Just Docker in general, and Dockerizing various things.&lt;/li&gt;
+&lt;li&gt;Recipes, since I have a bunch already.&lt;/li&gt;
+&lt;li&gt;Power Outage Maps, in particular try to wrangle data from OpenEI here.&lt;/li&gt;
+&lt;li&gt;FOIA, espeically Michigan FOIA, to follow my book&lt;/li&gt;
+&lt;li&gt;Daily Coffee and Wifi, the usual random walk&lt;/li&gt;
+&lt;li&gt;Civic Technology, in whatever format that takes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More and more it&amp;rsquo;s the case that the old &amp;ldquo;Vacuum&amp;rdquo; weblog is
+feeling vacuous - not enough interaction with people, and not
+the right platform to go deep on anything. And &amp;ldquo;Typepad&amp;rdquo; feels
+really old, especially compared to everything else.&lt;/p&gt;
+
+&lt;p&gt;Fortunately if I&amp;rsquo;m writing in Markdown I can mostly drop anything
+I want anywhere it wants to go.&lt;/p&gt;
+
+&lt;p&gt;The other great weird idea of course is to mimic the old print
+notebook with all kinds of nifty sidebars, one sidebar per item.&lt;/p&gt;
+
+&lt;p&gt;What do I want to have happen as a result of all of this not
+inconsiderable effort? Creative control to be sure, to be able
+to type something and see it appear exactly as desired on the
+screen. Community engagement is another, to be part of a group
+of people all working toward a common goal.&lt;/p&gt;
+
+&lt;p&gt;Of course the other thing that I could do is take some old weblog,
+revisit it, and republish it in some other format. Blogger&amp;rsquo;s Secret
+is the reasonable one to do that to. It has virutally no traffic
+now, but if I re-serialized it, it might do the trick.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m not &#34;producing content&#34;, I&#39;m writing</title>
+      <link>http://localhost:1313/post/2012/2012-05-01-im-not-producing-content-im-writing/</link>
+      <pubDate>Tue, 01 May 2012 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-05-01-im-not-producing-content-im-writing/</guid>
+      <description>&lt;p&gt;For this blog, at least, I want to make it very clear: I&#39;m not &#34;producing content&#34;, I&#39;m writing. This may be in order to call out attention to the work of a friend or a client, it may be to scratch some particular itch for words that need to be said, and it may be because someone else&#39;s interests dovetail with mine. Generally I try to quote enough of what other people say to be fair to them, and to tell a part of a story that you can find only by chasing through the network looking to connect ideas together at their edges.&lt;/p&gt;
+&lt;p&gt;One of the peculiar characteristics of writing for yourself and not just creating copy is that you end up finding things from your past that you still own enough to re-edit and rework as needed. A recent discussion on Twitter about paw paws helped me unearth &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/09/papaws-the-mich.html&#34; target=&#34;_self&#34;&gt;a 2008 collection of scrapbook entries about the fruit, its names, and how it tastes.&lt;/a&gt;&amp;nbsp;If I had produced this content for an employer (or an ex-employer), it would be long since frozen and old; but because it&#39;s just my writing, I can go back and make it better four years later.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been happy with Typepad for a long time. Recently, some of the management changes at the organization that runs it have led to some changes in the marketing around the service, so that the relatively few old-school bloggers like me still on the system seem less and less to be the target audience, in favor of professional media people who have a certain number of words of content that they are obligated to produce before they move to the next task. I guess I can only be hopeful that the sorts of tools that are needed to crank out content on the job can also be used for old fashioned blogging where the deadlines are less definite and the goals more ambiguous.&lt;/p&gt;
+&lt;p&gt;- 30 -&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.metagrrrl.com/metagrrrl/2012/04/rt-vielmetti-typepad-im-not-producing-content-im-writing.html&#34; target=&#34;_self&#34;&gt;Thanks to Dinah Sanders (@metagrrrl) for the Typepad commentary&lt;/a&gt;. The paw paw discussion came and went on Twitter, as twitter things tend to do, without leaving too much of an obvious trace; &lt;a href=&#34;https://twitter.com/#!/MickiMaynard/status/196658685341220864&#34; target=&#34;_self&#34;&gt;Micki Maynard&lt;/a&gt; and Dave Askins were at the center of it. I tried to avoid bringing in any mention of &#34;discontent&#34;, and failed.&lt;/p&gt;
+&lt;p&gt;Disclaimer: nothing to disclaim at this time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

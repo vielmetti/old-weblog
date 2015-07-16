@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photography Wiki on tracker</title>
+    <link>http://localhost:1313/categories/photography-wiki/</link>
+    <description>Recent content in Photography Wiki on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Feb 2011 22:56:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/photography-wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Camera-wiki.org is a successful, non-commercial fork of Camerapedia</title>
+      <link>http://localhost:1313/post/2011/2011-02-27-camera-wikiorg-is-a-successful-non-commercial-fork-of-camerapedia/</link>
+      <pubDate>Sun, 27 Feb 2011 22:56:10 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-02-27-camera-wikiorg-is-a-successful-non-commercial-fork-of-camerapedia/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.camera-wiki.org&#34; target=&#34;_self&#34;&gt;Camera-wiki.org&lt;/a&gt; is a successful, non-commercial fork of Camerapedia. It was built over the span of about a month, with a small team of volunteers reconstructing the wiki and its image database in response to a sale of Camerapedia to Wikia. &lt;a href=&#34;http://www.steevithak.com/2011/02/27/goodbye-camerapedia-hello-camera-wiki-org/&#34; target=&#34;_self&#34;&gt;Steevithiak tells the tale from the inside&lt;/a&gt;, of late-night perl scripts crawling through the databases reconstructing the site and of coordinated action to rebuild the photo pool.&lt;/p&gt;
+&lt;p&gt;The challenge of running a wiki is not only that you have to maintain a large collection of encyclopedic content, but also that you have to keep a pile of funky software running. The enticing trade is to accept advertising on your wiki pages in exchange for &amp;quot;free&amp;quot; hosting. The hosting company gets your community&amp;#39;s sweat equity, unless they &lt;a href=&#34;http://blog.camera-wiki.org/2011/02/07/hello-world/&#34; target=&#34;_self&#34;&gt;rebel en masse&lt;/a&gt; and go and build their own sandbox. &lt;a href=&#34;http://www.flickr.com/groups/camerapedia/discuss/72157625827923382/&#34; target=&#34;_self&#34;&gt;More power to them&lt;/a&gt;.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

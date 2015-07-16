@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Os X on tracker</title>
+    <link>http://localhost:1313/categories/os-x/</link>
+    <description>Recent content in Os X on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 May 2015 22:41:36 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/os-x/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Making Lag Monster a bit less laggy</title>
+      <link>http://localhost:1313/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/</link>
+      <pubDate>Fri, 29 May 2015 22:41:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/</guid>
+      <description>&lt;p&gt;@tallervielmetti is using my old black Macbook. It&#39;s never been an exceptionally fast machine, but it&#39;s been super laggy of late, hence the name Lag Monster. &lt;/p&gt;
+
+&lt;p&gt;I installed all kinds of crap on that machine to test it out, and never uninstalled a lot of it. It turns out that some judicious uninstalls seemed to help a lot to keep the load average down. Some hints to my future self if these ever re-emerge:&lt;/p&gt;
+
+&lt;p&gt;BBLaunchAgent. Yes, relics of my old Blackberry still linger on, and to really and truly kill them I had to edit plists. See &lt;a href=&#34;https://discussions.apple.com/thread/2752009?start=0&amp;amp;tstart=0&#34;&gt;Can&#39;t delete BBLaunchAgent.app process&lt;/a&gt; for the eventual diff I applied. For a more exhaustive list of Blackberry-uninstalling tools see &lt;a href=&#34;https://blog.omgmog.net/post/removing-the-blackberry-desktop-software-for-mac-without-having-to-re-download-a-70mb-installer-from-blackberry/&#34;&gt;Removing the Blackberry Desktop Software for Mac without having to re-download a 70mb installer from Blackberry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jenkins. Some time in the distant past I installed it, and it launched under Java and ran and did nothing for years except contribute to lag. Killed by removing the install directory and rebooting.&lt;/p&gt;
+
+&lt;p&gt;Chrome. Lots of Chrome stuff takes up memory. Particularly contributing to lag was some Reddit page. &lt;/p&gt;
+
+&lt;p&gt;At the end we&#39;re at&lt;/p&gt;
+
+&lt;p&gt;Processes: 77 total, 2 running, 1 stuck, 74 sleeping, 355 threads      22:40:09
+ Load Avg: 0.22, 0.67, 0.68  CPU usage: 17.75% user, 12.14% sys, 70.9% idle&lt;/p&gt;
+
+&lt;p&gt;Which is, I have to say, a lot better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mac OS 10.9.5 audio problems on MacBook Air</title>
+      <link>http://localhost:1313/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/</link>
+      <pubDate>Fri, 24 Oct 2014 23:09:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/</guid>
+      <description>&lt;p&gt;Symptoms include no audio inputs when a headset is plugged in, but the built-in mic works fine when the headset is not plugged in.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo killall coreaudiod&lt;/code&gt; is one suggested fix.&lt;/p&gt;
+
+&lt;p&gt;This superuser.com article tells you how to &lt;a href=&#34;http://superuser.com/questions/647396/reload-mac-audio-drivers-without-rebooting&#34;&gt;reload Mac audio drivers without rebooting&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Mohan Kartha for helping sort this out; still not convinced I can adequately fix it with these tools, or even that I have diagnosed the issue. Some of the discussion is about a &#34;stuck optical switch&#34;.&lt;/p&gt;
+
+&lt;p&gt;Genius bar next.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: Genius bar helpfully scheduled an appointment. The folks at the Apple store helpfully let me try other headsets and other mics and other computers, and the problem seemed to be isolated to my computer.&lt;/p&gt;
+
+&lt;p&gt;In the meantime I poked and poked and eventually landed on a description of the &#34;Audio MIDI Setup&#34; utility. I dutifully clicked through to it to see what was up, adjusted a few things, and then found this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07a1c626970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07a1c626970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-29 at 11.13.41 AM&#34; title=&#34;Screen Shot 2014-10-29 at 11.13.41 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07a1c626970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that audio input is unhelpfully marked &#34;mute&#34;. When I unmute, everything works fine. Why on earth this only shows up deep in the MIDI setup of all places I&#39;m not sure; I know that I had fiddled around there before.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Macbook flickery pixels - diagnosing and fixing a screen hardware problem</title>
+      <link>http://localhost:1313/post/2007/2007-12-05-macbook-flicker/</link>
+      <pubDate>Wed, 05 Dec 2007 11:28:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2007/2007-12-05-macbook-flicker/</guid>
+      <description>&lt;p&gt;
+I have a Macbook, it&#39;s partially broken right now.
+&lt;/p&gt;&lt;p&gt;
+There is a stripe of pixels top to bottom on the screen, about 1/8 of the screen, running top to bottom that is flickering.  It&#39;s not what Apple calls a &#34;pixel anomaly&#34;, since it&#39;s not a single isolated spot; rather, it&#39;s a big stripe.  It starts at the middle of the screen, and goes to the right from there.
+&lt;/p&gt;&lt;p&gt;
+I have Applecare (whew).
+&lt;/p&gt;&lt;p&gt;
+I ran TechTools Deluxe, their self-help diagnostic CD; all of the hardware that it tests checks out OK, including the video ram.
+&lt;/p&gt;&lt;p&gt;
+I double-checked the video issue at multiple screen resolutions, and it appears that the same screen stripe is fubar independent of resolution, which suggests that it&#39;s a problem with the screen itself and not the circuitry driving it.  The external monitor looks fine.
+&lt;/p&gt;&lt;p&gt;
+@bdimcheff on Twitter noted that he had a similar problem which was &#34;the bottom set of input circuitry on my LCD was falling off&#34;.
+&lt;/p&gt;&lt;p&gt;
+On hold to Apple Support right now (1030am EST), estimated wait 15min plus.  I can still work.  &#34;Please continue to hold for the next representative&#34;.
+&lt;/p&gt;&lt;p&gt;
+I&#39;m not going to fix it myself (did I mention Applecare)?  But here are some people who did replace a Mac laptop screen:
+&lt;/p&gt;&lt;p&gt;
+&lt;a href=&#34;http://tweakosx.com/index.php/2007/11/19/replace-macbook-screen-a-tutorial/&#34;&gt;Replace MacBook Screen - A Tutorial - Tweak OSX&lt;/a&gt;
+&lt;/p&gt;&lt;blockquote&gt;
+A client of mine sent me a MacBook with a broken screen. It was his daughter’s computer, and she had accidentally broken the screen. I told him I couldn’t help him repair the screen, and he should look to Apple to make the repair for him. I turns out that the repair is 90% of the cost of the computer itself.
+&lt;/blockquote&gt;&lt;p&gt;
+&#34;Clear to me right now that it&#39;s a hardware issue; don&#39;t have to worry about it because it&#39;s a hardware issue.  Need to send this one to our Apple Depot and have it fixed; the turnaround time is 5-7 business days.  Genius bar doesn&#39;t have the parts to be sure and have it in stock, but you can ask them.  Box delivered by DHL, just the computer into it; they will deliver it back to us; call them if it&#39;s ready for pickup.  Box valid for 30 business days; always back up the files.&#34;
+&lt;/p&gt;&lt;p&gt;
+(sigh)
+&lt;/p&gt;&lt;p&gt;
+The next problem is to figure out a transitional period where I get a laptop for 5-7 days to work while my system is in the shop, and enough data and code on that laptop to make it work.  Without going into an exhaustive search for rentals, it appears that the value of a machine for one week as a rental is in the $250 range.
+&lt;/p&gt;
+&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/hardware&#34; rel=&#34;tag&#34;&gt;hardware&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/mac&#34; rel=&#34;tag&#34;&gt;mac&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/macbook&#34; rel=&#34;tag&#34;&gt;macbook&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/sad-mac&#34; rel=&#34;tag&#34;&gt;sad-mac&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

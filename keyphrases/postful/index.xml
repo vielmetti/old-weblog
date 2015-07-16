@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postful on tracker</title>
+    <link>http://localhost:1313/keyphrases/postful/</link>
+    <description>Recent content in Postful on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Dec 2008 15:00:21 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/keyphrases/postful/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>stuck on a postcard / postful / curl problem</title>
+      <link>http://localhost:1313/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</link>
+      <pubDate>Tue, 30 Dec 2008 15:00:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</guid>
+      <description>&lt;p&gt;FIXED, see the bottom.&amp;#0160; 12/31&lt;/p&gt;&lt;p&gt;rather than give up in total frustration, here&amp;#39;s what I am trying to implement, using &amp;quot;curl&amp;quot; to drive the system.&amp;#0160; This is from the &lt;a href=&#34;http://www.postful.com/developer/guide&#34;&gt;&amp;quot;postful&amp;quot; API docs&lt;/a&gt;.&lt;/p&gt;&lt;h4 style=&#34;margin-left: 40px;&#34;&gt;1. Upload the document.&lt;/h4&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;To uploading a document, submit a POST to:&lt;/p&gt;
+
+&lt;pre style=&#34;margin-left: 40px;&#34;&gt;http://www.postful.com/service/upload&lt;/pre&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;Be sure to include the Content-Type and Content-Length headers and the document itself as the body of the request.&lt;/p&gt;
+
+&lt;pre style=&#34;margin-left: 40px;&#34;&gt;&lt;code&gt;POST /upload HTTP/1.0&lt;br /&gt;Content-Type: application/octet-stream&lt;br /&gt;Content-Length: 301456&lt;br /&gt;&lt;br /&gt;... file content here ...&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;If the upload is successful, you will receive a response like the following:&lt;/p&gt;
+
+&lt;pre style=&#34;margin-left: 40px;&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;br /&gt;&amp;lt;upload&amp;gt;&lt;br /&gt; &amp;lt;id&amp;gt;290797321.waltershandy.2&amp;lt;/id&amp;gt;&lt;br /&gt;&amp;lt;/upload&amp;gt;&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;What is critical in this response is the &lt;strong&gt;id&lt;/strong&gt; assigned by the server to your document, in this example &lt;strong&gt;290797321.waltershandy.2&lt;/strong&gt;. You will use that id to reference the document in the next step.&lt;/p&gt;&lt;p&gt;I think it should work with&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;font-size: 12px; font-family: Courier;&#34;&gt;curl -v --user edward.vielmeti@gmail.com:t0ps3kr3t&amp;#0160; --data-binary &amp;quot;upload=@m-28-shield.png&amp;quot; http://postful.com/service/upload&lt;/span&gt;&lt;/p&gt;&lt;p&gt;but, it doesn&amp;#39;t.&amp;#0160; ideas?&amp;#0160; mac os if it matters, the &lt;/p&gt;&lt;p&gt;% curl --version&lt;br /&gt;curl 7.16.3 (powerpc-apple-darwin9.0) libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3&lt;br /&gt;Protocols: tftp ftp telnet dict ldap http file https ftps &lt;br /&gt;Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz&amp;#0160;&lt;/p&gt;&lt;p&gt;update: typo fixed&lt;/p&gt;&lt;p&gt;update2: working now!&amp;#0160; command line is&lt;/p&gt;&lt;p style=&#34;font-family: Courier;&#34;&gt;curl -k -v --user edward.vielmetti@gmail.com:s4x4s54&amp;#0160; --data-binary &amp;quot;@m-28-shield.png&amp;quot;&lt;a href=&#34;https://postful.com/service/upload&#34; target=&#34;_blank&#34;&gt; https://postful.com/service/&lt;wbr /&gt;upload&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;font-family: Helvetica;&#34;&gt;note three things: &amp;quot;-k&amp;quot; option; https, not http:; spell the user name right (duh).&lt;/p&gt;&lt;p style=&#34;font-family: Helvetica;&#34;&gt;next task: get the address side formatted right.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

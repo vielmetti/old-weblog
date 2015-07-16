@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>China Maps on tracker</title>
+    <link>http://localhost:1313/categories/china-maps/</link>
+    <description>Recent content in China Maps on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Oct 2013 16:32:54 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/china-maps/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Map of air pollution in China from aqicn.info</title>
+      <link>http://localhost:1313/post/2013/2013-10-23-map-of-air-pollution-in-china-from-aqicninfo/</link>
+      <pubDate>Wed, 23 Oct 2013 16:32:54 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-10-23-map-of-air-pollution-in-china-from-aqicninfo/</guid>
+      <description>&lt;p&gt;This &lt;a href=&#34;http://aqicn.org/map/china/&#34;&gt;real time air pollution in China map&lt;/a&gt; is from aqicn.info, which describes itself as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The aqicn.info team is a young and dynamic team located in Beijing, China, and composed of two professionals working for the product engineering and design industries
+  All the credits must go to the US Embassies in China for initially providing and publishing their PM.25 air quality measurement, as well as the China MEP for the huge effort in providing PM2.5 for so many cities&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In addition to national maps, they have detailed charts of current and recent air quality for a number of Chinese cities. In this chart, the purple readings are the least healthy air, and only a few cities in the northeast (including Beijing) have readings that are only moderatly unhealthy. Though not depicted here, there are also maps of &lt;a href=&#34;http://aqicn.org/map/&#34;&gt;all of Asia&lt;/a&gt; as well as individual country maps for Japan, Singapore, Vietnam, and other individual countries in more detail.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b004001a5970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b004001a5970c&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Air-pollution-china-real-time-map-23-oct-2013&#34; title=&#34;Air-pollution-china-real-time-map-23-oct-2013&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b004001a5970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b004079dd970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b004079dd970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-10-23 at 4.26.42 PM&#34; title=&#34;Screen shot 2013-10-23 at 4.26.42 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b004079dd970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

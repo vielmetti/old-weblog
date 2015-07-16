@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tracker</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2015 15:47:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>diligently editing and converting for production</title>
+      <link>http://localhost:1313/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</link>
+      <pubDate>Wed, 15 Jul 2015 15:47:24 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying my best to get this blog ready for production.
+The tasks remaining include the following.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Get a reasonable home page with pagination. Somehow I need
+to provide some kind of access to almost 2000 posts, and they
+don&amp;rsquo;t all fit on a single page. Sort through the design to make
+old things reachable, and then worry next about the formatter.
+(This is done at least minimally, though the provided paginator
+interface uses a list structure that&amp;rsquo;s not nice. Still, it gets
+me to what I need to in a ping.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Publish to Github Pages, using vielmetti.github.io. I did this
+once (using Octopress) so it should be straightforward to do it again.
+I already do have a proper github repo (or nearly proper, it may
+be missing some key bits).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Import all sorts more nonsense here, including a bunch of Superpatron
+and Blogger&amp;rsquo;s Secret and FOIA Coordiator weblogs. There&amp;rsquo;s no particular
+reason not to make it all one big soup. Import from Typepad is problematic
+but not impossible and that would be a good addition to the supported work;
+in particular it&amp;rsquo;s not evidently possible to export Markdown from Typepad,
+just HTML.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sort out theme issues so that I get a reasonable display for category
+and subcategory pages. I may have to write some things down by hand
+to get an understanding of what I really want.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deal with the date problems. Lots of dates got imported without a timezone,
+but that was not the real issue; the real issue was also that lots got
+imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>a great many things</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-a-great-many-things/</link>
+      <pubDate>Tue, 14 Jul 2015 22:26:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-a-great-many-things/</guid>
+      <description>&lt;p&gt;This weblog, which may or may not ever see the
+light of day, is about a great many things.&lt;/p&gt;
+
+&lt;p&gt;There are other blogs waiting to be written that
+don&amp;rsquo;t have that infinite vista; they could easily
+be much more narrow. What, then, do you write about?
+Let&amp;rsquo;s count some of the options.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docker on the Raspberry Pi, following Hypriot&amp;rsquo;s lead.&lt;/li&gt;
+&lt;li&gt;Just Docker in general, and Dockerizing various things.&lt;/li&gt;
+&lt;li&gt;Recipes, since I have a bunch already.&lt;/li&gt;
+&lt;li&gt;Power Outage Maps, in particular try to wrangle data from OpenEI here.&lt;/li&gt;
+&lt;li&gt;FOIA, espeically Michigan FOIA, to follow my book&lt;/li&gt;
+&lt;li&gt;Daily Coffee and Wifi, the usual random walk&lt;/li&gt;
+&lt;li&gt;Civic Technology, in whatever format that takes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More and more it&amp;rsquo;s the case that the old &amp;ldquo;Vacuum&amp;rdquo; weblog is
+feeling vacuous - not enough interaction with people, and not
+the right platform to go deep on anything. And &amp;ldquo;Typepad&amp;rdquo; feels
+really old, especially compared to everything else.&lt;/p&gt;
+
+&lt;p&gt;Fortunately if I&amp;rsquo;m writing in Markdown I can mostly drop anything
+I want anywhere it wants to go.&lt;/p&gt;
+
+&lt;p&gt;The other great weird idea of course is to mimic the old print
+notebook with all kinds of nifty sidebars, one sidebar per item.&lt;/p&gt;
+
+&lt;p&gt;What do I want to have happen as a result of all of this not
+inconsiderable effort? Creative control to be sure, to be able
+to type something and see it appear exactly as desired on the
+screen. Community engagement is another, to be part of a group
+of people all working toward a common goal.&lt;/p&gt;
+
+&lt;p&gt;Of course the other thing that I could do is take some old weblog,
+revisit it, and republish it in some other format. Blogger&amp;rsquo;s Secret
+is the reasonable one to do that to. It has virutally no traffic
+now, but if I re-serialized it, it might do the trick.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>the hugo cookbook</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-the-hugo-cookbook/</link>
+      <pubDate>Tue, 14 Jul 2015 20:55:47 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-the-hugo-cookbook/</guid>
+      <description>&lt;p&gt;Every technology for publishing eventually gets used to publish
+recipes. This collection of mine here is not an exception.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve marked up the recipes with the &amp;ldquo;recipe&amp;rdquo; category, and also
+created a &amp;ldquo;recipes&amp;rdquo; taxonomy with ingredients. It&amp;rsquo;s sort of like
+a subcategory but not really&amp;hellip;well it is as long as I am careful
+about it.&lt;/p&gt;
+
+&lt;p&gt;Previous attempts to do this include The Usenet Cookbook (from
+mod.recipes), alt.gourmand, and most favorite in my book the use
+of Gopher as a cookbook. It is said that an old Mac was portable
+enough to be set up in the kitchen to look up recipes.&lt;/p&gt;
+
+&lt;p&gt;What I want to do is set things up so that if the post is from the
+recipes category, then the recipes list will show up in the sidebar
+of that post, sorted alphabetically. I think I can make that work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sweet potato cauliflower soup recipe</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</link>
+      <pubDate>Tue, 14 Jul 2015 18:15:02 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</guid>
+      <description>&lt;p&gt;Some sweet potato cauliflower soup recipes:&lt;/p&gt;
+
+&lt;p&gt;Allyson Kramer likes hers with a bit of garam masala:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&#34;&gt;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our Three Peas wants carrots and celery and chicken stock:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&#34;&gt;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Food.com and &amp;ldquo;Kelly in TO&amp;rdquo; calls for curry and cinnamon:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&#34;&gt;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our meal plan pairs this with biscuits and kale, and it was delicious!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publishing from Hugo to Github Pages</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</link>
+      <pubDate>Tue, 14 Jul 2015 17:20:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</guid>
+      <description>&lt;p&gt;One of the challenges in getting things started is figuring
+out where the end product is going to live. Hugo has its own
+web server which is pretty nice, but since it generates static
+pages, the results can really go anywhere.&lt;/p&gt;
+
+&lt;p&gt;This tutorial goes through the process in excruciating detail&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;http://gohugo.io/tutorials/github-pages-blog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;but somehow fails to make it easy. What I&amp;rsquo;d like is a publishing
+workflow that just like the normal Hugo workflow puts things online
+instantly once they are built.&lt;/p&gt;
+
+&lt;p&gt;This one deploys with CodeShip&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&#34;&gt;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And this one deploys with Wercker&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/automated-deployments/&#34;&gt;http://gohugo.io/tutorials/automated-deployments/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yet one more, with Github hooks and S3/Cloudfront; it depends on s3cmd.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/imperialwicket/imperialwicket.com&#34;&gt;https://github.com/imperialwicket/imperialwicket.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, one that focuses on the github side of things:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/chrisjacob/825950&#34;&gt;https://gist.github.com/chrisjacob/825950&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mac and Goat</title>
+      <link>http://localhost:1313/post/Mac-and-Goat/</link>
+      <pubDate>Tue, 14 Jul 2015 20:51:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/Mac-and-Goat/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Mac and Goat&lt;/strong&gt; calls for goat cheese; we generally use a goat gouda or
+a goat cheddar, both of which are usually available at the local
+Trader Joe&amp;rsquo;s. Feel free to substitute any hard cheese that melts
+well in your recipe.&lt;/p&gt;
+
+&lt;p&gt;The dish also calls for rice pasta, but again feel free to substitute;
+you&amp;rsquo;re aiming for something like a rotini which handles the sauce well.&lt;/p&gt;
+
+&lt;p&gt;Preheat oven to 375 degrees. Take out a lasagna pan, which is
+what you&amp;rsquo;re going to assemble the dish in.&lt;/p&gt;
+
+&lt;h2 id=&#34;mac-and-goat:b7d41359d960c78f56dcc5a9d35b0ec6&#34;&gt;Mac and Goat&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 lb. pasta&lt;/li&gt;
+&lt;li&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; lb. goat gouda, goat cheddar, or a nice aged gouda or cheddar&lt;/li&gt;
+&lt;li&gt;1 large can crushed tomatoes&lt;/li&gt;
+&lt;li&gt;bread crumbs&lt;/li&gt;
+&lt;li&gt;ground nutmeg&lt;/li&gt;
+&lt;li&gt;romano cheese&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Boil water for pasta; cook a pound or so of your favorite pasta,
+we use a rice rotini pasta in this one.&lt;/p&gt;
+
+&lt;p&gt;Shred the cheese fine in a food processor or with a hand grater.&lt;/p&gt;
+
+&lt;p&gt;When the pasta is done, drain it, and then put about half of it
+in the lasagna pan. Cover with about half of the cheese and half of
+the tomatoes. Put the rest of the pasta in, then more tomatoes and
+more cheese. Top with breadcrumbs and then sprinkle a little romano
+cheese on top and a few pinches of nutmeg for flavor.&lt;/p&gt;
+
+&lt;p&gt;Cook 20-25 minutes, until the top is lightly browned and the
+tomato sauce is bubbling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>customizing a theme</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-customizing-a-theme/</link>
+      <pubDate>Tue, 14 Jul 2015 14:32:07 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-customizing-a-theme/</guid>
+      <description>&lt;p&gt;Themes can be customized by editing the top matter, or by
+directly changing the theme. The challenge is understanding
+enough of how the moving parts interconnect to make it do what
+you want it to do, or at least enough of them so that you don&amp;rsquo;t
+have a blog that just looks like a weak ripoff of someone else&amp;rsquo;s.&lt;/p&gt;
+
+&lt;p&gt;This tutorial&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/creating-a-minimal-working-template/135/13&#34;&gt;http://discuss.gohugo.io/t/creating-a-minimal-working-template/135/13&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;does a very nice job of helping you walk through the simple
+bits. It does not get far enough to give you a sense for how
+to get pagination working but that&amp;rsquo;s at least a start.&lt;/p&gt;
+
+&lt;p&gt;There should be a super easy way to iterate through all
+of the themes. I&amp;rsquo;m looking for one that already nicely has
+some way of doing categories or tags or some kind of metadata.
+It would be extra super swell to find one that has a sidebar
+and footer structure to so that I can (finally) recreate notebook
+pages. I think I have someone that goes OK as a start - it
+wants to insert dynamic content into the sidebar for the home page,
+and then also to insert content that depends on the categories
+or tags for individual pages, so that the whole thing feels more
+like a carefully constructed notebook and less like a simple blog.&lt;/p&gt;
+
+&lt;p&gt;At some point you can iterate endlessly on appearance and completely
+lose track of contents. Fortuantely I have a body of work that I really
+want to see in this, so that motivates some level of forward progress.
+For instance, I&amp;rsquo;d love to see categories actually work here, since I
+have some content that belongs together. I also have sidebar ideas
+that really want to be exercised again.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>converting typepad to hugo</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-converting-typepad-to-hugo/</link>
+      <pubDate>Tue, 14 Jul 2015 13:33:15 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-converting-typepad-to-hugo/</guid>
+      <description>&lt;p&gt;The task of the night was getting a few years worth of Typepad posts
+into Hugo.&lt;/p&gt;
+
+&lt;p&gt;My first step was to convert to Jekyll format, which I did using this
+typepad_to_jekyll Ruby gem:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/koozie/typepad_to_jekyll&#34;&gt;https://github.com/koozie/typepad_to_jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You then need to do a few things to get the Jekyll files exactly right
+for Hugo:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Change the date format&lt;/li&gt;
+&lt;li&gt;Rewrite the Categories&lt;/li&gt;
+&lt;li&gt;Download and relink all of the images&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Changing the format for &amp;ldquo;date&amp;rdquo; was a one-liner in perl with the -i (&amp;ldquo;edit in
+place&amp;rdquo;) flag.  I didn&amp;rsquo;t get to the category rewrite or the image rescue yet.
+The approach I took was to simply hack on the output files, rather than
+change the source code to the typepad_to_jekyll program, but if you were
+serious about it you&amp;rsquo;d do the latter and fork it until it did the right thing.&lt;/p&gt;
+
+&lt;p&gt;Relinking all of the images requires opening a support ticket because Typepad
+does not have an easy image export. Actually image hosting is a real
+challenge and I don&amp;rsquo;t know exactly the right way to do it inside Hugo.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll need to adjust the theme or pick a new theme so that it only shows
+the first n posts on a page and then paginates, and I also need to adjust
+it so that it shows categories. The show everything approach is unreasonable
+when you have 1000s of pages to show off. On the other hand, the most
+reasonable themes that I can find that look nice don&amp;rsquo;t have pagination
+turned on by default. There&amp;rsquo;s some learning curve to roll my own, maybe
+one that has some kind of reasonable sidebar structure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lunch with jonathan</title>
+      <link>http://localhost:1313/post/2015/2015-07-14-lunch-with-jonathan/</link>
+      <pubDate>Tue, 14 Jul 2015 13:30:58 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-14-lunch-with-jonathan/</guid>
+      <description>&lt;p&gt;Jonathan and I went to Paradise, a Vietnamese place in the
+Colonade that also serves Chinese food. He got Mongolian Beef,
+and I got pho deluxe. It was perfectly adequate if not spectacular.
+The topic of conversation was an elaborate storyline in a game
+that involved animatronics in a creepy Chuck E. Cheese type
+abandoned pizza parlor.&lt;/p&gt;
+
+&lt;p&gt;We then went to the Malletts Creek library, until about 4:00 p.m.
+I worked on Hugo and constructed a theme from scratch.
+At the end he got bored.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>wow that is fast</title>
+      <link>http://localhost:1313/post/wow-that-is-fast/</link>
+      <pubDate>Tue, 14 Jul 2015 03:25:43 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/wow-that-is-fast/</guid>
+      <description>&lt;p&gt;So 634 pages from my Github Gollum based Wiki markup all got imported
+into Hugo and it rendered all of them in 828 ms, or basically under
+a second to pull in everything I&amp;rsquo;ve ever written. Astonishingly fast.&lt;/p&gt;
+
+&lt;p&gt;Alas, those files while they are in Markdown are not really ready for
+direct import, since they have [[double brackets]] everywhere that
+get uglified. The other limiting factor is the date marker that&amp;rsquo;s not
+included with them so they all show up as January 1, 0001 which is
+funny the first few times and then not funny.&lt;/p&gt;
+
+&lt;p&gt;Doesn&amp;rsquo;t Hugo have an import function? It does, for converting front
+matter. The closest for importing other things are the various Jekyll
+converters which aren&amp;rsquo;t really the same.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Calendar of events</title>
+      <link>http://localhost:1313/sidebar/calendar/</link>
+      <pubDate>Tue, 14 Jul 2015 02:32:07 -0400</pubDate>
+      
+      <guid>http://localhost:1313/sidebar/calendar/</guid>
+      <description>
+
+&lt;h3 id=&#34;calendar-of-events:a631103cf606bbead447236a29c6889e&#34;&gt;Calendar of events&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wednesday July 15, 2015, 4:30 p.m. &amp;ldquo;Living Writers&amp;rdquo; show on WCBN&lt;/li&gt;
+&lt;li&gt;Thursday July 16, 2015, noon: a2b3 lunch, Ayse&amp;rsquo;s, Ann Arbor MI&lt;/li&gt;
+&lt;li&gt;Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</title>
+      <link>http://localhost:1313/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
+      <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
+      <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
+
+&lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for &lt;em&gt;why&lt;/em&gt; that&#39;s a relevant task is at this post on Hypriot, &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;How to use Docker Compose to run complex multi container apps on your Raspberry Pi&lt;/a&gt;, which I dutifully and successfully managed to run all of the examples from. &lt;/p&gt;
+
+&lt;p&gt;Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.&lt;/p&gt;
+
+&lt;pre&gt;
+nodered:
+  image: nieleyde/rpi2-nodered
+  command: flows.json
+  volumes:
+    - /home/pi/node-red:/root/.node-red
+  ports: 
+    - &#34;1880:1880&#34;
+  links:
+    - mosquitto
+
+mosquitto:
+  image: nieleyde/rpi-mosquitto
+  ports:
+    - &#34;1883:1883&#34;
+&lt;/pre&gt;
+
+&lt;p&gt;Some subtleties to note:&lt;/p&gt;
+
+&lt;p&gt;The nieleyde/rpi2-nodered runs on the Pi 2; there&#39;s a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven&#39;t yet tweaked this to run on x86, but if you do, you&#39;ll need to update the &#34;image&#34; stanzas everywhere.&lt;/p&gt;
+
+&lt;p&gt;The &#34;command&#34; and &#34;volumes&#34; stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you&#39;ll need to change this; I haven&#39;t gotten that far yet. It might also make sense to have a data volume container, but again I&#39;m not there yet.&lt;/p&gt;
+
+&lt;p&gt;The &#34;mosquitto&#34; configuration is extremely bare bones and runs the default config, which is wide open. I haven&#39;t gotten far enough to replace the config file with something better, but that&#39;s an obvious next step.&lt;/p&gt;
+
+&lt;p&gt;From within Node-RED you refer to this internal MQTT server at hostname &#34;mosquitto&#34;, port &#34;1883&#34;. If the links stanza was changed to &#34;mqtt&#34; and the mosquitto section was changed to &#34;mqtt&#34; you&#39;d then refer to the MQTT server at hostname &#34;mqtt&#34;.&lt;/p&gt;
+
+&lt;p&gt;For further reading:&lt;/p&gt;
+
+&lt;p&gt;An issue open on Niel Eyde&#39;s rpi-nodered Github, &lt;a href=&#34;https://github.com/nieleyde/rpi-nodered/issues/5&#34;&gt;documentation for how to extend this image with your own nodes and flows&lt;/a&gt;, where I&#39;m working some of this out.&lt;/p&gt;
+
+&lt;p&gt;On the Node-RED Github, &lt;a href=&#34;https://github.com/node-red/node-red/issues/603&#34;&gt;Support for Docker install for Node-RED&lt;/a&gt;, which is epic and helpful in many ways.&lt;/p&gt;
+
+&lt;p&gt;The essential &lt;a href=&#34;http://blog.hypriot.com/&#34;&gt;Hypriot weblog&lt;/a&gt;, specifically the aforementioned &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;Docker Compose examples&lt;/a&gt; and the &lt;a href=&#34;https://github.com/hypriot/compose&#34;&gt;Hypriot Docker Compose&lt;/a&gt; Github repository.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gooseberries at Ann Arbor Farmers Market</title>
+      <link>http://localhost:1313/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/</link>
+      <pubDate>Sat, 11 Jul 2015 18:52:46 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/</guid>
+      <description>&lt;p&gt;Wasem&#39;s brought gooseberries to today&#39;s Ann Arbor Farmers Market. There were two varieties, one with smaller berries and one with larger berries. Delicious just as is.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor City Council for July 6, 2015: online video stream goes dark</title>
+      <link>http://localhost:1313/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</link>
+      <pubDate>Mon, 06 Jul 2015 20:13:02 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</guid>
+      <description>&lt;p&gt;If you&#39;re trying to follow Ann Arbor City Council via the online feed, you&#39;ll be disappointed tonight as the feed is not working.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d133bbbf970c img-responsive&#34; style=&#34;width: 570px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-07-06 at 8.11.01 PM&#34; title=&#34;Screen Shot 2015-07-06 at 8.11.01 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-580wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The CTN live stream for channel 16 is currently down and being looked at. Sorry for the inconvenience. &lt;a href=&#34;https://twitter.com/hashtag/ctnannarbor?src=hash&#34;&gt;#ctnannarbor&lt;/a&gt;&lt;/p&gt;&amp;mdash; CTN Ann Arbor (@CTNAnnArbor) &lt;a href=&#34;https://twitter.com/CTNAnnArbor/status/618198005737488384&#34;&gt;July 6, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Verge turns off comments</title>
+      <link>http://localhost:1313/post/2015/2015-07-06-the-verge-turns-off-comments/</link>
+      <pubDate>Mon, 06 Jul 2015 15:20:16 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-06-the-verge-turns-off-comments/</guid>
+      <description>&lt;p&gt;Of course you never read the comments, but you might read the commentary on the comments. Here&#39;s The Verge&#39;s decision to turn off comments on its stories for the summer:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And sometimes it gets too intense. What we&#39;ve found lately is that the tone of our comments (and some of our commenters) is getting a little too aggressive and negative — a change that feels like it started with GamerGate and has steadily gotten worse ever since. It&#39;s hard for us to do our best work in that environment, and it&#39;s even harder for our staff to hang out with our audience and build the relationships that led to us having a great community in the first place.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;More in &lt;a href=&#34;http://www.theverge.com/2015/7/6/8901115/were-turning-comments-off-for-a-bit&#34;&gt;We&#39;re turning comments off for a bit: Get ready for a chill summer&lt;/a&gt; in The Verge, July 6 2015.&lt;/p&gt;
+
+&lt;p&gt;Previously: &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2015/06/never-read-the-comments.html&#34;&gt;Never read the comments&lt;/a&gt;, 2015; &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/03/marquette-minin.html&#34;&gt;Marquette Mining Journal removes reader comments from newspaper web site&lt;/a&gt;, 2008. Also: &lt;a href=&#34;http://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments&#34;&gt;WHY WE&#39;RE SHUTTING OFF OUR COMMENTS&lt;/a&gt;, Popular Science, 2013; &lt;a href=&#34;http://www.cbsnews.com/news/cbsnewscom-turns-off-comments-on-obama-stories/&#34;&gt;CBSNews.com Turns Off Comments on Obama Stories&lt;/a&gt;, 2007; &lt;a href=&#34;http://www.outsidethebeltway.com/washington_post_blog_shuts_off_comments/&#34;&gt;Washington Post Blog Shuts Off Comments&lt;/a&gt;, 2006.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

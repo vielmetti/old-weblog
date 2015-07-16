@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gopher on tracker</title>
+    <link>http://localhost:1313/categories/gopher/</link>
+    <description>Recent content in Gopher on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Oct 2014 13:43:16 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gopher/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>&#34;brew install lynx&#34;, and then Gopher lives on</title>
+      <link>http://localhost:1313/post/2014/2014-10-08-brew-install-lynx-and-then-gopher-lives-on/</link>
+      <pubDate>Wed, 08 Oct 2014 13:43:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-10-08-brew-install-lynx-and-then-gopher-lives-on/</guid>
+      <description>&lt;p&gt;Since we&#39;re reinventing the Olde Web with systems like tilde.club, here&#39;s a screen shot of the current state of Gopher.&lt;/p&gt;
+
+&lt;p&gt;&#34;brew install lynx&#34; gets a Lynx client on my Mac, and then you point lynx at gopher://gopher.floodgap.com and you&#39;re good to go.&lt;/p&gt;
+
+&lt;p&gt;&#34;ssh new@sdf.org&#34; and you can set yourself up a shell account with a gopher client installed and gopher server space available.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d079c1c2970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d079c1c2970c img-responsive&#34; style=&#34;width: 595px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-08 at 12.40.22 PM&#34; title=&#34;Screen Shot 2014-10-08 at 12.40.22 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d079c1c2970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>node-gopher, the White Mesa gopher server for node.js</title>
+      <link>http://localhost:1313/post/2014/2014-02-04-node-gopher-the-white-mesa-gopher-server-for-nodejs/</link>
+      <pubDate>Tue, 04 Feb 2014 23:55:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-02-04-node-gopher-the-white-mesa-gopher-server-for-nodejs/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://gopher.floodgap.com/gopher/gw?gopher://whitemesa.net:7070/1/node-gopher/&#34;&gt;node-gopher&lt;/a&gt; is a little Gopher protocol server written in node.js by Robert Cunnings, NW8L. It supports an RFC 1436 Gopher server (no Gopher+) and has CGI-like support for running scripts that return Gopher pages.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;http://www.floodgap.com/&#34;&gt;Cameron Kaiser&lt;/a&gt; for running the &lt;a href=&#34;http://www.floodgap.com/&#34;&gt;Floodgap&lt;/a&gt; gopher gateway that provides web access to venerable (and new) Gopherspace resources.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

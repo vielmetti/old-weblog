@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on tracker</title>
+    <link>http://localhost:1313/keyphrases/hugo/</link>
+    <description>Recent content in Hugo on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2015 15:47:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/keyphrases/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>diligently editing and converting for production</title>
+      <link>http://localhost:1313/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</link>
+      <pubDate>Wed, 15 Jul 2015 15:47:24 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying my best to get this blog ready for production.
+The tasks remaining include the following.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Get a reasonable home page with pagination. Somehow I need
+to provide some kind of access to almost 2000 posts, and they
+don&amp;rsquo;t all fit on a single page. Sort through the design to make
+old things reachable, and then worry next about the formatter.
+(This is done at least minimally, though the provided paginator
+interface uses a list structure that&amp;rsquo;s not nice. Still, it gets
+me to what I need to in a ping.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Publish to Github Pages, using vielmetti.github.io. I did this
+once (using Octopress) so it should be straightforward to do it again.
+I already do have a proper github repo (or nearly proper, it may
+be missing some key bits).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Import all sorts more nonsense here, including a bunch of Superpatron
+and Blogger&amp;rsquo;s Secret and FOIA Coordiator weblogs. There&amp;rsquo;s no particular
+reason not to make it all one big soup. Import from Typepad is problematic
+but not impossible and that would be a good addition to the supported work;
+in particular it&amp;rsquo;s not evidently possible to export Markdown from Typepad,
+just HTML.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sort out theme issues so that I get a reasonable display for category
+and subcategory pages. I may have to write some things down by hand
+to get an understanding of what I really want.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deal with the date problems. Lots of dates got imported without a timezone,
+but that was not the real issue; the real issue was also that lots got
+imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

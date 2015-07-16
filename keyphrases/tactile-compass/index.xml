@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tactile Compass on tracker</title>
+    <link>http://localhost:1313/keyphrases/tactile-compass/</link>
+    <description>Recent content in Tactile Compass on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Feb 2015 15:52:07 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/keyphrases/tactile-compass/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Designing a wearable magnetic sensor</title>
+      <link>http://localhost:1313/post/2015/2015-02-15-designing-a-wearable-magnetic-sensor/</link>
+      <pubDate>Sun, 15 Feb 2015 15:52:07 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-02-15-designing-a-wearable-magnetic-sensor/</guid>
+      <description>&lt;p&gt;I woke up this morning thinking about ways to improve my sense of direction. (Don&#39;t ask me why.) Here&#39;s some previous work on the internet that I had found for wearable devices that give you an always-on compass reading and some ideas for more.&lt;/p&gt;
+
+&lt;p&gt;First, some prior art. &lt;a href=&#34;http://www.instructables.com/id/How-to-Make-a-Tactile-Feedback-Compass-Belt/&#34;&gt;How to make a tactile compass feedback belt&lt;/a&gt; is a typical design, with about $150 in parts. In short you wire up an electronic compass to a series of tiny cell-phone style vibrator motors, and you position a dozen or so motors along a belt. When you&#39;re pointing in a certain direction, the belt vibrates in that spot, and you get a continuous sense of direction. &lt;a href=&#34;http://archive.wired.com/wired/archive/15.04/esp.html&#34;&gt;Wired Magazine wrote this up in 2007&lt;/a&gt;, and the invention of the &#34;feelSpace belt&#34; is credited to Osnabrück cognitive scientist Peter König. Here&#39;s a CBC interview with Peter König from 2014.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.cbc.ca/i/caffeine/syndicate/?clipId=2626883935&#34; width=&#34;620&#34; height=&#34;348&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look at the designs for these magnetic belts, you quickly discover that the electronics to detect direction are relatively straightforward, and that there are lots of wires and buzzers that you have to harness together. So the question I have is whether there&#39;s a better way to encode direction that doesn&#39;t require a dozen motors! You&#39;d think that you could use a code on a single vibrotactile device to &#34;tap out&#34; a direction, or use a pair of devices to encode &#34;northiness&#34; and &#34;eastiness&#34; to give the whole code with two points instead of a dozen. There would be a training time to learn this, and it might be less obvious than a single motor pointing north. The evident advantage of the two-motor approach over the twelve-motor approach is that the wearable device could be very small.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

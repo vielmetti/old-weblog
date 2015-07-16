@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on tracker</title>
+    <link>http://localhost:1313/categories/writing/</link>
+    <description>Recent content in Writing on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2015 15:47:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>diligently editing and converting for production</title>
+      <link>http://localhost:1313/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</link>
+      <pubDate>Wed, 15 Jul 2015 15:47:24 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying my best to get this blog ready for production.
+The tasks remaining include the following.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Get a reasonable home page with pagination. Somehow I need
+to provide some kind of access to almost 2000 posts, and they
+don&amp;rsquo;t all fit on a single page. Sort through the design to make
+old things reachable, and then worry next about the formatter.
+(This is done at least minimally, though the provided paginator
+interface uses a list structure that&amp;rsquo;s not nice. Still, it gets
+me to what I need to in a ping.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Publish to Github Pages, using vielmetti.github.io. I did this
+once (using Octopress) so it should be straightforward to do it again.
+I already do have a proper github repo (or nearly proper, it may
+be missing some key bits).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Import all sorts more nonsense here, including a bunch of Superpatron
+and Blogger&amp;rsquo;s Secret and FOIA Coordiator weblogs. There&amp;rsquo;s no particular
+reason not to make it all one big soup. Import from Typepad is problematic
+but not impossible and that would be a good addition to the supported work;
+in particular it&amp;rsquo;s not evidently possible to export Markdown from Typepad,
+just HTML.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sort out theme issues so that I get a reasonable display for category
+and subcategory pages. I may have to write some things down by hand
+to get an understanding of what I really want.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deal with the date problems. Lots of dates got imported without a timezone,
+but that was not the real issue; the real issue was also that lots got
+imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Where do you write something that&#39;s longer than a tweet, but shorter than an essay?</title>
+      <link>http://localhost:1313/post/2014/2014-11-01-where-do-you-write-something-thats-longer-than-a-tweet-but-shorter-than-an-essay/</link>
+      <pubDate>Sat, 01 Nov 2014 22:54:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-11-01-where-do-you-write-something-thats-longer-than-a-tweet-but-shorter-than-an-essay/</guid>
+      <description>&lt;p&gt;Where do you write something that&#39;s longer than a tweet, but shorter than an essay?&lt;/p&gt;
+
+&lt;p&gt;There&#39;s a space on the net for things that you put together that don&#39;t fit into a tweet, but that also don&#39;t really require a whole long essay.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve been writing these in my blog for years, and so I have a bit of infrastructure put together for organizing, collecting, and finding them again. A lot of people who are on Twitter don&#39;t have a blog, though, and so their fragments stay fragmentary or get lost in the mists of Twitter time.&lt;/p&gt;
+
+&lt;p&gt;There are plenty of places to post disconnected paragraphs online - you can stick them on Facebook (where they will be quickly seen and quickly lost), you can dump them into a Github gist (where only techies will be able to find them again), or - best of all - you can use your own web space in some blog-like time-sequenced away to push things into the world for later retrieval.&lt;/p&gt;
+
+&lt;p&gt;Some other people talking about this at the moment:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gina Trapani: &lt;a href=&#34;http://scribbling.net/2014/10/16/short-form-blogging/&#34;&gt;I find tweets too reductionist and Medium pieces too bloviating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Marco Arment: &lt;a href=&#34;http://www.marco.org/2014/11/01/short-form-blogging&#34;&gt;Too much of my writing in the last few years has gone exclusively into Twitter. I need to find a better balance.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Andy Baio: &lt;a href=&#34;http://waxy.org/2014/10/middling/&#34;&gt;I miss seeing people I admire post stuff longer than a tweet.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It was noted by several people that Tumblr fits this pattern well; alas, I don&#39;t Tumbl very well.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Do you still write 750 words a day?</title>
+      <link>http://localhost:1313/post/2014/2014-10-01-do-you-still-write-750-words-a-day/</link>
+      <pubDate>Wed, 01 Oct 2014 21:04:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-10-01-do-you-still-write-750-words-a-day/</guid>
+      <description>&lt;p&gt;I&amp;#39;m sure that I write way more than that in aggregate, but I&amp;#39;ve not been keeping up with what was once a habit I attempted: to write a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/750wordscom-a-writing-environment-for-a-daily-writing-exercise.html&#34; target=&#34;_self&#34;&gt;750 word essay&lt;/a&gt; every day.&lt;/p&gt;
+&lt;p&gt;I know that it&amp;#39;s possible to sit down with a single cup of coffee and a single idea and no distractions and crank out 500 words at a sitting. It helps if the coffee doesn&amp;#39;t spill, and if your todo list is in check, and if you have a full sized keyboard and not a tiny phone. The morning ritual of daily coffee and wifi usually produces something publishable, though often it&amp;#39;s much shorter. You might only clip and save and share a single tweet&amp;#39;s worth of someone else&amp;#39;s work and call that a success to capture the idea of the moment.&lt;/p&gt;
+&lt;p&gt;I don&amp;#39;t sit down and write all the time, though. There&amp;#39;s meetings to go to, code to struggle with, people to see, places to go, dinner to cook, and the endless slog of Internet to wade through. When I do have a chance to write to produce things, it&amp;#39;s often 50 words there, 10 words here, a click of a button there. It&amp;#39;s not always long, extended efforts.&lt;/p&gt;
+&lt;p&gt;The long, extended efforts are fun, don&amp;#39;t get me wrong, and they really focus the mind and help me think about topics for much longer than I would otherwise. The ideal writing environment gets all of the distractions out of the way and shuts out the beep-beep-beep of interrupts that otherwise drive my efforts. Getting away from interrupts turns out to be really hard work, and obtaining an uninterrupted stretch that allows such a focus is a rare treat.&lt;/p&gt;
+&lt;p&gt;What would you focus on if you had 750 words of uninterrupted focus every day? It should be enough to dig deep into a topic, not just to hit the surface but to wallow around in it, trying out lots of options.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m cutting this self-reflective essay off at about 300 words, because there are 450 words that I&amp;#39;d rather apply to something else.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>write every day</title>
+      <link>http://localhost:1313/post/2014/2014-09-26-write-every-day/</link>
+      <pubDate>Fri, 26 Sep 2014 09:38:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-26-write-every-day/</guid>
+      <description>&lt;p&gt;How do you produce so much writing? It is simple. All you have to do is sit down every single day and write.&lt;/p&gt;
+
+&lt;p&gt;There is nothing like a daily deadline to focus the mind.&lt;/p&gt;
+
+&lt;p&gt;Weblogs do not impose an external deadline. No editor is asking you when your work is going to be ready, and no producer is going to feed you copy. It is just you up against the elements, bravely typing away alone and hoping that your focus is not distracted by systems problems.&lt;/p&gt;
+
+&lt;p&gt;Writing all the time is a habit. Some parts of the writing week are easy, when it is just you talking to the page and getting fully formed thoughts out as fast as the keyboard or screen will let you. Other days it&#39;s a struggle just to come up with anything that anyone would possibly want to read again.&lt;/p&gt;
+
+&lt;p&gt;The weblog is a mature writing format. The tools are not evolving, and new startups are not appearing with whizzy new high concept takes on the form. The fancy new school tools are for essayists (Medium) or for micro bloggers (Ello). I am happy to see incremental improvements at Typepad to make responsive designs easier to put together, but that is a refinement and not an evolutionary change.&lt;/p&gt;
+
+&lt;p&gt;Due to an unfortunate incident with a cup of coffee, my medium of choice at the moment is a mobile phone browser. The small screen gives me about a paragraph of text as context for my writing, and the input box on Typepad&#39;s dashboard is just competent enough to make this no harder than it should be.&lt;/p&gt;
+
+&lt;p&gt;I think about other things I wish I did every day, knowing full well that there are only so many daily habits you can sustain. Facebook wants to catch you every day on the birthday treadmill, your dentist wants you to floss your teeth, the pedometer wants to be logged, the dishes washed, the cats fed u.s.w. My morning wants a cup of coffee, and the daily coffee and WiFi lends itself to blogging. &lt;/p&gt;
+
+&lt;p&gt;I aspire to being a daily blogger, but I am not one. It is good to have goals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>the limits of the small screen</title>
+      <link>http://localhost:1313/post/2014/2014-09-23-the-limits-of-the-small-screen-1/</link>
+      <pubDate>Tue, 23 Sep 2014 06:42:05 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-23-the-limits-of-the-small-screen-1/</guid>
+      <description>&lt;p&gt;I am operating with the limitation that I do not currently have a full sized keyboard and screen. The laptop accidentally ingested a cup of coffee. It is getting dried out and the bad bits reclaimed now, and in the meantime I am doing all my computing on either library computers or my Nexus 4 phone.&lt;/p&gt;
+
+&lt;p&gt;It is often awkward to compose messages and to write on such a small screen, but the screen size is not really the problem. What is much harder is the single finger worth of on screen keyboard that I have to get used to. I type really fast with all ten fingers and the small swipe keyboard on the phone is just slower and more error prone and more cumbersome. This affects my thinking too as I do not have a way to write as fast as I think.&lt;/p&gt;
+
+&lt;p&gt;The mobile web is surprisingly functional. Responsive design means that many web sites are readable on a small screen, and the plethora of app designs generally work pretty well. The mobile web however is better for very short messages (LOL BRB) and for consuming info and for executing simple commands. It is not designed for the essayist.&lt;/p&gt;
+
+&lt;p&gt;I have looked at a bunch of writing environments, and surprisingly this input window in the Typepad mobile app is one of the better off them. If there is a &#34;word processor&#34; for Android I have not found it yet. Instead I am ending up writing with only Markdown as a formatting language, and I am not using even that. Plain text all the way in a simple browser edit input window.&lt;/p&gt;
+
+&lt;p&gt;Writing in the small is possible, but it is not fun. I am looking forward to getting a full sized keyboard again.&lt;/p&gt;
+
+&lt;p&gt;(Note to self, the cup of coffee should always be to the far right of the keyboard, not on the near left.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Long form writing, as first published to Twitter</title>
+      <link>http://localhost:1313/post/2014/2014-02-06-long-form-writing-as-first-published-to-twitter/</link>
+      <pubDate>Thu, 06 Feb 2014 01:17:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-02-06-long-form-writing-as-first-published-to-twitter/</guid>
+      <description>&lt;p&gt;I&#39;d like to do some long form writing, except that I&#39;d publish it on Twitter. I&#39;ll write essays as I&#39;d normally write them, making sure that sentences are 140 characters or less. The goal would be to encapsulate an entire argument in pithy sentences and make each one stand on its own. I have no doubt that it would be possible to write quite a few words this way, though you might lose some followers in the bargain.&lt;/p&gt;
+
+&lt;p&gt;The change of pace is that you&#39;re not trying to write your whole idea into any given 140 character fragment. You&#39;re looking to spin out a story that holds together over dozens of tweets, without being too distracted by the net you&#39;re writing within. Writing with a net watching can be distracting, but it can also be enlivening; somehow you must make use of the diversions. Some side conversations will give you ideas that you can later reclaim and recast as your own, when the time is right.&lt;/p&gt;
+
+&lt;p&gt;Twitter is a new medium within which to compose original writing, as every sentence you write there has its own URL and feedback loop. By publishing every sentence individually, you can write and then see feedback one line a time - a thought both inspiring and terrifying.&lt;/p&gt;
+
+&lt;p&gt;Oscar Wilde, &lt;a href=&#34;https://www.marxists.org/reference/archive/wilde-oscar/soul-man/&#34;&gt;The Soul of Man under Socialism&lt;/a&gt;, 1891. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The fact is, that the public have an insatiable curiosity to know everything, except what is worth knowing. Journalism, conscious of this, and having tradesman-like habits, supplies their demands.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&#39;ve been drafting first versions in vim so that I have a record of the whole context of what I&#39;m writing outside of Twitter. Drafting in vim gives me a chance to write a whole paragraph and then push it to Twitter as separate sentences, once it makes sense. I always edit again within Twitter, where every character is counted for you forcing you to make tough decisions about what not to say. The short format of Twitter leads to better writing, since you must omit needless words to make a complex idea fit into its allotment. &lt;/p&gt;
+
+&lt;p&gt;My writing is slower when I feel the compulsion to construct an argument that still makes sense when divided into pieces. It&#39;s easier to write quickly when you don&#39;t have to think about the reaction to every word and phrase. The feedback has prompted a handful of offline drafts before committing to publishing - even &#34;just&#34; to publishing to Twitter. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The slow drip of progress</title>
+      <link>http://localhost:1313/post/2014/2014-01-20-the-slow-drip-of-progress/</link>
+      <pubDate>Mon, 20 Jan 2014 15:28:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-01-20-the-slow-drip-of-progress/</guid>
+      <description>&lt;p&gt;Every once in a while, I come up with a really good idea. More often than not, I don&#39;t.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m content to work on systems that accommodate the work that leads to a steady sense of slow progress. The weblog piles one post upon another; every so often, the middle of the pile is most interesting, and you dust it off and bring it out again as if it were new. The wiki appreciates it when you fix a very small typo, change an &#34;an&#34; to an &#34;a&#34;, tidy up a caption or resize a photo.&lt;/p&gt;
+
+&lt;p&gt;Progress is more often than not measured very slowly, if at all. Just try not to go backwards. &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>small wins and writing productivity</title>
+      <link>http://localhost:1313/post/2013/2013-12-08-small-wins-and-writing-productivity/</link>
+      <pubDate>Sun, 08 Dec 2013 15:47:07 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-12-08-small-wins-and-writing-productivity/</guid>
+      <description>&lt;p&gt;I&#39;m intrigued of late by the notion of &#34;small wins&#34;. This is prompted by reading Wayne Baker&#39;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&#39;re really getting somewhere, even if on the grand scale it doesn&#39;t register yet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A small win is a concrete, complete outcome of moderate importance. By itself, one small win may seem unimportant. A series of small wins at small but significant tasks, however, reveals a pattern that may attract allies, deter opponents, and lower resistance to subsequent proposals. A series of small wins is also more structurally sound than a large win because small wins are stable building blocks. Small wins are controllable opportunities that produce visible results. Once a small win has been accomplished, forces are set in motion that favor another small win. When a solution is put into place, the next solvable problem often becomes more visible. Additional resources flow toward winners, which means that slightly larger wins can be attempted.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thus, rather than think about how hard it would be to produce a book of 80,000 words all in one sitting, it gets a lot easier to think how easy it would be to produce 400 words per day (on a topic of your choice naturally) for 200 days over the course of a year. I can bat out 100 words without thinking about it to answer an email message a dozen times a day. So capturing 80,000 words is simply a matter of doing that in some sensible order and not getting sidetracked by the need for everything to make 100% sense at the very beginning.&lt;/p&gt;
+
+&lt;p&gt;(originally published Monday, August 07, 2000)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing to remember, writing to forget</title>
+      <link>http://localhost:1313/post/2013/2013-06-10-writing-to-remember-writing-to-forget/</link>
+      <pubDate>Mon, 10 Jun 2013 17:14:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-06-10-writing-to-remember-writing-to-forget/</guid>
+      <description>&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01910333faa8970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Hotel-California&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01910333faa8970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01910333faa8970c-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Hotel-California&#34; /&gt;&lt;/a&gt;This weblog is an unpolished open notebook. It&amp;#39;s primarily full of two things: things I want to remember, and things I want to forget. Let me explain.
+&lt;/p&gt;
+&lt;p&gt;A weblog is an augmented memory for those fleeting moments of life where you really wish you had some record of, and where you know that if you don&amp;#39;t write it down now it&amp;#39;ll be gone forever. It&amp;#39;s the capture place for that initial review of a piece of software you might or might not grow fond of, the record of what was talked about at a particularly interesting lunch meeting, or the color of a late spring sky (grey, with low clouds; good strawberry picking weather if the rain holds off, but not good for ripening the strawberries). When you go back to reread what&amp;#39;s been written down, some part of the memories come back. If you&amp;#39;re lucky and captured some particularly salient point, the entire memory - the entire conversation - can return and you&amp;#39;ll be transported back to another time and place.&lt;/p&gt;
+&lt;p&gt;A weblog is also a place for the things that you figure out through dogged attention to some terribly inconvenient detail of something that&amp;#39;s not working. When you figure it out, you want to write it up so that you can repeat the process if it ever happens to you again. You&amp;#39;d really rather never have to go through the ordeal again but just in case someone else happens on it you&amp;#39;ll have that capsule of hard-won knowlege written down. You&amp;#39;ll write it down so that you can forget it except when you need to refer to it again, when you&amp;#39;ll relearn it as from new based on your old notes.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ll cheat from time to time, going through old posts and updating them with new information or with recollections that match the time. Every so often I&amp;#39;ll unpublish a piece that sounds like it doesn&amp;#39;t want to be something that I want to remember and that isn&amp;#39;t forgotten yet, or that has such atrocious grammar that I don&amp;#39;t want to be remembered by it. My drafts folder has over 200 such articles, ones that neither qualified for remembering or for forgetting, but that I can&amp;#39;t easily bring myself to completely deleting.&lt;/p&gt;
+&lt;p&gt;Some blog to remember, some blog to forget (apologies to the Eagles).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing release notes for a new version of my Michigan FOIA book, using Leanpub</title>
+      <link>http://localhost:1313/post/2013/2013-04-09-writing-release-notes-for-a-new-version-of-my-michigan-foia-book-using-leanpub/</link>
+      <pubDate>Tue, 09 Apr 2013 11:50:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-04-09-writing-release-notes-for-a-new-version-of-my-michigan-foia-book-using-leanpub/</guid>
+      <description>&lt;p&gt;&lt;p&gt;The book is my&amp;#0160;&lt;a href=&#34;https://leanpub.com/michigan-foia&#34; target=&#34;_self&#34;&gt;No-Nonsense Guide to the Michigan Freedom of Information Act (FOIA)&lt;/a&gt;, which I&amp;#39;m publishing (early) and updating (as its written) &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/03/writing-and-publishing-early-with-leanpub.html&#34; target=&#34;_self&#34;&gt;using Leanpub&lt;/a&gt;. Here&amp;#39;s what I sent out to subscribers - all four of them! - this morning.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m happy to have a chance to keep working on this, since even the smallest amount of money from new sales covers the direct costs &amp;#0160;of coffee to do the writing.&lt;/p&gt;
+&lt;p&gt;Release Notes
+&lt;/p&gt;
+&lt;blockquote&gt;April 9, 2013.&lt;br /&gt;&lt;br /&gt;This release updates the first 7 chapters of the book plus the introduction. Most of the changes are to fill in gaps, small reorganizations of the text, and line edits; there&amp;#39;s not a ton of new original materials. Chapters 8 through to the end are unchanged.&lt;br /&gt;&lt;br /&gt;One of the things that&amp;#39;s new in the Michigan FOIA world is that Muckrock (Appendix A) now supports FOIA requests to a number of Ann Arbor cities. My first trial with this worked a little bit well, and I&amp;#39;m going to keep trying to improve how that system works so that I get the best writeup of it.&lt;br /&gt;&lt;br /&gt;A document trove from a recent FOIA request is a log of all FOIA requests to the City of Ann Arbor over the span of two months. Look for a future set of edits to expand the &amp;quot;sample requests&amp;quot; considerably based on that collection, since I&amp;#39;m still digesting them.&lt;br /&gt;&lt;br /&gt;If anyone has tried the &amp;quot;send to Kindle&amp;quot; feature, let me know how it went.&lt;br /&gt;&lt;br /&gt;As always, if you have any questions, contact me at&amp;#0160;&lt;a href=&#34;mailto:edward.vielmetti@gmail.com&#34; target=&#34;_blank&#34;&gt;edward.vielmetti@gmail.com&lt;/a&gt;&amp;#0160;or&amp;#0160;&lt;a href=&#34;tel:%2B1%20734%20330%202465&#34; target=&#34;_blank&#34;&gt;+1 734 330 2465&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;thanks&lt;br /&gt;&lt;br /&gt;Ed&lt;/blockquote&gt;
+&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;
+&lt;div class=&#34;zemanta-article-ul zemanta-article-ul-image&#34; style=&#34;margin: 0; padding: 0; overflow: hidden;&#34;&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/03/writing-and-publishing-early-with-leanpub.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/151484348_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/03/writing-and-publishing-early-with-leanpub.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Writing - and publishing, early - with LeanPub&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/foia/2013/02/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/146564671_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/foia/2013/02/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;The No-Nonsense Guide to the Michigan Freedom of Information Act&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/02/ann-arbor-municipal-irritant.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_6_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/02/ann-arbor-municipal-irritant.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;City of Ann Arbor turns down request for meeting minutes, again&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/02/how-to-search-the-michigan-legislature-for-pending-legislation.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/143074773_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/02/how-to-search-the-michigan-legislature-for-pending-legislation.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;How to search the Michigan legislature for pending legislation&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/11/a-new-freedom-of-information-blog-starting.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_21_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/11/a-new-freedom-of-information-blog-starting.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;a new freedom of information blog starting&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://www.informationweek.com/government/policy/the-freedom-from-information-act/240152471?cid=RSSfeed_IWK_News&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/158608334_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.informationweek.com/government/policy/the-freedom-from-information-act/240152471?cid=RSSfeed_IWK_News&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;The Freedom From Information Act&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>note to self on the writing for the day</title>
+      <link>http://localhost:1313/post/2013/2013-03-22-note-to-self-on-the-writing-for-the-day/</link>
+      <pubDate>Fri, 22 Mar 2013 22:58:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-03-22-note-to-self-on-the-writing-for-the-day/</guid>
+      <description>&lt;p&gt;One cup of coffee generated about 1400 words. Of those, I needed about 1000. It took three hours to write the 1400 words, and two hours more to remove 400 of them. I hope I removed the right ones.&lt;/p&gt;
+&lt;p&gt;It only took forty five words to summarize the day.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>750words.com - a writing environment for a daily writing exercise</title>
+      <link>http://localhost:1313/post/2012/2012-12-28-750wordscom-a-writing-environment-for-a-daily-writing-exercise/</link>
+      <pubDate>Fri, 28 Dec 2012 02:02:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-12-28-750wordscom-a-writing-environment-for-a-daily-writing-exercise/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://750words.com&#34;&gt;This system has you writing 750 words each day.
+&lt;/a&gt;
+&lt;p&gt;
+I&amp;#39;ve already written 750 words today, &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/750-words-on-blogging-memory-and-forgetting-ive-been-blogging-for-a-long-time-and-writing-online-for-longer-than-that-27.html&#34; target=&#34;_self&#34;&gt;a long essay on blogging, forgetting, and remembrance&lt;/a&gt;. It was pretty good, and I was pretty happy with it. At one point it was 830 words but I cut it down to size, removing a paragraph and tightening up a few phrases.
+&lt;/p&gt;
+&lt;p&gt;
+The goal of the 750 words site is to get you into a habit of writing that many words each and every day. It&amp;#39;s not necessary to publish them, but simply to get them down onto the screen. The technique is similar to the &amp;quot;&lt;a href=&#34;http://juliacameronlive.com/basic-tools/morning-pages/&#34; target=&#34;_self&#34;&gt;morning pages&lt;/a&gt;&amp;quot; of The Artist&amp;#39;s Way, but instead of pen and paper you type. By typing for long enough you get over the initial hurdle of getting anything down and instead start to get into a groove of reflection, introspection, creativity and insight. Or so that&amp;#39;s the thought.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not certain that I can keep up with this over the long haul, but it&amp;#39;s an appealing construct to have a simple-minded goal that&amp;#39;s more productive than the alternative of playing solitaire, Flood It, or Sudoku. A Sudoku game eats up 20 minutes, which should be enough time to crank out most of a 750 word essay.
+&lt;/p&gt;
+&lt;p&gt;
+Hitting a precise word count improves my prose. I write something that&amp;#39;s too long, and then use some extra time to omit needless words until the total is the correct size. &amp;quot;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/01/fill_the_input_.html&#34; target=&#34;_self&#34;&gt;Fill the input box exactly&lt;/a&gt;&amp;quot; is the mantra, and it serves two masters. First, it allows you to write quickly knowing full well that there will be words to cut when you&amp;#39;re done. Second, it keeps the editorial role in abeyance until the whole piece has been worked to the end. It&amp;#39;s better to cut words only when there are too many of them.
+&lt;/p&gt;
+&lt;p&gt;
+The 750 Words writing environment is spare. There&amp;#39;s no formatting, no linking, no permalinks to worry about and no readers. It&amp;#39;s just you on the page, typing away madly with the word count goal at the bottom right hand corner. Writer&amp;#39;s block is the only barrier, and since there&amp;#39;s no expectation of publication it doesn&amp;#39;t even have to come out precisely right. Just keep typing until you are done with filling up the box.
+&lt;/p&gt;
+&lt;p&gt;
+I started to try to write an index to Vacuum as an exercise in organization, and what I found was that the tools I have for rereading the that text are too weak. What I really want to do is &lt;a href=&#34;http://help.typepad.com/back_up.html&#34; target=&#34;_self&#34;&gt;download the whole stinking mess&lt;/a&gt; and put it into some kind of file system that I can grep through. What words did I use, and when? Have I usefully repeated myself? Is there some clever phrase that gets used too much? All of that is easy enough to construct with the right text analysis environment, but very hard with just Google&amp;#39;s searching tools at my disposal.
+&lt;/p&gt;
+&lt;p&gt;
+Organizing a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2006/12/word_hoard.html&#34; target=&#34;_self&#34;&gt;word hoard&lt;/a&gt;, especially an exceptionally varied one, is very hard work. I have a shelf full of paper notebooks dating back to the 1990s with words in them that perhaps deserve to be unearthed and reanimated for the net, but it&amp;#39;s so hard to know without a very laborious process of reading through them one page at a time, puzzling out the inscriptions and deciding which would have been better forgotten. I know there&amp;#39;s interesting work there mixed in with the sketches and the odd lists of people to call.&lt;/p&gt;
+&lt;p&gt;Twenty words to go.&lt;/p&gt;
+&lt;p&gt;
+In conclusion, &lt;a href=&#34;http://750words.com&#34; target=&#34;_self&#34;&gt;750 words&lt;/a&gt; is a system which encourages you to write 750 words of disposable throwaway prose every day. If it turns out that you can reuse some of it, so much the better! I think this essay might have about 400 useful words in it, and I&amp;#39;ll try to pull them out for Vacuum.&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;I ended up throwing away two whole paragraphs from the original edit of this essay, so the word count is only about 650. The time to edit the whole thing was almost as long as the time to write it.&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;
+&lt;div class=&#34;zemanta-article-ul zemanta-article-ul-image&#34; style=&#34;margin: 0; padding: 0; overflow: hidden;&#34;&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://householdopera.typepad.com/household_opera/2010/06/in-praise-of-750-words.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_32_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://householdopera.typepad.com/household_opera/2010/06/in-praise-of-750-words.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;In praise of 750 Words&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/02/this-mini-essay-is-exactly-140-words.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_44_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/02/this-mini-essay-is-exactly-140-words.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;This mini essay is exactly 140 words.&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://theartistrycollective.wordpress.com/2012/12/03/so-you-want-to-write-a-short-story-part-2-taking-action/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/129729861_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://theartistrycollective.wordpress.com/2012/12/03/so-you-want-to-write-a-short-story-part-2-taking-action/&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;So You Want to Write a Short Story (Part 2: Taking Action)&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://melindamcguirewrites.wordpress.com/2012/11/08/writers-block-moved-in/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/124337064_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://melindamcguirewrites.wordpress.com/2012/11/08/writers-block-moved-in/&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Writer&amp;#39;s Block Moved In&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://onewildword.com/2012/11/12/6814/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/125143589_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://onewildword.com/2012/11/12/6814/&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;25 tools to keep you in your writing groove&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blogging, memory and forgetting</title>
+      <link>http://localhost:1313/post/2012/2012-12-28-750-words-on-blogging-memory-and-forgetting-ive-been-blogging-for-a-long-time-and-writing-online-for-longer-than-that-27/</link>
+      <pubDate>Fri, 28 Dec 2012 00:19:44 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-12-28-750-words-on-blogging-memory-and-forgetting-ive-been-blogging-for-a-long-time-and-writing-online-for-longer-than-that-27/</guid>
+      <description>&lt;p&gt;&lt;p&gt;750 words on blogging, memory and forgetting&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve been blogging for a long time, and writing online for longer than that - 27 years of typing. In the process, a lot of it has been saved, and a lot of it has been discarded. I&amp;#39;m luckier than most to have a complete set of my writing since 2003 all in Typepad. Heaven help anyone who wrote seriously on Prodigy or Compuserve or Facebook and tried to save any of it permanently.&lt;/p&gt;
+&lt;p&gt;With over 2,000 posts in this Typepad installation I started to try to do an index. My writing here was ranged from recipes for semolina pudding to weather maps of Australia to accounts of a peanut processing plant in Texas. No single index is going to make any sense for all of that.&lt;/p&gt;
+&lt;p&gt;Even though I&amp;#39;ve read a lot, and written a lot, I&amp;#39;ve most likely forgetten most of what I&amp;#39;ve ever written down. The temporary focus on a temporary enthusiasm carries through for a while and then gets discarded, saved but not readily at hand. After years of cumulative writing, what&amp;#39;s there is not a single coherent whole ready to be sculpted into a neat linear narrative, but instead the sometimes interesting and sometimes fragmentary open notebook of a life lived near the keyboard.&lt;/p&gt;
+&lt;p&gt;Does writing help the memory? Certainly by writing things down you can cause them to be pinned down into a single tangible format that can be referred to later, and if you refer back to them often enough the transient interest becomes something concrete. There&amp;#39;s a lot to be said for putting words down on paper so that they can be edited and refined so that there&amp;#39;s something very particular that they say.&lt;/p&gt;
+&lt;p&gt;What is our memory these days? With the ubiquity of the Google and its all-seeing maw fed with the writings of our time, the strategy to memorize something may simply be to write it down in a place where it can be Googled and then search to refer back to it when it&amp;#39;s needed.&amp;#0160;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Indeed, Google’s maw is infinite and it will undoubtedly attempt someday to put every book ever written in every language into its digital coffers. - &lt;a href=&#34;http://warrenadler.blogspot.com/2009/10/google-to-rescue.html&#34; target=&#34;_self&#34;&gt;Warren Adler&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Feeding Google is hardly a part-time task, and I feel a need to feed Twitter which is equally hungry to capture the short form version of contemporary accounts of our existence. Twitter is threatening to disgorge for our own personal use the collected record of our Twitter stream - every sandwich you ever ate, every time you complained about squeaky brakes on the bus, every poorly edited grumpy text mashed into the input box - and somehow certainly that will enter our personal memory space as well.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Forgetting is as important as remembering&amp;quot; - &lt;a href=&#34;http://www-personal.umich.edu/~emv/project/vacuum/vacuum-0.html&#34; target=&#34;_self&#34;&gt;Brian Eno&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This process of accumulating digital reminders of what we once experienced is occasionally punctuated by digital loss. There&amp;#39;s the sudden catastrophic loss of the online system that dies with your words left stranded on it, or the hard drive that craters before all of the backups are done. There&amp;#39;s also the slow loss of unfindability where the words or pictures still are somewhere, but you&amp;#39;ve forgotten the magic incantation that will bring them onto the screen. I&amp;#39;ve stranded some text of my own creation, hidden in the grand archives of the University, inaccessible to me or to anyone else because they are student records and thus off limits because of FERPA. No matter, I have remembered a few of them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;Pop tarts and auto parts. - Michael Joyce&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Every once in a long time, the words that you wrote long ago resurface. I wrote to Tim Berners-Lee in 1991 asking about home page design, and our correspondence was recently &lt;a href=&#34;http://www.theatlantic.com/technology/archive/2012/12/home-page-design-advice-from-october-1991-3-months-after-the-webs-public-debut/266380/&#34; target=&#34;_self&#34;&gt;quoted in The Atlantic online.&lt;/a&gt;&amp;#0160;Aside from proving that I was there way back when, it reminded me that finding things online is an ongoing struggle, and that our puny screens and keyboards routinely fail us when looking for the answer to a complicated problem or to give us access to what we know is not very far away. The particular question was on home page design, and I know little more about it now than I did 20 years ago.&lt;/p&gt;
+&lt;p&gt;By writing I remember, and I throw a few more words into the big soup that try to draw on from time to time to recall what I am and what I know. I&amp;#39;ve forgetten more than I&amp;#39;ve ever remembered, and it&amp;#39;s good to go rummaging through the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2006/12/word_hoard.html&#34; target=&#34;_self&#34;&gt;word hoard&lt;/a&gt; to see what can be unearthed.&lt;/p&gt;
+&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;
+&lt;div class=&#34;zemanta-article-ul zemanta-article-ul-image&#34; style=&#34;margin: 0; padding: 0; overflow: hidden;&#34;&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://ialja.blogspot.com/2012/11/why-i-write-at-least-750-words-day.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/127819715_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://ialja.blogspot.com/2012/11/why-i-write-at-least-750-words-day.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Why I write at least 750 words a day&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://www.lawsitesblog.com/2012/12/book-review-blogging-in-one-hour-for-lawyers.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/134326871_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.lawsitesblog.com/2012/12/book-review-blogging-in-one-hour-for-lawyers.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Book Review: &amp;#39;Blogging in One Hour for Lawyers&amp;#39;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/05/im-not-producing-content-im-writing.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/86770454_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/05/im-not-producing-content-im-writing.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;I&amp;#39;m not &amp;quot;producing content&amp;quot;, I&amp;#39;m writing&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://thelamppostblogs.wordpress.com/2012/09/22/750-words/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/122067810_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://thelamppostblogs.wordpress.com/2012/09/22/750-words/&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;750 Words&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/12/my-draft-folder-is-overflowing.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_56_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/12/my-draft-folder-is-overflowing.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;My draft folder is overflowing&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing as a way to introduce yourself</title>
+      <link>http://localhost:1313/post/2012/2012-05-22-writing-as-a-way-to-introduce-yourself/</link>
+      <pubDate>Tue, 22 May 2012 11:03:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-05-22-writing-as-a-way-to-introduce-yourself/</guid>
+      <description>&lt;p&gt;I&amp;#39;m in the midst of a job hunt, and so I expect that people I talk to who don&amp;#39;t know me very well will take a look at this weblog as part of the things they look for when trying to assess who I am or to help prepare them to make small talk as a part of discussion. This is a good and useful reason to write in a weblog, to make yourself easy to strike up a conversation with.&lt;/p&gt;
+&lt;p&gt;As blogs go, Vacuum is relatively old school in that it deals with everything and nothing - you&amp;#39;ll find dozens of categories, ranging from strawberry picking to &lt;a class=&#34;zem_slink&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2012/05/power-outage-mapping.html&#34; rel=&#34;autointext&#34; target=&#34;_blank&#34; title=&#34;Power Outage Mapping&#34;&gt;power outages&lt;/a&gt; to seasonal holidays to technical discussions in a variety of fields. If it looks like a somewhat eclectic notebook, that&amp;#39;s because it is. At various times when the need has arisen I&amp;#39;ve pulled out separate weblogs to corral related information together. Superpatron, for innovation in library systems, was the one that really took off to have a life of its own for a while. When I wrote for AnnArbor.com, a weekly column on &lt;a class=&#34;zem_slink&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2011/03/foia-jobs-looking-for-all-of-your-ideas-on-foiachat.html&#34; rel=&#34;autointext&#34; target=&#34;_blank&#34; title=&#34;FOIA jobs: looking for all of your ideas on #FOIAchat&#34;&gt;FOIA&lt;/a&gt; had enough cohesion to look like a body of work and not just a collection of ephemeral interests.&lt;/p&gt;
+&lt;p&gt;When you create a resume crafted for a particular job, you emphasize the particular skills and abilities you have and by keeping it brief you remove a whole set of other things. When you blog voraciously over a decade, you collect a whole lot of things that look temporarily interesting but sometimes - perhaps more than sometimes - just turn out to be interesting of the moment.&lt;/p&gt;
+&lt;p&gt;So, hi. You&amp;#39;re reading this. There&amp;#39;s a lot here, if you search. If you ask about anything, there&amp;#39;s probably more to be said. I assume that you&amp;#39;ll understand if there&amp;#39;s some things here that look unfinished, because that&amp;#39;s by design.&amp;#0160;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m not &#34;producing content&#34;, I&#39;m writing</title>
+      <link>http://localhost:1313/post/2012/2012-05-01-im-not-producing-content-im-writing/</link>
+      <pubDate>Tue, 01 May 2012 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-05-01-im-not-producing-content-im-writing/</guid>
+      <description>&lt;p&gt;For this blog, at least, I want to make it very clear: I&#39;m not &#34;producing content&#34;, I&#39;m writing. This may be in order to call out attention to the work of a friend or a client, it may be to scratch some particular itch for words that need to be said, and it may be because someone else&#39;s interests dovetail with mine. Generally I try to quote enough of what other people say to be fair to them, and to tell a part of a story that you can find only by chasing through the network looking to connect ideas together at their edges.&lt;/p&gt;
+&lt;p&gt;One of the peculiar characteristics of writing for yourself and not just creating copy is that you end up finding things from your past that you still own enough to re-edit and rework as needed. A recent discussion on Twitter about paw paws helped me unearth &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/09/papaws-the-mich.html&#34; target=&#34;_self&#34;&gt;a 2008 collection of scrapbook entries about the fruit, its names, and how it tastes.&lt;/a&gt;&amp;nbsp;If I had produced this content for an employer (or an ex-employer), it would be long since frozen and old; but because it&#39;s just my writing, I can go back and make it better four years later.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been happy with Typepad for a long time. Recently, some of the management changes at the organization that runs it have led to some changes in the marketing around the service, so that the relatively few old-school bloggers like me still on the system seem less and less to be the target audience, in favor of professional media people who have a certain number of words of content that they are obligated to produce before they move to the next task. I guess I can only be hopeful that the sorts of tools that are needed to crank out content on the job can also be used for old fashioned blogging where the deadlines are less definite and the goals more ambiguous.&lt;/p&gt;
+&lt;p&gt;- 30 -&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.metagrrrl.com/metagrrrl/2012/04/rt-vielmetti-typepad-im-not-producing-content-im-writing.html&#34; target=&#34;_self&#34;&gt;Thanks to Dinah Sanders (@metagrrrl) for the Typepad commentary&lt;/a&gt;. The paw paw discussion came and went on Twitter, as twitter things tend to do, without leaving too much of an obvious trace; &lt;a href=&#34;https://twitter.com/#!/MickiMaynard/status/196658685341220864&#34; target=&#34;_self&#34;&gt;Micki Maynard&lt;/a&gt; and Dave Askins were at the center of it. I tried to avoid bringing in any mention of &#34;discontent&#34;, and failed.&lt;/p&gt;
+&lt;p&gt;Disclaimer: nothing to disclaim at this time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

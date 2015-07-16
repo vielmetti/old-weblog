@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food And Drink on tracker</title>
+    <link>http://localhost:1313/categories/food-and-drink/</link>
+    <description>Recent content in Food And Drink on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2015 00:25:49 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/food-and-drink/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gin and rhubarb</title>
+      <link>http://localhost:1313/post/2015/2015-06-02-gin-and-rhubarb/</link>
+      <pubDate>Tue, 02 Jun 2015 00:25:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-02-gin-and-rhubarb/</guid>
+      <description>&lt;p&gt;As noted elsewhere, gin and rhubarb are said to go well together.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://boozedandinfused.com/2012/05/30/a-tale-of-two-rhubarbs-and-some-gin/&#34;&gt;Boozed and Infused&lt;/a&gt; has two recipes, one for Rhubarb Gin and one for Rhubarb Orange Gin.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&#34;http://theyearinfood.com/2011/05/the-tippler-rhubarb-fennel-fizz.html&#34;&gt;Rhubarb Fennel Fizz&lt;/a&gt; is from The Year in Food.&lt;/p&gt;
+
+&lt;p&gt;I am promised that if I provide the rhubarb, that gin will be provided to me.&lt;/p&gt;
+
+&lt;p&gt;Can&#39;t talk about rhubarb without Rhabarberbarbara.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gG62zay3kck?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

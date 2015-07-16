@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networks on tracker</title>
+    <link>http://localhost:1313/categories/networks/</link>
+    <description>Recent content in Networks on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2015 02:00:09 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Running DD-WRT as a switch on a Linksys WRT54GL</title>
+      <link>http://localhost:1313/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</link>
+      <pubDate>Sun, 28 Jun 2015 02:00:09 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</guid>
+      <description>&lt;p&gt;I don&#39;t really need more wifi access points in the house, but I do need more wired ethernet ports. Thanks to ellemef&#39;s box o&#39;goodies I have a WRT54GL to play with, and I put DD-WRT on it set up in a configuration to run as a switch plugged into my existing ATT UVerse router. &lt;/p&gt;
+
+&lt;p&gt;I got the &lt;a href=&#34;http://www.dd-wrt.com/wiki/index.php/Linksys_WRT54GL&#34;&gt;DD-WRT firmware loaded&lt;/a&gt; by following the provided directions. Then I followed the instructions at &lt;a href=&#34;http://www.dd-wrt.com/wiki/index.php/Switch&#34;&gt;You are here: DD-WRT wiki mainpage / Linking Routers / Switch&lt;/a&gt; for configuration. A quick reboot and some recabling and a couple of Raspberry Pis now have their own ethernet ports.&lt;/p&gt;
+
+&lt;p&gt;The WRT54GL has a tiny amount of memory by modern standards - 4 megabytes of flash, and only 16 megabytes of system memory - but that&#39;s fine for the software of its era.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>27 January 2014 AT&amp;T UVerse DNS server problems</title>
+      <link>http://localhost:1313/post/2014/2014-01-27-27-january-2014-att-uverse-dns-server-problems/</link>
+      <pubDate>Mon, 27 Jan 2014 10:44:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-01-27-27-january-2014-att-uverse-dns-server-problems/</guid>
+      <description>&lt;p&gt;On the morning of 27 January 2014, AT&amp;amp;T UVerse services appear to be suffering from DNS problems. A graph from &lt;a href=&#34;http://downdetector.com/status/att&#34;&gt;Down Detector&lt;/a&gt; suggests that the problem is widespread. The observation is that some sites will load but others won&#39;t (like Hulu, New Yorker, Reddit.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5115a9dd6970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a5115a9dd6970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Down-detector-att-2014-01-27-10.36.57-AM&#34; title=&#34;Down-detector-att-2014-01-27-10.36.57-AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5115a9dd6970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the suggestions given was to switch your DNS from the AT&amp;amp;T provided service to a third party, such as Google (8.8.8.8). On my Mac, go to System Preferences &gt; Network &gt; Advanced ... &gt; DNS and change the DNS server address.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The last telegram in India</title>
+      <link>http://localhost:1313/post/2013/2013-06-20-the-last-telegram-in-india/</link>
+      <pubDate>Thu, 20 Jun 2013 00:59:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013/2013-06-20-the-last-telegram-in-india/</guid>
+      <description>&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab55bf79970d-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;201082_india-telegraph-maury-catalogue-one&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192ab55bf79970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab55bf79970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;201082_india-telegraph-maury-catalogue-one&#34; /&gt;&lt;/a&gt;The telegraphy system in India is coming to an end in July 2013, &lt;a href=&#34;http://www.csmonitor.com/World/Asia-South-Central/2013/0614/India-to-end-state-run-telegram-service.-Stop&#34; target=&#34;_self&#34;&gt;reports&lt;/a&gt; The Christian Science Monitor:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;At the&amp;#0160;&lt;a href=&#34;http://www.csmonitor.com/tags/topic/Bharat+Sanchar+Nigam+Ltd.&#34; target=&#34;_self&#34;&gt;Bharat Sanchar Nigam Limited&lt;/a&gt;&amp;#0160;(BSNL),&amp;#0160;&lt;a href=&#34;http://www.csmonitor.com/tags/topic/India&#34; target=&#34;_self&#34;&gt;India&lt;/a&gt;&amp;#39;s state-owned telecom company, a message emerges from a dot matrix printer addressing a soldier&amp;#39;s Army unit in&amp;#0160;&lt;a href=&#34;http://www.csmonitor.com/tags/topic/Delhi&#34; target=&#34;_self&#34;&gt;Delhi&lt;/a&gt;.&amp;#0160;&amp;quot;GRANDMOTHER SERIOUS. 15 DAYS LEAVE EXTENSION,&amp;quot; it reads. It&amp;#39;s one of about 5,000 such missives still being sent every day by telegram – a format favored for its &amp;quot;sense of urgency and authenticity,&amp;quot; explains a BSNL official.&lt;/p&gt;
+&lt;p&gt;But the days of such communication are numbered: BSNL will send its last telegram message somewhere in India on July 14.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The history of the telegraph in India goes back to Dr William Brooke O&amp;#39;Shaughnessy, an Irish physician who linked Calcutta and Diamond Harbour via cable in 1853.&lt;/p&gt;
+&lt;p&gt;More reading: &lt;a href=&#34;http://articles.economictimes.indiatimes.com/2013-06-15/news/39993158_1_telegraph-morse-code-telegrams&#34;&gt;Economic Times&lt;/a&gt; on 160 years of Indian telegraph history; &lt;a href=&#34;http://www.dnaindia.com/mumbai/1848696/report-historic-telegram-signs-off&#34;&gt;DNA India&lt;/a&gt; on modern alternatives to the telegram.&lt;/p&gt;
+&lt;p&gt;In my reading queue: &amp;quot;Connecting the Nineteenth-Century World&amp;quot;, a ferociously expensive book on the 19th century telegram; and Richard Menke&amp;#39;s &amp;quot;Telegraphic Realism: Victorian Fiction and Other Information Systems&amp;quot; making its way home via Melcat.&lt;/p&gt;
+&lt;p&gt;Postage stamp images from the&amp;#0160;Arthur Maury Album and Catalogue of Postage Stamps and Telegraph Stamps, 1894, Paris, &lt;a href=&#34;http://www.stampcommunity.org/topic.asp?TOPIC_ID=8998&#34; target=&#34;_self&#34;&gt;via&lt;/a&gt; StampCommunity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>distributed systems, and systems failure in general</title>
+      <link>http://localhost:1313/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</link>
+      <pubDate>Wed, 30 May 2012 22:27:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</guid>
+      <description>&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;&amp;quot;A distributed system is one in which the failure of a computer you didn&amp;#39;t even know existed can render your own computer unusable.&amp;quot; &lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34; target=&#34;_self&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;; though the same observation would be true for cloud computing today.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://plus.google.com/u/1/114388360171023330683/posts/ZAgC1CB95kX&#34; target=&#34;_self&#34;&gt;Noted recently on this Google Plus thread&lt;/a&gt;; I don&amp;#39;t think I&amp;#39;ll quote the whole thing, but by referencing it here I&amp;#39;ll find it again at least for a while.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>web two point naught: watching the shutdown of free web 2.0 services</title>
+      <link>http://localhost:1313/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</link>
+      <pubDate>Tue, 02 Dec 2008 10:11:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</guid>
+      <description>&lt;p&gt;In recent days a number of modestly successful online social and productivity services have been scheduled for decommisioning.  Pownce is being turned off as that team moves to Six Apart, and I Want Sandy is going away as Rael moves to Twitter. You will see more systems get acquired and shut down with graceful exits, and some exits will not be so graceful.&lt;/p&gt;
+
+&lt;p&gt;There seem to be multiple common reasons why upstart systems get wiped out in times of economic crisis.  If your traffic is not growing and you aren&#39;t attracting legions of superstar users, it starts to look expensive to bet against a bigger rival.  Even if you do manage to pull off steady growth in usage the test may be scaling up your infrastructure to keep pace with demand.&lt;/p&gt;
+
+&lt;p&gt;If the dot com crash is any predictor of future consolidation, look for the survival of systems that address some specific real need of some narrow niche and that don&#39;t have to grow to planetary size to be profitable.  Display advertising rates continue to fall, making it more and more attractive for people to run house ads instead selling merchandise or services directly to whatever audience they can sustain.  If what you are using does more than just scratch some coder&#39;s itch you have a better chance.&lt;/p&gt;
+
+&lt;p&gt;Web 2.0 is over.  Back up your important data now, or decide which parts of it you are willing to discard.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Brent Hill, Google / Feedburner speaking in Ann Arbor, Dec 4 2007</title>
+      <link>http://localhost:1313/post/2007/2007-12-04-brent-hill-goog/</link>
+      <pubDate>Tue, 04 Dec 2007 09:50:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2007/2007-12-04-brent-hill-goog/</guid>
+      <description>&lt;p&gt;
+A talk tonight, 12/4:
+&lt;/p&gt;&lt;blockquote&gt;
+Ann Arbor SPARK Hi-Tech Tuesday: Google&#39;s Brent Hill Offers Everything You Want to Know About Blogs &amp;#38; RSS
+&lt;br /&gt;
+&lt;br /&gt;What:            Google&#39;s Brent Hill presents &#34;Everything You Want to Know About Blogs &amp;#38; RSS&#34;
+&lt;br /&gt;
+&lt;br /&gt;When &amp;#38; Where:    Tuesday, December 4, 2007, 5-7 p.m. at Google, McKinley Towne Center, 5th Floor, 201 S. Division, Ann Arbor
+&lt;br /&gt;
+&lt;br /&gt;Purpose:              As content syndication on the web proliferates, audiences are becoming increasingly fragmented.  How do marketers leverage RSS feeds to deliver targeted marketing messages?  And how do publishers measure and monetize their audience?
+&lt;br /&gt;
+&lt;br /&gt;Presenter:                Brent Hill is a team manager in the Global Media Solutions division at Google. Previously vice president of Advertising Services at FeedBurner, the market-leading feed management provider that was acquired by Google in 2007, Brent has worked in a variety of interactive marketing, e-commerce, and consumer services businesses.  He frequently speaks at industry events on the topic of advertising in syndicated content, and his insights have been published in Advertising Age, Adotas, and DMNews.  Brent received a Bachelor of Science in Finance from Bradley University, and an MBA from the University of Chicago.
+&lt;br /&gt;
+&lt;br /&gt;&lt;a href=&#34;http://annarboritzone.org/eventlist.asp?EventID=1250&#34;&gt;Information:    Registration is free. &lt;/a&gt;
+&lt;/blockquote&gt;&lt;p&gt;
+More infos: &lt;a href=&#34;http://www.feedburner.com/fb/a/about/people/hill&#34;&gt;Brent Hill bio&lt;/a&gt;, June 2007 interview reported by &lt;a href=&#34;http://publications.mediapost.com/index.cfm?fuseaction=Articles.san&amp;amp;s=62040&amp;amp;Nid=31176&amp;amp;p=356272&#34;&gt;Online Media Daily&lt;/a&gt;, 2006 interview at &lt;a href=&#34;http://internetmarketingvoodoo.com/2006/07/imv24-rss-advertising.html&#34;&gt;Internet Marketing Voodoo&lt;/a&gt;.
+&lt;/p&gt;
+&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/feedburner&#34; rel=&#34;tag&#34;&gt;feedburner&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/google&#34; rel=&#34;tag&#34;&gt;google&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/goog&#34; rel=&#34;tag&#34;&gt;goog&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/blog&#34; rel=&#34;tag&#34;&gt;blog&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/rss&#34; rel=&#34;tag&#34;&gt;rss&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/feed&#34; rel=&#34;tag&#34;&gt;feed&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>NSFNET reunion, a perspective</title>
+      <link>http://localhost:1313/post/2007/2007-12-03-nsfnet-reunion/</link>
+      <pubDate>Mon, 03 Dec 2007 22:34:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2007/2007-12-03-nsfnet-reunion/</guid>
+      <description>&lt;p&gt;
+I was at the NSFNET 20th reunion last week.  Here&#39;s some notes after the fact.
+&lt;/p&gt;&lt;p&gt;
+I took good notes on URLs mentioned on delicious - look at &lt;a href=&#34;http://del.icio.us/vielmetti/nsfnet&#34;&gt;http://del.icio.us/vielmetti/nsfnet&lt;/a&gt; to get the running commentary as I was trying to do it.
+&lt;/p&gt;&lt;p&gt;
+History is written by the winners, and thus the NSFNET history was written by the winners - the winners of the 1987 contract to manage it (Merit, MCI and IBM), and those who personally or corporately won out when the backbone was transformed from a research and educational network into a commercial one.  The tone was primarily uncritical, self-congratulatory, and celebratory.
+&lt;/p&gt;&lt;p&gt;
+History is also written by those who collect and carefully store their papers, and there were several retired academics and network builders who were looking for long term institutional homes for the collections of maps, documents, email, standards and correspondence that they accumulated over the years.  Those looking to produce a history would do well to look at collections like the &lt;a href=&#34;http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;cc=bhlead;q1=nsfnet;rgn=main;view=text;didno=umich-bhl-05138&#34;&gt;Merit Network Inc. Records 1966-2002&lt;/a&gt; at the Bentley Historical Library, which has not only all of the official publications from the time but also some amazing depth (60 linear feet) of printed correspondence, proposals that did not win, and other parts of the history some forgotten and some simply unspoken.
+&lt;/p&gt;&lt;p&gt;
+For a broader context of a part of this time, the &lt;a href=&#34;http://www.dotcomarchive.org/&#34;&gt;Dot Com Archive&lt;/a&gt; at Maryland has an (as of yet sealed) collection of dot com era business plans from a failed law firm - again telling the story from the accumulation of documents, and not the selective memory of a few.
+&lt;/p&gt;&lt;p&gt;
+Thanks to everyone I saw there (cja, mayabe, dsobeloff, glee, srh) and especially to those who were young enough in 1987 to disagree with the networking orthodoxy of the time (because we had nothing to lose and everything to win).
+&lt;/p&gt;
+&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/nsfnet&#34; rel=&#34;tag&#34;&gt;nsfnet&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/1987&#34; rel=&#34;tag&#34;&gt;1987&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/party-like-its-198x&#34; rel=&#34;tag&#34;&gt;party-like-its-198x&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/nethistory&#34; rel=&#34;tag&#34;&gt;nethistory&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/merit&#34; rel=&#34;tag&#34;&gt;merit&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/archives&#34; rel=&#34;tag&#34;&gt;archives&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/ans&#34; rel=&#34;tag&#34;&gt;ans&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/mci&#34; rel=&#34;tag&#34;&gt;mci&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/ibm&#34; rel=&#34;tag&#34;&gt;ibm&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Dave Mills on Routing in the Internet Swamp</title>
+      <link>http://localhost:1313/post/2007/2007-11-29-dave-mills-on-r/</link>
+      <pubDate>Thu, 29 Nov 2007 11:14:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2007/2007-11-29-dave-mills-on-r/</guid>
+      <description>&lt;p&gt;
+I&#39;m in DC for the NSFNET reunion - here&#39;s a deck from 1999 that Dave Mills put together on the view of routing in the Internet in the 1980s.
+&lt;/p&gt;&lt;div&gt;
+&lt;object style=&#34;margin:0px&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=millssession4slides-1196350269631203-5&#34;/&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;/&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;always&#34;/&gt;&lt;embed src=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=millssession4slides-1196350269631203-5&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/span&gt;&lt;a href=&#34;http://www.slideshare.net/?src=embed&#34;&gt;&lt;img src=&#34;http://static.slideshare.net/swf/logo_embd.png&#34; style=&#34;border:0px none;margin-bottom:-5px&#34; alt=&#34;SlideShare&#34;/&gt;&lt;/a&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt; | &lt;/span&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/edwardvielmetti/millssession4slides&#34; title=&#34;View &#39;Mills.Session4.Slides&#39; on SlideShare&#34;&gt;View&lt;/a&gt;&lt;/span&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt; | &lt;/span&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/upload&#34;&gt;Upload your own&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/routing&#34; rel=&#34;tag&#34;&gt;routing&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/fuzzball&#34; rel=&#34;tag&#34;&gt;fuzzball&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/nethistory&#34; rel=&#34;tag&#34;&gt;nethistory&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/elginpelican&#34; rel=&#34;tag&#34;&gt;elginpelican&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Mark Lombardi, Global Networks</title>
+      <link>http://localhost:1313/post/2003/2003-05-18-mark-lombardi-global-networks/</link>
+      <pubDate>Sun, 18 May 2003 12:25:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2003/2003-05-18-mark-lombardi-global-networks/</guid>
+      <description>&lt;p&gt;Mark Lombardi&amp;rsquo;s amazing &lt;em&gt;hand-drawn&lt;/em&gt; network maps of influence and
+corruption will be exhibited around North America over the next
+year. Curator Robert Hobbs has gathered 25 works for the traveling
+retrospective &amp;ndash; Global Networks. Coming to Ann Arbor in September
+and October of 2003. The page has exhibition dates and examples in
+miniature.&lt;/p&gt;
+
+&lt;p&gt;(thanks Valdis)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.pierogi2000.com/artists/mark-lombardi/&#34;&gt;http://www.pierogi2000.com/artists/mark-lombardi/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

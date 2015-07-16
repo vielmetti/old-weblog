@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeroen Janssens on tracker</title>
+    <link>http://localhost:1313/people/jeroen-janssens/</link>
+    <description>Recent content in Jeroen Janssens on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Feb 2015 16:19:10 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/people/jeroen-janssens/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>R, me hearties</title>
+      <link>http://localhost:1313/post/2015/2015-02-28-r-me-hearties/</link>
+      <pubDate>Sat, 28 Feb 2015 16:19:10 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-02-28-r-me-hearties/</guid>
+      <description>&lt;p&gt;I&#39;ve been fond of maps and graphs for a long time, but haven&#39;t had a good set 
+of tools to play with that easily generate decent versions of same from various
+data sets I&#39;ve found or accumulated.&lt;/p&gt;
+
+&lt;p&gt;The small hope is that a little bit of hacking on the right tools will fix this.&lt;/p&gt;
+
+&lt;p&gt;One of the tools of choice is R, a language for statistics and data analysis. It&#39;s tremendously powerful and a bit complicated, but I&#39;m not trying to learn the whole thing; rather, I&#39;m after just the barest minimum so that I can competently generate a scatterplot of data and place it onto a map.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m working through the examples on Zev Ross&#39;s &lt;a href=&#34;http://zevross.com/blog/2014/07/16/mapping-in-r-using-the-ggplot2-package/&#34;&gt;Mapping in R using the ggplot2 package&lt;/a&gt;, which looks like about the right level of detail to start from. The other useful and helpful information that I&#39;m bootstrapping from is Jeroen Janssens &lt;a href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the Command Line&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The first production of this is just a scatterplot; it&#39;s based on Ann Arbor Downtown Development Authority parking data.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Learning R. Plotting the biggest dataset I have handy (parking data). See the garage fills up, empty out again &lt;a href=&#34;http://t.co/GBnrpXGKWU&#34;&gt;pic.twitter.com/GBnrpXGKWU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/571424329499615232&#34;&gt;February 27, 2015&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

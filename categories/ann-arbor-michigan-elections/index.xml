@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ann Arbor Michigan Elections on tracker</title>
+    <link>http://localhost:1313/categories/ann-arbor-michigan-elections/</link>
+    <description>Recent content in Ann Arbor Michigan Elections on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 May 2008 21:47:47 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ann-arbor-michigan-elections/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ann Arbor May 6 2008 election results and AutoMARK voting issues</title>
+      <link>http://localhost:1313/post/2008/2008-05-06-ann-arbor-may-6/</link>
+      <pubDate>Tue, 06 May 2008 21:47:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-05-06-ann-arbor-may-6/</guid>
+      <description>&lt;p&gt;I&#39;ll link to election results when they go online here.  &lt;a href=&#34;http://www.ewashtenaw.org/government/clerk_register/elections/election_results&#34;&gt;The Washtenaw County site has the official results.&lt;/a&gt;  The &lt;A href=&#34;http://blog.mlive.com/annarbornews/2008/05/ann_arbor_millage_renewals_lea.html&#34;&gt;Ann Arbor News&lt;/a&gt; has coverage on the blog, but, true to form, they don&#39;t link to the official results site in their coverage.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://electionresults.ewashtenaw.org/may2008/cumulativereport.html&#34;&gt;Early returns&lt;/a&gt; (63% counted at 9:30pm) have both Ann Arbor millage proposals passing 3-1, and incumbent school board member Helen Gates-Bryant leading 2-1.  Voter turnout looks like it&#39;s going to be less than 10% county wide. &lt;/p&gt;
+
+&lt;p&gt;This is the second election that I&#39;ve tried to vote using the AutoMARK machines used to provide assistive technology for those with low vision.  The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/01/michigan-primar.html&#34;&gt;first time I tried this back in January I failed to make it work&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+The technological snafu was voting as though I was a vision-impaired voter and trying to use the AutoMARK machines provided for that purpose.... The machine marks ballots with audio prompting; it has awful industrial design, a very clumsy ballot shield, the poll workers had not run a real ballot through it all day (just a sample ballot), and when it spat back my ballot a half dozen times they directed me to the hand marked ballot booth rather than spoiling the ballot and starting with a new piece of paper.
+&lt;/blockquote&gt;
+
+&lt;p&gt;I got to the polling place a little bit earlier this time and tried it again.  It misbehaved the same way, but this time there was time to figure it out, so the poll workers called in their expert who drove over to help figure it out.  The solution ended up to be very simple: the detachable stub on the ballot must be detached before putting the ballot into the machine, despite the very clear instructions on that stub not to detach it, and with no visible instructions to detach it anywhere on the AutoMARK machine.&lt;/p&gt;
+
+&lt;p&gt;I was able to find with some digging a &lt;a href=&#34;http://www.michigan.gov/documents/sos/ElectionDayGuide_174575_7.pdf&#34;&gt;AutoMARK Troubleshooting Guide&lt;/a&gt;, which mentions two possible solutions: either remove the stub before putting the ballot into the machine, or program the machine to recognize the stub.  I don&#39;t know whether this stub length programming is possible with the ballots we are using.&lt;/p&gt;
+
+&lt;blockquote&gt;If the ballot has a stub, 
+the stub length may not 
+have been entered into the 
+election setup information.&lt;/blockquote&gt;
+
+&lt;p&gt;Note that the system did work with the sample ballot tested by the poll workers - but the sample ballot did not have a stub at the top!  &lt;/p&gt;
+
+&lt;p&gt;Note for next time: vote early (and vote often), and tear the stub off before inserting the ballot into the AutoMARK machine, despite all of the instructions to the contrary.&lt;/p&gt;
+
+&lt;p&gt;UPDATE:&lt;/p&gt;
+
+&lt;p&gt;More AutoMARK issues, as I find them around the net:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.adaweb.net/departments/ClerkAuditorRecorder/Response3.asp&#34;&gt;Ada County, ID&lt;/a&gt;:  &#34; About 90% of the precincts encountered problems testing the machines because the stub was still attached. This is clearly our fault. The ballots we trained with did not have stubs on them. We never thought about the significance of that and obviously the manufacturer did not consider that either&#34;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.co.contra-costa.ca.us/depart/sc/grandjury/0405/0504r1.pdf&#34;&gt;Contra Costa County, CA&lt;/a&gt;: &#34;During the March Election, the Grand Jury observed the following:  a. The perforation on the ballot stub, which the voter received, did not always tear cleanly, complicating insertion of the ballot into the scanner. &#34;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

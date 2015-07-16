@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transit on tracker</title>
+    <link>http://localhost:1313/maps/transit/</link>
+    <description>Recent content in Transit on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Mar 2008 15:23:16 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/maps/transit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Detroit suburban SMART bus transit routing in Google Transit</title>
+      <link>http://localhost:1313/post/2008/2008-03-26-detroit-suburba/</link>
+      <pubDate>Wed, 26 Mar 2008 15:23:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-03-26-detroit-suburba/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://www.dtownie.com/2008/03/23/google-transit-detroit/&#34;&gt;The Detroit area SMART bus system now has routing and schedule information in Google Transit.&lt;/a&gt;  It gives bus numbers and times for rides across the metro Detroit area, and plans the next available trips for you.
+&lt;/p&gt;&lt;p&gt;
+With all of this data it now looks almost possible to schedule and plan transportation from Ann Arbor to large parts of metro Detroit on public transportation.  Mind you it&#39;s a little roundabout, but you have two choices:
+&lt;/p&gt;&lt;p&gt;
+- take Amtrak Ann Arbor - Detroit - Royal Oak - Pontiac, 3 trips/day
+&lt;br /&gt;- take the Michigan Flyer bus to Metro Airport, switch to a SMART bus, and connect to routes from there - allow plenty of time for transfers and to find your stops.
+&lt;/p&gt;&lt;p&gt;
+I haven&#39;t timed the last of these, but I&#39;m sure it&#39;s at least three hours, maybe four if you get a bad transfer time.  (ouch)  But it does, indeed, look possible, perhaps even interesting in an adventure travel sort of way.
+&lt;/p&gt;
+&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/maps&#34; rel=&#34;tag&#34;&gt;maps&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/google-transit&#34; rel=&#34;tag&#34;&gt;google-transit&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/bus&#34; rel=&#34;tag&#34;&gt;bus&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/annarbor&#34; rel=&#34;tag&#34;&gt;annarbor&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/neogeography&#34; rel=&#34;tag&#34;&gt;neogeography&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>AATA proposed route changes for Fall 2008, preliminary analysis</title>
+      <link>http://localhost:1313/post/2008/2008-03-13-aata-proposed-r/</link>
+      <pubDate>Thu, 13 Mar 2008 00:03:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-03-13-aata-proposed-r/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://www.theride.org/PRServiceChanges.asp&#34;&gt;The AATA has announced proposed changes to the schedule for this fall.&lt;/a&gt;  New maps and schedules are not out yet, but there are descriptions of the changes.  Here&#39;s a breakdown of what wins and what loses with the change.
+&lt;/p&gt;&lt;p&gt;
+There&#39;s more information and discussion of this on:
+&lt;br /&gt;- &lt;a href=&#34;http://arborupdate.com/article/1616/aata-seeks-input-on-service-changes&#34;&gt;Arbor Update&lt;/a&gt; 
+&lt;br /&gt;- &lt;a href=&#34;http://blog.getdowntown.org/2008/03/12/aata-proposed-services-changes-read-and-comment&#34;&gt;Get Downtown&lt;/a&gt;
+&lt;br /&gt;- Ann Arbor News
+&lt;br /&gt;- Ann Arbor Is Overrated
+&lt;br /&gt;links to follow when they all get around to writing about it
+&lt;/p&gt;&lt;p&gt;
+The short summary, I think, is that the bus system is shifting its service to improve route frequency to the west side of town, cutting service on routes that have low ridership, and shaving a trip here and there.  I don&#39;t know the total number of service hours before and after (no data yet).
+&lt;/p&gt;&lt;p&gt;
+Notably missing from this set of changes is any kind of express bus Ann Arbor to Ypsilanti routing (the mythical 4X route), and any routing that goes directly down Maple/Stadium (the mythical &#34;east-west connector&#34; which could go Sky High to Arborland in one straight shot).
+&lt;/p&gt;&lt;p&gt;
+Who wins:
+&lt;br /&gt;- Route 8 is every 15 minutes!  The biggest win
+&lt;br /&gt;- Route 12UM (Miller) adds service to Sky High, 15 min service on Miller Rd
+&lt;br /&gt;- minor tweaks to the 4 to speed the journey
+&lt;br /&gt;- one extra 4 afternoon bus as far as Arborland
+&lt;br /&gt;- late night (10:45) Blake to Pioneer on the 7
+&lt;/p&gt;&lt;p&gt;
+Who loses:
+&lt;br /&gt;- late trips on the 1U
+&lt;br /&gt;- evening service on the 3
+&lt;br /&gt;- latest trip Ypsi-Ann Arbor on the 5
+&lt;br /&gt;- 12UL goes way (replaced by improved 8 service)
+&lt;br /&gt;- mid-day 13
+&lt;br /&gt;- mid-day 14
+&lt;br /&gt;- summer evening, sunday 15
+&lt;br /&gt;- 16 changes which I can&#39;t parse which probably affect shopping trips
+&lt;/p&gt;&lt;p&gt;
+More as I get maps.
+&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

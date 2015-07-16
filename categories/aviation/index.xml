@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aviation on tracker</title>
+    <link>http://localhost:1313/categories/aviation/</link>
+    <description>Recent content in Aviation on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Mar 2015 18:44:16 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/aviation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The mysterious crash of</title>
+      <link>http://localhost:1313/post/2015/2015-03-24-the-mysterious-crash-of-4u9525-germanwings-flight-9525-in-the-french-alps/</link>
+      <pubDate>Tue, 24 Mar 2015 18:44:16 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/2015/2015-03-24-the-mysterious-crash-of-4u9525-germanwings-flight-9525-in-the-french-alps/</guid>
+      <description>&lt;p&gt;My Twitter feed was full of air crash news this morning. Germanwings flight 9525 crashed in the French Alps, killing all passengers aboard. Wikipedia has a &lt;a href=&#34;http://www.wikiwand.com/en/Germanwings_Flight_9525&#34;&gt;good summary&lt;/a&gt;, perhaps as good as any.&lt;/p&gt;
+
+&lt;p&gt;What was unusual about the crash was that there was no distress call, and that the plane descended rapidly and steadily into the ground without veering once from its course.&lt;/p&gt;
+
+&lt;p&gt;Of note in this regard is another European flight on a similar aircraft some months earlier. Lufthansa 1829 on Nov 5th 2014 lost 4000 feet/minute of altitude after having problems with its control systems. The &lt;a href=&#34;http://avherald.com/h?article=47d74074&#34;&gt;Aviation Herald story&lt;/a&gt; was written a few days later, and it references emergency airworthiness directive &lt;a href=&#34;http://ad.easa.europa.eu/blob/easa_ad_2014_0266_E.pdf/EAD_2014-0266-E_1&#34;&gt;2014-0266-E_1 (pdf)&lt;/a&gt;. &lt;a href=&#34;http://aviation-safety.net/wikibase/wiki.php?id=171411&#34;&gt;AviationSafety.net has a summary of that incident&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;During climb, 12 NM NW of Pamplona, at approximately Flight Level 310, the aircraft unexpectedly decreased the pitch autonomous and started to descend. The aircraft reached a rate of descent of up to 4,000 ft/min. The crew was able to stop the descent at Flight Level 270. The flight was continued and the aircraft landed safely at its destination Munich Airport. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At least superficially the incidents seem related. I am not expert enough at aviation issues to know if there is a real connection, or if this is mere coincidence.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The mystery of flight MH370</title>
+      <link>http://localhost:1313/post/2014/2014-03-12-the-mystery-of-flight-mh370/</link>
+      <pubDate>Wed, 12 Mar 2014 17:13:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-03-12-the-mystery-of-flight-mh370/</guid>
+      <description>&lt;p&gt;I was up late the other night when the news that &lt;a href=&#34;https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370&#34;&gt;Malaysia Airlines Flight 370&lt;/a&gt; was missing came out. There was a flurry of speculation as to its whereabouts, but no hard news. I went to bed figuring that by morning the mystery would be resolved.&lt;/p&gt;
+
+&lt;p&gt;That was four days ago, and the plane is still missing and the mystery has only deepened. &lt;/p&gt;
+
+&lt;p&gt;Short of going on a search and rescue mission yourself, the closest that anyone can do to chip in on the search is to join in on &lt;a href=&#34;http://www.tomnod.com/nod/challenge/malaysiaairsar2014&#34;&gt;Tomnod&lt;/a&gt; which has a crowd-sourced digital image recognition system. From &lt;a href=&#34;http://www.webpronews.com/tomnod-website-set-up-to-involve-public-in-the-search-for-malaysia-airlines-flight-370-2014-03&#34;&gt;WebProNews&lt;/a&gt; -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tomnod, a Mongolian word that translates to “Big Eye,” is owned by Colorado-based satellite company Digital Globe. The company trained five satellites on the region of the Gulf of Thailand, the plane’s last known location. The satellites transmit data and photos of the area on the Tomnod website. It is hoped that through millions of crowdsourcing volunteers acting as a large virtual search party, signs of the missing plane will be found.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Until the disappearance of the jet has been explained, my heart goes out to the families of those who were on board.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

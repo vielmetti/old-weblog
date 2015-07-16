@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neighborhoods Newspapers on tracker</title>
+    <link>http://localhost:1313/categories/neighborhoods-newspapers/</link>
+    <description>Recent content in Neighborhoods Newspapers on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 May 2011 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/neighborhoods-newspapers/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Local news powered by Patch: the state of local news aggregation in 2011</title>
+      <link>http://localhost:1313/post/2011/2011-05-24-patch-local-news-aggregation-2011/</link>
+      <pubDate>Tue, 24 May 2011 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2011/2011-05-24-patch-local-news-aggregation-2011/</guid>
+      <description>&lt;p&gt;Two years ago, the state of the art in local news aggregation was outside.in. That site aggregated postings about a specific geographical area and offered up a web based user interface to republish those links on your web site. Outside.in did not have its own staff of reporters, and its automated systems for newsgathering were (to be charitable) fallible, and thus it sometimes threw up junk of various kinds which was unpleasant to wade through.&lt;/p&gt;
+&lt;p&gt;Fast forward to today, or more specifically March 2011, where AOL&amp;#39;s &lt;a href=&#34;http://www.patch.com&#34; target=&#34;_self&#34;&gt;Patch&lt;/a&gt; buys outside.in, a deal &lt;a href=&#34;http://techcrunch.com/2011/03/04/aol-outside-in/&#34; target=&#34;_self&#34;&gt;reported by Techcrunch&lt;/a&gt; to be worth south of $10 million.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;Patch&amp;#39;s world model is of a world full of part time news gatherers publishing local news about locations which are small towns. In the local area, there&amp;#39;s a &lt;a href=&#34;http://dexter.patch.com/&#34; target=&#34;_self&#34;&gt;Dexter Patch&lt;/a&gt;, a &lt;a href=&#34;http://saline-milan.patch.com/&#34; target=&#34;_self&#34;&gt;Saline/Milan Patch&lt;/a&gt;, a &lt;a href=&#34;http://plymouth-mi.patch.com/&#34; target=&#34;_self&#34;&gt;Plymouth Patch&lt;/a&gt; but no Ann Arbor Patch and no Ypsilanti Patch. &amp;#0160;How do you get full-scope news coverage for every zip code, then? By reworking your outside.in feed structure as &amp;quot;Local news powered by Patch&amp;quot;, and suddenly you can push links out to a network of systems that are happy to put local news on the local weather page and don&amp;#39;t much care about the details except that there needs to be a plausible result for every single zip code.&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

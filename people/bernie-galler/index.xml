@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bernie Galler on tracker</title>
+    <link>http://localhost:1313/people/bernie-galler/</link>
+    <description>Recent content in Bernie Galler on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Sep 2014 15:52:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/people/bernie-galler/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>do next?</title>
+      <link>http://localhost:1313/post/2014/2014-09-27-do-next/</link>
+      <pubDate>Sat, 27 Sep 2014 15:52:45 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014/2014-09-27-do-next/</guid>
+      <description>&lt;p&gt;One algorithm for deciding what to do next is simply to identify
+the item with the closest deadline and work on that. There is nothing
+like a deadline to focus the mind, and it is better to get the items
+that demand short term attention into the calendar and to allot the
+time to tackle them. Bernie Galler described this approach to me once,
+and it stuck.&lt;/p&gt;
+
+&lt;p&gt;A second approach is to put everything you might ever want to do
+in a big pile and pick something at random from it to work on. I
+use github issues to track my big pile of things to do, and alas
+it does not have a random() function. Fortunately though there is
+a Github API, and that combined with &lt;code&gt;jq&lt;/code&gt; and my &lt;code&gt;randomline&lt;/code&gt; script
+are enough to approximate that.&lt;/p&gt;
+
+&lt;p&gt;A third very reasonable approach is to ask someone what they would
+like you to do; or even better yet anticipate what they would ask
+and do it before they ask.&lt;/p&gt;
+
+&lt;p&gt;That reminds me, I have work to do.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drought on tracker</title>
+    <link>http://localhost:1313/maps/drought/</link>
+    <description>Recent content in Drought on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Aug 2008 12:55:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/maps/drought/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Drought monitor for late August 2008</title>
+      <link>http://localhost:1313/post/2008/2008-08-25-drought-monitor/</link>
+      <pubDate>Mon, 25 Aug 2008 12:55:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-08-25-drought-monitor/</guid>
+      <description>&lt;p&gt;
+It&#39;s seemed like a dry summer here in Ann Arbor, with brown grass the normal state of affairs.  We have nothing on the southeast.  Note that this map is before the impact of &lt;a href=&#34;http://www.noaawatch.gov/2008/fay.php&#34;&gt;Fay&lt;/a&gt; which dumped a lot of rain.
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://drought.unl.edu/dm/monitor.html&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/08/25/droughtmap2008august21.png&#34; title=&#34;Droughtmap2008august21&#34; alt=&#34;Droughtmap2008august21&#34; class=&#34;image-full&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Fire maps - Michigan, California, and global</title>
+      <link>http://localhost:1313/post/2008/2008-06-24-fire-maps---mic/</link>
+      <pubDate>Tue, 24 Jun 2008 18:31:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2008/2008-06-24-fire-maps---mic/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/palmer.gif&#34;&gt;&lt;br /&gt;
+&lt;img class=&#34;image-full&#34; alt=&#34;Palmer&#34; title=&#34;Palmer&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/24/palmer.gif&#34; border=&#34;0&#34;  /&gt;&lt;/a&gt;&lt;br /&gt;
+Drought Severity Index by Region from NOAA for the week ending 21 June 2008&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;It&#39;s fire season (at least in the places where it isn&#39;t flood or landslide season) and the best way to be ready for a fire is to not have the fire start at all.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s a collection of Michigan fire maps, and some additional resources to help get to current information about what&#39;s going on.&lt;/p&gt;
+
+&lt;h3&gt;Michigan fire maps&lt;/h3&gt;
+
+&lt;p&gt;If there&#39;s a wildfire or forest fire in Michigan, you&#39;ll get information about it from the Michigan DNR and from the USDA Forest Service MODUS Fire Mapping system.  The DNR&#39;s information reflects for the most part information from the ground, and MODUS is satellite based.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://activefiremaps.fs.fed.us/activefiremaps.php?op=maps&amp;rCode=enm&#34;&gt;Michigan fire maps from MODUS&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.michigan.gov/dnr/0,1607,7-153-30301_30505_30816---,00.html&#34;&gt;Michigan DNR Fire Management&lt;/a&gt;
+&lt;/ul&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
