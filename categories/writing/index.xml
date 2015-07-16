@@ -55,6 +55,12 @@ but that was not the real issue; the real issue was also that lots got
 imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out and it seems to fix things.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implement, somehow, &amp;ldquo;edit on github&amp;rdquo; so that my workflow is easier.
+This might only be on the preview version. Some notes on the Hugo discussion
+forums
+describing how to do that are on
+&lt;a href=&#34;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&#34;&gt;How to implement “edit this page on github”?&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

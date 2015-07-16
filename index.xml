@@ -10,7 +10,7 @@
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>a2b3 lunch at Ayse&#39;s, Art Fair 2005 edition</title>
+      <title>a2b3 lunch at Ayse&#39;s, Art Fair 2015 edition</title>
       <link>http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses/</link>
       <pubDate>Thu, 16 Jul 2015 11:22:36 -0400</pubDate>
       
@@ -88,6 +88,12 @@ but that was not the real issue; the real issue was also that lots got
 imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out and it seems to fix things.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implement, somehow, &amp;ldquo;edit on github&amp;rdquo; so that my workflow is easier.
+This might only be on the preview version. Some notes on the Hugo discussion
+forums
+describing how to do that are on
+&lt;a href=&#34;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&#34;&gt;How to implement “edit this page on github”?&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
