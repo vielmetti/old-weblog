@@ -43,6 +43,25 @@ instantly once they are built.&lt;/p&gt;
 &lt;p&gt;Finally, one that focuses on the github side of things:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://gist.github.com/chrisjacob/825950&#34;&gt;https://gist.github.com/chrisjacob/825950&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The approach I have runs like so, it assumes that you have
+a working directory &amp;ldquo;~/src/hugo&amp;rdquo; with your blog in it, and
+a target directory &amp;ldquo;~/src/vielmetti.github.io&amp;rdquo; set up for
+github pages.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ~/src/hugo
+hugo -d ../vielmetti.github.io --theme=vacuum
+# wait to build, then
+cd ../vielmetti.github.io
+git add -A .
+git commit -m &amp;quot;build complete&amp;quot;
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;By having separate build directories like this you can keep the
+continuous build on your draft setup going, and then push a
+working version whenever you&amp;rsquo;re perfectly happy with the result.
+Not like anyone is really perfectly happy with any blog.&lt;/p&gt;
 </description>
     </item>
     

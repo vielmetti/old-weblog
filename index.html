@@ -51,6 +51,8 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses" class="list-group-item">a2b3 lunch at Ayse&#39;s, Art Fair 2005 edition</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production" class="list-group-item">diligently editing and converting for production</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-a-great-many-things" class="list-group-item">a great many things</a></li>
@@ -88,12 +90,12 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-06-29-bbc-greeces-bank-holiday-from-hell-impact-on-bitcoin-transactions" class="list-group-item">BBC: &#34;Greece&#39;s bank holiday from hell&#34;; impact on Bitcoin transactions?</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-06-28-a-random-walk-through-the-rolodex" class="list-group-item">A random walk through the rolodex</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude" class="list-group-item">Using a squid cache to make automated data collection a bit less rude</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4092,6 +4094,36 @@ networks
 
 
 
+  <h3>16 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses/">a2b3 lunch at Ayse&#39;s, Art Fair 2005 edition</a>
+      </h3>
+      <p>Eight of us met for lunch at <a href="http://aysesturkishcafe.com/">Ayse&rsquo;s</a> today. It was a normal
+Thursday in that regard, as that&rsquo;s a pretty typical size for
+the lunch group these days.</p>
+
+<p>We talked at question time about how we get big chunks of time
+to work on projects. One answer was to work early in the morning
+or late at night when there were fewer distractions. Gyll, a
+remodeling contractor, mentioned the use of checklists to make
+sure that the things that needed to get done got done. Among the
+tasks that took up lots more time than they deserved included
+dealing with the health insurance marketplace and with other
+healthcare providers for dealing with billing and accounting problems.</p>
+
+<p>Three of the people at lunch were new to the table, but since Ann
+Arbor is bascially a small town, it was not a surprise to me that
+I had easily identifiable mutual friends with two of them.</p>
+
+<p>Food was delicious, well prepared and well presented.</p>
+
+<p>Next week we&rsquo;ll be back at <a href="https://localwiki.org/ann-arbor/Madras_Masala">Madras Masala</a>, as art fair will have
+ended and town will be more back to normal.</p>
+
+<p>The big event coming up is <a href="http://www.makerfairedetroit.com/">Maker Faire Detroit</a>, to be held at The
+Henry Ford in Dearborn.</p>
+
+
   <h3>15 July 2015</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/">diligently editing and converting for production</a>
@@ -4259,6 +4291,25 @@ instantly once they are built.</p>
 <p>Finally, one that focuses on the github side of things:</p>
 
 <p><a href="https://gist.github.com/chrisjacob/825950">https://gist.github.com/chrisjacob/825950</a></p>
+
+<p>The approach I have runs like so, it assumes that you have
+a working directory &ldquo;~/src/hugo&rdquo; with your blog in it, and
+a target directory &ldquo;~/src/vielmetti.github.io&rdquo; set up for
+github pages.</p>
+
+<pre><code>cd ~/src/hugo
+hugo -d ../vielmetti.github.io --theme=vacuum
+# wait to build, then
+cd ../vielmetti.github.io
+git add -A .
+git commit -m &quot;build complete&quot;
+git push origin master
+</code></pre>
+
+<p>By having separate build directories like this you can keep the
+continuous build on your draft setup going, and then push a
+working version whenever you&rsquo;re perfectly happy with the result.
+Not like anyone is really perfectly happy with any blog.</p>
 
 
   <h3>14 July 2015</h3>
@@ -5244,28 +5295,6 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 <p>Can't talk about rhubarb without Rhabarberbarbara.</p>
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/gG62zay3kck?rel=0" frameborder="0" allowfullscreen></iframe></p>
-
-
-  <h3>29 May 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/">Making Lag Monster a bit less laggy</a>
-      </h3>
-      <p>@tallervielmetti is using my old black Macbook. It's never been an exceptionally fast machine, but it's been super laggy of late, hence the name Lag Monster. </p>
-
-<p>I installed all kinds of crap on that machine to test it out, and never uninstalled a lot of it. It turns out that some judicious uninstalls seemed to help a lot to keep the load average down. Some hints to my future self if these ever re-emerge:</p>
-
-<p>BBLaunchAgent. Yes, relics of my old Blackberry still linger on, and to really and truly kill them I had to edit plists. See <a href="https://discussions.apple.com/thread/2752009?start=0&amp;tstart=0">Can't delete BBLaunchAgent.app process</a> for the eventual diff I applied. For a more exhaustive list of Blackberry-uninstalling tools see <a href="https://blog.omgmog.net/post/removing-the-blackberry-desktop-software-for-mac-without-having-to-re-download-a-70mb-installer-from-blackberry/">Removing the Blackberry Desktop Software for Mac without having to re-download a 70mb installer from Blackberry</a>.</p>
-
-<p>Jenkins. Some time in the distant past I installed it, and it launched under Java and ran and did nothing for years except contribute to lag. Killed by removing the install directory and rebooting.</p>
-
-<p>Chrome. Lots of Chrome stuff takes up memory. Particularly contributing to lag was some Reddit page. </p>
-
-<p>At the end we're at</p>
-
-<p>Processes: 77 total, 2 running, 1 stuck, 74 sleeping, 355 threads      22:40:09
- Load Avg: 0.22, 0.67, 0.68  CPU usage: 17.75% user, 12.14% sys, 70.9% idle</p>
-
-<p>Which is, I have to say, a lot better.</p>
 
 
 

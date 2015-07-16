@@ -6,8 +6,41 @@
     <description>Recent content in Ann Arbor Michigan on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2015 20:13:02 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2015 11:22:36 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/cities/ann-arbor-michigan/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>a2b3 lunch at Ayse&#39;s, Art Fair 2005 edition</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses/</link>
+      <pubDate>Thu, 16 Jul 2015 11:22:36 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses/</guid>
+      <description>&lt;p&gt;Eight of us met for lunch at &lt;a href=&#34;http://aysesturkishcafe.com/&#34;&gt;Ayse&amp;rsquo;s&lt;/a&gt; today. It was a normal
+Thursday in that regard, as that&amp;rsquo;s a pretty typical size for
+the lunch group these days.&lt;/p&gt;
+
+&lt;p&gt;We talked at question time about how we get big chunks of time
+to work on projects. One answer was to work early in the morning
+or late at night when there were fewer distractions. Gyll, a
+remodeling contractor, mentioned the use of checklists to make
+sure that the things that needed to get done got done. Among the
+tasks that took up lots more time than they deserved included
+dealing with the health insurance marketplace and with other
+healthcare providers for dealing with billing and accounting problems.&lt;/p&gt;
+
+&lt;p&gt;Three of the people at lunch were new to the table, but since Ann
+Arbor is bascially a small town, it was not a surprise to me that
+I had easily identifiable mutual friends with two of them.&lt;/p&gt;
+
+&lt;p&gt;Food was delicious, well prepared and well presented.&lt;/p&gt;
+
+&lt;p&gt;Next week we&amp;rsquo;ll be back at &lt;a href=&#34;https://localwiki.org/ann-arbor/Madras_Masala&#34;&gt;Madras Masala&lt;/a&gt;, as art fair will have
+ended and town will be more back to normal.&lt;/p&gt;
+
+&lt;p&gt;The big event coming up is &lt;a href=&#34;http://www.makerfairedetroit.com/&#34;&gt;Maker Faire Detroit&lt;/a&gt;, to be held at The
+Henry Ford in Dearborn.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ann Arbor City Council for July 6, 2015: online video stream goes dark</title>
@@ -455,26 +488,6 @@ continued development here, but I like the idea!&lt;/p&gt;
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-13-9x-all-hands-active-open-house/</guid>
       <description>&lt;p&gt;Post the poster! &lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e158762970d-pi&#34;&gt;&lt;img alt=&#34;Openhouse-20140919-e1410474571147&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73e158762970d img-responsive&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e158762970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Openhouse-20140919-e1410474571147&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A design for an an Ann Arbor events channel, @a2events</title>
-      <link>http://vielmetti.github.io/post/2014/2014-09-13-a-design-for-an-an-ann-arbor-events-channel-a2events-/</link>
-      <pubDate>Sat, 13 Sep 2014 21:44:11 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2014/2014-09-13-a-design-for-an-an-ann-arbor-events-channel-a2events-/</guid>
-      <description>&lt;p&gt;Here&#39;s a design for a low overhead way to post about events coming up in Ann Arbor. Follow &lt;a href=&#34;http://twitter.com/a2events&#34;&gt;@a2events on Twitter&lt;/a&gt; if you want to play along.&lt;/p&gt;
-
-&lt;p&gt;The first rule of business is that every event has to have a URL, and the more simple and direct the URL is the more likely it is that it&#39;s authoritative for the event. If an event doesn&#39;t have a URL yet, I&#39;ll blog about it here if I need to post about it.&lt;/p&gt;
-
-&lt;p&gt;The second rule of business is that I&#39;m not keeping a calendar, just a feed, and the feed is not going to be a 100% comprehensive feed; you have to be prepared to get events info from multiple sources and I&#39;m just one of them.&lt;/p&gt;
-
-&lt;p&gt;The third rule of business of course is that if you want to pay for this service we&#39;ll find a way to let you pay, though the specifics are TBD.&lt;/p&gt;
-
-&lt;p&gt;My basic idea for technology is to use a tag on my Pinboard account to feed a specific tag, and to use that tag to feed IFTTT to feed Twitter so that events get pushed out. I&#39;ll probably also use a Node-RED page to help construct something that does the right thing, and there will be a Slack channel on the a2b3 slack to do - something.&lt;/p&gt;
-
-&lt;p&gt;Thanks to Brian Kerr for having the foresight to reserve the name a2events.&lt;/p&gt;
 </description>
     </item>
     
