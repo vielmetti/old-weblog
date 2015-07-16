@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet Of Things on tracker</title>
-    <link>http://vielmetti.github.com/categories/internet-of-things/</link>
+    <link>http://vielmetti.github.io/categories/internet-of-things/</link>
     <description>Recent content in Internet Of Things on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Oct 2014 09:57:34 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/internet-of-things/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/internet-of-things/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>the internet of things world hasn&#39;t condensed into a single system, and because of its origins it&#39;s unlikely to do so.</title>
-      <link>http://vielmetti.github.com/post/2014/2014-10-03-the-internet-of-things-world-hasnt-condensed-into-a-single-system-and-because-of-its-origins-its-unl/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-10-03-the-internet-of-things-world-hasnt-condensed-into-a-single-system-and-because-of-its-origins-its-unl/</link>
       <pubDate>Fri, 03 Oct 2014 09:57:34 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-10-03-the-internet-of-things-world-hasnt-condensed-into-a-single-system-and-because-of-its-origins-its-unl/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-10-03-the-internet-of-things-world-hasnt-condensed-into-a-single-system-and-because-of-its-origins-its-unl/</guid>
       <description>&lt;p&gt;The internet of things is a multi-protocol internet, with lots of legacy protocols in use as well as homemade protocols over TCP/IP and also serial port stuff and funky radio uses. Oh, and HTTP too.&lt;/p&gt;
 
 &lt;p&gt;Some of the things in the internet of things are very small and have very low cost network capacity, which rules out using a full stack HTTP implementation. Others are not quite as small, but still don&#39;t have enough oomph to take on an Internet&#39;s worth of traffic, so you might run HTTP but still keep the devices firewalled very carefully from the Internet.&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>The Internet of Things (Marvel edition)</title>
-      <link>http://vielmetti.github.com/post/2014/2014-06-28-the-internet-of-things-marvel-edition/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-06-28-the-internet-of-things-marvel-edition/</link>
       <pubDate>Sat, 28 Jun 2014 08:16:36 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-06-28-the-internet-of-things-marvel-edition/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-06-28-the-internet-of-things-marvel-edition/</guid>
       <description>&lt;p&gt;Via Bob Dively, a Marvel Comics version of the Internet of Things.&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/vielmetti&#34;&gt;@vielmetti&lt;/a&gt; The Internet of Things &lt;a href=&#34;http://t.co/dMvoIjbIZ0&#34;&gt;pic.twitter.com/dMvoIjbIZ0&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bob Dively (@bobdively) &lt;a href=&#34;https://twitter.com/bobdively/statuses/482722072205225985&#34;&gt;June 28, 2014&lt;/a&gt;&lt;/blockquote&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>The Internet of Things</title>
-      <link>http://vielmetti.github.com/post/2014/2014-06-27-the-internet-of-things/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-things/</link>
       <pubDate>Fri, 27 Jun 2014 18:22:55 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-06-27-the-internet-of-things/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-things/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73de1cff0970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73de1cff0970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2014-06-27 at 6.06.27 PM&#34; title=&#34;Screen shot 2014-06-27 at 6.06.27 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73de1cff0970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have found myself thinking about things, and how to connect things to the net, quite a bit recently. I&#39;ll be blogging more about it here and elsewhere.&lt;/p&gt;

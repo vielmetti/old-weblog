@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Usenet on tracker</title>
-    <link>http://vielmetti.github.com/categories/usenet/</link>
+    <link>http://vielmetti.github.io/categories/usenet/</link>
     <description>Recent content in Usenet on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Oct 2014 08:42:01 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/usenet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/usenet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>tilde club, day 4: Usenet is back</title>
-      <link>http://vielmetti.github.com/post/2014/2014-10-15-tilde-club-day-4-usenet-is-back/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-10-15-tilde-club-day-4-usenet-is-back/</link>
       <pubDate>Wed, 15 Oct 2014 08:42:01 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-10-15-tilde-club-day-4-usenet-is-back/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-10-15-tilde-club-day-4-usenet-is-back/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://tilde.club&#34;&gt;tilde.club&lt;/a&gt; now has Usenet news, of the very old fashioned sort where there is only a small handful of newsgroups and where people are still figuring out their newsreaders and news hosting systems and where there&#39;s no spam.&lt;/p&gt;
 
 &lt;p&gt;Instructions are at &lt;a href=&#34;http://tilde.club/~emv/usenet&#34;&gt;~emv/usenet&lt;/a&gt;, such as they are; looking to get enough people on board so that there&#39;s a reasonable next step of setting up a feed infrastructure of some kind eventually. The current set of directions are rather plain, but it will get more fancy, just fancy enough to bootstrap but not much more.&lt;/p&gt;

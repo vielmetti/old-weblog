@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tor on tracker</title>
-    <link>http://vielmetti.github.com/keyphrases/tor/</link>
+    <link>http://vielmetti.github.io/keyphrases/tor/</link>
     <description>Recent content in Tor on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Oct 2013 15:12:31 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/keyphrases/tor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/keyphrases/tor/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Spy vs spy: Tor (US Naval Intelligence designed anonymous network) attacked by NSA</title>
-      <link>http://vielmetti.github.com/post/2013/2013-10-04-spy-vs-spy-tor-us-naval-intelligence-designed-anonymous-network-attacked-by-nsa/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-10-04-spy-vs-spy-tor-us-naval-intelligence-designed-anonymous-network-attacked-by-nsa/</link>
       <pubDate>Fri, 04 Oct 2013 15:12:31 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-10-04-spy-vs-spy-tor-us-naval-intelligence-designed-anonymous-network-attacked-by-nsa/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-10-04-spy-vs-spy-tor-us-naval-intelligence-designed-anonymous-network-attacked-by-nsa/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affc67f89970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019affc67f89970c&#34; alt=&#34;Images&#34; title=&#34;Images&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affc67f89970c-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;https://www.torproject.org/&#34;&gt;Tor Project&lt;/a&gt; runs Tor (&#34;The Onion Router&#34;), a network designed to provide its users with anonymity when using the Internet. Tor was originally developed by US Naval Intelligence, and a large part of support for the network still comes from government interests.&lt;/p&gt;
 
 &lt;p&gt;Tor was in the news recently as the high profile Silk Road anonymous marketplace for drugs was shut down. Silk Road had been hosted as a hidden node reachable only through Tor, and it ran openly on that network for years until a dedicated effort unmasked the organizer. The description of the resources used to take down Silk Road did not mention any specific attacks on Tor; the proprietor of Silk Road left behind enough clues through sloppy tradecraft that it was possible through diligent efforts to identify him based on his public postings. The takedown of Silk Road caused a disturbance in the Force as seen through the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/10/bitcoin-volatility-after-silk-road-shutdown.html&#34;&gt;volatility in Bitcoin prices&lt;/a&gt; seen right after the system was taken down.&lt;/p&gt;

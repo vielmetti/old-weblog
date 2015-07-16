@@ -2,19 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jon Udell on tracker</title>
-    <link>http://vielmetti.github.com/people/jon-udell/</link>
+    <link>http://vielmetti.github.io/people/jon-udell/</link>
     <description>Recent content in Jon Udell on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2009 11:57:00 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/people/jon-udell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jan 2013 18:20:30 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/people/jon-udell/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jon Udell, &#34;Why Johnny Can&#39;t Syndicate&#34;, Friday January 18 2013, noon to 1:00 p.m., University of Michigan School of Information</title>
+      <link>http://vielmetti.github.io/post/2013/2013-01-17-jon-udell-why-johnny-cant-syndicate-friday-january-18-2013-umsi-umich-school-infomration/</link>
+      <pubDate>Thu, 17 Jan 2013 18:20:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-01-17-jon-udell-why-johnny-cant-syndicate-friday-january-18-2013-umsi-umich-school-infomration/</guid>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;a href=&#34;http://www.si.umich.edu/newsandevents/event/yahoo-lecture-series-jon-udell&#34; target=&#34;_self&#34;&gt;Copied from the event announcement:&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Date and time:&amp;#0160;&lt;/div&gt;
+&amp;#0160;01/18/2013 -&amp;#0160;12:00pm&amp;#0160;-&amp;#0160;1:00pm&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Location:&amp;#0160;&lt;/div&gt;
+&amp;#0160;Ehrlicher Room, 3100 North Quad&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Speaker:&amp;#0160;&lt;/div&gt;
+&amp;#0160;Jon Udell&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Sponsor:&amp;#0160;&lt;/div&gt;
+&amp;#0160;Yahoo, School of Information&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;In this lecture on &amp;quot;Why Johnny Can&amp;#39;t Syndicate,&amp;quot; speaker Jon Udell will review a case study — conducted in Ann Arbor and elsewhere — that uses the syndication of public calendars to explore what people do and don&amp;#39;t understand about the Web&amp;#39;s core principles, how we can enlarge that understanding, and why it matters that we do.&lt;/p&gt;
+&lt;p&gt;Udell is an author, information architect, software developer, and new media innovator. In 2007 Udell joined Microsoft Research as a writer, interviewer, speaker, and experimental software developer. Currently he is building and explaining a calendar network that&amp;#39;s based on open standards and runs in the Windows Azure cloud.&lt;/p&gt;
+&lt;p&gt;His 1999 book,&amp;#0160;&lt;em&gt;Practical Internet Groupware&lt;/em&gt;, helped lay the foundation for what we now call social software. Udell was formerly a software developer at Lotus,&amp;#0160;&lt;em&gt;BYTE&lt;/em&gt;&amp;#0160;magazine&amp;#39;s executive editor and Web maven, and an independent consultant.&lt;/p&gt;
+&lt;p&gt;A hands-on thinker, Udell&amp;#39;s analysis of industry trends has always been informed by his own ongoing experiments with software, information architecture, and new media.&lt;/p&gt;
+&lt;p&gt;From 2002 to 2006 he was&amp;#0160;&lt;em&gt;InfoWorld&amp;#39;s&lt;/em&gt;&amp;#0160;lead analyst, author of the weekly Strategic Developer column, and blogger-in-chief. During his&amp;#0160;&lt;em&gt;InfoWorld&lt;/em&gt;&amp;#0160;tenure he also pioneered the medium now known as screencasting and produced an audio show, Interviews with Innovators.&lt;/p&gt;
+&lt;p&gt;Udell provided the following abstract:&lt;/p&gt;
+&lt;p&gt;&amp;quot;In&amp;#0160;&lt;em&gt;Why Johnny Can&amp;#39;t Read&lt;/em&gt;&amp;#0160;(1955), Rudolf Flesch ranted that &amp;#39;horrible, stupid, emasculated, pointless, tasteless little readers&amp;#39; were depriving kids of &amp;#39;&lt;em&gt;Andersen&amp;#39;s Fairy Tales&lt;/em&gt;&amp;#0160;and&amp;#0160;&lt;em&gt;The Arabian Nights&lt;/em&gt;&amp;#0160;and Mark Twain, and anything interesting and worthwhile.&amp;#39; He&amp;#0160; argued: &amp;#39;If you equip kids with the right conceptual tools they can read anything.&amp;#39;&lt;/p&gt;
+&lt;p&gt;&amp;quot;As we colonize the cloud we can read — and write — in important new ways. But we&amp;#39;re failing to equip most people with the right conceptual tools for these emerging modes of literacy. A web of connected information systems entails such concepts as authority over data, indirection, standard ways to structure and exchange data, controlled vocabularies, publish-and-subscribe networks, and use and recombination of services.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Students of the computer and information sciences learn and apply these principles. Others can too, but because they mostly don&amp;#39;t they remain stuck at a &amp;#39;Fun with Dick and Jane&amp;#39; level of Web literacy.&lt;/p&gt;
+&lt;p&gt;&amp;quot;In this talk we&amp;#39;ll review a case study, conducted in Ann Arbor and elsewhere, that uses the syndication of public calendars to explore what people do and don&amp;#39;t understand about the Web&amp;#39;s core principles, how we can enlarge that understanding, and why it matters that we do.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Contact:&amp;#0160;&lt;/div&gt;
+&amp;#0160;Allison Wachter&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Contact email:&amp;#0160;&lt;/div&gt;
+&amp;#0160;wachtera@umich.edu&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Jon Udell and Andrew Turner talking about neogeography</title>
-      <link>http://vielmetti.github.com/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</link>
+      <link>http://vielmetti.github.io/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</link>
       <pubDate>Sun, 03 May 2009 11:57:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</guid>
+      <guid>http://vielmetti.github.io/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://itc.conversationsnetwork.org/shows/detail4040.html&#34;&gt;Two friends, Jon Udell and Andrew Turner, in this piece on IT Conversations:&lt;/a&gt;&lt;/p&gt;&lt;div class=&#34;blockquote efsSummary&#34; style=&#34;margin-left: 40px;&#34;&gt;Neocartography, neogeography, the geospatial
 web: These words and phrases evoke the unfolding drama at the
 intersection of physical and virtual space. Andrew Turner is in the

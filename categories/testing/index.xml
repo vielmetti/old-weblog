@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on tracker</title>
-    <link>http://vielmetti.github.com/categories/testing/</link>
+    <link>http://vielmetti.github.io/categories/testing/</link>
     <description>Recent content in Testing on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 12:58:34 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Automating web testing and scraping with Selenium and the Firefox Selenium IDE</title>
-      <link>http://vielmetti.github.com/post/2015/2015-06-24-automating-web-testing-and-scraping-with-selenium-and-the-firefox-selenium-ide/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-06-24-automating-web-testing-and-scraping-with-selenium-and-the-firefox-selenium-ide/</link>
       <pubDate>Wed, 24 Jun 2015 12:58:34 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-06-24-automating-web-testing-and-scraping-with-selenium-and-the-firefox-selenium-ide/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-06-24-automating-web-testing-and-scraping-with-selenium-and-the-firefox-selenium-ide/</guid>
       <description>&lt;p&gt;You might like me occasionally want to pull a bit of data from some web site and use that data in a script or process. Some modern web sites are fiendishly complex and don&#39;t have the data you want on a simple API or page that you can parse; instead, you&#39;re expected to navigate through a whole next of menus and links that present the data attractively.&lt;/p&gt;
 
 &lt;p&gt;I&#39;m making a go of tackling this task with Selenium, a browser automation system which can drive browsers like Firefox and Chrome and that can in turn be driven by programming languages like Python.  Some notes.&lt;/p&gt;

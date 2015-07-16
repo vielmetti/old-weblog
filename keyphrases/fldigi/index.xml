@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fldigi on tracker</title>
-    <link>http://vielmetti.github.com/keyphrases/fldigi/</link>
+    <link>http://vielmetti.github.io/keyphrases/fldigi/</link>
     <description>Recent content in Fldigi on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Feb 2014 02:23:19 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/keyphrases/fldigi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/keyphrases/fldigi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>decoding radio digital modes without a radio, using WebSDR and fldigi</title>
-      <link>http://vielmetti.github.com/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</link>
       <pubDate>Sun, 09 Feb 2014 02:23:19 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</guid>
       <description>&lt;p&gt;I&#39;m interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to &#34;listen&#34; to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Fldigi-HB9ERN&#34; title=&#34;Fldigi-HB9ERN&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;

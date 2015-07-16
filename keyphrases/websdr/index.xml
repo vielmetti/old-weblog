@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Websdr on tracker</title>
-    <link>http://vielmetti.github.com/keyphrases/websdr/</link>
+    <link>http://vielmetti.github.io/keyphrases/websdr/</link>
     <description>Recent content in Websdr on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Dec 2014 15:36:26 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/keyphrases/websdr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/keyphrases/websdr/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Listening to Radio Havana Cuba via shortwave</title>
-      <link>http://vielmetti.github.com/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</link>
       <pubDate>Wed, 17 Dec 2014 15:36:26 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</guid>
       <description>&lt;p&gt;Radio Havana Cuba was one of my cold war era shortwave radio presets. I don&#39;t have a working shortwave radio of my own any more, and the miracle of the Internet means that you can now tune in broadcasts directly from the broadcaster without the inconvenience of shortwave tuning.&lt;/p&gt;
 
 &lt;p&gt;The best way really to listen to a station like R Havana Cuba is via shortwave. Here are a couple of ways that you can do that. Note that broadcasts in English are not 24 hours a day, and that shortwave reception varies widely by time of day and location of receiving station.&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Some notes on Echolink and websdr</title>
-      <link>http://vielmetti.github.com/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</link>
       <pubDate>Tue, 09 Dec 2014 01:03:48 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</guid>
       <description>&lt;p&gt;Echolink is a system that lets amateur radio operators transmit from their computer, through a relay at a suitable Echolink server. You have to be a licensed ham to get on the network, and typically there&#39;s a two-way repeater set up to some radio station so that you can hear what&#39;s being said on RF and vice versa.&lt;/p&gt;
 
 &lt;p&gt;websdr is a system that lets anyone listen to a slice of radio spectrum. There are websdr servers running around the globe, each tuned in to some particular slice of the radio waves. Multiple people can tune in at the same time and hear their own piece of the airwaves.&lt;/p&gt;
@@ -51,10 +51,10 @@
     
     <item>
       <title>decoding radio digital modes without a radio, using WebSDR and fldigi</title>
-      <link>http://vielmetti.github.com/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</link>
       <pubDate>Sun, 09 Feb 2014 02:23:19 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</guid>
       <description>&lt;p&gt;I&#39;m interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to &#34;listen&#34; to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Fldigi-HB9ERN&#34; title=&#34;Fldigi-HB9ERN&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;

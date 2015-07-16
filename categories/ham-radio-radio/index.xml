@@ -2,45 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ham Radio Radio on tracker</title>
-    <link>http://vielmetti.github.com/categories/ham-radio-radio/</link>
+    <link>http://vielmetti.github.io/categories/ham-radio-radio/</link>
     <description>Recent content in Ham Radio Radio on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2015 18:50:16 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/ham-radio-radio/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>plane spotting; some quick notes on a new software-defined radio setup</title>
-      <link>http://vielmetti.github.com/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/</link>
-      <pubDate>Mon, 30 Mar 2015 18:50:16 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.com/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0f877ad970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0f877ad970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-29 at 9.50.47 PM&#34; title=&#34;Screen Shot 2015-03-29 at 9.50.47 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0f877ad970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c76ed742970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c76ed742970b img-responsive&#34; style=&#34;width: 490px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-30 at 11.35.53 AM&#34; title=&#34;Screen Shot 2015-03-30 at 11.35.53 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c76ed742970b-500wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;A couple of years ago, I got one of the first-generation RTL-SDR USB software defined radio units. These inexpensive devices are originally designed as TV tuners, but clever radio hackers figured out how to turn them into software-defined radios that tune to a broad spectrum of radio.&lt;/p&gt;
-
-&lt;p&gt;After some experimental use I managed to cook the original unit which in its death throes no longer listened. The vendor (Nooelec) generously offered a modest discount on my next purchase, so I took them up on the 2d generation unit. Same form factor, bright blue in color, and the supplied antenna is a retractable whip with a magnetic base. As always it comes with no documentation and no software (you are expected to provide those).&lt;/p&gt;
-
-&lt;p&gt;I had previously used a version of &#34;gqrx&#34; as a radio receiver, in a package that had been built for the Mac. This time I thought I&#39;d build from source. I went to the &#39;homebrew&#39; port system and found a version that said it worked for OS X 10.10 (Yosemite), but I&#39;m on OS X 10.9 (Mavericks) and the build didn&#39;t work (it crapped out in building scipy). Reading the documentation more closely the distribution says it&#39;s available through Macports, so I installed that and did &#34;sudo port install gnuradio&#34; and &#34;sudo port install gqrx&#34;.&lt;/p&gt;
-
-&lt;p&gt;Macports is one of those amazing feats of modern software engineering where someone (or really a lot of people) have carefully and meticulously figured out how to take a package of source code and make it build, including tracing all of the dependencies upon which everything else needs to be built. For gqrx and GNU Radio this means (at the very bottom) that I had to have a working FORTRAN compiler so that I could compile the FORTRAN code hiding in the numerical analysis libraries. This brings me right back to the 1970s learning FORTRAN at Michigan Tech in their Summer Youth Program. I can&#39;t even imagine how old the code was that I compiled but it might actually date from then.&lt;/p&gt;
-
-&lt;p&gt;Everything did build just fine, and then I had a radio. The first test is always to tune into WCBN, which came in with a strong signal, and to key up my ham radio transmitter via Echolink to make the W8UM repeater make some noise, and to get some weather radio going. Everything I tried worked just fine and passed with flying colors, the gqrx software is more modern than it once was in a couple of very helpful ways.&lt;/p&gt;
-
-&lt;p&gt;Next was to grab one of the many versions of &#34;dump1090&#34; which uses the SDR radio to tune to aircraft ADS-B broadcasts that give you a version of aircraft radar. This also worked well, perhaps better than I could have expected. From home with an antenna in the middle of the house I could hear airplanes just north of Jackson, MI from Ann Arbor, MI (about 40 miles). I relocated to a cafe near the dog park (Ellsworth at Platt) that has a good view of the southern sky, and the same little bitty antenna pulled in reception from airplanes near Fort Wayne, IN (about 120 miles). &lt;/p&gt;
-
-&lt;p&gt;There&#39;s always more to try, of course. GNU Radio is a full toolkit for building your own radio design, complete with FM decoders and the like, and it has a fairly simple to understand user interface compared to how complex the underpinnings are (remember, FORTRAN). There&#39;s lots more software that uses the RTL-SDR libraries and even a port to the Raspberry Pi which I&#39;d like to try.&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Sun, 24 Nov 2013 16:45:56 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/categories/ham-radio-radio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programming your new radio with CHIRP</title>
-      <link>http://vielmetti.github.com/post/2013/2013-11-24-programming-your-new-radio-with-chirp/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-11-24-programming-your-new-radio-with-chirp/</link>
       <pubDate>Sun, 24 Nov 2013 16:45:56 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-11-24-programming-your-new-radio-with-chirp/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-11-24-programming-your-new-radio-with-chirp/</guid>
       <description>&lt;p&gt;From the &lt;a href=&#34;http://chirp.danplanet.com/projects/chirp/wiki/Home&#34;&gt;CHIRP web site&lt;/a&gt; -&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -65,10 +39,10 @@
     
     <item>
       <title>What the W8UM net looks like in software defined radio</title>
-      <link>http://vielmetti.github.com/post/2013/2013-06-02-what-the-w8um-net-looks-like-in-software-defined-radio/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-06-02-what-the-w8um-net-looks-like-in-software-defined-radio/</link>
       <pubDate>Sun, 02 Jun 2013 20:56:40 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-06-02-what-the-w8um-net-looks-like-in-software-defined-radio/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-06-02-what-the-w8um-net-looks-like-in-software-defined-radio/</guid>
       <description>&lt;p&gt;A sample screen grab from tonight&amp;#39;s W8UM net on 145.23. Please note that the radio I&amp;#39;m using looks like it&amp;#39;s out of tune a little bit, since I&amp;#39;m actually listening here on 145.217.&lt;/p&gt;
 &lt;p&gt;
 &lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ce9139f970b-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-06-02 at 8.07.22 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901ce9139f970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ce9139f970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-06-02 at 8.07.22 PM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;It was a good clear strong signal (the red/yellow line), even with the not very good antenna I have; it should be, since the transmitter is only about a mile from here.&lt;/p&gt;

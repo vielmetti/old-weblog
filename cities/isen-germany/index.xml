@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Isen Germany on tracker</title>
-    <link>http://vielmetti.github.com/cities/isen-germany/</link>
+    <link>http://vielmetti.github.io/cities/isen-germany/</link>
     <description>Recent content in Isen Germany on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Dec 2014 01:03:48 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/cities/isen-germany/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/cities/isen-germany/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Some notes on Echolink and websdr</title>
-      <link>http://vielmetti.github.com/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</link>
       <pubDate>Tue, 09 Dec 2014 01:03:48 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</guid>
       <description>&lt;p&gt;Echolink is a system that lets amateur radio operators transmit from their computer, through a relay at a suitable Echolink server. You have to be a licensed ham to get on the network, and typically there&#39;s a two-way repeater set up to some radio station so that you can hear what&#39;s being said on RF and vice versa.&lt;/p&gt;
 
 &lt;p&gt;websdr is a system that lets anyone listen to a slice of radio spectrum. There are websdr servers running around the globe, each tuned in to some particular slice of the radio waves. Multiple people can tune in at the same time and hear their own piece of the airwaves.&lt;/p&gt;

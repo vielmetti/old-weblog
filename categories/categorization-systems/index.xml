@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categorization Systems on tracker</title>
-    <link>http://vielmetti.github.com/categories/categorization-systems/</link>
+    <link>http://vielmetti.github.io/categories/categorization-systems/</link>
     <description>Recent content in Categorization Systems on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jun 2011 14:00:00 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/categorization-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/categorization-systems/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>System mapping</title>
-      <link>http://vielmetti.github.com/post/2011/2011-06-13-system-mapping/</link>
+      <link>http://vielmetti.github.io/post/2011/2011-06-13-system-mapping/</link>
       <pubDate>Mon, 13 Jun 2011 14:00:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2011/2011-06-13-system-mapping/</guid>
+      <guid>http://vielmetti.github.io/post/2011/2011-06-13-system-mapping/</guid>
       <description>&lt;p&gt;It&amp;#39;s always good to collect a lot of examples as you look to map out a system. For that you want to have generative tools that suggest the kinds of examples that you want to look for.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34; target=&#34;_self&#34;&gt;power outage maps I have been collecting&lt;/a&gt; started with the generative system of making a blank entry for each of 50 states, and looking to collect one in each state. I&amp;#39;ve done similar exercises where the generator is the first letter of the alphabet collecting examples A-Z. You are looking for breadth in your view, and something that constrains the search so that you don&amp;#39;t spend too much time in one place before going on.&lt;/p&gt;
 &lt;p&gt;It helps to have some kind of rudimentary ranking algorithm when wrapping up your search, so that you can look for gaps into which another example will fit. The utility map effort looks like it&amp;#39;s going to generate a simple checklist for each map, so that I can give each one a score on completeness (0 = no map, add 1 for county by county stats, add 1 for city by city stats, add 1 for zoom to the outage, add 1 for systemwide counts etc).&lt;/p&gt;

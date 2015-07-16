@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lightning on tracker</title>
-    <link>http://vielmetti.github.com/maps/lightning/</link>
+    <link>http://vielmetti.github.io/maps/lightning/</link>
     <description>Recent content in Lightning on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 10:39:24 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/maps/lightning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/maps/lightning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Using blitzortung.org and lightningmaps.org to watch lightning roll in</title>
-      <link>http://vielmetti.github.com/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</link>
       <pubDate>Wed, 24 Jun 2015 10:39:24 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a3e4ed970b img-responsive&#34; style=&#34;width: 332px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; title=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-350wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;A brief note on two pages I refer to during severe weather, like the storms that rolled through the area on Monday night and Tuesday early morning that led to &lt;a href=&#34;https://localwiki.org/ann-arbor/June_2015_Manchester_tornado&#34;&gt;tornado damage in Manchester&lt;/a&gt; on the morning of June 23, 2015.&lt;/p&gt;
@@ -32,11 +32,29 @@
     </item>
     
     <item>
+      <title>22-23 July 2014 Lightning storms over Lake Michigan</title>
+      <link>http://vielmetti.github.io/post/2014/2014-07-22-22-23-july-2014-lightning-storms-over-lake-michigan/</link>
+      <pubDate>Tue, 22 Jul 2014 23:40:54 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-07-22-22-23-july-2014-lightning-storms-over-lake-michigan/</guid>
+      <description>&lt;p&gt;This map from &lt;a href=&#34;http://lightningmaps.org&#34;&gt;LightningMaps.ORG&lt;/a&gt; shows lightning over Lake Michigan and into Ottawa County, Michigan at about 11:15 p.m on 22 July 2014. Note the strong line of storms crossing the lake.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a511e73a00970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a511e73a00970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Lightning-map-22-july-2014-2321-est&#34; title=&#34;Lightning-map-22-july-2014-2321-est&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a511e73a00970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The corresponding power outage map is from &lt;a href=&#34;http://www.consumersenergy.com/outagemap&#34;&gt;Consumers Energy&lt;/a&gt;. Outage reporting generally lags behind realtime by 15-30 minutes, and of course not every lightning strike turns into a power problem (though sometimes it seems like it does).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/ctid/1296&#34;&gt;Ottawa County, Michigan radio feeds&lt;/a&gt; are available on Broadcastify. &lt;/p&gt;
+
+&lt;p&gt;It appears that the SKYWARN repeater&#39;s internet feed (147.060 K8DAA repeater, owned by the &lt;a href=&#34;http://www.hollandarc.org/&#34;&gt;Holland Amateur Radio Club&lt;/a&gt; in Holland, Michigan) is offline. Look up &lt;a href=&#34;http://www.repeaterbook.com/repeaters/details.php?state_id=26&amp;amp;ID=155&#34;&gt;K8DAA&lt;/a&gt; on Repeaterbook to get contact details. &#34;Membership in the Holland Amateur Radio Club is open to any and all persons who have an interest in amateur radio.&#34;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lightning map from StrikeStar</title>
-      <link>http://vielmetti.github.com/post/2010/2010-06-02-lightning-map-from-strikestar/</link>
+      <link>http://vielmetti.github.io/post/2010/2010-06-02-lightning-map-from-strikestar/</link>
       <pubDate>Wed, 02 Jun 2010 22:02:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2010/2010-06-02-lightning-map-from-strikestar/</guid>
+      <guid>http://vielmetti.github.io/post/2010/2010-06-02-lightning-map-from-strikestar/</guid>
       <description>&lt;p&gt;This&amp;#0160;lightning map for the continential US from &lt;a href=&#34;http://www.strikestarus.com/index.aspx?id=10&#34;&gt;StrikeStar&lt;/a&gt;&amp;#0160;is new to me for the season - you can really see storms move across the landscape if you only look for lightning bolts.&lt;/p&gt;&lt;p&gt;&amp;#0160;
 &lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef013482cce953970c-pi&#34;&gt;&lt;img alt=&#34;Image_gen.aspx&#34; border=&#34;0&#34; class=&#34;asset asset-image at-xid-6a00d8341c4f1a53ef013482cce953970c image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef013482cce953970c-800wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Image_gen.aspx&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&amp;#0160;&lt;/p&gt;
 </description>

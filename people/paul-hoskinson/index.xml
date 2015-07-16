@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Hoskinson on tracker</title>
-    <link>http://vielmetti.github.com/people/paul-hoskinson/</link>
+    <link>http://vielmetti.github.io/people/paul-hoskinson/</link>
     <description>Recent content in Paul Hoskinson on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Jun 2011 11:00:00 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/people/paul-hoskinson/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/people/paul-hoskinson/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Supermemo, spaced repetition and time-structured randomness</title>
-      <link>http://vielmetti.github.com/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</link>
+      <link>http://vielmetti.github.io/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</link>
       <pubDate>Mon, 06 Jun 2011 11:00:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</guid>
+      <guid>http://vielmetti.github.io/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Picture 4&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538eec7f78970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Picture 4&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;#39;ve written about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/08/supermemo-repet.html&#34; target=&#34;_self&#34;&gt;Supermemo&lt;/a&gt; before, a system for focusing your attention on things that you have previously learned in such a way that you reinforce long term memory. Given a set of items which you were confident in at a stage in the past, identify a way to re-test yourself on that confidence. Space out those retest intervals so that you keep the learning from decaying into nothingness. Repetition is the very soul of the net, and if you are careful you can repeat at intervals that don&amp;#39;t overwhelm.&lt;/p&gt;
 &lt;p&gt;New to me this week is a similar spaced repetition training tool focused on short term memory. Referred to as &amp;quot;&lt;a href=&#34;http://en.wikipedia.org/wiki/N-back&#34; target=&#34;_self&#34;&gt;N-back&lt;/a&gt;&amp;quot; (Wikipedia), it looks at turning the process of matching repetitive items in a sequence into a game, with higher scores if you can recall that e.g. 3 letters ago there was also an &amp;#39;x&amp;#39; in the string. The application &lt;a href=&#34;http://brainworkshop.sourceforge.net/&#34; target=&#34;_self&#34;&gt;Brain Workshop&lt;/a&gt;&amp;#0160;was created by Paul Hoskinson and lets you play with your current skills; I haven&amp;#39;t seen anyone render this into hardware a la the old game of &lt;strong&gt;Simon&lt;/strong&gt;.&lt;/p&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Information Security Infrastructure on tracker</title>
-    <link>http://vielmetti.github.com/categories/information-security-infrastructure/</link>
+    <link>http://vielmetti.github.io/categories/information-security-infrastructure/</link>
     <description>Recent content in Information Security Infrastructure on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Aug 2013 11:34:17 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/information-security-infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/information-security-infrastructure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Need: A login and registration system for a free WiFi network</title>
-      <link>http://vielmetti.github.com/post/2013/2013-08-26-need-a-login-and-registration-system-for-a-free-wifi-network-/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-08-26-need-a-login-and-registration-system-for-a-free-wifi-network-/</link>
       <pubDate>Mon, 26 Aug 2013 11:34:17 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-08-26-need-a-login-and-registration-system-for-a-free-wifi-network-/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-08-26-need-a-login-and-registration-system-for-a-free-wifi-network-/</guid>
       <description>&lt;p&gt;A note from Steve Pierce regarding a request for ideas and code to help people log into a free WiFi mesh network. Contact him for details at bottom.&lt;/p&gt;
 
 &lt;hr/&gt;

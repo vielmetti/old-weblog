@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android Productivity on tracker</title>
-    <link>http://vielmetti.github.com/categories/android-productivity/</link>
+    <link>http://vielmetti.github.io/categories/android-productivity/</link>
     <description>Recent content in Android Productivity on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Nov 2013 14:57:31 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/android-productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/android-productivity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Octodroid is a Github client for Android</title>
-      <link>http://vielmetti.github.com/post/2013/2013-11-24-octodroid-is-a-github-client-for-android/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-11-24-octodroid-is-a-github-client-for-android/</link>
       <pubDate>Sun, 24 Nov 2013 14:57:31 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-11-24-octodroid-is-a-github-client-for-android/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-11-24-octodroid-is-a-github-client-for-android/</guid>
       <description>&lt;p&gt;I&#39;m using Github as a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34;&gt;personal issue tracker&lt;/a&gt;, still using it in fact for a whole year. It says that I&#39;ve crossed 1200+ things off my todo lists and still have 70+ left to go. Unlike &#34;inbox zero&#34;, I&#39;m resigned to the notion that my todo list will hover somewhere between 60 and 90 things to do at any time.&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;inbox zero just means that my todo list is full&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/statuses/384368542616805376&#34;&gt;September 29, 2013&lt;/a&gt;&lt;/blockquote&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Being partially online is worse than either being online or being offline</title>
-      <link>http://vielmetti.github.com/post/2013/2013-03-24-being-partially-online-is-worse-than-either-being-online-or-being-offline/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-03-24-being-partially-online-is-worse-than-either-being-online-or-being-offline/</link>
       <pubDate>Sun, 24 Mar 2013 12:53:12 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-03-24-being-partially-online-is-worse-than-either-being-online-or-being-offline/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-03-24-being-partially-online-is-worse-than-either-being-online-or-being-offline/</guid>
       <description>&lt;p&gt;&lt;p&gt;There&amp;rsquo;s nothing more frustrating to me than being almost but not quite on the Internet, as I discovered today when going to a cafe (unnamed, but &lt;a href=&#34;http://arborwiki.org/Grand_Traverse_Pie_Company&#34; target=&#34;_self&#34;&gt;linked&lt;/a&gt;) which advertised free wifi. My connections were slow and unreliable and frustrating to use. It looks like you&amp;rsquo;re online but any applications that depend on always-on Internet for their well being work out badly.&lt;/p&gt;
 &lt;p&gt;The best reaction that I have for this state of interrupted connectivity is to go offline and write in my little notebook. I&amp;rsquo;ve written before about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/03/pocket-twitter-a-suitable-replacement-for-the-internet-when-offline.html&#34; target=&#34;_self&#34;&gt;Pocket Twitter&lt;/a&gt;; there&amp;rsquo;s also a very effective &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34; target=&#34;_self&#34;&gt;Pocket Issue Tracker&lt;/a&gt; where you write down things to do and then re-sync them with your online issue tracker once you are online again.&lt;/p&gt;
 &lt;p&gt;There is technology that will help this state of interrupted connectivity, and I use it when I can. Of all of the applications that I use, &lt;a href=&#34;http://mail.google.com&#34; target=&#34;_self&#34;&gt;Gmail&lt;/a&gt; and &lt;a href=&#34;http://www.evernote.com&#34; target=&#34;_self&#34;&gt;Evernote&lt;/a&gt; are the two that have the best developed clients that can intelligently buffer things when you&amp;rsquo;re offline. If I have my laptop and no connectivity, I can also use &amp;ldquo;git&amp;rdquo; and &amp;ldquo;vim&amp;rdquo; to work on my writing projects, knowing that a &amp;ldquo;git push origin master&amp;rdquo; command will resync when I&amp;rsquo;m ready to update changes.&lt;/p&gt;

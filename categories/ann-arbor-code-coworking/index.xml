@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ann Arbor Code Coworking on tracker</title>
-    <link>http://vielmetti.github.com/categories/ann-arbor-code-coworking/</link>
+    <link>http://vielmetti.github.io/categories/ann-arbor-code-coworking/</link>
     <description>Recent content in Ann Arbor Code Coworking on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Nov 2008 14:00:00 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/ann-arbor-code-coworking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/ann-arbor-code-coworking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>coffee house coders: Wednesdays, 9pm-11pm Eastern, Espresso Royale Cafe, State St</title>
-      <link>http://vielmetti.github.com/post/2008/2008-11-05-coffee-house-coders-wednesdays-9pm-11pm-eastern-espresso-royale-cafe-state-st/</link>
+      <link>http://vielmetti.github.io/post/2008/2008-11-05-coffee-house-coders-wednesdays-9pm-11pm-eastern-espresso-royale-cafe-state-st/</link>
       <pubDate>Wed, 05 Nov 2008 14:00:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2008/2008-11-05-coffee-house-coders-wednesdays-9pm-11pm-eastern-espresso-royale-cafe-state-st/</guid>
+      <guid>http://vielmetti.github.io/post/2008/2008-11-05-coffee-house-coders-wednesdays-9pm-11pm-eastern-espresso-royale-cafe-state-st/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.google.com/search?q=coffee+house+coders+ann+arbor&#34;&gt;Coffee House Coders&lt;/a&gt; is a programmer&amp;#39;s group that meets Wednesday nights at ERC State St in Ann Arbor.&amp;#0160; A large long table in the back hosts a dozen or so laptops, and the assembled crowd works on whatever code they are working on.&lt;/p&gt;&lt;p&gt;Organized by &lt;a href=&#34;http://www.linkedin.com/pub/5/a81/b21&#34;&gt;Zach Steindler&lt;/a&gt; and &lt;a href=&#34;http://www.linkedin.com/pub/2/b66/245&#34;&gt;Matt Pizzimenti&lt;/a&gt;, this group when I visited last week was mostly current and recent UM engineering students, with a few people from out of town visiting old friends.&amp;#0160;&amp;#0160; I saw a demo of a new product under development by &lt;a href=&#34;http://occipital.com/blog/&#34;&gt;Occiptal&lt;/a&gt;, which looked kind of like Doom set in cities, designed to run on a mobile phone.&amp;#0160; &lt;/p&gt;&lt;p&gt;At Coffee House Coders I learned about &lt;a href=&#34;http://incubator.apache.org/couchdb/&#34;&gt;CouchDB, an object database&lt;/a&gt; which has an interesting data model - throw JSON objects into a big flat store, and retrieve them with Javascript map/reduce functions.&amp;#0160; &lt;a href=&#34;http://joechip.net/brian&#34;&gt;My favorite Django person, Brian Kerr&lt;/a&gt;, pointed me at &lt;a href=&#34;http://wiki.apache.org/couchdb/How_to_store_hierarchical_data&#34;&gt;a tutorial on how to implement a hierarchical database in this system.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;One notable aspect of Coffee House Coders is that they don&amp;#39;t try to create an existence for the group between meetings; there&amp;#39;s no ongoing email list as such for discussion, and no permanent home on the web for chit-chat.&amp;#0160; To make up for that, their network is online and connected when the meeting happens via IRC (irc.freenode.net, channel #coffeehousecoders; &lt;a href=&#34;http://www.mibbit.com/&#34;&gt;I used Mibbit as a client&lt;/a&gt;), Twitter (#coffeehousecoders), and Skype (coffeehousecoders).&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://groups.google.com/group/a2geeks&#34;&gt;The a2geeks mailing list is used to gently nudge people to show up. &lt;br /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;update: add both zach and matt&amp;#39;s names.&lt;/p&gt;
 
 

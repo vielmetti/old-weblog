@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arborwiki on tracker</title>
-    <link>http://vielmetti.github.com/categories/arborwiki/</link>
+    <link>http://vielmetti.github.io/categories/arborwiki/</link>
     <description>Recent content in Arborwiki on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 May 2014 14:18:24 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/arborwiki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/arborwiki/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Arborwiki is now hosted on Localwiki</title>
-      <link>http://vielmetti.github.com/post/2014/2014-05-02-arborwiki-is-now-hosted-on-localwiki/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-05-02-arborwiki-is-now-hosted-on-localwiki/</link>
       <pubDate>Fri, 02 May 2014 14:18:24 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-05-02-arborwiki-is-now-hosted-on-localwiki/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-05-02-arborwiki-is-now-hosted-on-localwiki/</guid>
       <description>&lt;p&gt;The latest update for Arborwiki is that the database is now hosted on the Localwiki central platform. This gives us updated maps, current software, and additional central hosting support. The cut over was on May 1, 2014.&lt;/p&gt;
 
 &lt;p&gt;All of the old Arborwiki URLs still work; you can get to the home page at &lt;a href=&#34;http://localwiki.net/ann-arbor&#34;&gt;http://localwiki.net/ann-arbor&lt;/a&gt; or at &lt;a href=&#34;http://arborwiki.org&#34;&gt;http://arborwiki.org&lt;/a&gt; . We fixed a temporary problem where old URLs with a /city/ prefix stopped working.&lt;/p&gt;

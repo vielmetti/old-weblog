@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Outages on tracker</title>
-    <link>http://vielmetti.github.com/maps/power-outages/</link>
+    <link>http://vielmetti.github.io/maps/power-outages/</link>
     <description>Recent content in Power Outages on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Mar 2015 11:14:50 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/maps/power-outages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/maps/power-outages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cleaning polygons in R and Shapely</title>
-      <link>http://vielmetti.github.com/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</link>
       <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</guid>
       <description>&lt;p&gt;The project of the week has been an effort to generate a set of maps - 2935 of them, in fact. The source data is from the Department of Energy, listing a set of utility companies and the counties they cover; the goal is to have a boundary map generated for each utility company. I know it won&#39;t be a perfect boundary (most utility companies have at least one county that they only provide service to part of), but as a start it&#39;s a pretty good one.&lt;/p&gt;
 
 &lt;p&gt;The DOE data is based on their Form EIA-861, and I&#39;m working from the 2013 data set. See &lt;a href=&#34;http://www.eia.gov/electricity/data/eia861/&#34;&gt;Electric power sales, revenue, and energy efficiency Form EIA-861 detailed data files&lt;/a&gt; if you want to get your own files. It&#39;s provided as Excel (XLSX) files, so you&#39;ll need something compatible to read them; I ended up using &lt;a href=&#34;http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html&#34;&gt;in2csv from csvkit&lt;/a&gt; as the first part of the pipeline to break these apart.&lt;/p&gt;
@@ -78,11 +78,27 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
     </item>
     
     <item>
+      <title>Severe storms of October 2, 2014 hit the Dallas-Fort Worth area; Oncor power outage map shows the storm track</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/</link>
+      <pubDate>Fri, 03 Oct 2014 09:48:25 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/</guid>
+      <description>&lt;p&gt;The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The &lt;a href=&#34;http://thescoopblog.dallasnews.com/2014/10/as-north-texas-experiences-exceptional-drought-for-first-time-since-2011-rain-and-cooler-temperatures-expected-today.html/&#34;&gt;Dallas Morning News live blog&lt;/a&gt; details the impact, with more than 250,000 people without power.&lt;/p&gt;
+
+&lt;p&gt;This outage map from about 7:00 p.m. that evening shows the extent of the damage.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ec75d0970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; title=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are. The &lt;a href=&#34;http://stormcenter.oncor.com/default.html&#34;&gt;Oncor Storm Center&lt;/a&gt; page was what people were focusing on, so I took a look. Oncor&#39;s map is built by iFactor, which does maps for a lot of utility companies. Alas the most useful view for a big storm - outages by zip code - is hidden under a menu, but once you find it you can get a nice colorful overview of where things are the worst.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Power outage maps</title>
-      <link>http://vielmetti.github.com/post/2008/2008-09-03-power-outage-ma/</link>
+      <link>http://vielmetti.github.io/post/2008/2008-09-03-power-outage-ma/</link>
       <pubDate>Wed, 03 Sep 2008 16:26:16 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2008/2008-09-03-power-outage-ma/</guid>
+      <guid>http://vielmetti.github.io/post/2008/2008-09-03-power-outage-ma/</guid>
       <description>&lt;p&gt;Whenever the power goes out, there&#39;s a burst of search traffic by people to try to figure out what is going on and when the lights will be back on.&lt;/p&gt;
 
 &lt;p&gt;Lots of utility companies have outage management systems which provide some widely varied amount of information about what&#39;s going on - there&#39;s a bunch of vendors, no obvious standards being used, and even file formats and page styles are all over the place.&amp;nbsp; With hurricanes on their way, and dozens of different electric companies dealing with possible problems, it looked like a mess.&amp;nbsp; So I made a map.&lt;/p&gt;

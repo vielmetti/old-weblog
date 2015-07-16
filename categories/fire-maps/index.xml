@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fire Maps on tracker</title>
-    <link>http://vielmetti.github.com/categories/fire-maps/</link>
+    <link>http://vielmetti.github.io/categories/fire-maps/</link>
     <description>Recent content in Fire Maps on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Sep 2011 10:40:58 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/fire-maps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/fire-maps/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Fire map layer on Weather Underground&#39;s WunderMap for Central Texas fires</title>
-      <link>http://vielmetti.github.com/post/2011/2011-09-06-central-texas-fires/</link>
+      <link>http://vielmetti.github.io/post/2011/2011-09-06-central-texas-fires/</link>
       <pubDate>Tue, 06 Sep 2011 10:40:58 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2011/2011-09-06-central-texas-fires/</guid>
+      <guid>http://vielmetti.github.io/post/2011/2011-09-06-central-texas-fires/</guid>
       <description>&lt;p&gt;Labor Day was a particularly bad day for fires in central Texas. If you&amp;#39;re in that area, you may be looking for maps of where the fires are around you. Of course, you&amp;#39;re already listening to local radio and television for news that you would need to make a decision quickly.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;http://www.wunderground.com/wundermap/fire&#34; target=&#34;_self&#34;&gt;Weather Underground&amp;#39;s &amp;quot;WunderMap&amp;quot; product has a &amp;quot;fire&amp;quot; layer&lt;/a&gt;, which displays smoke plumes, areas that have active fires, and the perimeters of contained fires. Here&amp;#39;s a sample from September 6, 2011 in the morning for the &lt;a href=&#34;http://www.wunderground.com/wundermap/?lat=30.25314&amp;amp;lon=-97.60391&amp;amp;zoom=8&amp;amp;type=hyb&amp;amp;units=english&amp;amp;rad=1&amp;amp;rad.num=1&amp;amp;rad.spd=25&amp;amp;rad.opa=70&amp;amp;rad.stm=0&amp;amp;rad.type=N0R&amp;amp;rad.type2=&amp;amp;rad.smo=0&amp;amp;rad.mrg=0&amp;amp;wxsn=0&amp;amp;svr=0&amp;amp;cams=0&amp;amp;sat=0&amp;amp;riv=0&amp;amp;mm=0&amp;amp;hur=0&amp;amp;fire=1&amp;amp;fire.sat=1&amp;amp;fire.smk=1&amp;amp;fire.day=1&amp;amp;fire.day=7&amp;amp;fire.hrmin=0&amp;amp;fire.hrmax=24&amp;amp;fire.opa=70&amp;amp;fire.mode=0&amp;amp;tor=0&amp;amp;ndfd=0&amp;amp;pix=0&amp;amp;dir=0&amp;amp;ads=0&amp;amp;dd=0&amp;amp;tfk=0&amp;amp;ski=0&amp;amp;stormreports=0&#34; target=&#34;_self&#34;&gt;Austin, Texas&lt;/a&gt; area.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01543530de57970c-pi&#34;&gt;&lt;img alt=&#34;Texas-fire-map-wundermap&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01543530de57970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01543530de57970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Texas-fire-map-wundermap&#34; /&gt;&lt;/a&gt; &lt;br /&gt;The NOAA &lt;a href=&#34;http://www.ssd.noaa.gov/PS/FIRE/hms.html&#34; target=&#34;_self&#34;&gt;Hazard Mapping System Fire and Smoke Product&lt;/a&gt;&amp;#0160;has a comprehensive index to many smoke and fire related data analysis tools, including detailed current and historic analyzed satellite imagery and other processed and raw data.&amp;#0160;&lt;/p&gt;
@@ -34,10 +34,10 @@
     
     <item>
       <title>June 2011 Howes Lake Wildfire west of Grayling, Michigan (Crawford, Kalkaska counties)</title>
-      <link>http://vielmetti.github.com/post/2011/2011-06-07-howes-lake-fire-grayling/</link>
+      <link>http://vielmetti.github.io/post/2011/2011-06-07-howes-lake-fire-grayling/</link>
       <pubDate>Tue, 07 Jun 2011 16:37:42 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2011/2011-06-07-howes-lake-fire-grayling/</guid>
+      <guid>http://vielmetti.github.io/post/2011/2011-06-07-howes-lake-fire-grayling/</guid>
       <description>&lt;p&gt;Update June 8, 2011: the &lt;span style=&#34;background-color: #ffbfdf;&#34;&gt;Howes Lake Wildfire&lt;/span&gt; has been contained.  Here is a wildfire map, from the Michigan DNR. See also an &lt;a href=&#34;http://www.michigan.gov/documents/dnr/fmd_Howes_Lake_Fire__IAP_060811_354966_7.pdf&#34;&gt;incident action plan&lt;/a&gt; (PDF), &lt;a href=&#34;http://www.michigan.gov/documents/dnr/fmd_20110608_0147_Howes_Lake_Fire_IAP_20110608day_85X11_port_354970_7.pdf&#34;&gt;8.5 x 11&amp;quot; version of this map&lt;/a&gt;, and an &lt;a href=&#34;http://www.michigan.gov/documents/dnr/fmd_20110608_0822_Howes_Lake_Fire_Transportation_85X11_port_354969_7.pdf&#34;&gt;area map&lt;/a&gt; for reference.&lt;/p&gt;
 &lt;p&gt;News stories, many of which have photos: Andrew Keller at UpNorthLive: &lt;a href=&#34;http://www.upnorthlive.com/news/story.aspx?id=627606&#34; target=&#34;_self&#34;&gt;&amp;quot;Families go home&amp;quot;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;

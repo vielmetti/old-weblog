@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on tracker</title>
+    <link>http://vielmetti.github.io/categories/analytics/</link>
+    <description>Recent content in Analytics on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Apr 2014 22:37:24 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/categories/analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>April 2014 Web Analytics Wednesday at Enlighten, a meeting non-summary</title>
+      <link>http://vielmetti.github.io/post/2014/2014-04-02-april-2014-web-analytics-wednesday-at-enlighten-a-meeting-non-summary/</link>
+      <pubDate>Wed, 02 Apr 2014 22:37:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-04-02-april-2014-web-analytics-wednesday-at-enlighten-a-meeting-non-summary/</guid>
+      <description>&lt;p&gt;We had 11 in attendance for the April 2014 edition of the &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/&#34;&gt;Ann Arbor Web Analytics Wednesday&lt;/a&gt; group, which meets roughly monthly at &lt;a href=&#34;https://www.enlighten.com/&#34;&gt;Enlighten&lt;/a&gt; on the west side of Ann Arbor. This month&#39;s meeting was sponsored by &lt;a href=&#34;http://tealium.com/&#34;&gt;Tealium&lt;/a&gt;, a tag management vendor. Thanks to Chris Grant for being my co-organizer for the event. &lt;/p&gt;
+
+&lt;p&gt;I won&#39;t try to summarize what was said by whom in what order, because discussion went around and around the table a few times. What I will try to capture is some of the topics we talked about, or talked about wanting to talk about more at future meetings. This includes (in alphabetical order)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.businesscatalyst.com/&#34;&gt;Adobe Business Catalyst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.adobe.com/solutions/digital-analytics.html&#34;&gt;Adobe SiteCatalyst&lt;/a&gt; (formerly Omniture)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.clicktale.com/&#34;&gt;Clicktale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://clicky.com/100608222&#34;&gt;Clicky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.crazyegg.com/&#34;&gt;Crazy Egg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Do you give people access to raw data?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.edwardtufte.com/tufte/&#34;&gt;Edward Tufte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.google.com/analytics/&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Michael Beasley&#39;s book on analytics, &lt;a href=&#34;http://www.amazon.com/Practical-Web-Analytics-User-Experience/dp/0124046193&#34;&gt;Practical Web Analytics for User Experience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mousestats.com/&#34;&gt;Mousestats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qualaroo.com/&#34;&gt;Qualaroo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.salesforcemarketingcloud.com/products/social-media-listening/&#34;&gt;Radian6&lt;/a&gt; from Salesforce&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.perceptualedge.com/&#34;&gt;Stephen Few&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tealium.com/&#34;&gt;Tealium&lt;/a&gt; tag management, this month&#39;s sponsor&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wolfram.com/language/&#34;&gt;Wolfram Language&lt;/a&gt;, for linguistic and sentiment analysis&lt;/li&gt;
+&lt;li&gt;analytics to inform application design&lt;/li&gt;
+&lt;li&gt;competitive analysis&lt;/li&gt;
+&lt;li&gt;confetti maps (from &lt;a href=&#34;http://www.crazyegg.com/&#34;&gt;Crazy Egg&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Correlogram&#34;&gt;correlogram&lt;/a&gt; to show what people do on your site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Heat_map&#34;&gt;heat maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;information architecture&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://portfoliostud.io&#34;&gt;portfoliostud.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;social listening&lt;/li&gt;
+&lt;li&gt;stitching of user identity across devices&lt;/li&gt;
+&lt;li&gt;survey tools&lt;/li&gt;
+&lt;li&gt;tag management&lt;/li&gt;
+&lt;li&gt;user experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If any of these terms resonate with you, please consider coming to a future &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/&#34;&gt;Ann Arbor Web Analytics Wednesday&lt;/a&gt;! We organize with a &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/&#34;&gt;Meetup group&lt;/a&gt;, or you can go to the &lt;a href=&#34;http://www.webanalyticsdemystified.com/wednesday/&#34;&gt;Web Analytics Wednesday main page&lt;/a&gt; and find future dates.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis paralysis</title>
+      <link>http://vielmetti.github.io/post/2014/2014-01-19-analysis-paralysis/</link>
+      <pubDate>Sun, 19 Jan 2014 14:55:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-01-19-analysis-paralysis/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51124a97a970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a51124a97a970c img-responsive&#34; alt=&#34;Right-now-0-active-visitors-on-site&#34; title=&#34;Right-now-0-active-visitors-on-site&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51124a97a970c-800wi&#34; border=&#34;0&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a bunch of tools that tell me what people have looked at on the net, including Google Analytics, Google Webmaster Tools, Clicky, and some Twitter tools. It&#39;s fascinating to see people&#39;s attention move around and occasionally reanimate something that I wrote months or years ago.&lt;/p&gt;
+
+&lt;p&gt;What these tools don&#39;t easily do is tell me what to write about next. Yes, sometimes they suggest missing things that should be expanded on, and looking at Twitter stats is endlessly fascinating. But that&#39;s a large part of the problem - the endless fascination gets in the way of applying fingers to the keyboard and creating something brand new.&lt;/p&gt;
+
+&lt;p&gt;It&#39;s easy to get distracted by the sorts of things that are meant to help you out. It&#39;s hard to be analytical and dispassionate about your past work while at the same time you&#39;re trying to create new work. Not everything worth writing has to rank highly on a search engine or get lots of referral traffic; sometimes, you just need to create something even if it&#39;s only for you to stretch your fingers. &lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

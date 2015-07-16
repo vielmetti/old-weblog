@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sidebars on tracker</title>
-    <link>http://vielmetti.github.com/sidebar/</link>
+    <link>http://vielmetti.github.io/sidebar/</link>
     <description>Recent content in Sidebars on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jul 2015 02:32:07 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/sidebar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/sidebar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Calendar of events</title>
-      <link>http://vielmetti.github.com/sidebar/calendar/</link>
+      <link>http://vielmetti.github.io/sidebar/calendar/</link>
       <pubDate>Tue, 14 Jul 2015 02:32:07 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/sidebar/calendar/</guid>
+      <guid>http://vielmetti.github.io/sidebar/calendar/</guid>
       <description>
 
 &lt;h3 id=&#34;calendar-of-events:a631103cf606bbead447236a29c6889e&#34;&gt;Calendar of events&lt;/h3&gt;

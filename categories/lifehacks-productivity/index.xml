@@ -2,29 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lifehacks Productivity on tracker</title>
-    <link>http://vielmetti.github.com/categories/lifehacks-productivity/</link>
+    <link>http://vielmetti.github.io/categories/lifehacks-productivity/</link>
     <description>Recent content in Lifehacks Productivity on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2014 22:13:17 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/lifehacks-productivity/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Deadlines have a way of focusing the mind</title>
-      <link>http://vielmetti.github.com/post/2014/2014-09-01-deadlines-have-a-way-of-focusing-the-mind/</link>
-      <pubDate>Mon, 01 Sep 2014 22:13:17 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.com/post/2014/2014-09-01-deadlines-have-a-way-of-focusing-the-mind/</guid>
-      <description>&lt;p&gt;So I&#39;ve given myself an arbitrary deadline; write until the battery runs out, and then plug in and don&#39;t use the computer again for the day. At the very least I will type faster when the timer ticks down to 0:04. (The phone still has power though.)&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Mon, 27 May 2013 16:40:35 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/categories/lifehacks-productivity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Yesterbox: answer yesterday&#39;s email, today</title>
-      <link>http://vielmetti.github.com/post/2013/2013-05-27-yesterbox-answer-yesterdays-email-today/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-05-27-yesterbox-answer-yesterdays-email-today/</link>
       <pubDate>Mon, 27 May 2013 16:40:35 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-05-27-yesterbox-answer-yesterdays-email-today/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-05-27-yesterbox-answer-yesterdays-email-today/</guid>
       <description>&lt;p&gt;&lt;p&gt;&lt;a href=&#34;http://yesterbox.com&#34; target=&#34;_self&#34;&gt;Yesterbox&lt;/a&gt; is a technique from Zappo&amp;#39;s CEO Tony Hseih that redefines the task of email management. Rather than aim for an &amp;quot;inbox zero&amp;quot; for today&amp;#39;s email (a never-ending task), he calls for answering today&amp;#39;s mail tomorrow, and yesterday&amp;#39;s mail today. Every message gets a one day delay unless it&amp;#39;s so urgent that has to be dealt with right away.&lt;/p&gt;
 &lt;p&gt;The biggest problem with &amp;quot;inbox zero&amp;quot; is that it&amp;#39;s impossible to be caught up for any length of time, since you need to be always on the alert for new messages. In contrast, &amp;quot;yesterbox&amp;quot; gives you a finite number of messages to work through from yesterday, and once you&amp;#39;re done, you&amp;#39;re done. There&amp;#39;s no need to feel guilty, no need to feel like you&amp;#39;re procrastinating, and no need to obsessively check today&amp;#39;s messages. They can all be dealt with tomorrow.&lt;/p&gt;
 &lt;p&gt;Hseih estimates that it takes him three hours to plow through a day&amp;#39;s messages, and he puts that time on his calendar in the morning to handle the previous day&amp;#39;s correspondence. That&amp;#39;s the world of a busy and successful CEO - you might well have a different time chunk that you&amp;#39;d need to commit to, probably a lot less.&lt;/p&gt;

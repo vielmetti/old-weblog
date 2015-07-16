@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tracker</title>
-    <link>http://vielmetti.github.com/</link>
+    <link>http://vielmetti.github.io/</link>
     <description>Recent content on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jul 2015 15:47:24 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>diligently editing and converting for production</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</link>
       <pubDate>Wed, 15 Jul 2015 15:47:24 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m trying my best to get this blog ready for production.
 The tasks remaining include the following.&lt;/p&gt;
 
@@ -61,10 +61,10 @@ imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out and it seems to 
     
     <item>
       <title>a great many things</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-14-a-great-many-things/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-a-great-many-things/</link>
       <pubDate>Tue, 14 Jul 2015 22:26:21 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-14-a-great-many-things/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-a-great-many-things/</guid>
       <description>&lt;p&gt;This weblog, which may or may not ever see the
 light of day, is about a great many things.&lt;/p&gt;
 
@@ -109,10 +109,10 @@ now, but if I re-serialized it, it might do the trick.&lt;/p&gt;
     
     <item>
       <title>the hugo cookbook</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-14-the-hugo-cookbook/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-the-hugo-cookbook/</link>
       <pubDate>Tue, 14 Jul 2015 20:55:47 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-14-the-hugo-cookbook/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-the-hugo-cookbook/</guid>
       <description>&lt;p&gt;Every technology for publishing eventually gets used to publish
 recipes. This collection of mine here is not an exception.&lt;/p&gt;
 
@@ -134,10 +134,10 @@ of that post, sorted alphabetically. I think I can make that work.&lt;/p&gt;
     
     <item>
       <title>sweet potato cauliflower soup recipe</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</link>
       <pubDate>Tue, 14 Jul 2015 18:15:02 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</guid>
       <description>&lt;p&gt;Some sweet potato cauliflower soup recipes:&lt;/p&gt;
 
 &lt;p&gt;Allyson Kramer likes hers with a bit of garam masala:&lt;/p&gt;
@@ -158,10 +158,10 @@ of that post, sorted alphabetically. I think I can make that work.&lt;/p&gt;
     
     <item>
       <title>Publishing from Hugo to Github Pages</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</link>
       <pubDate>Tue, 14 Jul 2015 17:20:08 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</guid>
       <description>&lt;p&gt;One of the challenges in getting things started is figuring
 out where the end product is going to live. Hugo has its own
 web server which is pretty nice, but since it generates static
@@ -195,10 +195,10 @@ instantly once they are built.&lt;/p&gt;
     
     <item>
       <title>Mac and Goat</title>
-      <link>http://vielmetti.github.com/post/Mac-and-Goat/</link>
+      <link>http://vielmetti.github.io/post/Mac-and-Goat/</link>
       <pubDate>Tue, 14 Jul 2015 20:51:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/Mac-and-Goat/</guid>
+      <guid>http://vielmetti.github.io/post/Mac-and-Goat/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Mac and Goat&lt;/strong&gt; calls for goat cheese; we generally use a goat gouda or
@@ -241,10 +241,10 @@ tomato sauce is bubbling.&lt;/p&gt;
     
     <item>
       <title>customizing a theme</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-14-customizing-a-theme/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-customizing-a-theme/</link>
       <pubDate>Tue, 14 Jul 2015 14:32:07 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-14-customizing-a-theme/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-customizing-a-theme/</guid>
       <description>&lt;p&gt;Themes can be customized by editing the top matter, or by
 directly changing the theme. The challenge is understanding
 enough of how the moving parts interconnect to make it do what
@@ -281,10 +281,10 @@ that really want to be exercised again.&lt;/p&gt;
     
     <item>
       <title>converting typepad to hugo</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-14-converting-typepad-to-hugo/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-converting-typepad-to-hugo/</link>
       <pubDate>Tue, 14 Jul 2015 13:33:15 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-14-converting-typepad-to-hugo/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-converting-typepad-to-hugo/</guid>
       <description>&lt;p&gt;The task of the night was getting a few years worth of Typepad posts
 into Hugo.&lt;/p&gt;
 
@@ -324,10 +324,10 @@ one that has some kind of reasonable sidebar structure.&lt;/p&gt;
     
     <item>
       <title>lunch with jonathan</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-14-lunch-with-jonathan/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-lunch-with-jonathan/</link>
       <pubDate>Tue, 14 Jul 2015 13:30:58 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-14-lunch-with-jonathan/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-lunch-with-jonathan/</guid>
       <description>&lt;p&gt;Jonathan and I went to Paradise, a Vietnamese place in the
 Colonade that also serves Chinese food. He got Mongolian Beef,
 and I got pho deluxe. It was perfectly adequate if not spectacular.
@@ -343,10 +343,10 @@ At the end he got bored.&lt;/p&gt;
     
     <item>
       <title>wow that is fast</title>
-      <link>http://vielmetti.github.com/post/wow-that-is-fast/</link>
+      <link>http://vielmetti.github.io/post/wow-that-is-fast/</link>
       <pubDate>Tue, 14 Jul 2015 03:25:43 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/wow-that-is-fast/</guid>
+      <guid>http://vielmetti.github.io/post/wow-that-is-fast/</guid>
       <description>&lt;p&gt;So 634 pages from my Github Gollum based Wiki markup all got imported
 into Hugo and it rendered all of them in 828 ms, or basically under
 a second to pull in everything I&amp;rsquo;ve ever written. Astonishingly fast.&lt;/p&gt;
@@ -365,10 +365,10 @@ converters which aren&amp;rsquo;t really the same.&lt;/p&gt;
     
     <item>
       <title>Calendar of events</title>
-      <link>http://vielmetti.github.com/sidebar/calendar/</link>
+      <link>http://vielmetti.github.io/sidebar/calendar/</link>
       <pubDate>Tue, 14 Jul 2015 02:32:07 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/sidebar/calendar/</guid>
+      <guid>http://vielmetti.github.io/sidebar/calendar/</guid>
       <description>
 
 &lt;h3 id=&#34;calendar-of-events:a631103cf606bbead447236a29c6889e&#34;&gt;Calendar of events&lt;/h3&gt;
@@ -383,10 +383,10 @@ converters which aren&amp;rsquo;t really the same.&lt;/p&gt;
     
     <item>
       <title>Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
       <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
       <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
 
 &lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
@@ -438,20 +438,20 @@ mosquitto:
     
     <item>
       <title>gooseberries at Ann Arbor Farmers Market</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/</link>
       <pubDate>Sat, 11 Jul 2015 18:52:46 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/</guid>
       <description>&lt;p&gt;Wasem&#39;s brought gooseberries to today&#39;s Ann Arbor Farmers Market. There were two varieties, one with smaller berries and one with larger berries. Delicious just as is.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ann Arbor City Council for July 6, 2015: online video stream goes dark</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</link>
       <pubDate>Mon, 06 Jul 2015 20:13:02 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/</guid>
       <description>&lt;p&gt;If you&#39;re trying to follow Ann Arbor City Council via the online feed, you&#39;ll be disappointed tonight as the feed is not working.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d133bbbf970c img-responsive&#34; style=&#34;width: 570px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-07-06 at 8.11.01 PM&#34; title=&#34;Screen Shot 2015-07-06 at 8.11.01 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-580wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -464,10 +464,10 @@ mosquitto:
     
     <item>
       <title>The Verge turns off comments</title>
-      <link>http://vielmetti.github.com/post/2015/2015-07-06-the-verge-turns-off-comments/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-07-06-the-verge-turns-off-comments/</link>
       <pubDate>Mon, 06 Jul 2015 15:20:16 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-07-06-the-verge-turns-off-comments/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-07-06-the-verge-turns-off-comments/</guid>
       <description>&lt;p&gt;Of course you never read the comments, but you might read the commentary on the comments. Here&#39;s The Verge&#39;s decision to turn off comments on its stories for the summer:&lt;/p&gt;
 
 &lt;blockquote&gt;

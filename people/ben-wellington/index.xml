@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Wellington on tracker</title>
-    <link>http://vielmetti.github.com/people/ben-wellington/</link>
+    <link>http://vielmetti.github.io/people/ben-wellington/</link>
     <description>Recent content in Ben Wellington on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Mar 2015 08:56:56 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/people/ben-wellington/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/people/ben-wellington/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>What&#39;s the most expensive parking space in Ann Arbor?</title>
-      <link>http://vielmetti.github.com/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/</link>
       <pubDate>Tue, 24 Mar 2015 08:56:56 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/</guid>
       <description>&lt;p&gt;Last night was the a2civictech meetup. We met at Zingerman&#39;s Next Door, there were 9 people who showed up, some familiar faces and some new ones.&lt;/p&gt;
 
 &lt;p&gt;The nominal topic of the discussion was data quality, understanding how various data sets that come from civic sources have noise in them and looking at ways to deal with that. The best story was that of a well map that showed a hill in the middle of a lake, because the underlying data set had two wells with the same name and the person who built the map picked the wrong data to map.&lt;/p&gt;

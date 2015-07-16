@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Outages on tracker</title>
-    <link>http://vielmetti.github.com/categories/power-outages/</link>
+    <link>http://vielmetti.github.io/categories/power-outages/</link>
     <description>Recent content in Power Outages on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 14:40:22 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/power-outages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/power-outages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Simulating a power grid with RTDS</title>
-      <link>http://vielmetti.github.com/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</link>
       <pubDate>Wed, 24 Jun 2015 14:40:22 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</guid>
       <description>&lt;p&gt;Noted as an example of &#34;how do they do that&#34;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -42,11 +42,63 @@
     </item>
     
     <item>
+      <title>Power outage map outage at Emera and Central Maine Power (Maine electrical utilities)</title>
+      <link>http://vielmetti.github.io/post/2014/2014-11-02-power-outage-map-outage-at-emera-and-central-maine-power-maine-electrical-utilities/</link>
+      <pubDate>Sun, 02 Nov 2014 17:14:44 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-11-02-power-outage-map-outage-at-emera-and-central-maine-power-maine-electrical-utilities/</guid>
+      <description>&lt;p&gt;November 2, 2014, 5:04 p.m. EST (Ann Arbor, MI): The state of Maine is being hit by winter storms, with more than 1 inch an hour falling across parts of the state. This has led to widespread power outages, as well as outages of the power outage maps provided by Emera and by Central Maine Power, two utility companies that serve the state.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0891fec970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0891fec970c img-responsive&#34; style=&#34;width: 518px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Mcd1902-2014&#34; title=&#34;Mcd1902-2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0891fec970c-550wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://apps.bhe.com/about/outages/Outage_Map.cfm&#34;&gt;Emera&#39;s live outage map&lt;/a&gt; is throwing an error at this time. The latest &lt;a href=&#34;http://www.emeramaine.com/outages-and-restoration/current-outage-reports/&#34;&gt;current outage report&lt;/a&gt; on their web site is dated 9:26 a.m., with a promise of more up to date info at 4:00 p.m. that has not materialized. &lt;/p&gt;
+
+&lt;p&gt;UPDATE 4:49 p.m. November 2, 2014 from Emera:&lt;/p&gt;
+
+&lt;blockquote&gt;
+As of 4:00 p.m. more than 38,000 Emera Maine customers were without power, the result of strong gusty winds and heavy, wet snow weighing down on tree limbs and trees on power lines, especially in Penobscot and Hancock Counties. The utility has declared a system emergency and additional crews are being brought in from our Northern Operating Region and New Brunswick.  Crews which had been placed on standby in anticipation of the storm were fully deployed as of this morning.
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://outagemap.cmpco.com/maine/?style=maine#&#34;&gt;Central Maine Power outage viewer&lt;/a&gt; is also offline, but at least they have an &lt;a href=&#34;http://www.cmpco.com/outages/outageinformation.html&#34;&gt;outage information page&lt;/a&gt; as text that describes how 79,310 customers are offline as of 5:12 p.m.&lt;/p&gt;
+
+&lt;p&gt;When the power goes out, people use their cell phones to check on system status. It&#39;s not acceptable performance by an electrical utility company to not be able to serve the public by providing this information online when it&#39;s most needed.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;We are calling in additional crews, including crews from Canada, to help our local crews repair storm damage and restore service.&lt;/p&gt;&amp;mdash; Central Maine Power (@cmpco) &lt;a href=&#34;https://twitter.com/cmpco/status/529030957962383361&#34;&gt;November 2, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;We are experiencing problems with our Live Outage/Restoration map; techs working on the issue. Thanks for your patience.&lt;/p&gt;&amp;mdash; Emera Maine (@emerame) &lt;a href=&#34;https://twitter.com/emerame/status/528998004897116161&#34;&gt;November 2, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;CURRENT POWER OUTAGES - &lt;a href=&#34;https://twitter.com/emerame&#34;&gt;@emerame&lt;/a&gt; over 43,000 outages. &lt;a href=&#34;https://twitter.com/cmpco&#34;&gt;@cmpco&lt;/a&gt; over 73,000. Emera having issues with website, expresses thanks for patience&lt;/p&gt;&amp;mdash; WCSH 6 (@WCSH6) &lt;a href=&#34;https://twitter.com/WCSH6/status/529029986725167104&#34;&gt;November 2, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Severe storms of October 2, 2014 hit the Dallas-Fort Worth area; Oncor power outage map shows the storm track</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/</link>
+      <pubDate>Fri, 03 Oct 2014 09:48:25 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/</guid>
+      <description>&lt;p&gt;The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The &lt;a href=&#34;http://thescoopblog.dallasnews.com/2014/10/as-north-texas-experiences-exceptional-drought-for-first-time-since-2011-rain-and-cooler-temperatures-expected-today.html/&#34;&gt;Dallas Morning News live blog&lt;/a&gt; details the impact, with more than 250,000 people without power.&lt;/p&gt;
+
+&lt;p&gt;This outage map from about 7:00 p.m. that evening shows the extent of the damage.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ec75d0970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; title=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are. The &lt;a href=&#34;http://stormcenter.oncor.com/default.html&#34;&gt;Oncor Storm Center&lt;/a&gt; page was what people were focusing on, so I took a look. Oncor&#39;s map is built by iFactor, which does maps for a lot of utility companies. Alas the most useful view for a big storm - outages by zip code - is hidden under a menu, but once you find it you can get a nice colorful overview of where things are the worst.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Components for a $100 solar charging system?</title>
-      <link>http://vielmetti.github.com/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</link>
       <pubDate>Sat, 06 Sep 2014 14:46:38 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</guid>
       <description>&lt;p&gt;The challenge I put to myself is to spend not more than $100 and get a functioning solar powered charging station. The alternate name is a &#34;camping power supply&#34; for off-the-grid operations.&lt;/p&gt;
 
 &lt;p&gt;Breaking down the components it looks like this would be a combination of the following:&lt;/p&gt;
@@ -77,20 +129,44 @@
     
     <item>
       <title>16 July 2014 Ann Arbor widespread power interruptions, 800 pm</title>
-      <link>http://vielmetti.github.com/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</link>
       <pubDate>Wed, 16 Jul 2014 20:10:49 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</guid>
       <description>&lt;p&gt;Multiple people around Ann Arbor Michigan reported power blips at about 8 pm Wednesday 16 July 2014. Detailed explanation of the incident is unavailable at this time.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>The internet of power outages</title>
+      <link>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</link>
+      <pubDate>Fri, 27 Jun 2014 19:05:33 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</guid>
+      <description>&lt;p&gt;The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there&#39;s bad weather - to the extent that I can pretty much tell where there&#39;s bad weather by the outbound clicks on the page.&lt;/p&gt;
+
+&lt;p&gt;The page, however, is not fed with live data; it only has static instances of previous maps. It in and of itself doesn&#39;t alert when there&#39;s trouble, and it doesn&#39;t let you know that the storm coming your way might be severe.&lt;/p&gt;
+
+&lt;p&gt;One of the challenges of automation in the utility outage map space is the diversity of vendors for power company outage maps and the utter lack of any standard interface. To dig out how many people have lost their power in 48104 under program control, you actually have to work at it, and to rely on undocumented interfaces that could change at any time. For all of the user-friendly efforts out there, there&#39;s a lot of systems that are hard to pull raw data from.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve started a very tiny version of what I suspect could be a complete project, namely to automate the alerting when a few zip codes around me have outages. The code, written in Node-RED, runs periodically to poll the DTE Energy outage map site and to ask for outage data for a few specific zip codes. It then parses that data in a Javascript/node.js node which returns it to a switch that decides whether to alert (in my case, when there are more than 250 outages in any given monitored zipcode). Alerts go out via Twitter on the @vielmetti account and via SMS to me.&lt;/p&gt;
+
+&lt;p&gt;The monitoring task for the adjacent utility company, Consumers Energy, is a bit different. I haven&#39;t completed this effort yet, but again a poll of their site will pull a report which in this case has a list of counties and an outage count in each county. There&#39;s a few counties that I&#39;m monitoring, and I&#39;ll figure out the threshold for alerts there.&lt;/p&gt;
+
+&lt;p&gt;Node-RED is a nice programming environment for this, since it&#39;s flexible in many ways about how data gets into it and how and when alerts are done. I&#39;m still sorting through the new &#34;trigger&#34; alert node in 0.8.0 which makes it possible to buffer up things so you don&#39;t get an overflow of messages all at once, and there&#39;s some subtle alarm-management logic that I want to get right so that this system can be used for real alerting and not just curiosity.&lt;/p&gt;
+
+&lt;p&gt;When Hurricane Sandy hit the east coast, there was a long delay between the time that power went out and when it was restored, and there was some innovation in outage tracking and holding public utilities accountable for restoration performance. Similarly, when a storm hit the East Lansing, MI area there were furious municipal power consumers outraged that their utility company didn&#39;t have an accurate tracking map.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m hoping that this starts to look like an architecture for outage tracking that can be refined over time, and I&#39;d be super happy if utility companies started to post outage information in any reasonable easy to parse JSON or XML format files (really, it just has to be published, standards can occur as we get experience). I&#39;ll poll regularly enough to get some kind of timeline as to when the lights went out and how long it took for them to return.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sawnee EMC (north of Atlanta, GA) power outage map</title>
-      <link>http://vielmetti.github.com/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</link>
       <pubDate>Tue, 11 Feb 2014 14:12:47 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</guid>
       <description>&lt;p&gt;Sawnee EMC has a recently new &lt;a href=&#34;http://www.sawnee.com/content/current-outages&#34;&gt;power outage map&lt;/a&gt;, including a map &lt;a href=&#34;http://sawneearcgis.sawnee.com/sawnee.apps/outage-mobile/index.html&#34;&gt;optimized for mobile access&lt;/a&gt;. The &lt;a href=&#34;http://www.sawnee.com/documents/press/REL112613.htm&#34;&gt;press release&lt;/a&gt; they issued back in November 2013 has a lot more details.&lt;/p&gt;
 
 &lt;p&gt;Sawnee EMC serves electrical customers in portions of Forsyth, Fulton, Dawson, Lumpkin, Cherokee, Hall, &amp;amp; Gwinnett counties, in an area north of Atlanta, Georgia.&lt;/p&gt;
@@ -111,10 +187,10 @@
     
     <item>
       <title>February 5, 2014: Philadelphia area power outages due to ice storm</title>
-      <link>http://vielmetti.github.com/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</link>
       <pubDate>Wed, 05 Feb 2014 16:50:02 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</guid>
       <description>&lt;p&gt;February 5, 2014: More than 623,000 customers were without power in the service area covered by PECO (Philadelphia, PA area) at the peak of an ice storm on Wednesday. This is the second worst storm that the company has reported, right behind Hurricane Sandy.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcb58299970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fcb58299970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Peco-outage-map-feb-5-2014&#34; title=&#34;Peco-outage-map-feb-5-2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcb58299970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -143,10 +219,10 @@
     
     <item>
       <title>How many power outages are there in the nation?</title>
-      <link>http://vielmetti.github.com/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</link>
       <pubDate>Wed, 08 Jan 2014 12:23:21 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fbe3afd5970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fbe3afd5970b img-responsive&#34; alt=&#34;Indianapolis-Power-Light-2014-01-08-outage-map&#34; title=&#34;Indianapolis-Power-Light-2014-01-08-outage-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fbe3afd5970b-800wi&#34; border=&#34;0&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The world of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34;&gt;power outage maps&lt;/a&gt; is a very fragmented one, with what looks like dozens of designs and systems and no apparent standardization. There&#39;s no way that I know to get a USA-wide power outage map without going to all 50 states worth of utilities and piecing together incompatible maps. Some places - like Lansing, Michigan&#39;s &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013.html&#34;&gt;BWL&lt;/a&gt;, don&#39;t have maps, making customer communication difficult.&lt;/p&gt;
@@ -198,10 +274,10 @@ AEP-Kentucky Power: 904
     
     <item>
       <title>Metro North power outage</title>
-      <link>http://vielmetti.github.com/post/2013/2013-09-27-metro-north-power-outage/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-09-27-metro-north-power-outage/</link>
       <pubDate>Fri, 27 Sep 2013 23:42:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-09-27-metro-north-power-outage/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-09-27-metro-north-power-outage/</guid>
       <description>&lt;p&gt;A power outage on a 138,000 volt line that provides power to Metro North trains in New York has snarled commutes from Connecticut to New York City and has also affected Amtrak service in the busy New York - Boston corridor. Work is underway to put in a temporary fix by diverting power from surrounding businesses and neighborhoods. A backup feeder line was offline, and full service restoration may take weeks.&lt;/p&gt;
 
 &lt;p&gt;Metro North is responding by putting diesel trains into service and by running buses to try to accommodate the 130,000 daily commuters on the line, but this provides only about a third of the capacity needed for a normal commute.&lt;/p&gt;

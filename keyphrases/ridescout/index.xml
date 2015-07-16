@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ridescout on tracker</title>
+    <link>http://vielmetti.github.io/keyphrases/ridescout/</link>
+    <description>Recent content in Ridescout on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Oct 2014 16:04:50 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/ridescout/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A test of Ridescout for Ann Arbor multi-modal transit use</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-10-a-test-of-ridescout-for-ann-arbor-multi-modal-transit-use/</link>
+      <pubDate>Fri, 10 Oct 2014 16:04:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-10-a-test-of-ridescout-for-ann-arbor-multi-modal-transit-use/</guid>
+      <description>&lt;p&gt;RideScout is an app that provides info about a whole range of
+transit options, including taxi, car share, bus, parking, and
+more. They have support for Ann Arbor as a city, so I tried it
+while riding AAATA (The Ride).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ridescoutapp.com/&#34;&gt;http://www.ridescoutapp.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It&#39;s the first independent app that I&#39;ve seen that shows where
+every AAATA stop is, in a nice little app that works on your phone
+with a zippy little map that scrolls nicely. That&#39;s great.&lt;/p&gt;
+
+&lt;p&gt;RideScout has bus arrival and departure information for schedules,
+but it doesn&#39;t have real-time bus location info. So it thought that
+I had made it to N Campus when really I was still waiting on the bus at
+BTC. It could also have real-time parking info in Ann Arbor from
+the Ann Arbor DDA, but it also doesn&#39;t. I didn&#39;t see the Arborbike
+system in there either though that&#39;s pretty new.&lt;/p&gt;
+
+&lt;p&gt;The company behind RideScout has been bought by Car2Go, a car-sharing
+service. &lt;a href=&#34;http://www.xconomy.com/texas/2014/09/03/austins-ridescout-bought-by-daimler-car-rental-service-car2go/&#34;&gt;Xconomy&lt;/a&gt; has the story. Since Car2Go doesn&#39;t
+have operations in Ann Arbor, I don&#39;t know what to expect of their
+continued development here, but I like the idea!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

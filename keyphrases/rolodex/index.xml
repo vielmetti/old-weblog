@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rolodex on tracker</title>
+    <link>http://vielmetti.github.io/keyphrases/rolodex/</link>
+    <description>Recent content in Rolodex on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2015 23:37:39 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/rolodex/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A random walk through the rolodex</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-28-a-random-walk-through-the-rolodex/</link>
+      <pubDate>Sun, 28 Jun 2015 23:37:39 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-28-a-random-walk-through-the-rolodex/</guid>
+      <description>&lt;p&gt;The evening&#39;s work can be roughly summed up as&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Generate a random item from my personal wiki that starts with &#39;A&#39;. Much of the time, that will be a person&#39;s name.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Comment on that person&#39;s weblog, if they have one, or otherwise get in touch.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repeat until &#39;Z&#39;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the course of doing this I came across an essay, otherwise unpublished, on &#34;The algorithm driven day&#34;. In reading through it I am not sure it needs to see the light of day just yet, but it does help me wonder what parts of our efforts are driven by randomness and which are put there by design and how on earth one might tell the difference.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

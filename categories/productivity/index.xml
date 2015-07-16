@@ -2,29 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on tracker</title>
-    <link>http://vielmetti.github.com/categories/productivity/</link>
+    <link>http://vielmetti.github.io/categories/productivity/</link>
     <description>Recent content in Productivity on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Apr 2015 08:52:00 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jun 2015 23:37:39 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A random walk through the rolodex</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-28-a-random-walk-through-the-rolodex/</link>
+      <pubDate>Sun, 28 Jun 2015 23:37:39 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-28-a-random-walk-through-the-rolodex/</guid>
+      <description>&lt;p&gt;The evening&#39;s work can be roughly summed up as&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Generate a random item from my personal wiki that starts with &#39;A&#39;. Much of the time, that will be a person&#39;s name.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Comment on that person&#39;s weblog, if they have one, or otherwise get in touch.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repeat until &#39;Z&#39;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the course of doing this I came across an essay, otherwise unpublished, on &#34;The algorithm driven day&#34;. In reading through it I am not sure it needs to see the light of day just yet, but it does help me wonder what parts of our efforts are driven by randomness and which are put there by design and how on earth one might tell the difference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gogs, a self-hosted Git server</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-27-gogs-a-self-hosted-git-server/</link>
+      <pubDate>Sat, 27 Jun 2015 23:06:54 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-27-gogs-a-self-hosted-git-server/</guid>
+      <description>&lt;p&gt;Gogs is a self-hosted Git server, an alternative to using Github as a for-pay hosted service or Gitlab as another self-hosted system. It&#39;s written in the Go language, and is said to be sparing of system resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a5b824970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-27 at 11.01.35 PM&#34; title=&#34;Screen Shot 2015-06-27 at 11.01.35 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&#39;m building it using Docker on a Raspberry Pi 2, thanks to the folks at Hypriot; the writeup is &lt;a href=&#34;http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/&#34;&gt;Run your own GitHub-like service with the help of Docker&lt;/a&gt;, and the file on Dockerhub is at &lt;a href=&#34;https://registry.hub.docker.com/u/hypriot/rpi-gogs-raspbian/&#34;&gt;hypriot/rpi-gogs-raspbian&lt;/a&gt;. The install went essentially as described; note that if you are using Avahi to provide a .local name service, you can avoid using IP addresses in configuration files and instead use names like &#34;black-pearl.local&#34; as your hostname.&lt;/p&gt;
+
+&lt;p&gt;Juan B. Rodriguez did a nice writeup of &lt;a href=&#34;http://jbrodriguez.io/gogs-an-alternative-to-gitlab/&#34;&gt;Gogs, an alternative to Gitlab&lt;/a&gt;, again with a Docker based installation description and a nice feature comparison.&lt;/p&gt;
+
+&lt;p&gt;After some poking around with Gogs I noted three substantial limitations, none of which are complete show-stoppers but which collectively give me pause about doing a wholesale replacement of Github with Gogs; and a fourth that gives me hope for some project that might address these issues but which might not end up being called Gogs.&lt;/p&gt;
+
+&lt;p&gt;First, there&#39;s no built-in wiki. I don&#39;t always use a wiki with a Github repository, and when I do I&#39;m not always thrilled by the minimalist features of Github&#39;s wiki, but it&#39;s mighty handy and I miss it right away. Gogs doesn&#39;t have a wiki, and though it&#39;s been an acknowledged issue for a long time it doesn&#39;t seem to have any forward movement.&lt;/p&gt;
+
+&lt;p&gt;Second, there&#39;s no built-in file editor. I&#39;m very used to the workflow where you see a file that has some small problem, you fork the repository right in the editor, type in your fix, save, and submit your patch to the maintainers. It&#39;s a very straightforward way of doing small things efficiently without dropping down to the command line, and the lack of it makes Gogs hard to understand how it would work in a mostly-web world.&lt;/p&gt;
+
+&lt;p&gt;Third, Gogs has a lot of obvious copying from Github, and I&#39;m uncertain about the whole ethos of wholesale replication of documentation. Sometimes there&#39;s not even an effort made to document what the system does and instead there&#39;s just a link to Github documentation. Self-hosted systems should have self-hosted documentation, and even if you&#39;re replicating someone else&#39;s system faithfully you still need to write up your own docs.&lt;/p&gt;
+
+&lt;p&gt;Fourth and finally, Gogs has been forked. &#34;gitea&#34; is &#34;Git with a cup of tea&#34;, and it seems to have a bunch of energy to fix things that the Gogs project is currently lacking. See &lt;a href=&#34;https://github.com/go-gitea/gitea&#34;&gt;the gitea project on Github&lt;/a&gt; and its corresponding &lt;a href=&#34;https://gitter.im/go-gitea/gitea&#34;&gt;gitter chat for gitea&lt;/a&gt;. gitea has not produced a release yet, but when it does I&#39;ll be sure to look for a reasonable packaging of it to try it out.&lt;/p&gt;
+
+&lt;p&gt;All of that said, I&#39;m happy to have found Gogs, and plan to poke through it some more and store some not-very-important files in it for a while until I get some confidence in it. I don&#39;t think it (or gitea) is an instant replacement for my hosted Github service, but for the narrow purpose of holding a private repository beyond what Github provides for its service plan it looks like a reasonable alternative now.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>inbox 50, unread 500</title>
-      <link>http://vielmetti.github.com/post/2015/2015-04-16-inbox-50-unread-500/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-04-16-inbox-50-unread-500/</link>
       <pubDate>Thu, 16 Apr 2015 08:52:00 -0400</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2015/2015-04-16-inbox-50-unread-500/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-04-16-inbox-50-unread-500/</guid>
       <description>&lt;p&gt;So if you don&#39;t read email every moment of every waking day, you get a bit behind. Apologies to my correspondents if I can&#39;t manage same-day responses every day.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Bee App, a multiplatform issue tracker client for Mac</title>
-      <link>http://vielmetti.github.com/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</link>
       <pubDate>Fri, 03 Oct 2014 09:40:08 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</guid>
       <description>&lt;p&gt;I&#39;ve been tracking my personal todo list on Github for nearly two years now. When I &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34;&gt;first wrote up the experience&lt;/a&gt; I had just been using the standard web client for the system; since then I&#39;ve added &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/11/octodroid-is-a-github-client-for-android.html&#34;&gt;Octodroid&lt;/a&gt; as an Android client. So far so good, I&#39;ve closed more than 2300 issues since I started. Github&#39;s issues is a completely feature-filled issue management system, far and above overkill for a personal todo list, but useful and complete enough to manage routine tasking.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: left;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0791947f970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0791947f970d img-responsive&#34; alt=&#34;Screen Shot 2014-10-03 at 9.38.40 AM&#34; title=&#34;Screen Shot 2014-10-03 at 9.38.40 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0791947f970d-320wi&#34; style=&#34;margin: 0px 5px 5px 0px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -39,10 +85,10 @@
     
     <item>
       <title>falling behind, slowly</title>
-      <link>http://vielmetti.github.com/post/2014/2014-09-29-falling-behind-slowly/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-09-29-falling-behind-slowly/</link>
       <pubDate>Mon, 29 Sep 2014 10:23:26 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-09-29-falling-behind-slowly/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-09-29-falling-behind-slowly/</guid>
       <description>&lt;p&gt;My laptop has been in the shop for more than a week. I am not keeping up with correspondence as a result. I apparently had an efficient enough system that for a given hour of focus I could answer or log as much mail as came in. Now I can&#39;t, and there are not enough hours in the day to catch up.&lt;/p&gt;
 
 &lt;p&gt;For better or worse I have also rediscovered that I can write on this little device, and that blogging is about the right length for the small screen to compose. So even though I am not keeping up with private discourse, my public engagement with the tiny part of the net that reads blogs is going just fine.&lt;/p&gt;
@@ -53,10 +99,10 @@
     
     <item>
       <title>do next?</title>
-      <link>http://vielmetti.github.com/post/2014/2014-09-27-do-next/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-09-27-do-next/</link>
       <pubDate>Sat, 27 Sep 2014 15:52:45 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-09-27-do-next/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-09-27-do-next/</guid>
       <description>&lt;p&gt;One algorithm for deciding what to do next is simply to identify
 the item with the closest deadline and work on that. There is nothing
 like a deadline to focus the mind, and it is better to get the items
@@ -80,11 +126,21 @@ and do it before they ask.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Deadlines have a way of focusing the mind</title>
+      <link>http://vielmetti.github.io/post/2014/2014-09-01-deadlines-have-a-way-of-focusing-the-mind/</link>
+      <pubDate>Mon, 01 Sep 2014 22:13:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-09-01-deadlines-have-a-way-of-focusing-the-mind/</guid>
+      <description>&lt;p&gt;So I&#39;ve given myself an arbitrary deadline; write until the battery runs out, and then plug in and don&#39;t use the computer again for the day. At the very least I will type faster when the timer ticks down to 0:04. (The phone still has power though.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>He sees you when you&#39;re sleeping</title>
-      <link>http://vielmetti.github.com/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</link>
       <pubDate>Tue, 06 May 2014 10:14:26 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</guid>
       <description>&lt;blockquote&gt;
   &lt;p&gt;He sees you when you&#39;re sleeping &lt;br/&gt; 
   He knows when you&#39;re awake  &lt;br/&gt; 
@@ -108,10 +164,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Doing Personal Kanban with Boardthing</title>
-      <link>http://vielmetti.github.com/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</link>
       <pubDate>Mon, 05 May 2014 16:07:13 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</guid>
       <description>&lt;p&gt;I change productivity tools from time to time. Here&#39;s a latest try.&lt;/p&gt;
 
 &lt;p&gt;There are only two real rules with Personal Kanban:
@@ -132,10 +188,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Getting things done includes deciding what not to do.</title>
-      <link>http://vielmetti.github.com/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</link>
       <pubDate>Mon, 14 Apr 2014 13:02:36 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</guid>
       <description>&lt;p&gt;Getting things done includes deciding what not to do. In my case, it&#39;s a matter of going through my todo list and striking off the well-intentioned tasks from two or three months ago that took a moment to write and that would take hours to complete.&lt;/p&gt;
 
 &lt;p&gt;I&#39;m better off at accomplishing things when there are fewer undone things to choose from.&lt;/p&gt;
@@ -152,10 +208,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Slack, first impressions</title>
-      <link>http://vielmetti.github.com/post/2014/2014-02-20-slack-first-impressions/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-02-20-slack-first-impressions/</link>
       <pubDate>Thu, 20 Feb 2014 09:06:15 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-02-20-slack-first-impressions/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-02-20-slack-first-impressions/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcc1a673970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fcc1a673970b img-responsive&#34; alt=&#34;Slack-logo&#34; title=&#34;Slack-logo&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcc1a673970b-120wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I&#39;m trying out &lt;a href=&#34;https://slack.com&#34;&gt;Slack&lt;/a&gt;. Here are some first impressions.&lt;/p&gt;
@@ -176,10 +232,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Limiting work in progress vs. the endless todo list</title>
-      <link>http://vielmetti.github.com/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</link>
       <pubDate>Tue, 14 Jan 2014 10:25:56 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510e1ff93970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a510e1ff93970c&#34; alt=&#34;Github-activity-graph-illustration&#34; title=&#34;Github-activity-graph-illustration&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510e1ff93970c-120wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I&#39;ve been using a todo system &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34;&gt;based on Github issues&lt;/a&gt; for the better part of a year. It&#39;s been an interesting exercise in trying to corral the things that aren&#39;t done yet but that need to be.&lt;/p&gt;
@@ -195,11 +251,31 @@ and do it before they ask.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Still answering yesterday&#39;s email; also doing yesterday&#39;s todos</title>
+      <link>http://vielmetti.github.io/post/2014/2014-01-07-still-answering-yesterdays-email-also-doing-yesterdays-todos/</link>
+      <pubDate>Tue, 07 Jan 2014 21:28:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-01-07-still-answering-yesterdays-email-also-doing-yesterdays-todos/</guid>
+      <description>&lt;p&gt;I&#39;m a big fan of finite lists of things to do. It&#39;s hard to keep up with things that require an answer, and sometimes you need to let things slide until the next day. When you combine those two, you get &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/yesterbox-answer-yesterdays-email-today.html&#34;&gt;yesterbox&lt;/a&gt;. The basic idea is that you answer today&#39;s email tomorrow, so that you know when you get to the bottom of yesterday&#39;s mail you are really done.&lt;/p&gt;
+
+&lt;p&gt;The slight complication for this system for me is that I&#39;m also using a todo list which is supposed to capture everything I need to do. Alas, things go onto this list and stay there forever. How to reconcile the two?&lt;/p&gt;
+
+&lt;p&gt;What I&#39;m going to try, as best I can, is to deal with today&#39;s bright ideas about what I need to do but don&#39;t have time to do right now tomorrow. There will be a finite number of things to look at, and I can probably deal with some of them right away. I don&#39;t mean to kick the can down the road, but I also don&#39;t want to try to tackle everything I&#39;ve ever thought of doing all at once.&lt;/p&gt;
+
+&lt;p&gt;Inspired in part by the &lt;a href=&#34;http://www.wallofvoodoo.net/&#34;&gt;Wall of Voodoo&lt;/a&gt; song &#34;Tomorrow&#34;.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll do it tomorrow / that seems like a pretty good idea to me&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;600&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/-eEfAGzgv18?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Overtaken by events</title>
-      <link>http://vielmetti.github.com/post/2014/2014-01-02-overtaken-by-events/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-01-02-overtaken-by-events/</link>
       <pubDate>Thu, 02 Jan 2014 13:15:32 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-01-02-overtaken-by-events/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-01-02-overtaken-by-events/</guid>
       <description>&lt;p&gt;I&#39;m thinning out my todo list for the new year to delete some of the oldest items, the ones that aren&#39;t particularly hard but they also haven&#39;t been done this past year.&lt;/p&gt;
 
 &lt;p&gt;I figure that if I need to do them, the opportunity will arise again, and it might be easier to get them done if they show up fresh at the top of the list rather than buried at the bottom.&lt;/p&gt;
@@ -214,10 +290,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Remembering that it&#39;s your happy birthday</title>
-      <link>http://vielmetti.github.com/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</link>
       <pubDate>Mon, 08 Jul 2013 09:44:53 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</guid>
       <description>&lt;p&gt;Periodically I look at the sorts of tools that you can use to remember that it&amp;#39;s someone&amp;#39;s birthday. Here&amp;#39;s the current things that put birthday reminders in front of me every day.&lt;/p&gt;
 &lt;p&gt;
 &lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01910422a7a5970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Facebook-birthday-wish&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01910422a7a5970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01910422a7a5970c-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Facebook-birthday-wish&#34; /&gt;&lt;/a&gt;The 10,000 lb. gorilla of birthdays is Facebook, which offers a nice simple interface to send a one-line birthday greeting. You could visit Facebook daily just for birthdays and not much more, and be reasonably satisfied with the results. The site offers several convenient ways to send gifts via Starbucks, iTunes, and Target.&lt;/p&gt;
@@ -226,89 +302,6 @@ and do it before they ask.&lt;/p&gt;
 &lt;p&gt;Finally, I have a new &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.contapps.android&amp;amp;hl=en&#34; target=&#34;_self&#34;&gt;Contacts +&lt;/a&gt; app running on my Android phone, and it reaches into your contact database and reminds you about people who have birthdays today. The handy thing about it is that new birthdays show up as notifications with a one-click to a screen that offers you lots of ways to contact someone, so that if you were to want to send someone a postcard (a few days late, alas) you could be ready for that task.&lt;/p&gt;
 &lt;p&gt;I still don&amp;#39;t have a great way to routinely get birthday postcards to people on time - that would take a level of daily or weekly commitment and organization that I&amp;#39;m not yet ready to take on!&lt;/p&gt;
 &lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Supermemo, spaced repetition and time-structured randomness</title>
-      <link>http://vielmetti.github.com/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</link>
-      <pubDate>Mon, 06 Jun 2011 11:00:00 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.com/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Picture 4&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538eec7f78970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Picture 4&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ve written about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/08/supermemo-repet.html&#34; target=&#34;_self&#34;&gt;Supermemo&lt;/a&gt; before, a system for focusing your attention on things that you have previously learned in such a way that you reinforce long term memory. Given a set of items which you were confident in at a stage in the past, identify a way to re-test yourself on that confidence. Space out those retest intervals so that you keep the learning from decaying into nothingness. Repetition is the very soul of the net, and if you are careful you can repeat at intervals that don&amp;#39;t overwhelm.&lt;/p&gt;
-&lt;p&gt;New to me this week is a similar spaced repetition training tool focused on short term memory. Referred to as &amp;quot;&lt;a href=&#34;http://en.wikipedia.org/wiki/N-back&#34; target=&#34;_self&#34;&gt;N-back&lt;/a&gt;&amp;quot; (Wikipedia), it looks at turning the process of matching repetitive items in a sequence into a game, with higher scores if you can recall that e.g. 3 letters ago there was also an &amp;#39;x&amp;#39; in the string. The application &lt;a href=&#34;http://brainworkshop.sourceforge.net/&#34; target=&#34;_self&#34;&gt;Brain Workshop&lt;/a&gt;&amp;#0160;was created by Paul Hoskinson and lets you play with your current skills; I haven&amp;#39;t seen anyone render this into hardware a la the old game of &lt;strong&gt;Simon&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;To turn the random noise of the world into patterns that you understand and can manipulate and recognize, you need to find the useful connections and build upon them somehow. You can&amp;#39;t just learn by remembering things out of context - it always helps to learn by doing. People love to make things into patterns, and an organized exploration of an otherwise random world can help you make connections which are key to understanding the world.&lt;/p&gt;
-&lt;p&gt;The space I keep trying to explore is remembering the names of people, some of whom I know rather well by face, others who I know only by their work. The index into this space that lends itself to randomness is the birthday, which you can be pretty sure to capture less than 1% of the set of people every day. Alas, &lt;a href=&#34;http://www.letsmovetothemoon.com/facebook-cheapens-birthdays/&#34; target=&#34;_self&#34;&gt;Facebook has cheapened&lt;/a&gt; the opportunity for &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/12/how-to-remember-birthdays-ed44-edition.html&#34; target=&#34;_self&#34;&gt;remembering someone&amp;#39;s birthday&lt;/a&gt; as a distinguishing mark, so the challenge is to use this somehow else; if I happen to remember your half birthday, it&amp;#39;s because I&amp;#39;m trying to remember and plan both forward and back 6 months. Even better if I send you a half-birthday postcard (to combine two unusual abilities). Wish me luck.&lt;/p&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>daily aliquot of love</title>
-      <link>http://vielmetti.github.com/post/2011/2011-01-18-task-sandwich-activity-tracker-in-google-spreadsheet/</link>
-      <pubDate>Tue, 18 Jan 2011 21:29:50 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.com/post/2011/2011-01-18-task-sandwich-activity-tracker-in-google-spreadsheet/</guid>
-      <description>&lt;p&gt;A very brief writeup of a technique for doing online task management, in a world where there are so many social media channels that you need a spreadsheet to keep track of them all.&lt;/p&gt;
-&lt;p&gt;The software is Google Spreadsheet, used with a private sheet all for myself.&lt;/p&gt;
-&lt;p&gt;The structure of the worksheet is a set of columns, with column headings indicating the piece of software, online system, or media channel that you are tracking; the rows are dated or time stamped.&lt;/p&gt;
-&lt;p&gt;Each cell has a brief summary of events, activities, or other goings-on for that channel at that time. &amp;quot;Birthday deals&amp;quot; is my notation from Facebook for Jan 5, 2011, noting that on that day I wished people a happy birthday by sending them the &lt;a href=&#34;http://arborwiki.org/city/Birthday_Deals&#34; target=&#34;_self&#34;&gt;Arborwiki birthday deals page&lt;/a&gt; (my customary greeting card). Keep it short, down to a name, a keyword, a tag, or anything else minimal.&lt;/p&gt;
-&lt;p&gt;The key technique is hyperlinking each of these (column header and activity cell) where possible, so that you can go back and re-animate your activity on a minimum notice. The syntax is&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;=hyperlink(URL,&amp;quot;text&amp;quot;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;which is simple enough to make it not be a big deal to do.&lt;/p&gt;
-&lt;p&gt;The locus of activity moves. Rather than opening a new window, looking for page changes to the more frequent sites that you visit, and hoping mindlessly that there&amp;#39;s something new, the unit of online activity becomes working your way across the columns and methodically filling in each of them with a daily aliquot of love.&lt;/p&gt;
-&lt;p&gt;The challenge is getting the column headers right, so that you focus on the correct systems, and ignore the irrelevant ones.&lt;/p&gt;
-&lt;p&gt;Why do I call it task sandwich? Darned if I know, that&amp;#39;s what got typed in.&lt;/p&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Alas, poor delicious, you knew us well</title>
-      <link>http://vielmetti.github.com/post/2010/2010-12-17-alas-poor-delicious-you-knew-us-well/</link>
-      <pubDate>Fri, 17 Dec 2010 00:19:35 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.com/post/2010/2010-12-17-alas-poor-delicious-you-knew-us-well/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;http://techcrunch.com/2010/12/16/is-yahoo-shutting-down-del-icio-us/&#34; target=&#34;_self&#34;&gt;scuttlebutt&lt;/a&gt; is that delicious is going to be &lt;a href=&#34;http://twitter.com/#!/bpm140/status/15473591558602752&#34; target=&#34;_self&#34;&gt;axed&lt;/a&gt; by Yahoo.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Once upon a time, I bookmarked everything interesting that came across my path to delicious (back when it was del.icio.us). &amp;#0160;It was part of my routine, and a daily summary was posted through to this blog.&lt;/p&gt;
-&lt;p&gt;Delicious was from the tags era of the Internet, where in addition to noting that a thing existed you could add your own tags to describe it. Sometimes these were straightforward tags, like the 1533 pages I marked as &amp;quot;&lt;a href=&#34;http://www.delicious.com/vielmetti/annarbor&#34; target=&#34;_self&#34;&gt;annarbor&lt;/a&gt;&amp;quot;. Others were idiosyncratic, like the 5 pages I marked as &amp;quot;&lt;a href=&#34;http://www.delicious.com/vielmetti/attention-to-irrelevant-details&#34; target=&#34;_self&#34;&gt;attention-to-irrelevant-details&lt;/a&gt;&amp;quot;.&lt;/p&gt;
-&lt;p&gt;There are other, better ways to bookmark things so that lots of people see them. The facebook &amp;quot;like&amp;quot; button gets more page views without consuming any &lt;a href=&#34;http://elab.eserver.org/hfl0098.html&#34; target=&#34;_self&#34;&gt;cognitive overhead&lt;/a&gt; about how to tag, whether to tag, and what you&amp;#39;ve tagged before. Actually writing about something is quite a bit better than just bookmarking it, because you get to be yourself for a little while and not just an automaton forwarding on links automatically.&lt;/p&gt;
-&lt;p&gt;Every bookmark I ever did on delicious, up until now, is archived for posterity here:&amp;#0160;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/delicious-20101216.htm&#34; target=&#34;_self&#34;&gt;vielmetti.typepad.com/vacuum/delicious-20101216.htm&lt;/a&gt;&amp;#0160;. As I review it, there really should have been more of them marked &amp;quot;attention to irrelevant details&amp;quot;. It&amp;#39;s hours of reading, though some of it goes by fast because the site that was linked to has disappeared, leaving only the bookmark and whatever clipping I managed to care about.&lt;/p&gt;
-&lt;p&gt;edit: now with more cognitive overhead&lt;/p&gt;
-&lt;p&gt;more delicious:&lt;/p&gt;
-&lt;p&gt;Les Orchard, &lt;a href=&#34;http://decafbad.com/blog/2010/12/19/let-a-million-bookmarks-bloom&#34; target=&#34;_self&#34;&gt;Let a million bookmarks bloom&lt;/a&gt;. &amp;quot;Use the web. Host your own, pay for it, or find someone who values your data.&amp;quot;&lt;/p&gt;
-&lt;p&gt;Stephen Hood,&amp;#0160;&lt;a href=&#34;http://uniquehazards.tumblr.com/post/2377362882/we-can-save-delicious-but-probably-not-in-the-way-you&#34;&gt;We can save Delicious, but probably not in the way you think&lt;/a&gt;. &amp;quot;The Delicious user community could organize to save the data themselves via a coordinated harvesting project.&amp;quot;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Edward Vielmetti is&amp;#0160;&lt;a href=&#34;http://www.delicious.com/vielmetti&#34; target=&#34;_self&#34;&gt;http://www.delicious.com/vielmetti&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>What we can learn from procrastination : James Surowiecki The New Yorker</title>
-      <link>http://vielmetti.github.com/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</link>
-      <pubDate>Sun, 17 Oct 2010 18:05:11 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.com/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Academics, who work for long periods in a self-directed fashion, may be especially prone to putting things off: surveys suggest that the vast majority of college students procrastinate, and articles in the literature of procrastination often allude to the author’s own problems with finishing the piece. (This article will be no exception.) But the academic buzz around the subject isn’t just a case of eggheads rationalizing their slothfulness. As various scholars argue in “The Thief of Time,” edited by Chrisoula Andreou and Mark D. White (Oxford; $65)—a collection of essays on procrastination, ranging from the resolutely theoretical to the surprisingly practical—the tendency raises fundamental philosophical and psychological issues.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;small&gt;via &lt;a href=&#34;http://www.newyorker.com/arts/critics/books/2010/10/11/101011crbo_books_surowiecki?currentPage=all&#34;&gt;www.newyorker.com&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Naturally, I am reading this while procrastinating.&lt;/p&gt;
-&lt;p&gt;I gave &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2004/03/time_management.html&#34; target=&#34;_self&#34;&gt;precise instructions to myself&lt;/a&gt; in my journal in 1999, repeated in 2004, on how to avoid procrastination, under the guise of &amp;quot;time management&amp;quot;. This presumes, of course, that all you need to do is make a few rational decisions and buck up and buckle down to work, in the ignorance of all other possible motivations.&lt;/p&gt;
-&lt;p&gt;A challenge in a world of infinite possibilities is that choosing to do anything means you are choosing not to do something else. This brings to mind &lt;a href=&#34;http://www.personalkanban.com/pk/personal-kanban-101/&#34; target=&#34;_self&#34;&gt;Jim Benson&amp;#39;s Personal Kanban&lt;/a&gt;, which only has two rules at its core:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Visualize your work&lt;/li&gt;
-&lt;li&gt;Limit your work in progress&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A sure cure for procrastination, then, is simply to not do something, rather than putting it off. Alas not all tasks can be discarded so easily.&lt;/p&gt;
-
-
 </description>
     </item>
     

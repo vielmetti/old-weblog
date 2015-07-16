@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wiki on tracker</title>
-    <link>http://vielmetti.github.com/categories/wiki/</link>
+    <link>http://vielmetti.github.io/categories/wiki/</link>
     <description>Recent content in Wiki on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Sep 2014 16:33:52 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>For machines, by machines: Wikipedia is for bots</title>
-      <link>http://vielmetti.github.com/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</link>
       <pubDate>Fri, 26 Sep 2014 16:33:52 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</guid>
       <description>&lt;p&gt;What is Wikipedia for? It&#39;s for bots.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.theverge.com/2014/2/18/5412636/this-machine-kills-trolls-how-wikipedia-robots-snuff-out-vandalism&#34;&gt;This machine kills trolls: How Wikipedia’s robots and cyborgs snuff out vandalism&lt;/a&gt; writes up the work of the Wikipedia contributors who have written robots (bots) that automatically extirpate contributions to the encyclopedia that are unwanted.&lt;/p&gt;
@@ -28,11 +28,33 @@
     </item>
     
     <item>
+      <title>Building a Marquette Localwiki</title>
+      <link>http://vielmetti.github.io/post/2014/2014-08-28-building-a-marquette-localwiki/</link>
+      <pubDate>Thu, 28 Aug 2014 21:09:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-08-28-building-a-marquette-localwiki/</guid>
+      <description>&lt;p&gt;I visit Marquette Michigan every summer to see family and catch up with friends and visit the place I went to high school. Every so often there&#39;s a reunion, but often it&#39;s just a matter of going back to the home town and figuring out what&#39;s up and what&#39;s what.&lt;/p&gt;
+
+&lt;p&gt;Since I&#39;ve been working on Arborwiki for the better part of eight years, I thought last year that I&#39;d give a try to make a &lt;a href=&#34;http://localwiki.net/marquettemi&#34;&gt;Localwiki for Marquette&lt;/a&gt;. Technologically it was easy to do - Localwiki makes adding new regions easy - but practically it&#39;s got some challenges. Here are notes on what it means to look at Localwiki for a rural area.&lt;/p&gt;
+
+&lt;p&gt;The first most obvious thing to note is that there often are places and locations that don&#39;t have a currently updated home page. If you want to document the area, you have to attach a lot of things to its history, and the places like closed mines, abandoned railroads, long-gone restaurants, shuttered gas stations, and the like have to be created from scratch and not simply replicated from existing content. This is typical of the history portion of any Localwiki effort, in that local histories of otherwise not notable enough for Wikipedia things demand a combination of original research and local knowledge. The page I started for the &lt;a href=&#34;http://localwiki.net/marquettemi/Red_Road&#34;&gt;Red Road&lt;/a&gt; is one example of this.&lt;/p&gt;
+
+&lt;p&gt;When you&#39;re doing a map of areas that are relatively rural, you find that the default street map used by Localwiki isn&#39;t that interesting. As much as I know it&#39;s difficult to do, I wish the system had easier ways of integrating other map sources into the effort. Street maps are really the wrong tool when you&#39;re looking at areas that are mostly woods; you&#39;d like a topo map, maybe, and a plat map that showed land ownership, and a geological surface map that gave some hint what the land looked like and a forest map that showed which lands were in commercial forest. None of these are likely to show up in Google Maps any time soon.&lt;/p&gt;
+
+&lt;p&gt;Trails and non-motorized pathways are a big opportunity for Localwiki. My mom is working on a project for signage for the &lt;a href=&#34;http://localwiki.net/marquettemi/Iron_Ore_Heritage_Trail&#34;&gt;Iron Ore Heritage Trail&lt;/a&gt;, and I&#39;ve put the bug in her ear that it might be interesting to cross-link somehow the interpretive signs on the trail with the corresponding Localwiki pages. Even getting good photography and mapping of trail heads would be a big enough project that I can imagine spending a week scouting out locations and not being done.&lt;/p&gt;
+
+&lt;p&gt;There&#39;s a concern at the Wikipedia project that linking to Localwiki pages is somehow dicey because of advertising on Localwiki, or perhaps because not enough people on Wikipedia are familiar enough with Localwiki to know what to expect when they see a page. As a contrast, there are also concerns on a Facebook group I follow about &#34;wikishit&#34; when people see a years-old &lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Marquette_Monster&amp;amp;oldid=622698099&#34;&gt;Marquette Monster&lt;/a&gt; page that was completely fabricated.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll look for more ways to get more reliable information into the Marquette Localwiki. I&#39;m particularly happy with the start that the &lt;a href=&#34;http://localwiki.net/marquettemi/Gazetteer&#34;&gt;Gazetteer&lt;/a&gt; page has for listing location, and there&#39;s some long amount of work to give the &lt;a href=&#34;http://localwiki.net/marquettemi/Mines&#34;&gt;Mines&lt;/a&gt; page its due to document the mining history of the area. I&#39;m not sure the system has a single goal, but I&#39;m always happy when other people pick up on it, add their piece, and make it useful to themselves.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Making sense of Ferguson, Missouri via the St Louis Localwiki</title>
-      <link>http://vielmetti.github.com/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</link>
       <pubDate>Thu, 21 Aug 2014 20:06:07 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</guid>
       <description>&lt;p&gt;The St Louis, Missouri Localwiki - &lt;a href=&#34;http://localwiki.net/st-louis&#34;&gt;http://localwiki.net/st-louis&lt;/a&gt; - was mostly empty when the events in Ferguson, MO started on August 9, 2014 with the death of 18 year old student Michael Brown. As with any event where there&#39;s a lot that&#39;s going on in an unfamiliar area, I was drawn to making some sense of what was happening. This has been especially true when the coverage on the #&lt;a href=&#34;http://twitter.com/hashtag/ferguson&#34;&gt;ferguson&lt;/a&gt; hashtag overwhelmed my Twitter feed, which had been usually quiet at night.&lt;/p&gt;
 
 &lt;p&gt;The Localwiki crew - including Jason Denizac, Marina Kukso, Philip Neustrom, James Halliday, and others have been super helpful in filling in the blanks on the Localwiki map around Ferguson. It&#39;s been helpful to get one step away from the relentless outsider media scrum and read background pieces by local journalists from places like the 
@@ -48,10 +70,10 @@
     
     <item>
       <title>Notes from my talk on Arborwiki and Localwiki at eChicago, 2013</title>
-      <link>http://vielmetti.github.com/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</link>
+      <link>http://vielmetti.github.io/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</link>
       <pubDate>Mon, 29 Apr 2013 00:06:28 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</guid>
+      <guid>http://vielmetti.github.io/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</guid>
       <description>&lt;p&gt;I had the good fortune to talk about &lt;a href=&#34;http://arborwiki.org&#34; target=&#34;_self&#34;&gt;Arborwiki&lt;/a&gt; and &lt;a href=&#34;http://www.localwiki.org&#34; target=&#34;_self&#34;&gt;Localwiki&lt;/a&gt; at eChicago in April 2013. Here are the notes that I took in preparation for the talk; the actual text of the talk varied from this, since I was speaking impromptu.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;About Arborwiki&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Who: &lt;/strong&gt;More than a dozen core contributors over the lifespan of the project, plus many more who have made small edits to pages.&lt;/p&gt;

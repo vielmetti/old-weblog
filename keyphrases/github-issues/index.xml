@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github Issues on tracker</title>
-    <link>http://vielmetti.github.com/keyphrases/github-issues/</link>
+    <link>http://vielmetti.github.io/keyphrases/github-issues/</link>
     <description>Recent content in Github Issues on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Sep 2014 15:52:45 +0000</lastBuildDate>
-    <atom:link href="http://vielmetti.github.com/keyphrases/github-issues/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/keyphrases/github-issues/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>do next?</title>
-      <link>http://vielmetti.github.com/post/2014/2014-09-27-do-next/</link>
+      <link>http://vielmetti.github.io/post/2014/2014-09-27-do-next/</link>
       <pubDate>Sat, 27 Sep 2014 15:52:45 +0000</pubDate>
       
-      <guid>http://vielmetti.github.com/post/2014/2014-09-27-do-next/</guid>
+      <guid>http://vielmetti.github.io/post/2014/2014-09-27-do-next/</guid>
       <description>&lt;p&gt;One algorithm for deciding what to do next is simply to identify
 the item with the closest deadline and work on that. There is nothing
 like a deadline to focus the mind, and it is better to get the items
