@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code Writing on tracker</title>
-    <link>http://localhost:1313/categories/code-writing/</link>
+    <link>http://vielmetti.github.com/categories/code-writing/</link>
     <description>Recent content in Code Writing on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 May 2008 18:36:17 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/code-writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/code-writing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>threequel === threequal - of movies, code, and the l33t</title>
-      <link>http://localhost:1313/post/2008/2008-05-19-threequel-three/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-05-19-threequel-three/</link>
       <pubDate>Mon, 19 May 2008 18:36:17 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-05-19-threequel-three/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-05-19-threequel-three/</guid>
       <description>&lt;p&gt;A few definitions for you, with citations from the wild; spelling is as in the original with Google counts of occurences, if possible.&lt;/p&gt;
 
 &lt;p&gt;In short: threequel and 3quel are about movies; threequal is the &#34;===&#34; operator; 3qual is hacker speak.  More or less.&lt;/p&gt;

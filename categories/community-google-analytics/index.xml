@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Community Google Analytics on tracker</title>
-    <link>http://localhost:1313/categories/community-google-analytics/</link>
+    <link>http://vielmetti.github.com/categories/community-google-analytics/</link>
     <description>Recent content in Community Google Analytics on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Nov 2008 14:11:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/community-google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/community-google-analytics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Wiki analytics: using the new Google Analytics tools to measure and improve a civic wiki</title>
-      <link>http://localhost:1313/post/2008/2008-11-19-wiki-analytics-using-the-new-google-analytics-tools-to-measure-and-improve-a-civic-wiki/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-11-19-wiki-analytics-using-the-new-google-analytics-tools-to-measure-and-improve-a-civic-wiki/</link>
       <pubDate>Wed, 19 Nov 2008 14:11:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-11-19-wiki-analytics-using-the-new-google-analytics-tools-to-measure-and-improve-a-civic-wiki/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-11-19-wiki-analytics-using-the-new-google-analytics-tools-to-measure-and-improve-a-civic-wiki/</guid>
       <description>&lt;p&gt;This is part of the Wiki Wednesday and coincidentally also part of the Web Analytics Wednesday series.&lt;/p&gt;&lt;p&gt;UPDATE: changed throughout, some spots still not filled in, I am promising some graphs; want to work in the RichmondWiki blog notes as well.&lt;/p&gt;&lt;p&gt;UPDATE2: analytics for wiki edit failure&lt;/p&gt;&lt;p&gt;Google Analytics has a bunch of new features.&amp;#0160; Mediawiki, the code that runs Arborwiki, has Google Analytics installed and is tracking user behavior to help improve the quality and relevance of the content that&amp;#39;s there.&amp;#0160; Here&amp;#39;s some applications of the new features.&lt;/p&gt;&lt;p&gt;1.&amp;#0160; Segmentation by geography.&lt;/p&gt;&lt;p&gt;Arborwiki covers information about Ann Arbor, Ypsilanti, and the surrounding Washtenaw County area.&amp;#0160; One reasonable segmentation of the readership and contributor base is to see how people from inside the area behave compared to people from outside the area.&lt;/p&gt;&lt;p&gt;...&lt;/p&gt;&lt;p&gt;(graph)&lt;/p&gt;&lt;p&gt;We&amp;#39;ll break down usage for specific pages and see how they differ.&amp;#0160; First, look at traffic coming from Wikipedia - how does it compare to everything else?&lt;/p&gt;&lt;p&gt;(graph)&lt;/p&gt;&lt;p&gt;Next, look at the most popular page, the &amp;quot;birthday deals&amp;quot; page, who is seeing that?&lt;/p&gt;&lt;p&gt;(graph)&lt;/p&gt;&lt;p&gt;A further refinement will look at how much birthday deal traffic is coming from surrounding suburbs, e.g. Oakland County.&amp;#0160; &lt;/p&gt;&lt;p&gt;2.&amp;#0160;&amp;#0160; Conversion tracking: who edits a page.&lt;/p&gt;&lt;p&gt;We have set up the idea that a page edit is a success criterion and a conversion goal.&amp;#0160; More page edits, the better.&amp;#0160; Please contribute.&lt;/p&gt;&lt;p&gt;There are at least two end states: a page is edited that didn&amp;#39;t exist before, or a person edits a page (because they linked to something that wasn&amp;#39;t there) and it was abandoned.&amp;#0160; That&amp;#39;s a failure condition and a sign that the wiki is incomplete in that specific area.&amp;#0160; So we set up reports to look for pages where people are editing the page but it shows up as the exit page, which implies that someone left the page in mid-edit&lt;/p&gt;&lt;p&gt;The method:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;segment by page includes &amp;quot;action=edit&amp;quot;&lt;/li&gt;
 &lt;li&gt;top content report (or perhaps &lt;/li&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android Pedometer on tracker</title>
-    <link>http://localhost:1313/categories/android-pedometer/</link>
+    <link>http://vielmetti.github.com/categories/android-pedometer/</link>
     <description>Recent content in Android Pedometer on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Apr 2013 22:24:11 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/android-pedometer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/android-pedometer/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Runtastic and Cardiotrainer for Android, a brief review</title>
-      <link>http://localhost:1313/post/2013/2013-04-21-runtastic-and-cardiotrainer-for-android-a-brief-review/</link>
+      <link>http://vielmetti.github.com/post/2013/2013-04-21-runtastic-and-cardiotrainer-for-android-a-brief-review/</link>
       <pubDate>Sun, 21 Apr 2013 22:24:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2013/2013-04-21-runtastic-and-cardiotrainer-for-android-a-brief-review/</guid>
+      <guid>http://vielmetti.github.com/post/2013/2013-04-21-runtastic-and-cardiotrainer-for-android-a-brief-review/</guid>
       <description>&lt;p&gt;&lt;p&gt;Runtastic is a workout tracking program for Android. It lets you keep track of where you have gone on your run, bike ride, or walk (or a bunch of other means of locomotion) and using the GPS in the phone makes some estimate of how far you&amp;#39;ve gone and how much effort you have expended.&amp;#0160;&lt;/p&gt;
 &lt;p&gt;I&amp;#39;ve also used Cardiotrainer for this purpose, which has a similar reason for being.&lt;/p&gt;
 &lt;p&gt;It&amp;#39;s really handy to have your device track where you go so that you get a nice map of your journey. Those trips where you&amp;#39;re trying to find your way through an unfamiliar neighborhood generate a trail of breadcrumbs you can follow, and it&amp;#39;s really helpful to have a good sense for how far away a mile is while walking. (For me, it&amp;#39;s a mile to the Michigan Union.)&lt;/p&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rgdal on tracker</title>
-    <link>http://localhost:1313/maps/rgdal/</link>
+    <link>http://vielmetti.github.com/maps/rgdal/</link>
     <description>Recent content in Rgdal on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Mar 2015 11:14:50 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/maps/rgdal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/maps/rgdal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cleaning polygons in R and Shapely</title>
-      <link>http://localhost:1313/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</link>
       <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</guid>
       <description>&lt;p&gt;The project of the week has been an effort to generate a set of maps - 2935 of them, in fact. The source data is from the Department of Energy, listing a set of utility companies and the counties they cover; the goal is to have a boundary map generated for each utility company. I know it won&#39;t be a perfect boundary (most utility companies have at least one county that they only provide service to part of), but as a start it&#39;s a pretty good one.&lt;/p&gt;
 
 &lt;p&gt;The DOE data is based on their Form EIA-861, and I&#39;m working from the 2013 data set. See &lt;a href=&#34;http://www.eia.gov/electricity/data/eia861/&#34;&gt;Electric power sales, revenue, and energy efficiency Form EIA-861 detailed data files&lt;/a&gt; if you want to get your own files. It&#39;s provided as Excel (XLSX) files, so you&#39;ll need something compatible to read them; I ended up using &lt;a href=&#34;http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html&#34;&gt;in2csv from csvkit&lt;/a&gt; as the first part of the pipeline to break these apart.&lt;/p&gt;

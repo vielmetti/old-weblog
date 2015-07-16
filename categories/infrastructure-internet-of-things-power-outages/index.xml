@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infrastructure Internet Of Things Power Outages on tracker</title>
-    <link>http://localhost:1313/categories/infrastructure-internet-of-things-power-outages/</link>
+    <link>http://vielmetti.github.com/categories/infrastructure-internet-of-things-power-outages/</link>
     <description>Recent content in Infrastructure Internet Of Things Power Outages on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Jun 2014 19:05:33 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/infrastructure-internet-of-things-power-outages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/infrastructure-internet-of-things-power-outages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The internet of power outages</title>
-      <link>http://localhost:1313/post/2014/2014-06-27-the-internet-of-power-outages/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-06-27-the-internet-of-power-outages/</link>
       <pubDate>Fri, 27 Jun 2014 19:05:33 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-06-27-the-internet-of-power-outages/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-06-27-the-internet-of-power-outages/</guid>
       <description>&lt;p&gt;The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there&#39;s bad weather - to the extent that I can pretty much tell where there&#39;s bad weather by the outbound clicks on the page.&lt;/p&gt;
 
 &lt;p&gt;The page, however, is not fed with live data; it only has static instances of previous maps. It in and of itself doesn&#39;t alert when there&#39;s trouble, and it doesn&#39;t let you know that the storm coming your way might be severe.&lt;/p&gt;

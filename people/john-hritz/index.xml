@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John Hritz on tracker</title>
-    <link>http://localhost:1313/people/john-hritz/</link>
+    <link>http://vielmetti.github.com/people/john-hritz/</link>
     <description>Recent content in John Hritz on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Mar 2008 21:56:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/people/john-hritz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/people/john-hritz/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Kanban; or, management by post-it note</title>
-      <link>http://localhost:1313/post/2008/2008-03-28-kanban-or-manag/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-03-28-kanban-or-manag/</link>
       <pubDate>Fri, 28 Mar 2008 21:56:52 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-03-28-kanban-or-manag/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-03-28-kanban-or-manag/</guid>
       <description>&lt;p&gt;
 I wrote a few years back about a &lt;a href=&#34;http://www.flickr.com/photos/jhritz/6225044/&#34;&gt;mini-kanban that John Hritz had put together to remember to refill washer fluid&lt;/a&gt;.  There are a lot of colorful sticky notes around my workplace these days, so I thought I&#39;d read up on how kanban-inspired systems are being used for process management in the software development and other non-manufacturing worlds.
 &lt;/p&gt;&lt;p&gt;

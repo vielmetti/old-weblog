@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bernardo Huberman on tracker</title>
-    <link>http://localhost:1313/people/bernardo-huberman/</link>
+    <link>http://vielmetti.github.com/people/bernardo-huberman/</link>
     <description>Recent content in Bernardo Huberman on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Mar 2008 11:50:07 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/people/bernardo-huberman/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/people/bernardo-huberman/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Novelty and collective attention / Huberman and Wu</title>
-      <link>http://localhost:1313/post/2008/2008-03-10-novelty-and-col/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-03-10-novelty-and-col/</link>
       <pubDate>Mon, 10 Mar 2008 11:50:07 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-03-10-novelty-and-col/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-03-10-novelty-and-col/</guid>
       <description>&lt;p&gt;
 If you wait long enough, it won&#39;t be novel, and thus it won&#39;t be worthwhile to pay attention to.  Thus by incorporating a delay loop into your news consumption you&#39;ll miss a bunch of transient spikes of things that are no longer newsworthy.
 &lt;/p&gt;&lt;p&gt;

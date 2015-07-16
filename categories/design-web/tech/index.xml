@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design Web/Tech on tracker</title>
-    <link>http://localhost:1313/categories/design-web/tech/</link>
+    <link>http://vielmetti.github.com/categories/design-web/tech/</link>
     <description>Recent content in Design Web/Tech on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 May 2012 10:19:58 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/design-web/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/design-web/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>&#34;The business model is hamsters generating less money with each turn of the wheel.&#34;</title>
-      <link>http://localhost:1313/post/2012/2012-05-30-the-business-model-is-hamsters-generating-less-money-with-each-turn-of-the-wheel/</link>
+      <link>http://vielmetti.github.com/post/2012/2012-05-30-the-business-model-is-hamsters-generating-less-money-with-each-turn-of-the-wheel/</link>
       <pubDate>Wed, 30 May 2012 10:19:58 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2012/2012-05-30-the-business-model-is-hamsters-generating-less-money-with-each-turn-of-the-wheel/</guid>
+      <guid>http://vielmetti.github.com/post/2012/2012-05-30-the-business-model-is-hamsters-generating-less-money-with-each-turn-of-the-wheel/</guid>
       <description>&lt;p&gt;&lt;p&gt;&lt;a href=&#34;http://scripting.com/stories/2012/05/26/newYorkTech.html&#34; target=&#34;_self&#34;&gt;The phrase is from Dave Winer&lt;/a&gt;, noting the path of Web 2.0 company growth and the difference between what the systems are worth to the owners vs. what they are worth to the early adopters:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The APIs are corporate APIs, the CMSes are silos, the business model is hamsters generating less money with each turn of the wheel.&amp;#0160;&lt;a name=&#34;isNewYorkTechDifferentFromCaliforniaTechThereMightBeSomeSlightDifferencesButYouCouldTakeATechConferenceFromCaliforniaPlopItDownInNycAndNotOnlyWouldTheSameIdeasBeDiscussedFromTheSamePerspectiveButMostOfThePeopleWouldBeTheSameTheApisAreCorporateApisTheCmsesAreSilosTheBusinessModelIsHamstersGeneratingLessMoneyWithEachTurnOfTheWheel&#34;&gt;&amp;#0160;&lt;/a&gt;&lt;a href=&#34;http://scripting.com/stories/2012/05/26/newYorkTech.html#isNewYorkTechDifferentFromCaliforniaTechThereMightBeSomeSlightDifferencesButYouCouldTakeATechConferenceFromCaliforniaPlopItDownInNycAndNotOnlyWouldTheSameIdeasBeDiscussedFromTheSamePerspectiveButMostOfThePeopleWouldBeTheSameTheApisAreCorporateApisTheCmsesAreSilosTheBusinessModelIsHamstersGeneratingLessMoneyWithEachTurnOfTheWheel&#34;&gt;&lt;img alt=&#34;permalink&#34; border=&#34;0&#34; height=&#34;9&#34; src=&#34;http://scripting.com/images/2001/09/20/sharpPermaLink3.gif&#34; width=&#34;6&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>New design</title>
-      <link>http://localhost:1313/post/2010/2010-05-22-new-design/</link>
+      <link>http://vielmetti.github.com/post/2010/2010-05-22-new-design/</link>
       <pubDate>Sat, 22 May 2010 18:33:18 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2010/2010-05-22-new-design/</guid>
+      <guid>http://vielmetti.github.com/post/2010/2010-05-22-new-design/</guid>
       <description>&lt;p&gt;Mostly, the design is new because I was ready to scrap a bland custom design and go with something from the Typepad gallery. &amp;#0160;I also like this one in part because it has a nice wide area for pictures in blog posts.&lt;/p&gt;
 &lt;p&gt;I had to hit &amp;quot;shift-refresh&amp;quot; to force everything to load.&lt;/p&gt;
 &lt;p&gt;There&amp;#39;s something effortlessly fun in doing a redesign just by picking a selection from a menu, and suddenly having everything look new. &amp;#0160;How few things work that way!&lt;/p&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title>Lou Rosenfeld&#39;s site search analytics workshop slides</title>
-      <link>http://localhost:1313/post/2008/2008-03-29-lou-rosenfeld-1/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-03-29-lou-rosenfeld-1/</link>
       <pubDate>Sat, 29 Mar 2008 10:27:47 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-03-29-lou-rosenfeld-1/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-03-29-lou-rosenfeld-1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.louisrosenfeld.com&#34;&gt;Lou Rosenfeld&lt;/a&gt; has a new workshop about analytics for the search within sites - the sort of information that is quantitatively and qualitatively different from general search terms and behavior because it&#39;s within a closed domain (e.g. an intranet) or because people who are looking for something have already found you.&lt;/p&gt;
 &lt;div style=&#34;width:425px;text-align:left&#34; id=&#34;__ss_323514&#34;&gt;&lt;object style=&#34;margin:0px&#34; height=&#34;355&#34; width=&#34;425&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=site-search-analytics-workshop-presentation-1206591636862053-4&#34;/&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;/&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;always&#34;/&gt;&lt;embed src=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=site-search-analytics-workshop-presentation-1206591636862053-4&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&#34;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/?src=embed&#34;&gt;&lt;img src=&#34;http://static.slideshare.net/swf/logo_embd.png&#34; style=&#34;border:0px none;margin-bottom:-5px&#34; alt=&#34;SlideShare&#34;/&gt;&lt;/a&gt; | &lt;a href=&#34;http://www.slideshare.net/lrosenfeld/site-search-analytics-workshop-presentation&#34; title=&#34;View this slideshow on SlideShare&#34;&gt;View&lt;/a&gt; | &lt;a href=&#34;http://www.slideshare.net/upload&#34;&gt;Upload your own&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;img style=&#34;visibility:hidden;width:0px;height:0px;&#34; border=0 width=0 height=0 src=&#34;http://counters.gigya.com/wildfire/CIMP/Jmx*PTEyMDY4MDA*MDg*MjYmcHQ9MTIwNjgwMDQyMTkwNiZwPTEwMTkxJmQ9Jm49.jpg&#34; /&gt;
 &lt;p&gt;He&#39;s &lt;a href=&#34;http://louisrosenfeld.com/home/bloug_archive/2008/03/slides_for_my_new_workshop.html&#34;&gt;looking for comments and feedback&lt;/a&gt; - thanks.&lt;/p.
@@ -72,10 +72,10 @@
     
     <item>
       <title>Every day, computers are making people easier to use (In Formation)</title>
-      <link>http://localhost:1313/post/2008/2008-03-13-every-day-compu/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-03-13-every-day-compu/</link>
       <pubDate>Thu, 13 Mar 2008 23:50:53 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-03-13-every-day-compu/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-03-13-every-day-compu/</guid>
       <description>&lt;p&gt;
 One of my dot-com era relics is issue #2 of the short-lived magazine In Formation.  Here&#39;s
 &lt;br /&gt;&lt;a href=&#34;http://query.nytimes.com/gst/fullpage.html?res=9C0DE5DA1530F936A25750C0A96E958260&#34;&gt;what the New York Times said about it in 1998:&lt;/a&gt; - the hypertext annotations are mine.

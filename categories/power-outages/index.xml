@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Outages on tracker</title>
-    <link>http://localhost:1313/categories/power-outages/</link>
+    <link>http://vielmetti.github.com/categories/power-outages/</link>
     <description>Recent content in Power Outages on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 14:40:22 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/power-outages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/power-outages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Simulating a power grid with RTDS</title>
-      <link>http://localhost:1313/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</link>
       <pubDate>Wed, 24 Jun 2015 14:40:22 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</guid>
       <description>&lt;p&gt;Noted as an example of &#34;how do they do that&#34;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Components for a $100 solar charging system?</title>
-      <link>http://localhost:1313/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</link>
       <pubDate>Sat, 06 Sep 2014 14:46:38 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-09-06-components-for-a-100-solar-charging-system/</guid>
       <description>&lt;p&gt;The challenge I put to myself is to spend not more than $100 and get a functioning solar powered charging station. The alternate name is a &#34;camping power supply&#34; for off-the-grid operations.&lt;/p&gt;
 
 &lt;p&gt;Breaking down the components it looks like this would be a combination of the following:&lt;/p&gt;
@@ -77,20 +77,20 @@
     
     <item>
       <title>16 July 2014 Ann Arbor widespread power interruptions, 800 pm</title>
-      <link>http://localhost:1313/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</link>
       <pubDate>Wed, 16 Jul 2014 20:10:49 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-07-16-16-july-2014-ann-arbor-widespread-power-interruptions-800-pm/</guid>
       <description>&lt;p&gt;Multiple people around Ann Arbor Michigan reported power blips at about 8 pm Wednesday 16 July 2014. Detailed explanation of the incident is unavailable at this time.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Sawnee EMC (north of Atlanta, GA) power outage map</title>
-      <link>http://localhost:1313/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</link>
       <pubDate>Tue, 11 Feb 2014 14:12:47 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-02-11-sawnee-emc-has-a-new-power-outage-map-including-a-map-optimized-for-mobile-access-sawnee-emc-serves-electrical-cust/</guid>
       <description>&lt;p&gt;Sawnee EMC has a recently new &lt;a href=&#34;http://www.sawnee.com/content/current-outages&#34;&gt;power outage map&lt;/a&gt;, including a map &lt;a href=&#34;http://sawneearcgis.sawnee.com/sawnee.apps/outage-mobile/index.html&#34;&gt;optimized for mobile access&lt;/a&gt;. The &lt;a href=&#34;http://www.sawnee.com/documents/press/REL112613.htm&#34;&gt;press release&lt;/a&gt; they issued back in November 2013 has a lot more details.&lt;/p&gt;
 
 &lt;p&gt;Sawnee EMC serves electrical customers in portions of Forsyth, Fulton, Dawson, Lumpkin, Cherokee, Hall, &amp;amp; Gwinnett counties, in an area north of Atlanta, Georgia.&lt;/p&gt;
@@ -111,10 +111,10 @@
     
     <item>
       <title>February 5, 2014: Philadelphia area power outages due to ice storm</title>
-      <link>http://localhost:1313/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</link>
       <pubDate>Wed, 05 Feb 2014 16:50:02 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-02-05-february-5-2014-philadelphia-area-power-outages-due-to-ice-storm/</guid>
       <description>&lt;p&gt;February 5, 2014: More than 623,000 customers were without power in the service area covered by PECO (Philadelphia, PA area) at the peak of an ice storm on Wednesday. This is the second worst storm that the company has reported, right behind Hurricane Sandy.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcb58299970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fcb58299970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Peco-outage-map-feb-5-2014&#34; title=&#34;Peco-outage-map-feb-5-2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcb58299970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -143,10 +143,10 @@
     
     <item>
       <title>How many power outages are there in the nation?</title>
-      <link>http://localhost:1313/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</link>
       <pubDate>Wed, 08 Jan 2014 12:23:21 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-01-08-how-many-power-outages-are-there-in-the-nation/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fbe3afd5970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fbe3afd5970b img-responsive&#34; alt=&#34;Indianapolis-Power-Light-2014-01-08-outage-map&#34; title=&#34;Indianapolis-Power-Light-2014-01-08-outage-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fbe3afd5970b-800wi&#34; border=&#34;0&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The world of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34;&gt;power outage maps&lt;/a&gt; is a very fragmented one, with what looks like dozens of designs and systems and no apparent standardization. There&#39;s no way that I know to get a USA-wide power outage map without going to all 50 states worth of utilities and piecing together incompatible maps. Some places - like Lansing, Michigan&#39;s &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013.html&#34;&gt;BWL&lt;/a&gt;, don&#39;t have maps, making customer communication difficult.&lt;/p&gt;
@@ -198,10 +198,10 @@ AEP-Kentucky Power: 904
     
     <item>
       <title>Metro North power outage</title>
-      <link>http://localhost:1313/post/2013/2013-09-27-metro-north-power-outage/</link>
+      <link>http://vielmetti.github.com/post/2013/2013-09-27-metro-north-power-outage/</link>
       <pubDate>Fri, 27 Sep 2013 23:42:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2013/2013-09-27-metro-north-power-outage/</guid>
+      <guid>http://vielmetti.github.com/post/2013/2013-09-27-metro-north-power-outage/</guid>
       <description>&lt;p&gt;A power outage on a 138,000 volt line that provides power to Metro North trains in New York has snarled commutes from Connecticut to New York City and has also affected Amtrak service in the busy New York - Boston corridor. Work is underway to put in a temporary fix by diverting power from surrounding businesses and neighborhoods. A backup feeder line was offline, and full service restoration may take weeks.&lt;/p&gt;
 
 &lt;p&gt;Metro North is responding by putting diesel trains into service and by running buses to try to accommodate the 130,000 daily commuters on the line, but this provides only about a third of the capacity needed for a normal commute.&lt;/p&gt;

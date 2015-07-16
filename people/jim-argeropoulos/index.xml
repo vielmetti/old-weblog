@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jim Argeropoulos on tracker</title>
-    <link>http://localhost:1313/people/jim-argeropoulos/</link>
+    <link>http://vielmetti.github.com/people/jim-argeropoulos/</link>
     <description>Recent content in Jim Argeropoulos on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Oct 2014 01:36:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/people/jim-argeropoulos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/people/jim-argeropoulos/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Notes on building the Marquette Park Cemetery finder app for Code Michigan</title>
-      <link>http://localhost:1313/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/</link>
       <pubDate>Sun, 05 Oct 2014 01:36:16 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/</guid>
       <description>&lt;p&gt;I&#39;m working on a tool or a set of tools to assist people in finding grave sites in the Park Cemetery in Marquette, Michigan as a part of a project for Code Michigan. I&#39;m working with a team that&#39;s based in the U.P. to do this, and we&#39;re collaborating over Google Hangouts. Code Michigan is a hackathon, so this project timeline is compressed to a single weekend. The team is Edward Vielmetti, Jim Argeropoulos, Chris Marr, and Lynn Czarnecki Makela. &lt;/p&gt;
 
 &lt;p&gt;My motivation for picking the grave finder app is a personal one. My grandmother, Ada Burt Vielmetti, is buried in Park Cemetery, and I&#39;ve never visited the grave because I didn&#39;t know where it was. The cemetery covers over 100 acres so it&#39;s impractical to just wander around until you find what you&#39;re looking for, and there wasn&#39;t an online finder&#39;s aid. When the Code Michigan challenge came about it was an obvious task to tackle.&lt;/p&gt;

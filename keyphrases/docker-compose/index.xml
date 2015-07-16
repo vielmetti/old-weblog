@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker Compose on tracker</title>
-    <link>http://localhost:1313/keyphrases/docker-compose/</link>
+    <link>http://vielmetti.github.com/keyphrases/docker-compose/</link>
     <description>Recent content in Docker Compose on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jul 2015 02:18:01 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/keyphrases/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/keyphrases/docker-compose/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</title>
-      <link>http://localhost:1313/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
       <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
       <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
 
 &lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;

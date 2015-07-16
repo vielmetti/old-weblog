@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leslie Lamport on tracker</title>
-    <link>http://localhost:1313/people/leslie-lamport/</link>
+    <link>http://vielmetti.github.com/people/leslie-lamport/</link>
     <description>Recent content in Leslie Lamport on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 May 2012 22:27:28 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/people/leslie-lamport/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/people/leslie-lamport/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>distributed systems, and systems failure in general</title>
-      <link>http://localhost:1313/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</link>
+      <link>http://vielmetti.github.com/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</link>
       <pubDate>Wed, 30 May 2012 22:27:28 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</guid>
+      <guid>http://vielmetti.github.com/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</guid>
       <description>&lt;p&gt;&amp;#0160;&lt;/p&gt;
 &lt;div&gt;
 &lt;div&gt;&amp;quot;A distributed system is one in which the failure of a computer you didn&amp;#39;t even know existed can render your own computer unusable.&amp;quot; &lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34; target=&#34;_self&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;; though the same observation would be true for cloud computing today.&lt;/div&gt;

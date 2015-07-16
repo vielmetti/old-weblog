@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cheese on tracker</title>
-    <link>http://localhost:1313/recipes/cheese/</link>
+    <link>http://vielmetti.github.com/recipes/cheese/</link>
     <description>Recent content in Cheese on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jul 2015 20:51:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/recipes/cheese/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/recipes/cheese/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mac and Goat</title>
-      <link>http://localhost:1313/post/Mac-and-Goat/</link>
+      <link>http://vielmetti.github.com/post/Mac-and-Goat/</link>
       <pubDate>Tue, 14 Jul 2015 20:51:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/Mac-and-Goat/</guid>
+      <guid>http://vielmetti.github.com/post/Mac-and-Goat/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Mac and Goat&lt;/strong&gt; calls for goat cheese; we generally use a goat gouda or

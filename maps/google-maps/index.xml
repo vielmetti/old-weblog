@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Maps on tracker</title>
-    <link>http://localhost:1313/maps/google-maps/</link>
+    <link>http://vielmetti.github.com/maps/google-maps/</link>
     <description>Recent content in Google Maps on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Mar 2008 15:23:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/maps/google-maps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/maps/google-maps/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Detroit suburban SMART bus transit routing in Google Transit</title>
-      <link>http://localhost:1313/post/2008/2008-03-26-detroit-suburba/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-03-26-detroit-suburba/</link>
       <pubDate>Wed, 26 Mar 2008 15:23:16 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-03-26-detroit-suburba/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-03-26-detroit-suburba/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;http://www.dtownie.com/2008/03/23/google-transit-detroit/&#34;&gt;The Detroit area SMART bus system now has routing and schedule information in Google Transit.&lt;/a&gt;  It gives bus numbers and times for rides across the metro Detroit area, and plans the next available trips for you.
 &lt;/p&gt;&lt;p&gt;

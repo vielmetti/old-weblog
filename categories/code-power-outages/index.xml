@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code Power Outages on tracker</title>
-    <link>http://localhost:1313/categories/code-power-outages/</link>
+    <link>http://vielmetti.github.com/categories/code-power-outages/</link>
     <description>Recent content in Code Power Outages on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2015 10:23:20 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/code-power-outages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/code-power-outages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Using GNU Parallel to speed up network operations</title>
-      <link>http://localhost:1313/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</link>
       <pubDate>Wed, 24 Jun 2015 10:23:20 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</guid>
       <description>&lt;p&gt;My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.&lt;/p&gt;
 
 &lt;p&gt;Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes. If you are working on something where it doesn&#39;t matter which order things happen in as long as they all get done you are in good shape to get tremendous performance improvements simply by overlapping operations.&lt;/p&gt;

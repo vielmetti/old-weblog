@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Census Maps Michigan on tracker</title>
-    <link>http://localhost:1313/categories/census-maps-michigan/</link>
+    <link>http://vielmetti.github.com/categories/census-maps-michigan/</link>
     <description>Recent content in Census Maps Michigan on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Mar 2011 00:46:23 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/census-maps-michigan/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/census-maps-michigan/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2010 Michigan census data</title>
-      <link>http://localhost:1313/post/2011/2011-03-22-2010-michigan-census-data/</link>
+      <link>http://vielmetti.github.com/post/2011/2011-03-22-2010-michigan-census-data/</link>
       <pubDate>Tue, 22 Mar 2011 00:46:23 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2011/2011-03-22-2010-michigan-census-data/</guid>
+      <guid>http://vielmetti.github.com/post/2011/2011-03-22-2010-michigan-census-data/</guid>
       <description>&lt;p&gt;Census data for Michigan from the 2010 census will be used for reapportionment. When the data is available, this chart will show it. The release date was at 2:00 p.m. on March 22, 2011.&lt;/p&gt;
 &lt;p&gt;&lt;iframe ameborder=&#34;0&#34; height=&#34;351&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; scrolling=&#34;no&#34; src=&#34;http://2010.census.gov/2010census/data/embedstate.html?state=MI&#34; width=&#34;550&#34;&gt;IFRAMES not supported&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;More, much more, when it actually shows up; from &lt;a href=&#34;http://www.census.gov&#34;&gt;census.gov&lt;/a&gt;.&lt;/p&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networks on tracker</title>
-    <link>http://localhost:1313/categories/networks/</link>
+    <link>http://vielmetti.github.com/categories/networks/</link>
     <description>Recent content in Networks on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2015 02:00:09 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/networks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/networks/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Running DD-WRT as a switch on a Linksys WRT54GL</title>
-      <link>http://localhost:1313/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</link>
       <pubDate>Sun, 28 Jun 2015 02:00:09 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</guid>
       <description>&lt;p&gt;I don&#39;t really need more wifi access points in the house, but I do need more wired ethernet ports. Thanks to ellemef&#39;s box o&#39;goodies I have a WRT54GL to play with, and I put DD-WRT on it set up in a configuration to run as a switch plugged into my existing ATT UVerse router. &lt;/p&gt;
 
 &lt;p&gt;I got the &lt;a href=&#34;http://www.dd-wrt.com/wiki/index.php/Linksys_WRT54GL&#34;&gt;DD-WRT firmware loaded&lt;/a&gt; by following the provided directions. Then I followed the instructions at &lt;a href=&#34;http://www.dd-wrt.com/wiki/index.php/Switch&#34;&gt;You are here: DD-WRT wiki mainpage / Linking Routers / Switch&lt;/a&gt; for configuration. A quick reboot and some recabling and a couple of Raspberry Pis now have their own ethernet ports.&lt;/p&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>27 January 2014 AT&amp;T UVerse DNS server problems</title>
-      <link>http://localhost:1313/post/2014/2014-01-27-27-january-2014-att-uverse-dns-server-problems/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-01-27-27-january-2014-att-uverse-dns-server-problems/</link>
       <pubDate>Mon, 27 Jan 2014 10:44:42 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-01-27-27-january-2014-att-uverse-dns-server-problems/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-01-27-27-january-2014-att-uverse-dns-server-problems/</guid>
       <description>&lt;p&gt;On the morning of 27 January 2014, AT&amp;amp;T UVerse services appear to be suffering from DNS problems. A graph from &lt;a href=&#34;http://downdetector.com/status/att&#34;&gt;Down Detector&lt;/a&gt; suggests that the problem is widespread. The observation is that some sites will load but others won&#39;t (like Hulu, New Yorker, Reddit.)&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5115a9dd6970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a5115a9dd6970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Down-detector-att-2014-01-27-10.36.57-AM&#34; title=&#34;Down-detector-att-2014-01-27-10.36.57-AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5115a9dd6970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>The last telegram in India</title>
-      <link>http://localhost:1313/post/2013/2013-06-20-the-last-telegram-in-india/</link>
+      <link>http://vielmetti.github.com/post/2013/2013-06-20-the-last-telegram-in-india/</link>
       <pubDate>Thu, 20 Jun 2013 00:59:51 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2013/2013-06-20-the-last-telegram-in-india/</guid>
+      <guid>http://vielmetti.github.com/post/2013/2013-06-20-the-last-telegram-in-india/</guid>
       <description>&lt;p&gt;
 &lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab55bf79970d-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;201082_india-telegraph-maury-catalogue-one&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192ab55bf79970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab55bf79970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;201082_india-telegraph-maury-catalogue-one&#34; /&gt;&lt;/a&gt;The telegraphy system in India is coming to an end in July 2013, &lt;a href=&#34;http://www.csmonitor.com/World/Asia-South-Central/2013/0614/India-to-end-state-run-telegram-service.-Stop&#34; target=&#34;_self&#34;&gt;reports&lt;/a&gt; The Christian Science Monitor:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>distributed systems, and systems failure in general</title>
-      <link>http://localhost:1313/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</link>
+      <link>http://vielmetti.github.com/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</link>
       <pubDate>Wed, 30 May 2012 22:27:28 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</guid>
+      <guid>http://vielmetti.github.com/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</guid>
       <description>&lt;p&gt;&amp;#0160;&lt;/p&gt;
 &lt;div&gt;
 &lt;div&gt;&amp;quot;A distributed system is one in which the failure of a computer you didn&amp;#39;t even know existed can render your own computer unusable.&amp;quot; &lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34; target=&#34;_self&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;; though the same observation would be true for cloud computing today.&lt;/div&gt;
@@ -73,10 +73,10 @@
     
     <item>
       <title>web two point naught: watching the shutdown of free web 2.0 services</title>
-      <link>http://localhost:1313/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</link>
       <pubDate>Tue, 02 Dec 2008 10:11:09 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</guid>
       <description>&lt;p&gt;In recent days a number of modestly successful online social and productivity services have been scheduled for decommisioning.  Pownce is being turned off as that team moves to Six Apart, and I Want Sandy is going away as Rael moves to Twitter. You will see more systems get acquired and shut down with graceful exits, and some exits will not be so graceful.&lt;/p&gt;
 
 &lt;p&gt;There seem to be multiple common reasons why upstart systems get wiped out in times of economic crisis.  If your traffic is not growing and you aren&#39;t attracting legions of superstar users, it starts to look expensive to bet against a bigger rival.  Even if you do manage to pull off steady growth in usage the test may be scaling up your infrastructure to keep pace with demand.&lt;/p&gt;
@@ -91,10 +91,10 @@
     
     <item>
       <title>Brent Hill, Google / Feedburner speaking in Ann Arbor, Dec 4 2007</title>
-      <link>http://localhost:1313/post/2007/2007-12-04-brent-hill-goog/</link>
+      <link>http://vielmetti.github.com/post/2007/2007-12-04-brent-hill-goog/</link>
       <pubDate>Tue, 04 Dec 2007 09:50:16 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2007/2007-12-04-brent-hill-goog/</guid>
+      <guid>http://vielmetti.github.com/post/2007/2007-12-04-brent-hill-goog/</guid>
       <description>&lt;p&gt;
 A talk tonight, 12/4:
 &lt;/p&gt;&lt;blockquote&gt;
@@ -120,10 +120,10 @@ More infos: &lt;a href=&#34;http://www.feedburner.com/fb/a/about/people/hill&#34
     
     <item>
       <title>NSFNET reunion, a perspective</title>
-      <link>http://localhost:1313/post/2007/2007-12-03-nsfnet-reunion/</link>
+      <link>http://vielmetti.github.com/post/2007/2007-12-03-nsfnet-reunion/</link>
       <pubDate>Mon, 03 Dec 2007 22:34:41 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2007/2007-12-03-nsfnet-reunion/</guid>
+      <guid>http://vielmetti.github.com/post/2007/2007-12-03-nsfnet-reunion/</guid>
       <description>&lt;p&gt;
 I was at the NSFNET 20th reunion last week.  Here&#39;s some notes after the fact.
 &lt;/p&gt;&lt;p&gt;
@@ -145,10 +145,10 @@ Thanks to everyone I saw there (cja, mayabe, dsobeloff, glee, srh) and especiall
     
     <item>
       <title>Dave Mills on Routing in the Internet Swamp</title>
-      <link>http://localhost:1313/post/2007/2007-11-29-dave-mills-on-r/</link>
+      <link>http://vielmetti.github.com/post/2007/2007-11-29-dave-mills-on-r/</link>
       <pubDate>Thu, 29 Nov 2007 11:14:14 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2007/2007-11-29-dave-mills-on-r/</guid>
+      <guid>http://vielmetti.github.com/post/2007/2007-11-29-dave-mills-on-r/</guid>
       <description>&lt;p&gt;
 I&#39;m in DC for the NSFNET reunion - here&#39;s a deck from 1999 that Dave Mills put together on the view of routing in the Internet in the 1980s.
 &lt;/p&gt;&lt;div&gt;
@@ -164,10 +164,10 @@ I&#39;m in DC for the NSFNET reunion - here&#39;s a deck from 1999 that Dave Mil
     
     <item>
       <title>Mark Lombardi, Global Networks</title>
-      <link>http://localhost:1313/post/2003/2003-05-18-mark-lombardi-global-networks/</link>
+      <link>http://vielmetti.github.com/post/2003/2003-05-18-mark-lombardi-global-networks/</link>
       <pubDate>Sun, 18 May 2003 12:25:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2003/2003-05-18-mark-lombardi-global-networks/</guid>
+      <guid>http://vielmetti.github.com/post/2003/2003-05-18-mark-lombardi-global-networks/</guid>
       <description>&lt;p&gt;Mark Lombardi&amp;rsquo;s amazing &lt;em&gt;hand-drawn&lt;/em&gt; network maps of influence and
 corruption will be exhibited around North America over the next
 year. Curator Robert Hobbs has gathered 25 works for the traveling

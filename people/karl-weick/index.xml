@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karl Weick on tracker</title>
-    <link>http://localhost:1313/people/karl-weick/</link>
+    <link>http://vielmetti.github.com/people/karl-weick/</link>
     <description>Recent content in Karl Weick on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Dec 2013 15:47:07 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/people/karl-weick/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/people/karl-weick/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>small wins and writing productivity</title>
-      <link>http://localhost:1313/post/2013/2013-12-08-small-wins-and-writing-productivity/</link>
+      <link>http://vielmetti.github.com/post/2013/2013-12-08-small-wins-and-writing-productivity/</link>
       <pubDate>Sun, 08 Dec 2013 15:47:07 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2013/2013-12-08-small-wins-and-writing-productivity/</guid>
+      <guid>http://vielmetti.github.com/post/2013/2013-12-08-small-wins-and-writing-productivity/</guid>
       <description>&lt;p&gt;I&#39;m intrigued of late by the notion of &#34;small wins&#34;. This is prompted by reading Wayne Baker&#39;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&#39;re really getting somewhere, even if on the grand scale it doesn&#39;t register yet.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Breeding black swans</title>
-      <link>http://localhost:1313/post/2010/2010-06-01-breeding-black-swans/</link>
+      <link>http://vielmetti.github.com/post/2010/2010-06-01-breeding-black-swans/</link>
       <pubDate>Tue, 01 Jun 2010 22:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2010/2010-06-01-breeding-black-swans/</guid>
+      <guid>http://vielmetti.github.com/post/2010/2010-06-01-breeding-black-swans/</guid>
       <description>&lt;p&gt;I had a disturbing thought while rereading &lt;a href=&#34;http://www.gladwell.com/2002/2002_04_29_a_blowingup.htm&#34;&gt;Malcolm Gladwell&amp;#39;s piece on Nassim Taleb&lt;/a&gt; in his latest book which collects his New Yorker essays. What if Taleb is not only profiting from unknownable random adverse events, but also encouraging their proliferation?&lt;/p&gt;
 
 &lt;p&gt;The logic runs like this. You place a series of bets, where if you lose you lose $1 and if you win you win $1000000. The bets are on some implausible condition, one which (at the outset) there is no chance of happening. You bet the first time, you lose; the counterparty is $1 richer and one iota more confident. You bet again.&lt;/p&gt;

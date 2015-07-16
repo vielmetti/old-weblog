@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pudding on tracker</title>
-    <link>http://localhost:1313/recipes/pudding/</link>
+    <link>http://vielmetti.github.com/recipes/pudding/</link>
     <description>Recent content in Pudding on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2003 01:11:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/recipes/pudding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/recipes/pudding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>semolina pudding</title>
-      <link>http://localhost:1313/post/2003/2003-01-26-semolina-pudding/</link>
+      <link>http://vielmetti.github.com/post/2003/2003-01-26-semolina-pudding/</link>
       <pubDate>Sun, 26 Jan 2003 01:11:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2003/2003-01-26-semolina-pudding/</guid>
+      <guid>http://vielmetti.github.com/post/2003/2003-01-26-semolina-pudding/</guid>
       <description>&lt;p&gt;January 26, 2003&lt;br /&gt;
 SEMOLINA PUDDING&lt;/p&gt;
 

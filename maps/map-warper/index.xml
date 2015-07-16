@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Map Warper on tracker</title>
-    <link>http://localhost:1313/maps/map-warper/</link>
+    <link>http://vielmetti.github.com/maps/map-warper/</link>
     <description>Recent content in Map Warper on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2009 22:34:51 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/maps/map-warper/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/maps/map-warper/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Map Warper: stretch an old map to fit the new landscape</title>
-      <link>http://localhost:1313/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</link>
+      <link>http://vielmetti.github.com/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</link>
       <pubDate>Wed, 24 Jun 2009 22:34:51 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</guid>
+      <guid>http://vielmetti.github.com/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.vizworld.com/2009/06/testing-map-warper-beta/&#34; target=&#34;_blank&#34;&gt;http://www.vizworld.com/2009/&lt;wbr /&gt;06/testing-map-warper-beta/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Maitri has a great write-up of Map Warper, a tool for taking old maps and stretching them (rectifying them) to match another base map.&amp;#0160; &lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;a href=&#34;http://thinkwhere.wordpress.com/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/thinkwhere.wordpress.com&amp;#39;);&#34;&gt;Tim Waters&lt;/a&gt; has developed an open source tool called &lt;a href=&#34;http://warper.geothings.net/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/warper.geothings.net&amp;#39;);&#34;&gt;Map Warper (Beta)&lt;/a&gt; into which you can upload a scanned map, &lt;a href=&#34;http://www.photonics.com/directory/dictionary/lookup.asp?url=lookup&amp;amp;entrynum=5970&amp;amp;letter=g&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/www.photonics.com&amp;#39;);&#34;&gt;georectify&lt;/a&gt;
 it and save it out as an image or a map layer.&amp;#0160; As a former resident of
 New Orleans, where a transparent recovery and historic preservation are

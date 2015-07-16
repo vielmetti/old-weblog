@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Os X on tracker</title>
-    <link>http://localhost:1313/categories/os-x/</link>
+    <link>http://vielmetti.github.com/categories/os-x/</link>
     <description>Recent content in Os X on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 May 2015 22:41:36 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/os-x/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/os-x/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Making Lag Monster a bit less laggy</title>
-      <link>http://localhost:1313/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/</link>
       <pubDate>Fri, 29 May 2015 22:41:36 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/</guid>
       <description>&lt;p&gt;@tallervielmetti is using my old black Macbook. It&#39;s never been an exceptionally fast machine, but it&#39;s been super laggy of late, hence the name Lag Monster. &lt;/p&gt;
 
 &lt;p&gt;I installed all kinds of crap on that machine to test it out, and never uninstalled a lot of it. It turns out that some judicious uninstalls seemed to help a lot to keep the load average down. Some hints to my future self if these ever re-emerge:&lt;/p&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>Mac OS 10.9.5 audio problems on MacBook Air</title>
-      <link>http://localhost:1313/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/</link>
       <pubDate>Fri, 24 Oct 2014 23:09:40 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/</guid>
       <description>&lt;p&gt;Symptoms include no audio inputs when a headset is plugged in, but the built-in mic works fine when the headset is not plugged in.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;sudo killall coreaudiod&lt;/code&gt; is one suggested fix.&lt;/p&gt;
@@ -62,10 +62,10 @@
     
     <item>
       <title>Macbook flickery pixels - diagnosing and fixing a screen hardware problem</title>
-      <link>http://localhost:1313/post/2007/2007-12-05-macbook-flicker/</link>
+      <link>http://vielmetti.github.com/post/2007/2007-12-05-macbook-flicker/</link>
       <pubDate>Wed, 05 Dec 2007 11:28:15 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2007/2007-12-05-macbook-flicker/</guid>
+      <guid>http://vielmetti.github.com/post/2007/2007-12-05-macbook-flicker/</guid>
       <description>&lt;p&gt;
 I have a Macbook, it&#39;s partially broken right now.
 &lt;/p&gt;&lt;p&gt;

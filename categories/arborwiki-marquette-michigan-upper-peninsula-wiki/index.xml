@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arborwiki Marquette Michigan Upper Peninsula Wiki on tracker</title>
-    <link>http://localhost:1313/categories/arborwiki-marquette-michigan-upper-peninsula-wiki/</link>
+    <link>http://vielmetti.github.com/categories/arborwiki-marquette-michigan-upper-peninsula-wiki/</link>
     <description>Recent content in Arborwiki Marquette Michigan Upper Peninsula Wiki on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Aug 2014 21:09:20 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/arborwiki-marquette-michigan-upper-peninsula-wiki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/arborwiki-marquette-michigan-upper-peninsula-wiki/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Building a Marquette Localwiki</title>
-      <link>http://localhost:1313/post/2014/2014-08-28-building-a-marquette-localwiki/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-08-28-building-a-marquette-localwiki/</link>
       <pubDate>Thu, 28 Aug 2014 21:09:20 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-08-28-building-a-marquette-localwiki/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-08-28-building-a-marquette-localwiki/</guid>
       <description>&lt;p&gt;I visit Marquette Michigan every summer to see family and catch up with friends and visit the place I went to high school. Every so often there&#39;s a reunion, but often it&#39;s just a matter of going back to the home town and figuring out what&#39;s up and what&#39;s what.&lt;/p&gt;
 
 &lt;p&gt;Since I&#39;ve been working on Arborwiki for the better part of eight years, I thought last year that I&#39;d give a try to make a &lt;a href=&#34;http://localwiki.net/marquettemi&#34;&gt;Localwiki for Marquette&lt;/a&gt;. Technologically it was easy to do - Localwiki makes adding new regions easy - but practically it&#39;s got some challenges. Here are notes on what it means to look at Localwiki for a rural area.&lt;/p&gt;

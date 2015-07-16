@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ann Arbor Events Information Security Infrastructure on tracker</title>
-    <link>http://localhost:1313/categories/ann-arbor-events-information-security-infrastructure/</link>
+    <link>http://vielmetti.github.com/categories/ann-arbor-events-information-security-infrastructure/</link>
     <description>Recent content in Ann Arbor Events Information Security Infrastructure on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Mar 2014 16:20:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/ann-arbor-events-information-security-infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/ann-arbor-events-information-security-infrastructure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Meetup.com DDOS attack continues, March 3, 2014</title>
-      <link>http://localhost:1313/post/2014/2014-03-03-meetupcom-ddos-attack-continues-march-3-2014/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-03-03-meetupcom-ddos-attack-continues-march-3-2014/</link>
       <pubDate>Mon, 03 Mar 2014 16:20:52 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-03-03-meetupcom-ddos-attack-continues-march-3-2014/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-03-03-meetupcom-ddos-attack-continues-march-3-2014/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.meetup.com&#34;&gt;Meetup.com&lt;/a&gt; has had a series of bad days. Their site has been under a distributed denial of service (DDOS) attack for a number of days. To mitigate the problem, they are using the &lt;a href=&#34;http://www.cloudflare.com&#34;&gt;CloudFlare&lt;/a&gt; service, but even that has not been working great.&lt;/p&gt;
 
 &lt;p&gt;The net effect is that sometimes the Meetup.com site is unavailable, making it hard to sign up or schedule or reschedule events. The Meetup periodic announcements about the problem emphasize how hard they are working to fix it and how user credit cards are not at risk.&lt;/p&gt;

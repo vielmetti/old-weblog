@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wiki on tracker</title>
-    <link>http://localhost:1313/categories/wiki/</link>
+    <link>http://vielmetti.github.com/categories/wiki/</link>
     <description>Recent content in Wiki on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Sep 2014 16:33:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>For machines, by machines: Wikipedia is for bots</title>
-      <link>http://localhost:1313/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</link>
       <pubDate>Fri, 26 Sep 2014 16:33:52 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</guid>
       <description>&lt;p&gt;What is Wikipedia for? It&#39;s for bots.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.theverge.com/2014/2/18/5412636/this-machine-kills-trolls-how-wikipedia-robots-snuff-out-vandalism&#34;&gt;This machine kills trolls: How Wikipedia’s robots and cyborgs snuff out vandalism&lt;/a&gt; writes up the work of the Wikipedia contributors who have written robots (bots) that automatically extirpate contributions to the encyclopedia that are unwanted.&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Making sense of Ferguson, Missouri via the St Louis Localwiki</title>
-      <link>http://localhost:1313/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</link>
       <pubDate>Thu, 21 Aug 2014 20:06:07 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</guid>
       <description>&lt;p&gt;The St Louis, Missouri Localwiki - &lt;a href=&#34;http://localwiki.net/st-louis&#34;&gt;http://localwiki.net/st-louis&lt;/a&gt; - was mostly empty when the events in Ferguson, MO started on August 9, 2014 with the death of 18 year old student Michael Brown. As with any event where there&#39;s a lot that&#39;s going on in an unfamiliar area, I was drawn to making some sense of what was happening. This has been especially true when the coverage on the #&lt;a href=&#34;http://twitter.com/hashtag/ferguson&#34;&gt;ferguson&lt;/a&gt; hashtag overwhelmed my Twitter feed, which had been usually quiet at night.&lt;/p&gt;
 
 &lt;p&gt;The Localwiki crew - including Jason Denizac, Marina Kukso, Philip Neustrom, James Halliday, and others have been super helpful in filling in the blanks on the Localwiki map around Ferguson. It&#39;s been helpful to get one step away from the relentless outsider media scrum and read background pieces by local journalists from places like the 
@@ -48,10 +48,10 @@
     
     <item>
       <title>Notes from my talk on Arborwiki and Localwiki at eChicago, 2013</title>
-      <link>http://localhost:1313/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</link>
+      <link>http://vielmetti.github.com/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</link>
       <pubDate>Mon, 29 Apr 2013 00:06:28 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</guid>
+      <guid>http://vielmetti.github.com/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</guid>
       <description>&lt;p&gt;I had the good fortune to talk about &lt;a href=&#34;http://arborwiki.org&#34; target=&#34;_self&#34;&gt;Arborwiki&lt;/a&gt; and &lt;a href=&#34;http://www.localwiki.org&#34; target=&#34;_self&#34;&gt;Localwiki&lt;/a&gt; at eChicago in April 2013. Here are the notes that I took in preparation for the talk; the actual text of the talk varied from this, since I was speaking impromptu.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;About Arborwiki&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Who: &lt;/strong&gt;More than a dozen core contributors over the lifespan of the project, plus many more who have made small edits to pages.&lt;/p&gt;

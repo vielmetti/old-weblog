@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bitcoin on tracker</title>
-    <link>http://localhost:1313/categories/bitcoin/</link>
+    <link>http://vielmetti.github.com/categories/bitcoin/</link>
     <description>Recent content in Bitcoin on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jun 2015 02:31:08 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/bitcoin/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>BBC: &#34;Greece&#39;s bank holiday from hell&#34;; impact on Bitcoin transactions?</title>
-      <link>http://localhost:1313/post/2015/2015-06-29-bbc-greeces-bank-holiday-from-hell-impact-on-bitcoin-transactions/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-06-29-bbc-greeces-bank-holiday-from-hell-impact-on-bitcoin-transactions/</link>
       <pubDate>Mon, 29 Jun 2015 02:31:08 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-06-29-bbc-greeces-bank-holiday-from-hell-impact-on-bitcoin-transactions/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-06-29-bbc-greeces-bank-holiday-from-hell-impact-on-bitcoin-transactions/</guid>
       <description>&lt;p&gt;From the BBC: &lt;a href=&#34;http://www.bbc.com/news/business-33306158&#34;&gt;Greece&#39;s bank holiday from hell&lt;/a&gt;. Greek banks are expected to stay shuttered for more than a week, and in the meantime depositors can only withdraw 60 euros per day.&lt;/p&gt;
 
 &lt;p&gt;The Internet spin on this is to wonder how Bitcoin will be used to evade currency controls. From Financial Post, &lt;a href=&#34;http://business.financialpost.com/investing/bitcoin-is-the-real-winner-in-greece-crisis&#34;&gt;Bitcoin is the real winner in Greece crisis&lt;/a&gt;:&lt;/p&gt;
@@ -31,10 +31,10 @@
     
     <item>
       <title>Insane coin posse</title>
-      <link>http://localhost:1313/post/2014/2014-04-14-insane-coin-posse/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-04-14-insane-coin-posse/</link>
       <pubDate>Mon, 14 Apr 2014 12:18:29 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-04-14-insane-coin-posse/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-04-14-insane-coin-posse/</guid>
       <description>&lt;p&gt;The latest in cryptocurrencies is the Juggalocoin, proposed to handle the transactional needs of the fans of the Insane Clown Posse. From &lt;a href=&#34;http://www.billboard.com/biz/articles/news/digital-and-mobile/6049084/meet-the-insane-coin-posse-juggalos-get-their-own&#34;&gt;Billboard&lt;/a&gt; (because after all this is an entertainment story):&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>Mt Gox in bankruptcy court - &#34;We&#39;ve been goxed!&#34;</title>
-      <link>http://localhost:1313/post/2014/2014-03-12-mt-gox-in-bankruptcy-court-weve-been-goxed/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-03-12-mt-gox-in-bankruptcy-court-weve-been-goxed/</link>
       <pubDate>Wed, 12 Mar 2014 01:08:40 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-03-12-mt-gox-in-bankruptcy-court-weve-been-goxed/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-03-12-mt-gox-in-bankruptcy-court-weve-been-goxed/</guid>
       <description>&lt;p&gt;From &lt;a href=&#34;http://www.bloomberg.com/news/2014-03-11/mt-gox-u-s-affiliate-owner-s-assets-frozen-by-federal-judge.html&#34;&gt;Bloomberg News&lt;/a&gt;, March 11 2014&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -97,10 +97,10 @@
     
     <item>
       <title>Mt Gox is down in Bitcoin heist, &#34;transaction malleability&#34; to blame</title>
-      <link>http://localhost:1313/post/2014/2014-02-26-mt-gox-is-down-in-bitcoin-heist-transaction-malleability-to-blame/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-02-26-mt-gox-is-down-in-bitcoin-heist-transaction-malleability-to-blame/</link>
       <pubDate>Wed, 26 Feb 2014 07:30:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-02-26-mt-gox-is-down-in-bitcoin-heist-transaction-malleability-to-blame/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-02-26-mt-gox-is-down-in-bitcoin-heist-transaction-malleability-to-blame/</guid>
       <description>&lt;p&gt;The latest in the Bitcoin saga is a crisis at Mt Gox, one of the major Bitcoin exchanges in the world. A few judicious news clippings will give you a sense of the chaos.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d81b1f9970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73d81b1f9970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Bitcoinity-mt-gox-crash&#34; title=&#34;Bitcoinity-mt-gox-crash&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d81b1f9970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -137,10 +137,10 @@
     
     <item>
       <title>Bitcoin volatility after Mt Gox downtime</title>
-      <link>http://localhost:1313/post/2014/2014-02-09-bitcoin-volatility-after-mt-gox-downtime/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-02-09-bitcoin-volatility-after-mt-gox-downtime/</link>
       <pubDate>Sun, 09 Feb 2014 10:31:48 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-02-09-bitcoin-volatility-after-mt-gox-downtime/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-02-09-bitcoin-volatility-after-mt-gox-downtime/</guid>
       <description>&lt;p&gt;Depending on the source you get a slightly different story, but the results are the same: there is a lot of volatility in Bitcoin pricing in early February 2014 because of problems at the Mt. Gox exchange. So much for a technologically pristine, mathematically pure, decentralized currency; when your &#34;foreign exchange&#34; depends on a very small number of businesses, it can have systematic vulnerabilities.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a511682436970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a511682436970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Mtgox-bitcoin-feb-9-2014&#34; title=&#34;Mtgox-bitcoin-feb-9-2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a511682436970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -169,10 +169,10 @@
     
     <item>
       <title>Bitcoin at new record highs, trading in China</title>
-      <link>http://localhost:1313/post/2013/2013-11-24-bitcoin-at-new-record-highs-trading-in-china/</link>
+      <link>http://vielmetti.github.com/post/2013/2013-11-24-bitcoin-at-new-record-highs-trading-in-china/</link>
       <pubDate>Sun, 24 Nov 2013 15:30:13 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2013/2013-11-24-bitcoin-at-new-record-highs-trading-in-china/</guid>
+      <guid>http://vielmetti.github.com/post/2013/2013-11-24-bitcoin-at-new-record-highs-trading-in-china/</guid>
       <description>&lt;p&gt;The price of Bitcoin has soared in recent months, even though the Dread Pirate Roberts was taken offline. A recent graph shows the currency trading above $800.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b01998a7b970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b01998a7b970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-11-24 at 3.19.37 PM&#34; title=&#34;Screen shot 2013-11-24 at 3.19.37 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b01998a7b970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;

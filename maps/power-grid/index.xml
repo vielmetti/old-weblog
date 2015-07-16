@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Grid on tracker</title>
-    <link>http://localhost:1313/maps/power-grid/</link>
+    <link>http://vielmetti.github.com/maps/power-grid/</link>
     <description>Recent content in Power Grid on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Jun 2008 16:08:29 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/maps/power-grid/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/maps/power-grid/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How hot is your power grid?  Real time maps from the Midwest ISO</title>
-      <link>http://localhost:1313/post/2008/2008-06-12-how-hot-is-your/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-06-12-how-hot-is-your/</link>
       <pubDate>Thu, 12 Jun 2008 16:08:29 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-06-12-how-hot-is-your/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-06-12-how-hot-is-your/</guid>
       <description>&lt;p&gt;Continuing the summer power grid watch theme - lots of Oakland County, MI still is waiting for restoration of service - let&#39;s look at the real time map for watching the greater power grid.&lt;/p&gt;
 
 &lt;p&gt;In the Midwest, power coordination between utilities is done through the &lt;a href=&#34;http://www.midwestiso.org&#34;&gt;Midwest ISO&lt;/a&gt;, an organization that is responsible for orderly transfer of capacity between generators and transmission lines and for helping plan and predict seasonal and outage-related load changes that require competitors to work together.&lt;/p&gt;

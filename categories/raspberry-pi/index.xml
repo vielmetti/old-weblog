@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry Pi on tracker</title>
-    <link>http://localhost:1313/categories/raspberry-pi/</link>
+    <link>http://vielmetti.github.com/categories/raspberry-pi/</link>
     <description>Recent content in Raspberry Pi on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Jun 2015 12:49:59 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>running mjpg-streamer on a Raspberry Pi 2 with an old Logitech webcam</title>
-      <link>http://localhost:1313/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/</link>
       <pubDate>Sat, 27 Jun 2015 12:49:59 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/</guid>
       <description>&lt;p&gt;I followed the instructions on &lt;a href=&#34;http://www.linuxmediaserver.net/linux-basics/streaming-webcam-raspberry-pi/&#34;&gt;this post on LinuxMediaServer.net&lt;/a&gt; to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware.&lt;/p&gt;
 
 &lt;p&gt;lsusb returns this device:&lt;/p&gt;

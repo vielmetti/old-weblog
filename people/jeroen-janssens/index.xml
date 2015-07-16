@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeroen Janssens on tracker</title>
-    <link>http://localhost:1313/people/jeroen-janssens/</link>
+    <link>http://vielmetti.github.com/people/jeroen-janssens/</link>
     <description>Recent content in Jeroen Janssens on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Feb 2015 16:19:10 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/people/jeroen-janssens/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/people/jeroen-janssens/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>R, me hearties</title>
-      <link>http://localhost:1313/post/2015/2015-02-28-r-me-hearties/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-02-28-r-me-hearties/</link>
       <pubDate>Sat, 28 Feb 2015 16:19:10 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-02-28-r-me-hearties/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-02-28-r-me-hearties/</guid>
       <description>&lt;p&gt;I&#39;ve been fond of maps and graphs for a long time, but haven&#39;t had a good set 
 of tools to play with that easily generate decent versions of same from various
 data sets I&#39;ve found or accumulated.&lt;/p&gt;

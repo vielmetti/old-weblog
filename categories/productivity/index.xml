@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on tracker</title>
-    <link>http://localhost:1313/categories/productivity/</link>
+    <link>http://vielmetti.github.com/categories/productivity/</link>
     <description>Recent content in Productivity on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Apr 2015 08:52:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>inbox 50, unread 500</title>
-      <link>http://localhost:1313/post/2015/2015-04-16-inbox-50-unread-500/</link>
+      <link>http://vielmetti.github.com/post/2015/2015-04-16-inbox-50-unread-500/</link>
       <pubDate>Thu, 16 Apr 2015 08:52:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/2015/2015-04-16-inbox-50-unread-500/</guid>
+      <guid>http://vielmetti.github.com/post/2015/2015-04-16-inbox-50-unread-500/</guid>
       <description>&lt;p&gt;So if you don&#39;t read email every moment of every waking day, you get a bit behind. Apologies to my correspondents if I can&#39;t manage same-day responses every day.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Bee App, a multiplatform issue tracker client for Mac</title>
-      <link>http://localhost:1313/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</link>
       <pubDate>Fri, 03 Oct 2014 09:40:08 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-10-03-the-bee-app-a-multiplatform-issue-tracker-client-for-mac/</guid>
       <description>&lt;p&gt;I&#39;ve been tracking my personal todo list on Github for nearly two years now. When I &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34;&gt;first wrote up the experience&lt;/a&gt; I had just been using the standard web client for the system; since then I&#39;ve added &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/11/octodroid-is-a-github-client-for-android.html&#34;&gt;Octodroid&lt;/a&gt; as an Android client. So far so good, I&#39;ve closed more than 2300 issues since I started. Github&#39;s issues is a completely feature-filled issue management system, far and above overkill for a personal todo list, but useful and complete enough to manage routine tasking.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: left;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0791947f970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0791947f970d img-responsive&#34; alt=&#34;Screen Shot 2014-10-03 at 9.38.40 AM&#34; title=&#34;Screen Shot 2014-10-03 at 9.38.40 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0791947f970d-320wi&#34; style=&#34;margin: 0px 5px 5px 0px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>falling behind, slowly</title>
-      <link>http://localhost:1313/post/2014/2014-09-29-falling-behind-slowly/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-09-29-falling-behind-slowly/</link>
       <pubDate>Mon, 29 Sep 2014 10:23:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-09-29-falling-behind-slowly/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-09-29-falling-behind-slowly/</guid>
       <description>&lt;p&gt;My laptop has been in the shop for more than a week. I am not keeping up with correspondence as a result. I apparently had an efficient enough system that for a given hour of focus I could answer or log as much mail as came in. Now I can&#39;t, and there are not enough hours in the day to catch up.&lt;/p&gt;
 
 &lt;p&gt;For better or worse I have also rediscovered that I can write on this little device, and that blogging is about the right length for the small screen to compose. So even though I am not keeping up with private discourse, my public engagement with the tiny part of the net that reads blogs is going just fine.&lt;/p&gt;
@@ -53,10 +53,10 @@
     
     <item>
       <title>do next?</title>
-      <link>http://localhost:1313/post/2014/2014-09-27-do-next/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-09-27-do-next/</link>
       <pubDate>Sat, 27 Sep 2014 15:52:45 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-09-27-do-next/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-09-27-do-next/</guid>
       <description>&lt;p&gt;One algorithm for deciding what to do next is simply to identify
 the item with the closest deadline and work on that. There is nothing
 like a deadline to focus the mind, and it is better to get the items
@@ -81,10 +81,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>He sees you when you&#39;re sleeping</title>
-      <link>http://localhost:1313/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</link>
       <pubDate>Tue, 06 May 2014 10:14:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-05-06-he-sees-you-when-youre-sleeping-/</guid>
       <description>&lt;blockquote&gt;
   &lt;p&gt;He sees you when you&#39;re sleeping &lt;br/&gt; 
   He knows when you&#39;re awake  &lt;br/&gt; 
@@ -108,10 +108,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Doing Personal Kanban with Boardthing</title>
-      <link>http://localhost:1313/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</link>
       <pubDate>Mon, 05 May 2014 16:07:13 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</guid>
       <description>&lt;p&gt;I change productivity tools from time to time. Here&#39;s a latest try.&lt;/p&gt;
 
 &lt;p&gt;There are only two real rules with Personal Kanban:
@@ -132,10 +132,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Getting things done includes deciding what not to do.</title>
-      <link>http://localhost:1313/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</link>
       <pubDate>Mon, 14 Apr 2014 13:02:36 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-04-14-getting-things-done-includes-deciding-what-not-to-do/</guid>
       <description>&lt;p&gt;Getting things done includes deciding what not to do. In my case, it&#39;s a matter of going through my todo list and striking off the well-intentioned tasks from two or three months ago that took a moment to write and that would take hours to complete.&lt;/p&gt;
 
 &lt;p&gt;I&#39;m better off at accomplishing things when there are fewer undone things to choose from.&lt;/p&gt;
@@ -152,10 +152,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Slack, first impressions</title>
-      <link>http://localhost:1313/post/2014/2014-02-20-slack-first-impressions/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-02-20-slack-first-impressions/</link>
       <pubDate>Thu, 20 Feb 2014 09:06:15 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-02-20-slack-first-impressions/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-02-20-slack-first-impressions/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcc1a673970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fcc1a673970b img-responsive&#34; alt=&#34;Slack-logo&#34; title=&#34;Slack-logo&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fcc1a673970b-120wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I&#39;m trying out &lt;a href=&#34;https://slack.com&#34;&gt;Slack&lt;/a&gt;. Here are some first impressions.&lt;/p&gt;
@@ -176,10 +176,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Limiting work in progress vs. the endless todo list</title>
-      <link>http://localhost:1313/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</link>
       <pubDate>Tue, 14 Jan 2014 10:25:56 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</guid>
       <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510e1ff93970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a510e1ff93970c&#34; alt=&#34;Github-activity-graph-illustration&#34; title=&#34;Github-activity-graph-illustration&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510e1ff93970c-120wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I&#39;ve been using a todo system &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34;&gt;based on Github issues&lt;/a&gt; for the better part of a year. It&#39;s been an interesting exercise in trying to corral the things that aren&#39;t done yet but that need to be.&lt;/p&gt;
@@ -196,10 +196,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Overtaken by events</title>
-      <link>http://localhost:1313/post/2014/2014-01-02-overtaken-by-events/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-01-02-overtaken-by-events/</link>
       <pubDate>Thu, 02 Jan 2014 13:15:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-01-02-overtaken-by-events/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-01-02-overtaken-by-events/</guid>
       <description>&lt;p&gt;I&#39;m thinning out my todo list for the new year to delete some of the oldest items, the ones that aren&#39;t particularly hard but they also haven&#39;t been done this past year.&lt;/p&gt;
 
 &lt;p&gt;I figure that if I need to do them, the opportunity will arise again, and it might be easier to get them done if they show up fresh at the top of the list rather than buried at the bottom.&lt;/p&gt;
@@ -214,10 +214,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Remembering that it&#39;s your happy birthday</title>
-      <link>http://localhost:1313/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</link>
+      <link>http://vielmetti.github.com/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</link>
       <pubDate>Mon, 08 Jul 2013 09:44:53 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</guid>
+      <guid>http://vielmetti.github.com/post/2013/2013-07-08-remembering-that-its-your-happy-birthday/</guid>
       <description>&lt;p&gt;Periodically I look at the sorts of tools that you can use to remember that it&amp;#39;s someone&amp;#39;s birthday. Here&amp;#39;s the current things that put birthday reminders in front of me every day.&lt;/p&gt;
 &lt;p&gt;
 &lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01910422a7a5970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Facebook-birthday-wish&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01910422a7a5970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01910422a7a5970c-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Facebook-birthday-wish&#34; /&gt;&lt;/a&gt;The 10,000 lb. gorilla of birthdays is Facebook, which offers a nice simple interface to send a one-line birthday greeting. You could visit Facebook daily just for birthdays and not much more, and be reasonably satisfied with the results. The site offers several convenient ways to send gifts via Starbucks, iTunes, and Target.&lt;/p&gt;
@@ -231,10 +231,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Supermemo, spaced repetition and time-structured randomness</title>
-      <link>http://localhost:1313/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</link>
+      <link>http://vielmetti.github.com/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</link>
       <pubDate>Mon, 06 Jun 2011 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</guid>
+      <guid>http://vielmetti.github.com/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Picture 4&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538eec7f78970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Picture 4&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;#39;ve written about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/08/supermemo-repet.html&#34; target=&#34;_self&#34;&gt;Supermemo&lt;/a&gt; before, a system for focusing your attention on things that you have previously learned in such a way that you reinforce long term memory. Given a set of items which you were confident in at a stage in the past, identify a way to re-test yourself on that confidence. Space out those retest intervals so that you keep the learning from decaying into nothingness. Repetition is the very soul of the net, and if you are careful you can repeat at intervals that don&amp;#39;t overwhelm.&lt;/p&gt;
 &lt;p&gt;New to me this week is a similar spaced repetition training tool focused on short term memory. Referred to as &amp;quot;&lt;a href=&#34;http://en.wikipedia.org/wiki/N-back&#34; target=&#34;_self&#34;&gt;N-back&lt;/a&gt;&amp;quot; (Wikipedia), it looks at turning the process of matching repetitive items in a sequence into a game, with higher scores if you can recall that e.g. 3 letters ago there was also an &amp;#39;x&amp;#39; in the string. The application &lt;a href=&#34;http://brainworkshop.sourceforge.net/&#34; target=&#34;_self&#34;&gt;Brain Workshop&lt;/a&gt;&amp;#0160;was created by Paul Hoskinson and lets you play with your current skills; I haven&amp;#39;t seen anyone render this into hardware a la the old game of &lt;strong&gt;Simon&lt;/strong&gt;.&lt;/p&gt;
@@ -247,10 +247,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>daily aliquot of love</title>
-      <link>http://localhost:1313/post/2011/2011-01-18-task-sandwich-activity-tracker-in-google-spreadsheet/</link>
+      <link>http://vielmetti.github.com/post/2011/2011-01-18-task-sandwich-activity-tracker-in-google-spreadsheet/</link>
       <pubDate>Tue, 18 Jan 2011 21:29:50 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2011/2011-01-18-task-sandwich-activity-tracker-in-google-spreadsheet/</guid>
+      <guid>http://vielmetti.github.com/post/2011/2011-01-18-task-sandwich-activity-tracker-in-google-spreadsheet/</guid>
       <description>&lt;p&gt;A very brief writeup of a technique for doing online task management, in a world where there are so many social media channels that you need a spreadsheet to keep track of them all.&lt;/p&gt;
 &lt;p&gt;The software is Google Spreadsheet, used with a private sheet all for myself.&lt;/p&gt;
 &lt;p&gt;The structure of the worksheet is a set of columns, with column headings indicating the piece of software, online system, or media channel that you are tracking; the rows are dated or time stamped.&lt;/p&gt;
@@ -270,10 +270,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>Alas, poor delicious, you knew us well</title>
-      <link>http://localhost:1313/post/2010/2010-12-17-alas-poor-delicious-you-knew-us-well/</link>
+      <link>http://vielmetti.github.com/post/2010/2010-12-17-alas-poor-delicious-you-knew-us-well/</link>
       <pubDate>Fri, 17 Dec 2010 00:19:35 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2010/2010-12-17-alas-poor-delicious-you-knew-us-well/</guid>
+      <guid>http://vielmetti.github.com/post/2010/2010-12-17-alas-poor-delicious-you-knew-us-well/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;http://techcrunch.com/2010/12/16/is-yahoo-shutting-down-del-icio-us/&#34; target=&#34;_self&#34;&gt;scuttlebutt&lt;/a&gt; is that delicious is going to be &lt;a href=&#34;http://twitter.com/#!/bpm140/status/15473591558602752&#34; target=&#34;_self&#34;&gt;axed&lt;/a&gt; by Yahoo.&amp;#0160;&lt;/p&gt;
 &lt;p&gt;Once upon a time, I bookmarked everything interesting that came across my path to delicious (back when it was del.icio.us). &amp;#0160;It was part of my routine, and a daily summary was posted through to this blog.&lt;/p&gt;
 &lt;p&gt;Delicious was from the tags era of the Internet, where in addition to noting that a thing existed you could add your own tags to describe it. Sometimes these were straightforward tags, like the 1533 pages I marked as &amp;quot;&lt;a href=&#34;http://www.delicious.com/vielmetti/annarbor&#34; target=&#34;_self&#34;&gt;annarbor&lt;/a&gt;&amp;quot;. Others were idiosyncratic, like the 5 pages I marked as &amp;quot;&lt;a href=&#34;http://www.delicious.com/vielmetti/attention-to-irrelevant-details&#34; target=&#34;_self&#34;&gt;attention-to-irrelevant-details&lt;/a&gt;&amp;quot;.&lt;/p&gt;
@@ -291,10 +291,10 @@ and do it before they ask.&lt;/p&gt;
     
     <item>
       <title>What we can learn from procrastination : James Surowiecki The New Yorker</title>
-      <link>http://localhost:1313/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</link>
+      <link>http://vielmetti.github.com/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</link>
       <pubDate>Sun, 17 Oct 2010 18:05:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</guid>
+      <guid>http://vielmetti.github.com/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Academics, who work for long periods in a self-directed fashion, may be especially prone to putting things off: surveys suggest that the vast majority of college students procrastinate, and articles in the literature of procrastination often allude to the author’s own problems with finishing the piece. (This article will be no exception.) But the academic buzz around the subject isn’t just a case of eggheads rationalizing their slothfulness. As various scholars argue in “The Thief of Time,” edited by Chrisoula Andreou and Mark D. White (Oxford; $65)—a collection of essays on procrastination, ranging from the resolutely theoretical to the surprisingly practical—the tendency raises fundamental philosophical and psychological issues.&lt;/p&gt;
 &lt;/blockquote&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Postful on tracker</title>
-    <link>http://localhost:1313/keyphrases/postful/</link>
+    <link>http://vielmetti.github.com/keyphrases/postful/</link>
     <description>Recent content in Postful on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Dec 2008 15:00:21 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/keyphrases/postful/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/keyphrases/postful/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>stuck on a postcard / postful / curl problem</title>
-      <link>http://localhost:1313/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</link>
+      <link>http://vielmetti.github.com/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</link>
       <pubDate>Tue, 30 Dec 2008 15:00:21 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</guid>
+      <guid>http://vielmetti.github.com/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</guid>
       <description>&lt;p&gt;FIXED, see the bottom.&amp;#0160; 12/31&lt;/p&gt;&lt;p&gt;rather than give up in total frustration, here&amp;#39;s what I am trying to implement, using &amp;quot;curl&amp;quot; to drive the system.&amp;#0160; This is from the &lt;a href=&#34;http://www.postful.com/developer/guide&#34;&gt;&amp;quot;postful&amp;quot; API docs&lt;/a&gt;.&lt;/p&gt;&lt;h4 style=&#34;margin-left: 40px;&#34;&gt;1. Upload the document.&lt;/h4&gt;
 
 &lt;p style=&#34;margin-left: 40px;&#34;&gt;To uploading a document, submit a POST to:&lt;/p&gt;

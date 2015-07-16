@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About This Weblog on tracker</title>
-    <link>http://localhost:1313/categories/about-this-weblog/</link>
+    <link>http://vielmetti.github.com/categories/about-this-weblog/</link>
     <description>Recent content in About This Weblog on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Mar 2014 00:26:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/about-this-weblog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.com/categories/about-this-weblog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The next major change for this weblog is converting over comments to Disqus</title>
-      <link>http://localhost:1313/post/2014/2014-03-21-the-next-major-change-for-this-weblog-is-converting-over-comments-to-disqus/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-03-21-the-next-major-change-for-this-weblog-is-converting-over-comments-to-disqus/</link>
       <pubDate>Fri, 21 Mar 2014 00:26:52 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-03-21-the-next-major-change-for-this-weblog-is-converting-over-comments-to-disqus/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-03-21-the-next-major-change-for-this-weblog-is-converting-over-comments-to-disqus/</guid>
       <description>&lt;p&gt;I&#39;m not ready to take it on yet, but my next plan here is to port
 the 2000+ comments that I have on this blog over to Disqus, and
 start using that instead of Typepad Comments. Expect that to happen
@@ -31,10 +31,10 @@ new comment stream into Disqus.&lt;/p&gt;
     
     <item>
       <title>A new responsive design for this weblog</title>
-      <link>http://localhost:1313/post/2014/2014-03-20-a-new-responsive-design-for-this-weblog/</link>
+      <link>http://vielmetti.github.com/post/2014/2014-03-20-a-new-responsive-design-for-this-weblog/</link>
       <pubDate>Thu, 20 Mar 2014 22:43:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/2014-03-20-a-new-responsive-design-for-this-weblog/</guid>
+      <guid>http://vielmetti.github.com/post/2014/2014-03-20-a-new-responsive-design-for-this-weblog/</guid>
       <description>&lt;p&gt;Thanks to the good folks at Typepad, I now have a
 responsive design for this blog. Their new &#34;Snap&#34;
 theme gives you one design that works well on devices
