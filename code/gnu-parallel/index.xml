@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gnu Parallel on tracker</title>
+    <link>http://vielmetti.github.io/code/gnu-parallel/</link>
+    <description>Recent content in Gnu Parallel on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jun 2015 10:23:20 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/gnu-parallel/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using GNU Parallel to speed up network operations</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</link>
+      <pubDate>Wed, 24 Jun 2015 10:23:20 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</guid>
+      <description>&lt;p&gt;My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.&lt;/p&gt;
+
+&lt;p&gt;Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes. If you are working on something where it doesn&#39;t matter which order things happen in as long as they all get done you are in good shape to get tremendous performance improvements simply by overlapping operations.&lt;/p&gt;
+
+&lt;p&gt;An example:&lt;/p&gt;
+
+&lt;p&gt;DTE Energy does not have one single page on their web site that shows you the total number of outages across their system - or if they do have it, it&#39;s so well hidden that I haven&#39;t found it. What they do have is a way to fetch the outage count for a single ZIP code. So, armed with a set of zip codes, you can determine a total. You don&#39;t care which ZIP is fetched first but you do want them all to show up before you add them up.&lt;/p&gt;
+
+&lt;p&gt;The one-line command I have for this is&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The script dte-by-zip runs as follows, fetching a page from a DTE server and parsing it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ dte-by-zip 48104&lt;/p&gt;
+  
+  &lt;p&gt;38&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;thus the parallel invocation reads roughly as follows: &#34;for 32 parallel threads, using the dte-zips data file one line a time as command line arguments, run dte-by-zip; add up all the results&#34;.&lt;/p&gt;
+
+&lt;p&gt;Note that if you are using &#34;curl&#34; to fetch pages, you want to be aware of the &lt;code&gt;--max-time&lt;/code&gt; option.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;-m, --max-time &lt;seconds&gt;
+               Maximum time in seconds that you allow the  whole  operation  to
+               take.   This is useful for preventing your batch jobs from hang-
+               ing for hours due to slow networks or links going  down. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now you don&#39;t want to go too crazy with parallel operations on network resources, it&#39;s possible to overrun a remote server and it might be faster to pull 8 or 16 parallel threads instead of 32 or 64 depending on the nature of the remote machine.&lt;/p&gt;
+
+&lt;p&gt;Article describing tool (for citations):&lt;/p&gt;
+
+&lt;p&gt;O. Tange (2011): GNU Parallel - The Command-Line Power Tool, ;login: The USENIX Magazine, February 2011:42-47.&lt;/p&gt;
+
+&lt;p&gt;Authors&#39; website for obtaining code:&lt;/p&gt;
+
+&lt;p&gt;http://www.gnu.org/software/parallel/&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

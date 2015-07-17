@@ -81,6 +81,28 @@ wrong.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Using a squid cache to make automated data collection a bit less rude</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/</link>
+      <pubDate>Sun, 28 Jun 2015 15:23:26 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.squid-cache.org/&#34;&gt;&lt;code&gt;squid&lt;/code&gt; is a web caching system&lt;/a&gt;. Instead of browsing directly to a site, you point your browser at a squid cache, and the cache serves up cached copies of the data you are asking for. If squid has an out of date copy of the data it fetches a new one for you. The goal is to be a transparent cache, and to be nearly as fast as direct access when you don&#39;t have the data, and way faster when you do.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m doing some automated data collection from the web using &lt;code&gt;curl&lt;/code&gt;, and as a part of that I want to not be overly aggressive in harvesting details from a site if I already have a recent copy of the data that hasn&#39;t changed. Putting a cache in the way makes sense, since unlike most GUI based browsers that have their own caches, &lt;code&gt;curl&lt;/code&gt; just fetches whatever it&#39;s asked for unquestioningly even if it just got the same thing seconds ago - unless you tell it to use a cache.&lt;/p&gt;
+
+&lt;p&gt;The first appearance of squid dates to 1996, so it&#39;s old software by modern standards. It dates from the bad old days when the Internet was slow on long haul links but fast locally, and so it made all the sense in the world to optimize and economize. Even now there are lots of times and places where the net is slow enough that you&#39;re willing to introduce a little bit of complexity in exchange for a little bit of speed.&lt;/p&gt;
+
+&lt;p&gt;I installed my copy of squid on my Mac using MacPorts, which seems to do a fine job. I had also tried to build a copy of squid using what looked like simple instructions on Docker using the configuration on &lt;a href=&#34;https://github.com/michaljemala/docker-squid&#34;&gt;@michaeljemala/docker-squid&lt;/a&gt;, but for reasons as of yet unexplained I got the error message&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+curl: (7) Failed to connect to localhost port 3128: Connection refused
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;after setting that up and following package directions.  Still puzzling out whether that&#39;s a result of some Docker configuration oddness on 1.7.0, or something else. Anyway, the native version is working, so I&#39;m good for now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Using GNU Parallel to speed up network operations</title>
       <link>http://vielmetti.github.io/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</link>
       <pubDate>Wed, 24 Jun 2015 10:23:20 -0400</pubDate>
@@ -128,6 +150,47 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 &lt;p&gt;Authors&#39; website for obtaining code:&lt;/p&gt;
 
 &lt;p&gt;http://www.gnu.org/software/parallel/&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maps with Leaflet and LeafletR</title>
+      <link>http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</link>
+      <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</guid>
+      <description>&lt;pre&gt;
+&gt; style &lt;- styleGrad(prop=&#34;score&#34;, breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg=&#34;score&#34;)
+&gt; leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)
+&lt;/pre&gt;
+
+&lt;p&gt;So, progress.&lt;/p&gt;
+
+&lt;p&gt;One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.&lt;/p&gt;
+
+&lt;p&gt;A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.&lt;/p&gt;
+
+&lt;p&gt;A screenshot of the result is below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; title=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some big caveats.&lt;/p&gt;
+
+&lt;p&gt;My color palette is all wrong - I need to think that through. &lt;/p&gt;
+
+&lt;p&gt;This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.&lt;/p&gt;
+
+&lt;p&gt;The map needs labels of some sort. (How they will look when everything is smushed together, don&#39;t know.)&lt;/p&gt;
+
+&lt;p&gt;It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.&lt;/p&gt;
+
+&lt;p&gt;The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.&lt;/p&gt;
+
+&lt;p&gt;RESTAURANT NAMES ARE IN ALL CAPS AND THAT&#39;S SHOUTING.&lt;/p&gt;
+
+&lt;p&gt;Leaflet can do all sorts of things and I&#39;ve hardly scratched the surface.&lt;/p&gt;
+
+&lt;p&gt;I probably could do this all in R - or all in Python - but I&#39;m trying to spin up on both systems &amp;amp; thus really want to use each for what they are good at.&lt;/p&gt;
 </description>
     </item>
     
@@ -189,6 +252,34 @@ hardly any work.&lt;/p&gt;
 href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the
 Command Line&lt;/a&gt; which works you way through dozens of tools like
 this that can help manage big data without big programs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programming your new radio with CHIRP</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-24-programming-your-new-radio-with-chirp/</link>
+      <pubDate>Sun, 24 Nov 2013 16:45:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-24-programming-your-new-radio-with-chirp/</guid>
+      <description>&lt;p&gt;From the &lt;a href=&#34;http://chirp.danplanet.com/projects/chirp/wiki/Home&#34;&gt;CHIRP web site&lt;/a&gt; -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CHIRP is a free, open-source tool for programming your amateur radio. It supports a large number of manufacturers and models, as well as provides a way to interface with multiple data sources and formats.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The basic idea is that rather than learning the peculiarities of your radio&#39;s programming interface, you use CHIRP which has access to databases like &lt;a href=&#34;http://www.radioreference.com&#34;&gt;Radio Reference&lt;/a&gt; and &lt;a href=&#34;http://www.repeaterbook.com/&#34;&gt;RepeaterBook&lt;/a&gt; to find the channels you want to have easy access to. Programming the device should just be a matter of loading in the set you want, attaching your radio to your computer via a programming cable, and selecting &#34;Upload to Radio&#34;.&lt;/p&gt;
+
+&lt;p&gt;My new radio is on its way, so I&#39;ll update this when I get it to work! So far the application was easy to install (you have to install a Python runtime on OS X before it works) and it was easy to get the Washtenaw county repeater list from &lt;a href=&#34;http://www.repeaterbook.com/&#34;&gt;RepeaterBook&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;UPDATED: It worked the first time! Here&#39;s what I had to do to make it go smoothly.&lt;/p&gt;
+
+&lt;p&gt;First, before you upload channels to your radio, you have to download its current configuration. This gets all of the settings out of the system.&lt;/p&gt;
+
+&lt;p&gt;Second, after you are done uploading the channels, unplug the programming cable from the radio. This should be obvious? but somehow it wasn&#39;t. Once I unplugged things everything worked just fine.&lt;/p&gt;
+
+&lt;p&gt;Third, make sure that you pick the right radio that you are connecting to or else unpredictable things can happen.&lt;/p&gt;
+
+&lt;p&gt;I found the walk-through at &lt;a href=&#34;http://www.miklor.com/COM/UV_CHIRP.php&#34;&gt;Miklor&#39;s CHIRP Software Guide&lt;/a&gt; to be useful and helpful, and it suggested some additional features (like setting channels to be receive-only) that will probably get me to re-program the radio a few times before I&#39;m done.&lt;/p&gt;
 </description>
     </item>
     
@@ -439,69 +530,6 @@ Opera Next.app = 103.1 MB&amp;quot; (&lt;a href=&#34;https://twitter.com/maxart/
 &lt;div&gt;9. Twitter is a big deal because &amp;quot;it&amp;#39;s a new messaging protocol, where you don&amp;#39;t specify the recipients. New protocols are rare.&amp;quot; (&lt;a href=&#34;http://paulgraham.com/twitter.html&#34; target=&#34;_self&#34;&gt;Paul Graham&lt;/a&gt;, 2009)&lt;/div&gt;
 &lt;div&gt;&lt;/div&gt;
 &lt;div&gt;10. BetterPlace, a &amp;quot;fat startup&amp;quot; that tried to &amp;quot;change the world&amp;quot; about how people drive, has failed. (&lt;a href=&#34;http://www.eytanlevit.com/post/51416804786/betterplace-the-fat-startup&#34; target=&#34;_self&#34;&gt;Eytan Levit&lt;/a&gt;) &amp;quot;Their biggest assumption was that people are willing to compromise on a less convenient/more risky car solution just because it’s eco-friendly.&amp;quot;&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hacker News summary for Saturday, 25 May 2013, 10:15 p.m. EST edition</title>
-      <link>http://vielmetti.github.io/post/2013/2013-05-25-hacker-news-summary-for-saturday-25-may-2013-1015-pm-est-edition/</link>
-      <pubDate>Sat, 25 May 2013 22:49:15 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-05-25-hacker-news-summary-for-saturday-25-may-2013-1015-pm-est-edition/</guid>
-      <description>&lt;p&gt;The top 10 stories on &lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_self&#34;&gt;Hacker News&lt;/a&gt; this instant, summarized quickly. It&amp;#39;s taking me about 3 minutes per article to read and digest it well enough to write down a few words about it.&lt;/p&gt;
-&lt;p&gt;1. Poll: &amp;quot;What is your hourly rate, or your monthly salary converted into hourly rate (divided by ~165 hours) in USD?&amp;quot; (&lt;a href=&#34;https://news.ycombinator.com/item?id=5769348&#34; target=&#34;_self&#34;&gt;csomar&lt;/a&gt;) Much discussion in the comments as to whether people are charging too little.&lt;/p&gt;
-&lt;p&gt;2. 98% of venture capitalists aren&amp;#39;t dumb (&lt;a href=&#34;http://www.bothsidesofthetable.com/2013/05/25/as-populist-as-it-may-feel-98-of-vcs-arent-dumb/&#34; target=&#34;_self&#34;&gt;Mark Suster&lt;/a&gt;), a response to &amp;quot;Dear Dumb VC&amp;quot; (&lt;a href=&#34;https://medium.com/what-i-learned-building/e17153fde5f1&#34; target=&#34;_self&#34;&gt;Andy Dunn&lt;/a&gt;). Hot entrepreneur vs. VC action.&lt;/p&gt;
-&lt;p&gt;3. Google has dropped XMPP for federated chat in favor of its own chat protocols that don&amp;#39;t interoperate, and an XMPP protocol standards engineer is not happy about it. (&lt;a href=&#34;https://plus.google.com/116276248303121270590/posts/ggNwh9eLYWu&#34; target=&#34;_self&#34;&gt;Ralph Meijer&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;4. A $300,000 salary from Microsoft is not enough enticement, and Github&amp;#39;s co-founder relates his leaving Microsoft in 2008 to start Github. (&lt;a href=&#34;http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html?&#34; target=&#34;_self&#34;&gt;Tom Preston-Werner&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;5. Open plan offices are bad for worker health and productivity, and older workers especially hate the noise. (&lt;a href=&#34;http://qz.com/85400/moving-to-open-plan-offices-makes-employees-less-productive-less-happy-and-more-likely-to-get-sick/#&#34; target=&#34;_self&#34;&gt;Quartz&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;6. &amp;quot;This tutorial will teach you the main ideas of Unsupervised Feature Learning and Deep Learning.&amp;quot; (&lt;a href=&#34;http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial&#34; target=&#34;_self&#34;&gt;Stanford&lt;/a&gt;) It&amp;#39;s written in a wiki, and is available in both English and Chinese.&lt;/p&gt;
-&lt;p&gt;7. You need to know these HTML5 features: DNS prefetching, link prefetching, the download attribute, regular expressions for input santization, and the datalist element for autocomplete suggestions. (&lt;a href=&#34;http://daker.me/2013/05/5-html5-features-you-need-to-know.html&#34; target=&#34;_self&#34;&gt;Adnane Belmadiaf&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;8. To transform the lives of poor individuals in Uganda, give people cash. They will use it to train themselves and their incomes will go up. (&lt;a href=&#34;http://chrisblattman.com/2013/05/23/dear-governments-want-to-help-the-poor-and-transform-your-economy-give-people-cash/&#34; target=&#34;_self&#34;&gt;Chris Blattman&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;9. Don&amp;#39;t even consider programming in a language that allows you to have null pointer exceptions, and avoid languages that are dynamically typed. (&lt;a href=&#34;http://sebastiansylvan.wordpress.com/2013/05/25/language-design-deal-breakers/&#34; target=&#34;_self&#34;&gt;Sebastian Sylvan&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;10. &amp;quot;Different from line-based or character-based diff, ydiff is “language-based”. It parses the programs and then performs structural comparison on the parse trees.&amp;quot; (&lt;a href=&#34;http://yinwang0.wordpress.com/2012/01/03/ydiff/&#34; target=&#34;_self&#34;&gt;Yin Wang&lt;/a&gt;)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hacker News summary for Friday, 24 May 2013, 8:00 p.m. EST edition</title>
-      <link>http://vielmetti.github.io/post/2013/2013-05-24-hacker-news-summary-for-friday-24-may-2013-800-pm-est-edition/</link>
-      <pubDate>Fri, 24 May 2013 20:32:35 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-05-24-hacker-news-summary-for-friday-24-may-2013-800-pm-est-edition/</guid>
-      <description>&lt;p&gt;An attempt to catch the top news of &lt;a href=&#34;http://news.ycombinator.com&#34; target=&#34;_self&#34;&gt;Hacker News&lt;/a&gt; on a Friday evening and summarize the top 10 stories; I won&amp;#39;t make any decisions about what should be in the top 10, just note them here with a summary. It took me about 30 minutes to summarize 10 stories, without being selective about which ones were important.&lt;/p&gt;
-&lt;p&gt;1. Ben Howdle is &amp;quot;Too scared to write a line of code&amp;quot; (&lt;a href=&#34;https://medium.com/i-m-h-o/eef96ea6f4cb?imm_mid=0a9102&amp;amp;cmp=em-velocity-newsletters-vl-save20-20130523-direct&#34; target=&#34;_self&#34;&gt;Medium&lt;/a&gt;). This reminds me of the Donald Knuth quote, &amp;quot;Premature optimization is the root of all evil&amp;quot;.&lt;/p&gt;
-&lt;p&gt;2. Yahoo has &amp;quot;submitted a bid for the video site&amp;quot; Hulu (&lt;a href=&#34;http://allthingsd.com/20130524/yet-another-hulu-bidder-yahoo-is-in-too/&#34; target=&#34;_self&#34;&gt;All Things D&lt;/a&gt;). They&amp;#39;re not the only ones bidding, with Directv, Time Warner Cable, and several others in the running.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;3. Benjamin BenBen lets you visualize &amp;quot;how CSS rules are applied to a page&amp;quot; (&lt;a href=&#34;http://css.benjaminbenben.com/&#34; target=&#34;_self&#34;&gt;css.benjaminbenben.com&lt;/a&gt;). If it&amp;#39;s hanging, give Chrome a try.&lt;/p&gt;
-&lt;p&gt;4. B is &amp;quot;fast on the road and agile in the air&amp;quot; (&lt;a href=&#34;http://www.kickstarter.com/projects/2017062404/b-go-beyond&#34; target=&#34;_self&#34;&gt;Kickstarter&lt;/a&gt;). It&amp;#39;s a four-wheeled remote control vehicle that doubles as a quadcopter when the going gets rough.&lt;/p&gt;
-&lt;p&gt;5. &amp;quot;If you already have a strong passphrase on your SSH private key, then converting it from the traditional private key format to PKCS#8 is roughly comparable to adding two extra keystrokes to your passphrase, for free.&amp;quot; (&lt;a href=&#34;http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html&#34; target=&#34;_self&#34;&gt;Martin Kleppmann&lt;/a&gt;) Bonus: it&amp;#39;s only four lines of shell to do this and verify that it works.&lt;/p&gt;
-&lt;p&gt;6. Plan 9 has some very tightly written, very strange C code; &amp;quot;it’s not every day that you come across code that makes you feel funny because of its unusual syntactic structure&amp;quot; (&lt;a href=&#34;http://computationallyendowed.com/blog/2012/12/03/ifs-and-ands-and-plan-9s-source-code.html&#34; rel=&#34;author&#34; target=&#34;_self&#34;&gt;Spiros Eliopoulos&lt;/a&gt;). In this case it&amp;#39;s nested if() clauses without indents that replace a more traditional use of &amp;amp;&amp;amp;.&lt;/p&gt;
-&lt;p&gt;7. &amp;quot;In December 2007, I&amp;#0160;left a cushy job to start a company.&amp;#0160;That company failed.&amp;#0160;This blog outlines that story.&amp;quot; (&lt;a href=&#34;http://thedayseries.tumblr.com/post/963728807/the-day-our-investors-came-to-see-the-office&#34; target=&#34;_self&#34;&gt;Ryan Angilly&lt;/a&gt;) Today: the day our investors came to see the office.&lt;/p&gt;
-&lt;p&gt;8. vnc-over-gif &amp;quot;serves screen updates as animated gif over http.&amp;quot; (&lt;a href=&#34;https://github.com/sidorares/vnc-over-gif&#34; target=&#34;_self&#34;&gt;Github&lt;/a&gt;) See also &amp;quot;&lt;a href=&#34;https://github.com/videlalvaro/gifsockets&#34; target=&#34;_self&#34;&gt;gifsockets&lt;/a&gt;&amp;quot; which lets you do socket communication in a browser via an animated gif. [:dancing banana:]&lt;/p&gt;
-&lt;p&gt;9. &amp;quot;main;&amp;quot; is the shortest crashing C program, which will compile and then SIGSEGV. (&amp;#0160;&lt;a href=&#34;http://llbit.se/?p=1744&#34; target=&#34;_self&#34;&gt;Jesper Öqvist&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;10. New versions of jQuery (1.10 and 2.0.1) are out. (&lt;a href=&#34;http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/&#34; target=&#34;_self&#34;&gt;jQuery&lt;/a&gt;) What&amp;#39;s new: &amp;quot;Our main goal with these two releases is to synchronize the features and behavior of the 1.x and 2.x lines, as we pledged a year ago when jQuery 2.0 was announced.&amp;quot;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>You are likely to be eaten by a grue.</title>
-      <link>http://vielmetti.github.io/post/2011/2011-01-21-you-are-likely-to-be-eaten-by-a-grue/</link>
-      <pubDate>Fri, 21 Jan 2011 22:25:46 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2011/2011-01-21-you-are-likely-to-be-eaten-by-a-grue/</guid>
-      <description>&lt;p&gt;The video, entitled &#34;It is pitch dark&#34;, from nerdcore hip-hop grandmaster &lt;a href=&#34;http://frontalot.com/&#34;&gt;MC Frontalot&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title=&#34;YouTube video player&#34; class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;560&#34; height=&#34;345&#34; src=&#34;http://www.youtube.com/embed/4nigRT2KmCE?rel=0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;http://frontalot.com/index.php/?page=lyrics&amp;amp;lyricid=47&#34;&gt;lyrics&lt;/a&gt;, in part:&lt;/p&gt;
-&lt;blockquote&gt;You are likely to be eaten by a grue. If this predicament seems particularly cruel, consider whose fault it could be: not a torch or a match in your inventory.&lt;/blockquote&gt;
-&lt;p&gt;What is a grue?&lt;/p&gt;
-&lt;blockquote&gt;The grue is a sinister, lurking presence in the dark places of the earth. Its favorite diet is adventurers, but its insatiable appetite is tempered by its fear of light. No grue has ever been seen by the light of day, and few have survived its fearsome jaws to tell the tale.&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.jstor.org/pss/2183381&#34;&gt;More on &#34;Grue&#34; and Grue&lt;/a&gt;, The Philosophical Review © 1961 Duke University Press.  
-&lt;blockquote&gt;Mr. Grue believes that grass is grue, taken here to mean that it is green until the year 2000 and blue afterward.&lt;/blockquote&gt;
-Grue is the color of the y2k problem - green (providing riches) until the year 2000, and blue (providing sadness) afterwards.  Noted here, as &lt;a href=&#34;http://www.commercialventvac.com/y2k.html&#34;&gt;The Year 2000 Crisis: One software engineers&#39; perspective&#34;&lt;/a&gt;:
-&lt;blockquote&gt;
-This is not a new problem.  There is a paradox, called &#34;Goodman&#39;s Grue-Bleen paradox&#34;, which describes what we&#39;re facing.  See The fall 1983 issue of the Bulletin of the Santayana Society, &#34;on Grue and Bleen&#34;, by  Angus Kerr-Lawson.  See also Goodman&#39;s Paradox.  In the paradox, an object is &#34;grue&#34; if it is green between a certain time, T, and blue after T.  An object is &#34;bleen&#34; if it is blue before T, and green after T.  The paradox is how to tell the difference between something which is green and something which is grue.  At the moment, it is impossible to know.  After T, it will be easy.  Similarly, it is easy to tell the difference between something which is green and something which is bleen.  But after T, it might not be.  Further, any system built on distingushing between green and blue will work properly now with green, blue, and bleen objects, but will fail after time T. 
-&lt;/blockquote&gt;
-Is there a relationship between the &#34;grue&#34; of Zork and the &#34;grue&#34; of the color paradox?
-&lt;/p&gt;
 </description>
     </item>
     

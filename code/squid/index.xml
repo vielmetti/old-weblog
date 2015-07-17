@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Squid on tracker</title>
+    <link>http://vielmetti.github.io/code/squid/</link>
+    <description>Recent content in Squid on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2015 15:23:26 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/squid/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using a squid cache to make automated data collection a bit less rude</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/</link>
+      <pubDate>Sun, 28 Jun 2015 15:23:26 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.squid-cache.org/&#34;&gt;&lt;code&gt;squid&lt;/code&gt; is a web caching system&lt;/a&gt;. Instead of browsing directly to a site, you point your browser at a squid cache, and the cache serves up cached copies of the data you are asking for. If squid has an out of date copy of the data it fetches a new one for you. The goal is to be a transparent cache, and to be nearly as fast as direct access when you don&#39;t have the data, and way faster when you do.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m doing some automated data collection from the web using &lt;code&gt;curl&lt;/code&gt;, and as a part of that I want to not be overly aggressive in harvesting details from a site if I already have a recent copy of the data that hasn&#39;t changed. Putting a cache in the way makes sense, since unlike most GUI based browsers that have their own caches, &lt;code&gt;curl&lt;/code&gt; just fetches whatever it&#39;s asked for unquestioningly even if it just got the same thing seconds ago - unless you tell it to use a cache.&lt;/p&gt;
+
+&lt;p&gt;The first appearance of squid dates to 1996, so it&#39;s old software by modern standards. It dates from the bad old days when the Internet was slow on long haul links but fast locally, and so it made all the sense in the world to optimize and economize. Even now there are lots of times and places where the net is slow enough that you&#39;re willing to introduce a little bit of complexity in exchange for a little bit of speed.&lt;/p&gt;
+
+&lt;p&gt;I installed my copy of squid on my Mac using MacPorts, which seems to do a fine job. I had also tried to build a copy of squid using what looked like simple instructions on Docker using the configuration on &lt;a href=&#34;https://github.com/michaljemala/docker-squid&#34;&gt;@michaeljemala/docker-squid&lt;/a&gt;, but for reasons as of yet unexplained I got the error message&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+curl: (7) Failed to connect to localhost port 3128: Connection refused
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;after setting that up and following package directions.  Still puzzling out whether that&#39;s a result of some Docker configuration oddness on 1.7.0, or something else. Anyway, the native version is working, so I&#39;m good for now.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

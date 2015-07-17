@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boot2docker on tracker</title>
+    <link>http://vielmetti.github.io/code/boot2docker/</link>
+    <description>Recent content in Boot2docker on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jun 2015 19:50:46 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/boot2docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker 1.7.0 issues: problems with Mac and boot2docker, ARM, Ubuntu, and disk size of images</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-26-docker-170-issues-problems-with-mac-and-boot2docker-arm-and-disk-size-of-images/</link>
+      <pubDate>Fri, 26 Jun 2015 19:50:46 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-26-docker-170-issues-problems-with-mac-and-boot2docker-arm-and-disk-size-of-images/</guid>
+      <description>&lt;p&gt;Docker 1.7.0 has been released into the wild. Every .0 release of software should be expected to have some issues, no matter how good the QA and automated test process. Here&#39;s what to expect if you&#39;re getting Docker 1.7.0 up and running.&lt;/p&gt;
+
+&lt;h3&gt;boot2docker on Mac&lt;/h3&gt;
+
+&lt;p&gt;On the Mac, with boot2docker: &lt;a href=&#34;https://github.com/boot2docker/boot2docker/issues/938&#34;&gt;Docker certs not valid with 1.7 upgrade&lt;/a&gt; is issue 938 on boot2docker. The symptom is a message like this&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An error occurred trying to connect: Get https://192.168.59.103:2376/v1.19/containers/json: x509: certificate is valid for 127.0.0.1, 10.0.2.15, not 192.168.59.103&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and restarting docker on the VM with &lt;code&gt;boot2docker ssh sudo /etc/init.d/docker restart&lt;/code&gt; fixes it, at least temporarily. Read through the issue on github to see the full diagnosis - as best I understand it, eth1 is not up when certificates are generated, hence the cert not valid error.&lt;/p&gt;
+
+&lt;h3&gt;Raspberry Pi or any other ARM system&lt;/h3&gt;
+
+&lt;p&gt;On a Raspberry Pi: &lt;a href=&#34;https://github.com/docker/docker/issues/14184&#34;&gt;Docker 1.7 on RaspberryPI : &#34;socket operation on non-socket&#34;&lt;/a&gt; is issue 14184 on docker. The symptom is a message like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[tki@anzu ~]$ docker start redis
+  Error response from daemon: Cannot start container redis: socket operation on non-socket
+  Error: failed to start containers: [redis]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The error flushed out a whole set of people running Docker on ARM on a variety of platforms, all having similar issues. If you&#39;re running a Scaleway C1, ODROID C1, ODROID XU3-Lite, Utilite Pro, Cubox 4x4, and all flavors of Raspberry Pi or Pi 2 you&#39;ll see this. &#34;When using --net host the container starts&#34; is the report, but port forwarding fails to work in that case.&lt;/p&gt;
+
+&lt;h3&gt;Ubuntu: problems with statically compiled Docker binaries&lt;/h3&gt;
+
+&lt;p&gt;The issue is &lt;a href=&#34;https://github.com/docker/docker/issues/14035&#34;&gt;Ubuntu 15.04 vivid can not start docker 1.7.0&lt;/a&gt;, docker issue 14035. The relevant bits of the error message are&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ERRO[0000] Udev sync is not supported. This will lead to unexpected behavior, data loss and errors. For more information, see https://docs.docker.com/reference/commandline/cli/#daemon-storage-driver-option &lt;/p&gt;
+  
+  &lt;p&gt;ERRO[0000] [graphdriver] prior storage driver &#34;devicemapper&#34; failed: driver not supported &lt;/p&gt;
+  
+  &lt;p&gt;FATA[0000] Error starting daemon: error initializing graphdriver: driver not supported &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is a long discussion, culminating in &lt;code&gt;In the end, removing /var/lib/docker/devicemapper/ will fix the issue&lt;/code&gt;, but people are also rolling back to 1.6.2. &lt;/p&gt;
+
+&lt;h3&gt;Ubuntu on x86: large file sizes&lt;/h3&gt;
+
+&lt;p&gt;A report that &lt;a href=&#34;https://forums.docker.com/t/docker-1-7-0-is-using-huge-amount-of-disk-space/2046&#34;&gt;Docker 1.7.0 is using huge amounts of disk space&lt;/a&gt; appears on the Docker forum, item 2046. &lt;a href=&#34;https://github.com/docker/docker/issues/14204&#34;&gt;Pulling image fills disk/image size is huge, version 1.7.0&lt;/a&gt; is issue 14204 on Docker. Not much insight into this one yet.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jq on tracker</title>
+    <link>http://vielmetti.github.io/code/jq/</link>
+    <description>Recent content in Jq on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Oct 2014 09:03:34 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/jq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Notes on building the Marquette Park Cemetery finder app for Code Michigan</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/</link>
+      <pubDate>Sun, 05 Oct 2014 01:36:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/</guid>
+      <description>&lt;p&gt;I&#39;m working on a tool or a set of tools to assist people in finding grave sites in the Park Cemetery in Marquette, Michigan as a part of a project for Code Michigan. I&#39;m working with a team that&#39;s based in the U.P. to do this, and we&#39;re collaborating over Google Hangouts. Code Michigan is a hackathon, so this project timeline is compressed to a single weekend. The team is Edward Vielmetti, Jim Argeropoulos, Chris Marr, and Lynn Czarnecki Makela. &lt;/p&gt;
+
+&lt;p&gt;My motivation for picking the grave finder app is a personal one. My grandmother, Ada Burt Vielmetti, is buried in Park Cemetery, and I&#39;ve never visited the grave because I didn&#39;t know where it was. The cemetery covers over 100 acres so it&#39;s impractical to just wander around until you find what you&#39;re looking for, and there wasn&#39;t an online finder&#39;s aid. When the Code Michigan challenge came about it was an obvious task to tackle.&lt;/p&gt;
+
+&lt;p&gt;It turns out that providing detailed location data for individuals seeking to find people inside this cemetery is a common civic task. The role of the sexton, aside from care for the physical properties inside the cemetery, is to guide people to where they are looking for. This could be the grand burial grounds of famous and wealthy people with a beautiful mausoleum, or it could be a simple marker underfoot. In any case the challenge is to provide someone with enough guidance so that they can get close enough to the spot that they can locate exactly the one spot that is of interest.&lt;/p&gt;
+
+&lt;p&gt;Some notes on technology:&lt;/p&gt;
+
+&lt;p&gt;The maps problem for any geolocation task relies heavily on work that&#39;s been done before. Base maps of the city are available from Google, but the Google panopticar has not traversed all of the cemetery lanes and the Google map doesn&#39;t show the structure of the roads that you can walk or drive down. Open Street Map is better, in that it does have more detail within the cemetery, but it doesn&#39;t go down to the individual grave level.&lt;/p&gt;
+
+&lt;p&gt;On top of the base map with roads, there&#39;s a plat map showing the sections of the cemetery that&#39;s available in PDF format from the city. Our team took this plat map, field checked it, and encoded plat boundaries as GeoJSON files so that we had an accurate representation of the area within the cemetery that an individual could be located. This brings the task down to a range, rather than a specific point, but it&#39;s practical enough and a small and precise enough area to be a useful first step.&lt;/p&gt;
+
+&lt;p&gt;The data about individual burial locations in Park Cemetery was provided to use using the Socrata SODA API. A challenge here was that the &#34;location&#34; field, a critical one for our use, was encoded in such a way that a simple download of the data would not yield an immediately usable result since the location (in latitude and longitude) of an individual grave is not known. We addressed that issue by using the API&#39;s JSON download function to return not only the valid fields in the data but also the ones marked invalid, and a post-processing step cleaned the data to extract a valid &#34;plat&#34; field from the provided data.&lt;/p&gt;
+
+&lt;p&gt;JSON is a very easy to manipulate format, and I used two tools that are documented in the new book &lt;a href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the Command Line&lt;/a&gt; by Jeroen Jansens. &#34;jq&#34; is like sed for JSON data – you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text. &#34;json&#34; offers powerful and flexible tools for taking JSON data and printing it in flexible formats. Between those two tools and a bit of other Unix command line efforts with &#34;sed&#34; and &#34;perl&#34;, it was possible to write a handful of one-line transformations that take the Socrata data and turn it into a more compact JSON and HTML format for use directly inside applications.&lt;/p&gt;
+
+&lt;p&gt;By running these transformations on the 12,000 plus record original dataset, I was able to pull out just the location information and basic personal details for everyone - including my Nana. This gets turned into a series of files, one per cemetery section, sorted by lot number so that there&#39;s a chance that you could walk a section methodically and have the data be your guide to whether you are close to what you&#39;re looking for.&lt;/p&gt;
+
+&lt;p&gt;To publish the data in a format that is useful to the world, I turned to an old favorite, Localwiki. This comes with a number of useful tools right off the bat. At one file per cemetery section (e.g. &lt;a href=&#34;https://localwiki.org/marquettemi/Marquette_Park_Cemetery_-_Jenney_W&#34;&gt;Jenney W&lt;/a&gt; the sorted HTML list loads easily into the list. The GeoJSON we created can be imported using the Localwiki API, or cemetery areas or points can be hand-plotted on an OpenStreetMap based map. Names for which Localwiki has more information can be linked. (I resisted the temptation to link every name, though if you had more coverage it would be the obvious next step). &lt;/p&gt;
+
+&lt;p&gt;Localwiki is good for this effort for a few reasons. It has a local search tool that lets you type in a name and get something in return. While not as precise as a purpose-built search tool, it&#39;s easy to implement, and at 12,000 records spread out into a few dozen sections no individual file is too big to load. We know that Localwiki is good for local search, and eventually when the pages are indexed they will be reachable by Google search as well. &lt;/p&gt;
+
+&lt;p&gt;The community aspect of civic data use with Localwiki is an important one. No municipal employee can ever hope to gather biographical data on 12,000 cemetery residents, but we want to support citizens in their interest to collect and refine as much detail as they need to memorialize or to research personal and community history.&lt;/p&gt;
+
+&lt;p&gt;In addition to loading Park Cemetery data into Localwiki, we also pursued a prototype of a purpose-built application designed specifically for mobile phone sized screens that would provide a name index and a plat finder for people who are on site. The goal is to reduce the complexity of the problem down to type in a name and get something back on a map that includes a dot saying where you are. This system uses Drupal as a back end, with maps provided through a responsive front end system specially adapted to look good on a mobile phone sized screen. Links are provided to Localwiki for reference data, and the design includes ways for individuals to quickly add to or verify location information so that you can pinpoint a spot.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Some lessons learned from the effort, which isn&#39;t done yet but getting close!&lt;/p&gt;
+
+&lt;p&gt;It&#39;s important to have a variety of skills on your team. We divvied up the problem into parts that were simple enough for each of us to tackle based on our own skills, and sorted through coordination issues via periodic Google Hangout calls. When you&#39;re working using tools you are good at and on things you find challenging but not impossible, there&#39;s a lot of room for making progress in a short time.&lt;/p&gt;
+
+&lt;p&gt;Tools and standards help. We discovered GeoJSON mid-day through day 2, and were able to use it almost immediately to extend our data to be reusable without recoding on multiple platforms. Similarly, the combination of the Socrata SODA API and the powerful &#34;jq&#34; and &#34;json&#34; tools turned a complete data processing problem into a handful of lines of code.&lt;/p&gt;
+
+&lt;p&gt;When there&#39;s a real problem to be solved, it&#39;s easier to see that you are successful. Two members of the team have family members buried in Park Cemetery. With the toolset we developed, we were able to find those graves, photograph the headstones, and decide how to incorporate that data into Localwiki. Knowing now that the problem is solvable with the data provided, it simply follows to extend that solution to a broader set of tasks.&lt;/p&gt;
+
+&lt;p&gt;Usable prototypes are more valuable than pixel-perfect finished products. Localwiki let me test ideas almost immediately, without much more than a little bit of coding needed to get to a point where a search engine would return a useful result. The tooling we built for the mobile app got to a usable demo phase promptly. A handful of photographs from the field were enough to not only field-check the data that we had, but also to better understand what we could do when there was more time to do it.&lt;/p&gt;
+
+&lt;p&gt;A weekend is not a lot of time to get much beyond the prototype stage.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We&#39;re not done yet. The contest rules want a video, and we&#39;re working on the storyboard. The coding is done, but Localwiki is never really done, and there are some pages to make more spiffy and full of useful content. But in some sense I feel like we&#39;ve already succeeded, in that a completely hidden system got turned into something that I&#39;m starting to understand.&lt;/p&gt;
+
+&lt;p&gt;The proof, perhaps, is that we were able to put together a team that answered the question: where is Nana buried? The proof below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a943970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0792a943970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;WP_003205&#34; title=&#34;WP_003205&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a943970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a95c970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0792a95c970d img-responsive&#34; style=&#34;width: 439px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-05 at 1.35.20 AM&#34; title=&#34;Screen Shot 2014-10-05 at 1.35.20 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a95c970d-450wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>do next?</title>
+      <link>http://vielmetti.github.io/post/2014/2014-09-27-do-next/</link>
+      <pubDate>Sat, 27 Sep 2014 15:52:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-09-27-do-next/</guid>
+      <description>&lt;p&gt;One algorithm for deciding what to do next is simply to identify
+the item with the closest deadline and work on that. There is nothing
+like a deadline to focus the mind, and it is better to get the items
+that demand short term attention into the calendar and to allot the
+time to tackle them. Bernie Galler described this approach to me once,
+and it stuck.&lt;/p&gt;
+
+&lt;p&gt;A second approach is to put everything you might ever want to do
+in a big pile and pick something at random from it to work on. I
+use github issues to track my big pile of things to do, and alas
+it does not have a random() function. Fortunately though there is
+a Github API, and that combined with &lt;code&gt;jq&lt;/code&gt; and my &lt;code&gt;randomline&lt;/code&gt; script
+are enough to approximate that.&lt;/p&gt;
+
+&lt;p&gt;A third very reasonable approach is to ask someone what they would
+like you to do; or even better yet anticipate what they would ask
+and do it before they ask.&lt;/p&gt;
+
+&lt;p&gt;That reminds me, I have work to do.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>using &#34;jq&#34; for command line web applications for civic data</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</link>
+      <pubDate>Sun, 05 Oct 2014 09:03:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</guid>
+      <description>&lt;p&gt;One of the tools that I rediscovered and have been really happy for
+having done so is &amp;ldquo;jq&amp;rdquo;, a command line tool that bills itself as
+&amp;ldquo;awk for json&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been writing awk code since 1985, and some limited subset
+of it is something that I know really, really well. awk, however,
+is from the punchcard era, and as such it likes to deal with records
+that are all on one line each. Parsing JSON in awk is very clumsy
+and ad hoc and really doesn&amp;rsquo;t work all that well. Since most Internet
+APIs these days have some kind of JSON encoding, it means that you
+can&amp;rsquo;t simply dash off an awk one-liner to consume and transform
+Internet input data.&lt;/p&gt;
+
+&lt;p&gt;jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&amp;rsquo;s garages:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;curl -s http://www.a2dda.org/map/AADDACount.json |
+  jq &#34;[.countdata[].spacesavail | tonumber] | add&#34; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;m not going to try to explain how jq works, except to note that
+it&amp;rsquo;s constructed in order to be a filter: data comes in one JSON
+object at a time, and the script iterates over them, transforming
+them in some way and then passing JSON out the other end. This makes
+it perfect for ad hoc Unix pipeline efforts where you&amp;rsquo;re chipping
+away at a data set trying to make sense of it by successively
+refining it as you go.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
+bus system data, and for the Marquette Park Cemetery data. The
+parking data is straightforward, since it exits the system as JSON.
+Bus system data is only incrementally harder; it started either as
+HTML or as XML, and for that you want to use &amp;ldquo;tidy&amp;rdquo; and &amp;ldquo;xml2json&amp;rdquo;
+in your pipeline. The Park Cemetery data set started as JSON via
+the Socrata SODA API, but I needed little bits of &amp;ldquo;sed&amp;rdquo; and &amp;ldquo;perl&amp;rdquo;
+to smooth out some rough edges in the source data; it really wants
+to end up as GeoJSON when I&amp;rsquo;m done, but it isn&amp;rsquo;t there quite yet.&lt;/p&gt;
+
+&lt;p&gt;Shell programming is my favorite programming environment. Any time
+I can take a set of well-understood tools and crunch through big
+data sets with only a few lines of code, I&amp;rsquo;m happy. The challenge
+of shell programming is that it&amp;rsquo;s full of opportunities to get
+things just a little bit wrong with parsing; by making JSON the
+data format that&amp;rsquo;s shoveled between programs rather than a flat
+one-record-per-line text format, you open up the opportunity for
+pulling apart rather complex structures and manipulating them with
+hardly any work.&lt;/p&gt;
+
+&lt;p&gt;For further reading, see Jeroen Janssens new book &lt;a
+href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the
+Command Line&lt;/a&gt; which works you way through dozens of tools like
+this that can help manage big data without big programs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
