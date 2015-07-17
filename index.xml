@@ -6,8 +6,51 @@
     <description>Recent content on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2015 22:33:06 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2015 11:03:04 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Detroit Sound Conservancy: Greystone Jazz rescue</title>
+      <link>http://vielmetti.github.io/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue/</link>
+      <pubDate>Fri, 17 Jul 2015 11:03:04 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue/</guid>
+      <description>&lt;p&gt;The Detroit Sound Conservancy went to the vacant Book Building
+in Detroit on July 7, 2015 to salvage the collection of the
+defunct Graystone International Jazz Museum. There&amp;rsquo;s a nice
+writeup in MLive, &lt;a href=&#34;http://www.mlive.com/news/detroit/index.ssf/2015/07/non-profit_group_salvages_detr.html&#34;&gt;Graystone jazz artifacts, forgotten in Detroit skyscraper, now being preserved&lt;/a&gt;. Photographer Doug Coombe went along
+to document the effort with a &lt;a href=&#34;https://www.facebook.com/media/set/?set=a.896394770433897.1073741832.170165396390175&amp;amp;type=3&#34;&gt;photo set on Facebook&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/2.0/&#34;&gt;https://creativecommons.org/licenses/by-sa/2.0/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://vielmetti.github.io/images/greystone-salvage.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Doug Coombe and Carleton Gholz at the Graystone Jazz salvage, July 7, 2015&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;We knew that things were bad,&amp;rdquo; said DSC&amp;rsquo;s Founder and President
+Carleton Gholz about the neglected collection, but Gholz didn&amp;rsquo;t
+know how bad until he discovered many of the former museum&amp;rsquo;s records
+were broken and strewn across the floor. Historic band stands thrown
+into a pile and historic concert posters and sheet music left
+unprotected to the elements.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more on the DSC and its work and to get involved, see the
+&lt;a href=&#34;http://detroitsoundconservancy.org/&#34;&gt;Detroit Sound Conservancy&lt;/a&gt;
+web site, or join the &lt;a href=&#34;https://www.facebook.com/DetroitSoundConservancy&#34;&gt;DSC on Facebook&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/detroitsound&#34;&gt;@detroitsound&lt;/a&gt; on Twitter.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>valuable archives or just fishwrap</title>
@@ -495,61 +538,6 @@ converters which aren&amp;rsquo;t really the same.&lt;/p&gt;
 &lt;li&gt;Thursday July 23, 2015, noon: a2b3 lunch, Madras Masala, Ann Arbor MI&lt;/li&gt;
 &lt;li&gt;Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
-      <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
-      <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
-
-&lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for &lt;em&gt;why&lt;/em&gt; that&#39;s a relevant task is at this post on Hypriot, &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;How to use Docker Compose to run complex multi container apps on your Raspberry Pi&lt;/a&gt;, which I dutifully and successfully managed to run all of the examples from. &lt;/p&gt;
-
-&lt;p&gt;Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.&lt;/p&gt;
-
-&lt;pre&gt;
-nodered:
-  image: nieleyde/rpi2-nodered
-  command: flows.json
-  volumes:
-    - /home/pi/node-red:/root/.node-red
-  ports: 
-    - &#34;1880:1880&#34;
-  links:
-    - mosquitto
-
-mosquitto:
-  image: nieleyde/rpi-mosquitto
-  ports:
-    - &#34;1883:1883&#34;
-&lt;/pre&gt;
-
-&lt;p&gt;Some subtleties to note:&lt;/p&gt;
-
-&lt;p&gt;The nieleyde/rpi2-nodered runs on the Pi 2; there&#39;s a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven&#39;t yet tweaked this to run on x86, but if you do, you&#39;ll need to update the &#34;image&#34; stanzas everywhere.&lt;/p&gt;
-
-&lt;p&gt;The &#34;command&#34; and &#34;volumes&#34; stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you&#39;ll need to change this; I haven&#39;t gotten that far yet. It might also make sense to have a data volume container, but again I&#39;m not there yet.&lt;/p&gt;
-
-&lt;p&gt;The &#34;mosquitto&#34; configuration is extremely bare bones and runs the default config, which is wide open. I haven&#39;t gotten far enough to replace the config file with something better, but that&#39;s an obvious next step.&lt;/p&gt;
-
-&lt;p&gt;From within Node-RED you refer to this internal MQTT server at hostname &#34;mosquitto&#34;, port &#34;1883&#34;. If the links stanza was changed to &#34;mqtt&#34; and the mosquitto section was changed to &#34;mqtt&#34; you&#39;d then refer to the MQTT server at hostname &#34;mqtt&#34;.&lt;/p&gt;
-
-&lt;p&gt;For further reading:&lt;/p&gt;
-
-&lt;p&gt;An issue open on Niel Eyde&#39;s rpi-nodered Github, &lt;a href=&#34;https://github.com/nieleyde/rpi-nodered/issues/5&#34;&gt;documentation for how to extend this image with your own nodes and flows&lt;/a&gt;, where I&#39;m working some of this out.&lt;/p&gt;
-
-&lt;p&gt;On the Node-RED Github, &lt;a href=&#34;https://github.com/node-red/node-red/issues/603&#34;&gt;Support for Docker install for Node-RED&lt;/a&gt;, which is epic and helpful in many ways.&lt;/p&gt;
-
-&lt;p&gt;The essential &lt;a href=&#34;http://blog.hypriot.com/&#34;&gt;Hypriot weblog&lt;/a&gt;, specifically the aforementioned &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;Docker Compose examples&lt;/a&gt; and the &lt;a href=&#34;https://github.com/hypriot/compose&#34;&gt;Hypriot Docker Compose&lt;/a&gt; Github repository.&lt;/p&gt;
 </description>
     </item>
     

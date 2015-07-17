@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tokyo Japan on tracker</title>
+    <link>http://vielmetti.github.io/cities/tokyo-japan/</link>
+    <description>Recent content in Tokyo Japan on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Mar 2011 08:46:41 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/cities/tokyo-japan/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tokyo power outage maps</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-13-tokyo-power-outage-maps/</link>
+      <pubDate>Sun, 13 Mar 2011 08:46:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-13-tokyo-power-outage-maps/</guid>
+      <description>&lt;p&gt;&lt;p&gt;Due to extreme impacts of earthquake and tsunami on the Japanese electrical energy grid, power companies in Japan are putting into place scheduled outages to reduce their energy load.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sources&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://e.nikkei.com/e/fr/tnks/Nni20110313D13JF628.htm&#34; target=&#34;_self&#34;&gt;Nikkei&lt;/a&gt;:&amp;#0160;Tokyo Electric Power Co.&amp;#0160;&lt;a href=&#34;http://e.nikkei.com/e/app/ac/market/companyoverview.aspx?scode=9501&#34;&gt;(9501)&lt;/a&gt;&amp;#0160;and Tohoku Electric Power Co.&amp;#0160;&lt;a href=&#34;http://e.nikkei.com/e/app/ac/market/companyoverview.aspx?scode=9506&#34;&gt;(9506)&lt;/a&gt;&amp;#0160;will implement planned power cuts on a rolling basis .&lt;/p&gt;
+&lt;p&gt;Harvard: &lt;a href=&#34;http://cegrp.cga.harvard.edu/japan/&#34; target=&#34;_self&#34;&gt;Japan Sendai Earthquake Data Portal&lt;/a&gt;. A team at the&amp;#0160;&amp;#0160;&lt;a href=&#34;http://gis.harvard.edu/&#34;&gt;Harvard Center for Geographic Analysis&lt;/a&gt;&amp;#0160;is collecting and publishing geospatial data about the earthquake.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Illuminating Japan&amp;quot; weblog&amp;#0160;gakuranman.com, &lt;a href=&#34;http://gakuranman.com/great-tohoku-earthquake/&#34; target=&#34;_self&#34;&gt;Great Tohoku Earthquake&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.tepco.co.jp&#34; target=&#34;_self&#34;&gt;TEPCO web site&lt;/a&gt; is under extreme load, and is throwing error messages on the main page: &amp;quot;An error occurred while processing your request.&amp;#0160;Reference #97.1c1fac41.1300025768.58c0d00&amp;quot;. Deeper links appear to be less affected. Here is from a TEPCO news release of &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;13&lt;/sub&gt;; this is data that could be mapped.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tepco.co.jp/en/press/corp-com/release/11031310-e.html  &#34; target=&#34;_self&#34;&gt;&lt;a href=&#34;http://www.tepco.co.jp/en/press/corp-com/release/11031310-e.html&#34;&gt;http://www.tepco.co.jp/en/press/corp-com/release/11031310-e.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;[Blackout in TEPCO&amp;#39;s Service Area]
+Total of about &lt;span style=&#34;text-decoration: underline;&#34;&gt;0.26 million&lt;/span&gt; households are out of power.
+Tokyo: 0
+Kanagawa Pref.: 0
+&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tochigi Pref.: 7,366&lt;/span&gt;
+&lt;span style=&#34;text-decoration: underline;&#34;&gt;Chiba Pref.: 301&lt;/span&gt;
+Saitama Pref: 0
+Gunma Pref.: 0
+&lt;span style=&#34;text-decoration: underline;&#34;&gt;Ibaraki Pref: 247,853&lt;/span&gt;
+Yamanashi Pref: 0
+&lt;span style=&#34;text-decoration: underline;&#34;&gt;Shizuoka Pref: 0 (east of Fuji River)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;[Supply and Demand Status within TEPCO&amp;#39;s Service Area to Secure Stable Power
+Supply]
+Backup supply from Shinshinano Conversion Station: 600MW
+Backup supply from Sakuma Conversion Station: 300MW
+Backup supply from Higashi Shimizu Conversion Station: 100MW
+Backup supply from Kitahon Interconnection Facility: 600MW&lt;/pre&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ia600405.us.archive.org/29/items/ScheduleForJapansRollingBlackout/teiden20110313.pdf&#34; target=&#34;_self&#34;&gt;Schedule for Japan&amp;#39;s Rolling Blackout.&lt;/a&gt; This unattributed PDF is all in Japanese, which I don&amp;#39;t read; it appears to be a scan of a facsimile, and has all external indications of being genuine. The map below is excerpted from that original, and is from the TEPCO power service area. There is more excellent coverage (in Japanese) on Gigazine: &lt;a href=&#34;http://gigazine.net/news/20110313_rolling_blackouts/&#34; target=&#34;_self&#34;&gt;2011/03/13 Rolling Blackouts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5fd403d2970c-pi&#34;&gt;&lt;img alt=&#34;Teiden20110313-japan-blackout-map&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e5fd403d2970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5fd403d2970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Teiden20110313-japan-blackout-map&#34; /&gt;&lt;/a&gt;The same map, in color, from the Gigazine coverage above&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e86af7b13970d-pi&#34;&gt;&lt;img alt=&#34;Stop08_02&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e86af7b13970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e86af7b13970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Stop08_02&#34; /&gt;&lt;/a&gt;The corresponding time scale, also from Gigazine:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5fd47c40970c-pi&#34;&gt;&lt;img alt=&#34;Stop08_01&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e5fd47c40970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5fd47c40970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Stop08_01&#34; /&gt;&lt;/a&gt; &lt;br /&gt;An even better map, in full color, via&amp;#0160;&lt;a href=&#34;http://matome.naver.jp/odai/2130001740747617201 &#34; target=&#34;_self&#34;&gt;&lt;a href=&#34;http://matome.naver.jp/odai/2130001740747617201&#34;&gt;http://matome.naver.jp/odai/2130001740747617201&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e86b06f84970d-pi&#34;&gt;&lt;img alt=&#34;Map-times-japan&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e86b06f84970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e86b06f84970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Map-times-japan&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Japanese power grid, via&amp;#0160;gakuranman.com. Note that a portion of the Japanese grid is on 50hz, and another portion is on 60hz.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e32f230d970b-pi&#34;&gt;&lt;img alt=&#34;Power_Grid_of_Japan-685x650&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e32f230d970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e32f230d970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Power_Grid_of_Japan-685x650&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;a href=&#34;http://www.geni.org/globalenergy/library/national_energy_grid/japan/japanesenationalelectricitygrid.shtml&#34; target=&#34;_self&#34;&gt;National Trunk Line Connections&lt;/a&gt;, from a map collected by &lt;a href=&#34;http://www.geni.org/&#34; target=&#34;_self&#34;&gt;GENI&lt;/a&gt;, undated.&lt;/p&gt;
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5fd417ee970c-pi&#34;&gt;&lt;img alt=&#34;National-Trunk-Line-Connections-GENI&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e5fd417ee970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5fd417ee970c-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;National-Trunk-Line-Connections-GENI&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div&gt;&lt;span style=&#34;font-family: Times, Arial, Helvetica, sans-serif;&#34;&gt;&lt;span style=&#34;font-size: medium;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

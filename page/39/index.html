@@ -51,6 +51,8 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue" class="list-group-item">Detroit Sound Conservancy: Greystone Jazz rescue</a></li>
+         
 	<li><a href="http://vielmetti.github.io/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015-07-16-custom-views-of-taxonomies" class="list-group-item">custom views of taxonomies</a></li>
@@ -88,12 +90,12 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-06-the-verge-turns-off-comments" class="list-group-item">The Verge turns off comments</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-03-reddit-is-going-up-in-flames" class="list-group-item">&#34;Reddit is going up in flames&#34;</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-06-29-never-read-the-comments" class="list-group-item">Never read the comments</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -133,6 +135,8 @@ networks
 <li>Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI</li>
 </ul>
 
+	   
+	
 	   
 	
 	   
@@ -4101,6 +4105,33 @@ networks
 
   <h3>4 December 2007</h3>
       <h3>
+      <a href="http://vielmetti.github.io/post/2007/2007-12-04-quantitative-me/">quantitative measures of usability (or, measuring measurability)</a>
+      </h3>
+      <p>
+I did the Google search for "quantitative measures of usability", to see if that line of thinking would get me something useful.  Here's some explorations around those search results, and some reflections on that line of reasoning.
+</p><p>
+<strong>CHI: single usability metric</strong>
+</p><p>
+There is a site "measuring usability" which unsurprisingly ranked high on the list.  It introduces the novel concept of a "single measure of usability", which looks like the sum of a bunch of individual metrics all mushed together into a single number.  (Sauro and Kindlund, CHI 2005).  It measures task completion times, task time, satisfaction and error counts, and is a formalized version of what looks like an original Excel spreadsheet.  
+</p><p>
+From an electronic commerce point of view this is a promising number, but an expensive one to compute - from web server logs you can impute task completion and task times, and maybe get some sense for errors, but satisfaction is hard to grind out of a server log.   It comes from the CHI tradition of simple models of user behavior assessed from small data sets.  But it's a start.
+</p><p>
+<strong>Patents: quantitative measures of qualitative usability</strong>
+</p><p>
+There's a patent filing (Ed Chi, Christopher Olston) with this initial claim:
+</p><blockquote>
+A system for determining a quantitative measure of qualitative usability of related Web pages, comprising: stored Web pages that each include at least one hyperlink referencing and proximal cues relating to distal content included in another Web page; a stored information goal identifying a target Web page; an activation network, comprising a directed graph comprising nodes corresponding to the Web pages and arcs corresponding to the hyperlinks, wherein a weight is assigned to each arc to represent a probability of traversal of the corresponding hyperlink based on a relatedness of keywords in the information goal to the proximal cues included in the referenced Web page; and a simulator to evaluate a traversal through the activation network to the node corresponding to the target Web page as a quantitative measure of usability.
+</blockquote><p>
+There's more (of course, it's a patent, there's a lot more).  It appears to be a simulator-driven version of the same PageRank algorithms that Google started out with, except that rather than assuming a random walk through page space it takes into account what Google would call quality scores and what they call "information scent".  Chi works at PARC, and this looks like an elaboration of their <a href="http://portal.acm.org/citation.cfm?id=937550">ScentTrails</a> paper (TOCHI 2003).  Note that it's not about task completion as above but more about findability within a search space, and as thus it describes a different problem than above.
+</p><p>
+<strong>More work
+</p><p>
+</strong>I'm sure there's more relevant work in this field, but given that the first words I used to look both unearthed CHI related papers, I'm not sure I have the right language to express the thing I'm really after.  so I'll stop...
+</p>
+
+
+  <h3>4 December 2007</h3>
+      <h3>
       <a href="http://vielmetti.github.io/post/2007/2007-12-04-brent-hill-goog/">Brent Hill, Google / Feedburner speaking in Ann Arbor, Dec 4 2007</a>
       </h3>
       <p><p>
@@ -4740,6 +4771,19 @@ preference for mixed or layered. Take part of the reserved olive juice,
 add <strong>red wine vinegar</strong>, mix, and pour over the top.</p>
 
 <p>Yum. I made two recipes of this over the weekend, and there&#39;s some left over, so it&#39;s time for a snack.</p>
+
+
+  <h3>1 January 0001</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/sidebar/todo/">todo</a>
+      </h3>
+      <p>Things yet to do in this weblog setup:</p>
+
+<ul>
+<li>Short codes for easy linking to localwiki</li>
+<li>Nicely thought through category and taxonomy pages</li>
+<li>A whole &ldquo;Ann Arbor&rdquo; section, because there&rsquo;s so much of that</li>
+</ul>
 
 
 

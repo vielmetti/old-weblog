@@ -51,6 +51,8 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue" class="list-group-item">Detroit Sound Conservancy: Greystone Jazz rescue</a></li>
+         
 	<li><a href="http://vielmetti.github.io/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015-07-16-custom-views-of-taxonomies" class="list-group-item">custom views of taxonomies</a></li>
@@ -88,12 +90,12 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-06-the-verge-turns-off-comments" class="list-group-item">The Verge turns off comments</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-03-reddit-is-going-up-in-flames" class="list-group-item">&#34;Reddit is going up in flames&#34;</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-06-29-never-read-the-comments" class="list-group-item">Never read the comments</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -133,6 +135,8 @@ networks
 <li>Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI</li>
 </ul>
 
+	   
+	
 	   
 	
 	   
@@ -4099,6 +4103,29 @@ networks
 
 
 
+  <h3>9 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/">decoding radio digital modes without a radio, using WebSDR and fldigi</a>
+      </h3>
+      <p>I'm interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to "listen" to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Fldigi-HB9ERN" title="Fldigi-HB9ERN" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi" /></a><br /></p>
+
+<p>I think I have all of the components, but I have yet to be able to get everything to work as expected. Here's what I have:</p>
+
+<p><a href="http://websdr.ewi.utwente.nl:8901/">WebSDR</a> from http://websdr.ewi.utwente.nl:8901/ . This is a software-defined radio tuning  to the radio airwaves at the University of Twente in the Netherlands; it runs in your browser. There are 87 of these systems running around the world, listed at <a href="http://websdr.org/">websdr.org</a>.</p>
+
+<p><a href="http://www.w1hkj.com/Fldigi.html">fldigi</a> from http://www.w1hkj.com/Fldigi.html . This software for Windows, Linux and OS X, runs on your local system and takes an audio signal and decodes it in one of many digital modes.</p>
+
+<p><a href="https://code.google.com/p/soundflower/">Soundflower</a> from https://code.google.com/p/soundflower/ . This is a Mac system extension that allows you to redirect the audio output of one program (e.g. your browser) into the audio input of another program (e.g. fldigi). Not strictly necessary because the fldigi can also just decode whatever it hears through the computer's built in microphone. I picked up the recommendation from an article on <a href="http://www.hamradioandvision.com/websdr-digital-modes/">HamRadioAndVision</a>.</p>
+
+<p>A number of people have done Youtube videos describing what they are doing to make this work. For example, <a href="http://www.oz9aec.net/index.php/component/content/article/63-sdr/290-fun-with-websdr-and-fldigi">OZ9AEC</a> has a 6 minute Youtube from 2009 shows reception in single channel and multichannel mode. He doesn't use Soundflower, just the built in mic of his Mac.</p>
+
+<p>Not described here - and probably what I need to figure out next - are two key bits of information. Where do you tune to pick up digital signals? And, more importantly, which decoder do you use? It's not hard to pick out which modulation is being used if you have some practice, but as of this writing I couldn't readily tell you what WEFAX sounds like compared to RTTY. Still sorting through those details before I can claim to have mastered this.</p>
+
+<p>Note also that this should work with a local software-defined radio as well, or even with a "hardware-defined radio" placed near your mic or patched in with a mic cable.</p>
+
+
   <h3>6 February 2014</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2014/2014-02-06-city-of-ann-arbor-snow-removal-ordinance/">City of Ann Arbor Snow Removal Ordinance</a>
@@ -5332,17 +5359,6 @@ is just a snapshot of it.</p>
 <p>Note to self: buy new mittens, ideally ones that let me have at least one index finger free to work my phone.</p>
 
 <p>Note to self 2: the battery is said to last 6 months, whether you use the system or not, so be prepared to change it on the summer solstice.</p>
-
-
-  <h3>26 December 2013</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2013/2013-12-26-the-first-draft-of-this-essay-was-140-characters-or-less/">The first draft of this essay was 140 characters or less</a>
-      </h3>
-      <p>From time to time I sit in front of a computer wanting to write, and nothing comes of the urge. Writing in a browser can be very hard work since every other open browser tab wants you to read, not write. You could easily spend hours clicking and not ever utter anything more complex than "like" or "favorite".</p>
-
-<p>The one place where writer's block never seems to be a problem is within Twitter, which for better or worse has been the home of 21,158 of my most pithy observations. Because the Twitter writing environment is so spare, it's relatively easy to produce something or react to something in a way that doesn't require a fully formed idea or any of the other agonies that accompany longer format writing.</p>
-
-<p>Here is a recipe for writing more in this blog. Don't worry about how much you tweet, because you are treating those tweets as the short form of your work. When the muse is silent, go back to your own tweets and see which ones of them deserve to be longer. Even the stereotypical "eating a sandwich" tweet can be stretched into 200 words if you want, by turning that throwaway observation into a recipe. Almost anything worth visiting in 140 characters is worth revisiting in longer form; take advantage of the short form as a stockpile of ideas to pull from when it's time to write longer.</p>
 
 
 
