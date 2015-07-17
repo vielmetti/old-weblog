@@ -10,34 +10,26 @@
     <atom:link href="http://vielmetti.github.io/people/finn-brunton/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Insane coin posse</title>
-      <link>http://vielmetti.github.io/post/2014/2014-04-14-insane-coin-posse/</link>
-      <pubDate>Mon, 14 Apr 2014 12:18:29 +0000</pubDate>
+      <title>African National Congress Secret Communications: &#34;Operation Vula&#34;</title>
+      <link>http://vielmetti.github.io/post/2013/2013-12-09-african-national-congress-secret-communications-operation-vula/</link>
+      <pubDate>Mon, 09 Dec 2013 23:51:34 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2014/2014-04-14-insane-coin-posse/</guid>
-      <description>&lt;p&gt;The latest in cryptocurrencies is the Juggalocoin, proposed to handle the transactional needs of the fans of the Insane Clown Posse. From &lt;a href=&#34;http://www.billboard.com/biz/articles/news/digital-and-mobile/6049084/meet-the-insane-coin-posse-juggalos-get-their-own&#34;&gt;Billboard&lt;/a&gt; (because after all this is an entertainment story):&lt;/p&gt;
+      <guid>http://vielmetti.github.io/post/2013/2013-12-09-african-national-congress-secret-communications-operation-vula/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.anc.org.za/show.php?id=4693&#34;&gt;Talking to Vula&lt;/a&gt; is the story of the secret communications network of Operation Vula, a project of the African National Congress that facilitated clandestine messaging between South African exiles in London and leaders of the resistance in Zambia and in South Africa. The account (which was pointed out to me by Finn Brunton) talks of an inventive use of encrypted text transmitted via analog modem tones recorded to cassette tape and then played back via untraceable pay phones. It&#39;s a remarkable tale of late 80s underground crypto, leading up to the release of Nelson Mandela from prison.&lt;/p&gt;
+
+&lt;p&gt;From the text, to give you a flavor of it:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Whoop whoop! A very tech-savvy Juggalo by the name of Papa Nutt has taken it upon himself to create a cryptocurrency specifically for Faygo-chugging devotees of &#34;the Family&#34; to buy goods and services with*, especially at the upcoming Gathering of the Juggalos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now, the acid test of any coin: can you buy Faygo with it? From &lt;a href=&#34;http://www.slate.com/blogs/future_tense/2014/04/09/juggalocoins_the_cryptocurrency_for_insane_clown_posse_fans.html&#34;&gt;Slate&lt;/a&gt;: &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It seems quite possible this is all a good joke, but given the purchasing power of the Juggaloes, the Faygo company might want to update its payment system just to be safe.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;On &lt;a href=&#34;https://bitcointalk.org/index.php?topic=568484.0&#34;&gt;Bitcointalk&lt;/a&gt;, someone who calls themself &#34;Juggalocoin&#34; launches into a spirited defense of the currency:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To reach the huge non-crypto masses requires something they can identify with.  Dogecoin did it.  Kinda.  In a weird, fleeting way.  Doge is just a glimpse of what&#39;s possible.  But memes have a VERY limited lifespan.  Doge may grow beyond the meme.  I don&#39;t know.  But with Juggalos, it&#39;s not about a meme.  It&#39;s about a community.  A community that already exists, and has been around for over 20 years!  &lt;/p&gt;
+  &lt;p&gt;To test this hypothesis I wrote a little program to send some computer output to the modem. Sure enough the sounds came out of the modem`s speaker. These I recorded and played back into the microphone end of the modem while running a communications program on the computer. Eureka! The characters appeared on the screen. I had done with a modem what we were attempting to do with our tone machine.&lt;/p&gt;
   
-  &lt;p&gt;This is the innovation that JuggaloCoin offers:  A coin that appeals to a very specific, very tight community.  A community of over 1 million people.  We are offering a real opportunity for crypto to dramatically increase its reach.&lt;/p&gt;
+  &lt;p&gt;This seemed to be the real breakthrough. I adapted our encryption program to work with the acoustic modem and recorded the output on a tape recorder. This I took to a public telephone booth and played back to my answering machine. Then I played the answering machine &lt;code&gt;message&lt;/code&gt; back into the modem and the computer deciphered it successfully. As the plaintext message appeared on the screen I realised that we had finally discovered an absolutely safe method of communicating with the underground using computers.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For more details than you&#39;d ever want to see, visit &lt;a href=&#34;http://juggalocoin.org/&#34;&gt;juggalocoin.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The work originally appeared in a series of six articles in the ANC`s monthly journal Mayibuye from May 1995 to October 1995. &lt;/p&gt;
 
-&lt;p&gt;Previously on this blog, an account of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2014/03/april-3-2014-finn-brunton-on-cryptocurrencies-north-quad-space-2435-400-pm.html&#34;&gt;Finn Brunton&#39;s talk on cryptocurrencies&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;More: &lt;a href=&#34;http://irevolution.net/2008/04/06/operation-vula-ict-versus-apartheid/&#34;&gt;Operation Vula: ICT versus Apartheid&lt;/a&gt; (2008).&lt;/p&gt;
+
+&lt;p&gt;More:  Garrett and Edwards (2007): “[Revolutionary Secrets]: Technology’s Role in the South African Anti-Apartheid Movement,” Social Science Computer Review, 24(4). Preprint at U of Michigan.&lt;/p&gt;
 </description>
     </item>
     
@@ -78,48 +70,12 @@
     </item>
     
     <item>
-      <title>African National Congress Secret Communications: &#34;Operation Vula&#34;</title>
-      <link>http://vielmetti.github.io/post/2013/2013-12-09-african-national-congress-secret-communications-operation-vula/</link>
-      <pubDate>Mon, 09 Dec 2013 23:51:34 +0000</pubDate>
+      <title>Finn Brunton on spam; interview with CBC Radio</title>
+      <link>http://vielmetti.github.io/post/2011/2011-07-17-finn-brunton-on-spam-interview-with-cbc-radio/</link>
+      <pubDate>Sun, 17 Jul 2011 23:15:09 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2013/2013-12-09-african-national-congress-secret-communications-operation-vula/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.anc.org.za/show.php?id=4693&#34;&gt;Talking to Vula&lt;/a&gt; is the story of the secret communications network of Operation Vula, a project of the African National Congress that facilitated clandestine messaging between South African exiles in London and leaders of the resistance in Zambia and in South Africa. The account (which was pointed out to me by Finn Brunton) talks of an inventive use of encrypted text transmitted via analog modem tones recorded to cassette tape and then played back via untraceable pay phones. It&#39;s a remarkable tale of late 80s underground crypto, leading up to the release of Nelson Mandela from prison.&lt;/p&gt;
-
-&lt;p&gt;From the text, to give you a flavor of it:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To test this hypothesis I wrote a little program to send some computer output to the modem. Sure enough the sounds came out of the modem`s speaker. These I recorded and played back into the microphone end of the modem while running a communications program on the computer. Eureka! The characters appeared on the screen. I had done with a modem what we were attempting to do with our tone machine.&lt;/p&gt;
-  
-  &lt;p&gt;This seemed to be the real breakthrough. I adapted our encryption program to work with the acoustic modem and recorded the output on a tape recorder. This I took to a public telephone booth and played back to my answering machine. Then I played the answering machine &lt;code&gt;message&lt;/code&gt; back into the modem and the computer deciphered it successfully. As the plaintext message appeared on the screen I realised that we had finally discovered an absolutely safe method of communicating with the underground using computers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The work originally appeared in a series of six articles in the ANC`s monthly journal Mayibuye from May 1995 to October 1995. &lt;/p&gt;
-
-&lt;p&gt;More: &lt;a href=&#34;http://irevolution.net/2008/04/06/operation-vula-ict-versus-apartheid/&#34;&gt;Operation Vula: ICT versus Apartheid&lt;/a&gt; (2008).&lt;/p&gt;
-
-&lt;p&gt;More:  Garrett and Edwards (2007): “[Revolutionary Secrets]: Technology’s Role in the South African Anti-Apartheid Movement,” Social Science Computer Review, 24(4). Preprint at U of Michigan.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Spam: A Shadow History of the Internet - Finn Brunton - MIT Press - 2013</title>
-      <link>http://vielmetti.github.io/post/2013/2013-05-08-spam-a-shadow-history-of-the-internet-finn-brunton-mit-press-2013/</link>
-      <pubDate>Wed, 08 May 2013 17:37:57 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-05-08-spam-a-shadow-history-of-the-internet-finn-brunton-mit-press-2013/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://finnb.net&#34; target=&#34;_self&#34;&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901bf3ff62970b-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Spam-shadow-history-of-internet-9780262018876&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901bf3ff62970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901bf3ff62970b-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Spam-shadow-history-of-internet-9780262018876&#34; /&gt;&lt;/a&gt;Finn Brunton&lt;/a&gt; has a new book out, called &amp;quot;&lt;a href=&#34;http://mitpress.mit.edu/books/spam&#34; target=&#34;_self&#34;&gt;Spam: A Shadow History of the Internet&lt;/a&gt;&amp;quot;, published by the MIT Press. I&amp;#39;m looking forward to reading it this summer.&lt;/p&gt;
-&lt;p&gt;Some radio interviews about the book:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.npr.org/blogs/alltechconsidered/2013/05/04/179219174/please-dont-delete-this-interview-about-spam&#34; target=&#34;_self&#34;&gt;An interview with NPR&amp;#39;s Scott Simon on Weekend Edition.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.cbc.ca/spark/full-interviews/2010/11/18/full-interview-finn-brunton-on-spam-filters/&#34; target=&#34;_self&#34;&gt;CBC&amp;#39;s Spark, in 2010.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;and some print:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.radicalphilosophy.com/commentary/roar-so-wildly-spam-technology-and-language&#34; target=&#34;_self&#34;&gt;Roar so wildly: spam, technology and language&lt;/a&gt;. From Radical Philosophy 2010.&lt;/p&gt;
-&lt;p&gt;This is the raw text output of a chat session with a bot I modified to act as an interlocutor. I use our conversation, which revolves around the history of spam, particularly algorithmic filtering, litspam, and the theories of Wiener and Turing, as a way of putting forward the outlines of new, machine-driven forms of language for which spam was the testing ground.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.slate.com/blogs/future_tense/2013/05/01/spam_the_anatomy_of_violence_and_arming_mother_nature_reviewed.html&#34; target=&#34;_self&#34;&gt;A book review in Slate&amp;#39;s Future Tense.&lt;/a&gt;&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;Literary lovechild of: Katie Hafner’s&lt;em&gt;&amp;#0160;&lt;/em&gt;&lt;em&gt;&lt;a href=&#34;http://elibrary.mel.org/record=b11038006~S15&#34; target=&#34;_blank&#34;&gt;Where Wizards Stay Up Late: The Origins of the Internet&lt;/a&gt;&amp;#0160;&lt;/em&gt;and Andrew Blum’s&amp;#0160;&lt;a href=&#34;http://www.aadl.org/catalog/record/1408146&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Tubes: A Journey to the Center of the Internet&lt;/em&gt;&lt;/a&gt;.&lt;em&gt;&amp;#0160;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
+      <guid>http://vielmetti.github.io/post/2011/2011-07-17-finn-brunton-on-spam-interview-with-cbc-radio/</guid>
+      <description>&lt;p&gt;Noted: &lt;a href=&#34;http://finnb.net&#34; target=&#34;_self&#34;&gt;Finn Brunton&amp;#39;&lt;/a&gt;s 2009 CBC Radio interview on the &lt;a href=&#34;http://www.cbc.ca/spark/2009/12/full-interview-finn-brunton-on-the-unintended-consequences-of-spam/&#34; target=&#34;_self&#34;&gt;unintended consequences of spam&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -146,12 +102,56 @@
     </item>
     
     <item>
-      <title>Finn Brunton on spam; interview with CBC Radio</title>
-      <link>http://vielmetti.github.io/post/2011/2011-07-17-finn-brunton-on-spam-interview-with-cbc-radio/</link>
-      <pubDate>Sun, 17 Jul 2011 23:15:09 +0000</pubDate>
+      <title>Insane coin posse</title>
+      <link>http://vielmetti.github.io/post/2014/2014-04-14-insane-coin-posse/</link>
+      <pubDate>Mon, 14 Apr 2014 12:18:29 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2011/2011-07-17-finn-brunton-on-spam-interview-with-cbc-radio/</guid>
-      <description>&lt;p&gt;Noted: &lt;a href=&#34;http://finnb.net&#34; target=&#34;_self&#34;&gt;Finn Brunton&amp;#39;&lt;/a&gt;s 2009 CBC Radio interview on the &lt;a href=&#34;http://www.cbc.ca/spark/2009/12/full-interview-finn-brunton-on-the-unintended-consequences-of-spam/&#34; target=&#34;_self&#34;&gt;unintended consequences of spam&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://vielmetti.github.io/post/2014/2014-04-14-insane-coin-posse/</guid>
+      <description>&lt;p&gt;The latest in cryptocurrencies is the Juggalocoin, proposed to handle the transactional needs of the fans of the Insane Clown Posse. From &lt;a href=&#34;http://www.billboard.com/biz/articles/news/digital-and-mobile/6049084/meet-the-insane-coin-posse-juggalos-get-their-own&#34;&gt;Billboard&lt;/a&gt; (because after all this is an entertainment story):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whoop whoop! A very tech-savvy Juggalo by the name of Papa Nutt has taken it upon himself to create a cryptocurrency specifically for Faygo-chugging devotees of &#34;the Family&#34; to buy goods and services with*, especially at the upcoming Gathering of the Juggalos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, the acid test of any coin: can you buy Faygo with it? From &lt;a href=&#34;http://www.slate.com/blogs/future_tense/2014/04/09/juggalocoins_the_cryptocurrency_for_insane_clown_posse_fans.html&#34;&gt;Slate&lt;/a&gt;: &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It seems quite possible this is all a good joke, but given the purchasing power of the Juggaloes, the Faygo company might want to update its payment system just to be safe.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On &lt;a href=&#34;https://bitcointalk.org/index.php?topic=568484.0&#34;&gt;Bitcointalk&lt;/a&gt;, someone who calls themself &#34;Juggalocoin&#34; launches into a spirited defense of the currency:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To reach the huge non-crypto masses requires something they can identify with.  Dogecoin did it.  Kinda.  In a weird, fleeting way.  Doge is just a glimpse of what&#39;s possible.  But memes have a VERY limited lifespan.  Doge may grow beyond the meme.  I don&#39;t know.  But with Juggalos, it&#39;s not about a meme.  It&#39;s about a community.  A community that already exists, and has been around for over 20 years!  &lt;/p&gt;
+  
+  &lt;p&gt;This is the innovation that JuggaloCoin offers:  A coin that appeals to a very specific, very tight community.  A community of over 1 million people.  We are offering a real opportunity for crypto to dramatically increase its reach.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more details than you&#39;d ever want to see, visit &lt;a href=&#34;http://juggalocoin.org/&#34;&gt;juggalocoin.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Previously on this blog, an account of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2014/03/april-3-2014-finn-brunton-on-cryptocurrencies-north-quad-space-2435-400-pm.html&#34;&gt;Finn Brunton&#39;s talk on cryptocurrencies&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spam: A Shadow History of the Internet - Finn Brunton - MIT Press - 2013</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-08-spam-a-shadow-history-of-the-internet-finn-brunton-mit-press-2013/</link>
+      <pubDate>Wed, 08 May 2013 17:37:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-08-spam-a-shadow-history-of-the-internet-finn-brunton-mit-press-2013/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://finnb.net&#34; target=&#34;_self&#34;&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901bf3ff62970b-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Spam-shadow-history-of-internet-9780262018876&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901bf3ff62970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901bf3ff62970b-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Spam-shadow-history-of-internet-9780262018876&#34; /&gt;&lt;/a&gt;Finn Brunton&lt;/a&gt; has a new book out, called &amp;quot;&lt;a href=&#34;http://mitpress.mit.edu/books/spam&#34; target=&#34;_self&#34;&gt;Spam: A Shadow History of the Internet&lt;/a&gt;&amp;quot;, published by the MIT Press. I&amp;#39;m looking forward to reading it this summer.&lt;/p&gt;
+&lt;p&gt;Some radio interviews about the book:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.npr.org/blogs/alltechconsidered/2013/05/04/179219174/please-dont-delete-this-interview-about-spam&#34; target=&#34;_self&#34;&gt;An interview with NPR&amp;#39;s Scott Simon on Weekend Edition.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cbc.ca/spark/full-interviews/2010/11/18/full-interview-finn-brunton-on-spam-filters/&#34; target=&#34;_self&#34;&gt;CBC&amp;#39;s Spark, in 2010.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and some print:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.radicalphilosophy.com/commentary/roar-so-wildly-spam-technology-and-language&#34; target=&#34;_self&#34;&gt;Roar so wildly: spam, technology and language&lt;/a&gt;. From Radical Philosophy 2010.&lt;/p&gt;
+&lt;p&gt;This is the raw text output of a chat session with a bot I modified to act as an interlocutor. I use our conversation, which revolves around the history of spam, particularly algorithmic filtering, litspam, and the theories of Wiener and Turing, as a way of putting forward the outlines of new, machine-driven forms of language for which spam was the testing ground.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slate.com/blogs/future_tense/2013/05/01/spam_the_anatomy_of_violence_and_arming_mother_nature_reviewed.html&#34; target=&#34;_self&#34;&gt;A book review in Slate&amp;#39;s Future Tense.&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Literary lovechild of: Katie Hafner’s&lt;em&gt;&amp;#0160;&lt;/em&gt;&lt;em&gt;&lt;a href=&#34;http://elibrary.mel.org/record=b11038006~S15&#34; target=&#34;_blank&#34;&gt;Where Wizards Stay Up Late: The Origins of the Internet&lt;/a&gt;&amp;#0160;&lt;/em&gt;and Andrew Blum’s&amp;#0160;&lt;a href=&#34;http://www.aadl.org/catalog/record/1408146&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Tubes: A Journey to the Center of the Internet&lt;/em&gt;&lt;/a&gt;.&lt;em&gt;&amp;#0160;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
 </description>
     </item>
     

@@ -4096,64 +4096,6 @@ networks
 
 
 
-  <h3>25 September 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-09-25-storage-density/">Storage density in petabytes per shipping container</a>
-      </h3>
-      <p>One way to get high density storage without creating building-wide cooling issues is to move your computing and storage facilities into a container which can be housed out of the building.&nbsp; I'm looking at specs for some various systems to do this, optimized for storage density, to see what the expectations might be for what you'd get in &quot;petabytes per container&quot;.</p>
-
-<p>The answer appears to be &quot;about one petabyte per six linear feet of container&quot;, or put another way, &quot;about one petabyte per ten cubic meters of containerized storage.</p>
-
-<p><a href="http://www.archive.org/web/petabox.php">The Internet Archive's Petabox design specs:</a> included requirements to run in a shipping container.</p>
-
-<p>How big is a shipping container? <a href="http://blog.managednetworks.co.uk/it-support/googles-20-petabytes/"> If a grain of rice is one byte, a shipping container can hold a half a gigabyte,</a> and a petabyte covers central London in a meter of rice.&nbsp; So, a lot.</p>
-
-<p><a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=7,278,273.PN.&amp;OS=PN/7,278,273&amp;RS=PN/7,278,273">Google's patent <strong>7,278,273 </strong>covers a modular data center:</a></p><blockquote><p>Modular data centers with modular components suitable for use with rack or
-&nbsp; &nbsp;&nbsp; shelf mount computing systems, for example, are disclosed. The modular
-&nbsp; &nbsp;&nbsp; center generally includes a modular computing module including an
-&nbsp; &nbsp;&nbsp; intermodal shipping container and computing systems mounted within the
-&nbsp; &nbsp;&nbsp; container and configured to be shipped and operated within the container
-&nbsp; &nbsp;&nbsp; and a temperature control system for maintaining the air temperature
-&nbsp; &nbsp;&nbsp; surrounding the computing systems. The intermodal shipping container may
-&nbsp; &nbsp;&nbsp; be configured in accordance to International Organization for
-&nbsp; &nbsp;&nbsp; Standardization (ISO) container manufacturing standards or otherwise
-&nbsp; &nbsp;&nbsp; configured with respect to height, length, width, weight, and/or lifting
-&nbsp; &nbsp;&nbsp; points of the container for transport via an intermodal transport
-&nbsp; &nbsp;&nbsp; infrastructure. The modular design enables the modules to be cost
-&nbsp; &nbsp;&nbsp; effectively built at a factory and easily transported to and deployed at
-&nbsp; &nbsp;&nbsp; a data center site.
-</p></blockquote><p><a href="http://www.sun.com/products/sunmd/s20/perspectives.jsp">Sun built something called Project Black Box, now called the Sun Modular Datacenter; </a>they are selling it to organizations that have maxed out their existing data centers or who need on site computing before the rest of a facility under construction is built.&nbsp; It specs out at 3 petabytes per 20 foot container.</p>
-
-<p><a href="http://www.rackable.com/products/icecube.aspx">Rackable Systems has the ICECube, at 7.1 petabytes per 40 foot container:</a></p><blockquote><p>Rackable Systems’ award-winning ICE Cube™ data center solution delivers 
-extreme server and storage density in a self-contained, fully portable 20’ 
-or 40’ container. Its advanced cooling design dramatically cuts ongoing 
-operational expenses as does its easy serviceability. First deployed in March, 
-2007, the latest generation ICE Cube more than doubles the maximum density to 
-2800 independent servers per container—for up to 22,400 cores in a 40' x 
-8' container. For storage-focused deployments, the ICE Cube is capable of housing 
-up to 7.1 Petabytes of data. Designed to augment or replace traditional brick-and-mortar 
-data centers of any size, these high densities are achieved while offering a broader 
-choice of container sizes and configurability of Rackable Systems’ Eco-Logical™ 
-servers and storage.</p></blockquote><p>The best researchy piece I found on this is from <a href="http://www.datacenterknowledge.com/archives/2008/01/11/microsoft-confirms-data-center-in-a-box/">Chuck Thacker of Microsoft Research, via a piece in Data Center Knowledge in January 2008 </a></p><blockquote><p>In October Thacker gave a presentation at the Stanford Networking Seminar titled “Rethinking Data Centers” (available in <a href="http://netseminar.stanford.edu/seminars/10_25_07.ppt">PowerPoint</a>)
-that examined various approaches to “data center in a box” approach to
-portable data centers. Thacker’s slides describe an approach using
-40-foot containerized data centers packed with 32 energy-efficient
-racks, each filled with 40 1U servers. Using 64 of those containers
-would result in a data center facility filled with 82,000 servers and
-using 16 megawatts of power.</p></blockquote><p>The <a href="http://netseminar.stanford.edu/">Stanford Networking Seminar </a>schedule shows a bunch of interesting talks, some with slides, almost all with speaker bios, recommended.&nbsp; Here's the description of this talk:</p>
-
-<blockquote><p>
-Microsoft builds several data centers each year, with each center containing in excess of fifty thousand servers.&nbsp; This is 
-quite expensive, and we'd like to reduce the capital and operating expenses for these centers.</p>
-
-<p>
-This talk suggests that an effective way to do this is to treat the data center as a system, rather than focusing on the 
-individual components such as networking and servers.&nbsp; I'll describe one way this could work, with a particular focus on the 
-networking infrastructure. </p></blockquote>
-
-<p>Stor</p>
-
-
   <h3>24 September 2008</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2008/2008-09-24-financial-panic/">Financial panic, name the year</a>
@@ -5810,6 +5752,29 @@ this thing will ever wear out.&quot;</p>
 <h3>other discussions on the net</h3>
 
 <p><a href="http://whereistand.com/Opinions/22847">Where I Stand</a> thread on "Should plastic grocery bags be banned"</p>
+
+
+  <h3>30 July 2008</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2008/2008-07-30-management-metr/">management metrics: &#34;queue depth days&#34;</a>
+      </h3>
+      <p>In the manage by numbers world...</p>
+
+<p>One useful measure that people take on (or have forced upon them) is management of work in progress.  At every step along the way in a multi-step effort, you have something not quite done, and a level of continuous improvement involves managing and monitoring that inventory of partly done work.</p>
+
+<p>If, for instance, you were looking at an inbox, you'd measure the integral of the depth of the unanswered mail queue, so that productivity is in a sum of outstanding work measured over time.   End the day with 100 unanswered messages 100 days in a row, and your queue-depth-day is 10000 (eek).</p>
+
+<p>There are of course three ways to attack this problem (at least, but bear with me)</p>
+
+<p>1.  Reduce the size of the current queue, so that there's less to deal with right now;<br />
+2.  Reduce the influx into the queue, so that there's less to deal with every day;<br />
+3.  Increase the speed at which things are removed from the queue, so they don't stay so long.</p>
+
+<p>The inbox zero mantra pulls from all of these, but you really need to understand the impact of all three to attack this.  One time heroic measures to empty the inbox are necessary, because you can't create a bunch of lasting improvement if there's a big overhang of undone work nagging at you.  Slowing down flows inbound helps reduce the rate of queue depth growth, but doesn't clear the queue.  And working faster to acknowledge email just creates more email!</p>
+
+<p>Classic solutions to this whole system is to move communications out of queued systems into either real time systems (IM, chat, voice) or into asynchronous multiplayer games (blogs, wikis).  The hard core communications people completely shut down their email system and go entirely to the other extremes; the other hard core communications people treat their email inbox AS IF IT WERE IM and always answer and file everything instantly.</p>
+
+<p>The queue depth could be anything, really; it could be outstanding phone calls to make, emails to answer, people standing in line in your retail operation, customers waiting impatiently for a call back to solve their time critical problem, or forms needing to be filled out.  Just know that in any system where you can get stuff coming in faster than you can get rid of it queues will form, and at worst they back up to the point where other people can see that you're not on top of everything.</p>
 
 
 
