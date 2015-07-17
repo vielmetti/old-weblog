@@ -34,12 +34,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/sidebar/todo/</guid>
-      <description>&lt;p&gt;Things yet to do in this weblog setup:&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;things-yet-to-do-in-this-weblog-setup:5b51c9e8380c18fc2ee8d866662d01d8&#34;&gt;Things yet to do in this weblog setup:&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Short codes for easy linking to localwiki&lt;/li&gt;
-&lt;li&gt;Nicely thought through category and taxonomy pages&lt;/li&gt;
-&lt;li&gt;A whole &amp;ldquo;Ann Arbor&amp;rdquo; section, because there&amp;rsquo;s so much of that&lt;/li&gt;
+&lt;li&gt;Short codes for easy linking. First pass complete but no-op,
+next phase will do the markup too.&lt;/li&gt;
+&lt;li&gt;Nicely thought through category and taxonomy pages. They
+have stubs now, but they need design.&lt;/li&gt;
+&lt;li&gt;A whole &amp;ldquo;Ann Arbor&amp;rdquo; section, because there&amp;rsquo;s so much of that,
+and it should integrate with Arborwiki&lt;/li&gt;
+&lt;li&gt;Links from books to their corresponding URLs and ISBNs etc&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
