@@ -10,61 +10,187 @@
     <atom:link href="http://vielmetti.github.io/cities/marquette-michigan/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Obituary: Dr. Lewis Ernest Peters (April 10, 1932 - March 4, 2015)</title>
-      <link>http://vielmetti.github.io/post/2015/2015-03-04-obituary-dr-lewis-ernest-peters-april-10-1932-march-4-2015/</link>
-      <pubDate>Wed, 04 Mar 2015 20:19:04 -0400</pubDate>
+      <title>Building a Marquette Localwiki</title>
+      <link>http://vielmetti.github.io/post/2014/2014-08-28-building-a-marquette-localwiki/</link>
+      <pubDate>Thu, 28 Aug 2014 21:09:20 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2015/2015-03-04-obituary-dr-lewis-ernest-peters-april-10-1932-march-4-2015/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07fd7066970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07fd7066970d img-responsive&#34; alt=&#34;Doc&#34; title=&#34;Doc&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07fd7066970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;Dr. Lewis Ernest Peters, 82, of Marquette, died peacefully Wednesday morning, March 4, 2015, at Brookridge Heights Memory Care while under the care of Lake Superior Hospice.&lt;/p&gt;
+      <guid>http://vielmetti.github.io/post/2014/2014-08-28-building-a-marquette-localwiki/</guid>
+      <description>&lt;p&gt;I visit Marquette Michigan every summer to see family and catch up with friends and visit the place I went to high school. Every so often there&#39;s a reunion, but often it&#39;s just a matter of going back to the home town and figuring out what&#39;s up and what&#39;s what.&lt;/p&gt;
 
-&lt;p&gt;He was born April 10, 1932, in Evanston, Illinois, a son of the late Lewis Ernest and Evelyn (Tehle) Peters. Lew married Katherine Kay Vielmetti in 1980 at the Marygrove Retreat Center in Garden, Michigan. He joined the faculty of the Biology Department at Northern Michigan University in 1961. During his tenure, Lew served as department head from 1971 to 1975, taught Anatomy, Physiology and Parasitology, and in 1980 received a contract from the National Park Service to study parasites at Isle Royale. He retired in 1996 after 35 years. &lt;/p&gt;
+&lt;p&gt;Since I&#39;ve been working on Arborwiki for the better part of eight years, I thought last year that I&#39;d give a try to make a &lt;a href=&#34;http://localwiki.net/marquettemi&#34;&gt;Localwiki for Marquette&lt;/a&gt;. Technologically it was easy to do - Localwiki makes adding new regions easy - but practically it&#39;s got some challenges. Here are notes on what it means to look at Localwiki for a rural area.&lt;/p&gt;
 
-&lt;p&gt;Lew was a member of St. Michael Catholic Church and Marquette Rotary Club. He is survived by his wife, Kathy Peters of Marquette; children, Raymond (Velquis) Peters of Indianapolis, IN, Matthew (Elizabeth) Peters of Austin, TX, Dan (Jennifer) Peters of Tallahassee, FL, Edward (Deborah Fisch) Vielmetti of Ann Arbor, MI, Stephen (Paula) Vielmetti of Milwaukee, WI and Anne (Douglas) Moody of Vancouver, WA; grandchildren, Nicolette &amp;amp; Elizabeth Peters, Zack and Ava Peters, Garrett, Bryson &amp;amp; Reese Peters, Saul and Jonathan Vielmetti, Marshall, Nathan, Sophia and Zevon Vielmetti, Graham and Spencer Moody; sister, Robyn (David) Messner of Jensen Beach, FL; numerous nieces &amp;amp; nephews; and special family friend&#39;s, Tim Glover and his family. He was preceded in death by his parents, first wife, Oneita &#34;Beth&#34; Peters and a brother, Edward Peters.&lt;/p&gt;
+&lt;p&gt;The first most obvious thing to note is that there often are places and locations that don&#39;t have a currently updated home page. If you want to document the area, you have to attach a lot of things to its history, and the places like closed mines, abandoned railroads, long-gone restaurants, shuttered gas stations, and the like have to be created from scratch and not simply replicated from existing content. This is typical of the history portion of any Localwiki effort, in that local histories of otherwise not notable enough for Wikipedia things demand a combination of original research and local knowledge. The page I started for the &lt;a href=&#34;http://localwiki.net/marquettemi/Red_Road&#34;&gt;Red Road&lt;/a&gt; is one example of this.&lt;/p&gt;
 
-&lt;p&gt;Lew&#39;s family would like to thank the staff of Brookridge Heights and Lake Superior Hospice for the wonderful care they provided. &lt;/p&gt;
+&lt;p&gt;When you&#39;re doing a map of areas that are relatively rural, you find that the default street map used by Localwiki isn&#39;t that interesting. As much as I know it&#39;s difficult to do, I wish the system had easier ways of integrating other map sources into the effort. Street maps are really the wrong tool when you&#39;re looking at areas that are mostly woods; you&#39;d like a topo map, maybe, and a plat map that showed land ownership, and a geological surface map that gave some hint what the land looked like and a forest map that showed which lands were in commercial forest. None of these are likely to show up in Google Maps any time soon.&lt;/p&gt;
 
-&lt;p&gt;A memorial service will be held on Monday, March 9, 2015 at 3:00 p.m. at the Canale-Tonella Funeral Home with Deacon David Adler officiating. Visitation will be held from 1:00 p.m. until the time of the service in the funeral home. Inurnment will take place at Park Cemetery. In lieu of flowers, memorials can be directed to the Biology Department at NMU in care of the NMU Foundation or the Lake Superior Land Conservancy.&lt;/p&gt;
+&lt;p&gt;Trails and non-motorized pathways are a big opportunity for Localwiki. My mom is working on a project for signage for the &lt;a href=&#34;http://localwiki.net/marquettemi/Iron_Ore_Heritage_Trail&#34;&gt;Iron Ore Heritage Trail&lt;/a&gt;, and I&#39;ve put the bug in her ear that it might be interesting to cross-link somehow the interpretive signs on the trail with the corresponding Localwiki pages. Even getting good photography and mapping of trail heads would be a big enough project that I can imagine spending a week scouting out locations and not being done.&lt;/p&gt;
 
-&lt;p&gt;The Canale-Tonella Funeral Home is assisting the family where memories may be shared at canalefuneral.com&lt;/p&gt;
+&lt;p&gt;There&#39;s a concern at the Wikipedia project that linking to Localwiki pages is somehow dicey because of advertising on Localwiki, or perhaps because not enough people on Wikipedia are familiar enough with Localwiki to know what to expect when they see a page. As a contrast, there are also concerns on a Facebook group I follow about &#34;wikishit&#34; when people see a years-old &lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Marquette_Monster&amp;amp;oldid=622698099&#34;&gt;Marquette Monster&lt;/a&gt; page that was completely fabricated.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll look for more ways to get more reliable information into the Marquette Localwiki. I&#39;m particularly happy with the start that the &lt;a href=&#34;http://localwiki.net/marquettemi/Gazetteer&#34;&gt;Gazetteer&lt;/a&gt; page has for listing location, and there&#39;s some long amount of work to give the &lt;a href=&#34;http://localwiki.net/marquettemi/Mines&#34;&gt;Mines&lt;/a&gt; page its due to document the mining history of the area. I&#39;m not sure the system has a single goal, but I&#39;m always happy when other people pick up on it, add their piece, and make it useful to themselves.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Olivetti Programma 101</title>
-      <link>http://vielmetti.github.io/post/2015/2015-01-03-olivetti-programma-101/</link>
-      <pubDate>Sat, 03 Jan 2015 22:47:55 -0400</pubDate>
+      <title>Dutch baby apple pancake; and a March 2009 maple report from the UP</title>
+      <link>http://vielmetti.github.io/post/2009/2009-03-18-here-is-the-penzeys-apple-pancake-recipea-morph-from-the-dutch-baby----14-cup-butter--34-cup-all-purpose-flour--34-cup/</link>
+      <pubDate>Wed, 18 Mar 2009 08:06:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2015/2015-01-03-olivetti-programma-101/</guid>
-      <description>&lt;p&gt;
-&lt;figure &gt;
+      <guid>http://vielmetti.github.io/post/2009/2009-03-18-here-is-the-penzeys-apple-pancake-recipea-morph-from-the-dutch-baby----14-cup-butter--34-cup-all-purpose-flour--34-cup/</guid>
+      <description>&lt;p&gt;&lt;p&gt;Here is the Penzey&amp;#39;s Apple Pancake recipe&amp;hellip;a morph from the Dutch Baby.
+&lt;/p&gt;&lt;div&gt;&amp;#0160;&lt;/div&gt;
+&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; cup butter&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;wbr /&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/div&gt;
+&lt;div&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; cup all-purpose flour&lt;/div&gt;
+&lt;div&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; cup milk &lt;/div&gt;
+&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; tsp salt&lt;/div&gt;
+&lt;div&gt;2 medium baking apples, peeled and thinly sliced&amp;#0160; (I used Braeburn apples)&lt;/div&gt;
+&lt;div&gt;3 Tbs sugar&lt;/div&gt;
+&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; tsp ceylon cinnamon&lt;/div&gt;
+&lt;div&gt;&amp;#0160;&lt;/div&gt;
+&lt;div&gt;Preheat oven to 400.&amp;#0160; divide butter between two 9&amp;quot; pie plates and
+put them in the oven to melt the butter.&amp;#0160; Rotate to be sure that butter
+covers bottom and&amp;#0160; sides of pans.&amp;#0160; Use a 4 cup measuring cup as a
+mixing bowl (makes it easy to divide the batter).&amp;#0160; Beat eggs, flour,
+milk and salt on medium speed for 1 minute.&amp;#0160; Divide the apple slices
+between the pans and pour &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; of the egg mixture over each pan.&amp;#0160; Mix
+the cinnamin and sugar and sprinkle over the batter.&amp;#0160; Bake until puffed
+and folden brown&amp;#0160; 20-25 minutes.&amp;#0160; Serve right away, while still puffy,
+with warm syrup.&amp;#0160; &lt;/div&gt;&lt;/p&gt;
+
+&lt;div&gt;&amp;#0160;&lt;/div&gt;
+&lt;div&gt;Serves 4-6&amp;#0160;&amp;#0160; Prep time 10 minutes, baking time&amp;#0160; 20-25 minutes. &lt;br /&gt;&lt;br /&gt;and the report from up north from March 18, 2009:&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&amp;#0160;&lt;/div&gt;
+&lt;div&gt;Over the weekend we put 28 taps in our maple sugar trees.&amp;#0160;&amp;#0160; We
+collected 8 gallons the first day but the next two nights were not
+below freezing.&amp;#0160; We have only 17 gallons so far.&amp;#0160; It was cold last
+night so the sap should run today.&amp;#0160; Snowshoes are very necessary as the
+&lt;span class=&#34;il&#34;&gt;snow&lt;/span&gt; is &amp;quot;punky&amp;quot;.&amp;#0160; Even with snowshoes we
+sometimes break through the crust and one leg goes down 1 foot...makes
+for slow going.&amp;#0160; Hopefully we have a good wide track packed now.&amp;#0160; &lt;/div&gt;
+</description>
+    </item>
     
-        &lt;img src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07d19a72970d-600wi&#34; /&gt;
+    <item>
+      <title>For 906 day, some photos of Marquette, MI from Shorpy</title>
+      <link>http://vielmetti.github.io/post/2012/2012-09-06-for-906-day-some-photos-of-marquette-mi-from-shorpy/</link>
+      <pubDate>Thu, 06 Sep 2012 14:16:11 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-09-06-for-906-day-some-photos-of-marquette-mi-from-shorpy/</guid>
+      <description>&lt;p&gt;906 day (September 6) celebrates the area code of the Upper Peninsula of Michigan. First I&amp;#39;ve heard of this holiday, but I heartily approve.&lt;/p&gt;
+&lt;p&gt;In honor of this day a couple of nice photos of Marquette, MI came via Shorpy. The photos of the &lt;a href=&#34;http://www.shorpy.com/node/12492&#34; target=&#34;_self&#34;&gt;harbor and ore docks&lt;/a&gt;, &lt;a href=&#34;http://www.shorpy.com/node/12489&#34; target=&#34;_self&#34;&gt;Front Street&lt;/a&gt;, and a &lt;a href=&#34;http://www.shorpy.com/node/12493&#34; target=&#34;_self&#34;&gt;panorama of downtown Marquette&lt;/a&gt;&amp;#0160;date from 1908 and 1909 and are from glass negatives from the Detroit Publishing Company.&lt;/p&gt;
+&lt;p&gt;A detail below shows the Hotel Janzen, with a train&amp;#39;s smoke just to the left of it and a piece of City Hall at the far left.&lt;/p&gt;
+&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0177448e124d970d-pi&#34;&gt;&lt;img alt=&#34;Picture 21&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0177448e124d970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0177448e124d970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 21&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
-    
-&lt;/figure&gt;
+    <item>
+      <title>Iron money: economic isolation on the Upper Peninsula frontier</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-21-iron-money-upper-peninsula/</link>
+      <pubDate>Fri, 21 Jun 2013 14:04:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-21-iron-money-upper-peninsula/</guid>
+      <description>&lt;p&gt;These are fragmentary notes - and a few links - regarding the introduction of &amp;quot;iron money&amp;quot; into the economy of Marquette County, Michigan, and the controversy surrounding it leading up to the 1876 Presidential election.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Panic of 1857.&lt;/p&gt;
+&lt;p&gt;Panic of 1873.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Newspaper accounts&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The New York Times was in 1876 a Republican newspaper, and did not have the reputation it maintains today as a &amp;quot;newspaper of record&amp;quot;.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=F60C12FE3E5B137B93CBA8178CD85F428784F9&#34; target=&#34;_self&#34;&gt;Tilden&amp;#39;s Iron Currency&lt;/a&gt;, New York Times, July 19, 1876&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=FA081EFD395E137B93C1AB1783D85F428784F9&#34; target=&#34;_self&#34;&gt;A Swindler of Labor&lt;/a&gt;, New York Times, August 23, 1876&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=F0061EFF3E5B137B93C1A9178BD95F428784F9&#34; target=&#34;_self&#34;&gt;The Sham Reformer&lt;/a&gt;. New York Times, October 3, 1876&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/gst/abstract.html?res=F70616FC3E5B137B93C6A9178BD95F428784F9&#34; target=&#34;_self&#34;&gt;Tilden and the Iron Money&lt;/a&gt;, &amp;quot;Red Specular&amp;quot;, New York Times, October 4, 1876&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=FB0A15FC3E5B137B93C7A9178BD95F428784F9&#34; target=&#34;_self&#34;&gt;The Tilden Iron Money Question&lt;/a&gt;, &amp;quot;Red Specular&amp;quot;, New York Times, October 5, 1876&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=F40812F7345B127B93CBA8178BD95F428784F9&#34; target=&#34;_self&#34;&gt;Tilden&amp;#39;s Sharp Tricks&lt;/a&gt;, New York Times, October 19, 1876&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Magazine articles&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.questia.com/library/1G1-166849379/the-legacy-of-peter-white&#34; target=&#34;_self&#34;&gt;The Legacy of Peter White&lt;/a&gt;, George Merk,&amp;#0160;&lt;em&gt;Michigan History Magazine&lt;/em&gt;, Vol. 83, No. 3.&amp;#0160;&amp;#0160;May-June 1999&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.questia.com/library/1G1-163098143/iron-money&#34; target=&#34;_self&#34;&gt;Iron Money&lt;/a&gt;, William van Kosky, Michigan History Magazine v90 n2, March-April 2006
 &lt;/p&gt;
-
-&lt;p&gt;The first computer that I ever had all to myself was the Olivetti Programma 101. This was a 1965-era Italian machine that was just a little more than a programmable calculator. It used flexible magnetic cards for program storage, discrete logic for all of its computing functions, delay line memory (240 bytes), and it all sat in a 65 pound package. Output was on a humming little printer built into the machine.&lt;/p&gt;
-
-&lt;p&gt;Graveraet Middle School in Marquette had one of these, presumably discarded from its use in the school administration. By 1977 the machine was so completely obsolete that it sat idle, with no one knowing how it worked. I got plenty of time to spend with the system, and frankly I never really figured it out either. It was easy enough to use it as an adding and multiplying and dividing machine, but the mysteries of its program logic escaped me.&lt;/p&gt;
-
-&lt;p&gt;There are several folks who have active projects to restore the old system, including a project at the DataMuseum in Denmark. &lt;a href=&#34;http://datamuseum.dk/wiki/Olivetti/Programma_101/Revive&#34;&gt;See their efforts here.&lt;/a&gt; There are quite a lot of mechanical parts in this old machine, including a set of 8 pulleys that drove the various bits of the card reader and the printer. Rubber rollers of course get old and decayed with time so every account of a restoration has some discussion of that repair.&lt;/p&gt;
-
-&lt;p&gt;The photo at the top is from Michigan Tech, written by James D. Spain, who outlines the use of the Programma 101 &lt;a href=&#34;http://blogs.mtu.edu/biological/2012/03/origins-of-the-computer-simulation-program-in-biology-at-michigan-tech/&#34;&gt;in the biology program at Tech in 1969.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is a video, &amp;ldquo;Quando Olivetti inventò il PC&amp;rdquo;, with a history showing the machine in action.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;800&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/oYB2oBc1BpA?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Books&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.com/books?id=8mxTeVYKzMUC&#34; target=&#34;_self&#34;&gt;The Honorable Peter White&lt;/a&gt;, Ralph Williams, 1907&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/Fraud-Century-Rutherford-Samuel-Election/dp/0743255526&#34; target=&#34;_self&#34;&gt;Fraud of the Century: Rutherford B. Hayes, Samuel Tilden, and the Stolen Election of 1876&lt;/a&gt;, Roy Morris Jr., 2004&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://books.google.com/books?id=GoXNi5gkTOgC&#34; target=&#34;_self&#34;&gt;Iron Will: Cleveland-Cliffs and the Mining of Iron Ore, 1847-2006&lt;/a&gt;, Reynolds and Dawson, 2011&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Archives&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://quod.lib.umich.edu/b/bhlead/umich-bhl-86396?rgn=main;view=text&#34; target=&#34;_self&#34;&gt;Peter White papers&lt;/a&gt;, Bentley Historical Library, Ann Arbor MI&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Snowshoe race bridge</title>
-      <link>http://vielmetti.github.io/post/2014/2014-10-26-snowshoe-race-bridge/</link>
-      <pubDate>Sun, 26 Oct 2014 08:40:57 +0000</pubDate>
+      <title>Joy Yuill (1932-2008)</title>
+      <link>http://vielmetti.github.io/post/2008/2008-05-07-joy-yuill-1932/</link>
+      <pubDate>Wed, 07 May 2008 12:27:36 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2014/2014-10-26-snowshoe-race-bridge/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d084a268970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d084a268970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Showshoe-race-bridge&#34; title=&#34;Showshoe-race-bridge&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d084a268970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+      <guid>http://vielmetti.github.io/post/2008/2008-05-07-joy-yuill-1932/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.miningjournal.net/page/content.detail/id/508946.html?nav=5007&#34;&gt;as printed in the Marquette Mining Journal, April 22 2008&lt;/a&gt;.  Joy and Baldy were neighbors of ours in Marquette.&lt;/p&gt;
+
+&lt;p&gt;REPUBLIC — Joy Elizabeth Yuill, 75, of 11676 River Road, Republic, and former Marquette resident, entered eternal life Tuesday afternoon, April 15, 2008, at her home in the loving care of her family and the caregivers of Upper Peninsula Home Health &amp; Hospice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Born September 11, 1932, in Gaylord, the daughter of Stanley and Dorothy (Siegel) Yuill, Joy was raised in Vanderbilt and graduated from the Gaylord High School in 1949. She attended Hillsdale College for a year before transferring to Grinnell College in Grinnell, Iowa, where she received a bachelor of science degree in education in 1953. Joy taught in Detroit, while also taking classes at Wayne State University, which led to her receiving her master’s degree in special education in 1956, with special emphasis on blind and partially sighted clients. In 1957, Joy moved to Marquette, traveling extensively throughout the Upper Peninsula to serve sight-impaired students. In 1971, Joy received a nursing degree from Northern Michigan University, working at Marquette General Hospital mostly on weekends. She retired from her nursing career in 2000. For over 17 years, Joy worked summers at Bay Cliff Health Camp in Big Bay as a special education teacher and swimming instructor. She retired from this position in 2005 and then assisted with adult campers for one week each year. 1972 was to produce yet another degree for Joy, this time a master’s degree in music from Wayne State. Joy continued teaching full time until 2002 and thereafter taught on a part-time basis for the next two years. When not in the classroom, Joy was the piano accompanist for the Marquette Male Chorus for many years. She also assisted many students with their solo and ensemble pieces at the Negaunee and Westwood high schools for over 20 years. Known locally for her beautiful renditions on the harp, Joy was a participant in many concerts and musical programs over the years. She was a member of the United Presbyterian Church in Ishpeming. In June 1963, Joy married Vincent “Baldy” Bur, and he preceded her in death in 1999. Joy and Baldy were great animal lovers and took in all sorts of stray and unwanted animals over the years. In her leisure, she enjoyed baking bread, knitting, sewing, gardening, and being involved in anything musical.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Joy is survived by her brother, Robert “Beezle” Yuill of Harvey; a brother-in-law, Leonard Bur of Marquette; sister-in-law, Amelia Kent of North Little Rock, Ark.; her niece, Martha Yuill of St. Paul, Minn.; and a nephew, Stephen Yuill of Ishpeming. In addition to her parents and husband, Joy was preceded in death by sisters-in-law, Christine Yuill and Verna Bur; and a nephew, Michael Bur. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The family will receive relatives and friends at the United Presbyterian Church in Ishpeming on Saturday, May 10, beginning at 1 p.m. A memorial service will follow at 2 p.m. Saturday with the Rev. James Robb officiating. Memorials may be directed to the Marquette County Humane Society, 84 Snowfield Road, Negaunee, MI 49866; or to the United Presbyterian Church, 112 E. Euclid St., Ishpeming, MI 49849.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The Fassbender Funeral Home is serving the family, where condolences may be expressed online at &lt;a href=&#34;http://www.fassbenderfuneralhome.com&#34;&gt;www.fassbenderfuneralhome.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Marquette Alternative High School photo calendar for 2013</title>
+      <link>http://vielmetti.github.io/post/2012/2012-12-17-marquette-alternative-high-school-photo-calendar-for-2013/</link>
+      <pubDate>Mon, 17 Dec 2012 16:44:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-12-17-marquette-alternative-high-school-photo-calendar-for-2013/</guid>
+      <description>&lt;p&gt;
+&lt;a class=&#34;asset-img-link&#34; href=&#34;http://marquette.revtrak.net/img/products/Thumbnaillarge.jpg&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;image from marquette.revtrak.net&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017d3ee5d119970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d3ee5d119970c-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;image from marquette.revtrak.net&#34; /&gt;&lt;/a&gt;Students and teachers from the photography class at Marquette Alternative High School (MAHS) create a calendar each year. The project showcases their work and funds a field trip for the students. This year&amp;#39;s 2013 calendar features pictures of Marquette, the &lt;a href=&#34;http://www.originalbutterflyhouse.com/&#34; target=&#34;_self&#34;&gt;butterfly house on Mackinac Island&lt;/a&gt;, and the &lt;a href=&#34;http://en.wikipedia.org/wiki/DeYoung_Family_Zoo&#34; target=&#34;_self&#34;&gt;DeYoung Family Zoo&lt;/a&gt; in Wallace. The cost is $20 and it&amp;#39;s available &lt;a href=&#34;http://marquette.revtrak.net/tek9.asp?pg=products&amp;amp;specific=jnkqnoo0&#34; target=&#34;_self&#34;&gt;for sale online&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Proceeds from the sale of the calendar go to photo equipment and to a photo field trip - the butterfly museum photos are from last year&amp;#39;s trip.&lt;/p&gt;
+&lt;p&gt;I asked Cindy DePetro from MAHS about the calendar and the responses they&amp;#39;ve gotten from it. She writes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We continue to get praised over the quality of the photos, but our biggest praise is that most people feel like they receive a little piece of home when they see our calendars. We get many repeat customers, and our calendars travel all over the world. Thus far, we know they are being sent to Iraq, Afghanistan, Germany and China.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tis the season!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My career in food service</title>
+      <link>http://vielmetti.github.io/post/2011/2011-02-27-my-career-in-food-service/</link>
+      <pubDate>Sun, 27 Feb 2011 14:24:07 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-02-27-my-career-in-food-service/</guid>
+      <description>&lt;p&gt;As published in the Association for Computing Machinery&#39;s &lt;a href=&#34;http://catless.ncl.ac.uk/risks/4.30.html#subj7&#34; target=&#34;_self&#34;&gt;Risks Digest, v4 n30, 1986&lt;/a&gt;:&lt;/p&gt;
+&lt;h3&gt;&lt;a id=&#34;subj7.1&#34; name=&#34;subj7.1&#34; href=&#34;http://catless.ncl.ac.uk/risks/4.30.html#subj7.1&#34; target=&#34;_self&#34;&gt;&lt;img src=&#34;http://catless.ncl.ac.uk/Images/Misc/flash.gif&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;14&#34; height=&#34;14&#34; /&gt;&lt;/a&gt;&amp;nbsp;Fast-Food Computing&lt;/h3&gt;
+&lt;address&gt;&amp;lt;Edward_Vielmetti@um.cc.umich.edu&amp;gt;&lt;/address&gt;
+&lt;p&gt;&lt;em&gt;Tue, 16 Dec 86 16:15:04 EST&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;I must have been in the cycle early for McDonald&#39;s 
+fast-food intelligent man-machine systems, according to 
+Guthery&#39;s law:
+   &amp;gt;     In an evolving man-machine system, the man will get
+   &amp;gt;     dumber faster than the machine gets smarter.
+
+McDonald&#39;s fast food computers (i.e., cash registers) 
+collect all sorts of data on the individual employee at 
+the counter and on all counter sales as a whole.  They also 
+do not have a &amp;lt;no sale&amp;gt; key that opens up the cash
+register, probably to prevent theft.  That made it real hard to fix a
+mistake without calling a manager to get a key to open the drawer.
+
+Solution?  Well, the people I worked with at McD&#39;s had been 
+around thesystem long enough to figure out how to get around 
+it.  Without getting into too many details of why things were 
+as they were, the easiest way to open the drawer without a 
+manager was to ring up a sale that gave away a 
+tub of barbecue sauce for McNuggets and nothing else.  
+   (Hit &amp;lt;promo&amp;gt; &amp;lt;barbecue&amp;gt; &amp;lt;promo&amp;gt; &amp;lt;total&amp;gt; .)
+Of course, that messed up the daily statistics some.
+
+Edward Vielmetti, Ex-McDonalds employee, Computing Center 
+Microgroup, U. Mich.&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
     </item>
     
@@ -127,24 +253,109 @@
     </item>
     
     <item>
-      <title>Building a Marquette Localwiki</title>
-      <link>http://vielmetti.github.io/post/2014/2014-08-28-building-a-marquette-localwiki/</link>
-      <pubDate>Thu, 28 Aug 2014 21:09:20 +0000</pubDate>
+      <title>Obituary: Dr. Lewis Ernest Peters (April 10, 1932 - March 4, 2015)</title>
+      <link>http://vielmetti.github.io/post/2015/2015-03-04-obituary-dr-lewis-ernest-peters-april-10-1932-march-4-2015/</link>
+      <pubDate>Wed, 04 Mar 2015 20:19:04 -0400</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2014/2014-08-28-building-a-marquette-localwiki/</guid>
-      <description>&lt;p&gt;I visit Marquette Michigan every summer to see family and catch up with friends and visit the place I went to high school. Every so often there&#39;s a reunion, but often it&#39;s just a matter of going back to the home town and figuring out what&#39;s up and what&#39;s what.&lt;/p&gt;
+      <guid>http://vielmetti.github.io/post/2015/2015-03-04-obituary-dr-lewis-ernest-peters-april-10-1932-march-4-2015/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07fd7066970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07fd7066970d img-responsive&#34; alt=&#34;Doc&#34; title=&#34;Doc&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07fd7066970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;Dr. Lewis Ernest Peters, 82, of Marquette, died peacefully Wednesday morning, March 4, 2015, at Brookridge Heights Memory Care while under the care of Lake Superior Hospice.&lt;/p&gt;
 
-&lt;p&gt;Since I&#39;ve been working on Arborwiki for the better part of eight years, I thought last year that I&#39;d give a try to make a &lt;a href=&#34;http://localwiki.net/marquettemi&#34;&gt;Localwiki for Marquette&lt;/a&gt;. Technologically it was easy to do - Localwiki makes adding new regions easy - but practically it&#39;s got some challenges. Here are notes on what it means to look at Localwiki for a rural area.&lt;/p&gt;
+&lt;p&gt;He was born April 10, 1932, in Evanston, Illinois, a son of the late Lewis Ernest and Evelyn (Tehle) Peters. Lew married Katherine Kay Vielmetti in 1980 at the Marygrove Retreat Center in Garden, Michigan. He joined the faculty of the Biology Department at Northern Michigan University in 1961. During his tenure, Lew served as department head from 1971 to 1975, taught Anatomy, Physiology and Parasitology, and in 1980 received a contract from the National Park Service to study parasites at Isle Royale. He retired in 1996 after 35 years. &lt;/p&gt;
 
-&lt;p&gt;The first most obvious thing to note is that there often are places and locations that don&#39;t have a currently updated home page. If you want to document the area, you have to attach a lot of things to its history, and the places like closed mines, abandoned railroads, long-gone restaurants, shuttered gas stations, and the like have to be created from scratch and not simply replicated from existing content. This is typical of the history portion of any Localwiki effort, in that local histories of otherwise not notable enough for Wikipedia things demand a combination of original research and local knowledge. The page I started for the &lt;a href=&#34;http://localwiki.net/marquettemi/Red_Road&#34;&gt;Red Road&lt;/a&gt; is one example of this.&lt;/p&gt;
+&lt;p&gt;Lew was a member of St. Michael Catholic Church and Marquette Rotary Club. He is survived by his wife, Kathy Peters of Marquette; children, Raymond (Velquis) Peters of Indianapolis, IN, Matthew (Elizabeth) Peters of Austin, TX, Dan (Jennifer) Peters of Tallahassee, FL, Edward (Deborah Fisch) Vielmetti of Ann Arbor, MI, Stephen (Paula) Vielmetti of Milwaukee, WI and Anne (Douglas) Moody of Vancouver, WA; grandchildren, Nicolette &amp;amp; Elizabeth Peters, Zack and Ava Peters, Garrett, Bryson &amp;amp; Reese Peters, Saul and Jonathan Vielmetti, Marshall, Nathan, Sophia and Zevon Vielmetti, Graham and Spencer Moody; sister, Robyn (David) Messner of Jensen Beach, FL; numerous nieces &amp;amp; nephews; and special family friend&#39;s, Tim Glover and his family. He was preceded in death by his parents, first wife, Oneita &#34;Beth&#34; Peters and a brother, Edward Peters.&lt;/p&gt;
 
-&lt;p&gt;When you&#39;re doing a map of areas that are relatively rural, you find that the default street map used by Localwiki isn&#39;t that interesting. As much as I know it&#39;s difficult to do, I wish the system had easier ways of integrating other map sources into the effort. Street maps are really the wrong tool when you&#39;re looking at areas that are mostly woods; you&#39;d like a topo map, maybe, and a plat map that showed land ownership, and a geological surface map that gave some hint what the land looked like and a forest map that showed which lands were in commercial forest. None of these are likely to show up in Google Maps any time soon.&lt;/p&gt;
+&lt;p&gt;Lew&#39;s family would like to thank the staff of Brookridge Heights and Lake Superior Hospice for the wonderful care they provided. &lt;/p&gt;
 
-&lt;p&gt;Trails and non-motorized pathways are a big opportunity for Localwiki. My mom is working on a project for signage for the &lt;a href=&#34;http://localwiki.net/marquettemi/Iron_Ore_Heritage_Trail&#34;&gt;Iron Ore Heritage Trail&lt;/a&gt;, and I&#39;ve put the bug in her ear that it might be interesting to cross-link somehow the interpretive signs on the trail with the corresponding Localwiki pages. Even getting good photography and mapping of trail heads would be a big enough project that I can imagine spending a week scouting out locations and not being done.&lt;/p&gt;
+&lt;p&gt;A memorial service will be held on Monday, March 9, 2015 at 3:00 p.m. at the Canale-Tonella Funeral Home with Deacon David Adler officiating. Visitation will be held from 1:00 p.m. until the time of the service in the funeral home. Inurnment will take place at Park Cemetery. In lieu of flowers, memorials can be directed to the Biology Department at NMU in care of the NMU Foundation or the Lake Superior Land Conservancy.&lt;/p&gt;
 
-&lt;p&gt;There&#39;s a concern at the Wikipedia project that linking to Localwiki pages is somehow dicey because of advertising on Localwiki, or perhaps because not enough people on Wikipedia are familiar enough with Localwiki to know what to expect when they see a page. As a contrast, there are also concerns on a Facebook group I follow about &#34;wikishit&#34; when people see a years-old &lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Marquette_Monster&amp;amp;oldid=622698099&#34;&gt;Marquette Monster&lt;/a&gt; page that was completely fabricated.&lt;/p&gt;
+&lt;p&gt;The Canale-Tonella Funeral Home is assisting the family where memories may be shared at canalefuneral.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Obituary: Faye Amo (1954-2011), high school French teacher</title>
+      <link>http://vielmetti.github.io/post/2011/2011-07-14-obituary-faye-amo-1954-2011-high-school-french-teacher/</link>
+      <pubDate>Thu, 14 Jul 2011 19:21:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-07-14-obituary-faye-amo-1954-2011-high-school-french-teacher/</guid>
+      <description>&lt;p&gt;MARQUETTE – Faye M. Amo, age 57, of 425 West Ridge Street, Marquette,
+entered eternal life Wednesday evening, July 13, 2011, at her home
+in the loving care of her family and the caregivers of Upper Peninsula
+Home Health and Hospice.&lt;/p&gt;
 
-&lt;p&gt;I&#39;ll look for more ways to get more reliable information into the Marquette Localwiki. I&#39;m particularly happy with the start that the &lt;a href=&#34;http://localwiki.net/marquettemi/Gazetteer&#34;&gt;Gazetteer&lt;/a&gt; page has for listing location, and there&#39;s some long amount of work to give the &lt;a href=&#34;http://localwiki.net/marquettemi/Mines&#34;&gt;Mines&lt;/a&gt; page its due to document the mining history of the area. I&#39;m not sure the system has a single goal, but I&#39;m always happy when other people pick up on it, add their piece, and make it useful to themselves.&lt;/p&gt;
+&lt;p&gt;Born March 23, 1954 in Lima, Ohio, a daughter of Stephen J. and
+Ethel (Salidas) Catel, Faye was raised in Ishpeming and graduated
+from the Ishpeming High School as salutatorian of her class. From
+her days in grade school, Faye held the desire to become a teacher.
+She enrolled at Northern Michigan University, where she received
+her baccalaureate degree summa cum laude (with highest honor) with
+a double major in French and English. She continued at Northern,
+obtaining a double masters degree in English and French in 1977 and
+later studied at the University of the Sorbonne in Paris where she
+earned highest honors in French.&lt;/p&gt;
+
+&lt;p&gt;Faye’s
+lifelong dream of becoming a teacher began with her first teaching
+assignment at the Ishpeming High School in 1977. In 1979, she started
+teaching French at the Marquette Senior High School, a career that
+would span 31 years. Teaching French was her passion in life and
+she loved all her students and they loved her. Affectionately known
+as Madame Amo, she was the consummate professional teacher, one who
+truly cared about her students and was dedicated to their education
+and well-being.&lt;/p&gt;
+
+&lt;p&gt;It was not enough that the
+students learned the French language, she felt they needed to
+experience what “French” meant. Heading the French Club at Marquette
+Senior High School, Faye planned numerous trips for club members
+to big city museums to view French art exhibits, eat at French
+eateries, and learn about French culture. Over the years, several
+trips were taken to Chicago and to France in her mission to educate.
+These memorable events were always anticipated by Faye and greeted
+with enthusiasm by her students. For a number of years, she served
+as class advisor, particularly enjoying building and decorating
+floats for homecoming and decorating the gym for junior prom
+activities. Throughout her life, Faye maintained an untiring interest
+in the students at MSHS, often asking parents about their children,
+even through the children may never have been her students and she
+kept in regular contact with students who were now living adult
+lives, with families of their own.&lt;/p&gt;
+
+&lt;p&gt;In addition
+to her affiliations at MSHS as foreign language department head for
+several years, class advisor for the MSHS graduating class of 2008,
+and serving on numerous parent-teacher committees, Faye was also a
+member of the Greek Orthodox Church of the Assumption and the Ladies
+Philoptochos Society, and active in civic committees such as the
+American Association of University Women and the Marquette
+Beautification Committee. In her leisure, Faye loved walking her
+dog, Mario, for the 13 years of his life, bicycling, running – even
+participating in marathons in Detroit and France, and riding in her
+boat on beautiful Lake Superior.&lt;/p&gt;
+
+&lt;p&gt;Faye is
+survived by her husband, John; her cherished son, Bret; two sisters,
+Stephanie (Bob) Trumm and Jayme (Rick) Iknoiah both of California;
+her mother-in-law, Leone Amo of Ironwood; brothers-in-law, Tom Amo
+of Philadelphia, PA, Jim (Brooke) Amo of Livonia, and Ken Amo of
+Ft Worth, TX; and several nieces and nephews. Faye was preceded in
+death by her father, the honorable judge, Stephen J. Catel, her
+mother, Ethel Catel; brother-in-law, Andrew Walton; and father-in-law,
+John M. Amo.&lt;/p&gt;
+
+&lt;p&gt;The family will receive friends
+at the Swanson-Lundquist Funeral Home on Sunday from 4:00 pm until
+7:00 pm. Trisagion will be held at 6:00 pm. The Funeral Liturgy
+will be held on Monday, July 18, at 11:00 am at the Greek Orthodox
+Church of the Assumption with Rev. Tom Michalos officiating. Burial
+will be made in the Park Cemetery. Pallbearers will be Jimmy Pedakis,
+Lou Roumanis, Paul Andronis, Paul Wainio, Gary Shaffer, and Craig
+Cox. Memorials may be directed to the Greek Orthodox Church of the
+Assumption, 235 W. Ridge Street, Marquette, MI 49855 or to the Faye
+Amo Scholarship Fund, Wells Fargo Bank, 101 W. Washington Street,
+Marquette, MI 49855. Condolences may be expressed online at
+www.swansonlundquistfuneralhome.com Adieu Madame Amo. Repose en
+paix.&lt;/p&gt;
 </description>
     </item>
     
@@ -174,33 +385,41 @@
     </item>
     
     <item>
-      <title>Iron money: economic isolation on the Upper Peninsula frontier</title>
-      <link>http://vielmetti.github.io/post/2013/2013-06-21-iron-money-upper-peninsula/</link>
-      <pubDate>Fri, 21 Jun 2013 14:04:56 +0000</pubDate>
+      <title>Olivetti Programma 101</title>
+      <link>http://vielmetti.github.io/post/2015/2015-01-03-olivetti-programma-101/</link>
+      <pubDate>Sat, 03 Jan 2015 22:47:55 -0400</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2013/2013-06-21-iron-money-upper-peninsula/</guid>
-      <description>&lt;p&gt;These are fragmentary notes - and a few links - regarding the introduction of &amp;quot;iron money&amp;quot; into the economy of Marquette County, Michigan, and the controversy surrounding it leading up to the 1876 Presidential election.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Panic of 1857.&lt;/p&gt;
-&lt;p&gt;Panic of 1873.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Newspaper accounts&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The New York Times was in 1876 a Republican newspaper, and did not have the reputation it maintains today as a &amp;quot;newspaper of record&amp;quot;.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=F60C12FE3E5B137B93CBA8178CD85F428784F9&#34; target=&#34;_self&#34;&gt;Tilden&amp;#39;s Iron Currency&lt;/a&gt;, New York Times, July 19, 1876&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=FA081EFD395E137B93C1AB1783D85F428784F9&#34; target=&#34;_self&#34;&gt;A Swindler of Labor&lt;/a&gt;, New York Times, August 23, 1876&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=F0061EFF3E5B137B93C1A9178BD95F428784F9&#34; target=&#34;_self&#34;&gt;The Sham Reformer&lt;/a&gt;. New York Times, October 3, 1876&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/gst/abstract.html?res=F70616FC3E5B137B93C6A9178BD95F428784F9&#34; target=&#34;_self&#34;&gt;Tilden and the Iron Money&lt;/a&gt;, &amp;quot;Red Specular&amp;quot;, New York Times, October 4, 1876&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=FB0A15FC3E5B137B93C7A9178BD95F428784F9&#34; target=&#34;_self&#34;&gt;The Tilden Iron Money Question&lt;/a&gt;, &amp;quot;Red Specular&amp;quot;, New York Times, October 5, 1876&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://query.nytimes.com/mem/archive-free/pdf?res=F40812F7345B127B93CBA8178BD95F428784F9&#34; target=&#34;_self&#34;&gt;Tilden&amp;#39;s Sharp Tricks&lt;/a&gt;, New York Times, October 19, 1876&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Magazine articles&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.questia.com/library/1G1-166849379/the-legacy-of-peter-white&#34; target=&#34;_self&#34;&gt;The Legacy of Peter White&lt;/a&gt;, George Merk,&amp;#0160;&lt;em&gt;Michigan History Magazine&lt;/em&gt;, Vol. 83, No. 3.&amp;#0160;&amp;#0160;May-June 1999&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.questia.com/library/1G1-163098143/iron-money&#34; target=&#34;_self&#34;&gt;Iron Money&lt;/a&gt;, William van Kosky, Michigan History Magazine v90 n2, March-April 2006
+      <guid>http://vielmetti.github.io/post/2015/2015-01-03-olivetti-programma-101/</guid>
+      <description>&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07d19a72970d-600wi&#34; /&gt;
+    
+    
+&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Books&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://books.google.com/books?id=8mxTeVYKzMUC&#34; target=&#34;_self&#34;&gt;The Honorable Peter White&lt;/a&gt;, Ralph Williams, 1907&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/Fraud-Century-Rutherford-Samuel-Election/dp/0743255526&#34; target=&#34;_self&#34;&gt;Fraud of the Century: Rutherford B. Hayes, Samuel Tilden, and the Stolen Election of 1876&lt;/a&gt;, Roy Morris Jr., 2004&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://books.google.com/books?id=GoXNi5gkTOgC&#34; target=&#34;_self&#34;&gt;Iron Will: Cleveland-Cliffs and the Mining of Iron Ore, 1847-2006&lt;/a&gt;, Reynolds and Dawson, 2011&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Archives&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://quod.lib.umich.edu/b/bhlead/umich-bhl-86396?rgn=main;view=text&#34; target=&#34;_self&#34;&gt;Peter White papers&lt;/a&gt;, Bentley Historical Library, Ann Arbor MI&lt;/p&gt;
+
+&lt;p&gt;The first computer that I ever had all to myself was the Olivetti Programma 101. This was a 1965-era Italian machine that was just a little more than a programmable calculator. It used flexible magnetic cards for program storage, discrete logic for all of its computing functions, delay line memory (240 bytes), and it all sat in a 65 pound package. Output was on a humming little printer built into the machine.&lt;/p&gt;
+
+&lt;p&gt;Graveraet Middle School in Marquette had one of these, presumably discarded from its use in the school administration. By 1977 the machine was so completely obsolete that it sat idle, with no one knowing how it worked. I got plenty of time to spend with the system, and frankly I never really figured it out either. It was easy enough to use it as an adding and multiplying and dividing machine, but the mysteries of its program logic escaped me.&lt;/p&gt;
+
+&lt;p&gt;There are several folks who have active projects to restore the old system, including a project at the DataMuseum in Denmark. &lt;a href=&#34;http://datamuseum.dk/wiki/Olivetti/Programma_101/Revive&#34;&gt;See their efforts here.&lt;/a&gt; There are quite a lot of mechanical parts in this old machine, including a set of 8 pulleys that drove the various bits of the card reader and the printer. Rubber rollers of course get old and decayed with time so every account of a restoration has some discussion of that repair.&lt;/p&gt;
+
+&lt;p&gt;The photo at the top is from Michigan Tech, written by James D. Spain, who outlines the use of the Programma 101 &lt;a href=&#34;http://blogs.mtu.edu/biological/2012/03/origins-of-the-computer-simulation-program-in-biology-at-michigan-tech/&#34;&gt;in the biology program at Tech in 1969.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a video, &amp;ldquo;Quando Olivetti inventò il PC&amp;rdquo;, with a history showing the machine in action.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;800&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/oYB2oBc1BpA?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Snowshoe race bridge</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-26-snowshoe-race-bridge/</link>
+      <pubDate>Sun, 26 Oct 2014 08:40:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-26-snowshoe-race-bridge/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d084a268970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d084a268970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Showshoe-race-bridge&#34; title=&#34;Showshoe-race-bridge&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d084a268970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -220,138 +439,6 @@
 &lt;p&gt;People do change a lot in 30 years. A small handful of folks look remarkably like what they looked like 30 years ago, plus or minus an 80s hairdo. Others changed a lot, not always in a direction I would have expected.&lt;/p&gt;
 &lt;p&gt;There was a small shrine to the classmates who had died, and it was sad and surprising to see young faces and realize that you wouldn&amp;#39;t be seeing them again, not here and not anywhere.&lt;/p&gt;
 &lt;p&gt;All in all, it was one of those parties that reminded me of the very few high school parties I went to - lots of people standing around drinking beer, a few people dancing, and the DJ playing the B-52s. I&amp;#39;m looking forward to the next event some 5 or 10 years from now to see how we&amp;#39;re still all holding up.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Marquette Alternative High School photo calendar for 2013</title>
-      <link>http://vielmetti.github.io/post/2012/2012-12-17-marquette-alternative-high-school-photo-calendar-for-2013/</link>
-      <pubDate>Mon, 17 Dec 2012 16:44:22 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2012/2012-12-17-marquette-alternative-high-school-photo-calendar-for-2013/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://marquette.revtrak.net/img/products/Thumbnaillarge.jpg&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;image from marquette.revtrak.net&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017d3ee5d119970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d3ee5d119970c-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;image from marquette.revtrak.net&#34; /&gt;&lt;/a&gt;Students and teachers from the photography class at Marquette Alternative High School (MAHS) create a calendar each year. The project showcases their work and funds a field trip for the students. This year&amp;#39;s 2013 calendar features pictures of Marquette, the &lt;a href=&#34;http://www.originalbutterflyhouse.com/&#34; target=&#34;_self&#34;&gt;butterfly house on Mackinac Island&lt;/a&gt;, and the &lt;a href=&#34;http://en.wikipedia.org/wiki/DeYoung_Family_Zoo&#34; target=&#34;_self&#34;&gt;DeYoung Family Zoo&lt;/a&gt; in Wallace. The cost is $20 and it&amp;#39;s available &lt;a href=&#34;http://marquette.revtrak.net/tek9.asp?pg=products&amp;amp;specific=jnkqnoo0&#34; target=&#34;_self&#34;&gt;for sale online&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Proceeds from the sale of the calendar go to photo equipment and to a photo field trip - the butterfly museum photos are from last year&amp;#39;s trip.&lt;/p&gt;
-&lt;p&gt;I asked Cindy DePetro from MAHS about the calendar and the responses they&amp;#39;ve gotten from it. She writes:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We continue to get praised over the quality of the photos, but our biggest praise is that most people feel like they receive a little piece of home when they see our calendars. We get many repeat customers, and our calendars travel all over the world. Thus far, we know they are being sent to Iraq, Afghanistan, Germany and China.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Tis the season!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>For 906 day, some photos of Marquette, MI from Shorpy</title>
-      <link>http://vielmetti.github.io/post/2012/2012-09-06-for-906-day-some-photos-of-marquette-mi-from-shorpy/</link>
-      <pubDate>Thu, 06 Sep 2012 14:16:11 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2012/2012-09-06-for-906-day-some-photos-of-marquette-mi-from-shorpy/</guid>
-      <description>&lt;p&gt;906 day (September 6) celebrates the area code of the Upper Peninsula of Michigan. First I&amp;#39;ve heard of this holiday, but I heartily approve.&lt;/p&gt;
-&lt;p&gt;In honor of this day a couple of nice photos of Marquette, MI came via Shorpy. The photos of the &lt;a href=&#34;http://www.shorpy.com/node/12492&#34; target=&#34;_self&#34;&gt;harbor and ore docks&lt;/a&gt;, &lt;a href=&#34;http://www.shorpy.com/node/12489&#34; target=&#34;_self&#34;&gt;Front Street&lt;/a&gt;, and a &lt;a href=&#34;http://www.shorpy.com/node/12493&#34; target=&#34;_self&#34;&gt;panorama of downtown Marquette&lt;/a&gt;&amp;#0160;date from 1908 and 1909 and are from glass negatives from the Detroit Publishing Company.&lt;/p&gt;
-&lt;p&gt;A detail below shows the Hotel Janzen, with a train&amp;#39;s smoke just to the left of it and a piece of City Hall at the far left.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0177448e124d970d-pi&#34;&gt;&lt;img alt=&#34;Picture 21&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0177448e124d970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0177448e124d970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 21&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My career in food service</title>
-      <link>http://vielmetti.github.io/post/2011/2011-02-27-my-career-in-food-service/</link>
-      <pubDate>Sun, 27 Feb 2011 14:24:07 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2011/2011-02-27-my-career-in-food-service/</guid>
-      <description>&lt;p&gt;As published in the Association for Computing Machinery&#39;s &lt;a href=&#34;http://catless.ncl.ac.uk/risks/4.30.html#subj7&#34; target=&#34;_self&#34;&gt;Risks Digest, v4 n30, 1986&lt;/a&gt;:&lt;/p&gt;
-&lt;h3&gt;&lt;a id=&#34;subj7.1&#34; name=&#34;subj7.1&#34; href=&#34;http://catless.ncl.ac.uk/risks/4.30.html#subj7.1&#34; target=&#34;_self&#34;&gt;&lt;img src=&#34;http://catless.ncl.ac.uk/Images/Misc/flash.gif&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;14&#34; height=&#34;14&#34; /&gt;&lt;/a&gt;&amp;nbsp;Fast-Food Computing&lt;/h3&gt;
-&lt;address&gt;&amp;lt;Edward_Vielmetti@um.cc.umich.edu&amp;gt;&lt;/address&gt;
-&lt;p&gt;&lt;em&gt;Tue, 16 Dec 86 16:15:04 EST&lt;/em&gt;&lt;/p&gt;
-&lt;pre&gt;I must have been in the cycle early for McDonald&#39;s 
-fast-food intelligent man-machine systems, according to 
-Guthery&#39;s law:
-   &amp;gt;     In an evolving man-machine system, the man will get
-   &amp;gt;     dumber faster than the machine gets smarter.
-
-McDonald&#39;s fast food computers (i.e., cash registers) 
-collect all sorts of data on the individual employee at 
-the counter and on all counter sales as a whole.  They also 
-do not have a &amp;lt;no sale&amp;gt; key that opens up the cash
-register, probably to prevent theft.  That made it real hard to fix a
-mistake without calling a manager to get a key to open the drawer.
-
-Solution?  Well, the people I worked with at McD&#39;s had been 
-around thesystem long enough to figure out how to get around 
-it.  Without getting into too many details of why things were 
-as they were, the easiest way to open the drawer without a 
-manager was to ring up a sale that gave away a 
-tub of barbecue sauce for McNuggets and nothing else.  
-   (Hit &amp;lt;promo&amp;gt; &amp;lt;barbecue&amp;gt; &amp;lt;promo&amp;gt; &amp;lt;total&amp;gt; .)
-Of course, that messed up the daily statistics some.
-
-Edward Vielmetti, Ex-McDonalds employee, Computing Center 
-Microgroup, U. Mich.&lt;/pre&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dutch baby apple pancake; and a March 2009 maple report from the UP</title>
-      <link>http://vielmetti.github.io/post/2009/2009-03-18-here-is-the-penzeys-apple-pancake-recipea-morph-from-the-dutch-baby----14-cup-butter--34-cup-all-purpose-flour--34-cup/</link>
-      <pubDate>Wed, 18 Mar 2009 08:06:00 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2009/2009-03-18-here-is-the-penzeys-apple-pancake-recipea-morph-from-the-dutch-baby----14-cup-butter--34-cup-all-purpose-flour--34-cup/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Here is the Penzey&amp;#39;s Apple Pancake recipe&amp;hellip;a morph from the Dutch Baby.
-&lt;/p&gt;&lt;div&gt;&amp;#0160;&lt;/div&gt;
-&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; cup butter&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;wbr /&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/div&gt;
-&lt;div&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; cup all-purpose flour&lt;/div&gt;
-&lt;div&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; cup milk &lt;/div&gt;
-&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; tsp salt&lt;/div&gt;
-&lt;div&gt;2 medium baking apples, peeled and thinly sliced&amp;#0160; (I used Braeburn apples)&lt;/div&gt;
-&lt;div&gt;3 Tbs sugar&lt;/div&gt;
-&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; tsp ceylon cinnamon&lt;/div&gt;
-&lt;div&gt;&amp;#0160;&lt;/div&gt;
-&lt;div&gt;Preheat oven to 400.&amp;#0160; divide butter between two 9&amp;quot; pie plates and
-put them in the oven to melt the butter.&amp;#0160; Rotate to be sure that butter
-covers bottom and&amp;#0160; sides of pans.&amp;#0160; Use a 4 cup measuring cup as a
-mixing bowl (makes it easy to divide the batter).&amp;#0160; Beat eggs, flour,
-milk and salt on medium speed for 1 minute.&amp;#0160; Divide the apple slices
-between the pans and pour &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; of the egg mixture over each pan.&amp;#0160; Mix
-the cinnamin and sugar and sprinkle over the batter.&amp;#0160; Bake until puffed
-and folden brown&amp;#0160; 20-25 minutes.&amp;#0160; Serve right away, while still puffy,
-with warm syrup.&amp;#0160; &lt;/div&gt;&lt;/p&gt;
-
-&lt;div&gt;&amp;#0160;&lt;/div&gt;
-&lt;div&gt;Serves 4-6&amp;#0160;&amp;#0160; Prep time 10 minutes, baking time&amp;#0160; 20-25 minutes. &lt;br /&gt;&lt;br /&gt;and the report from up north from March 18, 2009:&lt;br /&gt;&lt;/div&gt;
-&lt;div&gt;&amp;#0160;&lt;/div&gt;
-&lt;div&gt;Over the weekend we put 28 taps in our maple sugar trees.&amp;#0160;&amp;#0160; We
-collected 8 gallons the first day but the next two nights were not
-below freezing.&amp;#0160; We have only 17 gallons so far.&amp;#0160; It was cold last
-night so the sap should run today.&amp;#0160; Snowshoes are very necessary as the
-&lt;span class=&#34;il&#34;&gt;snow&lt;/span&gt; is &amp;quot;punky&amp;quot;.&amp;#0160; Even with snowshoes we
-sometimes break through the crust and one leg goes down 1 foot...makes
-for slow going.&amp;#0160; Hopefully we have a good wide track packed now.&amp;#0160; &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Joy Yuill (1932-2008)</title>
-      <link>http://vielmetti.github.io/post/2008/2008-05-07-joy-yuill-1932/</link>
-      <pubDate>Wed, 07 May 2008 12:27:36 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2008/2008-05-07-joy-yuill-1932/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.miningjournal.net/page/content.detail/id/508946.html?nav=5007&#34;&gt;as printed in the Marquette Mining Journal, April 22 2008&lt;/a&gt;.  Joy and Baldy were neighbors of ours in Marquette.&lt;/p&gt;
-
-&lt;p&gt;REPUBLIC — Joy Elizabeth Yuill, 75, of 11676 River Road, Republic, and former Marquette resident, entered eternal life Tuesday afternoon, April 15, 2008, at her home in the loving care of her family and the caregivers of Upper Peninsula Home Health &amp; Hospice.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Born September 11, 1932, in Gaylord, the daughter of Stanley and Dorothy (Siegel) Yuill, Joy was raised in Vanderbilt and graduated from the Gaylord High School in 1949. She attended Hillsdale College for a year before transferring to Grinnell College in Grinnell, Iowa, where she received a bachelor of science degree in education in 1953. Joy taught in Detroit, while also taking classes at Wayne State University, which led to her receiving her master’s degree in special education in 1956, with special emphasis on blind and partially sighted clients. In 1957, Joy moved to Marquette, traveling extensively throughout the Upper Peninsula to serve sight-impaired students. In 1971, Joy received a nursing degree from Northern Michigan University, working at Marquette General Hospital mostly on weekends. She retired from her nursing career in 2000. For over 17 years, Joy worked summers at Bay Cliff Health Camp in Big Bay as a special education teacher and swimming instructor. She retired from this position in 2005 and then assisted with adult campers for one week each year. 1972 was to produce yet another degree for Joy, this time a master’s degree in music from Wayne State. Joy continued teaching full time until 2002 and thereafter taught on a part-time basis for the next two years. When not in the classroom, Joy was the piano accompanist for the Marquette Male Chorus for many years. She also assisted many students with their solo and ensemble pieces at the Negaunee and Westwood high schools for over 20 years. Known locally for her beautiful renditions on the harp, Joy was a participant in many concerts and musical programs over the years. She was a member of the United Presbyterian Church in Ishpeming. In June 1963, Joy married Vincent “Baldy” Bur, and he preceded her in death in 1999. Joy and Baldy were great animal lovers and took in all sorts of stray and unwanted animals over the years. In her leisure, she enjoyed baking bread, knitting, sewing, gardening, and being involved in anything musical.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Joy is survived by her brother, Robert “Beezle” Yuill of Harvey; a brother-in-law, Leonard Bur of Marquette; sister-in-law, Amelia Kent of North Little Rock, Ark.; her niece, Martha Yuill of St. Paul, Minn.; and a nephew, Stephen Yuill of Ishpeming. In addition to her parents and husband, Joy was preceded in death by sisters-in-law, Christine Yuill and Verna Bur; and a nephew, Michael Bur. &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-The family will receive relatives and friends at the United Presbyterian Church in Ishpeming on Saturday, May 10, beginning at 1 p.m. A memorial service will follow at 2 p.m. Saturday with the Rev. James Robb officiating. Memorials may be directed to the Marquette County Humane Society, 84 Snowfield Road, Negaunee, MI 49866; or to the United Presbyterian Church, 112 E. Euclid St., Ishpeming, MI 49849.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-The Fassbender Funeral Home is serving the family, where condolences may be expressed online at &lt;a href=&#34;http://www.fassbenderfuneralhome.com&#34;&gt;www.fassbenderfuneralhome.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

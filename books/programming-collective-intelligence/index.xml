@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Collective Intelligence on tracker</title>
+    <link>http://vielmetti.github.io/books/programming-collective-intelligence/</link>
+    <description>Recent content in Programming Collective Intelligence on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Oct 2008 21:16:46 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/books/programming-collective-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Programming and the &#34;intelligent web&#34;</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-16-programming-and/</link>
+      <pubDate>Thu, 16 Oct 2008 21:16:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-16-programming-and/</guid>
+      <description>&lt;p&gt;Some notes from the publisher&#39;s sites on new(ish) books on programming a web 2.0 world.&amp;nbsp; Just remember, &amp;quot;every day computers are making people easier and easier to use.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Programming Collective Intelligence, 1st Edition by Toby Segaran&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;
+Want to tap the power behind search rankings, product recommendations, social bookmarking, and online matchmaking? This fascinating book demonstrates how you can build Web 2.0 applications to mine the enormous amount of data created by people on the Internet. With the sophisticated algorithms in this book, you can write smart programs to access interesting datasets from other web sites, collect data from users of your own applications, and analyze and understand the data once you&#39;ve found it. Programming Collective Intelligence takes you into the world of machine learning and statistics, and explains how to draw conclusions about user experience, marketing, personal tastes, and human behavior in general -- all from information that you and others collect every day. Each algorithm is described clearly and concisely with code that can immediately be used on your web site, blog, Wiki, or specialized application.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;iframe scrolling=&#34;no&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://rcm.amazon.com/e/cm?t=superpatron-20&amp;amp;o=1&amp;amp;p=8&amp;amp;l=as1&amp;amp;asins=0596529325&amp;amp;md=10FE9736YVPPT7A0FBG2&amp;amp;fc1=000000&amp;amp;IS2=1&amp;amp;lt1=_blank&amp;amp;m=amazon&amp;amp;lc1=0000FF&amp;amp;bc1=000000&amp;amp;bg1=FFFFFF&amp;amp;f=ifr&#34; style=&#34;width: 120px; height: 240px;&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;Collective Intelligence in Action, Satnam Alag&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;
+Collective Intelligence in Action is a hands-on guidebook for implementing collective-intelligence concepts using Java. It is the first Java-based book to emphasize the underlying algorithms and technical implementation of vital data gathering and mining techniques like analyzing trends, discovering relationships, and making predictions. It provides a pragmatic approach to personalization by combining content-based analysis with collaborative approaches.
+
+This book is for Java developers implementing collective intelligence in real, high-use applications. Following a running example in which you harvest and use information from blogs, you learn to develop software that you can embed in your own applications. The code examples are immediately reusable and give the Java developer a working collective intelligence toolkit.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;iframe scrolling=&#34;no&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://rcm.amazon.com/e/cm?t=superpatron-20&amp;amp;o=1&amp;amp;p=8&amp;amp;l=as1&amp;amp;asins=1933988312&amp;amp;md=10FE9736YVPPT7A0FBG2&amp;amp;fc1=000000&amp;amp;IS2=1&amp;amp;lt1=_blank&amp;amp;m=amazon&amp;amp;lc1=0000FF&amp;amp;bc1=000000&amp;amp;bg1=FFFFFF&amp;amp;f=ifr&#34; style=&#34;width: 120px; height: 240px;&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;Algorithms of the Intelligent Web, Haralambos Marmanis with Dmitry Babenko&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;
+Web 2.0 applications are best known for providing a rich user experience, but the parts you can&#39;t see are just as important—and impressive. Many Web 2.0 applications use powerful techniques to process information intelligently and offer features based on patterns and relationships in the data that couldn&#39;t be discovered manually. Successful examples of these Algorithms of the Intelligent Web include household names like Google Ad Sense, Netflix, and Amazon. These applications use the internet as a platform that not only gathers data at an ever-increasing pace but also systematically transforms the raw data into actionable information.
+
+Algorithms of the Intelligent Web is an example-driven blueprint for creating applications that collect, analyze, and act on the massive quantities of data users leave in their wake as they use the web. You&#39;ll learn how to build Amazon- and Netflix-style recommendation engines, and how the same techniques apply to people matches on social-networking sites. See how click-trace analysis can result in smarter ad rotations. With a plethora of examples and extensive detail, this book shows you how to build Web 2.0 applications that are as smart as your users.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This one isn&#39;t actually in print yet; &lt;a href=&#34;http://www.manning.com/marmanis/&#34;&gt;from the publisher&#39;s site you can buy the advance electronic reading copy.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Of course, if you&#39;re going to read code about the intelligent web, it would serve you well to read some fiction first so that you can get your frame of reference right.&amp;nbsp; I&#39;d recommend Snow Crash as a good start.&lt;/p&gt;
+&lt;iframe scrolling=&#34;no&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://rcm.amazon.com/e/cm?t=superpatron-20&amp;amp;o=1&amp;amp;p=8&amp;amp;l=as1&amp;amp;asins=0553380958&amp;amp;md=10FE9736YVPPT7A0FBG2&amp;amp;fc1=000000&amp;amp;IS2=1&amp;amp;lt1=_blank&amp;amp;m=amazon&amp;amp;lc1=0000FF&amp;amp;bc1=000000&amp;amp;bg1=FFFFFF&amp;amp;f=ifr&#34; style=&#34;width: 120px; height: 240px;&#34;&gt; &lt;/iframe&gt;&lt;br /&gt;&lt;p&gt;Thanks to &lt;a href=&#34;http://www.ibd.com&#34;&gt;Rob Berger&lt;/a&gt; for the suggestions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
