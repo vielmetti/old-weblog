@@ -6,8 +6,79 @@
     <description>Recent content in Code on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2015 10:23:20 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2015 16:11:41 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Levenshtein distance for approximate match</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</link>
+      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</guid>
+      <description>&lt;p&gt;The problem, simply stated, is that of typoes and inconsistent
+spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of
+text that you want to annotate with some metadata, like categories
+and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which
+tags you want to use, but you want to catch through some test or
+lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into
+a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
+will catch minor deviations from the norm and advise you when you
+should go back with a fresh pair of eyes and do an edit.
+The bigger problem is
+deduplication
+.&lt;/p&gt;
+
+&lt;p&gt;My first pass at a proposed solution was to look for a version of
+the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
+There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
+Udi Manber.&lt;/p&gt;
+
+&lt;p&gt;[WM92a]
+Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
+Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
+1992), pp. 153-162.&lt;/p&gt;
+
+&lt;p&gt;Neither of these first lines of attack to see if someone had
+completely solved the problem before did the trick, but some
+searching around and a conversation with
+John Hritz
+
+hit the neuron that remembered the algorithm called the
+Levenshtein distance
+.
+That led me to
+Wikibook: Algorithm Implementation
+,
+and its set of
+&lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
+was a very slow implementation in the bash shell included
+in that collection that was a cut and paste and two lines of
+code from being exactly what I needed. A little bit of glue
+code in awk and I was ready to go.&lt;/p&gt;
+
+&lt;p&gt;Now the problem with cut and paste two lines of code is that this
+particular implmentation is very slow, albeit correct. Given the
+choice between slow correct code and fast code that&amp;rsquo;s wrong (because
+of the bug that you don&amp;rsquo;t yet understand), I&amp;rsquo;ll take the slow code
+plus a comment and a writeup that describes how to make it faster.&lt;/p&gt;
+
+&lt;p&gt;What I&amp;rsquo;m really after is just the pairwise comparison of a set
+of words where the two words are close to each other. If the
+distance between two words is greater than some threshhold, I don&amp;rsquo;t need
+to go any further. That algorithmic shortcut isn&amp;rsquo;t in the library
+codes that I found.&lt;/p&gt;
+
+&lt;p&gt;The bigger question is how to write a
+checklist
+and implement it in code to make sure that a big body of work stays
+internally consistent. It&amp;rsquo;s one thing to have a
+categorization
+rule for your writers that says &amp;ldquo;always use the
+singular&amp;rdquo;, but very much something different to have Test 38 in
+your automated test corpus apply that rule and notice when it&amp;rsquo;s
+wrong.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using GNU Parallel to speed up network operations</title>
@@ -57,6 +128,67 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 &lt;p&gt;Authors&#39; website for obtaining code:&lt;/p&gt;
 
 &lt;p&gt;http://www.gnu.org/software/parallel/&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>using &#34;jq&#34; for command line web applications for civic data</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</link>
+      <pubDate>Sun, 05 Oct 2014 09:03:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</guid>
+      <description>&lt;p&gt;One of the tools that I rediscovered and have been really happy for
+having done so is &amp;ldquo;jq&amp;rdquo;, a command line tool that bills itself as
+&amp;ldquo;awk for json&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been writing awk code since 1985, and some limited subset
+of it is something that I know really, really well. awk, however,
+is from the punchcard era, and as such it likes to deal with records
+that are all on one line each. Parsing JSON in awk is very clumsy
+and ad hoc and really doesn&amp;rsquo;t work all that well. Since most Internet
+APIs these days have some kind of JSON encoding, it means that you
+can&amp;rsquo;t simply dash off an awk one-liner to consume and transform
+Internet input data.&lt;/p&gt;
+
+&lt;p&gt;jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&amp;rsquo;s garages:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;curl -s http://www.a2dda.org/map/AADDACount.json |
+  jq &#34;[.countdata[].spacesavail | tonumber] | add&#34; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;m not going to try to explain how jq works, except to note that
+it&amp;rsquo;s constructed in order to be a filter: data comes in one JSON
+object at a time, and the script iterates over them, transforming
+them in some way and then passing JSON out the other end. This makes
+it perfect for ad hoc Unix pipeline efforts where you&amp;rsquo;re chipping
+away at a data set trying to make sense of it by successively
+refining it as you go.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
+bus system data, and for the Marquette Park Cemetery data. The
+parking data is straightforward, since it exits the system as JSON.
+Bus system data is only incrementally harder; it started either as
+HTML or as XML, and for that you want to use &amp;ldquo;tidy&amp;rdquo; and &amp;ldquo;xml2json&amp;rdquo;
+in your pipeline. The Park Cemetery data set started as JSON via
+the Socrata SODA API, but I needed little bits of &amp;ldquo;sed&amp;rdquo; and &amp;ldquo;perl&amp;rdquo;
+to smooth out some rough edges in the source data; it really wants
+to end up as GeoJSON when I&amp;rsquo;m done, but it isn&amp;rsquo;t there quite yet.&lt;/p&gt;
+
+&lt;p&gt;Shell programming is my favorite programming environment. Any time
+I can take a set of well-understood tools and crunch through big
+data sets with only a few lines of code, I&amp;rsquo;m happy. The challenge
+of shell programming is that it&amp;rsquo;s full of opportunities to get
+things just a little bit wrong with parsing; by making JSON the
+data format that&amp;rsquo;s shoveled between programs rather than a flat
+one-record-per-line text format, you open up the opportunity for
+pulling apart rather complex structures and manipulating them with
+hardly any work.&lt;/p&gt;
+
+&lt;p&gt;For further reading, see Jeroen Janssens new book &lt;a
+href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the
+Command Line&lt;/a&gt; which works you way through dozens of tools like
+this that can help manage big data without big programs.&lt;/p&gt;
 </description>
     </item>
     
@@ -370,40 +502,6 @@ This is not a new problem.  There is a paradox, called &#34;Goodman&#39;s Grue-B
 &lt;/blockquote&gt;
 Is there a relationship between the &#34;grue&#34; of Zork and the &#34;grue&#34; of the color paradox?
 &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Map Warper: stretch an old map to fit the new landscape</title>
-      <link>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</link>
-      <pubDate>Wed, 24 Jun 2009 22:34:51 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.vizworld.com/2009/06/testing-map-warper-beta/&#34; target=&#34;_blank&#34;&gt;http://www.vizworld.com/2009/&lt;wbr /&gt;06/testing-map-warper-beta/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Maitri has a great write-up of Map Warper, a tool for taking old maps and stretching them (rectifying them) to match another base map.&amp;#0160; &lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;a href=&#34;http://thinkwhere.wordpress.com/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/thinkwhere.wordpress.com&amp;#39;);&#34;&gt;Tim Waters&lt;/a&gt; has developed an open source tool called &lt;a href=&#34;http://warper.geothings.net/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/warper.geothings.net&amp;#39;);&#34;&gt;Map Warper (Beta)&lt;/a&gt; into which you can upload a scanned map, &lt;a href=&#34;http://www.photonics.com/directory/dictionary/lookup.asp?url=lookup&amp;amp;entrynum=5970&amp;amp;letter=g&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/www.photonics.com&amp;#39;);&#34;&gt;georectify&lt;/a&gt;
-it and save it out as an image or a map layer.&amp;#0160; As a former resident of
-New Orleans, where a transparent recovery and historic preservation are
-daily uphill battles, this tool can be invaluable in saving and sharing
-ancient and new maps of the city’s original development and
-re-development since Hurricane Katrina and The Flood.&amp;#0160; The following
-shows how, in under ten minutes, I georectified an 1895 map of the
-French Quarter and Garden District of New Orleans and exported it to
-Google Maps.&lt;/p&gt;&lt;p&gt;Worth a look, especially if the bits of history you have collected include maps that don&amp;#39;t quite line up with the current street maps.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>whitehouse.gov: sending data to statse.webtrendslive.com</title>
-      <link>http://vielmetti.github.io/post/2009/2009-01-20-whitehousegov-sending-data-to-statsewebtrendslivecom/</link>
-      <pubDate>Tue, 20 Jan 2009 22:59:27 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2009/2009-01-20-whitehousegov-sending-data-to-statsewebtrendslivecom/</guid>
-      <description>&lt;pre&gt;&lt;a href=&#34;http://www.whitehouse.gov&#34;&gt;On the page:&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&#34;sourceRowText&#34;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;/includes/webtrends.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&#34;http://www.whitehouse.gov/includes/webtrends.js&#34;&gt;in that code:&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;function WebTrends(){&lt;br /&gt; var that=this;&lt;br /&gt;    // begin: user modifiable&lt;br /&gt; this.dcsid=&amp;quot;dcs0l9nq800000ctek411lue6_2c8b&amp;quot;;&lt;br /&gt;&lt;strong&gt;    this.domain=&amp;quot;statse.webtrendslive.com&amp;quot;;&lt;/strong&gt;&lt;br /&gt;    this.timezone=-5;&lt;br /&gt; this.fpcdom=&amp;quot;.whitehouse.gov&amp;quot;;&lt;br /&gt;  this.onsitedoms=&amp;quot;&amp;quot;;&lt;br /&gt; this.downloadtypes=&amp;quot;xls,doc,pdf,txt,csv,zip&amp;quot;;&lt;br /&gt;   this.rightclicktypes=&amp;quot;xls,doc,pdf,txt,csv,zip&amp;quot;;&lt;br /&gt; this.trackevents=true;&lt;br /&gt;    this.enabled=true;&lt;br /&gt;    this.i18n=false;&lt;br /&gt;  this.fpc=&amp;quot;WT_FPC&amp;quot;;&lt;br /&gt;  // end: user modifiable&lt;br /&gt;   this.DCS={};&lt;br /&gt;  this.WT={};&lt;br /&gt;   this.DCSext={};&lt;br /&gt;   this.images=[];&lt;br /&gt;   this.index=0;&lt;br /&gt; this.exre=(function(){return(window.RegExp?new RegExp(&amp;quot;dcs(uri)|(ref)|(aut)|(met)|(sta)|(sip)|(pro)&lt;br /&gt;|(byt)|(dat)|(p3p)|(cfg)|(redirect)|(cip)&amp;quot;,&amp;quot;i&amp;quot;):&amp;quot;&amp;quot;);})();&lt;br /&gt;  this.re=(function(){return(window.RegExp?(that.i18n?{&amp;quot;%25&amp;quot;:/\%/g}:{&amp;quot;%09&amp;quot;:/\t/g,&amp;quot;%20&amp;quot;:/ /g,&amp;quot;%23&amp;quot;:/\#&lt;br /&gt;/g,&amp;quot;%26&amp;quot;:/\&amp;amp;/g,&amp;quot;%2B&amp;quot;:/\+/g,&amp;quot;%3F&amp;quot;:/\?/g,&amp;quot;%5C&amp;quot;:/\\/g,&amp;quot;%22&amp;quot;:/\&amp;quot;/g,&amp;quot;%7F&amp;quot;:/\x7F/g,&amp;quot;%A0&amp;quot;:/\xA0/g}):&amp;quot;&amp;quot;);})(&lt;br /&gt;);&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;&lt;a href=&#34;http://www.whitehouse.gov/privacy/&#34;&gt;in the privacy policy:&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/pre&gt;&lt;p&gt;Browser information collected on the web site: We log IP addresses,
-which are the locations of computers or networks on the Internet, and
-analyze them in order to improve the value of our site. We also collect
-aggregate numbers of page hits in order to track the popularity of
-certain pages and improve the value of our site. We do not gather,
-request, record, require, collect or track any Internet users&amp;#39; Personal
-Information through these processes.&lt;/p&gt;&lt;pre&gt;&lt;br /&gt;&lt;/pre&gt;
 </description>
     </item>
     

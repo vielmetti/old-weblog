@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jq on tracker</title>
+    <link>http://vielmetti.github.io/keyphrases/jq/</link>
+    <description>Recent content in Jq on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Oct 2014 09:03:34 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/jq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>using &#34;jq&#34; for command line web applications for civic data</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</link>
+      <pubDate>Sun, 05 Oct 2014 09:03:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</guid>
+      <description>&lt;p&gt;One of the tools that I rediscovered and have been really happy for
+having done so is &amp;ldquo;jq&amp;rdquo;, a command line tool that bills itself as
+&amp;ldquo;awk for json&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been writing awk code since 1985, and some limited subset
+of it is something that I know really, really well. awk, however,
+is from the punchcard era, and as such it likes to deal with records
+that are all on one line each. Parsing JSON in awk is very clumsy
+and ad hoc and really doesn&amp;rsquo;t work all that well. Since most Internet
+APIs these days have some kind of JSON encoding, it means that you
+can&amp;rsquo;t simply dash off an awk one-liner to consume and transform
+Internet input data.&lt;/p&gt;
+
+&lt;p&gt;jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&amp;rsquo;s garages:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;curl -s http://www.a2dda.org/map/AADDACount.json |
+  jq &#34;[.countdata[].spacesavail | tonumber] | add&#34; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;m not going to try to explain how jq works, except to note that
+it&amp;rsquo;s constructed in order to be a filter: data comes in one JSON
+object at a time, and the script iterates over them, transforming
+them in some way and then passing JSON out the other end. This makes
+it perfect for ad hoc Unix pipeline efforts where you&amp;rsquo;re chipping
+away at a data set trying to make sense of it by successively
+refining it as you go.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
+bus system data, and for the Marquette Park Cemetery data. The
+parking data is straightforward, since it exits the system as JSON.
+Bus system data is only incrementally harder; it started either as
+HTML or as XML, and for that you want to use &amp;ldquo;tidy&amp;rdquo; and &amp;ldquo;xml2json&amp;rdquo;
+in your pipeline. The Park Cemetery data set started as JSON via
+the Socrata SODA API, but I needed little bits of &amp;ldquo;sed&amp;rdquo; and &amp;ldquo;perl&amp;rdquo;
+to smooth out some rough edges in the source data; it really wants
+to end up as GeoJSON when I&amp;rsquo;m done, but it isn&amp;rsquo;t there quite yet.&lt;/p&gt;
+
+&lt;p&gt;Shell programming is my favorite programming environment. Any time
+I can take a set of well-understood tools and crunch through big
+data sets with only a few lines of code, I&amp;rsquo;m happy. The challenge
+of shell programming is that it&amp;rsquo;s full of opportunities to get
+things just a little bit wrong with parsing; by making JSON the
+data format that&amp;rsquo;s shoveled between programs rather than a flat
+one-record-per-line text format, you open up the opportunity for
+pulling apart rather complex structures and manipulating them with
+hardly any work.&lt;/p&gt;
+
+&lt;p&gt;For further reading, see Jeroen Janssens new book &lt;a
+href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the
+Command Line&lt;/a&gt; which works you way through dozens of tools like
+this that can help manage big data without big programs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,8 +6,90 @@
     <description>Recent content in Posts on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2015 11:03:04 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2015 16:11:41 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Levenshtein distance for approximate match</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</link>
+      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</guid>
+      <description>&lt;p&gt;The problem, simply stated, is that of typoes and inconsistent
+spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of
+text that you want to annotate with some metadata, like categories
+and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which
+tags you want to use, but you want to catch through some test or
+lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into
+a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
+will catch minor deviations from the norm and advise you when you
+should go back with a fresh pair of eyes and do an edit.
+The bigger problem is
+deduplication
+.&lt;/p&gt;
+
+&lt;p&gt;My first pass at a proposed solution was to look for a version of
+the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
+There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
+Udi Manber.&lt;/p&gt;
+
+&lt;p&gt;[WM92a]
+Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
+Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
+1992), pp. 153-162.&lt;/p&gt;
+
+&lt;p&gt;Neither of these first lines of attack to see if someone had
+completely solved the problem before did the trick, but some
+searching around and a conversation with
+John Hritz
+
+hit the neuron that remembered the algorithm called the
+Levenshtein distance
+.
+That led me to
+Wikibook: Algorithm Implementation
+,
+and its set of
+&lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
+was a very slow implementation in the bash shell included
+in that collection that was a cut and paste and two lines of
+code from being exactly what I needed. A little bit of glue
+code in awk and I was ready to go.&lt;/p&gt;
+
+&lt;p&gt;Now the problem with cut and paste two lines of code is that this
+particular implmentation is very slow, albeit correct. Given the
+choice between slow correct code and fast code that&amp;rsquo;s wrong (because
+of the bug that you don&amp;rsquo;t yet understand), I&amp;rsquo;ll take the slow code
+plus a comment and a writeup that describes how to make it faster.&lt;/p&gt;
+
+&lt;p&gt;What I&amp;rsquo;m really after is just the pairwise comparison of a set
+of words where the two words are close to each other. If the
+distance between two words is greater than some threshhold, I don&amp;rsquo;t need
+to go any further. That algorithmic shortcut isn&amp;rsquo;t in the library
+codes that I found.&lt;/p&gt;
+
+&lt;p&gt;The bigger question is how to write a
+checklist
+and implement it in code to make sure that a big body of work stays
+internally consistent. It&amp;rsquo;s one thing to have a
+categorization
+rule for your writers that says &amp;ldquo;always use the
+singular&amp;rdquo;, but very much something different to have Test 38 in
+your automated test corpus apply that rule and notice when it&amp;rsquo;s
+wrong.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Checklist Manifesto, in checklist format</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form/</link>
+      <pubDate>Fri, 17 Jul 2015 13:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form/</guid>
+      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My Checklist Manifesto summary (of course in checklist form) THANK YOU &lt;a href=&#34;https://twitter.com/Atul_Gawande&#34;&gt;@Atul_Gawande&lt;/a&gt; &lt;a href=&#34;http://t.co/PfsIMwcCiB&#34;&gt;http://t.co/PfsIMwcCiB&lt;/a&gt; &lt;a href=&#34;http://t.co/ZfzP72RgiF&#34;&gt;pic.twitter.com/ZfzP72RgiF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Remo Uherek (@remouherek) &lt;a href=&#34;https://twitter.com/remouherek/status/617272863599513600&#34;&gt;July 4, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Detroit Sound Conservancy: Greystone Jazz rescue</title>
@@ -20,22 +102,6 @@ in Detroit on July 7, 2015 to salvage the collection of the
 defunct Graystone International Jazz Museum. There&amp;rsquo;s a nice
 writeup in MLive, &lt;a href=&#34;http://www.mlive.com/news/detroit/index.ssf/2015/07/non-profit_group_salvages_detr.html&#34;&gt;Graystone jazz artifacts, forgotten in Detroit skyscraper, now being preserved&lt;/a&gt;. Photographer Doug Coombe went along
 to document the effort with a &lt;a href=&#34;https://www.facebook.com/media/set/?set=a.896394770433897.1073741832.170165396390175&amp;amp;type=3&#34;&gt;photo set on Facebook&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/2.0/&#34;&gt;https://creativecommons.org/licenses/by-sa/2.0/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://vielmetti.github.io/images/greystone-salvage.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Doug Coombe and Carleton Gholz at the Graystone Jazz salvage, July 7, 2015&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;We knew that things were bad,&amp;rdquo; said DSC&amp;rsquo;s Founder and President
@@ -497,83 +563,6 @@ abandoned pizza parlor.&lt;/p&gt;
 &lt;p&gt;We then went to the Malletts Creek library, until about 4:00 p.m.
 I worked on Hugo and constructed a theme from scratch.
 At the end he got bored.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>wow that is fast</title>
-      <link>http://vielmetti.github.io/post/wow-that-is-fast/</link>
-      <pubDate>Tue, 14 Jul 2015 03:25:43 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/wow-that-is-fast/</guid>
-      <description>&lt;p&gt;So 634 pages from my Github Gollum based Wiki markup all got imported
-into Hugo and it rendered all of them in 828 ms, or basically under
-a second to pull in everything I&amp;rsquo;ve ever written. Astonishingly fast.&lt;/p&gt;
-
-&lt;p&gt;Alas, those files while they are in Markdown are not really ready for
-direct import, since they have [[double brackets]] everywhere that
-get uglified. The other limiting factor is the date marker that&amp;rsquo;s not
-included with them so they all show up as January 1, 0001 which is
-funny the first few times and then not funny.&lt;/p&gt;
-
-&lt;p&gt;Doesn&amp;rsquo;t Hugo have an import function? It does, for converting front
-matter. The closest for importing other things are the various Jekyll
-converters which aren&amp;rsquo;t really the same.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
-      <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
-      <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
-
-&lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for &lt;em&gt;why&lt;/em&gt; that&#39;s a relevant task is at this post on Hypriot, &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;How to use Docker Compose to run complex multi container apps on your Raspberry Pi&lt;/a&gt;, which I dutifully and successfully managed to run all of the examples from. &lt;/p&gt;
-
-&lt;p&gt;Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.&lt;/p&gt;
-
-&lt;pre&gt;
-nodered:
-  image: nieleyde/rpi2-nodered
-  command: flows.json
-  volumes:
-    - /home/pi/node-red:/root/.node-red
-  ports: 
-    - &#34;1880:1880&#34;
-  links:
-    - mosquitto
-
-mosquitto:
-  image: nieleyde/rpi-mosquitto
-  ports:
-    - &#34;1883:1883&#34;
-&lt;/pre&gt;
-
-&lt;p&gt;Some subtleties to note:&lt;/p&gt;
-
-&lt;p&gt;The nieleyde/rpi2-nodered runs on the Pi 2; there&#39;s a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven&#39;t yet tweaked this to run on x86, but if you do, you&#39;ll need to update the &#34;image&#34; stanzas everywhere.&lt;/p&gt;
-
-&lt;p&gt;The &#34;command&#34; and &#34;volumes&#34; stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you&#39;ll need to change this; I haven&#39;t gotten that far yet. It might also make sense to have a data volume container, but again I&#39;m not there yet.&lt;/p&gt;
-
-&lt;p&gt;The &#34;mosquitto&#34; configuration is extremely bare bones and runs the default config, which is wide open. I haven&#39;t gotten far enough to replace the config file with something better, but that&#39;s an obvious next step.&lt;/p&gt;
-
-&lt;p&gt;From within Node-RED you refer to this internal MQTT server at hostname &#34;mosquitto&#34;, port &#34;1883&#34;. If the links stanza was changed to &#34;mqtt&#34; and the mosquitto section was changed to &#34;mqtt&#34; you&#39;d then refer to the MQTT server at hostname &#34;mqtt&#34;.&lt;/p&gt;
-
-&lt;p&gt;For further reading:&lt;/p&gt;
-
-&lt;p&gt;An issue open on Niel Eyde&#39;s rpi-nodered Github, &lt;a href=&#34;https://github.com/nieleyde/rpi-nodered/issues/5&#34;&gt;documentation for how to extend this image with your own nodes and flows&lt;/a&gt;, where I&#39;m working some of this out.&lt;/p&gt;
-
-&lt;p&gt;On the Node-RED Github, &lt;a href=&#34;https://github.com/node-red/node-red/issues/603&#34;&gt;Support for Docker install for Node-RED&lt;/a&gt;, which is epic and helpful in many ways.&lt;/p&gt;
-
-&lt;p&gt;The essential &lt;a href=&#34;http://blog.hypriot.com/&#34;&gt;Hypriot weblog&lt;/a&gt;, specifically the aforementioned &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;Docker Compose examples&lt;/a&gt; and the &lt;a href=&#34;https://github.com/hypriot/compose&#34;&gt;Hypriot Docker Compose&lt;/a&gt; Github repository.&lt;/p&gt;
 </description>
     </item>
     

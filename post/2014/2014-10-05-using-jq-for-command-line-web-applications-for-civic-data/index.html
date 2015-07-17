@@ -51,6 +51,10 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form" class="list-group-item">The Checklist Manifesto, in checklist format</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue" class="list-group-item">Detroit Sound Conservancy: Greystone Jazz rescue</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
@@ -86,10 +90,6 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market" class="list-group-item">gooseberries at Ann Arbor Farmers Market</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark" class="list-group-item">Ann Arbor City Council for July 6, 2015: online video stream goes dark</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-06-the-verge-turns-off-comments" class="list-group-item">The Verge turns off comments</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-03-reddit-is-going-up-in-flames" class="list-group-item">&#34;Reddit is going up in flames&#34;</a></li>
         
     </ul>
 
@@ -97,7 +97,9 @@ networks
 	
     </div>
 
-
+    <div class="sidebar-todo">
+	
+    </div>
     <p>&copy; 2015. All rights reserved. </p>
   </div>
 </div>
@@ -114,24 +116,58 @@ networks
 	<body> 
 		<h3>5 October 2014</h3>
 		<h1>using &#34;jq&#34; for command line web applications for civic data</h1> 
-		<p>One of the tools that I rediscovered and have been really happy for having done so is "jq", a command line tool that bills itself as "awk for json". </p>
+		<p>One of the tools that I rediscovered and have been really happy for
+having done so is &ldquo;jq&rdquo;, a command line tool that bills itself as
+&ldquo;awk for json&rdquo;.</p>
 
-<p>I've been writing awk code since 1985, and some limited subset of it is something that I know really, really well. awk, however, is from the punchcard era, and as such it likes to deal with records that are all on one line each. Parsing JSON in awk is very clumsy and ad hoc and really doesn't work all that well. Since most Internet APIs these days have some kind of JSON encoding, it means that you can't simply dash off an awk one-liner to consume and transform Internet input data.</p>
+<p>I&rsquo;ve been writing awk code since 1985, and some limited subset
+of it is something that I know really, really well. awk, however,
+is from the punchcard era, and as such it likes to deal with records
+that are all on one line each. Parsing JSON in awk is very clumsy
+and ad hoc and really doesn&rsquo;t work all that well. Since most Internet
+APIs these days have some kind of JSON encoding, it means that you
+can&rsquo;t simply dash off an awk one-liner to consume and transform
+Internet input data.</p>
 
-<p>jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority's garages:</p>
+<p>jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&rsquo;s garages:</p>
 
 <blockquote>
   <p>curl -s http://www.a2dda.org/map/AADDACount.json |
   jq "[.countdata[].spacesavail | tonumber] | add" </p>
 </blockquote>
 
-<p>I'm not going to try to explain how jq works, except to note that it's constructed in order to be a filter: data comes in one JSON object at a time, and the script iterates over them, transforming them in some way and then passing JSON out the other end. This makes it perfect for ad hoc Unix pipeline efforts where you're chipping away at a data set trying to make sense of it by successively refining it as you go.</p>
+<p>I&rsquo;m not going to try to explain how jq works, except to note that
+it&rsquo;s constructed in order to be a filter: data comes in one JSON
+object at a time, and the script iterates over them, transforming
+them in some way and then passing JSON out the other end. This makes
+it perfect for ad hoc Unix pipeline efforts where you&rsquo;re chipping
+away at a data set trying to make sense of it by successively
+refining it as you go.</p>
 
-<p>I've built jq pipelines for this Ann Arbor parking data, for AAATA bus system data, and for the Marquette Park Cemetery data. The parking data is straightforward, since it exits the system as JSON. Bus system data is only incrementally harder; it started either as HTML or as XML, and for that you want to use "tidy" and "xml2json" in your pipeline. The Park Cemetery data set started as JSON via the Socrata SODA API, but I needed little bits of "sed" and "perl" to smooth out some rough edges in the source data; it really wants to end up as GeoJSON when I'm done, but it isn't there quite yet.</p>
+<p>I&rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
+bus system data, and for the Marquette Park Cemetery data. The
+parking data is straightforward, since it exits the system as JSON.
+Bus system data is only incrementally harder; it started either as
+HTML or as XML, and for that you want to use &ldquo;tidy&rdquo; and &ldquo;xml2json&rdquo;
+in your pipeline. The Park Cemetery data set started as JSON via
+the Socrata SODA API, but I needed little bits of &ldquo;sed&rdquo; and &ldquo;perl&rdquo;
+to smooth out some rough edges in the source data; it really wants
+to end up as GeoJSON when I&rsquo;m done, but it isn&rsquo;t there quite yet.</p>
 
-<p>Shell programming is my favorite programming environment. Any time I can take a set of well-understood tools and crunch through big data sets with only a few lines of code, I'm happy. The challenge of shell programming is that it's full of opportunities to get things just a little bit wrong with parsing; by making JSON the data format that's shoveled between programs rather than a flat one-record-per-line text format, you open up the opportunity for pulling apart rather complex structures and manipulating them with hardly any work.</p>
+<p>Shell programming is my favorite programming environment. Any time
+I can take a set of well-understood tools and crunch through big
+data sets with only a few lines of code, I&rsquo;m happy. The challenge
+of shell programming is that it&rsquo;s full of opportunities to get
+things just a little bit wrong with parsing; by making JSON the
+data format that&rsquo;s shoveled between programs rather than a flat
+one-record-per-line text format, you open up the opportunity for
+pulling apart rather complex structures and manipulating them with
+hardly any work.</p>
 
-<p>For further reading, see Jeroen Janssens new book <a href="http://datascienceatthecommandline.com/">Data Science at the Command Line</a> which works you way through dozens of tools like this that can help manage big data without big programs.</p>
+<p>For further reading, see Jeroen Janssens new book <a
+href="http://datascienceatthecommandline.com/">Data Science at the
+Command Line</a> which works you way through dozens of tools like
+this that can help manage big data without big programs.</p>
  
 	</body> 
 </td>
