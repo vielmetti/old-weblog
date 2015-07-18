@@ -6,8 +6,78 @@
     <description>Recent content in Prentiss Riddle on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jul 2010 12:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Nov 2012 19:49:57 +0000</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/people/prentiss-riddle/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to write for multiple social media channels at once</title>
+      <link>http://vielmetti.github.io/post/2012/2012-11-12-how-to-write-for-multiple-social-media-channels-at-once/</link>
+      <pubDate>Mon, 12 Nov 2012 19:49:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-11-12-how-to-write-for-multiple-social-media-channels-at-once/</guid>
+      <description>&lt;p&gt;I connected my Twitter feed to my Facebook feed; now I need to learn to write for both at once. Hard to do. Is there a way to be selective?&lt;/p&gt;
+&lt;p&gt;One suggestion, from long-time blogger &lt;a href=&#34;http://prentissriddle.com/&#34; target=&#34;_self&#34;&gt;Prentiss Riddle&lt;/a&gt;, is to write things first in your weblog and then syndicate them out to wherever you want them to go. This is said to behave well with systems like Facebook that reward outbound clicks. You can then push out whatever you want to write wherever and whenever you desire, and still own the original content in a place that you can control.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.linkedin.com/pub/bill-manning/2/b58/469&#34; target=&#34;_self&#34;&gt;Bill Manning&lt;/a&gt; suggests &lt;a href=&#34;http://streamified.com/&#34; target=&#34;_self&#34;&gt;Streamified&lt;/a&gt;, which is an aggregator that pulls together a variety of inbound streams and presents them attractively. &amp;quot;Add all of your&amp;#0160;&lt;a href=&#34;http://streamified.com/#social_streams&#34;&gt;social streams&lt;/a&gt;&amp;#0160;and watch them all come together in one place.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://about.me/ryanburns&#34; target=&#34;_self&#34;&gt;Ryan Burns&lt;/a&gt; suggests &lt;a href=&#34;http://bufferapp.com/&#34; target=&#34;_self&#34;&gt;Buffer&lt;/a&gt; (bufferapp), which lets you write once and then push out those posts to multiple places. &amp;quot;Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/juliewbee&#34; target=&#34;_self&#34;&gt;Julie Weatherbee&lt;/a&gt; notes (quite correctly) that simply replicating the same text in Twitter and Facebook is folly, because it doesn&amp;#39;t play to the strengths of either medium. Twitter&amp;#39;s @ references and # hashtags look foolish in a Facebook status, and if you have someone following you on both systems, they&amp;#39;ll find the duplicate efforts irritating. Twitter&amp;#39;s rapid fire, real time updates can overwhelm a Facebook feed easily.&lt;/p&gt;
+&lt;p&gt;The real challenge, though, is in designing for the writing style. The enforced 140 character limit of Twitter forces you to be pithy, but it also gets in the way of writing coherent sentences and paragraphs. Perhaps, as I have tried to do here, I can repurpose the original Twitter posting and use it as the lead paragraph of a longer essay that lives on Typepad and is excerpted for a Facebook post. As a writing design that&amp;#39;s a hard constraint, but as usual, the discipline of constraints lends itself to better writing if you can pull it off.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How twitter and gopher were born, (or) why you should make it work on the worst system first</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-01-how-twitter-and-gopher-were-born-or-why-you-should-make-it-work-on-the-worst-system-first/</link>
+      <pubDate>Sun, 01 Feb 2009 15:42:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-01-how-twitter-and-gopher-were-born-or-why-you-should-make-it-work-on-the-worst-system-first/</guid>
+      <description>&lt;p&gt;this post on &amp;quot;&lt;a href=&#34;http://www.140characters.com/2009/01/30/how-twitter-was-born/&#34;&gt;how twitter was born&lt;/a&gt;&amp;quot; is making the rounds; thanks to &lt;a href=&#34;http://twitter.com/pzriddle&#34;&gt;Prentiss Riddle&lt;/a&gt; for alerting me to it.&amp;#0160;&amp;#0160; The best quote from it is the use case that involves the worst possible internet device in the world: text messages from a mobile phone.&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;I remember that @Jack’s first use case was city-related: telling people that the club he’s at is &lt;em&gt;happening&lt;/em&gt;.
+“I want to have a dispatch service that connects us on our phones using
+text.” His idea was to make it so simple that you don’t even think
+about what you’re doing, you just type something and send it. Typing
+something on your phone in those days meant you were probably messing
+with T9 text input, unless you were sporting a relatively rare
+smartphone. Even so, everyone in our group got the idea instantly and
+wanted it.&lt;/p&gt;&lt;p&gt;As a point of comparison, here&amp;#39;s&lt;a href=&#34;http://yourtech.typepad.com/main/2007/04/from_the_archiv.html&#34;&gt; part of the origin story for Gopher&lt;/a&gt;, the early 1990s internet system:&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;Full-text searching was like a new thing under the sun five years ago,&amp;quot; notes McCahill.&amp;#0160; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;The
+two, with assistance from the newly formed Gopher Team, fine-tuned the
+prototype as music from Nirvana and Mudhoney blared in the background. &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;It
+was a fun time,&amp;quot; recalls team member Torrey. &amp;quot;It was a lot of late
+nights and weekends and a lot of beer, pizza and speed metal.&amp;quot; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;Eventually, the team needed some files to dump into their baby Gopher so they could demonstrate its text-searching capability.&amp;#0160; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;We
+took the Usenet (the Internet&amp;#39;s newsgroup system) cookbook and put that
+into it,&amp;quot; says McCahill. &amp;quot;That was the first thing - so first the
+Gopher was serving recipes up. We figured everybody ate, and it was a
+good way of illustrating what full-text searching could do.&amp;quot; &lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;If
+you were looking for recipes with eggplant, you simply typed in the
+word and the application would locate every eggplant reference - a
+dazzling capability in 1991. &lt;/p&gt;&lt;p&gt;nothing quite like having a real use for the system you build while building it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Le Tigre - &#34;Get off the Internet&#34;</title>
+      <link>http://vielmetti.github.io/post/2008/2008-07-28-le-tigre---get/</link>
+      <pubDate>Mon, 28 Jul 2008 11:34:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-07-28-le-tigre---get/</guid>
+      <description>&lt;p&gt;Thanks to &lt;a href=&#34;http://twitter.com/pzriddle&#34;&gt;Prentiss Riddle&lt;/a&gt; for this gem from &lt;a href=&#34;http://www.letigreworld.com&#34;&gt;Le Tigre&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;object width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/DUmQf6rIB2w&amp;hl=en&amp;fs=1&#34;&gt;&lt;/param&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;&gt;&lt;/param&gt;&lt;embed src=&#34;http://www.youtube.com/v/DUmQf6rIB2w&amp;hl=en&amp;fs=1&#34; type=&#34;application/x-shockwave-flash&#34; allowfullscreen=&#34;true&#34; width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;(Get off the Internet!)&lt;br /&gt;
+I&#39;ll meet you in the street&lt;/p&gt;
+
+&lt;p&gt;get the whole scoop at &lt;a href=&#34;http://www.last.fm/music/Le+Tigre/_/Get+Off+the+Internet&#34;&gt;last.fm&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Nathan Schneider defends the memory theater</title>
@@ -27,6 +97,29 @@
 &lt;p&gt;&lt;span style=&#34;background-color: #ddebe2;&#34;&gt;Now where was I?  Distracted, I guess&lt;/span&gt;.  Like Nathan Schneider, my memories are indexed in part through the books I have been reading.  The bookshelf that he evokes, carefully collected, is the memory construct that says that when you pull in one book you want to be able to leaf through the one next to it on the bookshelf, or the whole shelf full of them assembled for a purpose.  You judge the quality of a story told through books by the quality and comprehensiveness of the books invoked to tell it, and you look for the bibliography eagerly for texts you have missed.&lt;/p&gt;
 &lt;p&gt;My bookshelves are too small to hold all the books that might sit on them, but sometimes there have been ways to make up for that.  The &lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/3177427/&#34;&gt;photo of the bookshelf&lt;/a&gt; provides some substitute to prove not only that you have had the books but also that you know that some go together with others.&lt;/p&gt;
 &lt;p&gt;Find the book&amp;#0160;&amp;lt;a href=&amp;quot;http://www.amazon.com/gp/product/0226950018/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=superpatron-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399369&amp;amp;creativeASIN=0226950018&amp;quot;&amp;gt;The Art of Memory&amp;lt;/a&amp;gt;&amp;lt;img src=&amp;quot;http://www.assoc-amazon.com/e/ir?t=&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=0226950018&amp;amp;camp=217145&amp;amp;creative=399369&amp;quot; width=&amp;quot;1&amp;quot; height=&amp;quot;1&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; style=&amp;quot;border:none !important; margin:0px !important;&amp;quot; /&amp;gt; on Amazon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Little Brown Jug, and other Michigan - Minnesota connections</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-08-the-little-brown-jug-and-other-michigan---minnesota-connections/</link>
+      <pubDate>Sat, 08 Nov 2008 14:53:54 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-08-the-little-brown-jug-and-other-michigan---minnesota-connections/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010535e32c60970c-pi&#34; style=&#34;float: left;&#34;&gt;&lt;img alt=&#34;Gopher&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef010535e32c60970c &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010535e32c60970c-800wi&#34; style=&#34;margin: 0px 5px 5px 0px;&#34; title=&#34;Gopher&#34; /&gt;&lt;/a&gt;
+ Since it&amp;#39;s game day (Michigan at Minnesota) I thought I&amp;#39;d link to at least a few connections between Michigan and Minnesota.&lt;/p&gt;&lt;p&gt;1.&amp;#0160; The Little Brown Jug is the trophy that goes back and forth between the two schools depending on which one wins the game.&amp;#0160; It was originally purchased as a water jug for the Michigan team on an away game to Minnesota in 1903, it was left behind after the game (a 6-6 tie).&amp;#0160; &lt;a href=&#34;http://www.thedailygopher.com/2008/11/6/655570/the-little-brown-jug&#34;&gt;The Daily Gopher has an excellent roundup of the story (warning: Minnesota point of view) quoting from several Michigan football blogs.&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Days later when Yost sent a letter requesting his water jug back, Cook replied saying &amp;quot;&lt;em&gt;We have your little brown jug; if you want it, you’ll have to win it.&lt;/em&gt;&amp;quot; &lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;More on the &lt;a href=&#34;http://arborwiki.org/city/Little_Brown_Jug&#34;&gt;Little Brown Jug&lt;/a&gt;, and on the &lt;a href=&#34;http://arborwiki.org/city/Brown_Jug&#34;&gt;Brown Jug&lt;/a&gt; (a South University campus bar and restaurant) at Arborwiki.&lt;/p&gt;&lt;p&gt;2.&amp;#0160; Michigan shares a border with Minnesota along Lake Superior, and there is public transportation by ferry from Houghton, Michigan to Grand Portage, Minnesota via a stop at the Isle Royale National Park.&amp;#0160;&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.isleroyaleboats.com/&#34;&gt;Minnesota to Isle Royale ferry information:&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Grand Portage Isle Royale Transportation Line began as a way for the
+    Sivertson family of Lake Superior&amp;#39;s north shore to transport their catch of
+    freshwater fish from Isle Royale to Minnesota. It gradually expanded to include
+    passenger service. &lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;a href=&#34;http://www.nps.gov/isro&#34;&gt;Michigan to Isle Royale ferry information:&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Unlike other Isle Royale ferry services, the Ranger III was designed by
+the National Park Service specifically to bridge the gap between the
+mainland and the Island. It was built to withstand the Lake’s fierce
+storms and its ice breaking capabilities assist in opening the park in
+the spring. An experienced nine-member crew take great pride in not
+only maintaining the vessel, but in serving its passengers. The Ranger
+III’s Captain, Bill Hanrahan, a graduate of the Great Lakes Maritime
+Academy, has over&amp;#0160;30 years of experience; the crews combined experience
+is just under 200 years.&lt;/div&gt;&lt;p&gt;&lt;br /&gt;3.&amp;#0160; Ann Arbor, MI was the site of GopherCon &amp;#39;92, a 50 person workshop for developers and users of the Gopher information system, a pioneering Internet publishing system that was for some brief furry moment the hot new thing on MTV and bigger than that super-complicated World Wide Web hypertext thing.&amp;#0160; &lt;a href=&#34;http://iubio.bio.indiana.edu/soft/util/gopher/gophercon1.txt&#34;&gt;Prentiss Riddle wrote up the trip report for it,&lt;/a&gt; and here&amp;#39;s his writeup on my presentation at the time:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;RELATED TECHNOLOGIES: Ed Vielmetti of CICnet gave a talk on &amp;quot;what we would be gathering to discuss if UMinn had never developed Gopher&amp;quot;, meaning primarily World-Wide Web (WWW). WWW was developed for the high-energy physics community and serves as a model of what Gopher could do if a discipline-oriented virtual community invested in it&lt;br /&gt;heavily. WWW is based on SGML (Standard General Markup Language&amp;quot;), an ISO standard for marking up text which WWW uses to implement hypertext. SGML is a bear and it is a significant investment of effort to properly add a document to WWW, but the result is quite powerful (for instance, WWW handles footnotes in hypertext). &lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The Internet periodically notices that Gopher is not dead; here are a survey of the current Gopher infrastructure from &lt;a href=&#34;http://kottke.org/06/08/gopher-still-going&#34;&gt;Jason Kottke&lt;/a&gt;, some April development from &lt;a href=&#34;http://george.hotelling.net/90percent/geekery/howto_make_a_weblog_a_gopherlog.php&#34;&gt;George Hotelling&lt;/a&gt;, and a manifesto from &lt;a href=&#34;http://www.scn.org/%7Ebkarger/gopher-manifesto&#34;&gt;Bjorn Karger&lt;/a&gt;.&amp;#0160; &lt;/p&gt;
 </description>
     </item>
     

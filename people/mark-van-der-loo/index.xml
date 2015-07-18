@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mark Van Der Loo on tracker</title>
+    <link>http://vielmetti.github.io/people/mark-van-der-loo/</link>
+    <description>Recent content in Mark Van Der Loo on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jul 2015 14:23:56 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/people/mark-van-der-loo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>food coop notes for July 18, 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</link>
+      <pubDate>Sat, 18 Jul 2015 14:23:56 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</guid>
+      <description>&lt;p&gt;Some notes over a cup of coffee and some cold roast chicken. I need
+to mix up my menu selections at the coop more so that I can remember
+what I was writing by what I ate; I usually eat the same thing!&lt;/p&gt;
+
+&lt;p&gt;Peter Honeyman and Lynn Chamberlain were here at the coop, doing
+the NY Times crossword. (Saturday crossword in 36:05, a mid-day triumph.)&lt;/p&gt;
+
+&lt;p&gt;At Farmer&amp;rsquo;s Market: cherries, parsley, kale, potatoes, dill, tomatoes.
+The potatoes will be boiled and dressed with a dill vinaigrette.
+(I had to look up the word vinaigrette.) The recipes I found add
+green beans and boiled eggs to a salad with cold potatoes, using
+a mustard vinaigrette with added chopped dill. The cherries will
+probably just be eaten out of hand.&lt;/p&gt;
+
+&lt;p&gt;The UP travel discussion included the obligatory discussion of insects,
+including ticks (&amp;ldquo;like bedbugs, for the woods&amp;rdquo;) and horrible sand
+flies that will swarm you and leave you screaming running from the
+beach. There&amp;rsquo;s a good reason that the UP has miles of undeveloped beaches.&lt;/p&gt;
+
+&lt;p&gt;You can&amp;rsquo;t mention bugs in the UP without remembering
+&lt;a href=&#34;http://somethingscrawlinginmyhair.com/&#34;&gt;The Backyard Arthropod Project&lt;/a&gt;,
+&amp;ldquo;A Field Guide to the North Side of Old Mill Hill, Atlantic Mine, MI&amp;rdquo;,
+by Tim Eisele.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m still hacking away at generating interesting reports from
+the &lt;a href=&#34;https://github.com/markvanderloo/stringdist&#34;&gt;stringdist&lt;/a&gt;
+package from Mark van der Loo. Yesterday&amp;rsquo;s post was
+&lt;a href=&#34;http://stackoverflow.com/questions/31486913/r-producing-a-list-of-near-matches-with-stringdist-and-stringdistmatrix&#34;&gt;R: producing a list of near matches with stringdist and stringdistmatrix&lt;/a&gt; and the answers provided
+helped unearth the melt() function from the reshape2 library,
+and with &lt;em&gt;that&lt;/em&gt; you take a matrix and turn it into an edge list.
+A little bit of filtering, and you get a report of near matches
+in a list, enough for me to catch variant spellings of
+vinagrette to vinaigrette in a &amp;ldquo;make test&amp;rdquo; step.&lt;/p&gt;
+
+&lt;p&gt;Stack Overflow was fun for this task, I&amp;rsquo;m going to try it again.
+The process of describing your problem in enough detail that someone
+who knows the issue can add the one or two lines of code to make
+it work is a useful exercise. It&amp;rsquo;s the opposite of a search
+engine in many ways - of course I could find melt() once I know
+its name, but if you don&amp;rsquo;t know the name you can&amp;rsquo;t find anything.&lt;/p&gt;
+
+&lt;p&gt;The next bit of interestingness has to do with turning the dist
+data structure returned by stringdist into a variety of useful
+images. There&amp;rsquo;s a package that dumps out a &amp;ldquo;dendogram&amp;rdquo;, and if I&amp;rsquo;m
+careful in formatting the data I think I can coerce R into producing
+data that can be imported directly into the tools that
+Valdis Krebs
+has written for network exploration and visualization. The
+promise within R is a &amp;ldquo;distgraph&amp;rdquo; that does the visualization,
+but I&amp;rsquo;m not yet finding the cadre of experts who use that.&lt;/p&gt;
+
+&lt;p&gt;The art on the walls is Julie Marron-Parker&amp;rsquo;s &amp;ldquo;Sunburst&amp;rdquo;. She writes&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Let the sun shine.&lt;/p&gt;
+
+&lt;p&gt;Living in Michigan (160 days of sun per year) I have come to
+appreciate when the sun is out. This piece brings the energy of the
+sun into the world, regardless of the weather outside.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tom Meloche writes about &lt;a href=&#34;http://tommeloche.com/the-doorway-effect/&#34;&gt;the doorway effect&lt;/a&gt;,
+where going through a doorway wipes out your short term memory
+to make way for new short term memories. It got me thinking
+about the memory palace
+, and how you might construct
+in your mind a series of portals and doorways to walk through so
+that you can remember a series of items in such a way that you
+take advantage of the doorway effect to pull memories in and out
+of your short term thinking. The technology is &amp;ldquo;mnemotechnics&amp;rdquo;,
+that&amp;rsquo;s a good keyword to pull lots of interesting thinking
+(which sometimes sounds like crazytalk).&lt;/p&gt;
+
+&lt;p&gt;That reminds me - I need to move to another room, so that I can
+remember what I need to do here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

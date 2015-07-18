@@ -50,7 +50,8 @@ link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
 &lt;li&gt;Pagination with group by date, coming in 0.15&lt;/li&gt;
 &lt;li&gt;Fix problem with dots in taxonomy names, coming in 0.15&lt;/li&gt;
 &lt;li&gt;Some kind of database driven page data, in preparation
-for rolling out a power outage maps collection based on DOE EIA data&lt;/li&gt;
+for rolling out a power outage maps collection based on DOE EIA data,
+cf &lt;a href=&#34;http://gohugo.io/extras/datafiles/&#34;&gt;http://gohugo.io/extras/datafiles/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
