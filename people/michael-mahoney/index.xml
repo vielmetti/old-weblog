@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Mahoney on tracker</title>
+    <link>http://vielmetti.github.io/people/michael-mahoney/</link>
+    <description>Recent content in Michael Mahoney on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Dec 2008 13:19:21 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/people/michael-mahoney/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Community structure in large social and information networks, Michael Mahoney, Stanford, speaking at the University of Michigan on Friday, December 5, 2008, 11am-noon, CSE 3941</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-02-community-structure-in-large-social-and-information-networks-michael-mahoney-stanford-speaking-at-th/</link>
+      <pubDate>Tue, 02 Dec 2008 13:19:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-02-community-structure-in-large-social-and-information-networks-michael-mahoney-stanford-speaking-at-th/</guid>
+      <description>&lt;p&gt;thanks to Lada Adamic for the heads up for this seminar on the U of Michigan campus.&lt;/p&gt;&lt;p&gt;more about the speaker: an &lt;a href=&#34;http://www.cs.yale.edu/homes/mmahoney/&#34;&gt;old home page at Yale&lt;/a&gt;; he&amp;#39;s ex Yahoo research; his current &lt;a href=&#34;http://cs.stanford.edu/people/mmahoney/&#34;&gt;home page at Stanford.&lt;/a&gt;&amp;#0160; He has published &lt;a href=&#34;http://arxiv.org/abs/0810.1355&#34;&gt;a paper at arXiv that covers this material.&lt;/a&gt;&amp;#0160; A pull quote from that paper is:&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Our results suggest a significantly more refined picture of community structure in large networks than has been appreciated previously. Our observations agree with previous work on small networks, but we show that large networks have a very different structure.&amp;#0160; In particular, we observe tight communities that are barely connected to the rest of the network at very small size scales (up to $\approx 100$ nodes); and communities of size scale beyond $\approx 100$ nodes gradually ``blend into&amp;#39;&amp;#39; the expander-like core of the network and thus become less ``community-like,&amp;#39;&amp;#39; with a roughly inverse relationship between community size and optimal community quality. This observation agrees well with the so-called Dunbar number which gives a limit to the size of a well-functioning community.&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;br /&gt;FRIDAY Dec. 5, 2008&lt;br /&gt;
+11:00 am - 12:00noon&lt;br /&gt;
+CSE 3941&lt;/p&gt;&lt;p&gt;
+COMMUNITY STRUCTURE IN LARGE SOCIAL AND INFORMATION NETWORKS&lt;br /&gt;
+Michael W. Mahoney&lt;br /&gt;
+Stanford University&lt;/p&gt;&lt;p&gt;
+The concept of a community is central to social network analysis, and
+thus a large body of work has been devoted to identifying community
+structure. For example, a community may be thought of as a set of web
+pages on related topics, a set of people who share common interests, or
+more generally as a set of nodes in a network more similar amongst
+themselves than with the remainder of the network. &amp;#0160;Motivated by
+difficulties we experienced at actually finding meaningful communities
+in large real-world networks, we have performed a large scale analysis
+of a wide range of social and information networks. &amp;#0160;Our main
+methodology uses local spectral methods and involves computing
+isoperimetric properties of the networks at various size scales -- a
+novel application of ideas from scientific computation to internet data
+analysis. Our empirical results suggest a significantly more refined
+picture of community structure than has been appreciated previously.
+Our most striking finding is that in nearly every network dataset we
+examined, we observe tight but almost trivial communities at very small
+size scales, and at larger size scales, the best possible communities
+gradually ``blend in&amp;#39;&amp;#39; with the rest of the network and thus become
+less ``community-like.&amp;#39;&amp;#39; This behavior is not explained, even at a
+qualitative level, by any of the commonly-used network generation
+models. Moreover, this behavior is exactly the opposite of what one
+would expect based on experience with and intuition from expander
+graphs, from graphs that are well-embeddable in a low-dimensional
+structure, and from small social networks that have served as testbeds
+of community detection algorithms. Possible mechanisms for reproducing
+our empirical observations will be discussed, as will implications of
+these findings for clustering, classification, and more general data
+analysis in modern large social and information networks.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -65,6 +65,40 @@ mosquitto:
     </item>
     
     <item>
+      <title>Just how cold is that window? Winter monitoring with the TI Sensortag, Node-RED, and Freeboard</title>
+      <link>http://vielmetti.github.io/post/2015/2015-01-27-just-how-cold-is-that-window-winter-monitoring-with-the-ti-sensortag-node-red-and-freeboard/</link>
+      <pubDate>Tue, 27 Jan 2015 22:11:47 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-01-27-just-how-cold-is-that-window-winter-monitoring-with-the-ti-sensortag-node-red-and-freeboard/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40b54970d img-responsive&#34; alt=&#34;SensorTag&#34; title=&#34;SensorTag&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our living room has lovely (old) wooden windows. When it&#39;s cold, the windows get cold. Last year we got some lovely thermal curtains to insulate.&lt;/p&gt;
+
+&lt;p&gt;I thought I&#39;d use some of the equipment I had to see just how cold the windows were and how much warmer the curtains are to the touch.&lt;/p&gt;
+
+&lt;p&gt;The setup:&lt;/p&gt;
+
+&lt;p&gt;Macbook Air running OS X 10.9 (Mavericks), Node-RED 0.9.1, Freeboard, TI Sensortag. I&#39;m using RabbitMQ as my MQTT message passing system, but that&#39;s not strictly necessary for this application.&lt;/p&gt;
+
+&lt;p&gt;The Macbook has support for Bluetooth Low Energy (BLE) which is what the Sensortag talks. Support for BLE in Node-RED is provided by the &#34;noble&#34; module, which the &#34;sensortag&#34; module uses to communicate with the device. Freeboard is a visualization dashboard with some simple widgets to display data coming to it.&lt;/p&gt;
+
+&lt;p&gt;This report on &lt;a href=&#34;https://gist.github.com/dceejay/fb47301b759222e05f84&#34;&gt;how to use the Freeboard dashboard with Node-RED&lt;/a&gt; has all of the difficult parts. It provides a websocket listener for Freeboard, and you use the built-in websocket transmitter on Node-RED. There&#39;s a very tiny bit of logic to pull apart the data coming off the Sensortag; it could probably be less if I were more clever.&lt;/p&gt;
+
+&lt;p&gt;The Node-RED code looks like this&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40ac5970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-01-27 at 10.00.33 PM&#34; title=&#34;Screen Shot 2015-01-27 at 10.00.33 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;and the very simple dashboard I put together to test this looks like this&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0c9e228970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-01-27 at 9.07.09 PM&#34; title=&#34;Screen Shot 2015-01-27 at 9.07.09 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;There&#39;s a catch to using the TI Sensortag; it sometimes turns itself off, to save battery. To correct this you can install new firmware on the device to disable the battery saving mode. The folks at MyWeatherCenter provide a &lt;a href=&#34;http://www.myweathercenter.net/installing-a-new-firmware-for-ti-sensortag/&#34;&gt;link to their firmware&lt;/a&gt; which deals with the issue, at the cost of lower battery life. &lt;/p&gt;
+
+&lt;p&gt;The results: the windows are way, way colder than the inside air (about 45 degrees), but the curtains read much warmer (about 60 degrees). Thermal curtains for the win!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Running Node-RED on a Raspberry Pi with Docker and Hypriot</title>
       <link>http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/</link>
       <pubDate>Sat, 23 May 2015 02:06:33 -0400</pubDate>
@@ -85,6 +119,60 @@ mosquitto:
 &lt;p&gt;Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have &lt;a href=&#34;http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/&#34;&gt;merged forces&lt;/a&gt; after a fork, which means hopefully development will start to be sane again.&lt;/p&gt;
 
 &lt;p&gt;That all said I am not sure I have everything I need yet but as a leap forward it&#39;s pretty good!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The internet of power outages</title>
+      <link>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</link>
+      <pubDate>Fri, 27 Jun 2014 19:05:33 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</guid>
+      <description>&lt;p&gt;The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there&#39;s bad weather - to the extent that I can pretty much tell where there&#39;s bad weather by the outbound clicks on the page.&lt;/p&gt;
+
+&lt;p&gt;The page, however, is not fed with live data; it only has static instances of previous maps. It in and of itself doesn&#39;t alert when there&#39;s trouble, and it doesn&#39;t let you know that the storm coming your way might be severe.&lt;/p&gt;
+
+&lt;p&gt;One of the challenges of automation in the utility outage map space is the diversity of vendors for power company outage maps and the utter lack of any standard interface. To dig out how many people have lost their power in 48104 under program control, you actually have to work at it, and to rely on undocumented interfaces that could change at any time. For all of the user-friendly efforts out there, there&#39;s a lot of systems that are hard to pull raw data from.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve started a very tiny version of what I suspect could be a complete project, namely to automate the alerting when a few zip codes around me have outages. The code, written in Node-RED, runs periodically to poll the DTE Energy outage map site and to ask for outage data for a few specific zip codes. It then parses that data in a Javascript/node.js node which returns it to a switch that decides whether to alert (in my case, when there are more than 250 outages in any given monitored zipcode). Alerts go out via Twitter on the @vielmetti account and via SMS to me.&lt;/p&gt;
+
+&lt;p&gt;The monitoring task for the adjacent utility company, Consumers Energy, is a bit different. I haven&#39;t completed this effort yet, but again a poll of their site will pull a report which in this case has a list of counties and an outage count in each county. There&#39;s a few counties that I&#39;m monitoring, and I&#39;ll figure out the threshold for alerts there.&lt;/p&gt;
+
+&lt;p&gt;Node-RED is a nice programming environment for this, since it&#39;s flexible in many ways about how data gets into it and how and when alerts are done. I&#39;m still sorting through the new &#34;trigger&#34; alert node in 0.8.0 which makes it possible to buffer up things so you don&#39;t get an overflow of messages all at once, and there&#39;s some subtle alarm-management logic that I want to get right so that this system can be used for real alerting and not just curiosity.&lt;/p&gt;
+
+&lt;p&gt;When Hurricane Sandy hit the east coast, there was a long delay between the time that power went out and when it was restored, and there was some innovation in outage tracking and holding public utilities accountable for restoration performance. Similarly, when a storm hit the East Lansing, MI area there were furious municipal power consumers outraged that their utility company didn&#39;t have an accurate tracking map.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m hoping that this starts to look like an architecture for outage tracking that can be refined over time, and I&#39;d be super happy if utility companies started to post outage information in any reasonable easy to parse JSON or XML format files (really, it just has to be published, standards can occur as we get experience). I&#39;ll poll regularly enough to get some kind of timeline as to when the lights went out and how long it took for them to return.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>that new computer smell</title>
+      <link>http://vielmetti.github.io/post/2014/2014-09-30-that-new-computer-smell/</link>
+      <pubDate>Tue, 30 Sep 2014 14:11:44 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-09-30-that-new-computer-smell/</guid>
+      <description>&lt;p&gt;I won&#39;t be complaining about a small keyboard or a small screen for a while, but I have a lot of tools to reinstall on a new system.&lt;/p&gt;
+
+&lt;p&gt;In order of appearance:&lt;/p&gt;
+
+&lt;p&gt;Chrome, first thing. I like Safari enough in a pinch, but when it comes time to sync up my working environment, Chrome is what I need. A bonus on this system is that there&#39;s a working full-screen mode.&lt;/p&gt;
+
+&lt;p&gt;git comes with the machine, so I didn&#39;t have to install it; it&#39;s a big part of making sure that stuff gets version tracked.&lt;/p&gt;
+
+&lt;p&gt;Node-RED. I need to have a simple programming environment that is network and device aware, and for the past few months Node-RED has been it. I&#39;m at version 0.9.0 now. That depends first on having node.js installed, and subsequently on pulling in a lot of Node-RED dependencies.&lt;/p&gt;
+
+&lt;p&gt;Contacts. I&#39;ve synced Google Contacts with the Apple address book; that took an extra step since I&#39;m using 2-factor authentication at Google. The CardDAV support is new to me.&lt;/p&gt;
+
+&lt;p&gt;Dropbox. Plug it in, it just works. Next.&lt;/p&gt;
+
+&lt;p&gt;Google Drive. Plug it in, it seems to work; lots to sync including a lot of photos and a lot of unsorted old crap.&lt;/p&gt;
+
+&lt;p&gt;One of the things I&#39;m realizing is that yes, there&#39;s lots of &#34;unsorted old crap&#34; on this which is still a new machine. &lt;/p&gt;
+
+&lt;p&gt;XCode, that&#39;s a mighty big download.&lt;/p&gt;
+
+&lt;p&gt;Apple Software Update is patching the shellshock vulnerability, I hope.&lt;/p&gt;
 </description>
     </item>
     

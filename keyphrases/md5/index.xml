@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Md5 on tracker</title>
+    <link>http://vielmetti.github.io/keyphrases/md5/</link>
+    <description>Recent content in Md5 on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2008 15:51:36 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/md5/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>&#34;crush collision&#34;, a new album from The MD5</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-31-crush-collision-a-new-album-from-the-md5/</link>
+      <pubDate>Wed, 31 Dec 2008 15:51:36 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-31-crush-collision-a-new-album-from-the-md5/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.win.tue.nl/hashclash/rogue-ca/images/team.png&#34; /&gt;&lt;/p&gt;&lt;p&gt;No, not really, but wouldn&amp;#39;t it be awesome?&lt;/p&gt;&lt;p&gt;This is the team that wrote the paper &lt;a href=&#34;http://www.win.tue.nl/hashclash/rogue-ca/&#34;&gt;MD5 considered harmful today: Creating a rogue CA certificate&lt;/a&gt; which showed that the security model of HTTPS can be defeated using a combination of attacks on the MD5 hash algorithm plus non-random serial numbers in the popular RapidSSL and FreeSSL certificates.&amp;#0160; They used &lt;a href=&#34;http://www.win.tue.nl/%7Ebdeweger/PS3Lab/&#34;&gt;a cluster of 200 PS3s for a weekend of number crunching.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/MC5-Kick-Out-Jams/dp/B0009CTUY6/ref=sr_1_2?ie=UTF8&amp;amp;s=dvd&amp;amp;qid=1230756336&amp;amp;sr=8-2&#34;&gt;&lt;img alt=&#34;Mc5-kick-out-the-jams&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef0105369fcf37970b &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0105369fcf37970b-800wi&#34; title=&#34;Mc5-kick-out-the-jams&#34; /&gt;&lt;/a&gt;
+ &lt;/p&gt;&lt;p&gt;&lt;br /&gt;The techno show &lt;a href=&#34;http://www.wcbn.org&#34;&gt;Crush Collision is on Thursdays at 10pm Eastern on WCBN.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

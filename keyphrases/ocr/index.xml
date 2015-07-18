@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ocr on tracker</title>
+    <link>http://vielmetti.github.io/keyphrases/ocr/</link>
+    <description>Recent content in Ocr on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Feb 2009 01:20:58 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/ocr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Optical Character Recognition with parallel computing?</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-24-optical-character-recognition-with-parallel-computing/</link>
+      <pubDate>Tue, 24 Feb 2009 01:20:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-24-optical-character-recognition-with-parallel-computing/</guid>
+      <description>&lt;p&gt;Some references to collect here on the use of general-purpose graphic processors in OCR.&amp;#0160; Nominally, you run some kind of MapReduce based algorithm with a GPGPU over some image, and out spits text much faster than any ordinary processor of any speed; of course, there are lots of details to attend to.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.eecs.berkeley.edu/Research/Projects/Data/102604.html&#34;&gt;From Berkeley EECS: Algorithms and Frameworks for OCR and Content-based Image Retrieval&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;Jike Chong, Bryan Christopher Catanzaro, Narayanan Sundaram, Fares Hedayati and Kurt Keutzer&lt;/p&gt;
+
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;A new breed of general-purpose manycore computing platform is
+emerging. Exemplary examples include the Niagara from Sun Microsystems,
+the G80 from Nvidia, the Cell from IBM, and the up-coming Larrabee from
+Intel. These manycore processors each pack 8-32 relatively simple cores
+on a chip, capable of supporting up to 100s of threads, and boast
+tremendous potential peak single-chip performances up to the range of
+Tera-FLOPS. However, traditional algorithms and applications in many
+domains cannot take advantage of much of the parallelism provided by
+these platforms. &lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;The ParLab at Berkeley was recently founded in part to help
+meet this acute need for novel algorithmic approaches to unleash the
+performance potentials of emerging manycore platforms for a wide range
+of application domains. It proposes to concentrate on analyzing the
+communication and computation patterns (or Dwarfs) of important classes
+of algorithms underlying modern application domains, and develop
+techniques to efficiently parallelize them for the general purpose
+manycore platforms.
+&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;We concentrate on the domain of image recognition and
+retrieval, leveraging the Intel PIRO content-based image retrieval
+framework as a motivating application. Specifically, we study the
+parallelization of classification algorithms for machine learning, and
+develop parallelization techniques to improve the performance of these
+algorithms and applications on the emerging manycore platforms.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.bv2.co.uk/?p=281&#34;&gt;Here&amp;#39;s a discussion of an OCR system that uses the CUDA libraries called cocr&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;The cuda implementation allows for exceptionally fast image
+manipulation, cleaning and segmentation before being presented to the
+template based ocr system.&amp;#0160; Traditional cpu based ocr systems are very
+slow, especially in the image rotation, cleaning etc departments and
+although cocr is by no means a complete ocr package it is orders of
+magnitude faster than the various cpu based ones I’ve tried. With a bit
+more work and an additional of a neural network ocr it could easily
+become a system able to do greater than realtime ocr’ing.&amp;#0160; Neural
+networks are extremely well suited to GPU implementations due to their
+inherit parallelism. I will post more snippets and modules of the
+system here over the coming weeks.&lt;/p&gt;&lt;p&gt;I wasn&amp;#39;t able to find any evidence that the &lt;a href=&#34;http://code.google.com/p/ocropus/&#34;&gt;ocropus &lt;/a&gt;OCR system that Google has used and released is using any parallel computing mechanisms, so this still looks like &amp;quot;gee, it should work for someone, if you can throw a PhD student or two at it.&amp;quot;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

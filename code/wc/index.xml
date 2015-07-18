@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wc on tracker</title>
+    <link>http://vielmetti.github.io/code/wc/</link>
+    <description>Recent content in Wc on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jun 2013 00:58:42 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/wc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Joyent Manta: map/reduce for Unix natives</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-27-joyent-manta-mapreduce-for-unix-natives/</link>
+      <pubDate>Thu, 27 Jun 2013 00:58:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-27-joyent-manta-mapreduce-for-unix-natives/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.typepad.com/dashboard&#34; target=&#34;_self&#34;&gt;Joyent has released Manta&lt;/a&gt;, a computing environment that includes a powerful map/reduce system which leverages native Unix commands. Unlike a Hadoop world where you have to spin up a Java environment to get anything done, Manta makes map/reduce as simple as possible for those of us who know the Unix shell pretty well.&lt;/p&gt;
+&lt;p&gt;Some examples may be useful.&lt;/p&gt;
+&lt;pre&gt;for n in $HOME/doc/books/*
+do 
+   wc -l $n &amp;gt;&amp;gt; $TMP/wc-tmp
+done
+awk &amp;#39;{ t += $1 } END { print t }&amp;#39; &amp;lt; $TMP/wc-tmp
+&lt;/pre&gt;
+&lt;p&gt;has an equivalent in Manta as something like&lt;/p&gt;
+&lt;pre&gt;mfind -t o /$MANTA_HOME/stor/books | \
+   mjob create -o -m &amp;quot;wc -l&amp;quot; -r &amp;quot;awk &amp;#39;{ t += \$1 } END { print t }&amp;#39; &amp;quot;
+&lt;/pre&gt;
+&lt;p&gt;where the word count command &amp;quot;wc&amp;quot; is the &amp;quot;map&amp;quot; step, and the awk summation is the &amp;quot;reduce&amp;quot; step.&lt;/p&gt;
+&lt;p&gt;Some other commentary on the system, which I&amp;#39;m still learning, is scattered around the net.&lt;/p&gt;
+&lt;p&gt;Joyent: &lt;a href=&#34;http://www.joyent.com/blog/big-compute-for-big-data-with-manta-storage-service&#34; target=&#34;_self&#34;&gt;Big compute for Big Data with Manta&lt;/a&gt; (screencast)&lt;/p&gt;
+&lt;p&gt;Joyent: &lt;a href=&#34;http://www.joyent.com/blog/hello-manta-bringing-unix-to-big-data&#34; target=&#34;_self&#34;&gt;Hello Manta: Bringing Unix to Big Data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Wanelo:&amp;#0160;&lt;a href=&#34;http://building.wanelo.com/post/54110156963/a-cost-effective-approach-to-scaling-event-based-data&#34; target=&#34;_self&#34;&gt;A Cost-effective Approach to Scaling Event-based Data Collection and Analysis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for pointing this out, Alan Gutierrez!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

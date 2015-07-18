@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clinfotracker on tracker</title>
+    <link>http://vielmetti.github.io/keyphrases/clinfotracker/</link>
+    <description>Recent content in Clinfotracker on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Sep 2008 14:03:12 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/clinfotracker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Clinical reminder systems</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-10-clinical-remind/</link>
+      <pubDate>Wed, 10 Sep 2008 14:03:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-10-clinical-remind/</guid>
+      <description>&lt;p&gt;Part of a series on &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/reminder_systems&#34;&gt;reminder systems.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;--&lt;/p&gt;
+
+&lt;p&gt;One of the issues in medical care, especially care for patients with chronic conditions that require ongoing attention and monitoring, is making sure that both doctors and patients are reminded about appointments and tests according to what may be a complex schedule.&amp;nbsp; On any individual basis this is not too hard to follow, but as a practice gets busy there may be more future events to be aware of than any one person can keep in their head.&lt;/p&gt;
+
+&lt;p&gt;As an example of this (not the only example), there is a system developed at the University of Michigan called ClinfoTracker.&amp;nbsp; &amp;nbsp;It uses information from patient healthcare records to remind patients and medical staff of expected upcoming dates for appointments and tests, and to remind doctors that if a test has not been completed that they should re-request it.&amp;nbsp; This complex data and protocol driven reminder scheduling is way beyond the postcard you get from your dentist, and as such it can provide some considerable addition support in working with people who may not remember all of the things that need to happen in the future.&amp;nbsp; Quoting now &lt;a href=&#34;http://www2.med.umich.edu/prmc/media/newsroom/details.cfm?ID=609&#34;&gt;from a press release from the UMHS&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;“We felt there was a need to develop a reminder and tracking
+system that could be generalized in very distinct, diverse practices.
+We found the ClinfoTracker system could fit relatively easily into
+routine patient care flow and was easy to implement into a practice,”
+says study author Donald Nease, M.D., associate professor of &lt;a href=&#34;http://www.med.umich.edu/fammed/&#34;&gt;family medicine &lt;/a&gt;at the &lt;a href=&#34;http://www.med.umich.edu/medschool/&#34;&gt;U-M Medical School &lt;/a&gt;and co-creator of ClinfoTracker.&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+
+&lt;div&gt;The greatest improvements in screening rates occurred at practices
+that were more technologically savvy and practices where employees were
+more adaptable and worked well together.&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+
+&lt;div&gt;Initially, ClinfoTracker was developed to help doctors track
+patients’ clinical problems and preventive care over time. The software
+can also assist with chronic care, such as diabetes testing, as well as
+with cancer screenings and other routine tests.&lt;/div&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;&lt;a href=&#34;http://sitemaker.umich.edu/clinfotracker/home&#34;&gt;The ClinfoTracker site describes the operation at the clinical level:&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Specifically, Cielo Clinic provides the clinician with a one sheet
+clinical summary (Encounter Form) that includes chronic and active
+problems, and needed services. Services that a patient might be
+eligible for are based on their age, gender and/or clinical problems.
+Following the principle that clinicians should only be prompted when
+necessary, prior to the visit, Clinic scans billing, lab and radiology
+databases to determine if an eligible service is up to date. If it is,
+clinicians are not prompted to perform it.
+&lt;/p&gt;
+
+&lt;p&gt;During the patient visit, the clinician markes updates to the
+problem list on the Encounter Form, and checks the appropriate boxes
+next to the prompted services. Services may be marked as having been
+&amp;quot;Done&amp;quot;, &amp;quot;Discussed&amp;quot;, &amp;quot;Ordered&amp;quot;, &amp;quot;Patient refused&amp;quot;, &amp;quot;Not a candidate&amp;quot;,
+or &amp;quot;Not addressed.&amp;quot; In this way, clinicians have flexibility in
+indicating how the prompt has been addressed, or whether the prompt is
+appropriate. For example, &amp;quot;Not a candidate&amp;quot; might be checked for a
+patient that is flagged as needing a pap smear, but has had a
+hysterectomy. This removes the prompt. A &amp;quot;Patient refused&amp;quot; check
+removes the prompt for one year.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;The U of Michigan system is one of several such systems that use the phrase &amp;quot;clinical reminder system&amp;quot;.&amp;nbsp; Some others include:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://crs.heinz.cmu.edu/&#34;&gt;The Clinical Reminder System&lt;/a&gt; is a project of The Heinz School at Carnegie Mellon University and the West Penn Allegheny Health System:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span face=&#34;Verdana, Arial, Helvetica, sans-serif&#34; style=&#34;font-size: 0.8em;&#34;&gt;The Clinical 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;Reminder System is a prototype Decision Support System that combines a 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;relational database, a knowledge base consisting of algorithms that 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;implement disease management guidelines, integration with hospital 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;information systems and a web-based interface allowing for physician 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;management of patient data and suggested medical responses. It is a joint 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;research project of The Heinz School at Carnegie Mellon University and The 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;Department of Medicine at The West Penn Allegheny Health System. This 
+&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;application has been in use within a clinical setting since 2001.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;There is a similar system in place at the VA hospitals; here&#39;s&lt;a href=&#34;http://www.jamia.org/cgi/content/abstract/12/4/438&#34;&gt; a review showing barriers to adoption: (Saleem and Asch, 2005)&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Optimally using the CR system for its intended purpose&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;was impeded by (1) lack of coordination between nurses and providers;&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;(2) using the reminders while not with the patient, impairing&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;data acquisition and/or implementation of recommended actions;&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;(3) workload; (4) lack of CR flexibility; and (5) poor interface&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;usability. Facilitators included (1) limiting the number of&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;reminders at a site; (2) strategic location of the computer&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;workstations; (3) integration of reminders into workflow; and&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;(4) the ability to document system problems and receive prompt&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;administrator feedback.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;This set of tools uses &amp;quot;reminder system&amp;quot; as a part of a &amp;quot;decision support system&amp;quot; (both of which are lovely sets of words with a bunch of coded history and software tied around them).&lt;/p&gt;
+
+&lt;p&gt;One good contact in the Ann Arbor area is &lt;a href=&#34;http://www.sph.umich.edu/iscr/faculty/profile.cfm?uniqname=kzheng&#34;&gt;Kai Zheng&lt;/a&gt; who teaches a course, &lt;a href=&#34;http://www.sph.umich.edu/iscr/caid/display_course.cfm?CourseID=HMP668&#34;&gt;Introduction to Health Informatics&lt;/a&gt;, which covers this and other topics.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -116,10 +116,10 @@ networks
 	<body> 
 		<h3>27 June 2013</h3>
 		<h1>Joyent Manta: map/reduce for Unix natives</h1> 
-		<p><p><a href="http://www.typepad.com/dashboard" target="_self">Joyent has released Manta</a>, a computing environment that includes a powerful map/reduce system which leverages native Unix commands. Unlike a Hadoop world where you have to spin up a Java environment to get anything done, Manta makes map/reduce as simple as possible for those of us who know the Unix shell pretty well.</p>
+		<p><a href="http://www.typepad.com/dashboard" target="_self">Joyent has released Manta</a>, a computing environment that includes a powerful map/reduce system which leverages native Unix commands. Unlike a Hadoop world where you have to spin up a Java environment to get anything done, Manta makes map/reduce as simple as possible for those of us who know the Unix shell pretty well.</p>
 <p>Some examples may be useful.</p>
 <pre>for n in $HOME/doc/books/*
-do
+do 
    wc -l $n &gt;&gt; $TMP/wc-tmp
 done
 awk &#39;{ t += $1 } END { print t }&#39; &lt; $TMP/wc-tmp
@@ -134,13 +134,6 @@ awk &#39;{ t += $1 } END { print t }&#39; &lt; $TMP/wc-tmp
 <p>Joyent: <a href="http://www.joyent.com/blog/hello-manta-bringing-unix-to-big-data" target="_self">Hello Manta: Bringing Unix to Big Data</a></p>
 <p>Wanelo:&#0160;<a href="http://building.wanelo.com/post/54110156963/a-cost-effective-approach-to-scaling-event-based-data" target="_self">A Cost-effective Approach to Scaling Event-based Data Collection and Analysis</a></p>
 <p>Thanks for pointing this out, Alan Gutierrez!</p>
-<fieldset class="zemanta-related"><legend class="zemanta-related-title">Related articles</legend>
-<div class="zemanta-article-ul zemanta-article-ul-image" style="margin: 0; padding: 0; overflow: hidden;">
-<div class="zemanta-article-ul-li-image zemanta-article-ul-li" style="padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;"><a href="http://dtrace.org/blogs/dap/2013/06/25/inside-manta-distributing-the-unix-shell/" style="box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;" target="_blank"><img alt="" src="http://i.zemanta.com/179894134_80_80.jpg" style="padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;" /></a><a href="http://dtrace.org/blogs/dap/2013/06/25/inside-manta-distributing-the-unix-shell/" style="display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;" target="_blank">Inside Manta: Distributing the Unix shell</a></div>
-<div class="zemanta-article-ul-li-image zemanta-article-ul-li" style="padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;"><a href="http://www.informationweek.com/cloud-computing/software/joyent-launches-manta-service-for-cloud/240157242?cid=RSSfeed_IWK_ALL" style="box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;" target="_blank"><img alt="" src="http://i.zemanta.com/179712497_80_80.jpg" style="padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;" /></a><a href="http://www.informationweek.com/cloud-computing/software/joyent-launches-manta-service-for-cloud/240157242?cid=RSSfeed_IWK_ALL" style="display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;" target="_blank">Joyent Launches Manta Service For Cloud Computing, Storage</a></div>
-<div class="zemanta-article-ul-li-image zemanta-article-ul-li" style="padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;"><a href="http://techinamerica.com/2013/06/25/joyent-goes-big-on-big-data-computing-and-storage-with-manta-service/" style="box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;" target="_blank"><img alt="" src="http://i.zemanta.com/179691445_80_80.jpg" style="padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;" /></a><a href="http://techinamerica.com/2013/06/25/joyent-goes-big-on-big-data-computing-and-storage-with-manta-service/" style="display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;" target="_blank">Joyent goes big on big-data computing and storage with Manta service</a></div>
-</div>
-</fieldset></p>
  
 	</body> 
 </td>

@@ -78,6 +78,47 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
     </item>
     
     <item>
+      <title>Maps with Leaflet and LeafletR</title>
+      <link>http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</link>
+      <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</guid>
+      <description>&lt;pre&gt;
+&gt; style &lt;- styleGrad(prop=&#34;score&#34;, breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg=&#34;score&#34;)
+&gt; leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)
+&lt;/pre&gt;
+
+&lt;p&gt;So, progress.&lt;/p&gt;
+
+&lt;p&gt;One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.&lt;/p&gt;
+
+&lt;p&gt;A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.&lt;/p&gt;
+
+&lt;p&gt;A screenshot of the result is below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; title=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some big caveats.&lt;/p&gt;
+
+&lt;p&gt;My color palette is all wrong - I need to think that through. &lt;/p&gt;
+
+&lt;p&gt;This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.&lt;/p&gt;
+
+&lt;p&gt;The map needs labels of some sort. (How they will look when everything is smushed together, don&#39;t know.)&lt;/p&gt;
+
+&lt;p&gt;It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.&lt;/p&gt;
+
+&lt;p&gt;The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.&lt;/p&gt;
+
+&lt;p&gt;RESTAURANT NAMES ARE IN ALL CAPS AND THAT&#39;S SHOUTING.&lt;/p&gt;
+
+&lt;p&gt;Leaflet can do all sorts of things and I&#39;ve hardly scratched the surface.&lt;/p&gt;
+
+&lt;p&gt;I probably could do this all in R - or all in Python - but I&#39;m trying to spin up on both systems &amp;amp; thus really want to use each for what they are good at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Notes on building the Marquette Park Cemetery finder app for Code Michigan</title>
       <link>http://vielmetti.github.io/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/</link>
       <pubDate>Sun, 05 Oct 2014 01:36:16 +0000</pubDate>
@@ -132,6 +173,67 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a943970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0792a943970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;WP_003205&#34; title=&#34;WP_003205&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a943970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a95c970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0792a95c970d img-responsive&#34; style=&#34;width: 439px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-05 at 1.35.20 AM&#34; title=&#34;Screen Shot 2014-10-05 at 1.35.20 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a95c970d-450wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>using &#34;jq&#34; for command line web applications for civic data</title>
+      <link>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</link>
+      <pubDate>Sun, 05 Oct 2014 09:03:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</guid>
+      <description>&lt;p&gt;One of the tools that I rediscovered and have been really happy for
+having done so is &amp;ldquo;jq&amp;rdquo;, a command line tool that bills itself as
+&amp;ldquo;awk for json&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been writing awk code since 1985, and some limited subset
+of it is something that I know really, really well. awk, however,
+is from the punchcard era, and as such it likes to deal with records
+that are all on one line each. Parsing JSON in awk is very clumsy
+and ad hoc and really doesn&amp;rsquo;t work all that well. Since most Internet
+APIs these days have some kind of JSON encoding, it means that you
+can&amp;rsquo;t simply dash off an awk one-liner to consume and transform
+Internet input data.&lt;/p&gt;
+
+&lt;p&gt;jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&amp;rsquo;s garages:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;curl -s http://www.a2dda.org/map/AADDACount.json |
+  jq &#34;[.countdata[].spacesavail | tonumber] | add&#34; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;m not going to try to explain how jq works, except to note that
+it&amp;rsquo;s constructed in order to be a filter: data comes in one JSON
+object at a time, and the script iterates over them, transforming
+them in some way and then passing JSON out the other end. This makes
+it perfect for ad hoc Unix pipeline efforts where you&amp;rsquo;re chipping
+away at a data set trying to make sense of it by successively
+refining it as you go.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
+bus system data, and for the Marquette Park Cemetery data. The
+parking data is straightforward, since it exits the system as JSON.
+Bus system data is only incrementally harder; it started either as
+HTML or as XML, and for that you want to use &amp;ldquo;tidy&amp;rdquo; and &amp;ldquo;xml2json&amp;rdquo;
+in your pipeline. The Park Cemetery data set started as JSON via
+the Socrata SODA API, but I needed little bits of &amp;ldquo;sed&amp;rdquo; and &amp;ldquo;perl&amp;rdquo;
+to smooth out some rough edges in the source data; it really wants
+to end up as GeoJSON when I&amp;rsquo;m done, but it isn&amp;rsquo;t there quite yet.&lt;/p&gt;
+
+&lt;p&gt;Shell programming is my favorite programming environment. Any time
+I can take a set of well-understood tools and crunch through big
+data sets with only a few lines of code, I&amp;rsquo;m happy. The challenge
+of shell programming is that it&amp;rsquo;s full of opportunities to get
+things just a little bit wrong with parsing; by making JSON the
+data format that&amp;rsquo;s shoveled between programs rather than a flat
+one-record-per-line text format, you open up the opportunity for
+pulling apart rather complex structures and manipulating them with
+hardly any work.&lt;/p&gt;
+
+&lt;p&gt;For further reading, see Jeroen Janssens new book &lt;a
+href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the
+Command Line&lt;/a&gt; which works you way through dozens of tools like
+this that can help manage big data without big programs.&lt;/p&gt;
 </description>
     </item>
     
