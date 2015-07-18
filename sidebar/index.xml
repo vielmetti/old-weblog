@@ -36,7 +36,7 @@
       <guid>http://vielmetti.github.io/sidebar/todo/</guid>
       <description>
 
-&lt;h2 id=&#34;things-yet-to-do-in-this-weblog-setup:5b51c9e8380c18fc2ee8d866662d01d8&#34;&gt;Things yet to do in this weblog setup:&lt;/h2&gt;
+&lt;h2 id=&#34;todo:5b51c9e8380c18fc2ee8d866662d01d8&#34;&gt;Todo&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Short codes for easy linking. First pass complete but no-op,
@@ -45,7 +45,12 @@ next phase will do the markup too.&lt;/li&gt;
 have stubs now, but they need design.&lt;/li&gt;
 &lt;li&gt;A whole &amp;ldquo;Ann Arbor&amp;rdquo; section, because there&amp;rsquo;s so much of that,
 and it should integrate with Arborwiki&lt;/li&gt;
-&lt;li&gt;Links from books to their corresponding URLs and ISBNs etc&lt;/li&gt;
+&lt;li&gt;Links from books to their corresponding URLs and ISBNs to
+link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
+&lt;li&gt;Pagination with group by date, coming in 0.15&lt;/li&gt;
+&lt;li&gt;Fix problem with dots in taxonomy names, coming in 0.15&lt;/li&gt;
+&lt;li&gt;Some kind of database driven page data, in preparation
+for rolling out a power outage maps collection based on DOE EIA data&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
