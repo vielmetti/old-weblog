@@ -6,8 +6,71 @@
     <description>Recent content in Networks on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2015 02:00:09 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 14:01:15 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The weak ties of your social network are its greatest strength</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-19-weak-ties-of-your-social-network/</link>
+      <pubDate>Sun, 19 Jul 2015 14:01:15 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-19-weak-ties-of-your-social-network/</guid>
+      <description>&lt;p&gt;Lior Zoref has a new book out called
+&lt;a href=&#34;http://www.aadl.org/catalog/record/1471756&#34;&gt;Mindsharing: the art of crowdsourcing everything&lt;/a&gt;
+(Portfolio / Penguin, 2015). I have
+a copy of it from the Ann Arbor District Library which was on the
+new shelf at Mallett&amp;rsquo;s Creek on a sunny and hot summer Sunday
+afternoon. Mallett&amp;rsquo;s has good air conditioning, a very good spot
+to be on a warm day.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://media.aadl.org/covers/1471756_200.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The challenge of a book like this is picking out the good bits
+without repeating the author&amp;rsquo;s technique of using the word
+&amp;ldquo;Mindsharing&amp;rdquo; (capitalized) at every opportunity. I&amp;rsquo;ll try to
+unpack the approach with a simpler version of the
+strategy, which seems to boil down to this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make lots of connections online, even with people who you don&amp;rsquo;t
+know very well&lt;/li&gt;
+&lt;li&gt;Ask them really good questions when you are trying to make a decision&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lots of connections is the biggest suggestion here; rather than
+get help from a small circle of trusted friends, the crowdsourcing
+approach to human improvement relies on good ideas coming from
+large or very large sets of people (at least 250), and relies on
+pulling in unexpectedly good recommendations from people who don&amp;rsquo;t
+know you very well.  Lior references Mark Granovetter&amp;rsquo;s &amp;ldquo;The Strength
+of Weak Ties&amp;rdquo; (1973) early on, but of course Granovetter didn&amp;rsquo;t
+know about Quora, Facebook, LinkedIn, and the host of other online
+properties and lists that allow for computer-mediated interaction
+with people at a distance.&lt;/p&gt;
+
+&lt;p&gt;There is an art to asking good questions that could fill a book.
+If you look on the biggest question-answering websites like Quora
+or Stack Exchange and start to follow along, you will quickly find
+that good questions get rewarded with positive feedback and bad
+questions (or impossible to answer questions) get ignored or criticized.
+Lior points out the there&amp;rsquo;s a very big difference between typing a query
+into a search engine and asking a live audience the same thing -
+the human element of the search allows a personal connection.&lt;/p&gt;
+
+&lt;p&gt;Lior is known for a TED talk (he brought an ox onstage) and is out
+promoting his book. The book itself feels like an ideal airplane
+read for someone who is aspiring to self-improvement, is facing a
+career change, and who hasn&amp;rsquo;t figured out what the point is quite
+yet with Facebook as a career tool.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Running DD-WRT as a switch on a Linksys WRT54GL</title>
@@ -265,22 +328,6 @@ cause the lines to fall without the involvement of trees.&lt;/li&gt;
       
       <guid>http://vielmetti.github.io/post/2009/2009-01-12-bus-data-from-the-aata/</guid>
       <description>&lt;p&gt;I now have a copy of the Google transit formatted data that the AATA provides to Google.  Let me know if you are interested.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Phil Agre&#39;s &#34;Networking on the network&#34;</title>
-      <link>http://vielmetti.github.io/post/2009/2009-01-05-phil-agres-networking-on-the-network-/</link>
-      <pubDate>Mon, 05 Jan 2009 16:37:53 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2009/2009-01-05-phil-agres-networking-on-the-network-/</guid>
-      <description>&lt;p&gt;This piece by Phil Agre was originally designed as advice for graduate students, but it&amp;#39;s remarkably relevant for anyone who has had any of their time absorbed by the internets.&amp;#0160; Must reading.&amp;#0160; &lt;a href=&#34;http://www.acm.org/crossroads/xrds4-4/network.html&#34;&gt;Networking on the Network&lt;/a&gt;:&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Here, then, are some of the fundamentals of professional networking.
-They will sound cumbersome and abstract. You will be able to skip
-some of the steps as you get established in your field,
-but if you are starting from zero then the process really is quite complicated. 
-1) Know your goals. 2) Identify relevant people. 3) Court these people 
-individually. 4) Meet these people face-to-face at a professional meeting.
-5) Exchange drafts. 6) Follow up. Lets look at each in turn.&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;More from &lt;a href=&#34;http://delicious.com/vielmetti/agre,phil&#34;&gt;Phil Agre&lt;/a&gt; (via delicious).&lt;/p&gt;
 </description>
     </item>
     
