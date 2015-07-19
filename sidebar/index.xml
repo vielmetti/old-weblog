@@ -20,8 +20,7 @@
 &lt;h3 id=&#34;calendar-of-events:a631103cf606bbead447236a29c6889e&#34;&gt;Calendar of events&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Wednesday July 15, 2015, 4:30 p.m. &amp;ldquo;Living Writers&amp;rdquo; show on WCBN&lt;/li&gt;
-&lt;li&gt;Thursday July 16, 2015, noon: a2b3 lunch, Ayse&amp;rsquo;s, Ann Arbor MI&lt;/li&gt;
+&lt;li&gt;Wednesday July 22, 2015: Docker Detroit meetup&lt;/li&gt;
 &lt;li&gt;Thursday July 23, 2015, noon: a2b3 lunch, Madras Masala, Ann Arbor MI&lt;/li&gt;
 &lt;li&gt;Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI&lt;/li&gt;
 &lt;/ul&gt;
@@ -40,11 +39,12 @@
 
 &lt;ul&gt;
 &lt;li&gt;Short codes for easy linking. First pass complete but no-op,
-next phase will do the markup too.&lt;/li&gt;
+next phase will do the markup too. I like the idea of
+assisted synaesthesia and colorized names and phrases.&lt;/li&gt;
 &lt;li&gt;Nicely thought through category and taxonomy pages. They
 have stubs now, but they need design.&lt;/li&gt;
 &lt;li&gt;A whole &amp;ldquo;Ann Arbor&amp;rdquo; section, because there&amp;rsquo;s so much of that,
-and it should integrate with Arborwiki&lt;/li&gt;
+and it should integrate with Arborwiki.&lt;/li&gt;
 &lt;li&gt;Links from books to their corresponding URLs and ISBNs to
 link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
 &lt;li&gt;Pagination with group by date, coming in 0.15&lt;/li&gt;
@@ -52,6 +52,8 @@ link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
 &lt;li&gt;Some kind of database driven page data, in preparation
 for rolling out a power outage maps collection based on DOE EIA data,
 cf &lt;a href=&#34;http://gohugo.io/extras/datafiles/&#34;&gt;http://gohugo.io/extras/datafiles/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Make sure that the theme is in version control, which means
+I have to learn about git subtrees.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

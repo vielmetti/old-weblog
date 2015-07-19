@@ -6,8 +6,70 @@
     <description>Recent content in Radio on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2015 13:50:57 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 12:39:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hazen Schumacher</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher/</link>
+      <pubDate>Sun, 19 Jul 2015 12:39:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher/</guid>
+      <description>&lt;p&gt;Hazen Schumacher was a radio broadcaster who hosted the popular
+&amp;ldquo;Jazz Revisited&amp;rdquo; show on NPR and Michigan Radio (WUOM) for 30 years.
+He died on July 18, 2015.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://localwiki.org/ann-arbor/Hazen_Schumacher&#34;&gt;Arborwiki&amp;rsquo;s page on Hazen Schumacher&lt;/a&gt;
+has memories of him and his program. The jazz collection that he assembled
+and all of the master tapes for the show are now at the
+&lt;a href=&#34;http://www.bixeibenhamburg.com/&#34;&gt;Jazz Museum Bix Eiben Hamburg&lt;/a&gt;,
+and 24 editions of the program are up online for your listening
+at &lt;a href=&#34;http://bixrevisited.com&#34;&gt;http://bixrevisited.com&lt;/a&gt; .&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Jazz Revisited has reached millions, giving Hazen a good claim
+to be America’s premier jazz educator.&amp;rdquo; (Art Hilgart - IAJRC Journal).
+Bix Eiben Hamburg presents 24 different shows at regular intervals
+for free listening. Dive into the wonderful world of classic Jazz.
+Become part of the great Jazz fan community that already regularly
+uses our service free of charge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/84464117&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&#34;https://vimeo.com/84464117&#34;&gt;A tribute to The Jazz Museum Bix Eiben Hamburg and Jazz Revisited&lt;/a&gt; from &lt;a href=&#34;https://vimeo.com/bixeiben&#34;&gt;Jazz-Museum Bixeibenhamburg&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;In remembrance of The Jazz Museum Bix Eiben Hamburg and a documentary report about the Jazz Revisited Radio Shows!&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notes on the Midland G-227 GMRS/FRS radio</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227/</link>
+      <pubDate>Sun, 19 Jul 2015 11:52:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227/</guid>
+      <description>&lt;p&gt;Midland G-227 GMRS radio, quantity two, a gift from the
+Wells-Becker Motorcycle Emporium in Dexter, Michigan.&lt;/p&gt;
+
+&lt;p&gt;I replaced batteries in both of them, they take 4xAAA.&lt;/p&gt;
+
+&lt;p&gt;Radio 1 successfully hears static when the (M) monitor
+button is depresssed; Radio 2 hears nothing.&lt;/p&gt;
+
+&lt;p&gt;A manual is at &lt;a href=&#34;http://www.manualslib.com/manual/396326/Midland-G-225.html&#34;&gt;http://www.manualslib.com/manual/396326/Midland-G-225.html&lt;/a&gt;
+which describes the frequencies of the 22 channels it can transmit on.
+A reasonable next step is to get my NooElec SDR tuner out and see if
+I can monitor a transmission. If Radio 2 transmits, I suspect a loose
+connection to the speaker.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Midland-G-227C2-7-Mile-22-Channel-Two-Way/dp/B00008JOMG&#34;&gt;Amazon reviews&lt;/a&gt;
+complain mostly that the range of the radios is not &amp;ldquo;7 miles&amp;rdquo; as
+marketed, but closer to &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; mile to 1 mile on land. That&amp;rsquo;s typical
+for this band as I understand it.&lt;/p&gt;
+
+&lt;p&gt;In the same gift also a Uniden labelled &amp;ldquo;Scramble&amp;rdquo; that has a NOAA
+weather logo on it, so it probably also monitors weather frequencies.&lt;/p&gt;
+
+&lt;p&gt;You can never have too many radios!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Building a dipole antenna for your SDR tuner stick from an old set of headphones</title>
@@ -593,31 +655,6 @@
 &lt;p&gt;A particularly useful part of TuneIn is its &amp;quot;trending&amp;quot; tab, where it gives you real time feedback on which channels have the most activity. When people are listening primarily to music, it&amp;#39;s a slow news day; when the top station is an all-news local channel, there&amp;#39;s breaking news.&amp;#0160;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://play.google.com/store/apps/details?id=tunein.player&amp;amp;hl=en&#34; target=&#34;_self&#34;&gt;TuneIn Android app&lt;/a&gt; has nearly all of the features of the web site, and it takes advantage of knowing where you are to offer up local stations. In addition there&amp;#39;s a &amp;quot;TuneIn Radio Pro&amp;quot;, which gives you record and rewind for $4.99. There has to be a monetization strategy in there somewhere; they also serve up ads as you connect to some channels.&lt;/p&gt;
 &lt;p&gt;Recommended. For public safety scanner monitoring, &lt;a href=&#34;http://www.broadcastify.com/&#34; target=&#34;_self&#34;&gt;Broadcastify&lt;/a&gt; is a good complement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What the W8UM net looks like in software defined radio</title>
-      <link>http://vielmetti.github.io/post/2013/2013-06-02-what-the-w8um-net-looks-like-in-software-defined-radio/</link>
-      <pubDate>Sun, 02 Jun 2013 20:56:40 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-06-02-what-the-w8um-net-looks-like-in-software-defined-radio/</guid>
-      <description>&lt;p&gt;A sample screen grab from tonight&amp;#39;s W8UM net on 145.23. Please note that the radio I&amp;#39;m using looks like it&amp;#39;s out of tune a little bit, since I&amp;#39;m actually listening here on 145.217.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ce9139f970b-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-06-02 at 8.07.22 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901ce9139f970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ce9139f970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-06-02 at 8.07.22 PM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;It was a good clear strong signal (the red/yellow line), even with the not very good antenna I have; it should be, since the transmitter is only about a mile from here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Software defined radio (SDR) for Mac OS X</title>
-      <link>http://vielmetti.github.io/post/2013/2013-04-20-software-defined-radio-sdr-for-mac-os-x/</link>
-      <pubDate>Sat, 20 Apr 2013 23:26:49 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-04-20-software-defined-radio-sdr-for-mac-os-x/</guid>
-      <description>&lt;p&gt;I&amp;#39;ve started looking into software defined radio for Mac OS X. The goal is to take a cheap USB stick, plug it in to the Mac, and have it connect to software that will decode radio signals.&lt;/p&gt;
-&lt;p&gt;So far there&amp;#39;s nothing obvious that&amp;#39;s packaged as a single collection of software plus hardware, but that&amp;#39;s not surprising.&lt;/p&gt;
-&lt;p&gt;My best notes to date are from &lt;a href=&#34;http://pinboard.in/t:sdr&#34; target=&#34;_self&#34;&gt;Pinboard&amp;#39;s t:sdr tag&lt;/a&gt;, which looks like it has a few dozen people sharing links.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ll update this when I get more working details.&lt;/p&gt;
 </description>
     </item>
     

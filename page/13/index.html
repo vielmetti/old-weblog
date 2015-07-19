@@ -51,6 +51,10 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher" class="list-group-item">Hazen Schumacher</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227" class="list-group-item">Notes on the Midland G-227 GMRS/FRS radio</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes" class="list-group-item">food coop notes for July 18, 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
@@ -86,14 +90,14 @@ networks
 	<li><a href="http://vielmetti.github.io/post/wow-that-is-fast" class="list-group-item">wow that is fast</a></li>
          
 	<li><a href="http://vielmetti.github.io/sidebar/calendar" class="list-group-item">Calendar of events</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi" class="list-group-item">Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market" class="list-group-item">gooseberries at Ann Arbor Farmers Market</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -135,8 +139,7 @@ networks
 <h3 id="calendar-of-events:a631103cf606bbead447236a29c6889e">Calendar of events</h3>
 
 <ul>
-<li>Wednesday July 15, 2015, 4:30 p.m. &ldquo;Living Writers&rdquo; show on WCBN</li>
-<li>Thursday July 16, 2015, noon: a2b3 lunch, Ayse&rsquo;s, Ann Arbor MI</li>
+<li>Wednesday July 22, 2015: Docker Detroit meetup</li>
 <li>Thursday July 23, 2015, noon: a2b3 lunch, Madras Masala, Ann Arbor MI</li>
 <li>Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI</li>
 </ul>
@@ -7798,17 +7801,22 @@ networks
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
 
 <ul>
 <li>Short codes for easy linking. First pass complete but no-op,
-next phase will do the markup too.</li>
+next phase will do the markup too. I like the idea of
+assisted synaesthesia and colorized names and phrases.</li>
 <li>Nicely thought through category and taxonomy pages. They
 have stubs now, but they need design.</li>
 <li>A whole &ldquo;Ann Arbor&rdquo; section, because there&rsquo;s so much of that,
-and it should integrate with Arborwiki</li>
+and it should integrate with Arborwiki.</li>
 <li>Links from books to their corresponding URLs and ISBNs to
 link to AADL and Amazon pages, perhaps with Librarything data</li>
 <li>Pagination with group by date, coming in 0.15</li>
@@ -7816,6 +7824,8 @@ link to AADL and Amazon pages, perhaps with Librarything data</li>
 <li>Some kind of database driven page data, in preparation
 for rolling out a power outage maps collection based on DOE EIA data,
 cf <a href="http://gohugo.io/extras/datafiles/">http://gohugo.io/extras/datafiles/</a></li>
+<li>Make sure that the theme is in version control, which means
+I have to learn about git subtrees.</li>
 </ul>
 
 	   
@@ -8088,6 +8098,46 @@ cf <a href="http://gohugo.io/extras/datafiles/">http://gohugo.io/extras/datafile
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>22 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-22-goto-considered-harmful-security-systems-and-how-they-fail/">goto considered harmful - security systems and how they fail</a>
+      </h3>
+      <p>Apple devices are subject to a bug in a core crypto library where one line of errant code - the self-describing bug "goto fail;" - causes SSL connections to be untrustworthy.</p>
+
+<p>IOS systems have a patch (and you should upgrade now); we're waiting for the OS X hotfix.</p>
+
+<p>Some good analysis on Twitter of late, and this article on Wired: <a href="http://www.wired.com/threatlevel/2014/02/gotofail/">Behind iPhone’s Critical Security Bug, a Single Bad ‘Goto’</a> - </p>
+
+<blockquote>
+  <p>Apple released <a href="http://support.apple.com/kb/HT6147">iOS 7.0.6</a> yesterday to patch the bug in its implementation of SSL encryption — the internet’s standard defense against eavesdropping and web hijacking. The bug essentially means that when you’re e-mailing, tweeting, using Facebook or checking your bank account from a shared network, like a public WiFi or anything tapped by the NSA, an attacker could be listening in, or even maliciously modifying what goes to your iPhone or iPad.</p>
+</blockquote>
+
+<p>How to test if you are at risk? The aptly named <a href="http://gotofail.com">gotofail.com</a> has a simple and non-destructive test.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>&quot;goto fail;&quot; may be the world&#39;s first self-describing bug.</p>&mdash; matt blaze (@mattblaze) <a href="https://twitter.com/mattblaze/statuses/437411935399997440">February 23, 2014</a></blockquote>
+
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+
+  <h3>21 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-21-obituary-rich-wiggins-1956-2014/">Obituary: Rich Wiggins (1956-2014)</a>
+      </h3>
+      <p><a class="asset-img-link"  style="float: right;" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d7ddea5970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a73d7ddea5970d img-responsive" alt="Rich-wiggins-photo-obit" title="Rich-wiggins-photo-obit" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d7ddea5970d-320wi" style="margin: 0px 0px 5px 5px;" /></a></p>
+
+<p>Obituary: Richard "Rich" Walker Wiggins (February 28, 1956 - February 8, 2014) </p>
+
+<p>Passed away February 8, 2014 in Holt, MI. Born Feb. 28th, 1956, in Chicago, IL, and raised in Decatur, AL, Rich was a proud son of a chief engineer of NASA's Skylab Space Station. A high achiever throughout his life, Rich attended <a href="http://www.msu.edu">Michigan State University</a>, where he worked later for many years as a systems programmer and manager, retiring as a Senior Information Technologist in 2010. Always a visionary, Rich will be remembered primarily as a champion of the Internet -- speaking, teaching, and publishing about its potential. An outstanding communicator, he wrote one of the earliest books about the Internet -- "<a href="http://www.amazon.com/The-Internet-Everyone-Providers-Workstation/dp/0070670196">The Internet for Everyone: A Guide for Users and Providers</a>", published by McGraw-Hill in 1994. The vanity plate on his car? "INTRNET".</p>
+
+<p>Rich was consulted by and featured in numerous national media venues, including The New York Times (his beloved, must-read newspaper). Local TV and radio stations called upon him frequently for appearances and commentary. With his good friend Charles Severance, he appeared regularly on a popular segment of <a href="http://wkar.org/">WKAR</a>'s AM 870 NewsTalk radio program, debating contemporary technology topics and giving computer advice to callers. Rich and Chuck also co-hosted a national television program -- "<a href="http://vimeo.com/3776888">Internet: TCI</a>", from 1994-1997. An enthusiastic team leader, Rich played a significant role in moving Michigan State University forward into the new world of the Internet.</p>
+
+<p>Rich was a brilliant, charming and complicated man who made friends everywhere. He was eager to debate politics and discuss the latest news with anyone, and was known as a relentless punster. Warm weather was one of his passions; he could be seen wearing shorts and sandals well into November, adamantly refusing to acknowledge the end of summer. He loved Lake Michigan, Key West, Canada, MSU's Summer Circle plays, the Moody Blues, Wendy's iced tea, and El Azteco. Rich treasured all of his friends, relatives, and colleagues. He is gone from us far too soon.</p>
+
+<p>Rich was preceded in death by his parents, Herbert H. Wiggins, Sr. and Ethel Gardiner Wiggins; and his brothers, David and Herbert Jr. He is survived by numerous cousins.</p>
+
+<p>A Memorial Service will be held Saturday, March 1, 2014 at Palmer, Bush &amp; Jensen Family Funeral Homes Holt-Delhi Chapel, Holt, MI. Visitation will begin at 12:00PM, followed by a 1:00PM service. Friends are invited to gather afterwards for refreshments. In lieu of flowers, Rich requested specifically that donations be made to the Michigan State University Veterinary Teaching Hospital. Condolences can be made at <a href="http://www.palmerbush.com">www.palmerbush.com</a>.</p>
 
 
   <h3>20 February 2014</h3>
@@ -8564,40 +8614,6 @@ There are lots of reasons to want to use more art on this weblog. It's attractiv
 <p><iframe width="600" height="450" src="//www.youtube.com/embed/sMSDo3BX5Ds?rel=0" frameborder="0" allowfullscreen></iframe></p>
 
 <p>Interested in more Tigers lore? I found the <a href="https://www.facebook.com/groups/231671568473/">Mayo Smith Society</a> on Facebook which is always good for Detroit Tigers stories.</p>
-
-
-  <h3>22 January 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-01-22-about-sidewalks/">About sidewalks</a>
-      </h3>
-      <p>To the Editor: </p>
-
-<p>The question has been asked your correspondent by several citizens: Can the city legally compel the owners or occupants of property in this city to construct, at their own expense, sidewalks in front of their premises? </p>
-
-<p>The city certainly claims ownership of the street from fence to fence, and exercises absolute control thereof. Even if a man desires to plant shade trees on the street in front of his property, the city prescribes the exact distance at which they shall be placed from the property owner's street line; and notwithstanding the fact that the property owner pays for the trees himself and also for the planting and subsequent care of them until their growth is assured, yet he is denied by the city any ownership in them, and is forbidden to remove or even to trim them, should he at any time desire to do so. </p>
-
-<p>What these people wish to know, then, is, if the city owns the streets and their shade trees and side walks, why the city should not itself build the sidewalks, do all grading and plant all shade trees? </p>
-
-<p>It is undeniable that when a man builds his sidewalk it immediately becomes city property, and he has no more ownership of it than any other citizen. In fact, in a single day hundreds will use it when he uses it once. In short, it is built not for him, but for the public. Then why should not the public pay for it? </p>
-
-<p>The building of sidewalks under the existing ordinance is a heavy burden upon very many citizens, some of whom have been compelled by their circumstances to borrow the money at interest to enable them to comply with the order of the council. This seems to your correspondent to be a matter worthy of deliberate consideration by the city fathers. The claim of these people is that the city, owning the streets, should itself put down all sidewalks, and spread the expense upon he general tax. </p>
-
-<p>It may do no good to open up this question at this time; but the voice of the people should at least be heard in the matter, and this communication certainly expresses it in some degree. </p>
-
-<p>SUMMIT</p>
-
-<p>From the <a href="http://oldnews.aadl.org/node/103463">Ann Arbor Argus, August 28, 1891</a>, via the Old News archive at the Ann Arbor District Library</p>
-
-
-  <h3>20 January 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-01-20-the-slow-drip-of-progress/">The slow drip of progress</a>
-      </h3>
-      <p>Every once in a while, I come up with a really good idea. More often than not, I don't.</p>
-
-<p>I'm content to work on systems that accommodate the work that leads to a steady sense of slow progress. The weblog piles one post upon another; every so often, the middle of the pile is most interesting, and you dust it off and bring it out again as if it were new. The wiki appreciates it when you fix a very small typo, change an "an" to an "a", tidy up a caption or resize a photo.</p>
-
-<p>Progress is more often than not measured very slowly, if at all. Just try not to go backwards. </p>
 
 
 

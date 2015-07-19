@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bluestacks on tracker</title>
+    <link>http://vielmetti.github.io/code/bluestacks/</link>
+    <description>Recent content in Bluestacks on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Dec 2012 17:32:39 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/bluestacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Technology upgrades are a tedious but necessary task</title>
+      <link>http://vielmetti.github.io/post/2012/2012-12-29-technology-upgrades-are-a-tedious-but-necessary-task/</link>
+      <pubDate>Sat, 29 Dec 2012 17:32:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-12-29-technology-upgrades-are-a-tedious-but-necessary-task/</guid>
+      <description>&lt;p&gt;Technology upgrades are a tedious but necessary task.
+&lt;p&gt;
+I&amp;#39;m going through this now, with an upgrade from Mac OS 10.5.8 to Mac OS 10.6.8 on my black MacBook. The world decided in its infinite wisdom that &lt;a href=&#34;http://support.google.com/chrome/bin/answer.py?hl=en&amp;amp;answer=2599452&#34;&gt;10.5 was too old to keep supporting&lt;/a&gt;, and so quite a bit of software was starting to break. The promise is that 10.6.x will last a bit longer and keep my old 2008 vintage system running for a while longer.
+&lt;/p&gt;
+&lt;p&gt;
+Upgrades are always fraught with peril. In this case, it involved sticking a DVD in the drive, clicking a few times, and then waiting 45 minutes for the system to emerge in newly upgraded status. When you do something like that there&amp;#39;s a lot of faith you have to have that the people who put together the shiny DVD got every last thing right, that they didn&amp;#39;t forget to check some bit somewhere which in your case would turn your computer into a puddle of slag. I know that at some level it&amp;#39;s an irrational fear, yet I&amp;#39;ve bricked my share of hardware in my time and I&amp;#39;ve known the process of operating system upgrades to involve long late-night patching sessions to get everything to work.
+&lt;/p&gt;
+&lt;p&gt;
+There was no puddle of slag at the end of my upgrade, just a computer that looked about the same as it did before with no huge obvious changes, just a few cosmetic bits and the promise of future compatibility.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m told that the typical Android phone that&amp;#39;s sold never gets an operating system upgrade from the vendor, and that the usual upgrade path is either to install a completely unsupported hacked up new software load or to scrap the phone and start afresh with new hardware. I haven&amp;#39;t lived in that world yet so I don&amp;#39;t have the experience of others to go through, just the general sense that unless you&amp;#39;re willing to delve into the details of &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;Cyanogenmod&lt;/a&gt; that you should be prepared to get a new phone every time your contract runs out.
+&lt;/p&gt;
+&lt;p&gt;
+Compared to operating system upgrades, application upgrades are relatively easy and low worry. With most consumer software that&amp;#39;s going through a rev cycle, these days you select &amp;quot;upgrade&amp;quot; from within the app and it magically replaces itself with a slightly newer version. This time I needed to update Chrome, and &lt;a href=&#34;http://support.google.com/chrome/bin/answer.py?hl=en&amp;amp;answer=1367288&#34;&gt;I had to descend to the operating system and delete one file&lt;/a&gt; to make the automated process work just fine.
+&lt;/p&gt;
+&lt;p&gt;
+The other task in my grand system upgrade effort has been to try to get &lt;a href=&#34;http://bluestacks.com/&#34;&gt;BlueStacks&lt;/a&gt; running. This is an app that runs Android apps on Mac OS X. It&amp;#39;s in beta, so I have some reason to understand when things don&amp;#39;t go instantly right, but I tried it out anyway and the install failed to come up with a working system within the amount of time I was willing to throw at it.
+&lt;/p&gt;
+&lt;p&gt;
+Just because I have part of a 10.6 upgrade done doesn&amp;#39;t mean that the whole thing is ready. The CD ships with 10.6.3, and you have to download a gigabyte-plus combo update to get to 10.6.8. The first time I did this the download was corrupted (?) so I tried  again with success. I don&amp;#39;t understand why, just enough to hit the &amp;quot;yes&amp;quot; button, and to type the error message exactly into Google when the error happens in the hopes that someone else has seen exactly the same problem.
+&lt;/p&gt;
+&lt;p&gt;
+What did we do before error messages could be looked up with such precision? Well, for one thing, there was usually some source code lying around so that you could read just what the context was for the error. If there was no source code to be had, then Usenet was sure to have someone who had seen the same failure mode. Google searching for failures just distributes out the task to a broader audience than ever, but there&amp;#39;s still the basic issue that when something goes wrong you have to rely on the goodness of people who are willing to air their systems difficulties in public in the hopes of righting them again.
+&lt;/p&gt;
+&lt;p&gt;
+Keeping a system running with current software is an ongoing job. I ended up only being able to do it after digging through a rats-nest tangle of cables in my basement, emerging victorious with a Firewire cable that allowed me to back up the Mac to the point where I was confident enough that I could insert the DVD, click &amp;quot;Yes&amp;quot;, and hope that someone in Cupertino tested every combination of equipment that one single updater was supposed to work on.
+&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;
+&lt;div class=&#34;zemanta-article-ul zemanta-article-ul-image&#34; style=&#34;margin: 0; padding: 0; overflow: hidden;&#34;&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;https://discussions.apple.com/thread/4638777&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_31_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://discussions.apple.com/thread/4638777&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;I recently upgraded to lion 10.7 and now I can&amp;#39;t open itunes or do any software upgrades. Not even 10.7.1! Help&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;https://discussions.apple.com/thread/4643759&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_85_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://discussions.apple.com/thread/4643759&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;my mac had it&amp;#39;s original software re-installed by Apple. since they did this, my airbook pro will not recognize my iphone in Itunes, and I cannot update the latest version of itunes, because it says I&amp;#39;m not running the latest version mac software????&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://r.zemanta.com/?u=http%3A//www.guardian.co.uk/commentisfree/2012/dec/29/tech-liberty-dan-gillmor&amp;amp;a=134691715&amp;amp;rid=c6188006-f996-43aa-b9b4-0874e5cf3d51&amp;amp;e=5e296af73a5d3ef52fa9219de0bc281d&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/134691715_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://r.zemanta.com/?u=http%3A//www.guardian.co.uk/commentisfree/2012/dec/29/tech-liberty-dan-gillmor&amp;amp;a=134691715&amp;amp;rid=c6188006-f996-43aa-b9b4-0874e5cf3d51&amp;amp;e=5e296af73a5d3ef52fa9219de0bc281d&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;My bid for tech liberty: how have I done so far?&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://www.pocketables.com/2012/12/sprint-has-now-canceled-its-early-upgrade-program.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/134550055_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.pocketables.com/2012/12/sprint-has-now-canceled-its-early-upgrade-program.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Sprint has now canceled its early upgrade program&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
