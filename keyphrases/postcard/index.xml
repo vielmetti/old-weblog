@@ -6,8 +6,37 @@
     <description>Recent content in Postcard on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Sep 2010 01:18:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 22:05:18 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/keyphrases/postcard/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>lob a postcard: printer sends cards via API</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-19-lob-a-postcard-printer/</link>
+      <pubDate>Sun, 19 Jul 2015 22:05:18 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-19-lob-a-postcard-printer/</guid>
+      <description>&lt;p&gt;Lob.com has an API to send postcards-as-a-service ($0.70 per each,
+full custom both sides). Details at &lt;a href=&#34;https://lob.com/services/postcards&#34;&gt;https://lob.com/services/postcards&lt;/a&gt; .
+It works, but all of the user interface is up to you; if you know
+a good service for delivering a single full-custom postcard with
+postage that actually has a user interface and not an API for less
+than $1.00 each, let me know and I&amp;rsquo;ll update here.&lt;/p&gt;
+
+&lt;p&gt;Also in this business is PostalMethods with a Postcard API based on SOAP.
+That&amp;rsquo;s not a convenient interface in the languages that I use, but you
+can look at the API at &lt;a href=&#34;http://www.postalmethods.com/lp/postcard-api&#34;&gt;http://www.postalmethods.com/lp/postcard-api&lt;/a&gt; .
+Their prices for postcards run $1.50 per each or less, with quantity
+discounts - see &lt;a href=&#34;http://www.postalmethods.com/pricing&#34;&gt;http://www.postalmethods.com/pricing&lt;/a&gt; for details.&lt;/p&gt;
+
+&lt;p&gt;Postful used to have an API for postcards. They were
+&lt;a href=&#34;http://blog.click2mail.com/articles/view/click2mail-acquires-postful/&#34;&gt;bought by Click2Mail in 2011&lt;/a&gt;. Pricing for Click2Mail&amp;rsquo;s postcards starts at $0.25
+per card plus $0.284 postcard, but there&amp;rsquo;s a $2.00 minimum if
+you don&amp;rsquo;t have credits on account. I wasn&amp;rsquo;t able to determine
+at first glance whether their REST API applied to onesy-twoesy
+printing options, though it was clear that if you wanted to send
+1000 cards that the pricing would be competitive.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>postcard thoughts</title>
