@@ -6,8 +6,23 @@
     <description>Recent content in Code on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2015 16:11:41 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 22:05:18 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>lob a postcard: printer sends cards via API</title>
+      <link>http://vielmetti.github.io/2015/2017-07-17-lob-a-postcard-printer/</link>
+      <pubDate>Sun, 19 Jul 2015 22:05:18 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/2015/2017-07-17-lob-a-postcard-printer/</guid>
+      <description>&lt;p&gt;Lob.com has an API to send postcards-as-a-service ($0.70 per each,
+full custom both sides). Details at &lt;a href=&#34;https://lob.com/services/postcards&#34;&gt;https://lob.com/services/postcards&lt;/a&gt; .
+It works, but all of the user interface is up to you; if you know
+a good service for delivering a single full-custom postcard with
+postage that actually has a user interface and not an API for less
+than $1.00 each, let me know and I&amp;rsquo;ll update here.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Levenshtein distance for approximate match</title>
@@ -504,32 +519,6 @@ Opera Next.app = 103.1 MB&amp;quot; (&lt;a href=&#34;https://twitter.com/maxart/
 &lt;p&gt;8. Some silly new annotations for you if you are written Java code, from the Google Annotations Gallery. (&lt;a href=&#34;https://code.google.com/p/gag/&#34; target=&#34;_self&#34;&gt;GAG&lt;/a&gt;) Start with @Noop and end with @Palindrome.&lt;/p&gt;
 &lt;p&gt;9. &amp;quot;It&amp;#39;s nuts that to make a new laptop relatively unthreatening and accessible for an enthusiastic 90-something requires going across a dozen System Preferences panes and sub-panes, and simply having to accept certain things as inevitably confusing.&amp;quot; Setting up a Mac for Grandma is an exercise in appreciating the accessibility problems of the Internet. (&lt;a href=&#34;http://blog.accursedware.com/nonagenarian-laptop/&#34; target=&#34;_self&#34;&gt;Accursed Ware&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;10. An explanation of SQL joins in Venn diagrams from 2007. (&lt;a href=&#34;http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html&#34; target=&#34;_self&#34;&gt;Jeff Atwood&lt;/a&gt;) Inspired by a previous post (&lt;a href=&#34;http://www.khankennels.com/blog/index.php/archives/2007/04/20/getting-joins/&#34; target=&#34;_self&#34;&gt;Ligaya Turmelle&lt;/a&gt;). Stack Overflow takes on the more complicated questions where the relationships don&amp;#39;t fit into Venn diagrams so neatly. (&lt;a href=&#34;http://stackoverflow.com/questions/13997365/sql-joins-as-venn-diagram&#34; target=&#34;_self&#34;&gt;Stack Overflow&lt;/a&gt;)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hacker News summary for Sunday 26 May 2013, 6:00 p.m. EST edition</title>
-      <link>http://vielmetti.github.io/post/2013/2013-05-26-hacker-news-summary-for-sunday-26-may-2013-600-pm-est-edition/</link>
-      <pubDate>Sun, 26 May 2013 18:18:39 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-05-26-hacker-news-summary-for-sunday-26-may-2013-600-pm-est-edition/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Compiled hastily, here&amp;#39;s a summary of today&amp;#39;s Hacker News top 10. Based solely on the top 10, it&amp;#39;s a slow news day.&lt;/p&gt;
-&lt;p&gt;1. &amp;quot;If you try to get several regular polygons to meet snugly at a point in the plane, what’s the most sides any of the polygons can have? The answer is 42.&amp;quot; (&lt;a href=&#34;http://johncarlosbaez.wordpress.com/2013/05/25/42/&#34; target=&#34;_self&#34;&gt;Azimuth Project&lt;/a&gt;) Some observations of mathematical questions for which the answer is 42 or a multiple thereof, in time for &lt;a href=&#34;http://towelday.org/&#34; target=&#34;_self&#34;&gt;Towel Day&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;2. He took the $300k bonus (&lt;a href=&#34;http://boundary.com/blog/2013/05/26/i-took-the-300k/&#34; target=&#34;_self&#34;&gt;Cliff Moon&lt;/a&gt;), a follow up to yesterday&amp;#39;s account of someone who didn&amp;#39;t (&lt;a href=&#34;http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html&#34; target=&#34;_self&#34;&gt;Tom Preston-Warner&lt;/a&gt;). It turned out well for both of them.&lt;/p&gt;
-&lt;p&gt;3. &amp;quot;How far out is it possible to overhang blocks from the edge of a table without them toppling?&amp;quot; The answer, surprisingly, is infinitely far. (&lt;a href=&#34;http://www.datagenetics.com/blog/may32013/index.html&#34; target=&#34;_self&#34;&gt;DataGenetics&lt;/a&gt;)&lt;/p&gt;
-&lt;div&gt;4. Paypal has a cross-site scripting (XSS) vulnerability. (&lt;a href=&#34;http://seclists.org/fulldisclosure/2013/May/163&#34; target=&#34;_self&#34;&gt;Robert Kugler, Full Disclosure&lt;/a&gt;) Paypal pays bug bounties for people who find problems, but only to people over 18; the researcher who located this defect is a 17 yr old German student.&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;5. &amp;quot;In 2012, under threat from fundamentalist rebels, a team of archivists, librarians, and couriers evacuated an irreplaceable trove of manuscripts from Timbuktu at great personal risk.&amp;quot; Help save a library in exile, there&amp;#39;s more work to be done. (&lt;a href=&#34;http://www.indiegogo.com/projects/timbuktu-libraries-in-exile&#34; target=&#34;_self&#34;&gt;Kickstarter&lt;/a&gt;)&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;6. Rustboot is a tiny 32 bit kernel written in Rust. (&lt;a href=&#34;https://github.com/charliesome/rustboot&#34; target=&#34;_self&#34;&gt;Charlie Somerville&lt;/a&gt;, Github)&amp;#0160;Rust is a curly-brace, block-structured expression language oriented toward concerns of “programming in the large”. (&lt;a href=&#34;http://www.rust-lang.org/&#34; target=&#34;_self&#34;&gt;Rust&lt;/a&gt;)&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;7.&amp;#0160;Cameron D&amp;#39;Ambrosio has been locked up&amp;#0160;without bail for weeks &amp;ndash; facing terrorism charges and 20 years in prison &amp;ndash; all for something he posted on Facebook after the Boston Marathon bombing. (&lt;a href=&#34;https://cms.fightforthefuture.org/teenager/&#34; target=&#34;_self&#34;&gt;Fight For The Future&lt;/a&gt;)&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;8. People who have enough savings to be unafraid of being fired are happier at work than those who depend on every paycheck (&lt;a href=&#34;http://www.mrmoneymustache.com/2011/04/30/weekend-edition-retire-in-your-mind-even-if-you-love-your-job/&#34; target=&#34;_self&#34;&gt;Mr. Money Moustache&lt;/a&gt;)&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;9. Twitter is a big deal because &amp;quot;it&amp;#39;s a new messaging protocol, where you don&amp;#39;t specify the recipients. New protocols are rare.&amp;quot; (&lt;a href=&#34;http://paulgraham.com/twitter.html&#34; target=&#34;_self&#34;&gt;Paul Graham&lt;/a&gt;, 2009)&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;10. BetterPlace, a &amp;quot;fat startup&amp;quot; that tried to &amp;quot;change the world&amp;quot; about how people drive, has failed. (&lt;a href=&#34;http://www.eytanlevit.com/post/51416804786/betterplace-the-fat-startup&#34; target=&#34;_self&#34;&gt;Eytan Levit&lt;/a&gt;) &amp;quot;Their biggest assumption was that people are willing to compromise on a less convenient/more risky car solution just because it’s eco-friendly.&amp;quot;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

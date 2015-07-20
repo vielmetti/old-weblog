@@ -6,8 +6,43 @@
     <description>Recent content on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2015 14:01:15 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 22:05:18 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>lob a postcard: printer sends cards via API</title>
+      <link>http://vielmetti.github.io/2015/2017-07-17-lob-a-postcard-printer/</link>
+      <pubDate>Sun, 19 Jul 2015 22:05:18 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/2015/2017-07-17-lob-a-postcard-printer/</guid>
+      <description>&lt;p&gt;Lob.com has an API to send postcards-as-a-service ($0.70 per each,
+full custom both sides). Details at &lt;a href=&#34;https://lob.com/services/postcards&#34;&gt;https://lob.com/services/postcards&lt;/a&gt; .
+It works, but all of the user interface is up to you; if you know
+a good service for delivering a single full-custom postcard with
+postage that actually has a user interface and not an API for less
+than $1.00 each, let me know and I&amp;rsquo;ll update here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>espresso over ice with a little half and half</title>
+      <link>http://vielmetti.github.io/2015/2017-07-17-espresso-over-ice-with-a-little-half-and-half/</link>
+      <pubDate>Sun, 19 Jul 2015 21:36:25 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/2015/2017-07-17-espresso-over-ice-with-a-little-half-and-half/</guid>
+      <description>&lt;p&gt;A simple recipe that you can order from your favorite barista:
+an espresso shot over ice. Leave enough room to add a spot of
+half and half. Cold, refreshing, and very strong.&lt;/p&gt;
+
+&lt;p&gt;To try: a shot of espresso over shaved ice. I think this is
+doable at Ann Arbor Farmers Market where you&amp;rsquo;d go to the stall
+where a granny is selling shaved ice, and then walk a plain snow cone
+over to the Roos Roast stand for your espresso shot.&lt;/p&gt;
+
+&lt;p&gt;Inspired by a Facebook post from Allen Leibowitz in Texas ordering a snow cone
+and the surrounding commentary.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The weak ties of your social network are its greatest strength</title>
@@ -544,86 +579,6 @@ enough to be set up in the kitchen to look up recipes.&lt;/p&gt;
 &lt;p&gt;What I want to do is set things up so that if the post is from the
 recipes category, then the recipes list will show up in the sidebar
 of that post, sorted alphabetically. I think I can make that work.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>sweet potato cauliflower soup recipe</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</link>
-      <pubDate>Tue, 14 Jul 2015 18:15:02 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</guid>
-      <description>&lt;p&gt;Some sweet potato cauliflower soup recipes:&lt;/p&gt;
-
-&lt;p&gt;Allyson Kramer likes hers with a bit of garam masala:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&#34;&gt;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our Three Peas wants carrots and celery and chicken stock:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&#34;&gt;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Food.com and &amp;ldquo;Kelly in TO&amp;rdquo; calls for curry and cinnamon:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&#34;&gt;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our meal plan pairs this with biscuits and kale, and it was delicious!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Publishing from Hugo to Github Pages</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</link>
-      <pubDate>Tue, 14 Jul 2015 17:20:08 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</guid>
-      <description>&lt;p&gt;One of the challenges in getting things started is figuring
-out where the end product is going to live. Hugo has its own
-web server which is pretty nice, but since it generates static
-pages, the results can really go anywhere.&lt;/p&gt;
-
-&lt;p&gt;This tutorial goes through the process in excruciating detail&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;http://gohugo.io/tutorials/github-pages-blog/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;but somehow fails to make it easy. What I&amp;rsquo;d like is a publishing
-workflow that just like the normal Hugo workflow puts things online
-instantly once they are built.&lt;/p&gt;
-
-&lt;p&gt;This one deploys with CodeShip&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&#34;&gt;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And this one deploys with Wercker&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/automated-deployments/&#34;&gt;http://gohugo.io/tutorials/automated-deployments/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Yet one more, with Github hooks and S3/Cloudfront; it depends on s3cmd.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/imperialwicket/imperialwicket.com&#34;&gt;https://github.com/imperialwicket/imperialwicket.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, one that focuses on the github side of things:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/chrisjacob/825950&#34;&gt;https://gist.github.com/chrisjacob/825950&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The approach I have runs like so, it assumes that you have
-a working directory &amp;ldquo;~/src/hugo&amp;rdquo; with your blog in it, and
-a target directory &amp;ldquo;~/src/vielmetti.github.io&amp;rdquo; set up for
-github pages.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd ~/src/hugo
-hugo -d ../vielmetti.github.io --theme=vacuum
-# wait to build, then
-cd ../vielmetti.github.io
-git add -A .
-git commit -m &amp;quot;build complete&amp;quot;
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;By having separate build directories like this you can keep the
-continuous build on your draft setup going, and then push a
-working version whenever you&amp;rsquo;re perfectly happy with the result.
-Not like anyone is really perfectly happy with any blog.&lt;/p&gt;
 </description>
     </item>
     
