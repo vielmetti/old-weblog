@@ -51,6 +51,8 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-21-daily-coffee-wifi-erc-south-main" class="list-group-item">Daily coffee and wifi, ERC South Main</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-20-commuter-north-and-south" class="list-group-item">Commuter North and South</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-20-daily-coffee-wifi-packard-biggby" class="list-group-item">Daily coffee and wifi at Biggby Packard</a></li>
@@ -88,12 +90,12 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup" class="list-group-item">sweet potato cauliflower soup recipe</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages" class="list-group-item">Publishing from Hugo to Github Pages</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/Mac-and-Goat" class="list-group-item">Mac and Goat</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -7825,6 +7827,8 @@ networks
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8121,6 +8125,48 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>24 February 2009</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2009/2009-02-24-optical-character-recognition-with-parallel-computing/">Optical Character Recognition with parallel computing?</a>
+      </h3>
+      <p>Some references to collect here on the use of general-purpose graphic processors in OCR.&#0160; Nominally, you run some kind of MapReduce based algorithm with a GPGPU over some image, and out spits text much faster than any ordinary processor of any speed; of course, there are lots of details to attend to.</p><p><a href="http://www.eecs.berkeley.edu/Research/Projects/Data/102604.html">From Berkeley EECS: Algorithms and Frameworks for OCR and Content-based Image Retrieval</a></p>
+
+<p style="margin-left: 40px;">Jike Chong, Bryan Christopher Catanzaro, Narayanan Sundaram, Fares Hedayati and Kurt Keutzer</p>
+
+<p style="margin-left: 40px;">A new breed of general-purpose manycore computing platform is
+emerging. Exemplary examples include the Niagara from Sun Microsystems,
+the G80 from Nvidia, the Cell from IBM, and the up-coming Larrabee from
+Intel. These manycore processors each pack 8-32 relatively simple cores
+on a chip, capable of supporting up to 100s of threads, and boast
+tremendous potential peak single-chip performances up to the range of
+Tera-FLOPS. However, traditional algorithms and applications in many
+domains cannot take advantage of much of the parallelism provided by
+these platforms. </p><p style="margin-left: 40px;">The ParLab at Berkeley was recently founded in part to help
+meet this acute need for novel algorithmic approaches to unleash the
+performance potentials of emerging manycore platforms for a wide range
+of application domains. It proposes to concentrate on analyzing the
+communication and computation patterns (or Dwarfs) of important classes
+of algorithms underlying modern application domains, and develop
+techniques to efficiently parallelize them for the general purpose
+manycore platforms.
+</p><p style="margin-left: 40px;">We concentrate on the domain of image recognition and
+retrieval, leveraging the Intel PIRO content-based image retrieval
+framework as a motivating application. Specifically, we study the
+parallelization of classification algorithms for machine learning, and
+develop parallelization techniques to improve the performance of these
+algorithms and applications on the emerging manycore platforms.</p><p><a href="http://www.bv2.co.uk/?p=281">Here&#39;s a discussion of an OCR system that uses the CUDA libraries called cocr</a></p><p style="margin-left: 40px;">The cuda implementation allows for exceptionally fast image
+manipulation, cleaning and segmentation before being presented to the
+template based ocr system.&#0160; Traditional cpu based ocr systems are very
+slow, especially in the image rotation, cleaning etc departments and
+although cocr is by no means a complete ocr package it is orders of
+magnitude faster than the various cpu based ones I’ve tried. With a bit
+more work and an additional of a neural network ocr it could easily
+become a system able to do greater than realtime ocr’ing.&#0160; Neural
+networks are extremely well suited to GPU implementations due to their
+inherit parallelism. I will post more snippets and modules of the
+system here over the coming weeks.</p><p>I wasn&#39;t able to find any evidence that the <a href="http://code.google.com/p/ocropus/">ocropus </a>OCR system that Google has used and released is using any parallel computing mechanisms, so this still looks like &quot;gee, it should work for someone, if you can throw a PhD student or two at it.&quot;</p>
 
 
   <h3>20 February 2009</h3>
@@ -8837,13 +8883,6 @@ dazzling capability in 1991. </p><p>nothing quite like having a real use for the
 The Smithsonian has a collection of satellite imagery from volcanoes around the world. Here are their <a href="http://ava.jpl.nasa.gov/volcano.asp?vnum=1103-03-">satellite photos of Mt. Redoubt from the ASTER Volcano Archive.</a>  These will load into Google Earth as KML files as well. The &quot;plain&quot; imagery from this are about 30 megapixels apiece and are from 2000; here&#39;s a piece of one of them.</p><p><a href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536fdad7c970b-pi" style="display: inline;"><img alt="Picture 19" border="0" class="at-xid-6a00d8341c4f1a53ef010536fdad7c970b " src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536fdad7c970b-800wi" title="Picture 19" /></a>
  <br />
 </p>
-
-
-  <h3>30 January 2009</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2009/2009-01-30-caribou-coffee-company-inc-is-recalling-caribou-fruit-and-nut-blend-trail-mix-because-the-product-co/">Caribou Coffee Company Inc. is recalling Caribou Fruit and Nut Blend Trail Mix because the product could be contaminated with salmonella.</a>
-      </h3>
-      <p><a href="http://www.newsobserver.com/2188/story/1387962-p4.html">As seen on the Raleigh News and Observer recalls page:</a></p><div style="margin-left: 40px;"><br />Caribou Coffee Company Inc. is recalling Caribou Fruit and Nut Blend Trail Mix because the product could be contaminated with salmonella. This organism can cause serious and sometimes fatal infections, especially in young children, the elderly and those with weakened immune systems. No illnesses have been reported, according to the Minneapolis company. The recall involves the Caribou Fruit &amp; Nut Blend Trail Mix, 3 ounce size, SKU No. 007845, with the sell by dates of March 3 and June 30 this year. The recalled Caribou Fruit and Nut Blend Trail Mix was distributed nationwide through Jan. 30, 2009. For more information, consumers can 888-227-4268.<br /></div><p><br />When you call the 888-227-4268 number late on Friday night, you get a message that it&#39;s only answered on weekdays.&#0160; The <a href="http://cariboucoffee.com/">CaribouCoffee.com</a> web page does not have any information on the front page at this time.&#0160; I&#39;ve looked for a press release on their corporate site, and no information is available.&#0160; The PR contact I have is</p><p><span class="ccbnTxt"><pre>/CONTACT: Lauren Mihajlov of <org><p>Caribou Coffee</p><orgid value="NASDAQ-NMS:CBOU"></orgid></org>, +1-763-592-2200,<br /><a href="mailto:lmihajlov@cariboucoffee.com">lmihajlov@cariboucoffee.com</a>/<br /> /Web site: <a href="http://www.cariboucoffee.com">http://www.cariboucoffee.com</a> /<br /> (CBOU)<br /><br /><span style="font-family: Helvetica,Arial,sans-serif;"><br />UPDATE Saturday (9am): from the PR contact:<br /><br /></span><font size="2">Ed,<br /><br />Thank you for your interest. The recall is entirely voluntary and<br />precautionary. We have pulled all of the product from stores and<br />notified the purchasers we have record of. We have no indication of<br />anyone becoming ill from this product.<br /><br />Thank you for being such a passionate customer of Caribou Coffee!</font><br /></pre></span></p>
 
 
 

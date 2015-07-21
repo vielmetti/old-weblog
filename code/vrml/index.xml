@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vrml on tracker</title>
+    <link>http://vielmetti.github.io/code/vrml/</link>
+    <description>Recent content in Vrml on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2015 10:30:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/vrml/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Daily coffee and wifi, ERC South Main</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-21-daily-coffee-wifi-erc-south-main/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-21-daily-coffee-wifi-erc-south-main/</guid>
+      <description>&lt;p&gt;Espresso over ice at ERC South Main. This is now my favorite summer drink.
+Served in a cup with enough ice and you get the makings of a very strong
+iced latte, just add a little half and half.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The work of the morning is finishing up yesterday&amp;rsquo;s work on sending
+postcards with Lob.com. Key to this effort is resizing your favorite
+images so that they meet the template. Fortunately I had the presence
+of mind seven years ago to
+&lt;a href=&#34;http://vielmetti.github.io/post/2008/2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly/&#34;&gt;write up my notes on using sips and Imagemagick&lt;/a&gt;
+for image manipulation and that helped. In this case the magic incantation
+was&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sips -z 1275 1875 original.jpg --out new.jpg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t have a Mac, or want to do this on a server or container
+somewhere, you&amp;rsquo;ll want Imagemagick. That venerable program has a
+bazillion options, and you&amp;rsquo;ll find the image geometry options at
+&lt;a href=&#34;http://www.imagemagick.org/script/command-line-processing.php#geometry&#34;&gt;http://www.imagemagick.org/script/command-line-processing.php#geometry&lt;/a&gt; .
+Recreating this exact sips command is left as an exercise for the reader.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That bit of image processing taken care of, the next iteration is to
+launch a few actual postcards into the ether. After having confirmed
+that everything goes OK on the test key, I sent out four cards. Estimated
+delivery date is July 30, so I&amp;rsquo;m expecting about a two week turnaround
+for feedback that I got everything right. Lob has card tracking so I guess
+the next step is to write the simple tools to know when things were
+delivered so that I can plan some phone calls.&lt;/p&gt;
+
+&lt;hr  /&gt;
+
+&lt;p&gt;My cousin Zorba has perhaps the best bio in the business.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;He has, in the course of his endeavors: been shot at by Navajos
+in Utah; seized and threatened at knifepoint by rednecks in Arkansas;
+chased by AK-47-toting soldiers in Hungary; run out of town by the
+Penitentes in Truchas; shaken down by the Federales in Baja, and
+forced to be rude to secure a cab in Rome. He has hung out of and
+over: planes, balloons, helicopters, boats, rafts, race cars,
+elevator shafts, too tall cliffs, and real deep canyons- and yet,
+he still has enthusiasm and a good attitude.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Jerry Davis asks why we still have academic journals:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Web has greatly reduced the barriers to entry for new journals
+and other platforms for communicating scientific output, and the
+number of journals continues to multiply. This leaves readers and
+authors with the daunting cognitive challenge of navigating the
+literature and discerning contributions that are both relevant and
+significant. Meanwhile, measures of journal impact that might guide
+the use of the literature have become more visible and consequential,
+leading to “impact gamesmanship” that renders the measures increasingly
+suspect.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The essay, published in &lt;a href=&#34;http://asq.sagepub.com/content/59/2/193&#34;&gt;Administrative Science Quarterly&lt;/a&gt; in June 2014, has the seeds of its own answer. Journals
+exist to enrich academic publishers.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Pay per Article - You may purchase this article for US$32.00. You
+must download your purchase, which is yours to keep, within 24
+hours.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;ll just ask Jerry for a preprint.&lt;/p&gt;
+
+&lt;p&gt;Previously (1995!) I get quoted in the Times Higher Education Supplement.
+The debate then centered around Stevan Harnad, an open access journal
+advocate who saw clearly the trend towards low cost electronic publications,
+thusly:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It remains only to tally up these PostGutenberg values: If the
+world&amp;rsquo;s esoteric scholarly/scientific literature were available to
+everyone for free in electronic form, the first benefit to the
+author would be the great increase in the visibility, accessibility
+and hence the potential impact of his work (1). This would of course
+also be a benefit to all scholars when they are wearing their
+readers&amp;rsquo; rather than their authors&amp;rsquo; hats (2). Some fear that such
+a literature would be overwhelming and un-navigable, but stop and
+think: How do we currently manage it in paper? If the entire corpus
+were transferred to the Net, instead of our eyes and fingers and
+feet doing the walking to get to the papers or to get the papers
+to us, electronic directories containing everything could be searched
+using the kinds of keyword search already used today in searching
+electronic databases that contain the titles and abstracts (but not
+the articles) in the paper literature. Then, one more click, and
+you have the paper itself! Or clever &amp;ldquo;knowbots&amp;rdquo; (automatic search
+programmes) could be designed to go out instead of us and look for
+papers fitting our profile of interests, leaving us even more time
+to actually read what we want and to do our research, rather than
+running after the literature.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My reply, &lt;a href=&#34;https://www.timeshighereducation.co.uk/features/harnad-versus-fuller-round-2/98502.article&#34;&gt;immortalized from the past&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Edward Vielmetti (bottom) uncontroversially points out that there
+is a lot of rubbish on the Internet; but he is sceptical of peer
+review as a solution.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The original commentary is lost in the mists of time, I hope.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There are two institutions that went by the name of GopherCon.
+(No, it&amp;rsquo;s not a furry convention; that&amp;rsquo;s Anthrocon.) One was
+from the early 1990s surrounding the Gopher internet browsing
+protocol; the other is for enthusiasts and programmers of the
+Go programming language. I am not aware of anyone who can claim
+to have gone to both events.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.databaseteam.org/10-database/0722cf77b51ab4ba.htm&#34;&gt;GopherCon 1995&lt;/a&gt;
+featured discussion of GopherVR and VRML for virtual reality in Gopher,
+the Hyper-G Information System for hypertext authoring, and an
+early morning session on Integrating Gopher and WWW.&lt;/p&gt;
+
+&lt;p&gt;GopherCon 2015 was in early July in Colorado. Of the items on
+the agenda this talk by Barak Michener was perhaps the most interesting
+to follow through on:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Written in Go, Cayley is a graph database based on technology
+behind Freebase.com. Starting with a short history of the inspirations
+behind Cayley, this talk will deep-dive into the moving parts of
+building a graph database, between the various query languages, the
+storage engines, and the iterator trees.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And of course this blog is now powered by Hugo which is written in Go
+so I&amp;rsquo;m learning a little about the Go template language as a side effect.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
