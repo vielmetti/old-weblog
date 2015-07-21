@@ -6,8 +6,75 @@
     <description>Recent content in Code on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2015 22:05:18 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2015 11:13:43 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Daily coffee and wifi at Biggby Packard</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-20-daily-coffee-wifi-packard-biggby/</link>
+      <pubDate>Mon, 20 Jul 2015 11:13:43 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-20-daily-coffee-wifi-packard-biggby/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s a warm but pleasant mid-summer late Monday morning, and I&amp;rsquo;m
+visiting the first cafe inbound on a walk to town. Biggby Packard
+is where I end up when the inbound bus schedule timing is just so.&lt;/p&gt;
+
+&lt;p&gt;Summertime cafes near campus are odd. There&amp;rsquo;s not really enough here
+to motivate someone to drive here for coffee, so it draws people
+from the surrounding neighborhood and from the athletic campus.
+I&amp;rsquo;ve been in here before when I was the only patron for more than
+an hour but this morning there&amp;rsquo;s a few more people sitting typing.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;I first ran into the &amp;ldquo;pocketmod&amp;rdquo; planning technique in 2005, and
+here it is 10 years later and there&amp;rsquo;s one in my pocket.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A pocketmod is a cleverly folded piece of paper with preprinted
+templates for things like a mini calendar, todo list, quadrille
+paper, checklist etc. It&amp;rsquo;s the smallest instance of a PDA that I
+have seen yet, requiring nothing more than a blank piece of paper
+and a pair of scissors to execute. You could even bypass the scissors
+if you had good paper and a crisp straightedge to do a rip.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Astoundingly, &lt;a href=&#34;http://www.pocketmod.com/&#34;&gt;http://www.pocketmod.com/&lt;/a&gt; is still online, in all of
+its 2005-2007 glory. That system does an 8-up PDF from a set of templates,
+so that you can print a lovingly detailed mini booklet. My own use
+has long since devolved into scrap paper plus rip down the center.
+When it fills up, invert the fold, and you have a brand new organizer.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Now playing, Johnny Cash&amp;rsquo;s &amp;ldquo;One Piece at a Time&amp;rdquo;. &amp;ldquo;GM wouldn&amp;rsquo;t miss just
+one little piece.&amp;rdquo; Look for the promo photo.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Menu plan: green beans with walnuts and miso sauce, plus a few green beans
+uncooked on the side for J who likes to eat the raw. A recipe of sorts is
+at &lt;a href=&#34;http://www.thekitchn.com/recipe-review-green-beans-with-49874&#34;&gt;The Kitchn&lt;/a&gt;,
+which refers to a 2005 New York Times Dining article about Yumiko
+Kano and her brand of Japanese cooking.
+&lt;a href=&#34;http://justbento.com/handbook/bento-basics/review-saisai-lunch-vegan-bento-by-yumiko-kano&#34;&gt;Just Bento&lt;/a&gt; has some reviews of books by Yumiko Kano (aka Yumiko Kanoh or
+Kanou Kumiko). &lt;a href=&#34;http://theunbearablelightnessofbeinghungry.com/2009/10/vegetarian-ramen/&#34;&gt;The Unbearable Lightness of Being Hungry&lt;/a&gt; has a 2009 vegetarian ramen recipe
+from the same author. There&amp;rsquo;s a &lt;a href=&#34;http://metropolis.co.jp/dining/table-talk/yumiko-kano/&#34;&gt;profile of Yumiko Kano&lt;/a&gt; in Metropolis.&lt;/p&gt;
+
+&lt;p&gt;We got some
+very yummy new potatoes from Farmers Market that I cooked up last night,
+which were 1000x more wonderful than storebought old potatoes.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Exit Biggby heading north to North Campus to Mujo&amp;rsquo;s, for some
+time spent writing. Close all of the windows, save all of the
+documents, publish locally all of the works in progress. North
+Campus has the virute of frequent free bus service from Central
+Campus, and it&amp;rsquo;s far enough away to completely flush all of
+the thoughts of what I had been doing so I can work on another project.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>lob a postcard: printer sends cards via API</title>
@@ -21,6 +88,14 @@ It works, but all of the user interface is up to you; if you know
 a good service for delivering a single full-custom postcard with
 postage that actually has a user interface and not an API for less
 than $1.00 each, let me know and I&amp;rsquo;ll update here.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve started checking in a few tiny utility programs that exercise
+the Lob API. Look for &lt;a href=&#34;https://github.com/vielmetti/postcard&#34;&gt;https://github.com/vielmetti/postcard&lt;/a&gt; on Github.
+The goal at some point is to have a &amp;ldquo;postcard&amp;rdquo; application
+that has a user interface like so.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;postcard --to mom --photo cute-kids.jpg --message &amp;quot;they get so big so fast! love ed&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Also in this business is PostalMethods with a Postcard API based on SOAP.
 That&amp;rsquo;s not a convenient interface in the languages that I use, but you
@@ -512,27 +587,6 @@ Opera Next.app = 103.1 MB&amp;quot; (&lt;a href=&#34;https://twitter.com/maxart/
 &lt;p&gt;8. &amp;quot;I am still learning to manage my time better and would love to hear your thoughts if you’ll are a startup dad/mom.&amp;quot; Some productivity hints from a father of a young child who runs a startup. (&lt;a href=&#34;http://sahilparikh.com/post/51539972450/productivity-hacks-of-a-startup-dad&#34; target=&#34;_self&#34;&gt;Sahil Parikh&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;9. &amp;quot;These cases are covered under a new HTML5 called the&amp;#0160;&lt;a href=&#34;http://wiki.whatwg.org/wiki/Meta_referrer&#34;&gt;meta referrer&lt;/a&gt;. Now a simple tag can be used, such as&amp;#0160;&lt;code&gt;&amp;lt;meta name=&amp;quot;referrer&amp;quot; content=&amp;quot;always&amp;quot;&amp;gt;&lt;/code&gt;, to specify the exact behaviour of the HTTP Referrer regardless of whether we&amp;#39;re using HTTP or HTTPS.&amp;quot; (&lt;a href=&#34;http://smerity.com/articles/2013/where_did_all_the_http_referrers_go.html&#34; target=&#34;_self&#34;&gt;Stephen Merity&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;10. Find a set of complementary colours just by moving your mouse around. (&lt;a href=&#34;http://colourco.de/&#34; target=&#34;_self&#34;&gt;Colourco.de&lt;/a&gt;)&amp;#0160;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hacker News summary, Monday 27 May 2013, 3:00 p.m. edition</title>
-      <link>http://vielmetti.github.io/post/2013/2013-05-27-hacker-news-summary-monday-27-may-2013-300-pm-edition/</link>
-      <pubDate>Mon, 27 May 2013 15:19:43 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-05-27-hacker-news-summary-monday-27-may-2013-300-pm-edition/</guid>
-      <description>&lt;p&gt;A summary of Hacker News from 3:00 p.m. on Memorial Day. It&amp;#39;s getting faster to produce these, but it still takes at least a minute or two per each.&lt;/p&gt;
-&lt;p&gt;I wonder about the churn rate of the Hacker News front page. How long do you have to wait to ensure that the top 10 posts have all cycled out? Every day is clearly enough, but I&amp;#39;m suspecting that it might take as little as 12 hours to cycle through what passes for news. A useful bit of code would monitor the site, send off a batch of 10 articles to be summarized, and then wait checking periodically until those 10 have all fallen from favor to send out a new batch of 10.&lt;/p&gt;
-&lt;p&gt;1. Google has plans to outfit high-altitue blimps with telecommunications gear to serve Africa. &amp;quot;Small-scale trials&amp;#0160;&lt;a href=&#34;http://google-africa.blogspot.se/2013/03/announcing-new-tv-white-spaces-trial-in.html&#34;&gt;are underway&lt;/a&gt;&amp;#0160;in Cape Town, South Africa,&amp;quot; using TV &amp;quot;white spaces&amp;quot; between channels as frequencies. (&lt;a href=&#34;http://www.wired.co.uk/news/archive/2013-05/26/google-blimps&#34; target=&#34;_self&#34;&gt;Wired UK&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;2. Matt writes a love letter to Wordpress after 10 years of working on it. (&lt;a href=&#34;http://ma.tt/2013/05/dear-wordpress/&#34; target=&#34;_self&#34;&gt;Matt Mullenweg&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;3. &amp;quot;When not even a Stanford or MIT engineering degree is good enough to keep an engineer employed at 60, there is genuinely no market for engineers that age. Plan accordingly.&amp;quot; (&lt;a href=&#34;http://lionoftheblogosphere.wordpress.com/2013/05/25/sucks-to-be-an-old-engineer/&#34; target=&#34;_self&#34;&gt;Lion of the Blogosphere&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;4. Haxe 3.0 is out. Haxe is a multi-platform, strictly typed modern language for cross-system and mobile development. (&lt;a href=&#34;http://haxe.org/download&#34; target=&#34;_self&#34;&gt;Haxe&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;5. &amp;quot;The hottest tech start-ups are solving all the problems of being twenty years old, with cash on hand, because that’s who thinks them up.&amp;quot; (&lt;a href=&#34;http://www.newyorker.com/reporting/2013/05/27/130527fa_fact_packer&#34; target=&#34;_self&#34;&gt;George Packer&lt;/a&gt;, New Yorker) Not so fast; &amp;quot;many of the hottest tech start-ups are solving the problems of being a business, because that’s where all the money is.&amp;quot; (&lt;a href=&#34;http://www.washingtonpost.com/blogs/wonkblog/wp/2013/05/27/is-silicon-valley-only-interested-in-the-problems-of-twentysomethings/&#34; target=&#34;_self&#34;&gt;Ezra Klein&lt;/a&gt;, Washington Post)&lt;/p&gt;
-&lt;p&gt;6. &amp;quot;Unless you put time and effort into reading about and implementing exploits, your home-grown cryptography based security mechanisms don&amp;#39;t stand much of a chance against real-world attacks.&amp;quot; You are dangerously bad at cryptography; some examples follow. (&lt;a href=&#34;http://happybearsoftware.com/you-are-dangerously-bad-at-cryptography.html&#34; target=&#34;_self&#34;&gt;Ali, Happy Bear Software)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;7. If you&amp;#39;re looking for open source clones of your favorite games, you&amp;#39;ve found it here. (&lt;a href=&#34;http://osgameclones.com/&#34; target=&#34;_self&#34;&gt;Open Source Game Clones&lt;/a&gt;)&amp;#0160;&lt;/p&gt;
-&lt;p&gt;8. Some silly new annotations for you if you are written Java code, from the Google Annotations Gallery. (&lt;a href=&#34;https://code.google.com/p/gag/&#34; target=&#34;_self&#34;&gt;GAG&lt;/a&gt;) Start with @Noop and end with @Palindrome.&lt;/p&gt;
-&lt;p&gt;9. &amp;quot;It&amp;#39;s nuts that to make a new laptop relatively unthreatening and accessible for an enthusiastic 90-something requires going across a dozen System Preferences panes and sub-panes, and simply having to accept certain things as inevitably confusing.&amp;quot; Setting up a Mac for Grandma is an exercise in appreciating the accessibility problems of the Internet. (&lt;a href=&#34;http://blog.accursedware.com/nonagenarian-laptop/&#34; target=&#34;_self&#34;&gt;Accursed Ware&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;10. An explanation of SQL joins in Venn diagrams from 2007. (&lt;a href=&#34;http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html&#34; target=&#34;_self&#34;&gt;Jeff Atwood&lt;/a&gt;) Inspired by a previous post (&lt;a href=&#34;http://www.khankennels.com/blog/index.php/archives/2007/04/20/getting-joins/&#34; target=&#34;_self&#34;&gt;Ligaya Turmelle&lt;/a&gt;). Stack Overflow takes on the more complicated questions where the relationships don&amp;#39;t fit into Venn diagrams so neatly. (&lt;a href=&#34;http://stackoverflow.com/questions/13997365/sql-joins-as-venn-diagram&#34; target=&#34;_self&#34;&gt;Stack Overflow&lt;/a&gt;)&lt;/p&gt;
 </description>
     </item>
     

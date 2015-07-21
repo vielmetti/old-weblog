@@ -51,6 +51,10 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-20-commuter-north-and-south" class="list-group-item">Commuter North and South</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-20-daily-coffee-wifi-packard-biggby" class="list-group-item">Daily coffee and wifi at Biggby Packard</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-lob-a-postcard-printer" class="list-group-item">lob a postcard: printer sends cards via API</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-espresso-over-ice-with-a-little-half-and-half" class="list-group-item">espresso over ice with a little half and half</a></li>
@@ -86,14 +90,14 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages" class="list-group-item">Publishing from Hugo to Github Pages</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/Mac-and-Goat" class="list-group-item">Mac and Goat</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-customizing-a-theme" class="list-group-item">customizing a theme</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-converting-typepad-to-hugo" class="list-group-item">converting typepad to hugo</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7817,6 +7821,10 @@ networks
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8113,6 +8121,71 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>24 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/">Using GNU Parallel to speed up network operations</a>
+      </h3>
+      <p>My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.</p>
+
+<p>Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes. If you are working on something where it doesn't matter which order things happen in as long as they all get done you are in good shape to get tremendous performance improvements simply by overlapping operations.</p>
+
+<p>An example:</p>
+
+<p>DTE Energy does not have one single page on their web site that shows you the total number of outages across their system - or if they do have it, it's so well hidden that I haven't found it. What they do have is a way to fetch the outage count for a single ZIP code. So, armed with a set of zip codes, you can determine a total. You don't care which ZIP is fetched first but you do want them all to show up before you add them up.</p>
+
+<p>The one-line command I have for this is</p>
+
+<p><code>
+parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
+</code></p>
+
+<p>The script dte-by-zip runs as follows, fetching a page from a DTE server and parsing it:</p>
+
+<blockquote>
+  <p>$ dte-by-zip 48104</p>
+  
+  <p>38</p>
+</blockquote>
+
+<p>thus the parallel invocation reads roughly as follows: "for 32 parallel threads, using the dte-zips data file one line a time as command line arguments, run dte-by-zip; add up all the results".</p>
+
+<p>Note that if you are using "curl" to fetch pages, you want to be aware of the <code>--max-time</code> option.</p>
+
+<blockquote>
+  <p>-m, --max-time <seconds>
+               Maximum time in seconds that you allow the  whole  operation  to
+               take.   This is useful for preventing your batch jobs from hang-
+               ing for hours due to slow networks or links going  down. </p>
+</blockquote>
+
+<p>Now you don't want to go too crazy with parallel operations on network resources, it's possible to overrun a remote server and it might be faster to pull 8 or 16 parallel threads instead of 32 or 64 depending on the nature of the remote machine.</p>
+
+<p>Article describing tool (for citations):</p>
+
+<p>O. Tange (2011): GNU Parallel - The Command-Line Power Tool, ;login: The USENIX Magazine, February 2011:42-47.</p>
+
+<p>Authors' website for obtaining code:</p>
+
+<p>http://www.gnu.org/software/parallel/</p>
+
+
+  <h3>22 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-22-dockers-new-runc-doesnt-yet-work-on-mac-os-x-/">Docker&#39;s new RunC doesn&#39;t (yet?) work on Mac OS X</a>
+      </h3>
+      <p>Docker has a new runtime environment that they are releasing called <a href="http://blog.docker.com/2015/06/runc/">runC</a>. It's a "lightweight universal plumbing" that tries to encapsulate all of the Docker dependencies and infrastructure. </p>
+
+<blockquote>
+  <p>To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.</p>
+</blockquote>
+
+<p>Because of Docker's start on Linux systems, it's been tricky to get it running under Mac OS X. Some tries to make it work depend on setting up virtual machines (with the likes of boot2docker) which makes it work at the cost of performance and flexibility. Docker on OS X has not been exceptionally easy though it does work once you commit to doing all of your Docker server work inside a VM</p>
+
+<p>runC would be an answer to the problem of native Docker on OSX X, one might hope, but as of its first release it doesn't work. The first of what is probably many hurdles is the extensive use of the clone(2) system call instead of fork(2). This <a href="http://files.meetup.com/10602292/See%20Docker%20from%20the%20Perspective%20of%20Linux%20Process.pdf">presentation from Allen Sun at DaoCloud</a> goes into the details of Docker's use of clone(2) from the perspective of Linux processes. It is notable that the OS X "Darwin" kernel doesn't have clone(2), and it's as far as I can tell not readily possible to mimic all of clone's semantics strictly by using fork in clever ways.</p>
+
+<p>An open issue on Github is tracking <a href="https://github.com/opencontainers/runc/issues/9">Build fails on Mac OS X 10.9</a>. I don't see an easy fix without work by Apple on their kernel.</p>
 
 
   <h3>17 June 2015</h3>
@@ -8589,32 +8662,6 @@ ISBN-13: 978-0385353885</p>
 </ul>
 
 <p>Knowing City Council, it's likely that one or more issues will emerge at the last possible moment, but this at least gives you a shot at figuring out what council actions are happening in your back yard.</p>
-
-
-  <h3>2 May 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-05-02-2015-graduation-day-earthquake-rattles-ann-arbor-grand-rapids-detroit-miquake/">2015 Graduation Day Galesburg MI earthquake rattles Ann Arbor, Grand Rapids, Detroit on May 2</a>
-      </h3>
-      <p>May 2, 2015, ANN ARBOR, MICHIGAN: A magnitude 4.0 earthquake rattled southern Michigan at 12:23 p.m. today, with the quake centered at Galesburg, MI.</p>
-
-<p>Timeline</p>
-
-<p>May 2, 2015, 12:59 p.m. EST: Official report gives the quake ID us20002avh. "Did you feel it" map shows the range of the affected area.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0827aa2e970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0827aa2e970d img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Us20002avh_ciim" title="Us20002avh_ciim" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0827aa2e970d-600wi" /></a><br /></p>
-
-<p><br /></p>
-
-<p>May 2, 2015, 12:37 p.m. EST:  No official report yet from USGS, but an earthquake rattled the southern half of lower Michigan at about 12:25 p.m. No reports of any damage or injuries, just mild shaking. Reports are in from Holland, Grand Rapids, Lansing area, Ann Arbor, Ypsilanti, Detroit, and one report from somewhere in Ohio. Hashtag #miquake . To report a quake to USGS see their <a href="http://earthquake.usgs.gov/earthquakes/eventpage/unknown#impact_tellus">Tell Us!</a> page</p>
-
-<p>May 2, 2015, 12:23 p.m. EST: <a href="http://earthquake.usgs.gov/earthquakes/eventpage/us20002avh#general_summary">M4.0 earthquake at Galesburg, MI</a></p>
-
-
-  <h3>29 April 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-04-29-hudson-mills-metropark-to-dexter-10k-b2b-west-river-trail-saturday-may-2-2015/">Hudson Mills Metropark to Dexter 10K, B2B-West River Trail, Saturday May 2, 2015</a>
-      </h3>
-      <p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c781f4df970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c781f4df970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="2015 B2B 10K Flyer" title="2015 B2B 10K Flyer" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c781f4df970b-600wi" /></a><br /></p>
 
 
 

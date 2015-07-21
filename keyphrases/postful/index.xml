@@ -22,6 +22,14 @@ a good service for delivering a single full-custom postcard with
 postage that actually has a user interface and not an API for less
 than $1.00 each, let me know and I&amp;rsquo;ll update here.&lt;/p&gt;
 
+&lt;p&gt;I&amp;rsquo;ve started checking in a few tiny utility programs that exercise
+the Lob API. Look for &lt;a href=&#34;https://github.com/vielmetti/postcard&#34;&gt;https://github.com/vielmetti/postcard&lt;/a&gt; on Github.
+The goal at some point is to have a &amp;ldquo;postcard&amp;rdquo; application
+that has a user interface like so.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;postcard --to mom --photo cute-kids.jpg --message &amp;quot;they get so big so fast! love ed&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;Also in this business is PostalMethods with a Postcard API based on SOAP.
 That&amp;rsquo;s not a convenient interface in the languages that I use, but you
 can look at the API at &lt;a href=&#34;http://www.postalmethods.com/lp/postcard-api&#34;&gt;http://www.postalmethods.com/lp/postcard-api&lt;/a&gt; .
