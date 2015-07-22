@@ -6,8 +6,36 @@
     <description>Recent content in Events on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Sep 2014 17:46:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2015 10:50:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker Detroit, Wednesday July 22, 2015, 6:00 pm, Troy, Michigan</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit/</link>
+      <pubDate>Wed, 22 Jul 2015 10:50:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit/</guid>
+      <description>&lt;p&gt;I hope to see you at Docker Detroit&amp;rsquo;s kickoff meeting, to be held
+at RIIS, 1250 Stephenson Highway, Suite 200 in Troy, MI starting
+at 6:00 p.m. tonight July 22 2015.  I&amp;rsquo;ll be coming in from Ann
+Arbor. The venue is between 14 Mile and Maple behind Beaumont Hospital.
+Google Maps suggests that because of construction on I-75 in that
+area you might want to head north on Campbell instead of taking
+the I-75 / I-696 interchange north.&lt;/p&gt;
+
+&lt;p&gt;Leading the meeting tonight is Pepijn Bruienne from the University
+of Michigan. He will be speaking about &amp;ldquo;Docker in production&amp;rdquo;
+and organizing a group discussion with Q&amp;amp;A.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://www.meetup.com/Docker-Detroit/events/223111645/&#34;&gt;meetup announcement&lt;/a&gt;
+for more details, refreshments will be provided.&lt;/p&gt;
+
+&lt;p&gt;The meetup is hosted at &lt;a href=&#34;http://www.riis.com&#34;&gt;RIIS&lt;/a&gt; a boutique web
+and mobile development house. Hope to see you there!  I&amp;rsquo;ll be taking
+notes and plan to do a writeup of the event, as well as sharing my
+own experiences running Docker for ARM on a Raspberry PI 2.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Michigan Green Burial Conference, October 11, 2014</title>
@@ -308,25 +336,6 @@ This event is co-sponsored by: American Association of University Professors-Ame
 &lt;p&gt;a2geeks&amp;#39; third annual meeting is a gathering-of-the-geeks - inventors and innovators, makers and hackers, students and grandparents, town and gown. This event will also kick-off the A2Geeks Civic Apps Contest. Food and fun galore.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The event starts at 5:30 p.m. I&amp;#39;ll be there pitching the Civic Apps contest, which I&amp;#39;ve been working on for a while now to organize. See you there!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ann Arbor Nerd Nite, Wednesday April 17, 2013</title>
-      <link>http://vielmetti.github.io/post/2013/2013-04-15-ann-arbor-nerd-nite-wednesday-april-17-2013/</link>
-      <pubDate>Mon, 15 Apr 2013 09:59:01 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-04-15-ann-arbor-nerd-nite-wednesday-april-17-2013/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Ann Arbor&amp;#39;s monthly Nerd Nite is coming Wednesday, April 17; doors open at 6:30pm for a 7:00pm event. Here&amp;#39;s a bit from the &lt;a href=&#34;http://annarbor.nerdnite.com&#34; target=&#34;_self&#34;&gt;Ann Arbor Nerd Nite web site&lt;/a&gt;&amp;#0160;which also has more in the way of details about the speakers and the format.&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&#34;http://annarbor.nerdnite.com/2013/04/05/wham-w00t-wednesday/&#34; rel=&#34;bookmark&#34; title=&#34;Permanent Link to Wham! W00t! Wednesday!&#34;&gt;Wham! W00t! Wednesday!&lt;/a&gt;&lt;/h2&gt;
-&lt;div&gt;
-&lt;p&gt;What up, A2nerds? We’re mixing things up a bit this month by bringing the nerdery to Wednesday. For those of you that are new to the fold,&amp;#0160;&lt;a href=&#34;http://annarbor.nerdnite.com/&#34;&gt;Nerd Nite&lt;/a&gt;&amp;#0160;is a monthly social event where nerds of all disciplines give 18-21 minute funny and informative talks while the audience drinks along and asks questions. We’ve heard&amp;#0160;&lt;a href=&#34;http://www.facebook.com/nerdniteannarbor&#34;&gt;good things&lt;/a&gt;&amp;#0160;about this shindig. So, what will we be learning about this time?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;W is for Water:&lt;/strong&gt;&amp;#0160;David Trossman will channel his inner Steve Zissou and guide us through Voyages of the Neo-Voyeurs: How They Observe Motion in the Ocean.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;W is for Writing:&lt;/strong&gt;&amp;#0160;Amy Wilson&amp;#0160;would Do Anything for Love and she’ll explain to us Why, in fact, Good Pop Music is Good Writing.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;W is for Whiskey:&lt;/strong&gt;&amp;#0160;Michelle Kydd, in Eau Whiskey, will help us see that whiskey isn’t just for drinking, but for smelling, too.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt;&amp;#0160;Wednesday, April 17 Doors at 6:30 Event at 7&lt;br /&gt;&lt;strong&gt;Where:&lt;/strong&gt;&amp;#0160;The Last Word,&amp;#0160;&lt;a href=&#34;https://maps.google.com/maps?q=301+W+Huron+St,+Ann+Arbor,+MI&amp;amp;hl=en&amp;amp;sll=45.00109,-86.270553&amp;amp;sspn=7.814605,19.709473&amp;amp;oq=301&amp;amp;hnear=301+W+Huron+St,+Ann+Arbor,+Washtenaw,+Michigan+48103&amp;amp;t=m&amp;amp;z=16&#34; target=&#34;_blank&#34; title=&#34;Map of 301 W. Huron St, Ann Arbor, MI&#34;&gt;301 W. Huron St.&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Wage:&lt;/strong&gt;&amp;#0160;$5&amp;#0160;&lt;a href=&#34;http://bit.ly/17hm4K8&#34; target=&#34;_blank&#34; title=&#34;Buy Tickets to Nerd Nite Ann Arbor&#34;&gt;Buy online&lt;/a&gt;! or at the door (cash/credit)&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -6,8 +6,69 @@
     <description>Recent content in Espresso Over Ice on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2015 10:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2015 10:05:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/recipes/espresso-over-ice/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Daily Coffee and Wifi, Roos Roast Wednesday edition</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast/</link>
+      <pubDate>Wed, 22 Jul 2015 10:05:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast/</guid>
+      <description>&lt;p&gt;At Roos, an espresso over ice with a little half and half and a hard
+boiled egg. It&amp;rsquo;s a very compact breakfast. The espresso is served in
+an appropriately sized glass mug and tastes like the strongest little
+iced latte you will ever have.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;On my Mac, run &amp;lsquo;boot2docker upgrade&amp;rsquo;. That gets me up to current 1.7.1
+revision of everything.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Edwards-MacBook-Air:~ emv$ docker version
+Client version: 1.7.1
+Client API version: 1.19
+Go version (client): go1.4.2
+Git commit (client): 786b29d
+OS/Arch (client): darwin/amd64
+Server version: 1.7.1
+Server API version: 1.19
+Go version (server): go1.4.2
+Git commit (server): 786b29d
+OS/Arch (server): linux/amd64
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The issue that 1.7.1 resolves for me is certificate support - if I
+understand the bug right, the Docker daemon was creating a key for
+each interface it had, but not all of the interfaces were up at key
+init time. The fix was to move DHCP init earlier in the start sequence
+so that everything was initialized by the time key creation took place.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The Docker team is trying to improve code quality by having their
+code base pass the &lt;code&gt;golint&lt;/code&gt; test. The open issue,
+&lt;a href=&#34;https://github.com/docker/docker/pull/14784&#34;&gt;fix golint errors/warnings #14784&lt;/a&gt;,
+has attracted a swarm of contributors, and a lot of them have
+proposed changes that don&amp;rsquo;t pass the automated tests. The build
+farm is managed with Jenkins, and you can see the
+&lt;a href=&#34;https://jenkins.dockerproject.org/&#34;&gt;status of every build of Docker&lt;/a&gt; on their
+dashboard.&lt;/p&gt;
+
+&lt;p&gt;Having a full lintable codebase is a great goal. The challenge comes when
+the suggested changes by lint send you in the direction of making an
+incompatible change to some interface that has the &amp;ldquo;wrong&amp;rdquo; name but that
+people were relying on.&lt;/p&gt;
+
+&lt;p&gt;Perhaps importantly for the work I&amp;rsquo;m doing it&amp;rsquo;s worth noting that currently
+all of these tests are done on x86 platforms (Linux and Windows) and there
+isn&amp;rsquo;t an official automated build on ARM. I&amp;rsquo;ve been using the
+&lt;a href=&#34;http://blog.hypriot.com/downloads/&#34;&gt;Docker distribution from Hypriot&lt;/a&gt; as my
+baseline for working on the Raspberry Pi, with good success.&lt;/p&gt;
+
+&lt;hr/&gt;
+</description>
+    </item>
     
     <item>
       <title>Daily coffee and wifi, ERC South Main</title>
