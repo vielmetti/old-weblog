@@ -6,7 +6,7 @@
     <description>Recent content in Docker on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2015 02:18:01 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2015 18:48:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/code/docker/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -181,6 +181,21 @@ mosquitto:
 &lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;For more highlights, see the &lt;a href=&#34;http://venturebeat.com/2015/06/22/everything-announced-at-dockercon-2015/&#34;&gt;Venturebeat roundup of Dockercon 2015&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>bocker is a subset of Docker in 100 lines of shell script</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</link>
+      <pubDate>Tue, 21 Jul 2015 18:48:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/p8952/bocker&#34;&gt;bocker&lt;/a&gt; is Docker (or at least
+a good sized subset of it) in 100 lines of shell script.
+I suppose the point is that even though there&amp;rsquo;s a huge
+world of hype surrounding containerization as a next step
+of systems management, when you get down to it, it&amp;rsquo;s just not
+that complicated.&lt;/p&gt;
 </description>
     </item>
     

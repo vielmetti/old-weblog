@@ -6,8 +6,118 @@
     <description>Recent content in Code on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2015 11:13:43 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2015 18:48:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>bocker is a subset of Docker in 100 lines of shell script</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</link>
+      <pubDate>Tue, 21 Jul 2015 18:48:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/p8952/bocker&#34;&gt;bocker&lt;/a&gt; is Docker (or at least
+a good sized subset of it) in 100 lines of shell script.
+I suppose the point is that even though there&amp;rsquo;s a huge
+world of hype surrounding containerization as a next step
+of systems management, when you get down to it, it&amp;rsquo;s just not
+that complicated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coworking notes at Elixir Vitae</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes/</link>
+      <pubDate>Tue, 21 Jul 2015 16:57:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes/</guid>
+      <description>&lt;p&gt;A productive afternoon with Mohan Kartha in which I opened a great
+many tabs in Chrome. This bit of writing to close those out. Elixir
+Vitae is a great spot for writing - lots of quiet noise from the coolers
+to keep a background hum, and close to the bus station.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;I&amp;rsquo;m sorting out the simplest task that I&amp;rsquo;d like to do with Node-RED,
+now that I have a Raspberry Pi 2 running it under Docker in a configuration
+that&amp;rsquo;s reliable enough that it seems like it&amp;rsquo;s stable. The easiest
+network test in the world is the ping test, and so my first stab at
+a try for &amp;ldquo;run always&amp;rdquo; is a simple configuration to notice when the
+network looks like it&amp;rsquo;s down and when it is to collect some more
+detailed information and log it to a file.&lt;/p&gt;
+
+&lt;p&gt;The inspiration for that is this simple configuration from an idea
+by Nathan Chantrell, implemented by Martin Harizanov in 2014.
+&lt;a href=&#34;https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/&#34;&gt;Presence detection using phone’s WiFi and Node-RED&lt;/a&gt; relies on static
+IP address assignments from DHCP, plus &amp;ldquo;ping&amp;rdquo;, to notice if
+someone&amp;rsquo;s device is in the building, turned on, and listening to
+wifi.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve had enough phones drain their battery to know that absence
+of a wifi signal is not an unambiguous marker!&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Fantelope is doing a beta product launch at the final AFC Ann Arbor minor
+league soccer game of the year, Saturday, July 25 at 6 PM at Hollway
+Field (Pioneer High School, 601 W. Stadium, Ann Arbor). See
+&lt;a href=&#34;http://fantelope.com/afc-ann-arbor-fantelope-beta-launch/&#34;&gt;the Fantelope web site&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;My first pass at writing code to send postcards from Lob.com is
+working. The note to self is that if you have a square bracket in
+a URL, that you have to turn off curl&amp;rsquo;s globbing function, e.g.
+with -g or &amp;ndash;globoff. &amp;ldquo;When you set this option, you can specify
+URLs that contain the letters {}[] without having them being
+interpreted by curl itself. &amp;ldquo;&lt;/p&gt;
+
+&lt;p&gt;Every card has a tracking code, so the next bit of reporting to write
+is to see which cards are awaiting printing, which ones are in transit,
+where they are going to and whether they have been received.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The AAATA moved the endpoint URL for its old-school &amp;ldquo;classic&amp;rdquo;
+mobile RideTrak application. To go to a particular route like
+the 5, see e.g. &lt;a href=&#34;http://mobile.theride.org/classic/rideguide_m.asp?route=5&#34;&gt;http://mobile.theride.org/classic/rideguide_m.asp?route=5&lt;/a&gt; .
+The main &lt;a href=&#34;http://mobile.theride.org&#34;&gt;http://mobile.theride.org&lt;/a&gt; has a newer interface, but
+alas my Windows Phone 8.1 with its Internet Explorer browser
+doesn&amp;rsquo;t do that page justice. (That, and I prefer the old interface
+because I managed to figure it out for the stop I&amp;rsquo;m always catching
+the bus from.)&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.getlittlebird.com/&#34;&gt;Little Bird&lt;/a&gt; promises to
+&amp;ldquo;help businesses unlock the valuable information in structured social data&amp;rdquo;.
+I&amp;rsquo;ve asked for a trial to see what they have in store.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;I&amp;rsquo;m wondering what the best approach is to the task of
+&amp;ldquo;download all of my email from Gmail&amp;rdquo;, since the storage I
+now have available on my laptop would make it straightforward
+to have an 18 GB personal mail spool and because I really actually
+would love to search through it so that I can mark some messages
+for permanent deletion. One possibility is &lt;a href=&#34;https://www.enkive.org&#34;&gt;Enkive&lt;/a&gt;
+from The Linux Box.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;I am reminded that I want to carry around a set of headphones with me
+that plug into my Nokia 635 so that I can use the phone as a radio,
+and also reminded that I want to try to construct a headphone dipole
+as an antenna for my NooElec DVB-T tuner. The challenge will be remembering
+those desires at the right time so that when I see the parts I need
+in the junk pile at home that I can grab what I need for my every
+day carry bag.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Oh, and I need to track down an 8 GB USB stick to load a boot ISO on.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Daily coffee and wifi at Biggby Packard</title>
@@ -528,65 +638,6 @@ Instapaper. Tumblr. and now The Magazine. Sounds like Marco is clearing house a 
 (&lt;a href=&#34;https://news.ycombinator.com/item?id=5786828&#34;&gt;17 comments&lt;/a&gt;)
 &lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/22135327&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013&#34; title=&#34;KPCB Internet Trends 2013&#34; target=&#34;_blank&#34;&gt;KPCB Internet Trends 2013&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/kleinerperkins&#34; target=&#34;_blank&#34;&gt;Kleiner Perkins Caufield &amp; Byers&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
 &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hacker News summary, Tuesday 28 May 2013, 9:45 p.m edition</title>
-      <link>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-tuesday-28-may-2013-945-pm-edition/</link>
-      <pubDate>Tue, 28 May 2013 22:22:27 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-tuesday-28-may-2013-945-pm-edition/</guid>
-      <description>&lt;p&gt;&lt;p&gt;A late evening version of Hacker News for Tuesday 28 May 2013. I&amp;#39;ve added links to the comments for each entry, and try to pull out a useful quote from the comments if there are any that are easy to find. Of interest: Pixar raytracing, Liberty Reserve money laundering, and Harvard email snooping.&lt;/p&gt;
-&lt;p&gt;1. A breakdown of github pull requests by acceptance rate, for a variety of languages and projects. If you want to get your pull request accepted, don&amp;#39;t write C++, write Scala; and contribute to projects like Akka&amp;#0160;and&amp;#0160;backbone-fundamentals that take 80+% of pull requests. (&lt;a href=&#34;http://paulmillr.com/posts/github-pull-request-stats/&#34; target=&#34;_self&#34;&gt;Paul Miller&lt;/a&gt;)&amp;#0160;&amp;quot;&lt;span style=&#34;color: #000000;&#34;&gt;I&amp;#39;m surprised the acceptance rate is so high.&amp;quot;&lt;/span&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=5783616&#34; target=&#34;_self&#34;&gt;28 comments&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;2. &amp;quot;Pixar&amp;#39;s lighting/rendering systems were completely redone for their new film&amp;#0160;&lt;em&gt;Monsters University.&amp;quot; &lt;/em&gt;Correspondence with Chris Horne, who worked on MU. &amp;quot;So our Director of Photography went to a studio that is so clearly raytracing averse and essentially said &amp;quot;We&amp;#39;re raytracing everything.&amp;quot; (&lt;a href=&#34;http://thisanimatedlife.blogspot.com/2013/05/pixars-chris-horne-sheds-new-light-on.html?m=1&#34; target=&#34;_self&#34;&gt;Mason Smith&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5781904&#34; target=&#34;_self&#34;&gt;92 comments&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;3. &amp;quot;Liberty Reserve, which was incorporated in 2006, was a &amp;quot;bank of choice for the criminal underworld,&amp;quot; according to the indictment, which said the operation allegedly laundered the money through 55 million transactions before it was shut down earlier this month.&amp;quot; $6 billion was allegedly laundered. (&lt;a href=&#34;http://online.wsj.com/article/SB10001424127887323855804578511121238052256.html&#34; target=&#34;_self&#34;&gt;Wall Street Journal&lt;/a&gt;) The comments note the precarious legal position of various Bitcoin exchanges. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5783261&#34; target=&#34;_self&#34;&gt;50 comments&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;4. Topcoat is &amp;quot;CSS for clean and fast web apps&amp;quot;.&amp;#0160;&lt;a href=&#34;https://github.com/topcoat/topcoat/archive/0.3.0.zip&#34; id=&#34;download-btn&#34;&gt;Download version 0.3&lt;/a&gt;&amp;#0160;(Github). The comments compare it to Twitter Bootstrap and Zurb Foundation. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5781369&#34; target=&#34;_self&#34;&gt;78 comments&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;5. Thomas Friedman writes about HireArt, which has HR software to better match candidates with job openings by tailoring tests and quizzes to the qualifications for the job. (&lt;a href=&#34;http://www.nytimes.com/2013/05/29/opinion/friedman-how-to-get-a-job.html?_r=0&#34; target=&#34;_self&#34;&gt;NY Times&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5784074&#34; target=&#34;_self&#34;&gt;no comments&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;6. Evelynn Hammonds will step down as Harvard College dean, in the wake of a scandal involving searches of Harvard faculty and staff email accounts. She will return to teaching&amp;#0160;and research in the History of Science and African and African American Studies departments. (&lt;a href=&#34;http://www.boston.com/metrodesk/2013/05/28/evelynn-hammonds-step-down-harvard-college-dean/WRRTRAKHRIGj7ANBSiAxbL/story.html&#34; target=&#34;_self&#34;&gt;Boston.com&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5782595&#34; target=&#34;_self&#34;&gt;18 comments&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;7. A Facebook engineer waxes poetical about his four years with the company and the engineering challenges he has faced. (&lt;a href=&#34;https://www.facebook.com/ry/posts/10151494199879822&#34; target=&#34;_self&#34;&gt;Ryan Patterson&lt;/a&gt;) (&lt;a href=&#34;https://news.ycombinator.com/item?id=5783945&#34; target=&#34;_self&#34;&gt;1 comment&lt;/a&gt;) (why is this on the top 10)
-&lt;/p&gt;
-&lt;div&gt;8. You have 13 days to buy the Humble Indie Bundle 8 with 7 games for Windows, Mac OS X, and Linux. Pay what you want. (&lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_self&#34;&gt;Humble Bundle&lt;/a&gt;) The comments have game reviews, many of which are favorable. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5781632&#34; target=&#34;_self&#34;&gt;53 comments&lt;/a&gt;)
-&lt;p&gt;9. Build startups and systems to help the &amp;quot;unexotic underclass&amp;quot;, which lives in small town America and includes single moms, returning veterans, and others who live outside of the startup-fueled glitz of Silicon Valley (&lt;a href=&#34;https://miter.mit.edu/the-unexotic-underclass/&#34; target=&#34;_self&#34;&gt;C.Z. Nnaemeka&lt;/a&gt;) &amp;quot;Condense the article down and you&amp;#39;re left with this nugget of advice: You&amp;#39;ll have a better chance of success if you target unsaturated, boring markets.&amp;quot; (&lt;a href=&#34;https://news.ycombinator.com/item?id=5782704&#34; target=&#34;_self&#34;&gt;28 comments&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;10. Pure is &amp;quot;a set of small, responsive CSS modules that you can use in every web project&amp;quot; brought to you by Yahoo! The library is tiny and works well with mobile applications. (&lt;a href=&#34;http://purecss.io/&#34; target=&#34;_self&#34;&gt;Pure&lt;/a&gt;) The core developers of Pure are contributing in the comments. (&lt;a href=&#34;https://news.ycombinator.com/item?id=5779494&#34; target=&#34;_self&#34;&gt;106 comments&lt;/a&gt;)&lt;/p&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
-&amp;#0160;&lt;/div&gt;
-&lt;div&gt;
-&lt;ul&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;
-&lt;div class=&#34;zemanta-article-ul zemanta-article-ul-image&#34; style=&#34;margin: 0; padding: 0; overflow: hidden;&#34;&gt;
-&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://thisanimatedlife.blogspot.com/2013/05/pixars-chris-horne-sheds-new-light-on.html?m=1&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/172890198_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://thisanimatedlife.blogspot.com/2013/05/pixars-chris-horne-sheds-new-light-on.html?m=1&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Pixar moves to raytracing&lt;/a&gt;&lt;/div&gt;
-&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/on-summarization.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_68_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/on-summarization.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;On summarization&lt;/a&gt;&lt;/div&gt;
-&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/hacker-news-summary-for-tuesday-28-may-2013-700-am-edition.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/noimg_40_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/hacker-news-summary-for-tuesday-28-may-2013-700-am-edition.html&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Hacker News summary for Tuesday 28 May 2013, 7:00 a.m. edition&lt;/a&gt;&lt;/div&gt;
-&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://techcrunch.com/2013/05/18/the-evolution-of-hacker-news/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/170193173_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://techcrunch.com/2013/05/18/the-evolution-of-hacker-news/&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;The Evolution Of Hacker News&lt;/a&gt;&lt;/div&gt;
-&lt;div class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34; style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size: 11px; margin: 2px 10px 10px 2px;&#34;&gt;&lt;a href=&#34;http://r.zemanta.com/?u=http%3A//www.telegraph.co.uk/finance/10085600/Liberty-Reserve-shut-down-in-6bn-money-laundering-case.html&amp;amp;a=172922921&amp;amp;rid=ae33a4ef-c4ea-47f1-ba98-a860b60e3468&amp;amp;e=1499ea9ced130ac9d496eda82c57a7c8&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;http://i.zemanta.com/172922921_80_80.jpg&#34; style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://r.zemanta.com/?u=http%3A//www.telegraph.co.uk/finance/10085600/Liberty-Reserve-shut-down-in-6bn-money-laundering-case.html&amp;amp;a=172922921&amp;amp;rid=ae33a4ef-c4ea-47f1-ba98-a860b60e3468&amp;amp;e=1499ea9ced130ac9d496eda82c57a7c8&#34; style=&#34;display: block; overflow: hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34; target=&#34;_blank&#34;&gt;Liberty Reserve shut down in $6bn money laundering case&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/fieldset&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hacker News summary for Tuesday 28 May 2013, 7:00 a.m. edition</title>
-      <link>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-for-tuesday-28-may-2013-700-am-edition/</link>
-      <pubDate>Tue, 28 May 2013 07:45:12 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-for-tuesday-28-may-2013-700-am-edition/</guid>
-      <description>&lt;p&gt;Here&amp;#39;s a summary of the top stories on Hacker News at this moment, as part of daily exercise to do a closer reading of the tech news. See &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/on-summarization.html&#34; target=&#34;_self&#34;&gt;On Summarization&lt;/a&gt; for more background.&lt;/p&gt;
-&lt;p&gt;1. &amp;quot;Opera for desktop has not only been redesigned; it&amp;#39;s also completely re-engineered under the hood. With the Chromium engine, users get a standards-compliant and high-performance browser.&amp;quot; (&lt;a href=&#34;http://business.opera.com/press/releases/desktop/2013-05-28&#34; target=&#34;_self&#34;&gt;Opera&lt;/a&gt;) &amp;quot;The price of switching to Chromium: 
-Opera.app = 37.8 MB, 
-Opera Next.app = 103.1 MB&amp;quot; (&lt;a href=&#34;https://twitter.com/maxart/status/339296249842892800&#34; target=&#34;_self&#34;&gt;@maxart via @gen&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;2. &amp;quot;The Haskell Platform is the easiest way to get started with programming Haskell. It comes with all you need to get up and running.&amp;quot; For Windows, OSX and Linux. &amp;#0160;Current release:&amp;#0160;&lt;a href=&#34;http://www.haskell.org/platform/changelog.html&#34;&gt;2013.2.0.0&lt;/a&gt;&amp;#0160;(&lt;a href=&#34;http://www.haskell.org/platform/?v=2013.2.0.0&#34; target=&#34;_self&#34;&gt;Haskell&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;3. John Dryden, a Batavia IL teacher, is under fire from the school administration after informing his students of their Fifth Amendment rights against self-incrimination. The students were given a survey with their names on it asking about drug, alcohol, and tobacco use. (&lt;a href=&#34;http://www.dailyherald.com/article/20130525/news/705259921/&#34; target=&#34;_self&#34;&gt;Daily Herald&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;4. Sony has made a lot of money selling insurance and making movies and music, and has lost quite a bit selling electronics. Analysts wonder if Sony should exit the electronics business rather than invest in strengthening it. (&lt;a href=&#34;http://www.nytimes.com/2013/05/28/business/global/sonys-bread-and-butter-its-not-electronics.html?_r=0&#34; target=&#34;_self&#34;&gt;NY Times&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;5. There is a problem with the spacing on Facebook&amp;#39;s display of text in the timeline, and 3 pixels of added whitespace would fix it. &amp;quot;I&amp;#39;m sorry for rageskitching about Facebook, but I can&amp;#39;t help it.&amp;quot; (&lt;a href=&#34;http://blog.garrytan.com/rageskitching-facebook-2013-edition-3px-of-padding-makes-all-the-difference-in-the-world&#34; target=&#34;_self&#34;&gt;Garry Tan&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;6. &amp;quot;Michael Markieta, a transportation planner at global engineering and design firm Arup, has spent the last year developing visualisations of flight paths crossing the globe.&amp;quot; The maps are very pretty. (&lt;a href=&#34;http://www.bbc.co.uk/news/in-pictures-22657086&#34; target=&#34;_self&#34;&gt;BBC&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;7.&amp;#0160;&amp;quot;Identify a pattern, run a mask, put recovered passes in a new dict, run again with rules, identify a new pattern, etc.&amp;quot; How password cracking is done. (&lt;a href=&#34;http://arstechnica.com/security/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/&#34; target=&#34;_self&#34;&gt;Ars Technica&lt;/a&gt;) &amp;quot;Correct horse battery staple.&amp;quot; (&lt;a href=&#34;http://xkcd.com/936/&#34; target=&#34;_self&#34;&gt;XKCD&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;8. &amp;quot;I am still learning to manage my time better and would love to hear your thoughts if you’ll are a startup dad/mom.&amp;quot; Some productivity hints from a father of a young child who runs a startup. (&lt;a href=&#34;http://sahilparikh.com/post/51539972450/productivity-hacks-of-a-startup-dad&#34; target=&#34;_self&#34;&gt;Sahil Parikh&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;9. &amp;quot;These cases are covered under a new HTML5 called the&amp;#0160;&lt;a href=&#34;http://wiki.whatwg.org/wiki/Meta_referrer&#34;&gt;meta referrer&lt;/a&gt;. Now a simple tag can be used, such as&amp;#0160;&lt;code&gt;&amp;lt;meta name=&amp;quot;referrer&amp;quot; content=&amp;quot;always&amp;quot;&amp;gt;&lt;/code&gt;, to specify the exact behaviour of the HTTP Referrer regardless of whether we&amp;#39;re using HTTP or HTTPS.&amp;quot; (&lt;a href=&#34;http://smerity.com/articles/2013/where_did_all_the_http_referrers_go.html&#34; target=&#34;_self&#34;&gt;Stephen Merity&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;10. Find a set of complementary colours just by moving your mouse around. (&lt;a href=&#34;http://colourco.de/&#34; target=&#34;_self&#34;&gt;Colourco.de&lt;/a&gt;)&amp;#0160;&lt;/p&gt;
 </description>
     </item>
     

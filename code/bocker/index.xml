@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bocker on tracker</title>
+    <link>http://vielmetti.github.io/code/bocker/</link>
+    <description>Recent content in Bocker on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2015 18:48:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/bocker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>bocker is a subset of Docker in 100 lines of shell script</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</link>
+      <pubDate>Tue, 21 Jul 2015 18:48:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/p8952/bocker&#34;&gt;bocker&lt;/a&gt; is Docker (or at least
+a good sized subset of it) in 100 lines of shell script.
+I suppose the point is that even though there&amp;rsquo;s a huge
+world of hype surrounding containerization as a next step
+of systems management, when you get down to it, it&amp;rsquo;s just not
+that complicated.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

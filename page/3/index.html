@@ -51,6 +51,10 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash" class="list-group-item">bocker is a subset of Docker in 100 lines of shell script</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes" class="list-group-item">Coworking notes at Elixir Vitae</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-21-daily-coffee-wifi-erc-south-main" class="list-group-item">Daily coffee and wifi, ERC South Main</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-20-commuter-north-and-south" class="list-group-item">Commuter North and South</a></li>
@@ -86,14 +90,14 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-a-great-many-things" class="list-group-item">a great many things</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-the-hugo-cookbook" class="list-group-item">the hugo cookbook</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup" class="list-group-item">sweet potato cauliflower soup recipe</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages" class="list-group-item">Publishing from Hugo to Github Pages</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7829,6 +7833,10 @@ networks
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8125,6 +8133,53 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>24 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-24-a-few-notes-from-dockercon-2015-as-seen-via-twitter/">a few notes from Dockercon 2015, as seen via Twitter</a>
+      </h3>
+      <p>The annual conference for Docker, <a href="http://www.dockercon.com/">Dockercon</a>, has been going on. A few highlights from the event as seen through Twitter - I was not there to attend it.</p>
+
+<p>Docker is real on the Raspberry Pi through support for the ARM processor. </p>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Awesome live demo of Docker on a Raspberry Pi by <a href="https://twitter.com/Quintus23M">@Quintus23M</a> in the <a href="https://twitter.com/hashtag/dockercon?src=hash">#dockercon</a> closing keynote. <a href="http://t.co/DJfBtpcYws">pic.twitter.com/DJfBtpcYws</a></p>&mdash; Bridget Kromhout (@bridgetkromhout) <a href="https://twitter.com/bridgetkromhout/status/613495958089785344">June 23, 2015</a></blockquote>
+
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>More details from the presenter, <a href="http://blog.hypriot.com/post/dockercon2015/">Hypriot-Demo and challenge at DockerCon 2015</a>.</p>
+
+<p>Docker's plumbing is being spun out as <a href="http://blog.docker.com/2015/06/runc/">runC</a>. The new infrastructure supports migration of containers from one server to another, illustrated through a Quake III demo.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">QuakeIII in a container, migrated seamlessly from Singapore to Amsterdam to London using <a href="https://twitter.com/hashtag/runc?src=hash">#runc</a>. <a href="https://twitter.com/hashtag/dockercon?src=hash">#dockercon</a> <a href="http://t.co/no3c0G1MDY">pic.twitter.com/no3c0G1MDY</a></p>&mdash; Paul V. Novarese (@pvnovarese) <a href="https://twitter.com/pvnovarese/status/613499654219526144">June 24, 2015</a></blockquote>
+
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>For more highlights, see the <a href="http://venturebeat.com/2015/06/22/everything-announced-at-dockercon-2015/">Venturebeat roundup of Dockercon 2015</a>.</p>
+
+
+  <h3>24 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-24-automating-web-testing-and-scraping-with-selenium-and-the-firefox-selenium-ide/">Automating web testing and scraping with Selenium and the Firefox Selenium IDE</a>
+      </h3>
+      <p>You might like me occasionally want to pull a bit of data from some web site and use that data in a script or process. Some modern web sites are fiendishly complex and don't have the data you want on a simple API or page that you can parse; instead, you're expected to navigate through a whole next of menus and links that present the data attractively.</p>
+
+<p>I'm making a go of tackling this task with Selenium, a browser automation system which can drive browsers like Firefox and Chrome and that can in turn be driven by programming languages like Python.  Some notes.</p>
+
+<ol>
+<li><p><a href="https://www.mozilla.org/en-US/firefox/new/">Download and install Firefox</a> if you don't already have it installed, from mozilla.org.</p></li>
+<li><p><a href="http://docs.seleniumhq.org/projects/ide/">Download and install the Selenium IDE</a> for Firefox, which lets you interactively create Selenium scripts within Firefox.</p></li>
+<li><p>From the command line, <code>pip install selenium</code> to get the package of Python drivers for Selenium.</p></li>
+<li><p>If you're also using Google Chrome, you'll want <a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver</a> to get Selenium to talk to Chrome.</p></li>
+</ol>
+
+<p>With this all you have enough of the tools to be dangerous.</p>
+
+<p>Udemy has a <a href="https://blog.udemy.com/selenium-ide-tutorial/">Selenium IDE tutorial</a> to walk through to get you started, as a prelude to their for-pay course on the same topic. Guru99 also has a <a href="http://www.guru99.com/selenium-tutorial.html">free Selenium tutorial</a> that covers the Selenium IDE. </p>
+
+<p><a href="http://scraping.pro/selenium-ide-and-web-scraping/">A very nice overview of the process</a> from scraping.pro gives you some insight into what's really going on. The workflow is to create interactive scripts from within Firefox, then export them to Python and run them through a driver that drives multiple browsers. You can tweak lots of details in the Python script and incorporate those into some bigger applications.</p>
+
+<p>Best bet though is to find someone who knows it and watch over their shoulder and ask questions!</p>
 
 
   <h3>24 June 2015</h3>
@@ -8623,36 +8678,6 @@ ISBN-13: 978-0385353885</p>
 <p>Windows Phone and Cortana has a feature called Quiet Hours. In <a href="http://www.windowscentral.com/how-set-quiet-hours-and-inner-circles-windows-phone-81">How to set up Quiet Hours and Inner Circles on Windows Phone 8.1</a>, <a href="https://twitter.com/samsabri">Sam Sabri</a> writes for Windows Central a nice tutorial on how to set it up and configure the phone to not ring during some hours of the day and to allow some people to specially ring the phone even when it's set to no ring. It's a good tutorial, and if I had read it carefully and thought it through I could have set it up to always take calls from important people late at night.</p>
 
 <p>The truth is, though, that I already have another phone system (Google Voice) that I could already use to reroute or divert calls, and having that power in my phone though nice is the opposite of what I wanted. If it's late and someone calls me, I want to take the call. So my suggestion to you for your new Windows Phone is - if you want to use it as a phone - that you start out your device setup by disabling Quiet Hours, and only add it back in once you have thought it through very carefully.</p>
-
-
-  <h3>7 May 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-05-07-denton-tx-tornado-of-7-may-2015/">Denton TX area tornado of 7 May 2015</a>
-      </h3>
-      <p>May 7 2015 9:34p Eastern: Live coverage of Texas storms from <a href="http://www.wfaa.com/story/weather/2015/05/07/north-texas-weather-tornadoes/70976904/">WFAA 8 ABC "Confirmed tornadoes, hail hit North Texas"</a>. Twitter hashtag <a href="https://twitter.com/hashtag/txwx?src=hash">#txwx</a> and weather service is <a href="https://twitter.com/NWSFortWorth">@NWSFortWorth</a>.</p>
-
-<p>Ann Arbor, MI, May 7 2015 8:42p Eastern: Listening right now to the <a href="http://www.broadcastify.com/listen/feed/8307">W5NGU repeater on Broadcastify</a> where net control is running an emergency net. Tornadoes on the ground with ham radio operators giving precise locations of the storms and net control calling out spotters to get reports.</p>
-
-
-  <h3>5 May 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-05-05-lyndon-township-gas-explosion-5-miles-north-of-chelsea-mi-near-m-52-and-north-territorial/">Lyndon Township gas explosion, 5 miles north of Chelsea MI, near M-52 and North Territorial</a>
-      </h3>
-      <p>Ann Arbor, May 5, 2015, 2:00 a.m. I spoke with Jim Payeur, fire chief for the Chelsea Area Fire Authority, about the gas pipeline explosion in a 20" gas transmission line in a wooded area near the corner of M-52 and North Territorial Road about five miles north of Chelsea, Michigan. The incident occurred at about 10:30 p.m. on May 4, when about 20 people reported a sound like a jet crash. There was no fire at the scene and no injuries reported. Some nearby residents were evacuated from their homes and sheltered at Lyndon Township Hall. Chief Payeur had "no clue" why the pipeline ruptured, and said that a crew from Consumers Energy was working on site. The scene has been cleared and residents have been allowed to return to their homes.</p>
-
-<p>This is my final update for tonight.</p>
-
-<p>May 5, 2015, 1:29 a.m. Called Huron Valley Ambulance (fire dispatch), was told that they were "not allowed to give out any information". The below map is from PHMSA and shows the routes of gas pipelines in the area.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d10e814d970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d10e814d970c img-responsive" style="width: 346px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-05-05 at 12.54.14 AM" title="Screen Shot 2015-05-05 at 12.54.14 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d10e814d970c-350wi" /></a><br /></p>
-
-<p>May 5, 2015, 1:10 a.m. First hand account says they told people with a half mile to leave. Report that the fire could be heard from three miles away. (Note: this was an early report; there was no fire.)</p>
-
-<p>Ann Arbor, MI, May 5, 2015, 12:37 a.m. Reports of a fire in a 20 inch gas main in Lyndon Township north of Chelsea, MI near the corner of M-52 and North Territorial Road. (Note: this was an early report; there was no fire.)</p>
-
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/WashtenawCounty?src=hash">#WashtenawCounty</a> - <a href="https://twitter.com/hashtag/Chelsea?src=hash">#Chelsea</a> - N. Territorial in the area of M-52. Reported 20&quot; gas main explosion. CAFD closing roads throughout the area.</p>&mdash; MEI (@MEIDispatch) <a href="https://twitter.com/MEIDispatch/status/595425051219984385">May 5, 2015</a></blockquote>
-
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 
 
