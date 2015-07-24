@@ -51,6 +51,10 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-little-bird" class="list-group-item">Starting a trial of Little Bird</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-library-notes" class="list-group-item">Library notes from Malletts Creek</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit" class="list-group-item">Docker Detroit, Wednesday July 22, 2015, 6:00 pm, Troy, Michigan</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast" class="list-group-item">Daily Coffee and Wifi, Roos Roast Wednesday edition</a></li>
@@ -86,14 +90,14 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-custom-views-of-taxonomies" class="list-group-item">custom views of taxonomies</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses" class="list-group-item">a2b3 lunch at Ayse&#39;s, Art Fair 2015 edition</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production" class="list-group-item">diligently editing and converting for production</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7845,6 +7849,10 @@ networks
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8141,6 +8149,34 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>3 October 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-10-03-the-internet-of-things-world-hasnt-condensed-into-a-single-system-and-because-of-its-origins-its-unl/">the internet of things world hasn&#39;t condensed into a single system, and because of its origins it&#39;s unlikely to do so.</a>
+      </h3>
+      <p>The internet of things is a multi-protocol internet, with lots of legacy protocols in use as well as homemade protocols over TCP/IP and also serial port stuff and funky radio uses. Oh, and HTTP too.</p>
+
+<p>Some of the things in the internet of things are very small and have very low cost network capacity, which rules out using a full stack HTTP implementation. Others are not quite as small, but still don't have enough oomph to take on an Internet's worth of traffic, so you might run HTTP but still keep the devices firewalled very carefully from the Internet.</p>
+
+<p>If I were looking at standards and formats I would look at traditional Internet protocols and formats (HTTP, JSON), at older serial data networks (like RS-232 or even MODBUS), and I'd get a grasp on how you might communicate over radio networks like the 915 Mhz ISM band or Bluetooth Low Energy (BLE). I'd also look at publish/subscribe systems like MQTT, and lightweight data retrieval systems like COAP, and I'd be aware of all of the things you might do over a simple TCP connection. And then I'd look at the security of all of this (and weep, sometimes, because it's not easy.)</p>
+
+<p>The internet of things world hasn't condensed into a single system, and because of its origins it's unlikely to do so. Picking which of three or four possible solutions could work for your application - one of which might be HTTP - is good. Deciding which fits the right sweet spot of skills, costs, and time to deploy is another good way to think about it.</p>
+
+<p>(Originally posted in slightly modified form to iot-craft)</p>
+
+
+  <h3>3 October 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/">Severe storms of October 2, 2014 hit the Dallas-Fort Worth area; Oncor power outage map shows the storm track</a>
+      </h3>
+      <p>The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The <a href="http://thescoopblog.dallasnews.com/2014/10/as-north-texas-experiences-exceptional-drought-for-first-time-since-2011-rain-and-cooler-temperatures-expected-today.html/">Dallas Morning News live blog</a> details the impact, with more than 250,000 people without power.</p>
+
+<p>This outage map from about 7:00 p.m. that evening shows the extent of the damage.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ec75d0970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2014-10-02 at 7.16.00 PM" title="Screen Shot 2014-10-02 at 7.16.00 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-600wi" /></a><br /></p>
+
+<p>My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are. The <a href="http://stormcenter.oncor.com/default.html">Oncor Storm Center</a> page was what people were focusing on, so I took a look. Oncor's map is built by iFactor, which does maps for a lot of utility companies. Alas the most useful view for a big storm - outages by zip code - is hidden under a menu, but once you find it you can get a nice colorful overview of where things are the worst.</p>
 
 
   <h3>3 October 2014</h3>
@@ -8499,38 +8535,6 @@ like you to do; or even better yet anticipate what they would ask
 and do it before they ask.</p>
 
 <p>That reminds me, I have work to do.</p>
-
-
-  <h3>27 September 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-09-27-another-day-another-network-another-cup-of-coffee/">another day, another network, another cup of coffee</a>
-      </h3>
-      <p>Some notes from the table at the People's Food Co-op.</p>
-
-<p>My Saturday routine is to go to the farmer's market and to the food co-op. I have been doing this for a long time, more than a decade at least. When the boys were smaller they always came along, but now I head out solo.</p>
-
-<p>There is a small cadre of folks who I know from town and from Twitter who also have the same habit, and we compare notes on line as to what is at market. If you track the @a2market account you will see notes on fruits in season, what is missing from market (no peaches this year, alas), and anything else notable.</p>
-
-<p>From time to time a new bit of social network software appears, and the usual crowd of early adopters descends in a nova mob to try it out. This week's novelty is "ello", which is basically a variant on Twitter. There are a small number of structural changes - replies are threaded - and a large number of missing features. Mostly it's new and another chance to reinvent yourself and claim a network identity.</p>
-
-<p>The Saturday morning market Twitter routine does not have much to fear from "ello". It takes a long time to accumulate enough people who share geography, a common interest, and a particular technological proficiency. "ello" does not have that, and it really isn't ever likely to.</p>
-
-<p>My Saturday routine includes a lot of people who I don't know from online. Making the rounds at market and saying hi and making small talk does not depend on getting people to sign up for your net or upgrade their phone. In cases where the online ritual is also tied to space and time, you use whatever system worked last time, not something new!</p>
-
-
-  <h3>26 September 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/">For machines, by machines: Wikipedia is for bots</a>
-      </h3>
-      <p>What is Wikipedia for? It's for bots.</p>
-
-<p><a href="http://www.theverge.com/2014/2/18/5412636/this-machine-kills-trolls-how-wikipedia-robots-snuff-out-vandalism">This machine kills trolls: How Wikipedia’s robots and cyborgs snuff out vandalism</a> writes up the work of the Wikipedia contributors who have written robots (bots) that automatically extirpate contributions to the encyclopedia that are unwanted.</p>
-
-<p>Alas, the result of all of this highly efficient robot-driven editing is that many new editors first interaction with the system is not with a human being, but with a faceless robot. The real worry is that the crowd of new editors that used to flock to the site to provide modest and well-intentioned edits are being systematically pushed away by the overroboticism of the systems administration. </p>
-
-<p>Bot vs bot is a long term war that has no human winners, and the quality of the resulting system is poorer because the bots feed largely on newbies. Only when you master the gauntlet of robot overlords do you eventually get welcomed into the inner sanctum of humanity. Those who stay will be always watched over by the machines, and only a few in the Wikipedia elite will master the necessary skills to automatically patrol the recent changes based on their programming efforts.</p>
-
-<p>Inspired by a fascinating talk at <a href="http://icos.umich.edu">ICOS</a> by Wikimedia Foundation researcher <a href="http://www-users.cs.umn.edu/~halfak/">Aaron Halfaker</a>, who might come to different conclusions from the same data.</p>
 
 
 

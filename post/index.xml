@@ -6,8 +6,148 @@
     <description>Recent content in Posts on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2015 10:50:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2015 15:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Starting a trial of Little Bird</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-22-little-bird/</link>
+      <pubDate>Wed, 22 Jul 2015 15:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-22-little-bird/</guid>
+      <description>&lt;p&gt;Little Bird is a system that helps you discover influencers
+and experts in any topic. I&amp;rsquo;m at the very start of a 7 day trial.
+Marshall Kirkpatrick is CEO of Little Bird, and he has been
+active on Twitter posting interesting ideas about influence
+marketing - and given that it seemed prudent to give the product a try.&lt;/p&gt;
+
+&lt;p&gt;Pricing is aimed at agencies, not individuals, so I&amp;rsquo;m going
+to look at this product through the eyes of people doing
+&amp;ldquo;social listening&amp;rdquo; for a living, tracking the messages that
+appear on a topic and either quietly making sense of what
+is happening or actively engaging with those people to try
+to influence their opinions. The single user price is out of
+my reach for an annual commitment, though I might keep it up
+for another month if I can find a specific task that warrants
+the extra tooling.&lt;/p&gt;
+
+&lt;p&gt;My first test with any social software is to point it at a domain
+that I know (Ann Arbor) and see what it unearths. Little Bird
+found for me 1000 influential accounts having to do with Ann Arbor,
+and in a boost to my ego it puts me in the top 50. Without understanding
+how the algorithms work it seems that it biases towards identifying
+busy accounts that post a lot of news, vs. the clever individual
+whose every post is good but who doesn&amp;rsquo;t post that often.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a style of posting which I would have to describe as
+&amp;ldquo;thinkfluential&amp;rdquo; which Little Bird has a nose for. The thinkfluencer
+will post frequently on a given topic, and a lot of people will
+retweet them and they will retweet a lot of people. Every message
+is relentlessly on message and you won&amp;rsquo;t find cat pictures or
+meeting banter mixed in. More often than not you&amp;rsquo;ll see the
+thinkfluence augmented by robots that post newsy things day and
+night, even when the thinkfluencer is away from the keyboard.
+There doesn&amp;rsquo;t even need to be any interaction at all with this
+&amp;ldquo;expert&amp;rdquo;, just a never-ending confluence of thinkfluence.&lt;/p&gt;
+
+&lt;p&gt;So I wish that Little Bird had another round of filters, to help me
+understand the question at scale &amp;ldquo;is this person really a bot&amp;rdquo;.
+The real utility for me of identifying expertise is not to pick
+out the high-frequency posting bot, but to suss out who on a topic
+is good at engaging on the things they know about. Bot identification
+is the Turing Test at work, and maybe just maybe there&amp;rsquo;s a set of
+computable metrics that you can build across a corpus of Twitter
+users to pull that out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Library notes from Malletts Creek</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-22-library-notes/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-22-library-notes/</guid>
+      <description>&lt;p&gt;Out for a bike ride to Malletts Creek Branch Library after a delicious lunch of
+BBQ at Ricewood.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;One of the challenges of low overhead custom postcard making is getting
+an image manipulation pipeline that kicks out photos that a appropriately
+cropped and sized. The latest challenge is identifying the single command
+line that will turn a photo from my phone&amp;rsquo;s camera into an appropriately
+sized image for the card with a minimum of cropping, distortion, and
+manual file transfers.&lt;/p&gt;
+
+&lt;p&gt;What I know doesn&amp;rsquo;t work is upload via Twitter, because the series of
+resizings generate visible compression artifacts.&lt;/p&gt;
+
+&lt;p&gt;I can upload from the phone to OneDrive, which gives me a photo of size
+2592 × 1456 pixels (1.78:1, 16:9). The target size is 1875 x 1275
+(1.47:1, 25:17), which is postcard format. I can keep all of the pixels
+in the image by letterboxing it, or I can crop off the edges. What I
+can&amp;rsquo;t really do is stretch the image to fit because it&amp;rsquo;s too far off.&lt;/p&gt;
+
+&lt;p&gt;Looking further at my camera software (Lumia Camera) it appears
+that I can also take photos at 4:3. There&amp;rsquo;s more experimenting to be done.&lt;/p&gt;
+
+&lt;p&gt;For more documentation, see &lt;a href=&#34;http://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/&#34;&gt;Efficient Image Resizing With ImageMagick&lt;/a&gt;,
+Dave Newton in Smashing Magazine, June 25, 2015. Dave goes through a
+professionally thorough view of resizing and resampling images for the web,
+comparing his results against Photoshop. For instance:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I tested 31 different settings for &lt;code&gt;-filter&lt;/code&gt; and got the best results
+with &lt;code&gt;Triangle&lt;/code&gt;. The Triangle resampling filter is also known as
+bilinear interpolation, which I discussed above. It determines pixel
+color by looking at a support area of neighboring pixels and produces
+a weighted average of their colors. I found it best to specify this
+support area at two pixels using the &lt;code&gt;-define filter:support=2&lt;/code&gt;
+setting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dave uses DSSIM from &lt;a href=&#34;https://pornel.net/dssim&#34;&gt;https://pornel.net/dssim&lt;/a&gt; to test his results.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This tool computes (dis)similarity between two PNG images using
+(my approximation of) algorithms approximating human vision.
+Comparison is done in L&lt;em&gt;a*b&lt;/em&gt; color space using a multi-scale variant
+of the SSIM algorithm.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are sites that have automatic crop algorithms, though I haven&amp;rsquo;t
+yet found a package that&amp;rsquo;s usable without licensing. The interactive
+web site of &lt;a href=&#34;http://croppola.com/&#34;&gt;Croppola&lt;/a&gt; is one useful example of
+this genre.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Pittsburgh&amp;rsquo;s smallest jazz club is installed in a bus stop on Liberty
+Avenue, across from 9th Street.  The shelter was installed on July
+6 and will remain until late August 2015. From the
+&lt;a href=&#34;http://newpittsburghcourieronline.com/2015/07/09/the-worlds-smallest-jazz-club/&#34;&gt;New Pittsburgh Courier Online&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://awesomepgh.com/2015/01/15/award-36-pittsburghs-smallest-jazz-club/&#34;&gt;Awesome Pittsburgh&lt;/a&gt;’s trustees smiled unanimously when they decided
+to choose the proposal for one of 2014’s $1000 grants, envisioning
+a bus patron who pushes a button, only to have an iPod play jazz
+music from one of MCG Jazz’s Grammy Award winning recordings. The
+interior walls of a bus shelter will feature images of Pittsburgh’s
+jazz legends, and a blank “Your Face Here!” space to take a picture
+of yourself at “Pittsburgh’s Smallest Jazz Club.” Lamar Outdoor,
+owner of the bus shelters in Pittsburgh and Allegheny County, is
+already on board to help make the project happen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The project was done by &lt;a href=&#34;http://mcgjazz.org/&#34;&gt;MCG Jazz&lt;/a&gt; -
+&lt;a href=&#34;https://twitter.com/Amy_MCGJazz&#34;&gt;Amy Kline&lt;/a&gt; is their marketing manager.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Network issues at Malletts Creek branch were a good reason to exit back
+towards town.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Docker Detroit, Wednesday July 22, 2015, 6:00 pm, Troy, Michigan</title>
@@ -95,6 +235,32 @@ isn&amp;rsquo;t an official automated build on ARM. I&amp;rsquo;ve been using th
 baseline for working on the Raspberry Pi, with good success.&lt;/p&gt;
 
 &lt;hr/&gt;
+
+&lt;p&gt;Construction on I-75 at 13 Mile Road! &lt;a href=&#34;http://www.theoaklandpress.com/general-news/20150715/traffic-delays-expected-for-6-weeks-on-i-75-and-13-mile-during-mdot-project&#34;&gt;Expect major delays&lt;/a&gt; at this
+project in Madison Heights. From the Oakland Press&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;During the construction project, there will be lane closures on both I-75 and 13 Mile Road in Madison Heights, said Diane Cross, a spokeswoman for the Michigan Department of Transportation, which is doing the work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(insert map here)&lt;/p&gt;
+
+&lt;p&gt;None of the alternative routes look any good, allow extra time for travel.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Components of the postcard project are coming together. So far I have little
+pieces that put and get addresses from a database, resize pictures to the
+correct size, and generate test and live cards.&lt;/p&gt;
+
+&lt;p&gt;If I lob a single thoughtful card out every time I have an espresso, there
+will be some steady stream of cards going out. Next piece of the checklist is
+pulling a report showing which cards are in flight and which ones just arrived
+so that I can schedule followups.&lt;/p&gt;
+
+&lt;p&gt;One of the key bits of sending cards is that your recipient doesn&amp;rsquo;t get them
+right away. That gives you a chance to refine your thinking and contemplate
+what you have to say when you do follow up when they do get it.&lt;/p&gt;
 </description>
     </item>
     
@@ -785,88 +951,6 @@ that&amp;rsquo;s a good keyword to pull lots of interesting thinking
 
 &lt;p&gt;That reminds me - I need to move to another room, so that I can
 remember what I need to do here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Levenshtein distance for approximate match</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</link>
-      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</guid>
-      <description>&lt;p&gt;The problem, simply stated, is that of typoes and inconsistent
-spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of
-text that you want to annotate with some metadata, like categories
-and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which
-tags you want to use, but you want to catch through some test or
-lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into
-a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
-will catch minor deviations from the norm and advise you when you
-should go back with a fresh pair of eyes and do an edit.
-The bigger problem is
-deduplication
-.&lt;/p&gt;
-
-&lt;p&gt;My first pass at a proposed solution was to look for a version of
-the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
-There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
-Udi Manber.&lt;/p&gt;
-
-&lt;p&gt;[WM92a]
-Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
-Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
-1992), pp. 153-162.&lt;/p&gt;
-
-&lt;p&gt;Neither of these first lines of attack to see if someone had
-completely solved the problem before did the trick, but some
-searching around and a conversation with
-John Hritz
-
-hit the neuron that remembered the algorithm called the
-Levenshtein distance
-.
-That led me to
-Wikibook: Algorithm Implementation
-,
-and its set of
-&lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
-was a very slow implementation in the bash shell included
-in that collection that was a cut and paste and two lines of
-code from being exactly what I needed. A little bit of glue
-code in awk and I was ready to go.&lt;/p&gt;
-
-&lt;p&gt;Now the problem with cut and paste two lines of code is that this
-particular implmentation is very slow, albeit correct. Given the
-choice between slow correct code and fast code that&amp;rsquo;s wrong (because
-of the bug that you don&amp;rsquo;t yet understand), I&amp;rsquo;ll take the slow code
-plus a comment and a writeup that describes how to make it faster.&lt;/p&gt;
-
-&lt;p&gt;What I&amp;rsquo;m really after is just the pairwise comparison of a set
-of words where the two words are close to each other. If the
-distance between two words is greater than some threshhold, I don&amp;rsquo;t need
-to go any further. That algorithmic shortcut isn&amp;rsquo;t in the library
-codes that I found.&lt;/p&gt;
-
-&lt;p&gt;The bigger question is how to write a
-checklist
-and implement it in code to make sure that a big body of work stays
-internally consistent. It&amp;rsquo;s one thing to have a
-categorization
-rule for your writers that says &amp;ldquo;always use the
-singular&amp;rdquo;, but very much something different to have Test 38 in
-your automated test corpus apply that rule and notice when it&amp;rsquo;s
-wrong.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Checklist Manifesto, in checklist format</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form/</link>
-      <pubDate>Fri, 17 Jul 2015 13:45:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form/</guid>
-      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My Checklist Manifesto summary (of course in checklist form) THANK YOU &lt;a href=&#34;https://twitter.com/Atul_Gawande&#34;&gt;@Atul_Gawande&lt;/a&gt; &lt;a href=&#34;http://t.co/PfsIMwcCiB&#34;&gt;http://t.co/PfsIMwcCiB&lt;/a&gt; &lt;a href=&#34;http://t.co/ZfzP72RgiF&#34;&gt;pic.twitter.com/ZfzP72RgiF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Remo Uherek (@remouherek) &lt;a href=&#34;https://twitter.com/remouherek/status/617272863599513600&#34;&gt;July 4, 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
     

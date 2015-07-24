@@ -6,8 +6,96 @@
     <description>Recent content in Links on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2015 10:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2015 13:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Library notes from Malletts Creek</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-22-library-notes/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-22-library-notes/</guid>
+      <description>&lt;p&gt;Out for a bike ride to Malletts Creek Branch Library after a delicious lunch of
+BBQ at Ricewood.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;One of the challenges of low overhead custom postcard making is getting
+an image manipulation pipeline that kicks out photos that a appropriately
+cropped and sized. The latest challenge is identifying the single command
+line that will turn a photo from my phone&amp;rsquo;s camera into an appropriately
+sized image for the card with a minimum of cropping, distortion, and
+manual file transfers.&lt;/p&gt;
+
+&lt;p&gt;What I know doesn&amp;rsquo;t work is upload via Twitter, because the series of
+resizings generate visible compression artifacts.&lt;/p&gt;
+
+&lt;p&gt;I can upload from the phone to OneDrive, which gives me a photo of size
+2592 × 1456 pixels (1.78:1, 16:9). The target size is 1875 x 1275
+(1.47:1, 25:17), which is postcard format. I can keep all of the pixels
+in the image by letterboxing it, or I can crop off the edges. What I
+can&amp;rsquo;t really do is stretch the image to fit because it&amp;rsquo;s too far off.&lt;/p&gt;
+
+&lt;p&gt;Looking further at my camera software (Lumia Camera) it appears
+that I can also take photos at 4:3. There&amp;rsquo;s more experimenting to be done.&lt;/p&gt;
+
+&lt;p&gt;For more documentation, see &lt;a href=&#34;http://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/&#34;&gt;Efficient Image Resizing With ImageMagick&lt;/a&gt;,
+Dave Newton in Smashing Magazine, June 25, 2015. Dave goes through a
+professionally thorough view of resizing and resampling images for the web,
+comparing his results against Photoshop. For instance:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I tested 31 different settings for &lt;code&gt;-filter&lt;/code&gt; and got the best results
+with &lt;code&gt;Triangle&lt;/code&gt;. The Triangle resampling filter is also known as
+bilinear interpolation, which I discussed above. It determines pixel
+color by looking at a support area of neighboring pixels and produces
+a weighted average of their colors. I found it best to specify this
+support area at two pixels using the &lt;code&gt;-define filter:support=2&lt;/code&gt;
+setting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dave uses DSSIM from &lt;a href=&#34;https://pornel.net/dssim&#34;&gt;https://pornel.net/dssim&lt;/a&gt; to test his results.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This tool computes (dis)similarity between two PNG images using
+(my approximation of) algorithms approximating human vision.
+Comparison is done in L&lt;em&gt;a*b&lt;/em&gt; color space using a multi-scale variant
+of the SSIM algorithm.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are sites that have automatic crop algorithms, though I haven&amp;rsquo;t
+yet found a package that&amp;rsquo;s usable without licensing. The interactive
+web site of &lt;a href=&#34;http://croppola.com/&#34;&gt;Croppola&lt;/a&gt; is one useful example of
+this genre.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Pittsburgh&amp;rsquo;s smallest jazz club is installed in a bus stop on Liberty
+Avenue, across from 9th Street.  The shelter was installed on July
+6 and will remain until late August 2015. From the
+&lt;a href=&#34;http://newpittsburghcourieronline.com/2015/07/09/the-worlds-smallest-jazz-club/&#34;&gt;New Pittsburgh Courier Online&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://awesomepgh.com/2015/01/15/award-36-pittsburghs-smallest-jazz-club/&#34;&gt;Awesome Pittsburgh&lt;/a&gt;’s trustees smiled unanimously when they decided
+to choose the proposal for one of 2014’s $1000 grants, envisioning
+a bus patron who pushes a button, only to have an iPod play jazz
+music from one of MCG Jazz’s Grammy Award winning recordings. The
+interior walls of a bus shelter will feature images of Pittsburgh’s
+jazz legends, and a blank “Your Face Here!” space to take a picture
+of yourself at “Pittsburgh’s Smallest Jazz Club.” Lamar Outdoor,
+owner of the bus shelters in Pittsburgh and Allegheny County, is
+already on board to help make the project happen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The project was done by &lt;a href=&#34;http://mcgjazz.org/&#34;&gt;MCG Jazz&lt;/a&gt; -
+&lt;a href=&#34;https://twitter.com/Amy_MCGJazz&#34;&gt;Amy Kline&lt;/a&gt; is their marketing manager.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Network issues at Malletts Creek branch were a good reason to exit back
+towards town.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Daily coffee and wifi, ERC South Main</title>
@@ -647,67 +735,6 @@ in a moderate oven until the pastry is well browned.&lt;/div&gt;
                 &lt;div class=&#34;delicious-extended&#34;&gt;interviews of how people get where they are going&lt;/div&gt;
                 &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/a2b3&#34;&gt;a2b3&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/video&#34;&gt;video&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/concentrate-media&#34;&gt;concentrate-media&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/transit&#34;&gt;transit&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/transportation&#34;&gt;transportation&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/travel&#34;&gt;travel&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/interview&#34;&gt;interview&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/ypsilanti&#34;&gt;ypsilanti&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/segway&#34;&gt;segway&lt;/a&gt;)&lt;/div&gt;
             &lt;/li&gt;&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>links for 2008-05-22</title>
-      <link>http://vielmetti.github.io/post/2008/2008-05-22-links-for-20-11/</link>
-      <pubDate>Thu, 22 May 2008 04:30:56 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2008/2008-05-22-links-for-20-11/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://rustbeltintellectual.blogspot.com/2008/05/green-acres-here-i-come.html&#34;&gt;Rustbelt Intellectual: GREEN ACRES HERE I COME&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;Brownfields are becoming greenfields, rubble strewn vacant lots are becoming gardens, and many cities now have neighborhood-based agribusinesses. Urban farmers are remaking parts of most Rustbelt cities.&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/via:cshalizi&#34;&gt;via:cshalizi&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/ubifarm&#34;&gt;ubifarm&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/urbifarm&#34;&gt;urbifarm&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/deindustrialization&#34;&gt;deindustrialization&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/agriculture&#34;&gt;agriculture&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/food&#34;&gt;food&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/victory-gardens&#34;&gt;victory-gardens&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/rustbelt&#34;&gt;rustbelt&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/philadelphia&#34;&gt;philadelphia&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/detroit&#34;&gt;detroit&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://scienceblogs.com/principles/2008/05/weirdness_facilitation.php&#34;&gt;Weirdness facilitation | Science Blogs&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;&#34;bizarre behavior is just an emergent property of large groups of humans given the ability to communicate over long distances&#34;&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/emergence&#34;&gt;emergence&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/high-weirdness-by-email&#34;&gt;high-weirdness-by-email&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/proximity&#34;&gt;proximity&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://anyterm.org/index.html&#34;&gt;Anyterm - Introduction&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;telnet from a web browser window, either hosted or on your own system.  play your favorite vt100 games!&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/anyterm&#34;&gt;anyterm&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/terminal&#34;&gt;terminal&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/telnet&#34;&gt;telnet&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/protocol-translation&#34;&gt;protocol-translation&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/ssh&#34;&gt;ssh&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/vt100&#34;&gt;vt100&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://demos.anyterm.org/bastet/anyterm.html&#34;&gt;Bastet (Tetris clone) running in Anyterm terminal emulation window&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;Anyterm is a web-based terminal emulator; in this demo, we see it running Bastet, a Tetris clone.&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/anyterm&#34;&gt;anyterm&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/bastet&#34;&gt;bastet&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/tetris&#34;&gt;tetris&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/vt100&#34;&gt;vt100&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/vt100-forever&#34;&gt;vt100-forever&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/terminal&#34;&gt;terminal&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/telnet&#34;&gt;telnet&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/games&#34;&gt;games&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://minddriven.blogspot.com/2008/05/fastest-todo-list-is-todo-album.html&#34;&gt;Minddriven: The fastest ToDo List is a ToDo Album ...&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;When I see something that needs to be fixed (something to buy, to repair, to clean, to move), I take a snapshot of it.&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/ubicam&#34;&gt;ubicam&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/todo&#34;&gt;todo&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/productivity&#34;&gt;productivity&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/gtd&#34;&gt;gtd&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/visual-memory&#34;&gt;visual-memory&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/observation&#34;&gt;observation&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/coverflow&#34;&gt;coverflow&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://gobigalways.com/get-your-scary-software-out-of-my-workplace/&#34;&gt;The naysayer’s timeline of technology in the workplace.&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;Whenever someone doesn&#39;t want to adopt a new technology, and doesn&#39;t want to think very hard about why, the common questions they post are: &#34;What&#39;s the ROI?  What&#39;s the use case?  Who else is doing it?&#34;&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/business&#34;&gt;business&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/culture&#34;&gt;culture&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/internet&#34;&gt;internet&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/dr-no&#34;&gt;dr-no&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/just-say-no&#34;&gt;just-say-no&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/bad-idea&#34;&gt;bad-idea&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/dont-go-there&#34;&gt;dont-go-there&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/trailing-indicator&#34;&gt;trailing-indicator&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/no&#34;&gt;no&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/no-no&#34;&gt;no-no&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/no-no-1000-times-no&#34;&gt;no-no-1000-times-no&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/corporate&#34;&gt;corporate&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.a2skatepark.org/profiles/blog/show?id=1775828%3ABlogPost%3A4863&#34;&gt;Park Advisory Commission Unanimously Supports Ann Arbor Skatepark Location&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;a HUGE thanks to the 125+ people who came out to the Park Advisory Commission (PAC) public hearing in support of the Ann Arbor skatepark location. The city council chambers were full, with standing room only. The PAC members were visibly surprised, and th&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/skatepark&#34;&gt;skatepark&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/park&#34;&gt;park&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/skateboard&#34;&gt;skateboard&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/skateboarding-is-not-a-crime&#34;&gt;skateboarding-is-not-a-crime&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://swhack.com/logs/2004-02-10&#34;&gt;swhack irc 2004-02-10&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;&#34;I suggest adopting some of the non-ridiculous blogger terms: wikisphere, wikiverse, wikiroll, mowiki, warwiki, wikirati, wikistan, wikipundit, and so on. Also, those wiki people should start using terms like &#34;anti-idiotarian&#34; in their writing.&#34;&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/wikisphere&#34;&gt;wikisphere&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/wikiverse&#34;&gt;wikiverse&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/wikiroll&#34;&gt;wikiroll&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/mowiki&#34;&gt;mowiki&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/warwiki&#34;&gt;warwiki&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/wikirati&#34;&gt;wikirati&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/wikistan&#34;&gt;wikistan&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/wikipundit&#34;&gt;wikipundit&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/wikipedant&#34;&gt;wikipedant&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/language&#34;&gt;language&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/irc&#34;&gt;irc&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.openthefuture.com/2008/05/fifteen_minutes_into_the_futur.html&#34;&gt;Open the Future: the sheer banality of tomorrow, the flow of inevitability&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;The distribution of the future is less an endeavor of conscious advancement than it is an epidemiological process -- a pandemic of tomorrows, if you will.&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/future&#34;&gt;future&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/futurism&#34;&gt;futurism&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/via:preoccupations&#34;&gt;via:preoccupations&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/retrofuturism&#34;&gt;retrofuturism&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/history&#34;&gt;history&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://shelftalk.spl.org/&#34;&gt;Shelf Talk&lt;/a&gt;&lt;/div&gt;
-        &lt;div class=&#34;delicious-extended&#34;&gt;seattle public library blog about books; you library-school people will recognize the &#34;readers advisory&#34; genre&lt;/div&gt;
-        &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://del.icio.us/vielmetti/blog&#34;&gt;blog&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/library&#34;&gt;library&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/book&#34;&gt;book&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/books&#34;&gt;books&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/reviews&#34;&gt;reviews&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/readers-advisory&#34;&gt;readers-advisory&lt;/a&gt; &lt;a href=&#34;http://del.icio.us/vielmetti/lists&#34;&gt;lists&lt;/a&gt;)&lt;/div&gt;
-    &lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

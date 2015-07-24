@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssim on tracker</title>
+    <link>http://vielmetti.github.io/code/ssim/</link>
+    <description>Recent content in Ssim on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2015 13:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/ssim/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Library notes from Malletts Creek</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-22-library-notes/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-22-library-notes/</guid>
+      <description>&lt;p&gt;Out for a bike ride to Malletts Creek Branch Library after a delicious lunch of
+BBQ at Ricewood.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;One of the challenges of low overhead custom postcard making is getting
+an image manipulation pipeline that kicks out photos that a appropriately
+cropped and sized. The latest challenge is identifying the single command
+line that will turn a photo from my phone&amp;rsquo;s camera into an appropriately
+sized image for the card with a minimum of cropping, distortion, and
+manual file transfers.&lt;/p&gt;
+
+&lt;p&gt;What I know doesn&amp;rsquo;t work is upload via Twitter, because the series of
+resizings generate visible compression artifacts.&lt;/p&gt;
+
+&lt;p&gt;I can upload from the phone to OneDrive, which gives me a photo of size
+2592 × 1456 pixels (1.78:1, 16:9). The target size is 1875 x 1275
+(1.47:1, 25:17), which is postcard format. I can keep all of the pixels
+in the image by letterboxing it, or I can crop off the edges. What I
+can&amp;rsquo;t really do is stretch the image to fit because it&amp;rsquo;s too far off.&lt;/p&gt;
+
+&lt;p&gt;Looking further at my camera software (Lumia Camera) it appears
+that I can also take photos at 4:3. There&amp;rsquo;s more experimenting to be done.&lt;/p&gt;
+
+&lt;p&gt;For more documentation, see &lt;a href=&#34;http://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/&#34;&gt;Efficient Image Resizing With ImageMagick&lt;/a&gt;,
+Dave Newton in Smashing Magazine, June 25, 2015. Dave goes through a
+professionally thorough view of resizing and resampling images for the web,
+comparing his results against Photoshop. For instance:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I tested 31 different settings for &lt;code&gt;-filter&lt;/code&gt; and got the best results
+with &lt;code&gt;Triangle&lt;/code&gt;. The Triangle resampling filter is also known as
+bilinear interpolation, which I discussed above. It determines pixel
+color by looking at a support area of neighboring pixels and produces
+a weighted average of their colors. I found it best to specify this
+support area at two pixels using the &lt;code&gt;-define filter:support=2&lt;/code&gt;
+setting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dave uses DSSIM from &lt;a href=&#34;https://pornel.net/dssim&#34;&gt;https://pornel.net/dssim&lt;/a&gt; to test his results.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This tool computes (dis)similarity between two PNG images using
+(my approximation of) algorithms approximating human vision.
+Comparison is done in L&lt;em&gt;a*b&lt;/em&gt; color space using a multi-scale variant
+of the SSIM algorithm.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are sites that have automatic crop algorithms, though I haven&amp;rsquo;t
+yet found a package that&amp;rsquo;s usable without licensing. The interactive
+web site of &lt;a href=&#34;http://croppola.com/&#34;&gt;Croppola&lt;/a&gt; is one useful example of
+this genre.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Pittsburgh&amp;rsquo;s smallest jazz club is installed in a bus stop on Liberty
+Avenue, across from 9th Street.  The shelter was installed on July
+6 and will remain until late August 2015. From the
+&lt;a href=&#34;http://newpittsburghcourieronline.com/2015/07/09/the-worlds-smallest-jazz-club/&#34;&gt;New Pittsburgh Courier Online&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://awesomepgh.com/2015/01/15/award-36-pittsburghs-smallest-jazz-club/&#34;&gt;Awesome Pittsburgh&lt;/a&gt;’s trustees smiled unanimously when they decided
+to choose the proposal for one of 2014’s $1000 grants, envisioning
+a bus patron who pushes a button, only to have an iPod play jazz
+music from one of MCG Jazz’s Grammy Award winning recordings. The
+interior walls of a bus shelter will feature images of Pittsburgh’s
+jazz legends, and a blank “Your Face Here!” space to take a picture
+of yourself at “Pittsburgh’s Smallest Jazz Club.” Lamar Outdoor,
+owner of the bus shelters in Pittsburgh and Allegheny County, is
+already on board to help make the project happen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The project was done by &lt;a href=&#34;http://mcgjazz.org/&#34;&gt;MCG Jazz&lt;/a&gt; -
+&lt;a href=&#34;https://twitter.com/Amy_MCGJazz&#34;&gt;Amy Kline&lt;/a&gt; is their marketing manager.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Network issues at Malletts Creek branch were a good reason to exit back
+towards town.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

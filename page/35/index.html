@@ -51,6 +51,10 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-little-bird" class="list-group-item">Starting a trial of Little Bird</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-library-notes" class="list-group-item">Library notes from Malletts Creek</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit" class="list-group-item">Docker Detroit, Wednesday July 22, 2015, 6:00 pm, Troy, Michigan</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast" class="list-group-item">Daily Coffee and Wifi, Roos Roast Wednesday edition</a></li>
@@ -86,14 +90,14 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-custom-views-of-taxonomies" class="list-group-item">custom views of taxonomies</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses" class="list-group-item">a2b3 lunch at Ayse&#39;s, Art Fair 2015 edition</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production" class="list-group-item">diligently editing and converting for production</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7845,6 +7849,10 @@ networks
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8141,6 +8149,50 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>6 June 2012</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2012/2012-06-06-linkedin-has-had-a-password-leak/">LinkedIn has had a password leak. How to repair it.</a>
+      </h3>
+      <p>Change your LinkedIn password.</p>
+<p>News emerged on Wednesday, June 6, 2012 that LinkedIn had a leak of its password database. This was confirmed as a number of security researchers identified their own password hashes in the file, as well as a number of cracked passwords from that file that had the string &quot;LinkedIn&quot; or some variant in the text. You can protect yourself by changing your LinkedIn password, and by also changing any other passwords that you use which are the same. LinkedIn, for its part, has promised to strengthen its internal controls and introduce a &quot;salt&quot; into its password storage system.&#0160;</p>
+<p><a href="http://blog.linkedin.com/2012/06/06/linkedin-member-passwords-compromised/" target="_self">An update from LinkedIn</a>&#0160;acknowledges the leak. The <a href="http://money.cnn.com/2012/06/06/technology/linkedin-password-hack/index.htm" target="_self">reporting from CNN</a> is unusually detailed:</p>
+<blockquote>
+<p>Countless passwords on the list contain the word &quot;linkedin.&quot; On a&#0160;<a href="https://news.ycombinator.com/item?id=4073309">popular hacker forum</a>, many reported finding passwords such as &quot;linkedout,&quot; &quot;recruiter,&quot; &quot;googlerecruiter,&quot; &quot;toprecruiter,&quot; &quot;superrecruiter,&quot; &quot;humanresources&quot; and &quot;hiring.&quot;</p>
+</blockquote>
+<p>The leak was complicated by LinkedIn&#39;s use of SHA-1 as its encryption scheme for passwords without using a &quot;salt&quot; to improve password security. <a href="http://blog.agilebits.com/2012/06/06/a-salt-free-diet-is-bad-for-your-security/" target="_self">AgileBits has a good discussion of how salting works</a>, and why you should use it; in short, it adds a little more randomness to even bad passwords so that an attacker can&#39;t pre-compute the hashed stored passwords directly.</p>
+<blockquote>
+<p>Even if Bot and Alice use the same password (and so have the same hash of their passwords) they don’t have to worry about each other. Who they need to worry about is Charlie the Cracker. Charlie may have spent months running software that picks passwords and generates the hashes of those passwords. He will store those millions of passwords and their hashes in a database called a “Rainbow Table.”</p>
+</blockquote>
+<p>Even without a rainbow table, modern password cracking hardware is mighty fast. How fast? <a href="http://erratasec.blogspot.com/2012/06/confirmed-linkedin-6mil-password-dump.html" target="_self">Robert Graham from Errata Security lays it out</a>:</p>
+<blockquote>
+<p><strong>Update:</strong>&#0160;How fast can hackers crack passwords? The answer &quot;2 billion per second&quot; using the Radeon HD 7970 (the latest top-of-the-line graphics processor). Each letter of a password has 100 combinations (UPPER, lower, d1g1ts, $ymbols). A 5 letter password therefore has&#0160;<tt>100 x 100 x 100 x 100 x 100</tt>&#0160;or 10 billion combinations, meaning it can be cracked in 5 seconds. A 6 letter password has 100 times that, or 500 seconds. A 7 letter password has 100 times that, or 50,000 seconds, or 13 hours. An 8 character password is roughly 57 days. A 9 character password is 100 times that, about 15 years. In other words, if your password was 7 letters, the hacker has already cracked it, but if it&#39;s 9 letters, it&#39;s too difficult to crack with brute force.</p>
+</blockquote>
+<p>Of course, &quot;too difficult&quot; for one computer is not the same as &quot;too difficult&quot; for a network of computing resources. Thomas Roth in 2010 on <a href="http://stacksmashing.net/2010/11/15/cracking-in-the-cloud-amazons-new-ec2-gpu-instances/" target="_self">Cracking Passwords in the Cloud</a>&#0160;on Amazon&#39;s EC2:</p>
+<blockquote>
+<p>Using the CUDA-Multiforce, I was able to crack all hashes from&#0160;<a href="http://stacksmashing.net/blogfiles/2010_11_15/sha1_hashes.txt">this</a>&#0160;file with a password length from 1-6 in only 49 Minutes (1 hour costs 2.10$ by the way.):</p>
+<div>
+<div>Compute done: Reference time 2950.1 seconds<br />Stepping rate: 249.2M MD4/s<br />Search rate: 3488.4M NTLM/s</div>
+</div>
+<p>This just shows one more time that SHA1 for password hashing is deprecated – You really don’t want to use it anymore! Instead, use something like scrypt or PBKDF2! Just imagine a whole cluster of these machines (which is now easily available to anybody thanks to Amazon) cracking passwords for you. Pretty comfortable, large-scale password cracking for everybody!</p>
+</blockquote>
+<p>So 6 character SHA-1 hashes would cost about $2 to crack in 2010 computer-dollars; 7 characters, $200; 8 characters, $20,000; and 9 characters, &quot;only&quot; $2 million. <a href="http://stacksmashing.net/2010/11/20/cracking-passwords-in-the-cloud-getting-the-facts-straight/" target="_self">Roth further concludes</a>:</p>
+<blockquote>
+<p>The thing that was new is that, due to the new Amazon offering, everyone is able to spawn a 100-or-more node cluster in the cloud and distribute the task of cracking passwords onto these nodes. The task of cracking hashes is especially suitable for massive parallelization! An attacker could easily spawn a gigantic cluster of nodes using stolen credit card information, and it would be no problem for him to crack 8-character passwords in a nice timeframe.</p>
+</blockquote>
+<p>So, &quot;recruiter&quot;, step up your game (and change your password, and your password algorithm).</p>
+
+
+  <h3>6 June 2012</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2012/2012-06-06-wendell-berry-the-real-work-/">Wendell Berry - The Real Work</a>
+      </h3>
+      <p><blockquote>
+<p>There are, it seems, two muses: the Muse of Inspiration, who gives us inarticulate visions and desires, and the Muse of Realization, who returns again and again to say &quot;It is yet more difficult than you thought.&quot; This is the muse of form. It may be then that form serves us best when it works as an obstruction, to baffle us and deflect our intended course. It may be that when we no longer know what to do, we have come to our real work and when we no longer know which way to go, we have begun our real journey. The mind that is not baffled is not employed. The impeded stream is the one that sings.</p>
+</blockquote>
+<p>This prose piece sometimes shows up on the net as poetry; that&#39;s how I found it. It&#39;s from <a href="%20http://brtom.typepad.com/wberry/2009/11/the-real-work-an-internet-adventure.html" target="_self">Wendell Berry&#39;s essay Poetry and Marriage, in his compilation Standing by Words. </a>Br. Tom Murphy tells a story of how he tracked this piece down from a fragment, and then realized he had given it to his students the previous semester.</p>
+<p>&#0160;</p></p>
 
 
   <h3>6 June 2012</h3>
@@ -8495,32 +8547,6 @@ target="_self">Plato, The Phaedrus</a>)</p>
 <p>What I have noticed from visits to City Hall is that the art that&#39;s there is quite accessible is a tile mural that you can not only see without going through a checkpoint, but is even so ready to hand that you can touch it.</p>
 <p>A proposal was put forth to not spend the money on art and to renovate some bathrooms in the building instead. This left a missed opportunity to instead ready-made art as part of that installation. (photo: wikimedia commons, from the original photo by Alfred Stieglitz).</p>
 <p><a class="asset-img-link" href="http://upload.wikimedia.org/wikipedia/commons/f/f6/Duchamp_Fountaine.jpg"><img alt="image from upload.wikimedia.org" class="asset  asset-image at-xid-6a00d8341c4f1a53ef016305562687970d" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016305562687970d-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="image from upload.wikimedia.org" /></a><br /><br /></p>
-
-
-  <h3>2 May 2012</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2012/2012-05-02-off-i-go-to-the-county-board-david-bloom-inspired-by-mary-morgan-of-a2chronicle/">Off I Go To The County Board - David Bloom, inspired by Mary Morgan of @a2chronicle</a>
-      </h3>
-      <p>David Bloom holds forth in song in <a href="http://bolddiva.tumblr.com/post/22291314358" target="_self">Off I Go To The County Board</a>, one of the few songs written about the process of covering public meetings.</p>
-<p><strong>Off I Go To The County Board,</strong><br /><em>inspired by Mary Morgan</em></p>
-<p>Off I Go To The County Board,<br />To hear the rabble bray,<br />Of taxes met, infractions scored,<br />On this harumphing day.</p>
-<blockquote>
-<p>Oh Washtenaw, brave Washtenaw,<br />Of eighty-three, the best.<br />The other counties hold in awe,<br />Your credit-worthiness.</p>
-</blockquote>
-<p>--</p>
-<p>There&#39;s more verses (oh, so many more) - in fairness to the author, I commend you to view and listen to them directly.</p>
-
-
-  <h3>1 May 2012</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2012/2012-05-01-im-not-producing-content-im-writing/">I&#39;m not &#34;producing content&#34;, I&#39;m writing</a>
-      </h3>
-      <p>For this blog, at least, I want to make it very clear: I'm not "producing content", I'm writing. This may be in order to call out attention to the work of a friend or a client, it may be to scratch some particular itch for words that need to be said, and it may be because someone else's interests dovetail with mine. Generally I try to quote enough of what other people say to be fair to them, and to tell a part of a story that you can find only by chasing through the network looking to connect ideas together at their edges.</p>
-<p>One of the peculiar characteristics of writing for yourself and not just creating copy is that you end up finding things from your past that you still own enough to re-edit and rework as needed. A recent discussion on Twitter about paw paws helped me unearth <a href="http://vielmetti.typepad.com/vacuum/2008/09/papaws-the-mich.html" target="_self">a 2008 collection of scrapbook entries about the fruit, its names, and how it tastes.</a>&nbsp;If I had produced this content for an employer (or an ex-employer), it would be long since frozen and old; but because it's just my writing, I can go back and make it better four years later.</p>
-<p>I've been happy with Typepad for a long time. Recently, some of the management changes at the organization that runs it have led to some changes in the marketing around the service, so that the relatively few old-school bloggers like me still on the system seem less and less to be the target audience, in favor of professional media people who have a certain number of words of content that they are obligated to produce before they move to the next task. I guess I can only be hopeful that the sorts of tools that are needed to crank out content on the job can also be used for old fashioned blogging where the deadlines are less definite and the goals more ambiguous.</p>
-<p>- 30 -</p>
-<p><a href="http://www.metagrrrl.com/metagrrrl/2012/04/rt-vielmetti-typepad-im-not-producing-content-im-writing.html" target="_self">Thanks to Dinah Sanders (@metagrrrl) for the Typepad commentary</a>. The paw paw discussion came and went on Twitter, as twitter things tend to do, without leaving too much of an obvious trace; <a href="https://twitter.com/#!/MickiMaynard/status/196658685341220864" target="_self">Micki Maynard</a> and Dave Askins were at the center of it. I tried to avoid bringing in any mention of "discontent", and failed.</p>
-<p>Disclaimer: nothing to disclaim at this time.</p>
 
 
 
