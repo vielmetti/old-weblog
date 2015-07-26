@@ -475,14 +475,12 @@ lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples
 a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
 will catch minor deviations from the norm and advise you when you
 should go back with a fresh pair of eyes and do an edit.
-The bigger problem is
-deduplication
-.&lt;/p&gt;
+The bigger problem is &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;deduplication&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;My first pass at a proposed solution was to look for a version of
 the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
 There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
-Udi Manber.&lt;/p&gt;
+&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Udi Manber&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;[WM92a]
 Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
@@ -492,14 +490,11 @@ Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
 &lt;p&gt;Neither of these first lines of attack to see if someone had
 completely solved the problem before did the trick, but some
 searching around and a conversation with
-John Hritz
-
+&lt;span style=&#34;background-color: #bfffff;&#34;&gt;John Hritz&lt;/span&gt;
 hit the neuron that remembered the algorithm called the
-Levenshtein distance
-.
+&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Levenshtein distance&lt;/span&gt;.
 That led me to
-Wikibook: Algorithm Implementation
-,
+&lt;span style=&#34;background-color: #ffbfff;&#34;&gt;Wikibook: Algorithm Implementation&lt;/span&gt;,
 and its set of
 &lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
 was a very slow implementation in the bash shell included
@@ -722,7 +717,7 @@ this that can help manage big data without big programs.&lt;/p&gt;
 
 &lt;p&gt;My new radio is on its way, so I&#39;ll update this when I get it to work! So far the application was easy to install (you have to install a Python runtime on OS X before it works) and it was easy to get the Washtenaw county repeater list from &lt;a href=&#34;http://www.repeaterbook.com/&#34;&gt;RepeaterBook&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;UPDATED: It worked the first time! Here&#39;s what I had to do to make it go smoothly.&lt;/p&gt;
+&lt;p&gt;UPDATED: It worked the first time! Here&#39;s what I did to make it go smoothly.&lt;/p&gt;
 
 &lt;p&gt;First, before you upload channels to your radio, you have to download its current configuration. This gets all of the settings out of the system.&lt;/p&gt;
 

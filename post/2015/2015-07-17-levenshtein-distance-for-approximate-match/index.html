@@ -51,6 +51,12 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-tomatillo" class="list-group-item">Tomatillo</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-make-tidy" class="list-group-item">make tidy</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop" class="list-group-item">Daily coffee and wifi at Argus Farm Stop</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-little-bird" class="list-group-item">Starting a trial of Little Bird</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-library-notes" class="list-group-item">Library notes from Malletts Creek</a></li>
@@ -84,12 +90,6 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form" class="list-group-item">The Checklist Manifesto, in checklist format</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue" class="list-group-item">Detroit Sound Conservancy: Greystone Jazz rescue</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-custom-views-of-taxonomies" class="list-group-item">custom views of taxonomies</a></li>
         
     </ul>
 
@@ -125,14 +125,12 @@ lint step that you&rsquo;ve done something wrong by typing &ldquo;apples&rdquo; 
 a field that really has &ldquo;apple&rdquo; most of the time. A good algorithm
 will catch minor deviations from the norm and advise you when you
 should go back with a fresh pair of eyes and do an edit.
-The bigger problem is
-deduplication
-.</p>
+The bigger problem is <span style="background-color: #ffffbf;">deduplication</span>.</p>
 
 <p>My first pass at a proposed solution was to look for a version of
 the old Unix program &ldquo;uniq&rdquo; that would have an approximate match.
 There is also an old Unix program &ldquo;agrep&rdquo; (&ldquo;approximate grep&rdquo;) from
-Udi Manber.</p>
+<span style="background-color: #bfffff;">Udi Manber</span>.</p>
 
 <p>[WM92a]
 Wu S. and U. Manber, &ldquo;Agrep - A Fast Approximate Pattern-Matching
@@ -142,14 +140,11 @@ Tool,&rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
 <p>Neither of these first lines of attack to see if someone had
 completely solved the problem before did the trick, but some
 searching around and a conversation with
-John Hritz
-
+<span style="background-color: #bfffff;">John Hritz</span>
 hit the neuron that remembered the algorithm called the
-Levenshtein distance
-.
+<span style="background-color: #ffffbf;">Levenshtein distance</span>.
 That led me to
-Wikibook: Algorithm Implementation
-,
+<span style="background-color: #ffbfff;">Wikibook: Algorithm Implementation</span>,
 and its set of
 <a href="https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance">Levenshtein distance code</a>. It so happened that there
 was a very slow implementation in the bash shell included

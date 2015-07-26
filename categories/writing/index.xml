@@ -6,8 +6,49 @@
     <description>Recent content in Writing on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2015 15:47:24 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2015 11:40:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>make tidy</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</link>
+      <pubDate>Sat, 25 Jul 2015 11:40:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been converting over old postings on this blog from Typepad.
+The data export and import was imperfect, and this meant that I&amp;rsquo;ve
+been poring over the data to figure out what keeps and what goes
+and what-not. It&amp;rsquo;s a chance to review old words.&lt;/p&gt;
+
+&lt;p&gt;One of the artifacts of the old hosting platform was a helpful at
+times system called &lt;a href=&#34;http://www.zemanta.com&#34;&gt;Zemanta&lt;/a&gt;. Zemanta would
+figure out what you were writing about and give you helpful suggestions
+for related links, both to things that you had written as well as
+to things other people had written.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve decided as part of the transformation of the old weblog into
+the new one to unlink those &amp;ldquo;related links&amp;rdquo;, in the hope that
+eventually Hugo&amp;rsquo;s own system will create some either algorithmically
+derived relations or at least an easier way to do that by hand.&lt;/p&gt;
+
+&lt;p&gt;In the meantime I&amp;rsquo;m looking closely at what Zemanta did so I can
+undo it. The first set of artifacts is a &amp;ldquo;fieldset&amp;rdquo; with its links,
+and that&amp;rsquo;s easy enough to search and destroy. Occasionally but not
+always I find my links decorated with a &lt;code&gt;class=&amp;quot;zem_slink&amp;quot;&lt;/code&gt; marker
+that&amp;rsquo;s a little harder to find. Most insidious so far was exactly
+one time where Zemanta (or Typepad) rewrote or wrote an Amazon link
+to include an affiliate link points to Zemanta, and not to me.&lt;/p&gt;
+
+&lt;p&gt;Rewriting 1500+ pages is going to take a while. The biggest question
+is unpublishing some of them, since time has passed and I don&amp;rsquo;t need
+to republish everything. There&amp;rsquo;s conversion from HTML to Markdown
+to remove the uglies, spelling errors to catch, next
+categories and taxonomies to fill, layout to work on, etc. At
+some point I need to sort out image management. But first I&amp;rsquo;m going
+to understand the consequences of previous convenience decisions
+I made to use Zemanta and to undo that decision.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>diligently editing and converting for production</title>
@@ -357,51 +398,7 @@ describing how to do that are on
 
 &lt;p&gt;Ultimately, most of my writing is for the world or for myself. I&#39;ve written here before about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/unpolished-open-notebook.html&#34;&gt;keeping an open notebook&lt;/a&gt; and what that means for my tolerance for the incomplete image in my own writing. But when you&#39;re writing for someone else the whole package really wants to be neat and tidy and polished, and that brings with it a separate set of expectations.&lt;/p&gt;
 
-&lt;p&gt;Image from patent 6571480.&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;&lt;div style=&#34;margin: 0; padding: 0; overflow: hidden;&#34; class=&#34;zemanta-article-ul zemanta-article-ul-image&#34;&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://threeleafpublishing.wordpress.com/2013/09/26/blocking-writers-block/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/205904002_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://threeleafpublishing.wordpress.com/2013/09/26/blocking-writers-block/&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;Blocking writer&#39;s block&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/unpolished-open-notebook.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/47183431_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/unpolished-open-notebook.html&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;Unpolished writing in the open notebook&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://readefining.wordpress.com/2013/09/21/writers-block/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/204246896_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://readefining.wordpress.com/2013/09/21/writers-block/&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;Writer&#39;s Block&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://thewinehos.wordpress.com/2013/09/26/writers-block-and-updates-from-thee-house-of-ho/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/205842809_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://thewinehos.wordpress.com/2013/09/26/writers-block-and-updates-from-thee-house-of-ho/&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;Writer&#39;s Block and Updates from Thee House of Ho&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://tensilestrengthblog.wordpress.com/2013/09/21/getting-unstuck/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/noimg_42_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://tensilestrengthblog.wordpress.com/2013/09/21/getting-unstuck/&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;Getting Unstuck&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learning Markdown</title>
-      <link>http://vielmetti.github.io/post/2013/2013-08-13-learning-markdown/</link>
-      <pubDate>Tue, 13 Aug 2013 00:36:30 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-08-13-learning-markdown/</guid>
-      <description>&lt;p&gt;I have a feeling that I&#39;m going to be doing a lot more writing using the &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
-language rather than using a web based rich text editor or plain HTML. Markdown
-is &lt;a href=&#34;http://help.typepad.com/using_markdown.html&#34;&gt;supported by Typepad&lt;/a&gt;, &lt;a href=&#34;http://octopress.org/docs/&#34;&gt;supported by Octopress&lt;/a&gt; (with a bunch of enhancements), &lt;a href=&#34;https://help.github.com/articles/github-flavored-markdown&#34;&gt;supported by Github&lt;/a&gt; (with a few changes to be more code-friendly), &lt;a href=&#34;https://github.com/plasticboy/vim-markdown&#34;&gt;supported by Vim&lt;/a&gt; (with colorizing of text),
-and &lt;a href=&#34;https://leanpub.com/help/manual&#34;&gt;supported by Leanpub&lt;/a&gt; (which turns them into EPUB and MOBI files). That&#39;s five
-for five for the environments I&#39;m working in the most, which suggests that it&#39;s
-worthwhile to learn all that I can.&lt;/p&gt;
-
-&lt;p&gt;Markdown is a fairly simple language, and it&#39;s relatively old in net terms (2004)
-so it&#39;s had time to mature. Maturing means both that there are well-documented
-core features that are invariant among all Markdown interpreters, as well as 
-sometimes incompatible details that show up when people extend the system.&lt;/p&gt;
-
-&lt;p&gt;Some popular interpreters include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.pell.portland.or.us/~orc/Code/discount/&#34;&gt;Discount&lt;/a&gt;, in C&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dafoster.net/projects/rdiscount/&#34;&gt;RDiscount&lt;/a&gt;, in Ruby as a wrapper to Discount&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kramdown.rubyforge.org/&#34;&gt;kramdown&lt;/a&gt;, written in Ruby&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://maruku.rubyforge.org/&#34;&gt;Maruku&lt;/a&gt;, also written in Ruby; can render to LaTeX&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fletcherpenney.net/multimarkdown/&#34;&gt;MultiMarkdown&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://michelf.ca/projects/php-markdown/extra/&#34;&gt;PHP Markdown Extra&lt;/a&gt;, written in PHP with extensions to Markdown&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt;, a universal document converter with support for many formats&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jgm/peg-markdown&#34;&gt;peg-markdown&lt;/a&gt;, a fast parser in C&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/vmg/redcarpet&#34;&gt;Redcarpet&lt;/a&gt;, a Ruby gem&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And some popular editors for Mac OS X include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mouapp.com/&#34;&gt;Mou&lt;/a&gt;, a Markdown editor for web developers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You&#39;ll find &lt;a href=&#34;http://mac.appstorm.net/roundups/productivity-roundups/35-markdown-apps-for-the-mac/&#34;&gt;reviews of 35 Markdown apps for Mac&lt;/a&gt; at Appstorm; I haven&#39;t tried them all (and probably never will).&lt;/p&gt;
-
-&lt;fieldset class=&#34;zemanta-related&#34;&gt;&lt;legend class=&#34;zemanta-related-title&#34;&gt;Related articles&lt;/legend&gt;&lt;div style=&#34;margin: 0; padding: 0; overflow: hidden;&#34; class=&#34;zemanta-article-ul zemanta-article-ul-image&#34;&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2011/11/color-selection-and-visual-recognition-of-work.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/63274422_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2011/11/color-selection-and-visual-recognition-of-work.html&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;color selection and visual recognition of work&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2013/08/octopress-up-and-running.html&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/noimg_53_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://vielmetti.typepad.com/vacuum/2013/08/octopress-up-and-running.html&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;octopress up and running&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://pygospasprofession.wordpress.com/2013/07/10/markdown-and-vim/&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/183793346_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://pygospasprofession.wordpress.com/2013/07/10/markdown-and-vim/&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;Markdown and vim&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;padding: 0; background: none; list-style: none; display: block; float: left; vertical-align: top; text-align: left; width: 84px; font-size:11px; margin: 2px 10px 10px 2px;&#34; class=&#34;zemanta-article-ul-li-image zemanta-article-ul-li&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://sysadmin1138.net/mt/blog/2013/07/markdown-not-as-bad-as-it-could-be.shtml&#34; style=&#34;box-shadow: 0px 0px 4px #999; padding: 2px; display: block; border-radius: 2px; text-decoration: none;&#34;&gt;&lt;img style=&#34;padding: 0; margin: 0; border: 0; display: block; width: 80px; max-width: 100%;&#34; src=&#34;http://i.zemanta.com/187823977_80_80.jpg&#34;&gt;&lt;/a&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://sysadmin1138.net/mt/blog/2013/07/markdown-not-as-bad-as-it-could-be.shtml&#34; style=&#34;display: block; overflow:hidden; text-decoration: none; line-height: 12pt; height: 80px; padding: 5px 2px 0 2px;&#34;&gt;Markdown: not as bad as it could be&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/fieldset&gt;
+&lt;p&gt;&lt;p&gt;Image from patent 6571480.&lt;/p&gt;
 </description>
     </item>
     

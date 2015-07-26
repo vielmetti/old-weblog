@@ -6,8 +6,172 @@
     <description>Recent content in Posts on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2015 15:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2015 17:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tomatillo</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-25-tomatillo/</link>
+      <pubDate>Sat, 25 Jul 2015 17:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-25-tomatillo/</guid>
+      <description>&lt;p&gt;I bought a little box of
+&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;tomatillos&lt;/span&gt;
+from Argus Farm Stop. The question now is what to do with them.&lt;/p&gt;
+
+&lt;p&gt;Suggestions so far include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fried like green tomatoes, slice thin, coat with a thin batter&lt;/li&gt;
+&lt;li&gt;roasted them with onions and jalapenos and make into a salsa&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rickbayless.com/recipe/raw-tomatillo-salsa/&#34;&gt;raw tomatillo salsa&lt;/a&gt; a la Rick Bayless&lt;/li&gt;
+&lt;li&gt;fried with onions and then add to scrambled eggs for tortillas&lt;/li&gt;
+&lt;li&gt;baked shrimp with tomatillos, feta, and cilantro&lt;/li&gt;
+&lt;li&gt;carne en su jugo, a la La Fiesta Mexicana in Ypsilanti&lt;/li&gt;
+&lt;li&gt;in pastel de Montezuma&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What I ended up making was a very simplified version of
+&lt;a href=&#34;http://www.eatingwell.com/recipes/tomatillo_breakfast_tacos.html&#34;&gt;Tomatillo Breakfast Tacos&lt;/a&gt;,
+reducing the recipe to just onions, tomatillos, and eggs.
+Cook chopped onions and chopped tomatillos over medium
+heat (6 of 10) until the tomatillos are soft and the
+onions are browned, about 12 minutes. Crack some eggs over the top of the
+mixture and cover. Cook without stirring until the eggs are
+set to your desired doneness.&lt;/p&gt;
+
+&lt;p&gt;More discussion and commentary on &lt;a href=&#34;https://www.facebook.com/edward.vielmetti/posts/10105504923525943&#34;&gt;Facebook&lt;/a&gt;. Note that Twitter did not
+supply a good stream of answers, but it did unearth
+the one recipe I actually used, so there&amp;rsquo;s that.&lt;/p&gt;
+
+&lt;p&gt;Thanks to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ryan Eby&lt;/li&gt;
+&lt;li&gt;Julie Weatherbee&lt;/li&gt;
+&lt;li&gt;Patricia Anderson&lt;/li&gt;
+&lt;li&gt;Kate Remen-Wait&lt;/li&gt;
+&lt;li&gt;Cendra Lynn&lt;/li&gt;
+&lt;li&gt;Joanna Hastings&lt;/li&gt;
+&lt;li&gt;Kathie Kroll Weinmann&lt;/li&gt;
+&lt;li&gt;Scott Trudeau&lt;/li&gt;
+&lt;li&gt;Linda Diane Feldt&lt;/li&gt;
+&lt;li&gt;Ruth Scodel&lt;/li&gt;
+&lt;li&gt;Argus Farm Stop&lt;/li&gt;
+&lt;li&gt;Feral Foods, the grower of said tomatillos&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>make tidy</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</link>
+      <pubDate>Sat, 25 Jul 2015 11:40:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been converting over old postings on this blog from Typepad.
+The data export and import was imperfect, and this meant that I&amp;rsquo;ve
+been poring over the data to figure out what keeps and what goes
+and what-not. It&amp;rsquo;s a chance to review old words.&lt;/p&gt;
+
+&lt;p&gt;One of the artifacts of the old hosting platform was a helpful at
+times system called &lt;a href=&#34;http://www.zemanta.com&#34;&gt;Zemanta&lt;/a&gt;. Zemanta would
+figure out what you were writing about and give you helpful suggestions
+for related links, both to things that you had written as well as
+to things other people had written.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve decided as part of the transformation of the old weblog into
+the new one to unlink those &amp;ldquo;related links&amp;rdquo;, in the hope that
+eventually Hugo&amp;rsquo;s own system will create some either algorithmically
+derived relations or at least an easier way to do that by hand.&lt;/p&gt;
+
+&lt;p&gt;In the meantime I&amp;rsquo;m looking closely at what Zemanta did so I can
+undo it. The first set of artifacts is a &amp;ldquo;fieldset&amp;rdquo; with its links,
+and that&amp;rsquo;s easy enough to search and destroy. Occasionally but not
+always I find my links decorated with a &lt;code&gt;class=&amp;quot;zem_slink&amp;quot;&lt;/code&gt; marker
+that&amp;rsquo;s a little harder to find. Most insidious so far was exactly
+one time where Zemanta (or Typepad) rewrote or wrote an Amazon link
+to include an affiliate link points to Zemanta, and not to me.&lt;/p&gt;
+
+&lt;p&gt;Rewriting 1500+ pages is going to take a while. The biggest question
+is unpublishing some of them, since time has passed and I don&amp;rsquo;t need
+to republish everything. There&amp;rsquo;s conversion from HTML to Markdown
+to remove the uglies, spelling errors to catch, next
+categories and taxonomies to fill, layout to work on, etc. At
+some point I need to sort out image management. But first I&amp;rsquo;m going
+to understand the consequences of previous convenience decisions
+I made to use Zemanta and to undo that decision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Daily coffee and wifi at Argus Farm Stop</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/</link>
+      <pubDate>Fri, 24 Jul 2015 09:55:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/</guid>
+      <description>&lt;p&gt;Daily coffee and wifi at Argus Farm Stop, outside in the sunshine
+under a lovely red umbrella canopy. Espresso over ice and a day-old
+olive twist. The view is of a Sky Trak lift at the construction
+site across moving materials to the back of The Mark, a building
+that&amp;rsquo;s going up where the car wash used to be.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The news of the day is a death on State Street. A young man was
+climbing over the skylights at the Nickels Arcade and fell to his
+death when the skylight glass gave way.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;On July 24, 1915, the SS Eastland was packed with employees from
+the Western Electric Hawthorne Works when it rolled over in
+the Chicago River. 844 passengers and crew lost their lives, making
+the Eastland disaster the worst shipwreck on the Great Lakes.
+See the &lt;a href=&#34;http://www.eastlanddisaster.org/&#34;&gt;Eastland Disaster Historical Society&lt;/a&gt;
+for extensive notes on and photos of the scene and its aftermath.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The next meeting of &lt;a href=&#34;http://www.meetup.com/a2civictech/&#34;&gt;a2civictech&lt;/a&gt;
+is coming up on Monday, July 27, 2015.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.literatibookstore.com/&#34;&gt;Literati Bookstore&lt;/a&gt; is open
+again after a water leak caused them to shut down.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;A few months ago I wrote a tiny R script that generates maps. The challenge
+today is to find a portable environment so that I can deploy this script
+on shared infrastructure. The project took 30 minutes of MacBook Air processor
+time running full blast parallel, and while I don&amp;rsquo;t care about wall clock time
+to complete the effort I do care about building something that I can hand
+off to someone else to run.&lt;/p&gt;
+
+&lt;p&gt;The hope is that the &lt;a href=&#34;https://github.com/rocker-org/ropensci&#34;&gt;ropensci&lt;/a&gt; Docker
+package from the Rocker project is the answer, or most of the answer, for this.
+Rocker has built R images where lots of useful packages have been installed,
+including systems where the install directions are a little bit complex.&lt;/p&gt;
+
+&lt;p&gt;With all complicated software environments the biggest challenge is dealing
+with dependencies. If you want to use the latest and greatest fast algorithms,
+you have to be prepared to spin up on what the cool kids are doing in the
+rest of their environment. If somehow you can jump to the edge of the development
+in the algorithm world without being tripped up by the hairy dependency graph
+that got you there, it can be a lot more fun.&lt;/p&gt;
+
+&lt;p&gt;So; install Docker on the Mac with &amp;lsquo;boot2docker&amp;rsquo;; then&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker pull rocker/ropensci
+docker run -it rocker/ropensci R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and poof, you have an environment current to this month&amp;rsquo;s desktop of leading
+R developers.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Starting a trial of Little Bird</title>
@@ -805,152 +969,6 @@ promoting his book. The book itself feels like an ideal airplane
 read for someone who is aspiring to self-improvement, is facing a
 career change, and who hasn&amp;rsquo;t figured out what the point is quite
 yet with Facebook as a career tool.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Remembering Hazen Schumacher of Jazz Revisited</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher/</link>
-      <pubDate>Sun, 19 Jul 2015 12:39:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher/</guid>
-      <description>&lt;p&gt;Hazen Schumacher was a radio broadcaster who hosted the popular
-&amp;ldquo;Jazz Revisited&amp;rdquo; show on NPR and Michigan Radio (WUOM) for 30 years.
-He died on July 18, 2015.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://localwiki.org/ann-arbor/Hazen_Schumacher&#34;&gt;Arborwiki&amp;rsquo;s page on Hazen Schumacher&lt;/a&gt;
-has memories of him and his program. The jazz collection that he assembled
-and all of the master tapes for the show are now at the
-&lt;a href=&#34;http://www.bixeibenhamburg.com/&#34;&gt;Jazz Museum Bix Eiben Hamburg&lt;/a&gt;,
-and 24 editions of the program are up online for your listening
-at &lt;a href=&#34;http://bixrevisited.com&#34;&gt;http://bixrevisited.com&lt;/a&gt; .&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Jazz Revisited has reached millions, giving Hazen a good claim
-to be America’s premier jazz educator.&amp;rdquo; (Art Hilgart - IAJRC Journal).
-Bix Eiben Hamburg presents 24 different shows at regular intervals
-for free listening. Dive into the wonderful world of classic Jazz.
-Become part of the great Jazz fan community that already regularly
-uses our service free of charge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/84464117&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&#34;https://vimeo.com/84464117&#34;&gt;A tribute to The Jazz Museum Bix Eiben Hamburg and Jazz Revisited&lt;/a&gt; from &lt;a href=&#34;https://vimeo.com/bixeiben&#34;&gt;Jazz-Museum Bixeibenhamburg&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;In remembrance of The Jazz Museum Bix Eiben Hamburg and a documentary report about the Jazz Revisited Radio Shows!&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Notes on the Midland G-227 GMRS/FRS radio</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227/</link>
-      <pubDate>Sun, 19 Jul 2015 11:52:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227/</guid>
-      <description>&lt;p&gt;Midland G-227 GMRS radio, quantity two, a gift from the
-Wells-Becker Motorcycle Emporium in Dexter, Michigan.&lt;/p&gt;
-
-&lt;p&gt;I replaced batteries in both of them, they take 4xAAA.&lt;/p&gt;
-
-&lt;p&gt;Radio 1 successfully hears static when the (M) monitor
-button is depresssed; Radio 2 hears nothing.&lt;/p&gt;
-
-&lt;p&gt;A manual is at &lt;a href=&#34;http://www.manualslib.com/manual/396326/Midland-G-225.html&#34;&gt;http://www.manualslib.com/manual/396326/Midland-G-225.html&lt;/a&gt;
-which describes the frequencies of the 22 channels it can transmit on.
-A reasonable next step is to get my NooElec SDR tuner out and see if
-I can monitor a transmission. If Radio 2 transmits, I suspect a loose
-connection to the speaker.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Midland-G-227C2-7-Mile-22-Channel-Two-Way/dp/B00008JOMG&#34;&gt;Amazon reviews&lt;/a&gt;
-complain mostly that the range of the radios is not &amp;ldquo;7 miles&amp;rdquo; as
-marketed, but closer to &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; mile to 1 mile on land. That&amp;rsquo;s typical
-for this band as I understand it.&lt;/p&gt;
-
-&lt;p&gt;In the same gift also a Uniden labeled &amp;ldquo;Scramble&amp;rdquo; that has a NOAA
-weather logo on it, so it probably also monitors weather frequencies.&lt;/p&gt;
-
-&lt;p&gt;You can never have too many radios!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>food coop notes for July 18, 2015</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</link>
-      <pubDate>Sat, 18 Jul 2015 14:23:56 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</guid>
-      <description>&lt;p&gt;Some notes over a cup of coffee and some cold roast chicken. I need
-to mix up my menu selections at the coop more so that I can remember
-what I was writing by what I ate; I usually eat the same thing!&lt;/p&gt;
-
-&lt;p&gt;Peter Honeyman and Lynn Chamberlain were here at the coop, doing
-the NY Times crossword. (Saturday crossword in 36:05, a mid-day triumph.)&lt;/p&gt;
-
-&lt;p&gt;At Farmer&amp;rsquo;s Market: cherries, parsley, kale, potatoes, dill, tomatoes.
-The potatoes will be boiled and dressed with a dill vinaigrette.
-(I had to look up the word vinaigrette.) The recipes I found add
-green beans and boiled eggs to a salad with cold potatoes, using
-a mustard vinaigrette with added chopped dill. The cherries will
-probably just be eaten out of hand.&lt;/p&gt;
-
-&lt;p&gt;The UP travel discussion included the obligatory discussion of insects,
-including ticks (&amp;ldquo;like bedbugs, for the woods&amp;rdquo;) and horrible sand
-flies that will swarm you and leave you screaming running from the
-beach. There&amp;rsquo;s a good reason that the UP has miles of undeveloped beaches.&lt;/p&gt;
-
-&lt;p&gt;You can&amp;rsquo;t mention bugs in the UP without remembering
-&lt;a href=&#34;http://somethingscrawlinginmyhair.com/&#34;&gt;The Backyard Arthropod Project&lt;/a&gt;,
-&amp;ldquo;A Field Guide to the North Side of Old Mill Hill, Atlantic Mine, MI&amp;rdquo;,
-by Tim Eisele.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m still hacking away at generating interesting reports from
-the &lt;a href=&#34;https://github.com/markvanderloo/stringdist&#34;&gt;stringdist&lt;/a&gt;
-package from Mark van der Loo. Yesterday&amp;rsquo;s post was
-&lt;a href=&#34;http://stackoverflow.com/questions/31486913/r-producing-a-list-of-near-matches-with-stringdist-and-stringdistmatrix&#34;&gt;R: producing a list of near matches with stringdist and stringdistmatrix&lt;/a&gt; and the answers provided
-helped unearth the melt() function from the reshape2 library,
-and with &lt;em&gt;that&lt;/em&gt; you take a matrix and turn it into an edge list.
-A little bit of filtering, and you get a report of near matches
-in a list, enough for me to catch variant spellings of
-vinagrette to vinaigrette in a &amp;ldquo;make test&amp;rdquo; step.&lt;/p&gt;
-
-&lt;p&gt;Stack Overflow was fun for this task, I&amp;rsquo;m going to try it again.
-The process of describing your problem in enough detail that someone
-who knows the issue can add the one or two lines of code to make
-it work is a useful exercise. It&amp;rsquo;s the opposite of a search
-engine in many ways - of course I could find melt() once I know
-its name, but if you don&amp;rsquo;t know the name you can&amp;rsquo;t find anything.&lt;/p&gt;
-
-&lt;p&gt;The next bit of interestingness has to do with turning the dist
-data structure returned by stringdist into a variety of useful
-images. There&amp;rsquo;s a package that dumps out a &amp;ldquo;dendogram&amp;rdquo;, and if I&amp;rsquo;m
-careful in formatting the data I think I can coerce R into producing
-data that can be imported directly into the tools that
-Valdis Krebs
-has written for network exploration and visualization. The
-promise within R is a &amp;ldquo;distgraph&amp;rdquo; that does the visualization,
-but I&amp;rsquo;m not yet finding the cadre of experts who use that.&lt;/p&gt;
-
-&lt;p&gt;The art on the walls is Julie Marron-Parker&amp;rsquo;s &amp;ldquo;Sunburst&amp;rdquo;. She writes&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Let the sun shine.&lt;/p&gt;
-
-&lt;p&gt;Living in Michigan (160 days of sun per year) I have come to
-appreciate when the sun is out. This piece brings the energy of the
-sun into the world, regardless of the weather outside.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tom Meloche writes about &lt;a href=&#34;http://tommeloche.com/the-doorway-effect/&#34;&gt;the doorway effect&lt;/a&gt;,
-where going through a doorway wipes out your short term memory
-to make way for new short term memories. It got me thinking
-about the memory palace
-, and how you might construct
-in your mind a series of portals and doorways to walk through so
-that you can remember a series of items in such a way that you
-take advantage of the doorway effect to pull memories in and out
-of your short term thinking. The technology is &amp;ldquo;mnemotechnics&amp;rdquo;,
-that&amp;rsquo;s a good keyword to pull lots of interesting thinking
-(which sometimes sounds like crazytalk).&lt;/p&gt;
-
-&lt;p&gt;That reminds me - I need to move to another room, so that I can
-remember what I need to do here.&lt;/p&gt;
 </description>
     </item>
     

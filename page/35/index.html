@@ -51,6 +51,12 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-tomatillo" class="list-group-item">Tomatillo</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-make-tidy" class="list-group-item">make tidy</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop" class="list-group-item">Daily coffee and wifi at Argus Farm Stop</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-little-bird" class="list-group-item">Starting a trial of Little Bird</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-library-notes" class="list-group-item">Library notes from Malletts Creek</a></li>
@@ -84,16 +90,16 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form" class="list-group-item">The Checklist Manifesto, in checklist format</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue" class="list-group-item">Detroit Sound Conservancy: Greystone Jazz rescue</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-custom-views-of-taxonomies" class="list-group-item">custom views of taxonomies</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7853,6 +7859,12 @@ networks
 	   
 	
 	   
+	
+	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8151,6 +8163,57 @@ I have to learn about git subtrees.</li>
 
 
 
+  <h3>8 June 2012</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2012/2012-06-08-more-computer-security-problems-in-more-systems-not-only-hashed-and-salted-but-pan-seared-and-dusted/">More computer security problems in more systems; &#34;not only hashed and salted, but pan-seared and dusted with a saffron quince reduction&#34;</a>
+      </h3>
+      <p>When you notice <a href="http://vielmetti.typepad.com/vacuum/2012/06/linkedin-has-had-a-password-leak.html" target="_self">a big LinkedIn password breach</a> one day, and then several other sites also announce problems in subsequent days, there seems to be a pattern worth noticing. Here&#39;s what I&#39;ve noticed of late.</p>
+<p>&#0160;</p>
+<p>Ars Technica reports that the <a href="http://arstechnica.com/security/2012/06/flame-crypto-breakthrough/" target="_self">Flame virus uses a previously undiscovered attack on the MD5 cryptographic hash</a> in order to carry out some of its devious work.&#0160;</p>
+<blockquote>
+<p>Flame is the first known example of an MD5 collision attack being used maliciously in a real-world environment. It wielded the esoteric technique to digitally sign malicious code with a fraudulent certificate that&#0160;<a href="http://arstechnica.com/security/2012/06/flame-malware-was-signed-by-rogue-microsoft-certificate/">appeared to originate with Microsoft</a>. By deploying fake servers on networks that hosted machines already infected by Flame—and using the certificates to sign Flame modules—the malware was able to&#0160;<a href="http://arstechnica.com/security/2012/06/flames-god-mode-cheat-code-wielded-to-hijack-windows-7-server-2008/">hijack the Windows Update mechanism</a>&#0160;Microsoft uses to distribute patches to hundreds of millions of customers.</p>
+</blockquote>
+<p>Taking over Windows Update is game over for a compromised system, and of course it&#39;s also an efficient way to keep your bugged system up to date with the latest bugs. Flame is thus suspected of being created by a powerful nation-state, since the crypto needed to do this is beyond the grasp of but a few skilled mathematicians.</p>
+<p>&#0160;</p>
+<p><a href="http://www.bricklink.com" target="_self">Bricklink</a> is reporting that <a href="http://www.bricklink.com/messageThread.asp?ID=133899&amp;amp;nID=642624" target="_self">their admin user id was stolen</a>, and a number of accounts were fraudulently merged together. No word yet on how the attacker(s) got access to the key account on the system, and I haven&#39;t seen any other reporting about problems at this LEGO trading site.</p>
+<blockquote>
+<p>As a few people noticed, a number of major accounts were merged fraudulently&#0160;around 12:15 pm EDT today. As a merge is almost impossible to undo, the solution&#0160;was to do a database rollback to 12:00 PM EDT today. This breach was due to the&#0160;Admin user ID being stolen.</p>
+</blockquote>
+<p>&#0160;</p>
+<p>TheNextWeb writes about <a href="http://thenextweb.com/insider/2012/06/07/change-your-last-fm-password-now-there-may-have-been-another-security-breach/" target="_self">problems at last.fm which is reporting a big password leak</a> on the scale of LinkedIn. The <a href="http://www.last.fm/passwordsecurity" target="_self">last.fm notice</a> reads in part</p>
+<blockquote>
+<p>We are currently investigating the leak of some Last.fm user passwords. This follows recent password leaks on other sites, as well as information posted online. As a precautionary measure, we’re asking all our users to change their passwords immediately.</p>
+</blockquote>
+<p>&#0160;</p>
+<p>Passwords are a weak link in many online systems, and password database security gets short shrift in some growing startups. Perhaps these two tweets from Pinboard&#39;s founder&#0160;Maciej Ceglowski are worth noting to round out the report.</p>
+<blockquote>
+<div><a href="https://twitter.com/#!/Pinboard"><strong>Pinboard</strong>&#0160;‏@<strong>Pinboard</strong></a><strong>&#0160;</strong>Proud to reassure my users that&#0160;<strong>Pinboard</strong>&#0160;passwords are not only hashed and salted, but pan-seared and dusted with a saffron quince reduction</div>
+<div><a href="https://twitter.com/#!/Pinboard"><strong>Pinboard</strong>&#0160;‏@<strong>Pinboard</strong></a><strong>&#0160;</strong>(rightly) exasperated security person asks me to admit that Pinboard uses bcrypt. But there is no known way to make a bcrypt tweet funny</div>
+</blockquote>
+<p>&#0160;</p>
+<p><a href="http://codahale.com/how-to-safely-store-a-password/" target="_self">More on bcrypt from Coda Hale.</a></p>
+
+
+  <h3>8 June 2012</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2012/2012-06-08-chasing-the-elusive-weather-balloon/">Chasing the elusive weather balloon</a>
+      </h3>
+      <p>Thursday&#39;s adventure was <a href="http://drgeorgesk.blogspot.com/" target="_self">George Albercook&#39;s launch</a> and successful retrieval of a <a href="http://en.wikipedia.org/wiki/Weather_balloon" rel="wikipedia" target="_blank" title="Weather balloon">weather balloon</a>, with a payload of radios, cameras, and GPS <a href="http://en.wikipedia.org/wiki/Telemetry" rel="wikipedia" target="_blank" title="Telemetry">telemetry</a>.</p>
+<p>Here&#39;s a map of the <a href="http://aprs.fi/#!mt=roadmap&amp;z=11&amp;call=a%2FKC8SBA&amp;timerange=21600" target="_self">telemetry that was visible through APRS.FI</a>&#0160;for the duration of the launch. The device is identified as <a href="http://aprs.fi/#!mt=roadmap&amp;z=9&amp;call=a%2FKC8SBA&amp;timerange=21600" target="_self">KC8SBA</a>. Note that for some reason tracking didn&#39;t pick up until a few minutes after the launch, and the tracking was also silent for a while until just before the descent.</p>
+<p><a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0163063d3688970d-pi"><img alt="Kc8sba-weather-balloon-telemetry" class="asset  asset-image at-xid-6a00d8341c4f1a53ef0163063d3688970d" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0163063d3688970d-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="Kc8sba-weather-balloon-telemetry" /></a><br />Another view of the same area is from the <a href="http://fultonoh-auditor.ddti.net/Map.aspx" target="_self">Fulton County (Ohio) Auditor&#39;s map,</a>&#0160;the organizationresponsible for property assessments. Their online mapping system shows parcel by parcel ownership so that if you did need to find the spot by owner you could. A field near to the one that the balloon&#39;s payload landed in looks like this, with big squares of farmland:</p>
+<p><a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017615266d6e970c-pi"><img alt="Map" class="asset  asset-image at-xid-6a00d8341c4f1a53ef017615266d6e970c" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017615266d6e970c-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="Map" /></a><br />The <a href="https://www.facebook.com/AlbercookScientific" target="_self">Albercook Scientific timeline on Facebook</a>&#0160;has many more details, and I&#39;m sure that once all of the pictures from the payload are decoded there will be more pictures and explanation of how this all came together!&#0160;</p>
+
+
+  <h3>6 June 2012</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2012/2012-06-06-washing-machine-hose-leak-repair/">Washing machine has a hose leak? How to repair it.</a>
+      </h3>
+      <p>There are a couple of good sites for information about do-it-yourself washing machine repair. Ours had a leak, which I think I traced to a tiny hole in the low-pressure drain hose that was fixable with a pipe tape that the good folks at Stadium Hardware helped me find. Let&#39;s hope the repair holds!</p>
+<p>I used the <a href="http://www.familyhandyman.com/DIY-Projects/Home-Repair/Appliance-Repair/how-to-repair-a-leaking-washing-machine/View-All" target="_self">Family Handyman&#39;s How To Repair a Leaking Washing Machine</a>&#0160;as my guide. The pinhole sized leak was in the middle of the low-pressure drain hose, where a rusty piece of bracket had wedged itself against the hose and slowly caused it to get a pinhole sized hole. The repair was made with <a href="http://www.duckbrand.com/Products/diy-products/diy-specialties/self-fusing-repair-tape.aspx" target="_self">Duck Brand Wrap-Fix Tape</a>, a self-fusing silicone tape that says it&#39;s good to 100 PSI.&#0160;And <a href="http://arborwiki.org/city/Stadium_Hardware" target="_self">Stadium Hardware</a>&#0160;(Arborwiki link) is a marvelous store, with helpful folks and a seemingly infinite supply of parts for every hardware need.</p>
+<p>Now let&#39;s just hope the repair holds! The next step, if it doesn&#39;t, is to replace that hose entirely. Repair Clinic has <a href="http://www.repairclinic.com/GE-Washing-Machine-Hose-Tube-Or-Fittings-Parts?z=100" target="_self">about 70 different GE washing machine hose parts available</a>; I haven&#39;t yet identified the exact part.&#0160;</p>
+<p>Please note that the repair for the high-pressure supply hose would be very different, as noted in the comment below. The Family Handyman guide referenced above suggests getting a metallic no-burst supply hose <a href="http://www.fluidmaster.com/washing-machine-connectors.html/" target="_self">similar to this one from Fluidmaster</a> to replace any worn, corroded, or leaky supply hoses. Supply lines run at much higher pressure than drain lines.</p>
+
+
   <h3>6 June 2012</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2012/2012-06-06-linkedin-has-had-a-password-leak/">LinkedIn has had a password leak. How to repair it.</a>
@@ -8336,7 +8399,7 @@ I have to learn about git subtrees.</li>
       <h3>
       <a href="http://vielmetti.github.io/post/2012/2012-05-25-duck-lake-fire-north-of-newberry-mi/">Duck Lake Fire, north of Newberry MI</a>
       </h3>
-      <p>Some sources for information on the Duck Lake Fire, which started on Wednesday, May 23, 2012 and is burning rapidly in <a class="zem_slink" href="http://en.wikipedia.org/wiki/Luce_County%2C_Michigan" rel="wikipedia" target="_blank" title="Luce County, Michigan">Luce County</a>, north of Newberry, MI. The fire is dangerous and has caused evacuations; if you are reading this and you are in the area, seek authoritative and current information from official sources.</p>
+      <p>Some sources for information on the Duck Lake Fire, which started on Wednesday, May 23, 2012 and is burning rapidly in <a  href="http://en.wikipedia.org/wiki/Luce_County%2C_Michigan" rel="wikipedia" target="_blank" title="Luce County, Michigan">Luce County</a>, north of Newberry, MI. The fire is dangerous and has caused evacuations; if you are reading this and you are in the area, seek authoritative and current information from official sources.</p>
 <p>The fire brings to mind the <a href="http://vielmetti.typepad.com/vacuum/2007/08/fire-maps-for-t.html" target="_self">2007 Sleeper Lake Fire</a>&#0160;which burned over 18,000 acres in Luce County.&#0160;</p>
 <p>8:00 pm <a href="http://michigan.gov/documents/dnr/20120531_Duck_Lake_PIO_2100_387717_7.pdf" target="_self">Wednesday, May 30 map</a>&#0160;(PDF). I&#39;ll have the image up shortly.</p>
 <blockquote>
@@ -8387,7 +8450,7 @@ I have to learn about git subtrees.</li>
 <blockquote>
 <p>The Michigan Department of Natural Resources said the blaze it’s calling the Duck Lake Fire was in an area north of Newberry that includes Lake Superior State Forest land and approached Lake Superior. It was detected Wednesday after a lightning strike and intensified Thursday — burning along the tops of jack pine trees in the forest.</p>
 </blockquote>
-<p><a class="zem_slink" href="http://www.uppermichiganssource.com" rel="homepage" target="_blank" title="WLUC-TV">WLUC-TV</a>,&#0160;<a href="http://www.uppermichiganssource.com/news/story.aspx?id=758342#.T7_0opkUHe6" target="_self">Extremely dangerous conditions as wildfire expands to 17,000 acres</a></p>
+<p><a  href="http://www.uppermichiganssource.com" rel="homepage" target="_blank" title="WLUC-TV">WLUC-TV</a>,&#0160;<a href="http://www.uppermichiganssource.com/news/story.aspx?id=758342#.T7_0opkUHe6" target="_self">Extremely dangerous conditions as wildfire expands to 17,000 acres</a></p>
 <blockquote>
 <p>Winds shifted early Friday morning, causing 50 mile an hour wind gusts to hit the fire&#0160;and change directions of the blaze.&#0160; Gary Willis, Public Information Officer for the DNR, says the east end of the fire is now the head of the fire and that there&#0160;was zero containment as of&#0160;Friday morning.&#0160; Officials also say that flame heights reached 200 feet in some places.</p>
 <p>&#0160;</p>
@@ -8409,11 +8472,11 @@ I have to learn about git subtrees.</li>
       <h3>
       <a href="http://vielmetti.github.io/post/2012/2012-05-22-digitalvertigo-by-ajkeen-/">there was hardly a page of the work that didn&#39;t echo someone else&#39;s thoughts</a>
       </h3>
-      <p><a href="http://www.youtube.com/AtGoogleTalks" rel="youtube" target="_blank" title="Andrew Keen">Andrew Keen</a>&#39;s <a href="http://www.amazon.com/Digital-Vertigo-Revolution-Diminishing-Disorienting/dp/0312624980" target="_self">Digital Vertigo</a> is a follow-on to his earlier <a class="zem_slink" href="http://www.amazon.com/Cult-Amateur-Internet-Killing-Culture/dp/0385520808%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0385520808" rel="amazon" target="_blank" title="The Cult of the Amateur: How Today&#39;s Internet is Killing Our Culture">The Cult of the Amateur</a>. Where his first work took on Wikipedia as the scourge of knowledge, the current work aims its sights at <a href="http://vielmetti.typepad.com/vacuum/2012/05/beating-facebook-imagining-what-comes-next.html" target="_self">Facebook</a> and LinkedIn, and is reflectively critical of the online social networks that Keen sees as more harmful than useful.</p></p>
+      <p><a href="http://www.youtube.com/AtGoogleTalks" rel="youtube" target="_blank" title="Andrew Keen">Andrew Keen</a>&#39;s <a href="http://www.amazon.com/Digital-Vertigo-Revolution-Diminishing-Disorienting/dp/0312624980" target="_self">Digital Vertigo</a> is a follow-on to his earlier <a title="The Cult of the Amateur: How Today&#39;s Internet is Killing Our Culture">The Cult of the Amateur</a>. Where his first work took on Wikipedia as the scourge of knowledge, the current work aims its sights at <a href="http://vielmetti.typepad.com/vacuum/2012/05/beating-facebook-imagining-what-comes-next.html" target="_self">Facebook</a> and LinkedIn, and is reflectively critical of the online social networks that Keen sees as more harmful than useful.</p></p>
 
 <p>With a lead-in like this, you might expect that this is one of those books that fits in a long history of media criticism - from Marshall McLuhan to Umberto Eco to Michel Foucault, you&#39;ll find a series of quips and quotes from dozens of thinkers littering the pages of Digital Vertigo. With a hefty 40 plus pages of end notes and indexing, there was hardly a page of the work that didn&#39;t echo someone else&#39;s thoughts.</p>
 
-<p>With everything so carefully indexed and footnoted, I thought I&#39;d skip to the chase and see if the earliest arguments against technology in thought and human relations were also there. In The <a class="zem_slink" href="http://www.amazon.com/Phaedrus-Plato/dp/0872202208%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0872202208" rel="amazon" target="_blank" title="Phaedrus">Phaedrus</a>, Plato relates argument the argument of Socrates that writing is a technology which leads to a diminishing of intelligence and of understanding:</p>
+<p>With everything so carefully indexed and footnoted, I thought I&#39;d skip to the chase and see if the earliest arguments against technology in thought and human relations were also there. In The <a href="http://www.amazon.com/Phaedrus-Plato/dp/0872202208%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dsuperpatron-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0872202208" rel="amazon" target="_blank" title="Phaedrus">Phaedrus</a>, Plato relates argument the argument of Socrates that writing is a technology which leads to a diminishing of intelligence and of understanding:</p>
 
 <blockquote>
 <p>Soc. I cannot help feeling, Phaedrus, that writing is unfortunately
@@ -8443,7 +8506,7 @@ target="_self">Plato, The Phaedrus</a>)</p>
       <a href="http://vielmetti.github.io/post/2012/2012-05-22-writing-as-a-way-to-introduce-yourself/">Writing as a way to introduce yourself</a>
       </h3>
       <p>I&#39;m in the midst of a job hunt, and so I expect that people I talk to who don&#39;t know me very well will take a look at this weblog as part of the things they look for when trying to assess who I am or to help prepare them to make small talk as a part of discussion. This is a good and useful reason to write in a weblog, to make yourself easy to strike up a conversation with.</p>
-<p>As blogs go, Vacuum is relatively old school in that it deals with everything and nothing - you&#39;ll find dozens of categories, ranging from strawberry picking to <a class="zem_slink" href="http://vielmetti.typepad.com/vacuum/2012/05/power-outage-mapping.html" rel="autointext" target="_blank" title="Power Outage Mapping">power outages</a> to seasonal holidays to technical discussions in a variety of fields. If it looks like a somewhat eclectic notebook, that&#39;s because it is. At various times when the need has arisen I&#39;ve pulled out separate weblogs to corral related information together. Superpatron, for innovation in library systems, was the one that really took off to have a life of its own for a while. When I wrote for AnnArbor.com, a weekly column on <a class="zem_slink" href="http://vielmetti.typepad.com/vacuum/2011/03/foia-jobs-looking-for-all-of-your-ideas-on-foiachat.html" rel="autointext" target="_blank" title="FOIA jobs: looking for all of your ideas on #FOIAchat">FOIA</a> had enough cohesion to look like a body of work and not just a collection of ephemeral interests.</p>
+<p>As blogs go, Vacuum is relatively old school in that it deals with everything and nothing - you&#39;ll find dozens of categories, ranging from strawberry picking to <a href="http://vielmetti.typepad.com/vacuum/2012/05/power-outage-mapping.html" rel="autointext" target="_blank" title="Power Outage Mapping">power outages</a> to seasonal holidays to technical discussions in a variety of fields. If it looks like a somewhat eclectic notebook, that&#39;s because it is. At various times when the need has arisen I&#39;ve pulled out separate weblogs to corral related information together. Superpatron, for innovation in library systems, was the one that really took off to have a life of its own for a while. When I wrote for AnnArbor.com, a weekly column on <a href="http://vielmetti.typepad.com/vacuum/2011/03/foia-jobs-looking-for-all-of-your-ideas-on-foiachat.html" rel="autointext" target="_blank" title="FOIA jobs: looking for all of your ideas on #FOIAchat">FOIA</a> had enough cohesion to look like a body of work and not just a collection of ephemeral interests.</p>
 <p>When you create a resume crafted for a particular job, you emphasize the particular skills and abilities you have and by keeping it brief you remove a whole set of other things. When you blog voraciously over a decade, you collect a whole lot of things that look temporarily interesting but sometimes - perhaps more than sometimes - just turn out to be interesting of the moment.</p>
 <p>So, hi. You&#39;re reading this. There&#39;s a lot here, if you search. If you ask about anything, there&#39;s probably more to be said. I assume that you&#39;ll understand if there&#39;s some things here that look unfinished, because that&#39;s by design.&#0160;</p>
 
@@ -8489,7 +8552,7 @@ target="_self">Plato, The Phaedrus</a>)</p>
       <h3>
       <a href="http://vielmetti.github.io/post/2012/2012-05-15-michigan-strawberries-are-early-in-2012/">Michigan strawberries are early in 2012</a>
       </h3>
-      <p><p><a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88f8148a970d-320wi" style="float: right;"><img alt="image from vielmetti.typepad.com" class="asset  asset-image at-xid-6a00d8341c4f1a53ef016305908f28970d" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016305908f28970d-320wi" style="margin: 0px 0px 5px 5px;" title="image from vielmetti.typepad.com" /></a>The early reports from strawberry growers that send out periodic newsletters to their perennial customers is that Michigan strawberries will be early this year. If you normally plan to pick on <a class="zem_slink" href="http://vielmetti.typepad.com/vacuum/2011/06/michigan-2011-u-pick-strawberry-season.html" rel="autointext" target="_blank" title="Michigan 2011 U-Pick strawberry season">Father&#39;s Day</a>, you may be too late for the crop.</p>
+      <p><p><a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88f8148a970d-320wi" style="float: right;"><img alt="image from vielmetti.typepad.com" class="asset  asset-image at-xid-6a00d8341c4f1a53ef016305908f28970d" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016305908f28970d-320wi" style="margin: 0px 0px 5px 5px;" title="image from vielmetti.typepad.com" /></a>The early reports from strawberry growers that send out periodic newsletters to their perennial customers is that Michigan strawberries will be early this year. If you normally plan to pick on <a href="http://vielmetti.typepad.com/vacuum/2011/06/michigan-2011-u-pick-strawberry-season.html" rel="autointext" target="_blank" title="Michigan 2011 U-Pick strawberry season">Father&#39;s Day</a>, you may be too late for the crop.</p>
 <p>None of the places I track are yet announcing opening dates for picking, but I&#39;ll share those when I have them; it&#39;s looking more like Memorial Day as the beginning of the season, with peak picking dates typically 7-10 days after the first opening day.</p>
 <p>Some likely opening dates:</p>
 <p>Whittaker&#39;s Berry Farm, Ida MI:&#0160;&#0160;May 28th.</p>
@@ -8516,37 +8579,6 @@ target="_self">Plato, The Phaedrus</a>)</p>
       </h3>
       <p>Do you ever get into a groove where everything is easy and you can just work on things because the next thing in front of you is the next thing you need to do?</p>
 <p>I love it when that happens.</p>
-
-
-  <h3>10 May 2012</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2012/2012-05-10-power-outage-mapping/">Power Outage Mapping</a>
-      </h3>
-      <p>One of my most popular posts on this blog - especially in times of widespread severe weather - is <a href="http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html" target="_self">a list of power outage maps that are available for utility companies across the nation and across the world.</a></p>
-<p>There&#39;s a lot of talk about a &quot;<a class="zem_slink" href="http://en.wikipedia.org/wiki/Smart_grid" rel="wikipedia" target="_blank" title="Smart grid">smart grid</a>&quot;, and how improvements in technology will lead to more reliable power and other innovations in energy delivery. But the truth of the matter is that sometimes the power does go out, and it&#39;s not always obvious why it did or when the systems will be back online.</p>
-<p>To support a continuing interest in this field, I&#39;m looking at starting up a new blog to capture news articles, collect new maps and applications as they appear, and generally keep up with the world of smart grid mapping efforts. Look for this on a new <a href="http://vielmetti.typepad.com/outage" target="_self">Power Outage Mapping</a> weblog.</p>
-
-
-  <h3>9 May 2012</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2012/2012-05-09-i-voted-this-years-automark-trial-and-error/">I voted; this year&#39;s Automark trial and error</a>
-      </h3>
-      <p>I used the Automark machine to vote today, as I did in 2010 (<a href="http://www.annarbor.com/vielmetti/voting-machine-links-automark/" target="_self">AnnArbor.com story</a>) and in 2008 (<a href="http://vielmetti.typepad.com/vacuum/2008/05/ann-arbor-may-6.html" target="_self">Vacuum post</a>).</p>
-<p><a class="asset-img-link" href="http://www.michigan.gov/images/sos/pic10_344901_7.JPG"><img alt="image from www.michigan.gov" class="asset  asset-image at-xid-6a00d8341c4f1a53ef016305617dff970d" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016305617dff970d-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="image from www.michigan.gov" /></a><br /><br /></p>
-<p>This year&#39;s voting excursion was harder, because the poll worker initially told me that I could not use the machine and that it was reserved for the handicapped. That was wrong; any voter in my precinct could use that system. The issue was resolved quickly.</p>
-<p>For the first time, I used the audio interface and had the (one) issue on the ballot read out to me. Since I can see just fine, I wasn&#39;t able to tell if the audio instructions were perfect, but they seemed pretty good and straightforward.</p>
-<p>After my encounter with the poll worker, I went to city hall to give the election officials a report on what had happened. The person I talked to at city hall pulled out a guide to poll workers (from 2008) and did not immediately find specific instructions one way or the other about using the Automark, but we didn&#39;t read every page.</p>
-<p>The <a href="http://electionresults.ewashtenaw.org/may2012/cumulativereport.html" target="_self">election results</a>: Ann Arbor&#39;s school technology millage passed (<a href="http://annarbor.com/news/ann-arbor-schools-technology-bond-special-election-results/" target="_self">AnnArbor.com</a>), Ypsilanti&#39;s two tax proposals failed (<a href="http://annarborchronicle.com/2012/05/08/ypsi-income-tax-millage-voted-down/" target="_self">Ann Arbor Chronicle ticker</a>), and Democrat Felicia Brabec won a special election to retain her seat on the Washtenaw County Commission after being appointed to take the place of Kristen Judge (<a href="http://www.annarbor.com/news/felicia-brabec-richard-conn-washtenaw-county-election-results-pittsfield/" target="_self">AnnArbor.com story</a>).</p>
-
-
-  <h3>8 May 2012</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2012/2012-05-08-on-public-art-in-public-places-in-ann-arbors-city-hall/">On public art in public places in Ann Arbor&#39;s City Hall</a>
-      </h3>
-      <p>Tonight&#39;s Ann Arbor City Council meeting <a href="http://annarborchronicle.com/2012/05/07/city-council-oks-justice-center-art/" target="_self">discussed at great length the expenditure of some sizable sum of money for art</a> that would be installed in the secured lobby of the Justice Center part of City Hall, where would you have to go through a security check to visit it.</p>
-<p>What I have noticed from visits to City Hall is that the art that&#39;s there is quite accessible is a tile mural that you can not only see without going through a checkpoint, but is even so ready to hand that you can touch it.</p>
-<p>A proposal was put forth to not spend the money on art and to renovate some bathrooms in the building instead. This left a missed opportunity to instead ready-made art as part of that installation. (photo: wikimedia commons, from the original photo by Alfred Stieglitz).</p>
-<p><a class="asset-img-link" href="http://upload.wikimedia.org/wikipedia/commons/f/f6/Duchamp_Fountaine.jpg"><img alt="image from upload.wikimedia.org" class="asset  asset-image at-xid-6a00d8341c4f1a53ef016305562687970d" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016305562687970d-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="image from upload.wikimedia.org" /></a><br /><br /></p>
 
 
 

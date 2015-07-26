@@ -51,6 +51,12 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-tomatillo" class="list-group-item">Tomatillo</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-make-tidy" class="list-group-item">make tidy</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop" class="list-group-item">Daily coffee and wifi at Argus Farm Stop</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-little-bird" class="list-group-item">Starting a trial of Little Bird</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-library-notes" class="list-group-item">Library notes from Malletts Creek</a></li>
@@ -84,16 +90,16 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form" class="list-group-item">The Checklist Manifesto, in checklist format</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-detroit-sound-conservancy-greystone-jazz-rescue" class="list-group-item">Detroit Sound Conservancy: Greystone Jazz rescue</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-valuable-archives-or-just-fishwrap" class="list-group-item">valuable archives or just fishwrap</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-16-custom-views-of-taxonomies" class="list-group-item">custom views of taxonomies</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7853,6 +7859,12 @@ networks
 	   
 	
 	   
+	
+	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8149,6 +8161,96 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>23 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/">Running Node-RED on a Raspberry Pi with Docker and Hypriot</a>
+      </h3>
+      <p>My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there's distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here's where I got the parts.</p>
+
+<p><a href="http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">Hypriot's gettting started guide</a> brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.</p>
+
+<p>Hypriot has a <a href="https://gitter.im/hypriot/talk">chat window</a> on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.</p>
+
+<p>Docker's <a href="https://hub.docker.com/">DockerHub</a> is a one stop shop for packaged applications. When you're running on the Pi, you'll want to seek out versions with 'rpi' or 'arm' in their names as they have likely been adapted for that system.</p>
+
+<p>I ended up pulling Niel Eyde's Raspberry Pi versions of Node-RED from DockerHub as <a href="https://registry.hub.docker.com/u/nieleyde/rpi-nodered/">nieleyde/rpi-nodered</a>. It has all sorts of interesting modules that I had not previously built.</p>
+
+<p>Node-RED is at 0.10.6 at this writing. Its <a href="http://nodered.org/docs/hardware/raspberrypi.html">Raspberry Pi support</a> includes hardware support using <a href="http://wiringpi.com/">WiringPi</a> to access the GPIO pins. </p>
+
+<p>Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have <a href="http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/">merged forces</a> after a fork, which means hopefully development will start to be sane again.</p>
+
+<p>That all said I am not sure I have everything I need yet but as a leap forward it's pretty good!</p>
+
+
+  <h3>17 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/">Two repaired shortwave receivers in one day !</a>
+      </h3>
+      <p>From the fix-it-yourself department, two successful radio repairs in one day.</p>
+
+<p>For my dad's old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. </p>
+
+<p>For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again. I'm especially happy about the Sony because I had feared that it was a complicated repair. There's some corrosion on the battery terminals and I might be forewarned that would be the first thing to look at again. A discussion of another repair is written up by <a href="http://idlenot.com/?p=1481">KE1RI</a> to replace an audio capacitor, fortunately I haven't had to do that.</p>
+
+<p>Both stations are tuned to R Havana Cuba's Sunday night programming on 6000 KHz.</p>
+
+
+  <h3>16 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-16--the-rented-lakes-of-my-childhood-by-marge-piercy-from-made-in-detroit-knopf-2015/">The rented lakes of my childhood by Marge Piercy from Made in Detroit, Knopf 2015</a>
+      </h3>
+      <p>The rented lakes of my childhood 
+ by Marge Piercy </p>
+
+<pre>
+ I remember the lakes of my Michigan
+ childhood. Here they are called ponds.
+ Lakes belonged to summer, two-week
+ vacations that my father was granted by
+ Westinghouse when we rented some cabin.
+
+ Never mind the dishes with spiderweb
+ cracks, the crooked aluminum sauce
+ pans, the crusted black frying pans.
+ Never mind the mattresses shaped
+ like the letter V. Old jangling springs.
+
+ Moldy bathrooms. Low ceilings
+ that leaked. The lakes were mysteries
+ of sand and filmy weeds and minnows
+ flickering through my fingers. I rowed
+ into freedom. Alone on the water
+
+ that freckled into small ripples,
+ that raised its hackles in storms,
+ that lay glassy at twilight reflecting
+ the sunset then sucking up the dark,
+ I was unobserved as the quiet doe
+
+ coming with her fauns to drink
+ on the opposite shore. I let the row-
+ boat drift as the current pleased, lying
+ faceup like a photographer’s plate
+ the rising moon turned to a ghost.
+
+ And though the voices called me
+ back to the rented space we shared
+ I was sure I left my real self there-
+ a tiny black pupil in the immense
+ eye of a silver pool of silence.
+
+</pre>
+
+<p>"The rented lakes of my childhood" by Marge Piercy from Made in Detroit. © Knopf, 2015. Reprinted from someone who included the phrase "reprinted with permission" in their text. I have my copy on hold at the <a href="http://www.aadl.org/catalog/record/1471791">Ann Arbor District Library</a>.</p>
+
+<p>Made in Detroit
+Poems / $27.95
+Knopf/Doubleday
+Hardcover &amp; ebook
+ISBN-10: 038535388X
+ISBN-13: 978-0385353885</p>
 
 
   <h3>14 May 2015</h3>
@@ -8499,49 +8601,6 @@ thank you
 </blockquote>
 
 <p>At least superficially the incidents seem related. I am not expert enough at aviation issues to know if there is a real connection, or if this is mere coincidence.</p>
-
-
-  <h3>24 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/">What&#39;s the most expensive parking space in Ann Arbor?</a>
-      </h3>
-      <p>Last night was the a2civictech meetup. We met at Zingerman's Next Door, there were 9 people who showed up, some familiar faces and some new ones.</p>
-
-<p>The nominal topic of the discussion was data quality, understanding how various data sets that come from civic sources have noise in them and looking at ways to deal with that. The best story was that of a well map that showed a hill in the middle of a lake, because the underlying data set had two wells with the same name and the person who built the map picked the wrong data to map.</p>
-
-<p>As always with these discussions the question turned to what data there might be available to look at, and how to get it. That led us to questions of what other people were doing with municipal data in other cities, and to this New York City parking ticket analysis: <a href="http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new">Success: How NYC Open Data and Reddit Saved New Yorkers Over $55,000 a Year</a>. It seems that there was a parking space in New York that looked like it was a legal spot, but turned out to be frequently ticketed because it was near a fire hydrant. After some analysis and publicity by Ben Wellington of I Quant NY, the NYC DOT repainted the stripes on the street to clearly mark this spot as a no-go.</p>
-
-<p>So the question becomes, how would you repeat this analysis for Ann Arbor, and what would you look for? Where are there locations that frequently generate tickets, what do they look like on a map, and how much ticket revenue comes per space?  And in the public interest, are there any spots that generate disproportionate ticket frequencies that should be looked at carefully to improve signage?</p>
-
-<p>It looks like a project. In New York there's a data catalog that includes this data set and many others; no such data has been released in Ann Arbor. So the first step is understanding what the process is for getting a year or two of ticket data to start analyzing it.</p>
-
-<p>Update: here's a <a href="http://www.ted.com/talks/ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data?language=en">TED Talk by Ben Wellington</a> on "How we found the worst place to park in New York City -- using big data".</p>
-
-
-  <h3>18 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-18-my-new-old-phone-is-a-nokia-3390b/">My new (old) phone is a Nokia 3390B</a>
-      </h3>
-      <p>First made in 2002, these old candybar style phones are virtually indestructible. My son popped my Ting SIM into it and it's working fine.</p>
-
-<p>Not so my old Nexus 4, which did a face plant on the sidewalk, cracked the screen and screwed up the digitizer. It dates only from 2013.</p>
-
-<p>I'll price out fixing the Nexus 4, but I suspect it's not going to be worth repairing. (We'll see.) And then there's the question of what kind of device do you want to carry around with you all the time, how much you want to spend and whether it makes sense to retreat to simpler technology for a while until the answer is more clear.</p>
-
-
-  <h3>18 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-18-northern-lights-in-northern-michigan/">Northern lights in northern Michigan</a>
-      </h3>
-      <p>Photo credit: Ryan Eby, from his <a href="https://www.flickr.com/photos/ebyryan/sets/72157651357540236">aurora photoset</a> on Flickr.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0ef0747970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0ef0747970c img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Eby-aurora-march-2015" title="Eby-aurora-march-2015" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0ef0747970c-600wi" /></a><br /></p>
-
-<p>I first got word that there was a chance of northern lights from the <a href="http://mivus.org/">Michigan VHF-UHF Society mailing list</a>, an amateur radio group. When the aurora activity is high, the VHF amateur radio bands (2 meter and 6 meter) get increased range, so ham radio operators with this interest keep an alert out.</p>
-
-<p><a href="http://www.geo.mtu.edu/weather/aurora/">The Aurora Page at Michigan Tech</a> has a lot of useful links to space weather forecasts.</p>
-
-<p>Alas no sign of or reports of northern lights in Ann Arbor - we don't exactly have a dark sky, but the storm was also not strong enough for any reports this far south.</p>
 
 
 
