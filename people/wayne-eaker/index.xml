@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wayne Eaker on tracker</title>
+    <link>http://vielmetti.github.io/people/wayne-eaker/</link>
+    <description>Recent content in Wayne Eaker on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jul 2015 13:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/people/wayne-eaker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>restaurant inspections</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections/</link>
+      <pubDate>Sun, 26 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections/</guid>
+      <description>&lt;p&gt;Every month the Washtenaw County Health Department does a round
+of &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;restaurant inspections&lt;/span&gt;. &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Wayne Eaker&lt;/span&gt; built
+an &lt;a href=&#34;https://github.com/zengenuity/food-inspections&#34;&gt;importer&lt;/a&gt; that
+pulls in data from the site that hosts the official county inspections,
+and is storing the &lt;a href=&#34;https://github.com/zengenuity/food-inspections-data&#34;&gt;inspection data&lt;/a&gt;
+on Github to make it easier for the next person who wants to build
+a nice interface to all the data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

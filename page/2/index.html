@@ -8,13 +8,14 @@
 
 <h3>
 <a href="http://vielmetti.github.io/books/">books</a>
-music
-jobs
+<a href="http://vielmetti.github.io/code/">code</a>
 <a href="http://vielmetti.github.io/recipes/">recipes</a>
 <a href="http://vielmetti.github.io/people/">people</a>
 <a href="http://vielmetti.github.io/cities/">cities</a>
 <a href="http://vielmetti.github.io/maps/">maps</a>
 networks
+<a href="http://vielmetti.github.io/categories/">more categories</a>
+<a href="http://vielmetti.github.io/keyphrases/">more keyphrases</a>
 </h3>
 
 
@@ -51,6 +52,8 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-tomatillo" class="list-group-item">Tomatillo</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-make-tidy" class="list-group-item">make tidy</a></li>
@@ -88,12 +91,12 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes" class="list-group-item">food coop notes for July 18, 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form" class="list-group-item">The Checklist Manifesto, in checklist format</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -7865,14 +7868,18 @@ networks
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
 
 <ul>
+<li>Auto-discovery for ATOM feed.</li>
 <li>Short codes for easy linking. First pass complete but no-op,
 next phase will do the markup too. I like the idea of
-assisted synaesthesia and colorized names and phrases.</li>
+assisted synaesthesia and colorized names and phrases.
+(Started.)</li>
 <li>Nicely thought through category and taxonomy pages. They
 have stubs now, but they need design.</li>
 <li>A whole &ldquo;Ann Arbor&rdquo; section, because there&rsquo;s so much of that,
@@ -8161,6 +8168,59 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>15 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/">diligently editing and converting for production</a>
+      </h3>
+      <p>I&rsquo;m trying my best to get this blog ready for production.
+The tasks remaining include the following.</p>
+
+<ol>
+<li><p>Get a reasonable home page with pagination. Somehow I need
+to provide some kind of access to almost 2000 posts, and they
+don&rsquo;t all fit on a single page. Sort through the design to make
+old things reachable, and then worry next about the formatter.
+(This is done at least minimally, though the provided paginator
+interface uses a list structure that&rsquo;s not nice. Still, it gets
+me to what I need to in a ping.) Open discussion on gohugo is
+<a href="http://discuss.gohugo.io/t/pagination-and-group-by-date/1441/3">Pagination and group by date</a>.</p></li>
+
+<li><p>Publish to Github Pages, using vielmetti.github.io. I did this
+once (using Octopress) so it should be straightforward to do it again.
+I already do have a proper github repo (or nearly proper, it may
+be missing some key bits). Done; don&rsquo;t have a perfect build script
+yet, but there&rsquo;s at least a start.</p></li>
+
+<li><p>Import all sorts more nonsense here, including a bunch of Superpatron
+and Blogger&rsquo;s Secret and FOIA Coordiator weblogs. There&rsquo;s no particular
+reason not to make it all one big soup. Import from Typepad is problematic
+but not impossible and that would be a good addition to the supported work;
+in particular it&rsquo;s not evidently possible to export Markdown from Typepad,
+just HTML.</p></li>
+
+<li><p>Sort out theme issues so that I get a reasonable display for category
+and subcategory pages. I may have to write some things down by hand
+to get an understanding of what I really want. As it is right now
+those pages render as blank, in part because I need to convert a bunch
+of data imperfectly imported, which was throwing errors in my
+templates, which in turn was breaking the build. Dealing with the
+errored out builds is a question again for gohugo,
+<a href="http://discuss.gohugo.io/t/taxononomy/1445">taxononomy</a></p></li>
+
+<li><p>Deal with the date problems. Lots of dates got imported without a timezone,
+but that was not the real issue; the real issue was also that lots got
+imported with &ldquo;layout: post&rdquo;. Take that out and it seems to fix things.</p></li>
+
+<li><p>Request a dump of the image cache from Typepad.</p></li>
+
+<li><p>Implement, somehow, &ldquo;edit on github&rdquo; so that my workflow is easier.
+This might only be on the preview version. Some notes on the Hugo discussion
+forums
+describing how to do that are on
+<a href="http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166">How to implement “edit this page on github”?</a>.</p></li>
+</ol>
 
 
   <h3>14 July 2015</h3>
@@ -8730,41 +8790,6 @@ curl: (7) Failed to connect to localhost port 3128: Connection refused
 <p>Fourth and finally, Gogs has been forked. "gitea" is "Git with a cup of tea", and it seems to have a bunch of energy to fix things that the Gogs project is currently lacking. See <a href="https://github.com/go-gitea/gitea">the gitea project on Github</a> and its corresponding <a href="https://gitter.im/go-gitea/gitea">gitter chat for gitea</a>. gitea has not produced a release yet, but when it does I'll be sure to look for a reasonable packaging of it to try it out.</p>
 
 <p>All of that said, I'm happy to have found Gogs, and plan to poke through it some more and store some not-very-important files in it for a while until I get some confidence in it. I don't think it (or gitea) is an instant replacement for my hosted Github service, but for the narrow purpose of holding a private repository beyond what Github provides for its service plan it looks like a reasonable alternative now.</p>
-
-
-  <h3>27 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">running mjpg-streamer on a Raspberry Pi 2 with an old Logitech webcam</a>
-      </h3>
-      <p>I followed the instructions on <a href="http://www.linuxmediaserver.net/linux-basics/streaming-webcam-raspberry-pi/">this post on LinuxMediaServer.net</a> to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware.</p>
-
-<p>lsusb returns this device:</p>
-
-<blockquote>
-  <p>Bus 001 Device 004: ID 046d:08ae Logitech, Inc. QuickCam for Notebooks</p>
-</blockquote>
-
-<p>I had to add a driver for the camera:</p>
-
-<blockquote>
-  <p>sudo modprobe gspca_zc3xx</p>
-</blockquote>
-
-<p>The camera I have shows up as /dev/video0 and has a resolution of 320x240:</p>
-
-<blockquote>
-  <p>sudo ./mjpg_streamer -i "./input_uvc.so -r 320x240 -d /dev/video0" -o "./output_http.so -w www" </p>
-</blockquote>
-
-<p>Existence proof, showing that it works. You should be able to recognize the Festifools t-shirt.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a58928970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a58928970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-06-27 at 12.35.07 PM" title="Screen Shot 2015-06-27 at 12.35.07 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a58928970b-600wi" /></a><br /></p>
-
-<p>It's not an awesome camera, but the resolution is perfectly adequate to a small task. A next challenge, should I choose to take it on, is to wrap up all of the dependencies into a Dockerfile and do a Docker build. I'm going to wait on that until Docker 1.7.1 drops since 1.7.0 is not stable on ARM platforms. I haven't yet successfully managed to get Docker on the Pi to read from USB devices (but how hard, indeed, could it be).</p>
-
-<p>UPDATE: looks like @chuckleb built a Dockerfile for this for Ubuntu at <a href="https://registry.hub.docker.com/u/chuckleb/mjpg-streamer/">chuckleb/mjpg-streamer</a>. </p>
-
-<p>UPDATE 2: If you're using the Raspberry Pi camera, <a href="http://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi">Miguel Grinberg has these build instructions for that device</a>.</p>
 
 
 
