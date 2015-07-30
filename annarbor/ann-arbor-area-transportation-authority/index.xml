@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ann Arbor Area Transportation Authority on tracker</title>
+    <link>http://vielmetti.github.io/annarbor/ann-arbor-area-transportation-authority/</link>
+    <description>Recent content in Ann Arbor Area Transportation Authority on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2015 16:57:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/annarbor/ann-arbor-area-transportation-authority/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coworking notes at Elixir Vitae</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes/</link>
+      <pubDate>Tue, 21 Jul 2015 16:57:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes/</guid>
+      <description>&lt;p&gt;A productive afternoon with Mohan Kartha in which I opened a great
+many tabs in Chrome. This bit of writing to close those out. Elixir
+Vitae is a great spot for writing - lots of quiet noise from the coolers
+to keep a background hum, and close to the bus station.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;I&amp;rsquo;m sorting out the simplest task that I&amp;rsquo;d like to do with Node-RED,
+now that I have a Raspberry Pi 2 running it under Docker in a configuration
+that&amp;rsquo;s reliable enough that it seems like it&amp;rsquo;s stable. The easiest
+network test in the world is the ping test, and so my first stab at
+a try for &amp;ldquo;run always&amp;rdquo; is a simple configuration to notice when the
+network looks like it&amp;rsquo;s down and when it is to collect some more
+detailed information and log it to a file.&lt;/p&gt;
+
+&lt;p&gt;The inspiration for that is this simple configuration from an idea
+by Nathan Chantrell, implemented by Martin Harizanov in 2014.
+&lt;a href=&#34;https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/&#34;&gt;Presence detection using phone’s WiFi and Node-RED&lt;/a&gt; relies on static
+IP address assignments from DHCP, plus &amp;ldquo;ping&amp;rdquo;, to notice if
+someone&amp;rsquo;s device is in the building, turned on, and listening to
+wifi.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve had enough phones drain their battery to know that absence
+of a wifi signal is not an unambiguous marker!&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Fantelope is doing a beta product launch at the final AFC Ann Arbor minor
+league soccer game of the year, Saturday, July 25 at 6 PM at Hollway
+Field (Pioneer High School, 601 W. Stadium, Ann Arbor). See
+&lt;a href=&#34;http://fantelope.com/afc-ann-arbor-fantelope-beta-launch/&#34;&gt;the Fantelope web site&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;My first pass at writing code to send postcards from Lob.com is
+working. The note to self is that if you have a square bracket in
+a URL, that you have to turn off curl&amp;rsquo;s globbing function, e.g.
+with -g or &amp;ndash;globoff. &amp;ldquo;When you set this option, you can specify
+URLs that contain the letters {}[] without having them being
+interpreted by curl itself. &amp;ldquo;&lt;/p&gt;
+
+&lt;p&gt;Every card has a tracking code, so the next bit of reporting to write
+is to see which cards are awaiting printing, which ones are in transit,
+where they are going to and whether they have been received.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The AAATA moved the endpoint URL for its old-school &amp;ldquo;classic&amp;rdquo;
+mobile RideTrak application. To go to a particular route like
+the 5, see e.g. &lt;a href=&#34;http://mobile.theride.org/classic/rideguide_m.asp?route=5&#34;&gt;http://mobile.theride.org/classic/rideguide_m.asp?route=5&lt;/a&gt; .
+The main &lt;a href=&#34;http://mobile.theride.org&#34;&gt;http://mobile.theride.org&lt;/a&gt; has a newer interface, but
+alas my Windows Phone 8.1 with its Internet Explorer browser
+doesn&amp;rsquo;t do that page justice. (That, and I prefer the old interface
+because I managed to figure it out for the stop I&amp;rsquo;m always catching
+the bus from.)&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.getlittlebird.com/&#34;&gt;Little Bird&lt;/a&gt; promises to
+&amp;ldquo;help businesses unlock the valuable information in structured social data&amp;rdquo;.
+I&amp;rsquo;ve asked for a trial to see what they have in store.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;I&amp;rsquo;m wondering what the best approach is to the task of
+&amp;ldquo;download all of my email from Gmail&amp;rdquo;, since the storage I
+now have available on my laptop would make it straightforward
+to have an 18 GB personal mail spool and because I really actually
+would love to search through it so that I can mark some messages
+for permanent deletion. One possibility is &lt;a href=&#34;https://www.enkive.org&#34;&gt;Enkive&lt;/a&gt;
+from The Linux Box.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;I am reminded that I want to carry around a set of headphones with me
+that plug into my Nokia 635 so that I can use the phone as a radio,
+and also reminded that I want to try to construct a headphone dipole
+as an antenna for my NooElec DVB-T tuner. The challenge will be remembering
+those desires at the right time so that when I see the parts I need
+in the junk pile at home that I can grab what I need for my every
+day carry bag.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Oh, and I need to track down an 8 GB USB stick to load a boot ISO on.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

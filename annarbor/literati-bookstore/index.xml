@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Literati Bookstore on tracker</title>
+    <link>http://vielmetti.github.io/annarbor/literati-bookstore/</link>
+    <description>Recent content in Literati Bookstore on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jul 2015 09:55:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/annarbor/literati-bookstore/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Daily coffee and wifi at Argus Farm Stop</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/</link>
+      <pubDate>Fri, 24 Jul 2015 09:55:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/</guid>
+      <description>&lt;p&gt;Daily coffee and wifi at Argus Farm Stop, outside in the sunshine
+under a lovely red umbrella canopy. Espresso over ice and a day-old
+olive twist. The view is of a Sky Trak lift at the construction
+site across moving materials to the back of The Mark, a building
+that&amp;rsquo;s going up where the car wash used to be.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The news of the day is a death on State Street. A young man was
+climbing over the skylights at the Nickels Arcade and fell to his
+death when the skylight glass gave way.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;On July 24, 1915, the SS Eastland was packed with employees from
+the Western Electric Hawthorne Works when it rolled over in
+the Chicago River. 844 passengers and crew lost their lives, making
+the Eastland disaster the worst shipwreck on the Great Lakes.
+See the &lt;a href=&#34;http://www.eastlanddisaster.org/&#34;&gt;Eastland Disaster Historical Society&lt;/a&gt;
+for extensive notes on and photos of the scene and its aftermath.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The next meeting of &lt;a href=&#34;http://www.meetup.com/a2civictech/&#34;&gt;a2civictech&lt;/a&gt;
+is coming up on Monday, July 27, 2015.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.literatibookstore.com/&#34;&gt;Literati Bookstore&lt;/a&gt; is open
+again after a water leak caused them to shut down.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;A few months ago I wrote a tiny R script that generates maps. The challenge
+today is to find a portable environment so that I can deploy this script
+on shared infrastructure. The project took 30 minutes of MacBook Air processor
+time running full blast parallel, and while I don&amp;rsquo;t care about wall clock time
+to complete the effort I do care about building something that I can hand
+off to someone else to run.&lt;/p&gt;
+
+&lt;p&gt;The hope is that the &lt;a href=&#34;https://github.com/rocker-org/ropensci&#34;&gt;ropensci&lt;/a&gt; Docker
+package from the Rocker project is the answer, or most of the answer, for this.
+Rocker has built R images where lots of useful packages have been installed,
+including systems where the install directions are a little bit complex.&lt;/p&gt;
+
+&lt;p&gt;With all complicated software environments the biggest challenge is dealing
+with dependencies. If you want to use the latest and greatest fast algorithms,
+you have to be prepared to spin up on what the cool kids are doing in the
+rest of their environment. If somehow you can jump to the edge of the development
+in the algorithm world without being tripped up by the hairy dependency graph
+that got you there, it can be a lot more fun.&lt;/p&gt;
+
+&lt;p&gt;So; install Docker on the Mac with &amp;lsquo;boot2docker&amp;rsquo;; then&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker pull rocker/ropensci
+docker run -it rocker/ropensci R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and poof, you have an environment current to this month&amp;rsquo;s desktop of leading
+R developers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

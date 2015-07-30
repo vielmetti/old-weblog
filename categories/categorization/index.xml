@@ -72,6 +72,15 @@ rule for your writers that says &amp;ldquo;always use the
 singular&amp;rdquo;, but very much something different to have Test 38 in
 your automated test corpus apply that rule and notice when it&amp;rsquo;s
 wrong.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Update 29 July 2015:
+&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Dennis Yurichev&lt;/span&gt; with a post
+&lt;a href=&#34;http://yurichev.com/blog/fuzzy_string/&#34;&gt;Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.&lt;/a&gt; shares some Python code to handle the
+case of automated checking against a probably correct dictionary. He uses this
+&lt;a href=&#34;https://pypi.python.org/pypi/python-Levenshtein/0.12.0&#34;&gt;python-Levenshtein&lt;/a&gt; module
+to do the hard work.&lt;/p&gt;
 </description>
     </item>
     
@@ -183,7 +192,7 @@ you cherrypick the best search terms and put them up front.&lt;/p&gt;
       <pubDate>Fri, 11 Mar 2011 00:08:44 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-03-11-holdridge-vegetation-classification-system/</guid>
-      <description>&lt;p&gt;Another triangle, this one found in a University of Michigan Global Change lecture on th&lt;a href=&#34;http://www.globalchange.umich.edu/globalchange1/current/lectures/kling/rainforest/rainforest.html&#34; target=&#34;_self&#34;&gt;e Tropical Rain Forest&lt;/a&gt;, by &lt;a href=&#34;http://www-personal.umich.edu/~gwk/&#34; target=&#34;_self&#34;&gt;George Kling.&lt;/a&gt;&amp;#0160;&lt;/p&gt;
+      <description>&lt;p&gt;Another triangle, this one found in a University of Michigan Global Change lecture on the &lt;a href=&#34;http://www.globalchange.umich.edu/globalchange1/current/lectures/kling/rainforest/rainforest.html&#34; target=&#34;_self&#34;&gt;Tropical Rain Forest&lt;/a&gt;, by &lt;a href=&#34;http://www-personal.umich.edu/~gwk/&#34; target=&#34;_self&#34;&gt;George Kling.&lt;/a&gt;&amp;#0160;&lt;/p&gt;
 &lt;p&gt;The triangle is the &amp;quot;Holdridge triangle&amp;quot;, dating to 1947.&amp;#0160;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Holdridge, L.R. (1947) Determination of world plant formations from simple climatic data.&amp;#0160;&lt;a href=&#34;http://dx.doi.org/10.1126/science.105.2727.367&#34; rel=&#34;nofollow&#34;&gt;Science&lt;/a&gt;, 105, 367--368.&lt;/li&gt;

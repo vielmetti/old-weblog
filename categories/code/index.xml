@@ -523,6 +523,15 @@ rule for your writers that says &amp;ldquo;always use the
 singular&amp;rdquo;, but very much something different to have Test 38 in
 your automated test corpus apply that rule and notice when it&amp;rsquo;s
 wrong.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Update 29 July 2015:
+&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Dennis Yurichev&lt;/span&gt; with a post
+&lt;a href=&#34;http://yurichev.com/blog/fuzzy_string/&#34;&gt;Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.&lt;/a&gt; shares some Python code to handle the
+case of automated checking against a probably correct dictionary. He uses this
+&lt;a href=&#34;https://pypi.python.org/pypi/python-Levenshtein/0.12.0&#34;&gt;python-Levenshtein&lt;/a&gt; module
+to do the hard work.&lt;/p&gt;
 </description>
     </item>
     

@@ -13,9 +13,9 @@
 <a href="http://vielmetti.github.io/people/">people</a>
 <a href="http://vielmetti.github.io/cities/">cities</a>
 <a href="http://vielmetti.github.io/maps/">maps</a>
-networks
-<a href="http://vielmetti.github.io/categories/">more categories</a>
-<a href="http://vielmetti.github.io/keyphrases/">more keyphrases</a>
+<a href="http://vielmetti.github.io/annarbor/">Ann Arbor</a>
+<a href="http://vielmetti.github.io/categories/">categories</a>
+<a href="http://vielmetti.github.io/keyphrases/">keyphrases</a>
 </h3>
 
 
@@ -52,6 +52,8 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging" class="list-group-item">We should do more blogging</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-tomatillo" class="list-group-item">Tomatillo</a></li>
@@ -89,12 +91,12 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227" class="list-group-item">Notes on the Midland G-227 GMRS/FRS radio</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes" class="list-group-item">food coop notes for July 18, 2015</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -7870,20 +7872,22 @@ networks
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
 
 <ul>
-<li>Auto-discovery for ATOM feed.</li>
+<li>Auto-discovery for RSS feed, per <a href="http://gohugo.io/templates/rss/">http://gohugo.io/templates/rss/</a></li>
 <li>Short codes for easy linking. First pass complete but no-op,
 next phase will do the markup too. I like the idea of
 assisted synaesthesia and colorized names and phrases.
-(Started.)</li>
+(Started, with colorized but not linked names)</li>
 <li>Nicely thought through category and taxonomy pages. They
 have stubs now, but they need design.</li>
 <li>A whole &ldquo;Ann Arbor&rdquo; section, because there&rsquo;s so much of that,
-and it should integrate with Arborwiki.</li>
+and it should integrate with Arborwiki. (Started.)</li>
 <li>Links from books to their corresponding URLs and ISBNs to
 link to AADL and Amazon pages, perhaps with Librarything data</li>
 <li>Pagination with group by date, coming in 0.15</li>
@@ -8170,6 +8174,29 @@ I have to learn about git subtrees.</li>
 
 
 
+  <h3>30 March 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/">plane spotting; some quick notes on a new software-defined radio setup</a>
+      </h3>
+      <p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0f877ad970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0f877ad970c img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-03-29 at 9.50.47 PM" title="Screen Shot 2015-03-29 at 9.50.47 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0f877ad970c-600wi" /></a><br /></p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c76ed742970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c76ed742970b img-responsive" style="width: 490px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-03-30 at 11.35.53 AM" title="Screen Shot 2015-03-30 at 11.35.53 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c76ed742970b-500wi" /></a><br /></p>
+
+<p>A couple of years ago, I got one of the first-generation RTL-SDR USB software defined radio units. These inexpensive devices are originally designed as TV tuners, but clever radio hackers figured out how to turn them into software-defined radios that tune to a broad spectrum of radio.</p>
+
+<p>After some experimental use I managed to cook the original unit which in its death throes no longer listened. The vendor (Nooelec) generously offered a modest discount on my next purchase, so I took them up on the 2d generation unit. Same form factor, bright blue in color, and the supplied antenna is a retractable whip with a magnetic base. As always it comes with no documentation and no software (you are expected to provide those).</p>
+
+<p>I had previously used a version of "gqrx" as a radio receiver, in a package that had been built for the Mac. This time I thought I'd build from source. I went to the 'homebrew' port system and found a version that said it worked for OS X 10.10 (Yosemite), but I'm on OS X 10.9 (Mavericks) and the build didn't work (it crapped out in building scipy). Reading the documentation more closely the distribution says it's available through Macports, so I installed that and did "sudo port install gnuradio" and "sudo port install gqrx".</p>
+
+<p>Macports is one of those amazing feats of modern software engineering where someone (or really a lot of people) have carefully and meticulously figured out how to take a package of source code and make it build, including tracing all of the dependencies upon which everything else needs to be built. For gqrx and GNU Radio this means (at the very bottom) that I had to have a working FORTRAN compiler so that I could compile the FORTRAN code hiding in the numerical analysis libraries. This brings me right back to the 1970s learning FORTRAN at Michigan Tech in their Summer Youth Program. I can't even imagine how old the code was that I compiled but it might actually date from then.</p>
+
+<p>Everything did build just fine, and then I had a radio. The first test is always to tune into WCBN, which came in with a strong signal, and to key up my ham radio transmitter via Echolink to make the W8UM repeater make some noise, and to get some weather radio going. Everything I tried worked just fine and passed with flying colors, the gqrx software is more modern than it once was in a couple of very helpful ways.</p>
+
+<p>Next was to grab one of the many versions of "dump1090" which uses the SDR radio to tune to aircraft ADS-B broadcasts that give you a version of aircraft radar. This also worked well, perhaps better than I could have expected. From home with an antenna in the middle of the house I could hear airplanes just north of Jackson, MI from Ann Arbor, MI (about 40 miles). I relocated to a cafe near the dog park (Ellsworth at Platt) that has a good view of the southern sky, and the same little bitty antenna pulled in reception from airplanes near Fort Wayne, IN (about 120 miles). </p>
+
+<p>There's always more to try, of course. GNU Radio is a full toolkit for building your own radio design, complete with FM decoders and the like, and it has a fairly simple to understand user interface compared to how complex the underpinnings are (remember, FORTRAN). There's lots more software that uses the RTL-SDR libraries and even a port to the Raspberry Pi which I'd like to try.</p>
+
+
   <h3>24 March 2015</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2015/2015-03-24-the-mysterious-crash-of-4u9525-germanwings-flight-9525-in-the-french-alps/">The mysterious crash of</a>
@@ -8262,9 +8289,24 @@ I have to learn about git subtrees.</li>
       <h3>
       <a href="http://vielmetti.github.io/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/">Cleaning polygons in R and Shapely</a>
       </h3>
-      <p>The project of the week has been an effort to generate a set of maps - 2935 of them, in fact. The source data is from the Department of Energy, listing a set of utility companies and the counties they cover; the goal is to have a boundary map generated for each utility company. I know it won't be a perfect boundary (most utility companies have at least one county that they only provide service to part of), but as a start it's a pretty good one.</p>
+      <p>The project of the week has been an effort to generate a set of
+maps - 2935 of them, in fact. The source data is from the Department
+of Energy, listing a set of utility companies and the counties they
+cover; the goal is to have a boundary map generated for each utility
+company. I know it won&rsquo;t be a perfect boundary (most utility companies
+have at least one county that they only provide service to part
+of), but as a start it&rsquo;s a pretty good one.</p>
 
-<p>The DOE data is based on their Form EIA-861, and I'm working from the 2013 data set. See <a href="http://www.eia.gov/electricity/data/eia861/">Electric power sales, revenue, and energy efficiency Form EIA-861 detailed data files</a> if you want to get your own files. It's provided as Excel (XLSX) files, so you'll need something compatible to read them; I ended up using <a href="http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html">in2csv from csvkit</a> as the first part of the pipeline to break these apart.</p>
+<p>The DOE data is based on their Form EIA-861, and I&rsquo;m working from
+the 2013 data set. See <a
+href="http://www.eia.gov/electricity/data/eia861/">Electric power
+sales, revenue, and energy efficiency Form EIA-861 detailed data
+files</a> if you want to get your own files. It&rsquo;s provided as Excel
+(XLSX) files, so you&rsquo;ll need something compatible to read them; I
+ended up using <a
+href="http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html">in2csv
+from csvkit</a> as the first part of the pipeline to break these
+apart.</p>
 
 <p>You get lines from the provided file that look like this:</p>
 
@@ -8745,17 +8787,6 @@ Upperville, VA, in the late spring.  -</p>
 
 <p>See more at:
 <a href="http://obits.mlive.com/obituaries/annarbor/obituary.aspx?pid=173778701#sthash.HpdH8buv.dpuf">http://obits.mlive.com/obituaries/annarbor/obituary.aspx?pid=173778701#sthash.HpdH8buv.dpuf</a></p>
-
-
-  <h3>30 November 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-11-30-im-taking-a-break-from-twitter/">I&#39;m taking a break from Twitter</a>
-      </h3>
-      <p>Nothing personal, but it's time to take a break from Twitter.</p>
-
-<p>I tried to do this <a href="http://vielmetti.typepad.com/vacuum/2008/10/twitter-zero.html">back in 2008</a> when it was still possible to have a reasonable conversation on a blog about whether you were or weren't going to participate in a new social media experiment. Nowadays Twitter is big business, and I don't feel like I have to justify myself to my friends for why I think it's time to take a rest from 24x7 news and celebrity updates.</p>
-
-<p>I have a few bots that tweet out weather updates which I guess I will keep running because it's more trouble than it's worth to temporarily turn them off. </p>
 
 
 

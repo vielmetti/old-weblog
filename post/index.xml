@@ -6,8 +6,29 @@
     <description>Recent content in Posts on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2015 13:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2015 18:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>We should do more blogging</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging/</link>
+      <pubDate>Tue, 28 Jul 2015 18:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging/</guid>
+      <description>&lt;p&gt;Blog every day, whether you want to or not.&lt;/p&gt;
+
+&lt;p&gt;Pick a topic, learn it well, and write about it as you learn it.
+Or pick a topic you know really well already and teach to it.
+Sometimes you can do both.&lt;/p&gt;
+
+&lt;p&gt;The time spent blogging can&amp;rsquo;t be any less worthwhile than time
+spent on Facebook or Twitter. The exchange is, instead of clicking
+the like button and the favorite button, you actually have to think
+a little bit and write something down that makes sense.&lt;/p&gt;
+
+&lt;hr/&gt;
+</description>
+    </item>
     
     <item>
       <title>restaurant inspections</title>
@@ -22,6 +43,23 @@ pulls in data from the site that hosts the official county inspections,
 and is storing the &lt;a href=&#34;https://github.com/zengenuity/food-inspections-data&#34;&gt;inspection data&lt;/a&gt;
 on Github to make it easier for the next person who wants to build
 a nice interface to all the data.&lt;/p&gt;
+
+&lt;p&gt;Wayne was good enough to find a spot to host an interface to this data
+that lets you browse through it; you can find it at&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com&#34;&gt;http://food-inspections.annarbortelegraph.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are permalinks to each inspection so that you can link to them.
+See e.g. recent inspections for&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-06-17-slurping-turtle&#34;&gt;Slurping Turtle&lt;/a&gt;, June 17, 2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-04-27-china-chef-restaurant&#34;&gt;China Chef&lt;/a&gt;, Ypsilanti, April 27, 2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-06-22-nu-wave-fish-chicken&#34;&gt;Nu Wave Fish and Chicken&lt;/a&gt;, June 22, 2015&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;for three examples of places where I want to see a clean inspection on a followup
+visit before I go or go back to there.&lt;/p&gt;
 </description>
     </item>
     
@@ -902,26 +940,6 @@ you don&amp;rsquo;t have credits on account. I wasn&amp;rsquo;t able to determin
 at first glance whether their REST API applied to onesy-twoesy
 printing options, though it was clear that if you wanted to send
 1000 cards that the pricing would be competitive.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>espresso over ice with a little half and half</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-19-espresso-over-ice-with-a-little-half-and-half/</link>
-      <pubDate>Sun, 19 Jul 2015 21:36:25 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-19-espresso-over-ice-with-a-little-half-and-half/</guid>
-      <description>&lt;p&gt;A simple recipe that you can order from your favorite barista:
-an espresso shot over ice. Leave enough room to add a spot of
-half and half. Cold, refreshing, and very strong.&lt;/p&gt;
-
-&lt;p&gt;To try: a shot of espresso over shaved ice. I think this is
-doable at Ann Arbor Farmers Market where you&amp;rsquo;d go to the stall
-where a granny is selling shaved ice, and then walk a plain snow cone
-over to the Roos Roast stand for your espresso shot.&lt;/p&gt;
-
-&lt;p&gt;Inspired by a Facebook post from Allen Leibowitz in Texas ordering a snow cone
-and the surrounding commentary.&lt;/p&gt;
 </description>
     </item>
     

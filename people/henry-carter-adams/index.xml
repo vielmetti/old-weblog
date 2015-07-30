@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henry Carter Adams on tracker</title>
+    <link>http://vielmetti.github.io/people/henry-carter-adams/</link>
+    <description>Recent content in Henry Carter Adams on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 May 2009 09:55:00 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/people/henry-carter-adams/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I am not an &#34;information activist&#34; or a &#34;civic minded data freak&#34;, thank you very much</title>
+      <link>http://vielmetti.github.io/post/2009/2009-05-07-i-am-not-an-information-activist-or-a-civic-minded-data-freak-thank-you-very-much/</link>
+      <pubDate>Thu, 07 May 2009 09:55:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-05-07-i-am-not-an-information-activist-or-a-civic-minded-data-freak-thank-you-very-much/</guid>
+      <description>&lt;p&gt;Let me explain to you why those terms don&amp;#39;t explain things very well.&lt;/p&gt;&lt;p&gt;I learned about public accounting from studying the works of Henry Carter Adams at the Interstate Commerce Commission by going through his correspondence and notebooks as stored at the Bentley Library.&amp;#0160; Adams was an economist who left Ann Arbor to go to DC to help regulate the railroads, and in particular to help deduce by careful study of required safety records which of several kinds of rail technology in use were most prone to accidents that would injure, cripple, or kill railroad workers and passengers.&lt;/p&gt;&lt;p&gt;Public accounting at the turn of the century was hard work.&amp;#0160; Not only did you have to come to some means of doing standard categorization for hundreds or thousands of categories of events and expenditures in a typical rail operation, but you also had to manage all that data flowing back to you as print and then reconstruct it into numbers.&amp;#0160; And then you had to make the case that one type of patented equipment was much more dangerous than another and that some private enterprise needed to be coerced, encouraged, or jawboned into making investments in public safety.&lt;/p&gt;&lt;p&gt;You would think that 100 plus years later, with all of our wonderful technology, that things would be better.&amp;#0160; You&amp;#39;d be wrong.&amp;#0160; Government organizations and publicly regulated institutions are still primarily putting together products designed to be printed, and in most cases there is very little thought put towards the use or reuse of the data hiding inside.&amp;#0160; &lt;/p&gt;&lt;p&gt;In one extreme, this shows up as hundred plus page long PDFs of scanned in images presented to board members to help them make decisions, including scanned in spreadsheets that have numerical errors that cannot be audited without rekeying.&amp;#0160; In another extreme, it means that no two public organizations that report the number of flu cases have precisely the same number, since their reporting cycles are different and no one is adding things up except at document preparation and print time.&amp;#0160; &lt;/p&gt;&lt;p&gt;You can&amp;#39;t count on critical public information being available in non-proprietary file formats, and you can&amp;#39;t count on non-critical public information being made openly available to the public at all.&lt;/p&gt;&lt;p&gt;It&amp;#39;s so bad that people trust Wikipedia more than they trust any other source, because at least with Wikipedia you know that what you&amp;#39;re looking at might be wrong and there&amp;#39;s a healthy dose of skepticism that can be dealt with by examining original documents.&lt;/p&gt;&lt;p&gt;So if I ask for that page of numbers as the spreadsheet it was originally, and a public records officer for a public body gives it to me as a bitmap, I&amp;#39;m going to ask again and keep asking publicly and perhaps uncomfortably until we both understand that this is a routine request and that compliance with routine requests is much easier than making everything an exception - because maybe, just maybe, I can replace that FOIA letter with a tiny shell script and we can just go about our business.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -38,15 +38,15 @@
 &lt;h2 id=&#34;todo:5b51c9e8380c18fc2ee8d866662d01d8&#34;&gt;Todo&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Auto-discovery for ATOM feed.&lt;/li&gt;
+&lt;li&gt;Auto-discovery for RSS feed, per &lt;a href=&#34;http://gohugo.io/templates/rss/&#34;&gt;http://gohugo.io/templates/rss/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Short codes for easy linking. First pass complete but no-op,
 next phase will do the markup too. I like the idea of
 assisted synaesthesia and colorized names and phrases.
-(Started.)&lt;/li&gt;
+(Started, with colorized but not linked names)&lt;/li&gt;
 &lt;li&gt;Nicely thought through category and taxonomy pages. They
 have stubs now, but they need design.&lt;/li&gt;
 &lt;li&gt;A whole &amp;ldquo;Ann Arbor&amp;rdquo; section, because there&amp;rsquo;s so much of that,
-and it should integrate with Arborwiki.&lt;/li&gt;
+and it should integrate with Arborwiki. (Started.)&lt;/li&gt;
 &lt;li&gt;Links from books to their corresponding URLs and ISBNs to
 link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
 &lt;li&gt;Pagination with group by date, coming in 0.15&lt;/li&gt;

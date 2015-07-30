@@ -14,9 +14,9 @@
 <a href="http://vielmetti.github.io/people/">people</a>
 <a href="http://vielmetti.github.io/cities/">cities</a>
 <a href="http://vielmetti.github.io/maps/">maps</a>
-networks
-<a href="http://vielmetti.github.io/categories/">more categories</a>
-<a href="http://vielmetti.github.io/keyphrases/">more keyphrases</a>
+<a href="http://vielmetti.github.io/annarbor/">Ann Arbor</a>
+<a href="http://vielmetti.github.io/categories/">categories</a>
+<a href="http://vielmetti.github.io/keyphrases/">keyphrases</a>
 </h3>
 
 
@@ -52,6 +52,8 @@ networks
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging" class="list-group-item">We should do more blogging</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-tomatillo" class="list-group-item">Tomatillo</a></li>
@@ -89,8 +91,6 @@ networks
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227" class="list-group-item">Notes on the Midland G-227 GMRS/FRS radio</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes" class="list-group-item">food coop notes for July 18, 2015</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match" class="list-group-item">Levenshtein distance for approximate match</a></li>
         
     </ul>
 
@@ -117,9 +117,24 @@ networks
 	<body> 
 		<h3>4 March 2015</h3>
 		<h1>Cleaning polygons in R and Shapely</h1> 
-		<p>The project of the week has been an effort to generate a set of maps - 2935 of them, in fact. The source data is from the Department of Energy, listing a set of utility companies and the counties they cover; the goal is to have a boundary map generated for each utility company. I know it won't be a perfect boundary (most utility companies have at least one county that they only provide service to part of), but as a start it's a pretty good one.</p>
+		<p>The project of the week has been an effort to generate a set of
+maps - 2935 of them, in fact. The source data is from the Department
+of Energy, listing a set of utility companies and the counties they
+cover; the goal is to have a boundary map generated for each utility
+company. I know it won&rsquo;t be a perfect boundary (most utility companies
+have at least one county that they only provide service to part
+of), but as a start it&rsquo;s a pretty good one.</p>
 
-<p>The DOE data is based on their Form EIA-861, and I'm working from the 2013 data set. See <a href="http://www.eia.gov/electricity/data/eia861/">Electric power sales, revenue, and energy efficiency Form EIA-861 detailed data files</a> if you want to get your own files. It's provided as Excel (XLSX) files, so you'll need something compatible to read them; I ended up using <a href="http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html">in2csv from csvkit</a> as the first part of the pipeline to break these apart.</p>
+<p>The DOE data is based on their Form EIA-861, and I&rsquo;m working from
+the 2013 data set. See <a
+href="http://www.eia.gov/electricity/data/eia861/">Electric power
+sales, revenue, and energy efficiency Form EIA-861 detailed data
+files</a> if you want to get your own files. It&rsquo;s provided as Excel
+(XLSX) files, so you&rsquo;ll need something compatible to read them; I
+ended up using <a
+href="http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html">in2csv
+from csvkit</a> as the first part of the pipeline to break these
+apart.</p>
 
 <p>You get lines from the provided file that look like this:</p>
 
