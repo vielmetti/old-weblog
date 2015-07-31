@@ -6,8 +6,43 @@
     <description>Recent content in Code on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2015 10:05:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2015 02:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>mitmproxy</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</link>
+      <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</guid>
+      <description>&lt;p&gt;In his &lt;a href=&#34;http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/&#34;&gt;An internet x-ray machine for the masses&lt;/a&gt;, Paul Ohm writes a lucid introduction to
+&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;mitmproxy&lt;/span&gt;,
+a man-in-the-middle proxy server that allows you to
+get between your browser and the Internet and poke at
+(and change) the traffic going between the two.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mitmproxy.org&#34;&gt;http://mitmproxy.org&lt;/a&gt; is the home of mitmproxy. It&amp;rsquo;s
+the work of &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Aldo Cortesi&lt;/span&gt; and a cast of
+hundreds of contributors on github at &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;https://github.com/mitmproxy/mitmproxy&lt;/a&gt; .
+I used the OS X binary distribution from the download page.
+There&amp;rsquo;s also a nifty Dockerized version on
+Dockerhub as &lt;a href=&#34;https://registry.hub.docker.com/u/mitmproxy/mitmproxy/&#34;&gt;docker pull mitmproxy/mitmproxy&lt;/a&gt;
+to get you started quickly too.&lt;/p&gt;
+
+&lt;p&gt;Man-in-the-middle (or monkey-in-the-middle) systems are not
+new, of course, and Dug Song&amp;rsquo;s &lt;a href=&#34;http://www.monkey.org/~dugsong/dsniff/&#34;&gt;dsniff&lt;/a&gt;
+package dates to 1999. What we&amp;rsquo;ve learned in a decade and a half
+is that security through obscurity vanishes in the face of better
+tools for looking at network traffic as it&amp;rsquo;s going by with high
+level tools for making sense of what&amp;rsquo;s there.&lt;/p&gt;
+
+&lt;p&gt;As ever, all of these tools have both benign and malicious uses.
+If you can trick someone into using your proxy server for their
+traffic, all kinds of foolishness can result. Better is the use
+that you proxy your own traffic and behold all of the cookies,
+beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Daily Coffee and Wifi, Roos Roast Wednesday edition</title>
@@ -807,20 +842,6 @@ a place to collect them when I find them.&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;So when it&#39;s time to write some code here are some ideas for where
 to start again!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>octopress up and running</title>
-      <link>http://vielmetti.github.io/post/2013/2013-08-11-octopress-up-and-running/</link>
-      <pubDate>Sun, 11 Aug 2013 21:56:54 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-08-11-octopress-up-and-running/</guid>
-      <description>&lt;p&gt;I am using Octopress to build a new web site at &lt;a href=&#34;http://vielmetti.github.io&#34;&gt;http://vielmetti.github.io&lt;/a&gt;. This looks like it will be a good place as any to write about code and any github projects I am working on. I will keep writing about everything else here.&lt;/p&gt;
-
-&lt;p&gt;To write in Octopress you put files in a directory written in Markdown. Then you use a command line tool called &#39;rake&#39;, the Ruby version of &#39;make&#39;, to do the publishing. Files that have changed get checked in to github. Then the whole site is put into static files, so that it all loads fast.&lt;/p&gt;
-
-&lt;p&gt;Amazing how much more time you have for hacking when you are not on Facebook.&lt;/p&gt;
 </description>
     </item>
     
