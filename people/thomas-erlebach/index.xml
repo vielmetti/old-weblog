@@ -15,19 +15,34 @@
       <pubDate>Thu, 14 Feb 2008 01:26:10 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-02-14-relevance-in-so/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-This very interesting phrase gets exactly one search hit in Google, a use in the book &amp;ldquo;Network Analysis: Methodological Foundations&amp;rdquo; by Ulrik Brandes, Thomas Erlebach.
-&lt;/p&gt;&lt;p&gt;
-I&amp;rsquo;m getting my copy via inter-library loan (yay Melcat) and hope to dig through it.  The relevant chapter is on &amp;ldquo;local density&amp;rdquo;, which looks to have all kinds of NP-hard math about finding dense clusters, cliques, and  inside networks.&lt;br /&gt;
-&lt;/p&gt;&lt;p&gt;
-What makes a portion of a social network more relevant than the rest of it?  I.e., if you want to partition a network into an &amp;ldquo;interesting&amp;rdquo; part and a &amp;ldquo;less interesting&amp;rdquo; part, how do you cut it?  This is then a property less of any individual ego and more a property of a subset of the group.   Large networks have enormous (and computationally difficult) different ways they can be sliced up, so you have to have some heuristics that lead you to the right places.&lt;br /&gt;
-&lt;/p&gt;&lt;p&gt;
-On a network like the internet, where do you measure &amp;ldquo;local density&amp;rdquo;?  Decide how much it matters that people are in the same place at the same time, and how much it matters that they quote each other all the time, and how much it matters that they sync up even though they are far apart.
-&lt;/p&gt;&lt;p style=&#34;text-align:center;&#34;&gt;
+      <description>&lt;p&gt;This very interesting phrase gets exactly one search hit in Google,
+a use in the book &amp;ldquo;Network Analysis: Methodological Foundations&amp;rdquo;
+by Ulrik Brandes, Thomas Erlebach.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m getting my copy via inter-library loan (yay Melcat) and hope
+to dig through it.  The relevant chapter is on &amp;ldquo;local density&amp;rdquo;,
+which looks to have all kinds of NP-hard math about finding dense
+clusters, cliques, and  inside networks.&lt;/p&gt;
+
+&lt;p&gt;What makes a portion of a social network more relevant than the
+rest of it?  I.e., if you want to partition a network into an
+&amp;ldquo;interesting&amp;rdquo; part and a &amp;ldquo;less interesting&amp;rdquo; part, how do you cut
+it?  This is then a property less of any individual ego and more a
+property of a subset of the group.   Large networks have enormous
+(and computationally difficult) different ways they can be sliced
+up, so you have to have some heuristics that lead you to the right
+places.&lt;/p&gt;
+
+&lt;p&gt;On a network like the internet, where do you measure &amp;ldquo;local density&amp;rdquo;?
+Decide how much it matters that people are in the same place at the
+same time, and how much it matters that they quote each other all
+the time, and how much it matters that they sync up even though
+they are far apart.&lt;/p&gt;
+
+&lt;p style=&#34;text-align:center;&#34;&gt;
 &lt;img src=&#34;http://ecx.images-amazon.com/images/I/01TOTCbRZlL.jpg&#34; /&gt;
-&lt;br /&gt;&lt;a href=&#34;http://www.amazon.com/gp/redirect.html%3FASIN=3540249796%26tag=superpatron-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3540249796%253FSubscriptionId=02ZH6J1W0649DTNS6002&#34;&gt;&amp;ldquo;Network Analysis: Methodological Foundations (Lecture Notes in Computer Science)&amp;rdquo; (Springer)&lt;/a&gt;
+&lt;br /&gt;&lt;a href=&#34;http://www.amazon.com/gp/redirect.html%3FASIN=3540249796%26tag=superpatron-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3540249796%253FSubscriptionId=02ZH6J1W0649DTNS6002&#34;&gt;&#34;Network Analysis: Methodological Foundations (Lecture Notes in Computer Science)&#34; (Springer)&lt;/a&gt;
 &lt;/p&gt;
-&amp;lt;!&amp;ndash; technorati tags start &amp;ndash;&amp;gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/proxmity&#34; rel=&#34;tag&#34;&gt;proxmity&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/density&#34; rel=&#34;tag&#34;&gt;density&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/relevance&#34; rel=&#34;tag&#34;&gt;relevance&lt;/a&gt;&lt;/p&gt;&amp;lt;!&amp;ndash; technorati tags end &amp;ndash;&amp;gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -6,8 +6,55 @@
     <description>Recent content in Postcard on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2015 22:05:18 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2015 12:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/keyphrases/postcard/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>a2b3 lunch non-summary for 30 July 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-30-a2b3-lunch-nonsummary/</link>
+      <pubDate>Thu, 30 Jul 2015 12:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-30-a2b3-lunch-nonsummary/</guid>
+      <description>&lt;p&gt;Nice lunch today at the Blue Nile. We had 10 people for lunch, including two
+people (Azita Azadi and Tom Meloche) who had moved back to town from far away.
+I had the vegetarian plate which was delicious (love me some injera).&lt;/p&gt;
+
+&lt;p&gt;The question of the day was regarding postcards, something I&amp;rsquo;m thinking about
+quite a bit. With a modest (but still too big) amount of effort I can launch
+a postcard from the command line of my Mac. It&amp;rsquo;s got to be easier (so I don&amp;rsquo;t
+have to look up command line options) but the basic structure works pretty well.&lt;/p&gt;
+
+&lt;p&gt;Postcards are archaic, perhaps, and also perhaps more expensive per each than
+reaching someone through Facebook advertising. I do have to say though that I
+love sending them, and love receiving them in return. I&amp;rsquo;d love to do the experiment
+of $20 spent on Facebook vs $20 spent on postcards, and wonder what the return
+would be; or better yet, $20 spent on each and identify particular synergies between
+super-high-tech and old-fashioned.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The card I got in the mail today was from Peter Honeyman and Lynn Chamberlain,
+two of my faithful correspondents. They sent a photo of the Pickle Barrel House Museum
+in Grand Marais, Michigan. The historic marker there reads:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Pioneer Cooperage Company of Chicago designed this small
+vacation cottage, which stood on the shores of nearby Sable Lake
+from 1926 until about 1937. It was built for William Donahey, creator
+of the Chicago Tribune cartoon story The Teenie Weenies. The house
+was constructed as a typical barrel would have been, only on a much
+larger scale. The main barrel contained a living area on the first
+floor and a bedroom on the second. A pantry connected this barrel
+to a smaller single-story one, which housed a kitchen. Donahey spent
+ten summers at the cottage with his wife, Mary, herself a noted
+author of children&amp;rsquo;s books. The structure was then moved to its
+current site and used as a tourist information center. The Pickle
+Barrel House is listed in the National Register of Historic Places.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds like a destination for next time!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>lob a postcard: printer sends cards via API</title>

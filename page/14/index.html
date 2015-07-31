@@ -52,6 +52,12 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-favorite-times-to-twitter" class="list-group-item">Favorite times for twitter</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-30-a2b3-lunch-nonsummary" class="list-group-item">a2b3 lunch non-summary for 30 July 2015</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-30-first-round-of-postcards" class="list-group-item">First round of postcards</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging" class="list-group-item">We should do more blogging</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
@@ -85,16 +91,16 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-espresso-over-ice-with-a-little-half-and-half" class="list-group-item">espresso over ice with a little half and half</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-weak-ties-of-your-social-network" class="list-group-item">The weak ties of your social network are its greatest strength</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher" class="list-group-item">Remembering Hazen Schumacher of Jazz Revisited</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227" class="list-group-item">Notes on the Midland G-227 GMRS/FRS radio</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes" class="list-group-item">food coop notes for July 18, 2015</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7874,6 +7880,12 @@
 	   
 	
 	   
+	
+	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8172,6 +8184,85 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>9 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/">decoding radio digital modes without a radio, using WebSDR and fldigi</a>
+      </h3>
+      <p>I'm interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to "listen" to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Fldigi-HB9ERN" title="Fldigi-HB9ERN" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi" /></a><br /></p>
+
+<p>I think I have all of the components, but I have yet to be able to get everything to work as expected. Here's what I have:</p>
+
+<p><a href="http://websdr.ewi.utwente.nl:8901/">WebSDR</a> from http://websdr.ewi.utwente.nl:8901/ . This is a software-defined radio tuning  to the radio airwaves at the University of Twente in the Netherlands; it runs in your browser. There are 87 of these systems running around the world, listed at <a href="http://websdr.org/">websdr.org</a>.</p>
+
+<p><a href="http://www.w1hkj.com/Fldigi.html">fldigi</a> from http://www.w1hkj.com/Fldigi.html . This software for Windows, Linux and OS X, runs on your local system and takes an audio signal and decodes it in one of many digital modes.</p>
+
+<p><a href="https://code.google.com/p/soundflower/">Soundflower</a> from https://code.google.com/p/soundflower/ . This is a Mac system extension that allows you to redirect the audio output of one program (e.g. your browser) into the audio input of another program (e.g. fldigi). Not strictly necessary because the fldigi can also just decode whatever it hears through the computer's built in microphone. I picked up the recommendation from an article on <a href="http://www.hamradioandvision.com/websdr-digital-modes/">HamRadioAndVision</a>.</p>
+
+<p>A number of people have done Youtube videos describing what they are doing to make this work. For example, <a href="http://www.oz9aec.net/index.php/component/content/article/63-sdr/290-fun-with-websdr-and-fldigi">OZ9AEC</a> has a 6 minute Youtube from 2009 shows reception in single channel and multichannel mode. He doesn't use Soundflower, just the built in mic of his Mac.</p>
+
+<p>Not described here - and probably what I need to figure out next - are two key bits of information. Where do you tune to pick up digital signals? And, more importantly, which decoder do you use? It's not hard to pick out which modulation is being used if you have some practice, but as of this writing I couldn't readily tell you what WEFAX sounds like compared to RTTY. Still sorting through those details before I can claim to have mastered this.</p>
+
+<p>Note also that this should work with a local software-defined radio as well, or even with a "hardware-defined radio" placed near your mic or patched in with a mic cable.</p>
+
+
+  <h3>6 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-06-city-of-ann-arbor-snow-removal-ordinance/">City of Ann Arbor Snow Removal Ordinance</a>
+      </h3>
+      <p>Because it's that time of year when sidewalks are full of snow and ice.</p>
+
+<h3>4:60. Snow and ice.</h3>
+
+<p>All snow and ice which has accumulated prior to 6:00 a.m. on a public sidewalk adjacent to property not zoned residentially shall be removed by the owner or occupant by noon. Immediately after the accumulation of ice on such sidewalk it shall be treated with sand, salt or other substance to prevent it from being slippery and the ice shall be removed within the time limits of this paragraph.</p>
+
+<p>Except for sidewalks defined by section 4:51(1)(b) and (c), within 24 hours after the end of each accumulation of snow greater than 1 inch, the owner or occupant of every residentially zoned property shall remove the accumulation from the adjacent public sidewalk and walks and ramps leading to a crosswalk. The accumulation may be from any source including precipitation and drifting. Immediately after the accumulation of ice on such sidewalk, it shall be treated with sand, salt or other substance to prevent it from being slippery and the ice shall be removed within 24 hours after accumulation.</p>
+
+<p>All property zoned PL (public land) shall have snow and ice removed as if it held the same zoning classification as the adjacent property. The removal of snow and ice shall mean free of snow and ice for the entire constructed width and length of the sidewalk, including walks and ramps leading to a crosswalk.</p>
+
+<p>(Ord. No. 5-86, 2-20-86; Ord. No. 77-92, § 1, 12-21-92; Ord. No. 49-01, § 3, 10-15-01; Ord. No. 13-15, § 1, 10-21-13)</p>
+
+<h3>4:61. Removal by city.</h3>
+
+<p>If snow or ice is not removed or treated as required section 4:60, the city may notify the owner or occupant of the violation of section 4:60. This notification may be made in person, by telephone, by mail or by written notice left at the property. If the owner or occupant fails to remove snow or ice within 24 hours of the notification of violation of section 4:60, the city may cause such snow or ice to be removed. The owner (as indicated by the records of the assessor) of the adjacent property shall then be charged the actual cost of the sidewalk clearance, plus an administrative fee of $50.00. If that charge is not paid within 45 days, it may be assessed against the parcel under section 1:292 of this Code.</p>
+
+<p>(Ord. No. 83-70, 10-13-70; Ord. No. 46-77, 1-23-78; Ord. No. 81-81, 12-7-81; Ord. No. 5-86, 2-20-86; Ord. No. 77-92, § 2, 12-21-92)</p>
+
+<h3>4:62. Financial hardship.</h3>
+
+<p>Upon proof of financial hardship the Administrator may authorize charges under section 4:61 to be paid in installments, to be reduced, or to be cancelled and will be subject to Council approval.</p>
+
+<p>(Ord. No. 11-75, 2-10-75; Ord. No. 5-86, 2-20-86)</p>
+
+<h3>4:63. Penalty.</h3>
+
+<p>The owner (as shown on the assessor's records) of the property with adjacent sidewalks which do not comply with section 4:60, who fails to comply with the notice given in section 4:61, shall be responsible for a civil infraction, which shall be punishable by a civil fine of not less than $100.00 for the first offense, not less than $250.00 and up to $500.00 for the second offense, and not less than $500.00 and up to $1,000.00 for each additional or subsequent offense within a 2-year time period, plus costs and all other remedies available by statute.. The maximum fine for any offense shall not exceed $1,000.00. If the penalty is not paid within 45 days, it may be assessed against the parcel under section 1:292 of this Code.</p>
+
+<p>(Ord. No. 5-86, 2-20-86; Ord. No. 77-92, § 3, 12-21-92; Ord. No. 25-04, § 4, 8-2-04)</p>
+
+
+  <h3>6 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-06-long-form-writing-as-first-published-to-twitter/">Long form writing, as first published to Twitter</a>
+      </h3>
+      <p>I'd like to do some long form writing, except that I'd publish it on Twitter. I'll write essays as I'd normally write them, making sure that sentences are 140 characters or less. The goal would be to encapsulate an entire argument in pithy sentences and make each one stand on its own. I have no doubt that it would be possible to write quite a few words this way, though you might lose some followers in the bargain.</p>
+
+<p>The change of pace is that you're not trying to write your whole idea into any given 140 character fragment. You're looking to spin out a story that holds together over dozens of tweets, without being too distracted by the net you're writing within. Writing with a net watching can be distracting, but it can also be enlivening; somehow you must make use of the diversions. Some side conversations will give you ideas that you can later reclaim and recast as your own, when the time is right.</p>
+
+<p>Twitter is a new medium within which to compose original writing, as every sentence you write there has its own URL and feedback loop. By publishing every sentence individually, you can write and then see feedback one line a time - a thought both inspiring and terrifying.</p>
+
+<p>Oscar Wilde, <a href="https://www.marxists.org/reference/archive/wilde-oscar/soul-man/">The Soul of Man under Socialism</a>, 1891. </p>
+
+<blockquote>
+  <p>The fact is, that the public have an insatiable curiosity to know everything, except what is worth knowing. Journalism, conscious of this, and having tradesman-like habits, supplies their demands.</p>
+</blockquote>
+
+<p>I've been drafting first versions in vim so that I have a record of the whole context of what I'm writing outside of Twitter. Drafting in vim gives me a chance to write a whole paragraph and then push it to Twitter as separate sentences, once it makes sense. I always edit again within Twitter, where every character is counted for you forcing you to make tough decisions about what not to say. The short format of Twitter leads to better writing, since you must omit needless words to make a complex idea fit into its allotment. </p>
+
+<p>My writing is slower when I feel the compulsion to construct an argument that still makes sense when divided into pieces. It's easier to write quickly when you don't have to think about the reaction to every word and phrase. The feedback has prompted a handful of offline drafts before committing to publishing - even "just" to publishing to Twitter. </p>
 
 
   <h3>5 February 2014</h3>
@@ -8571,115 +8662,6 @@ There are lots of reasons to want to use more art on this weblog. It's attractiv
 <p>The list is down to 30 now, and I'm careful not to add more than that without crossing something else off the list. It still has a few lingering things that haven't been done for a long time, but I have had my teeth cleaned, and what's more I can read through the whole thing in one sitting and usually say "yes" to some next task.</p>
 
 <p>More reading: <a href="http://www.personalkanban.com/pk/primers/why-limit-your-wip-a-pk-info-series/">Why limit your work in progress</a>, Jim Benson.</p>
-
-
-  <h3>14 January 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-01-14-obituary-gary-grimshaw-1946-2014-poster-artist-and-minister-of-art-for-the-white-panther-party/">Obituary: Gary Grimshaw (1946-2014), poster artist and Minister of Art for the White Panther Party</a>
-      </h3>
-      <p>Gary Grimshaw, poster artist and Minister of Art for the White Panther party, has died after a long illness at the age of 67.</p>
-
-<p>Funeral information: <a href="http://www.detroitnews.com/article/20140114/ENT01/301140113#ixzz2qV6eotwr">Gary Grimshaw funeral set for Sunday at MOCAD</a>, Detroit News</p>
-
-<blockquote>
-  <p>Funeral arrangements for Gary Grimshaw, famed Detroit poster artist, have been set. Grimshaw, 67, died Monday at Detroit Receiving Hospital after a lengthy illness.</p>
-  
-  <p>Visitation will be from 6-8 p.m. Saturday at MOCAD, the Museum of Contemporary Art Detroit, at 4454 Woodward in Detroit. There will be music from 8-9 p.m.</p>
-  
-  <p>The funeral will be at 11 a.m. Sunday at MOCAD, with a reception following at the Scarab Club.</p>
-  
-  <p>Grimshaw had just been honored last week by the Scarab Club, which had his wife Laura affix his signature to one of the ceiling beams on Friday, joining the signatures of artists including Diego Rivera, Tyree Guyton and Norman Rockwell. The Scarab Club is exhibiting Grimshaw’s work until Feb. 15.</p>
-</blockquote>
-
-<p><a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fc2d177d970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fc2d177d970b image-full img-responsive" alt="Sinclair_poster_590w" title="Sinclair_poster_590w" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fc2d177d970b-800wi" border="0" style="display: block; margin-left: auto; margin-right: auto;"></a><br></p>
-
-<p>Obituary: <a href="http://www.detroitnews.com/article/20140113/OBITUARIES/301130096/1361/Detroit-rock-poster-artist-Grimshaw-dies-at-67">Detroit News</a>. </p>
-
-<blockquote>
-  <p>Grimshaw’s vivid fliers and posters for the legendary Grande Ballroom in the late 1960s featured artists such as the MC5, Cream, the Yardbirds and Paul Butterfield. His style went beyond psychedelic, and is instantly recognizable to rock poster fans, and highly collectible.</p>
-</blockquote>
-
-<p>Dangerous Minds: <a href="http://dangerousminds.net/comments/detroit_psychedelic_rock_poster_artist_grimshaw_dead_at_67">DETROIT PSYCHEDELIC ROCK POSTER ARTIST GRIMSHAW DEAD AT 67</a></p>
-
-<blockquote>
-  <p>Grimshaw was best friends in childhood with the late MC5 singer Rob Tyner. He was also a part of revolutionary poet John Sinclair’s Rainbow People’s Party and the “Trans-Love Energies” artistic movement. Grimshaw was active from the late 60s until recently, doing new work for local appearances by The White Stripes and Patti Smith and publishing a book last summer with Leni Sinclair titled Detroit Rocks! A Pictorial History of Motor City Rock and Roll 1965 to 1975.</p>
-</blockquote>
-
-<p><a href="https://www.facebook.com/pages/GARY-GRIMSHAW/343781051661?id=343781051661&amp;sk=info">Gary Grimshaw page on Facebook</a> -</p>
-
-<blockquote>
-  <p>In December 2011 the Ann Arbor District Public Library celebrated the 40th Anniversary of the Free John Now! Concert featuring John Lennon, in great style. The poster for the original concert is one of Gary’s most popular images. For the Ann Arbor events Gary drew a commemorative poster by hand. A group of Gary’s friends from the time organized a Hill Street House Reunion gathering and Gary was able to reconnect with many friends. The newspaper The Ann Arbor Sun is electronically available at <a href="http://freeingjohnsinclair.aadl.org">freeingjohnsinclair.aadl.org</a> thanks to the Library’s great effort. </p>
-</blockquote>
-
-
-  <h3>13 January 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-01-13-recipe-roasted-broccoli-salad-with-rice-and-feta/">Recipe: Roasted broccoli salad with rice and feta</a>
-      </h3>
-      <h2>Roasted broccoli salad with rice and feta</h2>
-
-<p>For the rice: prepare 1.5 cups rice according to your taste. Do this first.</p>
-
-<p>For the broccoli: Preheat oven to 425 degrees F. Cut a few heads of broccoli into bite sized florets. Mix in a bowl with olive oil, then place on a cookie sheet. Sprinkle sea salt on top. Roast 12-15 minutes until the broccoli is every so slightly browned on top.</p>
-
-<p>For the garbanzos: Drain and rinse a can of garbanzos. Put in a small pot and cover with water. Heat until hot, then rinse again under cool water.</p>
-
-<p>For the red peppers: Cut a red pepper into pieces about the size of a garbanzo bean.</p>
-
-<p>For the dressing: Make a lemon vinaigrette with a little mint.</p>
-
-<p>For the dressing: Some sweet chili paste, or gochujang, or your favorite spicy sauce.</p>
-
-<p>For the feta: crumble some feta.</p>
-
-<p>Serve in individual bowls on the table, for people to mix their own salads. If your family is like mine, someone will eat just rice and peppers and beans, someone else will prefer the salad without feta, someone will want a vinaigrette and someone else (me) will douse the whole thing with chili sauce. Enjoy!</p>
-
-
-  <h3>11 January 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-01-11-wvchemleak-a-chemical-spill-near-charleston-wv-has-contaminated-the-tap-water-for-300000-people/">wvchemleak: A chemical spill near Charleston, WV has contaminated the tap water for 300,000 people</a>
-      </h3>
-      <p><a class="asset-img-link"  style="float: right;" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510c14458970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a510c14458970c img-responsive" alt="West-virginia-american-water-do-not-use-water-notice" title="West-virginia-american-water-do-not-use-water-notice" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510c14458970c-800wi" border="0" style="margin: 0px 0px 5px 5px;" /></a></p>
-
-<p>A chemical spill of crude MCHM into the Elk River near Charleston, WV on January 9, 2014 has contaminated the tap water for 300,000 customers of <a href="http://www.amwater.com/wvaw/">West Virginia American Water</a>. The chemical was stored in tanks owned by Freedom Industries. Crude MCHM (<a href="http://www.wvgazette.com/mediafiles/document/2014/01/11/Eastman-MCHM-SDS_I140111162532.PDF">MSDS, Eastman Chemical</a>) is a mixture of several chemicals, including 4-methylcyclohexanemethanol, 4-
-(methoxymethyl)cyclohexanemethanol, methyl 4-methylcyclohexanecarboxylate, dimethyl 1,4-
-cyclohexanedicarboxylate, methanol, and 1,4-cyclohexanedimethanol; it is used in the coal processing industry to produce "clean coal" that has impurities removed.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510c1b584970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a510c1b584970c" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Foo-iwasaround-freedom-industries-tanks" title="Foo-iwasaround-freedom-industries-tanks" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510c1b584970c-600wi" /></a><br /></p>
-
-<p>Photo: Foo Conner (@<a href="http://twitter.com/iwasaround">iwasaround</a>), <a href="http://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a>. Some rights reserved.</p>
-
-<p>This is a developing story; if you are in the affected area, please seek accurate and timely information from local sources. If you are looking for water, <a href="http://wvfindwater.com">wvfindwater.com</a> has a map with details of water distribution sites.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510c16fcd970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a510c16fcd970c" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="West-virginia-wvfindwater-find-water-map" title="West-virginia-wvfindwater-find-water-map" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510c16fcd970c-600wi" /></a><br /></p>
-
-<p>Some of those sources might include stories from local newspapers, radio stations, and television stations. One of the best sources is <a href="https://twitter.com/Kenwardjr">Ken Ward, Jr.</a>, who writes the "Coal Tattoo" weblog for the Charleston (WV) Gazette.</p>
-
-<p><a href="http://www.wvgazette.com/News/201401100100">Saturday Gazette-Mail</a> - Freedom Industries cited for Elk chemical spill - Ken Ward, Jr.</p>
-
-<blockquote>
-  <p>Dorsey has said DEP officials began an investigation after receiving odor complaints from nearby residents starting at about 8:15 a.m. The DEP and Kanawha County emergency officials traced the odors to Freedom Industries, which had not self-reported any sort of leak or accident, officials said.</p>
-  
-  <p>In an air-quality enforcement order, the DEP said air-quality officials who arrived at the site at 11:10 a.m. "discovered that no spill containment measures had been initiated and that an accumulating MCHM leak pool was seeping thru a dike wall adjacent to the Elk River and a downstream oil sheen was observed."</p>
-</blockquote>
-
-<p><a href="http://www.wvgazette.com/News/201401100078">Charleston Gazette</a> - What is 'Crude MCHM'? Few know - Ken Ward, Jr.</p>
-
-<blockquote>
-  <p>CHARLESTON, W.Va. -- As hundreds of thousands of residents in and around the Kanawha Valley struggle with the "do not use" order from West Virginia American Water Co., one stubborn fact continues to frustrate residents and some local health officials alike: No one seems to be able to say for sure what the coal-cleaning chemical that's been dumped into our water supply might do to us.</p>
-  
-  <p>Water company officials have identified the chemical -- which leaked from a Freedom Industries tank just upstream from the regional drinking-water intake on the Elk River -- as something called "Crude MCHM." That material is made up almost entirely of another chemical, 4-methylcyclohexanemethanol.</p>
-  
-  <p>Material-safety sheets from several manufacturers list little in the way of health information. Toxicological databases provide few answers.</p>
-</blockquote>
-
-<p><a href="http://wvpublic.org/post/state-emergency-water-advisory-issued-9-west-virginia-counties">West Virginia Public Broadcasting</a> - State of Emergency, Water Advisory Issued for 9 West Virginia Counties</p>
-
-<blockquote>
-  <p>Governor Earl Ray Tomblin has issued a state of emergency and West Virginia American Water is telling over 100,000 customers in Boone, Cabell, Clay, Jackson, Kanawha, Lincoln, Logan, Putnam, and Roane counties NOT to ingest, cook, bathe, wash or boil water.  Water in this coverage area is okayed ONLY for flushing and fire protection. The advisory comes as a result of a chemical spill of 4-Methylcyclohexane Methanol from Freedom Industries, Inc.</p>
-</blockquote>
-
-<p>The hashtag <a href="http://tchat.io/rooms/wvchemleak">#wvchemleak</a> is being used for news and discussion of the event.</p>
 
 
 

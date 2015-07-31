@@ -52,6 +52,12 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-favorite-times-to-twitter" class="list-group-item">Favorite times for twitter</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-30-a2b3-lunch-nonsummary" class="list-group-item">a2b3 lunch non-summary for 30 July 2015</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-07-30-first-round-of-postcards" class="list-group-item">First round of postcards</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging" class="list-group-item">We should do more blogging</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
@@ -85,16 +91,16 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-espresso-over-ice-with-a-little-half-and-half" class="list-group-item">espresso over ice with a little half and half</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-weak-ties-of-your-social-network" class="list-group-item">The weak ties of your social network are its greatest strength</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher" class="list-group-item">Remembering Hazen Schumacher of Jazz Revisited</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227" class="list-group-item">Notes on the Midland G-227 GMRS/FRS radio</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes" class="list-group-item">food coop notes for July 18, 2015</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
+	
+	   
 	
 	   
 	
@@ -7874,6 +7880,12 @@
 	   
 	
 	   
+	
+	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
@@ -8172,6 +8184,84 @@ I have to learn about git subtrees.</li>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>4 December 2007</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2007/2007-12-04-quantitative-me/">quantitative measures of usability (or, measuring measurability)</a>
+      </h3>
+      <p>
+I did the Google search for "quantitative measures of usability", to see if that line of thinking would get me something useful.  Here's some explorations around those search results, and some reflections on that line of reasoning.
+</p><p>
+<strong>CHI: single usability metric</strong>
+</p><p>
+There is a site "measuring usability" which unsurprisingly ranked high on the list.  It introduces the novel concept of a "single measure of usability", which looks like the sum of a bunch of individual metrics all mushed together into a single number.  (Sauro and Kindlund, CHI 2005).  It measures task completion times, task time, satisfaction and error counts, and is a formalized version of what looks like an original Excel spreadsheet.  
+</p><p>
+From an electronic commerce point of view this is a promising number, but an expensive one to compute - from web server logs you can impute task completion and task times, and maybe get some sense for errors, but satisfaction is hard to grind out of a server log.   It comes from the CHI tradition of simple models of user behavior assessed from small data sets.  But it's a start.
+</p><p>
+<strong>Patents: quantitative measures of qualitative usability</strong>
+</p><p>
+There's a patent filing (Ed Chi, Christopher Olston) with this initial claim:
+</p><blockquote>
+A system for determining a quantitative measure of qualitative usability of related Web pages, comprising: stored Web pages that each include at least one hyperlink referencing and proximal cues relating to distal content included in another Web page; a stored information goal identifying a target Web page; an activation network, comprising a directed graph comprising nodes corresponding to the Web pages and arcs corresponding to the hyperlinks, wherein a weight is assigned to each arc to represent a probability of traversal of the corresponding hyperlink based on a relatedness of keywords in the information goal to the proximal cues included in the referenced Web page; and a simulator to evaluate a traversal through the activation network to the node corresponding to the target Web page as a quantitative measure of usability.
+</blockquote><p>
+There's more (of course, it's a patent, there's a lot more).  It appears to be a simulator-driven version of the same PageRank algorithms that Google started out with, except that rather than assuming a random walk through page space it takes into account what Google would call quality scores and what they call "information scent".  Chi works at PARC, and this looks like an elaboration of their <a href="http://portal.acm.org/citation.cfm?id=937550">ScentTrails</a> paper (TOCHI 2003).  Note that it's not about task completion as above but more about findability within a search space, and as thus it describes a different problem than above.
+</p><p>
+<strong>More work
+</p><p>
+</strong>I'm sure there's more relevant work in this field, but given that the first words I used to look both unearthed CHI related papers, I'm not sure I have the right language to express the thing I'm really after.  so I'll stop...
+</p>
+
+
+  <h3>4 December 2007</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2007/2007-12-04-brent-hill-goog/">Brent Hill, Google / Feedburner speaking in Ann Arbor, Dec 4 2007</a>
+      </h3>
+      <p>
+A talk tonight, 12/4:
+</p><blockquote>
+Ann Arbor SPARK Hi-Tech Tuesday: Google's Brent Hill Offers Everything You Want to Know About Blogs &#38; RSS
+<br />
+<br />What:            Google's Brent Hill presents "Everything You Want to Know About Blogs &#38; RSS"
+<br />
+<br />When &#38; Where:    Tuesday, December 4, 2007, 5-7 p.m. at Google, McKinley Towne Center, 5th Floor, 201 S. Division, Ann Arbor
+<br />
+<br />Purpose:              As content syndication on the web proliferates, audiences are becoming increasingly fragmented.  How do marketers leverage RSS feeds to deliver targeted marketing messages?  And how do publishers measure and monetize their audience?
+<br />
+<br />Presenter:                Brent Hill is a team manager in the Global Media Solutions division at Google. Previously vice president of Advertising Services at FeedBurner, the market-leading feed management provider that was acquired by Google in 2007, Brent has worked in a variety of interactive marketing, e-commerce, and consumer services businesses.  He frequently speaks at industry events on the topic of advertising in syndicated content, and his insights have been published in Advertising Age, Adotas, and DMNews.  Brent received a Bachelor of Science in Finance from Bradley University, and an MBA from the University of Chicago.
+<br />
+<br /><a href="http://annarboritzone.org/eventlist.asp?EventID=1250">Information:    Registration is free. </a>
+</blockquote><p>
+More infos: <a href="http://www.feedburner.com/fb/a/about/people/hill">Brent Hill bio</a>, June 2007 interview reported by <a href="http://publications.mediapost.com/index.cfm?fuseaction=Articles.san&amp;s=62040&amp;Nid=31176&amp;p=356272">Online Media Daily</a>, 2006 interview at <a href="http://internetmarketingvoodoo.com/2006/07/imv24-rss-advertising.html">Internet Marketing Voodoo</a>.
+</p>
+
+
+  <h3>4 December 2007</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2007/2007-12-04-privacy-and-sec/">Privacy and security course from Don Blumenthal at the UM School of Information</a>
+      </h3>
+      <p>
+<a href="http://joechip.net/brian/2007/12/03/course-announcement-data-security-privacy/">Don Blumenthal is teaching this course at Michigan in the winter term:
+<br /></a>
+</p><blockquote>
+Snippet from a course announcement for a winter class to be
+<br />taught by Don Blumenthal at the U-M School of Information:
+<br />
+<br />   This course will examine: 1) privacy issues related to the
+<br />safeguarding of sensitive information against inadvertent disclosure;
+<br />2) policy and societal questions concerning the value of security and
+<br />privacy regulations, the real world effects of data breaches on
+<br />individuals and businesses, and the balancing of interests among
+<br />individuals, government, and enterprises; 3) current and proposed laws
+<br />and regulations that govern data security and privacy; 4) self-help
+<br />and private sector regulatory efforts; 5) emerging technologies that
+<br />may affect security and privacy concerns; and 6) issues related to the
+<br />development of enterprise data security processes and programs that
+<br />take into account the requirements of all relevant constituencies:
+<br />e.g., technical, business, and legal.
+</blockquote><p>
+Thanks to Brian Kerr for the pointer; more from and about <a href="http://www.linkedin.com/in/donblumenthal">Don Blumenthal on LinkedIn</a>.
+</p>
 
 
   <h3>4 December 2007</h3>
