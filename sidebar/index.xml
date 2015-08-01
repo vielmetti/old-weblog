@@ -6,31 +6,13 @@
     <description>Recent content in Sidebars on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2015 02:32:07 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2015 14:11:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/sidebar/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Calendar of events</title>
-      <link>http://vielmetti.github.io/sidebar/calendar/</link>
-      <pubDate>Tue, 14 Jul 2015 02:32:07 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/sidebar/calendar/</guid>
-      <description>
-
-&lt;h3 id=&#34;calendar-of-events:a631103cf606bbead447236a29c6889e&#34;&gt;Calendar of events&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wednesday July 22, 2015: Docker Detroit meetup&lt;/li&gt;
-&lt;li&gt;Thursday July 23, 2015, noon: a2b3 lunch, Madras Masala, Ann Arbor MI&lt;/li&gt;
-&lt;li&gt;Saturday and Sunday, Detroit Maker Faire, The Henry Ford, Dearborn MI&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>todo</title>
       <link>http://vielmetti.github.io/sidebar/todo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Aug 2015 14:11:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/sidebar/todo/</guid>
       <description>
@@ -39,9 +21,8 @@
 
 &lt;ul&gt;
 &lt;li&gt;Auto-discovery for RSS feed, per &lt;a href=&#34;http://gohugo.io/templates/rss/&#34;&gt;http://gohugo.io/templates/rss/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Short codes for easy linking. First pass complete but no-op,
-next phase will do the markup too. I like the idea of
-assisted synaesthesia and colorized names and phrases.
+&lt;li&gt;Short codes for easy linking. First pass complete.
+Assisted synaesthesia and colorized names and phrases.
 (Started, with colorized but not linked names)&lt;/li&gt;
 &lt;li&gt;Nicely thought through category and taxonomy pages. They
 have stubs now, but they need design.&lt;/li&gt;
@@ -56,6 +37,22 @@ for rolling out a power outage maps collection based on DOE EIA data,
 cf &lt;a href=&#34;http://gohugo.io/extras/datafiles/&#34;&gt;http://gohugo.io/extras/datafiles/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Make sure that the theme is in version control, which means
 I have to learn about git subtrees.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Calendar of events</title>
+      <link>http://vielmetti.github.io/sidebar/calendar/</link>
+      <pubDate>Tue, 14 Jul 2015 02:32:07 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/sidebar/calendar/</guid>
+      <description>
+
+&lt;h3 id=&#34;calendar-of-events:a631103cf606bbead447236a29c6889e&#34;&gt;Calendar of events&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thursday August 6 2015, a2b3 lunch at Mi Compadre.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
