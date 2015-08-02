@@ -3,8 +3,18 @@
   
   <url>
     <loc>http://vielmetti.github.io/</loc>
-    <lastmod>2015-08-01T14:15:00-04:00</lastmod>
+    <lastmod>2015-08-02T16:30:00-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://vielmetti.github.io/post/2015/2015-08-02-small-multiples/</loc>
+    <lastmod>2015-08-02T16:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vielmetti.github.io/post/2015/2015-08-02-blogroll/</loc>
+    <lastmod>2015-08-02T12:15:00-04:00</lastmod>
   </url>
   
   <url>
@@ -5238,12 +5248,12 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/post/2011/2011-06-10-noemail-alternatives/</loc>
+    <loc>http://vielmetti.github.io/post/2011/2011-06-10-noemail-recovery/</loc>
     <lastmod>2011-06-10T18:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/post/2011/2011-06-10-noemail-recovery/</loc>
+    <loc>http://vielmetti.github.io/post/2011/2011-06-10-noemail-alternatives/</loc>
     <lastmod>2011-06-10T18:00:00+00:00</lastmod>
   </url>
   
@@ -9740,6 +9750,10 @@
   <url>
     <loc>http://vielmetti.github.io/post/2008/2008-10-26-orzo-salad/</loc>
     <lastmod>2001-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vielmetti.github.io/sidebar/blogroll/</loc>
   </url>
   
 </urlset>
