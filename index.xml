@@ -6,8 +6,50 @@
     <description>Recent content on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2015 16:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2015 08:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Michigan Emergency Incidents and overnight storm report</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-03-michigan-emergency-incidents/</link>
+      <pubDate>Mon, 03 Aug 2015 08:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-03-michigan-emergency-incidents/</guid>
+      <description>&lt;p&gt;Michigan Emergency Incidents is a news service that covers emergency
+dispatch around the state of Michigan. Members of a closed Facebook
+group post call-outs of emergency services operations, and there&amp;rsquo;s
+generally follow up from other members to note incidents in progress
+or news stories written from the scene.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;All information contained in MEI posts is to come from received
+radio transmissions heard directly from radios / scanners or via
+an online broadcast, verified reliable sources, or first hand
+knowledge (ie you are on scene).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Follow along on Twitter &lt;a href=&#34;https://twitter.com/meidispatch&#34;&gt;@MEIDispatch&lt;/a&gt;;
+the twitter feed has the current link to the private Facebook group,
+which regularly accepts qualified new members.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Storm last night. We got a downpour, some wind and lightning, but nothing
+too bad. A nearby &lt;a href=&#34;http://www3.a2gov.org/RainGauges/&#34;&gt;City of Ann Arbor rain gauge&lt;/a&gt;
+on S Industrial reported 1.12&amp;rdquo; of rain, and at the peak of the storm rain
+was coming down at 0.41&amp;rdquo; in 15 minutes. The scanner was full of power
+lines sparking and trees down.&lt;/p&gt;
+
+&lt;p&gt;Worst hit was the Sleeping Bear Dunes area, where some of the
+adjacent communities had complete power blackouts. There was also a
+tornado in the Thumb.&lt;/p&gt;
+
+&lt;p&gt;Current 8:45 a.m. report is 60,318 DTE Energy customers without power, and
+91,802 Consumers Energy customers without power. DTE does not generally
+report outages by county, just by zip code, but I have all of the zip
+codes so I should be able to estimate county level totals.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Small multiples</title>
@@ -520,58 +562,6 @@ docker run -it rocker/ropensci R
 
 &lt;p&gt;and poof, you have an environment current to this month&amp;rsquo;s desktop of leading
 R developers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Starting a trial of Little Bird</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-22-little-bird/</link>
-      <pubDate>Wed, 22 Jul 2015 15:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-22-little-bird/</guid>
-      <description>&lt;p&gt;Little Bird is a system that helps you discover influencers
-and experts in any topic. I&amp;rsquo;m at the very start of a 7 day trial.
-Marshall Kirkpatrick is CEO of Little Bird, and he has been
-active on Twitter posting interesting ideas about influence
-marketing - and given that it seemed prudent to give the product a try.&lt;/p&gt;
-
-&lt;p&gt;Pricing is aimed at agencies, not individuals, so I&amp;rsquo;m going
-to look at this product through the eyes of people doing
-&amp;ldquo;social listening&amp;rdquo; for a living, tracking the messages that
-appear on a topic and either quietly making sense of what
-is happening or actively engaging with those people to try
-to influence their opinions. The single user price is out of
-my reach for an annual commitment, though I might keep it up
-for another month if I can find a specific task that warrants
-the extra tooling.&lt;/p&gt;
-
-&lt;p&gt;My first test with any social software is to point it at a domain
-that I know (Ann Arbor) and see what it unearths. Little Bird
-found for me 1000 influential accounts having to do with Ann Arbor,
-and in a boost to my ego it puts me in the top 50. Without understanding
-how the algorithms work it seems that it biases towards identifying
-busy accounts that post a lot of news, vs. the clever individual
-whose every post is good but who doesn&amp;rsquo;t post that often.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a style of posting which I would have to describe as
-&amp;ldquo;thinkfluential&amp;rdquo; which Little Bird has a nose for. The thinkfluencer
-will post frequently on a given topic, and a lot of people will
-retweet them and they will retweet a lot of people. Every message
-is relentlessly on message and you won&amp;rsquo;t find cat pictures or
-meeting banter mixed in. More often than not you&amp;rsquo;ll see the
-thinkfluence augmented by robots that post newsy things day and
-night, even when the thinkfluencer is away from the keyboard.
-There doesn&amp;rsquo;t even need to be any interaction at all with this
-&amp;ldquo;expert&amp;rdquo;, just a never-ending confluence of thinkfluence.&lt;/p&gt;
-
-&lt;p&gt;So I wish that Little Bird had another round of filters, to help me
-understand the question at scale &amp;ldquo;is this person really a bot&amp;rdquo;.
-The real utility for me of identifying expertise is not to pick
-out the high-frequency posting bot, but to suss out who on a topic
-is good at engaging on the things they know about. Bot identification
-is the Turing Test at work, and maybe just maybe there&amp;rsquo;s a set of
-computable metrics that you can build across a corpus of Twitter
-users to pull that out.&lt;/p&gt;
 </description>
     </item>
     
