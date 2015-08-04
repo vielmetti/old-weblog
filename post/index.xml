@@ -6,8 +6,45 @@
     <description>Recent content in Posts on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2015 08:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2015 22:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>expertise encapsulated into out of date memory banks</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-03-expertise/</link>
+      <pubDate>Mon, 03 Aug 2015 22:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-03-expertise/</guid>
+      <description>&lt;p&gt;In the case of experts &amp;ldquo;writing down what they know&amp;rdquo;, and
+incorporating that data into an expert system or knowledge base.&lt;/p&gt;
+
+&lt;p&gt;One of the challenges is expecting that the expert can write down
+everything that they know, all at once, in such a way that there&amp;rsquo;s
+no internal inconsistencies.&lt;/p&gt;
+
+&lt;p&gt;The world usually works in such a way that it&amp;rsquo;s changing fast enough
+that an expert with a written memory bank of a certain size is
+always holding as &amp;ldquo;true&amp;rdquo; in that memory bank something that is
+demonstrably false, just because the world shifts out from under
+them. Even if you have an iron-clad commitment to keeping the
+memory bank narrowly scoped and revisiting every element of it to
+refresh it periodically, the nature of written memory is to grow more and more
+out of date or to consume more and more resources to keep fresh.&lt;/p&gt;
+
+&lt;p&gt;The map is not the territory - and even if by some miracle the map
+at one time was perfectly matched with the world - the world changes
+fast enough that we can&amp;rsquo;t know any more than a small part of it.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Inspired by the impossible task of keeping a Localwiki fresh in
+the face of reflecting changes in a city, by Brian Eno&amp;rsquo;s quote
+&amp;ldquo;Forgetting is as important as remembering&amp;rdquo;, and by
+Jerry Michalski&amp;rsquo;s &amp;ldquo;The Brain&amp;rdquo; magnum opus. Of course I forget where I
+read the Eno quote, and a search for it turns up William James saying
+the same thing in 1892, but Eno is easier to remember as a source.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Michigan Emergency Incidents and overnight storm report</title>
@@ -531,58 +568,6 @@ docker run -it rocker/ropensci R
 
 &lt;p&gt;and poof, you have an environment current to this month&amp;rsquo;s desktop of leading
 R developers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Starting a trial of Little Bird</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-22-little-bird/</link>
-      <pubDate>Wed, 22 Jul 2015 15:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-22-little-bird/</guid>
-      <description>&lt;p&gt;Little Bird is a system that helps you discover influencers
-and experts in any topic. I&amp;rsquo;m at the very start of a 7 day trial.
-Marshall Kirkpatrick is CEO of Little Bird, and he has been
-active on Twitter posting interesting ideas about influence
-marketing - and given that it seemed prudent to give the product a try.&lt;/p&gt;
-
-&lt;p&gt;Pricing is aimed at agencies, not individuals, so I&amp;rsquo;m going
-to look at this product through the eyes of people doing
-&amp;ldquo;social listening&amp;rdquo; for a living, tracking the messages that
-appear on a topic and either quietly making sense of what
-is happening or actively engaging with those people to try
-to influence their opinions. The single user price is out of
-my reach for an annual commitment, though I might keep it up
-for another month if I can find a specific task that warrants
-the extra tooling.&lt;/p&gt;
-
-&lt;p&gt;My first test with any social software is to point it at a domain
-that I know (Ann Arbor) and see what it unearths. Little Bird
-found for me 1000 influential accounts having to do with Ann Arbor,
-and in a boost to my ego it puts me in the top 50. Without understanding
-how the algorithms work it seems that it biases towards identifying
-busy accounts that post a lot of news, vs. the clever individual
-whose every post is good but who doesn&amp;rsquo;t post that often.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a style of posting which I would have to describe as
-&amp;ldquo;thinkfluential&amp;rdquo; which Little Bird has a nose for. The thinkfluencer
-will post frequently on a given topic, and a lot of people will
-retweet them and they will retweet a lot of people. Every message
-is relentlessly on message and you won&amp;rsquo;t find cat pictures or
-meeting banter mixed in. More often than not you&amp;rsquo;ll see the
-thinkfluence augmented by robots that post newsy things day and
-night, even when the thinkfluencer is away from the keyboard.
-There doesn&amp;rsquo;t even need to be any interaction at all with this
-&amp;ldquo;expert&amp;rdquo;, just a never-ending confluence of thinkfluence.&lt;/p&gt;
-
-&lt;p&gt;So I wish that Little Bird had another round of filters, to help me
-understand the question at scale &amp;ldquo;is this person really a bot&amp;rdquo;.
-The real utility for me of identifying expertise is not to pick
-out the high-frequency posting bot, but to suss out who on a topic
-is good at engaging on the things they know about. Bot identification
-is the Turing Test at work, and maybe just maybe there&amp;rsquo;s a set of
-computable metrics that you can build across a corpus of Twitter
-users to pull that out.&lt;/p&gt;
 </description>
     </item>
     

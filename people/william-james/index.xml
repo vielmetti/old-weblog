@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>William James on tracker</title>
+    <link>http://vielmetti.github.io/people/william-james/</link>
+    <description>Recent content in William James on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2015 22:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/people/william-james/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>expertise encapsulated into out of date memory banks</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-03-expertise/</link>
+      <pubDate>Mon, 03 Aug 2015 22:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-03-expertise/</guid>
+      <description>&lt;p&gt;In the case of experts &amp;ldquo;writing down what they know&amp;rdquo;, and
+incorporating that data into an expert system or knowledge base.&lt;/p&gt;
+
+&lt;p&gt;One of the challenges is expecting that the expert can write down
+everything that they know, all at once, in such a way that there&amp;rsquo;s
+no internal inconsistencies.&lt;/p&gt;
+
+&lt;p&gt;The world usually works in such a way that it&amp;rsquo;s changing fast enough
+that an expert with a written memory bank of a certain size is
+always holding as &amp;ldquo;true&amp;rdquo; in that memory bank something that is
+demonstrably false, just because the world shifts out from under
+them. Even if you have an iron-clad commitment to keeping the
+memory bank narrowly scoped and revisiting every element of it to
+refresh it periodically, the nature of written memory is to grow more and more
+out of date or to consume more and more resources to keep fresh.&lt;/p&gt;
+
+&lt;p&gt;The map is not the territory - and even if by some miracle the map
+at one time was perfectly matched with the world - the world changes
+fast enough that we can&amp;rsquo;t know any more than a small part of it.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Inspired by the impossible task of keeping a Localwiki fresh in
+the face of reflecting changes in a city, by Brian Eno&amp;rsquo;s quote
+&amp;ldquo;Forgetting is as important as remembering&amp;rdquo;, and by
+Jerry Michalski&amp;rsquo;s &amp;ldquo;The Brain&amp;rdquo; magnum opus. Of course I forget where I
+read the Eno quote, and a search for it turns up William James saying
+the same thing in 1892, but Eno is easier to remember as a source.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

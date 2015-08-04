@@ -52,6 +52,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-03-expertise" class="list-group-item">expertise encapsulated into out of date memory banks</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-03-michigan-emergency-incidents" class="list-group-item">Michigan Emergency Incidents and overnight storm report</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-02-small-multiples" class="list-group-item">Small multiples</a></li>
@@ -89,12 +91,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit" class="list-group-item">Docker Detroit, Wednesday July 22, 2015, 6:00 pm, Troy, Michigan</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast" class="list-group-item">Daily Coffee and Wifi, Roos Roast Wednesday edition</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash" class="list-group-item">bocker is a subset of Docker in 100 lines of shell script</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4010,6 +4012,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -11843,6 +11847,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12146,6 +12152,40 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>3 August 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-08-03-expertise/">expertise encapsulated into out of date memory banks</a>
+      </h3>
+      <p>In the case of experts &ldquo;writing down what they know&rdquo;, and
+incorporating that data into an expert system or knowledge base.</p>
+
+<p>One of the challenges is expecting that the expert can write down
+everything that they know, all at once, in such a way that there&rsquo;s
+no internal inconsistencies.</p>
+
+<p>The world usually works in such a way that it&rsquo;s changing fast enough
+that an expert with a written memory bank of a certain size is
+always holding as &ldquo;true&rdquo; in that memory bank something that is
+demonstrably false, just because the world shifts out from under
+them. Even if you have an iron-clad commitment to keeping the
+memory bank narrowly scoped and revisiting every element of it to
+refresh it periodically, the nature of written memory is to grow more and more
+out of date or to consume more and more resources to keep fresh.</p>
+
+<p>The map is not the territory - and even if by some miracle the map
+at one time was perfectly matched with the world - the world changes
+fast enough that we can&rsquo;t know any more than a small part of it.</p>
+
+<hr/>
+
+<p>Inspired by the impossible task of keeping a Localwiki fresh in
+the face of reflecting changes in a city, by Brian Eno&rsquo;s quote
+&ldquo;Forgetting is as important as remembering&rdquo;, and by
+Jerry Michalski&rsquo;s &ldquo;The Brain&rdquo; magnum opus. Of course I forget where I
+read the Eno quote, and a search for it turns up William James saying
+the same thing in 1892, but Eno is easier to remember as a source.</p>
 
 
   <h3>3 August 2015</h3>
@@ -13310,40 +13350,6 @@ documents, publish locally all of the works in progress. North
 Campus has the virute of frequent free bus service from Central
 Campus, and it&rsquo;s far enough away to completely flush all of
 the thoughts of what I had been doing so I can work on another project.</p>
-
-
-  <h3>19 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-19-lob-a-postcard-printer/">lob a postcard: printer sends cards via API</a>
-      </h3>
-      <p>Lob.com has an API to send postcards-as-a-service ($0.70 per each,
-full custom both sides). Details at <a href="https://lob.com/services/postcards">https://lob.com/services/postcards</a> .
-It works, but all of the user interface is up to you; if you know
-a good service for delivering a single full-custom postcard with
-postage that actually has a user interface and not an API for less
-than $1.00 each, let me know and I&rsquo;ll update here.</p>
-
-<p>I&rsquo;ve started checking in a few tiny utility programs that exercise
-the Lob API. Look for <a href="https://github.com/vielmetti/postcard">https://github.com/vielmetti/postcard</a> on Github.
-The goal at some point is to have a &ldquo;postcard&rdquo; application
-that has a user interface like so.</p>
-
-<pre><code class="language-shell">postcard --to mom --photo cute-kids.jpg --message &quot;they get so big so fast! love ed&quot;
-</code></pre>
-
-<p>Also in this business is PostalMethods with a Postcard API based on SOAP.
-That&rsquo;s not a convenient interface in the languages that I use, but you
-can look at the API at <a href="http://www.postalmethods.com/lp/postcard-api">http://www.postalmethods.com/lp/postcard-api</a> .
-Their prices for postcards run $1.50 per each or less, with quantity
-discounts - see <a href="http://www.postalmethods.com/pricing">http://www.postalmethods.com/pricing</a> for details.</p>
-
-<p>Postful used to have an API for postcards. They were
-<a href="http://blog.click2mail.com/articles/view/click2mail-acquires-postful/">bought by Click2Mail in 2011</a>. Pricing for Click2Mail&rsquo;s postcards starts at $0.25
-per card plus $0.284 postcard, but there&rsquo;s a $2.00 minimum if
-you don&rsquo;t have credits on account. I wasn&rsquo;t able to determine
-at first glance whether their REST API applied to onesy-twoesy
-printing options, though it was clear that if you wanted to send
-1000 cards that the pricing would be competitive.</p>
 
 
 
