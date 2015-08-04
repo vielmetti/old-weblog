@@ -6,8 +6,79 @@
     <description>Recent content in Posts on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2015 15:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2015 17:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Your new robo-assistant, Amy Ingram</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-05-robo-assistant-xdotai/</link>
+      <pubDate>Tue, 04 Aug 2015 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-05-robo-assistant-xdotai/</guid>
+      <description>&lt;p&gt;Every day, computers are making people easier and easier to use.
+(David Tempkin, In Formation)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://x.ai&#34;&gt;x.ai&lt;/a&gt; has a new service in development, an automated
+&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;personal assistant&lt;/span&gt;
+that helps you schedule meetings. You give it - or I should
+say &amp;ldquo;her&amp;rdquo;, because the bot&amp;rsquo;s name is &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Amy Ingram&lt;/span&gt; -
+you give Amy your calendar and some simple instructions, and &amp;ldquo;she&amp;rdquo;
+manages the correspondence with the person you&amp;rsquo;re trying to meet
+with.&lt;/p&gt;
+
+&lt;p&gt;The service is very new, so new that it&amp;rsquo;s the subject of breathless
+enthusiasm about how wonderful it works in media accounts. Suddenly
+people who never have had a personal assistant work for them get
+access to an automaton who behaves like a well trained and inhumanly
+efficient personal scheduler, and they get excited.&lt;/p&gt;
+
+&lt;p&gt;For what is a personal assistant anyway but a carefully programmed
+&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;protocol droid&lt;/span&gt;,
+something who knows the expressions that are used
+to work your way onto someone&amp;rsquo;s calendar. Having been trained with
+the likes of Siri, we collectively know how useful it is to have a bot
+teach us how to ask questions in an easy to parse, formalized way.
+x.ai&amp;rsquo;s Amy invokes all of our ritual behavior when it comes to understanding
+how to deal with the gatekeepers to the powerful and busy, and wraps
+that up in an algorithm.&lt;/p&gt;
+
+&lt;p&gt;Naturally I&amp;rsquo;ve signed up to be on the beta.&lt;/p&gt;
+
+&lt;p&gt;Some press coverage:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.entrepreneur.com/article/248707&#34;&gt;Human + A.I. = Your Business Future&lt;/a&gt;,
+Entrepreneur, July 23 2105 from Nir Eyal.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When I get a response from Mindy, Tim, or Amy, I have no idea if
+it was a human or machine that sent the message on their behalf.
+With an assistants-as-app, the distinction between who&amp;rsquo;s doing the
+messaging isn&amp;rsquo;t always clear — sometimes it&amp;rsquo;s a bot and sometimes
+it’s not.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;WNYC, &lt;a href=&#34;http://www.wnyc.org/story/latest-productivity-digital-personal-assistant-named-amy/&#34;&gt;Say Hello to Amy, Your Plucky Digital Personal Assistant&lt;/a&gt;. November 26, 2014.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In this episode, we test out a new breed of personal assistant.
+Her, or its, name is Amy Ingram. She&amp;rsquo;s plucky, tenacious, and loves
+arranging meetings. In contrast to Apple&amp;rsquo;s Siri, Google Now or
+Microsoft&amp;rsquo;s Cortana, Amy is specialized on one thing and one thing
+only: scheduling. A new and increasingly common type of software,
+Amy isn&amp;rsquo;t a program you download, or an app you install.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/amyingramnyc&#34;&gt;Amy Ingram&lt;/a&gt;, LinkedIn&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Successful Meeting Scheduling Personal Assistant with excellent
+communication and follow-through skills. Demonstrates exceptional
+interpersonal skills and high level of confidentiality. Extremely
+well-organized, methodical and efficient. Ability to multi-task and
+work well in an always changing, fast-paced environment.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>I voted, summer 2015 edition</title>
@@ -477,47 +548,6 @@ the one recipe I actually used, so there&amp;rsquo;s that.&lt;/p&gt;
 &lt;li&gt;Argus Farm Stop&lt;/li&gt;
 &lt;li&gt;Feral Foods, the grower of said tomatillos&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>make tidy</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</link>
-      <pubDate>Sat, 25 Jul 2015 11:40:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been converting over old postings on this blog from Typepad.
-The data export and import was imperfect, and this meant that I&amp;rsquo;ve
-been poring over the data to figure out what keeps and what goes
-and what-not. It&amp;rsquo;s a chance to review old words.&lt;/p&gt;
-
-&lt;p&gt;One of the artifacts of the old hosting platform was a helpful at
-times system called &lt;a href=&#34;http://www.zemanta.com&#34;&gt;Zemanta&lt;/a&gt;. Zemanta would
-figure out what you were writing about and give you helpful suggestions
-for related links, both to things that you had written as well as
-to things other people had written.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve decided as part of the transformation of the old weblog into
-the new one to unlink those &amp;ldquo;related links&amp;rdquo;, in the hope that
-eventually Hugo&amp;rsquo;s own system will create some either algorithmically
-derived relations or at least an easier way to do that by hand.&lt;/p&gt;
-
-&lt;p&gt;In the meantime I&amp;rsquo;m looking closely at what Zemanta did so I can
-undo it. The first set of artifacts is a &amp;ldquo;fieldset&amp;rdquo; with its links,
-and that&amp;rsquo;s easy enough to search and destroy. Occasionally but not
-always I find my links decorated with a &lt;code&gt;class=&amp;quot;zem_slink&amp;quot;&lt;/code&gt; marker
-that&amp;rsquo;s a little harder to find. Most insidious so far was exactly
-one time where Zemanta (or Typepad) rewrote or wrote an Amazon link
-to include an affiliate link points to Zemanta, and not to me.&lt;/p&gt;
-
-&lt;p&gt;Rewriting 1500+ pages is going to take a while. The biggest question
-is unpublishing some of them, since time has passed and I don&amp;rsquo;t need
-to republish everything. There&amp;rsquo;s conversion from HTML to Markdown
-to remove the uglies, spelling errors to catch, next
-categories and taxonomies to fill, layout to work on, etc. At
-some point I need to sort out image management. But first I&amp;rsquo;m going
-to understand the consequences of previous convenience decisions
-I made to use Zemanta and to undo that decision.&lt;/p&gt;
 </description>
     </item>
     

@@ -52,6 +52,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-05-robo-assistant-xdotai" class="list-group-item">Your new robo-assistant, Amy Ingram</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-04-i-voted" class="list-group-item">I voted, summer 2015 edition</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-03-expertise" class="list-group-item">expertise encapsulated into out of date memory banks</a></li>
@@ -89,12 +91,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-little-bird" class="list-group-item">Starting a trial of Little Bird</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-library-notes" class="list-group-item">Library notes from Malletts Creek</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit" class="list-group-item">Docker Detroit, Wednesday July 22, 2015, 6:00 pm, Troy, Michigan</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4014,6 +4016,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -11855,6 +11859,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12158,6 +12164,41 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>2 January 2013</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2013/2013-01-02-deletionism-or-the-grim-reaper/">Deletionism, or the grim reaper</a>
+      </h3>
+      <p>There is a tremendous appeal to the <a href="http://www.tbray.org/ongoing/When/200x/2008/06/15/Deletionist-Morons">deletionist</a> point of view.
+<p>
+I spent some time this evening improving Wikipedia by suggesting that some of its less well written articles be removed. The task was relatively simple; hit the &quot;<a href="http://en.wikipedia.org/wiki/Special:Random">random page</a>&quot; button, read the article, decide if it is so horrible as to be unencyclopedic, and if it is then paste in the &quot;please delete this&quot; template and hope for the best.
+</p>
+<p>
+Combing through a series of random pages on Wikipedia is more grim than I had expected. Many of the articles were very short, to the typical tune of &quot;X is a village with 42 inhabitants&quot; or &quot;Y was an indifferent soccer player on a minor league team&quot;. A surprising number of articles were years old and read &quot;Z will be a television series on a minor television network&quot; with no one bothering to follow up to see whether the series was kept or cancelled.
+</p>
+<p>
+I haven&#39;t always been a deletionist. There was a time when you&#39;d find me in Wikipedia more often than not improving some minor but notable page to make it incrementally better in the hopes that it would not be deleted, or arguing to keep some minimally important article from being deleted. The experience of working through random pages was sufficiently enlightening about the general quality of the work there that it seemed more productive to argue instead to wipe out some of the less well considered contributions.
+</p>
+<p>
+<a href="http://vielmetti.typepad.com">My weblog</a> is similarly full of indifferent contributions, posts which seem to have been a good idea at the time but which don&#39;t have much to argue for themselves now. For a long time I had a habit of writing very short and poorly edited posts just in order to get something out quickly, and I&#39;d love to revisit those and improve them by taking them offline.
+</p>
+<p>
+A help to solid improvement of a large body of work is some way to randomly index your way through the system and work on the next random piece that comes up in front of you. The standard Typepad system does not have any sort of &quot;random post&quot; structure, so I&#39;ll need to somehow improvise. What I think I can do is <a href="http://help.typepad.com/import_export.html">export the entire contents of my blog</a>, write a script to pull out just the titles and URLs of the posts, then generate something that pulls a random line from that list. If I can do that then I can go back randomly and be ruthless in pruning out things that don&#39;t belong any more.
+</p>
+<p>
+Ideally there&#39;s some basis for the notion that rather than writing new words all the time, I should be looking at ways of improving some of the old ones instead. That germ of a good idea, half explored in 150 words 5 years ago, might make a good 750 word essay now. That poorly executed quick post of 7 years ago might be deleted to make room for a better issue now. No one will miss the old words, and I might be able to free up space in my memory for something more positive.
+</p>
+<p>
+The deletionist point of view, when applied too aggressively, can also be pretty grim. The grim reaper decides that one person&#39;s hard work is unworthy of inclusion and <a href="http://en.wikipedia.org/wiki/Wikipedia:Please_do_not_bite_the_newcomers">attacks everything they do</a> until that contributor goes away. If you get hit by a deletionist of that type, your only best approach is to move your contributions to some other medium where you can contribute without attracting undue attention.
+</p>
+<p>
+My randomized approach to editorial review is much more like the &quot;<a href="http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html">chaos monkey</a>&quot; used by some cloud-based online services to ensure that their carefully constructed and complicated system is resilient in the case of failure. The chaos monkey takes down parts of a redundant system at random, forcing it to respond in the way that systems designers had planned for an outage. Because you are exercising the failures in a controlled way you can be prepared for uncontrolled failure at some future time.
+</p>
+<p>
+I was able to download the entire blog corpus, and to write <a href="https://github.com/vielmetti/vielmetti-shelltools/blob/master/randomline">the little script that pulled out a random title from the total</a>. It&#39;s now also time to start doing other textual analysis on this word-hoard, looking for words that are used unusually frequently, or subjects that come up more often than I had imagined. With the right tool set there should be lots of good meta-information that I can reuse and turn into new ideas. After all, there&#39;s more than a decade worth of stuff buried in almost 10 megabytes of text, and I&#39;m sure that at least 10% of it is deletable without the slightest loss to anyone.
+</p>
+<p>&#0160;</p></p>
 
 
   <h3>1 January 2013</h3>
@@ -12597,17 +12638,6 @@ Thanks to Kevin Doyle Jones for the conversation that led to this.</p>
       <p>See <a href="http://www.toledowiki.net" target="_self">toledowiki.net</a>&#0160;for a city wiki for Toledo, Ohio. As of this writing it has 113 users, who have created 362 pages about the city.</p>
 <p>It&#39;s always interesting to see a city wiki start up, and by stumbling around the first few pages you get a sense for the places that are at the interesting core of a city. The first few <a href="http://toledowiki.net/Coffee_Shops" target="_self">coffee shops</a> that are mapped tell you where people care enough to share their places to work, and the <a href="http://toledowiki.net/Flyers" target="_self">flyers</a> collection lets you see what&#39;s on the bulletin boards around town.</p>
 <p>My working knowledge of Toledo is bounded by the few places that I routinely visit - the <a href="http://toledowiki.net/Toledo_Museum_of_Art" target="_self">art museum</a>, the ball field where the <a href="http://toledowiki.net/Toledo_Mud_Hens" target="_self">Mud Hens</a> play, and a few routine stops along the freeway near the turnpike exit. It&#39;s incredibly helpful to have a local guide to the whole rest of the town to make it possible to think about alternative destinations the next time I visit.</p>
-
-
-  <h3>30 November 2012</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2012/2012-11-30-a2b3-non-summary-for-november-29-2012-/">a2b3 non-summary for November 29, 2012</a>
-      </h3>
-      <p>Thanks to <a href="http://www-personal.umich.edu/~pfa/" target="_self">Patricia F. Anderson</a> for this non-summary of the November 29, 2012 A2B3 lunch at Eastern Accents.&#0160;</p>
-<hr />
-<p>Hi, folk!<br /><br />Yesterday saw a decent sized group for lunch, roughly a dozen.&#0160;Conversation was, as usual, fascinating and diverse.<br /><br />General conversation included the search for a proper formalmythological &quot;Muse&quot; or Goddess as a kind of patron saint of geeks and&#0160;code monkeys. A suggestion was Seshat, the Egyptian goddess of<br />measurement, mathematics, and librarianship, known for her&#0160;seven-pointed headdress and leopardskin dress.<br /><br />&lt;<a href="http://www.egyptianmyths.net/seshat.htm" target="_blank">http://www.egyptianmyths.net/seshat.htm</a>&gt;<br />&quot;Seshat carried many titles, such as &quot;Lady of Builders&quot;, &quot;Mistress of&#0160;the House of Books&quot;, and &quot;Foremost in the Library&quot;.&quot;<br />&lt;<a href="http://en.wikipedia.org/wiki/File:Seshat.svg" target="_blank">http://en.wikipedia.org/wiki/File:Seshat.svg</a>&gt;<br /><br />Also mentioned was a recommendation for the book, &quot;War of Art.&quot;<br />&lt;<a href="http://www.stevenpressfield.com/the-war-of-art/" target="_blank">http://www.stevenpressfield.com/the-war-of-art/</a>&gt;<br /><br />Main question focused on upcoming events, where to have events, and&#0160;&quot;December-y-type stuff&quot;.<br /><br />Upcoming Events:<br /><br />- Ed&#39;s birthday (see y&#39;all next week!)<br />- Kiwanis sale Fri-Sat 9-12<br />- Workantile makers fest - January; Show and tell for makers<br />- Xmas movies at Michigan Theater free on ... Sundays? mostly.<br />&lt;<a href="http://www.michtheater.org/series/holiday-classic-film-series/" target="_blank">http://www.michtheater.org/series/holiday-classic-film-series/</a>&gt;<br /><br />Where to have an event:<br /><br />- Hathaway&#39;s Hideaway</p>
-<p>- Pittsfield Grange</p>
-<p>- Need a wiki for meeting space in a2<br />- Check ArborWiki: &lt;<a href="http://arborwiki.org/Places_to_have_a_meeting" target="_blank">http://arborwiki.org/Places_to_have_a_meeting</a>&gt;<br /><br />About Events:<br /><br />- Events as doorway to membership<br />- &quot;more focused on the diurnal&quot;<br />- Birthdays<br />- Seinfeld avoidance syndrome<br />- Marriage licenses will be trickier over the break between Xmas and New Years<br /><br />Mysterious &quot;boundary marker&quot; stone on Old West Side</p>
 
 
 
