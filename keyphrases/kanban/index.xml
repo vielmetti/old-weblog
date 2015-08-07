@@ -6,8 +6,132 @@
     <description>Recent content in Kanban on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Mar 2008 21:56:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2014 09:14:22 +0000</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/keyphrases/kanban/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Github-based kanban boards: Zenhub, Waffle, Huboard, Blossom et al</title>
+      <link>http://vielmetti.github.io/post/2014/2014-11-24-github-based-kanban-boards-zenhub-waffle-huboard-blossom-et-al/</link>
+      <pubDate>Mon, 24 Nov 2014 09:14:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-11-24-github-based-kanban-boards-zenhub-waffle-huboard-blossom-et-al/</guid>
+      <description>&lt;p&gt;A kanban board is simply a two-dimensional view of a series of work queues.
+By moving a piece of work from one column to another, you update its status.
+This gives you a quick way to visualize your current priorities, as well
+as making it very clear when one or more of your queues are too full.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve been using Github issues as a personal issue tracker for a while,
+using its milestones feature to track categories. This has been mostly
+a one-dimensional exercise of managing very long lists, or shorter lists.
+It&#39;s been cumbersome to use either labels or milestones to handle the quick
+need to say to yourself &#34;I&#39;m going to focus on this now&#34; without the issue
+sinking back quickly into a mile-long undifferentiated list.&lt;/p&gt;
+
+&lt;p&gt;Enter a whole series of Github add-ons that all add a similar feature, the kanban-style
+column view. I&#39;ll list them here with any experience I currently have using
+them. My best bet is that at some point Github absorbs one of these and makes 
+it its own, but that is tempered by the realization that Github issues really
+isn&#39;t changing much as a product.&lt;/p&gt;
+
+&lt;p&gt;Zenhub, &lt;a href=&#34;https://www.zenhub.io/&#34;&gt;zenhub.io&lt;/a&gt;. This is a Google Chrome plugin, which gives you a kanban-style view of your issues. It only works in Chrome. I tried it, but didn&#39;t see an easy way to configure which columns referred to which labels, and after a few tries gave up on it.&lt;/p&gt;
+
+&lt;p&gt;Waffle, &lt;a href=&#34;https://waffle.io/&#34;&gt;waffle.io&lt;/a&gt;. At the moment this is what I&#39;m using. You authenticate to it with Github, and then it displays your issues. Free (for now), they are advertising that it will be $7/mo for private repos, which is what I currently pay for all of the rest of Github.&lt;/p&gt;
+
+&lt;p&gt;Huboard, &lt;a href=&#34;https://huboard.com&#34;&gt;huboard.com&lt;/a&gt;. Free for open source repos or $7/mo/user for private repos. 14 day free trial. &lt;/p&gt;
+
+&lt;p&gt;Blossom, &lt;a href=&#34;https://www.blossom.io&#34;&gt;blossom.io&lt;/a&gt;. No free plan, 14 day trial, minimum is a 5 user plan at $22/mo.&lt;/p&gt;
+
+&lt;p&gt;Task Tub, &lt;a href=&#34;http://www.tasktub.com/&#34;&gt;tasktub.com&lt;/a&gt;. Company page does not load.&lt;/p&gt;
+
+&lt;p&gt;SweepBoard, &lt;a href=&#34;http://sweepboard.com/&#34;&gt;sweepboard.com&lt;/a&gt;. Free for open source projects.&lt;/p&gt;
+
+&lt;p&gt;When I first started finding these sorts of things, I didn&#39;t really realize that it was a whole category of products. Most of them have some other features beyond the kanban to add to Github as a project management tool. I don&#39;t think there&#39;s a category winner, but if you are interested in visualizing your work and taking your todo list beyond the simple long list this is a useful set of tools to explore.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Doing Personal Kanban with Boardthing</title>
+      <link>http://vielmetti.github.io/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</link>
+      <pubDate>Mon, 05 May 2014 16:07:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-05-05-doing-personal-kanban-with-boardthing/</guid>
+      <description>&lt;p&gt;I change productivity tools from time to time. Here&#39;s a latest try.&lt;/p&gt;
+
+&lt;p&gt;There are only two real rules with Personal Kanban:
+1. Visualize your work
+2. Limit your work-in-progress&lt;/p&gt;
+
+&lt;p&gt;I &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2010/07/personal-kanban-from-jim-benson-and-modus-cooperandi.html&#34;&gt;wrote about Personal Kanban before&lt;/a&gt; back in 2010, but I didn&#39;t try to put it into practice as such.&lt;/p&gt;
+
+&lt;p&gt;Boardthing is an invention of Dave Gray. There&#39;s a &lt;a href=&#34;http://mindmappingsoftwareblog.com/boardthing/&#34;&gt;review of Boardthing&lt;/a&gt; from Chuck Frey which goes into a few more details, but the short summary of it is that it&#39;s a suitable way to rearrange little rectangles on a board. The little rectangles each have some text or an image in them, and they can be nested so you can move them around in groups. There&#39;s really not much more than that, and it runs in a browser.&lt;/p&gt;
+
+&lt;p&gt;This infrastructure is enough to create a Personal Kanban board. Create little rectangles at minimum for &#34;Things to do&#34;, &#34;Doing&#34;, and &#34;Done&#34;, and type into the little rectangles to move them around until you figure out what to do, stop typing, and get something done. I recommend a &#34;Things not to do&#34; rectangle as an added productivity boost.&lt;/p&gt;
+
+&lt;p&gt;How does this work in the long term? The system is pretty light weight, and it saves your state between sessions. I suppose if your page gets too cluttered you can start a new one that is more focused. Having a smallish screen forces you to limit your work in progress, which is a good thing.&lt;/p&gt;
+
+&lt;p&gt;Dave Gray and Jim Benson have a set of approaches that should work well together, this is mostly written for the both of them as an introduction of sorts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Limiting work in progress vs. the endless todo list</title>
+      <link>http://vielmetti.github.io/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</link>
+      <pubDate>Tue, 14 Jan 2014 10:25:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-01-14-limiting-work-in-progress-vs-the-endless-todo-list/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510e1ff93970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a510e1ff93970c&#34; alt=&#34;Github-activity-graph-illustration&#34; title=&#34;Github-activity-graph-illustration&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a510e1ff93970c-120wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve been using a todo system &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34;&gt;based on Github issues&lt;/a&gt; for the better part of a year. It&#39;s been an interesting exercise in trying to corral the things that aren&#39;t done yet but that need to be.&lt;/p&gt;
+
+&lt;p&gt;When I started out, I dumped every last thing that I might do into the system, everything from major tasks to &#34;do laundry&#34; (which can seem like a major task at times). The count of undone things oscillated from 60 to 100 things to be done, which made it seem like an infinite list because it took too long to review the whole list and it was on 3 or 4 screens.&lt;/p&gt;
+
+&lt;p&gt;After some reflection, I decided that the only way to make progress on this list was to dramatically prune it. That means taking some items off the list that I really do want to do eventually, it&#39;s just that I&#39;m not focusing on them now because every time I look at them on the list I say &#34;no&#34;. Crossing them off the list doesn&#39;t completely delete them, and when I need to revisit them I can reopen the issue.&lt;/p&gt;
+
+&lt;p&gt;The list is down to 30 now, and I&#39;m careful not to add more than that without crossing something else off the list. It still has a few lingering things that haven&#39;t been done for a long time, but I have had my teeth cleaned, and what&#39;s more I can read through the whole thing in one sitting and usually say &#34;yes&#34; to some next task.&lt;/p&gt;
+
+&lt;p&gt;More reading: &lt;a href=&#34;http://www.personalkanban.com/pk/primers/why-limit-your-wip-a-pk-info-series/&#34;&gt;Why limit your work in progress&lt;/a&gt;, Jim Benson.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What we can learn from procrastination : James Surowiecki The New Yorker</title>
+      <link>http://vielmetti.github.io/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</link>
+      <pubDate>Sun, 17 Oct 2010 18:05:11 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;Academics, who work for long periods in a self-directed fashion, may be especially prone to putting things off: surveys suggest that the vast majority of college students procrastinate, and articles in the literature of procrastination often allude to the author’s own problems with finishing the piece. (This article will be no exception.) But the academic buzz around the subject isn’t just a case of eggheads rationalizing their slothfulness. As various scholars argue in “The Thief of Time,” edited by Chrisoula Andreou and Mark D. White (Oxford; $65)—a collection of essays on procrastination, ranging from the resolutely theoretical to the surprisingly practical—the tendency raises fundamental philosophical and psychological issues.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;small&gt;via &lt;a href=&#34;http://www.newyorker.com/arts/critics/books/2010/10/11/101011crbo_books_surowiecki?currentPage=all&#34;&gt;www.newyorker.com&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Naturally, I am reading this while procrastinating.&lt;/p&gt;
+&lt;p&gt;I gave &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2004/03/time_management.html&#34; target=&#34;_self&#34;&gt;precise instructions to myself&lt;/a&gt; in my journal in 1999, repeated in 2004, on how to avoid procrastination, under the guise of &amp;quot;time management&amp;quot;. This presumes, of course, that all you need to do is make a few rational decisions and buck up and buckle down to work, in the ignorance of all other possible motivations.&lt;/p&gt;
+&lt;p&gt;A challenge in a world of infinite possibilities is that choosing to do anything means you are choosing not to do something else. This brings to mind &lt;a href=&#34;http://www.personalkanban.com/pk/personal-kanban-101/&#34; target=&#34;_self&#34;&gt;Jim Benson&amp;#39;s Personal Kanban&lt;/a&gt;, which only has two rules at its core:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visualize your work&lt;/li&gt;
+&lt;li&gt;Limit your work in progress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A sure cure for procrastination, then, is simply to not do something, rather than putting it off. Alas not all tasks can be discarded so easily.&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Personal Kanban from Jim Benson and Modus Cooperandi</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-12-personal-kanban-from-jim-benson-and-modus-cooperandi/</link>
+      <pubDate>Mon, 12 Jul 2010 21:04:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-12-personal-kanban-from-jim-benson-and-modus-cooperandi/</guid>
+      <description>&lt;p&gt;
+I&#39;m reading &lt;a href=&#34;http://personalkanban.com&#34;&gt;PersonalKanban.com&lt;/a&gt;. &amp;nbsp;There are at the simplest only two rules:
+&lt;blockquote&gt;
+&lt;p&gt;1. Visualize your work&lt;/p&gt;
+&lt;p&gt;2. Limit your work-in-progress&lt;/p&gt;
+&lt;/blockquote&gt;
+to which is added a third, &#34;prioritize&#34;.  The rest is commentary.
+&lt;/p&gt;
+&lt;p&gt;Jim is good at commentary, so the blog and the rest of the effort is well worth reading.  Here&#39;s Personal Kanban 101 to start.
+&lt;img style=&#34;visibility:hidden;width:0px;height:0px;&#34; border=0 width=0 height=0 src=&#34;http://counters.gigya.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEyNzg5ODI5MDM5MjUmcHQ9MTI3ODk4MjkwNzY5NyZwPTEwMTkxJmQ9c3NfZW1iZWQmZz*yJm89NWNkNGU1ZmFiMTZk/NDEzMzhkMjJkNmU2M2FjZGRkZWImb2Y9MA==.gif&#34; /&gt;&lt;div style=&#34;width:425px&#34; id=&#34;__ss_2430897&#34;&gt;&lt;strong style=&#34;display:block;margin:12px 0 4px&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/ourfounder/personal-kanban-101&#34; title=&#34;Personal Kanban 101&#34;&gt;Personal Kanban 101&lt;/a&gt;&lt;/strong&gt;&lt;object id=&#34;__sse2430897&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=personalkanban101-091105103807-phpapp02&amp;stripped_title=personal-kanban-101&#34; /&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;/&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;always&#34;/&gt;&lt;embed name=&#34;__sse2430897&#34; src=&#34;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=personalkanban101-091105103807-phpapp02&amp;stripped_title=personal-kanban-101&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&#34;padding:5px 0 12px&#34;&gt;View more &lt;a href=&#34;http://www.slideshare.net/&#34;&gt;presentations&lt;/a&gt; from &lt;a href=&#34;http://www.slideshare.net/ourfounder&#34;&gt;Jim Benson&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Kanban; or, management by post-it note</title>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zenhub on tracker</title>
+    <link>http://vielmetti.github.io/code/zenhub/</link>
+    <description>Recent content in Zenhub on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Nov 2014 09:14:22 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/zenhub/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Github-based kanban boards: Zenhub, Waffle, Huboard, Blossom et al</title>
+      <link>http://vielmetti.github.io/post/2014/2014-11-24-github-based-kanban-boards-zenhub-waffle-huboard-blossom-et-al/</link>
+      <pubDate>Mon, 24 Nov 2014 09:14:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-11-24-github-based-kanban-boards-zenhub-waffle-huboard-blossom-et-al/</guid>
+      <description>&lt;p&gt;A kanban board is simply a two-dimensional view of a series of work queues.
+By moving a piece of work from one column to another, you update its status.
+This gives you a quick way to visualize your current priorities, as well
+as making it very clear when one or more of your queues are too full.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve been using Github issues as a personal issue tracker for a while,
+using its milestones feature to track categories. This has been mostly
+a one-dimensional exercise of managing very long lists, or shorter lists.
+It&#39;s been cumbersome to use either labels or milestones to handle the quick
+need to say to yourself &#34;I&#39;m going to focus on this now&#34; without the issue
+sinking back quickly into a mile-long undifferentiated list.&lt;/p&gt;
+
+&lt;p&gt;Enter a whole series of Github add-ons that all add a similar feature, the kanban-style
+column view. I&#39;ll list them here with any experience I currently have using
+them. My best bet is that at some point Github absorbs one of these and makes 
+it its own, but that is tempered by the realization that Github issues really
+isn&#39;t changing much as a product.&lt;/p&gt;
+
+&lt;p&gt;Zenhub, &lt;a href=&#34;https://www.zenhub.io/&#34;&gt;zenhub.io&lt;/a&gt;. This is a Google Chrome plugin, which gives you a kanban-style view of your issues. It only works in Chrome. I tried it, but didn&#39;t see an easy way to configure which columns referred to which labels, and after a few tries gave up on it.&lt;/p&gt;
+
+&lt;p&gt;Waffle, &lt;a href=&#34;https://waffle.io/&#34;&gt;waffle.io&lt;/a&gt;. At the moment this is what I&#39;m using. You authenticate to it with Github, and then it displays your issues. Free (for now), they are advertising that it will be $7/mo for private repos, which is what I currently pay for all of the rest of Github.&lt;/p&gt;
+
+&lt;p&gt;Huboard, &lt;a href=&#34;https://huboard.com&#34;&gt;huboard.com&lt;/a&gt;. Free for open source repos or $7/mo/user for private repos. 14 day free trial. &lt;/p&gt;
+
+&lt;p&gt;Blossom, &lt;a href=&#34;https://www.blossom.io&#34;&gt;blossom.io&lt;/a&gt;. No free plan, 14 day trial, minimum is a 5 user plan at $22/mo.&lt;/p&gt;
+
+&lt;p&gt;Task Tub, &lt;a href=&#34;http://www.tasktub.com/&#34;&gt;tasktub.com&lt;/a&gt;. Company page does not load.&lt;/p&gt;
+
+&lt;p&gt;SweepBoard, &lt;a href=&#34;http://sweepboard.com/&#34;&gt;sweepboard.com&lt;/a&gt;. Free for open source projects.&lt;/p&gt;
+
+&lt;p&gt;When I first started finding these sorts of things, I didn&#39;t really realize that it was a whole category of products. Most of them have some other features beyond the kanban to add to Github as a project management tool. I don&#39;t think there&#39;s a category winner, but if you are interested in visualizing your work and taking your todo list beyond the simple long list this is a useful set of tools to explore.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

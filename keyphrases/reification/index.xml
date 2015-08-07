@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reification on tracker</title>
+    <link>http://vielmetti.github.io/keyphrases/reification/</link>
+    <description>Recent content in Reification on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Oct 2010 20:00:00 +0000</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/reification/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Run by the numbers - Wendy Espeland on quantification and discipline</title>
+      <link>http://vielmetti.github.io/post/2010/2010-10-04-run-by-the-numbers/</link>
+      <pubDate>Mon, 04 Oct 2010 20:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-10-04-run-by-the-numbers/</guid>
+      <description>&lt;p&gt;Rankings impose discipline on markets: Wendy&amp;#0160;Espeland&amp;#39;s&amp;#0160;&lt;a href=&#34;http://asociologist.wordpress.com/2008/11/02/notes-from-icos-espeland-a-different-kind-of-quantitative-sociology/&#34; target=&#34;_self&#34;&gt;A Different Kind of Quantitative Sociology&lt;/a&gt;&amp;#0160;talk at ICOS in 2008:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Third is&amp;#0160;&lt;em&gt;discipline&lt;/em&gt;&amp;#0160;(&lt;a href=&#34;http://orgtheory.wordpress.com/2008/10/08/where-in-the-world-is-michel-foucault/&#34;&gt;here comes the Foucault!&lt;/a&gt;). Most readers will probably know where this line of argument goes – rankings and other metrics are internalized and begin to alter our behavior without any direct action on the part of the rankings-makers. Espeland draws here on her recent work on US News and World Report law school rankings. For example, because the rankings counted median LSAT scores of only regular full-time students, law schools began to push weaker applicants into doing part-time and night programs. In response to a proposal by US News to start including those programs in the median LSAT calculations, law schools formed committees to ponder reforming or closing their night and part-time programs. Organizational discipline in action.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The whole of the argument has 5 bullet points&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantification takes work&lt;/li&gt;
+&lt;li&gt;Quantification changes what it measures&lt;/li&gt;
+&lt;li&gt;Quantification imposes discipline on those who are measured&lt;/li&gt;
+&lt;li&gt;Numbers are seen as authoritative&lt;/li&gt;
+&lt;li&gt;Numbers are powerful for their aesthetic qualities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.law.com/jsp/nlj/PubArticleNLJ.jsp?id=1202444960579&amp;amp;slreturn=1&amp;amp;hbxlogin=1&#34; target=&#34;_self&#34;&gt;National Law Journal takes on the impact&lt;/a&gt; of this in May 2010:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;U.S. News&lt;/em&gt;&amp;#0160;does maintain a law school &amp;quot;diversity index,&amp;quot; but those data are not a factor in the overall rankings.&amp;#0160;&lt;br /&gt;&lt;br /&gt;&amp;quot;A lot of people we interviewed expressed concern over the impact of rankings on diversity,&amp;quot; said Wendy Espeland, an assistant professor of sociology at Northwestern University. &amp;quot;The overarching tension between catering to the rankings and doing what you think is best for your school is intense.&amp;quot;&amp;#0160;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Every once in a while I invoke the phrase &amp;quot;quality without a number&amp;quot;; most recently, I guess, in a post on &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/05/reification-is.html&#34; target=&#34;_self&#34;&gt;Reification is an Ontological Imperative&lt;/a&gt;, also from 2008. &lt;a href=&#34;http://www.yourdonreport.com/index.php/2008/04/14/detroit-presentation-the-politics-of-metrics/&#34; target=&#34;_self&#34;&gt;&amp;#0160;Ed Yourdon&amp;#39;s The Politics of Metrics&lt;/a&gt; has the same theme.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reification is an ontological imperative</title>
+      <link>http://vielmetti.github.io/post/2008/2008-05-19-reification-is/</link>
+      <pubDate>Mon, 19 May 2008 10:00:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-05-19-reification-is/</guid>
+      <description>&lt;p&gt;Reification is an ontological imperative.&lt;/p&gt;
+
+&lt;p&gt;I think that this might be some deep statement about the
+semantic web, but it&#39;s so deep that I really don&#39;t understand it.&lt;/p&gt;
+
+&lt;p&gt;Reification in this sense appears to have something to do with
+taking abstract concepts and making them concrete, turning 
+ad hoc heuristics into code, writing down a set of things into
+a list so that it can be machine processed and sorted, and 
+otherwise taking thoughts and ideas and turning them into bits.&lt;/p&gt;
+
+&lt;p&gt;Ontological has to do with categories and classification, the
+relationships between things, and especially how to create data
+structures to represent these.  In typical ontologies, the result
+is some data structure that looks like a graph, often but not
+necessarily a hierarchy, which puts things into buckets based
+on their essential features.&lt;/p&gt;
+
+&lt;p&gt;If I had to reprocess this through my own experience, it would
+have to do with the relationship between writing things down
+and sorting through them.  Fundamentally, if you are going to
+take a long list of abstractions and make them concrete, you
+get as a necessary side effect the ability to distinguish between
+them and group them into bunches based on attributes that may
+not have been explicit in the abstract conceptions of things.&lt;/p&gt;
+
+&lt;p&gt;To see someone else having thought through the repercussions of
+this, see:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.shirky.com/writings/ontology_overrated.html&#34;&gt;
+Clay Shirky, &#34;Ontology is overrated&#34;&lt;/a&gt;.  On tagging systems
+vs. hierarchical classification, and how it&#39;s OK to have tag
+collections from a bunch of people make sense of the identity
+of things on the net vs. having centralized catalogers do that.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.librarything.com/thingology/2006/07/tags-reading-and-listening-list.php&#34;&gt;
+Tim Spalding on Tags: A reading and listening list&lt;/a&gt;, from Thing-ology.
+Tim has addressed the problem of making explicit people&#39;s
+information about their own books in a way that makes
+collective information visible with LibraryThing, and there&#39;s
+a lot more to it than just saying &#34;tags rock!&#34;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yourdonreport.com/index.php/2008/04/14/detroit-presentation-the-politics-of-metrics/&#34;&gt;Ed Yourdon, &#34;The Politics of Metrics&#34;&lt;/a&gt;, a talk he gave at the Software Best Practices conference in Detroit in April 2008.
+When the thing to be reified is the behavior of individuals, and
+the ontology that is applied is a measure of quality or success,
+there are all manner of messy politics and second-order effects
+that come into play.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://joechip.net/brian/2007/12/06/alive-to-the-extent/&#34;&gt;Brian Kerr channeling Christopher Alexander&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+“To seek the timeless way we first must know the quality without a number. There is a central quality which is the rooted criterion of life and the spirit of man, a town, a building, or a wilderness. This quality is objective and precise, but it cannot be numbered.”
+&lt;/blockquote&gt;
+
+&lt;p&gt;I write this down (reification), and then Typepad insists that I add a category to it (ontological imperative).  It landed in &#34;cyberinfrastructure&#34;, this weird bag of side effects of computerizing the world.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

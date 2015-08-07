@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on tracker</title>
+    <link>http://vielmetti.github.io/code/vim/</link>
+    <description>Recent content in Vim on tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2015 23:45:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>wakatime, an automatic time tracker for programmers</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-05-wakatime/</link>
+      <pubDate>Wed, 05 Aug 2015 23:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-05-wakatime/</guid>
+      <description>&lt;p&gt;Wakatime tracks your time if you&amp;rsquo;re a programmer. It does this by
+integrating into your favorite text editor (including vim) and your
+favorite source code maintainence system (including Github) and then
+matching time spent editing with checkins into your system. It collects
+stats behind the scenes and turns everything into a shiny dashboard.
+&amp;ldquo;Fitbit for programmers&amp;rdquo; is the tag line.&lt;/p&gt;
+
+&lt;p&gt;That which is measured, improves. I don&amp;rsquo;t know if wakatime will improve
+your writing, or your coding, or your general state of mind. What I do
+know is that manually tracking your time is a pain, and that anything
+you can do to manage to keep things running in your time accounting
+system that doesn&amp;rsquo;t require a lot of manual labor is very helpful.&lt;/p&gt;
+
+&lt;p&gt;The problem, of course, is that you generally don&amp;rsquo;t spend all of your
+time inside a text editor. (But maybe you should! Just think how much
+more productive you&amp;rsquo;d be.) Wakatime can be set up to also track you
+in Chrome and pinpoint just how many hours per day get
+absorbed by Twitter or Gmail or Facebook.&lt;/p&gt;
+
+&lt;p&gt;If I know myself, this is going to be a temporary enthusiasm. My
+experience with the whole &amp;ldquo;quanitifed self&amp;rdquo; world is to know that
+some months in the summer, my normal step count is well over 10000,
+and that in the winter time it&amp;rsquo;s well under 10000, just because of
+Michigan&amp;rsquo;s grey February. Benchmarking time spent sometimes makes you
+work more mindfully, and sometimes just recognizes immutable human
+issues that no amount of mechanical impetus will change.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
