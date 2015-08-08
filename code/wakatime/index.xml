@@ -6,8 +6,54 @@
     <description>Recent content in Wakatime on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2015 23:45:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2015 23:45:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/code/wakatime/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>All watched over by machines</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-07-all-watched-over-by-machines/</link>
+      <pubDate>Fri, 07 Aug 2015 23:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-07-all-watched-over-by-machines/</guid>
+      <description>&lt;p&gt;As it turns out, a detailed look at the way you spend time over
+the course of a day online yields several fascinating conclusions.
+As previously noted, &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Wakatime&lt;/span&gt; is the introspective tool of choice.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Gee, that&amp;rsquo;s a lot of time to look at Facebook, Twitter, and Gmail;&lt;/li&gt;
+&lt;li&gt;Why aren&amp;rsquo;t you spending more of your productive time writing;&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ll bet that if you put down the computer your day would be more productive.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Of these, #2 is the most interesting one. Of course time spent on Facebook,
+Twitter, and Gmail is time spent writing, but it&amp;rsquo;s transactional writing -
+short bursts of functional prose to negotiate a time, set up a plan,
+make a clever comeback or otherwise do online chit-chat. The words are writing,
+but there&amp;rsquo;s not a body of work that you can point to that&amp;rsquo;s of any size as
+your opus from that hour plus spent.&lt;/p&gt;
+
+&lt;p&gt;Productive is a very funny word when you&amp;rsquo;re being watched by a machine.
+Some parts of the time are marked as &amp;ldquo;good time&amp;rdquo;, where you&amp;rsquo;re happy to
+have an extra minute spent credited to a project or task. Not all time is
+&amp;ldquo;good time&amp;rdquo;, though some of the non-good time is just as essential, just
+measured differently. And then there&amp;rsquo;s the occasional glitch in the matrix
+where time is credited or blamed on one thing but you could swear you were
+doing something else at the time.&lt;/p&gt;
+
+&lt;p&gt;Time spent on task sometimes looks very small when all of these are taken into
+account. Those 99 words you wrote for publication were edited down from 150,
+and might be edited further down to 55. If you could precisely allocate all
+of the time you spent on it it would include the musing and ruminations, but
+that got chalked up to Gmail where it&amp;rsquo;s mixed in with the time spent deleting
+mail.&lt;/p&gt;
+
+&lt;p&gt;I like to know what I&amp;rsquo;m doing, but it&amp;rsquo;s wrong to mix up inputs and outputs.
+If your system measures inputs, you get ritualized behavior designed to
+maximize time spent on task, no matter how the time is actually used.
+Maximizing outputs would yield word counts and not minute counts. If you&amp;rsquo;re
+slow and terse, there&amp;rsquo;s no help for you.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>wakatime, an automatic time tracker for programmers</title>
