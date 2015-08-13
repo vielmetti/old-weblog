@@ -52,6 +52,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-13-a2b3-lunch-nonsummary-broken-egg" class="list-group-item">a2b3 lunch non-summary for the Broken Egg</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-09-long-form" class="list-group-item">long form</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-07-all-watched-over-by-machines" class="list-group-item">All watched over by machines</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-06-a2b3-mi-compadre-non-summary" class="list-group-item">a2b3 lunch non-summary for August 6, 2015 at Mi Compadre</a></li>
@@ -87,14 +91,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging" class="list-group-item">We should do more blogging</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-tomatillo" class="list-group-item">Tomatillo</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-make-tidy" class="list-group-item">make tidy</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4022,6 +4026,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -11879,6 +11887,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12182,6 +12194,38 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>28 June 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-06-28-the-internet-of-things-marvel-edition/">The Internet of Things (Marvel edition)</a>
+      </h3>
+      <p>Via Bob Dively, a Marvel Comics version of the Internet of Things.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/vielmetti">@vielmetti</a> The Internet of Things <a href="http://t.co/dMvoIjbIZ0">pic.twitter.com/dMvoIjbIZ0</a></p>&mdash; Bob Dively (@bobdively) <a href="https://twitter.com/bobdively/statuses/482722072205225985">June 28, 2014</a></blockquote>
+
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+
+  <h3>27 June 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/">The internet of power outages</a>
+      </h3>
+      <p>The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there's bad weather - to the extent that I can pretty much tell where there's bad weather by the outbound clicks on the page.</p>
+
+<p>The page, however, is not fed with live data; it only has static instances of previous maps. It in and of itself doesn't alert when there's trouble, and it doesn't let you know that the storm coming your way might be severe.</p>
+
+<p>One of the challenges of automation in the utility outage map space is the diversity of vendors for power company outage maps and the utter lack of any standard interface. To dig out how many people have lost their power in 48104 under program control, you actually have to work at it, and to rely on undocumented interfaces that could change at any time. For all of the user-friendly efforts out there, there's a lot of systems that are hard to pull raw data from.</p>
+
+<p>I've started a very tiny version of what I suspect could be a complete project, namely to automate the alerting when a few zip codes around me have outages. The code, written in Node-RED, runs periodically to poll the DTE Energy outage map site and to ask for outage data for a few specific zip codes. It then parses that data in a Javascript/node.js node which returns it to a switch that decides whether to alert (in my case, when there are more than 250 outages in any given monitored zipcode). Alerts go out via Twitter on the @vielmetti account and via SMS to me.</p>
+
+<p>The monitoring task for the adjacent utility company, Consumers Energy, is a bit different. I haven't completed this effort yet, but again a poll of their site will pull a report which in this case has a list of counties and an outage count in each county. There's a few counties that I'm monitoring, and I'll figure out the threshold for alerts there.</p>
+
+<p>Node-RED is a nice programming environment for this, since it's flexible in many ways about how data gets into it and how and when alerts are done. I'm still sorting through the new "trigger" alert node in 0.8.0 which makes it possible to buffer up things so you don't get an overflow of messages all at once, and there's some subtle alarm-management logic that I want to get right so that this system can be used for real alerting and not just curiosity.</p>
+
+<p>When Hurricane Sandy hit the east coast, there was a long delay between the time that power went out and when it was restored, and there was some innovation in outage tracking and holding public utilities accountable for restoration performance. Similarly, when a storm hit the East Lansing, MI area there were furious municipal power consumers outraged that their utility company didn't have an accurate tracking map.</p>
+
+<p>I'm hoping that this starts to look like an architecture for outage tracking that can be refined over time, and I'd be super happy if utility companies started to post outage information in any reasonable easy to parse JSON or XML format files (really, it just has to be published, standards can occur as we get experience). I'll poll regularly enough to get some kind of timeline as to when the lights went out and how long it took for them to return.</p>
 
 
   <h3>27 June 2014</h3>
@@ -12638,32 +12682,6 @@ this and there will almost always be something new to read.</p>
 <blockquote>
   <p>Turning readers’ invective into smart dialogue is not a new challenge—but now, it’s a bigger problem than ever. Solving it takes a lot of manpower, and some well-designed software.</p>
 </blockquote>
-
-
-  <h3>10 April 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-04-10-rage-against-changes-in-the-telescreen/">Rage against changes in the telescreen</a>
-      </h3>
-      <p>Facebook is changing; in this particualr case it's a reorganization of the messaging functions into their own app. From <a href="http://techcrunch.com/2014/04/09/facebook-messenger-or-the-highway/">Techcrunch</a>, the predictable cries of frustration from people who are used to what they have.</p>
-
-<blockquote>
-  <p>Still, a unilateral forced migration is the exact kind of change Facebook users hate, and this will only breed more paranoia that their social network could change without their consent. Taking a slower “We’re switching everyone eventually, so you might as well do it now” approach might have gone over better than “Your familiar chat interface will be destroyed in two weeks whether you like it or not”.</p>
-</blockquote>
-
-<p>We don't like it when our telescreen is changed.</p>
-
-<p>The telescreen is from George Orwell's 1984. An <a href="http://www.theorwellreader.com/excerpt.shtml">excerpt</a> -</p>
-
-<blockquote>
-  <p>Behind Winston's back the voice from the telescreen was still babbling away about pig iron and the overfulfillment of the Ninth Three-Year Plan. The telescreen received and transmitted simultaneously. Any sound that Winston made, above the level of a very low whisper, would be picked up by it; moreover, so long as he remained within the field of vision which the metal plate commanded, he could be seen as well as heard. There was of course no way of knowing whether you were being watched at any given moment. How often, or on what system, the Thought Police plugged in on any individual wire was guesswork. It was even conceivable that they watched everybody all the time. but at any rate they could plug in your wire whenever they wanted to. You have to live - did live, from habit that became instinct - in the assumption that every sound you made was overheard, and, except in darkness, every movement scrutinized. </p>
-</blockquote>
-
-
-  <h3>10 April 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-04-10-the-sad-state-of-local-news/">the sad state of local news</a>
-      </h3>
-      <p>I am trying to write something about the sad state of local news, but it's pretty discouraging. A bad mix of unfiltered PR, unedited political invective, endless stenography, and tedium is par for the course. Why oh why don't we have a better press corps?</p>
 
 
 
