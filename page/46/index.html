@@ -52,6 +52,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-13-zenos-inbox" class="list-group-item">Zeno&#39;s inbox</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-13-a2b3-lunch-nonsummary-broken-egg" class="list-group-item">a2b3 lunch non-summary for the Broken Egg</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-09-long-form" class="list-group-item">long form</a></li>
@@ -89,12 +91,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-30-first-round-of-postcards" class="list-group-item">First round of postcards</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging" class="list-group-item">We should do more blogging</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4026,6 +4028,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -11891,6 +11895,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12194,6 +12200,23 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>23 March 2011</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2011/2011-03-23-huron-river-waterwatch/">Huron River water level watching: USGS National Water Information System</a>
+      </h3>
+      <p>Follow the <a href="http://waterdata.usgs.gov/nwis/uv/?site_no=04174500" target="_self">level of the Huron River as it goes through Ann Arbor</a>&#0160;with the USGS National Water Information System. On March 23, the river is rising, but it&#39;s also fluctuating in levels, enough that it&#39;s difficult to determine whether current trends would lead you to believe that there is any risk of flooding.</p>
+<p><a href="http://137.227.241.67/nwisweb/data/img/USGS.04174500.02.00065..20110316.20110323..0..gif"><img alt="image from 137.227.241.67" class="asset  asset-image at-xid-6a00d8341c4f1a53ef0147e36a71f0970b" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e36a71f0970b-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="image from 137.227.241.67" /></a>If you were to watch this closely, what would you watch?</p>
+<p>The USGS will give you an alert if the level of the river is above or below a certain level.</p>
+<p>The first derivative is the rate of change of the water level. You&#39;d want to track that to note trends. If you measured the difference between adjacent water levels, you&#39;d identify spikes, which have been associated with work on the dam in the past; those will give you a metric on the order of rate of change in inches per hour. If you did some smoothing, you&#39;d find trending measured in feet per day.</p>
+<p>The second derivative is the rate of the rate of change of the water level; you&#39;re looking for that to identify erratic behavior. As a rule of thumb a time series with large movements in both directions (up and down) over a short amount of time is a sign of river disturbance.</p>
+<p>A plausible approach would be to compute a smoothed curve, and then alert on deviations from the smoothed curve. You&#39;d love to be able to tell the difference between sudden downpour, steady rain, flash flood, work on the dam, and dam failure.</p>
+<p>Another strip chart to line up with this is rainfail (measured in convenient units) and precipitation forecast.</p>
+<p>This forecast is from <a href="http://waterwatch.usgs.gov/new/index.php?m=real&amp;r=mi&amp;w=map" target="_self">USGS Waterwatch for Michigan</a>. Hidden behind the projected water level is a rainfall forecast for the watershed.</p>
+<p><a href="http://water.weather.gov/resources/hydrographs/annm4_hg.png"><img alt="image from water.weather.gov" class="asset  asset-image at-xid-6a00d8341c4f1a53ef0147e36a7eb8970b" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e36a7eb8970b-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="image from water.weather.gov" /></a></p>
+<p>Statewide data, if you want to look for more, from <a href="http://waterwatch.usgs.gov/new/index.php?m=real&amp;r=mi&amp;w=map" target="_self">Waterwatch</a>. The black dots are flooding, blue are near flood.</p>
+<p><a href="http://waterwatch.usgs.gov/new/images/real/mi/realb.gif"><img alt="image from waterwatch.usgs.gov" class="asset  asset-image at-xid-6a00d8341c4f1a53ef014e600fbfe7970c" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e600fbfe7970c-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="image from waterwatch.usgs.gov" /></a> <br /><br /><em>Edward Vielmetti watches water levels on the Huron River. Write to him at edward.vielmetti@gmail.com.&#0160;</em></p>
 
 
   <h3>22 March 2011</h3>
@@ -12707,14 +12730,6 @@ Of course, that messed up the daily statistics some.
 Edward Vielmetti, Ex-McDonalds employee, Computing Center 
 Microgroup, U. Mich.</pre>
 <p>&nbsp;</p>
-
-
-  <h3>27 February 2011</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2011/2011-02-27-spooky-talk-on-am-1610-the-station/">Spooky Talk on AM 1610 The Station</a>
-      </h3>
-      <p><a href="http://www.spookytalk.com/" target="_self">Spooky Talk</a> is the talk show that&#39;s spooky. It&#39;s on weekly on <a href="http://am1610.org" target="_self">AM 1610</a> The Station in Hamtramck on Sunday at midnight, after the 10 p.m. The Strait show which plays Detroit electronic vinyl.</p>
-<p><a href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5f831a2e970c-pi"><img alt="Monroe-monster-mystifying" border="0" class="asset  asset-image at-xid-6a00d8341c4f1a53ef014e5f831a2e970c image-full" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e5f831a2e970c-800wi" style="display: block; margin-left: auto; margin-right: auto;" title="Monroe-monster-mystifying" /></a> <br /><br /></p>
 
 
 

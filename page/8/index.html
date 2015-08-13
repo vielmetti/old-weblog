@@ -52,6 +52,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-13-zenos-inbox" class="list-group-item">Zeno&#39;s inbox</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-13-a2b3-lunch-nonsummary-broken-egg" class="list-group-item">a2b3 lunch non-summary for the Broken Egg</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-09-long-form" class="list-group-item">long form</a></li>
@@ -89,12 +91,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-30-first-round-of-postcards" class="list-group-item">First round of postcards</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging" class="list-group-item">We should do more blogging</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections" class="list-group-item">restaurant inspections</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4026,6 +4028,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -11891,6 +11895,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12194,6 +12200,29 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>24 October 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/">Mac OS 10.9.5 audio problems on MacBook Air</a>
+      </h3>
+      <p>Symptoms include no audio inputs when a headset is plugged in, but the built-in mic works fine when the headset is not plugged in.</p>
+
+<p><code>sudo killall coreaudiod</code> is one suggested fix.</p>
+
+<p>This superuser.com article tells you how to <a href="http://superuser.com/questions/647396/reload-mac-audio-drivers-without-rebooting">reload Mac audio drivers without rebooting</a>.</p>
+
+<p>Thanks to Mohan Kartha for helping sort this out; still not convinced I can adequately fix it with these tools, or even that I have diagnosed the issue. Some of the discussion is about a "stuck optical switch".</p>
+
+<p>Genius bar next.</p>
+
+<p>UPDATE: Genius bar helpfully scheduled an appointment. The folks at the Apple store helpfully let me try other headsets and other mics and other computers, and the problem seemed to be isolated to my computer.</p>
+
+<p>In the meantime I poked and poked and eventually landed on a description of the "Audio MIDI Setup" utility. I dutifully clicked through to it to see what was up, adjusted a few things, and then found this:</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07a1c626970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07a1c626970d img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2014-10-29 at 11.13.41 AM" title="Screen Shot 2014-10-29 at 11.13.41 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07a1c626970d-600wi" /></a><br /></p>
+
+<p>Note that audio input is unhelpfully marked "mute". When I unmute, everything works fine. Why on earth this only shows up deep in the MIDI setup of all places I'm not sure; I know that I had fiddled around there before.</p>
 
 
   <h3>24 October 2014</h3>
@@ -12686,19 +12715,6 @@ this that can help manage big data without big programs.</p>
 <p>The internet of things world hasn't condensed into a single system, and because of its origins it's unlikely to do so. Picking which of three or four possible solutions could work for your application - one of which might be HTTP - is good. Deciding which fits the right sweet spot of skills, costs, and time to deploy is another good way to think about it.</p>
 
 <p>(Originally posted in slightly modified form to iot-craft)</p>
-
-
-  <h3>3 October 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/">Severe storms of October 2, 2014 hit the Dallas-Fort Worth area; Oncor power outage map shows the storm track</a>
-      </h3>
-      <p>The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The <a href="http://thescoopblog.dallasnews.com/2014/10/as-north-texas-experiences-exceptional-drought-for-first-time-since-2011-rain-and-cooler-temperatures-expected-today.html/">Dallas Morning News live blog</a> details the impact, with more than 250,000 people without power.</p>
-
-<p>This outage map from about 7:00 p.m. that evening shows the extent of the damage.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ec75d0970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2014-10-02 at 7.16.00 PM" title="Screen Shot 2014-10-02 at 7.16.00 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-600wi" /></a><br /></p>
-
-<p>My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are. The <a href="http://stormcenter.oncor.com/default.html">Oncor Storm Center</a> page was what people were focusing on, so I took a look. Oncor's map is built by iFactor, which does maps for a lot of utility companies. Alas the most useful view for a big storm - outages by zip code - is hidden under a menu, but once you find it you can get a nice colorful overview of where things are the worst.</p>
 
 
 
