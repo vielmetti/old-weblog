@@ -6,8 +6,88 @@
     <description>Recent content on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2015 16:45:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2015 15:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ann Arbor City Council Preview for 17 August 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview/</link>
+      <pubDate>Sat, 15 Aug 2015 15:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview/</guid>
+      <description>&lt;p&gt;Ann Arbor City Council meets at 7:00 p.m. on Monday, 17 August 2015.
+A preview of the agenda is on Arborwiki, complete with a map, on the
+tag &lt;a href=&#34;https://localwiki.org/ann-arbor/tags/20150817ccmtg&#34;&gt;2015-08-17CCMTG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some highlights to note:&lt;/p&gt;
+
+&lt;p&gt;The consent agenda includes $36,412 for the purchase of 21 Taser weapons.
+This is a sole-source purchase, to replace weapons purchased in 2003.&lt;/p&gt;
+
+&lt;p&gt;Also on the consent agenda is $83,000 for a sole-source purchase to
+renew the CityWorks license, which is used for asset tracking and
+maintenance of city owned resources. Of that amount, $20,000 will be
+billed back to the Washtenaw County Water Resources Commissioner.&lt;/p&gt;
+
+&lt;p&gt;$110,000 would go for the continuation of CLEMIS Public Safety Information
+Sharing Services for the Ann Arbor Police Department for FY2016. CLEMIS
+runs the dispatch system for police and allows &amp;ldquo;information sharing&amp;rdquo;
+with other departments. It&amp;rsquo;s run by Oakland County.&lt;/p&gt;
+
+&lt;p&gt;HathiTrust has digitized many decades of Ann Arbor City Council minutes,
+and it it proposed that the city approve publication of those minutes through
+HathiTrust by clearing the copyright on those materials.&lt;/p&gt;
+
+&lt;p&gt;Public hearings include one on deer management, and there&amp;rsquo;s a proposal
+on the agenda to spend $90,000 on some combination of a deer cull by
+sharpshooters and sterlization of deer. Expect this to be a long public
+hearing.&lt;/p&gt;
+
+&lt;p&gt;In development news, there&amp;rsquo;s a proposed condominium development on N Main St
+adjacent to North Main Park, and hearings on proposed annexations on Nixon
+Road and on Ann Arbor - Saline Road.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re following the footing drain disconnect program closely, you&amp;rsquo;ll
+note that there&amp;rsquo;s a proposal to lend the builder of 618 South Main
+footing drain disconnect credits to allow for full occupancy of that building.&lt;/p&gt;
+
+&lt;p&gt;More of course at the full agenda. See you on the site plan barricades
+(er, see you at council).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tianjin explosion</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-14-tianjin-explosion/</link>
+      <pubDate>Fri, 14 Aug 2015 00:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-14-tianjin-explosion/</guid>
+      <description>&lt;p&gt;This passage from the English language Wikipedia has been repeatedly
+removed from the narrative of the explosion in Tianjin, China.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Chinese authorities reportedly attempted to censor professional and
+social media reports. Social media users have reported that their
+posts regarding the blasts are being deleted, with the words &amp;ldquo;Tianjin&amp;rdquo;
+and &amp;ldquo;explosion&amp;rdquo; having become the most censored on Weibo.
+Journalists were kept away from the blast site. It was also
+reported that eight hours after the explosion, Tianjin Television
+was not reporting on the event, instead showing soap operas.
+Tianjin authorities banned reporters from sharing information about
+the disaster on Weibo and WeChat, and websites have been advised
+to follow state media. The Tianjin Internet Police &amp;ldquo;warned
+social media users to stick to official reports about the number
+of dead and injured&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;A CNN correspondent, Will Ripley, who took photos outside TEDA
+Hospital (Chinese: 泰达医院) was interrupted in a live report by
+upset friends and relatives of victims killed and injured in the
+blasts.&lt;/p&gt;
+
+&lt;hr/&gt;
+</description>
+    </item>
     
     <item>
       <title>Zeno&#39;s inbox</title>
@@ -501,73 +581,6 @@ grid of squares with people&amp;rsquo;s photos in them, so that I could see at
 a glance who was in my inbox?&lt;/p&gt;
 
 &lt;p&gt;Once you start to sort one thing, you want to sort everything.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>todo</title>
-      <link>http://vielmetti.github.io/sidebar/todo/</link>
-      <pubDate>Sat, 01 Aug 2015 14:11:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/sidebar/todo/</guid>
-      <description>
-
-&lt;h2 id=&#34;todo:5b51c9e8380c18fc2ee8d866662d01d8&#34;&gt;Todo&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Auto-discovery for RSS feed, per &lt;a href=&#34;http://gohugo.io/templates/rss/&#34;&gt;http://gohugo.io/templates/rss/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Short codes for easy linking. First pass complete.
-Assisted synaesthesia and colorized names and phrases.
-(Started, with colorized but not linked names)&lt;/li&gt;
-&lt;li&gt;Nicely thought through category and taxonomy pages. They
-have stubs now, but they need design.&lt;/li&gt;
-&lt;li&gt;A whole &amp;ldquo;Ann Arbor&amp;rdquo; section, because there&amp;rsquo;s so much of that,
-and it should integrate with Arborwiki. (Started.)&lt;/li&gt;
-&lt;li&gt;Links from books to their corresponding URLs and ISBNs to
-link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
-&lt;li&gt;Pagination with group by date, coming in 0.15&lt;/li&gt;
-&lt;li&gt;Fix problem with dots in taxonomy names, coming in 0.15&lt;/li&gt;
-&lt;li&gt;Some kind of database driven page data, in preparation
-for rolling out a power outage maps collection based on DOE EIA data,
-cf &lt;a href=&#34;http://gohugo.io/extras/datafiles/&#34;&gt;http://gohugo.io/extras/datafiles/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Make sure that the theme is in version control, which means
-I have to learn about git subtrees.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>mitmproxy</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</link>
-      <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</guid>
-      <description>&lt;p&gt;In his &lt;a href=&#34;http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/&#34;&gt;An internet x-ray machine for the masses&lt;/a&gt;, Paul Ohm writes a lucid introduction to
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;mitmproxy&lt;/span&gt;,
-a man-in-the-middle proxy server that allows you to
-get between your browser and the Internet and poke at
-(and change) the traffic going between the two.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mitmproxy.org&#34;&gt;http://mitmproxy.org&lt;/a&gt; is the home of mitmproxy. It&amp;rsquo;s
-the work of &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Aldo Cortesi&lt;/span&gt; and a cast of
-hundreds of contributors on github at &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;https://github.com/mitmproxy/mitmproxy&lt;/a&gt; .
-I used the OS X binary distribution from the download page.
-There&amp;rsquo;s also a nifty Dockerized version on
-Dockerhub as &lt;a href=&#34;https://registry.hub.docker.com/u/mitmproxy/mitmproxy/&#34;&gt;docker pull mitmproxy/mitmproxy&lt;/a&gt;
-to get you started quickly too.&lt;/p&gt;
-
-&lt;p&gt;Man-in-the-middle (or monkey-in-the-middle) systems are not
-new, of course, and Dug Song&amp;rsquo;s &lt;a href=&#34;http://www.monkey.org/~dugsong/dsniff/&#34;&gt;dsniff&lt;/a&gt;
-package dates to 1999. What we&amp;rsquo;ve learned in a decade and a half
-is that security through obscurity vanishes in the face of better
-tools for looking at network traffic as it&amp;rsquo;s going by with high
-level tools for making sense of what&amp;rsquo;s there.&lt;/p&gt;
-
-&lt;p&gt;As ever, all of these tools have both benign and malicious uses.
-If you can trick someone into using your proxy server for their
-traffic, all kinds of foolishness can result. Better is the use
-that you proxy your own traffic and behold all of the cookies,
-beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
 </description>
     </item>
     

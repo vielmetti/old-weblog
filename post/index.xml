@@ -6,8 +6,88 @@
     <description>Recent content in Posts on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2015 16:45:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2015 15:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ann Arbor City Council Preview for 17 August 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview/</link>
+      <pubDate>Sat, 15 Aug 2015 15:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview/</guid>
+      <description>&lt;p&gt;Ann Arbor City Council meets at 7:00 p.m. on Monday, 17 August 2015.
+A preview of the agenda is on Arborwiki, complete with a map, on the
+tag &lt;a href=&#34;https://localwiki.org/ann-arbor/tags/20150817ccmtg&#34;&gt;2015-08-17CCMTG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some highlights to note:&lt;/p&gt;
+
+&lt;p&gt;The consent agenda includes $36,412 for the purchase of 21 Taser weapons.
+This is a sole-source purchase, to replace weapons purchased in 2003.&lt;/p&gt;
+
+&lt;p&gt;Also on the consent agenda is $83,000 for a sole-source purchase to
+renew the CityWorks license, which is used for asset tracking and
+maintenance of city owned resources. Of that amount, $20,000 will be
+billed back to the Washtenaw County Water Resources Commissioner.&lt;/p&gt;
+
+&lt;p&gt;$110,000 would go for the continuation of CLEMIS Public Safety Information
+Sharing Services for the Ann Arbor Police Department for FY2016. CLEMIS
+runs the dispatch system for police and allows &amp;ldquo;information sharing&amp;rdquo;
+with other departments. It&amp;rsquo;s run by Oakland County.&lt;/p&gt;
+
+&lt;p&gt;HathiTrust has digitized many decades of Ann Arbor City Council minutes,
+and it it proposed that the city approve publication of those minutes through
+HathiTrust by clearing the copyright on those materials.&lt;/p&gt;
+
+&lt;p&gt;Public hearings include one on deer management, and there&amp;rsquo;s a proposal
+on the agenda to spend $90,000 on some combination of a deer cull by
+sharpshooters and sterlization of deer. Expect this to be a long public
+hearing.&lt;/p&gt;
+
+&lt;p&gt;In development news, there&amp;rsquo;s a proposed condominium development on N Main St
+adjacent to North Main Park, and hearings on proposed annexations on Nixon
+Road and on Ann Arbor - Saline Road.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re following the footing drain disconnect program closely, you&amp;rsquo;ll
+note that there&amp;rsquo;s a proposal to lend the builder of 618 South Main
+footing drain disconnect credits to allow for full occupancy of that building.&lt;/p&gt;
+
+&lt;p&gt;More of course at the full agenda. See you on the site plan barricades
+(er, see you at council).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tianjin explosion</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-14-tianjin-explosion/</link>
+      <pubDate>Fri, 14 Aug 2015 00:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-14-tianjin-explosion/</guid>
+      <description>&lt;p&gt;This passage from the English language Wikipedia has been repeatedly
+removed from the narrative of the explosion in Tianjin, China.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;Chinese authorities reportedly attempted to censor professional and
+social media reports. Social media users have reported that their
+posts regarding the blasts are being deleted, with the words &amp;ldquo;Tianjin&amp;rdquo;
+and &amp;ldquo;explosion&amp;rdquo; having become the most censored on Weibo.
+Journalists were kept away from the blast site. It was also
+reported that eight hours after the explosion, Tianjin Television
+was not reporting on the event, instead showing soap operas.
+Tianjin authorities banned reporters from sharing information about
+the disaster on Weibo and WeChat, and websites have been advised
+to follow state media. The Tianjin Internet Police &amp;ldquo;warned
+social media users to stick to official reports about the number
+of dead and injured&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;A CNN correspondent, Will Ripley, who took photos outside TEDA
+Hospital (Chinese: 泰达医院) was interrupted in a live report by
+upset friends and relatives of victims killed and injured in the
+blasts.&lt;/p&gt;
+
+&lt;hr/&gt;
+</description>
+    </item>
     
     <item>
       <title>Zeno&#39;s inbox</title>
@@ -501,103 +581,6 @@ grid of squares with people&amp;rsquo;s photos in them, so that I could see at
 a glance who was in my inbox?&lt;/p&gt;
 
 &lt;p&gt;Once you start to sort one thing, you want to sort everything.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>mitmproxy</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</link>
-      <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</guid>
-      <description>&lt;p&gt;In his &lt;a href=&#34;http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/&#34;&gt;An internet x-ray machine for the masses&lt;/a&gt;, Paul Ohm writes a lucid introduction to
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;mitmproxy&lt;/span&gt;,
-a man-in-the-middle proxy server that allows you to
-get between your browser and the Internet and poke at
-(and change) the traffic going between the two.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mitmproxy.org&#34;&gt;http://mitmproxy.org&lt;/a&gt; is the home of mitmproxy. It&amp;rsquo;s
-the work of &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Aldo Cortesi&lt;/span&gt; and a cast of
-hundreds of contributors on github at &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;https://github.com/mitmproxy/mitmproxy&lt;/a&gt; .
-I used the OS X binary distribution from the download page.
-There&amp;rsquo;s also a nifty Dockerized version on
-Dockerhub as &lt;a href=&#34;https://registry.hub.docker.com/u/mitmproxy/mitmproxy/&#34;&gt;docker pull mitmproxy/mitmproxy&lt;/a&gt;
-to get you started quickly too.&lt;/p&gt;
-
-&lt;p&gt;Man-in-the-middle (or monkey-in-the-middle) systems are not
-new, of course, and Dug Song&amp;rsquo;s &lt;a href=&#34;http://www.monkey.org/~dugsong/dsniff/&#34;&gt;dsniff&lt;/a&gt;
-package dates to 1999. What we&amp;rsquo;ve learned in a decade and a half
-is that security through obscurity vanishes in the face of better
-tools for looking at network traffic as it&amp;rsquo;s going by with high
-level tools for making sense of what&amp;rsquo;s there.&lt;/p&gt;
-
-&lt;p&gt;As ever, all of these tools have both benign and malicious uses.
-If you can trick someone into using your proxy server for their
-traffic, all kinds of foolishness can result. Better is the use
-that you proxy your own traffic and behold all of the cookies,
-beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Soundcloud, now and in the future</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-31-soundcloud/</link>
-      <pubDate>Fri, 31 Jul 2015 02:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-31-soundcloud/</guid>
-      <description>&lt;p&gt;If you have exactly one copy of something and it&amp;rsquo;s only on Soundcloud,
-this would be an opportune time to make a backup. That&amp;rsquo;s always a good
-idea anyway not to rely on single web servers for anything, but it&amp;rsquo;s
-especially notable in the light of these articles.&lt;/p&gt;
-
-&lt;p&gt;First, the upbeat &lt;a href=&#34;http://www.bloomberg.com/news/features/2015-07-10/can-soundcloud-be-the-facebook-of-music-&#34;&gt;Bloomberg Business&lt;/a&gt; article of July 10, 2015:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;hellip; SoundCloud’s potential is fascinating, and perhaps unique.
-The founders have ambitious goals that respond to changes in the
-way music and sound are created and consumed. It’s a beautiful
-dream. So long as all the crucial participants—labels, publishers,
-artists, SoundCloud itself—can agree on how to share it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Next, the downbeat &lt;a href=&#34;http://www.techtimes.com/articles/72325/20150729/soundcloud-losing-money-fast-as-record-labels-apply-licensing-pressure.htm&#34;&gt;Tech Times&lt;/a&gt; on July 29, 2015:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We recently reported on rumors that popular music streaming service
-SoundCloud is planning on adding a subscription-based tier to its
-currently all-free streaming service, and that rumor was just
-confirmed by company co-founder Eric Wahlforss in a conversation
-with the Wall Street Journal. Now, it appears that the impetus
-behind the development of the subscription tier is clear: the company
-is in dire need of cash.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&amp;ldquo;Dire need of cash&amp;rdquo; because record labels are not thrilled with
-the beautiful dream of listening to the world&amp;rsquo;s music for free.
-Remember how Napster turned out? It was a beautiful dream, too,
-but labels and publishers just saw it as piracy. This from
-&lt;a href=&#34;http://www.edmtunes.com/2015/06/editorial-believe-it-or-not-soundcloud-is-fighting-the-good-fight/&#34;&gt;EDM Tunes&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The 2015 SoundCloud controversy is Napster all over again. We
-aren’t sharing files anymore, we’re sharing sound. 15 years ago
-record labels objected to us downloading their music, now they
-object to us streaming it&amp;hellip;.&lt;/p&gt;
-
-&lt;p&gt;Like Napster, SoundCloud is a goldfish that’s been unwillingly
-thrust into battle with three super-wale companies. Just for a
-matter of reference, consider that SoundCloud has about 200 employees,
-while the Sony, Universal, and Warner corporate networks employ
-more than 200,000. At this point, SoundCloud is fighting to survive,
-and unfortunately has received a lot of critical media attention.
-Since its 2007 inception, SoundCloud has served as a haven for
-electronic music producers and fans; allowing sound to be seamlessly
-shared from artist to listener. This luxury is being threatened,
-and we’re all pissed about it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So, enjoy Soundcloud while you can, and when you are producing things
-for it make sure you keep a backup on your own machines!&lt;/p&gt;
 </description>
     </item>
     
