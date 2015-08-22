@@ -52,6 +52,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-august-farmers-market-report" class="list-group-item">August 2015 Farmers Market report</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-ashley-madison-ann-arbor" class="list-group-item">Ashley and Madison, Ann Arbor</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-19-liquid-contact-indicator-tripped" class="list-group-item">Liquid contact indicator tripped</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview" class="list-group-item">Ann Arbor City Council Preview for 17 August 2015</a></li>
@@ -87,14 +91,14 @@
 	<li><a href="http://vielmetti.github.io/sidebar/todo" class="list-group-item">todo</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy" class="list-group-item">mitmproxy</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-soundcloud" class="list-group-item">Soundcloud, now and in the future</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-favorite-times-to-twitter" class="list-group-item">Favorite times for twitter</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4034,6 +4038,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -11915,6 +11923,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12218,6 +12230,44 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>29 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-29-building-a-dipole-antenna-for-your-sdr-tuner-stick-from-an-old-set-of-headphones/">Building a dipole antenna for your SDR tuner stick from an old set of headphones</a>
+      </h3>
+      <p>Some notes before I try to do the build.</p>
+
+<p>The parts I have or know I can get: cheap earbud headphones, NooElec NESDR Mini 2 SDR tuner stick with whip antenna, Nokia 635 phone, antenna from an older NESDR Mini SDR tuner stick.</p>
+
+<p>Parts I need: a short adapter cable that provides antenna in for the SDR stick as a headphone jack socket.</p>
+
+<p>The SDR tuner comes with an antenna, but I want to replace it with a dipole - especially one cut to have a center point for FM broadcast on 88.3 (WCBN) and a second one for 2 meter ham radio on local repeaters (W8UM on 145.23 and N8DUY on 145.15). Some sort of adapter jack (or alligator clips) should be all I need.</p>
+
+<p>I can test the antenna on my Nokia 635 which has an FM tuner connected with the headphone jack as the antenna, and the ideal situation will be to have an antenna that I can just plug either into my phone or into my SDR tuner interchangeably. Once I figure all that out, the next next step is to make these antenna inputs for other radios. One step at a time though.</p>
+
+<p>I'll be working from the tutorial <a href="http://willus.com/author/antenna.shtml">Making a Dipole FM Antenna</a> on willus.com .</p>
+
+
+  <h3>23 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/">Running Node-RED on a Raspberry Pi with Docker and Hypriot</a>
+      </h3>
+      <p>My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there's distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here's where I got the parts.</p>
+
+<p><a href="http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">Hypriot's gettting started guide</a> brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.</p>
+
+<p>Hypriot has a <a href="https://gitter.im/hypriot/talk">chat window</a> on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.</p>
+
+<p>Docker's <a href="https://hub.docker.com/">DockerHub</a> is a one stop shop for packaged applications. When you're running on the Pi, you'll want to seek out versions with 'rpi' or 'arm' in their names as they have likely been adapted for that system.</p>
+
+<p>I ended up pulling Niel Eyde's Raspberry Pi versions of Node-RED from DockerHub as <a href="https://registry.hub.docker.com/u/nieleyde/rpi-nodered/">nieleyde/rpi-nodered</a>. It has all sorts of interesting modules that I had not previously built.</p>
+
+<p>Node-RED is at 0.10.6 at this writing. Its <a href="http://nodered.org/docs/hardware/raspberrypi.html">Raspberry Pi support</a> includes hardware support using <a href="http://wiringpi.com/">WiringPi</a> to access the GPIO pins. </p>
+
+<p>Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have <a href="http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/">merged forces</a> after a fork, which means hopefully development will start to be sane again.</p>
+
+<p>That all said I am not sure I have everything I need yet but as a leap forward it's pretty good!</p>
 
 
   <h3>17 May 2015</h3>
@@ -12622,40 +12672,6 @@ was behind the counter sorting out the morning flow and talking about the farmer
 <p>Next was to grab one of the many versions of "dump1090" which uses the SDR radio to tune to aircraft ADS-B broadcasts that give you a version of aircraft radar. This also worked well, perhaps better than I could have expected. From home with an antenna in the middle of the house I could hear airplanes just north of Jackson, MI from Ann Arbor, MI (about 40 miles). I relocated to a cafe near the dog park (Ellsworth at Platt) that has a good view of the southern sky, and the same little bitty antenna pulled in reception from airplanes near Fort Wayne, IN (about 120 miles). </p>
 
 <p>There's always more to try, of course. GNU Radio is a full toolkit for building your own radio design, complete with FM decoders and the like, and it has a fairly simple to understand user interface compared to how complex the underpinnings are (remember, FORTRAN). There's lots more software that uses the RTL-SDR libraries and even a port to the Raspberry Pi which I'd like to try.</p>
-
-
-  <h3>24 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-24-the-mysterious-crash-of-4u9525-germanwings-flight-9525-in-the-french-alps/">The mysterious crash of</a>
-      </h3>
-      <p>My Twitter feed was full of air crash news this morning. Germanwings flight 9525 crashed in the French Alps, killing all passengers aboard. Wikipedia has a <a href="http://www.wikiwand.com/en/Germanwings_Flight_9525">good summary</a>, perhaps as good as any.</p>
-
-<p>What was unusual about the crash was that there was no distress call, and that the plane descended rapidly and steadily into the ground without veering once from its course.</p>
-
-<p>Of note in this regard is another European flight on a similar aircraft some months earlier. Lufthansa 1829 on Nov 5th 2014 lost 4000 feet/minute of altitude after having problems with its control systems. The <a href="http://avherald.com/h?article=47d74074">Aviation Herald story</a> was written a few days later, and it references emergency airworthiness directive <a href="http://ad.easa.europa.eu/blob/easa_ad_2014_0266_E.pdf/EAD_2014-0266-E_1">2014-0266-E_1 (pdf)</a>. <a href="http://aviation-safety.net/wikibase/wiki.php?id=171411">AviationSafety.net has a summary of that incident</a>:</p>
-
-<blockquote>
-  <p>During climb, 12 NM NW of Pamplona, at approximately Flight Level 310, the aircraft unexpectedly decreased the pitch autonomous and started to descend. The aircraft reached a rate of descent of up to 4,000 ft/min. The crew was able to stop the descent at Flight Level 270. The flight was continued and the aircraft landed safely at its destination Munich Airport. </p>
-</blockquote>
-
-<p>At least superficially the incidents seem related. I am not expert enough at aviation issues to know if there is a real connection, or if this is mere coincidence.</p>
-
-
-  <h3>24 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/">What&#39;s the most expensive parking space in Ann Arbor?</a>
-      </h3>
-      <p>Last night was the a2civictech meetup. We met at Zingerman's Next Door, there were 9 people who showed up, some familiar faces and some new ones.</p>
-
-<p>The nominal topic of the discussion was data quality, understanding how various data sets that come from civic sources have noise in them and looking at ways to deal with that. The best story was that of a well map that showed a hill in the middle of a lake, because the underlying data set had two wells with the same name and the person who built the map picked the wrong data to map.</p>
-
-<p>As always with these discussions the question turned to what data there might be available to look at, and how to get it. That led us to questions of what other people were doing with municipal data in other cities, and to this New York City parking ticket analysis: <a href="http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new">Success: How NYC Open Data and Reddit Saved New Yorkers Over $55,000 a Year</a>. It seems that there was a parking space in New York that looked like it was a legal spot, but turned out to be frequently ticketed because it was near a fire hydrant. After some analysis and publicity by Ben Wellington of I Quant NY, the NYC DOT repainted the stripes on the street to clearly mark this spot as a no-go.</p>
-
-<p>So the question becomes, how would you repeat this analysis for Ann Arbor, and what would you look for? Where are there locations that frequently generate tickets, what do they look like on a map, and how much ticket revenue comes per space?  And in the public interest, are there any spots that generate disproportionate ticket frequencies that should be looked at carefully to improve signage?</p>
-
-<p>It looks like a project. In New York there's a data catalog that includes this data set and many others; no such data has been released in Ann Arbor. So the first step is understanding what the process is for getting a year or two of ticket data to start analyzing it.</p>
-
-<p>Update: here's a <a href="http://www.ted.com/talks/ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data?language=en">TED Talk by Ben Wellington</a> on "How we found the worst place to park in New York City -- using big data".</p>
 
 
 

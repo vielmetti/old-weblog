@@ -52,6 +52,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-august-farmers-market-report" class="list-group-item">August 2015 Farmers Market report</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-ashley-madison-ann-arbor" class="list-group-item">Ashley and Madison, Ann Arbor</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-19-liquid-contact-indicator-tripped" class="list-group-item">Liquid contact indicator tripped</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview" class="list-group-item">Ann Arbor City Council Preview for 17 August 2015</a></li>
@@ -87,14 +91,14 @@
 	<li><a href="http://vielmetti.github.io/sidebar/todo" class="list-group-item">todo</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy" class="list-group-item">mitmproxy</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-soundcloud" class="list-group-item">Soundcloud, now and in the future</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-07-31-favorite-times-to-twitter" class="list-group-item">Favorite times for twitter</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4034,6 +4038,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -11915,6 +11923,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12218,6 +12230,119 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>5 October 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/">using &#34;jq&#34; for command line web applications for civic data</a>
+      </h3>
+      <p>One of the tools that I rediscovered and have been really happy for
+having done so is &ldquo;jq&rdquo;, a command line tool that bills itself as
+&ldquo;awk for json&rdquo;.</p>
+
+<p>I&rsquo;ve been writing awk code since 1985, and some limited subset
+of it is something that I know really, really well. awk, however,
+is from the punchcard era, and as such it likes to deal with records
+that are all on one line each. Parsing JSON in awk is very clumsy
+and ad hoc and really doesn&rsquo;t work all that well. Since most Internet
+APIs these days have some kind of JSON encoding, it means that you
+can&rsquo;t simply dash off an awk one-liner to consume and transform
+Internet input data.</p>
+
+<p>jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&rsquo;s garages:</p>
+
+<blockquote>
+  <p>curl -s http://www.a2dda.org/map/AADDACount.json |
+  jq "[.countdata[].spacesavail | tonumber] | add" </p>
+</blockquote>
+
+<p>I&rsquo;m not going to try to explain how jq works, except to note that
+it&rsquo;s constructed in order to be a filter: data comes in one JSON
+object at a time, and the script iterates over them, transforming
+them in some way and then passing JSON out the other end. This makes
+it perfect for ad hoc Unix pipeline efforts where you&rsquo;re chipping
+away at a data set trying to make sense of it by successively
+refining it as you go.</p>
+
+<p>I&rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
+bus system data, and for the Marquette Park Cemetery data. The
+parking data is straightforward, since it exits the system as JSON.
+Bus system data is only incrementally harder; it started either as
+HTML or as XML, and for that you want to use &ldquo;tidy&rdquo; and &ldquo;xml2json&rdquo;
+in your pipeline. The Park Cemetery data set started as JSON via
+the Socrata SODA API, but I needed little bits of &ldquo;sed&rdquo; and &ldquo;perl&rdquo;
+to smooth out some rough edges in the source data; it really wants
+to end up as GeoJSON when I&rsquo;m done, but it isn&rsquo;t there quite yet.</p>
+
+<p>Shell programming is my favorite programming environment. Any time
+I can take a set of well-understood tools and crunch through big
+data sets with only a few lines of code, I&rsquo;m happy. The challenge
+of shell programming is that it&rsquo;s full of opportunities to get
+things just a little bit wrong with parsing; by making JSON the
+data format that&rsquo;s shoveled between programs rather than a flat
+one-record-per-line text format, you open up the opportunity for
+pulling apart rather complex structures and manipulating them with
+hardly any work.</p>
+
+<p>For further reading, see Jeroen Janssens new book <a
+href="http://datascienceatthecommandline.com/">Data Science at the
+Command Line</a> which works you way through dozens of tools like
+this that can help manage big data without big programs.</p>
+
+
+  <h3>5 October 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-10-05-notes-on-building-the-marquette-park-cemetery-finder-app-for-code-michigan/">Notes on building the Marquette Park Cemetery finder app for Code Michigan</a>
+      </h3>
+      <p>I'm working on a tool or a set of tools to assist people in finding grave sites in the Park Cemetery in Marquette, Michigan as a part of a project for Code Michigan. I'm working with a team that's based in the U.P. to do this, and we're collaborating over Google Hangouts. Code Michigan is a hackathon, so this project timeline is compressed to a single weekend. The team is Edward Vielmetti, Jim Argeropoulos, Chris Marr, and Lynn Czarnecki Makela. </p>
+
+<p>My motivation for picking the grave finder app is a personal one. My grandmother, Ada Burt Vielmetti, is buried in Park Cemetery, and I've never visited the grave because I didn't know where it was. The cemetery covers over 100 acres so it's impractical to just wander around until you find what you're looking for, and there wasn't an online finder's aid. When the Code Michigan challenge came about it was an obvious task to tackle.</p>
+
+<p>It turns out that providing detailed location data for individuals seeking to find people inside this cemetery is a common civic task. The role of the sexton, aside from care for the physical properties inside the cemetery, is to guide people to where they are looking for. This could be the grand burial grounds of famous and wealthy people with a beautiful mausoleum, or it could be a simple marker underfoot. In any case the challenge is to provide someone with enough guidance so that they can get close enough to the spot that they can locate exactly the one spot that is of interest.</p>
+
+<p>Some notes on technology:</p>
+
+<p>The maps problem for any geolocation task relies heavily on work that's been done before. Base maps of the city are available from Google, but the Google panopticar has not traversed all of the cemetery lanes and the Google map doesn't show the structure of the roads that you can walk or drive down. Open Street Map is better, in that it does have more detail within the cemetery, but it doesn't go down to the individual grave level.</p>
+
+<p>On top of the base map with roads, there's a plat map showing the sections of the cemetery that's available in PDF format from the city. Our team took this plat map, field checked it, and encoded plat boundaries as GeoJSON files so that we had an accurate representation of the area within the cemetery that an individual could be located. This brings the task down to a range, rather than a specific point, but it's practical enough and a small and precise enough area to be a useful first step.</p>
+
+<p>The data about individual burial locations in Park Cemetery was provided to use using the Socrata SODA API. A challenge here was that the "location" field, a critical one for our use, was encoded in such a way that a simple download of the data would not yield an immediately usable result since the location (in latitude and longitude) of an individual grave is not known. We addressed that issue by using the API's JSON download function to return not only the valid fields in the data but also the ones marked invalid, and a post-processing step cleaned the data to extract a valid "plat" field from the provided data.</p>
+
+<p>JSON is a very easy to manipulate format, and I used two tools that are documented in the new book <a href="http://datascienceatthecommandline.com/">Data Science at the Command Line</a> by Jeroen Jansens. "jq" is like sed for JSON data – you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text. "json" offers powerful and flexible tools for taking JSON data and printing it in flexible formats. Between those two tools and a bit of other Unix command line efforts with "sed" and "perl", it was possible to write a handful of one-line transformations that take the Socrata data and turn it into a more compact JSON and HTML format for use directly inside applications.</p>
+
+<p>By running these transformations on the 12,000 plus record original dataset, I was able to pull out just the location information and basic personal details for everyone - including my Nana. This gets turned into a series of files, one per cemetery section, sorted by lot number so that there's a chance that you could walk a section methodically and have the data be your guide to whether you are close to what you're looking for.</p>
+
+<p>To publish the data in a format that is useful to the world, I turned to an old favorite, Localwiki. This comes with a number of useful tools right off the bat. At one file per cemetery section (e.g. <a href="https://localwiki.org/marquettemi/Marquette_Park_Cemetery_-_Jenney_W">Jenney W</a> the sorted HTML list loads easily into the list. The GeoJSON we created can be imported using the Localwiki API, or cemetery areas or points can be hand-plotted on an OpenStreetMap based map. Names for which Localwiki has more information can be linked. (I resisted the temptation to link every name, though if you had more coverage it would be the obvious next step). </p>
+
+<p>Localwiki is good for this effort for a few reasons. It has a local search tool that lets you type in a name and get something in return. While not as precise as a purpose-built search tool, it's easy to implement, and at 12,000 records spread out into a few dozen sections no individual file is too big to load. We know that Localwiki is good for local search, and eventually when the pages are indexed they will be reachable by Google search as well. </p>
+
+<p>The community aspect of civic data use with Localwiki is an important one. No municipal employee can ever hope to gather biographical data on 12,000 cemetery residents, but we want to support citizens in their interest to collect and refine as much detail as they need to memorialize or to research personal and community history.</p>
+
+<p>In addition to loading Park Cemetery data into Localwiki, we also pursued a prototype of a purpose-built application designed specifically for mobile phone sized screens that would provide a name index and a plat finder for people who are on site. The goal is to reduce the complexity of the problem down to type in a name and get something back on a map that includes a dot saying where you are. This system uses Drupal as a back end, with maps provided through a responsive front end system specially adapted to look good on a mobile phone sized screen. Links are provided to Localwiki for reference data, and the design includes ways for individuals to quickly add to or verify location information so that you can pinpoint a spot.</p>
+
+<hr/>
+
+<p>Some lessons learned from the effort, which isn't done yet but getting close!</p>
+
+<p>It's important to have a variety of skills on your team. We divvied up the problem into parts that were simple enough for each of us to tackle based on our own skills, and sorted through coordination issues via periodic Google Hangout calls. When you're working using tools you are good at and on things you find challenging but not impossible, there's a lot of room for making progress in a short time.</p>
+
+<p>Tools and standards help. We discovered GeoJSON mid-day through day 2, and were able to use it almost immediately to extend our data to be reusable without recoding on multiple platforms. Similarly, the combination of the Socrata SODA API and the powerful "jq" and "json" tools turned a complete data processing problem into a handful of lines of code.</p>
+
+<p>When there's a real problem to be solved, it's easier to see that you are successful. Two members of the team have family members buried in Park Cemetery. With the toolset we developed, we were able to find those graves, photograph the headstones, and decide how to incorporate that data into Localwiki. Knowing now that the problem is solvable with the data provided, it simply follows to extend that solution to a broader set of tasks.</p>
+
+<p>Usable prototypes are more valuable than pixel-perfect finished products. Localwiki let me test ideas almost immediately, without much more than a little bit of coding needed to get to a point where a search engine would return a useful result. The tooling we built for the mobile app got to a usable demo phase promptly. A handful of photographs from the field were enough to not only field-check the data that we had, but also to better understand what we could do when there was more time to do it.</p>
+
+<p>A weekend is not a lot of time to get much beyond the prototype stage.</p>
+
+<hr />
+
+<p>We're not done yet. The contest rules want a video, and we're working on the storyboard. The coding is done, but Localwiki is never really done, and there are some pages to make more spiffy and full of useful content. But in some sense I feel like we've already succeeded, in that a completely hidden system got turned into something that I'm starting to understand.</p>
+
+<p>The proof, perhaps, is that we were able to put together a team that answered the question: where is Nana buried? The proof below.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a943970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0792a943970d img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="WP_003205" title="WP_003205" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a943970d-600wi" /></a><br /></p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a95c970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01bb0792a95c970d img-responsive" style="width: 439px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2014-10-05 at 1.35.20 AM" title="Screen Shot 2014-10-05 at 1.35.20 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb0792a95c970d-450wi" /></a><br /></p>
 
 
   <h3>4 October 2014</h3>
@@ -12592,32 +12717,6 @@ be cleaned up that drags down progress.</p>
       <a href="http://vielmetti.github.io/post/2014/2014-09-28-export-everything-is-missing-on-ello/">export everything is missing on ello</a>
       </h3>
       <p>I don't see an "export all my work here" button on ello, the new trendy social network. So I am unlikely to put anything there that I am unwilling to have destroyed on a moment's notice.</p>
-
-
-  <h3>28 September 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-09-28-a-blow-to-the-head-but-back-in-the-game/">a blow to the head, but back in the game</a>
-      </h3>
-      <p>The tone of Michigan football blogs has changed since the loss to Minnesota on Saturday. Before the game there was a lot of grumbling, but it was varied; no one single issue stood out. After the game, it was much more clear.</p>
-
-<p>A series of plays saw the second string Michigan quarterback, Shane Morris, get hit hard on his head. Morris is seen exhibiting signs of a concussion. Yet in an unfortunate sequence he goes back into the game after sitting out one play on the sidelines.</p>
-
-<p>Fans now have a pinpoint spot to point their anger at coach Brady Hoke. The team lost, but it's not all about winning and losing. What matters now is the understanding of the coaching staff and their inability to protect an obviously injured student from further harm.</p>
-
-<p>Michigan has gotten funding to reduce the risk of concussions in sports. It appears that all that effort was for naught in this particular instance of not protecting a player whose judgment was impaired because of a head injury. Coach Hoke is under fire and for good reason.</p>
-
-
-  <h3>28 September 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-09-28-the-late-age-of-blogging/">the late age of blogging</a>
-      </h3>
-      <p>The revolution will not be blogged. It will be twittered or facebooked or elloed or plurked, but blogging is not a revolutionary activity in the new era of the net.</p>
-
-<p>The process of writing for your own web site and then announcing that you have something new to say to the world is perhaps the least efficient way of getting news to the world. It is so much easier and more efficient to drop that news inside a walled garden of publishing and have it ricochet quickly inside the walls.</p>
-
-<p>If blogging is old school, and slow and cumbersome, then why bother? I can only point to the benefits of having at least the illusion of control over your own words. The instant message instantly delivered inside the AOL chat room or Facebook page or you name your walled garden of choice gets to where it's going fast, but once it's off the screen it's gone. Blogging at least gives you the hope that if you wanted to see something from 10 years ago that it would still be there. </p>
-
-<p>Enduring is a virtue that lends itself to systems that sometimes are more cumbersome for their long use. I am reasonably sure that I will be able to locate this post in 5 or 15 years, even if the nature of publishing on blogs means only a few people will read it the same day it was written.</p>
 
 
 
