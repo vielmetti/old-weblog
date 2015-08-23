@@ -6,8 +6,36 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2015 23:55:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2015 11:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GQRX based radio scanner with gqrx-scan</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-23-gqrx-scanner/</link>
+      <pubDate>Sun, 23 Aug 2015 11:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-23-gqrx-scanner/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/khaytsus/gqrx-scan&#34;&gt;gqrx-scan&lt;/a&gt; is a Perl script
+that drives the remote control of the &lt;a href=&#34;http://gqrx.dk/&#34;&gt;gqrx&lt;/a&gt; software
+defined radio receiver to turn it into a scanner and automated recording tool.&lt;/p&gt;
+
+&lt;p&gt;The GQRX &lt;a href=&#34;http://gqrx.dk/doc/remote-control&#34;&gt;remote control protocol&lt;/a&gt; is
+well documented and fairly simple, which means that the bulk of the
+Perl script has to do with setting and getting options. You can drive
+your scanner from the GQRX configuration file, or you can monitor
+a specific band or range of frequencies. It will even toggle the record
+mode in GQRX so that you can save what you&amp;rsquo;re listening to a file.&lt;/p&gt;
+
+&lt;p&gt;Because the system is driven from a file, I would like to see more
+example files in the distribution - e.g. one that had all of the
+GMRS/FRS frequencies already typed in so that you could start scanning
+those bands immediately. But that&amp;rsquo;s a quibble, and more to the point
+that&amp;rsquo;s something that I can do next when the next time I&amp;rsquo;m ready to
+contribute to the project.&lt;/p&gt;
+
+&lt;p&gt;Credit goes to Github user &lt;a href=&#34;https://github.com/khaytsus&#34;&gt;khaytsus&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using Github Issues and Waffle.io as a personal kanban board</title>
@@ -516,43 +544,6 @@ to turn out to vote.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://electionresults.ewashtenaw.org/electionreporting/aug2015/index.jsp&#34;&gt;UnOfficial Election Results, August 4, 2015 City Primary Election&lt;/a&gt;, Wasthenaw County&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>expertise encapsulated into out of date memory banks</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-03-expertise/</link>
-      <pubDate>Mon, 03 Aug 2015 22:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-03-expertise/</guid>
-      <description>&lt;p&gt;In the case of experts &amp;ldquo;writing down what they know&amp;rdquo;, and
-incorporating that data into an expert system or knowledge base.&lt;/p&gt;
-
-&lt;p&gt;One of the challenges is expecting that the expert can write down
-everything that they know, all at once, in such a way that there&amp;rsquo;s
-no internal inconsistencies.&lt;/p&gt;
-
-&lt;p&gt;The world usually works in such a way that it&amp;rsquo;s changing fast enough
-that an expert with a written memory bank of a certain size is
-always holding as &amp;ldquo;true&amp;rdquo; in that memory bank something that is
-demonstrably false, just because the world shifts out from under
-them. Even if you have an iron-clad commitment to keeping the
-memory bank narrowly scoped and revisiting every element of it to
-refresh it periodically, the nature of written memory is to grow more and more
-out of date or to consume more and more resources to keep fresh.&lt;/p&gt;
-
-&lt;p&gt;The map is not the territory - and even if by some miracle the map
-at one time was perfectly matched with the world - the world changes
-fast enough that we can&amp;rsquo;t know any more than a small part of it.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Inspired by the impossible task of keeping a Localwiki fresh in
-the face of reflecting changes in a city, by Brian Eno&amp;rsquo;s quote
-&amp;ldquo;Forgetting is as important as remembering&amp;rdquo;, and by
-Jerry Michalski&amp;rsquo;s &amp;ldquo;The Brain&amp;rdquo; magnum opus. Of course I forget where I
-read the Eno quote, and a search for it turns up William James saying
-the same thing in 1892, but Eno is easier to remember as a source.&lt;/p&gt;
 </description>
     </item>
     

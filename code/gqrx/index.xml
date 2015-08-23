@@ -6,8 +6,36 @@
     <description>Recent content in Gqrx on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2015 21:06:09 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2015 11:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/code/gqrx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GQRX based radio scanner with gqrx-scan</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-23-gqrx-scanner/</link>
+      <pubDate>Sun, 23 Aug 2015 11:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-23-gqrx-scanner/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/khaytsus/gqrx-scan&#34;&gt;gqrx-scan&lt;/a&gt; is a Perl script
+that drives the remote control of the &lt;a href=&#34;http://gqrx.dk/&#34;&gt;gqrx&lt;/a&gt; software
+defined radio receiver to turn it into a scanner and automated recording tool.&lt;/p&gt;
+
+&lt;p&gt;The GQRX &lt;a href=&#34;http://gqrx.dk/doc/remote-control&#34;&gt;remote control protocol&lt;/a&gt; is
+well documented and fairly simple, which means that the bulk of the
+Perl script has to do with setting and getting options. You can drive
+your scanner from the GQRX configuration file, or you can monitor
+a specific band or range of frequencies. It will even toggle the record
+mode in GQRX so that you can save what you&amp;rsquo;re listening to a file.&lt;/p&gt;
+
+&lt;p&gt;Because the system is driven from a file, I would like to see more
+example files in the distribution - e.g. one that had all of the
+GMRS/FRS frequencies already typed in so that you could start scanning
+those bands immediately. But that&amp;rsquo;s a quibble, and more to the point
+that&amp;rsquo;s something that I can do next when the next time I&amp;rsquo;m ready to
+contribute to the project.&lt;/p&gt;
+
+&lt;p&gt;Credit goes to Github user &lt;a href=&#34;https://github.com/khaytsus&#34;&gt;khaytsus&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>W8UM 145.23 repeater for Sunday night net, 19 April 2015</title>
