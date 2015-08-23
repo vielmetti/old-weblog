@@ -6,7 +6,7 @@
     <description>Recent content in Waffle on tracker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Nov 2014 09:14:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2015 23:55:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/code/waffle/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -46,6 +46,47 @@ isn&#39;t changing much as a product.&lt;/p&gt;
 &lt;p&gt;SweepBoard, &lt;a href=&#34;http://sweepboard.com/&#34;&gt;sweepboard.com&lt;/a&gt;. Free for open source projects.&lt;/p&gt;
 
 &lt;p&gt;When I first started finding these sorts of things, I didn&#39;t really realize that it was a whole category of products. Most of them have some other features beyond the kanban to add to Github as a project management tool. I don&#39;t think there&#39;s a category winner, but if you are interested in visualizing your work and taking your todo list beyond the simple long list this is a useful set of tools to explore.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Github Issues and Waffle.io as a personal kanban board</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-22-github-waffle-kanban-board/</link>
+      <pubDate>Sat, 22 Aug 2015 23:55:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-22-github-waffle-kanban-board/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using Github issues to track my personal todo list for quite some
+time now, and since November I&amp;rsquo;ve been using Waffle.io to help that process.&lt;/p&gt;
+
+&lt;p&gt;Waffle in this use is a view of a series of queues in my todo list. Most everything
+that I&amp;rsquo;m not doing now lives in the &amp;ldquo;backlog&amp;rdquo; queue, which I try to keep to
+less than 100 just to keep myself sane. (At more than 100 there&amp;rsquo;s usually a lot
+of duplicates; at less than 100 I&amp;rsquo;m probably not acknowledging that there&amp;rsquo;s
+something to be done). The &amp;ldquo;Ready&amp;rdquo; and &amp;ldquo;In Progress&amp;rdquo; queues hold no more than
+5 tasks apiece, since I want to keep everything in that state visible on
+the screen. Finally the &amp;ldquo;Done&amp;rdquo; queue reflects how much work there is that
+actually got accomplished over the last week, and I&amp;rsquo;d love to say that was
+hovering at about 50 tasks a week though right now it&amp;rsquo;s only at 34.&lt;/p&gt;
+
+&lt;p&gt;Github issues are more than capable of handling a personal todo list - indeed
+it has a lot of features that if you tried to use all of them you&amp;rsquo;d quickly
+find that too much of your time was perfecting your lists and not enough
+time was spent doing things. So the challenge is coming up with a simple
+configuration of the system that doesn&amp;rsquo;t ignore what might be done, but that
+focuses on what really needs to be done.&lt;/p&gt;
+
+&lt;p&gt;The inspriation for all of this is Jim Benson&amp;rsquo;s &amp;ldquo;Personal Kanban&amp;rdquo;, and his
+observation that really the task simplifies down to two rules:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Limit work in progress&lt;/li&gt;
+&lt;li&gt;Visualize your work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The rest is merely commentary.&lt;/p&gt;
+
+&lt;p&gt;(Now I get to drag task 3568, &amp;ldquo;Write up use of Waffle for Vacuum blog&amp;rdquo;, into the
+&amp;ldquo;Done&amp;rdquo; category, which is kinetically very satisfactory.)&lt;/p&gt;
 </description>
     </item>
     
