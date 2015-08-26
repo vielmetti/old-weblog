@@ -6,8 +6,62 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2015 22:45:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2015 00:40:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First pass at MongoDB</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb/</link>
+      <pubDate>Wed, 26 Aug 2015 00:40:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb/</guid>
+      <description>&lt;p&gt;Somehow I never learned SQL along the way. At various times I have
+learned enough of the database lingo (inner join, outer join etc) to
+know where I missing things, and I have a lot of experience with common
+Unix tools (grep, sed, awk) and some newfangled tools (jq, csvkit) to
+be able to turn a big pile of data into a smaller pile of data. But
+I don&amp;rsquo;t have database chops per se right now, and sometimes that&amp;rsquo;s a
+limiting factor on projects when the data sets are too big.&lt;/p&gt;
+
+&lt;p&gt;JSON formatted data seems to have won the data serialization wars, so
+that at least transforms the problem on input; with jq (now in release 1.5)
+you can take a stream of JSON formatted data that&amp;rsquo;s almost what you want
+and mangle it until it&amp;rsquo;s really what you want. Lots of web APIs spit out
+some flavor of JSON, and even if it&amp;rsquo;s not precisely formatted to be ready
+for input into something else, at least there&amp;rsquo;s a straightforward way to
+munge it into something better.&lt;/p&gt;
+
+&lt;p&gt;That leaves the task of dumping these JSON blobs into a database, in
+such a way that you can relatively easily get something back out of the
+database that answers what you are really trying to answer again. Here
+the world splits into two pieces: the SQL databases that have been taught
+how to deal with JSON (specifically PostgreSQL, as of version 9.3), and the
+so-called NoSQL databases (specifically MongoDB).&lt;/p&gt;
+
+&lt;p&gt;Even Mongo knows that &lt;a href=&#34;http://blog.mongodb.org/post/62899600960/scaling-advice-from-mongohq&#34;&gt;scaling MongoDB is hard&lt;/a&gt;, though
+they frame it as the first 100 gigabytes of data stored in the system is
+easy. Fortunately, the first set of tasks I have to throw at this particular
+problem space are relatively small, databases measured in the 10s of megabytes.
+Pretty much anything will work - even grep - on this size data. The
+challenge becomes more of a how fast can you get something real running
+that has relatively simple queries, relatively performant results, and
+that can run on inexpensive hardware.&lt;/p&gt;
+
+&lt;p&gt;So I learned just enough Mongo to handle one tiny task: connect to an API,
+download some data periodically, clean it up enough so that it&amp;rsquo;s regular,
+and store it away; and then construct queries that are conceptually simple
+but that answer real questions. From there, do the ad hoc queries that prove
+to yourself that you have the right data, and then bootstrap some web
+app on top of all that to show off what you&amp;rsquo;ve done.&lt;/p&gt;
+
+&lt;p&gt;The results here accomplish a relatively complex task with a handful of
+lines of code. An API from a local agency is queried that has real time data.
+That data gets cleaned up and standardized and then inserted into a Mongo
+database. It&amp;rsquo;s all of 6 lines of code.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/vielmetti/85d5fba07b98e552c912.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Listening to Radio Havana Cuba via a shortwave software defined radio</title>
@@ -435,41 +489,6 @@ it&amp;rsquo;s free after all, and it&amp;rsquo;s old - but it&amp;rsquo;s not g
 working on a system that doesn&amp;rsquo;t support growth is a recipe for
 stagnatation. Where I used to count on a new person every week from
 Yahoo Groups I now only get 10-15 new subscribers a year.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>wakatime, an automatic time tracker for programmers</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-05-wakatime/</link>
-      <pubDate>Wed, 05 Aug 2015 23:45:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-05-wakatime/</guid>
-      <description>&lt;p&gt;Wakatime tracks your time if you&amp;rsquo;re a programmer. It does this by
-integrating into your favorite text editor (including vim) and your
-favorite source code maintainence system (including Github) and then
-matching time spent editing with checkins into your system. It collects
-stats behind the scenes and turns everything into a shiny dashboard.
-&amp;ldquo;Fitbit for programmers&amp;rdquo; is the tag line.&lt;/p&gt;
-
-&lt;p&gt;That which is measured, improves. I don&amp;rsquo;t know if wakatime will improve
-your writing, or your coding, or your general state of mind. What I do
-know is that manually tracking your time is a pain, and that anything
-you can do to manage to keep things running in your time accounting
-system that doesn&amp;rsquo;t require a lot of manual labor is very helpful.&lt;/p&gt;
-
-&lt;p&gt;The problem, of course, is that you generally don&amp;rsquo;t spend all of your
-time inside a text editor. (But maybe you should! Just think how much
-more productive you&amp;rsquo;d be.) Wakatime can be set up to also track you
-in Chrome and pinpoint just how many hours per day get
-absorbed by Twitter or Gmail or Facebook.&lt;/p&gt;
-
-&lt;p&gt;If I know myself, this is going to be a temporary enthusiasm. My
-experience with the whole &amp;ldquo;quanitifed self&amp;rdquo; world is to know that
-some months in the summer, my normal step count is well over 10000,
-and that in the winter time it&amp;rsquo;s well under 10000, just because of
-Michigan&amp;rsquo;s grey February. Benchmarking time spent sometimes makes you
-work more mindfully, and sometimes just recognizes immutable human
-issues that no amount of mechanical impetus will change.&lt;/p&gt;
 </description>
     </item>
     

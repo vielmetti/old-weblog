@@ -69,6 +69,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb" class="list-group-item">First pass at MongoDB</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba" class="list-group-item">Listening to Radio Havana Cuba via a shortwave software defined radio</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-summer-dinner" class="list-group-item">Summer dinner</a></li>
@@ -106,12 +108,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-03-expertise" class="list-group-item">expertise encapsulated into out of date memory banks</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-03-michigan-emergency-incidents" class="list-group-item">Michigan Emergency Incidents and overnight storm report</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-02-small-multiples" class="list-group-item">Small multiples</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4063,6 +4065,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -11968,6 +11972,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12271,6 +12277,57 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>26 August 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb/">First pass at MongoDB</a>
+      </h3>
+      <p>Somehow I never learned SQL along the way. At various times I have
+learned enough of the database lingo (inner join, outer join etc) to
+know where I missing things, and I have a lot of experience with common
+Unix tools (grep, sed, awk) and some newfangled tools (jq, csvkit) to
+be able to turn a big pile of data into a smaller pile of data. But
+I don&rsquo;t have database chops per se right now, and sometimes that&rsquo;s a
+limiting factor on projects when the data sets are too big.</p>
+
+<p>JSON formatted data seems to have won the data serialization wars, so
+that at least transforms the problem on input; with jq (now in release 1.5)
+you can take a stream of JSON formatted data that&rsquo;s almost what you want
+and mangle it until it&rsquo;s really what you want. Lots of web APIs spit out
+some flavor of JSON, and even if it&rsquo;s not precisely formatted to be ready
+for input into something else, at least there&rsquo;s a straightforward way to
+munge it into something better.</p>
+
+<p>That leaves the task of dumping these JSON blobs into a database, in
+such a way that you can relatively easily get something back out of the
+database that answers what you are really trying to answer again. Here
+the world splits into two pieces: the SQL databases that have been taught
+how to deal with JSON (specifically PostgreSQL, as of version 9.3), and the
+so-called NoSQL databases (specifically MongoDB).</p>
+
+<p>Even Mongo knows that <a href="http://blog.mongodb.org/post/62899600960/scaling-advice-from-mongohq">scaling MongoDB is hard</a>, though
+they frame it as the first 100 gigabytes of data stored in the system is
+easy. Fortunately, the first set of tasks I have to throw at this particular
+problem space are relatively small, databases measured in the 10s of megabytes.
+Pretty much anything will work - even grep - on this size data. The
+challenge becomes more of a how fast can you get something real running
+that has relatively simple queries, relatively performant results, and
+that can run on inexpensive hardware.</p>
+
+<p>So I learned just enough Mongo to handle one tiny task: connect to an API,
+download some data periodically, clean it up enough so that it&rsquo;s regular,
+and store it away; and then construct queries that are conceptually simple
+but that answer real questions. From there, do the ad hoc queries that prove
+to yourself that you have the right data, and then bootstrap some web
+app on top of all that to show off what you&rsquo;ve done.</p>
+
+<p>The results here accomplish a relatively complex task with a handful of
+lines of code. An API from a local agency is queried that has real time data.
+That data gets cleaned up and standardized and then inserted into a Mongo
+database. It&rsquo;s all of 6 lines of code.</p>
+
+<script src="https://gist.github.com/vielmetti/85d5fba07b98e552c912.js"></script>
 
 
   <h3>24 August 2015</h3>
@@ -13030,65 +13087,6 @@ If you can trick someone into using your proxy server for their
 traffic, all kinds of foolishness can result. Better is the use
 that you proxy your own traffic and behold all of the cookies,
 beacons, and ads that sneak into your everyday browsing experience.</p>
-
-
-  <h3>31 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-31-soundcloud/">Soundcloud, now and in the future</a>
-      </h3>
-      <p>If you have exactly one copy of something and it&rsquo;s only on Soundcloud,
-this would be an opportune time to make a backup. That&rsquo;s always a good
-idea anyway not to rely on single web servers for anything, but it&rsquo;s
-especially notable in the light of these articles.</p>
-
-<p>First, the upbeat <a href="http://www.bloomberg.com/news/features/2015-07-10/can-soundcloud-be-the-facebook-of-music-">Bloomberg Business</a> article of July 10, 2015:</p>
-
-<blockquote>
-<p>&hellip; SoundCloud’s potential is fascinating, and perhaps unique.
-The founders have ambitious goals that respond to changes in the
-way music and sound are created and consumed. It’s a beautiful
-dream. So long as all the crucial participants—labels, publishers,
-artists, SoundCloud itself—can agree on how to share it.</p>
-</blockquote>
-
-<p>Next, the downbeat <a href="http://www.techtimes.com/articles/72325/20150729/soundcloud-losing-money-fast-as-record-labels-apply-licensing-pressure.htm">Tech Times</a> on July 29, 2015:</p>
-
-<blockquote>
-<p>We recently reported on rumors that popular music streaming service
-SoundCloud is planning on adding a subscription-based tier to its
-currently all-free streaming service, and that rumor was just
-confirmed by company co-founder Eric Wahlforss in a conversation
-with the Wall Street Journal. Now, it appears that the impetus
-behind the development of the subscription tier is clear: the company
-is in dire need of cash.</p>
-</blockquote>
-
-<p>&ldquo;Dire need of cash&rdquo; because record labels are not thrilled with
-the beautiful dream of listening to the world&rsquo;s music for free.
-Remember how Napster turned out? It was a beautiful dream, too,
-but labels and publishers just saw it as piracy. This from
-<a href="http://www.edmtunes.com/2015/06/editorial-believe-it-or-not-soundcloud-is-fighting-the-good-fight/">EDM Tunes</a>:</p>
-
-<blockquote>
-<p>The 2015 SoundCloud controversy is Napster all over again. We
-aren’t sharing files anymore, we’re sharing sound. 15 years ago
-record labels objected to us downloading their music, now they
-object to us streaming it&hellip;.</p>
-
-<p>Like Napster, SoundCloud is a goldfish that’s been unwillingly
-thrust into battle with three super-wale companies. Just for a
-matter of reference, consider that SoundCloud has about 200 employees,
-while the Sony, Universal, and Warner corporate networks employ
-more than 200,000. At this point, SoundCloud is fighting to survive,
-and unfortunately has received a lot of critical media attention.
-Since its 2007 inception, SoundCloud has served as a haven for
-electronic music producers and fans; allowing sound to be seamlessly
-shared from artist to listener. This luxury is being threatened,
-and we’re all pissed about it.</p>
-</blockquote>
-
-<p>So, enjoy Soundcloud while you can, and when you are producing things
-for it make sure you keep a backup on your own machines!</p>
 
 
 
