@@ -69,6 +69,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory" class="list-group-item">Terabytes, at least in theory</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi" class="list-group-item">RRDTool v1.5.4 on Raspberry Pi</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb" class="list-group-item">First pass at MongoDB</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba" class="list-group-item">Listening to Radio Havana Cuba via a shortwave software defined radio</a></li>
@@ -104,14 +108,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-04-robo-assistant-xdotai" class="list-group-item">Your new robo-assistant, Amy Ingram</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-04-i-voted" class="list-group-item">I voted, summer 2015 edition</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-03-expertise" class="list-group-item">expertise encapsulated into out of date memory banks</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-03-michigan-emergency-incidents" class="list-group-item">Michigan Emergency Incidents and overnight storm report</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4065,6 +4069,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -11974,6 +11982,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12277,6 +12289,67 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>1 August 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/sidebar/todo/">todo</a>
+      </h3>
+      
+
+<h2 id="todo:5b51c9e8380c18fc2ee8d866662d01d8">Todo</h2>
+
+<ul>
+<li>Auto-discovery for RSS feed, per <a href="http://gohugo.io/templates/rss/">http://gohugo.io/templates/rss/</a></li>
+<li>Short codes for easy linking. First pass complete.
+Assisted synaesthesia and colorized names and phrases.
+(Started, with colorized but not linked names)</li>
+<li>Nicely thought through category and taxonomy pages. They
+have stubs now, but they need design.</li>
+<li>A whole &ldquo;Ann Arbor&rdquo; section, because there&rsquo;s so much of that,
+and it should integrate with Arborwiki. (Started.)</li>
+<li>Links from books to their corresponding URLs and ISBNs to
+link to AADL and Amazon pages, perhaps with Librarything data</li>
+<li>Pagination with group by date, coming in 0.15</li>
+<li>Fix problem with dots in taxonomy names, coming in 0.15</li>
+<li>Some kind of database driven page data, in preparation
+for rolling out a power outage maps collection based on DOE EIA data,
+cf <a href="http://gohugo.io/extras/datafiles/">http://gohugo.io/extras/datafiles/</a></li>
+<li>Make sure that the theme is in version control, which means
+I have to learn about git subtrees.</li>
+</ul>
+
+
+  <h3>31 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/">mitmproxy</a>
+      </h3>
+      <p>In his <a href="http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/">An internet x-ray machine for the masses</a>, Paul Ohm writes a lucid introduction to
+<span style="background-color: #ffffbf;">mitmproxy</span>,
+a man-in-the-middle proxy server that allows you to
+get between your browser and the Internet and poke at
+(and change) the traffic going between the two.</p>
+
+<p><a href="http://mitmproxy.org">http://mitmproxy.org</a> is the home of mitmproxy. It&rsquo;s
+the work of <span style="background-color: #bfffff;">Aldo Cortesi</span> and a cast of
+hundreds of contributors on github at <a href="https://github.com/mitmproxy/mitmproxy">https://github.com/mitmproxy/mitmproxy</a> .
+I used the OS X binary distribution from the download page.
+There&rsquo;s also a nifty Dockerized version on
+Dockerhub as <a href="https://registry.hub.docker.com/u/mitmproxy/mitmproxy/">docker pull mitmproxy/mitmproxy</a>
+to get you started quickly too.</p>
+
+<p>Man-in-the-middle (or monkey-in-the-middle) systems are not
+new, of course, and Dug Song&rsquo;s <a href="http://www.monkey.org/~dugsong/dsniff/">dsniff</a>
+package dates to 1999. What we&rsquo;ve learned in a decade and a half
+is that security through obscurity vanishes in the face of better
+tools for looking at network traffic as it&rsquo;s going by with high
+level tools for making sense of what&rsquo;s there.</p>
+
+<p>As ever, all of these tools have both benign and malicious uses.
+If you can trick someone into using your proxy server for their
+traffic, all kinds of foolishness can result. Better is the use
+that you proxy your own traffic and behold all of the cookies,
+beacons, and ads that sneak into your everyday browsing experience.</p>
 
 
   <h3>31 July 2015</h3>
@@ -13434,158 +13507,6 @@ weather logo on it, so it probably also monitors weather frequencies.
 Indeed, if I tune both of them to channel 4, they hear each other.</p>
 
 <p>You can never have too many radios!</p>
-
-
-  <h3>18 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/">food coop notes for July 18, 2015</a>
-      </h3>
-      <p>Some notes over a cup of coffee and some cold roast chicken. I need
-to mix up my menu selections at the coop more so that I can remember
-what I was writing by what I ate; I usually eat the same thing!</p>
-
-<p>Peter Honeyman and Lynn Chamberlain were here at the coop, doing
-the NY Times crossword. (Saturday crossword in 36:05, a mid-day triumph.)</p>
-
-<p>At Farmer&rsquo;s Market: cherries, parsley, kale, potatoes, dill, tomatoes.
-The potatoes will be boiled and dressed with a dill vinaigrette.
-(I had to look up the word vinaigrette.) The recipes I found add
-green beans and boiled eggs to a salad with cold potatoes, using
-a mustard vinaigrette with added chopped dill. The cherries will
-probably just be eaten out of hand.</p>
-
-<p>The UP travel discussion included the obligatory discussion of insects,
-including ticks (&ldquo;like bedbugs, for the woods&rdquo;) and horrible sand
-flies that will swarm you and leave you screaming running from the
-beach. There&rsquo;s a good reason that the UP has miles of undeveloped beaches.</p>
-
-<p>You can&rsquo;t mention bugs in the UP without remembering
-<a href="http://somethingscrawlinginmyhair.com/">The Backyard Arthropod Project</a>,
-&ldquo;A Field Guide to the North Side of Old Mill Hill, Atlantic Mine, MI&rdquo;,
-by Tim Eisele.</p>
-
-<p>I&rsquo;m still hacking away at generating interesting reports from
-the <a href="https://github.com/markvanderloo/stringdist">stringdist</a>
-package from Mark van der Loo. Yesterday&rsquo;s post was
-<a href="http://stackoverflow.com/questions/31486913/r-producing-a-list-of-near-matches-with-stringdist-and-stringdistmatrix">R: producing a list of near matches with stringdist and stringdistmatrix</a> and the answers provided
-helped unearth the melt() function from the reshape2 library,
-and with <em>that</em> you take a matrix and turn it into an edge list.
-A little bit of filtering, and you get a report of near matches
-in a list, enough for me to catch variant spellings of
-vinagrette to vinaigrette in a &ldquo;make test&rdquo; step.</p>
-
-<p>Stack Overflow was fun for this task, I&rsquo;m going to try it again.
-The process of describing your problem in enough detail that someone
-who knows the issue can add the one or two lines of code to make
-it work is a useful exercise. It&rsquo;s the opposite of a search
-engine in many ways - of course I could find melt() once I know
-its name, but if you don&rsquo;t know the name you can&rsquo;t find anything.</p>
-
-<p>The next bit of interestingness has to do with turning the dist
-data structure returned by stringdist into a variety of useful
-images. There&rsquo;s a package that dumps out a &ldquo;dendogram&rdquo;, and if I&rsquo;m
-careful in formatting the data I think I can coerce R into producing
-data that can be imported directly into the tools that
-Valdis Krebs
-has written for network exploration and visualization. The
-promise within R is a &ldquo;distgraph&rdquo; that does the visualization,
-but I&rsquo;m not yet finding the cadre of experts who use that.</p>
-
-<p>The art on the walls is Julie Marron-Parker&rsquo;s &ldquo;Sunburst&rdquo;. She writes</p>
-
-<blockquote>
-<p>Let the sun shine.</p>
-
-<p>Living in Michigan (160 days of sun per year) I have come to
-appreciate when the sun is out. This piece brings the energy of the
-sun into the world, regardless of the weather outside.</p>
-</blockquote>
-
-<p>Tom Meloche writes about <a href="http://tommeloche.com/the-doorway-effect/">the doorway effect</a>,
-where going through a doorway wipes out your short term memory
-to make way for new short term memories. It got me thinking
-about the <span style="background-color: #ffffbf;">memory palace</span>, and how you might construct
-in your mind a series of portals and doorways to walk through so
-that you can remember a series of items in such a way that you
-take advantage of the doorway effect to pull memories in and out
-of your short term thinking. The technology is &ldquo;mnemotechnics&rdquo;,
-that&rsquo;s a good keyword to pull lots of interesting thinking
-(which sometimes sounds like crazytalk).</p>
-
-<p>That reminds me - I need to move to another room, so that I can
-remember what I need to do here.</p>
-
-
-  <h3>17 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/">Levenshtein distance for approximate match</a>
-      </h3>
-      <p>The problem, simply stated, is that of typoes and inconsistent
-spelling and pluraliziation. Let&rsquo;s say you have a collection of
-text that you want to annotate with some metadata, like categories
-and tags. You don&rsquo;t want to set aside ahead of time exactly which
-tags you want to use, but you want to catch through some test or
-lint step that you&rsquo;ve done something wrong by typing &ldquo;apples&rdquo; into
-a field that really has &ldquo;apple&rdquo; most of the time. A good algorithm
-will catch minor deviations from the norm and advise you when you
-should go back with a fresh pair of eyes and do an edit.
-The bigger problem is <span style="background-color: #ffffbf;">deduplication</span>.</p>
-
-<p>My first pass at a proposed solution was to look for a version of
-the old Unix program &ldquo;uniq&rdquo; that would have an approximate match.
-There is also an old Unix program &ldquo;agrep&rdquo; (&ldquo;approximate grep&rdquo;) from
-<span style="background-color: #bfffff;">Udi Manber</span>.</p>
-
-<p>[WM92a]
-Wu S. and U. Manber, &ldquo;Agrep - A Fast Approximate Pattern-Matching
-Tool,&rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
-1992), pp. 153-162.</p>
-
-<p>Neither of these first lines of attack to see if someone had
-completely solved the problem before did the trick, but some
-searching around and a conversation with
-<span style="background-color: #bfffff;">John Hritz</span>
-hit the neuron that remembered the algorithm called the
-<span style="background-color: #ffffbf;">Levenshtein distance</span>.
-That led me to
-<span style="background-color: #ffbfff;">Wikibook: Algorithm Implementation</span>,
-and its set of
-<a href="https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance">Levenshtein distance code</a>. It so happened that there
-was a very slow implementation in the bash shell included
-in that collection that was a cut and paste and two lines of
-code from being exactly what I needed. A little bit of glue
-code in awk and I was ready to go.</p>
-
-<p>Now the problem with cut and paste two lines of code is that this
-particular implmentation is very slow, albeit correct. Given the
-choice between slow correct code and fast code that&rsquo;s wrong (because
-of the bug that you don&rsquo;t yet understand), I&rsquo;ll take the slow code
-plus a comment and a writeup that describes how to make it faster.</p>
-
-<p>What I&rsquo;m really after is just the pairwise comparison of a set
-of words where the two words are close to each other. If the
-distance between two words is greater than some threshhold, I don&rsquo;t need
-to go any further. That algorithmic shortcut isn&rsquo;t in the library
-codes that I found.</p>
-
-<p>The bigger question is how to write a
-checklist
-and implement it in code to make sure that a big body of work stays
-internally consistent. It&rsquo;s one thing to have a
-categorization
-rule for your writers that says &ldquo;always use the
-singular&rdquo;, but very much something different to have Test 38 in
-your automated test corpus apply that rule and notice when it&rsquo;s
-wrong.</p>
-
-<hr/>
-
-<p>Update 29 July 2015:
-<span style="background-color: #bfffff;">Dennis Yurichev</span> with a post
-<a href="http://yurichev.com/blog/fuzzy_string/">Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.</a> shares some Python code to handle the
-case of automated checking against a probably correct dictionary. He uses this
-<a href="https://pypi.python.org/pypi/python-Levenshtein/0.12.0">python-Levenshtein</a> module
-to do the hard work.</p>
 
 
 

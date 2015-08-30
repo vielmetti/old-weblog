@@ -6,8 +6,100 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2015 00:40:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2015 21:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Terabytes, at least in theory</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory/</link>
+      <pubDate>Sat, 29 Aug 2015 21:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory/</guid>
+      <description>&lt;p&gt;I have a new terabyte drive. It&amp;rsquo;s impossibly small, impossibly
+cheap, and just fast enough to accomplish astounding backup tasks
+in what seems like not enough time.&lt;/p&gt;
+
+&lt;p&gt;It is, however, a mass storage device that depends on rotating
+magnetic media, and as such it&amp;rsquo;s obsolete.&lt;/p&gt;
+
+&lt;p&gt;The drive cost less than $50. For about 10 times that right now,
+I can buy another terabyte drive that is solid state rather than
+spinning oxide storage. The bet that I have is that in three years,
+the cost of a terabyte of SSD drive will have come down so far -
+perhaps to $100 - that no one will have any interest in selling me
+a 1T drive that isn&amp;rsquo;t SSD.&lt;/p&gt;
+
+&lt;p&gt;My frame of reference for &amp;ldquo;what does har drive storage cost&amp;rdquo; dates
+back as far as the 10 megabyte, $1000 drive, which I really wanted
+and which I never bought for my own self. And then back a little bit
+further, when a 5 megabyte Davong drive was the bee&amp;rsquo;s knees.&lt;/p&gt;
+
+&lt;p&gt;What do you do with a terabyte? Lots of backups.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RRDTool v1.5.4 on Raspberry Pi</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/</link>
+      <pubDate>Wed, 26 Aug 2015 17:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/</guid>
+      <description>&lt;p&gt;The second in a series of efforts to get a suitable database for
+the task.&lt;/p&gt;
+
+&lt;p&gt;The challenge is that there&amp;rsquo;s a lot of data out there that changes
+all the time, and you want to gather it, make sure it&amp;rsquo;s sane, squirrel
+it away for later analysis, put together a pretty chart so that you
+can spot check it, feed it into other systems not yet fully dreamed
+of to cause actions, and so on. It&amp;rsquo;s the &amp;ldquo;big data&amp;rdquo; problem in that
+you have sensors that throw off a lot of data exhaust, and it&amp;rsquo;s the
+&amp;ldquo;internet of things&amp;rdquo; problem because mostly you&amp;rsquo;re looking at things
+with data and not say imagery or lots of freeform text.&lt;/p&gt;
+
+&lt;p&gt;Phase one of this effort was wrestling MongoDB into service, which
+ended up being only a handful of lines of code; but the concern expressed
+was the Mongo though fun and easy for small projects gets messy for
+big ones, and there&amp;rsquo;s good reason not to succumb to its siren song.
+The other reason to stop using Mongo when I did was that it really
+doesn&amp;rsquo;t love the Raspberry Pi architecture. Since there were only really
+a very few lines of code, and since that code works on my Mac, no time
+lost - but time to move on.&lt;/p&gt;
+
+&lt;p&gt;Phase two is a look at RRDtool, a &amp;ldquo;round robin&amp;rdquo; database very often used
+for network management efforts. One of the nice things about a round robin
+database is that the database itself is at its maximum size when you
+create it, and it doesn&amp;rsquo;t grow - rather, it cycles out the old data
+at whatever time resolution you want to get rid of it. With that in
+mind you can have a single database with 10 years worth of daily averages
+and a whole year of minute-by-minute data and it hardly takes up any
+room at all - perfect for the sort of &amp;ldquo;data logger&amp;rdquo; applications that
+I find myself in the middle of.&lt;/p&gt;
+
+&lt;p&gt;If you do &lt;code&gt;apt-get install rrdtool&lt;/code&gt; on the Pi you get a working
+copy of RRDtool 1.4.7, compiled in 2012. That&amp;rsquo;s pretty long in the
+tooth, so I decided to pull down v1.5.4 from the
+&lt;a href=&#34;http://oss.oetiker.ch/rrdtool/pub/?M=D&#34;&gt;RRDtool download area&lt;/a&gt;. The release notes note
+dependencies as follows&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install libpango1.0-dev libxml2-dev
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and once you have those pulled down the build is not fast but not
+difficult.&lt;/p&gt;
+
+&lt;p&gt;Pushing data into RRDtool is as simple as a shell script run out of
+cron. The first data point I&amp;rsquo;m graphing is &amp;ldquo;total spaces free in the
+Ann Arbor DDA parking garages&amp;rdquo;, and I&amp;rsquo;m collecting that on two machines -
+my Mac when it&amp;rsquo;s running, and the Pi at all times. A second graph
+I want to capture is some really basic weather information, and a
+third is inside-the-machine environmental sensing starting with the
+system temperature of the Pi.&lt;/p&gt;
+
+&lt;p&gt;It was really useful to make the first round of this be Mongo, because
+with Mongo you really don&amp;rsquo;t have to decide anything when you set things up -
+just dump in raw JSON documents and hope for the best.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>First pass at MongoDB</title>
@@ -401,94 +493,6 @@ a 20 or 50 or 200 page tome.&lt;/p&gt;
 
 &lt;p&gt;I know that people have taken blogs as first drafts of long form writing, and heaven
 knows I have enough raw word count to start to make something from.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>All watched over by machines</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-07-all-watched-over-by-machines/</link>
-      <pubDate>Fri, 07 Aug 2015 23:45:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-07-all-watched-over-by-machines/</guid>
-      <description>&lt;p&gt;As it turns out, a detailed look at the way you spend time over
-the course of a day online yields several fascinating conclusions.
-As previously noted, &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Wakatime&lt;/span&gt; is the introspective tool of choice.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Gee, that&amp;rsquo;s a lot of time to look at Facebook, Twitter, and Gmail;&lt;/li&gt;
-&lt;li&gt;Why aren&amp;rsquo;t you spending more of your productive time writing;&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;ll bet that if you put down the computer your day would be more productive.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Of these, #2 is the most interesting one. Of course time spent on Facebook,
-Twitter, and Gmail is time spent writing, but it&amp;rsquo;s transactional writing -
-short bursts of functional prose to negotiate a time, set up a plan,
-make a clever comeback or otherwise do online chit-chat. The words are writing,
-but there&amp;rsquo;s not a body of work that you can point to that&amp;rsquo;s of any size as
-your opus from that hour plus spent.&lt;/p&gt;
-
-&lt;p&gt;Productive is a very funny word when you&amp;rsquo;re being watched by a machine.
-Some parts of the time are marked as &amp;ldquo;good time&amp;rdquo;, where you&amp;rsquo;re happy to
-have an extra minute spent credited to a project or task. Not all time is
-&amp;ldquo;good time&amp;rdquo;, though some of the non-good time is just as essential, just
-measured differently. And then there&amp;rsquo;s the occasional glitch in the matrix
-where time is credited or blamed on one thing but you could swear you were
-doing something else at the time.&lt;/p&gt;
-
-&lt;p&gt;Time spent on task sometimes looks very small when all of these are taken into
-account. Those 99 words you wrote for publication were edited down from 150,
-and might be edited further down to 55. If you could precisely allocate all
-of the time you spent on it it would include the musing and ruminations, but
-that got chalked up to Gmail where it&amp;rsquo;s mixed in with the time spent deleting
-mail.&lt;/p&gt;
-
-&lt;p&gt;I like to know what I&amp;rsquo;m doing, but it&amp;rsquo;s wrong to mix up inputs and outputs.
-If your system measures inputs, you get ritualized behavior designed to
-maximize time spent on task, no matter how the time is actually used.
-Maximizing outputs would yield word counts and not minute counts. If you&amp;rsquo;re
-slow and terse, there&amp;rsquo;s no help for you.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>a2b3 lunch non-summary for August 6, 2015 at Mi Compadre</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-06-a2b3-mi-compadre-non-summary/</link>
-      <pubDate>Thu, 06 Aug 2015 23:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-06-a2b3-mi-compadre-non-summary/</guid>
-      <description>&lt;p&gt;The &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;a2b3&lt;/span&gt; lunch this week was at
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Mi Compadre&lt;/span&gt;, a Mexican place on Packard.
-We had a good turnout. I recommend the lengua tacos.&lt;/p&gt;
-
-&lt;p&gt;I was inspired this week for the lunch question by
-going to the &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Workantile&lt;/span&gt; lunch on Wednesday,
-which followed the same general pattern - sit down, introduce
-yourself around the table, and answer some simple question.
-At Workantile the prompt was simply &amp;ldquo;share something nice that happened to you this week&amp;rdquo;,
-and that was enough of a prompt for everyone to be brief and cheery.&lt;/p&gt;
-
-&lt;p&gt;When lunches are well attended, it seems to be that it happens
-because the news gets out in plenty of time and plenty of detail
-on Facebook. Not everyone in my world does Facebook, but there&amp;rsquo;s
-more people there than on Twitter or Meetup, and it appears that
-Facebook might now have the tools for lunch organizing that it didn&amp;rsquo;t
-have a year ago when I started using Meetup for that purpose.&lt;/p&gt;
-
-&lt;p&gt;So with the help of &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Tom Meloche&lt;/span&gt; it looks like I&amp;rsquo;m going
-to move the primary ritual of notifying people where the next meeting is
-through a Facebook event, and move away from Meetup as the primary organizing
-tool. That&amp;rsquo;s going to take a few months to pull off but it looks like
-the right organizing tool for 2015.&lt;/p&gt;
-
-&lt;p&gt;I miss the olden days when &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;eGroups&lt;/span&gt; was so novel that
-you could build an instant community around an easy to run mailing
-list. Yahoo so completely missed the boat when they turned that
-into Yahoo Groups over a decade ago. I&amp;rsquo;ll keep the
-&lt;a href=&#34;http://groups.yahoo.com/neo/groups/a2b3&#34;&gt;a2b3 Yahoo group&lt;/a&gt; around indefinitely -
-it&amp;rsquo;s free after all, and it&amp;rsquo;s old - but it&amp;rsquo;s not growing and
-working on a system that doesn&amp;rsquo;t support growth is a recipe for
-stagnatation. Where I used to count on a new person every week from
-Yahoo Groups I now only get 10-15 new subscribers a year.&lt;/p&gt;
 </description>
     </item>
     
