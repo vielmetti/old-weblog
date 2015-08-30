@@ -69,6 +69,20 @@ system temperature of the Pi.&lt;/p&gt;
 &lt;p&gt;It was really useful to make the first round of this be Mongo, because
 with Mongo you really don&amp;rsquo;t have to decide anything when you set things up -
 just dump in raw JSON documents and hope for the best.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://vielmetti.github.io/images/parking.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;RRDtool graph of available parking in downtown Ann Arbor&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
