@@ -6,8 +6,42 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2015 14:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2015 08:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deep web</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-04-deep-web/</link>
+      <pubDate>Fri, 04 Sep 2015 08:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-04-deep-web/</guid>
+      <description>&lt;p&gt;I think this whole &amp;ldquo;deep web&amp;rdquo; thing is mis-stated for the most part.&lt;/p&gt;
+
+&lt;p&gt;Since forever there have been Internet-based services that have
+been unreachable to the public unless you had some kind of specialized
+access. Private internal networks are the norm at companies of any
+size. Calling that the &amp;ldquo;hidden web&amp;rdquo;, &amp;ldquo;deep web&amp;rdquo; is non-sensical in
+that it&amp;rsquo;s not really hidden to anyone who has proper access to it
+- it&amp;rsquo;s just that you (and Google) don&amp;rsquo;t and won&amp;rsquo;t have that access.&lt;/p&gt;
+
+&lt;p&gt;Furthermore there are enormous numbers of home networks behind NAT
+devices where there are home servers that are either accidentally
+or deliberately off-limits. If you want to get that data onto the
+public network you actually have to do some work to make it happen.&lt;/p&gt;
+
+&lt;p&gt;I even have a batch of test services running on my laptop that don&amp;rsquo;t
+have any public presence at all beyond my keyboard.&lt;/p&gt;
+
+&lt;p&gt;There happen to be parts of the &amp;ldquo;secret web&amp;rdquo;, &amp;ldquo;deep web&amp;rdquo; etc where
+there&amp;rsquo;s some naughty content, but for the most part the Internet
+architecture makes it completely normal to have hosts that only
+have partial routing to the world, and most of the time that&amp;rsquo;s
+completely innocuous.&lt;/p&gt;
+
+&lt;p&gt;(As originally posted to Quora to answer the question, &amp;ldquo;How is the
+Deep Web so huge?)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Over the top networks, a history of building new systems on the wreckage of the old</title>
@@ -487,49 +521,6 @@ blasts.&lt;/p&gt;
       <guid>http://vielmetti.github.io/post/2015/2015-08-13-zenos-inbox/</guid>
       <description>&lt;p&gt;It took me about an hour to half-empty my inbox.
 Alas, I have Zeno&amp;rsquo;s Inbox, which is never emptied, only half-emptied.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>a2b3 lunch non-summary for the Broken Egg</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-13-a2b3-lunch-nonsummary-broken-egg/</link>
-      <pubDate>Thu, 13 Aug 2015 13:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-13-a2b3-lunch-nonsummary-broken-egg/</guid>
-      <description>&lt;p&gt;Lunch at The Broken Egg with the a2b3 crew. We had 17 people show up,
-which is about 2x what had been the normal attendance. The restaurant
-was very accomodating, and everyone was well fed.&lt;/p&gt;
-
-&lt;p&gt;Organizing lunch is the highlight of my week.&lt;/p&gt;
-
-&lt;p&gt;Lots of things were discussed, here&amp;rsquo;s a few of them:&lt;/p&gt;
-
-&lt;p&gt;The Perseid meteor shower peaked last night, notes Linda Diane Feldt,
-who saw a few shooting stars from her cabin in Lyndon Township. I listened
-to meteor scatter radio transmissions on &lt;a href=&#34;http://www.livemeteors.com&#34;&gt;http://www.livemeteors.com&lt;/a&gt; which
-listens for reflections of Toronto TV signals using a directional antenna
-from Washington DC.&lt;/p&gt;
-
-&lt;p&gt;Vintage baseball is happening in Chelsea and Dexter reports Patti Smith,
-and she loves the uniforms. The next game is
-Vintage Base Ball: Chelsea Monitors vs. Dexter Union
-August 29 @ 2:30 pm - 4:30 pm in Chelsea at Veterans Park.
-The teams are the
-&lt;a href=&#34;https://www.facebook.com/ChelseaMonitors&#34;&gt;Chelsea Monitors&lt;/a&gt; (facebook) and
-the &lt;a href=&#34;http://www.unionbbc.com/&#34;&gt;Dexter Union&lt;/a&gt;. Dexter has a game vs Port Huron
-at St. Joseph Catholic Church (Mast and N. Territorial)
-on Saturday, August 15th at 2pm.&lt;/p&gt;
-
-&lt;p&gt;The Zingerman&amp;rsquo;s partners meeting is an open meeting, and Tom Meloche
-was there. He reported that it&amp;rsquo;s a 2.5 hour event that&amp;rsquo;s carefully
-time-boxed, so that they cover everything without going over.&lt;/p&gt;
-
-&lt;p&gt;a2b3 regular and jazz singer David Bloom is performing tonight,
-Thursday August 13, 2015, at the Chelsea Clock Tower.&lt;/p&gt;
-
-&lt;p&gt;Stickers! My print run of stickers from VGKids in Ypsilanti is in, and I brought
-stickers to lunch. Thanks to everyone who chipped in to help with
-printing costs.&lt;/p&gt;
 </description>
     </item>
     
