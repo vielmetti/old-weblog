@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salt on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/salt/</link>
+    <description>Recent content in Salt on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2015 00:45:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/salt/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Managing a Raspberry Pi OpenVPN with Salt</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/</link>
+      <pubDate>Mon, 07 Sep 2015 00:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/</guid>
+      <description>&lt;p&gt;When you successfully install something complex, and then you fail
+to document one small thing about how you did it, the inclination is
+to over-document once you get it working again; thus, this expository
+account of managing a set of Raspberry Pi devices using the &amp;ldquo;salt&amp;rdquo;
+system. It&amp;rsquo;s not a complete start to finish writeup, just a pointer to
+the bits that I had forgotten.&lt;/p&gt;
+
+&lt;p&gt;This is mostly experimental at this point, and the collection of devices
+is relatively small. I am pretty convinced that the Pi 2 has plenty of
+gas to do more things than most people will try to do, but the original
+Pi is slow enough and limited enough to perhaps make this scheme impractical.&lt;/p&gt;
+
+&lt;p&gt;When it works, you have a set of Pi&amp;rsquo;s in various locations, all networked
+together into an OpenVPN configuration.&lt;/p&gt;
+
+&lt;p&gt;First to read is &lt;a href=&#34;http://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html&#34;&gt;Virtually secure with openvpn, pillars, and salt&lt;/a&gt; which
+goes over the structure and motivation and design for an OpenVPN
+network that answers this problem:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;How do I use salt to create and install the openvpn and client specific config files for each minion &amp;ndash;on demand?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you follow Dan Garthwaite&amp;rsquo;s design you get a reasonable
+approach - when you bring up a new client you get a new key
+generated, and on the server you run &lt;code&gt;salt-key -a&lt;/code&gt; to accept the
+new one.&lt;/p&gt;
+
+&lt;p&gt;This leaves only the problem of bootstrapping on the Pi&amp;rsquo;s themselves.
+The version of &amp;lsquo;salt-minion&amp;rsquo; that&amp;rsquo;s available from the default
+Debian system is very ancient, so that&amp;rsquo;s useless. What you want
+can be found at
+&lt;a href=&#34;http://servernetworktech.com/2014/05/setup-debian-saltstack-minion-single-command/&#34;&gt;Setup a Debian Saltstack minion with a single command&lt;/a&gt;
+on the Server Network Tech blog; it brings in a new Debian
+source list from Salt so that the bootstrap is easier.&lt;/p&gt;
+
+&lt;p&gt;(I realize this isn&amp;rsquo;t a start to finish tutorial, just a few points
+of clarification for bringing up new nodes once you have the whole
+Salt environment running; sorry about that.)&lt;/p&gt;
+
+&lt;p&gt;The one thing I have left to do to make the setup more airtight is
+to automate the process of locking down the sshd_config so that &amp;ldquo;root&amp;rdquo;
+and &amp;ldquo;pi&amp;rdquo; can&amp;rsquo;t login from far away, so that I can keep their default
+passwords but restrict access to console access only.&lt;/p&gt;
+
+&lt;p&gt;Not mentioned here is that these Pi configuraiton are all on top of
+the Hypriot setup so that they can (and do) run Docker. Though Docker
+on the original Pi with salt-minion running doesn&amp;rsquo;t leave a ton of
+space spare for actual work to be done.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

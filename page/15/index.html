@@ -69,6 +69,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt" class="list-group-item">Managing a Raspberry Pi OpenVPN with Salt</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-04-deep-web" class="list-group-item">Deep web</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-30-over-the-top-networks" class="list-group-item">Over the top networks, a history of building new systems on the wreckage of the old</a></li>
@@ -106,12 +108,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-07-all-watched-over-by-machines" class="list-group-item">All watched over by machines</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-06-a2b3-mi-compadre-non-summary" class="list-group-item">a2b3 lunch non-summary for August 6, 2015 at Mi Compadre</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-05-wakatime" class="list-group-item">wakatime, an automatic time tracker for programmers</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4073,6 +4075,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -11998,6 +12002,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12301,6 +12307,43 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>26 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-26-mt-gox-is-down-in-bitcoin-heist-transaction-malleability-to-blame/">Mt Gox is down in Bitcoin heist, &#34;transaction malleability&#34; to blame</a>
+      </h3>
+      <p>The latest in the Bitcoin saga is a crisis at Mt Gox, one of the major Bitcoin exchanges in the world. A few judicious news clippings will give you a sense of the chaos.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d81b1f9970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a73d81b1f9970d img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Bitcoinity-mt-gox-crash" title="Bitcoinity-mt-gox-crash" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d81b1f9970d-600wi" /></a><br /></p>
+
+<p>From <a href="http://www.reuters.com/article/2014/02/26/us-mtgox-website-idUSBREA1O07920140226">Reuters</a>: Bitcoin exchange Mt. Gox goes dark in blow to virtual currency</p>
+
+<blockquote>
+  <p>The website of Mt. Gox suddenly went dark on Tuesday with no explanation, and the company's Tokyo office was empty - the only activity was outside, where a handful of protesters said they had lost money investing in the virtual currency.</p>
+  
+  <p>Hours later, Mt. Gox CEO Mark Karpeles told Reuters in an email: "We should have an official announcement ready soon-ish. We are currently at a turning point for the business. I can't tell much more for now as this also involves other parties." He did not elaborate on the details or give his location.</p>
+</blockquote>
+
+<p>From the <a href="http://www.nytimes.com/2014/02/25/business/apparent-theft-at-mt-gox-shakes-bitcoin-world.html?_r=0">New York Times</a>: Apparent Theft at Mt. Gox Shakes Bitcoin World</p>
+
+<blockquote>
+  <p>On Monday night, a number of leading Bitcoin companies jointly announced that Mt. Gox, the largest exchange for most of Bitcoin’s existence, was planning to file for bankruptcy after months of technological problems and what appeared to have been a major theft. A document circulating widely in the Bitcoin world said the company had lost 744,000 Bitcoins in a theft that had gone unnoticed for years. That would be about 6 percent of the 12.4 million Bitcoins in circulation.</p>
+</blockquote>
+
+<p>The document circulating widely is this <a href="http://two-bit-idiot.tumblr.com/post/77760399932/update-on-mt-gox-this-document-appears-to-be">crisis plan</a>.</p>
+
+<blockquote>
+  <p>For several weeks MtGox customers have been affected by bitcoin withdrawal issues that compounded on themselves. Publicly, MtGox declared that “transaction malleability” caused the system to be subject to theft, and that something needed to be done by the core devs to fix it. Gox’s own workaround solution was criticized, and eventually a fix was provided by Blockchain.info. The truth, it turns out, is that the damage had already been done. At this point 744,408 BTC are missing due to malleability-related theft which went unnoticed for several years. The cold storage has been wiped out due to a leak in the hot wallet.</p>
+</blockquote>
+
+<p>The underlying problem is "transaction malleability", and how Mt Gox's software didn't account for it when approving trades. From Ed Felten's <a href="https://freedom-to-tinker.com/blog/felten/understanding-bitcoins-transaction-malleability-problem/">Freedom to Tinker</a>:</p>
+
+<blockquote>
+  <p>It has been known since roughly 2011 that signed transactions are slightly “malleable” in the sense that it is possible to modify a signed transaction in certain minor ways, without invalidating the signature. The critical details about payment—who is paying how much, and to whom—can’t be changed, but certain peripheral information can be modified in a way that causes the transaction ID to change. [Technical detail for crypto nerds: This happens because the transaction ID is computed by hashing a set of fields that is a superset of the fields covered by the signature.]</p>
+</blockquote>
+
+<p>The mostly dormant crypto nerd in me rolls my eyes, but of course this was not an obvious problem to those first looking at Bitcoin. I don't know off hand if other cryptocoins like Dogecoin have the same transaction malleability flaw.</p>
 
 
   <h3>22 February 2014</h3>
@@ -12804,17 +12847,6 @@ There are lots of reasons to want to use more art on this weblog. It's attractiv
 <p>One more recipe to go with this if you have any cold leftovers. Put a bed of spring mixed greens on a plate; I like the Asian mix we found at Farmer&#39;s Market. Cut some of these potatoes up and put on top. Add diced cubed cold roasted beets for color and flavor. Dress with some of the lemon-oil mix, with a little red wine vinegar added. Yum.</p>
 
 <p style="text-align: right; font-size: 10px;">Technorati Tags: <a href="http://www.technorati.com/tag/lemon" rel="tag">lemon</a>, <a href="http://www.technorati.com/tag/potatoes" rel="tag">potatoes</a>, <a href="http://www.technorati.com/tag/recipe" rel="tag">recipe</a></p>
-
-
-  <h3>23 January 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-01-23-mark-the-bird-fidrych-beats-the-yankees-1976/">Mark &#34;The Bird&#34; Fidrych beats the Yankees, 1976</a>
-      </h3>
-      <p>Via Youtube, here's the last 4 minutes or so of a broadcast of the Tigers-Yankees game in June 1976 where Mark Fidrych throws a complete game win. </p>
-
-<p><iframe width="600" height="450" src="//www.youtube.com/embed/sMSDo3BX5Ds?rel=0" frameborder="0" allowfullscreen></iframe></p>
-
-<p>Interested in more Tigers lore? I found the <a href="https://www.facebook.com/groups/231671568473/">Mayo Smith Society</a> on Facebook which is always good for Detroit Tigers stories.</p>
 
 
 
