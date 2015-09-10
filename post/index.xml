@@ -61,6 +61,12 @@ subtitle cross-domain solution at the server-end of Tencent Video
 (&lt;a href=&#34;http://v.qq.com&#34;&gt;http://v.qq.com&lt;/a&gt;) and its CDNs.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;In Dart, see Steve Hamblett&amp;rsquo;s &lt;code&gt;xml2json.dart&lt;/code&gt; library.
+The &lt;a href=&#34;https://github.com/shamblett/xml2json&#34;&gt;Github project&lt;/a&gt; includes
+a set of unit tests, as well as explicit support for three
+conventions (Parker, Badgerfish, and Google Data) for doing
+the conversion. The test suites are welcomed.&lt;/p&gt;
+
 &lt;p&gt;In Go, see Darren Elwood (textnode)&amp;rsquo;s &lt;code&gt;xml2json.go&lt;/code&gt;. The
 &lt;a href=&#34;https://github.com/textnode/xml2json&#34;&gt;Github project&lt;/a&gt; includes
 sample code to parse both RSS and generic XML files.&lt;/p&gt;
