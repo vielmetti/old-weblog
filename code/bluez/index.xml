@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bluez on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/bluez/</link>
+    <description>Recent content in Bluez on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Sep 2015 17:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/bluez/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bluetooth and bluez inside Docker</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</link>
+      <pubDate>Fri, 11 Sep 2015 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</guid>
+      <description>&lt;p&gt;If you have a Bluetooth device attached to a Linux system, it&amp;rsquo;s
+not clear how to attach that device to a Docker container on that
+same system.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bluez&lt;/code&gt;, the Bluetooth driver for Linux, uses the &lt;code&gt;D-Bus&lt;/code&gt; to communicate.
+This is more complex than a FIFO or socket interface, and thus less
+easy to obviously say how it should be mapped into the Docker processs
+and file system space.&lt;/p&gt;
+
+&lt;p&gt;The references below show several ways of not doing this task,
+and hopefully at some point will get answers on how to do it.&lt;/p&gt;
+
+&lt;p&gt;References for further reading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/docker/docker/issues/16208&#34;&gt;Bluetooth socket can&amp;rsquo;t be opened inside container&lt;/a&gt;, Docker Github issues 16208&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker&#34;&gt;Accessing Bluetooth dongle from inside Docker?&lt;/a&gt;, Stack Overflow.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

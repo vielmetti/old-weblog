@@ -6,8 +6,35 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2015 15:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2015 17:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bluetooth and bluez inside Docker</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</link>
+      <pubDate>Fri, 11 Sep 2015 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</guid>
+      <description>&lt;p&gt;If you have a Bluetooth device attached to a Linux system, it&amp;rsquo;s
+not clear how to attach that device to a Docker container on that
+same system.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bluez&lt;/code&gt;, the Bluetooth driver for Linux, uses the &lt;code&gt;D-Bus&lt;/code&gt; to communicate.
+This is more complex than a FIFO or socket interface, and thus less
+easy to obviously say how it should be mapped into the Docker processs
+and file system space.&lt;/p&gt;
+
+&lt;p&gt;The references below show several ways of not doing this task,
+and hopefully at some point will get answers on how to do it.&lt;/p&gt;
+
+&lt;p&gt;References for further reading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/docker/docker/issues/16208&#34;&gt;Bluetooth socket can&amp;rsquo;t be opened inside container&lt;/a&gt;, Docker Github issues 16208&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker&#34;&gt;Accessing Bluetooth dongle from inside Docker?&lt;/a&gt;, Stack Overflow.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>xml2json as part of a web parsing pipeline</title>
@@ -613,53 +640,6 @@ to manage subprojects.&lt;/p&gt;
 &lt;p&gt;I won&amp;rsquo;t be drinking coffee while I type any time soon. I wonder how that
 will affect my work habits. It is perfectly OK to drink coffee and write
 or draw or doodle on paper, though.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ann Arbor City Council Preview for 17 August 2015</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview/</link>
-      <pubDate>Sat, 15 Aug 2015 15:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-15-a2council-preview/</guid>
-      <description>&lt;p&gt;Ann Arbor City Council meets at 7:00 p.m. on Monday, 17 August 2015.
-A preview of the agenda is on Arborwiki, complete with a map, on the
-tag &lt;a href=&#34;https://localwiki.org/ann-arbor/tags/20150817ccmtg&#34;&gt;2015-08-17CCMTG&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Some highlights to note:&lt;/p&gt;
-
-&lt;p&gt;The consent agenda includes $36,412 for the purchase of 21 Taser weapons.
-This is a sole-source purchase, to replace weapons purchased in 2003.&lt;/p&gt;
-
-&lt;p&gt;Also on the consent agenda is $83,000 for a sole-source purchase to
-renew the CityWorks license, which is used for asset tracking and
-maintenance of city owned resources. Of that amount, $20,000 will be
-billed back to the Washtenaw County Water Resources Commissioner.&lt;/p&gt;
-
-&lt;p&gt;$110,000 would go for the continuation of CLEMIS Public Safety Information
-Sharing Services for the Ann Arbor Police Department for FY2016. CLEMIS
-runs the dispatch system for police and allows &amp;ldquo;information sharing&amp;rdquo;
-with other departments. It&amp;rsquo;s run by Oakland County.&lt;/p&gt;
-
-&lt;p&gt;HathiTrust has digitized many decades of Ann Arbor City Council minutes,
-and it it proposed that the city approve publication of those minutes through
-HathiTrust by clearing the copyright on those materials.&lt;/p&gt;
-
-&lt;p&gt;Public hearings include one on deer management, and there&amp;rsquo;s a proposal
-on the agenda to spend $90,000 on some combination of a deer cull by
-sharpshooters and sterlization of deer. Expect this to be a long public
-hearing.&lt;/p&gt;
-
-&lt;p&gt;In development news, there&amp;rsquo;s a proposed condominium development on N Main St
-adjacent to North Main Park, and hearings on proposed annexations on Nixon
-Road and on Ann Arbor - Saline Road.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re following the footing drain disconnect program closely, you&amp;rsquo;ll
-note that there&amp;rsquo;s a proposal to lend the builder of 618 South Main
-footing drain disconnect credits to allow for full occupancy of that building.&lt;/p&gt;
-
-&lt;p&gt;More of course at the full agenda. See you on the site plan barricades
-(er, see you at council).&lt;/p&gt;
 </description>
     </item>
     
