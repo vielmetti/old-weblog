@@ -69,6 +69,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-09-14-old-code-and-old-tools" class="list-group-item">Old code and old tools</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-09-14-writing-up-your-tweets" class="list-group-item">Writing up your tweets</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker" class="list-group-item">Bluetooth and bluez inside Docker</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-10-xml2json" class="list-group-item">xml2json as part of a web parsing pipeline</a></li>
@@ -104,14 +108,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-14-tianjin-explosion" class="list-group-item">Tianjin explosion</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-13-zenos-inbox" class="list-group-item">Zeno&#39;s inbox</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-13-a2b3-lunch-nonsummary-broken-egg" class="list-group-item">a2b3 lunch non-summary for the Broken Egg</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-09-long-form" class="list-group-item">long form</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4079,6 +4083,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -12016,6 +12024,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12322,6 +12334,65 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>13 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/">Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</a>
+      </h3>
+      <p>Progress, actually quite a lot of it:</p>
+
+<p>The problem, neatly stated. Docker is good for bringing up single services ("microservices"), but sometimes your application needs more than one thing running for the whole thing to work. Enter "docker compose", formerly "fig", which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:</p>
+
+<blockquote>
+  <p>Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.</p>
+</blockquote>
+
+<p>The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for <em>why</em> that's a relevant task is at this post on Hypriot, <a href="http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/">How to use Docker Compose to run complex multi container apps on your Raspberry Pi</a>, which I dutifully and successfully managed to run all of the examples from. </p>
+
+<p>Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.</p>
+
+<pre>
+nodered:
+  image: nieleyde/rpi2-nodered
+  command: flows.json
+  volumes:
+    - /home/pi/node-red:/root/.node-red
+  ports: 
+    - "1880:1880"
+  links:
+    - mosquitto
+
+mosquitto:
+  image: nieleyde/rpi-mosquitto
+  ports:
+    - "1883:1883"
+</pre>
+
+<p>Some subtleties to note:</p>
+
+<p>The nieleyde/rpi2-nodered runs on the Pi 2; there's a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven't yet tweaked this to run on x86, but if you do, you'll need to update the "image" stanzas everywhere.</p>
+
+<p>The "command" and "volumes" stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you'll need to change this; I haven't gotten that far yet. It might also make sense to have a data volume container, but again I'm not there yet.</p>
+
+<p>The "mosquitto" configuration is extremely bare bones and runs the default config, which is wide open. I haven't gotten far enough to replace the config file with something better, but that's an obvious next step.</p>
+
+<p>From within Node-RED you refer to this internal MQTT server at hostname "mosquitto", port "1883". If the links stanza was changed to "mqtt" and the mosquitto section was changed to "mqtt" you'd then refer to the MQTT server at hostname "mqtt".</p>
+
+<p>For further reading:</p>
+
+<p>An issue open on Niel Eyde's rpi-nodered Github, <a href="https://github.com/nieleyde/rpi-nodered/issues/5">documentation for how to extend this image with your own nodes and flows</a>, where I'm working some of this out.</p>
+
+<p>On the Node-RED Github, <a href="https://github.com/node-red/node-red/issues/603">Support for Docker install for Node-RED</a>, which is epic and helpful in many ways.</p>
+
+<p>The essential <a href="http://blog.hypriot.com/">Hypriot weblog</a>, specifically the aforementioned <a href="http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/">Docker Compose examples</a> and the <a href="https://github.com/hypriot/compose">Hypriot Docker Compose</a> Github repository.</p>
+
+
+  <h3>11 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/">gooseberries at Ann Arbor Farmers Market</a>
+      </h3>
+      <p>Wasem's brought gooseberries to today's Ann Arbor Farmers Market. There were two varieties, one with smaller berries and one with larger berries. Delicious just as is.</p>
 
 
   <h3>6 July 2015</h3>
@@ -12805,71 +12876,6 @@ Steve
 </blockquote>
 
 <p>Blitzortung is working on a new generation of lightning detectors, which are not yet available, and they are no longer manufacturing their first generation of detectors. Even so the US coverage of lightning detection is very good and recommended for storm tracking. The project lead is Egon Wanke of Dusseldorf, Germany.</p>
-
-
-  <h3>24 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/">Using GNU Parallel to speed up network operations</a>
-      </h3>
-      <p>My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.</p>
-
-<p>Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes. If you are working on something where it doesn't matter which order things happen in as long as they all get done you are in good shape to get tremendous performance improvements simply by overlapping operations.</p>
-
-<p>An example:</p>
-
-<p>DTE Energy does not have one single page on their web site that shows you the total number of outages across their system - or if they do have it, it's so well hidden that I haven't found it. What they do have is a way to fetch the outage count for a single ZIP code. So, armed with a set of zip codes, you can determine a total. You don't care which ZIP is fetched first but you do want them all to show up before you add them up.</p>
-
-<p>The one-line command I have for this is</p>
-
-<p><code>
-parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
-</code></p>
-
-<p>The script dte-by-zip runs as follows, fetching a page from a DTE server and parsing it:</p>
-
-<blockquote>
-  <p>$ dte-by-zip 48104</p>
-  
-  <p>38</p>
-</blockquote>
-
-<p>thus the parallel invocation reads roughly as follows: "for 32 parallel threads, using the dte-zips data file one line a time as command line arguments, run dte-by-zip; add up all the results".</p>
-
-<p>Note that if you are using "curl" to fetch pages, you want to be aware of the <code>--max-time</code> option.</p>
-
-<blockquote>
-  <p>-m, --max-time <seconds>
-               Maximum time in seconds that you allow the  whole  operation  to
-               take.   This is useful for preventing your batch jobs from hang-
-               ing for hours due to slow networks or links going  down. </p>
-</blockquote>
-
-<p>Now you don't want to go too crazy with parallel operations on network resources, it's possible to overrun a remote server and it might be faster to pull 8 or 16 parallel threads instead of 32 or 64 depending on the nature of the remote machine.</p>
-
-<p>Article describing tool (for citations):</p>
-
-<p>O. Tange (2011): GNU Parallel - The Command-Line Power Tool, ;login: The USENIX Magazine, February 2011:42-47.</p>
-
-<p>Authors' website for obtaining code:</p>
-
-<p>http://www.gnu.org/software/parallel/</p>
-
-
-  <h3>22 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-22-dockers-new-runc-doesnt-yet-work-on-mac-os-x-/">Docker&#39;s new RunC doesn&#39;t (yet?) work on Mac OS X</a>
-      </h3>
-      <p>Docker has a new runtime environment that they are releasing called <a href="http://blog.docker.com/2015/06/runc/">runC</a>. It's a "lightweight universal plumbing" that tries to encapsulate all of the Docker dependencies and infrastructure. </p>
-
-<blockquote>
-  <p>To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.</p>
-</blockquote>
-
-<p>Because of Docker's start on Linux systems, it's been tricky to get it running under Mac OS X. Some tries to make it work depend on setting up virtual machines (with the likes of boot2docker) which makes it work at the cost of performance and flexibility. Docker on OS X has not been exceptionally easy though it does work once you commit to doing all of your Docker server work inside a VM</p>
-
-<p>runC would be an answer to the problem of native Docker on OSX X, one might hope, but as of its first release it doesn't work. The first of what is probably many hurdles is the extensive use of the clone(2) system call instead of fork(2). This <a href="http://files.meetup.com/10602292/See%20Docker%20from%20the%20Perspective%20of%20Linux%20Process.pdf">presentation from Allen Sun at DaoCloud</a> goes into the details of Docker's use of clone(2) from the perspective of Linux processes. It is notable that the OS X "Darwin" kernel doesn't have clone(2), and it's as far as I can tell not readily possible to mimic all of clone's semantics strictly by using fork in clever ways.</p>
-
-<p>An open issue on Github is tracking <a href="https://github.com/opencontainers/runc/issues/9">Build fails on Mac OS X 10.9</a>. I don't see an easy fix without work by Apple on their kernel.</p>
 
 
 
