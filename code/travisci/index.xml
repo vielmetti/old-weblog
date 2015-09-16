@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travisci on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/travisci/</link>
+    <description>Recent content in Travisci on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Sep 2015 09:22:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/travisci/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Into the matrix with Travis CI</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/</link>
+      <pubDate>Wed, 16 Sep 2015 09:22:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/</guid>
+      <description>
+
+&lt;p&gt;Travis CI is a continuous integration tool, a description which means nothing
+to people who have never used it. &amp;ldquo;Continuous integration&amp;rdquo; is one of these
+industry phrases that doesn&amp;rsquo;t serve to illuminate the problem that it describes.&lt;/p&gt;
+
+&lt;p&gt;Why would you care? Well, you&amp;rsquo;re working on a project with a bunch of other
+people, and it&amp;rsquo;s kind of complicated. It might depend on some
+&lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-14-old-code-and-old-tools/&#34;&gt;old code&lt;/a&gt;
+that&amp;rsquo;s fragile and should be tested all the time when it changes, or it might depend
+some brand-spanking new code that doesn&amp;rsquo;t quite work and you know it
+doesn&amp;rsquo;t work yet but you want the test system to be less tedious.&lt;/p&gt;
+
+&lt;p&gt;What else looks like this? Circle CI, Solano, Appveyor (for Windows),
+Jenkins (self hosted).&lt;/p&gt;
+
+&lt;p&gt;What does this look like from a workflow perspective? Every time you check in a
+file, the whole system builds, and all of the tests you have configured run.
+With proper configuration you can build a matrix of versions or configurations
+to test, so instead of a test running on a single system it can run on
+3x3 or 2x4 or even 3x5x2 configurations.&lt;/p&gt;
+
+&lt;h3 id=&#34;ruby:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;Travis CI&amp;rsquo;s default langauge is Ruby, and a lot of its tooling is written
+in Ruby, so its Ruby support is quite good.&lt;/p&gt;
+
+&lt;p&gt;Need a bunch of versions of Ruby? Use &lt;code&gt;rvm&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.travis-ci.com/user/languages/ruby/&#34;&gt;Building a Ruby Project, Travis CI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;c-and-c:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;C and C++&lt;/h3&gt;
+
+&lt;p&gt;The version of gcc and g++ on the default systems is 4.6, and you can
+pull in 4.8 through &amp;lsquo;apt&amp;rsquo;, but you currently have to pick up 4.8 through
+the &lt;code&gt;ubuntu-toolchain-r-test&lt;/code&gt; source and not simply by picking a gcc version.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rla/fast-feed/blob/master/.travis.yml&#34;&gt;rla/fast-feed/.travis.yml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;go-golang:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Go (golang)&lt;/h3&gt;
+
+&lt;p&gt;Go (golang) has not gone through a lot of versions yet, and its latest 1.5
+build is written in Go. Because the language is so young, there is not lots
+of old code to port, and thus not too many version dependencies in libraries
+to worry about yet.&lt;/p&gt;
+
+&lt;p&gt;Testing two versions of Go (golang) plus Linux and Mac is easy, and the
+configuration file doesn&amp;rsquo;t have to do anything funky.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/miekg/mmark/fast-feed/blob/master/.travis.yml&#34;&gt;miekg/mmark/.travis.yml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;nodejs:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;NodeJS&lt;/h3&gt;
+
+&lt;p&gt;Node 4.0 is new, and the source currently of a fair bit of porting efforts as
+a lot of things have broken not in the language but in its libraries. Fortunately,
+the nodejs and iojs split has been reconciled, but unfortunately there&amp;rsquo;s about
+six months of reunification work to be done.&lt;/p&gt;
+
+&lt;p&gt;If you are porting or building to NodeJS 4.0, you have to drag in gcc 4.8. Previous
+versions of gcc/g++ aren&amp;rsquo;t capable of coping with the C++11 constructs that are
+in V8 and (especially) in &lt;code&gt;nan&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;NodeJS 4.0 on Mac? In addition to gcc 4.8, you have to drag in nvm.
+The approachable way is to pull in the source from Github that lives
+at &lt;code&gt;https://github.com/creationix/nvm.git&lt;/code&gt;, build it, and then use the
+thing that you just built to subsequently pull in the right version of Node.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rla/fast-feed/blob/master/.travis.yml&#34;&gt;rla/fast-feed/.travis.yml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sass/node-sass/blob/master/.travis.yml&#34;&gt;sass/node-sass/.travis.yml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;python:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;Three versions of Python plus three versions of Django: use &amp;lsquo;env&amp;rsquo;
+to drive &amp;lsquo;pip&amp;rsquo;, and &amp;lsquo;matrix&amp;rsquo; to skip some builds&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(datadesk/django-softhyphen)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lots and lots of Python versions, with different dependencies for
+each version?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(tornadoweb/tornado)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Django plus Postgres?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/&#34;&gt;http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;prolog:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Prolog&lt;/h3&gt;
+
+&lt;p&gt;Prolog? Bring it in with apt-add-repository and apt-get.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(rla/simple-template)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;multiple-langauges:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Multiple langauges&lt;/h3&gt;
+
+&lt;p&gt;Two versions of Go plus Python plus an external dependency that&amp;rsquo;s being flaky?
+Use &lt;code&gt;language: python&lt;/code&gt; because it&amp;rsquo;s easier to install &lt;code&gt;go&lt;/code&gt; from package
+managers than it is to drag in the whole complex python multi-version infrastructure
+from scratch.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(miekg/mmark, in progress)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;os-x:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;OS X&lt;/h3&gt;
+
+&lt;p&gt;Use &amp;lsquo;osx_image&amp;rsquo; to tweak the version of &amp;lsquo;osx&amp;rsquo; that you get.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;http://docs.travis-ci.com/user/osx-ci-environment/&#34;&gt;http://docs.travis-ci.com/user/osx-ci-environment/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;http://blog.travis-ci.com/2015-09-09-xcode7-gm/&#34;&gt;http://blog.travis-ci.com/2015-09-09-xcode7-gm/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;both-linux-and-mac-in-general:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Both Linux and Mac, in general&lt;/h3&gt;
+
+&lt;p&gt;Go is easy. (miekg/mmark)&lt;/p&gt;
+
+&lt;p&gt;Node requires bringing in nvm and gcc 4.8. (rla/fastfeed)&lt;/p&gt;
+
+&lt;p&gt;Python &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Prolog &amp;hellip; (don&amp;rsquo;t know)&lt;/p&gt;
+
+&lt;p&gt;Ruby &amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

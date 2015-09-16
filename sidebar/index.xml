@@ -6,13 +6,13 @@
     <description>Recent content in Sidebars on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2015 14:11:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2015 10:11:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/sidebar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>todo</title>
       <link>http://vielmetti.github.io/sidebar/todo/</link>
-      <pubDate>Sat, 01 Aug 2015 14:11:00 -0400</pubDate>
+      <pubDate>Tue, 15 Sep 2015 10:11:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/sidebar/todo/</guid>
       <description>
@@ -20,13 +20,14 @@
 &lt;h2 id=&#34;todo:5b51c9e8380c18fc2ee8d866662d01d8&#34;&gt;Todo&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Test integration (and maybe publishing too) with &lt;code&gt;travis&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Acceptance tests with &lt;code&gt;bats&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Auto-discovery for RSS feed, per &lt;a href=&#34;http://gohugo.io/templates/rss/&#34;&gt;http://gohugo.io/templates/rss/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Short codes for easy linking. First pass complete.
 Assisted synaesthesia and colorized names and phrases.
 (Started, with colorized but not linked names)&lt;/li&gt;
 &lt;li&gt;Nicely thought through category and taxonomy pages. They
-have stubs now, but they need design.&lt;/li&gt;
-&lt;li&gt;A whole &amp;ldquo;Ann Arbor&amp;rdquo; section, because there&amp;rsquo;s so much of that,
+have stubs now, but they need design.
 and it should integrate with Arborwiki. (Started.)&lt;/li&gt;
 &lt;li&gt;Links from books to their corresponding URLs and ISBNs to
 link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
