@@ -15,7 +15,9 @@
       <pubDate>Sun, 20 Sep 2015 09:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/</guid>
-      <description>&lt;blockquote&gt;
+      <description>
+
+&lt;blockquote&gt;
 &lt;p&gt;A distributed system is one in which the failure of a computer
 you didn&amp;rsquo;t even know existed can render your own computer unusable.
 &lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;&lt;/p&gt;
@@ -66,11 +68,16 @@ which are at risk of downtime. A comprehensive list is probably
 impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Amazon Echo&lt;/li&gt;
 &lt;li&gt;Amazon Instant Video&lt;/li&gt;
 &lt;li&gt;AWS Support Tickets. Use this &lt;a href=&#34;http://www.amazon.com/gp/html-forms-controller/support-center-issues-u&#34;&gt;workaround&lt;/a&gt; ???&lt;/li&gt;
+&lt;li&gt;Buffer&lt;/li&gt;
 &lt;li&gt;Canva&lt;/li&gt;
 &lt;li&gt;CoinSimple. &amp;ldquo;Widespread outage in Amazon Web Services is affecting several Internet services, including @CoinSimple. Please check here for updates.&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;DuoLingo&lt;/li&gt;
+&lt;li&gt;FastSpring. &amp;ldquo;We were having some intermittent problems due to #awsoutage. The problem is being resolved by Amazon.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;GroupMe&lt;/li&gt;
+&lt;li&gt;HashiCorp. &amp;ldquo;Our infrastructure provider is experiencing issues which may cause our project websites to be inaccessible. Sorry for the inconvenience.&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;IMDB&lt;/li&gt;
 &lt;li&gt;Mediacom&lt;/li&gt;
 &lt;li&gt;Medium. &amp;ldquo;Identified - We&amp;rsquo;re working to fix a major outage and will be back online as soon as possible.&amp;rdquo; &lt;a href=&#34;https://medium.statuspage.io/&#34;&gt;https://medium.statuspage.io/&lt;/a&gt;&lt;/li&gt;
@@ -78,16 +85,24 @@ impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
 &lt;li&gt;Netflix. &amp;ldquo;We are currently experiencing issues streaming on all devices.
 We are working to resolve the problem. We apologize for any inconvenience.&amp;rdquo; &lt;a href=&#34;https://help.netflix.com/help&#34;&gt;https://help.netflix.com/help&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Pocket&lt;/li&gt;
+&lt;li&gt;Product Hunt.&lt;/li&gt;
+&lt;li&gt;Social Flow&lt;/li&gt;
 &lt;li&gt;Takipi. &amp;ldquo;Due to an AWS outage, we&amp;rsquo;re experiencing some slowness and connectivity issues. Stay tuned for updates&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Viber. &amp;ldquo;We are experiencing disruptions in our service. We are working to resolve this issue. Sorry for the inconvenience.&amp;rdquo; &lt;a href=&#34;https://support.viber.com/&#34;&gt;https://support.viber.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;waffle.io &amp;ldquo;Experiencing Issues with Heroku&amp;rdquo; &lt;a href=&#34;http://status.waffle.io/&#34;&gt;http://status.waffle.io/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Wink.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Follow the discussion on Twitter on the #AWS hashtag.&lt;/p&gt;
+&lt;p&gt;Follow the discussion on Twitter on the #AWS hashtag, as well as
+#awsoutage and #awsdown . Twitter is unaffected by this outage,
+and Slack is also unaffected, which devops teams are both happy about.&lt;/p&gt;
+
+&lt;h3 id=&#34;news-coverage:0bf1024f29774b00d48e1402990b91e9&#34;&gt;News coverage&lt;/h3&gt;
 
 &lt;p&gt;This &lt;a href=&#34;https://news.ycombinator.com/item?id=10247307&#34;&gt;Hacker News discussion&lt;/a&gt;
 is a good one as startups radio in their woes.&lt;/p&gt;
+
+&lt;p&gt;TNW: &lt;a href=&#34;http://thenextweb.com/insider/2015/09/20/amazon-web-services-goes-down-taking-netflix-reddit-pocket-and-more-with-it/&#34;&gt;Amazon Web Services goes down, taking Netflix, Reddit, Pocket and more with it&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
