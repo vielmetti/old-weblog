@@ -53,8 +53,11 @@ investigating the causes, and doing what we can to mitigate the
 problems.&amp;rdquo; @dockerstatus and &lt;a href=&#34;http://status.docker.com/&#34;&gt;http://status.docker.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Heroku: &amp;ldquo;Starting new dynos (unidling, one-off, scaling or
-restarting crashed apps, new releases) is still unavailable.&amp;rdquo;
-@herokustatus and &lt;a href=&#34;https://status.heroku.com/incidents/811&#34;&gt;https://status.heroku.com/incidents/811&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+restarting crashed apps, new releases) is still unavailable.&amp;rdquo; &amp;ldquo;Until
+this incident is resolved, you might be unable to open new support
+tickets with us. If you need to communicate with our support staff
+during this time, please email outage-support@heroku.com.&amp;rdquo; @herokustatus
+and &lt;a href=&#34;https://status.heroku.com/incidents/811&#34;&gt;https://status.heroku.com/incidents/811&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;CircleCI: &amp;ldquo;Experiencing Issues with Heroku and AWS&amp;rdquo;. @circleci
 and &lt;a href=&#34;http://status.circleci.com/&#34;&gt;http://status.circleci.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
