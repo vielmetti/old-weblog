@@ -18,7 +18,7 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;A distributed system is one in which the failure of a computer
 you didn&amp;rsquo;t even know existed can render your own computer unusable.
-Leslie Lamport&lt;/p&gt;
+&lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Amazon Web Services DynamoDB experienced downtime in the N Virginia
@@ -27,6 +27,10 @@ a result, a number of other AWS services inside N Virginia that
 depend on DynamoDB also had downtime. Companies and organizations
 that built services on top of those systems who didn&amp;rsquo;t have
 geographic load balancing were having problems as well.&lt;/p&gt;
+
+&lt;p&gt;Affected services include at least CloudWatch, SES, SNS, SQS, SWS,
+AutoScale, Cloud Formation, Directory Service, Key Mgmt and Lambda,
+according to a report on Hacker News.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://status.aws.amazon.com/&#34;&gt;http://status.aws.amazon.com/&lt;/a&gt;&lt;/p&gt;
 
@@ -51,9 +55,23 @@ and &lt;a href=&#34;http://status.circleci.com/&#34;&gt;http://status.circleci.c
 &lt;a href=&#34;https://www.traviscistatus.com/&#34;&gt;https://www.traviscistatus.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;There are a lot of applications built on AWS and on Heroku,
+which are at risk of downtime. A comprehensive list is probably
+impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazon Instant Video&lt;/li&gt;
+&lt;li&gt;AWS Support Tickets&lt;/li&gt;
+&lt;li&gt;DuoLingo&lt;/li&gt;
+&lt;li&gt;Mediacom&lt;/li&gt;
+&lt;li&gt;Medium&lt;/li&gt;
+&lt;li&gt;Nest&lt;/li&gt;
+&lt;li&gt;Netflix&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Follow the discussion on Twitter on the #AWS hashtag.&lt;/p&gt;
 
-&lt;p&gt;This &lt;a href=&#34;https://news.ycombinator.com/item?id=10247307&#34;&gt;Y Combinator discussion&lt;/a&gt;
+&lt;p&gt;This &lt;a href=&#34;https://news.ycombinator.com/item?id=10247307&#34;&gt;Hacker News discussion&lt;/a&gt;
 is a good one as startups radio in their woes.&lt;/p&gt;
 </description>
     </item>
