@@ -34,6 +34,9 @@ according to a report on Hacker News.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://status.aws.amazon.com/&#34;&gt;http://status.aws.amazon.com/&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;Reports from &lt;a href=&#34;https://www.twitter.com/ylastic&#34;&gt;@ylastic&lt;/a&gt; on Twitter
+have been helpful in keeping track of outages. &lt;a href=&#34;http://www.ylastic.com&#34;&gt;http://www.ylastic.com&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;When core infrastructure goes down, it tends to affect other platforms
 that depend on that core infrastructure and that hide it from their
 users. This in turn affects applications built on those platforms.&lt;/p&gt;
@@ -61,11 +64,11 @@ impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Amazon Instant Video&lt;/li&gt;
-&lt;li&gt;AWS Support Tickets&lt;/li&gt;
+&lt;li&gt;AWS Support Tickets. Use this &lt;a href=&#34;http://www.amazon.com/gp/html-forms-controller/support-center-issues-u&#34;&gt;workaround&lt;/a&gt; ???&lt;/li&gt;
 &lt;li&gt;DuoLingo&lt;/li&gt;
 &lt;li&gt;Mediacom&lt;/li&gt;
 &lt;li&gt;Medium&lt;/li&gt;
-&lt;li&gt;Nest&lt;/li&gt;
+&lt;li&gt;Nest. &amp;ldquo;We’re investigating a service outage with the Nest mobile app and Cam services, and the team is working on a fix. Details to come.&amp;rdquo; &lt;a href=&#34;https://nest.com/support/#status&#34;&gt;https://nest.com/support/#status&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Netflix&lt;/li&gt;
 &lt;/ul&gt;
 
