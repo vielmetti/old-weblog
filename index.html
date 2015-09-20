@@ -69,6 +69,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am" class="list-group-item">AWS DynamoDB downtime, Sunday am, September 20, 2015</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci" class="list-group-item">Into the matrix with Travis CI</a></li>
          
 	<li><a href="http://vielmetti.github.io/sidebar/todo" class="list-group-item">todo</a></li>
@@ -106,12 +108,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-august-farmers-market-report" class="list-group-item">August 2015 Farmers Market report</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-ashley-madison-ann-arbor" class="list-group-item">Ashley and Madison, Ann Arbor</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-19-liquid-contact-indicator-tripped" class="list-group-item">Liquid contact indicator tripped</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4087,6 +4089,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12041,6 +12045,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12349,6 +12355,43 @@ this and there will almost always be something new to read.</p>
 
 
 
+  <h3>20 September 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/">AWS DynamoDB downtime, Sunday am, September 20, 2015</a>
+      </h3>
+      <blockquote>
+<p>A distributed system is one in which the failure of a computer
+you didn&rsquo;t even know existed can render your own computer unusable.
+Leslie Lamport</p>
+</blockquote>
+
+<p>Amazon Web Services DynamoDB experienced downtime in the N Virginia
+availability zone early Sunday morning, September 20, 2015. As
+a result, a number of other AWS services inside N Virginia that
+depend on DynamoDB also had downtime. Companies and organizations
+that built services on top of those systems who didn&rsquo;t have
+geographic load balancing were having problems as well.</p>
+
+<p><a href="http://status.aws.amazon.com/">http://status.aws.amazon.com/</a></p>
+
+<p>When core infrastructure goes down, it tends to affect other platforms
+that depend on that core infrastructure and that hide it from their
+users. This in turn affects applications built on those platforms.</p>
+
+<ul>
+<li><p>Docker: &ldquo;We are currently seeing intermittent errors when pushing
+and pulling, related to issues that AWS is having. We are currently
+investigating the causes, and doing what we can to mitigate the
+problems.&rdquo; @dockerstatus and <a href="http://status.docker.com/">http://status.docker.com/</a></p></li>
+
+<li><p>Heroku: &ldquo;Starting new dynos (unidling, one-off, scaling or
+restarting crashed apps, new releases) is still unavailable.&rdquo;
+@herokustatus and <a href="https://status.heroku.com/incidents/811">https://status.heroku.com/incidents/811</a></p></li>
+</ul>
+
+<p>Follow the discussion on Twitter on the #AWS hashtag.</p>
+
+
   <h3>16 September 2015</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/">Into the matrix with Travis CI</a>
@@ -12366,8 +12409,14 @@ that&rsquo;s fragile and should be tested all the time when it changes, or it mi
 some brand-spanking new code that doesn&rsquo;t quite work and you know it
 doesn&rsquo;t work yet but you want the test system to be less tedious.</p>
 
-<p>What else looks like this? Circle CI, Solano, Appveyor (for Windows),
-Jenkins (self hosted).</p>
+<p>What else looks like this?</p>
+
+<ul>
+<li><a href="https://circleci.com/">CircleCI</a></li>
+<li><a href="https://www.solanolabs.com/">Solano</a></li>
+<li><a href="http://www.appveyor.com/">Appveyor</a> (for Windows)</li>
+<li>Jenkins (self hosted)</li>
+</ul>
 
 <p>What does this look like from a workflow perspective? Every time you check in a
 file, the whole system builds, and all of the tests you have configured run.
@@ -12433,29 +12482,51 @@ thing that you just built to subsequently pull in the right version of Node.</p>
 
 <h3 id="python:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Python</h3>
 
-<p>Three versions of Python plus three versions of Django: use &lsquo;env&rsquo;
-to drive &lsquo;pip&rsquo;, and &lsquo;matrix&rsquo; to skip some builds</p>
+<p>Python 2 and Python 3 are both available on Travis CI, including even
+the latest Python 3.5.</p>
+
+<p>If you need three versions of Python plus three versions of Django:
+use &lsquo;env&rsquo; to drive &lsquo;pip&rsquo;, and &lsquo;matrix&rsquo; to skip some builds where you
+know that the combinations don&rsquo;t work.</p>
 
 <ul>
 <li>(datadesk/django-softhyphen)</li>
 </ul>
 
 <p>Lots and lots of Python versions, with different dependencies for
-each version?</p>
+each version? The <code>tornado</code> package has that.</p>
 
 <ul>
 <li>(tornadoweb/tornado)</li>
 </ul>
 
-<p>Django plus Postgres?</p>
+<p>Looking to test Django plus Postgres?</p>
 
 <ul>
 <li>(<a href="http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/">http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/</a>)</li>
 </ul>
 
+<h3 id="java:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Java</h3>
+
+<p>Java is supported.</p>
+
+<p>If you need Java 8 in a particular version, see the below issue on Github Issues.</p>
+
+<ul>
+<li><a href="https://github.com/travis-ci/travis-ci/issues/4042">Java 8 version update and bug</a>,
+Github issues.</li>
+</ul>
+
+<h3 id="fortran:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Fortran</h3>
+
+<p>If you&rsquo;re building scientific codes, Fortran is available through the <code>apt</code>
+mechanism.</p>
+
 <h3 id="prolog:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Prolog</h3>
 
-<p>Prolog? Bring it in with apt-add-repository and apt-get.</p>
+<p>Prolog? Bring it in with apt-add-repository and apt-get. This is illustrative
+of Travis CI&rsquo;s ability to incorporate nearly any language, since you can install
+new compilers and interpreters via package systems and then run them.</p>
 
 <ul>
 <li>(rla/simple-template)</li>
@@ -12487,11 +12558,16 @@ from scratch.</p>
 
 <p>Node requires bringing in nvm and gcc 4.8. (rla/fastfeed)</p>
 
-<p>Python &hellip;</p>
+<p>Python &hellip; (don&rsquo;t know)</p>
 
 <p>Prolog &hellip; (don&rsquo;t know)</p>
 
-<p>Ruby &hellip;</p>
+<p>Ruby &hellip; (should work pretty well, but not tested)</p>
+
+<h2 id="acknowledgements:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Acknowledgements</h2>
+
+<p>Thanks to the following people for their help: Raivo Laanemets (@RaivoL),
+Mohan Kartha (@mckartha), Chris Dzombak (@cdzombak), &hellip;</p>
 
 
   <h3>15 September 2015</h3>
@@ -13362,21 +13438,6 @@ Thursday August 13, 2015, at the Chelsea Clock Tower.</p>
 <p>Stickers! My print run of stickers from VGKids in Ypsilanti is in, and I brought
 stickers to lunch. Thanks to everyone who chipped in to help with
 printing costs.</p>
-
-
-  <h3>9 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-09-long-form/">long form</a>
-      </h3>
-      <p>Too much of the stuff that I write is very short. I&rsquo;d like to sort out how
-to have more long form writing.</p>
-
-<p>From memories of times past trying to do this, the struggle was in coming up with
-structure. It&rsquo;s easy to push out a 5 paragraph essay in comparison with structuring
-a 20 or 50 or 200 page tome.</p>
-
-<p>I know that people have taken blogs as first drafts of long form writing, and heaven
-knows I have enough raw word count to start to make something from.</p>
 
 
 

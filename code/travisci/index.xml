@@ -28,8 +28,14 @@ that&amp;rsquo;s fragile and should be tested all the time when it changes, or i
 some brand-spanking new code that doesn&amp;rsquo;t quite work and you know it
 doesn&amp;rsquo;t work yet but you want the test system to be less tedious.&lt;/p&gt;
 
-&lt;p&gt;What else looks like this? Circle CI, Solano, Appveyor (for Windows),
-Jenkins (self hosted).&lt;/p&gt;
+&lt;p&gt;What else looks like this?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://circleci.com/&#34;&gt;CircleCI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.solanolabs.com/&#34;&gt;Solano&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.appveyor.com/&#34;&gt;Appveyor&lt;/a&gt; (for Windows)&lt;/li&gt;
+&lt;li&gt;Jenkins (self hosted)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;What does this look like from a workflow perspective? Every time you check in a
 file, the whole system builds, and all of the tests you have configured run.
@@ -95,29 +101,51 @@ thing that you just built to subsequently pull in the right version of Node.&lt;
 
 &lt;h3 id=&#34;python:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Python&lt;/h3&gt;
 
-&lt;p&gt;Three versions of Python plus three versions of Django: use &amp;lsquo;env&amp;rsquo;
-to drive &amp;lsquo;pip&amp;rsquo;, and &amp;lsquo;matrix&amp;rsquo; to skip some builds&lt;/p&gt;
+&lt;p&gt;Python 2 and Python 3 are both available on Travis CI, including even
+the latest Python 3.5.&lt;/p&gt;
+
+&lt;p&gt;If you need three versions of Python plus three versions of Django:
+use &amp;lsquo;env&amp;rsquo; to drive &amp;lsquo;pip&amp;rsquo;, and &amp;lsquo;matrix&amp;rsquo; to skip some builds where you
+know that the combinations don&amp;rsquo;t work.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;(datadesk/django-softhyphen)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Lots and lots of Python versions, with different dependencies for
-each version?&lt;/p&gt;
+each version? The &lt;code&gt;tornado&lt;/code&gt; package has that.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;(tornadoweb/tornado)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Django plus Postgres?&lt;/p&gt;
+&lt;p&gt;Looking to test Django plus Postgres?&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;(&lt;a href=&#34;http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/&#34;&gt;http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&#34;java:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;Java is supported.&lt;/p&gt;
+
+&lt;p&gt;If you need Java 8 in a particular version, see the below issue on Github Issues.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/travis-ci/travis-ci/issues/4042&#34;&gt;Java 8 version update and bug&lt;/a&gt;,
+Github issues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fortran:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Fortran&lt;/h3&gt;
+
+&lt;p&gt;If you&amp;rsquo;re building scientific codes, Fortran is available through the &lt;code&gt;apt&lt;/code&gt;
+mechanism.&lt;/p&gt;
+
 &lt;h3 id=&#34;prolog:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Prolog&lt;/h3&gt;
 
-&lt;p&gt;Prolog? Bring it in with apt-add-repository and apt-get.&lt;/p&gt;
+&lt;p&gt;Prolog? Bring it in with apt-add-repository and apt-get. This is illustrative
+of Travis CI&amp;rsquo;s ability to incorporate nearly any language, since you can install
+new compilers and interpreters via package systems and then run them.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;(rla/simple-template)&lt;/li&gt;
@@ -149,11 +177,16 @@ from scratch.&lt;/p&gt;
 
 &lt;p&gt;Node requires bringing in nvm and gcc 4.8. (rla/fastfeed)&lt;/p&gt;
 
-&lt;p&gt;Python &amp;hellip;&lt;/p&gt;
+&lt;p&gt;Python &amp;hellip; (don&amp;rsquo;t know)&lt;/p&gt;
 
 &lt;p&gt;Prolog &amp;hellip; (don&amp;rsquo;t know)&lt;/p&gt;
 
-&lt;p&gt;Ruby &amp;hellip;&lt;/p&gt;
+&lt;p&gt;Ruby &amp;hellip; (should work pretty well, but not tested)&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgements:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;Thanks to the following people for their help: Raivo Laanemets (@RaivoL),
+Mohan Kartha (@mckartha), Chris Dzombak (@cdzombak), &amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

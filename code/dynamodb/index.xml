@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamodb on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/dynamodb/</link>
+    <description>Recent content in Dynamodb on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Sep 2015 09:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/dynamodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS DynamoDB downtime, Sunday am, September 20, 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/</link>
+      <pubDate>Sun, 20 Sep 2015 09:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A distributed system is one in which the failure of a computer
+you didn&amp;rsquo;t even know existed can render your own computer unusable.
+Leslie Lamport&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Amazon Web Services DynamoDB experienced downtime in the N Virginia
+availability zone early Sunday morning, September 20, 2015. As
+a result, a number of other AWS services inside N Virginia that
+depend on DynamoDB also had downtime. Companies and organizations
+that built services on top of those systems who didn&amp;rsquo;t have
+geographic load balancing were having problems as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://status.aws.amazon.com/&#34;&gt;http://status.aws.amazon.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When core infrastructure goes down, it tends to affect other platforms
+that depend on that core infrastructure and that hide it from their
+users. This in turn affects applications built on those platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Docker: &amp;ldquo;We are currently seeing intermittent errors when pushing
+and pulling, related to issues that AWS is having. We are currently
+investigating the causes, and doing what we can to mitigate the
+problems.&amp;rdquo; @dockerstatus and &lt;a href=&#34;http://status.docker.com/&#34;&gt;http://status.docker.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Heroku: &amp;ldquo;Starting new dynos (unidling, one-off, scaling or
+restarting crashed apps, new releases) is still unavailable.&amp;rdquo;
+@herokustatus and &lt;a href=&#34;https://status.heroku.com/incidents/811&#34;&gt;https://status.heroku.com/incidents/811&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Follow the discussion on Twitter on the #AWS hashtag.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
