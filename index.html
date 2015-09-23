@@ -69,6 +69,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-snap-ci" class="list-group-item">Snap CI</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am" class="list-group-item">AWS DynamoDB downtime, Sunday am, September 20, 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci" class="list-group-item">Into the matrix with Travis CI</a></li>
@@ -106,12 +108,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-github-waffle-kanban-board" class="list-group-item">Using Github Issues and Waffle.io as a personal kanban board</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-august-farmers-market-report" class="list-group-item">August 2015 Farmers Market report</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-22-ashley-madison-ann-arbor" class="list-group-item">Ashley and Madison, Ann Arbor</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4089,6 +4091,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12047,6 +12051,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12355,6 +12361,43 @@ this and there will almost always be something new to read.</p>
 
 
 
+  <h3>22 September 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-09-22-snap-ci/">Snap CI</a>
+      </h3>
+      <p><a href="https://snap-ci.com">Snap CI</a> is a cloud-based continuous integration system. Like
+Travis CI, which I have written about <a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/">here</a>,
+it lives in the cloud, lets you run programs triggered by GitHub commits, and
+offers a testing environment for free for open source projects which lets you
+familiarize yourself with the system before deciding to pay for it for your
+non-open-source efforts.</p>
+
+<p>I&rsquo;m looking at all of these tools now because this weblog is now managed through
+a process that involves checking things into Github, which makes it completely
+suitable for automation for common tasks every time I save a file. (Spell checking,
+link checking, really any kind of quality control you can imagine reducing to
+a tiny shell script.)</p>
+
+<p>Like Travis CI, Snap CI lets you automate the build process. Where it diverges
+(and where it&rsquo;s interesting) is that the build process is only the first part of
+a multi-stage pipeline that includes deployment at the end of the task only when
+a set of human decisions have been made as to whether the thing you made is ready
+to be shared.</p>
+
+<p>This <a href="https://blog.snap-ci.com/blog/2014/07/22/why-snapci-and-travisci-are-not-same-thing/">Snap CI blog post</a>
+on why Travis CI and Snap CI are not the same thing is from Snap CI and it&rsquo;s a useful
+overview.</p>
+
+<p>The downside of multi-stage pipelines for deployment is that they are very hard to
+automate correctly, and very hard to demonstrate correct behavior with open source
+projects that generally struggle to have any automated test facilities at all. So
+while Travis CI is a very good fit for open source components (and has attracted a
+whole sub-industry of writing <code>.travis.yml</code> files to support those), it really doesn&rsquo;t
+have the whole &ldquo;continuous deployment&rdquo; pattern sorted out. And while Snap CI looks
+like it would be great for saying &ldquo;once we&rsquo;re happy with this, push it out to the world&rdquo;,
+that setup is not easy to pick up simply by inspecting other projects that have done it.</p>
+
+
   <h3>20 September 2015</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/">AWS DynamoDB downtime, Sunday am, September 20, 2015</a>
@@ -12373,6 +12416,8 @@ a result, a number of other AWS services inside N Virginia that
 depend on DynamoDB also had downtime. Companies and organizations
 that built services on top of those systems who didn&rsquo;t have
 geographic load balancing were having problems as well.</p>
+
+<p>UPDATE: Amazon&rsquo;s report <a href="https://aws.amazon.com/message/5467D2/">Summary of the Amazon DynamoDB Service Disruption and Related Impacts in the US-East Region</a> is available as of September 23, 2015.</p>
 
 <p>Affected services include at least CloudWatch, SES, SNS, SQS, SWS,
 AutoScale, Cloud Formation, Directory Service, Key Mgmt and Lambda,
@@ -12407,7 +12452,9 @@ and <a href="https://status.heroku.com/incidents/811">https://status.heroku.com/
 and <a href="http://status.circleci.com/">http://status.circleci.com/</a></p></li>
 
 <li><p>TravisCI: &ldquo;Partial System Outage&rdquo;. @traviscistatus and
-<a href="https://www.traviscistatus.com/">https://www.traviscistatus.com/</a></p></li>
+<a href="https://www.traviscistatus.com/">https://www.traviscistatus.com/</a> After incident report
+at <a href="https://www.traviscistatus.com/incidents/wzyhx97450f4">https://www.traviscistatus.com/incidents/wzyhx97450f4</a> ,
+&ldquo;Degradations and outages due to AWS us-east-1 domino effect&rdquo;</p></li>
 </ul>
 
 <p>There are a lot of applications built on AWS and on Heroku,
@@ -12418,8 +12465,10 @@ impossible, but here are some reports, in alphabetical order.</p>
 <li>Airbnb</li>
 <li>Amazon Echo</li>
 <li>Amazon Instant Video</li>
+<li>AWS Console. The API is hosted in each region, so the command line worked, but the console is hosted out of us-east-1 and was unavailable.</li>
 <li>AWS Support Tickets. Use this <a href="http://www.amazon.com/gp/html-forms-controller/support-center-issues-u">workaround</a> ???</li>
 <li>Buffer</li>
+<li>Canopy. &ldquo;Our iOS app is down due to the system-wide #AWSoutage. Updates will be provided soon.&rdquo;</li>
 <li>Canva</li>
 <li>Clickfunnels. &ldquo;Our development team is aware of this, however, at this time, the only thing that we can do is wait until the issues at Amazon AWS are resolved completely.&rdquo; <a href="http://status.clickfunnels.com/">http://status.clickfunnels.com/</a></li>
 <li>CoinSimple. &ldquo;Widespread outage in Amazon Web Services is affecting several Internet services, including @CoinSimple. Please check here for updates.&rdquo;</li>
@@ -12489,6 +12538,7 @@ doesn&rsquo;t work yet but you want the test system to be less tedious.</p>
 
 <ul>
 <li><a href="https://circleci.com/">CircleCI</a></li>
+<li><a href="https://snap-ci.com/">Snap CI</a> by ThoughtWorks</li>
 <li><a href="https://www.solanolabs.com/">Solano</a></li>
 <li><a href="http://www.appveyor.com/">Appveyor</a> (for Windows)</li>
 <li>Jenkins (self hosted)</li>
@@ -13474,46 +13524,6 @@ blasts.</p>
       </h3>
       <p>It took me about an hour to half-empty my inbox.
 Alas, I have Zeno&rsquo;s Inbox, which is never emptied, only half-emptied.</p>
-
-
-  <h3>13 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-13-a2b3-lunch-nonsummary-broken-egg/">a2b3 lunch non-summary for the Broken Egg</a>
-      </h3>
-      <p>Lunch at The Broken Egg with the a2b3 crew. We had 17 people show up,
-which is about 2x what had been the normal attendance. The restaurant
-was very accomodating, and everyone was well fed.</p>
-
-<p>Organizing lunch is the highlight of my week.</p>
-
-<p>Lots of things were discussed, here&rsquo;s a few of them:</p>
-
-<p>The Perseid meteor shower peaked last night, notes Linda Diane Feldt,
-who saw a few shooting stars from her cabin in Lyndon Township. I listened
-to meteor scatter radio transmissions on <a href="http://www.livemeteors.com">http://www.livemeteors.com</a> which
-listens for reflections of Toronto TV signals using a directional antenna
-from Washington DC.</p>
-
-<p>Vintage baseball is happening in Chelsea and Dexter reports Patti Smith,
-and she loves the uniforms. The next game is
-Vintage Base Ball: Chelsea Monitors vs. Dexter Union
-August 29 @ 2:30 pm - 4:30 pm in Chelsea at Veterans Park.
-The teams are the
-<a href="https://www.facebook.com/ChelseaMonitors">Chelsea Monitors</a> (facebook) and
-the <a href="http://www.unionbbc.com/">Dexter Union</a>. Dexter has a game vs Port Huron
-at St. Joseph Catholic Church (Mast and N. Territorial)
-on Saturday, August 15th at 2pm.</p>
-
-<p>The Zingerman&rsquo;s partners meeting is an open meeting, and Tom Meloche
-was there. He reported that it&rsquo;s a 2.5 hour event that&rsquo;s carefully
-time-boxed, so that they cover everything without going over.</p>
-
-<p>a2b3 regular and jazz singer David Bloom is performing tonight,
-Thursday August 13, 2015, at the Chelsea Clock Tower.</p>
-
-<p>Stickers! My print run of stickers from VGKids in Ypsilanti is in, and I brought
-stickers to lunch. Thanks to everyone who chipped in to help with
-printing costs.</p>
 
 
 

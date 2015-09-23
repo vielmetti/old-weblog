@@ -30,6 +30,8 @@ depend on DynamoDB also had downtime. Companies and organizations
 that built services on top of those systems who didn&amp;rsquo;t have
 geographic load balancing were having problems as well.&lt;/p&gt;
 
+&lt;p&gt;UPDATE: Amazon&amp;rsquo;s report &lt;a href=&#34;https://aws.amazon.com/message/5467D2/&#34;&gt;Summary of the Amazon DynamoDB Service Disruption and Related Impacts in the US-East Region&lt;/a&gt; is available as of September 23, 2015.&lt;/p&gt;
+
 &lt;p&gt;Affected services include at least CloudWatch, SES, SNS, SQS, SWS,
 AutoScale, Cloud Formation, Directory Service, Key Mgmt and Lambda,
 according to a report on Hacker News.&lt;/p&gt;
@@ -63,7 +65,9 @@ and &lt;a href=&#34;https://status.heroku.com/incidents/811&#34;&gt;https://stat
 and &lt;a href=&#34;http://status.circleci.com/&#34;&gt;http://status.circleci.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;TravisCI: &amp;ldquo;Partial System Outage&amp;rdquo;. @traviscistatus and
-&lt;a href=&#34;https://www.traviscistatus.com/&#34;&gt;https://www.traviscistatus.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;a href=&#34;https://www.traviscistatus.com/&#34;&gt;https://www.traviscistatus.com/&lt;/a&gt; After incident report
+at &lt;a href=&#34;https://www.traviscistatus.com/incidents/wzyhx97450f4&#34;&gt;https://www.traviscistatus.com/incidents/wzyhx97450f4&lt;/a&gt; ,
+&amp;ldquo;Degradations and outages due to AWS us-east-1 domino effect&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;There are a lot of applications built on AWS and on Heroku,
@@ -74,8 +78,10 @@ impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
 &lt;li&gt;Airbnb&lt;/li&gt;
 &lt;li&gt;Amazon Echo&lt;/li&gt;
 &lt;li&gt;Amazon Instant Video&lt;/li&gt;
+&lt;li&gt;AWS Console. The API is hosted in each region, so the command line worked, but the console is hosted out of us-east-1 and was unavailable.&lt;/li&gt;
 &lt;li&gt;AWS Support Tickets. Use this &lt;a href=&#34;http://www.amazon.com/gp/html-forms-controller/support-center-issues-u&#34;&gt;workaround&lt;/a&gt; ???&lt;/li&gt;
 &lt;li&gt;Buffer&lt;/li&gt;
+&lt;li&gt;Canopy. &amp;ldquo;Our iOS app is down due to the system-wide #AWSoutage. Updates will be provided soon.&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;Canva&lt;/li&gt;
 &lt;li&gt;Clickfunnels. &amp;ldquo;Our development team is aware of this, however, at this time, the only thing that we can do is wait until the issues at Amazon AWS are resolved completely.&amp;rdquo; &lt;a href=&#34;http://status.clickfunnels.com/&#34;&gt;http://status.clickfunnels.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;CoinSimple. &amp;ldquo;Widespread outage in Amazon Web Services is affecting several Internet services, including @CoinSimple. Please check here for updates.&amp;rdquo;&lt;/li&gt;

@@ -6,8 +6,48 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2015 09:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2015 07:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Snap CI</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-22-snap-ci/</link>
+      <pubDate>Tue, 22 Sep 2015 07:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-22-snap-ci/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://snap-ci.com&#34;&gt;Snap CI&lt;/a&gt; is a cloud-based continuous integration system. Like
+Travis CI, which I have written about &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/&#34;&gt;here&lt;/a&gt;,
+it lives in the cloud, lets you run programs triggered by GitHub commits, and
+offers a testing environment for free for open source projects which lets you
+familiarize yourself with the system before deciding to pay for it for your
+non-open-source efforts.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m looking at all of these tools now because this weblog is now managed through
+a process that involves checking things into Github, which makes it completely
+suitable for automation for common tasks every time I save a file. (Spell checking,
+link checking, really any kind of quality control you can imagine reducing to
+a tiny shell script.)&lt;/p&gt;
+
+&lt;p&gt;Like Travis CI, Snap CI lets you automate the build process. Where it diverges
+(and where it&amp;rsquo;s interesting) is that the build process is only the first part of
+a multi-stage pipeline that includes deployment at the end of the task only when
+a set of human decisions have been made as to whether the thing you made is ready
+to be shared.&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&#34;https://blog.snap-ci.com/blog/2014/07/22/why-snapci-and-travisci-are-not-same-thing/&#34;&gt;Snap CI blog post&lt;/a&gt;
+on why Travis CI and Snap CI are not the same thing is from Snap CI and it&amp;rsquo;s a useful
+overview.&lt;/p&gt;
+
+&lt;p&gt;The downside of multi-stage pipelines for deployment is that they are very hard to
+automate correctly, and very hard to demonstrate correct behavior with open source
+projects that generally struggle to have any automated test facilities at all. So
+while Travis CI is a very good fit for open source components (and has attracted a
+whole sub-industry of writing &lt;code&gt;.travis.yml&lt;/code&gt; files to support those), it really doesn&amp;rsquo;t
+have the whole &amp;ldquo;continuous deployment&amp;rdquo; pattern sorted out. And while Snap CI looks
+like it would be great for saying &amp;ldquo;once we&amp;rsquo;re happy with this, push it out to the world&amp;rdquo;,
+that setup is not easy to pick up simply by inspecting other projects that have done it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AWS DynamoDB downtime, Sunday am, September 20, 2015</title>
@@ -29,6 +69,8 @@ a result, a number of other AWS services inside N Virginia that
 depend on DynamoDB also had downtime. Companies and organizations
 that built services on top of those systems who didn&amp;rsquo;t have
 geographic load balancing were having problems as well.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: Amazon&amp;rsquo;s report &lt;a href=&#34;https://aws.amazon.com/message/5467D2/&#34;&gt;Summary of the Amazon DynamoDB Service Disruption and Related Impacts in the US-East Region&lt;/a&gt; is available as of September 23, 2015.&lt;/p&gt;
 
 &lt;p&gt;Affected services include at least CloudWatch, SES, SNS, SQS, SWS,
 AutoScale, Cloud Formation, Directory Service, Key Mgmt and Lambda,
@@ -63,7 +105,9 @@ and &lt;a href=&#34;https://status.heroku.com/incidents/811&#34;&gt;https://stat
 and &lt;a href=&#34;http://status.circleci.com/&#34;&gt;http://status.circleci.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;TravisCI: &amp;ldquo;Partial System Outage&amp;rdquo;. @traviscistatus and
-&lt;a href=&#34;https://www.traviscistatus.com/&#34;&gt;https://www.traviscistatus.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;a href=&#34;https://www.traviscistatus.com/&#34;&gt;https://www.traviscistatus.com/&lt;/a&gt; After incident report
+at &lt;a href=&#34;https://www.traviscistatus.com/incidents/wzyhx97450f4&#34;&gt;https://www.traviscistatus.com/incidents/wzyhx97450f4&lt;/a&gt; ,
+&amp;ldquo;Degradations and outages due to AWS us-east-1 domino effect&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;There are a lot of applications built on AWS and on Heroku,
@@ -74,8 +118,10 @@ impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
 &lt;li&gt;Airbnb&lt;/li&gt;
 &lt;li&gt;Amazon Echo&lt;/li&gt;
 &lt;li&gt;Amazon Instant Video&lt;/li&gt;
+&lt;li&gt;AWS Console. The API is hosted in each region, so the command line worked, but the console is hosted out of us-east-1 and was unavailable.&lt;/li&gt;
 &lt;li&gt;AWS Support Tickets. Use this &lt;a href=&#34;http://www.amazon.com/gp/html-forms-controller/support-center-issues-u&#34;&gt;workaround&lt;/a&gt; ???&lt;/li&gt;
 &lt;li&gt;Buffer&lt;/li&gt;
+&lt;li&gt;Canopy. &amp;ldquo;Our iOS app is down due to the system-wide #AWSoutage. Updates will be provided soon.&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;Canva&lt;/li&gt;
 &lt;li&gt;Clickfunnels. &amp;ldquo;Our development team is aware of this, however, at this time, the only thing that we can do is wait until the issues at Amazon AWS are resolved completely.&amp;rdquo; &lt;a href=&#34;http://status.clickfunnels.com/&#34;&gt;http://status.clickfunnels.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;CoinSimple. &amp;ldquo;Widespread outage in Amazon Web Services is affecting several Internet services, including @CoinSimple. Please check here for updates.&amp;rdquo;&lt;/li&gt;
@@ -148,6 +194,7 @@ doesn&amp;rsquo;t work yet but you want the test system to be less tedious.&lt;/
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://circleci.com/&#34;&gt;CircleCI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://snap-ci.com/&#34;&gt;Snap CI&lt;/a&gt; by ThoughtWorks&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.solanolabs.com/&#34;&gt;Solano&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.appveyor.com/&#34;&gt;Appveyor&lt;/a&gt; (for Windows)&lt;/li&gt;
 &lt;li&gt;Jenkins (self hosted)&lt;/li&gt;
@@ -919,54 +966,6 @@ That data gets cleaned up and standardized and then inserted into a Mongo
 database. It&amp;rsquo;s all of 6 lines of code.&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/vielmetti/85d5fba07b98e552c912.js&#34;&gt;&lt;/script&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Listening to Radio Havana Cuba via a shortwave software defined radio</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba/</link>
-      <pubDate>Mon, 24 Aug 2015 22:45:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m listening to Radio Havana Cuba via a shortwave listening post set up
-with a software defined radio. The system, &lt;a href=&#34;http://blerp2.dyndns.org:8901/&#34;&gt;Great Lakes Listening Post&lt;/a&gt;,
-has four separate radios covering the 80, 40, 30, and 20 meter bands, all
-fed into the &lt;a href=&#34;http://www.websdr.org&#34;&gt;WebSDR&lt;/a&gt; software from PA3FWM. It&amp;rsquo;s
-located in Michigan, and thus approximates the radio reception I&amp;rsquo;d get from
-my own receiver.&lt;/p&gt;
-
-&lt;p&gt;R Havana Cuba is a good station to listen to. There&amp;rsquo;s interesting political
-commentary, fun music, and the occasional show about shortwave listening.
-The signal is usually strong and the frequency (6000 kHz) is easy to remember.
-Most international braodcasters have refocused their attention on Internet
-based broadcasts, but R Havana Cuba continues on with its shortwave service.
-My Sony ICF-2010 set from the 1980s still has a Cold War era present to that
-frequency.&lt;/p&gt;
-
-&lt;p&gt;The biggest advantage to web-based software radio is the ability to pick up
-stations from listening posts around the world. The WebSDR platform has stations
-with good antennas around the world, and they each allow multiple listeners
-to tune in to different stations without any of them monopolizing the receiver.
-Most web-based SDR systems focus on shortwave and HF amateur bands, but every
-so often you find a system that can tune domestic medium wave (AM) and
-long wave bands, which gives you a chance to hear programs that were
-never anticipated to be listened to from half way around the world.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://vielmetti.github.io/images/R-Havana-Cuba-WebSDR.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Radio Havana Cuba on Great Lakes Listening Post WebSDR&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Discussion on &lt;a href=&#34;https://www.facebook.com/edward.vielmetti/posts/10105619636684853&#34;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
