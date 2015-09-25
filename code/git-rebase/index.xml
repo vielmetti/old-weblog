@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git Rebase on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/git-rebase/</link>
+    <description>Recent content in Git Rebase on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Sep 2015 07:15:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/code/git-rebase/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to squash a commit in git</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-22-git-squash/</link>
+      <pubDate>Tue, 22 Sep 2015 07:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-22-git-squash/</guid>
+      <description>
+
+&lt;p&gt;If you are working on a project in Github, your work isn&amp;rsquo;t always linear.
+Sometimes the change you make doesn&amp;rsquo;t work completely, so you back a little
+bit of it out and move forward on a next part. It may take some hacking and
+sawing (and testing of course) to get a change that just works right.&lt;/p&gt;
+
+&lt;p&gt;Projects like to have contributions, but project maintainers don&amp;rsquo;t like
+to insert noise into their efforts. The ideal commit to a project is
+completely clean: one single commit that incorporates all of the changes
+that you want to do, without any of the intervening cruft.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Alan Gutierrez for the help here.&lt;/p&gt;
+
+&lt;p&gt;In the lingo, this is known as &amp;ldquo;squashing a commit&amp;rdquo;. It turns
+&lt;code&gt;A-&amp;gt;B-&amp;gt;C-&amp;gt;D-&amp;gt;X-&amp;gt;Y-&amp;gt;Z&lt;/code&gt; into &lt;code&gt;A-&amp;gt;Z&lt;/code&gt;. Here&amp;rsquo;s how you do it.&lt;/p&gt;
+
+&lt;p&gt;First, set up your environment before you start to work. Create a branch
+to put your changes in and work within that branch. You can do all of that
+from within Github, or from the command line as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% git checkout -b try/branch
+Switched to a new branch &#39;try/branch&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When you&amp;rsquo;re ready to merge, create a pull request for that branch.
+That will gather together all of the changes you have made and drop
+them onto a single page for inspection. Look at the first change that
+you made in that sequence, and find the parent node for your first
+change; we&amp;rsquo;ll rebase off of that parent. This was the crucial bit
+that I was unable to figure out from the documentation.&lt;/p&gt;
+
+&lt;p&gt;Squash all of those commits for the branch
+into a single commit. There is no &lt;code&gt;git squash&lt;/code&gt; command, alas; but there
+is &lt;code&gt;git rebase -i&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% git rebase -i &amp;lt;after-this-commit&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, apply this single squashed commit to your master branch.&lt;/p&gt;
+
+&lt;h3 id=&#34;further-reading:d402ad0362f9cb748dc3191a35343d42&#34;&gt;Further reading:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From Git Ready: &lt;a href=&#34;http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html&#34;&gt;Squashing commits with rebase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Makandra Cards: &lt;a href=&#34;http://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit&#34;&gt;Squash several Git commits into a single commit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;David Walsh: &lt;a href=&#34;http://davidwalsh.name/squash-commits-git&#34;&gt;Squash commits with Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pro Git,  Scott Chacon and Ben Straub: &lt;a href=&#34;http://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History&#34;&gt;Git Tools - Rewriting History&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
