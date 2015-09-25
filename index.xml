@@ -6,8 +6,57 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2015 07:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2015 08:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>August 2015 food inspections for Washtenaw County</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections/</link>
+      <pubDate>Tue, 22 Sep 2015 08:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections/</guid>
+      <description>&lt;p&gt;Every month the Washtenaw County Health Department releases reports from a previous month&amp;rsquo;s
+inspections of restaurants in the county. Restaurants are typically inspected twice a year.
+The inspector looks to see that the state Food Code is enforced, with a particular eye
+towards identifying violations that result in increased risk to the public of food-borne illness.&lt;/p&gt;
+
+&lt;p&gt;Wayne Eaker has put together a searchable and browsable database of these inspections,
+which is online at &lt;a href=&#34;http://food-inspections.annarbortelegraph.com&#34;&gt;food-inspections.annarbortelegraph.com&lt;/a&gt; . Here are some highlights
+and lowlights from the August 2015 report.&lt;/p&gt;
+
+&lt;p&gt;19 restaurants and food service establishments had &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_inspection_date%3A2015&amp;amp;f[1]=field_inspection_date%3A2015-08&amp;amp;f[2]=field_count_total%3A%5B0%20TO%200%5D&#34;&gt;zero violations in August 2015&lt;/a&gt;. Among those perfect scores:
+Zingerman&amp;rsquo;s Next Door, Earthen Jar, BTB Cantina on South U,
+Little Porky&amp;rsquo;s in Whitmore Lake, World of Beers,
+Classic Pizza in Dexter, and Sweetwaters on Plymouth Road.&lt;/p&gt;
+
+&lt;p&gt;Yee Siang Dumplings at 4837 Washtenaw received
+a total of 17 violations.
+At the &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-21-yee-siang-dumplings&#34;&gt;August 21, 2015 inspection&lt;/a&gt;
+the issues identifed included
+&amp;ldquo;unsafe cooling methods&amp;rdquo;,
+a dirty meat slicer and meat grinder,
+and no soap at the rear employee hand sink.
+&amp;ldquo;NO ONE IN THIS STORE HAS ANY KNOWLEDGE OF FOOD SAFETY AND HOW TO IMPLEMENT THE FOOD CODE IN THEIR OPERATION.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Tony Sacco&amp;rsquo;s on W Eisenhower Pkwy
+had 19 violations
+in their &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-05-tony-saccos&#34;&gt;August 5, 2015 inspection&lt;/a&gt;.
+&amp;ldquo;OBSERVED LIVE ANTS AND NUMEROUS SMALL FLIES IN THE AREAS SURROUNDING THE FLOOR DRAIN IN THE WAITSTATION.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Grange Kitchen and Bar was dinged for
+&amp;ldquo;OBSERVED UNLABELED MASON JARS OF DUCK BLOOD IN CHEST FREEZER IN KITCHEN.&amp;rdquo;
+Their &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-27-grange-kitchen-bar&#34;&gt;August 27, 2015 inspection&lt;/a&gt;
+recorded a total of 8 violations.&lt;/p&gt;
+
+&lt;p&gt;Aventura at 216 East Washington received a total of 7 violations
+in their &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-18-aventura&#34;&gt;August 18, 2015 inspection&lt;/a&gt;.
+&amp;ldquo;OBSERVED SEVERAL EMPLOYEES IN BAR AREA HANDLE RTE FOOD WITH BARE HANDS&amp;rdquo; was noted, as well as
+a practice of re-labeling datemarked foods to extend their shelf life.
+&amp;ldquo;EMPLOYEE STATED THAT IT IS COMMON PRACTICE FOR KITCHEN STAFF TO SMELL OR TASTE FOOD PRODUCTS WHEN THEY ARE ON THEIR LAST DAY OF SALE AND RE-DATE FOOD FOR ANOTHER 5 DAYS IF THEY THINK THE FOOD IS STILL GOOD. THIS PRACTICE MUST BE CEASED IMMEDIATELY.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Check the whole list and see how your favorites did.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to squash a commit in git</title>
@@ -893,83 +942,6 @@ and which I never bought for my own self. And then back a little bit
 further, when a 5 megabyte Davong drive was the bee&amp;rsquo;s knees.&lt;/p&gt;
 
 &lt;p&gt;What do you do with a terabyte? Lots of backups.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RRDTool v1.5.4 on Raspberry Pi</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/</link>
-      <pubDate>Wed, 26 Aug 2015 17:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/</guid>
-      <description>&lt;p&gt;The second in a series of efforts to get a suitable database for
-the task.&lt;/p&gt;
-
-&lt;p&gt;The challenge is that there&amp;rsquo;s a lot of data out there that changes
-all the time, and you want to gather it, make sure it&amp;rsquo;s sane, squirrel
-it away for later analysis, put together a pretty chart so that you
-can spot check it, feed it into other systems not yet fully dreamed
-of to cause actions, and so on. It&amp;rsquo;s the &amp;ldquo;big data&amp;rdquo; problem in that
-you have sensors that throw off a lot of data exhaust, and it&amp;rsquo;s the
-&amp;ldquo;internet of things&amp;rdquo; problem because mostly you&amp;rsquo;re looking at things
-with data and not say imagery or lots of freeform text.&lt;/p&gt;
-
-&lt;p&gt;Phase one of this effort was wrestling MongoDB into service, which
-ended up being only a handful of lines of code; but the concern expressed
-was the Mongo though fun and easy for small projects gets messy for
-big ones, and there&amp;rsquo;s good reason not to succumb to its siren song.
-The other reason to stop using Mongo when I did was that it really
-doesn&amp;rsquo;t love the Raspberry Pi architecture. Since there were only really
-a very few lines of code, and since that code works on my Mac, no time
-lost - but time to move on.&lt;/p&gt;
-
-&lt;p&gt;Phase two is a look at RRDtool, a &amp;ldquo;round robin&amp;rdquo; database very often used
-for network management efforts. One of the nice things about a round robin
-database is that the database itself is at its maximum size when you
-create it, and it doesn&amp;rsquo;t grow - rather, it cycles out the old data
-at whatever time resolution you want to get rid of it. With that in
-mind you can have a single database with 10 years worth of daily averages
-and a whole year of minute-by-minute data and it hardly takes up any
-room at all - perfect for the sort of &amp;ldquo;data logger&amp;rdquo; applications that
-I find myself in the middle of.&lt;/p&gt;
-
-&lt;p&gt;If you do &lt;code&gt;apt-get install rrdtool&lt;/code&gt; on the Pi you get a working
-copy of RRDtool 1.4.7, compiled in 2012. That&amp;rsquo;s pretty long in the
-tooth, so I decided to pull down v1.5.4 from the
-&lt;a href=&#34;http://oss.oetiker.ch/rrdtool/pub/?M=D&#34;&gt;RRDtool download area&lt;/a&gt;. The release notes note
-dependencies as follows&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install libpango1.0-dev libxml2-dev
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and once you have those pulled down the build is not fast but not
-difficult.&lt;/p&gt;
-
-&lt;p&gt;Pushing data into RRDtool is as simple as a shell script run out of
-cron. The first data point I&amp;rsquo;m graphing is &amp;ldquo;total spaces free in the
-Ann Arbor DDA parking garages&amp;rdquo;, and I&amp;rsquo;m collecting that on two machines -
-my Mac when it&amp;rsquo;s running, and the Pi at all times. A second graph
-I want to capture is some really basic weather information, and a
-third is inside-the-machine environmental sensing starting with the
-system temperature of the Pi.&lt;/p&gt;
-
-&lt;p&gt;It was really useful to make the first round of this be Mongo, because
-with Mongo you really don&amp;rsquo;t have to decide anything when you set things up -
-just dump in raw JSON documents and hope for the best.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://vielmetti.github.io/images/parking.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;RRDtool graph of available parking in downtown Ann Arbor&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
 </description>
     </item>
     

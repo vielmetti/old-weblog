@@ -6,8 +6,57 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2015 07:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2015 08:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>August 2015 food inspections for Washtenaw County</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections/</link>
+      <pubDate>Tue, 22 Sep 2015 08:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections/</guid>
+      <description>&lt;p&gt;Every month the Washtenaw County Health Department releases reports from a previous month&amp;rsquo;s
+inspections of restaurants in the county. Restaurants are typically inspected twice a year.
+The inspector looks to see that the state Food Code is enforced, with a particular eye
+towards identifying violations that result in increased risk to the public of food-borne illness.&lt;/p&gt;
+
+&lt;p&gt;Wayne Eaker has put together a searchable and browsable database of these inspections,
+which is online at &lt;a href=&#34;http://food-inspections.annarbortelegraph.com&#34;&gt;food-inspections.annarbortelegraph.com&lt;/a&gt; . Here are some highlights
+and lowlights from the August 2015 report.&lt;/p&gt;
+
+&lt;p&gt;19 restaurants and food service establishments had &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_inspection_date%3A2015&amp;amp;f[1]=field_inspection_date%3A2015-08&amp;amp;f[2]=field_count_total%3A%5B0%20TO%200%5D&#34;&gt;zero violations in August 2015&lt;/a&gt;. Among those perfect scores:
+Zingerman&amp;rsquo;s Next Door, Earthen Jar, BTB Cantina on South U,
+Little Porky&amp;rsquo;s in Whitmore Lake, World of Beers,
+Classic Pizza in Dexter, and Sweetwaters on Plymouth Road.&lt;/p&gt;
+
+&lt;p&gt;Yee Siang Dumplings at 4837 Washtenaw received
+a total of 17 violations.
+At the &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-21-yee-siang-dumplings&#34;&gt;August 21, 2015 inspection&lt;/a&gt;
+the issues identifed included
+&amp;ldquo;unsafe cooling methods&amp;rdquo;,
+a dirty meat slicer and meat grinder,
+and no soap at the rear employee hand sink.
+&amp;ldquo;NO ONE IN THIS STORE HAS ANY KNOWLEDGE OF FOOD SAFETY AND HOW TO IMPLEMENT THE FOOD CODE IN THEIR OPERATION.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Tony Sacco&amp;rsquo;s on W Eisenhower Pkwy
+had 19 violations
+in their &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-05-tony-saccos&#34;&gt;August 5, 2015 inspection&lt;/a&gt;.
+&amp;ldquo;OBSERVED LIVE ANTS AND NUMEROUS SMALL FLIES IN THE AREAS SURROUNDING THE FLOOR DRAIN IN THE WAITSTATION.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Grange Kitchen and Bar was dinged for
+&amp;ldquo;OBSERVED UNLABELED MASON JARS OF DUCK BLOOD IN CHEST FREEZER IN KITCHEN.&amp;rdquo;
+Their &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-27-grange-kitchen-bar&#34;&gt;August 27, 2015 inspection&lt;/a&gt;
+recorded a total of 8 violations.&lt;/p&gt;
+
+&lt;p&gt;Aventura at 216 East Washington received a total of 7 violations
+in their &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-08-18-aventura&#34;&gt;August 18, 2015 inspection&lt;/a&gt;.
+&amp;ldquo;OBSERVED SEVERAL EMPLOYEES IN BAR AREA HANDLE RTE FOOD WITH BARE HANDS&amp;rdquo; was noted, as well as
+a practice of re-labeling datemarked foods to extend their shelf life.
+&amp;ldquo;EMPLOYEE STATED THAT IT IS COMMON PRACTICE FOR KITCHEN STAFF TO SMELL OR TASTE FOOD PRODUCTS WHEN THEY ARE ON THEIR LAST DAY OF SALE AND RE-DATE FOOD FOR ANOTHER 5 DAYS IF THEY THINK THE FOOD IS STILL GOOD. THIS PRACTICE MUST BE CEASED IMMEDIATELY.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Check the whole list and see how your favorites did.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to squash a commit in git</title>
@@ -937,60 +986,6 @@ just dump in raw JSON documents and hope for the best.&lt;/p&gt;
     
 &lt;/figure&gt;
 &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First pass at MongoDB</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb/</link>
-      <pubDate>Wed, 26 Aug 2015 00:40:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb/</guid>
-      <description>&lt;p&gt;Somehow I never learned SQL along the way. At various times I have
-learned enough of the database lingo (inner join, outer join etc) to
-know where I missing things, and I have a lot of experience with common
-Unix tools (grep, sed, awk) and some newfangled tools (jq, csvkit) to
-be able to turn a big pile of data into a smaller pile of data. But
-I don&amp;rsquo;t have database chops per se right now, and sometimes that&amp;rsquo;s a
-limiting factor on projects when the data sets are too big.&lt;/p&gt;
-
-&lt;p&gt;JSON formatted data seems to have won the data serialization wars, so
-that at least transforms the problem on input; with jq (now in release 1.5)
-you can take a stream of JSON formatted data that&amp;rsquo;s almost what you want
-and mangle it until it&amp;rsquo;s really what you want. Lots of web APIs spit out
-some flavor of JSON, and even if it&amp;rsquo;s not precisely formatted to be ready
-for input into something else, at least there&amp;rsquo;s a straightforward way to
-munge it into something better.&lt;/p&gt;
-
-&lt;p&gt;That leaves the task of dumping these JSON blobs into a database, in
-such a way that you can relatively easily get something back out of the
-database that answers what you are really trying to answer again. Here
-the world splits into two pieces: the SQL databases that have been taught
-how to deal with JSON (specifically PostgreSQL, as of version 9.3), and the
-so-called NoSQL databases (specifically MongoDB).&lt;/p&gt;
-
-&lt;p&gt;Even Mongo knows that &lt;a href=&#34;http://blog.mongodb.org/post/62899600960/scaling-advice-from-mongohq&#34;&gt;scaling MongoDB is hard&lt;/a&gt;, though
-they frame it as the first 100 gigabytes of data stored in the system is
-easy. Fortunately, the first set of tasks I have to throw at this particular
-problem space are relatively small, databases measured in the 10s of megabytes.
-Pretty much anything will work - even grep - on this size data. The
-challenge becomes more of a how fast can you get something real running
-that has relatively simple queries, relatively performant results, and
-that can run on inexpensive hardware.&lt;/p&gt;
-
-&lt;p&gt;So I learned just enough Mongo to handle one tiny task: connect to an API,
-download some data periodically, clean it up enough so that it&amp;rsquo;s regular,
-and store it away; and then construct queries that are conceptually simple
-but that answer real questions. From there, do the ad hoc queries that prove
-to yourself that you have the right data, and then bootstrap some web
-app on top of all that to show off what you&amp;rsquo;ve done.&lt;/p&gt;
-
-&lt;p&gt;The results here accomplish a relatively complex task with a handful of
-lines of code. An API from a local agency is queried that has real time data.
-That data gets cleaned up and standardized and then inserted into a Mongo
-database. It&amp;rsquo;s all of 6 lines of code.&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/vielmetti/85d5fba07b98e552c912.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
