@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html>
+<head> 
+		<title>Fixing LinkedIn for Groups with Greasemonkey; step one, the naming of the parts - Vacuum - Edward Vielmetti</title> 
+	</head>
 <body>
-<title>Vacuum</title>
 
 
 <h2>Vacuum weblog E. Vielmetti</h2>
@@ -117,9 +119,6 @@
 
 
 <td width="55%" valign="top" halign="right">
-		<title>Fixing LinkedIn for Groups with Greasemonkey; step one, the naming of the parts</title> 
-	</head> 
-	<body> 
 		<h3>20 August 2008</h3>
 		<h1>Fixing LinkedIn for Groups with Greasemonkey; step one, the naming of the parts</h1> 
 		<p>I use LinkedIn for Groups to manage the Cisco Alumni Association group.&nbsp; One of the qualification steps is that you have to have worked for Cisco in the past (and you'd be surprised how many people apply who haven't any connection at all).</p>
@@ -135,7 +134,6 @@ The fix-it-yourself approach to this is Greasemonkey, splicing in the existing c
 
 <pre>* js/miniprofile_popup.js */<br /><br />var miniProfile=function()<br />{var profileLinks,popContainer;<br />var responseSuccess=function(o){popContainer.getElementsByTagName('div')[0].innerHTML=o.responseText;<br />popContainer.setAttribute('hasMiniPanel','true');<br />lui.miniPanel.setBody(o.responseText);<br />addPanelEvents();<br />lui.miniPanel.move(popContainer);<br />lui.miniPanel.show();}<br /><br />var callBack={success:responseSuccess,argument:[popContainer],timeout:10000}<br /><br />var addPanelEvents=function()<br />{lui.miniPanel.addCloseEvent();<br />var actionForms=YAHOO.util.Dom.getElementsByClassName('action-form','div',profilePanelBody);<br />if(actionForms==&quot;&quot;)return;<br />for(var i=0;actionForms.length&gt;i;i++){actionForms[i].style.display=&quot;none&quot;;}<br />var flagLink=YAHOO.util.Dom.getElementsByClassName('action-flag','a',profilePanelBody);<br />YAHOO.util.Event.addListener(flagLink,'click',function(e){YAHOO.util.Event.preventDefault(e);<br />toggleFlagForm(actionForms);},profilePanelBody);}<br /><br />var toggleFlagForm=function(el)<br />{for(var i=0;el.length&gt;i;i++)<br />{if(el[i].style.display==&quot;block&quot;)<br />{lui.hide(el[i]);}else{lui.show(el[i]);}}}<br />return{init:function(){profileLinks=YAHOO.util.Dom.getElementsByClassName('miniprofile-container','span','body');<br />lui.miniPanel.init(profileLinks,miniProfile.showProfile,miniProfile.fetchProfile);<br />profilePanelBody=lui.miniPanel.get();},fetchProfile:function(el){popContainer=el;<br />var url=el.className.split(' ')[1];<br />YAHOO.util.Connect.asyncRequest('GET',url,callBack);},<br />showProfile:function(el){popContainer=el;lui.miniPanel.setBody(el.getElementsByTagName('div')[0].innerHTML);<br />addPanelEvents();<br />lui.miniPanel.move(el);<br />lui.miniPanel.show();}}}();<br /><br />miniProfile.init();</pre>
  
-	</body> 
 </td>
 
 

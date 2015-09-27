@@ -1,7 +1,9 @@
 <!DOCTYPE html> 
 <html>
+<head> 
+		<title>Using GNU Parallel to speed up network operations - Vacuum - Edward Vielmetti</title> 
+	</head>
 <body>
-<title>Vacuum</title>
 
 
 <h2>Vacuum weblog E. Vielmetti</h2>
@@ -117,9 +119,6 @@
 
 
 <td width="55%" valign="top" halign="right">
-		<title>Using GNU Parallel to speed up network operations</title> 
-	</head> 
-	<body> 
 		<h3>24 June 2015</h3>
 		<h1>Using GNU Parallel to speed up network operations</h1> 
 		<p>My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.</p>
@@ -165,7 +164,6 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 
 <p>http://www.gnu.org/software/parallel/</p>
  
-	</body> 
 </td>
 
 
