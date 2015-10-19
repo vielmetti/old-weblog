@@ -6,8 +6,56 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2015 08:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2015 10:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The state of the city, Ann Arbor, fall 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city/</link>
+      <pubDate>Wed, 14 Oct 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city/</guid>
+      <description>&lt;p&gt;A perspective on Ann Arbor area local government, as seen from fall 2015.&lt;/p&gt;
+
+&lt;p&gt;The top level view is that local units of government are struggling
+with their technology investments, having a difficult time keeping
+them working, and are unwilling or unable to commit to any sort of
+&amp;ldquo;open data&amp;rdquo; initiatives as a result of their difficulties with basic
+operations.&lt;/p&gt;
+
+&lt;p&gt;Some examples will illustrate.&lt;/p&gt;
+
+&lt;p&gt;The City of Ann Arbor keeps track of a wide range of planning and
+permit documents through a vendor system called eTrakit. This system
+was down for more than a week in September, and still occasionally
+crashes in response to a query. There is no general purpose &amp;ldquo;open data&amp;rdquo;
+query to get access to the system, though the city does publish a
+&amp;ldquo;permits under review&amp;rdquo; feed on its open data catalog that has a small
+subset of the available data. Attachments in the system were recently
+taken offline after unredacted credit card numbers were discovered.&lt;/p&gt;
+
+&lt;p&gt;City of Ann Arbor meeting agendas and minutes and documents are locked up
+in a vendor-provided Legistar system, which is so difficult to use that
+many boards and commissions don&amp;rsquo;t even bother to publish their minutes
+through that system. Meeting agendas are often delayed in publication,
+and there is no method available to search across the whole system for
+documents.&lt;/p&gt;
+
+&lt;p&gt;The Ann Arbor City Clerk keeps track of FOIA requests across the city
+and publishes a &amp;ldquo;database&amp;rdquo; of requests. As is all too typical for
+municipal government, this &amp;ldquo;database&amp;rdquo; is published as a PDF file, not
+as plain text in some format that can be easily parsed.&lt;/p&gt;
+
+&lt;p&gt;The City Liquor License Review Committee routinely evaluates applications
+for new permits to serve or manufacture alcohol. These applications
+are not published as part of the agenda for that committee or for
+Ann Arbor City Council&amp;rsquo;s online system.&lt;/p&gt;
+
+&lt;p&gt;I would go on, but the City Council meeting is tonight, and I&amp;rsquo;m
+preparing something for public commentary (probably to add to the
+discussion only after the decisions have been made).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>August 2015 food inspections for Washtenaw County</title>
@@ -913,35 +961,6 @@ conference presentations include &amp;ldquo;WYSSA means all my love, darling:
 A social history of the Internet from the carrier pigeon to Antarctic
 morse code&amp;rdquo; (UPA 2006) and &amp;ldquo;Perils and Pitfalls of Practical
 Cybercommerce&amp;rdquo; (ARABANK 1996, Dubai, United Arab Emirates).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terabytes, at least in theory</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory/</link>
-      <pubDate>Sat, 29 Aug 2015 21:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory/</guid>
-      <description>&lt;p&gt;I have a new terabyte drive. It&amp;rsquo;s impossibly small, impossibly
-cheap, and just fast enough to accomplish astounding backup tasks
-in what seems like not enough time.&lt;/p&gt;
-
-&lt;p&gt;It is, however, a mass storage device that depends on rotating
-magnetic media, and as such it&amp;rsquo;s obsolete.&lt;/p&gt;
-
-&lt;p&gt;The drive cost less than $50. For about 10 times that right now,
-I can buy another terabyte drive that is solid state rather than
-spinning oxide storage. The bet that I have is that in three years,
-the cost of a terabyte of SSD drive will have come down so far -
-perhaps to $100 - that no one will have any interest in selling me
-a 1T drive that isn&amp;rsquo;t SSD.&lt;/p&gt;
-
-&lt;p&gt;My frame of reference for &amp;ldquo;what does har drive storage cost&amp;rdquo; dates
-back as far as the 10 megabyte, $1000 drive, which I really wanted
-and which I never bought for my own self. And then back a little bit
-further, when a 5 megabyte Davong drive was the bee&amp;rsquo;s knees.&lt;/p&gt;
-
-&lt;p&gt;What do you do with a terabyte? Lots of backups.&lt;/p&gt;
 </description>
     </item>
     

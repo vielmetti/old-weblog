@@ -6,8 +6,56 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2015 08:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2015 10:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The state of the city, Ann Arbor, fall 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city/</link>
+      <pubDate>Wed, 14 Oct 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city/</guid>
+      <description>&lt;p&gt;A perspective on Ann Arbor area local government, as seen from fall 2015.&lt;/p&gt;
+
+&lt;p&gt;The top level view is that local units of government are struggling
+with their technology investments, having a difficult time keeping
+them working, and are unwilling or unable to commit to any sort of
+&amp;ldquo;open data&amp;rdquo; initiatives as a result of their difficulties with basic
+operations.&lt;/p&gt;
+
+&lt;p&gt;Some examples will illustrate.&lt;/p&gt;
+
+&lt;p&gt;The City of Ann Arbor keeps track of a wide range of planning and
+permit documents through a vendor system called eTrakit. This system
+was down for more than a week in September, and still occasionally
+crashes in response to a query. There is no general purpose &amp;ldquo;open data&amp;rdquo;
+query to get access to the system, though the city does publish a
+&amp;ldquo;permits under review&amp;rdquo; feed on its open data catalog that has a small
+subset of the available data. Attachments in the system were recently
+taken offline after unredacted credit card numbers were discovered.&lt;/p&gt;
+
+&lt;p&gt;City of Ann Arbor meeting agendas and minutes and documents are locked up
+in a vendor-provided Legistar system, which is so difficult to use that
+many boards and commissions don&amp;rsquo;t even bother to publish their minutes
+through that system. Meeting agendas are often delayed in publication,
+and there is no method available to search across the whole system for
+documents.&lt;/p&gt;
+
+&lt;p&gt;The Ann Arbor City Clerk keeps track of FOIA requests across the city
+and publishes a &amp;ldquo;database&amp;rdquo; of requests. As is all too typical for
+municipal government, this &amp;ldquo;database&amp;rdquo; is published as a PDF file, not
+as plain text in some format that can be easily parsed.&lt;/p&gt;
+
+&lt;p&gt;The City Liquor License Review Committee routinely evaluates applications
+for new permits to serve or manufacture alcohol. These applications
+are not published as part of the agenda for that committee or for
+Ann Arbor City Council&amp;rsquo;s online system.&lt;/p&gt;
+
+&lt;p&gt;I would go on, but the City Council meeting is tonight, and I&amp;rsquo;m
+preparing something for public commentary (probably to add to the
+discussion only after the decisions have been made).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>August 2015 food inspections for Washtenaw County</title>
@@ -909,83 +957,6 @@ and which I never bought for my own self. And then back a little bit
 further, when a 5 megabyte Davong drive was the bee&amp;rsquo;s knees.&lt;/p&gt;
 
 &lt;p&gt;What do you do with a terabyte? Lots of backups.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RRDTool v1.5.4 on Raspberry Pi</title>
-      <link>http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/</link>
-      <pubDate>Wed, 26 Aug 2015 17:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/</guid>
-      <description>&lt;p&gt;The second in a series of efforts to get a suitable database for
-the task.&lt;/p&gt;
-
-&lt;p&gt;The challenge is that there&amp;rsquo;s a lot of data out there that changes
-all the time, and you want to gather it, make sure it&amp;rsquo;s sane, squirrel
-it away for later analysis, put together a pretty chart so that you
-can spot check it, feed it into other systems not yet fully dreamed
-of to cause actions, and so on. It&amp;rsquo;s the &amp;ldquo;big data&amp;rdquo; problem in that
-you have sensors that throw off a lot of data exhaust, and it&amp;rsquo;s the
-&amp;ldquo;internet of things&amp;rdquo; problem because mostly you&amp;rsquo;re looking at things
-with data and not say imagery or lots of freeform text.&lt;/p&gt;
-
-&lt;p&gt;Phase one of this effort was wrestling MongoDB into service, which
-ended up being only a handful of lines of code; but the concern expressed
-was the Mongo though fun and easy for small projects gets messy for
-big ones, and there&amp;rsquo;s good reason not to succumb to its siren song.
-The other reason to stop using Mongo when I did was that it really
-doesn&amp;rsquo;t love the Raspberry Pi architecture. Since there were only really
-a very few lines of code, and since that code works on my Mac, no time
-lost - but time to move on.&lt;/p&gt;
-
-&lt;p&gt;Phase two is a look at RRDtool, a &amp;ldquo;round robin&amp;rdquo; database very often used
-for network management efforts. One of the nice things about a round robin
-database is that the database itself is at its maximum size when you
-create it, and it doesn&amp;rsquo;t grow - rather, it cycles out the old data
-at whatever time resolution you want to get rid of it. With that in
-mind you can have a single database with 10 years worth of daily averages
-and a whole year of minute-by-minute data and it hardly takes up any
-room at all - perfect for the sort of &amp;ldquo;data logger&amp;rdquo; applications that
-I find myself in the middle of.&lt;/p&gt;
-
-&lt;p&gt;If you do &lt;code&gt;apt-get install rrdtool&lt;/code&gt; on the Pi you get a working
-copy of RRDtool 1.4.7, compiled in 2012. That&amp;rsquo;s pretty long in the
-tooth, so I decided to pull down v1.5.4 from the
-&lt;a href=&#34;http://oss.oetiker.ch/rrdtool/pub/?M=D&#34;&gt;RRDtool download area&lt;/a&gt;. The release notes note
-dependencies as follows&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install libpango1.0-dev libxml2-dev
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and once you have those pulled down the build is not fast but not
-difficult.&lt;/p&gt;
-
-&lt;p&gt;Pushing data into RRDtool is as simple as a shell script run out of
-cron. The first data point I&amp;rsquo;m graphing is &amp;ldquo;total spaces free in the
-Ann Arbor DDA parking garages&amp;rdquo;, and I&amp;rsquo;m collecting that on two machines -
-my Mac when it&amp;rsquo;s running, and the Pi at all times. A second graph
-I want to capture is some really basic weather information, and a
-third is inside-the-machine environmental sensing starting with the
-system temperature of the Pi.&lt;/p&gt;
-
-&lt;p&gt;It was really useful to make the first round of this be Mongo, because
-with Mongo you really don&amp;rsquo;t have to decide anything when you set things up -
-just dump in raw JSON documents and hope for the best.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://vielmetti.github.io/images/parking.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;RRDtool graph of available parking in downtown Ann Arbor&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
 </description>
     </item>
     
