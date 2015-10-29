@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks" class="list-group-item">Over the top networks</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city" class="list-group-item">The state of the city, Ann Arbor, fall 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections" class="list-group-item">August 2015 food inspections for Washtenaw County</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb" class="list-group-item">First pass at MongoDB</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba" class="list-group-item">Listening to Radio Havana Cuba via a shortwave software defined radio</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-summer-dinner" class="list-group-item">Summer dinner</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4098,6 +4100,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12072,6 +12076,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12378,6 +12384,27 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>14 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/">sweet potato cauliflower soup recipe</a>
+      </h3>
+      <p>Some sweet potato cauliflower soup recipes:</p>
+
+<p>Allyson Kramer likes hers with a bit of garam masala:</p>
+
+<p><a href="http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/">http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/</a></p>
+
+<p>Our Three Peas wants carrots and celery and chicken stock:</p>
+
+<p><a href="http://ourthreepeas.com/sweet-potato-cauliflower-soup/">http://ourthreepeas.com/sweet-potato-cauliflower-soup/</a></p>
+
+<p>Food.com and &ldquo;Kelly in TO&rdquo; calls for curry and cinnamon:</p>
+
+<p><a href="http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992">http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992</a></p>
+
+<p>Our meal plan pairs this with biscuits and kale, and it was delicious!</p>
 
 
   <h3>14 July 2015</h3>
@@ -12926,53 +12953,6 @@ curl: (7) Failed to connect to localhost port 3128: Connection refused
 <p>With the time I have left from not being on Facebook I should be able to send more postcards, write more blog entries, sort through some accumulated paper, and what not. It's not like there's any shortage of other things to do in person and on the net.</p>
 
 <p>UPDATE: When I don't look at Facebook, I look at this weblog more; and when I look at this weblog, I do more tech stuff and less non-tech stuff. That's an OK balance.</p>
-
-
-  <h3>26 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-26-docker-170-issues-problems-with-mac-and-boot2docker-arm-and-disk-size-of-images/">Docker 1.7.0 issues: problems with Mac and boot2docker, ARM, Ubuntu, and disk size of images</a>
-      </h3>
-      <p>Docker 1.7.0 has been released into the wild. Every .0 release of software should be expected to have some issues, no matter how good the QA and automated test process. Here's what to expect if you're getting Docker 1.7.0 up and running.</p>
-
-<h3>boot2docker on Mac</h3>
-
-<p>On the Mac, with boot2docker: <a href="https://github.com/boot2docker/boot2docker/issues/938">Docker certs not valid with 1.7 upgrade</a> is issue 938 on boot2docker. The symptom is a message like this</p>
-
-<blockquote>
-  <p>An error occurred trying to connect: Get https://192.168.59.103:2376/v1.19/containers/json: x509: certificate is valid for 127.0.0.1, 10.0.2.15, not 192.168.59.103</p>
-</blockquote>
-
-<p>and restarting docker on the VM with <code>boot2docker ssh sudo /etc/init.d/docker restart</code> fixes it, at least temporarily. Read through the issue on github to see the full diagnosis - as best I understand it, eth1 is not up when certificates are generated, hence the cert not valid error.</p>
-
-<h3>Raspberry Pi or any other ARM system</h3>
-
-<p>On a Raspberry Pi: <a href="https://github.com/docker/docker/issues/14184">Docker 1.7 on RaspberryPI : "socket operation on non-socket"</a> is issue 14184 on docker. The symptom is a message like this:</p>
-
-<blockquote>
-  <p>[tki@anzu ~]$ docker start redis
-  Error response from daemon: Cannot start container redis: socket operation on non-socket
-  Error: failed to start containers: [redis]</p>
-</blockquote>
-
-<p>The error flushed out a whole set of people running Docker on ARM on a variety of platforms, all having similar issues. If you're running a Scaleway C1, ODROID C1, ODROID XU3-Lite, Utilite Pro, Cubox 4x4, and all flavors of Raspberry Pi or Pi 2 you'll see this. "When using --net host the container starts" is the report, but port forwarding fails to work in that case.</p>
-
-<h3>Ubuntu: problems with statically compiled Docker binaries</h3>
-
-<p>The issue is <a href="https://github.com/docker/docker/issues/14035">Ubuntu 15.04 vivid can not start docker 1.7.0</a>, docker issue 14035. The relevant bits of the error message are</p>
-
-<blockquote>
-  <p>ERRO[0000] Udev sync is not supported. This will lead to unexpected behavior, data loss and errors. For more information, see https://docs.docker.com/reference/commandline/cli/#daemon-storage-driver-option </p>
-  
-  <p>ERRO[0000] [graphdriver] prior storage driver "devicemapper" failed: driver not supported </p>
-  
-  <p>FATA[0000] Error starting daemon: error initializing graphdriver: driver not supported </p>
-</blockquote>
-
-<p>There is a long discussion, culminating in <code>In the end, removing /var/lib/docker/devicemapper/ will fix the issue</code>, but people are also rolling back to 1.6.2. </p>
-
-<h3>Ubuntu on x86: large file sizes</h3>
-
-<p>A report that <a href="https://forums.docker.com/t/docker-1-7-0-is-using-huge-amount-of-disk-space/2046">Docker 1.7.0 is using huge amounts of disk space</a> appears on the Docker forum, item 2046. <a href="https://github.com/docker/docker/issues/14204">Pulling image fills disk/image size is huge, version 1.7.0</a> is issue 14204 on Docker. Not much insight into this one yet.</p>
 
 
 

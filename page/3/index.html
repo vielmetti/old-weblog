@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks" class="list-group-item">Over the top networks</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city" class="list-group-item">The state of the city, Ann Arbor, fall 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections" class="list-group-item">August 2015 food inspections for Washtenaw County</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb" class="list-group-item">First pass at MongoDB</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba" class="list-group-item">Listening to Radio Havana Cuba via a shortwave software defined radio</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-summer-dinner" class="list-group-item">Summer dinner</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4098,6 +4100,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12072,6 +12076,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12378,6 +12384,72 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>24 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/">Daily coffee and wifi at Argus Farm Stop</a>
+      </h3>
+      <p>Daily coffee and wifi at Argus Farm Stop, outside in the sunshine
+under a lovely red umbrella canopy. Espresso over ice and a day-old
+olive twist. The view is of a Sky Trak lift at the construction
+site across moving materials to the back of The Mark, a building
+that&rsquo;s going up where the car wash used to be.</p>
+
+<hr/>
+
+<p>The news of the day is a death on State Street. A young man was
+climbing over the skylights at the Nickels Arcade and fell to his
+death when the skylight glass gave way.</p>
+
+<hr/>
+
+<p>On July 24, 1915, the SS Eastland was packed with employees from
+the Western Electric Hawthorne Works when it rolled over in
+the Chicago River. 844 passengers and crew lost their lives, making
+the Eastland disaster the worst shipwreck on the Great Lakes.
+See the <a href="http://www.eastlanddisaster.org/">Eastland Disaster Historical Society</a>
+for extensive notes on and photos of the scene and its aftermath.</p>
+
+<hr/>
+
+<p>The next meeting of <a href="http://www.meetup.com/a2civictech/">a2civictech</a>
+is coming up on Monday, July 27, 2015.</p>
+
+<hr/>
+
+<p><a href="http://www.literatibookstore.com/">Literati Bookstore</a> is open
+again after a water leak caused them to shut down.</p>
+
+<hr/>
+
+<p>A few months ago I wrote a tiny R script that generates maps. The challenge
+today is to find a portable environment so that I can deploy this script
+on shared infrastructure. The project took 30 minutes of MacBook Air processor
+time running full blast parallel, and while I don&rsquo;t care about wall clock time
+to complete the effort I do care about building something that I can hand
+off to someone else to run.</p>
+
+<p>The hope is that the <a href="https://github.com/rocker-org/ropensci">ropensci</a> Docker
+package from the Rocker project is the answer, or most of the answer, for this.
+Rocker has built R images where lots of useful packages have been installed,
+including systems where the install directions are a little bit complex.</p>
+
+<p>With all complicated software environments the biggest challenge is dealing
+with dependencies. If you want to use the latest and greatest fast algorithms,
+you have to be prepared to spin up on what the cool kids are doing in the
+rest of their environment. If somehow you can jump to the edge of the development
+in the algorithm world without being tripped up by the hairy dependency graph
+that got you there, it can be a lot more fun.</p>
+
+<p>So; install Docker on the Mac with &lsquo;boot2docker&rsquo;; then</p>
+
+<pre><code class="language-shell">docker pull rocker/ropensci
+docker run -it rocker/ropensci R
+</code></pre>
+
+<p>and poof, you have an environment current to this month&rsquo;s desktop of leading
+R developers.</p>
 
 
   <h3>22 July 2015</h3>
@@ -13584,27 +13656,6 @@ enough to be set up in the kitchen to look up recipes.</p>
 <p>What I want to do is set things up so that if the post is from the
 recipes category, then the recipes list will show up in the sidebar
 of that post, sorted alphabetically. I think I can make that work.</p>
-
-
-  <h3>14 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/">sweet potato cauliflower soup recipe</a>
-      </h3>
-      <p>Some sweet potato cauliflower soup recipes:</p>
-
-<p>Allyson Kramer likes hers with a bit of garam masala:</p>
-
-<p><a href="http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/">http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/</a></p>
-
-<p>Our Three Peas wants carrots and celery and chicken stock:</p>
-
-<p><a href="http://ourthreepeas.com/sweet-potato-cauliflower-soup/">http://ourthreepeas.com/sweet-potato-cauliflower-soup/</a></p>
-
-<p>Food.com and &ldquo;Kelly in TO&rdquo; calls for curry and cinnamon:</p>
-
-<p><a href="http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992">http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992</a></p>
-
-<p>Our meal plan pairs this with biscuits and kale, and it was delicious!</p>
 
 
 

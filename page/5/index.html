@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks" class="list-group-item">Over the top networks</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city" class="list-group-item">The state of the city, Ann Arbor, fall 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections" class="list-group-item">August 2015 food inspections for Washtenaw County</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb" class="list-group-item">First pass at MongoDB</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba" class="list-group-item">Listening to Radio Havana Cuba via a shortwave software defined radio</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-24-summer-dinner" class="list-group-item">Summer dinner</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4098,6 +4100,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12072,6 +12076,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12378,6 +12384,53 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>26 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-26-docker-170-issues-problems-with-mac-and-boot2docker-arm-and-disk-size-of-images/">Docker 1.7.0 issues: problems with Mac and boot2docker, ARM, Ubuntu, and disk size of images</a>
+      </h3>
+      <p>Docker 1.7.0 has been released into the wild. Every .0 release of software should be expected to have some issues, no matter how good the QA and automated test process. Here's what to expect if you're getting Docker 1.7.0 up and running.</p>
+
+<h3>boot2docker on Mac</h3>
+
+<p>On the Mac, with boot2docker: <a href="https://github.com/boot2docker/boot2docker/issues/938">Docker certs not valid with 1.7 upgrade</a> is issue 938 on boot2docker. The symptom is a message like this</p>
+
+<blockquote>
+  <p>An error occurred trying to connect: Get https://192.168.59.103:2376/v1.19/containers/json: x509: certificate is valid for 127.0.0.1, 10.0.2.15, not 192.168.59.103</p>
+</blockquote>
+
+<p>and restarting docker on the VM with <code>boot2docker ssh sudo /etc/init.d/docker restart</code> fixes it, at least temporarily. Read through the issue on github to see the full diagnosis - as best I understand it, eth1 is not up when certificates are generated, hence the cert not valid error.</p>
+
+<h3>Raspberry Pi or any other ARM system</h3>
+
+<p>On a Raspberry Pi: <a href="https://github.com/docker/docker/issues/14184">Docker 1.7 on RaspberryPI : "socket operation on non-socket"</a> is issue 14184 on docker. The symptom is a message like this:</p>
+
+<blockquote>
+  <p>[tki@anzu ~]$ docker start redis
+  Error response from daemon: Cannot start container redis: socket operation on non-socket
+  Error: failed to start containers: [redis]</p>
+</blockquote>
+
+<p>The error flushed out a whole set of people running Docker on ARM on a variety of platforms, all having similar issues. If you're running a Scaleway C1, ODROID C1, ODROID XU3-Lite, Utilite Pro, Cubox 4x4, and all flavors of Raspberry Pi or Pi 2 you'll see this. "When using --net host the container starts" is the report, but port forwarding fails to work in that case.</p>
+
+<h3>Ubuntu: problems with statically compiled Docker binaries</h3>
+
+<p>The issue is <a href="https://github.com/docker/docker/issues/14035">Ubuntu 15.04 vivid can not start docker 1.7.0</a>, docker issue 14035. The relevant bits of the error message are</p>
+
+<blockquote>
+  <p>ERRO[0000] Udev sync is not supported. This will lead to unexpected behavior, data loss and errors. For more information, see https://docs.docker.com/reference/commandline/cli/#daemon-storage-driver-option </p>
+  
+  <p>ERRO[0000] [graphdriver] prior storage driver "devicemapper" failed: driver not supported </p>
+  
+  <p>FATA[0000] Error starting daemon: error initializing graphdriver: driver not supported </p>
+</blockquote>
+
+<p>There is a long discussion, culminating in <code>In the end, removing /var/lib/docker/devicemapper/ will fix the issue</code>, but people are also rolling back to 1.6.2. </p>
+
+<h3>Ubuntu on x86: large file sizes</h3>
+
+<p>A report that <a href="https://forums.docker.com/t/docker-1-7-0-is-using-huge-amount-of-disk-space/2046">Docker 1.7.0 is using huge amounts of disk space</a> appears on the Docker forum, item 2046. <a href="https://github.com/docker/docker/issues/14204">Pulling image fills disk/image size is huge, version 1.7.0</a> is issue 14204 on Docker. Not much insight into this one yet.</p>
 
 
   <h3>26 June 2015</h3>
@@ -12907,62 +12960,6 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 <p>For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again. I'm especially happy about the Sony because I had feared that it was a complicated repair. There's some corrosion on the battery terminals and I might be forewarned that would be the first thing to look at again. A discussion of another repair is written up by <a href="http://idlenot.com/?p=1481">KE1RI</a> to replace an audio capacitor, fortunately I haven't had to do that.</p>
 
 <p>Both stations are tuned to R Havana Cuba's Sunday night programming on 6000 KHz.</p>
-
-
-  <h3>16 May 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-05-16--the-rented-lakes-of-my-childhood-by-marge-piercy-from-made-in-detroit-knopf-2015/">The rented lakes of my childhood by Marge Piercy from Made in Detroit, Knopf 2015</a>
-      </h3>
-      <p>The rented lakes of my childhood 
- by Marge Piercy </p>
-
-<pre>
- I remember the lakes of my Michigan
- childhood. Here they are called ponds.
- Lakes belonged to summer, two-week
- vacations that my father was granted by
- Westinghouse when we rented some cabin.
-
- Never mind the dishes with spiderweb
- cracks, the crooked aluminum sauce
- pans, the crusted black frying pans.
- Never mind the mattresses shaped
- like the letter V. Old jangling springs.
-
- Moldy bathrooms. Low ceilings
- that leaked. The lakes were mysteries
- of sand and filmy weeds and minnows
- flickering through my fingers. I rowed
- into freedom. Alone on the water
-
- that freckled into small ripples,
- that raised its hackles in storms,
- that lay glassy at twilight reflecting
- the sunset then sucking up the dark,
- I was unobserved as the quiet doe
-
- coming with her fauns to drink
- on the opposite shore. I let the row-
- boat drift as the current pleased, lying
- faceup like a photographer’s plate
- the rising moon turned to a ghost.
-
- And though the voices called me
- back to the rented space we shared
- I was sure I left my real self there-
- a tiny black pupil in the immense
- eye of a silver pool of silence.
-
-</pre>
-
-<p>"The rented lakes of my childhood" by Marge Piercy from Made in Detroit. © Knopf, 2015. Reprinted from someone who included the phrase "reprinted with permission" in their text. I have my copy on hold at the <a href="http://www.aadl.org/catalog/record/1471791">Ann Arbor District Library</a>.</p>
-
-<p>Made in Detroit
-Poems / $27.95
-Knopf/Doubleday
-Hardcover &amp; ebook
-ISBN-10: 038535388X
-ISBN-13: 978-0385353885</p>
 
 
 
