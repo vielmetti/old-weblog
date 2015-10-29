@@ -6,8 +6,32 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2015 13:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2015 15:16:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Diligence</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-29-diligence/</link>
+      <pubDate>Thu, 29 Oct 2015 15:16:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-29-diligence/</guid>
+      <description>&lt;p&gt;There are a lot of little boxes to type into on the Internet. Twitter and Facebook
+will gladly accept your text and send it out into the world. Medium is there
+if you want to be high minded, and Slack will let you narrow your message to
+a choice few. And there&amp;rsquo;s always Github issues, any of thousands of projects
+will accept a comment on an issue, real or imagined.&lt;/p&gt;
+
+&lt;p&gt;The burden of diligence of blogging is to stick to a single system over a long
+time, to drag around your past with you and keep it online, and to feed the
+system frequently enough that it (and you) are not forgotten.&lt;/p&gt;
+
+&lt;p&gt;The diligent blogger would not only have something to say every day but they&amp;rsquo;d
+say it in the same place and connect it somehow with all other things they
+had said on the same topic. Can you blame people at all for picking up other
+new systems and trying them out? The blank canvas can be a lot more appealing
+than the infinite scroll when you want to try something new.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Over the top networks</title>
@@ -1139,40 +1163,6 @@ passwords but restrict access to console access only.&lt;/p&gt;
 the Hypriot setup so that they can (and do) run Docker. Though Docker
 on the original Pi with salt-minion running doesn&amp;rsquo;t leave a ton of
 space spare for actual work to be done.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep web</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-04-deep-web/</link>
-      <pubDate>Fri, 04 Sep 2015 08:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-04-deep-web/</guid>
-      <description>&lt;p&gt;I think this whole &amp;ldquo;deep web&amp;rdquo; thing is mis-stated for the most part.&lt;/p&gt;
-
-&lt;p&gt;Since forever there have been Internet-based services that have
-been unreachable to the public unless you had some kind of specialized
-access. Private internal networks are the norm at companies of any
-size. Calling that the &amp;ldquo;hidden web&amp;rdquo;, &amp;ldquo;deep web&amp;rdquo; is non-sensical in
-that it&amp;rsquo;s not really hidden to anyone who has proper access to it
-- it&amp;rsquo;s just that you (and Google) don&amp;rsquo;t and won&amp;rsquo;t have that access.&lt;/p&gt;
-
-&lt;p&gt;Furthermore there are enormous numbers of home networks behind NAT
-devices where there are home servers that are either accidentally
-or deliberately off-limits. If you want to get that data onto the
-public network you actually have to do some work to make it happen.&lt;/p&gt;
-
-&lt;p&gt;I even have a batch of test services running on my laptop that don&amp;rsquo;t
-have any public presence at all beyond my keyboard.&lt;/p&gt;
-
-&lt;p&gt;There happen to be parts of the &amp;ldquo;secret web&amp;rdquo;, &amp;ldquo;deep web&amp;rdquo; etc where
-there&amp;rsquo;s some naughty content, but for the most part the Internet
-architecture makes it completely normal to have hosts that only
-have partial routing to the world, and most of the time that&amp;rsquo;s
-completely innocuous.&lt;/p&gt;
-
-&lt;p&gt;(As originally posted to Quora to answer the question, &amp;ldquo;How is the
-Deep Web so huge?)&lt;/p&gt;
 </description>
     </item>
     
