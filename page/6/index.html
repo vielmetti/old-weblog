@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-sudo-port-upgrade-outdated" class="list-group-item">sudo port upgrade outdated</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-29-diligence" class="list-group-item">Diligence</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks" class="list-group-item">Over the top networks</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory" class="list-group-item">Terabytes, at least in theory</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi" class="list-group-item">RRDTool v1.5.4 on Raspberry Pi</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb" class="list-group-item">First pass at MongoDB</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4102,6 +4104,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12084,6 +12088,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12390,6 +12396,27 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>23 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/">Running Node-RED on a Raspberry Pi with Docker and Hypriot</a>
+      </h3>
+      <p>My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there's distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here's where I got the parts.</p>
+
+<p><a href="http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">Hypriot's gettting started guide</a> brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.</p>
+
+<p>Hypriot has a <a href="https://gitter.im/hypriot/talk">chat window</a> on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.</p>
+
+<p>Docker's <a href="https://hub.docker.com/">DockerHub</a> is a one stop shop for packaged applications. When you're running on the Pi, you'll want to seek out versions with 'rpi' or 'arm' in their names as they have likely been adapted for that system.</p>
+
+<p>I ended up pulling Niel Eyde's Raspberry Pi versions of Node-RED from DockerHub as <a href="https://registry.hub.docker.com/u/nieleyde/rpi-nodered/">nieleyde/rpi-nodered</a>. It has all sorts of interesting modules that I had not previously built.</p>
+
+<p>Node-RED is at 0.10.6 at this writing. Its <a href="http://nodered.org/docs/hardware/raspberrypi.html">Raspberry Pi support</a> includes hardware support using <a href="http://wiringpi.com/">WiringPi</a> to access the GPIO pins. </p>
+
+<p>Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have <a href="http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/">merged forces</a> after a fork, which means hopefully development will start to be sane again.</p>
+
+<p>That all said I am not sure I have everything I need yet but as a leap forward it's pretty good!</p>
 
 
   <h3>17 May 2015</h3>
@@ -12811,23 +12838,6 @@ was behind the counter sorting out the morning flow and talking about the farmer
 </blockquote>
 
 <p>At least superficially the incidents seem related. I am not expert enough at aviation issues to know if there is a real connection, or if this is mere coincidence.</p>
-
-
-  <h3>24 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/">What&#39;s the most expensive parking space in Ann Arbor?</a>
-      </h3>
-      <p>Last night was the a2civictech meetup. We met at Zingerman's Next Door, there were 9 people who showed up, some familiar faces and some new ones.</p>
-
-<p>The nominal topic of the discussion was data quality, understanding how various data sets that come from civic sources have noise in them and looking at ways to deal with that. The best story was that of a well map that showed a hill in the middle of a lake, because the underlying data set had two wells with the same name and the person who built the map picked the wrong data to map.</p>
-
-<p>As always with these discussions the question turned to what data there might be available to look at, and how to get it. That led us to questions of what other people were doing with municipal data in other cities, and to this New York City parking ticket analysis: <a href="http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new">Success: How NYC Open Data and Reddit Saved New Yorkers Over $55,000 a Year</a>. It seems that there was a parking space in New York that looked like it was a legal spot, but turned out to be frequently ticketed because it was near a fire hydrant. After some analysis and publicity by Ben Wellington of I Quant NY, the NYC DOT repainted the stripes on the street to clearly mark this spot as a no-go.</p>
-
-<p>So the question becomes, how would you repeat this analysis for Ann Arbor, and what would you look for? Where are there locations that frequently generate tickets, what do they look like on a map, and how much ticket revenue comes per space?  And in the public interest, are there any spots that generate disproportionate ticket frequencies that should be looked at carefully to improve signage?</p>
-
-<p>It looks like a project. In New York there's a data catalog that includes this data set and many others; no such data has been released in Ann Arbor. So the first step is understanding what the process is for getting a year or two of ticket data to start analyzing it.</p>
-
-<p>Update: here's a <a href="http://www.ted.com/talks/ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data?language=en">TED Talk by Ben Wellington</a> on "How we found the worst place to park in New York City -- using big data".</p>
 
 
 
