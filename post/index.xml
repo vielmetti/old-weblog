@@ -6,8 +6,37 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2015 16:45:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2015 17:10:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CubicSDR, a cross-platform software defined radio</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</link>
+      <pubDate>Fri, 30 Oct 2015 17:10:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</guid>
+      <description>&lt;p&gt;CubicSDR is a software defined radio system for Mac, Linux, and Windows.
+It&amp;rsquo;s at version 0.1.4-beta as of August 28, 2015, and you can download
+the binaries from &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&#34;&gt;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&lt;/a&gt; or
+the source code from Github at &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR&#34;&gt;https://github.com/cjcliffe/CubicSDR&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;My point of comparison for software defined radio is GQRX. When you put
+CubicSDR on the screen it has a very pretty waterfall display and relatively
+easy to sort out mouse commands, but it&amp;rsquo;s lacking some of the fancier
+controls that a more mature program like GQRX has accumulated over time.&lt;/p&gt;
+
+&lt;p&gt;The interesting direction that CubicSDR is heading in is the product
+roadmap that is on its home page - in particular, importing and using
+digital modes that the liquid-dsp package supports, and additional
+visualization tools that would make a pretty display even prettier.
+The roadmap easily has a couple of years of development work, so there&amp;rsquo;s
+lots to look forward to.&lt;/p&gt;
+
+&lt;p&gt;CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
+and it&amp;rsquo;s free-as-in-GPL, so it&amp;rsquo;s very much worthwhile to give it a
+download and see what it looks like.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The AAATA MicroAPI</title>
@@ -1044,131 +1073,6 @@ and hopefully at some point will get answers on how to do it.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/docker/docker/issues/16208&#34;&gt;Bluetooth socket can&amp;rsquo;t be opened inside container&lt;/a&gt;, Docker Github issues 16208&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker&#34;&gt;Accessing Bluetooth dongle from inside Docker?&lt;/a&gt;, Stack Overflow.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>xml2json as part of a web parsing pipeline</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-10-xml2json/</link>
-      <pubDate>Thu, 10 Sep 2015 15:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-10-xml2json/</guid>
-      <description>&lt;p&gt;The problem, simply put. You have a messy, real world HTML page;
-you want to parse it to pull out some key element of it, to pass
-along to some other task; you want that parsing pipeline to be
-as compact as possible, because you&amp;rsquo;re running on a small machine,
-and you&amp;rsquo;re doing the task frequently, and because the page may
-change out from under you at any time.&lt;/p&gt;
-
-&lt;p&gt;Clearly this is not an optimal task to have, but you live with
-the web you have, not with the web you want to have.&lt;/p&gt;
-
-&lt;p&gt;My approach to this task is to assemble a pipeline of Unix tools
-that are as simple as possible, and that each do one thing pretty
-well, and that in combination are all well-refined enough that there
-are few surprises.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;curl&lt;/code&gt; is the workhorse for fetching pages. The invocation
-&lt;code&gt;curl -m 15 -s http://example.com&lt;/code&gt; pulls that page from the
-net and feeds it to standard output, but times out after 15 seconds
-so your pipeline doesn&amp;rsquo;t completely fail if a remote site is down.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;tidy&lt;/code&gt; is the first thing I look at when doing data transformation.
-&lt;code&gt;tidy -q -asxml 2&amp;gt;/dev/null&lt;/code&gt; takes HTML and converts it, quietly
-and uncomplainingly, into XML. It&amp;rsquo;s predictable and pretty fast.
-&lt;code&gt;tidy&lt;/code&gt; has been around since the dawn of the web, and it newly
-has a &lt;a href=&#34;https://github.com/htacg/tidy-html5&#34;&gt;Github project&lt;/a&gt; and
-a &lt;a href=&#34;http://www.html-tidy.org/&#34;&gt;shiny web page&lt;/a&gt; and a support
-consortium, so if you want to build from source it&amp;rsquo;s readily possible.&lt;/p&gt;
-
-&lt;p&gt;Given XML, convert it to JSON. Here there are quite a few choices,
-depending on which language and which parser you want to start with,
-and the dependency tree is deep. I am least satisfied with my alternatives
-here, thus the motivation for this writeup. In alphabetical order by
-language:&lt;/p&gt;
-
-&lt;p&gt;There is no POSIX standard &lt;code&gt;xml2json&lt;/code&gt; command written in C, alas.&lt;/p&gt;
-
-&lt;p&gt;In C++ there&amp;rsquo;s an &lt;code&gt;xml2json&lt;/code&gt; command and library from Cheedoong Ch&amp;rsquo;ng.
-The &lt;a href=&#34;https://github.com/Cheedoong/xml2json&#34;&gt;Github project&lt;/a&gt; says&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;xml2json is the first carefully written C++ library that converts
-XML document to JSON format. It&amp;rsquo;s already been used in the soft
-subtitle cross-domain solution at the server-end of Tencent Video
-(&lt;a href=&#34;http://v.qq.com&#34;&gt;http://v.qq.com&lt;/a&gt;) and its CDNs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In Dart, see Steve Hamblett&amp;rsquo;s &lt;code&gt;xml2json.dart&lt;/code&gt; library.
-The &lt;a href=&#34;https://github.com/shamblett/xml2json&#34;&gt;Github project&lt;/a&gt; includes
-a set of unit tests, as well as explicit support for three
-conventions (Parker, Badgerfish, and Google Data) for doing
-the conversion. The test suites are welcomed.&lt;/p&gt;
-
-&lt;p&gt;In Go, see Darren Elwood (textnode)&amp;rsquo;s &lt;code&gt;xml2json.go&lt;/code&gt;. The
-&lt;a href=&#34;https://github.com/textnode/xml2json&#34;&gt;Github project&lt;/a&gt; includes
-sample code to parse both RSS and generic XML files.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Transform a stream of XML into a stream of JSON, without requiring
-a schema or structs, written in Go (golang.org)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In Node.JS, see &lt;code&gt;node-xml2json&lt;/code&gt; from BugLabs which
-converts XML to JSON using &lt;code&gt;node-expat&lt;/code&gt;. You can install it
-with &lt;code&gt;npm install xml2json&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;In Perl, see Isidro Vila Verde&amp;rsquo;s &lt;code&gt;xml2json.pl&lt;/code&gt;, which has a
-&lt;a href=&#34;https://github.com/jvverde/xml2json&#34;&gt;Github project&lt;/a&gt; and is based
-on &lt;code&gt;XSLT&lt;/code&gt;. &amp;ldquo;You may need to install some perl modules before using it&amp;rdquo;
-is the extent of the install instructions.&lt;/p&gt;
-
-&lt;p&gt;In Python, see the &lt;code&gt;xmlutils&lt;/code&gt; package from Kailash Nadh
-and Yigal Lazarev. You can
-install it with &lt;code&gt;pip install xmlutils&lt;/code&gt;, or look at the
-&lt;a href=&#34;https://github.com/knadh/xmlutils.py&#34;&gt;Github project&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;xmlutils.py is a set of Python utilities for processing xml files
-serially for converting them to various formats (SQL, CSV, JSON).
-The scripts use ElementTree.iterparse() to iterate through nodes
-in an XML document, thus not needing to load the entire DOM into
-memory. The scripts can be used to churn through large XML files
-(albeit taking long :P) without memory hiccups.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Once the original HTML document emerges nicely formatted as JSON,
-it&amp;rsquo;s relatively easy to pick out elements from it in most cases.
-Two tools to do this are &lt;code&gt;jq&lt;/code&gt; and &lt;code&gt;jp&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;jq&lt;/code&gt;, from Stephen Dolan, is a command-line JSON processor. Now
-at version 1.5, it has a &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;web site&lt;/a&gt;
-and a &lt;a href=&#34;https://github.com/stedolan/jq&#34;&gt;Github repository&lt;/a&gt;, plus
-a handy &lt;a href=&#34;https://jqplay.org/&#34;&gt;online test site&lt;/a&gt; that lets you
-do interactive tests. It&amp;rsquo;s written in portable C.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;jq is like sed for JSON data - you can use it to slice and filter
-and map and transform structured data with the same ease that sed,
-awk, grep and friends let you play with text.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;code&gt;jp&lt;/code&gt;, from James Saryerwinnie, is a command line version of the JMESPath
-query language for JSON, documented at &lt;a href=&#34;http://jmespath.org/&#34;&gt;http://jmespath.org/&lt;/a&gt; . This
-is the same query language embedded into the Amazon Web Services
-command line (AWS CLI), and it has powerful and compact operators
-for extracting elements from a JSON document. There are libraries
-in Python, PHP, Javascript, Ruby, Lua, and Go that implement JMESPath.
-&lt;code&gt;jp&lt;/code&gt; is written in Go, and has cross-development tools available.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;So that&amp;rsquo;s the environment. It&amp;rsquo;s a bit of a pain to get all of
-those tools running on a new bare-metal machine, so my thought
-is to put everything into one Docker build and make it straightforward
-to wrap everything together. Ideally this will be a fairly
-minimalist build, and thus the challenge is to find the set
-of dependencies that is small enough.&lt;/p&gt;
 </description>
     </item>
     

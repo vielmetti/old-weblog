@@ -6,8 +6,37 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2015 16:45:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2015 17:10:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CubicSDR, a cross-platform software defined radio</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</link>
+      <pubDate>Fri, 30 Oct 2015 17:10:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</guid>
+      <description>&lt;p&gt;CubicSDR is a software defined radio system for Mac, Linux, and Windows.
+It&amp;rsquo;s at version 0.1.4-beta as of August 28, 2015, and you can download
+the binaries from &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&#34;&gt;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&lt;/a&gt; or
+the source code from Github at &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR&#34;&gt;https://github.com/cjcliffe/CubicSDR&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;My point of comparison for software defined radio is GQRX. When you put
+CubicSDR on the screen it has a very pretty waterfall display and relatively
+easy to sort out mouse commands, but it&amp;rsquo;s lacking some of the fancier
+controls that a more mature program like GQRX has accumulated over time.&lt;/p&gt;
+
+&lt;p&gt;The interesting direction that CubicSDR is heading in is the product
+roadmap that is on its home page - in particular, importing and using
+digital modes that the liquid-dsp package supports, and additional
+visualization tools that would make a pretty display even prettier.
+The roadmap easily has a couple of years of development work, so there&amp;rsquo;s
+lots to look forward to.&lt;/p&gt;
+
+&lt;p&gt;CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
+and it&amp;rsquo;s free-as-in-GPL, so it&amp;rsquo;s very much worthwhile to give it a
+download and see what it looks like.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The AAATA MicroAPI</title>
@@ -1050,33 +1079,6 @@ excursions into thinking that don&amp;rsquo;t lend themselves to quippiness.&lt;
 of twittering out a stream of observations gets in the way of assembling
 the longer context. We focus on the stream of things coming our way,
 never taking time to take stock of the situation and make it make more sense.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bluetooth and bluez inside Docker</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</link>
-      <pubDate>Fri, 11 Sep 2015 17:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</guid>
-      <description>&lt;p&gt;If you have a Bluetooth device attached to a Linux system, it&amp;rsquo;s
-not clear how to attach that device to a Docker container on that
-same system.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bluez&lt;/code&gt;, the Bluetooth driver for Linux, uses the &lt;code&gt;D-Bus&lt;/code&gt; to communicate.
-This is more complex than a FIFO or socket interface, and thus less
-easy to obviously say how it should be mapped into the Docker processs
-and file system space.&lt;/p&gt;
-
-&lt;p&gt;The references below show several ways of not doing this task,
-and hopefully at some point will get answers on how to do it.&lt;/p&gt;
-
-&lt;p&gt;References for further reading:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/docker/docker/issues/16208&#34;&gt;Bluetooth socket can&amp;rsquo;t be opened inside container&lt;/a&gt;, Docker Github issues 16208&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker&#34;&gt;Accessing Bluetooth dongle from inside Docker?&lt;/a&gt;, Stack Overflow.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
