@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi" class="list-group-item">The AAATA MicroAPI</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-sudo-port-upgrade-outdated" class="list-group-item">sudo port upgrade outdated</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-29-diligence" class="list-group-item">Diligence</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-30-over-the-top-networks" class="list-group-item">Over the top networks, a history of building new systems on the wreckage of the old</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory" class="list-group-item">Terabytes, at least in theory</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi" class="list-group-item">RRDTool v1.5.4 on Raspberry Pi</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4104,6 +4106,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12090,6 +12094,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12396,6 +12402,17 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>1 November 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-11-01-applesauce-recipe/">Applesauce recipe</a>
+      </h3>
+      <p>APPLESAUCE </p>
+
+<p>At farmer's market, ask the farmer for a half a peck or a peck of "mixed seconds for sauce". Use whatever apples they give you. In November 2014 I paid $7 for a peck of mixed seconds at the Ann Arbor Farmers Market.</p>
+
+<p>Quarter and core many apples; do not peel. Cover bottom of pot with water, put in the apples, half (or a whole) orange (pref. organic, with seeds removed), one (or two) cinnamon sticks. Cook over gentle heat for at least 20 minutes, up to several hours, until apples break down. Cool. Remove cinnamon stick, scrape flesh from orange and return to pot; discard peel. Put apple mixture through food processor; grind well, so that no large pieces of peel remain.</p>
 
 
   <h3>27 October 2014</h3>
@@ -12768,64 +12785,6 @@ continued development here, but I like the idea!</p>
       <a href="http://vielmetti.github.io/post/2014/2014-10-05-marquette-cemetery-locator-app-video-for-code-michigan-2014-/">Marquette Cemetery Locator App video for Code Michigan 2014</a>
       </h3>
       <p><iframe width="640" height="480" src="//www.youtube.com/embed/xzhIzj4iSAQ?rel=0" frameborder="0" allowfullscreen></iframe></p>
-
-
-  <h3>5 October 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/">using &#34;jq&#34; for command line web applications for civic data</a>
-      </h3>
-      <p>One of the tools that I rediscovered and have been really happy for
-having done so is &ldquo;jq&rdquo;, a command line tool that bills itself as
-&ldquo;awk for json&rdquo;.</p>
-
-<p>I&rsquo;ve been writing awk code since 1985, and some limited subset
-of it is something that I know really, really well. awk, however,
-is from the punchcard era, and as such it likes to deal with records
-that are all on one line each. Parsing JSON in awk is very clumsy
-and ad hoc and really doesn&rsquo;t work all that well. Since most Internet
-APIs these days have some kind of JSON encoding, it means that you
-can&rsquo;t simply dash off an awk one-liner to consume and transform
-Internet input data.</p>
-
-<p>jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&rsquo;s garages:</p>
-
-<blockquote>
-  <p>curl -s http://www.a2dda.org/map/AADDACount.json |
-  jq "[.countdata[].spacesavail | tonumber] | add" </p>
-</blockquote>
-
-<p>I&rsquo;m not going to try to explain how jq works, except to note that
-it&rsquo;s constructed in order to be a filter: data comes in one JSON
-object at a time, and the script iterates over them, transforming
-them in some way and then passing JSON out the other end. This makes
-it perfect for ad hoc Unix pipeline efforts where you&rsquo;re chipping
-away at a data set trying to make sense of it by successively
-refining it as you go.</p>
-
-<p>I&rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
-bus system data, and for the Marquette Park Cemetery data. The
-parking data is straightforward, since it exits the system as JSON.
-Bus system data is only incrementally harder; it started either as
-HTML or as XML, and for that you want to use &ldquo;tidy&rdquo; and &ldquo;xml2json&rdquo;
-in your pipeline. The Park Cemetery data set started as JSON via
-the Socrata SODA API, but I needed little bits of &ldquo;sed&rdquo; and &ldquo;perl&rdquo;
-to smooth out some rough edges in the source data; it really wants
-to end up as GeoJSON when I&rsquo;m done, but it isn&rsquo;t there quite yet.</p>
-
-<p>Shell programming is my favorite programming environment. Any time
-I can take a set of well-understood tools and crunch through big
-data sets with only a few lines of code, I&rsquo;m happy. The challenge
-of shell programming is that it&rsquo;s full of opportunities to get
-things just a little bit wrong with parsing; by making JSON the
-data format that&rsquo;s shoveled between programs rather than a flat
-one-record-per-line text format, you open up the opportunity for
-pulling apart rather complex structures and manipulating them with
-hardly any work.</p>
-
-<p>For further reading, see Jeroen Janssens new book <a
-href="http://datascienceatthecommandline.com/">Data Science at the
-Command Line</a> which works you way through dozens of tools like
-this that can help manage big data without big programs.</p>
 
 
 

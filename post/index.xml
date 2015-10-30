@@ -6,8 +6,67 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2015 14:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2015 16:45:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The AAATA MicroAPI</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi/</link>
+      <pubDate>Fri, 30 Oct 2015 16:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi/</guid>
+      <description>&lt;p&gt;I had a good conversation with Prabal Dutta today about the sort of infrastructure
+you need to build a very simple bus tracker application for the current iteration
+of the AAATA&amp;rsquo;s online system.&lt;/p&gt;
+
+&lt;p&gt;The desired goal is actually fairly simple: for a single place, identify the approximate
+location of a bus on a single bus line that serves that place, and alert the rider in time
+so that they can walk (or run) to catch the bus. Allow some time for getting there early.&lt;/p&gt;
+
+&lt;p&gt;The JSON endpoint that shows all the buses on Route 5 you can fetch as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl -s http://microapi.theride.org/Location/5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and the data itself has records that look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  {
+    &amp;quot;Id&amp;quot;: &amp;quot;48674187&amp;quot;,
+    &amp;quot;routeAbbr&amp;quot;: &amp;quot;5&amp;quot;,
+    &amp;quot;adherence&amp;quot;: -5,
+    &amp;quot;timestamp&amp;quot;: &amp;quot;00:01:11.1189770&amp;quot;,
+    &amp;quot;lat&amp;quot;: 422301779,
+    &amp;quot;longitude&amp;quot;: -837077535,
+    &amp;quot;busNum&amp;quot;: 401,
+    &amp;quot;routeDirection&amp;quot;: &amp;quot;to Ann Arbor&amp;quot;,
+    &amp;quot;timePointName&amp;quot;: &amp;quot;Ellsworth &amp;amp; Braeburn&amp;quot;,
+    &amp;quot;timePointAltName&amp;quot;: &amp;quot;N- Ellsworth Rd. west of Braeburn&amp;quot;,
+    &amp;quot;crossingTime&amp;quot;: &amp;quot;4:46 PM&amp;quot;,
+    &amp;quot;timePointStopID&amp;quot;: &amp;quot;1327&amp;quot;
+  },
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which reads as follows: &amp;ldquo;At 4:46 PM, bus 401 was 5 minutes late and located at
+the Ellsworth &amp;amp; Braeburn timepoint. That was 1 minute 11.1 seconds ago.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s then a short exercise left to the reader to suss out what this means for them.
+The simplest thing to do is to filter through the bus listings, pick out the ones
+where &amp;ldquo;routeDirection&amp;rdquo; is heading the right way, and where the &amp;ldquo;timePointName&amp;rdquo; is
+close enough that you can run for the bus but not so close that the bus has already
+zoomed past.&lt;/p&gt;
+
+&lt;p&gt;My favorite general purpose tool for dealing with JSON data is &lt;code&gt;jq&lt;/code&gt;, from
+&lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt; . It has a syntax for filtering through and querying
+JSON objects with about as much expressive power as &lt;code&gt;sed&lt;/code&gt;. The slightly more
+useful command runs like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl -s http://microapi.theride.org/Location/5 | jq -c &#39;.[]|[.routeDirection, .timePointName]&#39; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which picks out &lt;code&gt;routeDirection&lt;/code&gt; and &lt;code&gt;timePointName&lt;/code&gt; and lands them on a single line &lt;code&gt;-c&lt;/code&gt;
+suitable for any of your favorite Unix tools.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>sudo port upgrade outdated</title>
@@ -1110,64 +1169,6 @@ is to put everything into one Docker build and make it straightforward
 to wrap everything together. Ideally this will be a fairly
 minimalist build, and thus the challenge is to find the set
 of dependencies that is small enough.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Managing a Raspberry Pi OpenVPN with Salt</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/</link>
-      <pubDate>Mon, 07 Sep 2015 00:45:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/</guid>
-      <description>&lt;p&gt;When you successfully install something complex, and then you fail
-to document one small thing about how you did it, the inclination is
-to over-document once you get it working again; thus, this expository
-account of managing a set of Raspberry Pi devices using the &amp;ldquo;salt&amp;rdquo;
-system. It&amp;rsquo;s not a complete start to finish writeup, just a pointer to
-the bits that I had forgotten.&lt;/p&gt;
-
-&lt;p&gt;This is mostly experimental at this point, and the collection of devices
-is relatively small. I am pretty convinced that the Pi 2 has plenty of
-gas to do more things than most people will try to do, but the original
-Pi is slow enough and limited enough to perhaps make this scheme impractical.&lt;/p&gt;
-
-&lt;p&gt;When it works, you have a set of Pi&amp;rsquo;s in various locations, all networked
-together into an OpenVPN configuration.&lt;/p&gt;
-
-&lt;p&gt;First to read is &lt;a href=&#34;http://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html&#34;&gt;Virtually secure with openvpn, pillars, and salt&lt;/a&gt; which
-goes over the structure and motivation and design for an OpenVPN
-network that answers this problem:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;How do I use salt to create and install the openvpn and client specific config files for each minion &amp;ndash;on demand?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you follow Dan Garthwaite&amp;rsquo;s design you get a reasonable
-approach - when you bring up a new client you get a new key
-generated, and on the server you run &lt;code&gt;salt-key -a&lt;/code&gt; to accept the
-new one.&lt;/p&gt;
-
-&lt;p&gt;This leaves only the problem of bootstrapping on the Pi&amp;rsquo;s themselves.
-The version of &amp;lsquo;salt-minion&amp;rsquo; that&amp;rsquo;s available from the default
-Debian system is very ancient, so that&amp;rsquo;s useless. What you want
-can be found at
-&lt;a href=&#34;http://servernetworktech.com/2014/05/setup-debian-saltstack-minion-single-command/&#34;&gt;Setup a Debian Saltstack minion with a single command&lt;/a&gt;
-on the Server Network Tech blog; it brings in a new Debian
-source list from Salt so that the bootstrap is easier.&lt;/p&gt;
-
-&lt;p&gt;(I realize this isn&amp;rsquo;t a start to finish tutorial, just a few points
-of clarification for bringing up new nodes once you have the whole
-Salt environment running; sorry about that.)&lt;/p&gt;
-
-&lt;p&gt;The one thing I have left to do to make the setup more airtight is
-to automate the process of locking down the sshd_config so that &amp;ldquo;root&amp;rdquo;
-and &amp;ldquo;pi&amp;rdquo; can&amp;rsquo;t login from far away, so that I can keep their default
-passwords but restrict access to console access only.&lt;/p&gt;
-
-&lt;p&gt;Not mentioned here is that these Pi configuraiton are all on top of
-the Hypriot setup so that they can (and do) run Docker. Though Docker
-on the original Pi with salt-minion running doesn&amp;rsquo;t leave a ton of
-space spare for actual work to be done.&lt;/p&gt;
 </description>
     </item>
     

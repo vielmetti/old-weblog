@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi" class="list-group-item">The AAATA MicroAPI</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-sudo-port-upgrade-outdated" class="list-group-item">sudo port upgrade outdated</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-29-diligence" class="list-group-item">Diligence</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-30-over-the-top-networks" class="list-group-item">Over the top networks, a history of building new systems on the wreckage of the old</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory" class="list-group-item">Terabytes, at least in theory</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi" class="list-group-item">RRDTool v1.5.4 on Raspberry Pi</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4104,6 +4106,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12090,6 +12094,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12396,6 +12402,23 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>29 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-29-building-a-dipole-antenna-for-your-sdr-tuner-stick-from-an-old-set-of-headphones/">Building a dipole antenna for your SDR tuner stick from an old set of headphones</a>
+      </h3>
+      <p>Some notes before I try to do the build.</p>
+
+<p>The parts I have or know I can get: cheap earbud headphones, NooElec NESDR Mini 2 SDR tuner stick with whip antenna, Nokia 635 phone, antenna from an older NESDR Mini SDR tuner stick.</p>
+
+<p>Parts I need: a short adapter cable that provides antenna in for the SDR stick as a headphone jack socket.</p>
+
+<p>The SDR tuner comes with an antenna, but I want to replace it with a dipole - especially one cut to have a center point for FM broadcast on 88.3 (WCBN) and a second one for 2 meter ham radio on local repeaters (W8UM on 145.23 and N8DUY on 145.15). Some sort of adapter jack (or alligator clips) should be all I need.</p>
+
+<p>I can test the antenna on my Nokia 635 which has an FM tuner connected with the headphone jack as the antenna, and the ideal situation will be to have an antenna that I can just plug either into my phone or into my SDR tuner interchangeably. Once I figure all that out, the next next step is to make these antenna inputs for other radios. One step at a time though.</p>
+
+<p>I'll be working from the tutorial <a href="http://willus.com/author/antenna.shtml">Making a Dipole FM Antenna</a> on willus.com .</p>
 
 
   <h3>23 May 2015</h3>
@@ -12821,23 +12844,6 @@ was behind the counter sorting out the morning flow and talking about the farmer
 <p>Next was to grab one of the many versions of "dump1090" which uses the SDR radio to tune to aircraft ADS-B broadcasts that give you a version of aircraft radar. This also worked well, perhaps better than I could have expected. From home with an antenna in the middle of the house I could hear airplanes just north of Jackson, MI from Ann Arbor, MI (about 40 miles). I relocated to a cafe near the dog park (Ellsworth at Platt) that has a good view of the southern sky, and the same little bitty antenna pulled in reception from airplanes near Fort Wayne, IN (about 120 miles). </p>
 
 <p>There's always more to try, of course. GNU Radio is a full toolkit for building your own radio design, complete with FM decoders and the like, and it has a fairly simple to understand user interface compared to how complex the underpinnings are (remember, FORTRAN). There's lots more software that uses the RTL-SDR libraries and even a port to the Raspberry Pi which I'd like to try.</p>
-
-
-  <h3>24 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-24-the-mysterious-crash-of-4u9525-germanwings-flight-9525-in-the-french-alps/">The mysterious crash of</a>
-      </h3>
-      <p>My Twitter feed was full of air crash news this morning. Germanwings flight 9525 crashed in the French Alps, killing all passengers aboard. Wikipedia has a <a href="http://www.wikiwand.com/en/Germanwings_Flight_9525">good summary</a>, perhaps as good as any.</p>
-
-<p>What was unusual about the crash was that there was no distress call, and that the plane descended rapidly and steadily into the ground without veering once from its course.</p>
-
-<p>Of note in this regard is another European flight on a similar aircraft some months earlier. Lufthansa 1829 on Nov 5th 2014 lost 4000 feet/minute of altitude after having problems with its control systems. The <a href="http://avherald.com/h?article=47d74074">Aviation Herald story</a> was written a few days later, and it references emergency airworthiness directive <a href="http://ad.easa.europa.eu/blob/easa_ad_2014_0266_E.pdf/EAD_2014-0266-E_1">2014-0266-E_1 (pdf)</a>. <a href="http://aviation-safety.net/wikibase/wiki.php?id=171411">AviationSafety.net has a summary of that incident</a>:</p>
-
-<blockquote>
-  <p>During climb, 12 NM NW of Pamplona, at approximately Flight Level 310, the aircraft unexpectedly decreased the pitch autonomous and started to descend. The aircraft reached a rate of descent of up to 4,000 ft/min. The crew was able to stop the descent at Flight Level 270. The flight was continued and the aircraft landed safely at its destination Munich Airport. </p>
-</blockquote>
-
-<p>At least superficially the incidents seem related. I am not expert enough at aviation issues to know if there is a real connection, or if this is mere coincidence.</p>
 
 
 
