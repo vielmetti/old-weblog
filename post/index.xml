@@ -6,8 +6,39 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2015 17:10:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2015 12:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ann Arbor City Planning Commission Executive Committee meetings</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission/</link>
+      <pubDate>Sat, 31 Oct 2015 12:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission/</guid>
+      <description>&lt;p&gt;The Ann Arbor City Planning Commission has an &amp;ldquo;executive committee&amp;rdquo;. The
+names of committee members are not published on the city&amp;rsquo;s web site, nor
+are they noted in an obvious place on the city&amp;rsquo;s Legistar system.&lt;/p&gt;
+
+&lt;p&gt;From time to time, the Executive Committee holds a meeting to discuss
+matters of public import. These meetings are public meetings, and the
+announcements of their times and locations are duly noted on the public
+posting boards inside City Hall. A small handful of people get copies
+of the PDFs that get posted there so that we don&amp;rsquo;t miss a meeting (or, if
+we do miss a meeting, we don&amp;rsquo;t miss knowing that it happened).&lt;/p&gt;
+
+&lt;p&gt;The Executive Committee does post its meeting notices on the tack board,
+but it doesn&amp;rsquo;t list those meetings in the city Legistar calendar, and thus
+the meetings don&amp;rsquo;t make it onto the web-based city calendar. Minutes from
+those meetings are not routinely published to Legistar either.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s always disappointing to find a public body hosting meetings that
+are inadequately publicized, poorly noticed, and where a record of the
+proceedings is not readily available. I&amp;rsquo;m making inquiries into this
+particular instance.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Eppie Potts for bringing this to my attention.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CubicSDR, a cross-platform software defined radio</title>
@@ -1046,33 +1077,6 @@ excursions into thinking that don&amp;rsquo;t lend themselves to quippiness.&lt;
 of twittering out a stream of observations gets in the way of assembling
 the longer context. We focus on the stream of things coming our way,
 never taking time to take stock of the situation and make it make more sense.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bluetooth and bluez inside Docker</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</link>
-      <pubDate>Fri, 11 Sep 2015 17:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</guid>
-      <description>&lt;p&gt;If you have a Bluetooth device attached to a Linux system, it&amp;rsquo;s
-not clear how to attach that device to a Docker container on that
-same system.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bluez&lt;/code&gt;, the Bluetooth driver for Linux, uses the &lt;code&gt;D-Bus&lt;/code&gt; to communicate.
-This is more complex than a FIFO or socket interface, and thus less
-easy to obviously say how it should be mapped into the Docker processs
-and file system space.&lt;/p&gt;
-
-&lt;p&gt;The references below show several ways of not doing this task,
-and hopefully at some point will get answers on how to do it.&lt;/p&gt;
-
-&lt;p&gt;References for further reading:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/docker/docker/issues/16208&#34;&gt;Bluetooth socket can&amp;rsquo;t be opened inside container&lt;/a&gt;, Docker Github issues 16208&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker&#34;&gt;Accessing Bluetooth dongle from inside Docker?&lt;/a&gt;, Stack Overflow.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
