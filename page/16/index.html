@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing" class="list-group-item">Medium, pretty but disappointing</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc" class="list-group-item">Slack vs IRC</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission" class="list-group-item">Ann Arbor City Planning Commission Executive Committee meetings</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker" class="list-group-item">Bluetooth and bluez inside Docker</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-10-xml2json" class="list-group-item">xml2json as part of a web parsing pipeline</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt" class="list-group-item">Managing a Raspberry Pi OpenVPN with Salt</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4112,6 +4114,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12114,6 +12118,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12420,6 +12426,29 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>9 February 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/">decoding radio digital modes without a radio, using WebSDR and fldigi</a>
+      </h3>
+      <p>I'm interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to "listen" to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Fldigi-HB9ERN" title="Fldigi-HB9ERN" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi" /></a><br /></p>
+
+<p>I think I have all of the components, but I have yet to be able to get everything to work as expected. Here's what I have:</p>
+
+<p><a href="http://websdr.ewi.utwente.nl:8901/">WebSDR</a> from http://websdr.ewi.utwente.nl:8901/ . This is a software-defined radio tuning  to the radio airwaves at the University of Twente in the Netherlands; it runs in your browser. There are 87 of these systems running around the world, listed at <a href="http://websdr.org/">websdr.org</a>.</p>
+
+<p><a href="http://www.w1hkj.com/Fldigi.html">fldigi</a> from http://www.w1hkj.com/Fldigi.html . This software for Windows, Linux and OS X, runs on your local system and takes an audio signal and decodes it in one of many digital modes.</p>
+
+<p><a href="https://code.google.com/p/soundflower/">Soundflower</a> from https://code.google.com/p/soundflower/ . This is a Mac system extension that allows you to redirect the audio output of one program (e.g. your browser) into the audio input of another program (e.g. fldigi). Not strictly necessary because the fldigi can also just decode whatever it hears through the computer's built in microphone. I picked up the recommendation from an article on <a href="http://www.hamradioandvision.com/websdr-digital-modes/">HamRadioAndVision</a>.</p>
+
+<p>A number of people have done Youtube videos describing what they are doing to make this work. For example, <a href="http://www.oz9aec.net/index.php/component/content/article/63-sdr/290-fun-with-websdr-and-fldigi">OZ9AEC</a> has a 6 minute Youtube from 2009 shows reception in single channel and multichannel mode. He doesn't use Soundflower, just the built in mic of his Mac.</p>
+
+<p>Not described here - and probably what I need to figure out next - are two key bits of information. Where do you tune to pick up digital signals? And, more importantly, which decoder do you use? It's not hard to pick out which modulation is being used if you have some practice, but as of this writing I couldn't readily tell you what WEFAX sounds like compared to RTTY. Still sorting through those details before I can claim to have mastered this.</p>
+
+<p>Note also that this should work with a local software-defined radio as well, or even with a "hardware-defined radio" placed near your mic or patched in with a mic cable.</p>
 
 
   <h3>6 February 2014</h3>
@@ -12875,45 +12904,6 @@ There are lots of reasons to want to use more art on this weblog. It's attractiv
 <p>The list is down to 30 now, and I'm careful not to add more than that without crossing something else off the list. It still has a few lingering things that haven't been done for a long time, but I have had my teeth cleaned, and what's more I can read through the whole thing in one sitting and usually say "yes" to some next task.</p>
 
 <p>More reading: <a href="http://www.personalkanban.com/pk/primers/why-limit-your-wip-a-pk-info-series/">Why limit your work in progress</a>, Jim Benson.</p>
-
-
-  <h3>14 January 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-01-14-obituary-gary-grimshaw-1946-2014-poster-artist-and-minister-of-art-for-the-white-panther-party/">Obituary: Gary Grimshaw (1946-2014), poster artist and Minister of Art for the White Panther Party</a>
-      </h3>
-      <p>Gary Grimshaw, poster artist and Minister of Art for the White Panther party, has died after a long illness at the age of 67.</p>
-
-<p>Funeral information: <a href="http://www.detroitnews.com/article/20140114/ENT01/301140113#ixzz2qV6eotwr">Gary Grimshaw funeral set for Sunday at MOCAD</a>, Detroit News</p>
-
-<blockquote>
-  <p>Funeral arrangements for Gary Grimshaw, famed Detroit poster artist, have been set. Grimshaw, 67, died Monday at Detroit Receiving Hospital after a lengthy illness.</p>
-  
-  <p>Visitation will be from 6-8 p.m. Saturday at MOCAD, the Museum of Contemporary Art Detroit, at 4454 Woodward in Detroit. There will be music from 8-9 p.m.</p>
-  
-  <p>The funeral will be at 11 a.m. Sunday at MOCAD, with a reception following at the Scarab Club.</p>
-  
-  <p>Grimshaw had just been honored last week by the Scarab Club, which had his wife Laura affix his signature to one of the ceiling beams on Friday, joining the signatures of artists including Diego Rivera, Tyree Guyton and Norman Rockwell. The Scarab Club is exhibiting Grimshaw’s work until Feb. 15.</p>
-</blockquote>
-
-<p><a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fc2d177d970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fc2d177d970b image-full img-responsive" alt="Sinclair_poster_590w" title="Sinclair_poster_590w" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fc2d177d970b-800wi" border="0" style="display: block; margin-left: auto; margin-right: auto;"></a><br></p>
-
-<p>Obituary: <a href="http://www.detroitnews.com/article/20140113/OBITUARIES/301130096/1361/Detroit-rock-poster-artist-Grimshaw-dies-at-67">Detroit News</a>. </p>
-
-<blockquote>
-  <p>Grimshaw’s vivid fliers and posters for the legendary Grande Ballroom in the late 1960s featured artists such as the MC5, Cream, the Yardbirds and Paul Butterfield. His style went beyond psychedelic, and is instantly recognizable to rock poster fans, and highly collectible.</p>
-</blockquote>
-
-<p>Dangerous Minds: <a href="http://dangerousminds.net/comments/detroit_psychedelic_rock_poster_artist_grimshaw_dead_at_67">DETROIT PSYCHEDELIC ROCK POSTER ARTIST GRIMSHAW DEAD AT 67</a></p>
-
-<blockquote>
-  <p>Grimshaw was best friends in childhood with the late MC5 singer Rob Tyner. He was also a part of revolutionary poet John Sinclair’s Rainbow People’s Party and the “Trans-Love Energies” artistic movement. Grimshaw was active from the late 60s until recently, doing new work for local appearances by The White Stripes and Patti Smith and publishing a book last summer with Leni Sinclair titled Detroit Rocks! A Pictorial History of Motor City Rock and Roll 1965 to 1975.</p>
-</blockquote>
-
-<p><a href="https://www.facebook.com/pages/GARY-GRIMSHAW/343781051661?id=343781051661&amp;sk=info">Gary Grimshaw page on Facebook</a> -</p>
-
-<blockquote>
-  <p>In December 2011 the Ann Arbor District Public Library celebrated the 40th Anniversary of the Free John Now! Concert featuring John Lennon, in great style. The poster for the original concert is one of Gary’s most popular images. For the Ann Arbor events Gary drew a commemorative poster by hand. A group of Gary’s friends from the time organized a Hill Street House Reunion gathering and Gary was able to reconnect with many friends. The newspaper The Ann Arbor Sun is electronically available at <a href="http://freeingjohnsinclair.aadl.org">freeingjohnsinclair.aadl.org</a> thanks to the Library’s great effort. </p>
-</blockquote>
 
 
 

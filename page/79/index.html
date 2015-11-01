@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing" class="list-group-item">Medium, pretty but disappointing</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc" class="list-group-item">Slack vs IRC</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission" class="list-group-item">Ann Arbor City Planning Commission Executive Committee meetings</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker" class="list-group-item">Bluetooth and bluez inside Docker</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-10-xml2json" class="list-group-item">xml2json as part of a web parsing pipeline</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt" class="list-group-item">Managing a Raspberry Pi OpenVPN with Salt</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4112,6 +4114,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12114,6 +12118,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12420,6 +12426,19 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>19 December 2007</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2007/2007-12-19-links-for-20-13/">links for 2007-12-19</a>
+      </h3>
+      <ul class="delicious">
+    <li>
+        <div class="delicious-link"><a href="http://www.wbwc.org/snow.shtml">Snow  Removal - Washtenaw Bicycling and Walking Coalition Projects</a></div>
+        <div class="delicious-extended">A compilation of Washtenaw County snow removal ordinances, plus some handy fliers to print out to tell people to shovel (or to thank them for shoveling).</div>
+        <div class="delicious-tags">(tags: <a href="http://del.icio.us/vielmetti/snow">snow</a> <a href="http://del.icio.us/vielmetti/annarbor">annarbor</a> <a href="http://del.icio.us/vielmetti/wbwc">wbwc</a> <a href="http://del.icio.us/vielmetti/walk">walk</a> <a href="http://del.icio.us/vielmetti/walking">walking</a> <a href="http://del.icio.us/vielmetti/walkertracker">walkertracker</a>)</div>
+    </li>
+</ul>
 
 
   <h3>18 December 2007</h3>
@@ -13114,33 +13133,6 @@ The next problem is to figure out a transitional period where I get a laptop for
 the peakiness of each of these in time and space, and synchronize
 your annual seasonal efforts early enough to capture interest and
 to be properly indexed when time comes for people to search.</p>
-
-
-  <h3>4 December 2007</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2007/2007-12-04-quantitative-me/">quantitative measures of usability (or, measuring measurability)</a>
-      </h3>
-      <p>
-I did the Google search for "quantitative measures of usability", to see if that line of thinking would get me something useful.  Here's some explorations around those search results, and some reflections on that line of reasoning.
-</p><p>
-<strong>CHI: single usability metric</strong>
-</p><p>
-There is a site "measuring usability" which unsurprisingly ranked high on the list.  It introduces the novel concept of a "single measure of usability", which looks like the sum of a bunch of individual metrics all mushed together into a single number.  (Sauro and Kindlund, CHI 2005).  It measures task completion times, task time, satisfaction and error counts, and is a formalized version of what looks like an original Excel spreadsheet.  
-</p><p>
-From an electronic commerce point of view this is a promising number, but an expensive one to compute - from web server logs you can impute task completion and task times, and maybe get some sense for errors, but satisfaction is hard to grind out of a server log.   It comes from the CHI tradition of simple models of user behavior assessed from small data sets.  But it's a start.
-</p><p>
-<strong>Patents: quantitative measures of qualitative usability</strong>
-</p><p>
-There's a patent filing (Ed Chi, Christopher Olston) with this initial claim:
-</p><blockquote>
-A system for determining a quantitative measure of qualitative usability of related Web pages, comprising: stored Web pages that each include at least one hyperlink referencing and proximal cues relating to distal content included in another Web page; a stored information goal identifying a target Web page; an activation network, comprising a directed graph comprising nodes corresponding to the Web pages and arcs corresponding to the hyperlinks, wherein a weight is assigned to each arc to represent a probability of traversal of the corresponding hyperlink based on a relatedness of keywords in the information goal to the proximal cues included in the referenced Web page; and a simulator to evaluate a traversal through the activation network to the node corresponding to the target Web page as a quantitative measure of usability.
-</blockquote><p>
-There's more (of course, it's a patent, there's a lot more).  It appears to be a simulator-driven version of the same PageRank algorithms that Google started out with, except that rather than assuming a random walk through page space it takes into account what Google would call quality scores and what they call "information scent".  Chi works at PARC, and this looks like an elaboration of their <a href="http://portal.acm.org/citation.cfm?id=937550">ScentTrails</a> paper (TOCHI 2003).  Note that it's not about task completion as above but more about findability within a search space, and as thus it describes a different problem than above.
-</p><p>
-<strong>More work
-</p><p>
-</strong>I'm sure there's more relevant work in this field, but given that the first words I used to look both unearthed CHI related papers, I'm not sure I have the right language to express the thing I'm really after.  so I'll stop...
-</p>
 
 
 

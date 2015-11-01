@@ -6,8 +6,41 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2015 15:15:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2015 15:50:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Medium, pretty but disappointing</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing/</link>
+      <pubDate>Sun, 01 Nov 2015 15:50:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing/</guid>
+      <description>&lt;p&gt;Medium is a hosted blogging and discussion board at &lt;a href=&#34;http://www.medium.com&#34;&gt;http://www.medium.com&lt;/a&gt; .
+It&amp;rsquo;s run by Evan Williams, who built Blogger.&lt;/p&gt;
+
+&lt;p&gt;The site is very pretty and functional, both for writers and for readers.
+Authors get a lovely HTML based editor to write their text in, and readers
+can do highlights and annotations. From a purely technical point of view it&amp;rsquo;s
+one of the better systems for typing into on the net.&lt;/p&gt;
+
+&lt;p&gt;Alas, the promise of a pretty system does not extend the promise
+that everything that&amp;rsquo;s written there will be smart and interesting.
+One recent essay posted to the site complains that it&amp;rsquo;s been &amp;ldquo;hijacked
+by life-hack gurus, designers and San Francisco people&amp;rdquo;. The page that
+Medium provides as a home page for me bears this out - there&amp;rsquo;s an
+extended discussion of &amp;ldquo;MCT Oil&amp;rdquo; (whatever that is, some diet fad),
+advice about venture capital, &amp;ldquo;8 steps for &amp;hellip;&amp;rdquo;, &amp;ldquo;23 great places for &amp;hellip;&amp;rdquo;,
+and &amp;ldquo;How You Train Your Brain To Get What You Really Want&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;All the pretty in the world doesn&amp;rsquo;t really help if you&amp;rsquo;re surrounded
+by life-hack, growth-hack, *-hack content, which all smell like
+thinly veiled self-promotion or advertising pitches. A steady diet
+of this kind of writing is soul-killing.&lt;/p&gt;
+
+&lt;p&gt;So, in the end, disappointing. Shiny on the outside, nice fonts, good
+use of whitespace, but uninspired content.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Slack vs IRC</title>
@@ -1026,17 +1059,6 @@ cf &lt;a href=&#34;http://gohugo.io/extras/datafiles/&#34;&gt;http://gohugo.io/e
 &lt;li&gt;Make sure that the theme is in version control, which means
 I have to learn about git subtrees.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Zeno&#39;s Inbox</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-14-zenos-inbox/</link>
-      <pubDate>Mon, 14 Sep 2015 01:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-14-zenos-inbox/</guid>
-      <description>&lt;p&gt;Zeno&amp;rsquo;s inbox: cut in half in an hour; it always takes an hour to
-cut it in half, no matter how few messages there are in it.&lt;/p&gt;
 </description>
     </item>
     

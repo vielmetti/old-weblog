@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing" class="list-group-item">Medium, pretty but disappointing</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc" class="list-group-item">Slack vs IRC</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission" class="list-group-item">Ann Arbor City Planning Commission Executive Committee meetings</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker" class="list-group-item">Bluetooth and bluez inside Docker</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-10-xml2json" class="list-group-item">xml2json as part of a web parsing pipeline</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt" class="list-group-item">Managing a Raspberry Pi OpenVPN with Salt</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4112,6 +4114,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12114,6 +12118,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12420,6 +12426,36 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>1 November 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing/">Medium, pretty but disappointing</a>
+      </h3>
+      <p>Medium is a hosted blogging and discussion board at <a href="http://www.medium.com">http://www.medium.com</a> .
+It&rsquo;s run by Evan Williams, who built Blogger.</p>
+
+<p>The site is very pretty and functional, both for writers and for readers.
+Authors get a lovely HTML based editor to write their text in, and readers
+can do highlights and annotations. From a purely technical point of view it&rsquo;s
+one of the better systems for typing into on the net.</p>
+
+<p>Alas, the promise of a pretty system does not extend the promise
+that everything that&rsquo;s written there will be smart and interesting.
+One recent essay posted to the site complains that it&rsquo;s been &ldquo;hijacked
+by life-hack gurus, designers and San Francisco people&rdquo;. The page that
+Medium provides as a home page for me bears this out - there&rsquo;s an
+extended discussion of &ldquo;MCT Oil&rdquo; (whatever that is, some diet fad),
+advice about venture capital, &ldquo;8 steps for &hellip;&rdquo;, &ldquo;23 great places for &hellip;&rdquo;,
+and &ldquo;How You Train Your Brain To Get What You Really Want&rdquo;.</p>
+
+<p>All the pretty in the world doesn&rsquo;t really help if you&rsquo;re surrounded
+by life-hack, growth-hack, *-hack content, which all smell like
+thinly veiled self-promotion or advertising pitches. A steady diet
+of this kind of writing is soul-killing.</p>
+
+<p>So, in the end, disappointing. Shiny on the outside, nice fonts, good
+use of whitespace, but uninspired content.</p>
 
 
   <h3>1 November 2015</h3>
@@ -13897,57 +13933,6 @@ just dump in raw JSON documents and hope for the best.</p>
     
 </figure>
 </p>
-
-
-  <h3>26 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-26-first-pass-at-mongodb/">First pass at MongoDB</a>
-      </h3>
-      <p>Somehow I never learned SQL along the way. At various times I have
-learned enough of the database lingo (inner join, outer join etc) to
-know where I missing things, and I have a lot of experience with common
-Unix tools (grep, sed, awk) and some newfangled tools (jq, csvkit) to
-be able to turn a big pile of data into a smaller pile of data. But
-I don&rsquo;t have database chops per se right now, and sometimes that&rsquo;s a
-limiting factor on projects when the data sets are too big.</p>
-
-<p>JSON formatted data seems to have won the data serialization wars, so
-that at least transforms the problem on input; with jq (now in release 1.5)
-you can take a stream of JSON formatted data that&rsquo;s almost what you want
-and mangle it until it&rsquo;s really what you want. Lots of web APIs spit out
-some flavor of JSON, and even if it&rsquo;s not precisely formatted to be ready
-for input into something else, at least there&rsquo;s a straightforward way to
-munge it into something better.</p>
-
-<p>That leaves the task of dumping these JSON blobs into a database, in
-such a way that you can relatively easily get something back out of the
-database that answers what you are really trying to answer again. Here
-the world splits into two pieces: the SQL databases that have been taught
-how to deal with JSON (specifically PostgreSQL, as of version 9.3), and the
-so-called NoSQL databases (specifically MongoDB).</p>
-
-<p>Even Mongo knows that <a href="http://blog.mongodb.org/post/62899600960/scaling-advice-from-mongohq">scaling MongoDB is hard</a>, though
-they frame it as the first 100 gigabytes of data stored in the system is
-easy. Fortunately, the first set of tasks I have to throw at this particular
-problem space are relatively small, databases measured in the 10s of megabytes.
-Pretty much anything will work - even grep - on this size data. The
-challenge becomes more of a how fast can you get something real running
-that has relatively simple queries, relatively performant results, and
-that can run on inexpensive hardware.</p>
-
-<p>So I learned just enough Mongo to handle one tiny task: connect to an API,
-download some data periodically, clean it up enough so that it&rsquo;s regular,
-and store it away; and then construct queries that are conceptually simple
-but that answer real questions. From there, do the ad hoc queries that prove
-to yourself that you have the right data, and then bootstrap some web
-app on top of all that to show off what you&rsquo;ve done.</p>
-
-<p>The results here accomplish a relatively complex task with a handful of
-lines of code. An API from a local agency is queried that has real time data.
-That data gets cleaned up and standardized and then inserted into a Mongo
-database. It&rsquo;s all of 6 lines of code.</p>
-
-<script src="https://gist.github.com/vielmetti/85d5fba07b98e552c912.js"></script>
 
 
 
