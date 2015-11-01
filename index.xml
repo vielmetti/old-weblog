@@ -6,8 +6,62 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2015 12:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2015 15:15:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Slack vs IRC</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/</link>
+      <pubDate>Sun, 01 Nov 2015 15:15:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/</guid>
+      <description>&lt;p&gt;IRC is an old-school multi-system, multi-channel, multi-network chat infrastructure.
+It dates from the 1980s, and was inspired in part by the BITNET RELAY systems that
+effectively sent messages from mainframe to message over virtual punch cards.
+RFC 1459 described the protocol in 1993.&lt;/p&gt;
+
+&lt;p&gt;Slack is a shiny new system also providing multi-channel, multi-network chat.
+It&amp;rsquo;s very much a product of the 2010s, emerging in 2013 after being used for
+an internal communications channel at a games company. It&amp;rsquo;s currently valued
+at a bazillion dollars in the frothy VC environment of 2015.&lt;/p&gt;
+
+&lt;p&gt;IRC is open, reasonably well documented, and available to all through a plethora
+of servers, clients, and web gateways. If you want to set up an IRC network
+no one will get in your way, except perhaps your own ability to determine
+which version of which server will work best with which version of which other
+server. Once you build an IRC network out you have no one standing in your way
+of doing whatever you want to do except your own technical capabilities.&lt;/p&gt;
+
+&lt;p&gt;Slack, by contrast, is completely and thoroughly a 2010s private company. There
+are private Slack networks that cost real money ($x/user/mo), and public Slack
+networks which are free but only free because Slack-the-company has decided that
+they want to provide some free usage tier to help kickstart their growth.&lt;/p&gt;
+
+&lt;p&gt;The biggest different between the two systems is ease of use. You can get up and
+running with Slack by just providing a credit card, and all of the details are
+taken care of for you complete with tech and developer support. For IRC you are
+totally on your own, and the DIY denizens of that network are mostly friendly
+but not always.&lt;/p&gt;
+
+&lt;p&gt;The most old-school of old-school Unix people I know still use
+private IRC running on a local server, accessable only via SSH
+with all members of the network personally vetted by the cadre
+of sysadmins who run it. I like it that I have access to that
+brain trust, but the more typical use of Slack for me this year
+is the relatively large mostly public networks that have been
+set up to support an event or keep a community together.&lt;/p&gt;
+
+&lt;p&gt;Much has been made of how incorrect it is for open source projects
+to use a closed-source system for discussion. A few projects using
+Slack have discovered that they are too big for the free services
+that Slack is willing to provide, and they are looking for new homes.&lt;/p&gt;
+
+&lt;p&gt;Unlike most of the late-1980s public systems (eg. Usenet or Gopher)
+IRC is still alive and mostly vigorous. But IRC will never be
+pretty or cuddly or ironic in the way that a venture-funded Slack
+seems to be.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ann Arbor City Planning Commission Executive Committee meetings</title>
@@ -983,110 +1037,6 @@ I have to learn about git subtrees.&lt;/li&gt;
       <guid>http://vielmetti.github.io/post/2015/2015-09-14-zenos-inbox/</guid>
       <description>&lt;p&gt;Zeno&amp;rsquo;s inbox: cut in half in an hour; it always takes an hour to
 cut it in half, no matter how few messages there are in it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Old code and old tools</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-14-old-code-and-old-tools/</link>
-      <pubDate>Mon, 14 Sep 2015 00:05:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-14-old-code-and-old-tools/</guid>
-      <description>&lt;p&gt;One of the problems with old codebases is that they are missing
-modern tooling for automated builds, automated testing, and the
-like.&lt;/p&gt;
-
-&lt;p&gt;A second problem with old code is that the maintainers (absent
-modern tooling) may not know or recognize what dependencies they
-have.&lt;/p&gt;
-
-&lt;p&gt;If an old package is not mostly self-contained, it&amp;rsquo;s likely to
-have dependencies on other old code. This makes it hard to build,
-as those older dependencies have either gone offline or have mutated
-so that the old package doesn&amp;rsquo;t work with the new releases.&lt;/p&gt;
-
-&lt;p&gt;To confound the matter even more, the newer tools for automated
-builds, automated tests and so forth have their own sets of complex
-dependencies, so much so that unless you are around some team that
-has already absorbed these systems that you are unlikely to grasp
-all of their deeply interconnected complexities.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s easy to cascade into a deep chasm of interlocking dependencies,
-yielding enough complexity in the build process to frustrated people
-who really care more about the code than how it&amp;rsquo;s packaged for distribution.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been working this weekend on &lt;code&gt;tidy-html5&lt;/code&gt;. It has a Makefile
-that&amp;rsquo;s generated by CMake, and its documentation is built with
-a combination of xsltproc and Doxygen. As dependencies go that&amp;rsquo;s
-not too bad, but the problem starts because the codebase lay dormant
-for a couple of years, and somewhere between three and six years
-of net development and build tooling efforts have passed it by.&lt;/p&gt;
-
-&lt;p&gt;There was no Dockerfile for the project, so I wrote one to see if I
-could get it to build and could understand all of the build dependencies.
-That took a dozen tries, but eventually something went through to
-completion.&lt;/p&gt;
-
-&lt;p&gt;The first thing I noted was that it not only depended on CMake but
-also a particularly relatively recent version of CMake. Ditto for
-Doxygen - not any elderly Doxygen will do, but only a relatively
-recent build. Doxygen has its own dependencies, lots of them - about
-a gigabyte of code to download and install.&lt;/p&gt;
-
-&lt;p&gt;Next was to pick up on a previous effort to build the whole thing under
-Travis CI. Now I have a relatively old build system that doesn&amp;rsquo;t
-have these old dependencies so I have to drag them in, and not only
-drag in some version but a particularly new version.&lt;/p&gt;
-
-&lt;p&gt;Dependencies satisfied, it&amp;rsquo;s time to build. I want this to work on my
-Raspberry Pi, so I build it there, and discover that the version of
-Doxygen there is too old (oops) so it doesn&amp;rsquo;t build the docs at all,
-never mind the cheery message from the build script that claims
-&amp;ldquo;TidyLib API documentation has been built&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Next, to test. Does it pass all of its tests? Well, there is a test
-directory with a bunch of test cases, but the documentation says things
-like&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Of course some of the tests were to say avoid a segfault found.
-Other tests were to visually compare the original input test file
-in a browser, with how the new output displayed in a browser. This
-is a purely VISUAL compare, and can not be done in code.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Frankly, a test that can&amp;rsquo;t be done in code is one that I can&amp;rsquo;t run
-in finite time. I build all of the tests, diff them with the reference
-directory, and hope that the differences (there are a few) aren&amp;rsquo;t fatal.&lt;/p&gt;
-
-&lt;p&gt;You see where this is going&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Frankly, it&amp;rsquo;s hard to get all of the tooling right. Travis CI has all of
-its own quirks, and you have to set up a build correctly to get correct
-build completion results. Once the build happens, you want some sort of
-test harness to take all of these test cases and turn them into red lights
-and green lights on your screen, and I don&amp;rsquo;t have that yet. Building
-binaries is yet another task - one project contributor put together a
-Jenkins install to take on that task.  And so forth.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The piece of this that I care about is twofold. &lt;code&gt;tidy&lt;/code&gt; as it stands now
-is frozen in 2009, and that&amp;rsquo;s before HTML5. &lt;code&gt;tidy-html5&lt;/code&gt; is caught in flux,
-with a successful project rescue to get it to build at all, but not yet
-the full-on automation and test infrastructure that projects like &lt;code&gt;docker&lt;/code&gt;
-or &lt;code&gt;node.js&lt;/code&gt; have that allow for ferocious parallel development with
-reasonable test and integration coverage.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;tidy&lt;/code&gt; project is very old (20 yrs), and if it&amp;rsquo;s going to pass
-a full suite of automated tests on every check-in for every platform,
-that&amp;rsquo;s going to take some consolidated effort - both by people who
-care about the code (but not so much how it&amp;rsquo;s packaged) and by people
-who care about the packaging (so that they can use the code). Not
-only does the code need to evolve, but the build tools around the
-code need to move forward.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,8 +6,62 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2015 12:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2015 15:15:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Slack vs IRC</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/</link>
+      <pubDate>Sun, 01 Nov 2015 15:15:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/</guid>
+      <description>&lt;p&gt;IRC is an old-school multi-system, multi-channel, multi-network chat infrastructure.
+It dates from the 1980s, and was inspired in part by the BITNET RELAY systems that
+effectively sent messages from mainframe to message over virtual punch cards.
+RFC 1459 described the protocol in 1993.&lt;/p&gt;
+
+&lt;p&gt;Slack is a shiny new system also providing multi-channel, multi-network chat.
+It&amp;rsquo;s very much a product of the 2010s, emerging in 2013 after being used for
+an internal communications channel at a games company. It&amp;rsquo;s currently valued
+at a bazillion dollars in the frothy VC environment of 2015.&lt;/p&gt;
+
+&lt;p&gt;IRC is open, reasonably well documented, and available to all through a plethora
+of servers, clients, and web gateways. If you want to set up an IRC network
+no one will get in your way, except perhaps your own ability to determine
+which version of which server will work best with which version of which other
+server. Once you build an IRC network out you have no one standing in your way
+of doing whatever you want to do except your own technical capabilities.&lt;/p&gt;
+
+&lt;p&gt;Slack, by contrast, is completely and thoroughly a 2010s private company. There
+are private Slack networks that cost real money ($x/user/mo), and public Slack
+networks which are free but only free because Slack-the-company has decided that
+they want to provide some free usage tier to help kickstart their growth.&lt;/p&gt;
+
+&lt;p&gt;The biggest different between the two systems is ease of use. You can get up and
+running with Slack by just providing a credit card, and all of the details are
+taken care of for you complete with tech and developer support. For IRC you are
+totally on your own, and the DIY denizens of that network are mostly friendly
+but not always.&lt;/p&gt;
+
+&lt;p&gt;The most old-school of old-school Unix people I know still use
+private IRC running on a local server, accessable only via SSH
+with all members of the network personally vetted by the cadre
+of sysadmins who run it. I like it that I have access to that
+brain trust, but the more typical use of Slack for me this year
+is the relatively large mostly public networks that have been
+set up to support an event or keep a community together.&lt;/p&gt;
+
+&lt;p&gt;Much has been made of how incorrect it is for open source projects
+to use a closed-source system for discussion. A few projects using
+Slack have discovered that they are too big for the free services
+that Slack is willing to provide, and they are looking for new homes.&lt;/p&gt;
+
+&lt;p&gt;Unlike most of the late-1980s public systems (eg. Usenet or Gopher)
+IRC is still alive and mostly vigorous. But IRC will never be
+pretty or cuddly or ironic in the way that a venture-funded Slack
+seems to be.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ann Arbor City Planning Commission Executive Committee meetings</title>
@@ -1054,29 +1108,6 @@ care about the code (but not so much how it&amp;rsquo;s packaged) and by people
 who care about the packaging (so that they can use the code). Not
 only does the code need to evolve, but the build tools around the
 code need to move forward.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writing up your tweets</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-14-writing-up-your-tweets/</link>
-      <pubDate>Mon, 14 Sep 2015 00:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-14-writing-up-your-tweets/</guid>
-      <description>&lt;p&gt;I use Twitter regularly, and will frequently post short things there
-that reflect some 140 character slice of what I&amp;rsquo;m thinking about. That&amp;rsquo;s
-very quick, but at some level deeply unsatisfying, because how much can
-you put into 140 characters? Never quite enough.&lt;/p&gt;
-
-&lt;p&gt;The challenge is to write up your tweets into something longer. Take
-the quip and turn it into a lead paragraph, then expand the lead paragraph
-into three or five or fifteen or fifty more. Explore at leisure, including
-excursions into thinking that don&amp;rsquo;t lend themselves to quippiness.&lt;/p&gt;
-
-&lt;p&gt;In retrospect some tweets would have better been unwritten. The process
-of twittering out a stream of observations gets in the way of assembling
-the longer context. We focus on the stream of things coming our way,
-never taking time to take stock of the situation and make it make more sense.&lt;/p&gt;
 </description>
     </item>
     

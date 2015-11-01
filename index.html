@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc" class="list-group-item">Slack vs IRC</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission" class="list-group-item">Ann Arbor City Planning Commission Executive Committee meetings</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr" class="list-group-item">CubicSDR, a cross-platform software defined radio</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-10-xml2json" class="list-group-item">xml2json as part of a web parsing pipeline</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt" class="list-group-item">Managing a Raspberry Pi OpenVPN with Salt</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-04-deep-web" class="list-group-item">Deep web</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4110,6 +4112,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12108,6 +12112,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12414,6 +12420,57 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>1 November 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/">Slack vs IRC</a>
+      </h3>
+      <p>IRC is an old-school multi-system, multi-channel, multi-network chat infrastructure.
+It dates from the 1980s, and was inspired in part by the BITNET RELAY systems that
+effectively sent messages from mainframe to message over virtual punch cards.
+RFC 1459 described the protocol in 1993.</p>
+
+<p>Slack is a shiny new system also providing multi-channel, multi-network chat.
+It&rsquo;s very much a product of the 2010s, emerging in 2013 after being used for
+an internal communications channel at a games company. It&rsquo;s currently valued
+at a bazillion dollars in the frothy VC environment of 2015.</p>
+
+<p>IRC is open, reasonably well documented, and available to all through a plethora
+of servers, clients, and web gateways. If you want to set up an IRC network
+no one will get in your way, except perhaps your own ability to determine
+which version of which server will work best with which version of which other
+server. Once you build an IRC network out you have no one standing in your way
+of doing whatever you want to do except your own technical capabilities.</p>
+
+<p>Slack, by contrast, is completely and thoroughly a 2010s private company. There
+are private Slack networks that cost real money ($x/user/mo), and public Slack
+networks which are free but only free because Slack-the-company has decided that
+they want to provide some free usage tier to help kickstart their growth.</p>
+
+<p>The biggest different between the two systems is ease of use. You can get up and
+running with Slack by just providing a credit card, and all of the details are
+taken care of for you complete with tech and developer support. For IRC you are
+totally on your own, and the DIY denizens of that network are mostly friendly
+but not always.</p>
+
+<p>The most old-school of old-school Unix people I know still use
+private IRC running on a local server, accessable only via SSH
+with all members of the network personally vetted by the cadre
+of sysadmins who run it. I like it that I have access to that
+brain trust, but the more typical use of Slack for me this year
+is the relatively large mostly public networks that have been
+set up to support an event or keep a community together.</p>
+
+<p>Much has been made of how incorrect it is for open source projects
+to use a closed-source system for discussion. A few projects using
+Slack have discovered that they are too big for the free services
+that Slack is willing to provide, and they are looking for new homes.</p>
+
+<p>Unlike most of the late-1980s public systems (eg. Usenet or Gopher)
+IRC is still alive and mostly vigorous. But IRC will never be
+pretty or cuddly or ironic in the way that a venture-funded Slack
+seems to be.</p>
 
 
   <h3>31 October 2015</h3>
@@ -13891,51 +13948,6 @@ That data gets cleaned up and standardized and then inserted into a Mongo
 database. It&rsquo;s all of 6 lines of code.</p>
 
 <script src="https://gist.github.com/vielmetti/85d5fba07b98e552c912.js"></script>
-
-
-  <h3>24 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba/">Listening to Radio Havana Cuba via a shortwave software defined radio</a>
-      </h3>
-      <p>I&rsquo;m listening to Radio Havana Cuba via a shortwave listening post set up
-with a software defined radio. The system, <a href="http://blerp2.dyndns.org:8901/">Great Lakes Listening Post</a>,
-has four separate radios covering the 80, 40, 30, and 20 meter bands, all
-fed into the <a href="http://www.websdr.org">WebSDR</a> software from PA3FWM. It&rsquo;s
-located in Michigan, and thus approximates the radio reception I&rsquo;d get from
-my own receiver.</p>
-
-<p>R Havana Cuba is a good station to listen to. There&rsquo;s interesting political
-commentary, fun music, and the occasional show about shortwave listening.
-The signal is usually strong and the frequency (6000 kHz) is easy to remember.
-Most international braodcasters have refocused their attention on Internet
-based broadcasts, but R Havana Cuba continues on with its shortwave service.
-My Sony ICF-2010 set from the 1980s still has a Cold War era present to that
-frequency.</p>
-
-<p>The biggest advantage to web-based software radio is the ability to pick up
-stations from listening posts around the world. The WebSDR platform has stations
-with good antennas around the world, and they each allow multiple listeners
-to tune in to different stations without any of them monopolizing the receiver.
-Most web-based SDR systems focus on shortwave and HF amateur bands, but every
-so often you find a system that can tune domestic medium wave (AM) and
-long wave bands, which gives you a chance to hear programs that were
-never anticipated to be listened to from half way around the world.</p>
-
-<p>
-<figure >
-    
-        <img src="http://vielmetti.github.io/images/R-Havana-Cuba-WebSDR.png" />
-    
-    
-    <figcaption>
-        <h4>Radio Havana Cuba on Great Lakes Listening Post WebSDR</h4>
-        
-    </figcaption>
-    
-</figure>
-</p>
-
-<p>Discussion on <a href="https://www.facebook.com/edward.vielmetti/posts/10105619636684853">Facebook</a></p>
 
 
 
