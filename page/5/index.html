@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-open-city-hall" class="list-group-item">Open City Hall and government by survey</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-halloween-twitter-vs-facebook" class="list-group-item">Halloween Twitter vs Facebook</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing" class="list-group-item">Medium, pretty but disappointing</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-14-old-code-and-old-tools" class="list-group-item">Old code and old tools</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-14-writing-up-your-tweets" class="list-group-item">Writing up your tweets</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker" class="list-group-item">Bluetooth and bluez inside Docker</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4116,6 +4118,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12126,6 +12130,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12432,6 +12438,25 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>28 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/">Using a squid cache to make automated data collection a bit less rude</a>
+      </h3>
+      <p><a href="http://www.squid-cache.org/"><code>squid</code> is a web caching system</a>. Instead of browsing directly to a site, you point your browser at a squid cache, and the cache serves up cached copies of the data you are asking for. If squid has an out of date copy of the data it fetches a new one for you. The goal is to be a transparent cache, and to be nearly as fast as direct access when you don't have the data, and way faster when you do.</p>
+
+<p>I'm doing some automated data collection from the web using <code>curl</code>, and as a part of that I want to not be overly aggressive in harvesting details from a site if I already have a recent copy of the data that hasn't changed. Putting a cache in the way makes sense, since unlike most GUI based browsers that have their own caches, <code>curl</code> just fetches whatever it's asked for unquestioningly even if it just got the same thing seconds ago - unless you tell it to use a cache.</p>
+
+<p>The first appearance of squid dates to 1996, so it's old software by modern standards. It dates from the bad old days when the Internet was slow on long haul links but fast locally, and so it made all the sense in the world to optimize and economize. Even now there are lots of times and places where the net is slow enough that you're willing to introduce a little bit of complexity in exchange for a little bit of speed.</p>
+
+<p>I installed my copy of squid on my Mac using MacPorts, which seems to do a fine job. I had also tried to build a copy of squid using what looked like simple instructions on Docker using the configuration on <a href="https://github.com/michaljemala/docker-squid">@michaeljemala/docker-squid</a>, but for reasons as of yet unexplained I got the error message</p>
+
+<p><code>
+curl: (7) Failed to connect to localhost port 3128: Connection refused
+</code></p>
+
+<p>after setting that up and following package directions.  Still puzzling out whether that's a result of some Docker configuration oddness on 1.7.0, or something else. Anyway, the native version is working, so I'm good for now.</p>
 
 
   <h3>28 June 2015</h3>
@@ -13002,21 +13027,6 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 <p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c79ca086970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c79ca086970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-06-11 at 7.25.40 AM" title="Screen Shot 2015-06-11 at 7.25.40 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c79ca086970b-600wi" /></a><br /></p>
 
 <p>In my FOIA I neglected to ask for this transcription, not knowing that it might exist. I've filed a subsequent FOIA to figure out more, and plan to be at today's Building Board of Appeals meeting to share these findings.</p>
-
-
-  <h3>11 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-11-arrl-field-day-is-june-27-28-2015-arrlfd/">ARRL Field Day is June 27-28 2015</a>
-      </h3>
-      <p>Field Day is June 27 and June 28, 2015. In Ann Arbor the combined efforts of the ARROW and UMARC clubs will be at the Ann Arbor Airport. Come join in and get on the air.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c79c5939970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c79c5939970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-06-10 at 6.02.36 AM" title="Screen Shot 2015-06-10 at 6.02.36 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c79c5939970b-600wi" /></a><br /></p>
-
-<p>For more details:</p>
-
-<p><a href="http://www.arrl.org/field-day">Field Day</a> information from ARRL shows what the event is all about.</p>
-
-<p><a href="http://www.arrl.org/field-day-locator">Field Day Locator</a> will help you find one in your area.</p>
 
 
 
