@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-04-open-github-issues" class="list-group-item">Open Github issues and open source projects</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-open-city-hall" class="list-group-item">Open City Hall and government by survey</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-halloween-twitter-vs-facebook" class="list-group-item">Halloween Twitter vs Facebook</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-14-zenos-inbox" class="list-group-item">Zeno&#39;s Inbox</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-14-old-code-and-old-tools" class="list-group-item">Old code and old tools</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-14-writing-up-your-tweets" class="list-group-item">Writing up your tweets</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4118,6 +4120,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12132,6 +12136,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12438,6 +12444,27 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>30 December 2008</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/">stuck on a postcard / postful / curl problem</a>
+      </h3>
+      <p>FIXED, see the bottom.&#0160; 12/31</p><p>rather than give up in total frustration, here&#39;s what I am trying to implement, using &quot;curl&quot; to drive the system.&#0160; This is from the <a href="http://www.postful.com/developer/guide">&quot;postful&quot; API docs</a>.</p><h4 style="margin-left: 40px;">1. Upload the document.</h4>
+
+<p style="margin-left: 40px;">To uploading a document, submit a POST to:</p>
+
+<pre style="margin-left: 40px;">http://www.postful.com/service/upload</pre>
+
+<p style="margin-left: 40px;">Be sure to include the Content-Type and Content-Length headers and the document itself as the body of the request.</p>
+
+<pre style="margin-left: 40px;"><code>POST /upload HTTP/1.0<br />Content-Type: application/octet-stream<br />Content-Length: 301456<br /><br />... file content here ...<br /></code></pre>
+
+<p style="margin-left: 40px;">If the upload is successful, you will receive a response like the following:</p>
+
+<pre style="margin-left: 40px;"><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br />&lt;upload&gt;<br /> &lt;id&gt;290797321.waltershandy.2&lt;/id&gt;<br />&lt;/upload&gt;<br /></code></pre>
+
+<p style="margin-left: 40px;">What is critical in this response is the <strong>id</strong> assigned by the server to your document, in this example <strong>290797321.waltershandy.2</strong>. You will use that id to reference the document in the next step.</p><p>I think it should work with</p><p><span style="font-size: 12px; font-family: Courier;">curl -v --user edward.vielmeti@gmail.com:t0ps3kr3t&#0160; --data-binary &quot;upload=@m-28-shield.png&quot; http://postful.com/service/upload</span></p><p>but, it doesn&#39;t.&#0160; ideas?&#0160; mac os if it matters, the </p><p>% curl --version<br />curl 7.16.3 (powerpc-apple-darwin9.0) libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3<br />Protocols: tftp ftp telnet dict ldap http file https ftps <br />Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz&#0160;</p><p>update: typo fixed</p><p>update2: working now!&#0160; command line is</p><p style="font-family: Courier;">curl -k -v --user edward.vielmetti@gmail.com:s4x4s54&#0160; --data-binary &quot;@m-28-shield.png&quot;<a href="https://postful.com/service/upload" target="_blank"> https://postful.com/service/<wbr />upload</a></p><p style="font-family: Helvetica;">note three things: &quot;-k&quot; option; https, not http:; spell the user name right (duh).</p><p style="font-family: Helvetica;">next task: get the address side formatted right.</p>
 
 
   <h3>30 December 2008</h3>
@@ -12940,13 +12967,6 @@ it at <a href="http://next-action.net/">next-action.net</a>.&#0160;<a
 href="http://www.flickr.com/photos/jazzmasterson/sets/72157609130689807/">
 jazzmasterson&#39;s &quot;notes to self&quot; capture some of the
 same ideas.</a></p>
-
-
-  <h3>2 December 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-12-02-how-to-get-your-grocery-shopping-done-quickly-and-effectively/">How to get your grocery shopping done quickly and effectively</a>
-      </h3>
-      <p>I&#39;m doing the shopping these days - a farmer&#39;s market and food coop run on Saturdays, and a Whole Foods and Trader Joe&#39;s run on Sundays.&#0160; Usually I have one or the other of the boys with me, and often there&#39;s some amount of hurry to get the whole process done.</p><p>I&#39;m not used to doing grocery shopping, but going with the boys helps since they have been doing it all along.</p><p>Here&#39;s some ways I seem to manage to get through four shopping experiences a week even though I have famously low shopping tolerance.</p><p>0.&#0160; Work from a list, always.&#0160; Take inventory of your perishables before you buy more perishables; take inventory of your pantry before you refill the pantry.&#0160; We keep a list by the fridge so that when something gets used up that should stay in stock it gets added to for the next round.</p><p>1.&#0160; Shop at farmer&#39;s market first.&#0160; You don&#39;t know what will be a super deal, and what will be in season, and what oddly shaped root vegetable will catch your eye with a farmer who will tell you how to cook it.&#0160; So do that part of the week&#39;s shopping first, and work around it as you do your menu plan.&#0160; </p><p>2.&#0160; Always take the same route through the farmer&#39;s market.&#0160; Mostly the farmers are in the same stalls week after week, or if they move one week they will stay put the next.&#0160; I know where to get onions, garlic, eggs, apples, greens, and herbs, and which places I need to check out but not buy at right away because someone might have a better deal.</p><p>3.&#0160; Do a weekly menu plan, synchronized around your shopping week.&#0160; In our case the farmer&#39;s market is on Saturday and the menu plan gets made on Sunday morning while we eat pancakes, and so we have a good idea of what produce we&#39;re working with and enough time to get all of the supplemental produce and pantry staples on a Sunday shopping to make a week&#39;s worth of meal plans.</p><p>4.&#0160;&#0160; Make a list of menu suggestions.&#0160; Keep track of meals that you&#39;ve made and liked, and don&#39;t be afraid to repeat yourself at appropriate intervals or in appropriate seasons.&#0160; When it comes time to plan a week&#39;s meals, you don&#39;t want to start with a blank piece of paper; I find that the two weeks ago menu generally has one or two good ideas for this week for things you aren&#39;t sick of.</p><p>5.&#0160;&#0160; Always take the same route through the store, and organize your shopping list according to the store layout.&#0160; That means for our Whole Foods that the order goes vegetables, bulk foods, canned goods, cheese, bread, while at Trader Joes the order is bread, cheese, yogurt, frozen veg, canned goods, snacks.&#0160; You should be able to walk through the store without backtracking to pick up everything you need.</p><p>6.&#0160; Put away your food in the same place every time.&#0160; This might sound silly, but if you keep the beans on the left and the tomatoes on the right always then you can always inventory your tomatoes and know how much you need to buy.&#0160; Randomness is not your friend in the pantry.</p><p>7.&#0160; Get home delivery of as many heavy things as you can.&#0160; We get enough milk to feed two growing boys delivered weekly, and that cuts 25 pounds of weight off the grocery cart.</p><p>A few notes.&#0160; It&#39;s easier to do this if you get most of this process from someone who used to do it all the time and got good at it, even with little kids in tow; left to my own devices I&#39;m much more random.&#0160; Two good mottos to follow are &quot;every meal accounted for&quot; and &quot;no backtracking&quot;.&#0160; The only flaw in my design is the no alcohol before Sunday noon Michigan law, which makes buying beer and wine an exception rather than a regular easy to follow process.&#0160;&#0160; It&#39;s easier to do this if you&#39;re vegetarian and have a big recipe list built up over the years and enough spices in your spice cabinet to get variety from variations on a theme.&#0160; And I still don&#39;t have a middle eastern or Korean grocery in my regular routine, which by rights should happen about 1x/mo each.</p>
 
 
 
