@@ -6,8 +6,63 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2015 13:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2015 11:30:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Minutes and agendas</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-06-minutes-and-agendas/</link>
+      <pubDate>Fri, 06 Nov 2015 11:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-06-minutes-and-agendas/</guid>
+      <description>&lt;p&gt;The City of Ann Arbor planned 49 public meetings last month; 5 of them
+were cancelled. Of the remaining 44, 25 have meeting details posted to
+the city&amp;rsquo;s Legistar calendar, and 19 have no record of the meeting
+beyond its date.&lt;/p&gt;
+
+&lt;p&gt;City boards and commissions and committees that routinely meet without publishing
+minutes or agendas to Legistar include the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cable Communications Commission&lt;/li&gt;
+&lt;li&gt;Commission on Disability Issues&lt;/li&gt;
+&lt;li&gt;Council Administration Committee&lt;/li&gt;
+&lt;li&gt;Council Rules Committee&lt;/li&gt;
+&lt;li&gt;Downtown Area Citizens Advisory Council&lt;/li&gt;
+&lt;li&gt;Downtown Development Authority&lt;/li&gt;
+&lt;li&gt;Elizabeth Dean Fund Committee&lt;/li&gt;
+&lt;li&gt;Human Rights Commission&lt;/li&gt;
+&lt;li&gt;Park Advisory Commission Dog Park Subcommittee&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of these, the Downtown Area Citizens Advisory Council and the Downtown Development
+Authority post minutes to the DDA&amp;rsquo;s web site. The remainder have no obvious
+record or trail of their activities, decision making, or agendas.&lt;/p&gt;
+
+&lt;p&gt;The omission of minutes from two of these boards is particularly
+distressing. The Human Rights Commission labors in obscurity, not
+reporting out any of its meetings to the public, even as it is a
+focal point for the response to the shooting of Aura Rosser last year.
+And the Commission on Disability Issues doesn&amp;rsquo;t manage to produce
+a record that is accessible by people whose preferred medium is written.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been through the long, slow, drawn out ritual of asking the city
+for minutes of meetings before. In 2010, I sent in a series of FOIA
+requests that prompted the city&amp;rsquo;s Historic District Commission to produce
+meeting minutes from that year, after being originally told that those
+minutes did not exist. The city rectified that problem eventually, and
+now those minutes routinely show up on time.&lt;/p&gt;
+
+&lt;p&gt;Agendas of city meetings are key to understanding when you might
+want to lift yourself up from your easy chair and get downtown to
+weigh in on decision making at the city level. Minutes are important
+as a record of what actually happened. Groups like the Human Rights
+Commission, which is actively looking to advance its agenda, should
+be working harder to make sure that the people can see what they are
+up to. Otherwise you hold a meeting and spend time away from your
+kids and there&amp;rsquo;s no record of it - why did you bother?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Open Github issues and open source projects</title>
@@ -48,6 +103,10 @@ warning flags - how did it get to be so big? What sorts of issues
 can stick around for years and not get resolved? How on earth does
 one profess to have any overall understanding of a system that
 complex, short of devoting themselves to it?&lt;/p&gt;
+
+&lt;p&gt;Related:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.abevoelker.com/why-i-dont-use-docker-much-anymore/&#34;&gt;Why I don&amp;rsquo;t use Docker much anymore&lt;/a&gt;, Abe Voelker.&lt;/p&gt;
 </description>
     </item>
     
@@ -811,46 +870,6 @@ is &lt;code&gt;git rebase -i&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;David Walsh: &lt;a href=&#34;http://davidwalsh.name/squash-commits-git&#34;&gt;Squash commits with Git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Pro Git,  Scott Chacon and Ben Straub: &lt;a href=&#34;http://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History&#34;&gt;Git Tools - Rewriting History&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Snap CI</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-22-snap-ci/</link>
-      <pubDate>Tue, 22 Sep 2015 07:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-22-snap-ci/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://snap-ci.com&#34;&gt;Snap CI&lt;/a&gt; is a cloud-based continuous integration system. Like
-Travis CI, which I have written about &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/&#34;&gt;here&lt;/a&gt;,
-it lives in the cloud, lets you run programs triggered by GitHub commits, and
-offers a testing environment for free for open source projects which lets you
-familiarize yourself with the system before deciding to pay for it for your
-non-open-source efforts.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m looking at all of these tools now because this weblog is now managed through
-a process that involves checking things into Github, which makes it completely
-suitable for automation for common tasks every time I save a file. (Spell checking,
-link checking, really any kind of quality control you can imagine reducing to
-a tiny shell script.)&lt;/p&gt;
-
-&lt;p&gt;Like Travis CI, Snap CI lets you automate the build process. Where it diverges
-(and where it&amp;rsquo;s interesting) is that the build process is only the first part of
-a multi-stage pipeline that includes deployment at the end of the task only when
-a set of human decisions have been made as to whether the thing you made is ready
-to be shared.&lt;/p&gt;
-
-&lt;p&gt;This &lt;a href=&#34;https://blog.snap-ci.com/blog/2014/07/22/why-snapci-and-travisci-are-not-same-thing/&#34;&gt;Snap CI blog post&lt;/a&gt;
-on why Travis CI and Snap CI are not the same thing is from Snap CI and it&amp;rsquo;s a useful
-overview.&lt;/p&gt;
-
-&lt;p&gt;The downside of multi-stage pipelines for deployment is that they are very hard to
-automate correctly, and very hard to demonstrate correct behavior with open source
-projects that generally struggle to have any automated test facilities at all. So
-while Travis CI is a very good fit for open source components (and has attracted a
-whole sub-industry of writing &lt;code&gt;.travis.yml&lt;/code&gt; files to support those), it really doesn&amp;rsquo;t
-have the whole &amp;ldquo;continuous deployment&amp;rdquo; pattern sorted out. And while Snap CI looks
-like it would be great for saying &amp;ldquo;once we&amp;rsquo;re happy with this, push it out to the world&amp;rdquo;,
-that setup is not easy to pick up simply by inspecting other projects that have done it.&lt;/p&gt;
 </description>
     </item>
     
