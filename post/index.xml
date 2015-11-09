@@ -6,8 +6,52 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2015 11:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2015 12:00:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>When the FOIA request costs too much, ask for less</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-09-foia-ask-for-less/</link>
+      <pubDate>Mon, 09 Nov 2015 12:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-09-foia-ask-for-less/</guid>
+      <description>&lt;p&gt;I asked for some documents from Washtenaw County, and they estimated that
+it would cost over $6100 to produce the records. Apparently the nature of
+the request was such that they would have had to review 1200 separate
+files each individually on paper to determine a response. I didn&amp;rsquo;t have
+a $6100 line item in my budget to pay for it, so the best charitable
+response is &amp;ldquo;no thanks&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;There is a question that I want to get at, though, and I think it&amp;rsquo;s attainable
+for less than $6100. How frequently does a restaurant owner appeal or
+protest the results of an inspection, and what sorts of things do they
+complain about? To get some idea of what&amp;rsquo;s going on I don&amp;rsquo;t need two years
+of inspection disputes; 30 days would do.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know how frequent these appeals are, whether there&amp;rsquo;s a form that
+gets filled out of if it&amp;rsquo;s done by phone or email, and what the results
+are. I do know that Washtenaw County routinely delays publication of routine
+inspections by 30 days or more to allow time for appeals.&lt;/p&gt;
+
+&lt;p&gt;Why the bother? Well, when a restaurant gets an awful inspection, it&amp;rsquo;s in
+the public interest to publicize that promptly rather than wait weeks for
+resolution. We saw this in Philadelphia, in this
+&lt;a href=&#34;http://mobile.philly.com/beta?wss=/philly/health/special_reports/clean-plates&amp;amp;id=339602512&#34;&gt;philly.com story&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The city Health Department, which has had a long-standing policy of keeping restaurant inspection reports secret for 30 days, announced Monday that it will move to publicly post the reports &amp;ldquo;as quickly as possible.&amp;rdquo; &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The 30-day delay meant that diners could unknowingly patronize restaurants cited for serious hygiene problems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;m hopeful that 30 days worth of county records will be enough to discern
+a pattern. Do restaurant owners routinely challenge the results of inspections?
+Does the county modify their reports based on these challenges? Without
+knowing anything about how the process goes, the inclination I have is to
+want to have the same changes that were recently put in place in Philadelphia:
+prompt publication of serious hygeine problems is a benefit to public health.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Minutes and agendas</title>
@@ -812,64 +856,6 @@ a practice of re-labeling datemarked foods to extend their shelf life.
 &amp;ldquo;EMPLOYEE STATED THAT IT IS COMMON PRACTICE FOR KITCHEN STAFF TO SMELL OR TASTE FOOD PRODUCTS WHEN THEY ARE ON THEIR LAST DAY OF SALE AND RE-DATE FOOD FOR ANOTHER 5 DAYS IF THEY THINK THE FOOD IS STILL GOOD. THIS PRACTICE MUST BE CEASED IMMEDIATELY.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Check the whole list and see how your favorites did.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to squash a commit in git</title>
-      <link>http://vielmetti.github.io/post/2015/2015-09-22-git-squash/</link>
-      <pubDate>Tue, 22 Sep 2015 07:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-09-22-git-squash/</guid>
-      <description>
-
-&lt;p&gt;If you are working on a project in Github, your work isn&amp;rsquo;t always linear.
-Sometimes the change you make doesn&amp;rsquo;t work completely, so you back a little
-bit of it out and move forward on a next part. It may take some hacking and
-sawing (and testing of course) to get a change that just works right.&lt;/p&gt;
-
-&lt;p&gt;Projects like to have contributions, but project maintainers don&amp;rsquo;t like
-to insert noise into their efforts. The ideal commit to a project is
-completely clean: one single commit that incorporates all of the changes
-that you want to do, without any of the intervening cruft.&lt;/p&gt;
-
-&lt;p&gt;Thanks to Alan Gutierrez for the help here.&lt;/p&gt;
-
-&lt;p&gt;In the lingo, this is known as &amp;ldquo;squashing a commit&amp;rdquo;. It turns
-&lt;code&gt;A-&amp;gt;B-&amp;gt;C-&amp;gt;D-&amp;gt;X-&amp;gt;Y-&amp;gt;Z&lt;/code&gt; into &lt;code&gt;A-&amp;gt;Z&lt;/code&gt;. Here&amp;rsquo;s how you do it.&lt;/p&gt;
-
-&lt;p&gt;First, set up your environment before you start to work. Create a branch
-to put your changes in and work within that branch. You can do all of that
-from within Github, or from the command line as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;% git checkout -b try/branch
-Switched to a new branch &#39;try/branch&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;When you&amp;rsquo;re ready to merge, create a pull request for that branch.
-That will gather together all of the changes you have made and drop
-them onto a single page for inspection. Look at the first change that
-you made in that sequence, and find the parent node for your first
-change; we&amp;rsquo;ll rebase off of that parent. This was the crucial bit
-that I was unable to figure out from the documentation.&lt;/p&gt;
-
-&lt;p&gt;Squash all of those commits for the branch
-into a single commit. There is no &lt;code&gt;git squash&lt;/code&gt; command, alas; but there
-is &lt;code&gt;git rebase -i&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;% git rebase -i &amp;lt;after-this-commit&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Next, apply this single squashed commit to your master branch.&lt;/p&gt;
-
-&lt;h3 id=&#34;further-reading:d402ad0362f9cb748dc3191a35343d42&#34;&gt;Further reading:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From Git Ready: &lt;a href=&#34;http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html&#34;&gt;Squashing commits with rebase&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Makandra Cards: &lt;a href=&#34;http://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit&#34;&gt;Squash several Git commits into a single commit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;David Walsh: &lt;a href=&#34;http://davidwalsh.name/squash-commits-git&#34;&gt;Squash commits with Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pro Git,  Scott Chacon and Ben Straub: &lt;a href=&#34;http://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History&#34;&gt;Git Tools - Rewriting History&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
