@@ -6,8 +6,33 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2015 13:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2015 15:30:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ann Arbor&#39;s The Melting Pot is closing</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-16-melting-pot-closing/</link>
+      <pubDate>Mon, 16 Nov 2015 15:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-16-melting-pot-closing/</guid>
+      <description>&lt;p&gt;The Melting Pot in downtown Ann Arbor is closing as of today, November 16, 2015,
+according to a post on the restaurant&amp;rsquo;s web site and a story in MLive.&lt;/p&gt;
+
+&lt;p&gt;The last regular inspection of The Melting Pot by the Washtenaw County Health
+Department was on May 26, 2015. It turned up 11 violations, and some of them
+would be the sort of problems that would make you not want to go back.
+A &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-05-26-melting-pot&#34;&gt;copy of the inspection report&lt;/a&gt; makes for tough reading.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Observed the following: 1. Blackberries with mold like growth. 2. Mascapone: 2 - &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;27&lt;/sub&gt;. 12 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;. - Past date. 3. 3 butter milks &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;. - Past date. 4. Prosciutto 10/13/2014.- Past date. 5. Two half &amp;amp; half &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;.- Past date. 6. Two whole milks &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt;, &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;.- Past date. 7. Bush mills whiskey had fly&amp;rsquo;s floating around in bottle. 8. Dewars white label scotch had fly&amp;rsquo;s floating around in bottle. 9. Cutty Sark Whisky had fly&amp;rsquo;s floating around in bottle. FOOD shall be safe, unADULTERATED, and, as specified under # 3-601.12, honestly presented. (P) To correct discard all noted items into the garbage. Corrected: Person in charge discarded all noted items into the garbage.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The restaurant should be inspected every 6 months, which means that their
+routine inspection should be in November 2015. I&amp;rsquo;ve sent a query to the
+county health deparment to determine if the restaurant was inspected yet
+this month, and if so what the results were.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>FOIA update for tonight&#39;s City Council meeting</title>
@@ -569,259 +594,6 @@ say it in the same place and connect it somehow with all other things they
 had said on the same topic. Can you blame people at all for picking up other
 new systems and trying them out? The blank canvas can be a lot more appealing
 than the infinite scroll when you want to try something new.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Over the top networks</title>
-      <link>http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks/</link>
-      <pubDate>Wed, 21 Oct 2015 13:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m giving a talk on Over The Top Networks at the Radical/Networks
-conference in Brooklyn this weekend, October 24-25 2015.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t know exactly what I&amp;rsquo;m going to say in what order yet, but&amp;hellip;
-the best way to predict that is to write down some notes. So here we go.&lt;/p&gt;
-
-&lt;p&gt;The premise, briefly stated, is that most successful networks run
-&amp;ldquo;over the top&amp;rdquo; of existing working networks, and that you can learn
-a lot from what goes wrong along the way when the underlying network
-fights back.&lt;/p&gt;
-
-&lt;p&gt;Lots of examples, here&amp;rsquo;s just some of them.&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-
-&lt;p&gt;APRS is a worldwide location sharing system that runs over amateur packet
-radio. It runs &amp;ldquo;over the top&amp;rdquo; of VHF radios, and sends out location
-information for participating nodes to digital repeaters (&amp;ldquo;digipeaters&amp;rdquo;) that
-relay the signal to others in the participating mesh. It&amp;rsquo;s designed
-initially to be completely free of external infrastructure dependencies,
-except for some good source of location information provided by GPS.&lt;/p&gt;
-
-&lt;p&gt;This network worked fine at first, but as it got more popular, the network
-got more congested. A single transmission from a moving vehicle would trigger
-two or three rounds of repeaters resending the message, and in places
-where the network was dense with stations there would be collisions on
-the single radio channel. To compensate, some stations would set their
-initial broadcast to repeat four or five times, increasing their own
-chance of getting heard at the expense of more congestion network-wide.&lt;/p&gt;
-
-&lt;p&gt;The solution ended up being fairly simple, once the Internet got to be
-reliable enough. An internet gateway (&amp;ldquo;I-Gate&amp;rdquo;) was set up to capture
-location information shared by radios, so that instead of transmitting this
-data via collision-prone VHF radios, it went over the Internet. A much
-small number of internet-enabled gateways were able to handle the load,
-and it allowed stations that only had Internet connections to participate
-in the network by sending their location reports directly to the I-Gate.&lt;/p&gt;
-
-&lt;p&gt;There are all sorts of radio lessons to be learned from the saga of APRS.
-Stations sharing a single low-speed narrow band radio channel have to
-work extra hard not to collide with each other, and the &amp;ldquo;hidden terminal&amp;rdquo;
-problem (where a station interferes with another station that it can&amp;rsquo;t hear,
-but that can hear it) ensures that network density leads to more problems.&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-
-&lt;p&gt;Usenet News started in 1979 in North Carolina, connecting computers in
-the Research Triangle between Duke and the University of North Carolina.
-It grew rapidly in the 1980s, taking advantage of whatever networks
-were available to it. The relatively simple Unix-to-Unix Copy approach
-to networking meant that virtually any data network that could be coaxed
-into sending a data stream unmodified over a circuit could be put to use.&lt;/p&gt;
-
-&lt;p&gt;Usenet ran over the top of dialup phone lines in its early times,
-and this posed a problem: long distance calls cost money. Several
-methods were used to great effect to get away from this financial
-limitation on network growth.&lt;/p&gt;
-
-&lt;p&gt;One very simple way to bypass telephone bills is to have the telephone
-company call you. Researchers at Bell Labs, the home of Unix, had a great
-interest in seeing the network succeed, and thus they routinely set up
-their systems to make large numbers of outbound telephone calls to poll
-remote stations for mail and news. The costs of toll long distance
-telephone service were hidden inside the phone company&amp;rsquo;s own phone bills,
-as well as the phone bills of several other large computer companies
-where agile systems staff were able to avoid the attention of bean
-counters (who would probably not have approved of spending corporate
-dollars to retransmit rec.pets.cats).&lt;/p&gt;
-
-&lt;p&gt;A parallel approach was to reuse dialup networks originally designed
-for terminals to connect to mainframe computers and repurpose them for
-machine-to-machine use. In Michigan, the statewide MERIT computer network
-was designed to connect research and education computing across the state.
-Clever systems programmers (including yours truly) realized that it could
-be also used to support slow but functional UUCP connections, and that
-those links would not incur any per-hour or per-kilobyte charges. Thus
-a bulletin board system in Michigan&amp;rsquo;s remote Upper Peninsula could get
-free worldwide email and Usenet news feeds by befriending the right people
-in Ann Arbor and adapting the particular arcane configuration.&lt;/p&gt;
-
-&lt;p&gt;As Usenet grew, the demand for bandwidth started to outstrip the
-capacity of dialup telephone circuits. This led to efforts to use and
-reuse the new source of &amp;ldquo;free&amp;rdquo; long-distance data services, namely the
-evolving Internet of its day. By the time the National Science Foundation
-had christened its super-fast, 1.5 megabit per second network, Usenet
-News admins were ready with the NNTP protocol which could take best
-advantage of the new network.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s estimated that over the 10 year lifespan of the NSFnet that public
-sources contributed over $2 billion to the network - $200 million direct
-from the NSF, and the rest from a variety of state sources. By 1995,
-Usenet News was consuming about 8% of the bandwidth provided by the network.
-If that&amp;rsquo;s a plausible overall measure of the relative cost of that traffic,
-that means that Usenet News could have had as much as a $160 million subsidy
-over 10 years to grow and expand on the public dime. A good system to
-build on top of!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;One of the challenges of building a successful network is that at
-some point you look like a system that can be exploited for other
-people&amp;rsquo;s use, just in the same way that your system exploited some
-aspect of the surrounding environment to get its toehold into the
-world. Two moments in the early 1990s development of Usenet show
-signs of what would be its demise as a discussion forum dominiated
-by researchers and graduate students.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Up until September 1993, the ebb and flow of Usenet as a discussion
-medium was pretty predictable. A network dominated by graduate students,
-Usenet typically got a lot of new users in September, who floundered
-around until they either dropped off the net or sorted out how to use
-it effectively. A year later another September would roll around, and
-last year&amp;rsquo;s new users were now this year&amp;rsquo;s seasoned veterans, showing
-the newbies around or harrassing them or both.&lt;/p&gt;
-
-&lt;p&gt;September 1993 changed all of that because America Online, the biggest
-online service at the time, decided to add Usenet access to its millions
-of commercial customers. Not surprisingly, these new users were different
-from the ones that came before them - they were more often that not
-far removed from the academic and research and hobbyist networks that
-had come before them on Usenet. A culture clash ensued, and in some
-ways Usenet never recovered.&lt;/p&gt;
-
-&lt;p&gt;AOL&amp;rsquo;s embrace of Usenet is a classic &amp;ldquo;over the top&amp;rdquo; maneuver. AOL did
-not have to hire any new moderation staff, run transcontinental networks, or
-invent any new protocols to join in this existing network. Instead, they
-could gather all of the benefits of providing their user base with access
-to new services at a very small marginal cost.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Taking advantage of Usenet is also the theme of advertising networks
-that took heed of Usenet&amp;rsquo;s worldwide low cost distribution system to
-plant their own unsolicited commercial messages.&lt;/p&gt;
-
-&lt;p&gt;Usenet had always been somewhat commercialized, ever since the first
-person posted an ad for a dinette set for sale in New Jersey. Employment
-advertising was tolerated or even welcomed, and regional &amp;ldquo;forsale&amp;rdquo;
-groups prefigured Craigslist in many ways. But there was a social contract
-that kept cooperating systems away from wholesale advertising. Sending
-articles around the world costs money, and if the powers that be
-knew that you were sending ads around on their dime they&amp;rsquo;d kick you
-(or us) off the net.&lt;/p&gt;
-
-&lt;p&gt;By 1994, though, the social contract had weakened a bit. Commericial
-internet service providers were selling dialup Usenet accounts, and
-AOL was offering rec.pets.cats to the masses. How natural would it be
-for someone to observe that they could get huge numbers of ad impressions
-for little or no money to a receptive audience?&lt;/p&gt;
-
-&lt;p&gt;Enter the &amp;ldquo;Green Card Lawyers&amp;rdquo;, Canter and Siegel.
-With the help of a programmer they designed an ad campaign that would
-promote their immigrant legal aid to over 5500 separate newsgroups at
-once. This burst of traffic - a separate ad for each and every Usenet
-newsgroup they could find - was so substantial that they managed to
-take some parts of the network offline (New Zealand, in particular,
-which had some of the highest costs of importing Usenet anywhere, disconnected
-temporarily rather than transmit the onslaught).&lt;/p&gt;
-
-&lt;p&gt;Sadly, the Usenet community response to the Green Card Lawyers and
-their ilk was a sign that the community infrastructure of Usenet
-was going to have to adapt to a world where some members of the network
-were hostile and were going to try to subvert the cooperative enterprise
-with advertising. Unsolicited ads all sorts of things followed -
-sketchy pharmaceutical advertisements promoting male enhancement drugs
-were perhaps the most typical. The Usenet architecture started to crumble,
-as people looking to escape the noise fled to private email lists,
-and as institutions supporting the net looked twice at their costs and
-decided it might not be worth it.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I keep coming back to Usenet because it&amp;rsquo;s so fascinating, and I spent
-so much time there, and surprisingly enough it&amp;rsquo;s still going. What can
-over the top networks learn from its surprising longevity, even though
-several generations of technologists have given up on it?&lt;/p&gt;
-
-&lt;p&gt;Usenet is the prototypical mesh network. Individual nodes in the network
-connect to each other, without needing any central authority to bless them.
-They connect using whatever technology they agree to, without needing
-to adhere to any central standard except for the format of news articles.
-The network works with a &amp;ldquo;flooding&amp;rdquo; protocol that distributes texts to
-all parts of the network that are connected that want to receive them,
-and aspects of the flooding algorithm ensure efficiency and that no
-one gets an article sent to them twice. For a 1979 design, it&amp;rsquo;s held up well.&lt;/p&gt;
-
-&lt;p&gt;What has changed irrevocably from the original is the content on the network.
-Once upon a time, in the days before widespread use of the Internet, it
-served as an amalgam of what emerged as all sorts of independent commercial
-services. Modern day Github is an echo of the old comp.sources.* hierarchy,
-delivering source code and patches and enhancements to your door. Quora
-and Stack Overlow try to replicated the comp.* newsgroups, and
-Reddit handles most of rec.*. Many if not most of the original newsgroups
-are dead, overrun by spam.&lt;/p&gt;
-
-&lt;p&gt;What lives on is the alt.* newsgroups, in particular alt.binaries.*. These
-were never welcomed by the old guard who remembered how expensive it
-was to transmit anything over a modem, but now over 30 years later
-the cost of the network is so low.&lt;/p&gt;
-
-&lt;p&gt;The modern Usenet ends up being a vast expanse of digitized video,
-and a host of specialized newsreaders designed to quickly scoop
-down the movie or TV show that you want to watch. The distribution
-and flooding algorithms are perfect for this task, and copyright
-owners have to work extra hard because even taking down one copyrighted
-work from one part of the network doesn&amp;rsquo;t prevent you from pulling it
-from some other area.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I want to fast forward a bit from the 1990s to the modern day, to
-illustrate that all sorts of contemporary networks have bootstrapped
-their way to success on top of other, older infrastructure.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The first common pattern I&amp;rsquo;ll call &amp;ldquo;identity proxy&amp;rdquo;. The idea here is
-that you can take advantage of an existing organization&amp;rsquo;s identification
-process, without ever having to know someone&amp;rsquo;s login and password.
-By extending privileges to anyone who can prove that they are a
-member of some other organization, you can scoop up valuable early
-users.&lt;/p&gt;
-
-&lt;p&gt;Facebook is one excellent example of this, especialy in its early days.
-How do you restrict access to your brand new social network so that only
-the social elites can participate? Simple, the onboarding process for
-your new network runs over the top of the email system of the network
-you want to attract from. Anyone who wants an account has to prove
-that they can get an email from a harvard.edu address. Voila, you have
-just run your login system over the top of a very expensive and valuable
-college admissions process, at minimal cost to yourself.&lt;/p&gt;
-
-&lt;p&gt;Slack runs the same strategy when trying to recruit companies to use its
-product. You can configure a Slack instance so that anyone who has an
-email address in a particular domain is automatically approved. This gives
-Slack leverage to gather employees for its &amp;ldquo;free&amp;rdquo; service and insight
-to get those people into its paid service.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Identity proxy&amp;rdquo; is a powerful pattern. If you find the right trove
-of people who have a desirable email address, you can scoop them up
-into your system and exclude others who don&amp;rsquo;t have the right qualifying
-talisman.&lt;/p&gt;
 </description>
     </item>
     
