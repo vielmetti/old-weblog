@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-every-day-people" class="list-group-item">Every day people</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-09-foia-ask-for-less" class="list-group-item">When the FOIA request costs too much, ask for less</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-06-minutes-and-agendas" class="list-group-item">Minutes and agendas</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am" class="list-group-item">AWS DynamoDB downtime, Sunday am, September 20, 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci" class="list-group-item">Into the matrix with Travis CI</a></li>
-         
-	<li><a href="http://vielmetti.github.io/sidebar/todo" class="list-group-item">todo</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4124,6 +4126,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12150,6 +12154,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12456,6 +12462,29 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>17 August 2012</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2012/2012-08-17-twitter-api-changes-cause-obvious-problems-for-developers/">Twitter API changes cause obvious problems for developers</a>
+      </h3>
+      <p>My Twitter feed is full of worry about the changes to the Twitter API. (Yes, that probably means I should unfollow a few people so that it gets back to the baseline of &quot;I&#39;m eating a sandwich&quot;.) Here&#39;s some of the notable problems that people see with the new rules, which are going into effect over the next 6 months.</p>
+<p>From Marco Arment, creator of Instapaper, &quot;<a href="http://www.marco.org/2012/08/16/twitter-api-changes" target="_self">Interpreting some of Twitter&#39;s API changes</a>&quot; is a good overview of the challenges for a developer to comply with new rules while still innovating on their core application. His conclusion is stark:</p>
+<blockquote>
+<p>Twitter has left themselves a lot of wiggle-room with the rules. Effectively, Twitter can decide your app is breaking a (potentially vague) rule at any time, or they can add a new rule that your app inadvertently breaks, and revoke your API access at any time. [...]</p>
+<p>I sure as hell wouldn’t build a business on Twitter, and I don’t think I’ll even build any nontrivial&#0160;<em>features</em>&#0160;on it anymore.</p>
+<p>And if I were in the Twitter-client business, I’d start working on another product.</p>
+</blockquote>
+<p>The new <a href="http://app.net" target="_self">App.net</a> has grand designs to be a Twitter clone, based on three elements: a solid realtime engine for data, a well defined open API, and a subscription supported model (rather than an advertising supported model) for making the whole thing pay. Dalton Caldwell&#39;s manifesto is a worthwhile read, &quot;<a href="http://daltoncaldwell.com/an-audacious-proposal" target="_self">Announcing an audacious proposal</a>&quot;</p>
+<blockquote>
+<p>I believe so deeply in the importance of having a financially sustainable realtime feed API &amp; service that I am going to refocus App.net to become&#0160;<strong>exactly that</strong>. I have the experience, vision, infrastructure and team to do it. Additionally, we already have much of this built: a polished native iOS app, a robust technical infrastructure currently capable of handing ~200MM API calls per day with no code changes, and a developer-facing API provisioning, documentation and analytics system. This isn’t vaporware.</p>
+</blockquote>
+<p>Not surprisingly, the <a href="https://alpha.app.net/global/" target="_self">alpha.app.net channel</a>&#0160;is full of want to be superstar application developers figuring out how their new idea could work in this new space.</p>
+<p>There are two applications that I use that could be affected by this set of changes. One is Pinboard, which is a bookmarking tool that (among other things) reads and archives my Twitter stream. Pinboard&#39;s developer Maciej Ceglowski has a very funny, no holds barred <a href="https://twitter.com/Pinboard" target="_self">Twitter account for Pinboard</a>, where he among other things promotes his own service by retweeting posts from the accounts of his competitor Delicious. Here&#39;s his take on app.net:<a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01676952ae15970b-pi"><img alt="Picture 7" class="asset  asset-image at-xid-6a00d8341c4f1a53ef01676952ae15970b" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01676952ae15970b-600wi" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" title="Picture 7" /></a></p>
+<p>I&#39;d be sad if my Twitter backups didn&#39;t work.</p>
+<p>The unusual Twitter client that I use which is most likely to run up against the new look-and-feel guidelines of the Twitter API is <a href="http://www.floodgap.com/software/ttytter/" target="_self">ttytter</a>, a command line client written in Perl by Cameron Kaiser. It looks nothing like the official Twitter apps of any kind.</p>
+<p><a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01761747085d970c-pi"><img alt="Picture 8" class="asset  asset-image at-xid-6a00d8341c4f1a53ef01761747085d970c" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01761747085d970c-600wi" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" title="Picture 8" /></a><br />It&#39;s hard enough to insist on API and look-and-feel rules with applications that are user configurable; imagine what it must be like to enforce those rules when the application is delivered as relatively easy to modify source code. How can you make sure people don&#39;t break the rules if they can change their own code?</p>
+<p>Twitter has some reasonable reasons to want to narrow the scope of what third parties can do with their service, but it&#39;s not going to come without a fight. Expect a tug of war between innovation and conformity, and it&#39;s safe to say that some of that innovation that comes at a high cost and low value to Twitter will be squashed out. I&#39;ll be particularly interested in the delicate balance between value provided by Twitter to advertisers (who pay directly) and social media marketers (who often ride for free) on the service.</p>
 
 
   <h3>14 August 2012</h3>
@@ -12841,16 +12870,6 @@ Though well No. 6 is more than 2 miles northwest of the pipeline rupture, pumpin
 <p>As of this writing there are about 60 employers listed, though not all of them have open positions at this time.</p>
 <p>There&#39;s a wide variety of online job postings systems being used by employers, ranging from the simple web page listing one or two positions to the unimaginably complex setup when an HR organization has hundreds of positions to fill worldwide.</p>
 <p>Quite a few positions are filled without going through online job boards, of course - but it never hurts to see what&#39;s posted and available.</p>
-
-
-  <h3>24 June 2012</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2012/2012-06-24-how-to-win-at-bejeweled-two-mutually-exclusive-strategies/">How to win at Bejeweled, two mutually exclusive strategies</a>
-      </h3>
-      <p>1. Read and study <a href="http://alexx-kay.livejournal.com/131629.html" target="_self">How to win at Bejeweled</a>, a LiveJournal thread which goes over a set of strategies and tactics. In brief: avoid losing, work from the top down, avoid things that blow up, and build hypercubes.</p>
-<p>2. Learn from that scene in War Games. "The only way to win is not to play."</p>
-<p>&nbsp;</p>
-<p><iframe width="600" src="http://www.youtube.com/embed/NHWjlCaIrQo" height="450" frameborder="0"></iframe></p>
 
 
 
