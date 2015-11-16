@@ -6,8 +6,50 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2015 12:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2015 13:30:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FOIA update for tonight&#39;s City Council meeting</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-16-foia-update/</link>
+      <pubDate>Mon, 16 Nov 2015 13:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-16-foia-update/</guid>
+      <description>&lt;p&gt;It seems that my pattern of going to public meetings includes writing FOIA
+requests during the meeting, to try to unearth some details of a matter observed
+at that meeting. Here&amp;rsquo;s a brief update on some FOIA requests in progress.&lt;/p&gt;
+
+&lt;p&gt;Washtenaw County Health Department. I&amp;rsquo;m temporarily stymied in my quest to
+determine how often restaurants ask the county to change their inspection reports
+before they are published. An initial request came back with an estimate of $6000
+to comb through every file in the department; an amended request looking for only
+30 days of records only limited the cost to $1000. The issue at hand is that the
+county routinely delays publication of inspections by a month (or more), making it
+likely that restaurants with really bad inspections can put the public at risk
+for days before anyone is notified.&lt;/p&gt;
+
+&lt;p&gt;Ann Arbor Downtown Development Authority. I asked for details on a FOIA fee appeal
+that was on the agenda for the November 4, 2015 meeting. This came back on November 12.
+Dave Askins requested a set of documents from the DDA and was presented with an
+estimate for the cost of those records; he chose not to pay that amount, preferring
+instead to appeal the decision on fees to the board. The draft minutes of the
+November 4, 2015 meeting are not yet available.&lt;/p&gt;
+
+&lt;p&gt;City of Ann Arbor, Executive Committee of the City Planning Commission. I requested
+meeting minutes and agendas for this board and the names of the members of this board.
+My request of November 2, 2015 was responded to with a delay to November 24, 2015.
+The Open Meetings Act requires that draft minutes be available within 8 days of
+a meeting, so I&amp;rsquo;ll be appealing this delay.&lt;/p&gt;
+
+&lt;p&gt;City of Ann Arbor, Advisory Development Committee. This committee has meetings that
+are open to the public regarding development matters, but the meetings themselves
+are not advertised through the usual channels of publication for meetings. I&amp;rsquo;ve asked
+for records of this group and was given a similar 15 business day delay.&lt;/p&gt;
+
+&lt;p&gt;FOIA is the world&amp;rsquo;s worst search engine - results come back very slowly, and they
+are not always the same as the question you asked.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Every day people</title>
@@ -780,54 +822,6 @@ to get those people into its paid service.&lt;/p&gt;
 of people who have a desirable email address, you can scoop them up
 into your system and exclude others who don&amp;rsquo;t have the right qualifying
 talisman.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The state of the city, Ann Arbor, fall 2015</title>
-      <link>http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city/</link>
-      <pubDate>Wed, 14 Oct 2015 10:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city/</guid>
-      <description>&lt;p&gt;A perspective on Ann Arbor area local government, as seen from fall 2015.&lt;/p&gt;
-
-&lt;p&gt;The top level view is that local units of government are struggling
-with their technology investments, having a difficult time keeping
-them working, and are unwilling or unable to commit to any sort of
-&amp;ldquo;open data&amp;rdquo; initiatives as a result of their difficulties with basic
-operations.&lt;/p&gt;
-
-&lt;p&gt;Some examples will illustrate.&lt;/p&gt;
-
-&lt;p&gt;The City of Ann Arbor keeps track of a wide range of planning and
-permit documents through a vendor system called eTrakit. This system
-was down for more than a week in September, and still occasionally
-crashes in response to a query. There is no general purpose &amp;ldquo;open data&amp;rdquo;
-query to get access to the system, though the city does publish a
-&amp;ldquo;permits under review&amp;rdquo; feed on its open data catalog that has a small
-subset of the available data. Attachments in the system were recently
-taken offline after unredacted credit card numbers were discovered.&lt;/p&gt;
-
-&lt;p&gt;City of Ann Arbor meeting agendas and minutes and documents are locked up
-in a vendor-provided Legistar system, which is so difficult to use that
-many boards and commissions don&amp;rsquo;t even bother to publish their minutes
-through that system. Meeting agendas are often delayed in publication,
-and there is no method available to search across the whole system for
-documents.&lt;/p&gt;
-
-&lt;p&gt;The Ann Arbor City Clerk keeps track of FOIA requests across the city
-and publishes a &amp;ldquo;database&amp;rdquo; of requests. As is all too typical for
-municipal government, this &amp;ldquo;database&amp;rdquo; is published as a PDF file, not
-as plain text in some format that can be easily parsed.&lt;/p&gt;
-
-&lt;p&gt;The City Liquor License Review Committee routinely evaluates applications
-for new permits to serve or manufacture alcohol. These applications
-are not published as part of the agenda for that committee or for
-Ann Arbor City Council&amp;rsquo;s online system.&lt;/p&gt;
-
-&lt;p&gt;I would go on, but the City Council meeting is tonight, and I&amp;rsquo;m
-preparing something for public commentary (probably to add to the
-discussion only after the decisions have been made).&lt;/p&gt;
 </description>
     </item>
     

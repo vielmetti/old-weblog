@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-foia-update" class="list-group-item">FOIA update for tonight&#39;s City Council meeting</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-every-day-people" class="list-group-item">Every day people</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-09-foia-ask-for-less" class="list-group-item">When the FOIA request costs too much, ask for less</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-snap-ci" class="list-group-item">Snap CI</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am" class="list-group-item">AWS DynamoDB downtime, Sunday am, September 20, 2015</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci" class="list-group-item">Into the matrix with Travis CI</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4126,6 +4128,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12156,6 +12160,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12444,12 +12450,15 @@ this and there will almost always be something new to read.</p>
         ><a href="http://vielmetti.github.io/page/80/">80</a></li>
         
         <li
+        ><a href="http://vielmetti.github.io/page/81/">81</a></li>
+        
+        <li
         >
         <a href="http://vielmetti.github.io/page/26/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
         </li>
         
         <li>
-            <a href="http://vielmetti.github.io/page/80/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+            <a href="http://vielmetti.github.io/page/81/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
         </li>
         
     </ul>
@@ -12462,6 +12471,13 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>16 July 2013</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2013/2013-07-16-send-me-your-address-and-ill-send-you-a-postcard-on-my-next-vacation/">Send me your address, and I&#39;ll send you a postcard on my next vacation</a>
+      </h3>
+      <p>I love sending postcards, and it&#39;s time to plan for a vacation or two. If you&#39;re reading this and would like to get a postcard some time, send your postal address to edward.vielmetti@gmail.com .</p>
 
 
   <h3>15 July 2013</h3>
@@ -12942,30 +12958,6 @@ COVERAGE AS A LINE OF THUNDERSTORMS DROPS SO. INTO THE AREA.
 <p>More local coverage: <a href="http://annarbor.com/news/severe-thunderstorms-roll-through-washtenaw-county/">AnnArbor.com</a>.</p>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-
-  <h3>27 June 2013</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2013/2013-06-27-joyent-manta-mapreduce-for-unix-natives/">Joyent Manta: map/reduce for Unix natives</a>
-      </h3>
-      <p><a href="http://www.typepad.com/dashboard" target="_self">Joyent has released Manta</a>, a computing environment that includes a powerful map/reduce system which leverages native Unix commands. Unlike a Hadoop world where you have to spin up a Java environment to get anything done, Manta makes map/reduce as simple as possible for those of us who know the Unix shell pretty well.</p>
-<p>Some examples may be useful.</p>
-<pre>for n in $HOME/doc/books/*
-do 
-   wc -l $n &gt;&gt; $TMP/wc-tmp
-done
-awk &#39;{ t += $1 } END { print t }&#39; &lt; $TMP/wc-tmp
-</pre>
-<p>has an equivalent in Manta as something like</p>
-<pre>mfind -t o /$MANTA_HOME/stor/books | \
-   mjob create -o -m &quot;wc -l&quot; -r &quot;awk &#39;{ t += \$1 } END { print t }&#39; &quot;
-</pre>
-<p>where the word count command &quot;wc&quot; is the &quot;map&quot; step, and the awk summation is the &quot;reduce&quot; step.</p>
-<p>Some other commentary on the system, which I&#39;m still learning, is scattered around the net.</p>
-<p>Joyent: <a href="http://www.joyent.com/blog/big-compute-for-big-data-with-manta-storage-service" target="_self">Big compute for Big Data with Manta</a> (screencast)</p>
-<p>Joyent: <a href="http://www.joyent.com/blog/hello-manta-bringing-unix-to-big-data" target="_self">Hello Manta: Bringing Unix to Big Data</a></p>
-<p>Wanelo:&#0160;<a href="http://building.wanelo.com/post/54110156963/a-cost-effective-approach-to-scaling-event-based-data" target="_self">A Cost-effective Approach to Scaling Event-based Data Collection and Analysis</a></p>
-<p>Thanks for pointing this out, Alan Gutierrez!</p>
 
 
 

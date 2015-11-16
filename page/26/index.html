@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-foia-update" class="list-group-item">FOIA update for tonight&#39;s City Council meeting</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-every-day-people" class="list-group-item">Every day people</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-09-foia-ask-for-less" class="list-group-item">When the FOIA request costs too much, ask for less</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-snap-ci" class="list-group-item">Snap CI</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am" class="list-group-item">AWS DynamoDB downtime, Sunday am, September 20, 2015</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci" class="list-group-item">Into the matrix with Travis CI</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4126,6 +4128,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12156,6 +12160,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12444,12 +12450,15 @@ this and there will almost always be something new to read.</p>
         ><a href="http://vielmetti.github.io/page/80/">80</a></li>
         
         <li
+        ><a href="http://vielmetti.github.io/page/81/">81</a></li>
+        
+        <li
         >
         <a href="http://vielmetti.github.io/page/27/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
         </li>
         
         <li>
-            <a href="http://vielmetti.github.io/page/80/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+            <a href="http://vielmetti.github.io/page/81/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
         </li>
         
     </ul>
@@ -12462,6 +12471,30 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>27 June 2013</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2013/2013-06-27-joyent-manta-mapreduce-for-unix-natives/">Joyent Manta: map/reduce for Unix natives</a>
+      </h3>
+      <p><a href="http://www.typepad.com/dashboard" target="_self">Joyent has released Manta</a>, a computing environment that includes a powerful map/reduce system which leverages native Unix commands. Unlike a Hadoop world where you have to spin up a Java environment to get anything done, Manta makes map/reduce as simple as possible for those of us who know the Unix shell pretty well.</p>
+<p>Some examples may be useful.</p>
+<pre>for n in $HOME/doc/books/*
+do 
+   wc -l $n &gt;&gt; $TMP/wc-tmp
+done
+awk &#39;{ t += $1 } END { print t }&#39; &lt; $TMP/wc-tmp
+</pre>
+<p>has an equivalent in Manta as something like</p>
+<pre>mfind -t o /$MANTA_HOME/stor/books | \
+   mjob create -o -m &quot;wc -l&quot; -r &quot;awk &#39;{ t += \$1 } END { print t }&#39; &quot;
+</pre>
+<p>where the word count command &quot;wc&quot; is the &quot;map&quot; step, and the awk summation is the &quot;reduce&quot; step.</p>
+<p>Some other commentary on the system, which I&#39;m still learning, is scattered around the net.</p>
+<p>Joyent: <a href="http://www.joyent.com/blog/big-compute-for-big-data-with-manta-storage-service" target="_self">Big compute for Big Data with Manta</a> (screencast)</p>
+<p>Joyent: <a href="http://www.joyent.com/blog/hello-manta-bringing-unix-to-big-data" target="_self">Hello Manta: Bringing Unix to Big Data</a></p>
+<p>Wanelo:&#0160;<a href="http://building.wanelo.com/post/54110156963/a-cost-effective-approach-to-scaling-event-based-data" target="_self">A Cost-effective Approach to Scaling Event-based Data Collection and Analysis</a></p>
+<p>Thanks for pointing this out, Alan Gutierrez!</p>
 
 
   <h3>26 June 2013</h3>
@@ -12826,40 +12859,6 @@ Having a robust public process can be mighty inconvenient at times.<br /><ol>
 <p>I&#39;ve written fire-related posts before, including one for the <a href="http://vielmetti.typepad.com/vacuum/2012/05/duck-lake-fire-north-of-newberry-mi.html" target="_self">Duck Lake Fire near Newberry, MI</a> last year. I make sure to get good detailed maps of that area, because there&#39;s a pattern that burned-over areas provide good morel mushroom hunting the year after and good blueberry picking grounds for years to come.</p>
 <p>When fires hit near an urban area, there&#39;s an immediate influx of television and newspaper resources to help local residents keep themselves and their homes safe. Imagery from fires is dramatic. When it&#39;s time to put this information on a map, it&#39;s a real challenge in real-time cartography in an environment where you might not always know exact details.</p>
 <p>Writing about fires is thus a way to simultaneously make sense of the news and participate in its creation. You try to not make matters worse by carefully time and date stamping your observations so that it doesn&#39;t become old news that recirculates as new. Twitter is helpful but oh so fragmented, and most of the people I know through that channel are far enough away from any given incident not to care very much. The traffic to my Black Forest Fire page came in overwhelmingly from search, and the most common search term was &quot;black forest fire map&quot; - exactly the first thing that I was looking for when I heard about it. If you can answer &quot;where is this thing happening&quot;, &quot;do I know anyone nearby&quot;, and &quot;who knows more about it than I do&quot;, you can get to a point where your combination of links becomes a resource.</p>
-
-
-  <h3>11 June 2013</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2013/2013-06-11-black-forest-fire-near-colorado-springs-colorado-with-map/">Black Forest Fire near Colorado Springs, Colorado (with maps updated Thursday 6/13 5:37 p.m MT)</a>
-      </h3>
-      <p><p>UPDATED Thursday June 13, 6:00 p.m MT with new maps at the top.</p>
-<p>The fast-moving Black Forest Fire is burning homes northeast of Colorado Springs, Colorado. High temperatures, high winds, and low humidity are fanning the flames. Two people are known to have died in the fire, and more than 360 homes have been lost. If you are near the fire, please seek out current and official information rather than relying on this weblog. Lots of photos and news are showing up on the <a href="https://twitter.com/search?q=%23BlackForestFire&src=hash">#blackforestfire</a> Twitter tag. Residents can call 719-444-8300 for information on the fire, but no exact information is available on individual homes yet. Official info from <a href="http://www.elpasoco.com/Pages/default.aspx">El Paso County</a> will be <em>more current than this page</em>.</p>
-<p>News coverage: Denver Post, &ldquo;<a href="http://www.denverpost.com/breakingnews/ci_23436911/black-forest-fire-near-colorado-springs-prompts-evacuations" target="_self">Black Forest Fire near Colorado Springs prompts mandatory evacuations</a>&rdquo;. Live blog: Colorado Springs Gazette, &ldquo;<a href="http://gazette.com/live-updates-homes-burn-as-residents-flee-fast-growing-black-forest-fire-north-of-colorado-springs/article/1502187" target="_self">LIVE UPDATES</a>&ldquo;</p>
-<p>Television: <a href="http://denver.cbslocal.com/">CBS Denver 4</a>, <a href="http://www.koaa.com">KOAA 5</a>, <a ref="http://www.kktv.com/">KKTV 11</a> (<a href="https://www.facebook.com/kktv11news?fref=ts">Facebook</a>), <a href="http://www.krdo.com/">KRDO 13</a>.</p>
-<p>Fire perimeter map, <a href="http://www.wunderground.com/wundermap?lat=39.07250&lon=-104.70720&zoom=11&type=terrain&units=english&tl.play=0&tl.spd=2&viewportstart=now-3600&viewportend=now%2B0&groupSevere=1&groupHurricane=1&groupFire=1&groupCamsPhotos=1&groupRealEstate=1&eyedropper=0&extremes=0&fault=0&favs=0&femaflood=0&fire=1&fire.sat=1&fire.smk=1&fire.perim=1&fire.mode=0&fire.opa=70&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=0&labels=0&lightning=0&livesurge=0&mm=0&ndfd=0&rad=0&dir=1&dir.mode=driving&sst=0&sat=0&seismicrisk=0&svr=0&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=0&cams=0&pix=0">originally from Weather Underground&rsquo;s Wundermap</a>. As of Thursday, 19:34 MT.
-<a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab19c95b970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef0192ab19c95b970d" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Black-forest-fire-fire-perimeter-map-1934-mt-thursday-june-13" title="Black-forest-fire-fire-perimeter-map-1934-mt-thursday-june-13" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab19c95b970d-600wi" /></a><br />
-<p>Fire evacuation map as of 5:37 p.m. MT, June 13, 2013. This map is from the Colorado Springs Gazette, <a href="http://gazette.com/black-forest-fire-evacuation-map/article/1502207">retrieve the latest version</a> if you are in the fire area. Please note the expansion of the fire to the northeast as well as to the southwest.
-<a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019103510bc3970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef019103510bc3970c" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Black-forest-fire-evacuation-area-1737-thursday-june-13" title="Black-forest-fire-evacuation-area-1737-thursday-june-13" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019103510bc3970c-600wi" /></a><br />
-<p>Fire map as of 9:00 p.m. MT, June 11, 2013. If you are in the affected area, you&rsquo;ll want to get an updated map. (<a href="http://gazette.com/home-reportedly-burns-in-fire-in-black-forest-evacuation-zone-grows/article/1502187#firemap" target="_self">Map via The Gazette</a>)</p>
-<p>
-<a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191033ebd65970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef0191033ebd65970c" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" title="Black-forest-fire-evacuation-map" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191033ebd65970c-600wi" alt="Black-forest-fire-evacuation-map" /></a></p>
-<p><a href="https://maps.google.com/maps/ms?msid=213147363718413661630.0004dee986649a51dfa7d&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=39.111948,-104.680481&amp;spn=0.586055,0.547943&amp;z=10&amp;source=embed&amp;dg=feature" target="_self">KUSA has a Google Map</a> with additional information including evacuation locations.</p>
-<p>Wildfire Today has <a href="http://wildfiretoday.com/2013/06/11/maps-of-colorado-wildfires/" target="_self">Maps of Colorado Wildfires</a> with details of three fires:&nbsp;Big Meadow in Rocky Mountain National Park, <a href="http://wildfiretoday.com/2013/06/12/black-forest-fire-colorado-springs/">Black Forest</a> near Colorado Springs, and Royal Gorge at Canon City southwest of Colorado Springs. They also have <a href="http://wildfiretoday.com/2013/06/11/colorado-fires-showing-up-on-twitter/" target="_self">photos of the fires</a> and other details.</p>
-<p>Live coverage: <a href="http://www.broadcastify.com/listen/feed/12004" target="_self">El Paso County Fire and EMS</a> (1200+ listeneres at 9:00 p.m. MT Tues June 11, 2013). Alert message: El Paso County: &ldquo;Black Forest&rdquo; fire has burned several hundred acres and destroyed an unknown number of homes/structures. Local, county, state and Federal resources operating. Large and small helo&rsquo;s and heavy air tankers also operating. (116 minutes ago)</p>
-<p>The radar from Weather Underground shows a clear smoke plume.</p>
-<p>
-<a class="asset-img-link" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191033ecec3970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef0191033ecec3970c" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" title="Black-forest-fire-wunderground-radar-smoke-plume" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0191033ecec3970c-600wi" alt="Black-forest-fire-wunderground-radar-smoke-plume" /></a><br /></p>
-<blockquote class="twitter-tweet"><p>Ominous photo by @<a href="https://twitter.com/markmittelberg">markmittelberg</a> &rsquo;s wife near the <a href="https://twitter.com/search/%23blackforestfire">#blackforestfire</a> north of Colorado Springs. <a href="http://t.co/iF2cZgYgLI" title="http://twitter.com/LeeStrobel/status/344650553705517057/photo/1">twitter.com/LeeStrobel/sta…</a></p>&mdash; Lee Strobel (@LeeStrobel) <a href="https://twitter.com/LeeStrobel/status/344650553705517057">June 12, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<p>&nbsp;</p>
-<table width="99%">
-<tbody>
-<tr>
-<td>
-</td>
-</tr>
-</tbody>
-</table></p>
 
 
 
