@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-17-a-localwiki-for-jackson-michigan" class="list-group-item">A Localwiki for Jackson, Michigan</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-melting-pot-closing" class="list-group-item">Ann Arbor&#39;s The Melting Pot is closing</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-foia-update" class="list-group-item">FOIA update for tonight&#39;s City Council meeting</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-august-2015-food-inspections" class="list-group-item">August 2015 food inspections for Washtenaw County</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-git-squash" class="list-group-item">How to squash a commit in git</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-09-22-snap-ci" class="list-group-item">Snap CI</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4130,6 +4132,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12168,6 +12172,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12477,6 +12483,13 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>11 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/">gooseberries at Ann Arbor Farmers Market</a>
+      </h3>
+      <p>Wasem's brought gooseberries to today's Ann Arbor Farmers Market. There were two varieties, one with smaller berries and one with larger berries. Delicious just as is.</p>
 
 
   <h3>6 July 2015</h3>
@@ -13008,23 +13021,6 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 <p>Authors' website for obtaining code:</p>
 
 <p>http://www.gnu.org/software/parallel/</p>
-
-
-  <h3>22 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-22-dockers-new-runc-doesnt-yet-work-on-mac-os-x-/">Docker&#39;s new RunC doesn&#39;t (yet?) work on Mac OS X</a>
-      </h3>
-      <p>Docker has a new runtime environment that they are releasing called <a href="http://blog.docker.com/2015/06/runc/">runC</a>. It's a "lightweight universal plumbing" that tries to encapsulate all of the Docker dependencies and infrastructure. </p>
-
-<blockquote>
-  <p>To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.</p>
-</blockquote>
-
-<p>Because of Docker's start on Linux systems, it's been tricky to get it running under Mac OS X. Some tries to make it work depend on setting up virtual machines (with the likes of boot2docker) which makes it work at the cost of performance and flexibility. Docker on OS X has not been exceptionally easy though it does work once you commit to doing all of your Docker server work inside a VM</p>
-
-<p>runC would be an answer to the problem of native Docker on OSX X, one might hope, but as of its first release it doesn't work. The first of what is probably many hurdles is the extensive use of the clone(2) system call instead of fork(2). This <a href="http://files.meetup.com/10602292/See%20Docker%20from%20the%20Perspective%20of%20Linux%20Process.pdf">presentation from Allen Sun at DaoCloud</a> goes into the details of Docker's use of clone(2) from the perspective of Linux processes. It is notable that the OS X "Darwin" kernel doesn't have clone(2), and it's as far as I can tell not readily possible to mimic all of clone's semantics strictly by using fork in clever ways.</p>
-
-<p>An open issue on Github is tracking <a href="https://github.com/opencontainers/runc/issues/9">Build fails on Mac OS X 10.9</a>. I don't see an easy fix without work by Apple on their kernel.</p>
 
 
 
