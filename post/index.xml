@@ -6,8 +6,44 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2015 10:45:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2015 11:15:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Summer 2016 construction plans for M-14 near Ann Arbor</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-18-m-14-summer-2016-construction-plans/</link>
+      <pubDate>Wed, 18 Nov 2015 11:15:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-18-m-14-summer-2016-construction-plans/</guid>
+      <description>&lt;p&gt;MDOT plans to do major road construction work on M-14 in Ann Arbor
+between Main Street and Miller Road during the spring and summer of 2016.
+A construction start date has not been set yet as of November 2015.
+In addition, bridge work will reduce M-14 to one lane between I-94
+and Miller Road, and betwen Main Street and US-23.&lt;/p&gt;
+
+&lt;p&gt;A detailed set of plans is available &lt;a href=&#34;http://michigan.gov/mdot/0,4616,7-151-9621_11008_74324---,00.html&#34;&gt;on the MDOT web site&lt;/a&gt;
+and &lt;a href=&#34;http://michigan.gov/documents/mdot/MDOT_M14AnnArborBrochure_504933_7.pdf&#34;&gt;in a helpful brochure&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The posted detour for M-14 will follow US-23 and I-94 around the freeway
+loop around Ann Arbor. The following bridges will also have work done on
+that that will close them for some amount of time:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;M-14 over the Huron River, the railroad tracks and Bandemer Park,&lt;/li&gt;
+&lt;li&gt;M-14 over Beechwood Drive,&lt;/li&gt;
+&lt;li&gt;Newport Road over M-14,&lt;/li&gt;
+&lt;li&gt;M-14 over Maple Road, and&lt;/li&gt;
+&lt;li&gt;Miller Road over M-14.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There was talk of a part of Bandemer Park to be used as a staging area
+for MDOT construction equipment. A review of the city&amp;rsquo;s Legistar system
+did not unearth anything that would have been a necessary city review or
+approval of that.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Chuck Warpehoski for the heads up.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Can I give up on LinkedIn yet?</title>
@@ -521,65 +557,6 @@ lots to look forward to.&lt;/p&gt;
 &lt;p&gt;CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
 and it&amp;rsquo;s free-as-in-GPL, so it&amp;rsquo;s very much worthwhile to give it a
 download and see what it looks like.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The AAATA MicroAPI</title>
-      <link>http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi/</link>
-      <pubDate>Fri, 30 Oct 2015 16:45:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi/</guid>
-      <description>&lt;p&gt;I had a good conversation with Prabal Dutta today about the sort of infrastructure
-you need to build a very simple bus tracker application for the current iteration
-of the AAATA&amp;rsquo;s online system.&lt;/p&gt;
-
-&lt;p&gt;The desired goal is actually fairly simple: for a single place, identify the approximate
-location of a bus on a single bus line that serves that place, and alert the rider in time
-so that they can walk (or run) to catch the bus. Allow some time for getting there early.&lt;/p&gt;
-
-&lt;p&gt;The JSON endpoint that shows all the buses on Route 5 you can fetch as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl -s http://microapi.theride.org/Location/5
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and the data itself has records that look like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  {
-    &amp;quot;Id&amp;quot;: &amp;quot;48674187&amp;quot;,
-    &amp;quot;routeAbbr&amp;quot;: &amp;quot;5&amp;quot;,
-    &amp;quot;adherence&amp;quot;: -5,
-    &amp;quot;timestamp&amp;quot;: &amp;quot;00:01:11.1189770&amp;quot;,
-    &amp;quot;lat&amp;quot;: 422301779,
-    &amp;quot;longitude&amp;quot;: -837077535,
-    &amp;quot;busNum&amp;quot;: 401,
-    &amp;quot;routeDirection&amp;quot;: &amp;quot;to Ann Arbor&amp;quot;,
-    &amp;quot;timePointName&amp;quot;: &amp;quot;Ellsworth &amp;amp; Braeburn&amp;quot;,
-    &amp;quot;timePointAltName&amp;quot;: &amp;quot;N- Ellsworth Rd. west of Braeburn&amp;quot;,
-    &amp;quot;crossingTime&amp;quot;: &amp;quot;4:46 PM&amp;quot;,
-    &amp;quot;timePointStopID&amp;quot;: &amp;quot;1327&amp;quot;
-  },
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;which reads as follows: &amp;ldquo;At 4:46 PM, bus 401 was 5 minutes late and located at
-the Ellsworth &amp;amp; Braeburn timepoint. That was 1 minute 11.1 seconds ago.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s then a short exercise left to the reader to suss out what this means for them.
-The simplest thing to do is to filter through the bus listings, pick out the ones
-where &amp;ldquo;routeDirection&amp;rdquo; is heading the right way, and where the &amp;ldquo;timePointName&amp;rdquo; is
-close enough that you can run for the bus but not so close that the bus has already
-zoomed past.&lt;/p&gt;
-
-&lt;p&gt;My favorite general purpose tool for dealing with JSON data is &lt;code&gt;jq&lt;/code&gt;, from
-&lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt; . It has a syntax for filtering through and querying
-JSON objects with about as much expressive power as &lt;code&gt;sed&lt;/code&gt;. The slightly more
-useful command runs like&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl -s http://microapi.theride.org/Location/5 | jq -c &#39;.[]|[.routeDirection, .timePointName]&#39; 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;which picks out &lt;code&gt;routeDirection&lt;/code&gt; and &lt;code&gt;timePointName&lt;/code&gt; and lands them on a single line &lt;code&gt;-c&lt;/code&gt;
-suitable for any of your favorite Unix tools.&lt;/p&gt;
 </description>
     </item>
     
