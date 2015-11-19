@@ -6,8 +6,52 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2015 11:15:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2015 01:00:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alpine, old school email</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email/</link>
+      <pubDate>Thu, 19 Nov 2015 01:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email/</guid>
+      <description>&lt;p&gt;alpine is an old school Unix mail user agent. It first arrived
+on the scene as pine in 1992, and when it appeared I remember
+how happy I was that there was finally a mailer that I could
+hand to people who had never seen Unix before and that they
+would get it and be productive on their 14.4 kb/sec dialup
+modems.&lt;/p&gt;
+
+&lt;p&gt;alpine appeared in 2007 as a rewrite of pine with Unicode
+support and a new Apache license. The version of it I&amp;rsquo;m running
+advertises itself as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Alpine 2.20 (OSX 67 2015-01-07) built Fri Oct 2 21:36:59 EDT 2015 on Edwards-MacBook-Air.local
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and seems to work just fine. I&amp;rsquo;ve got it pointed at the
+old-school shared multiuser mail system that I&amp;rsquo;ve had
+for a long time at monkey.org and all is well.&lt;/p&gt;
+
+&lt;p&gt;The biggest advantage of alpine over all web-based
+mail systems is just how fast you can delete mail.
+It&amp;rsquo;s easy to select by pattern, sort, refile and
+especially delete. In comparison, Google&amp;rsquo;s GMail
+feels clumsy and slow and impossibly mouse-dependent.&lt;/p&gt;
+
+&lt;p&gt;Have I moved all my email over to alpine? No. There&amp;rsquo;s
+a very small number of people who I prefer to send
+mail to that way, and it&amp;rsquo;s always good to have a
+fully functional backup email system that works
+perfectly well on a low-bandwidth setup. My workflow
+inside GMail is pretty fine tuned at this point and
+very different from how I used to use pine, and I&amp;rsquo;m
+not willing to go back.&lt;/p&gt;
+
+&lt;p&gt;It does remind me of the days before spam, and of the
+days when you were actually happy to get messages!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Summer 2016 construction plans for M-14 near Ann Arbor</title>
@@ -528,35 +572,6 @@ proceedings is not readily available. I&amp;rsquo;m making inquiries into this
 particular instance.&lt;/p&gt;
 
 &lt;p&gt;Thanks to Eppie Potts for bringing this to my attention.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CubicSDR, a cross-platform software defined radio</title>
-      <link>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</link>
-      <pubDate>Fri, 30 Oct 2015 17:10:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</guid>
-      <description>&lt;p&gt;CubicSDR is a software defined radio system for Mac, Linux, and Windows.
-It&amp;rsquo;s at version 0.1.4-beta as of August 28, 2015, and you can download
-the binaries from &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&#34;&gt;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&lt;/a&gt; or
-the source code from Github at &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR&#34;&gt;https://github.com/cjcliffe/CubicSDR&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;My point of comparison for software defined radio is GQRX. When you put
-CubicSDR on the screen it has a very pretty waterfall display and relatively
-easy to sort out mouse commands, but it&amp;rsquo;s lacking some of the fancier
-controls that a more mature program like GQRX has accumulated over time.&lt;/p&gt;
-
-&lt;p&gt;The interesting direction that CubicSDR is heading in is the product
-roadmap that is on its home page - in particular, importing and using
-digital modes that the liquid-dsp package supports, and additional
-visualization tools that would make a pretty display even prettier.
-The roadmap easily has a couple of years of development work, so there&amp;rsquo;s
-lots to look forward to.&lt;/p&gt;
-
-&lt;p&gt;CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
-and it&amp;rsquo;s free-as-in-GPL, so it&amp;rsquo;s very much worthwhile to give it a
-download and see what it looks like.&lt;/p&gt;
 </description>
     </item>
     

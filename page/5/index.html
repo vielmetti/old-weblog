@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email" class="list-group-item">Alpine, old school email</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-18-m-14-summer-2016-construction-plans" class="list-group-item">Summer 2016 construction plans for M-14 near Ann Arbor</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-18-can-i-give-up-on-linkedin-yet" class="list-group-item">Can I give up on LinkedIn yet?</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-29-diligence" class="list-group-item">Diligence</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks" class="list-group-item">Over the top networks</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-10-14-the-state-of-the-city" class="list-group-item">The state of the city, Ann Arbor, fall 2015</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4136,6 +4138,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12186,6 +12190,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12495,6 +12501,25 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>14 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/wow-that-is-fast/">wow that is fast</a>
+      </h3>
+      <p>So 634 pages from my Github Gollum based Wiki markup all got imported
+into Hugo and it rendered all of them in 828 ms, or basically under
+a second to pull in everything I&rsquo;ve ever written. Astonishingly fast.</p>
+
+<p>Alas, those files while they are in Markdown are not really ready for
+direct import, since they have [[double brackets]] everywhere that
+get uglified. The other limiting factor is the date marker that&rsquo;s not
+included with them so they all show up as January 1, 0001 which is
+funny the first few times and then not funny.</p>
+
+<p>Doesn&rsquo;t Hugo have an import function? It does, for converting front
+matter. The closest for importing other things are the various Jekyll
+converters which aren&rsquo;t really the same.</p>
 
 
   <h3>14 July 2015</h3>
@@ -13007,30 +13032,6 @@ Steve
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 <p>For more highlights, see the <a href="http://venturebeat.com/2015/06/22/everything-announced-at-dockercon-2015/">Venturebeat roundup of Dockercon 2015</a>.</p>
-
-
-  <h3>24 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-24-automating-web-testing-and-scraping-with-selenium-and-the-firefox-selenium-ide/">Automating web testing and scraping with Selenium and the Firefox Selenium IDE</a>
-      </h3>
-      <p>You might like me occasionally want to pull a bit of data from some web site and use that data in a script or process. Some modern web sites are fiendishly complex and don't have the data you want on a simple API or page that you can parse; instead, you're expected to navigate through a whole next of menus and links that present the data attractively.</p>
-
-<p>I'm making a go of tackling this task with Selenium, a browser automation system which can drive browsers like Firefox and Chrome and that can in turn be driven by programming languages like Python.  Some notes.</p>
-
-<ol>
-<li><p><a href="https://www.mozilla.org/en-US/firefox/new/">Download and install Firefox</a> if you don't already have it installed, from mozilla.org.</p></li>
-<li><p><a href="http://docs.seleniumhq.org/projects/ide/">Download and install the Selenium IDE</a> for Firefox, which lets you interactively create Selenium scripts within Firefox.</p></li>
-<li><p>From the command line, <code>pip install selenium</code> to get the package of Python drivers for Selenium.</p></li>
-<li><p>If you're also using Google Chrome, you'll want <a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver</a> to get Selenium to talk to Chrome.</p></li>
-</ol>
-
-<p>With this all you have enough of the tools to be dangerous.</p>
-
-<p>Udemy has a <a href="https://blog.udemy.com/selenium-ide-tutorial/">Selenium IDE tutorial</a> to walk through to get you started, as a prelude to their for-pay course on the same topic. Guru99 also has a <a href="http://www.guru99.com/selenium-tutorial.html">free Selenium tutorial</a> that covers the Selenium IDE. </p>
-
-<p><a href="http://scraping.pro/selenium-ide-and-web-scraping/">A very nice overview of the process</a> from scraping.pro gives you some insight into what's really going on. The workflow is to create interactive scripts from within Firefox, then export them to Python and run them through a driver that drives multiple browsers. You can tweak lots of details in the Python script and incorporate those into some bigger applications.</p>
-
-<p>Best bet though is to find someone who knows it and watch over their shoulder and ask questions!</p>
 
 
 
