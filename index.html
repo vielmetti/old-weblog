@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-write-one-paragraph" class="list-group-item">Write one paragraph, floss one tooth</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email" class="list-group-item">Alpine, old school email</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-18-m-14-summer-2016-construction-plans" class="list-group-item">Summer 2016 construction plans for M-14 near Ann Arbor</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-sudo-port-upgrade-outdated" class="list-group-item">sudo port upgrade outdated</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-29-diligence" class="list-group-item">Diligence</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-10-21-over-the-top-networks" class="list-group-item">Over the top networks</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4138,6 +4140,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12192,6 +12196,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12501,6 +12507,36 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>19 November 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-11-19-write-one-paragraph/">Write one paragraph, floss one tooth</a>
+      </h3>
+      <p>The a2b3 lunch today was at Madras Masala, we had a crowd of 10.
+I had a question about productivity - &ldquo;what do you do every day&rdquo; -
+and the answers were a good mix of attempts to be diligent and
+questions about whether narrowly focused productivity was even
+a good goal.</p>
+
+<p>The small productivity approach that has stuck with me is BJ Fogg&rsquo;s
+&ldquo;Tiny Habits&rdquo; approach, which he writes about on <a href="http://tinyhabits.com/">http://tinyhabits.com/</a> .
+The focus is not on New Years Resolution style &ldquo;be a better person&rdquo; goals,
+but on very small and attainable accompishments which you can use
+to build upon. &ldquo;Floss one tooth&rdquo; is the smallest example goal I can give,
+with the understanding that if you can build up a solid habit to do
+that every day then there&rsquo;s lots more you can do for better dental health.</p>
+
+<p>The writing equivalent of that is &ldquo;write one paragraph&rdquo;. I know that
+trying to blog every single day is a task I&rsquo;ve tried and failed before,
+but I also know that it doesn&rsquo;t take forever to write a paragraph, and
+you don&rsquo;t have to have more than one idea to express to make that paragraph
+worthwhile. Faced with an impossibly big deadline for an impossibly big
+project, the thought goes, you might break down your resistance to working
+on the effort by declaring victory at the paragraph level.</p>
+
+<p>Next week&rsquo;s lunch (the day after Thanksgiving 2015) is at Morgan and York,
+hope to see you there.</p>
 
 
   <h3>19 November 2015</h3>
@@ -13597,125 +13633,6 @@ whole sub-industry of writing <code>.travis.yml</code> files to support those), 
 have the whole &ldquo;continuous deployment&rdquo; pattern sorted out. And while Snap CI looks
 like it would be great for saying &ldquo;once we&rsquo;re happy with this, push it out to the world&rdquo;,
 that setup is not easy to pick up simply by inspecting other projects that have done it.</p>
-
-
-  <h3>20 September 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/">AWS DynamoDB downtime, Sunday am, September 20, 2015</a>
-      </h3>
-      
-
-<blockquote>
-<p>A distributed system is one in which the failure of a computer
-you didn&rsquo;t even know existed can render your own computer unusable.
-<a href="http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt">Leslie Lamport, 1987</a></p>
-</blockquote>
-
-<p>Amazon Web Services DynamoDB experienced downtime in the N Virginia
-availability zone early Sunday morning, September 20, 2015. As
-a result, a number of other AWS services inside N Virginia that
-depend on DynamoDB also had downtime. Companies and organizations
-that built services on top of those systems who didn&rsquo;t have
-geographic load balancing were having problems as well.</p>
-
-<p>UPDATE: Amazon&rsquo;s report <a href="https://aws.amazon.com/message/5467D2/">Summary of the Amazon DynamoDB Service Disruption and Related Impacts in the US-East Region</a> is available as of September 23, 2015.</p>
-
-<p>Affected services include at least CloudWatch, SES, SNS, SQS, SWS,
-AutoScale, Cloud Formation, Directory Service, Key Mgmt and Lambda,
-according to a report on Hacker News.</p>
-
-<p><a href="http://status.aws.amazon.com/">http://status.aws.amazon.com/</a></p>
-
-<p>Reports from <a href="https://www.twitter.com/ylastic">@ylastic</a> on Twitter
-have been helpful in keeping track of outages. <a href="http://www.ylastic.com">http://www.ylastic.com</a></p>
-
-<p>Down Detector has a page of AWS outages trouble reports, and
-details pulled from Twitter. <a href="https://downdetector.com/status/aws-amazon-web-services">https://downdetector.com/status/aws-amazon-web-services</a></p>
-
-<p>When core infrastructure goes down, it tends to affect other platforms
-that depend on that core infrastructure and that hide it from their
-users. This in turn affects applications built on those platforms.</p>
-
-<ul>
-<li><p>Docker: &ldquo;We are currently seeing intermittent errors when pushing
-and pulling, related to issues that AWS is having. We are currently
-investigating the causes, and doing what we can to mitigate the
-problems.&rdquo; @dockerstatus and <a href="http://status.docker.com/">http://status.docker.com/</a></p></li>
-
-<li><p>Heroku: &ldquo;Starting new dynos (unidling, one-off, scaling or
-restarting crashed apps, new releases) is still unavailable.&rdquo; &ldquo;Until
-this incident is resolved, you might be unable to open new support
-tickets with us. If you need to communicate with our support staff
-during this time, please email outage-support@heroku.com.&rdquo; @herokustatus
-and <a href="https://status.heroku.com/incidents/811">https://status.heroku.com/incidents/811</a></p></li>
-
-<li><p>CircleCI: &ldquo;Experiencing Issues with Heroku and AWS&rdquo;. @circleci
-and <a href="http://status.circleci.com/">http://status.circleci.com/</a></p></li>
-
-<li><p>TravisCI: &ldquo;Partial System Outage&rdquo;. @traviscistatus and
-<a href="https://www.traviscistatus.com/">https://www.traviscistatus.com/</a> After incident report
-at <a href="https://www.traviscistatus.com/incidents/wzyhx97450f4">https://www.traviscistatus.com/incidents/wzyhx97450f4</a> ,
-&ldquo;Degradations and outages due to AWS us-east-1 domino effect&rdquo;</p></li>
-</ul>
-
-<p>There are a lot of applications built on AWS and on Heroku,
-which are at risk of downtime. A comprehensive list is probably
-impossible, but here are some reports, in alphabetical order.</p>
-
-<ul>
-<li>Airbnb</li>
-<li>Amazon Echo</li>
-<li>Amazon Instant Video</li>
-<li>AWS Console. The API is hosted in each region, so the command line worked, but the console is hosted out of us-east-1 and was unavailable.</li>
-<li>AWS Support Tickets. Use this <a href="http://www.amazon.com/gp/html-forms-controller/support-center-issues-u">workaround</a> ???</li>
-<li>Buffer</li>
-<li>Canopy. &ldquo;Our iOS app is down due to the system-wide #AWSoutage. Updates will be provided soon.&rdquo;</li>
-<li>Canva</li>
-<li>Clickfunnels. &ldquo;Our development team is aware of this, however, at this time, the only thing that we can do is wait until the issues at Amazon AWS are resolved completely.&rdquo; <a href="http://status.clickfunnels.com/">http://status.clickfunnels.com/</a></li>
-<li>CoinSimple. &ldquo;Widespread outage in Amazon Web Services is affecting several Internet services, including @CoinSimple. Please check here for updates.&rdquo;</li>
-<li>DuoLingo</li>
-<li>FastSpring. &ldquo;We were having some intermittent problems due to #awsoutage. The problem is being resolved by Amazon.&rdquo;</li>
-<li>GroupMe</li>
-<li>HashiCorp. &ldquo;Our infrastructure provider is experiencing issues which may cause our project websites to be inaccessible. Sorry for the inconvenience.&rdquo;</li>
-<li>IFTTT. &ldquo;We have identified an issue with our service provider. We will continue to provide updates as more information becomes available.&rdquo; <a href="http://status.ifttt.com/incidents/xnbwnqj608hg">http://status.ifttt.com/incidents/xnbwnqj608hg</a></li>
-<li>IMDB</li>
-<li>Lightspeed POS. &ldquo;Monitoring - Our service provider is experiencing a major issue with several of their services. Our engineers are working to reduce our reliance on these components until their issues are resolved. Some customers may experience slowness related to this problem.&rdquo; <a href="http://status.lightspeedretail.com/">http://status.lightspeedretail.com/</a></li>
-<li>Mediacom</li>
-<li>Medium. &ldquo;Identified - We&rsquo;re working to fix a major outage and will be back online as soon as possible.&rdquo; <a href="https://medium.statuspage.io/">https://medium.statuspage.io/</a></li>
-<li>Nest. &ldquo;We’re investigating a service outage with the Nest mobile app and Cam services, and the team is working on a fix. Details to come.&rdquo; <a href="https://nest.com/support/#status">https://nest.com/support/#status</a></li>
-<li>Netflix. &ldquo;We are currently experiencing issues streaming on all devices.
-We are working to resolve the problem. We apologize for any inconvenience.&rdquo; <a href="https://help.netflix.com/help">https://help.netflix.com/help</a></li>
-<li>Paper. &ldquo;account related activities in Paper are down due to problems with our infrastructure provider #AWS&rdquo;</li>
-<li>Pocket.</li>
-<li>Product Hunt. &ldquo;Our servers are sick. We’re working on it right meow 😻&rdquo;</li>
-<li>Reddit.</li>
-<li>Quandl. &ldquo;The Quandl website and API are temporarily unavailable, due to problems at #AWS.&rdquo;  <a href="http://quandl.statuspage.io">http://quandl.statuspage.io</a></li>
-<li>Shipt. &ldquo;Unfortunately, we&rsquo;re down right now with the #AWSOutage.&rdquo;</li>
-<li>Social Flow</li>
-<li>Takipi. &ldquo;Due to an AWS outage, we&rsquo;re experiencing some slowness and connectivity issues. Stay tuned for updates&rdquo;.</li>
-<li>Tinder.</li>
-<li>Twilio. &ldquo;Update - We have established the DynamoDB backend in another AWS region and are re-routing requests from upstream services to the new region. We will provide another update once we verify that the requests are being serviced properly. &rdquo; <a href="http://status.twilio.com/">http://status.twilio.com/</a></li>
-<li>Viber. &ldquo;We are experiencing disruptions in our service. We are working to resolve this issue. Sorry for the inconvenience.&rdquo; <a href="https://support.viber.com/">https://support.viber.com/</a></li>
-<li>waffle.io &ldquo;Experiencing Issues with Heroku&rdquo; <a href="http://status.waffle.io/">http://status.waffle.io/</a></li>
-<li>Walt Disney World app.</li>
-<li>Wink.  &ldquo;We are noticing increased connection issues for Wink users. Our engineers are working with Amazon to get this resolved ASAP.&rdquo; <a href="http://status.winkapp.com/">http://status.winkapp.com/</a></li>
-</ul>
-
-<p>Follow the discussion on Twitter on the #AWS hashtag, as well as
-#awsoutage and #awsdown . Twitter is unaffected by this outage,
-and Slack is also unaffected, which devops teams are both happy about.</p>
-
-<h3 id="news-coverage:0bf1024f29774b00d48e1402990b91e9">News coverage</h3>
-
-<p>This <a href="https://news.ycombinator.com/item?id=10247307">Hacker News discussion</a>
-is a good one as startups radio in their woes.</p>
-
-<p>TNW: <a href="http://thenextweb.com/insider/2015/09/20/amazon-web-services-goes-down-taking-netflix-reddit-pocket-and-more-with-it/">Amazon Web Services goes down, taking Netflix, Reddit, Pocket and more with it</a>.</p>
-
-<p>The Register: <a href="http://www.theregister.co.uk/2015/09/20/aws_database_outage/">AWS knocks Amazon, Netflix, Tinder and IMDb offline in MEGA data collapse; Cloudopocalypse stalks Sunday sofa surfers</a></p>
-
-<p>VentureBeat: <a href="http://venturebeat.com/2015/09/20/amazons-aws-outage-takes-down-netflix-reddit-medium-and-more/">Amazon’s AWS outage takes down Netflix, Reddit, Medium, and more
-</a></p>
 
 
 
