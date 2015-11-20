@@ -6,8 +6,42 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2015 19:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2015 10:30:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stage lighting protocols</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols/</link>
+      <pubDate>Fri, 20 Nov 2015 10:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols/</guid>
+      <description>&lt;p&gt;Some notes on stage lighting protocols and networks.&lt;/p&gt;
+
+&lt;p&gt;Helpful reference pages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dmx512-online.com/&#34;&gt;Ujjal&amp;rsquo;s DMX512 Website&lt;/a&gt; - protocol information,
+tutorials, how to etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dmx512.com/&#34;&gt;DMX512.com, the Entertainment Technology Website.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openlighting.org/&#34;&gt;Open Lighting Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Standards bodies&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.usitt.org/lighting/&#34;&gt;USITT Lighting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some protocols&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://art-net.org.uk/&#34;&gt;Art-Net&lt;/a&gt; is DMX512 over UDP.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openlighting.org/libartnet-main/&#34;&gt;libartnet&lt;/a&gt; is an implementation of Art-Net.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There&amp;rsquo;s much much more, but this is a start.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Enjoy the attic while you can</title>
@@ -525,39 +559,6 @@ compensation - and write more elsewhere. We spend too much of our time looking
 for favorites, thumbs up, and likes on both networks, calibrating the success of
 our writing by how many random people in the random world clicked a certain button
 in response. Still they both provide a measure of entertainment.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Medium, pretty but disappointing</title>
-      <link>http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing/</link>
-      <pubDate>Sun, 01 Nov 2015 15:50:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-11-01-medium-pretty-but-disappointing/</guid>
-      <description>&lt;p&gt;Medium is a hosted blogging and discussion board at &lt;a href=&#34;http://www.medium.com&#34;&gt;http://www.medium.com&lt;/a&gt; .
-It&amp;rsquo;s run by Evan Williams, who built Blogger.&lt;/p&gt;
-
-&lt;p&gt;The site is very pretty and functional, both for writers and for readers.
-Authors get a lovely HTML based editor to write their text in, and readers
-can do highlights and annotations. From a purely technical point of view it&amp;rsquo;s
-one of the better systems for typing into on the net.&lt;/p&gt;
-
-&lt;p&gt;Alas, the promise of a pretty system does not extend the promise
-that everything that&amp;rsquo;s written there will be smart and interesting.
-One recent essay posted to the site complains that it&amp;rsquo;s been &amp;ldquo;hijacked
-by life-hack gurus, designers and San Francisco people&amp;rdquo;. The page that
-Medium provides as a home page for me bears this out - there&amp;rsquo;s an
-extended discussion of &amp;ldquo;MCT Oil&amp;rdquo; (whatever that is, some diet fad),
-advice about venture capital, &amp;ldquo;8 steps for &amp;hellip;&amp;rdquo;, &amp;ldquo;23 great places for &amp;hellip;&amp;rdquo;,
-and &amp;ldquo;How You Train Your Brain To Get What You Really Want&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;All the pretty in the world doesn&amp;rsquo;t really help if you&amp;rsquo;re surrounded
-by life-hack, growth-hack, *-hack content, which all smell like
-thinly veiled self-promotion or advertising pitches. A steady diet
-of this kind of writing is soul-killing.&lt;/p&gt;
-
-&lt;p&gt;So, in the end, disappointing. Shiny on the outside, nice fonts, good
-use of whitespace, but uninspired content.&lt;/p&gt;
 </description>
     </item>
     
