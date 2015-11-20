@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container" class="list-group-item">OpenVPN in a container</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols" class="list-group-item">Stage lighting protocols</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-enjoy-the-attic-while-you-can" class="list-group-item">Enjoy the attic while you can</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission" class="list-group-item">Ann Arbor City Planning Commission Executive Committee meetings</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr" class="list-group-item">CubicSDR, a cross-platform software defined radio</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi" class="list-group-item">The AAATA MicroAPI</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4144,6 +4146,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12210,6 +12214,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12519,6 +12525,91 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>22 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-22-library-notes/">Library notes from Malletts Creek</a>
+      </h3>
+      <p>Out for a bike ride to Malletts Creek Branch Library after a delicious lunch of
+BBQ at Ricewood.</p>
+
+<hr/>
+
+<p>One of the challenges of low overhead custom postcard making is getting
+an image manipulation pipeline that kicks out photos that a appropriately
+cropped and sized. The latest challenge is identifying the single command
+line that will turn a photo from my phone&rsquo;s camera into an appropriately
+sized image for the card with a minimum of cropping, distortion, and
+manual file transfers.</p>
+
+<p>What I know doesn&rsquo;t work is upload via Twitter, because the series of
+resizings generate visible compression artifacts.</p>
+
+<p>I can upload from the phone to OneDrive, which gives me a photo of size
+2592 × 1456 pixels (1.78:1, 16:9). The target size is 1875 x 1275
+(1.47:1, 25:17), which is postcard format. I can keep all of the pixels
+in the image by letterboxing it, or I can crop off the edges. What I
+can&rsquo;t really do is stretch the image to fit because it&rsquo;s too far off.</p>
+
+<p>Looking further at my camera software (Lumia Camera) it appears
+that I can also take photos at 4:3. There&rsquo;s more experimenting to be done.</p>
+
+<p>For more documentation, see <a href="http://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/">Efficient Image Resizing With ImageMagick</a>,
+Dave Newton in Smashing Magazine, June 25, 2015. Dave goes through a
+professionally thorough view of resizing and resampling images for the web,
+comparing his results against Photoshop. For instance:</p>
+
+<blockquote>
+<p>I tested 31 different settings for <code>-filter</code> and got the best results
+with <code>Triangle</code>. The Triangle resampling filter is also known as
+bilinear interpolation, which I discussed above. It determines pixel
+color by looking at a support area of neighboring pixels and produces
+a weighted average of their colors. I found it best to specify this
+support area at two pixels using the <code>-define filter:support=2</code>
+setting.</p>
+</blockquote>
+
+<p>Dave uses DSSIM from <a href="https://pornel.net/dssim">https://pornel.net/dssim</a> to test his results.</p>
+
+<blockquote>
+<p>This tool computes (dis)similarity between two PNG images using
+(my approximation of) algorithms approximating human vision.
+Comparison is done in L<em>a*b</em> color space using a multi-scale variant
+of the SSIM algorithm.</p>
+</blockquote>
+
+<p>There are sites that have automatic crop algorithms, though I haven&rsquo;t
+yet found a package that&rsquo;s usable without licensing. The interactive
+web site of <a href="http://croppola.com/">Croppola</a> is one useful example of
+this genre.</p>
+
+<hr/>
+
+<p>Pittsburgh&rsquo;s smallest jazz club is installed in a bus stop on Liberty
+Avenue, across from 9th Street.  The shelter was installed on July
+6 and will remain until late August 2015. From the
+<a href="http://newpittsburghcourieronline.com/2015/07/09/the-worlds-smallest-jazz-club/">New Pittsburgh Courier Online</a>:</p>
+
+<blockquote>
+<p><a href="http://awesomepgh.com/2015/01/15/award-36-pittsburghs-smallest-jazz-club/">Awesome Pittsburgh</a>’s trustees smiled unanimously when they decided
+to choose the proposal for one of 2014’s $1000 grants, envisioning
+a bus patron who pushes a button, only to have an iPod play jazz
+music from one of MCG Jazz’s Grammy Award winning recordings. The
+interior walls of a bus shelter will feature images of Pittsburgh’s
+jazz legends, and a blank “Your Face Here!” space to take a picture
+of yourself at “Pittsburgh’s Smallest Jazz Club.” Lamar Outdoor,
+owner of the bus shelters in Pittsburgh and Allegheny County, is
+already on board to help make the project happen.</p>
+</blockquote>
+
+<p>The project was done by <a href="http://mcgjazz.org/">MCG Jazz</a> -
+<a href="https://twitter.com/Amy_MCGJazz">Amy Kline</a> is their marketing manager.</p>
+
+<hr />
+
+<p>Network issues at Malletts Creek branch were a good reason to exit back
+towards town.</p>
 
 
   <h3>22 July 2015</h3>
@@ -13665,49 +13756,6 @@ git push origin master
 continuous build on your draft setup going, and then push a
 working version whenever you&rsquo;re perfectly happy with the result.
 Not like anyone is really perfectly happy with any blog.</p>
-
-
-  <h3>14 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/Mac-and-Goat/">Mac and Goat</a>
-      </h3>
-      
-
-<p><strong>Mac and Goat</strong> calls for goat cheese; we generally use a goat gouda or
-a goat cheddar, both of which are usually available at the local
-Trader Joe&rsquo;s. Feel free to substitute any hard cheese that melts
-well in your recipe.</p>
-
-<p>The dish also calls for rice pasta, but again feel free to substitute;
-you&rsquo;re aiming for something like a rotini which handles the sauce well.</p>
-
-<p>Preheat oven to 375 degrees. Take out a lasagna pan, which is
-what you&rsquo;re going to assemble the dish in.</p>
-
-<h2 id="mac-and-goat:b7d41359d960c78f56dcc5a9d35b0ec6">Mac and Goat</h2>
-
-<ul>
-<li>1 lb. pasta</li>
-<li><sup>1</sup>&frasl;<sub>2</sub> lb. goat gouda, goat cheddar, or a nice aged gouda or cheddar</li>
-<li>1 large can crushed tomatoes</li>
-<li>bread crumbs</li>
-<li>ground nutmeg</li>
-<li>romano cheese</li>
-</ul>
-
-<p>Boil water for pasta; cook a pound or so of your favorite pasta,
-we use a rice rotini pasta in this one.</p>
-
-<p>Shred the cheese fine in a food processor or with a hand grater.</p>
-
-<p>When the pasta is done, drain it, and then put about half of it
-in the lasagna pan. Cover with about half of the cheese and half of
-the tomatoes. Put the rest of the pasta in, then more tomatoes and
-more cheese. Top with breadcrumbs and then sprinkle a little romano
-cheese on top and a few pinches of nutmeg for flavor.</p>
-
-<p>Cook 20-25 minutes, until the top is lightly browned and the
-tomato sauce is bubbling.</p>
 
 
 
