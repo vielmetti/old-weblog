@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-11-21-first-snow-of-the-season" class="list-group-item">First snow of the 2015 season</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container" class="list-group-item">OpenVPN in a container</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols" class="list-group-item">Stage lighting protocols</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc" class="list-group-item">Slack vs IRC</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-10-31-ann-arbor-city-planning-commission" class="list-group-item">Ann Arbor City Planning Commission Executive Committee meetings</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr" class="list-group-item">CubicSDR, a cross-platform software defined radio</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4146,6 +4148,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12216,6 +12220,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12525,6 +12531,59 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>14 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/">Publishing from Hugo to Github Pages</a>
+      </h3>
+      <p>One of the challenges in getting things started is figuring
+out where the end product is going to live. Hugo has its own
+web server which is pretty nice, but since it generates static
+pages, the results can really go anywhere.</p>
+
+<p>This tutorial goes through the process in excruciating detail</p>
+
+<p><a href="http://gohugo.io/tutorials/github-pages-blog/">http://gohugo.io/tutorials/github-pages-blog/</a></p>
+
+<p>but somehow fails to make it easy. What I&rsquo;d like is a publishing
+workflow that just like the normal Hugo workflow puts things online
+instantly once they are built.</p>
+
+<p>This one deploys with CodeShip</p>
+
+<p><a href="http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/">http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/</a></p>
+
+<p>And this one deploys with Wercker</p>
+
+<p><a href="http://gohugo.io/tutorials/automated-deployments/">http://gohugo.io/tutorials/automated-deployments/</a></p>
+
+<p>Yet one more, with Github hooks and S3/Cloudfront; it depends on s3cmd.</p>
+
+<p><a href="https://github.com/imperialwicket/imperialwicket.com">https://github.com/imperialwicket/imperialwicket.com</a></p>
+
+<p>Finally, one that focuses on the github side of things:</p>
+
+<p><a href="https://gist.github.com/chrisjacob/825950">https://gist.github.com/chrisjacob/825950</a></p>
+
+<p>The approach I have runs like so, it assumes that you have
+a working directory &ldquo;~/src/hugo&rdquo; with your blog in it, and
+a target directory &ldquo;~/src/vielmetti.github.io&rdquo; set up for
+github pages.</p>
+
+<pre><code>cd ~/src/hugo
+hugo -d ../vielmetti.github.io --theme=vacuum
+# wait to build, then
+cd ../vielmetti.github.io
+git add -A .
+git commit -m &quot;build complete&quot;
+git push origin master
+</code></pre>
+
+<p>By having separate build directories like this you can keep the
+continuous build on your draft setup going, and then push a
+working version whenever you&rsquo;re perfectly happy with the result.
+Not like anyone is really perfectly happy with any blog.</p>
 
 
   <h3>14 July 2015</h3>
@@ -13067,25 +13126,6 @@ curl: (7) Failed to connect to localhost port 3128: Connection refused
 <h3>Ubuntu on x86: large file sizes</h3>
 
 <p>A report that <a href="https://forums.docker.com/t/docker-1-7-0-is-using-huge-amount-of-disk-space/2046">Docker 1.7.0 is using huge amounts of disk space</a> appears on the Docker forum, item 2046. <a href="https://github.com/docker/docker/issues/14204">Pulling image fills disk/image size is huge, version 1.7.0</a> is issue 14204 on Docker. Not much insight into this one yet.</p>
-
-
-  <h3>26 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-26-the-law-of-the-land/">The law of the land</a>
-      </h3>
-      <p>The opinion in <a href="http://www.supremecourt.gov/opinions/14pdf/14-556_3204.pdf">Obergefell v. Hodges</a> reads in part:</p>
-
-<blockquote>
-  <p>No union is more profound than marriage, for it embodies the highest ideals of love, fidelity, devotion, sacrifice, and family. In forming a marital union, two people become something greater than once they were. As some of the petitioners in these cases demonstrate, marriage embodies a love that may endure even past death. It would misunderstand these men and women to say they disrespect the idea of marriage. Their plea is that they do respect it, respect it so deeply that they seek to find its fulfillment for themselves. Their hope is not to be condemned to live in loneliness, excluded from one of civilization’s oldest institutions. They ask for equal dignity in the eyes of the law. The Constitution grants them that right. </p>
-  
-  <p>The judgment of the Court of Appeals for the Sixth Circuit is reversed.</p>
-</blockquote>
-
-<p>In Ann Arbor, the celebration is happening at the Jim Toy Community Center in Braun Court.</p>
-
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">View from my office this morning. <a href="https://twitter.com/hashtag/AnnArbor?src=hash">#AnnArbor</a> is celebrating the <a href="https://twitter.com/hashtag/SCOTUSMarriage?src=hash">#SCOTUSMarriage</a> decision! <a href="https://twitter.com/hashtag/LoveWins?src=hash">#LoveWins</a> <a href="https://twitter.com/autbar">@autbar</a> <a href="http://t.co/vAxDdDZqOY">pic.twitter.com/vAxDdDZqOY</a></p>&mdash; Carly Peabody, PHR (@CarlyPeabody) <a href="https://twitter.com/CarlyPeabody/status/614446025919496192">June 26, 2015</a></blockquote>
-
-<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 
 
