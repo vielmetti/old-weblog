@@ -6,8 +6,53 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2015 13:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2015 15:00:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>October 2015 food inspections for Washtenaw County</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-27-october-2015-food-inspections/</link>
+      <pubDate>Fri, 27 Nov 2015 15:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-27-october-2015-food-inspections/</guid>
+      <description>&lt;p&gt;Every month or so the Washtenaw County Health Department releases the previous month&amp;rsquo;s
+health inspection reports. These are published to the county&amp;rsquo;s contracted web service,
+and a copy of those is extracted for the &lt;a href=&#34;http://food-inspections.annarbortelegraph.com/&#34;&gt;Food Inspections&lt;/a&gt;
+service designed by Wayne Eaker.&lt;/p&gt;
+
+&lt;p&gt;There are 272 inspections for October 2015 and 50 more for November 2015 available. Here
+are some of the low lights of this month&amp;rsquo;s round of inspections, places where you might
+want to think about twice before making a visit.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-11-03-dalat-restaurant&#34;&gt;Dalat&lt;/a&gt;,
+Ypsilanti, inspected on November 3. &amp;ldquo;Observed sewage backing up to
+the floor underneath the food prep sink.&amp;rdquo; &amp;ldquo;Raw chicken and beef
+boxes being used to store other ready to eat foods (i.e. vegtables)
+in various coolers in the facility.&amp;rdquo; 12 violations total, 8 critical.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-11-02-melting-pot&#34;&gt;Melting Pot&lt;/a&gt;,
+Ann Arbor, their last inspection on November 2 before the restaurant closed
+for good later in the month. &amp;ldquo;Observed the dishwasher go from loading soiled dishes to putting away clean dishes without washing hands.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-10-21-great-plains-burger-company&#34;&gt;Great Plains Burger Company&lt;/a&gt;,
+Ann Arbor, inspected on October 21 with 14 total violations.
+&amp;ldquo;Observed many small flies (fruit flies) around prep sink where french fries are prepared.&amp;rdquo;
+&amp;ldquo;Containers used to store french fries observed soiled. A cleaned inverted container observed with many flies trapped under it and were seen landing on container.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-10-29-shalimar-restaurant&#34;&gt;Shalimar Restaraunt&lt;/a&gt;
+on Main Street in Ann Arbor, inspected on October 29 with 3 total violations.
+&amp;ldquo;Observed 4 bottles of liquor with flies inside.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/2015-10-21-haabs-restaurant&#34;&gt;Haab&amp;rsquo;s Restaurant&lt;/a&gt;
+in Ypsilanti with 15 violations on October 21.
+&amp;ldquo;Observed the hand sink for the basement kitchen wrapped in plastic wrap to avoid using due to unrepair leaking.
+The only available hand sink is in another area through a door and significant distance away from this kitchen.&amp;rdquo;
+&amp;ldquo;Observed severe infestation of drain flies noted at bar and main kitchen.&amp;rdquo;
+&amp;ldquo;Observed drain flies in the bottom of open bottle of scotch at bar.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Please check out your favorite destination before visiting!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>First snow of the 2015 season</title>
@@ -498,52 +543,6 @@ Commission, which is actively looking to advance its agenda, should
 be working harder to make sure that the people can see what they are
 up to. Otherwise you hold a meeting and spend time away from your
 kids and there&amp;rsquo;s no record of it - why did you bother?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open Github issues and open source projects</title>
-      <link>http://vielmetti.github.io/post/2015/2015-11-04-open-github-issues/</link>
-      <pubDate>Wed, 04 Nov 2015 13:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-11-04-open-github-issues/</guid>
-      <description>&lt;p&gt;As a first approximation, the number of open issues on an open source
-project that uses Github to track its issues is a metric of software
-complexity and project maturity.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s always worrisome to look at a project that has very few issues,
-because that&amp;rsquo;s usually a signal that no one else is using the code.
-Every bit of software has incomplete features that prompt a request,
-and bugs looking for a fix. No open issues at all suggest a dead
-project, or at least one that&amp;rsquo;s not actively attracting development.&lt;/p&gt;
-
-&lt;p&gt;Too many issues, on the other hand, suggest a system that&amp;rsquo;s so
-complex that no one person has a complete understanding of how
-the project works. The number of issues can grow beyond the point
-where a person could read and understand all the incoming bug
-reports and feature requests.&lt;/p&gt;
-
-&lt;p&gt;Every successful open source project deals with the struggle between
-adding new features to fill out the original vision of the designers
-and fixing enough bugs to make the system stable enough that it
-can be used in production without undue fears. This tug-of-war between
-features and bug fixes plays itself out over time, and sometimes
-difficult and complex bugs that only affect a few users get
-deprioritized over shiny new features that will attract a lot of
-new people to the project.&lt;/p&gt;
-
-&lt;p&gt;How many open issues can one person track? I&amp;rsquo;ll estimate that the
-number is about 100, plus or minus. So when a two person project
-has 50 open issues, it seems like it&amp;rsquo;s under control. A project
-that has over 1000 open issues (e.g. docker) can only raise some
-warning flags - how did it get to be so big? What sorts of issues
-can stick around for years and not get resolved? How on earth does
-one profess to have any overall understanding of a system that
-complex, short of devoting themselves to it?&lt;/p&gt;
-
-&lt;p&gt;Related:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://blog.abevoelker.com/why-i-dont-use-docker-much-anymore/&#34;&gt;Why I don&amp;rsquo;t use Docker much anymore&lt;/a&gt;, Abe Voelker.&lt;/p&gt;
 </description>
     </item>
     
