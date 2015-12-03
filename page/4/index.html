@@ -72,6 +72,8 @@
 	 
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator" class="list-group-item">The productivity oscillator</a></li>
          
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-kicked-out-of-nextdoor" class="list-group-item">Kicked out of Nextdoor</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-30-ann-arbor-city-administrator-craigslist" class="list-group-item">Help Wanted, Ann Arbor City Administrator, via Craiglist</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-27-october-2015-food-inspections" class="list-group-item">October 2015 food inspections for Washtenaw County</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-04-open-github-issues" class="list-group-item">Open Github issues and open source projects</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-open-city-hall" class="list-group-item">Open City Hall and government by survey</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-halloween-twitter-vs-facebook" class="list-group-item">Halloween Twitter vs Facebook</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4154,6 +4156,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12240,6 +12244,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12549,6 +12555,36 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>26 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections/">restaurant inspections</a>
+      </h3>
+      <p>Every month the Washtenaw County Health Department does a round
+of <span style="background-color: #ffffbf;">restaurant inspections</span>. <span style="background-color: #bfffff;">Wayne Eaker</span> built
+an <a href="https://github.com/zengenuity/food-inspections">importer</a> that
+pulls in data from the site that hosts the official county inspections,
+and is storing the <a href="https://github.com/zengenuity/food-inspections-data">inspection data</a>
+on Github to make it easier for the next person who wants to build
+a nice interface to all the data.</p>
+
+<p>Wayne was good enough to find a spot to host an interface to this data
+that lets you browse through it; you can find it at</p>
+
+<p><a href="http://food-inspections.annarbortelegraph.com">http://food-inspections.annarbortelegraph.com</a></p>
+
+<p>There are permalinks to each inspection so that you can link to them.
+See e.g. recent inspections for</p>
+
+<ul>
+<li><a href="http://food-inspections.annarbortelegraph.com/2015-06-17-slurping-turtle">Slurping Turtle</a>, June 17, 2015</li>
+<li><a href="http://food-inspections.annarbortelegraph.com/2015-04-27-china-chef-restaurant">China Chef</a>, Ypsilanti, April 27, 2015</li>
+<li><a href="http://food-inspections.annarbortelegraph.com/2015-06-22-nu-wave-fish-chicken">Nu Wave Fish and Chicken</a>, June 22, 2015</li>
+</ul>
+
+<p>for three examples of places where I want to see a clean inspection on a followup
+visit before I go or go back to there.</p>
 
 
   <h3>25 July 2015</h3>
@@ -13790,59 +13826,6 @@ ended and town will be more back to normal.</p>
 
 <p>The big event coming up is <a href="http://www.makerfairedetroit.com/">Maker Faire Detroit</a>, to be held at The
 Henry Ford in Dearborn.</p>
-
-
-  <h3>15 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/">diligently editing and converting for production</a>
-      </h3>
-      <p>I&rsquo;m trying my best to get this blog ready for production.
-The tasks remaining include the following.</p>
-
-<ol>
-<li><p>Get a reasonable home page with pagination. Somehow I need
-to provide some kind of access to almost 2000 posts, and they
-don&rsquo;t all fit on a single page. Sort through the design to make
-old things reachable, and then worry next about the formatter.
-(This is done at least minimally, though the provided paginator
-interface uses a list structure that&rsquo;s not nice. Still, it gets
-me to what I need to in a ping.) Open discussion on gohugo is
-<a href="http://discuss.gohugo.io/t/pagination-and-group-by-date/1441/3">Pagination and group by date</a>.</p></li>
-
-<li><p>Publish to Github Pages, using vielmetti.github.io. I did this
-once (using Octopress) so it should be straightforward to do it again.
-I already do have a proper github repo (or nearly proper, it may
-be missing some key bits). Done; don&rsquo;t have a perfect build script
-yet, but there&rsquo;s at least a start.</p></li>
-
-<li><p>Import all sorts more nonsense here, including a bunch of Superpatron
-and Blogger&rsquo;s Secret and FOIA Coordiator weblogs. There&rsquo;s no particular
-reason not to make it all one big soup. Import from Typepad is problematic
-but not impossible and that would be a good addition to the supported work;
-in particular it&rsquo;s not evidently possible to export Markdown from Typepad,
-just HTML.</p></li>
-
-<li><p>Sort out theme issues so that I get a reasonable display for category
-and subcategory pages. I may have to write some things down by hand
-to get an understanding of what I really want. As it is right now
-those pages render as blank, in part because I need to convert a bunch
-of data imperfectly imported, which was throwing errors in my
-templates, which in turn was breaking the build. Dealing with the
-errored out builds is a question again for gohugo,
-<a href="http://discuss.gohugo.io/t/taxononomy/1445">taxononomy</a></p></li>
-
-<li><p>Deal with the date problems. Lots of dates got imported without a timezone,
-but that was not the real issue; the real issue was also that lots got
-imported with &ldquo;layout: post&rdquo;. Take that out and it seems to fix things.</p></li>
-
-<li><p>Request a dump of the image cache from Typepad.</p></li>
-
-<li><p>Implement, somehow, &ldquo;edit on github&rdquo; so that my workflow is easier.
-This might only be on the preview version. Some notes on the Hugo discussion
-forums
-describing how to do that are on
-<a href="http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166">How to implement “edit this page on github”?</a>.</p></li>
-</ol>
 
 
 

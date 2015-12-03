@@ -72,6 +72,8 @@
 	 
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator" class="list-group-item">The productivity oscillator</a></li>
          
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-kicked-out-of-nextdoor" class="list-group-item">Kicked out of Nextdoor</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-30-ann-arbor-city-administrator-craigslist" class="list-group-item">Help Wanted, Ann Arbor City Administrator, via Craiglist</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-27-october-2015-food-inspections" class="list-group-item">October 2015 food inspections for Washtenaw County</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-04-open-github-issues" class="list-group-item">Open Github issues and open source projects</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-open-city-hall" class="list-group-item">Open City Hall and government by survey</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-halloween-twitter-vs-facebook" class="list-group-item">Halloween Twitter vs Facebook</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4154,6 +4156,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12240,6 +12244,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12584,6 +12590,36 @@ a quantified form of <a href="http://vielmetti.typepad.com/vacuum/2005/04/margin
 I&rsquo;ve been talknig about for 10 years.</p>
 
 <p>I wonder if there&rsquo;s anything still on my todo list from 2005!</p>
+
+
+  <h3>1 December 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-12-02-kicked-out-of-nextdoor/">Kicked out of Nextdoor</a>
+      </h3>
+      <p>Subject: Recent Tweet about Nextdoor</p>
+
+<p>Hi Ed,</p>
+
+<p>My name is Michael and I work at Nextdoor.</p>
+
+<p>Recently it has come to our attention that there isn’t a Nextdoor
+for your neighborhood, and that you have registered in a nearby
+Nextdoor neighborhood. Thank you for your interest in joining
+Nextdoor and becoming part of your community on our website. However
+we do need people to register at their real addresses, as it helps
+us add a sense of accountability, security and transparency to the
+website. Due to privacy concerns, I am forced to place a hold on
+your account. However, this need not be a long hold! If you give
+me your address, you and I can work on building a neighborhood for
+you together.</p>
+
+<p>Please let me know how you would like to proceed. I am excited to
+get you started on your new Nextdoor neighborhood soon.</p>
+
+<p>Enjoy your day,</p>
+
+<p>-Michael [Last name redacted for privacy]
+Nextdoor</p>
 
 
   <h3>30 November 2015</h3>
@@ -13375,62 +13411,6 @@ lots to look forward to.</p>
 <p>CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
 and it&rsquo;s free-as-in-GPL, so it&rsquo;s very much worthwhile to give it a
 download and see what it looks like.</p>
-
-
-  <h3>30 October 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi/">The AAATA MicroAPI</a>
-      </h3>
-      <p>I had a good conversation with Prabal Dutta today about the sort of infrastructure
-you need to build a very simple bus tracker application for the current iteration
-of the AAATA&rsquo;s online system.</p>
-
-<p>The desired goal is actually fairly simple: for a single place, identify the approximate
-location of a bus on a single bus line that serves that place, and alert the rider in time
-so that they can walk (or run) to catch the bus. Allow some time for getting there early.</p>
-
-<p>The JSON endpoint that shows all the buses on Route 5 you can fetch as follows:</p>
-
-<pre><code>curl -s http://microapi.theride.org/Location/5
-</code></pre>
-
-<p>and the data itself has records that look like this:</p>
-
-<pre><code>  {
-    &quot;Id&quot;: &quot;48674187&quot;,
-    &quot;routeAbbr&quot;: &quot;5&quot;,
-    &quot;adherence&quot;: -5,
-    &quot;timestamp&quot;: &quot;00:01:11.1189770&quot;,
-    &quot;lat&quot;: 422301779,
-    &quot;longitude&quot;: -837077535,
-    &quot;busNum&quot;: 401,
-    &quot;routeDirection&quot;: &quot;to Ann Arbor&quot;,
-    &quot;timePointName&quot;: &quot;Ellsworth &amp; Braeburn&quot;,
-    &quot;timePointAltName&quot;: &quot;N- Ellsworth Rd. west of Braeburn&quot;,
-    &quot;crossingTime&quot;: &quot;4:46 PM&quot;,
-    &quot;timePointStopID&quot;: &quot;1327&quot;
-  },
-</code></pre>
-
-<p>which reads as follows: &ldquo;At 4:46 PM, bus 401 was 5 minutes late and located at
-the Ellsworth &amp; Braeburn timepoint. That was 1 minute 11.1 seconds ago.&rdquo;</p>
-
-<p>It&rsquo;s then a short exercise left to the reader to suss out what this means for them.
-The simplest thing to do is to filter through the bus listings, pick out the ones
-where &ldquo;routeDirection&rdquo; is heading the right way, and where the &ldquo;timePointName&rdquo; is
-close enough that you can run for the bus but not so close that the bus has already
-zoomed past.</p>
-
-<p>My favorite general purpose tool for dealing with JSON data is <code>jq</code>, from
-<a href="https://stedolan.github.io/jq/">https://stedolan.github.io/jq/</a> . It has a syntax for filtering through and querying
-JSON objects with about as much expressive power as <code>sed</code>. The slightly more
-useful command runs like</p>
-
-<pre><code>curl -s http://microapi.theride.org/Location/5 | jq -c '.[]|[.routeDirection, .timePointName]' 
-</code></pre>
-
-<p>which picks out <code>routeDirection</code> and <code>timePointName</code> and lands them on a single line <code>-c</code>
-suitable for any of your favorite Unix tools.</p>
 
 
 
