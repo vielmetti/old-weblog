@@ -70,6 +70,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-04-dave-farber-stanford-talk" class="list-group-item">Dave Farber talk at Stanford</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful" class="list-group-item">Split tunnels considered harmful</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator" class="list-group-item">The productivity oscillator</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-kicked-out-of-nextdoor" class="list-group-item">Kicked out of Nextdoor</a></li>
@@ -105,14 +109,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-09-foia-ask-for-less" class="list-group-item">When the FOIA request costs too much, ask for less</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-06-minutes-and-agendas" class="list-group-item">Minutes and agendas</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-04-open-github-issues" class="list-group-item">Open Github issues and open source projects</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-01-open-city-hall" class="list-group-item">Open City Hall and government by survey</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4156,6 +4160,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -12246,6 +12254,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12555,6 +12567,42 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>28 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/">Running DD-WRT as a switch on a Linksys WRT54GL</a>
+      </h3>
+      <p>I don't really need more wifi access points in the house, but I do need more wired ethernet ports. Thanks to ellemef's box o'goodies I have a WRT54GL to play with, and I put DD-WRT on it set up in a configuration to run as a switch plugged into my existing ATT UVerse router. </p>
+
+<p>I got the <a href="http://www.dd-wrt.com/wiki/index.php/Linksys_WRT54GL">DD-WRT firmware loaded</a> by following the provided directions. Then I followed the instructions at <a href="http://www.dd-wrt.com/wiki/index.php/Switch">You are here: DD-WRT wiki mainpage / Linking Routers / Switch</a> for configuration. A quick reboot and some recabling and a couple of Raspberry Pis now have their own ethernet ports.</p>
+
+<p>The WRT54GL has a tiny amount of memory by modern standards - 4 megabytes of flash, and only 16 megabytes of system memory - but that's fine for the software of its era.</p>
+
+
+  <h3>27 June 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-06-27-gogs-a-self-hosted-git-server/">Gogs, a self-hosted Git server</a>
+      </h3>
+      <p>Gogs is a self-hosted Git server, an alternative to using Github as a for-pay hosted service or Gitlab as another self-hosted system. It's written in the Go language, and is said to be sparing of system resources.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a5b824970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-06-27 at 11.01.35 PM" title="Screen Shot 2015-06-27 at 11.01.35 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-600wi" /></a><br /></p>
+
+<p>I'm building it using Docker on a Raspberry Pi 2, thanks to the folks at Hypriot; the writeup is <a href="http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/">Run your own GitHub-like service with the help of Docker</a>, and the file on Dockerhub is at <a href="https://registry.hub.docker.com/u/hypriot/rpi-gogs-raspbian/">hypriot/rpi-gogs-raspbian</a>. The install went essentially as described; note that if you are using Avahi to provide a .local name service, you can avoid using IP addresses in configuration files and instead use names like "black-pearl.local" as your hostname.</p>
+
+<p>Juan B. Rodriguez did a nice writeup of <a href="http://jbrodriguez.io/gogs-an-alternative-to-gitlab/">Gogs, an alternative to Gitlab</a>, again with a Docker based installation description and a nice feature comparison.</p>
+
+<p>After some poking around with Gogs I noted three substantial limitations, none of which are complete show-stoppers but which collectively give me pause about doing a wholesale replacement of Github with Gogs; and a fourth that gives me hope for some project that might address these issues but which might not end up being called Gogs.</p>
+
+<p>First, there's no built-in wiki. I don't always use a wiki with a Github repository, and when I do I'm not always thrilled by the minimalist features of Github's wiki, but it's mighty handy and I miss it right away. Gogs doesn't have a wiki, and though it's been an acknowledged issue for a long time it doesn't seem to have any forward movement.</p>
+
+<p>Second, there's no built-in file editor. I'm very used to the workflow where you see a file that has some small problem, you fork the repository right in the editor, type in your fix, save, and submit your patch to the maintainers. It's a very straightforward way of doing small things efficiently without dropping down to the command line, and the lack of it makes Gogs hard to understand how it would work in a mostly-web world.</p>
+
+<p>Third, Gogs has a lot of obvious copying from Github, and I'm uncertain about the whole ethos of wholesale replication of documentation. Sometimes there's not even an effort made to document what the system does and instead there's just a link to Github documentation. Self-hosted systems should have self-hosted documentation, and even if you're replicating someone else's system faithfully you still need to write up your own docs.</p>
+
+<p>Fourth and finally, Gogs has been forked. "gitea" is "Git with a cup of tea", and it seems to have a bunch of energy to fix things that the Gogs project is currently lacking. See <a href="https://github.com/go-gitea/gitea">the gitea project on Github</a> and its corresponding <a href="https://gitter.im/go-gitea/gitea">gitter chat for gitea</a>. gitea has not produced a release yet, but when it does I'll be sure to look for a reasonable packaging of it to try it out.</p>
+
+<p>All of that said, I'm happy to have found Gogs, and plan to poke through it some more and store some not-very-important files in it for a while until I get some confidence in it. I don't think it (or gitea) is an instant replacement for my hosted Github service, but for the narrow purpose of holding a private repository beyond what Github provides for its service plan it looks like a reasonable alternative now.</p>
 
 
   <h3>27 June 2015</h3>
@@ -13110,45 +13158,6 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/A2GOV">@A2GOV</a> just fix the fire hydrant ok?</p>&mdash; Edward Vielmetti (@vielmetti) <a href="https://twitter.com/vielmetti/status/606540809454772224">June 4, 2015</a></blockquote>
 
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-
-  <h3>2 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-02-gin-and-rhubarb/">Gin and rhubarb</a>
-      </h3>
-      <p>As noted elsewhere, gin and rhubarb are said to go well together.</p>
-
-<p><a href="http://boozedandinfused.com/2012/05/30/a-tale-of-two-rhubarbs-and-some-gin/">Boozed and Infused</a> has two recipes, one for Rhubarb Gin and one for Rhubarb Orange Gin.</p>
-
-<p>A <a href="http://theyearinfood.com/2011/05/the-tippler-rhubarb-fennel-fizz.html">Rhubarb Fennel Fizz</a> is from The Year in Food.</p>
-
-<p>I am promised that if I provide the rhubarb, that gin will be provided to me.</p>
-
-<p>Can't talk about rhubarb without Rhabarberbarbara.</p>
-
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/gG62zay3kck?rel=0" frameborder="0" allowfullscreen></iframe></p>
-
-
-  <h3>29 May 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/">Making Lag Monster a bit less laggy</a>
-      </h3>
-      <p>@tallervielmetti is using my old black Macbook. It's never been an exceptionally fast machine, but it's been super laggy of late, hence the name Lag Monster. </p>
-
-<p>I installed all kinds of crap on that machine to test it out, and never uninstalled a lot of it. It turns out that some judicious uninstalls seemed to help a lot to keep the load average down. Some hints to my future self if these ever re-emerge:</p>
-
-<p>BBLaunchAgent. Yes, relics of my old Blackberry still linger on, and to really and truly kill them I had to edit plists. See <a href="https://discussions.apple.com/thread/2752009?start=0&amp;tstart=0">Can't delete BBLaunchAgent.app process</a> for the eventual diff I applied. For a more exhaustive list of Blackberry-uninstalling tools see <a href="https://blog.omgmog.net/post/removing-the-blackberry-desktop-software-for-mac-without-having-to-re-download-a-70mb-installer-from-blackberry/">Removing the Blackberry Desktop Software for Mac without having to re-download a 70mb installer from Blackberry</a>.</p>
-
-<p>Jenkins. Some time in the distant past I installed it, and it launched under Java and ran and did nothing for years except contribute to lag. Killed by removing the install directory and rebooting.</p>
-
-<p>Chrome. Lots of Chrome stuff takes up memory. Particularly contributing to lag was some Reddit page. </p>
-
-<p>At the end we're at</p>
-
-<p>Processes: 77 total, 2 running, 1 stuck, 74 sleeping, 355 threads      22:40:09
- Load Avg: 0.22, 0.67, 0.68  CPU usage: 17.75% user, 12.14% sys, 70.9% idle</p>
-
-<p>Which is, I have to say, a lot better.</p>
 
 
 
