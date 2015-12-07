@@ -6,8 +6,31 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Dec 2015 23:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2015 06:45:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Kodi, formerly XMBC</title>
+      <link>http://vielmetti.github.io/post/2015/2015-12-07-kodi-formerly-xmbc/</link>
+      <pubDate>Mon, 07 Dec 2015 06:45:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-12-07-kodi-formerly-xmbc/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been looking at &lt;a href=&#34;http://kodi.tv&#34;&gt;Kodi&lt;/a&gt; as a possible software
+core for home media player for the living room. We have a whole
+rack of CDs and a shelf of LPs from our music-buying days, and I
+miss being able to listen to them.&lt;/p&gt;
+
+&lt;p&gt;Kodi is the software formerly known as XMBC, and XMBC is still
+the name of the foundation that supports the work. It runs on
+most systems, and there are several distributions of it specifically
+for systems like the Raspberry Pi. in particular the
+&lt;a href=&#34;http://wiki.openelec.tv/index.php/OpenELEC_FAQ&#34;&gt;OpenELEC&lt;/a&gt;
+distribution.&lt;/p&gt;
+
+&lt;p&gt;This is not a review or a how to, just some notes so that when
+I come back to the task I will have a better running start at it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Dave Farber talk at Stanford</title>
@@ -530,31 +553,6 @@ of getting work.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m interested in hearing from you if you have deleted your LinkedIn
 (or have stayed away from it).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Localwiki for Jackson, Michigan</title>
-      <link>http://vielmetti.github.io/post/2015/2015-11-17-a-localwiki-for-jackson-michigan/</link>
-      <pubDate>Tue, 17 Nov 2015 23:59:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-11-17-a-localwiki-for-jackson-michigan/</guid>
-      <description>&lt;p&gt;There is now a Localwiki instance up and running for Jackson, Michigan. See
-&lt;a href=&#34;https://localwiki.org/jackson/&#34;&gt;https://localwiki.org/jackson/&lt;/a&gt; for the details.&lt;/p&gt;
-
-&lt;p&gt;Like any Localwiki just starting out, it is woefully incomplete. You&amp;rsquo;re welcome
-to contribute to it, especially if you have some local knowledge of the area.
-The site was seeded with a handful of articles that had been created from the
-adjacent Arborwiki, and while it&amp;rsquo;s starting up we&amp;rsquo;re using the
-&lt;a href=&#34;https://www.facebook.com/groups/268836399886132/&#34;&gt;Arborwiki Facebook page&lt;/a&gt; to help
-push things along.&lt;/p&gt;
-
-&lt;p&gt;One of the best ways to discover a new place is through the restaurants that have
-some local notability but that aren&amp;rsquo;t at the usual highway exits. The first
-discovery from the Jackson Localwiki is the
-&lt;a href=&#34;https://localwiki.org/jackson/West_Texas_BBQ&#34;&gt;West Texas BBQ&lt;/a&gt; on Brooklyn Rd
-south of the city. &amp;ldquo;Authentic Texas pit style barbeque&amp;rdquo; is the attraction. Haven&amp;rsquo;t
-been there myself, but now that I know it&amp;rsquo;s there it will be worth a detour.&lt;/p&gt;
 </description>
     </item>
     
