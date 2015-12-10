@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-10-thanks-for-birthday-wishes" class="list-group-item">Thanks to everyone for birthday wishes, 2015 edition</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-08-open-meetings-act-minutes-request" class="list-group-item">Requesting meeting minutes under the Open Meetings Act</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-07-kodi-formerly-xmbc" class="list-group-item">Kodi, formerly XMBC</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-melting-pot-closing" class="list-group-item">Ann Arbor&#39;s The Melting Pot is closing</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-foia-update" class="list-group-item">FOIA update for tonight&#39;s City Council meeting</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-every-day-people" class="list-group-item">Every day people</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4164,6 +4166,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12270,6 +12274,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12579,6 +12585,42 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>1 November 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-11-01-halloween-twitter-vs-facebook/">Halloween Twitter vs Facebook</a>
+      </h3>
+      <p>The two online social networks that consume idle cycles for me are Twitter and
+Facebook. They really shouldn&rsquo;t be all that different, but of course they are.</p>
+
+<p>Halloween Twitter for me was full of football, ranging from idle banter about
+the score to full-on intense #goblue insanity as the game went down to its
+final moments. (The Team won, 29-26, after The Other Team made a crucial mistake
+at the end). You didn&rsquo;t have to have a radio or television to know the score
+and all of the details.</p>
+
+<p>Halloween Facebook was full of faces of cute kids and sharp-looking costumes
+and accounts of how many trick-or-treaters showed up at the most popular spots.
+(1,036 pieces of candy given out, one per kid, at the hotspot).</p>
+
+<p>Twitter works best when there are a lot of people all synchronized on the same
+event - it&rsquo;s a remarkably good companion to television or broadcast radio in that
+way. Unlike the dreams of &ldquo;Interactive Television&rdquo; of the 1990s, the broadcast
+channel and the return channel are completely different, but the effect is the
+same: the audience is connected to what it&rsquo;s listening to and to each other.</p>
+
+<p>Facebook doesn&rsquo;t have that same everyone-is-watching feel, but it makes up for
+it by biasing the feed that you get towards pictures of faces of friends and family.
+Even though there&rsquo;s generally plenty of real-time content to go around, Facebook
+makes sure you&rsquo;re not lonely by encouraging you to post more pictures from years gone
+by.</p>
+
+<p>I&rsquo;d love to disconnect more from both networks - they absorb time without suitable
+compensation - and write more elsewhere. We spend too much of our time looking
+for favorites, thumbs up, and likes on both networks, calibrating the success of
+our writing by how many random people in the random world clicked a certain button
+in response. Still they both provide a measure of entertainment.</p>
 
 
   <h3>1 November 2015</h3>
@@ -14012,80 +14054,6 @@ and which I never bought for my own self. And then back a little bit
 further, when a 5 megabyte Davong drive was the bee&rsquo;s knees.</p>
 
 <p>What do you do with a terabyte? Lots of backups.</p>
-
-
-  <h3>26 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/">RRDTool v1.5.4 on Raspberry Pi</a>
-      </h3>
-      <p>The second in a series of efforts to get a suitable database for
-the task.</p>
-
-<p>The challenge is that there&rsquo;s a lot of data out there that changes
-all the time, and you want to gather it, make sure it&rsquo;s sane, squirrel
-it away for later analysis, put together a pretty chart so that you
-can spot check it, feed it into other systems not yet fully dreamed
-of to cause actions, and so on. It&rsquo;s the &ldquo;big data&rdquo; problem in that
-you have sensors that throw off a lot of data exhaust, and it&rsquo;s the
-&ldquo;internet of things&rdquo; problem because mostly you&rsquo;re looking at things
-with data and not say imagery or lots of freeform text.</p>
-
-<p>Phase one of this effort was wrestling MongoDB into service, which
-ended up being only a handful of lines of code; but the concern expressed
-was the Mongo though fun and easy for small projects gets messy for
-big ones, and there&rsquo;s good reason not to succumb to its siren song.
-The other reason to stop using Mongo when I did was that it really
-doesn&rsquo;t love the Raspberry Pi architecture. Since there were only really
-a very few lines of code, and since that code works on my Mac, no time
-lost - but time to move on.</p>
-
-<p>Phase two is a look at RRDtool, a &ldquo;round robin&rdquo; database very often used
-for network management efforts. One of the nice things about a round robin
-database is that the database itself is at its maximum size when you
-create it, and it doesn&rsquo;t grow - rather, it cycles out the old data
-at whatever time resolution you want to get rid of it. With that in
-mind you can have a single database with 10 years worth of daily averages
-and a whole year of minute-by-minute data and it hardly takes up any
-room at all - perfect for the sort of &ldquo;data logger&rdquo; applications that
-I find myself in the middle of.</p>
-
-<p>If you do <code>apt-get install rrdtool</code> on the Pi you get a working
-copy of RRDtool 1.4.7, compiled in 2012. That&rsquo;s pretty long in the
-tooth, so I decided to pull down v1.5.4 from the
-<a href="http://oss.oetiker.ch/rrdtool/pub/?M=D">RRDtool download area</a>. The release notes note
-dependencies as follows</p>
-
-<pre><code>apt-get install libpango1.0-dev libxml2-dev
-</code></pre>
-
-<p>and once you have those pulled down the build is not fast but not
-difficult.</p>
-
-<p>Pushing data into RRDtool is as simple as a shell script run out of
-cron. The first data point I&rsquo;m graphing is &ldquo;total spaces free in the
-Ann Arbor DDA parking garages&rdquo;, and I&rsquo;m collecting that on two machines -
-my Mac when it&rsquo;s running, and the Pi at all times. A second graph
-I want to capture is some really basic weather information, and a
-third is inside-the-machine environmental sensing starting with the
-system temperature of the Pi.</p>
-
-<p>It was really useful to make the first round of this be Mongo, because
-with Mongo you really don&rsquo;t have to decide anything when you set things up -
-just dump in raw JSON documents and hope for the best.</p>
-
-<p>
-<figure >
-    
-        <img src="http://vielmetti.github.io/images/parking.png" />
-    
-    
-    <figcaption>
-        <h4>RRDtool graph of available parking in downtown Ann Arbor</h4>
-        
-    </figcaption>
-    
-</figure>
-</p>
 
 
 
