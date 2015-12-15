@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes" class="list-group-item">I am eating a sandwich, with a recipe in Github</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-10-thanks-for-birthday-wishes" class="list-group-item">Thanks to everyone for birthday wishes, 2015 edition</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-08-open-meetings-act-minutes-request" class="list-group-item">Requesting meeting minutes under the Open Meetings Act</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-17-a-localwiki-for-jackson-michigan" class="list-group-item">A Localwiki for Jackson, Michigan</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-melting-pot-closing" class="list-group-item">Ann Arbor&#39;s The Melting Pot is closing</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-16-foia-update" class="list-group-item">FOIA update for tonight&#39;s City Council meeting</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4166,6 +4168,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12276,6 +12280,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12585,6 +12591,78 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>17 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/">Levenshtein distance for approximate match</a>
+      </h3>
+      <p>The problem, simply stated, is that of typoes and inconsistent
+spelling and pluraliziation. Let&rsquo;s say you have a collection of
+text that you want to annotate with some metadata, like categories
+and tags. You don&rsquo;t want to set aside ahead of time exactly which
+tags you want to use, but you want to catch through some test or
+lint step that you&rsquo;ve done something wrong by typing &ldquo;apples&rdquo; into
+a field that really has &ldquo;apple&rdquo; most of the time. A good algorithm
+will catch minor deviations from the norm and advise you when you
+should go back with a fresh pair of eyes and do an edit.
+The bigger problem is <span style="background-color: #ffffbf;">deduplication</span>.</p>
+
+<p>My first pass at a proposed solution was to look for a version of
+the old Unix program &ldquo;uniq&rdquo; that would have an approximate match.
+There is also an old Unix program &ldquo;agrep&rdquo; (&ldquo;approximate grep&rdquo;) from
+<span style="background-color: #bfffff;">Udi Manber</span>.</p>
+
+<p>[WM92a]
+Wu S. and U. Manber, &ldquo;Agrep - A Fast Approximate Pattern-Matching
+Tool,&rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
+1992), pp. 153-162.</p>
+
+<p>Neither of these first lines of attack to see if someone had
+completely solved the problem before did the trick, but some
+searching around and a conversation with
+<span style="background-color: #bfffff;">John Hritz</span>
+hit the neuron that remembered the algorithm called the
+<span style="background-color: #ffffbf;">Levenshtein distance</span>.
+That led me to
+<span style="background-color: #ffbfff;">Wikibook: Algorithm Implementation</span>,
+and its set of
+<a href="https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance">Levenshtein distance code</a>. It so happened that there
+was a very slow implementation in the bash shell included
+in that collection that was a cut and paste and two lines of
+code from being exactly what I needed. A little bit of glue
+code in awk and I was ready to go.</p>
+
+<p>Now the problem with cut and paste two lines of code is that this
+particular implmentation is very slow, albeit correct. Given the
+choice between slow correct code and fast code that&rsquo;s wrong (because
+of the bug that you don&rsquo;t yet understand), I&rsquo;ll take the slow code
+plus a comment and a writeup that describes how to make it faster.</p>
+
+<p>What I&rsquo;m really after is just the pairwise comparison of a set
+of words where the two words are close to each other. If the
+distance between two words is greater than some threshhold, I don&rsquo;t need
+to go any further. That algorithmic shortcut isn&rsquo;t in the library
+codes that I found.</p>
+
+<p>The bigger question is how to write a
+checklist
+and implement it in code to make sure that a big body of work stays
+internally consistent. It&rsquo;s one thing to have a
+categorization
+rule for your writers that says &ldquo;always use the
+singular&rdquo;, but very much something different to have Test 38 in
+your automated test corpus apply that rule and notice when it&rsquo;s
+wrong.</p>
+
+<hr/>
+
+<p>Update 29 July 2015:
+<span style="background-color: #bfffff;">Dennis Yurichev</span> with a post
+<a href="http://yurichev.com/blog/fuzzy_string/">Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.</a> shares some Python code to handle the
+case of automated checking against a probably correct dictionary. He uses this
+<a href="https://pypi.python.org/pypi/python-Levenshtein/0.12.0">python-Levenshtein</a> module
+to do the hard work.</p>
 
 
   <h3>17 July 2015</h3>
@@ -13223,25 +13301,6 @@ commentariat.</p>
 </ol>
 
 <p>In the course of doing this I came across an essay, otherwise unpublished, on "The algorithm driven day". In reading through it I am not sure it needs to see the light of day just yet, but it does help me wonder what parts of our efforts are driven by randomness and which are put there by design and how on earth one might tell the difference.</p>
-
-
-  <h3>28 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/">Using a squid cache to make automated data collection a bit less rude</a>
-      </h3>
-      <p><a href="http://www.squid-cache.org/"><code>squid</code> is a web caching system</a>. Instead of browsing directly to a site, you point your browser at a squid cache, and the cache serves up cached copies of the data you are asking for. If squid has an out of date copy of the data it fetches a new one for you. The goal is to be a transparent cache, and to be nearly as fast as direct access when you don't have the data, and way faster when you do.</p>
-
-<p>I'm doing some automated data collection from the web using <code>curl</code>, and as a part of that I want to not be overly aggressive in harvesting details from a site if I already have a recent copy of the data that hasn't changed. Putting a cache in the way makes sense, since unlike most GUI based browsers that have their own caches, <code>curl</code> just fetches whatever it's asked for unquestioningly even if it just got the same thing seconds ago - unless you tell it to use a cache.</p>
-
-<p>The first appearance of squid dates to 1996, so it's old software by modern standards. It dates from the bad old days when the Internet was slow on long haul links but fast locally, and so it made all the sense in the world to optimize and economize. Even now there are lots of times and places where the net is slow enough that you're willing to introduce a little bit of complexity in exchange for a little bit of speed.</p>
-
-<p>I installed my copy of squid on my Mac using MacPorts, which seems to do a fine job. I had also tried to build a copy of squid using what looked like simple instructions on Docker using the configuration on <a href="https://github.com/michaljemala/docker-squid">@michaeljemala/docker-squid</a>, but for reasons as of yet unexplained I got the error message</p>
-
-<p><code>
-curl: (7) Failed to connect to localhost port 3128: Connection refused
-</code></p>
-
-<p>after setting that up and following package directions.  Still puzzling out whether that's a result of some Docker configuration oddness on 1.7.0, or something else. Anyway, the native version is working, so I'm good for now.</p>
 
 
 

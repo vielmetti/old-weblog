@@ -6,8 +6,53 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2015 14:45:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2015 23:00:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I am eating a sandwich, with a recipe in Github</title>
+      <link>http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes/</link>
+      <pubDate>Mon, 14 Dec 2015 23:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes/</guid>
+      <description>&lt;p&gt;Twitter is, of course, for telling people that you are eating a sandwich.
+That&amp;rsquo;s been the point of the system the whole time - long before selfies,
+even long before it took pictures at all, you might get a proper narrative
+of what people are eating for lunch or a snack.&lt;/p&gt;
+
+&lt;p&gt;Using the net to keep track of food is an old tradition; I need
+only point you at the &lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/main.html&#34;&gt;Usenet Cookbook&lt;/a&gt;,
+developed from 1985 to 1987 by Brian Reid, as an archetype.
+&amp;ldquo;I had a lettuce and tomato sandwich Saturday with mustard instead of mayonnaise. Better than I would have feared.&amp;rdquo; But that collection is
+weak on sandwiches, lending itself more to
+&lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/us/SP-menu.html&#34;&gt;soups&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To remedy this need I have started a small and pitiful but
+hopefully growable sandwich recipe collection, using Github
+as the hosting place of choice. See
+&lt;a href=&#34;https://github.com/vielmetti/sandwich&#34;&gt;the vielmetti/sandwich repository&lt;/a&gt;
+for the first start. As it happens, I am clearly not the only person
+to think this way; herewith some collection of sandwich collections.&lt;/p&gt;
+
+&lt;p&gt;Barrie Turner (@bazbt3) came up with roughly the same idea at the same
+time, and you might see his &lt;a href=&#34;http://bazbt3.re-app.net/2015/12/10/git-sandwiches/&#34;&gt;git sandwiches&lt;/a&gt; blog for the proper inspiration for collection
+development. Thanks to @ellemef for connecting us.&lt;/p&gt;
+
+&lt;p&gt;Single sandwiches in git include&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/magnus919/grilledcheese&#34;&gt;grilled cheese&lt;/a&gt;, from Magnus Hedemark&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pcon/recipes/tree/master/meals/fried_chicken_sandwich&#34;&gt;gluten free fried chicken sandwich&lt;/a&gt; from Patrick Connelly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and certainly many more.&lt;/p&gt;
+
+&lt;p&gt;If you are ill-equipped in your kitchen
+to make your own sandwiches, this command line tool will
+&lt;a href=&#34;https://github.com/travist/makemeasandwich.js&#34;&gt;order you a sandwich from Jimmy John&amp;rsquo;s&lt;/a&gt;. It comes with a makefile so that you invoke it as
+&lt;code&gt;sudo make me a sandwich&lt;/code&gt; and it will do the right thing.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Thanks to everyone for birthday wishes, 2015 edition</title>
@@ -516,54 +561,6 @@ on the effort by declaring victory at the paragraph level.&lt;/p&gt;
 
 &lt;p&gt;Next week&amp;rsquo;s lunch (the day after Thanksgiving 2015) is at Morgan and York,
 hope to see you there.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alpine, old school email</title>
-      <link>http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email/</link>
-      <pubDate>Thu, 19 Nov 2015 01:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email/</guid>
-      <description>&lt;p&gt;alpine is an old school Unix mail user agent. It first arrived
-on the scene as pine in 1992, and when it appeared I remember
-how happy I was that there was finally a mailer that I could
-hand to people who had never seen Unix before and that they
-would get it and be productive on their 14.4 kb/sec dialup
-modems.&lt;/p&gt;
-
-&lt;p&gt;alpine appeared in 2007 as a rewrite of pine with Unicode
-support and a new Apache license. The version of it I&amp;rsquo;m running
-advertises itself as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Alpine 2.20 (OSX 67 2015-01-07) built Fri Oct 2 21:36:59 EDT 2015 on Edwards-MacBook-Air.local
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and seems to work just fine. I&amp;rsquo;ve got it pointed at the
-old-school shared multiuser mail system that I&amp;rsquo;ve had
-for a long time at monkey.org and all is well.&lt;/p&gt;
-
-&lt;p&gt;The rubenerd weblog has a nice
-&lt;a href=&#34;https://rubenerd.com/p3302/&#34;&gt;guide to installing alpine on OS X&lt;/a&gt;
-using your favorite package manager.&lt;/p&gt;
-
-&lt;p&gt;The biggest advantage of alpine over all web-based
-mail systems is just how fast you can delete mail.
-It&amp;rsquo;s easy to select by pattern, sort, refile and
-especially delete. In comparison, Google&amp;rsquo;s GMail
-feels clumsy and slow and impossibly mouse-dependent.&lt;/p&gt;
-
-&lt;p&gt;Have I moved all my email over to alpine? No. There&amp;rsquo;s
-a very small number of people who I prefer to send
-mail to that way, and it&amp;rsquo;s always good to have a
-fully functional backup email system that works
-perfectly well on a low-bandwidth setup. My workflow
-inside GMail is pretty fine tuned at this point and
-very different from how I used to use pine, and I&amp;rsquo;m
-not willing to go back.&lt;/p&gt;
-
-&lt;p&gt;It does remind me of the days before spam, and of the
-days when you were actually happy to get messages!&lt;/p&gt;
 </description>
     </item>
     
