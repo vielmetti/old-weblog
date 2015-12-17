@@ -6,15 +6,122 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Dec 2015 23:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 17 Dec 2015 15:15:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Platforms for the Internet of Things, 2015 edition</title>
+      <link>http://vielmetti.github.io/post/2015/2015-12-17-iot-platforms/</link>
+      <pubDate>Thu, 17 Dec 2015 15:15:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-12-17-iot-platforms/</guid>
+      <description>&lt;p&gt;A discussion on one of the lists I follow covers the question
+of &amp;ldquo;platform&amp;rdquo; support for the Internet of Things. Since consumer
+IoT is a kind of squooshy market right now with rapid changes
+in prices and no one obvious choice for what technology to adopt,
+it&amp;rsquo;s worthwhile taking some kind of review of the landscape for
+2015 and sort out what to watch for next year.&lt;/p&gt;
+
+&lt;p&gt;This is organized by vendor, and loosely grouped so that similar
+systems are next to each other. It&amp;rsquo;s a highly dimensional space, but
+all elements have something in common: engineers are trying to
+change how we interact with simple devices like light bulbs through
+our hand-held phones, and no one has the full correct answer that&amp;rsquo;s
+obviously right. Indeed it&amp;rsquo;s not clear at all that there is
+a right answer for some of these controls; the
+&lt;a href=&#34;http://twitter.com/internetofshit&#34;&gt;Internet of Shit twitter account&lt;/a&gt;
+collects with some glee the number of devices that emphatically should
+not be on the Internet.&lt;/p&gt;
+
+&lt;p&gt;On to the platforms:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Amazon&lt;/em&gt; is hard to ignore. Many smaller cloud platforms are
+built on top of its AWS computing platforms, and Amazon has
+entered the fray with its AWS IoT service that offers a hosted
+MQTT message server. In addition Amazon has the Echo product
+that does voice recognition. Nearly impossible to ignore, Amazon
+is a clear central player in the IoT consumer space.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Google&lt;/em&gt; is a distant second in the IoT world, mostly because
+the Google Compute Engine isn&amp;rsquo;t the first choice for a compute
+platform, and the Android phone isn&amp;rsquo;t the first choice for a top
+end phone. Google does have the moxie to make it&amp;rsquo;s &amp;ldquo;Internet Thing&amp;rdquo;
+be a self-driving car. The Nest thermostat is the most obvious
+home point-of-entry for Google, and the platform and brand extension
+to watch is more stuff that works with Nest.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Apple&lt;/em&gt; has the phone to want, and the assistant (Siri) that people
+have learned how to talk to to get things done. If the Internet of
+Things is going to be controlled from an app, it&amp;rsquo;s an app that&amp;rsquo;s going
+to run on an Apple phone, and you&amp;rsquo;re going to be able to talk to it.
+Less clear is Apple&amp;rsquo;s in-home device hub strategy - the AppleTV never
+really has had that open platform feel to attract the first-mover developer.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Microsoft&lt;/em&gt; would dearly love to play in this world, but Windows 10
+on ARM and the Raspberry Pi is a disappointment, and &amp;ldquo;big data&amp;rdquo; is mostly
+defined by problems too big for Excel. The Microsoft cloud platform,
+Azure, mostly seems to be used by organizations that treat it as
+a second or third data center, or who are locked in to Azure for
+business and partnership reasons. Microsoft&amp;rsquo;s Cortana is capable, but
+hardly anyone has Windows phones to talk with.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;IBM&lt;/em&gt; is the wild card here. Their Bluemix hosted platform service is
+interesting if unusual and not really aimed at the consumer space. A
+very interesting Node-RED project has extended IBM influence into
+the Raspberry Pi and Bluetooth BLE sensor space, but it feels like
+an interesting technology play and not a product.&lt;/p&gt;
+
+&lt;p&gt;Next, to major players with hardware. &amp;ldquo;How many engineers does it
+take to change a lightbulb?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Philips&lt;/em&gt; has the Hue line of home products, mostly lighting focused.
+There was a hue and cry about the Philips decision to disable support
+for some compatible products that did not have explicit partnership
+agreements in place, and the nature of the complaining made it clear
+that there&amp;rsquo;s an active hobbyist community around this product space.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Flex&lt;/em&gt; is the new player, with its recent acquisition of the
+assets of Wink from the bankruptcy of Quirky.  Flex, formerly known
+as Flextronics, is a large contract manufacturer, and it knows how
+to build quite a few things; look for Wink&amp;rsquo;s technology to make its
+way into a wider range of products.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Samsung&lt;/em&gt; and their SmartThings brand has enough market share to make
+interesting efforts, but again to that point there&amp;rsquo;s no one breakout
+product in their portfolio that brings that brand much to mind unless
+you are using it.&lt;/p&gt;
+
+&lt;p&gt;Finally -&lt;/p&gt;
+
+&lt;p&gt;The biggest winner in the IoT space for this year and probably for
+next year is an Internet tool with the unlikely name of &lt;a href=&#34;http://www.ifttt.com&#34;&gt;IFTTT&lt;/a&gt;.
+&amp;ldquo;If this, then that&amp;rdquo; is the level of control you get with IFTTT,
+and surprisingly enough that&amp;rsquo;s enough to do all sorts of things -
+mostly because IFTTT speaks just enough of the protocols of over 100
+systems that you can glue together a recipe that does something
+when something else happens even when the two vendors you are dealing
+with have never heard of each other.&lt;/p&gt;
+
+&lt;p&gt;Interoperability is the bugaboo of Internet of Things systems development.
+Many vendors want you to sign up to their big bear hug of a partnership
+agreement and work solely within their ecosystem. Others have narrow
+APIs and proprietary protocols that discourage casual reuse. Where
+IFTTT fits in is as a universal connector kit that lets you explore
+how parts fit together.  The IFTTT
+&lt;a href=&#34;https://ifttt.com/recipes/collections/32-recipes-for-the-internet-of-things&#34;&gt;recipes for the Internet of Things&lt;/a&gt; captures some of the essence of what
+can be done right now without much of a fuss if you have wide protocol
+support, even if it&amp;rsquo;s only very simple support.
+Many vendors in the &amp;ldquo;Internet of Things&amp;rdquo;
+space could benefit from thorough understanding of simple connectivity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Douglas E. Vielmetti, plant engineer</title>
-      <link>http://vielmetti.github.io/post/2015/2015-12-26-douglas-vielmetti-plant-engineer/</link>
+      <link>http://vielmetti.github.io/post/2015/2015-12-16-douglas-vielmetti-plant-engineer/</link>
       <pubDate>Wed, 16 Dec 2015 23:00:00 -0500</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2015/2015-12-26-douglas-vielmetti-plant-engineer/</guid>
+      <guid>http://vielmetti.github.io/post/2015/2015-12-16-douglas-vielmetti-plant-engineer/</guid>
       <description>&lt;p&gt;My grandfather, Douglas E. Vielmetti (center), a plant engineer at the
 Alberta Saw Mill. &amp;ldquo;Ford supervisory men assemble in the engine room
 on the first floor of the Alberta Mill. (L to R) John Picardat,
@@ -550,40 +657,6 @@ VPCs, so I have a few layers of software-defined networking
 to knit together (or to unravel depending on your perspective).&lt;/p&gt;
 
 &lt;p&gt;network ho!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Stage lighting protocols</title>
-      <link>http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols/</link>
-      <pubDate>Fri, 20 Nov 2015 10:30:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols/</guid>
-      <description>&lt;p&gt;Some notes on stage lighting protocols and networks.&lt;/p&gt;
-
-&lt;p&gt;Helpful reference pages:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dmx512-online.com/&#34;&gt;Ujjal&amp;rsquo;s DMX512 Website&lt;/a&gt; - protocol information,
-tutorials, how to etc.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dmx512.com/&#34;&gt;DMX512.com, the Entertainment Technology Website.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.openlighting.org/&#34;&gt;Open Lighting Project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Standards bodies&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.usitt.org/lighting/&#34;&gt;USITT Lighting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some protocols&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://art-net.org.uk/&#34;&gt;Art-Net&lt;/a&gt; is DMX512 over UDP.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.openlighting.org/libartnet-main/&#34;&gt;libartnet&lt;/a&gt; is an implementation of Art-Net.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There&amp;rsquo;s much much more, but this is a start.&lt;/p&gt;
 </description>
     </item>
     
