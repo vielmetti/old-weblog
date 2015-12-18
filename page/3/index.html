@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-santa-at-swedes-diner" class="list-group-item">Santa visiting Swede&#39;s Diner, Ann Arbor, December 1950</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-iot-platforms" class="list-group-item">Platforms for the Internet of Things, 2015 edition</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-douglas-vielmetti-plant-engineer" class="list-group-item">Douglas E. Vielmetti, plant engineer</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-write-one-paragraph" class="list-group-item">Write one paragraph, floss one tooth</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email" class="list-group-item">Alpine, old school email</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-18-m-14-summer-2016-construction-plans" class="list-group-item">Summer 2016 construction plans for M-14 near Ann Arbor</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4174,6 +4176,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12300,6 +12304,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12609,6 +12615,128 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>10 September 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-09-10-xml2json/">xml2json as part of a web parsing pipeline</a>
+      </h3>
+      <p>The problem, simply put. You have a messy, real world HTML page;
+you want to parse it to pull out some key element of it, to pass
+along to some other task; you want that parsing pipeline to be
+as compact as possible, because you&rsquo;re running on a small machine,
+and you&rsquo;re doing the task frequently, and because the page may
+change out from under you at any time.</p>
+
+<p>Clearly this is not an optimal task to have, but you live with
+the web you have, not with the web you want to have.</p>
+
+<p>My approach to this task is to assemble a pipeline of Unix tools
+that are as simple as possible, and that each do one thing pretty
+well, and that in combination are all well-refined enough that there
+are few surprises.</p>
+
+<p><code>curl</code> is the workhorse for fetching pages. The invocation
+<code>curl -m 15 -s http://example.com</code> pulls that page from the
+net and feeds it to standard output, but times out after 15 seconds
+so your pipeline doesn&rsquo;t completely fail if a remote site is down.</p>
+
+<p><code>tidy</code> is the first thing I look at when doing data transformation.
+<code>tidy -q -asxml 2&gt;/dev/null</code> takes HTML and converts it, quietly
+and uncomplainingly, into XML. It&rsquo;s predictable and pretty fast.
+<code>tidy</code> has been around since the dawn of the web, and it newly
+has a <a href="https://github.com/htacg/tidy-html5">Github project</a> and
+a <a href="http://www.html-tidy.org/">shiny web page</a> and a support
+consortium, so if you want to build from source it&rsquo;s readily possible.</p>
+
+<p>Given XML, convert it to JSON. Here there are quite a few choices,
+depending on which language and which parser you want to start with,
+and the dependency tree is deep. I am least satisfied with my alternatives
+here, thus the motivation for this writeup. In alphabetical order by
+language:</p>
+
+<p>There is no POSIX standard <code>xml2json</code> command written in C, alas.</p>
+
+<p>In C++ there&rsquo;s an <code>xml2json</code> command and library from Cheedoong Ch&rsquo;ng.
+The <a href="https://github.com/Cheedoong/xml2json">Github project</a> says</p>
+
+<blockquote>
+<p>xml2json is the first carefully written C++ library that converts
+XML document to JSON format. It&rsquo;s already been used in the soft
+subtitle cross-domain solution at the server-end of Tencent Video
+(<a href="http://v.qq.com">http://v.qq.com</a>) and its CDNs.</p>
+</blockquote>
+
+<p>In Dart, see Steve Hamblett&rsquo;s <code>xml2json.dart</code> library.
+The <a href="https://github.com/shamblett/xml2json">Github project</a> includes
+a set of unit tests, as well as explicit support for three
+conventions (Parker, Badgerfish, and Google Data) for doing
+the conversion. The test suites are welcomed.</p>
+
+<p>In Go, see Darren Elwood (textnode)&rsquo;s <code>xml2json.go</code>. The
+<a href="https://github.com/textnode/xml2json">Github project</a> includes
+sample code to parse both RSS and generic XML files.</p>
+
+<blockquote>
+<p>Transform a stream of XML into a stream of JSON, without requiring
+a schema or structs, written in Go (golang.org)</p>
+</blockquote>
+
+<p>In Node.JS, see <code>node-xml2json</code> from BugLabs which
+converts XML to JSON using <code>node-expat</code>. You can install it
+with <code>npm install xml2json</code>.</p>
+
+<p>In Perl, see Isidro Vila Verde&rsquo;s <code>xml2json.pl</code>, which has a
+<a href="https://github.com/jvverde/xml2json">Github project</a> and is based
+on <code>XSLT</code>. &ldquo;You may need to install some perl modules before using it&rdquo;
+is the extent of the install instructions.</p>
+
+<p>In Python, see the <code>xmlutils</code> package from Kailash Nadh
+and Yigal Lazarev. You can
+install it with <code>pip install xmlutils</code>, or look at the
+<a href="https://github.com/knadh/xmlutils.py">Github project</a>.</p>
+
+<blockquote>
+<p>xmlutils.py is a set of Python utilities for processing xml files
+serially for converting them to various formats (SQL, CSV, JSON).
+The scripts use ElementTree.iterparse() to iterate through nodes
+in an XML document, thus not needing to load the entire DOM into
+memory. The scripts can be used to churn through large XML files
+(albeit taking long :P) without memory hiccups.</p>
+</blockquote>
+
+<p>Once the original HTML document emerges nicely formatted as JSON,
+it&rsquo;s relatively easy to pick out elements from it in most cases.
+Two tools to do this are <code>jq</code> and <code>jp</code>.</p>
+
+<p><code>jq</code>, from Stephen Dolan, is a command-line JSON processor. Now
+at version 1.5, it has a <a href="https://stedolan.github.io/jq/">web site</a>
+and a <a href="https://github.com/stedolan/jq">Github repository</a>, plus
+a handy <a href="https://jqplay.org/">online test site</a> that lets you
+do interactive tests. It&rsquo;s written in portable C.</p>
+
+<blockquote>
+<p>jq is like sed for JSON data - you can use it to slice and filter
+and map and transform structured data with the same ease that sed,
+awk, grep and friends let you play with text.</p>
+</blockquote>
+
+<p><code>jp</code>, from James Saryerwinnie, is a command line version of the JMESPath
+query language for JSON, documented at <a href="http://jmespath.org/">http://jmespath.org/</a> . This
+is the same query language embedded into the Amazon Web Services
+command line (AWS CLI), and it has powerful and compact operators
+for extracting elements from a JSON document. There are libraries
+in Python, PHP, Javascript, Ruby, Lua, and Go that implement JMESPath.
+<code>jp</code> is written in Go, and has cross-development tools available.</p>
+
+<hr/>
+
+<p>So that&rsquo;s the environment. It&rsquo;s a bit of a pain to get all of
+those tools running on a new bare-metal machine, so my thought
+is to put everything into one Docker build and make it straightforward
+to wrap everything together. Ideally this will be a fairly
+minimalist build, and thus the challenge is to find the set
+of dependencies that is small enough.</p>
 
 
   <h3>7 September 2015</h3>
@@ -13468,46 +13596,6 @@ the face of reflecting changes in a city, by Brian Eno&rsquo;s quote
 Jerry Michalski&rsquo;s &ldquo;The Brain&rdquo; magnum opus. Of course I forget where I
 read the Eno quote, and a search for it turns up William James saying
 the same thing in 1892, but Eno is easier to remember as a source.</p>
-
-
-  <h3>3 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-03-michigan-emergency-incidents/">Michigan Emergency Incidents and overnight storm report</a>
-      </h3>
-      <p>Michigan Emergency Incidents is a news service that covers emergency
-dispatch around the state of Michigan. Members of a closed Facebook
-group post call-outs of emergency services operations, and there&rsquo;s
-generally follow up from other members to note incidents in progress
-or news stories written from the scene.</p>
-
-<blockquote>
-<p>All information contained in MEI posts is to come from received
-radio transmissions heard directly from radios / scanners or via
-an online broadcast, verified reliable sources, or first hand
-knowledge (ie you are on scene).</p>
-</blockquote>
-
-<p>Follow along on Twitter <a href="https://twitter.com/meidispatch">@MEIDispatch</a>;
-the twitter feed has the current link to the private Facebook group,
-which regularly accepts qualified new members.</p>
-
-<hr/>
-
-<p>Storm last night. We got a downpour, some wind and lightning, but nothing
-too bad. A nearby <a href="http://www3.a2gov.org/RainGauges/">City of Ann Arbor rain gauge</a>
-on S Industrial reported 1.12&rdquo; of rain, and at the peak of the storm rain
-was coming down at 0.41&rdquo; in 15 minutes. The scanner was full of power
-lines sparking and trees down.</p>
-
-<p>Worst hit was the Sleeping Bear Dunes area, where some of the
-adjacent communities had complete power blackouts. There was also a
-tornado in the Thumb. The <a href="http://www.weather.gov/apx/2015Aug2recap">National Weather Service recap</a> for the August 2, 2015 storms gives much more detail.
-Softball sized hail was seen near West Branch, MI.</p>
-
-<p>Current 8:45 a.m. report is 60,318 DTE Energy customers without power, and
-91,802 Consumers Energy customers without power. DTE does not generally
-report outages by county, just by zip code, but I have all of the zip
-codes so I should be able to estimate county level totals.</p>
 
 
 
