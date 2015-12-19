@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2015/2015-12-18-a-visit-to-um-cvga" class="list-group-item">A visit to the Computer and Video Game Archive, @umcvga</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-santa-at-swedes-diner" class="list-group-item">Santa visiting Swede&#39;s Diner, Ann Arbor, December 1950</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-iot-platforms" class="list-group-item">Platforms for the Internet of Things, 2015 edition</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-enjoy-the-attic-while-you-can" class="list-group-item">Enjoy the attic while you can</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-write-one-paragraph" class="list-group-item">Write one paragraph, floss one tooth</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-19-alpine-old-school-email" class="list-group-item">Alpine, old school email</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4176,6 +4178,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12306,6 +12310,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12597,12 +12603,15 @@ this and there will almost always be something new to read.</p>
         ><a href="http://vielmetti.github.io/page/81/">81</a></li>
         
         <li
+        ><a href="http://vielmetti.github.io/page/82/">82</a></li>
+        
+        <li
         >
         <a href="http://vielmetti.github.io/page/4/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
         </li>
         
         <li>
-            <a href="http://vielmetti.github.io/page/81/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+            <a href="http://vielmetti.github.io/page/82/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
         </li>
         
     </ul>
@@ -12615,6 +12624,30 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>11 September 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/">Bluetooth and bluez inside Docker</a>
+      </h3>
+      <p>If you have a Bluetooth device attached to a Linux system, it&rsquo;s
+not clear how to attach that device to a Docker container on that
+same system.</p>
+
+<p><code>bluez</code>, the Bluetooth driver for Linux, uses the <code>D-Bus</code> to communicate.
+This is more complex than a FIFO or socket interface, and thus less
+easy to obviously say how it should be mapped into the Docker processs
+and file system space.</p>
+
+<p>The references below show several ways of not doing this task,
+and hopefully at some point will get answers on how to do it.</p>
+
+<p>References for further reading:</p>
+
+<ul>
+<li><a href="https://github.com/docker/docker/issues/16208">Bluetooth socket can&rsquo;t be opened inside container</a>, Docker Github issues 16208</li>
+<li><a href="http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker">Accessing Bluetooth dongle from inside Docker?</a>, Stack Overflow.</li>
+</ul>
 
 
   <h3>10 September 2015</h3>
@@ -13562,40 +13595,6 @@ to turn out to vote.</li>
 <ul>
 <li><a href="http://electionresults.ewashtenaw.org/electionreporting/aug2015/index.jsp">UnOfficial Election Results, August 4, 2015 City Primary Election</a>, Wasthenaw County</li>
 </ul>
-
-
-  <h3>3 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-03-expertise/">expertise encapsulated into out of date memory banks</a>
-      </h3>
-      <p>In the case of experts &ldquo;writing down what they know&rdquo;, and
-incorporating that data into an expert system or knowledge base.</p>
-
-<p>One of the challenges is expecting that the expert can write down
-everything that they know, all at once, in such a way that there&rsquo;s
-no internal inconsistencies.</p>
-
-<p>The world usually works in such a way that it&rsquo;s changing fast enough
-that an expert with a written memory bank of a certain size is
-always holding as &ldquo;true&rdquo; in that memory bank something that is
-demonstrably false, just because the world shifts out from under
-them. Even if you have an iron-clad commitment to keeping the
-memory bank narrowly scoped and revisiting every element of it to
-refresh it periodically, the nature of written memory is to grow more and more
-out of date or to consume more and more resources to keep fresh.</p>
-
-<p>The map is not the territory - and even if by some miracle the map
-at one time was perfectly matched with the world - the world changes
-fast enough that we can&rsquo;t know any more than a small part of it.</p>
-
-<hr/>
-
-<p>Inspired by the impossible task of keeping a Localwiki fresh in
-the face of reflecting changes in a city, by Brian Eno&rsquo;s quote
-&ldquo;Forgetting is as important as remembering&rdquo;, and by
-Jerry Michalski&rsquo;s &ldquo;The Brain&rdquo; magnum opus. Of course I forget where I
-read the Eno quote, and a search for it turns up William James saying
-the same thing in 1892, but Eno is easier to remember as a source.</p>
 
 
 
