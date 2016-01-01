@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-01-qsl-card-template" class="list-group-item">QSL card template for Lob.com</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-22-kale-into-ice-cream" class="list-group-item">How I turned 99 cents worth of kale into half a gallon of delicious ice cream</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-21-mailchimp-form" class="list-group-item">Subscribe to a2b3 list through Mailchimp</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-21-first-snow-of-the-season" class="list-group-item">First snow of the 2015 season</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container" class="list-group-item">OpenVPN in a container</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols" class="list-group-item">Stage lighting protocols</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4182,6 +4184,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12324,6 +12328,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12354,7 +12360,7 @@ this and there will almost always be something new to read.</p>
 	
     </div>
 
-    <p>&copy; 2015. All rights reserved. </p>
+    <p>&copy; 2016. All rights reserved. </p>
   </div>
 </div>
 
@@ -12636,6 +12642,61 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>6 October 2013</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2013/2013-10-06-slow-obamacare-registration-denial-of-service-attack-or-self-inflicted-injury/">Slow Obamacare registration: denial of service attack, or self-inflicted injury?</a>
+      </h3>
+      <p>The new healthcare marketplace for the Affordable Care Act, <a href="http://www.healthcare.gov">Healthcare.GOV</a>, has been operating slowly under the weight of open enrollment for "Obamacare" plans. The question then comes up: is this some kind of coordinated denial of service attack on the system, or is the system architecture simply slow under heavy load?</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affd2204f970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef019affd2204f970d" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen shot 2013-10-06 at 10.31.25 PM" title="Screen shot 2013-10-06 at 10.31.25 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affd2204f970d-600wi" /></a><br /></p>
+
+<p><a href="http://www.reuters.com/article/2013/10/05/us-usa-healthcare-technology-analysis-idUSBRE99407T20131005">Reuters took a look at the issue</a>, and found some problems with the healthcare marketplace's systems design.</p>
+
+<blockquote>
+  <p>Five outside technology experts interviewed by Reuters, however, say they believe flaws in system architecture, not traffic alone, contributed to the problems. For instance, when a user tries to create an account on HealthCare.gov, which serves insurance exchanges in 36 states, it prompts the computer to load an unusually large amount of files and software, overwhelming the browser, experts said. If they are right, then just bringing more servers online, as officials say they are doing, will not fix the site.</p>
+</blockquote>
+
+<p>The <a href="http://www.nytimes.com/news/affordable-care-act/2013/10/01/in-debut-affordable-care-web-site-baffles-many-users/">New York Times reported on the site's debut</a> -</p>
+
+<blockquote>
+  <p>While the site took three years to build, it took only a few minutes for it to break down when it went live at 8 a.m. E.D.T. Some consumers said they were met with an error message in the early morning when trying to visit the Web site, which seemed to be overwhelmed with traffic and limited by apparent programming issues. Many people took to Twitter and Facebook to note that the site was down.</p>
+</blockquote>
+
+<p>And <a href="http://tv.msnbc.com/2013/10/04/obamacare-disaster-or-routine-maintenance/">MSNBC asks</a> - disaster or routine maintenance?</p>
+
+<blockquote>
+  <p>HHS officials said that they will be taking down the “application part of the website” for scheduled maintenance this weekend, according to NBC News’ Kristin Welker. The announcement was red meat for critics of Obamacare, who have been largely silent since the health care law rolled out earlier this week. Speaker John Boehner said the administration’s announcement was proof that “the president’s health care law has been an unmitigated disaster.”</p>
+</blockquote>
+
+<p>So far, no reliable reports that I've been able to find blame the problem on a specific denial of service attack; rather, it appears to be a combination of sudden demand for the service, teething pains for a new site, and system complexity. I did not note any commentary from the Arbor Networks <a href="http://www.arbornetworks.com/asert/">ASERT</a> weblog, which writes about DDOS attacks. <a href="http://www.renesys.com/blog/">Renesys</a>, usually a useful view on problems, is reporting on Internet downtime in Sudan and Syria. My heads-up site for Internet-wide problems, the <a href="http://puck.nether.net/mailman/listinfo/outages">outages mailing list</a>, is silent. Strangely, the place I'd expect to have seen this show up - the automated news aggregator <a href="http://www.techmeme.com/131007/p12#a131007p12">Techmeme</a> - is also quiet (Update: see below for Techmeme coverage). The <a href="http://www.reddit.com/r/obamacare">Obamacare Reddit subboard</a> has some reports from people who made it through the system, and others who are having problems.</p>
+
+<p>More insights:</p>
+
+<ul>
+<li><a href="http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/05/a-techie-walks-us-through-healthcare-govs-two-big-problems/">Washington Post interview</a> with Jyoti Bansal, the founder of AppDynamics, an application management company that, among other things “makes sure essential software applications of customers such as Netflix stay up and running.” </li>
+</ul>
+
+<blockquote>
+  <p>Most of the problems like these are in the software. Hardware is the easy part. You can add more hardware and do it easily. Software takes more time. In the rush of getting this out, it seems like testing wasn’t done completely. My expectations from this is that these problems should go away in the next few weeks. The site still won’t be as fast as something like Netflix, but it should work.</p>
+</blockquote>
+
+<ul>
+<li>Thousands of comments on the <a href="https://www.facebook.com/Healthcare.gov">Facebook page for Healthcare.Gov</a> - just one of them here!</li>
+</ul>
+
+<blockquote>
+  <p>I find it so telling of Americans if you can't get it within 4 days when you have 6 months to sign up we throw up our hands, have a temper tantrum and take our toys and go home. How about waiting a couple weeks and try again.</p>
+</blockquote>
+
+<ul>
+<li>Techmeme weighs in leading with a Wall Street Journal story -</li>
+</ul>
+
+<blockquote>
+  <p>Six days into the launch of insurance marketplaces created by the new health-care law, the federal government acknowledged for the first time Sunday it needed to fix design and software problems that have kept customers from applying online for coverage.</p>
+</blockquote>
 
 
   <h3>6 October 2013</h3>
@@ -13236,77 +13297,6 @@ this and there will almost always be something new to read.</p>
 
 <blockquote>
   <p>Advance is now about to fold AnnArbor.com (the website) into MLive.com, the company’s Michigan portal based on its hideous website template. This is what’s on the homepage of MLive as I type. Prepare to shield your eyes.</p>
-</blockquote>
-
-
-  <h3>12 September 2013</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2013/2013-09-12-boulder-colorado-flood-of-september-2013/">Boulder Colorado Flood of September 2013</a>
-      </h3>
-      <p>The city of Boulder, Colorado is flooded after several days of torrential rains. Here's some useful links if you want to get up to speed on what's going on.</p>
-
-<p>Turn around, don't drown. If you're in the affected area, get authoritative news from local sources (and not this blog).</p>
-
-<h3>Scanner</h3>
-
-<p>For raw unfiltered news of what is happening, listen to the emergency services scanner for the Boulder area. The <a href="http://www.broadcastify.com/listen/feed/591">Boulder County Sheriff and Fire</a> feed has over 800 listeners as of this writing. You'll want to listen through headphones, because the feed is a stereo feed with fire/rescue on one channel and police on the other.</p>
-
-<p>A good text counterpart to this is the <a href="http://twitter.com/boulderoem">Boulder Office of Emergency Management twitter</a> feed, which has brief and authoritative updates about the situation. The <a href="http://boulderoem.org">Boulder OEM web site</a> echoes those updates in more detail.</p>
-
-<h3>Local news media</h3>
-
-<p>The <a href="http://www.dailycamera.com/">Daily Camera</a> is Boulder's daily newspaper, and it has continuous updates on the situation. Their <a href="http://www.dailycamera.com/boulder-county-news/ci_24072038/boulder-county-broomfield-under-flash-flood-warning-major">September 12 story</a> is a long list of incidents, warnings, accounts and stories about what's going on. Twitter: @<a href="http://twitter.com/dailycamera">dailycamera</a></p>
-
-<p>There's flooding in the Denver area as well, and the <a href="http://www.denverpost.com">Denver Post</a> is on it. A <a href="http://www.denverpost.com/breakingnews/ci_24077193/boulder-county-flood-emergency-1-killed-streets-impassable">September 12 Denver Post story</a> notes the extent of the damage:</p>
-
-<blockquote>
-  <p>Heavy rain and massive flooding threatens towns and cities up and down the Front Range into the day Thursday as communities were evacuated, roads closed and emergency shelters set up.
-  Three people were confirmed dead and at least one missing.
-  At an afternoon news conference Boulder officials said at least 12 dams in the county had overflowed.The Boulder airport was closed as well as Boulder mountain parks and open space until further notice.</p>
-</blockquote>
-
-<h3>Twitter</h3>
-
-<p>As ever, Twitter is on the scene when there's news. The #<a href="https://twitter.com/search?q=%23boulderflood">boulderflood</a> and #<a href="https://twitter.com/search?q=%23cowx">cowx</a> hashtags have been trending, with photos, video, and brief accounts of what's happening. A #<a href="https://twitter.com/search?q=%23coflood">coflood</a> tag covers flooding across Colorado.</p>
-
-<h3>Maps</h3>
-
-<p>A map has been removed per the owner's request on 25 October 2013.</p>
-
-<p>The City of Boulder has a <a href="http://gisweb.ci.boulder.co.us/agswebsites/general/iemcop/index.htm">road closures map</a> with markers showing where roads are closed or impassible. Officials are recommending that people stay off the roads.</p>
-
-<p>As of Thursday, September 12 in the evening I have not been able to find a good clear map that shows the full extent of affected areas, and emergency operations are still in rescue mode.</p>
-
-<p>Google has a <a href="http://google.org/crisismap/2013-boulder-floods">crisis map for the 2013 Boulder Floods</a>. This is a snapshot as of Friday, September 13, in the morning. The dots mark places where roads are closed, and the evacuation area for Longmont is shown as the St Vrain River bisects the town. Look at the current map for the latest details, and know that roads are being opened and closed in response to changing needs.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff5d0cfb970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef019aff5d0cfb970c" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen shot 2013-09-13 at 10.39.12 AM" title="Screen shot 2013-09-13 at 10.39.12 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff5d0cfb970c-600wi" /></a><br /></p>
-
-<h3>Cities affected by the flood</h3>
-
-<p>This is an incomplete list of towns and villages beyond Boulder that are affected by the flood.</p>
-
-<p>Lyons, Colorado: Photos on Facebook at the <a href="https://www.facebook.com/lyons.colorado.5">Lyons, Colorado</a> page and at Kenneth Wajda's site <a href="https://www.facebook.com/Iamlyonscolorado">I Am Lyons Colorado</a>.</p>
-
-<p>A National Weather Service alert warns of flash flooding hazards in Lyons, Jamestown, Peaceful Valley, Allenspark, Raymond, Meeker Park and Longs Peak.</p>
-
-<p>Another alert warns for flooding in the following locations: Northwestern Arvada, Western Westminster, Boulder, Western Longmont, Southwestern Broomfield, Lafayette, Louisville. Superior, Lyons, Jamestown, Salina, Eldorado Springs, Crisman. Gold Hill, Niwot, Summerville, wallstreet, Rocky Flats. Raymond, sunshine, white Ranch open space and Allenspark.</p>
-
-<p>The <a href="http://jeffcosheriff.blogspot.com/">Jefferson County Sheriff</a> has emergency information on a Blogspot weblog.</p>
-
-<p>KRDO has a <a href="http://www.krdo.com/news/us-24-closed-due-to-flood-advisory/-/417220/21883136/-/knu8mj/-/index.html">log of Colorado Springs flooding</a> information.</p>
-
-<h3>Water levels</h3>
-
-<p>The <a href="http://water.weather.gov/ahps2/hydrograph.php?wfo=bou&amp;gage=bocc2">Boulder Creek hydrograph</a> shows current water levels measured in Boulder. As of this writing the creek is in "moderate flood stage" and rising.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff5a8869970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef019aff5a8869970d" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Bocc2_hg" title="Bocc2_hg" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff5a8869970d-600wi" /></a><br /></p>
-
-<h3>History</h3>
-
-<p>This flood is being compared to the 1894 Boulder flood. The <a href="http://boulderhistory.org/boulders_great_flood.asp">Boulder History Museum</a> account of that flood reads in part:</p>
-
-<blockquote>
-  <p>As rains continued, adding to spring runoff, Boulder Creek began to rise. The threat of a flood was serious. Overnight, the creek rose out of its banks and rushed through the canyons above Boulder. By daybreak the creek had turned into an angry river, carrying debris from the settlements and bridges it destroyed in the mountains. In Boulder, the creek had begun its destruction as it swept the Sixth and Twelfth Street bridges downstream. The flood submerged railroad tracks, roads and farms, and tore down telephone and telegraph poles, taking Boulder’s means of transportation and communication out of commission.</p>
 </blockquote>
 
 

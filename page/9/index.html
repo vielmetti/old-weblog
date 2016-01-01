@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-01-qsl-card-template" class="list-group-item">QSL card template for Lob.com</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-22-kale-into-ice-cream" class="list-group-item">How I turned 99 cents worth of kale into half a gallon of delicious ice cream</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-21-mailchimp-form" class="list-group-item">Subscribe to a2b3 list through Mailchimp</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-21-first-snow-of-the-season" class="list-group-item">First snow of the 2015 season</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container" class="list-group-item">OpenVPN in a container</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-stage-lighting-protocols" class="list-group-item">Stage lighting protocols</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4182,6 +4184,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12324,6 +12328,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12354,7 +12360,7 @@ this and there will almost always be something new to read.</p>
 	
     </div>
 
-    <p>&copy; 2015. All rights reserved. </p>
+    <p>&copy; 2016. All rights reserved. </p>
   </div>
 </div>
 
@@ -12636,6 +12642,37 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>27 January 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-01-27-just-how-cold-is-that-window-winter-monitoring-with-the-ti-sensortag-node-red-and-freeboard/">Just how cold is that window? Winter monitoring with the TI Sensortag, Node-RED, and Freeboard</a>
+      </h3>
+      <p><a class="asset-img-link"  style="float: right;" href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40b54970d img-responsive" alt="SensorTag" title="SensorTag" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-320wi" style="margin: 0px 0px 5px 5px;" /></a></p>
+
+<p>Our living room has lovely (old) wooden windows. When it's cold, the windows get cold. Last year we got some lovely thermal curtains to insulate.</p>
+
+<p>I thought I'd use some of the equipment I had to see just how cold the windows were and how much warmer the curtains are to the touch.</p>
+
+<p>The setup:</p>
+
+<p>Macbook Air running OS X 10.9 (Mavericks), Node-RED 0.9.1, Freeboard, TI Sensortag. I'm using RabbitMQ as my MQTT message passing system, but that's not strictly necessary for this application.</p>
+
+<p>The Macbook has support for Bluetooth Low Energy (BLE) which is what the Sensortag talks. Support for BLE in Node-RED is provided by the "noble" module, which the "sensortag" module uses to communicate with the device. Freeboard is a visualization dashboard with some simple widgets to display data coming to it.</p>
+
+<p>This report on <a href="https://gist.github.com/dceejay/fb47301b759222e05f84">how to use the Freeboard dashboard with Node-RED</a> has all of the difficult parts. It provides a websocket listener for Freeboard, and you use the built-in websocket transmitter on Node-RED. There's a very tiny bit of logic to pull apart the data coming off the Sensortag; it could probably be less if I were more clever.</p>
+
+<p>The Node-RED code looks like this</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40ac5970d img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-01-27 at 10.00.33 PM" title="Screen Shot 2015-01-27 at 10.00.33 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-600wi" /></a><br /></p>
+
+<p>and the very simple dashboard I put together to test this looks like this</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0c9e228970c img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-01-27 at 9.07.09 PM" title="Screen Shot 2015-01-27 at 9.07.09 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-600wi" /></a><br /></p>
+
+<p>There's a catch to using the TI Sensortag; it sometimes turns itself off, to save battery. To correct this you can install new firmware on the device to disable the battery saving mode. The folks at MyWeatherCenter provide a <a href="http://www.myweathercenter.net/installing-a-new-firmware-for-ti-sensortag/">link to their firmware</a> which deals with the issue, at the cost of lower battery life. </p>
+
+<p>The results: the windows are way, way colder than the inside air (about 45 degrees), but the curtains read much warmer (about 60 degrees). Thermal curtains for the win!</p>
 
 
   <h3>25 January 2015</h3>
@@ -13288,15 +13325,6 @@ something works by writing about it. </p>
 
 <p>In retrospect, I should have walked out of the room.
 That would have been brave and not foolish.</p>
-
-
-  <h3>19 November 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-11-19-i-envy-people-who-can-focus-on-exactly-one-thing-for-a-long-period-of-time/">I envy people who can focus on exactly one thing for a long period of time</a>
-      </h3>
-      <p>I envy people who can focus on exactly one thing for a long period of time.</p>
-
-<p>I'm not one of those people.</p>
 
 
 
