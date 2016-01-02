@@ -6,8 +6,38 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2016 16:33:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jan 2016 00:01:02 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Morse Code</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-02-learning-morse-code/</link>
+      <pubDate>Sat, 02 Jan 2016 00:01:02 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-02-learning-morse-code/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying to learn Morse Code, at least to be able to copy characters at a
+a fast enough pace to understand what the IDs on the local 2 meter
+amateur repeaters are saying. Over a previous holiday break I had
+sorted out at least a little bit of sending Morse, so some letters
+are already familiar (CQ, K, E, SOS). I don&amp;rsquo;t yet know how to either
+send or recognize my call sign. There&amp;rsquo;s a ways to go.&lt;/p&gt;
+
+&lt;p&gt;Ward Cunningham K9OX has a &lt;a href=&#34;http://c2.com/~ward/morse/&#34;&gt;page full of ham radio software&lt;/a&gt;, including a
+&lt;a href=&#34;http://c2.com/~ward/morse/morse.html&#34;&gt;Morse Code Teaching Machine&lt;/a&gt;
+that does a nifty adaptive learning system to feed you the letters
+you need work on. It dates from the article
+&lt;a href=&#34;http://c2.com/morse/wiki.cgi?QstArticle&#34;&gt;A Fully Automatic Morse Code Teaching Machine, QST (May 1977)&lt;/a&gt;.
+Ward wrote it to fit on a very tiny machine, and it&amp;rsquo;s been subsequently
+ported and improved to run on bigger machines, but still at its heart
+it&amp;rsquo;s old and tiny (and in some essential way very wonderful).&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using the Macintosh version; there&amp;rsquo;s an interesting
+version for Ward&amp;rsquo;s federated wiki as well, which would
+be worth trying.&lt;/p&gt;
+
+&lt;p&gt;73 de Ed KD8OQG&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>QSL card template for Lob.com</title>
@@ -652,44 +682,6 @@ Internet use and do simultaneous Spotify or Netflix or other
 streaming media, it seems insane to pay VPN charges or engineer
 your own VPN endpoint to handle that full stream of data when it
 could very easily go over a lowest-cost unencrypted link.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The productivity oscillator</title>
-      <link>http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator/</link>
-      <pubDate>Wed, 02 Dec 2015 07:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator/</guid>
-      <description>&lt;p&gt;I have been using Github issues for a long time as a todo list
-tracking and general productivity tool. It works well enough that
-I&amp;rsquo;ve opened over 4000 issues and have closed most of them.&lt;/p&gt;
-
-&lt;p&gt;The perpetual management challenge is in deciding how many issues
-is OK to leave open. Put too few in, and it feels like you have
-things to do that are not written down; put in too many, and you&amp;rsquo;re
-likely to have duplication and you forget what it is that you were
-trying to do in the first place.&lt;/p&gt;
-
-&lt;p&gt;The best part of the challenge is having some illusion of
-control over what is going on. I&amp;rsquo;m trying to work the queue
-this way. Some times my goal will be to create more open issues,
-putting things on the list to increase it up to a target goal.
-Other times the goal will be to reduce the size of the list by
-finishing tasks, clearing duplicates, or deciding not to get things
-done. By framing it as a deliberate game of &amp;ldquo;add tasks up to a
-target&amp;rdquo; or &amp;ldquo;clear tasks down to a target&amp;rdquo; I&amp;rsquo;m hoping to trick
-myself into taking on the easy things that I wrote down a month
-ago that will take a minute to do but are off my immediate radar.&lt;/p&gt;
-
-&lt;p&gt;The productivity oscillator suggests both a pattern of work and
-the illusion that whatever you are doing is the right thing to do.
-If you&amp;rsquo;re stuck trying to get stubborn things accomplished, write
-done some new easy goals and get those taken care of. It&amp;rsquo;s
-a quantified form of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/04/marginally_usef.html&#34;&gt;structured procrastination&lt;/a&gt; - which it turns out
-I&amp;rsquo;ve been talknig about for 10 years.&lt;/p&gt;
-
-&lt;p&gt;I wonder if there&amp;rsquo;s anything still on my todo list from 2005!&lt;/p&gt;
 </description>
     </item>
     

@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-02-learning-morse-code" class="list-group-item">Learning Morse Code</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-01-qsl-card-template" class="list-group-item">QSL card template for Lob.com</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-22-kale-into-ice-cream" class="list-group-item">How I turned 99 cents worth of kale into half a gallon of delicious ice cream</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-27-october-2015-food-inspections" class="list-group-item">October 2015 food inspections for Washtenaw County</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-11-21-first-snow-of-the-season" class="list-group-item">First snow of the 2015 season</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container" class="list-group-item">OpenVPN in a container</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4184,6 +4186,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12330,6 +12334,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12646,6 +12652,25 @@ this and there will almost always be something new to read.</p>
 
   <h3>13 June 2011</h3>
       <h3>
+      <a href="http://vielmetti.github.io/post/2011/2011-06-13-system-mapping/">System mapping</a>
+      </h3>
+      <p>It&#39;s always good to collect a lot of examples as you look to map out a system. For that you want to have generative tools that suggest the kinds of examples that you want to look for.</p>
+<p>The <a href="http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html" target="_self">power outage maps I have been collecting</a> started with the generative system of making a blank entry for each of 50 states, and looking to collect one in each state. I&#39;ve done similar exercises where the generator is the first letter of the alphabet collecting examples A-Z. You are looking for breadth in your view, and something that constrains the search so that you don&#39;t spend too much time in one place before going on.</p>
+<p>It helps to have some kind of rudimentary ranking algorithm when wrapping up your search, so that you can look for gaps into which another example will fit. The utility map effort looks like it&#39;s going to generate a simple checklist for each map, so that I can give each one a score on completeness (0 = no map, add 1 for county by county stats, add 1 for city by city stats, add 1 for zoom to the outage, add 1 for systemwide counts etc).</p>
+<p>Put the things you collect into categories that have names, so that you can start working with abstractions instead of concrete instances. The list of categories becomes another place to generate a bounded set of additional elements.</p>
+<p>Once you have all of these you can start to think about plausible things that might be in the system that you haven&#39;t found yet. My piece on &quot;<a href="http://vielmetti.typepad.com/vacuum/2011/06/unknowledge-management.html" target="_self">unknowledge management</a>&quot; (the phrase is <a href="http://www.munnecke.com/papers/dragons.htm" target="_self">from Tom Munnecke</a>) where the task becomes looking for names for things that don&#39;t exist yet but that might plausibly exist given the system that you have described. This means that you end up with something peculiar to search for, and either it doesn&#39;t exist yet, it can&#39;t exist (and your models are off), or you find it.</p>
+<p>So the iterative process looks like</p>
+<p style="padding-left: 30px;">describe a search space</p>
+<p style="padding-left: 30px;">collect examples</p>
+<p style="padding-left: 30px;">rank along common attributes</p>
+<p style="padding-left: 30px;">categorize into abstractions</p>
+<p style="padding-left: 30px;">synthesize the undiscovered instances</p>
+<p>and that seems to be as good a plan as any for survey of the field.</p>
+<p>This <a href="http://www.jhsph.edu/clf/programs/eating/proj_foodsystem.html" target="_self">food system map of Baltimore</a>&#0160;looks like an instance of the structure of this work. In academia, the <a href="http://scholar.google.com/scholar?q=survey+article&amp;hl=en&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart" target="_self">survey article</a>&#0160;(Google Scholar) is structured in much the same way.</p>
+
+
+  <h3>13 June 2011</h3>
+      <h3>
       <a href="http://vielmetti.github.io/post/2011/2011-06-13-dial-by-name-using-the-twitter-name-space/">Dial by name, using the Twitter name space?</a>
       </h3>
       <p>I find myself wanting to call people once in a while, and I also find that I know people&#39;s twitter names pretty well.</p>
@@ -12669,17 +12694,6 @@ this and there will almost always be something new to read.</p>
 
   <h3>10 June 2011</h3>
       <h3>
-      <a href="http://vielmetti.github.io/post/2011/2011-06-10-noemail-recovery/">Recovering from a spell of no email, and starting a new one</a>
-      </h3>
-      <p><em>&quot;Sisyphus had it easy.&quot;</em></p>
-<p>I&#39;ll be off email starting Friday night and continuing to Sunday night; the second weekend in a row of a &quot;no email&quot; weekend. It wasn&#39;t quite 100% offline the first weekend, since I&#39;m so addicted, but I made a point of not clicking on any messages in my inbox and not sending any mail.</p>
-<p>Part of the plan for not doing email is making sure that at the end of the time you can recover gracefully and not feel overwhelmed. This meant dealing with an entire boatload of messages all at once, processing a weekend&#39;s worth of mail in a Sunday evening. That&#39;s hardly fun, but it beats the alternative of working the email treadmill all weekend long.</p>
-<p>The biggest thing I managed to do was slow down the rate of messages into my inbox at least a little by identifying one mailing list that I really like that I just don&#39;t have the time to follow right now. It all by itself generates 20-40 messages a day, and even if those only take a few seconds to skip over, it&#39;s too much of a burden of diligence to stay on top of it.&#0160;</p>
-<p>I also realized that I don&#39;t have secondary or tertiary communications paths to everyone who is in my inbox. I don&#39;t know everyone&#39;s phone number, I&#39;m not sure I&#39;m Facebook friends with them, they might or might not use Twitter, and many times I don&#39;t have a postal address. I&#39;d love to be able to say that for everyone who mattered I had three ways to signal them, just in case there was some need to be persistent to get a message through.&#0160;</p>
-
-
-  <h3>10 June 2011</h3>
-      <h3>
       <a href="http://vielmetti.github.io/post/2011/2011-06-10-noemail-alternatives/">Alternatives to sending electronic mail; alternatives to receiving electronic mail</a>
       </h3>
       <p>The weekend is a low email diet, but somehow that&#39;s difficult to do without explaining myself a little bit. Here&#39;s some thoughts as to how I might do things the next time that I work through the world of weekend time, how I can get some more effective communications rather than just more frequent.</p>
@@ -12689,6 +12703,17 @@ this and there will almost always be something new to read.</p>
 <p><strong>Short synchronous public message. </strong>If I had to do this I&#39;d say IRC, except I hate that system most of the time. A twitter hash tag is very similar to IRC. I&#39;m told that LiveJournal deals well with this use case, for situations where you want real-time tracking of comments across multiple forums.&#0160;I can&#39;t think of an email application where this fits.</p>
 <p><strong>Long asynchronous private message. </strong>This is one of the things that electronic mail can do well, and that most other online messaging systems do worse. I see a way to handle the world to reduce these by taking the positive versions of these and sending them out on paper, e.g. as postcards. If you can get documents out of long messages and into some kind of version control system or wiki, you can avoid the path of version skew as everyone shovels weirdly-named drafts at each other.</p>
 <p><strong>Long asynchronous public message</strong>. You&#39;re looking at it; my blog is where I need to be writing more when it&#39;s time to put something into the world that might have use in the indefinite future.</p>
+
+
+  <h3>10 June 2011</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2011/2011-06-10-noemail-recovery/">Recovering from a spell of no email, and starting a new one</a>
+      </h3>
+      <p><em>&quot;Sisyphus had it easy.&quot;</em></p>
+<p>I&#39;ll be off email starting Friday night and continuing to Sunday night; the second weekend in a row of a &quot;no email&quot; weekend. It wasn&#39;t quite 100% offline the first weekend, since I&#39;m so addicted, but I made a point of not clicking on any messages in my inbox and not sending any mail.</p>
+<p>Part of the plan for not doing email is making sure that at the end of the time you can recover gracefully and not feel overwhelmed. This meant dealing with an entire boatload of messages all at once, processing a weekend&#39;s worth of mail in a Sunday evening. That&#39;s hardly fun, but it beats the alternative of working the email treadmill all weekend long.</p>
+<p>The biggest thing I managed to do was slow down the rate of messages into my inbox at least a little by identifying one mailing list that I really like that I just don&#39;t have the time to follow right now. It all by itself generates 20-40 messages a day, and even if those only take a few seconds to skip over, it&#39;s too much of a burden of diligence to stay on top of it.&#0160;</p>
+<p>I also realized that I don&#39;t have secondary or tertiary communications paths to everyone who is in my inbox. I don&#39;t know everyone&#39;s phone number, I&#39;m not sure I&#39;m Facebook friends with them, they might or might not use Twitter, and many times I don&#39;t have a postal address. I&#39;d love to be able to say that for everyone who mattered I had three ways to signal them, just in case there was some need to be persistent to get a message through.&#0160;</p>
 
 
   <h3>10 June 2011</h3>
@@ -13396,20 +13421,6 @@ Searches on Google under “news” are not showing any pages at five past three
       <p>Here&#39;s the poster for the <strong>Kids Read Comics</strong>&#0160;event in Chelsea Michigan, June 18-19, 2011. More information, and printable posters for you to put up yourself in full-color glory, at <a href="http://www.kidsreadcomics.org" target="_self">kidsreadcomics.org</a> . Organized by&#0160;<strong>Edith Burney</strong>, this event is brought to you by the <a href="http://www.chelsea.lib.mi.us/" target="_self">Chelsea District Library</a> and is promised to take over all of historic downtown Chelsea with activities for kids and teens.&#0160;</p>
 <p>As the event gets closer, <a href="http://twitter.com/krcomics" target="_self">follow @krcomics on Twitter</a> for details.</p>
 <p><a href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01543298ef19970c-pi"><img alt="KRC_COLORFLIER11" class="asset  asset-image at-xid-6a00d8341c4f1a53ef01543298ef19970c" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01543298ef19970c-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="KRC_COLORFLIER11" /></a> <br /><br /></p>
-
-
-  <h3>26 May 2011</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2011/2011-05-26-annarborcrowdmapcom-collaborative-analysis-of-storm-impact/">AnnArbor.Crowdmap.com - collaborative analysis of storm impact</a>
-      </h3>
-      <p><a href="http://annarbor.crowdmap.com/" target="_self">AnnArbor.Crowdmap.com</a>&#0160;is an online system which has been collecting storm reports from the May 2011 flooding in Ann Arbor, as well as having in it previous information from past flood events and other incidents in Ann Arbor where there was widespread problems.</p>
-<blockquote>
-<p><em><a href="http://www.crowdmap.com" target="_self">Crowdmap</a></em>&#0160;is a tool that allows you to crowdsource information and visualize it on a map and timeline.</p>
-</blockquote>
-<p>I&#39;ve typed in a bunch of these, but if you notice a news report of flooding, sewer spills, landslides, closed roads or fish flopping around on the road please add in a dot on the map with a link.</p>
-<p><a href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88b33c4f970d-pi"><img alt="Picture 20" class="asset  asset-image at-xid-6a00d8341c4f1a53ef014e88b33c4f970d" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88b33c4f970d-500wi" style="display: block; margin-left: auto; margin-right: auto;" title="Picture 20" /></a></p>
-<p>The image shows storm-to-date stormwater related incidents in Ann Arbor and the surrounding area - I will leave it to the world to decide how far away &quot;surrounding&quot; is, but certainly the Huron River watershed is in scope, and I suspect that the area to watch is roughly the size of the <a href="http://arborwiki.org" target="_self">Arborwiki</a> catchment basin.</p>
-<p>More about Crowdmap at <a href="http://techcocktail.com/crowdmap-2011-03" target="_self">Tech Cocktail</a>. &#0160;A <a href="http://www.businessinsider.com/omidyar-network-invests-14-million-into-ushahidis-crowd-source-alert-platform-2009-12" target="_self">2009 Business Insider story</a>&#0160;covers eBay founder&#0160;<strong>Pierre Omidyar</strong>&#39;s investment in <a href="http://www.ushahidi.com/" target="_self">Ushahidi</a>, the system that Crowdmap was built out of.&#0160;</p>
 
 
 
