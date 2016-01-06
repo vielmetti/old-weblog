@@ -6,8 +6,40 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2016 00:01:02 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2016 00:00:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WKAR-TV television spectrum may be up for sale, and the station is at risk</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale/</guid>
+      <description>&lt;p&gt;Michigan State University is considering placing the spectrum
+that it uses for WKAR-TV into an auction that the FCC is running,
+in which case it might receive upwards of $200 million in exchange
+for ceasing all of its terrestrial broadcasts.&lt;/p&gt;
+
+&lt;p&gt;This strikes me as a penny wise, pound foolish approach. Once
+the spectrum is gone you can&amp;rsquo;t get it back, and as a land grant
+institution should know it&amp;rsquo;s important to be a good steward of
+the resources you have been handed not just for the short term
+but for the long term. Selling off a 50+ year tradition of
+public broadcasting for a quick buck seems like a bad approach,
+no matter how appealing a big check would be, especially
+considering the community&amp;rsquo;s investment in the station.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t currently have a TV receiver for over the air broadcasts,
+but my neighbor down the street who does make the trek from Ann
+Arbor to Lansing to give her thoughts. Her family grew up on WKAR-TV
+and have been supporters for years, and they rely on over the
+air television to bring in the signal.&lt;/p&gt;
+
+&lt;p&gt;More as I have it; I&amp;rsquo;m collecting links and news articles at
+the Lansing Localwiki, at the &lt;a href=&#34;https://localwiki.org/lansing/WKAR-TV&#34;&gt;WKAR-TV&lt;/a&gt;
+page.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning Morse Code</title>
@@ -613,75 +645,6 @@ suggesting some necessary features of the future network.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;iframe class=&#34;youtube-player&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;https://www.youtube.com/embed/wCl-bKaER-s&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Split tunnels considered harmful</title>
-      <link>http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/</link>
-      <pubDate>Fri, 04 Dec 2015 15:30:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/</guid>
-      <description>&lt;p&gt;Previously: &lt;a href=&#34;http://meyerweb.com/eric/comment/chech.html&#34;&gt;Considered harmful essays considered harmful&lt;/a&gt;, Eric Meyer, 2002; also Go To Statement Considered Harmful, CACM, 1968; also &lt;a href=&#34;http://harmful.cat-v.org/&#34;&gt;Encyclopedia of things considered harmful&lt;/a&gt;, from cat-v.org.&lt;/p&gt;
-
-&lt;p&gt;Split tunnels are a VPN construction where instead of
-sending all of your traffic for the network in a single
-encrypted tunnel that collects everything, you instead
-route some traffic down the encrypted link and other traffic
-goes in the clear through your default connection. It&amp;rsquo;s
-possible that you might have a tunnel configuration with
-multiple splits if e.g. you needed to get to private
-address space at two or more organizations simultaneously.&lt;/p&gt;
-
-&lt;p&gt;If you have a choice, don&amp;rsquo;t use a split tunnel. Here&amp;rsquo;s why.&lt;/p&gt;
-
-&lt;p&gt;First and foremost are security considerations. The user of
-the split tunnel introduces a possible forwarding path between
-the outside Internet world (full of nefarious intent) and
-the inside Internet world that you have a secure path to and
-its chewy center. If an attacker knows that you are using a
-split tunnel, they can put something on the public Internet
-that causes you to send their traffic directly through to your private
-network while you have all your trust relationships intact.
-This could be bad, and if your security instincts trend towards
-professional paranoia, you&amp;rsquo;ll understand that there&amp;rsquo;s a real risk.&lt;/p&gt;
-
-&lt;p&gt;A second security consideration is unplanned leakage of private
-information into the Internet. The split tunnel in its ordinary
-configuration expects that you can distinguish protected traffic
-from unprotected traffic by its IP address. The nature of
-the modern Internet is that a browser can and will connect to
-dozens or hundreds of hosts on its way to filling out a web page,
-and any one of those connections might expose or leak some
-information about what you were doing on the &amp;ldquo;private&amp;rdquo; link
-that could be of use to an adversary or snoop.&lt;/p&gt;
-
-&lt;p&gt;Finally, split tunnels are difficult to verify as correctly
-configured. The managed endpoint of the tunnel can only see
-traffic destined for it, and can only verify that what&amp;rsquo;s
-there is going to the endpoint. With a split, the managed
-endpoint doesn&amp;rsquo;t have visibility into all traffic destinations
-and thus is completely unaware of any exfiltration attempts.&lt;/p&gt;
-
-&lt;p&gt;However, there may be reasons that a split tunnel is unavoidable.
-Here are some considerations to balance against the risk.&lt;/p&gt;
-
-&lt;p&gt;A split tunnel is more versatile than a full tunnel. If your
-users need to connect to more than one administrative domain
-simultaenously, they may need to configure their local host
-setup to have two or more split tunnels running at once.&lt;/p&gt;
-
-&lt;p&gt;If the tunnel endpoint is at the long end of a slow connection,
-or if the trusted managed endpoint is bandwidth or CPU constrained,
-performance through a full tunnel may be unacceptably bad.
-Splitting the tunnel means that only necessary traffic goes through
-it, allowing better use of network resources.&lt;/p&gt;
-
-&lt;p&gt;Finally, there&amp;rsquo;s the cost. If the user is going to be a typical
-Internet use and do simultaneous Spotify or Netflix or other
-streaming media, it seems insane to pay VPN charges or engineer
-your own VPN endpoint to handle that full stream of data when it
-could very easily go over a lowest-cost unencrypted link.&lt;/p&gt;
 </description>
     </item>
     
