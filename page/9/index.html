@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-17-county-health-food-inspection-delays" class="list-group-item">Washtenaw County Health Department delays food inspection reporting from November 2015</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-cuts-coming-to-mlive" class="list-group-item">Cuts coming to MLive, 2016 edition; 29 content positions eliminated</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale" class="list-group-item">WKAR-TV television spectrum may be up for sale, and the station is at risk</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator" class="list-group-item">The productivity oscillator</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-kicked-out-of-nextdoor" class="list-group-item">Kicked out of Nextdoor</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-30-ann-arbor-city-administrator-craigslist" class="list-group-item">Help Wanted, Ann Arbor City Administrator, via Craiglist</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4190,6 +4192,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12348,6 +12352,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12660,6 +12666,44 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>2 March 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/">Maps with Leaflet and LeafletR</a>
+      </h3>
+      <pre>
+> style <- styleGrad(prop="score", breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg="score")
+> leaflet(data="/Users/emv/tmp/N.geojson",dest=tempdir(),popup="*",style=style)
+</pre>
+
+<p>So, progress.</p>
+
+<p>One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth "score" variable that's derived in some way from those three.</p>
+
+<p>A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.</p>
+
+<p>A screenshot of the result is below:</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-03-02 at 12.56.42 AM" title="Screen Shot 2015-03-02 at 12.56.42 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi" /></a><br /></p>
+
+<p>Some big caveats.</p>
+
+<p>My color palette is all wrong - I need to think that through. </p>
+
+<p>This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.</p>
+
+<p>The map needs labels of some sort. (How they will look when everything is smushed together, don't know.)</p>
+
+<p>It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.</p>
+
+<p>The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.</p>
+
+<p>RESTAURANT NAMES ARE IN ALL CAPS AND THAT'S SHOUTING.</p>
+
+<p>Leaflet can do all sorts of things and I've hardly scratched the surface.</p>
+
+<p>I probably could do this all in R - or all in Python - but I'm trying to spin up on both systems &amp; thus really want to use each for what they are good at.</p>
 
 
   <h3>28 February 2015</h3>
@@ -13259,39 +13303,6 @@ parts decompose into smaller parts that are in turn rather
 complex. Inside every complex working system is a simpler
 system that works, and you are looking to identify that at
 the core of your efforts.</p>
-
-
-  <h3>20 November 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-11-20-wake-up-get-a-cup-of-coffee-start-typing/">Wake up, get a cup of coffee, start typing</a>
-      </h3>
-      <p>Wake up, get a cup of coffee, start typing. That's a pretty typical pattern for me
-these days, and I'm trying to make sense of whether it's a good one.</p>
-
-<p>The hardest part of making a morning typing routine work is to try to figure out
-what indeed it is that you are focusing on in those early caffeinated hours.
-There are lots of competitors for the morning attention, including yesterday's
-inbox, the overnight news, and the steady tick of Twitter and Facebook. You could
-sit and just read things for a while and not get anything in particular done.</p>
-
-<p>One element of morning focus could be simply on churning out something - anything -
-that was a sign of progress towards a goal. This doesn't even need to be anything
-substantial, just a morning wakeup exercise to get the keys moving. I experimented
-with <a href="http://vielmetti.typepad.com/vacuum/2012/12/750wordscom-a-writing-environment-for-a-daily-writing-exercise.html">750 Words</a>, a system designed for just this
-daily writing exercise. That was ultimately unsatisfying, though I like the idea
-the details didn't work out. This effort gets called "Morning Pages" which I guess
-justifies as part of a writer's craft.</p>
-
-<p>Daily work is hard, hard work. It asks you to be able to tune in and focus
-each and every day, whether or not you woke up with that idea in mind. Carving
-out that chunk of the day, committing to a specific goal, tracking your progress
-towards the goal (without the tracking being its own burden), and following through
-in the absence of some easy feedback. </p>
-
-<p>I read my own advice about doing things frequently and sometimes I laugh at my
-own cheery suggestions. "Write about the same thing twice a day", I cheerily suggest in the <a href="http://vielmettti.typepad.com/secret">Blogger's Secret</a>, "and do that for six months". OK, which thing? What happens if two weeks into this commitment you discover that it's not the right thing to do?</p>
-
-<p>So wake up, get a cup of coffee, start typing. Produce something. If you need to determine how it fits into a bigger plan, do your edits in the afternoon.</p>
 
 
 

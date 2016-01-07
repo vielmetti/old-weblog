@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-17-county-health-food-inspection-delays" class="list-group-item">Washtenaw County Health Department delays food inspection reporting from November 2015</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-cuts-coming-to-mlive" class="list-group-item">Cuts coming to MLive, 2016 edition; 29 content positions eliminated</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale" class="list-group-item">WKAR-TV television spectrum may be up for sale, and the station is at risk</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator" class="list-group-item">The productivity oscillator</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-kicked-out-of-nextdoor" class="list-group-item">Kicked out of Nextdoor</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-30-ann-arbor-city-administrator-craigslist" class="list-group-item">Help Wanted, Ann Arbor City Administrator, via Craiglist</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4190,6 +4192,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12348,6 +12352,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12660,6 +12666,19 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>10 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-10-disable-quiet-hours-on-your-windows-phone-81-so-you-always-take-that-late-night-call/">Disable Quiet Hours on your Windows Phone 8.1 so you always take that late night call</a>
+      </h3>
+      <p>I have a new Windows Phone and overall I really like it. We bought it used and unlocked and it's running on the Ting network, which means that in addition to being an interesting device that looks really nice it's also quite economical.</p>
+
+<p>That said, there's one feature on the phone that wasn't a feature last night. I was making arrangements to take my son home, and was expecting a call from him. The phone has wifi calling so it should have worked just fine where I was, a spot that has poor cell reception. But the call never came, and by the time I idly checked my messages I had missed several calls. How did that happen?</p>
+
+<p>Windows Phone and Cortana has a feature called Quiet Hours. In <a href="http://www.windowscentral.com/how-set-quiet-hours-and-inner-circles-windows-phone-81">How to set up Quiet Hours and Inner Circles on Windows Phone 8.1</a>, <a href="https://twitter.com/samsabri">Sam Sabri</a> writes for Windows Central a nice tutorial on how to set it up and configure the phone to not ring during some hours of the day and to allow some people to specially ring the phone even when it's set to no ring. It's a good tutorial, and if I had read it carefully and thought it through I could have set it up to always take calls from important people late at night.</p>
+
+<p>The truth is, though, that I already have another phone system (Google Voice) that I could already use to reroute or divert calls, and having that power in my phone though nice is the opposite of what I wanted. If it's late and someone calls me, I want to take the call. So my suggestion to you for your new Windows Phone is - if you want to use it as a phone - that you start out your device setup by disabling Quiet Hours, and only add it back in once you have thought it through very carefully.</p>
 
 
   <h3>7 May 2015</h3>
@@ -13101,44 +13120,6 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
 <script src="https://gist.github.com/vielmetti/2a6feadf268ca2b686e7.js"></script>
 
 <p>Thanks go to Joe Germuska (for Census Reporter and csvkit), Markus Spath (for R help), Matt Hampel (for mapping help), Jacob Wasserman (for Shapely help), Stan Gregg (for outage mapping), Mohan Kartha (for GNU Parallel and AWS help), and anyone else who I missed along the way.                                          </p>
-
-
-  <h3>2 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/">Maps with Leaflet and LeafletR</a>
-      </h3>
-      <pre>
-> style <- styleGrad(prop="score", breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg="score")
-> leaflet(data="/Users/emv/tmp/N.geojson",dest=tempdir(),popup="*",style=style)
-</pre>
-
-<p>So, progress.</p>
-
-<p>One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth "score" variable that's derived in some way from those three.</p>
-
-<p>A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.</p>
-
-<p>A screenshot of the result is below:</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-03-02 at 12.56.42 AM" title="Screen Shot 2015-03-02 at 12.56.42 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi" /></a><br /></p>
-
-<p>Some big caveats.</p>
-
-<p>My color palette is all wrong - I need to think that through. </p>
-
-<p>This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.</p>
-
-<p>The map needs labels of some sort. (How they will look when everything is smushed together, don't know.)</p>
-
-<p>It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.</p>
-
-<p>The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.</p>
-
-<p>RESTAURANT NAMES ARE IN ALL CAPS AND THAT'S SHOUTING.</p>
-
-<p>Leaflet can do all sorts of things and I've hardly scratched the surface.</p>
-
-<p>I probably could do this all in R - or all in Python - but I'm trying to spin up on both systems &amp; thus really want to use each for what they are good at.</p>
 
 
 

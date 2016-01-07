@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-17-county-health-food-inspection-delays" class="list-group-item">Washtenaw County Health Department delays food inspection reporting from November 2015</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-cuts-coming-to-mlive" class="list-group-item">Cuts coming to MLive, 2016 edition; 29 content positions eliminated</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale" class="list-group-item">WKAR-TV television spectrum may be up for sale, and the station is at risk</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator" class="list-group-item">The productivity oscillator</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-kicked-out-of-nextdoor" class="list-group-item">Kicked out of Nextdoor</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-11-30-ann-arbor-city-administrator-craigslist" class="list-group-item">Help Wanted, Ann Arbor City Administrator, via Craiglist</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4190,6 +4192,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12348,6 +12352,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12660,6 +12666,37 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>19 November 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-11-19-enjoy-the-attic-while-you-can/">Enjoy the attic while you can</a>
+      </h3>
+      <p>Our attic is a three season room at best. In the depths
+of winter it&rsquo;s really cold, and in the summer time it can
+be very hot. There&rsquo;s a nod towards climate control but
+it&rsquo;s a long way from the furnace and the space is just
+not really practical to equip as full fledged living space.</p>
+
+<p>I have a work table up there (where I am now) with some
+tools, a few working shortwave radios, a couple of mostly
+working computers, and a fair measure of junk. It&rsquo;s been
+the place where toys go when the boys have no interest in playing
+with them again, which is to say that everything that&rsquo;s
+not Lego is up here.</p>
+
+<p>As long as the weather stays mild, I have ambition to put
+the space to better use. At the bare minimum I&rsquo;d like to
+get to the point where every day I get upstairs to do
+something, and where every time I come back down I have
+something in my hands to put to better use somewhere else
+or to throw away or recycle. I&rsquo;ve tried to do marathon
+sorting and cleaning sessions and it&rsquo;s just not me, but
+the every day approach at least gives you a chance for a
+series of small wins.</p>
+
+<p>So, bit by bit, work at it. At some point it will get too
+cold, and let yourself quit then. Try not to do everything at once.</p>
 
 
   <h3>19 November 2015</h3>
@@ -13749,43 +13786,6 @@ is <code>git rebase -i</code>.</p>
 <li>David Walsh: <a href="http://davidwalsh.name/squash-commits-git">Squash commits with Git</a></li>
 <li>Pro Git,  Scott Chacon and Ben Straub: <a href="http://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History">Git Tools - Rewriting History</a></li>
 </ul>
-
-
-  <h3>22 September 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-09-22-snap-ci/">Snap CI</a>
-      </h3>
-      <p><a href="https://snap-ci.com">Snap CI</a> is a cloud-based continuous integration system. Like
-Travis CI, which I have written about <a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/">here</a>,
-it lives in the cloud, lets you run programs triggered by GitHub commits, and
-offers a testing environment for free for open source projects which lets you
-familiarize yourself with the system before deciding to pay for it for your
-non-open-source efforts.</p>
-
-<p>I&rsquo;m looking at all of these tools now because this weblog is now managed through
-a process that involves checking things into Github, which makes it completely
-suitable for automation for common tasks every time I save a file. (Spell checking,
-link checking, really any kind of quality control you can imagine reducing to
-a tiny shell script.)</p>
-
-<p>Like Travis CI, Snap CI lets you automate the build process. Where it diverges
-(and where it&rsquo;s interesting) is that the build process is only the first part of
-a multi-stage pipeline that includes deployment at the end of the task only when
-a set of human decisions have been made as to whether the thing you made is ready
-to be shared.</p>
-
-<p>This <a href="https://blog.snap-ci.com/blog/2014/07/22/why-snapci-and-travisci-are-not-same-thing/">Snap CI blog post</a>
-on why Travis CI and Snap CI are not the same thing is from Snap CI and it&rsquo;s a useful
-overview.</p>
-
-<p>The downside of multi-stage pipelines for deployment is that they are very hard to
-automate correctly, and very hard to demonstrate correct behavior with open source
-projects that generally struggle to have any automated test facilities at all. So
-while Travis CI is a very good fit for open source components (and has attracted a
-whole sub-industry of writing <code>.travis.yml</code> files to support those), it really doesn&rsquo;t
-have the whole &ldquo;continuous deployment&rdquo; pattern sorted out. And while Snap CI looks
-like it would be great for saying &ldquo;once we&rsquo;re happy with this, push it out to the world&rdquo;,
-that setup is not easy to pick up simply by inspecting other projects that have done it.</p>
 
 
 
