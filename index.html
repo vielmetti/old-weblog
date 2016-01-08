@@ -70,9 +70,11 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-18-oxford-flood-network" class="list-group-item">Oxford Flood Network</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-07-dexter-fire-inverness-condo" class="list-group-item">Fire on Inverness in Dexter, Michigan</a></li>
          
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-17-county-health-food-inspection-delays" class="list-group-item">Washtenaw County Health Department delays food inspection reporting from November 2015</a></li>
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-07-county-health-food-inspection-delays" class="list-group-item">Washtenaw County Health Department delays food inspection reporting from November 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-cuts-coming-to-mlive" class="list-group-item">Cuts coming to MLive, 2016 edition; 29 content positions eliminated</a></li>
          
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-04-dave-farber-stanford-talk" class="list-group-item">Dave Farber talk at Stanford</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful" class="list-group-item">Split tunnels considered harmful</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator" class="list-group-item">The productivity oscillator</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4194,6 +4196,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12360,6 +12364,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12674,6 +12680,37 @@ this and there will almost always be something new to read.</p>
 
 
 
+  <h3>8 January 2016</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2016/2016-01-18-oxford-flood-network/">Oxford Flood Network</a>
+      </h3>
+      <p>The Oxford Flood Network is making a flood detection network in
+the UK, using low cost sensors and volunteers. They are sharing
+their <a href="https://github.com/oxfloodnet">code on Github</a> and their
+results on the <a href="https://twitter.com/flood_network">Flood_Network</a>
+Twitter account.</p>
+
+<p>They encourage you to <a href="http://flood.network/join">join their effort</a>,
+and no high technology is necessary. The network incorporates
+both readings from automated sensors (about £250) as well as
+manual readings from gaugeboards or photos.</p>
+
+<p>New as of December 2015 is an <a href="http://www.nominet.uk/iot-technology-powers-an-interactive-flood-map-and-sensor-network/">interactive flood map</a>.
+A post from Nominet describes the effort:</p>
+
+<blockquote>
+<p>Nominet, in association with the Flood Network, is today launching an interactive, online map which visualises river and stream levels around Oxford. The map, showing how technology can be a part of flood defence systems anywhere, has been developed following a successful pilot project with the Oxford Flood Network. The project has been focused on exploring the potential of the Internet of Things (IoT) to create an extensive, localised, early-warning system for flood-prone areas for the first time in the UK.</p>
+</blockquote>
+
+<p>The system is using TVWS (&ldquo;TV white space&rdquo;) as its wide area backhaul
+network for these sensors for hard-to-reach devices that are outside
+of the range of wifi. Cost-effective and reliable access to remote
+small sensors is one of the tough spots in Internet of Things development,
+it&rsquo;s interesting to see TVWS as a possible solution to this issue.
+The other relevant technology for low-cost metro area networks for
+sensors is Lorawan, more about which later.</p>
+
+
   <h3>7 January 2016</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2016/2016-01-07-dexter-fire-inverness-condo/">Fire on Inverness in Dexter, Michigan</a>
@@ -12720,7 +12757,7 @@ Some reports have &ldquo;Huron Farms&rdquo; as the condo complex, others have
 
   <h3>7 January 2016</h3>
       <h3>
-      <a href="http://vielmetti.github.io/post/2016/2016-01-17-county-health-food-inspection-delays/">Washtenaw County Health Department delays food inspection reporting from November 2015</a>
+      <a href="http://vielmetti.github.io/post/2016/2016-01-07-county-health-food-inspection-delays/">Washtenaw County Health Department delays food inspection reporting from November 2015</a>
       </h3>
       <p>Sharing this message from the Washtenaw County Health Department
 regarding their delayed publication of restaurant inspection reports.</p>
@@ -13642,37 +13679,6 @@ doing snow dances.</p>
 snow brings us a little closer to normal. Time to check
 to be sure that every has hats and gloves and suitably
 durable boots and shoes.</p>
-
-
-  <h3>20 November 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/">OpenVPN in a container</a>
-      </h3>
-      <p>A few notes on setting up OpenVPN in a container.</p>
-
-<p>I&rsquo;m using CoreOS, which gives me Docker 1.7.1 in the &ldquo;stable&rdquo; branch.</p>
-
-<p>Two different Docker configurations are available that take on this task,
-with slightly different setups. Kyle Manna&rsquo;s <a href="https://github.com/kylemanna/docker-openvpn">docker-openvpn</a>
-is what I&rsquo;m working with; it in turn is derived from
-<a href="https://github.com/jpetazzo/dockvpn">jpetazzo/dockvpn</a> which
-solves the same problem slightly differently.</p>
-
-<p>There&rsquo;s a <a href="https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04">tutorial on Digital Ocean</a>
-that describes the setup including client-side support.</p>
-
-<p>A second <a href="https://stefanscherer.github.io/run-your-own-dockerized-openvpn-server-at-scaleway/">tutorial by Stefan Scherer</a>
-gives instructions for use in the Scaleway ARM-based server cloud.</p>
-
-<p>I&rsquo;m at the stage right now where I downloaded and installed
-everything and created an &ldquo;opvn&rdquo; config file that successfully
-loads into Tunnelblick, but where it doesn&rsquo;t quite yet have
-all of the routing set up. The slight complication in the
-configuration is that I want to give access to Amazon
-VPCs, so I have a few layers of software-defined networking
-to knit together (or to unravel depending on your perspective).</p>
-
-<p>network ho!</p>
 
 
 
