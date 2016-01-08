@@ -6,15 +6,53 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Jan 2016 11:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2016 16:00:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Ann Arbor City Council Liquor License Review Committee report, 8 January 2016</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-08-a2council-liquor-license-report/</link>
+      <pubDate>Fri, 08 Jan 2016 16:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-08-a2council-liquor-license-report/</guid>
+      <description>&lt;p&gt;Ann Arbor City Hall, January 8, 2016 - A brief report from a jammed
+Council committee meeting held in the council workroom. The committee
+moved public comment time to the begining of the meeting to hear
+concerns of citizens who objected to a previous decision of the committee,
+memorialized as follows on Legistar as 15-1179 enacted on October 16, 2015:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Resolution to Approve a Request from Aquamarine Springs, LLC for a New Micro-Brewer, Small Wine-Maker, Small Distiller Liquor License and Dance/Entertainment Permit, to be Located at 507 S. Ashley Street Sponsors: Council Liquor License Review Committee&lt;/p&gt;
+
+&lt;p&gt;The committee noted that the building is located in the floodway and is also part of the Old West Side Historic District. Committee members discussed the fact that any renovation to the building would require further review by the Fire and Building Departments and may also require site plan approval. It was noted that this approval was only for the applicant to proceed with the liquor license application process.&lt;/p&gt;
+
+&lt;p&gt;A motion was made by Councilmember Kailasapathy, seconded by Councilmember Lumm, that the Resolution be recommended for approval to the City Council on 10/19/2015. On a voice vote, the Chair declared the motion carried.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The citizens at the meeting objected to this decision, both
+that they were not properly informed of the decision making
+at the time as well as the observation that there is a preschool
+nearby that should have the right to object to the decision.
+Several people at this meeting had gone to Lansing to register their
+complaints.&lt;/p&gt;
+
+&lt;p&gt;Also on the docket was a proposal from Glass House Brewing LLC for
+a &amp;ldquo;New Micro-Brewer Liquor License to be Located at 2350 W. Liberty
+Street&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;More later as time and space warrants.&lt;/p&gt;
+
+&lt;p&gt;On Arborwiki: &lt;a href=&#34;https://localwiki.org/ann-arbor/Aquamarine_Springs&#34;&gt;Aquamarine Springs&lt;/a&gt; and &lt;a href=&#34;https://localwiki.org/ann-arbor/Glass_House_Brewing&#34;&gt;Glass House Brewing&lt;/a&gt;,
+both are just the start of the articles at this point.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Oxford Flood Network</title>
-      <link>http://vielmetti.github.io/post/2016/2016-01-18-oxford-flood-network/</link>
+      <link>http://vielmetti.github.io/post/2016/2016-01-08-oxford-flood-network/</link>
       <pubDate>Fri, 08 Jan 2016 11:30:00 -0500</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2016/2016-01-18-oxford-flood-network/</guid>
+      <guid>http://vielmetti.github.io/post/2016/2016-01-08-oxford-flood-network/</guid>
       <description>&lt;p&gt;The Oxford Flood Network is making a flood detection network in
 the UK, using low cost sensors and volunteers. They are sharing
 their &lt;a href=&#34;https://github.com/oxfloodnet&#34;&gt;code on Github&lt;/a&gt; and their
@@ -662,51 +700,6 @@ of how they are connecting to the network.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I am eating a sandwich, with a recipe in Github</title>
-      <link>http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes/</link>
-      <pubDate>Mon, 14 Dec 2015 23:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes/</guid>
-      <description>&lt;p&gt;Twitter is, of course, for telling people that you are eating a sandwich.
-That&amp;rsquo;s been the point of the system the whole time - long before selfies,
-even long before it took pictures at all, you might get a proper narrative
-of what people are eating for lunch or a snack.&lt;/p&gt;
-
-&lt;p&gt;Using the net to keep track of food is an old tradition; I need
-only point you at the &lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/main.html&#34;&gt;Usenet Cookbook&lt;/a&gt;,
-developed from 1985 to 1987 by Brian Reid, as an archetype.
-&amp;ldquo;I had a lettuce and tomato sandwich Saturday with mustard instead of mayonnaise. Better than I would have feared.&amp;rdquo; But that collection is
-weak on sandwiches, lending itself more to
-&lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/us/SP-menu.html&#34;&gt;soups&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To remedy this need I have started a small and pitiful but
-hopefully growable sandwich recipe collection, using Github
-as the hosting place of choice. See
-&lt;a href=&#34;https://github.com/vielmetti/sandwich&#34;&gt;the vielmetti/sandwich repository&lt;/a&gt;
-for the first start. As it happens, I am clearly not the only person
-to think this way; herewith some collection of sandwich collections.&lt;/p&gt;
-
-&lt;p&gt;Barrie Turner (@bazbt3) came up with roughly the same idea at the same
-time, and you might see his &lt;a href=&#34;http://bazbt3.re-app.net/2015/12/10/git-sandwiches/&#34;&gt;git sandwiches&lt;/a&gt; blog for the proper inspiration for collection
-development. Thanks to @ellemef for connecting us.&lt;/p&gt;
-
-&lt;p&gt;Single sandwiches in git include&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/magnus919/grilledcheese&#34;&gt;grilled cheese&lt;/a&gt;, from Magnus Hedemark&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pcon/recipes/tree/master/meals/fried_chicken_sandwich&#34;&gt;gluten free fried chicken sandwich&lt;/a&gt; from Patrick Connelly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;and certainly many more.&lt;/p&gt;
-
-&lt;p&gt;If you are ill-equipped in your kitchen
-to make your own sandwiches, this command line tool will
-&lt;a href=&#34;https://github.com/travist/makemeasandwich.js&#34;&gt;order you a sandwich from Jimmy John&amp;rsquo;s&lt;/a&gt;. It comes with a makefile so that you invoke it as
-&lt;code&gt;sudo make me a sandwich&lt;/code&gt; and it will do the right thing.&lt;/p&gt;
 </description>
     </item>
     
