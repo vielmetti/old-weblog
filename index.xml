@@ -6,8 +6,59 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Jan 2016 16:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2016 17:29:00 -0500</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Central Michigan Univerisity spokesman responds to Morning Sun editorial regarding WCMU spectrum auction</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-08-central-michigan-responds-to-morning-sun-wcmu-editorial/</link>
+      <pubDate>Fri, 08 Jan 2016 17:29:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-08-central-michigan-responds-to-morning-sun-wcmu-editorial/</guid>
+      <description>&lt;p&gt;January 8, 2016, 5:30 pm (Ann Arbor time): Central Michigan University
+spokesman Steve Smith answered questions today by telephone regarding
+a Morning Sun editorial, &lt;a href=&#34;http://www.themorningsun.com/opinion/20160108/editorial-status-quo-cmu-mum-on-talk-of-shutting-tv-station&#34;&gt;Status quo: CMU mum on talk of shutting TV station&lt;/a&gt;, published in this Digital First Media newspaper
+from Mt. Pleasant, Michigan.&lt;/p&gt;
+
+&lt;p&gt;In the lede, the newspaper writes&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;As Central Michigan University considers whether or not to shut
+down its Public Broadcasting television network, the silence is
+deafening.  CMU trustees almost a month ago voted to consider
+shutting WCMU-TV and its three sister stations in exchange for up
+to $726 million from the Federal Communications Commission.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Smith poined out that the University had only approved to &amp;ldquo;apply
+for eligibility&amp;rdquo;, which is not binding on CMU to proceed, and that
+all options were open. In addition, he noted a Federal anti-collusion
+rule that restricts the rights of potential auction participants
+to speak freely about their intent leading up to the auction.&lt;/p&gt;
+
+&lt;p&gt;Central Michigan University invites public comment on its decisions
+to sell part or all of its broadcast spectrum back to the FCC, in an
+auction that is scheduled to begin on March 29, 2016. Address your
+comments in email to trustees@cmich.edu or by postal mail to
+106 Warriner Hall, Central Michigan University, Mt. Pleasant, MI 48859.
+&lt;a href=&#34;https://www.cmich.edu/bot/Pages/default.aspx&#34;&gt;The next public meeting of the Trustees is on February 18, 2016&lt;/a&gt;,
+and with prior arrangement there is time for the public to provide
+comment on agenda items.&lt;/p&gt;
+
+&lt;p&gt;A spokesman for the Federal Communications Commission, which
+manages this auction, was not available for comment at this time.&lt;/p&gt;
+
+&lt;p&gt;For reference see the following FCC documents:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://transition.fcc.gov/Daily_Releases/Daily_Business/2015/db0806/DOC-334756A1.pdf&#34;&gt;FCC ESTABLISHES BIDDING PROCEDURES FOR
+2016 INCENTIVE AUCTION
+Auction Scheduled to Begin March 29, 2016&lt;/a&gt;, August 6, 2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.fcc.gov/edocs_public/attachmatch/DA-15-1129A1.pdf&#34;&gt;GUIDANCE REGARDING THE PROHIBITION OF CERTAIN COMMUNICATIONS DURING
+THE INCENTIVE AUCTION, AUCTION 1000&lt;/a&gt;, FCC Public Notice DA 15-1129.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Ann Arbor City Council Liquor License Review Committee report, 8 January 2016</title>
@@ -633,73 +684,6 @@ sales department agent.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Alberta was a Ford saw mill from 1936 to 1954. The clothing is
 timeless UP lumber gear.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OpenVPN scaling</title>
-      <link>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</link>
-      <pubDate>Wed, 16 Dec 2015 12:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</guid>
-      <description>&lt;p&gt;Previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/&#34;&gt;OpenVPN in a container&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Also previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/&#34;&gt;Split tunnels considered harmful&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I have this running in a staging environment and a test
-environment; it properly isolates OpenVPN from the underlying
-operating system, and seems to do the right thing performing
-rather well. However, its biggest limitation is that
-it runs on a single host &amp;amp; thus provides neither
-high availability in the case of Amazon &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/&#34;&gt;funkiness&lt;/a&gt;
-nor scalability to handle lots of clients.&lt;/p&gt;
-
-&lt;p&gt;Getting this to be more reliable was a matter of tracking
-down the right systemd configuration. I&amp;rsquo;ll save systemd
-commentary for a separate post, saying only that it&amp;rsquo;s new,
-it&amp;rsquo;s not necessarily better for managing single machines,
-but I can see the advantages for consolidated management of
-big collections of machines.&lt;/p&gt;
-
-&lt;p&gt;Some OpenVPN config alternatives to pursue that look like they might do
-the right thing are as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cloudcoreo.com&#34;&gt;CloudCoreo&lt;/a&gt; has a setup based on the Amazon Elastic Load Balancer.
-They say&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Getting an OpenVPN config up and running in AWS is difficult. We&amp;rsquo;ve already done it for you in an HA, durable, self-healing way. This blog post details how.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The blog post is in two sections.
-&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn/&#34;&gt;Part one&lt;/a&gt; details how they
-configured autoscaling, elastic load balancing, name service, S3
-storage and policies, and security and IAM policies to set things
-up the way that you would want them within Amazon&amp;rsquo;s AWS.
-&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn-part-2-of-2/&#34;&gt;Part two&lt;/a&gt; goes on to describe the particular OpenVPN policy
-and routing setup, and there&amp;rsquo;s a bunch of policy there particularly
-with the use of split tunnels that you want to understand.&lt;/p&gt;
-
-&lt;p&gt;Their claim that they have
-&amp;ldquo;done it all for you&amp;rdquo; reflects a &lt;a href=&#34;http://hub.cloudcoreo.com/stack/servers-vpn_c6a65&#34;&gt;complete configuration&lt;/a&gt; available
-through their CloudCoreo system.&lt;/p&gt;
-
-&lt;p&gt;A second approach is detailed by &lt;a href=&#34;https://blog.zalando.com&#34;&gt;Zalando&lt;/a&gt;, a Berlin based retail fashion platform.
-Their article &lt;a href=&#34;https://tech.zalando.com/blog/building-an-openvpn-cluster-zalando-style/&#34;&gt;Building an OpenVPN Cluster, Zalando-Style&lt;/a&gt;
-uses dynamic routing to distribute routes, and the
-&lt;a href=&#34;http://www.nongnu.org/quagga/&#34;&gt;Quagga&lt;/a&gt; system as their software based router. This setup
-does not particularly depend on AWS features, and they
-claim that
-&amp;ldquo;With this set up, we have about 800 users (150 in parallel) and haven’t faced any performance issues at anytime, from anywhere!&amp;rdquo;
-It&amp;rsquo;s a bit more complex to set up, though the writeup
-makes it clear that because of the flexibility that dynamic
-routing gives you there&amp;rsquo;s the opportunity to construct
-firewall policies that follow the user quite independent
-of how they are connecting to the network.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     
