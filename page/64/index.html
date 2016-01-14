@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow" class="list-group-item">Dave New N8SBE to speak at ARROW on Software Defined Radio</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling" class="list-group-item">OpenVPN scaling</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes" class="list-group-item">I am eating a sandwich, with a recipe in Github</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-10-thanks-for-birthday-wishes" class="list-group-item">Thanks to everyone for birthday wishes, 2015 edition</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4204,6 +4206,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12390,6 +12394,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12704,6 +12710,13 @@ this and there will almost always be something new to read.</p>
 
 
 
+  <h3>17 January 2009</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2009/2009-01-17-acoustic-techno-what-it-might-sound-like/">&#34;acoustic techno&#34;, what it might sound like</a>
+      </h3>
+      <p><p>I asked on Twitter and got these replies.&#0160; Putting things into categories is hard; putting music into categories is harder.</p><br /></p>
+
+
   <h3>16 January 2009</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2009/2009-01-16-bubble-wrap-insulation/">Bubble Wrap Insulation</a>
@@ -12999,13 +13012,6 @@ supposed to look like.</p><p style="margin-left: 40px;">Neither does this parser
       <a href="http://vielmetti.github.io/post/2008/2008-12-23-the-bus-game-why-its-important-to-get-the-aatas-mobile-ridetrak-back-online/">the bus game: why it&#39;s important to get the AATA&#39;s mobile ridetrak back online</a>
       </h3>
       <p>While <a href="http://theride.org/SystemDown.asp">waiting for the AATA&#39;s mobile ridetrak system to go back online</a> (it&#39;s been down for two weeks now due to <a href="http://annarborchronicle.com/2008/12/16/local-groups-scramble-after-ias-eviction/">a series of unfortunate events</a>), I&#39;ve been thinking about how to model the network of bus and pedestrian routes so that you could say some useful things about the goodness of a given route network for a particular task at a particular time of day.&#0160; What I&#39;m after is understanding just how far I can reasonably go from where I am to somewhere else useful based on bus routes, my willingness or ability to walk, and the minute by minute information about how late the bus is.</p><p>Frankly, this is a complex set of questions to answer, especially if you&#39;re unwilling to wait outside for the bus and if you&#39;re willing to ride unfamiliar buses to new destinations.&#0160; Most people figure out how a single route does between two places at two particular times, sorting through the commuter problem and coming up with a rough rule of thumb that depends on the bus being more or less predictably late.&#0160;&#0160; By the time you sort through all of the details to get somewhere new, the bus might have gone by.</p><p>Some observations, numbered, probably requiring each of them to have more details.</p><p>1.&#0160; Always carry a paper schedule.&#0160; If the bus computer system is down again, or your phone is out of battery, a piece of paper no matter how confusing is probably better than nothing.</p><p>2.&#0160; Some places are better to wait than others.&#0160; The cost of being wrong about a bus when you&#39;re at the Blake Transit Center is small, because there&#39;s a warm place to wait and because there are six buses an hour that go to or near enough to my house to be reasonable to get on.&#0160; Contrairiwise, missing a bus by 1 minute on some routes might mean you would wait for an hour (or more).&#0160; </p><p>3.&#0160; Close by stops might really be far away.&#0160; This is a function of pedestrian access - if you need to cross a busy street to get to a stop, it might take two, three, or five minutes to cross between lights and perhaps even a 20 minute hike if you look at the worst pedestrian crossing (Washtenaw at Platt).&#0160; A naive pedestrian distance measure is going to be wrong.</p><p>4.&#0160; All roads lead to downtown.&#0160; With a few exceptions, the Ann Arbor route system is about getting people to the center of Ann Arbor.&#0160; You&#39;ll have a lot better luck getting anywhere if you go downtown first and use it as the base of operations.&#0160;&#0160; I looked at &quot;optimal routes&quot; from home to some places nearby and the best way to get there was a 20+ minute walk, and there are too many destinations where the trip by bus is 40+ minutes for what is a 10 minute drive.&#0160; </p><p>5.&#0160; The University bus system, although frequent, is not integrated with the AATA system.&#0160; This is most notable when you look at Google Transit to plan a trip and notice that it doesn&#39;t ever put you on a UM bus.&#0160;&#0160;&#0160;&#0160; Many of the UM buses run frequently enough during my time to use them that no schedule is necessary, but you have to always be prepared to do a transfer of a random, maximum time if you&#39;re switching lines.</p><p>The model that I had in mind for looking at this whole system was to make a big graph, with each node on the graph being a plausible location to be at and the edges being the time to go to the next node.&#0160; There would be a pedestrian network reflecting the sidewalks and bus stops, and a bus network overlaid on top of it where if you were on the bus you could move from node to node but if you weren&#39;t on the bus you&#39;d have to wait.&#0160; Some nodes would be warm (cafes, libraries) and some would be cold and slushy (most bus stops).&#0160; </p><p>This graph becomes the playing board for a big urban game.&#0160; You and all of the other players start at various points on the board, and each minute you take a turn either walking to a next node, staying still where you are, or riding on a bus.&#0160; The winner after 60 turns is the person who managed to get the highest score - whether it be maximum minutes on a bus, maximum distance from origin, maximum distance walking, interesting destinations reached, or any other measure you&#39;d like to score.&#0160; Minus points for wet boots.&#0160; Double minus points for missing the kids pickup from day care.</p><p>As you can see from thinking about this game a little bit, you can play a lot more effectively if you know where all of the buses are.&#0160; Instead of getting negative points for the boot-minutes you spend shivering at the stop, you can accumulate credits indoors until the last minute necessary to get outside.&#0160;&#0160; Knowing that an infrequent bus is close by lets you get bonus points for going to stops that are close by but not often served, and it lets you avoid missed connections where the schedule says you can get from one line to another but you won&#39;t make that connection when the outbound line is late.</p><p>---</p><p>I&#39;m collecting a bunch of links about this on delicious - see <a href="http://delicious.com/vielmetti/where-is-my-fracking-bus">http://delicious.com/vielmetti/where-is-my-fracking-bus</a> for my idiosyncratic collection, and more generally if you are looking at transportation literature a key term is <a href="http://ntlsearch.bts.gov/tris/search.do?new=&amp;b1=9&amp;f1=ht&amp;t1=Automatic+vehicle+location&amp;d=">automatic vehicle location</a>.&#0160; Route planning sits on top of that, and the best current summary of the state of the world is from <a href="http://radar.oreilly.com/2008/12/the-state-of-transit-routing.html">Andrew Turner&#39;s summary of the state of transit routing in 2008</a>.</p>
-
-
-  <h3>23 December 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-12-23-how-i-stopped-worrying-and-learned-to-love-twitter/">How I stopped worrying and learned to love Twitter: five new strategies</a>
-      </h3>
-      <p>A few weeks ago I zeroed out my Twitter follower stream and stopped following everyone.&#0160; (&quot;<a href="http://vielmetti.typepad.com/vacuum/2008/10/twitter-zero.html">Twitter zero</a>&quot;, October 2008) Then I started again, slowly, building up some carefully selected and ever changing list of people to watch.&#0160; It seemed like a good plan, <a href="http://www.lifewithalacrity.com/2005/02/dunbar_triage_t.html">Dunbar number</a> and everything, and I thought I could balance things out at about 150.&#0160; </p><p>The amount of brain power needed to figure out whether I was watching someone got to be out of control, and Twitter got to be a burden again.&#0160; Less of a burden than the accumulated drag of other systems that I had given up on but that still had <a href="http://vielmetti.typepad.com/vacuum/2008/12/retrenching-on-web-20-controlling-your-presence-by-turning-off-abandoned-services.html">remnant shards of a previous me</a>, but still a burden.</p><p>As of yesterday I have switched to the &quot;follow everyone who follows you&quot; strategy - as close to strict reciprocity as I can.&#0160; If someone is really awful I&#39;ll block them, but for the most part even the single-threaded marketing droids are bearable if they are mixed in with enough other people.&#0160; At noon Eastern on a Tuesday the front page of my Twitter has 17 minutes worth of stuff in it and I&#39;m about 1/3 of the way through following everyone, so at some point the balance will be &quot;wait five minutes and the front page will have completely changed&quot;.</p><p>This is quite frankly a change from any of my previous tactics and I&#39;m going to be as deliberate about it as I can.&#0160; Here&#39;s a pointless numbered list of iron-clad rules.</p><p>1.&#0160; To keep a conversation going you have to use the @ convention to refer to someone by name, or else the dialog gets lost.&#0160; Twitter stops being a small group extended chat and starts to be some extended group distributed semi-broadcast.&#0160;&#0160; Checking the &quot;replies&quot; tab becomes part of making sure that if there&#39;s a conversation that happened between sessions you can get back to it.&#0160; Every so often you get some little knot of people all online at once going back and forth at each other, but that&#39;s not what you can count on.</p><p>2.&#0160; If you have anything of lasting substance to say, refer to something already written, whether it be a blog post, a delicious tag stream, or something else that is more than 140 characters long.&#0160;&#0160; Everything is scrolling by so fast in this world that if you need to anchor a discussion it can&#39;t be anchored in more and more twitters.&#0160; Blogging becomes more important, not less, in this approach - if it doesn&#39;t fit in one line you have to refer to it somehow.</p><p>3.&#0160; If you play Twitter this way there will always be something more to look at - it&#39;s a never ending game.&#0160; So to keep the time commitment finite and bounded you need to figure out when to stop and just turn it off.&#0160;&#0160; You have to stop some time - figure out how many pages deep in the scroll back you are going to watch, and then quit.&#0160; <strong>If you keep refreshing it will never, ever stop.</strong>&#0160;&#0160;&#0160; </p><p>4.&#0160; As a never ending game the scoring rules clearly change as you play it.&#0160; Various &quot;twitter metrics&quot; have been proposed that mostly boil down to &quot;increase the n&quot;.&#0160; If my earlier explorations are accurate, the counter-tactic of &quot;decrease the n&quot; is just as valuable - going down to zero helped me think about the system carefully.&#0160; I&#39;ve never tried to follow 800+ people before, but I guess now I&#39;ll have a chance to try.&#0160; There&#39;s a stable, winning strategy where the goal is to &quot;<strong>change the n</strong>&quot; - cycle systematically from 0 to max(n) and then back to 0, every day either turning people on or turning people off but never staying the same; the rules of that game are that at every turn you have to change the number of followers you have.</p><p>5.&#0160; People love pointless numbered lists.&#0160; Use them.</p><p>--</p><p>What you lose is the sense of a quiet place where all of your close friends from around town hang out online.&#0160;&#0160; What you gain is some broader sense of the world.&#0160; </p>
 
 
 

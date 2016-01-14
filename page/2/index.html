@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow" class="list-group-item">Dave New N8SBE to speak at ARROW on Software Defined Radio</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling" class="list-group-item">OpenVPN scaling</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes" class="list-group-item">I am eating a sandwich, with a recipe in Github</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-10-thanks-for-birthday-wishes" class="list-group-item">Thanks to everyone for birthday wishes, 2015 edition</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4204,6 +4206,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12390,6 +12394,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12702,6 +12708,41 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>2 December 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator/">The productivity oscillator</a>
+      </h3>
+      <p>I have been using Github issues for a long time as a todo list
+tracking and general productivity tool. It works well enough that
+I&rsquo;ve opened over 4000 issues and have closed most of them.</p>
+
+<p>The perpetual management challenge is in deciding how many issues
+is OK to leave open. Put too few in, and it feels like you have
+things to do that are not written down; put in too many, and you&rsquo;re
+likely to have duplication and you forget what it is that you were
+trying to do in the first place.</p>
+
+<p>The best part of the challenge is having some illusion of
+control over what is going on. I&rsquo;m trying to work the queue
+this way. Some times my goal will be to create more open issues,
+putting things on the list to increase it up to a target goal.
+Other times the goal will be to reduce the size of the list by
+finishing tasks, clearing duplicates, or deciding not to get things
+done. By framing it as a deliberate game of &ldquo;add tasks up to a
+target&rdquo; or &ldquo;clear tasks down to a target&rdquo; I&rsquo;m hoping to trick
+myself into taking on the easy things that I wrote down a month
+ago that will take a minute to do but are off my immediate radar.</p>
+
+<p>The productivity oscillator suggests both a pattern of work and
+the illusion that whatever you are doing is the right thing to do.
+If you&rsquo;re stuck trying to get stubborn things accomplished, write
+done some new easy goals and get those taken care of. It&rsquo;s
+a quantified form of <a href="http://vielmetti.typepad.com/vacuum/2005/04/marginally_usef.html">structured procrastination</a> - which it turns out
+I&rsquo;ve been talknig about for 10 years.</p>
+
+<p>I wonder if there&rsquo;s anything still on my todo list from 2005!</p>
 
 
   <h3>1 December 2015</h3>
@@ -13523,62 +13564,6 @@ lots to look forward to.</p>
 <p>CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
 and it&rsquo;s free-as-in-GPL, so it&rsquo;s very much worthwhile to give it a
 download and see what it looks like.</p>
-
-
-  <h3>30 October 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi/">The AAATA MicroAPI</a>
-      </h3>
-      <p>I had a good conversation with Prabal Dutta today about the sort of infrastructure
-you need to build a very simple bus tracker application for the current iteration
-of the AAATA&rsquo;s online system.</p>
-
-<p>The desired goal is actually fairly simple: for a single place, identify the approximate
-location of a bus on a single bus line that serves that place, and alert the rider in time
-so that they can walk (or run) to catch the bus. Allow some time for getting there early.</p>
-
-<p>The JSON endpoint that shows all the buses on Route 5 you can fetch as follows:</p>
-
-<pre><code>curl -s http://microapi.theride.org/Location/5
-</code></pre>
-
-<p>and the data itself has records that look like this:</p>
-
-<pre><code>  {
-    &quot;Id&quot;: &quot;48674187&quot;,
-    &quot;routeAbbr&quot;: &quot;5&quot;,
-    &quot;adherence&quot;: -5,
-    &quot;timestamp&quot;: &quot;00:01:11.1189770&quot;,
-    &quot;lat&quot;: 422301779,
-    &quot;longitude&quot;: -837077535,
-    &quot;busNum&quot;: 401,
-    &quot;routeDirection&quot;: &quot;to Ann Arbor&quot;,
-    &quot;timePointName&quot;: &quot;Ellsworth &amp; Braeburn&quot;,
-    &quot;timePointAltName&quot;: &quot;N- Ellsworth Rd. west of Braeburn&quot;,
-    &quot;crossingTime&quot;: &quot;4:46 PM&quot;,
-    &quot;timePointStopID&quot;: &quot;1327&quot;
-  },
-</code></pre>
-
-<p>which reads as follows: &ldquo;At 4:46 PM, bus 401 was 5 minutes late and located at
-the Ellsworth &amp; Braeburn timepoint. That was 1 minute 11.1 seconds ago.&rdquo;</p>
-
-<p>It&rsquo;s then a short exercise left to the reader to suss out what this means for them.
-The simplest thing to do is to filter through the bus listings, pick out the ones
-where &ldquo;routeDirection&rdquo; is heading the right way, and where the &ldquo;timePointName&rdquo; is
-close enough that you can run for the bus but not so close that the bus has already
-zoomed past.</p>
-
-<p>My favorite general purpose tool for dealing with JSON data is <code>jq</code>, from
-<a href="https://stedolan.github.io/jq/">https://stedolan.github.io/jq/</a> . It has a syntax for filtering through and querying
-JSON objects with about as much expressive power as <code>sed</code>. The slightly more
-useful command runs like</p>
-
-<pre><code>curl -s http://microapi.theride.org/Location/5 | jq -c '.[]|[.routeDirection, .timePointName]' 
-</code></pre>
-
-<p>which picks out <code>routeDirection</code> and <code>timePointName</code> and lands them on a single line <code>-c</code>
-suitable for any of your favorite Unix tools.</p>
 
 
 
