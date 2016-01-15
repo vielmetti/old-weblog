@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-letterpress-qsl-cards" class="list-group-item">Letterpress QSL cards</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-douglas-vielmetti-plant-engineer" class="list-group-item">Douglas E. Vielmetti, plant engineer</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling" class="list-group-item">OpenVPN scaling</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes" class="list-group-item">I am eating a sandwich, with a recipe in Github</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4206,6 +4208,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12396,6 +12400,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12708,6 +12714,72 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>4 December 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/">Split tunnels considered harmful</a>
+      </h3>
+      <p>Previously: <a href="http://meyerweb.com/eric/comment/chech.html">Considered harmful essays considered harmful</a>, Eric Meyer, 2002; also Go To Statement Considered Harmful, CACM, 1968; also <a href="http://harmful.cat-v.org/">Encyclopedia of things considered harmful</a>, from cat-v.org.</p>
+
+<p>Split tunnels are a VPN construction where instead of
+sending all of your traffic for the network in a single
+encrypted tunnel that collects everything, you instead
+route some traffic down the encrypted link and other traffic
+goes in the clear through your default connection. It&rsquo;s
+possible that you might have a tunnel configuration with
+multiple splits if e.g. you needed to get to private
+address space at two or more organizations simultaneously.</p>
+
+<p>If you have a choice, don&rsquo;t use a split tunnel. Here&rsquo;s why.</p>
+
+<p>First and foremost are security considerations. The user of
+the split tunnel introduces a possible forwarding path between
+the outside Internet world (full of nefarious intent) and
+the inside Internet world that you have a secure path to and
+its chewy center. If an attacker knows that you are using a
+split tunnel, they can put something on the public Internet
+that causes you to send their traffic directly through to your private
+network while you have all your trust relationships intact.
+This could be bad, and if your security instincts trend towards
+professional paranoia, you&rsquo;ll understand that there&rsquo;s a real risk.</p>
+
+<p>A second security consideration is unplanned leakage of private
+information into the Internet. The split tunnel in its ordinary
+configuration expects that you can distinguish protected traffic
+from unprotected traffic by its IP address. The nature of
+the modern Internet is that a browser can and will connect to
+dozens or hundreds of hosts on its way to filling out a web page,
+and any one of those connections might expose or leak some
+information about what you were doing on the &ldquo;private&rdquo; link
+that could be of use to an adversary or snoop.</p>
+
+<p>Finally, split tunnels are difficult to verify as correctly
+configured. The managed endpoint of the tunnel can only see
+traffic destined for it, and can only verify that what&rsquo;s
+there is going to the endpoint. With a split, the managed
+endpoint doesn&rsquo;t have visibility into all traffic destinations
+and thus is completely unaware of any exfiltration attempts.</p>
+
+<p>However, there may be reasons that a split tunnel is unavoidable.
+Here are some considerations to balance against the risk.</p>
+
+<p>A split tunnel is more versatile than a full tunnel. If your
+users need to connect to more than one administrative domain
+simultaenously, they may need to configure their local host
+setup to have two or more split tunnels running at once.</p>
+
+<p>If the tunnel endpoint is at the long end of a slow connection,
+or if the trusted managed endpoint is bandwidth or CPU constrained,
+performance through a full tunnel may be unacceptably bad.
+Splitting the tunnel means that only necessary traffic goes through
+it, allowing better use of network resources.</p>
+
+<p>Finally, there&rsquo;s the cost. If the user is going to be a typical
+Internet use and do simultaneous Spotify or Netflix or other
+streaming media, it seems insane to pay VPN charges or engineer
+your own VPN endpoint to handle that full stream of data when it
+could very easily go over a lowest-cost unencrypted link.</p>
 
 
   <h3>2 December 2015</h3>
@@ -13538,32 +13610,6 @@ proceedings is not readily available. I&rsquo;m making inquiries into this
 particular instance.</p>
 
 <p>Thanks to Eppie Potts for bringing this to my attention.</p>
-
-
-  <h3>30 October 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/">CubicSDR, a cross-platform software defined radio</a>
-      </h3>
-      <p>CubicSDR is a software defined radio system for Mac, Linux, and Windows.
-It&rsquo;s at version 0.1.4-beta as of August 28, 2015, and you can download
-the binaries from <a href="https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4">https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4</a> or
-the source code from Github at <a href="https://github.com/cjcliffe/CubicSDR">https://github.com/cjcliffe/CubicSDR</a> .</p>
-
-<p>My point of comparison for software defined radio is GQRX. When you put
-CubicSDR on the screen it has a very pretty waterfall display and relatively
-easy to sort out mouse commands, but it&rsquo;s lacking some of the fancier
-controls that a more mature program like GQRX has accumulated over time.</p>
-
-<p>The interesting direction that CubicSDR is heading in is the product
-roadmap that is on its home page - in particular, importing and using
-digital modes that the liquid-dsp package supports, and additional
-visualization tools that would make a pretty display even prettier.
-The roadmap easily has a couple of years of development work, so there&rsquo;s
-lots to look forward to.</p>
-
-<p>CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
-and it&rsquo;s free-as-in-GPL, so it&rsquo;s very much worthwhile to give it a
-download and see what it looks like.</p>
 
 
 

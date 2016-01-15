@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-letterpress-qsl-cards" class="list-group-item">Letterpress QSL cards</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-douglas-vielmetti-plant-engineer" class="list-group-item">Douglas E. Vielmetti, plant engineer</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling" class="list-group-item">OpenVPN scaling</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes" class="list-group-item">I am eating a sandwich, with a recipe in Github</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4206,6 +4208,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12396,6 +12400,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12708,6 +12714,36 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>16 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses/">a2b3 lunch at Ayse&#39;s, Art Fair 2015 edition</a>
+      </h3>
+      <p>Eight of us met for lunch at <a href="http://aysesturkishcafe.com/">Ayse&rsquo;s</a> today. It was a normal
+Thursday in that regard, as that&rsquo;s a pretty typical size for
+the lunch group these days.</p>
+
+<p>We talked at question time about how we get big chunks of time
+to work on projects. One answer was to work early in the morning
+or late at night when there were fewer distractions. Gyll, a
+remodeling contractor, mentioned the use of checklists to make
+sure that the things that needed to get done got done. Among the
+tasks that took up lots more time than they deserved included
+dealing with the health insurance marketplace and with other
+healthcare providers for dealing with billing and accounting problems.</p>
+
+<p>Three of the people at lunch were new to the table, but since Ann
+Arbor is bascially a small town, it was not a surprise to me that
+I had easily identifiable mutual friends with two of them.</p>
+
+<p>Food was delicious, well prepared and well presented.</p>
+
+<p>Next week we&rsquo;ll be back at <a href="https://localwiki.org/ann-arbor/Madras_Masala">Madras Masala</a>, as art fair will have
+ended and town will be more back to normal.</p>
+
+<p>The big event coming up is <a href="http://www.makerfairedetroit.com/">Maker Faire Detroit</a>, to be held at The
+Henry Ford in Dearborn.</p>
 
 
   <h3>15 July 2015</h3>
@@ -13303,31 +13339,6 @@ curl: (7) Failed to connect to localhost port 3128: Connection refused
 <p>I got the <a href="http://www.dd-wrt.com/wiki/index.php/Linksys_WRT54GL">DD-WRT firmware loaded</a> by following the provided directions. Then I followed the instructions at <a href="http://www.dd-wrt.com/wiki/index.php/Switch">You are here: DD-WRT wiki mainpage / Linking Routers / Switch</a> for configuration. A quick reboot and some recabling and a couple of Raspberry Pis now have their own ethernet ports.</p>
 
 <p>The WRT54GL has a tiny amount of memory by modern standards - 4 megabytes of flash, and only 16 megabytes of system memory - but that's fine for the software of its era.</p>
-
-
-  <h3>27 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-27-gogs-a-self-hosted-git-server/">Gogs, a self-hosted Git server</a>
-      </h3>
-      <p>Gogs is a self-hosted Git server, an alternative to using Github as a for-pay hosted service or Gitlab as another self-hosted system. It's written in the Go language, and is said to be sparing of system resources.</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a5b824970b img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-06-27 at 11.01.35 PM" title="Screen Shot 2015-06-27 at 11.01.35 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-600wi" /></a><br /></p>
-
-<p>I'm building it using Docker on a Raspberry Pi 2, thanks to the folks at Hypriot; the writeup is <a href="http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/">Run your own GitHub-like service with the help of Docker</a>, and the file on Dockerhub is at <a href="https://registry.hub.docker.com/u/hypriot/rpi-gogs-raspbian/">hypriot/rpi-gogs-raspbian</a>. The install went essentially as described; note that if you are using Avahi to provide a .local name service, you can avoid using IP addresses in configuration files and instead use names like "black-pearl.local" as your hostname.</p>
-
-<p>Juan B. Rodriguez did a nice writeup of <a href="http://jbrodriguez.io/gogs-an-alternative-to-gitlab/">Gogs, an alternative to Gitlab</a>, again with a Docker based installation description and a nice feature comparison.</p>
-
-<p>After some poking around with Gogs I noted three substantial limitations, none of which are complete show-stoppers but which collectively give me pause about doing a wholesale replacement of Github with Gogs; and a fourth that gives me hope for some project that might address these issues but which might not end up being called Gogs.</p>
-
-<p>First, there's no built-in wiki. I don't always use a wiki with a Github repository, and when I do I'm not always thrilled by the minimalist features of Github's wiki, but it's mighty handy and I miss it right away. Gogs doesn't have a wiki, and though it's been an acknowledged issue for a long time it doesn't seem to have any forward movement.</p>
-
-<p>Second, there's no built-in file editor. I'm very used to the workflow where you see a file that has some small problem, you fork the repository right in the editor, type in your fix, save, and submit your patch to the maintainers. It's a very straightforward way of doing small things efficiently without dropping down to the command line, and the lack of it makes Gogs hard to understand how it would work in a mostly-web world.</p>
-
-<p>Third, Gogs has a lot of obvious copying from Github, and I'm uncertain about the whole ethos of wholesale replication of documentation. Sometimes there's not even an effort made to document what the system does and instead there's just a link to Github documentation. Self-hosted systems should have self-hosted documentation, and even if you're replicating someone else's system faithfully you still need to write up your own docs.</p>
-
-<p>Fourth and finally, Gogs has been forked. "gitea" is "Git with a cup of tea", and it seems to have a bunch of energy to fix things that the Gogs project is currently lacking. See <a href="https://github.com/go-gitea/gitea">the gitea project on Github</a> and its corresponding <a href="https://gitter.im/go-gitea/gitea">gitter chat for gitea</a>. gitea has not produced a release yet, but when it does I'll be sure to look for a reasonable packaging of it to try it out.</p>
-
-<p>All of that said, I'm happy to have found Gogs, and plan to poke through it some more and store some not-very-important files in it for a while until I get some confidence in it. I don't think it (or gitea) is an instant replacement for my hosted Github service, but for the narrow purpose of holding a private repository beyond what Github provides for its service plan it looks like a reasonable alternative now.</p>
 
 
 
