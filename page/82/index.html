@@ -70,6 +70,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary" class="list-group-item">a2b3 lunch non-summary for 3d week of January 2016</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-18-mlk-day-on-umich-campus" class="list-group-item">Some highlights of MLK Day 2016 on the U of Michigan campus</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-17-qso-on-redditnet" class="list-group-item">QSO on redditnet via Geekshed IRC</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-letterpress-qsl-cards" class="list-group-item">Letterpress QSL cards</a></li>
@@ -105,14 +109,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-18-a-visit-to-um-cvga" class="list-group-item">A visit to the Computer and Video Game Archive, @umcvga</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-santa-at-swedes-diner" class="list-group-item">Santa visiting Swede&#39;s Diner, Ann Arbor, December 1950</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-iot-platforms" class="list-group-item">Platforms for the Internet of Things, 2015 edition</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-16-douglas-vielmetti-plant-engineer" class="list-group-item">Douglas E. Vielmetti, plant engineer</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4210,6 +4214,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -12408,6 +12416,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12720,6 +12732,56 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>4 December 2007</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2007/2007-12-04-quantitative-me/">quantitative measures of usability (or, measuring measurability)</a>
+      </h3>
+      <p>
+I did the Google search for "quantitative measures of usability", to see if that line of thinking would get me something useful.  Here's some explorations around those search results, and some reflections on that line of reasoning.
+</p><p>
+<strong>CHI: single usability metric</strong>
+</p><p>
+There is a site "measuring usability" which unsurprisingly ranked high on the list.  It introduces the novel concept of a "single measure of usability", which looks like the sum of a bunch of individual metrics all mushed together into a single number.  (Sauro and Kindlund, CHI 2005).  It measures task completion times, task time, satisfaction and error counts, and is a formalized version of what looks like an original Excel spreadsheet.  
+</p><p>
+From an electronic commerce point of view this is a promising number, but an expensive one to compute - from web server logs you can impute task completion and task times, and maybe get some sense for errors, but satisfaction is hard to grind out of a server log.   It comes from the CHI tradition of simple models of user behavior assessed from small data sets.  But it's a start.
+</p><p>
+<strong>Patents: quantitative measures of qualitative usability</strong>
+</p><p>
+There's a patent filing (Ed Chi, Christopher Olston) with this initial claim:
+</p><blockquote>
+A system for determining a quantitative measure of qualitative usability of related Web pages, comprising: stored Web pages that each include at least one hyperlink referencing and proximal cues relating to distal content included in another Web page; a stored information goal identifying a target Web page; an activation network, comprising a directed graph comprising nodes corresponding to the Web pages and arcs corresponding to the hyperlinks, wherein a weight is assigned to each arc to represent a probability of traversal of the corresponding hyperlink based on a relatedness of keywords in the information goal to the proximal cues included in the referenced Web page; and a simulator to evaluate a traversal through the activation network to the node corresponding to the target Web page as a quantitative measure of usability.
+</blockquote><p>
+There's more (of course, it's a patent, there's a lot more).  It appears to be a simulator-driven version of the same PageRank algorithms that Google started out with, except that rather than assuming a random walk through page space it takes into account what Google would call quality scores and what they call "information scent".  Chi works at PARC, and this looks like an elaboration of their <a href="http://portal.acm.org/citation.cfm?id=937550">ScentTrails</a> paper (TOCHI 2003).  Note that it's not about task completion as above but more about findability within a search space, and as thus it describes a different problem than above.
+</p><p>
+<strong>More work
+</p><p>
+</strong>I'm sure there's more relevant work in this field, but given that the first words I used to look both unearthed CHI related papers, I'm not sure I have the right language to express the thing I'm really after.  so I'll stop...
+</p>
+
+
+  <h3>4 December 2007</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2007/2007-12-04-brent-hill-goog/">Brent Hill, Google / Feedburner speaking in Ann Arbor, Dec 4 2007</a>
+      </h3>
+      <p>
+A talk tonight, 12/4:
+</p><blockquote>
+Ann Arbor SPARK Hi-Tech Tuesday: Google's Brent Hill Offers Everything You Want to Know About Blogs &#38; RSS
+<br />
+<br />What:            Google's Brent Hill presents "Everything You Want to Know About Blogs &#38; RSS"
+<br />
+<br />When &#38; Where:    Tuesday, December 4, 2007, 5-7 p.m. at Google, McKinley Towne Center, 5th Floor, 201 S. Division, Ann Arbor
+<br />
+<br />Purpose:              As content syndication on the web proliferates, audiences are becoming increasingly fragmented.  How do marketers leverage RSS feeds to deliver targeted marketing messages?  And how do publishers measure and monetize their audience?
+<br />
+<br />Presenter:                Brent Hill is a team manager in the Global Media Solutions division at Google. Previously vice president of Advertising Services at FeedBurner, the market-leading feed management provider that was acquired by Google in 2007, Brent has worked in a variety of interactive marketing, e-commerce, and consumer services businesses.  He frequently speaks at industry events on the topic of advertising in syndicated content, and his insights have been published in Advertising Age, Adotas, and DMNews.  Brent received a Bachelor of Science in Finance from Bradley University, and an MBA from the University of Chicago.
+<br />
+<br /><a href="http://annarboritzone.org/eventlist.asp?EventID=1250">Information:    Registration is free. </a>
+</blockquote><p>
+More infos: <a href="http://www.feedburner.com/fb/a/about/people/hill">Brent Hill bio</a>, June 2007 interview reported by <a href="http://publications.mediapost.com/index.cfm?fuseaction=Articles.san&amp;s=62040&amp;Nid=31176&amp;p=356272">Online Media Daily</a>, 2006 interview at <a href="http://internetmarketingvoodoo.com/2006/07/imv24-rss-advertising.html">Internet Marketing Voodoo</a>.
+</p>
 
 
   <h3>4 December 2007</h3>
