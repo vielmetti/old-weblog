@@ -70,6 +70,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-24-alaska-earthquake" class="list-group-item">M6.4 earthquake felt in Anchorage, Alaska</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-writing-things-down" class="list-group-item">Writing things down</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary" class="list-group-item">a2b3 lunch non-summary for 3d week of January 2016</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-18-mlk-day-on-umich-campus" class="list-group-item">Some highlights of MLK Day 2016 on the U of Michigan campus</a></li>
@@ -105,14 +109,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-22-kale-into-ice-cream" class="list-group-item">How I turned 99 cents worth of kale into half a gallon of delicious ice cream</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-21-mailchimp-form" class="list-group-item">Subscribe to a2b3 list through Mailchimp</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-18-a-visit-to-um-cvga" class="list-group-item">A visit to the Computer and Video Game Archive, @umcvga</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-santa-at-swedes-diner" class="list-group-item">Santa visiting Swede&#39;s Diner, Ann Arbor, December 1950</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4214,6 +4218,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -12420,6 +12428,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12732,6 +12744,35 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>30 December 2008</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2008/2008-12-30-legolego-vacuum-patent-6048249-plastic-building-block-toy-cleanup-vacuum-attachment-/">lego vacuum, patent 6048249 : Plastic building block toy cleanup vacuum attachment</a>
+      </h3>
+      <p>if you have too many legos on the floor, here&#39;s the patented design for picking them up:</p><div style="margin-left: 40px;">A toy cleanup vacuum attachment which can be used easily by attaching
+to household vacuum hose for the quick and efficient clean up of a
+plurality of different size and shape plastic building block toys. The
+toy cleanup vacuum attachment compromises: a curved suction channel for
+sucking up plastic toy building blocks; a convex plate guide with vent
+holes which guides the plastic building block toys within a suction
+channel into a drop channel while allowing the passage of vacuum
+current and dust; a rectangular drop channel through which plastic
+building block toys pass from the force of vacuum momentum and gravity;
+a transparent collection container for housing the plastic building
+block toys during cleanup and an air-tight bottom, hinged lid for
+conducting quick and simple dropping of plastic building block toys
+back into a toy box; a spring loaded push/twist thumb button agitator
+for dislodging clogged or stuck plastic building block toys; a grip
+handle for ease of use and...<br /></div><p><br /><a href="http://www.wikipatents.com/6048249.html">See the whole thing on wikipatents.</a></p>
+
+
+  <h3>29 December 2008</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2008/2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly/">image processing on the mac with sips, ImageMagick - watching DTE restore power, slowly</a>
+      </h3>
+      <p>As part of <a href="http://vielmetti.typepad.com/vacuum/2008/12/dte-power-outage-on-28-december-2008-takes-down-att-iphone-wireless-service.html">watching DTE slowly restore power to the area</a>, I&#39;ve been pulling down copies of their outage maps.&#0160; These are big PDF files, suitable for framing, that encode a bunch of data in them about where the power is out.&#0160; </p><p>Here&#39;s some tools I used to get details out of PDF into image formats, (hopefully) to get them back down to a spreadsheet full of numbers.</p><p>1.&#0160; Fetch the outage report automatically with curl:</p><p><span style="font-size: 10px; font-family: Courier;">DATESTAMP=$(</span><span style="font-size: 10px; font-family: Courier;">date &quot;+%Y-%m-%d-%H-%M&quot;)</span><br /><span style="font-size: 10px; font-family: Courier;">curl -s -o outage.$DATESTAMP.pdf http://my.dteenergy.com/map/zi<span style="font-size: 17px;"></span>pCodeOutageMap.pdf</span></p><p>This grabs the file and date/time stamps it appropriately.&#0160; I&#39;m running in an every 15 minutes loop, which means it grabs the file that&#39;s updated every 30 minutes twice (a little redundancy, not too bad).</p><p>2.&#0160; Convert the report from PDF to PNG with sips:</p><p><span style="font-size: 10px; font-family: Courier;">sips -s format png outage.$DATESTAMP.pdf --out outage.$DATESTAMP.png</span></p><p>&#39;sips&#39; (the &quot;scriptable image processing system&quot;) has a bunch of Applescript front end documentation for it, but there is also a command line lurking there as well.&#0160; I&#39;m <a href="http://del.icio.us/vielmetti/sips">collecting bookmarks for tutorials on sips at delicious</a>.&#0160; There&#39;s a lot that it can do, since it is mostly a front end for the core graphics library on the Mac which is quite powerful, but the doc is clearly not written with the intention that anyone uses it directly.</p><p>3.&#0160; Do fun stuff to a series of images with ImageMagick:</p><p><span style="font-size: 10px; font-family: Courier;">composite&#0160; -compose difference ~/Desktop/outage.2008-12-28-23-47.png outage.2008-12-29-13-28.png difference-progress.gif</span></p><p>ImageMagick has dozens, maybe hundreds, of transformations that you can use to take a set of images and turn them into something else.&#0160; It&#39;s powerful and also reasonably well documented, and I won&#39;t even try to summarize <a href="http://www.imagemagick.org/script/command-line-options.php">the ImageMagick command line options list</a> which gives you plenty to play with.</p><p>4.&#0160; Stare at the results and try to make sense of them.</p><p><br />
+<a href="http://www.flickr.com/photos/edward-vielmetti/3147531409/" title="dte power outage restoration progress by Edward Vielmetti, on Flickr"><img alt="dte power outage restoration progress" height="195" src="http://farm4.static.flickr.com/3283/3147531409_24c6bfb7f0.jpg" width="500" /></a></p><p>Here&#39;s the DTE progress map (middle) with before (left) and after (right) reflecting about 14 hours of restoration efforts.&#0160; Click through to Flickr for detail.&#0160; The large amounts of black in the middle photo represent locations where work progress has not resulted in a change in service that&#39;s visible, though there may in fact have been 1000s of lines restored.</p><p>5.&#0160; What I want is a tool that would work on a PNG and would give me the color value of a given pixel, or that would give me a histogram of all of the color values of all of the pixels in an image.&#0160; There is a <a href="http://www.imagemagick.org/Usage/files/#histogram">histogram function in ImageMagick</a> but it doesn&#39;t quite do the trick at first glance, and I&#39;d be better off posting this than trying to do more myself!</p><p>The takeaway on this if you squint hard enough - 14 hours of effort, and not a lot of immediately visible progress across broad parts of Livingston, Washtenaw, and Downriver areas in DTE service restoration. </p>
 
 
   <h3>28 December 2008</h3>
@@ -13212,53 +13253,6 @@ same ideas.</a></p>
       <a href="http://vielmetti.github.io/post/2008/2008-12-02-how-to-get-your-grocery-shopping-done-quickly-and-effectively/">How to get your grocery shopping done quickly and effectively</a>
       </h3>
       <p>I&#39;m doing the shopping these days - a farmer&#39;s market and food coop run on Saturdays, and a Whole Foods and Trader Joe&#39;s run on Sundays.&#0160; Usually I have one or the other of the boys with me, and often there&#39;s some amount of hurry to get the whole process done.</p><p>I&#39;m not used to doing grocery shopping, but going with the boys helps since they have been doing it all along.</p><p>Here&#39;s some ways I seem to manage to get through four shopping experiences a week even though I have famously low shopping tolerance.</p><p>0.&#0160; Work from a list, always.&#0160; Take inventory of your perishables before you buy more perishables; take inventory of your pantry before you refill the pantry.&#0160; We keep a list by the fridge so that when something gets used up that should stay in stock it gets added to for the next round.</p><p>1.&#0160; Shop at farmer&#39;s market first.&#0160; You don&#39;t know what will be a super deal, and what will be in season, and what oddly shaped root vegetable will catch your eye with a farmer who will tell you how to cook it.&#0160; So do that part of the week&#39;s shopping first, and work around it as you do your menu plan.&#0160; </p><p>2.&#0160; Always take the same route through the farmer&#39;s market.&#0160; Mostly the farmers are in the same stalls week after week, or if they move one week they will stay put the next.&#0160; I know where to get onions, garlic, eggs, apples, greens, and herbs, and which places I need to check out but not buy at right away because someone might have a better deal.</p><p>3.&#0160; Do a weekly menu plan, synchronized around your shopping week.&#0160; In our case the farmer&#39;s market is on Saturday and the menu plan gets made on Sunday morning while we eat pancakes, and so we have a good idea of what produce we&#39;re working with and enough time to get all of the supplemental produce and pantry staples on a Sunday shopping to make a week&#39;s worth of meal plans.</p><p>4.&#0160;&#0160; Make a list of menu suggestions.&#0160; Keep track of meals that you&#39;ve made and liked, and don&#39;t be afraid to repeat yourself at appropriate intervals or in appropriate seasons.&#0160; When it comes time to plan a week&#39;s meals, you don&#39;t want to start with a blank piece of paper; I find that the two weeks ago menu generally has one or two good ideas for this week for things you aren&#39;t sick of.</p><p>5.&#0160;&#0160; Always take the same route through the store, and organize your shopping list according to the store layout.&#0160; That means for our Whole Foods that the order goes vegetables, bulk foods, canned goods, cheese, bread, while at Trader Joes the order is bread, cheese, yogurt, frozen veg, canned goods, snacks.&#0160; You should be able to walk through the store without backtracking to pick up everything you need.</p><p>6.&#0160; Put away your food in the same place every time.&#0160; This might sound silly, but if you keep the beans on the left and the tomatoes on the right always then you can always inventory your tomatoes and know how much you need to buy.&#0160; Randomness is not your friend in the pantry.</p><p>7.&#0160; Get home delivery of as many heavy things as you can.&#0160; We get enough milk to feed two growing boys delivered weekly, and that cuts 25 pounds of weight off the grocery cart.</p><p>A few notes.&#0160; It&#39;s easier to do this if you get most of this process from someone who used to do it all the time and got good at it, even with little kids in tow; left to my own devices I&#39;m much more random.&#0160; Two good mottos to follow are &quot;every meal accounted for&quot; and &quot;no backtracking&quot;.&#0160; The only flaw in my design is the no alcohol before Sunday noon Michigan law, which makes buying beer and wine an exception rather than a regular easy to follow process.&#0160;&#0160; It&#39;s easier to do this if you&#39;re vegetarian and have a big recipe list built up over the years and enough spices in your spice cabinet to get variety from variations on a theme.&#0160; And I still don&#39;t have a middle eastern or Korean grocery in my regular routine, which by rights should happen about 1x/mo each.</p>
-
-
-  <h3>2 December 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-12-02-community-structure-in-large-social-and-information-networks-michael-mahoney-stanford-speaking-at-th/">Community structure in large social and information networks, Michael Mahoney, Stanford, speaking at the University of Michigan on Friday, December 5, 2008, 11am-noon, CSE 3941</a>
-      </h3>
-      <p>thanks to Lada Adamic for the heads up for this seminar on the U of Michigan campus.</p><p>more about the speaker: an <a href="http://www.cs.yale.edu/homes/mmahoney/">old home page at Yale</a>; he&#39;s ex Yahoo research; his current <a href="http://cs.stanford.edu/people/mmahoney/">home page at Stanford.</a>&#0160; He has published <a href="http://arxiv.org/abs/0810.1355">a paper at arXiv that covers this material.</a>&#0160; A pull quote from that paper is:</p><div style="margin-left: 40px;">Our results suggest a significantly more refined picture of community structure in large networks than has been appreciated previously. Our observations agree with previous work on small networks, but we show that large networks have a very different structure.&#0160; In particular, we observe tight communities that are barely connected to the rest of the network at very small size scales (up to $\approx 100$ nodes); and communities of size scale beyond $\approx 100$ nodes gradually ``blend into&#39;&#39; the expander-like core of the network and thus become less ``community-like,&#39;&#39; with a roughly inverse relationship between community size and optimal community quality. This observation agrees well with the so-called Dunbar number which gives a limit to the size of a well-functioning community.<br /></div><br /><br /><p><br />FRIDAY Dec. 5, 2008<br />
-11:00 am - 12:00noon<br />
-CSE 3941</p><p>
-COMMUNITY STRUCTURE IN LARGE SOCIAL AND INFORMATION NETWORKS<br />
-Michael W. Mahoney<br />
-Stanford University</p><p>
-The concept of a community is central to social network analysis, and
-thus a large body of work has been devoted to identifying community
-structure. For example, a community may be thought of as a set of web
-pages on related topics, a set of people who share common interests, or
-more generally as a set of nodes in a network more similar amongst
-themselves than with the remainder of the network. &#0160;Motivated by
-difficulties we experienced at actually finding meaningful communities
-in large real-world networks, we have performed a large scale analysis
-of a wide range of social and information networks. &#0160;Our main
-methodology uses local spectral methods and involves computing
-isoperimetric properties of the networks at various size scales -- a
-novel application of ideas from scientific computation to internet data
-analysis. Our empirical results suggest a significantly more refined
-picture of community structure than has been appreciated previously.
-Our most striking finding is that in nearly every network dataset we
-examined, we observe tight but almost trivial communities at very small
-size scales, and at larger size scales, the best possible communities
-gradually ``blend in&#39;&#39; with the rest of the network and thus become
-less ``community-like.&#39;&#39; This behavior is not explained, even at a
-qualitative level, by any of the commonly-used network generation
-models. Moreover, this behavior is exactly the opposite of what one
-would expect based on experience with and intuition from expander
-graphs, from graphs that are well-embeddable in a low-dimensional
-structure, and from small social networks that have served as testbeds
-of community detection algorithms. Possible mechanisms for reproducing
-our empirical observations will be discussed, as will implications of
-these findings for clustering, classification, and more general data
-analysis in modern large social and information networks.</p>
-
-
-  <h3>2 December 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-12-02-thoughts-on-leadership-direction-conflict-and-change/">Thoughts on leadership, direction, conflict and change</a>
-      </h3>
-      <p>&quot;I am a leader by default, because nature abhors a vacuum.&quot;&#0160; Desmond Tutu, quoted in the Christian Science Monitor, Dec 20 1984.</p><p>&quot;The real leader has no need to lead - he is content to point the way.&quot;&#0160; Henry Miller, from his essay The Wisdom of the Heart, 1947.</p><p>&quot;Only in the frictionless vacuum of a nonexistent abstract world can movement or change occur without that abrasive friction of conflict.&quot;&#0160; Saul Alinsky, 1971</p><p>I&#39;ve been quoting Desmond Tutu for a while now on this blog; the Miller and Alinsky quotes are both new to me.&#0160; (I&#39;m always, of course, on the lookout for any quote from anyone who uses the word &quot;vacuum&quot; in context.).</p>
 
 
 

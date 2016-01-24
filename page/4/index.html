@@ -70,6 +70,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-24-alaska-earthquake" class="list-group-item">M6.4 earthquake felt in Anchorage, Alaska</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-writing-things-down" class="list-group-item">Writing things down</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary" class="list-group-item">a2b3 lunch non-summary for 3d week of January 2016</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-18-mlk-day-on-umich-campus" class="list-group-item">Some highlights of MLK Day 2016 on the U of Michigan campus</a></li>
@@ -105,14 +109,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-22-kale-into-ice-cream" class="list-group-item">How I turned 99 cents worth of kale into half a gallon of delicious ice cream</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-21-mailchimp-form" class="list-group-item">Subscribe to a2b3 list through Mailchimp</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-18-a-visit-to-um-cvga" class="list-group-item">A visit to the Computer and Video Game Archive, @umcvga</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-santa-at-swedes-diner" class="list-group-item">Santa visiting Swede&#39;s Diner, Ann Arbor, December 1950</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4214,6 +4218,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -12420,6 +12428,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12732,6 +12744,106 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>29 August 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-08-29-terabytes-at-least-in-theory/">Terabytes, at least in theory</a>
+      </h3>
+      <p>I have a new terabyte drive. It&rsquo;s impossibly small, impossibly
+cheap, and just fast enough to accomplish astounding backup tasks
+in what seems like not enough time.</p>
+
+<p>It is, however, a mass storage device that depends on rotating
+magnetic media, and as such it&rsquo;s obsolete.</p>
+
+<p>The drive cost less than $50. For about 10 times that right now,
+I can buy another terabyte drive that is solid state rather than
+spinning oxide storage. The bet that I have is that in three years,
+the cost of a terabyte of SSD drive will have come down so far -
+perhaps to $100 - that no one will have any interest in selling me
+a 1T drive that isn&rsquo;t SSD.</p>
+
+<p>My frame of reference for &ldquo;what does har drive storage cost&rdquo; dates
+back as far as the 10 megabyte, $1000 drive, which I really wanted
+and which I never bought for my own self. And then back a little bit
+further, when a 5 megabyte Davong drive was the bee&rsquo;s knees.</p>
+
+<p>What do you do with a terabyte? Lots of backups.</p>
+
+
+  <h3>26 August 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-08-26-rrdtool-on-raspberry-pi/">RRDTool v1.5.4 on Raspberry Pi</a>
+      </h3>
+      <p>The second in a series of efforts to get a suitable database for
+the task.</p>
+
+<p>The challenge is that there&rsquo;s a lot of data out there that changes
+all the time, and you want to gather it, make sure it&rsquo;s sane, squirrel
+it away for later analysis, put together a pretty chart so that you
+can spot check it, feed it into other systems not yet fully dreamed
+of to cause actions, and so on. It&rsquo;s the &ldquo;big data&rdquo; problem in that
+you have sensors that throw off a lot of data exhaust, and it&rsquo;s the
+&ldquo;internet of things&rdquo; problem because mostly you&rsquo;re looking at things
+with data and not say imagery or lots of freeform text.</p>
+
+<p>Phase one of this effort was wrestling MongoDB into service, which
+ended up being only a handful of lines of code; but the concern expressed
+was the Mongo though fun and easy for small projects gets messy for
+big ones, and there&rsquo;s good reason not to succumb to its siren song.
+The other reason to stop using Mongo when I did was that it really
+doesn&rsquo;t love the Raspberry Pi architecture. Since there were only really
+a very few lines of code, and since that code works on my Mac, no time
+lost - but time to move on.</p>
+
+<p>Phase two is a look at RRDtool, a &ldquo;round robin&rdquo; database very often used
+for network management efforts. One of the nice things about a round robin
+database is that the database itself is at its maximum size when you
+create it, and it doesn&rsquo;t grow - rather, it cycles out the old data
+at whatever time resolution you want to get rid of it. With that in
+mind you can have a single database with 10 years worth of daily averages
+and a whole year of minute-by-minute data and it hardly takes up any
+room at all - perfect for the sort of &ldquo;data logger&rdquo; applications that
+I find myself in the middle of.</p>
+
+<p>If you do <code>apt-get install rrdtool</code> on the Pi you get a working
+copy of RRDtool 1.4.7, compiled in 2012. That&rsquo;s pretty long in the
+tooth, so I decided to pull down v1.5.4 from the
+<a href="http://oss.oetiker.ch/rrdtool/pub/?M=D">RRDtool download area</a>. The release notes note
+dependencies as follows</p>
+
+<pre><code>apt-get install libpango1.0-dev libxml2-dev
+</code></pre>
+
+<p>and once you have those pulled down the build is not fast but not
+difficult.</p>
+
+<p>Pushing data into RRDtool is as simple as a shell script run out of
+cron. The first data point I&rsquo;m graphing is &ldquo;total spaces free in the
+Ann Arbor DDA parking garages&rdquo;, and I&rsquo;m collecting that on two machines -
+my Mac when it&rsquo;s running, and the Pi at all times. A second graph
+I want to capture is some really basic weather information, and a
+third is inside-the-machine environmental sensing starting with the
+system temperature of the Pi.</p>
+
+<p>It was really useful to make the first round of this be Mongo, because
+with Mongo you really don&rsquo;t have to decide anything when you set things up -
+just dump in raw JSON documents and hope for the best.</p>
+
+<p>
+<figure >
+    
+        <img src="http://vielmetti.github.io/images/parking.png" />
+    
+    
+    <figcaption>
+        <h4>RRDtool graph of available parking in downtown Ann Arbor</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
 
 
   <h3>26 August 2015</h3>
@@ -13481,97 +13593,6 @@ grid of squares with people&rsquo;s photos in them, so that I could see at
 a glance who was in my inbox?</p>
 
 <p>Once you start to sort one thing, you want to sort everything.</p>
-
-
-  <h3>31 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/">mitmproxy</a>
-      </h3>
-      <p>In his <a href="http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/">An internet x-ray machine for the masses</a>, Paul Ohm writes a lucid introduction to
-<span style="background-color: #ffffbf;">mitmproxy</span>,
-a man-in-the-middle proxy server that allows you to
-get between your browser and the Internet and poke at
-(and change) the traffic going between the two.</p>
-
-<p><a href="http://mitmproxy.org">http://mitmproxy.org</a> is the home of mitmproxy. It&rsquo;s
-the work of <span style="background-color: #bfffff;">Aldo Cortesi</span> and a cast of
-hundreds of contributors on github at <a href="https://github.com/mitmproxy/mitmproxy">https://github.com/mitmproxy/mitmproxy</a> .
-I used the OS X binary distribution from the download page.
-There&rsquo;s also a nifty Dockerized version on
-Dockerhub as <a href="https://registry.hub.docker.com/u/mitmproxy/mitmproxy/">docker pull mitmproxy/mitmproxy</a>
-to get you started quickly too.</p>
-
-<p>Man-in-the-middle (or monkey-in-the-middle) systems are not
-new, of course, and Dug Song&rsquo;s <a href="http://www.monkey.org/~dugsong/dsniff/">dsniff</a>
-package dates to 1999. What we&rsquo;ve learned in a decade and a half
-is that security through obscurity vanishes in the face of better
-tools for looking at network traffic as it&rsquo;s going by with high
-level tools for making sense of what&rsquo;s there.</p>
-
-<p>As ever, all of these tools have both benign and malicious uses.
-If you can trick someone into using your proxy server for their
-traffic, all kinds of foolishness can result. Better is the use
-that you proxy your own traffic and behold all of the cookies,
-beacons, and ads that sneak into your everyday browsing experience.</p>
-
-
-  <h3>31 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-31-soundcloud/">Soundcloud, now and in the future</a>
-      </h3>
-      <p>If you have exactly one copy of something and it&rsquo;s only on Soundcloud,
-this would be an opportune time to make a backup. That&rsquo;s always a good
-idea anyway not to rely on single web servers for anything, but it&rsquo;s
-especially notable in the light of these articles.</p>
-
-<p>First, the upbeat <a href="http://www.bloomberg.com/news/features/2015-07-10/can-soundcloud-be-the-facebook-of-music-">Bloomberg Business</a> article of July 10, 2015:</p>
-
-<blockquote>
-<p>&hellip; SoundCloud’s potential is fascinating, and perhaps unique.
-The founders have ambitious goals that respond to changes in the
-way music and sound are created and consumed. It’s a beautiful
-dream. So long as all the crucial participants—labels, publishers,
-artists, SoundCloud itself—can agree on how to share it.</p>
-</blockquote>
-
-<p>Next, the downbeat <a href="http://www.techtimes.com/articles/72325/20150729/soundcloud-losing-money-fast-as-record-labels-apply-licensing-pressure.htm">Tech Times</a> on July 29, 2015:</p>
-
-<blockquote>
-<p>We recently reported on rumors that popular music streaming service
-SoundCloud is planning on adding a subscription-based tier to its
-currently all-free streaming service, and that rumor was just
-confirmed by company co-founder Eric Wahlforss in a conversation
-with the Wall Street Journal. Now, it appears that the impetus
-behind the development of the subscription tier is clear: the company
-is in dire need of cash.</p>
-</blockquote>
-
-<p>&ldquo;Dire need of cash&rdquo; because record labels are not thrilled with
-the beautiful dream of listening to the world&rsquo;s music for free.
-Remember how Napster turned out? It was a beautiful dream, too,
-but labels and publishers just saw it as piracy. This from
-<a href="http://www.edmtunes.com/2015/06/editorial-believe-it-or-not-soundcloud-is-fighting-the-good-fight/">EDM Tunes</a>:</p>
-
-<blockquote>
-<p>The 2015 SoundCloud controversy is Napster all over again. We
-aren’t sharing files anymore, we’re sharing sound. 15 years ago
-record labels objected to us downloading their music, now they
-object to us streaming it&hellip;.</p>
-
-<p>Like Napster, SoundCloud is a goldfish that’s been unwillingly
-thrust into battle with three super-wale companies. Just for a
-matter of reference, consider that SoundCloud has about 200 employees,
-while the Sony, Universal, and Warner corporate networks employ
-more than 200,000. At this point, SoundCloud is fighting to survive,
-and unfortunately has received a lot of critical media attention.
-Since its 2007 inception, SoundCloud has served as a haven for
-electronic music producers and fans; allowing sound to be seamlessly
-shared from artist to listener. This luxury is being threatened,
-and we’re all pissed about it.</p>
-</blockquote>
-
-<p>So, enjoy Soundcloud while you can, and when you are producing things
-for it make sure you keep a backup on your own machines!</p>
 
 
 

@@ -70,6 +70,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-24-alaska-earthquake" class="list-group-item">M6.4 earthquake felt in Anchorage, Alaska</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-writing-things-down" class="list-group-item">Writing things down</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary" class="list-group-item">a2b3 lunch non-summary for 3d week of January 2016</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-18-mlk-day-on-umich-campus" class="list-group-item">Some highlights of MLK Day 2016 on the U of Michigan campus</a></li>
@@ -105,14 +109,14 @@
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-22-kale-into-ice-cream" class="list-group-item">How I turned 99 cents worth of kale into half a gallon of delicious ice cream</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2015/2015-12-21-mailchimp-form" class="list-group-item">Subscribe to a2b3 list through Mailchimp</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-18-a-visit-to-um-cvga" class="list-group-item">A visit to the Computer and Video Game Archive, @umcvga</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2015/2015-12-17-santa-at-swedes-diner" class="list-group-item">Santa visiting Swede&#39;s Diner, Ann Arbor, December 1950</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4214,6 +4218,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -12420,6 +12428,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12732,6 +12744,86 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>17 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/">Levenshtein distance for approximate match</a>
+      </h3>
+      <p>The problem, simply stated, is that of typoes and inconsistent
+spelling and pluraliziation. Let&rsquo;s say you have a collection of
+text that you want to annotate with some metadata, like categories
+and tags. You don&rsquo;t want to set aside ahead of time exactly which
+tags you want to use, but you want to catch through some test or
+lint step that you&rsquo;ve done something wrong by typing &ldquo;apples&rdquo; into
+a field that really has &ldquo;apple&rdquo; most of the time. A good algorithm
+will catch minor deviations from the norm and advise you when you
+should go back with a fresh pair of eyes and do an edit.
+The bigger problem is <span style="background-color: #ffffbf;">deduplication</span>.</p>
+
+<p>My first pass at a proposed solution was to look for a version of
+the old Unix program &ldquo;uniq&rdquo; that would have an approximate match.
+There is also an old Unix program &ldquo;agrep&rdquo; (&ldquo;approximate grep&rdquo;) from
+<span style="background-color: #bfffff;">Udi Manber</span>.</p>
+
+<p>[WM92a]
+Wu S. and U. Manber, &ldquo;Agrep - A Fast Approximate Pattern-Matching
+Tool,&rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
+1992), pp. 153-162.</p>
+
+<p>Neither of these first lines of attack to see if someone had
+completely solved the problem before did the trick, but some
+searching around and a conversation with
+<span style="background-color: #bfffff;">John Hritz</span>
+hit the neuron that remembered the algorithm called the
+<span style="background-color: #ffffbf;">Levenshtein distance</span>.
+That led me to
+<span style="background-color: #ffbfff;">Wikibook: Algorithm Implementation</span>,
+and its set of
+<a href="https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance">Levenshtein distance code</a>. It so happened that there
+was a very slow implementation in the bash shell included
+in that collection that was a cut and paste and two lines of
+code from being exactly what I needed. A little bit of glue
+code in awk and I was ready to go.</p>
+
+<p>Now the problem with cut and paste two lines of code is that this
+particular implmentation is very slow, albeit correct. Given the
+choice between slow correct code and fast code that&rsquo;s wrong (because
+of the bug that you don&rsquo;t yet understand), I&rsquo;ll take the slow code
+plus a comment and a writeup that describes how to make it faster.</p>
+
+<p>What I&rsquo;m really after is just the pairwise comparison of a set
+of words where the two words are close to each other. If the
+distance between two words is greater than some threshhold, I don&rsquo;t need
+to go any further. That algorithmic shortcut isn&rsquo;t in the library
+codes that I found.</p>
+
+<p>The bigger question is how to write a
+checklist
+and implement it in code to make sure that a big body of work stays
+internally consistent. It&rsquo;s one thing to have a
+categorization
+rule for your writers that says &ldquo;always use the
+singular&rdquo;, but very much something different to have Test 38 in
+your automated test corpus apply that rule and notice when it&rsquo;s
+wrong.</p>
+
+<hr/>
+
+<p>Update 29 July 2015:
+<span style="background-color: #bfffff;">Dennis Yurichev</span> with a post
+<a href="http://yurichev.com/blog/fuzzy_string/">Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.</a> shares some Python code to handle the
+case of automated checking against a probably correct dictionary. He uses this
+<a href="https://pypi.python.org/pypi/python-Levenshtein/0.12.0">python-Levenshtein</a> module
+to do the hard work.</p>
+
+
+  <h3>17 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form/">The Checklist Manifesto, in checklist format</a>
+      </h3>
+      <p><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">My Checklist Manifesto summary (of course in checklist form) THANK YOU <a href="https://twitter.com/Atul_Gawande">@Atul_Gawande</a> <a href="http://t.co/PfsIMwcCiB">http://t.co/PfsIMwcCiB</a> <a href="http://t.co/ZfzP72RgiF">pic.twitter.com/ZfzP72RgiF</a></p>&mdash; Remo Uherek (@remouherek) <a href="https://twitter.com/remouherek/status/617272863599513600">July 4, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 
   <h3>17 July 2015</h3>
@@ -13362,40 +13454,6 @@ commentariat.</p>
 </ol>
 
 <p>In the course of doing this I came across an essay, otherwise unpublished, on "The algorithm driven day". In reading through it I am not sure it needs to see the light of day just yet, but it does help me wonder what parts of our efforts are driven by randomness and which are put there by design and how on earth one might tell the difference.</p>
-
-
-  <h3>28 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/">Using a squid cache to make automated data collection a bit less rude</a>
-      </h3>
-      <p><a href="http://www.squid-cache.org/"><code>squid</code> is a web caching system</a>. Instead of browsing directly to a site, you point your browser at a squid cache, and the cache serves up cached copies of the data you are asking for. If squid has an out of date copy of the data it fetches a new one for you. The goal is to be a transparent cache, and to be nearly as fast as direct access when you don't have the data, and way faster when you do.</p>
-
-<p>I'm doing some automated data collection from the web using <code>curl</code>, and as a part of that I want to not be overly aggressive in harvesting details from a site if I already have a recent copy of the data that hasn't changed. Putting a cache in the way makes sense, since unlike most GUI based browsers that have their own caches, <code>curl</code> just fetches whatever it's asked for unquestioningly even if it just got the same thing seconds ago - unless you tell it to use a cache.</p>
-
-<p>The first appearance of squid dates to 1996, so it's old software by modern standards. It dates from the bad old days when the Internet was slow on long haul links but fast locally, and so it made all the sense in the world to optimize and economize. Even now there are lots of times and places where the net is slow enough that you're willing to introduce a little bit of complexity in exchange for a little bit of speed.</p>
-
-<p>I installed my copy of squid on my Mac using MacPorts, which seems to do a fine job. I had also tried to build a copy of squid using what looked like simple instructions on Docker using the configuration on <a href="https://github.com/michaljemala/docker-squid">@michaeljemala/docker-squid</a>, but for reasons as of yet unexplained I got the error message</p>
-
-<p><code>
-curl: (7) Failed to connect to localhost port 3128: Connection refused
-</code></p>
-
-<p>after setting that up and following package directions.  Still puzzling out whether that's a result of some Docker configuration oddness on 1.7.0, or something else. Anyway, the native version is working, so I'm good for now.</p>
-
-
-  <h3>28 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-28-disappointed-by-amateur-radio-contests/">Disappointed by some amateur radio contests</a>
-      </h3>
-      <p>I was at a ham radio field day event. The people were friendly, but the focus was on the contests they were working on. I don't think that's the part of the hobby I'm most interested in.</p>
-
-<p>The contest setup seems so incredibly inefficient. If the goal is to make the maximum number of two way connections in the minimum amount of time, you'd think that there would be more efficient ways to do it than to throw your call sign out on some frequency that's hopefully both being listened to at the moment but also not being transmitted on at the same time. It feels really noisy and unnecessarily difficult. I am told that some contesters use software defined radio to watch more of the band - that seems more effective than just listening to one narrow channel and hoping for the best.</p>
-
-<p>I guess I'm much more used to using repeaters than I am to simplex operations. With a repeater at least you have a positive acknowledgement that your transmission was received by a machine, and with that you can get a better sense for what you sound like on the air. I'm also used to a station acting as "net control" and acknowledging people and managing the flow of conversations. In contrast the contest sounds like chaos.</p>
-
-<p>For whatever the unfamiliarity is, the other reality is that to listen to it, contests can be pretty boring. People give out the barest of bare minimum of information about their station and then move on.</p>
-
-<p>What Field Day brings to mind is a much more interesting event I was a little part of last year, the <a href="http://www.nj2bb.org/museum/">Museum Ships Weekend Event</a> run by The Battleship New Jersey Amateur Radio Station NJ2BB. I went to the Hands-On Museum in early June 2014 and listened and talked to shipboard radio stations on museum ships around the world. It was a lot more fun because the station operators were less concerned about maximizing the count of their contacts and more interested in telling the stories of their museums. </p>
 
 
 
