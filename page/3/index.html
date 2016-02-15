@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-02-14-stadium-boulevard-project" class="list-group-item">Stadium Boulevard project bids high, portions of project to be delayed</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry" class="list-group-item">Chicken and onion curry</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-25-ann-arbor-public-schools-social-media-threat" class="list-group-item">Ann Arbor Public Schools respond to social media threat</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale" class="list-group-item">WKAR-TV television spectrum may be up for sale, and the station is at risk</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-02-learning-morse-code" class="list-group-item">Learning Morse Code</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-01-qsl-card-template" class="list-group-item">QSL card template for Lob.com</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4222,6 +4224,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12444,6 +12448,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12756,6 +12762,47 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>9 November 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-11-09-foia-ask-for-less/">When the FOIA request costs too much, ask for less</a>
+      </h3>
+      <p>I asked for some documents from Washtenaw County, and they estimated that
+it would cost over $6100 to produce the records. Apparently the nature of
+the request was such that they would have had to review 1200 separate
+files each individually on paper to determine a response. I didn&rsquo;t have
+a $6100 line item in my budget to pay for it, so the best charitable
+response is &ldquo;no thanks&rdquo;.</p>
+
+<p>There is a question that I want to get at, though, and I think it&rsquo;s attainable
+for less than $6100. How frequently does a restaurant owner appeal or
+protest the results of an inspection, and what sorts of things do they
+complain about? To get some idea of what&rsquo;s going on I don&rsquo;t need two years
+of inspection disputes; 30 days would do.</p>
+
+<p>I don&rsquo;t know how frequent these appeals are, whether there&rsquo;s a form that
+gets filled out of if it&rsquo;s done by phone or email, and what the results
+are. I do know that Washtenaw County routinely delays publication of routine
+inspections by 30 days or more to allow time for appeals.</p>
+
+<p>Why the bother? Well, when a restaurant gets an awful inspection, it&rsquo;s in
+the public interest to publicize that promptly rather than wait weeks for
+resolution. We saw this in Philadelphia, in this
+<a href="http://mobile.philly.com/beta?wss=/philly/health/special_reports/clean-plates&amp;id=339602512">philly.com story</a></p>
+
+<blockquote>
+<p>The city Health Department, which has had a long-standing policy of keeping restaurant inspection reports secret for 30 days, announced Monday that it will move to publicly post the reports &ldquo;as quickly as possible.&rdquo; &hellip;</p>
+
+<p>The 30-day delay meant that diners could unknowingly patronize restaurants cited for serious hygiene problems.</p>
+</blockquote>
+
+<p>I&rsquo;m hopeful that 30 days worth of county records will be enough to discern
+a pattern. Do restaurant owners routinely challenge the results of inspections?
+Does the county modify their reports based on these challenges? Without
+knowing anything about how the process goes, the inclination I have is to
+want to have the same changes that were recently put in place in Philadelphia:
+prompt publication of serious hygeine problems is a benefit to public health.</p>
 
 
   <h3>6 November 2015</h3>
@@ -14215,61 +14262,6 @@ is to put everything into one Docker build and make it straightforward
 to wrap everything together. Ideally this will be a fairly
 minimalist build, and thus the challenge is to find the set
 of dependencies that is small enough.</p>
-
-
-  <h3>7 September 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/">Managing a Raspberry Pi OpenVPN with Salt</a>
-      </h3>
-      <p>When you successfully install something complex, and then you fail
-to document one small thing about how you did it, the inclination is
-to over-document once you get it working again; thus, this expository
-account of managing a set of Raspberry Pi devices using the &ldquo;salt&rdquo;
-system. It&rsquo;s not a complete start to finish writeup, just a pointer to
-the bits that I had forgotten.</p>
-
-<p>This is mostly experimental at this point, and the collection of devices
-is relatively small. I am pretty convinced that the Pi 2 has plenty of
-gas to do more things than most people will try to do, but the original
-Pi is slow enough and limited enough to perhaps make this scheme impractical.</p>
-
-<p>When it works, you have a set of Pi&rsquo;s in various locations, all networked
-together into an OpenVPN configuration.</p>
-
-<p>First to read is <a href="http://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html">Virtually secure with openvpn, pillars, and salt</a> which
-goes over the structure and motivation and design for an OpenVPN
-network that answers this problem:</p>
-
-<blockquote>
-<p>How do I use salt to create and install the openvpn and client specific config files for each minion &ndash;on demand?</p>
-</blockquote>
-
-<p>If you follow Dan Garthwaite&rsquo;s design you get a reasonable
-approach - when you bring up a new client you get a new key
-generated, and on the server you run <code>salt-key -a</code> to accept the
-new one.</p>
-
-<p>This leaves only the problem of bootstrapping on the Pi&rsquo;s themselves.
-The version of &lsquo;salt-minion&rsquo; that&rsquo;s available from the default
-Debian system is very ancient, so that&rsquo;s useless. What you want
-can be found at
-<a href="http://servernetworktech.com/2014/05/setup-debian-saltstack-minion-single-command/">Setup a Debian Saltstack minion with a single command</a>
-on the Server Network Tech blog; it brings in a new Debian
-source list from Salt so that the bootstrap is easier.</p>
-
-<p>(I realize this isn&rsquo;t a start to finish tutorial, just a few points
-of clarification for bringing up new nodes once you have the whole
-Salt environment running; sorry about that.)</p>
-
-<p>The one thing I have left to do to make the setup more airtight is
-to automate the process of locking down the sshd_config so that &ldquo;root&rdquo;
-and &ldquo;pi&rdquo; can&rsquo;t login from far away, so that I can keep their default
-passwords but restrict access to console access only.</p>
-
-<p>Not mentioned here is that these Pi configuraiton are all on top of
-the Hypriot setup so that they can (and do) run Docker. Though Docker
-on the original Pi with salt-minion running doesn&rsquo;t leave a ton of
-space spare for actual work to be done.</p>
 
 
 

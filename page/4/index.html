@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-02-14-stadium-boulevard-project" class="list-group-item">Stadium Boulevard project bids high, portions of project to be delayed</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry" class="list-group-item">Chicken and onion curry</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-25-ann-arbor-public-schools-social-media-threat" class="list-group-item">Ann Arbor Public Schools respond to social media threat</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale" class="list-group-item">WKAR-TV television spectrum may be up for sale, and the station is at risk</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-02-learning-morse-code" class="list-group-item">Learning Morse Code</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-01-qsl-card-template" class="list-group-item">QSL card template for Lob.com</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4222,6 +4224,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12444,6 +12448,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12756,6 +12762,61 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>7 September 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/">Managing a Raspberry Pi OpenVPN with Salt</a>
+      </h3>
+      <p>When you successfully install something complex, and then you fail
+to document one small thing about how you did it, the inclination is
+to over-document once you get it working again; thus, this expository
+account of managing a set of Raspberry Pi devices using the &ldquo;salt&rdquo;
+system. It&rsquo;s not a complete start to finish writeup, just a pointer to
+the bits that I had forgotten.</p>
+
+<p>This is mostly experimental at this point, and the collection of devices
+is relatively small. I am pretty convinced that the Pi 2 has plenty of
+gas to do more things than most people will try to do, but the original
+Pi is slow enough and limited enough to perhaps make this scheme impractical.</p>
+
+<p>When it works, you have a set of Pi&rsquo;s in various locations, all networked
+together into an OpenVPN configuration.</p>
+
+<p>First to read is <a href="http://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html">Virtually secure with openvpn, pillars, and salt</a> which
+goes over the structure and motivation and design for an OpenVPN
+network that answers this problem:</p>
+
+<blockquote>
+<p>How do I use salt to create and install the openvpn and client specific config files for each minion &ndash;on demand?</p>
+</blockquote>
+
+<p>If you follow Dan Garthwaite&rsquo;s design you get a reasonable
+approach - when you bring up a new client you get a new key
+generated, and on the server you run <code>salt-key -a</code> to accept the
+new one.</p>
+
+<p>This leaves only the problem of bootstrapping on the Pi&rsquo;s themselves.
+The version of &lsquo;salt-minion&rsquo; that&rsquo;s available from the default
+Debian system is very ancient, so that&rsquo;s useless. What you want
+can be found at
+<a href="http://servernetworktech.com/2014/05/setup-debian-saltstack-minion-single-command/">Setup a Debian Saltstack minion with a single command</a>
+on the Server Network Tech blog; it brings in a new Debian
+source list from Salt so that the bootstrap is easier.</p>
+
+<p>(I realize this isn&rsquo;t a start to finish tutorial, just a few points
+of clarification for bringing up new nodes once you have the whole
+Salt environment running; sorry about that.)</p>
+
+<p>The one thing I have left to do to make the setup more airtight is
+to automate the process of locking down the sshd_config so that &ldquo;root&rdquo;
+and &ldquo;pi&rdquo; can&rsquo;t login from far away, so that I can keep their default
+passwords but restrict access to console access only.</p>
+
+<p>Not mentioned here is that these Pi configuraiton are all on top of
+the Hypriot setup so that they can (and do) run Docker. Though Docker
+on the original Pi with salt-minion running doesn&rsquo;t leave a ton of
+space spare for actual work to be done.</p>
 
 
   <h3>4 September 2015</h3>
@@ -13600,22 +13661,6 @@ Softball sized hail was seen near West Branch, MI.</p>
 91,802 Consumers Energy customers without power. DTE does not generally
 report outages by county, just by zip code, but I have all of the zip
 codes so I should be able to estimate county level totals.</p>
-
-
-  <h3>2 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-02-small-multiples/">Small multiples</a>
-      </h3>
-      <p><span style="background-color: #bfffff;">James Corriea, Jr.</span> has this nice illustration of the use of
-<span style="background-color: #ffffbf;">small multiples</span> in weather forecasting to show the progression
-of forecasts as they change.</p>
-
-<p><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Day 1 outlook progression <a href="https://twitter.com/hashtag/wiwx?src=hash">#wiwx</a> <a href="https://twitter.com/hashtag/miwx?src=hash">#miwx</a> <a href="https://twitter.com/hashtag/ilwx?src=hash">#ilwx</a> <a href="https://twitter.com/hashtag/ohwx?src=hash">#ohwx</a> <a href="https://twitter.com/hashtag/inwx?src=hash">#inwx</a> <a href="http://t.co/HtLJQ6lOq0">pic.twitter.com/HtLJQ6lOq0</a></p>&mdash; james correia jr (@jimmyc42) <a href="https://twitter.com/jimmyc42/status/627933753986281472">August 2, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<p><a href="http://www.juiceanalytics.com/writing/better-know-visualization-small-multiples/">Better Know a Visualization: Small Multiples</a> from Juice Analytics
-has some more examples - the original goes back to the work of
-<span style="background-color: #bfffff;">Edward Tufte</span>.</p>
 
 
 
