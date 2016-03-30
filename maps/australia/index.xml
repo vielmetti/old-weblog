@@ -10,35 +10,6 @@
     <atom:link href="http://vielmetti.github.io/maps/australia/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Australia (Victoria, Melbourne area), February 2009 fire map</title>
-      <link>http://vielmetti.github.io/post/2009/2009-02-08-australia-victoria-melbourne-area-february-2009-fire-map/</link>
-      <pubDate>Sun, 08 Feb 2009 10:21:57 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2009/2009-02-08-australia-victoria-melbourne-area-february-2009-fire-map/</guid>
-      <description>&lt;p&gt;As pulled from the &lt;a href=&#34;http://google-au.blogspot.com/2009/02/mapping-victorian-fires.html&#34;&gt;Google Australia weblog&lt;/a&gt; on the fires in Australia goes into detail and has a live map of the fires, included below.&lt;/p&gt;
-&lt;script src=&#34;http://www.gmodules.com/ig/ifr?url=http://mapvisage.appspot.com/fires/vicfiresgadget.xml&amp;amp;synd=open&amp;amp;w=550&amp;amp;h=400&amp;amp;title=Victoria+Fires+Map&amp;amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;amp;output=js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;As a snapshot of this here&amp;#39;s what it looked like when I grabbed it this morning:
-&lt;br /&gt;
-&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01053718efce970b-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Picture 21&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef01053718efce970b image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01053718efce970b-800wi&#34; title=&#34;Picture 21&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;There&amp;#39;s more maps of fire in Australia at &lt;a href=&#34;http://www.aus-emaps.com/vic_fires.html&#34;&gt;aus-emaps&lt;/a&gt;; this is a link to static copies of maps, which is better than the live image because of heavy server load.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;http://maps.geog.umd.edu/website/Activefire_HTML/viewer.htm?MAP=AUS-ArcIMSparam&amp;amp;DATALIST=,wc,wco,auspa,mafd24,ER,&amp;amp;BANNER=aus_banner&amp;amp;ele_fire=fireAims&amp;amp;requiredMap=Australia&#34;&gt;University of Maryland / NASA MODIS view of Australian fires&lt;/a&gt; has satellite coverage as well as historical coverage so that you can get details on past days fire and previous years.&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.aus-emaps.com/about.html&#34;&gt;The best single source I could find for maps of Australia is aus-emaps.&lt;/a&gt; They say about themselves:&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;
-This site brings together a number of third party services to provide a single reference point to a comprehensive collection of online maps of Australia (whole-of-the-continent to street level) and location-specific information.
-
-Our online mapping service is intended to be operational 24/7, however, occasional disruptions may occur. We give no warranties as to its fitness for any purpose or availability since we have no control over services and content provided by others.
-
-This online mapping service may change at any time. See our terms of use for further details.
-
-Special thanks to Mike Williams for his inspirational tutorials and to Google Map Development Team for sharing source code to so many interesting applications. 
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;
-update: a fire map of Australia showing the fire seasons, from the &lt;a href=&#34;http://www.fire.uni-freiburg.de/&#34;&gt;global fire monitoring center at Uni Freiburg&lt;/a&gt;.
-&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011168542701970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Fireseasons&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef011168542701970c &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011168542701970c-800wi&#34; title=&#34;Fireseasons&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Australia flood map, January 10, 2011</title>
       <link>http://vielmetti.github.io/post/2011/2011-01-09-australia-flood-map-january-10-2011/</link>
       <pubDate>Sun, 09 Jan 2011 22:57:57 +0000</pubDate>
@@ -70,6 +41,35 @@ update: a fire map of Australia showing the fire seasons, from the &lt;a href=&#
 &lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34; /&gt;
 &lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&gt;&lt;embed allowfullscreen=&#34;true&#34; allowscriptaccess=&#34;always&#34; height=&#34;344&#34; src=&#34;http://www.youtube.com/v/kYUpkPTcqPY?fs=1&amp;amp;hl=en_US&amp;amp;rel=0&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;425&#34; /&gt;
 &lt;/object&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Australia (Victoria, Melbourne area), February 2009 fire map</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-08-australia-victoria-melbourne-area-february-2009-fire-map/</link>
+      <pubDate>Sun, 08 Feb 2009 10:21:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-08-australia-victoria-melbourne-area-february-2009-fire-map/</guid>
+      <description>&lt;p&gt;As pulled from the &lt;a href=&#34;http://google-au.blogspot.com/2009/02/mapping-victorian-fires.html&#34;&gt;Google Australia weblog&lt;/a&gt; on the fires in Australia goes into detail and has a live map of the fires, included below.&lt;/p&gt;
+&lt;script src=&#34;http://www.gmodules.com/ig/ifr?url=http://mapvisage.appspot.com/fires/vicfiresgadget.xml&amp;amp;synd=open&amp;amp;w=550&amp;amp;h=400&amp;amp;title=Victoria+Fires+Map&amp;amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;amp;output=js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;As a snapshot of this here&amp;#39;s what it looked like when I grabbed it this morning:
+&lt;br /&gt;
+&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01053718efce970b-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Picture 21&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef01053718efce970b image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01053718efce970b-800wi&#34; title=&#34;Picture 21&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There&amp;#39;s more maps of fire in Australia at &lt;a href=&#34;http://www.aus-emaps.com/vic_fires.html&#34;&gt;aus-emaps&lt;/a&gt;; this is a link to static copies of maps, which is better than the live image because of heavy server load.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://maps.geog.umd.edu/website/Activefire_HTML/viewer.htm?MAP=AUS-ArcIMSparam&amp;amp;DATALIST=,wc,wco,auspa,mafd24,ER,&amp;amp;BANNER=aus_banner&amp;amp;ele_fire=fireAims&amp;amp;requiredMap=Australia&#34;&gt;University of Maryland / NASA MODIS view of Australian fires&lt;/a&gt; has satellite coverage as well as historical coverage so that you can get details on past days fire and previous years.&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.aus-emaps.com/about.html&#34;&gt;The best single source I could find for maps of Australia is aus-emaps.&lt;/a&gt; They say about themselves:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;
+This site brings together a number of third party services to provide a single reference point to a comprehensive collection of online maps of Australia (whole-of-the-continent to street level) and location-specific information.
+
+Our online mapping service is intended to be operational 24/7, however, occasional disruptions may occur. We give no warranties as to its fitness for any purpose or availability since we have no control over services and content provided by others.
+
+This online mapping service may change at any time. See our terms of use for further details.
+
+Special thanks to Mike Williams for his inspirational tutorials and to Google Map Development Team for sharing source code to so many interesting applications. 
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;
+update: a fire map of Australia showing the fire seasons, from the &lt;a href=&#34;http://www.fire.uni-freiburg.de/&#34;&gt;global fire monitoring center at Uni Freiburg&lt;/a&gt;.
+&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011168542701970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Fireseasons&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef011168542701970c &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011168542701970c-800wi&#34; title=&#34;Fireseasons&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 </description>
     </item>

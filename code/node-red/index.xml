@@ -10,61 +10,6 @@
     <atom:link href="http://vielmetti.github.io/code/node-red/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
-      <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
-      <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
-
-&lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for &lt;em&gt;why&lt;/em&gt; that&#39;s a relevant task is at this post on Hypriot, &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;How to use Docker Compose to run complex multi container apps on your Raspberry Pi&lt;/a&gt;, which I dutifully and successfully managed to run all of the examples from. &lt;/p&gt;
-
-&lt;p&gt;Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.&lt;/p&gt;
-
-&lt;pre&gt;
-nodered:
-  image: nieleyde/rpi2-nodered
-  command: flows.json
-  volumes:
-    - /home/pi/node-red:/root/.node-red
-  ports: 
-    - &#34;1880:1880&#34;
-  links:
-    - mosquitto
-
-mosquitto:
-  image: nieleyde/rpi-mosquitto
-  ports:
-    - &#34;1883:1883&#34;
-&lt;/pre&gt;
-
-&lt;p&gt;Some subtleties to note:&lt;/p&gt;
-
-&lt;p&gt;The nieleyde/rpi2-nodered runs on the Pi 2; there&#39;s a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven&#39;t yet tweaked this to run on x86, but if you do, you&#39;ll need to update the &#34;image&#34; stanzas everywhere.&lt;/p&gt;
-
-&lt;p&gt;The &#34;command&#34; and &#34;volumes&#34; stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you&#39;ll need to change this; I haven&#39;t gotten that far yet. It might also make sense to have a data volume container, but again I&#39;m not there yet.&lt;/p&gt;
-
-&lt;p&gt;The &#34;mosquitto&#34; configuration is extremely bare bones and runs the default config, which is wide open. I haven&#39;t gotten far enough to replace the config file with something better, but that&#39;s an obvious next step.&lt;/p&gt;
-
-&lt;p&gt;From within Node-RED you refer to this internal MQTT server at hostname &#34;mosquitto&#34;, port &#34;1883&#34;. If the links stanza was changed to &#34;mqtt&#34; and the mosquitto section was changed to &#34;mqtt&#34; you&#39;d then refer to the MQTT server at hostname &#34;mqtt&#34;.&lt;/p&gt;
-
-&lt;p&gt;For further reading:&lt;/p&gt;
-
-&lt;p&gt;An issue open on Niel Eyde&#39;s rpi-nodered Github, &lt;a href=&#34;https://github.com/nieleyde/rpi-nodered/issues/5&#34;&gt;documentation for how to extend this image with your own nodes and flows&lt;/a&gt;, where I&#39;m working some of this out.&lt;/p&gt;
-
-&lt;p&gt;On the Node-RED Github, &lt;a href=&#34;https://github.com/node-red/node-red/issues/603&#34;&gt;Support for Docker install for Node-RED&lt;/a&gt;, which is epic and helpful in many ways.&lt;/p&gt;
-
-&lt;p&gt;The essential &lt;a href=&#34;http://blog.hypriot.com/&#34;&gt;Hypriot weblog&lt;/a&gt;, specifically the aforementioned &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;Docker Compose examples&lt;/a&gt; and the &lt;a href=&#34;https://github.com/hypriot/compose&#34;&gt;Hypriot Docker Compose&lt;/a&gt; Github repository.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Coworking notes at Elixir Vitae</title>
       <link>http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes/</link>
       <pubDate>Tue, 21 Jul 2015 16:57:00 -0400</pubDate>
@@ -160,6 +105,85 @@ day carry bag.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</link>
+      <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
+      <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
+
+&lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for &lt;em&gt;why&lt;/em&gt; that&#39;s a relevant task is at this post on Hypriot, &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;How to use Docker Compose to run complex multi container apps on your Raspberry Pi&lt;/a&gt;, which I dutifully and successfully managed to run all of the examples from. &lt;/p&gt;
+
+&lt;p&gt;Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.&lt;/p&gt;
+
+&lt;pre&gt;
+nodered:
+  image: nieleyde/rpi2-nodered
+  command: flows.json
+  volumes:
+    - /home/pi/node-red:/root/.node-red
+  ports: 
+    - &#34;1880:1880&#34;
+  links:
+    - mosquitto
+
+mosquitto:
+  image: nieleyde/rpi-mosquitto
+  ports:
+    - &#34;1883:1883&#34;
+&lt;/pre&gt;
+
+&lt;p&gt;Some subtleties to note:&lt;/p&gt;
+
+&lt;p&gt;The nieleyde/rpi2-nodered runs on the Pi 2; there&#39;s a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven&#39;t yet tweaked this to run on x86, but if you do, you&#39;ll need to update the &#34;image&#34; stanzas everywhere.&lt;/p&gt;
+
+&lt;p&gt;The &#34;command&#34; and &#34;volumes&#34; stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you&#39;ll need to change this; I haven&#39;t gotten that far yet. It might also make sense to have a data volume container, but again I&#39;m not there yet.&lt;/p&gt;
+
+&lt;p&gt;The &#34;mosquitto&#34; configuration is extremely bare bones and runs the default config, which is wide open. I haven&#39;t gotten far enough to replace the config file with something better, but that&#39;s an obvious next step.&lt;/p&gt;
+
+&lt;p&gt;From within Node-RED you refer to this internal MQTT server at hostname &#34;mosquitto&#34;, port &#34;1883&#34;. If the links stanza was changed to &#34;mqtt&#34; and the mosquitto section was changed to &#34;mqtt&#34; you&#39;d then refer to the MQTT server at hostname &#34;mqtt&#34;.&lt;/p&gt;
+
+&lt;p&gt;For further reading:&lt;/p&gt;
+
+&lt;p&gt;An issue open on Niel Eyde&#39;s rpi-nodered Github, &lt;a href=&#34;https://github.com/nieleyde/rpi-nodered/issues/5&#34;&gt;documentation for how to extend this image with your own nodes and flows&lt;/a&gt;, where I&#39;m working some of this out.&lt;/p&gt;
+
+&lt;p&gt;On the Node-RED Github, &lt;a href=&#34;https://github.com/node-red/node-red/issues/603&#34;&gt;Support for Docker install for Node-RED&lt;/a&gt;, which is epic and helpful in many ways.&lt;/p&gt;
+
+&lt;p&gt;The essential &lt;a href=&#34;http://blog.hypriot.com/&#34;&gt;Hypriot weblog&lt;/a&gt;, specifically the aforementioned &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;Docker Compose examples&lt;/a&gt; and the &lt;a href=&#34;https://github.com/hypriot/compose&#34;&gt;Hypriot Docker Compose&lt;/a&gt; Github repository.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Running Node-RED on a Raspberry Pi with Docker and Hypriot</title>
+      <link>http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/</link>
+      <pubDate>Sat, 23 May 2015 02:06:33 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/</guid>
+      <description>&lt;p&gt;My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there&#39;s distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here&#39;s where I got the parts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/&#34;&gt;Hypriot&#39;s gettting started guide&lt;/a&gt; brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.&lt;/p&gt;
+
+&lt;p&gt;Hypriot has a &lt;a href=&#34;https://gitter.im/hypriot/talk&#34;&gt;chat window&lt;/a&gt; on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.&lt;/p&gt;
+
+&lt;p&gt;Docker&#39;s &lt;a href=&#34;https://hub.docker.com/&#34;&gt;DockerHub&lt;/a&gt; is a one stop shop for packaged applications. When you&#39;re running on the Pi, you&#39;ll want to seek out versions with &#39;rpi&#39; or &#39;arm&#39; in their names as they have likely been adapted for that system.&lt;/p&gt;
+
+&lt;p&gt;I ended up pulling Niel Eyde&#39;s Raspberry Pi versions of Node-RED from DockerHub as &lt;a href=&#34;https://registry.hub.docker.com/u/nieleyde/rpi-nodered/&#34;&gt;nieleyde/rpi-nodered&lt;/a&gt;. It has all sorts of interesting modules that I had not previously built.&lt;/p&gt;
+
+&lt;p&gt;Node-RED is at 0.10.6 at this writing. Its &lt;a href=&#34;http://nodered.org/docs/hardware/raspberrypi.html&#34;&gt;Raspberry Pi support&lt;/a&gt; includes hardware support using &lt;a href=&#34;http://wiringpi.com/&#34;&gt;WiringPi&lt;/a&gt; to access the GPIO pins. &lt;/p&gt;
+
+&lt;p&gt;Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have &lt;a href=&#34;http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/&#34;&gt;merged forces&lt;/a&gt; after a fork, which means hopefully development will start to be sane again.&lt;/p&gt;
+
+&lt;p&gt;That all said I am not sure I have everything I need yet but as a leap forward it&#39;s pretty good!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Just how cold is that window? Winter monitoring with the TI Sensortag, Node-RED, and Freeboard</title>
       <link>http://vielmetti.github.io/post/2015/2015-01-27-just-how-cold-is-that-window-winter-monitoring-with-the-ti-sensortag-node-red-and-freeboard/</link>
       <pubDate>Tue, 27 Jan 2015 22:11:47 -0400</pubDate>
@@ -194,54 +218,6 @@ day carry bag.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Running Node-RED on a Raspberry Pi with Docker and Hypriot</title>
-      <link>http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/</link>
-      <pubDate>Sat, 23 May 2015 02:06:33 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/</guid>
-      <description>&lt;p&gt;My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there&#39;s distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here&#39;s where I got the parts.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/&#34;&gt;Hypriot&#39;s gettting started guide&lt;/a&gt; brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.&lt;/p&gt;
-
-&lt;p&gt;Hypriot has a &lt;a href=&#34;https://gitter.im/hypriot/talk&#34;&gt;chat window&lt;/a&gt; on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.&lt;/p&gt;
-
-&lt;p&gt;Docker&#39;s &lt;a href=&#34;https://hub.docker.com/&#34;&gt;DockerHub&lt;/a&gt; is a one stop shop for packaged applications. When you&#39;re running on the Pi, you&#39;ll want to seek out versions with &#39;rpi&#39; or &#39;arm&#39; in their names as they have likely been adapted for that system.&lt;/p&gt;
-
-&lt;p&gt;I ended up pulling Niel Eyde&#39;s Raspberry Pi versions of Node-RED from DockerHub as &lt;a href=&#34;https://registry.hub.docker.com/u/nieleyde/rpi-nodered/&#34;&gt;nieleyde/rpi-nodered&lt;/a&gt;. It has all sorts of interesting modules that I had not previously built.&lt;/p&gt;
-
-&lt;p&gt;Node-RED is at 0.10.6 at this writing. Its &lt;a href=&#34;http://nodered.org/docs/hardware/raspberrypi.html&#34;&gt;Raspberry Pi support&lt;/a&gt; includes hardware support using &lt;a href=&#34;http://wiringpi.com/&#34;&gt;WiringPi&lt;/a&gt; to access the GPIO pins. &lt;/p&gt;
-
-&lt;p&gt;Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have &lt;a href=&#34;http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/&#34;&gt;merged forces&lt;/a&gt; after a fork, which means hopefully development will start to be sane again.&lt;/p&gt;
-
-&lt;p&gt;That all said I am not sure I have everything I need yet but as a leap forward it&#39;s pretty good!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The internet of power outages</title>
-      <link>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</link>
-      <pubDate>Fri, 27 Jun 2014 19:05:33 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</guid>
-      <description>&lt;p&gt;The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there&#39;s bad weather - to the extent that I can pretty much tell where there&#39;s bad weather by the outbound clicks on the page.&lt;/p&gt;
-
-&lt;p&gt;The page, however, is not fed with live data; it only has static instances of previous maps. It in and of itself doesn&#39;t alert when there&#39;s trouble, and it doesn&#39;t let you know that the storm coming your way might be severe.&lt;/p&gt;
-
-&lt;p&gt;One of the challenges of automation in the utility outage map space is the diversity of vendors for power company outage maps and the utter lack of any standard interface. To dig out how many people have lost their power in 48104 under program control, you actually have to work at it, and to rely on undocumented interfaces that could change at any time. For all of the user-friendly efforts out there, there&#39;s a lot of systems that are hard to pull raw data from.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve started a very tiny version of what I suspect could be a complete project, namely to automate the alerting when a few zip codes around me have outages. The code, written in Node-RED, runs periodically to poll the DTE Energy outage map site and to ask for outage data for a few specific zip codes. It then parses that data in a Javascript/node.js node which returns it to a switch that decides whether to alert (in my case, when there are more than 250 outages in any given monitored zipcode). Alerts go out via Twitter on the @vielmetti account and via SMS to me.&lt;/p&gt;
-
-&lt;p&gt;The monitoring task for the adjacent utility company, Consumers Energy, is a bit different. I haven&#39;t completed this effort yet, but again a poll of their site will pull a report which in this case has a list of counties and an outage count in each county. There&#39;s a few counties that I&#39;m monitoring, and I&#39;ll figure out the threshold for alerts there.&lt;/p&gt;
-
-&lt;p&gt;Node-RED is a nice programming environment for this, since it&#39;s flexible in many ways about how data gets into it and how and when alerts are done. I&#39;m still sorting through the new &#34;trigger&#34; alert node in 0.8.0 which makes it possible to buffer up things so you don&#39;t get an overflow of messages all at once, and there&#39;s some subtle alarm-management logic that I want to get right so that this system can be used for real alerting and not just curiosity.&lt;/p&gt;
-
-&lt;p&gt;When Hurricane Sandy hit the east coast, there was a long delay between the time that power went out and when it was restored, and there was some innovation in outage tracking and holding public utilities accountable for restoration performance. Similarly, when a storm hit the East Lansing, MI area there were furious municipal power consumers outraged that their utility company didn&#39;t have an accurate tracking map.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m hoping that this starts to look like an architecture for outage tracking that can be refined over time, and I&#39;d be super happy if utility companies started to post outage information in any reasonable easy to parse JSON or XML format files (really, it just has to be published, standards can occur as we get experience). I&#39;ll poll regularly enough to get some kind of timeline as to when the lights went out and how long it took for them to return.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>that new computer smell</title>
       <link>http://vielmetti.github.io/post/2014/2014-09-30-that-new-computer-smell/</link>
       <pubDate>Tue, 30 Sep 2014 14:11:44 +0000</pubDate>
@@ -268,6 +244,30 @@ day carry bag.&lt;/p&gt;
 &lt;p&gt;XCode, that&#39;s a mighty big download.&lt;/p&gt;
 
 &lt;p&gt;Apple Software Update is patching the shellshock vulnerability, I hope.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The internet of power outages</title>
+      <link>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</link>
+      <pubDate>Fri, 27 Jun 2014 19:05:33 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</guid>
+      <description>&lt;p&gt;The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there&#39;s bad weather - to the extent that I can pretty much tell where there&#39;s bad weather by the outbound clicks on the page.&lt;/p&gt;
+
+&lt;p&gt;The page, however, is not fed with live data; it only has static instances of previous maps. It in and of itself doesn&#39;t alert when there&#39;s trouble, and it doesn&#39;t let you know that the storm coming your way might be severe.&lt;/p&gt;
+
+&lt;p&gt;One of the challenges of automation in the utility outage map space is the diversity of vendors for power company outage maps and the utter lack of any standard interface. To dig out how many people have lost their power in 48104 under program control, you actually have to work at it, and to rely on undocumented interfaces that could change at any time. For all of the user-friendly efforts out there, there&#39;s a lot of systems that are hard to pull raw data from.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve started a very tiny version of what I suspect could be a complete project, namely to automate the alerting when a few zip codes around me have outages. The code, written in Node-RED, runs periodically to poll the DTE Energy outage map site and to ask for outage data for a few specific zip codes. It then parses that data in a Javascript/node.js node which returns it to a switch that decides whether to alert (in my case, when there are more than 250 outages in any given monitored zipcode). Alerts go out via Twitter on the @vielmetti account and via SMS to me.&lt;/p&gt;
+
+&lt;p&gt;The monitoring task for the adjacent utility company, Consumers Energy, is a bit different. I haven&#39;t completed this effort yet, but again a poll of their site will pull a report which in this case has a list of counties and an outage count in each county. There&#39;s a few counties that I&#39;m monitoring, and I&#39;ll figure out the threshold for alerts there.&lt;/p&gt;
+
+&lt;p&gt;Node-RED is a nice programming environment for this, since it&#39;s flexible in many ways about how data gets into it and how and when alerts are done. I&#39;m still sorting through the new &#34;trigger&#34; alert node in 0.8.0 which makes it possible to buffer up things so you don&#39;t get an overflow of messages all at once, and there&#39;s some subtle alarm-management logic that I want to get right so that this system can be used for real alerting and not just curiosity.&lt;/p&gt;
+
+&lt;p&gt;When Hurricane Sandy hit the east coast, there was a long delay between the time that power went out and when it was restored, and there was some innovation in outage tracking and holding public utilities accountable for restoration performance. Similarly, when a storm hit the East Lansing, MI area there were furious municipal power consumers outraged that their utility company didn&#39;t have an accurate tracking map.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m hoping that this starts to look like an architecture for outage tracking that can be refined over time, and I&#39;d be super happy if utility companies started to post outage information in any reasonable easy to parse JSON or XML format files (really, it just has to be published, standards can occur as we get experience). I&#39;ll poll regularly enough to get some kind of timeline as to when the lights went out and how long it took for them to return.&lt;/p&gt;
 </description>
     </item>
     

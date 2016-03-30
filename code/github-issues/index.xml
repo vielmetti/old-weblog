@@ -10,36 +10,6 @@
     <atom:link href="http://vielmetti.github.io/code/github-issues/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Some reflection on use of Github as an issue tracker, two weeks in</title>
-      <link>http://vielmetti.github.io/post/2012/2012-12-30-some-reflection-on-use-of-github-as-an-issue-tracker-two-weeks-in/</link>
-      <pubDate>Sun, 30 Dec 2012 12:41:03 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2012/2012-12-30-some-reflection-on-use-of-github-as-an-issue-tracker-two-weeks-in/</guid>
-      <description>&lt;p&gt;Two weeks ago, I started &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34; target=&#34;_self&#34;&gt;using Github as an issue tracker&lt;/a&gt; to keep track of things that I intend to do. So far so good. According to its tally, I&amp;#39;ve closed 139 issues and have 88 open issues. Here&amp;#39;s some reflection on that use.
-&lt;p&gt;
-I started up with Github in part because I have an infatuation with new technologies for self-organization, and this was the latest in a series of attempts to get my life in order. I&amp;#39;ve tried &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/10/noguchi_filing_.html&#34; target=&#34;_self&#34;&gt;systems on paper&lt;/a&gt;, a bunch of electronic systems, various gizmos, you name it I&amp;#39;ve probably either done it or considered it. There&amp;#39;s a piece of me that expects that this is a temporary enthusiasm and that I&amp;#39;ll be printing out some of this before I close my Github account down. But while that temporary enthusiasm lasts, it&amp;#39;s been a pretty good run.
-&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;ve tried to work the process in parallel with an &amp;quot;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2007/01/getting_to_inbo.html&#34; target=&#34;_self&#34;&gt;inbox zero&lt;/a&gt;&amp;quot; approach of getting tasks out of my inbox and into my issue tracker. At the moment the inbox is down to five, and it&amp;#39;s probably ten minutes work to get it back to zero. It&amp;#39;s been nice not having an infinite inbox to plow through, and often that has meant that when there&amp;#39;s a quick answer to something that I can dash it off and get back to zero status for a while. That feels good.
-&lt;/p&gt;
-&lt;p&gt;
-As I&amp;#39;ve used the system what has evolved into a routine is labeling each task, so that everything has a proper color code. &amp;quot;Housekeeping&amp;quot; is bright yellow, &amp;quot;finance&amp;quot; is green, &amp;quot;connect&amp;quot; is blue, and so forth. &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/04/radial-categorization-and-the-trouble-with-tags.html&#34; target=&#34;_self&#34;&gt;Obtaining sensible and non-overlapping categories is a challenge&lt;/a&gt;, and that will probably continue to evolve slowly over time. An item can be in more than one category and it&amp;#39;s easy to switch categories so there&amp;#39;s no burden of getting it wrong permanently.
-&lt;/p&gt;
-&lt;p&gt;
-The goal in these categories is to identify some kind of balance among all of the various things I&amp;#39;m trying to take on and not to let any one part of my efforts get out of line with the others. For example, earlier this week I noticed that the &amp;quot;finance&amp;quot; category had 11 outstanding tasks and 2 completed tasks, whereas the &amp;quot;connect&amp;quot; category had twice as many completed tasks as outstanding. If things are going to pile up in my life, I want them to pile up evenly, and it&amp;#39;s always reasonable to look at the category with the most tasks and do a quick review and see if there&amp;#39;s anything easy to lop off.
-&lt;/p&gt;
-&lt;p&gt;
-A memorable success in this ongoing struggle to keep things in order is the ongoing task of cleaning the basement, which somehow went from being tidy to being a mess over the last few years, and which is inhabited by way too much in the way of dead electronics. A whole string of tech support tasks were gated behind being able to get a good backup of my Mac, and in the process of cleaning the basement I realized that I had a Firewire cable entangled in amongst dozens of old and useless power adapters. A bit of cable unsnagging and I was able to plow through &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/technology-upgrades-are-a-tedious-but-necessary-task.html&#34; target=&#34;_self&#34;&gt;half a dozen system upgrade issues&lt;/a&gt; that had piled up, all dependent on one another.
-&lt;/p&gt;
-&lt;p&gt;
-Github has a remote access application to its issue tracker from mobile devices, so at least in theory I should be able to manage the list from my smart phone. Alas, issue #1 is &amp;quot;get a new smart phone&amp;quot;, since my elderly Blackberry is more of a dumb phone than anything these days. The Android app is serviceable if a bit clunky feeling, and I&amp;#39;ll see how the iPhone/iPad app compares. In practice it&amp;#39;s not 100% necessary to sync up with tasks the instant they come to mind or are completed, and &lt;a href=&#34;http://vielmetti.typepad.com/secret/2012/08/planning-ahead-as-far-as-you-can-brainstorm-story-ideas.html&#34; target=&#34;_self&#34;&gt;paper still comes in handy&lt;/a&gt; when compiling the short list of things to do next or brainstorming new ideas that might eventually get done.
-&lt;/p&gt;
-&lt;p&gt;
-Of course I haven&amp;#39;t done everything I set out to do; no one could. What I figure is that there&amp;#39;s some happy number somewhere more than 100 and less than 150 of things that I might want to do or need to do soonish, and that if I set my mind to it I can write down enough stuff so that there&amp;#39;s always something easy to pick from that is useful. The harder tasks (that new phone, and all of the choices around it) gravitate to the bottom of the list, and you can sort through the bottom just as easily as you can sort through the top. I&amp;#39;m not convinced that this is the only way or even the best way to feel like I&amp;#39;m staying on top of the world, but it&amp;#39;s really nice and reassuring that I can look at the &amp;quot;closed issues&amp;quot; list and say &amp;quot;yes, I did that&amp;quot;.&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Using Github Issues and Waffle.io as a personal kanban board</title>
       <link>http://vielmetti.github.io/post/2015/2015-08-22-github-waffle-kanban-board/</link>
       <pubDate>Sat, 22 Aug 2015 23:55:00 -0400</pubDate>
@@ -77,6 +47,36 @@ observation that really the task simplifies down to two rules:&lt;/p&gt;
 
 &lt;p&gt;(Now I get to drag task 3568, &amp;ldquo;Write up use of Waffle for Vacuum blog&amp;rdquo;, into the
 &amp;ldquo;Done&amp;rdquo; category, which is kinetically very satisfactory.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some reflection on use of Github as an issue tracker, two weeks in</title>
+      <link>http://vielmetti.github.io/post/2012/2012-12-30-some-reflection-on-use-of-github-as-an-issue-tracker-two-weeks-in/</link>
+      <pubDate>Sun, 30 Dec 2012 12:41:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-12-30-some-reflection-on-use-of-github-as-an-issue-tracker-two-weeks-in/</guid>
+      <description>&lt;p&gt;Two weeks ago, I started &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34; target=&#34;_self&#34;&gt;using Github as an issue tracker&lt;/a&gt; to keep track of things that I intend to do. So far so good. According to its tally, I&amp;#39;ve closed 139 issues and have 88 open issues. Here&amp;#39;s some reflection on that use.
+&lt;p&gt;
+I started up with Github in part because I have an infatuation with new technologies for self-organization, and this was the latest in a series of attempts to get my life in order. I&amp;#39;ve tried &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/10/noguchi_filing_.html&#34; target=&#34;_self&#34;&gt;systems on paper&lt;/a&gt;, a bunch of electronic systems, various gizmos, you name it I&amp;#39;ve probably either done it or considered it. There&amp;#39;s a piece of me that expects that this is a temporary enthusiasm and that I&amp;#39;ll be printing out some of this before I close my Github account down. But while that temporary enthusiasm lasts, it&amp;#39;s been a pretty good run.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve tried to work the process in parallel with an &amp;quot;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2007/01/getting_to_inbo.html&#34; target=&#34;_self&#34;&gt;inbox zero&lt;/a&gt;&amp;quot; approach of getting tasks out of my inbox and into my issue tracker. At the moment the inbox is down to five, and it&amp;#39;s probably ten minutes work to get it back to zero. It&amp;#39;s been nice not having an infinite inbox to plow through, and often that has meant that when there&amp;#39;s a quick answer to something that I can dash it off and get back to zero status for a while. That feels good.
+&lt;/p&gt;
+&lt;p&gt;
+As I&amp;#39;ve used the system what has evolved into a routine is labeling each task, so that everything has a proper color code. &amp;quot;Housekeeping&amp;quot; is bright yellow, &amp;quot;finance&amp;quot; is green, &amp;quot;connect&amp;quot; is blue, and so forth. &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/04/radial-categorization-and-the-trouble-with-tags.html&#34; target=&#34;_self&#34;&gt;Obtaining sensible and non-overlapping categories is a challenge&lt;/a&gt;, and that will probably continue to evolve slowly over time. An item can be in more than one category and it&amp;#39;s easy to switch categories so there&amp;#39;s no burden of getting it wrong permanently.
+&lt;/p&gt;
+&lt;p&gt;
+The goal in these categories is to identify some kind of balance among all of the various things I&amp;#39;m trying to take on and not to let any one part of my efforts get out of line with the others. For example, earlier this week I noticed that the &amp;quot;finance&amp;quot; category had 11 outstanding tasks and 2 completed tasks, whereas the &amp;quot;connect&amp;quot; category had twice as many completed tasks as outstanding. If things are going to pile up in my life, I want them to pile up evenly, and it&amp;#39;s always reasonable to look at the category with the most tasks and do a quick review and see if there&amp;#39;s anything easy to lop off.
+&lt;/p&gt;
+&lt;p&gt;
+A memorable success in this ongoing struggle to keep things in order is the ongoing task of cleaning the basement, which somehow went from being tidy to being a mess over the last few years, and which is inhabited by way too much in the way of dead electronics. A whole string of tech support tasks were gated behind being able to get a good backup of my Mac, and in the process of cleaning the basement I realized that I had a Firewire cable entangled in amongst dozens of old and useless power adapters. A bit of cable unsnagging and I was able to plow through &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/technology-upgrades-are-a-tedious-but-necessary-task.html&#34; target=&#34;_self&#34;&gt;half a dozen system upgrade issues&lt;/a&gt; that had piled up, all dependent on one another.
+&lt;/p&gt;
+&lt;p&gt;
+Github has a remote access application to its issue tracker from mobile devices, so at least in theory I should be able to manage the list from my smart phone. Alas, issue #1 is &amp;quot;get a new smart phone&amp;quot;, since my elderly Blackberry is more of a dumb phone than anything these days. The Android app is serviceable if a bit clunky feeling, and I&amp;#39;ll see how the iPhone/iPad app compares. In practice it&amp;#39;s not 100% necessary to sync up with tasks the instant they come to mind or are completed, and &lt;a href=&#34;http://vielmetti.typepad.com/secret/2012/08/planning-ahead-as-far-as-you-can-brainstorm-story-ideas.html&#34; target=&#34;_self&#34;&gt;paper still comes in handy&lt;/a&gt; when compiling the short list of things to do next or brainstorming new ideas that might eventually get done.
+&lt;/p&gt;
+&lt;p&gt;
+Of course I haven&amp;#39;t done everything I set out to do; no one could. What I figure is that there&amp;#39;s some happy number somewhere more than 100 and less than 150 of things that I might want to do or need to do soonish, and that if I set my mind to it I can write down enough stuff so that there&amp;#39;s always something easy to pick from that is useful. The harder tasks (that new phone, and all of the choices around it) gravitate to the bottom of the list, and you can sort through the bottom just as easily as you can sort through the top. I&amp;#39;m not convinced that this is the only way or even the best way to feel like I&amp;#39;m staying on top of the world, but it&amp;#39;s really nice and reassuring that I can look at the &amp;quot;closed issues&amp;quot; list and say &amp;quot;yes, I did that&amp;quot;.&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     

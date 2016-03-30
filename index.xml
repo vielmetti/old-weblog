@@ -6,8 +6,32 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Feb 2016 23:15:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 30 Mar 2016 10:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Upgrade to El Capitan</title>
+      <link>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</link>
+      <pubDate>Wed, 30 Mar 2016 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m working through the details of an upgrade from Mavericks to
+El Capitan. Some running notes.&lt;/p&gt;
+
+&lt;p&gt;The upgrade took about 2 hrs. I went to the Apple Store at Briarwood
+in Ann Arbor to get the install done, since their Internet is faster
+than my home UVerse.&lt;/p&gt;
+
+&lt;p&gt;After doing the upgrade the next big slow task is &lt;code&gt;brew update&lt;/code&gt;. You
+would not be surprised to know that I have a lot of packages installed,
+and that brew is working hard to update everything.&lt;/p&gt;
+
+&lt;p&gt;The biggest reason that I upgraded was to get &lt;code&gt;xhyve&lt;/code&gt; and thus
+Docker for Mac. I&amp;rsquo;m using the beta now (beta 5) and have gotten
+a few trivial things to work, but am still sorting out a few
+questions which might or might not be issues.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Stadium Boulevard project bids high, portions of project to be delayed</title>
@@ -516,40 +540,6 @@ Street&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;On Arborwiki: &lt;a href=&#34;https://localwiki.org/ann-arbor/Aquamarine_Springs&#34;&gt;Aquamarine Springs&lt;/a&gt; and &lt;a href=&#34;https://localwiki.org/ann-arbor/Glass_House_Brewing&#34;&gt;Glass House Brewing&lt;/a&gt;,
 both are just the start of the articles at this point.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Oxford Flood Network</title>
-      <link>http://vielmetti.github.io/post/2016/2016-01-08-oxford-flood-network/</link>
-      <pubDate>Fri, 08 Jan 2016 11:30:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-01-08-oxford-flood-network/</guid>
-      <description>&lt;p&gt;The Oxford Flood Network is making a flood detection network in
-the UK, using low cost sensors and volunteers. They are sharing
-their &lt;a href=&#34;https://github.com/oxfloodnet&#34;&gt;code on Github&lt;/a&gt; and their
-results on the &lt;a href=&#34;https://twitter.com/flood_network&#34;&gt;Flood_Network&lt;/a&gt;
-Twitter account.&lt;/p&gt;
-
-&lt;p&gt;They encourage you to &lt;a href=&#34;http://flood.network/join&#34;&gt;join their effort&lt;/a&gt;,
-and no high technology is necessary. The network incorporates
-both readings from automated sensors (about £250) as well as
-manual readings from gaugeboards or photos.&lt;/p&gt;
-
-&lt;p&gt;New as of December 2015 is an &lt;a href=&#34;http://www.nominet.uk/iot-technology-powers-an-interactive-flood-map-and-sensor-network/&#34;&gt;interactive flood map&lt;/a&gt;.
-A post from Nominet describes the effort:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Nominet, in association with the Flood Network, is today launching an interactive, online map which visualises river and stream levels around Oxford. The map, showing how technology can be a part of flood defence systems anywhere, has been developed following a successful pilot project with the Oxford Flood Network. The project has been focused on exploring the potential of the Internet of Things (IoT) to create an extensive, localised, early-warning system for flood-prone areas for the first time in the UK.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The system is using TVWS (&amp;ldquo;TV white space&amp;rdquo;) as its wide area backhaul
-network for these sensors for hard-to-reach devices that are outside
-of the range of wifi. Cost-effective and reliable access to remote
-small sensors is one of the tough spots in Internet of Things development,
-it&amp;rsquo;s interesting to see TVWS as a possible solution to this issue.
-The other relevant technology for low-cost metro area networks for
-sensors is Lorawan, more about which later.&lt;/p&gt;
 </description>
     </item>
     

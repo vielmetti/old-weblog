@@ -59,7 +59,7 @@ setting.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This tool computes (dis)similarity between two PNG images using
 (my approximation of) algorithms approximating human vision.
-Comparison is done in L&lt;em&gt;a*b&lt;/em&gt; color space using a multi-scale variant
+Comparison is done in L*a&lt;em&gt;b&lt;/em&gt; color space using a multi-scale variant
 of the SSIM algorithm.&lt;/p&gt;
 &lt;/blockquote&gt;
 

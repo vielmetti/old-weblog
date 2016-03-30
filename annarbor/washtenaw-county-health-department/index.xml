@@ -10,44 +10,6 @@
     <atom:link href="http://vielmetti.github.io/annarbor/washtenaw-county-health-department/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>October 2013 Washtenaw County Restaurant Inspections</title>
-      <link>http://vielmetti.github.io/post/2013/2013-11-26-october-2013-washtenaw-county-restaurant-inspections/</link>
-      <pubDate>Tue, 26 Nov 2013 12:19:18 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2013/2013-11-26-october-2013-washtenaw-county-restaurant-inspections/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://a2docs.org/doc/326/&#34;&gt;These documents (in CSV and Excel format) provide a list of restaurants in Washtenaw County that were inspected in October 2013, as well as a count of violations&lt;/a&gt;. Also accompanying this data is a press release from the county describing how to interpret the data. I&#39;ve put copies on a2docs.&lt;/p&gt;
-
-&lt;p&gt;This was prompted in part by the latest &lt;a href=&#34;http://www.mlive.com/news/ann-arbor/index.ssf/2013/11/restaurant_inspections_for_was_1.html&#34;&gt;Ann Arbor News&lt;/a&gt; publication of this data, which did not have the whole list visible or sortable in any useful way.&lt;/p&gt;
-
-&lt;p&gt;A version of the list is embedded here in a Google Spreadsheet. I&#39;ve sorted it by the count of &#34;priority&#34; violations, which is definitely not the only way to sort it. If you&#39;re looking for raw data, the a2docs files are sufficiently detailed that you can draw your own conclusions, make your own maps, etc.&lt;/p&gt;
-
-&lt;p&gt;These are only raw counts, and it&#39;s worth noting this sentence from the press release: &#34;Priority and Priority Foundation Violations must be corrected immediately at the time of inspection or within 10 days.&#34;&lt;/p&gt;
-
-&lt;p&gt;You can see detailed reports on the &lt;a href=&#34;http://www.swordsolutions.com/inspections/pgesearchresults.asp?County=28&#34;&gt;Sword Systems website&lt;/a&gt; which hosts county inspection data for a number of counties throughout the state. Alas, there&#39;s no way to link deep into this database to connect a given restaurant to its inspection, and no way to run a query like &#34;who has mice in their kitchen&#34;. &lt;/p&gt;
-
-&lt;iframe width=&#39;600&#39; height=&#39;600&#39; frameborder=&#39;0&#39; src=&#39;https://docs.google.com/spreadsheet/pub?key=0AiDMisni9_F_dEhyMmZrNlpyM3kyX0lJM2RHYzJLRlE&amp;output=html&amp;widget=true&#39;&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vellum, a downtown Ann Arbor restaurant, has closed</title>
-      <link>http://vielmetti.github.io/post/2015/2015-01-12-vellum-a-downtown-ann-arbor-restaurant-has-closed/</link>
-      <pubDate>Mon, 12 Jan 2015 16:26:03 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-01-12-vellum-a-downtown-ann-arbor-restaurant-has-closed/</guid>
-      <description>&lt;p&gt;Vellum closed in January 2015. The &lt;a href=&#34;http://www.mlive.com/business/ann-arbor/index.ssf/2015/01/downtown_ann_arbors_vellum_to.html&#34;&gt;Ann Arbor News story&lt;/a&gt; tells the part of the story of an innovative kitchen that was &#34;like a laboratory&#34;, and a subsequent format change to a more mainstream menu. The restaurant had a two year run.&lt;/p&gt;
-
-&lt;p&gt;What&#39;s missing from the narrative is the prompt from the county health department that forced the change. Vellum&#39;s menu at the outset used the &#34;sous vide&#34; cooking technique to produce its most innovative dishes. County health officials took a dim view of this, as seen in this excerpt from a &lt;a href=&#34;http://www.healthinspection.info/establishments/1364&#34;&gt;health inspection in February 2014&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;(Critical) Found a package of meat in a vacuum sealed package, and found beef short rib in a vacuum sealed package in the basement meat walk in cooler. These packages were the same size as the vacuum package supply in facility, and did not appear to be commercial products as there were no labels and pic could not provide any statements or boxes indicating from a commercial licensed source. Pic corrected by discarding meats in vacuum sealed packages. Found a piece of meat in a vacuum sealed package with &#34; 140 degrees 4 and half hours&#34; written on package in the walk in cooler. Pic states he does not know what marking mean and where this came from. Pic corrected by discarding meat. Found several pieces of sous vide equipment in the basement and main kitchen areas. Found at least 5 boxes of packages for vacuum packaging on the shelf in the basement prep area, and was denied access to room/closet next to shelf with vacuum packaging. To correct verify that no one in facility is using vacuum sealer or preparing food using sous vide method as a variance is required. This violation has repeated and a risk control plan is required to be submitted. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If your innovative kitchen depends on methods that are in violation of regulations, it&#39;s going to be hard to keep up the buzz when you have to give them up.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>restaurant inspections</title>
       <link>http://vielmetti.github.io/post/2015/2015-07-25-restaurant-inspections/</link>
       <pubDate>Sun, 26 Jul 2015 13:00:00 -0400</pubDate>
@@ -77,6 +39,44 @@ See e.g. recent inspections for&lt;/p&gt;
 
 &lt;p&gt;for three examples of places where I want to see a clean inspection on a followup
 visit before I go or go back to there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vellum, a downtown Ann Arbor restaurant, has closed</title>
+      <link>http://vielmetti.github.io/post/2015/2015-01-12-vellum-a-downtown-ann-arbor-restaurant-has-closed/</link>
+      <pubDate>Mon, 12 Jan 2015 16:26:03 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-01-12-vellum-a-downtown-ann-arbor-restaurant-has-closed/</guid>
+      <description>&lt;p&gt;Vellum closed in January 2015. The &lt;a href=&#34;http://www.mlive.com/business/ann-arbor/index.ssf/2015/01/downtown_ann_arbors_vellum_to.html&#34;&gt;Ann Arbor News story&lt;/a&gt; tells the part of the story of an innovative kitchen that was &#34;like a laboratory&#34;, and a subsequent format change to a more mainstream menu. The restaurant had a two year run.&lt;/p&gt;
+
+&lt;p&gt;What&#39;s missing from the narrative is the prompt from the county health department that forced the change. Vellum&#39;s menu at the outset used the &#34;sous vide&#34; cooking technique to produce its most innovative dishes. County health officials took a dim view of this, as seen in this excerpt from a &lt;a href=&#34;http://www.healthinspection.info/establishments/1364&#34;&gt;health inspection in February 2014&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(Critical) Found a package of meat in a vacuum sealed package, and found beef short rib in a vacuum sealed package in the basement meat walk in cooler. These packages were the same size as the vacuum package supply in facility, and did not appear to be commercial products as there were no labels and pic could not provide any statements or boxes indicating from a commercial licensed source. Pic corrected by discarding meats in vacuum sealed packages. Found a piece of meat in a vacuum sealed package with &#34; 140 degrees 4 and half hours&#34; written on package in the walk in cooler. Pic states he does not know what marking mean and where this came from. Pic corrected by discarding meat. Found several pieces of sous vide equipment in the basement and main kitchen areas. Found at least 5 boxes of packages for vacuum packaging on the shelf in the basement prep area, and was denied access to room/closet next to shelf with vacuum packaging. To correct verify that no one in facility is using vacuum sealer or preparing food using sous vide method as a variance is required. This violation has repeated and a risk control plan is required to be submitted. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If your innovative kitchen depends on methods that are in violation of regulations, it&#39;s going to be hard to keep up the buzz when you have to give them up.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>October 2013 Washtenaw County Restaurant Inspections</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-26-october-2013-washtenaw-county-restaurant-inspections/</link>
+      <pubDate>Tue, 26 Nov 2013 12:19:18 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-26-october-2013-washtenaw-county-restaurant-inspections/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://a2docs.org/doc/326/&#34;&gt;These documents (in CSV and Excel format) provide a list of restaurants in Washtenaw County that were inspected in October 2013, as well as a count of violations&lt;/a&gt;. Also accompanying this data is a press release from the county describing how to interpret the data. I&#39;ve put copies on a2docs.&lt;/p&gt;
+
+&lt;p&gt;This was prompted in part by the latest &lt;a href=&#34;http://www.mlive.com/news/ann-arbor/index.ssf/2013/11/restaurant_inspections_for_was_1.html&#34;&gt;Ann Arbor News&lt;/a&gt; publication of this data, which did not have the whole list visible or sortable in any useful way.&lt;/p&gt;
+
+&lt;p&gt;A version of the list is embedded here in a Google Spreadsheet. I&#39;ve sorted it by the count of &#34;priority&#34; violations, which is definitely not the only way to sort it. If you&#39;re looking for raw data, the a2docs files are sufficiently detailed that you can draw your own conclusions, make your own maps, etc.&lt;/p&gt;
+
+&lt;p&gt;These are only raw counts, and it&#39;s worth noting this sentence from the press release: &#34;Priority and Priority Foundation Violations must be corrected immediately at the time of inspection or within 10 days.&#34;&lt;/p&gt;
+
+&lt;p&gt;You can see detailed reports on the &lt;a href=&#34;http://www.swordsolutions.com/inspections/pgesearchresults.asp?County=28&#34;&gt;Sword Systems website&lt;/a&gt; which hosts county inspection data for a number of counties throughout the state. Alas, there&#39;s no way to link deep into this database to connect a given restaurant to its inspection, and no way to run a query like &#34;who has mice in their kitchen&#34;. &lt;/p&gt;
+
+&lt;iframe width=&#39;600&#39; height=&#39;600&#39; frameborder=&#39;0&#39; src=&#39;https://docs.google.com/spreadsheet/pub?key=0AiDMisni9_F_dEhyMmZrNlpyM3kyX0lJM2RHYzJLRlE&amp;output=html&amp;widget=true&#39;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
