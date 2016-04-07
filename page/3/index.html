@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-06-yo/" class="list-group-item">Yo</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/" class="list-group-item">Upgrade to El Capitan</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-02-14-stadium-boulevard-project/" class="list-group-item">Stadium Boulevard project bids high, portions of project to be delayed</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-07-county-health-food-inspection-delays/" class="list-group-item">Washtenaw County Health Department delays food inspection reporting from November 2015</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-cuts-coming-to-mlive/" class="list-group-item">Cuts coming to MLive, 2016 edition; 29 content positions eliminated</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-wkar-television-spectrum-sale/" class="list-group-item">WKAR-TV television spectrum may be up for sale, and the station is at risk</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4226,6 +4228,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12456,6 +12460,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12750,12 +12756,15 @@ this and there will almost always be something new to read.</p>
         ><a href="http://vielmetti.github.io/page/82/">82</a></li>
         
         <li
+        ><a href="http://vielmetti.github.io/page/83/">83</a></li>
+        
+        <li
         >
         <a href="http://vielmetti.github.io/page/4/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
         </li>
         
         <li>
-            <a href="http://vielmetti.github.io/page/82/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+            <a href="http://vielmetti.github.io/page/83/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
         </li>
         
     </ul>
@@ -12768,6 +12777,45 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>16 November 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-11-16-foia-update/">FOIA update for tonight&#39;s City Council meeting</a>
+      </h3>
+      <p>It seems that my pattern of going to public meetings includes writing FOIA
+requests during the meeting, to try to unearth some details of a matter observed
+at that meeting. Here&rsquo;s a brief update on some FOIA requests in progress.</p>
+
+<p>Washtenaw County Health Department. I&rsquo;m temporarily stymied in my quest to
+determine how often restaurants ask the county to change their inspection reports
+before they are published. An initial request came back with an estimate of $6000
+to comb through every file in the department; an amended request looking for only
+30 days of records only limited the cost to $1000. The issue at hand is that the
+county routinely delays publication of inspections by a month (or more), making it
+likely that restaurants with really bad inspections can put the public at risk
+for days before anyone is notified.</p>
+
+<p>Ann Arbor Downtown Development Authority. I asked for details on a FOIA fee appeal
+that was on the agenda for the November 4, 2015 meeting. This came back on November 12.
+Dave Askins requested a set of documents from the DDA and was presented with an
+estimate for the cost of those records; he chose not to pay that amount, preferring
+instead to appeal the decision on fees to the board. The draft minutes of the
+November 4, 2015 meeting are not yet available.</p>
+
+<p>City of Ann Arbor, Executive Committee of the City Planning Commission. I requested
+meeting minutes and agendas for this board and the names of the members of this board.
+My request of November 2, 2015 was responded to with a delay to November 24, 2015.
+The Open Meetings Act requires that draft minutes be available within 8 days of
+a meeting, so I&rsquo;ll be appealing this delay.</p>
+
+<p>City of Ann Arbor, Advisory Development Committee. This committee has meetings that
+are open to the public regarding development matters, but the meetings themselves
+are not advertised through the usual channels of publication for meetings. I&rsquo;ve asked
+for records of this group and was given a similar 15 business day delay.</p>
+
+<p>FOIA is the world&rsquo;s worst search engine - results come back very slowly, and they
+are not always the same as the question you asked.</p>
 
 
   <h3>16 November 2015</h3>
@@ -14140,30 +14188,6 @@ excursions into thinking that don&rsquo;t lend themselves to quippiness.</p>
 of twittering out a stream of observations gets in the way of assembling
 the longer context. We focus on the stream of things coming our way,
 never taking time to take stock of the situation and make it make more sense.</p>
-
-
-  <h3>11 September 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/">Bluetooth and bluez inside Docker</a>
-      </h3>
-      <p>If you have a Bluetooth device attached to a Linux system, it&rsquo;s
-not clear how to attach that device to a Docker container on that
-same system.</p>
-
-<p><code>bluez</code>, the Bluetooth driver for Linux, uses the <code>D-Bus</code> to communicate.
-This is more complex than a FIFO or socket interface, and thus less
-easy to obviously say how it should be mapped into the Docker processs
-and file system space.</p>
-
-<p>The references below show several ways of not doing this task,
-and hopefully at some point will get answers on how to do it.</p>
-
-<p>References for further reading:</p>
-
-<ul>
-<li><a href="https://github.com/docker/docker/issues/16208">Bluetooth socket can&rsquo;t be opened inside container</a>, Docker Github issues 16208</li>
-<li><a href="http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker">Accessing Bluetooth dongle from inside Docker?</a>, Stack Overflow.</li>
-</ul>
 
 
 
