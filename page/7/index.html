@@ -70,6 +70,10 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-17-ecuador-terremoto/" class="list-group-item">Earthquake in Ecuador, April 16, 2016</a></li>
+         
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-06-reluctance/" class="list-group-item">Reluctance</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-06-yo/" class="list-group-item">Yo</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/" class="list-group-item">Upgrade to El Capitan</a></li>
@@ -105,14 +109,14 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-08-oxford-flood-network/" class="list-group-item">Oxford Flood Network</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-07-dexter-fire-inverness-condo/" class="list-group-item">Fire on Inverness in Dexter, Michigan</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-07-county-health-food-inspection-delays/" class="list-group-item">Washtenaw County Health Department delays food inspection reporting from November 2015</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-06-cuts-coming-to-mlive/" class="list-group-item">Cuts coming to MLive, 2016 edition; 29 content positions eliminated</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -4228,6 +4232,10 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
+	
+	   
 	
 	   
 	
@@ -12462,6 +12470,10 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12777,6 +12789,26 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>11 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-11-gooseberries-at-ann-arbor-farmers-market/">gooseberries at Ann Arbor Farmers Market</a>
+      </h3>
+      <p>Wasem's brought gooseberries to today's Ann Arbor Farmers Market. There were two varieties, one with smaller berries and one with larger berries. Delicious just as is.</p>
+
+
+  <h3>6 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-06-ann-arbor-city-council-for-july-6-2015-online-video-stream-goes-dark/">Ann Arbor City Council for July 6, 2015: online video stream goes dark</a>
+      </h3>
+      <p>If you're trying to follow Ann Arbor City Council via the online feed, you'll be disappointed tonight as the feed is not working.</p>
+
+<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d133bbbf970c img-responsive" style="width: 570px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-07-06 at 8.11.01 PM" title="Screen Shot 2015-07-06 at 8.11.01 PM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d133bbbf970c-580wi" /></a><br /></p>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The CTN live stream for channel 16 is currently down and being looked at. Sorry for the inconvenience. <a href="https://twitter.com/hashtag/ctnannarbor?src=hash">#ctnannarbor</a></p>&mdash; CTN Ann Arbor (@CTNAnnArbor) <a href="https://twitter.com/CTNAnnArbor/status/618198005737488384">July 6, 2015</a></blockquote>
+
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 
   <h3>6 July 2015</h3>
@@ -13295,42 +13327,6 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
 <p>Authors' website for obtaining code:</p>
 
 <p>http://www.gnu.org/software/parallel/</p>
-
-
-  <h3>22 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-22-dockers-new-runc-doesnt-yet-work-on-mac-os-x-/">Docker&#39;s new RunC doesn&#39;t (yet?) work on Mac OS X</a>
-      </h3>
-      <p>Docker has a new runtime environment that they are releasing called <a href="http://blog.docker.com/2015/06/runc/">runC</a>. It's a "lightweight universal plumbing" that tries to encapsulate all of the Docker dependencies and infrastructure. </p>
-
-<blockquote>
-  <p>To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.</p>
-</blockquote>
-
-<p>Because of Docker's start on Linux systems, it's been tricky to get it running under Mac OS X. Some tries to make it work depend on setting up virtual machines (with the likes of boot2docker) which makes it work at the cost of performance and flexibility. Docker on OS X has not been exceptionally easy though it does work once you commit to doing all of your Docker server work inside a VM</p>
-
-<p>runC would be an answer to the problem of native Docker on OSX X, one might hope, but as of its first release it doesn't work. The first of what is probably many hurdles is the extensive use of the clone(2) system call instead of fork(2). This <a href="http://files.meetup.com/10602292/See%20Docker%20from%20the%20Perspective%20of%20Linux%20Process.pdf">presentation from Allen Sun at DaoCloud</a> goes into the details of Docker's use of clone(2) from the perspective of Linux processes. It is notable that the OS X "Darwin" kernel doesn't have clone(2), and it's as far as I can tell not readily possible to mimic all of clone's semantics strictly by using fork in clever ways.</p>
-
-<p>An open issue on Github is tracking <a href="https://github.com/opencontainers/runc/issues/9">Build fails on Mac OS X 10.9</a>. I don't see an easy fix without work by Apple on their kernel.</p>
-
-
-  <h3>17 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-17-governance-and-documentation-and-getting-board-documents-online-promptly/">Governance and documentation and getting board documents online promptly</a>
-      </h3>
-      <p>I attended this week's meeting of the Governance Committee of the Ann Arbor Board of Education, and this is what I saw.</p>
-
-<p>Two of the agenda items did not have any documents online in Board Docs before the meeting (revisions to 3000 and 4000 series policies). Those were added during the meeting.</p>
-
-<p>One of the agenda items (cyberbullying) did have a document online. It had several typoes and missspellings, including an incorrect reference to statute.</p>
-
-<p>A last agenda item (FOIA) had a completely incorrect document posted online, which caused measurable confusion at the meeting as trustees were reviewing a document which was not actually the one that they were asked to review. </p>
-
-<p>I believe that these routine postings of documents from staff to the board are the responsibility of district staff, and that the board secretary is the particular person tasked with getting documents online in a timely manner. I have no idea how well Board Docs works but if it's anything like the city's Legistar system it's probably difficult to use enterprise software. Nevertheless, it's the responsibility of the board and of the executive staff to produce these records in a timely manner to prepare not just the public but <em>also the board</em> for their meetings, and this situation deserves attention to see if there's scheduling or training or other management effort to ensure that Board Docs is always up to date as a matter of good policy and practice.</p>
-
-<p>(Also, Balas has the best welcome signs.)</p>
-
-<p><a class="asset-img-link"  href="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb084432a3970d-pi"><img class="asset  asset-image at-xid-6a00d8341c4f1a53ef01bb084432a3970d img-responsive" style="width: 600px; display: block; margin-left: auto; margin-right: auto;" alt="Screen Shot 2015-06-17 at 11.42.54 AM" title="Screen Shot 2015-06-17 at 11.42.54 AM" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb084432a3970d-600wi" /></a><br /></p>
 
 
 
