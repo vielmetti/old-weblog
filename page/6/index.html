@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/" class="list-group-item">Washtenaw restaurant inspections</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-prince/" class="list-group-item">Prince</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-milnor-time/" class="list-group-item">Milnor Time at Mr. Stadium</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/" class="list-group-item">Dave New N8SBE to speak at ARROW on Software Defined Radio</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-08-central-michigan-responds-to-morning-sun-wcmu-editorial/" class="list-group-item">Central Michigan University spokesman responds to Morning Sun editorial regarding WCMU-TV spectrum auction</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-08-a2council-liquor-license-report/" class="list-group-item">Ann Arbor City Council Liquor License Review Committee report, 8 January 2016</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4236,6 +4238,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12486,6 +12490,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12801,6 +12807,98 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>21 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes/">Coworking notes at Elixir Vitae</a>
+      </h3>
+      <p>A productive afternoon with Mohan Kartha in which I opened a great
+many tabs in Chrome. This bit of writing to close those out. Elixir
+Vitae is a great spot for writing - lots of quiet noise from the coolers
+to keep a background hum, and close to the bus station.</p>
+
+<hr/>
+
+<p>I&rsquo;m sorting out the simplest task that I&rsquo;d like to do with Node-RED,
+now that I have a Raspberry Pi 2 running it under Docker in a configuration
+that&rsquo;s reliable enough that it seems like it&rsquo;s stable. The easiest
+network test in the world is the ping test, and so my first stab at
+a try for &ldquo;run always&rdquo; is a simple configuration to notice when the
+network looks like it&rsquo;s down and when it is to collect some more
+detailed information and log it to a file.</p>
+
+<p>The inspiration for that is this simple configuration from an idea
+by Nathan Chantrell, implemented by Martin Harizanov in 2014.
+<a href="https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/">Presence detection using phone’s WiFi and Node-RED</a> relies on static
+IP address assignments from DHCP, plus &ldquo;ping&rdquo;, to notice if
+someone&rsquo;s device is in the building, turned on, and listening to
+wifi.</p>
+
+<p>I&rsquo;ve had enough phones drain their battery to know that absence
+of a wifi signal is not an unambiguous marker!</p>
+
+<hr/>
+
+<p>Fantelope is doing a beta product launch at the final AFC Ann Arbor minor
+league soccer game of the year, Saturday, July 25 at 6 PM at Hollway
+Field (Pioneer High School, 601 W. Stadium, Ann Arbor). See
+<a href="http://fantelope.com/afc-ann-arbor-fantelope-beta-launch/">the Fantelope web site</a>
+for more details.</p>
+
+<hr/>
+
+<p>My first pass at writing code to send postcards from Lob.com is
+working. The note to self is that if you have a square bracket in
+a URL, that you have to turn off curl&rsquo;s globbing function, e.g.
+with -g or &ndash;globoff. &ldquo;When you set this option, you can specify
+URLs that contain the letters {}[] without having them being
+interpreted by curl itself. &ldquo;</p>
+
+<p>Every card has a tracking code, so the next bit of reporting to write
+is to see which cards are awaiting printing, which ones are in transit,
+where they are going to and whether they have been received.</p>
+
+<hr/>
+
+<p>The AAATA moved the endpoint URL for its old-school &ldquo;classic&rdquo;
+mobile RideTrak application. To go to a particular route like
+the 5, see e.g. <a href="http://mobile.theride.org/classic/rideguide_m.asp?route=5">http://mobile.theride.org/classic/rideguide_m.asp?route=5</a> .
+The main <a href="http://mobile.theride.org">http://mobile.theride.org</a> has a newer interface, but
+alas my Windows Phone 8.1 with its Internet Explorer browser
+doesn&rsquo;t do that page justice. (That, and I prefer the old interface
+because I managed to figure it out for the stop I&rsquo;m always catching
+the bus from.)</p>
+
+<hr/>
+
+<p><a href="http://www.getlittlebird.com/">Little Bird</a> promises to
+&ldquo;help businesses unlock the valuable information in structured social data&rdquo;.
+I&rsquo;ve asked for a trial to see what they have in store.</p>
+
+<hr/>
+
+<p>I&rsquo;m wondering what the best approach is to the task of
+&ldquo;download all of my email from Gmail&rdquo;, since the storage I
+now have available on my laptop would make it straightforward
+to have an 18 GB personal mail spool and because I really actually
+would love to search through it so that I can mark some messages
+for permanent deletion. One possibility is <a href="https://www.enkive.org">Enkive</a>
+from The Linux Box.</p>
+
+<hr/>
+
+<p>I am reminded that I want to carry around a set of headphones with me
+that plug into my Nokia 635 so that I can use the phone as a radio,
+and also reminded that I want to try to construct a headphone dipole
+as an antenna for my NooElec DVB-T tuner. The challenge will be remembering
+those desires at the right time so that when I see the parts I need
+in the junk pile at home that I can grab what I need for my every
+day carry bag.</p>
+
+<hr/>
+
+<p>Oh, and I need to track down an 8 GB USB stick to load a boot ISO on.</p>
 
 
   <h3>21 July 2015</h3>
@@ -13870,25 +13968,6 @@ abandoned pizza parlor.</p>
 <p>We then went to the Malletts Creek library, until about 4:00 p.m.
 I worked on Hugo and constructed a theme from scratch.
 At the end he got bored.</p>
-
-
-  <h3>14 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/wow-that-is-fast/">wow that is fast</a>
-      </h3>
-      <p>So 634 pages from my Github Gollum based Wiki markup all got imported
-into Hugo and it rendered all of them in 828 ms, or basically under
-a second to pull in everything I&rsquo;ve ever written. Astonishingly fast.</p>
-
-<p>Alas, those files while they are in Markdown are not really ready for
-direct import, since they have [[double brackets]] everywhere that
-get uglified. The other limiting factor is the date marker that&rsquo;s not
-included with them so they all show up as January 1, 0001 which is
-funny the first few times and then not funny.</p>
-
-<p>Doesn&rsquo;t Hugo have an import function? It does, for converting front
-matter. The closest for importing other things are the various Jekyll
-converters which aren&rsquo;t really the same.</p>
 
 
 

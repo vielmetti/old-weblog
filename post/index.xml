@@ -6,8 +6,39 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Apr 2016 14:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 22 Apr 2016 15:15:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Washtenaw restaurant inspections</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</link>
+      <pubDate>Fri, 22 Apr 2016 15:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Who: Wayne Eaker and the a2civictech Slack team&lt;/li&gt;
+&lt;li&gt;What: Restaurant inspections from Washtenaw County&lt;/li&gt;
+&lt;li&gt;Where: &lt;a href=&#34;http://food-inspections.annarbortelegraph.com&#34;&gt;http://food-inspections.annarbortelegraph.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;When: As they are updated, up to twice a momth&lt;/li&gt;
+&lt;li&gt;Why: When you eat out, you care about food safety&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some example searches:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_count_total%3A%5B30%20TO%201000%5D&#34;&gt;Three restaurants with 30 or more violations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_inspection_violation_codes%3A6-501.111%3A%20Controlling%20Pests&amp;amp;f[1]=field_inspection_date%3A2016&#34;&gt;Reports from 2016 of pest problems&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The hardest part of this project is that it&amp;rsquo;s dependent
+on an undocumented interface from the contractor who
+does the work for the county.&lt;/p&gt;
+
+&lt;p&gt;One very nice aspect of the system that Wayne put together is that
+you can get alerts from every time a new inspection comes out that
+matches your saved settings, so you can track a particular restaurant
+or problem over time.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Prince</title>
@@ -487,22 +518,6 @@ Usenet.&lt;/p&gt;
 and Dan &lt;a href=&#34;http://www.kb6nu.com/&#34;&gt;KB6NU&lt;/a&gt; has a nice writeup
 of this few other social media nets for hams on his article
 &lt;a href=&#34;http://www.kb6nu.com/social-media-meets-ham-radio/&#34;&gt;Social Media meets ham radio&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Letterpress QSL cards</title>
-      <link>http://vielmetti.github.io/post/2016/2016-01-14-letterpress-qsl-cards/</link>
-      <pubDate>Thu, 14 Jan 2016 21:15:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-01-14-letterpress-qsl-cards/</guid>
-      <description>&lt;p&gt;Gary &lt;a href=&#34;http://www.qsl.net/wd4nka/form.html&#34;&gt;WD4NKA&lt;/a&gt; is a ham radio operator and a letterpress printer.
-Those worlds intersect in the form of QSL cards printed on a
-letterpress. His weblog All Things Wireless and Letterpress
-has a nice post on
-&lt;a href=&#34;http://q5letterpress.blogspot.com/2013/11/qsl-cards.html&#34;&gt;QSL cards&lt;/a&gt;
-with examples of the letterpress craft in the form of the
-postcards that hams would send each other in the 1920s.&lt;/p&gt;
 </description>
     </item>
     

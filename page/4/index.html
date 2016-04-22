@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/" class="list-group-item">Washtenaw restaurant inspections</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-prince/" class="list-group-item">Prince</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-milnor-time/" class="list-group-item">Milnor Time at Mr. Stadium</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/" class="list-group-item">Dave New N8SBE to speak at ARROW on Software Defined Radio</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-08-central-michigan-responds-to-morning-sun-wcmu-editorial/" class="list-group-item">Central Michigan University spokesman responds to Morning Sun editorial regarding WCMU-TV spectrum auction</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-08-a2council-liquor-license-report/" class="list-group-item">Ann Arbor City Council Liquor License Review Committee report, 8 January 2016</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4236,6 +4238,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12486,6 +12490,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12801,6 +12807,185 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>16 September 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/">Into the matrix with Travis CI</a>
+      </h3>
+      
+
+<p>Travis CI is a continuous integration tool, a description which means nothing
+to people who have never used it. &ldquo;Continuous integration&rdquo; is one of these
+industry phrases that doesn&rsquo;t serve to illuminate the problem that it describes.</p>
+
+<p>Why would you care? Well, you&rsquo;re working on a project with a bunch of other
+people, and it&rsquo;s kind of complicated. It might depend on some
+<a href="http://vielmetti.github.io/post/2015/2015-09-14-old-code-and-old-tools/">old code</a>
+that&rsquo;s fragile and should be tested all the time when it changes, or it might depend
+some brand-spanking new code that doesn&rsquo;t quite work and you know it
+doesn&rsquo;t work yet but you want the test system to be less tedious.</p>
+
+<p>What else looks like this?</p>
+
+<ul>
+<li><a href="https://circleci.com/">CircleCI</a></li>
+<li><a href="https://snap-ci.com/">Snap CI</a> by ThoughtWorks</li>
+<li><a href="https://www.solanolabs.com/">Solano</a></li>
+<li><a href="http://www.appveyor.com/">Appveyor</a> (for Windows)</li>
+<li>Jenkins (self hosted)</li>
+</ul>
+
+<p>What does this look like from a workflow perspective? Every time you check in a
+file, the whole system builds, and all of the tests you have configured run.
+With proper configuration you can build a matrix of versions or configurations
+to test, so instead of a test running on a single system it can run on
+3x3 or 2x4 or even 3x5x2 configurations.</p>
+
+<h3 id="ruby:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Ruby</h3>
+
+<p>Travis CI&rsquo;s default langauge is Ruby, and a lot of its tooling is written
+in Ruby, so its Ruby support is quite good.</p>
+
+<p>Need a bunch of versions of Ruby? Use <code>rvm</code>.</p>
+
+<ul>
+<li><a href="http://docs.travis-ci.com/user/languages/ruby/">Building a Ruby Project, Travis CI</a></li>
+</ul>
+
+<h3 id="c-and-c:3a8a8bf475b0a53c2eff0d60f4a1b9bf">C and C++</h3>
+
+<p>The version of gcc and g++ on the default systems is 4.6, and you can
+pull in 4.8 through &lsquo;apt&rsquo;, but you currently have to pick up 4.8 through
+the <code>ubuntu-toolchain-r-test</code> source and not simply by picking a gcc version.</p>
+
+<ul>
+<li><a href="https://github.com/rla/fast-feed/blob/master/.travis.yml">rla/fast-feed/.travis.yml</a></li>
+</ul>
+
+<h3 id="go-golang:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Go (golang)</h3>
+
+<p>Go (golang) has not gone through a lot of versions yet, and its latest 1.5
+build is written in Go. Because the language is so young, there is not lots
+of old code to port, and thus not too many version dependencies in libraries
+to worry about yet.</p>
+
+<p>Testing two versions of Go (golang) plus Linux and Mac is easy, and the
+configuration file doesn&rsquo;t have to do anything funky.</p>
+
+<ul>
+<li><a href="https://github.com/miekg/mmark/fast-feed/blob/master/.travis.yml">miekg/mmark/.travis.yml</a></li>
+</ul>
+
+<h3 id="nodejs:3a8a8bf475b0a53c2eff0d60f4a1b9bf">NodeJS</h3>
+
+<p>Node 4.0 is new, and the source currently of a fair bit of porting efforts as
+a lot of things have broken not in the language but in its libraries. Fortunately,
+the nodejs and iojs split has been reconciled, but unfortunately there&rsquo;s about
+six months of reunification work to be done.</p>
+
+<p>If you are porting or building to NodeJS 4.0, you have to drag in gcc 4.8. Previous
+versions of gcc/g++ aren&rsquo;t capable of coping with the C++11 constructs that are
+in V8 and (especially) in <code>nan</code>.</p>
+
+<p>NodeJS 4.0 on Mac? In addition to gcc 4.8, you have to drag in nvm.
+The approachable way is to pull in the source from Github that lives
+at <code>https://github.com/creationix/nvm.git</code>, build it, and then use the
+thing that you just built to subsequently pull in the right version of Node.</p>
+
+<ul>
+<li><a href="https://github.com/rla/fast-feed/blob/master/.travis.yml">rla/fast-feed/.travis.yml</a></li>
+<li><a href="https://github.com/sass/node-sass/blob/master/.travis.yml">sass/node-sass/.travis.yml</a></li>
+</ul>
+
+<h3 id="python:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Python</h3>
+
+<p>Python 2 and Python 3 are both available on Travis CI, including even
+the latest Python 3.5.</p>
+
+<p>If you need three versions of Python plus three versions of Django:
+use &lsquo;env&rsquo; to drive &lsquo;pip&rsquo;, and &lsquo;matrix&rsquo; to skip some builds where you
+know that the combinations don&rsquo;t work.</p>
+
+<ul>
+<li>(datadesk/django-softhyphen)</li>
+</ul>
+
+<p>Lots and lots of Python versions, with different dependencies for
+each version? The <code>tornado</code> package has that.</p>
+
+<ul>
+<li>(tornadoweb/tornado)</li>
+</ul>
+
+<p>Looking to test Django plus Postgres?</p>
+
+<ul>
+<li>(<a href="http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/">http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/</a>)</li>
+</ul>
+
+<h3 id="java:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Java</h3>
+
+<p>Java is supported.</p>
+
+<p>If you need Java 8 in a particular version, see the below issue on Github Issues.</p>
+
+<ul>
+<li><a href="https://github.com/travis-ci/travis-ci/issues/4042">Java 8 version update and bug</a>,
+Github issues.</li>
+</ul>
+
+<h3 id="fortran:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Fortran</h3>
+
+<p>If you&rsquo;re building scientific codes, Fortran is available through the <code>apt</code>
+mechanism.</p>
+
+<h3 id="prolog:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Prolog</h3>
+
+<p>Prolog? Bring it in with apt-add-repository and apt-get. This is illustrative
+of Travis CI&rsquo;s ability to incorporate nearly any language, since you can install
+new compilers and interpreters via package systems and then run them.</p>
+
+<ul>
+<li>(rla/simple-template)</li>
+</ul>
+
+<h3 id="multiple-langauges:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Multiple langauges</h3>
+
+<p>Two versions of Go plus Python plus an external dependency that&rsquo;s being flaky?
+Use <code>language: python</code> because it&rsquo;s easier to install <code>go</code> from package
+managers than it is to drag in the whole complex python multi-version infrastructure
+from scratch.</p>
+
+<ul>
+<li>(miekg/mmark, in progress)</li>
+</ul>
+
+<h3 id="os-x:3a8a8bf475b0a53c2eff0d60f4a1b9bf">OS X</h3>
+
+<p>Use &lsquo;osx_image&rsquo; to tweak the version of &lsquo;osx&rsquo; that you get.</p>
+
+<ul>
+<li>(<a href="http://docs.travis-ci.com/user/osx-ci-environment/">http://docs.travis-ci.com/user/osx-ci-environment/</a>)</li>
+<li>(<a href="http://blog.travis-ci.com/2015-09-09-xcode7-gm/">http://blog.travis-ci.com/2015-09-09-xcode7-gm/</a>)</li>
+</ul>
+
+<h3 id="both-linux-and-mac-in-general:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Both Linux and Mac, in general</h3>
+
+<p>Go is easy. (miekg/mmark)</p>
+
+<p>Node requires bringing in nvm and gcc 4.8. (rla/fastfeed)</p>
+
+<p>Python &hellip; (don&rsquo;t know)</p>
+
+<p>Prolog &hellip; (don&rsquo;t know)</p>
+
+<p>Ruby &hellip; (should work pretty well, but not tested)</p>
+
+<h2 id="acknowledgements:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Acknowledgements</h2>
+
+<p>Thanks to the following people for their help: Raivo Laanemets (@RaivoL),
+Mohan Kartha (@mckartha), Chris Dzombak (@cdzombak), &hellip;</p>
 
 
   <h3>15 September 2015</h3>
@@ -13686,49 +13871,6 @@ a 20 or 50 or 200 page tome.</p>
 
 <p>I know that people have taken blogs as first drafts of long form writing, and heaven
 knows I have enough raw word count to start to make something from.</p>
-
-
-  <h3>7 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-07-all-watched-over-by-machines/">All watched over by machines</a>
-      </h3>
-      <p>As it turns out, a detailed look at the way you spend time over
-the course of a day online yields several fascinating conclusions.
-As previously noted, <span style="background-color: #ffffbf;">Wakatime</span> is the introspective tool of choice.</p>
-
-<ol>
-<li>Gee, that&rsquo;s a lot of time to look at Facebook, Twitter, and Gmail;</li>
-<li>Why aren&rsquo;t you spending more of your productive time writing;</li>
-<li>I&rsquo;ll bet that if you put down the computer your day would be more productive.</li>
-</ol>
-
-<p>Of these, #2 is the most interesting one. Of course time spent on Facebook,
-Twitter, and Gmail is time spent writing, but it&rsquo;s transactional writing -
-short bursts of functional prose to negotiate a time, set up a plan,
-make a clever comeback or otherwise do online chit-chat. The words are writing,
-but there&rsquo;s not a body of work that you can point to that&rsquo;s of any size as
-your opus from that hour plus spent.</p>
-
-<p>Productive is a very funny word when you&rsquo;re being watched by a machine.
-Some parts of the time are marked as &ldquo;good time&rdquo;, where you&rsquo;re happy to
-have an extra minute spent credited to a project or task. Not all time is
-&ldquo;good time&rdquo;, though some of the non-good time is just as essential, just
-measured differently. And then there&rsquo;s the occasional glitch in the matrix
-where time is credited or blamed on one thing but you could swear you were
-doing something else at the time.</p>
-
-<p>Time spent on task sometimes looks very small when all of these are taken into
-account. Those 99 words you wrote for publication were edited down from 150,
-and might be edited further down to 55. If you could precisely allocate all
-of the time you spent on it it would include the musing and ruminations, but
-that got chalked up to Gmail where it&rsquo;s mixed in with the time spent deleting
-mail.</p>
-
-<p>I like to know what I&rsquo;m doing, but it&rsquo;s wrong to mix up inputs and outputs.
-If your system measures inputs, you get ritualized behavior designed to
-maximize time spent on task, no matter how the time is actually used.
-Maximizing outputs would yield word counts and not minute counts. If you&rsquo;re
-slow and terse, there&rsquo;s no help for you.</p>
 
 
 
