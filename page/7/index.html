@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-24-facebook-break/" class="list-group-item">Taking a break from Facebook</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-23-roos-roast-downtown/" class="list-group-item">Roos Roast to add downtown Ann Arbor location</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/" class="list-group-item">Washtenaw restaurant inspections</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016/" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/" class="list-group-item">Dave New N8SBE to speak at ARROW on Software Defined Radio</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4240,6 +4242,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12498,6 +12502,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12813,6 +12819,46 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>14 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-14-converting-typepad-to-hugo/">converting typepad to hugo</a>
+      </h3>
+      <p>The task of the night was getting a few years worth of Typepad posts
+into Hugo.</p>
+
+<p>My first step was to convert to Jekyll format, which I did using this
+typepad_to_jekyll Ruby gem:</p>
+
+<p><a href="https://github.com/koozie/typepad_to_jekyll">https://github.com/koozie/typepad_to_jekyll</a></p>
+
+<p>You then need to do a few things to get the Jekyll files exactly right
+for Hugo:</p>
+
+<ol>
+<li>Change the date format</li>
+<li>Rewrite the Categories</li>
+<li>Download and relink all of the images</li>
+</ol>
+
+<p>Changing the format for &ldquo;date&rdquo; was a one-liner in perl with the -i (&ldquo;edit in
+place&rdquo;) flag.  I didn&rsquo;t get to the category rewrite or the image rescue yet.
+The approach I took was to simply hack on the output files, rather than
+change the source code to the typepad_to_jekyll program, but if you were
+serious about it you&rsquo;d do the latter and fork it until it did the right thing.</p>
+
+<p>Relinking all of the images requires opening a support ticket because Typepad
+does not have an easy image export. Actually image hosting is a real
+challenge and I don&rsquo;t know exactly the right way to do it inside Hugo.</p>
+
+<p>I&rsquo;ll need to adjust the theme or pick a new theme so that it only shows
+the first n posts on a page and then paginates, and I also need to adjust
+it so that it shows categories. The show everything approach is unreasonable
+when you have 1000s of pages to show off. On the other hand, the most
+reasonable themes that I can find that look nice don&rsquo;t have pagination
+turned on by default. There&rsquo;s some learning curve to roll my own, maybe
+one that has some kind of reasonable sidebar structure.</p>
 
 
   <h3>14 July 2015</h3>
@@ -13308,35 +13354,6 @@ Steve
 <blockquote>
   <p>Administrative/Biographical History: Ashton B. Collins, Sr. (1885-1976), the commercial manager of Alabama Power Company, created the trademark character Reddy Kilowatt in 1926 in an attempt to humanize electric utility service for marketing and other corporate communications purposes. Reddy Kilowatt first appeared publicly at the 1926 Alabama Electrical Exposition in a display for the Alabama Power Company, which also ran supporting newspaper advertisements. The original figure had five arms to illustrate the many capabilities of electric service. Though Collins originated the idea of Reddy Kilowatt, he asked an engineer from the company’s drafting department, Dan Clinton, to create a usable sketch of the character. After the exposition, Collins retained the copyrights to Reddy Kilowatt. In 1932, he recruited a friend, Dorothea Warren, to develop several sketches of Reddy Kilowatt in an attempt to sell what Collins called “The Reddy Kilowatt Program.” At the time, Collins was employed by Edison Electrical Institute to travel the country promoting electrical household cooking appliances. He used the opportunity to network with electric utility managers and to promote his idea of using Reddy Kilowatt to humanize electric service in the home. Collins convinced his first clients in 1933. By the end of 1934, at least six other electric utility companies had adopted the “Reddy Kilowatt Program.”</p>
 </blockquote>
-
-
-  <h3>24 June 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/">Simulating a power grid with RTDS</a>
-      </h3>
-      <p>Noted as an example of "how do they do that"</p>
-
-<blockquote>
-  <p>The RTDS simulates any user-defined electrical system with models of complex electrical components, such as transmission lines, generators and transformers. The components can be precisely defined to match your equipment characteristics. Through real-time simulation, your relay or control equipment is tested in closed-loop mode, acting on the simulated system as it would in the actual installation.</p>
-</blockquote>
-
-<p><a href="http://www.kinectrics.com/Solutions/Pages/real-time-digital-simulator-rtds.aspx">Kinetrics</a> has a page on RTDS describing how it's used. The vendor of the software is <a href="https://www.rtds.com/">RTDS Technologies</a> which describes it also thusly:</p>
-
-<blockquote>
-  <p>We are the pioneer and exclusive supplier of this custom hardware and software, which is specifically designed to perform real time electromagnetic transient simulations.</p>
-  
-  <p>The Simulator operates continuously in real time while providing accurate results over a frequency range from DC to kilohertz range. It is used for closed loop testing of protective relay and control systems, power hardware in the loop studies, and much more.</p>
-</blockquote>
-
-<p>The <a href="http://www4vip.inl.gov/research/real-time-digital-simulator/">Idaho National Laboratory has one of these simulators</a>. </p>
-
-<blockquote>
-  <p>The system’s graphical user interface, proprietary software and mathematical algorithms can simulate any modern electric power grid configuration. As new equipment or components are added or subtracted from the simulator’s configuration, the model instantly updates. For example, INL researchers can run simulated system–failure scenarios such as a control system cyber intrusion or a physical damage event such as a terrorist attack or natural disaster and instantly detect the order and reasoning for why dedicated relays, breakers or substations failed.</p>
-  
-  <p>The ability to simulate real–time power grid information is a key factor in detecting previously unknown vulnerabilities and providing emergency planners with a path forward for responding to grid failures. The RTDS Simulator enables power industry experts to define the network configuration and run real time tests for many aspects of service life allowing system problems to be discovered faster, and solutions to be designed and tested immediately.</p>
-</blockquote>
-
-<p>Handy then that you don't need to have a real blackout to experiment with the effects of a blackout!</p>
 
 
 

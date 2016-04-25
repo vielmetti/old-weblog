@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-24-facebook-break/" class="list-group-item">Taking a break from Facebook</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-23-roos-roast-downtown/" class="list-group-item">Roos Roast to add downtown Ann Arbor location</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/" class="list-group-item">Washtenaw restaurant inspections</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016/" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/" class="list-group-item">Dave New N8SBE to speak at ARROW on Software Defined Radio</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4240,6 +4242,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12498,6 +12502,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12813,6 +12819,90 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>22 July 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast/">Daily Coffee and Wifi, Roos Roast Wednesday edition</a>
+      </h3>
+      <p>At Roos, an espresso over ice with a little half and half and a hard
+boiled egg. It&rsquo;s a very compact breakfast. The espresso is served in
+an appropriately sized glass mug and tastes like the strongest little
+iced latte you will ever have.</p>
+
+<hr/>
+
+<p>On my Mac, run &lsquo;boot2docker upgrade&rsquo;. That gets me up to current 1.7.1
+revision of everything.</p>
+
+<pre><code>Edwards-MacBook-Air:~ emv$ docker version
+Client version: 1.7.1
+Client API version: 1.19
+Go version (client): go1.4.2
+Git commit (client): 786b29d
+OS/Arch (client): darwin/amd64
+Server version: 1.7.1
+Server API version: 1.19
+Go version (server): go1.4.2
+Git commit (server): 786b29d
+OS/Arch (server): linux/amd64
+</code></pre>
+
+<p>The issue that 1.7.1 resolves for me is certificate support - if I
+understand the bug right, the Docker daemon was creating a key for
+each interface it had, but not all of the interfaces were up at key
+init time. The fix was to move DHCP init earlier in the start sequence
+so that everything was initialized by the time key creation took place.</p>
+
+<hr/>
+
+<p>The Docker team is trying to improve code quality by having their
+code base pass the <code>golint</code> test. The open issue,
+<a href="https://github.com/docker/docker/pull/14784">fix golint errors/warnings #14784</a>,
+has attracted a swarm of contributors, and a lot of them have
+proposed changes that don&rsquo;t pass the automated tests. The build
+farm is managed with Jenkins, and you can see the
+<a href="https://jenkins.dockerproject.org/">status of every build of Docker</a> on their
+dashboard.</p>
+
+<p>Having a full lintable codebase is a great goal. The challenge comes when
+the suggested changes by lint send you in the direction of making an
+incompatible change to some interface that has the &ldquo;wrong&rdquo; name but that
+people were relying on.</p>
+
+<p>Perhaps importantly for the work I&rsquo;m doing it&rsquo;s worth noting that currently
+all of these tests are done on x86 platforms (Linux and Windows) and there
+isn&rsquo;t an official automated build on ARM. I&rsquo;ve been using the
+<a href="http://blog.hypriot.com/downloads/">Docker distribution from Hypriot</a> as my
+baseline for working on the Raspberry Pi, with good success.</p>
+
+<hr/>
+
+<p>Construction on I-75 at 13 Mile Road! <a href="http://www.theoaklandpress.com/general-news/20150715/traffic-delays-expected-for-6-weeks-on-i-75-and-13-mile-during-mdot-project">Expect major delays</a> at this
+project in Madison Heights. From the Oakland Press</p>
+
+<blockquote>
+<p>During the construction project, there will be lane closures on both I-75 and 13 Mile Road in Madison Heights, said Diane Cross, a spokeswoman for the Michigan Department of Transportation, which is doing the work.</p>
+</blockquote>
+
+<p>(insert map here)</p>
+
+<p>None of the alternative routes look any good, allow extra time for travel.</p>
+
+<hr />
+
+<p>Components of the postcard project are coming together. So far I have little
+pieces that put and get addresses from a database, resize pictures to the
+correct size, and generate test and live cards.</p>
+
+<p>If I lob a single thoughtful card out every time I have an espresso, there
+will be some steady stream of cards going out. Next piece of the checklist is
+pulling a report showing which cards are in flight and which ones just arrived
+so that I can schedule followups.</p>
+
+<p>One of the key bits of sending cards is that your recipient doesn&rsquo;t get them
+right away. That gives you a chance to refine your thinking and contemplate
+what you have to say when you do follow up when they do get it.</p>
 
 
   <h3>21 July 2015</h3>
@@ -13930,46 +14020,6 @@ want to see in this, so that motivates some level of forward progress.
 For instance, I&rsquo;d love to see categories actually work here, since I
 have some content that belongs together. I also have sidebar ideas
 that really want to be exercised again.</p>
-
-
-  <h3>14 July 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-07-14-converting-typepad-to-hugo/">converting typepad to hugo</a>
-      </h3>
-      <p>The task of the night was getting a few years worth of Typepad posts
-into Hugo.</p>
-
-<p>My first step was to convert to Jekyll format, which I did using this
-typepad_to_jekyll Ruby gem:</p>
-
-<p><a href="https://github.com/koozie/typepad_to_jekyll">https://github.com/koozie/typepad_to_jekyll</a></p>
-
-<p>You then need to do a few things to get the Jekyll files exactly right
-for Hugo:</p>
-
-<ol>
-<li>Change the date format</li>
-<li>Rewrite the Categories</li>
-<li>Download and relink all of the images</li>
-</ol>
-
-<p>Changing the format for &ldquo;date&rdquo; was a one-liner in perl with the -i (&ldquo;edit in
-place&rdquo;) flag.  I didn&rsquo;t get to the category rewrite or the image rescue yet.
-The approach I took was to simply hack on the output files, rather than
-change the source code to the typepad_to_jekyll program, but if you were
-serious about it you&rsquo;d do the latter and fork it until it did the right thing.</p>
-
-<p>Relinking all of the images requires opening a support ticket because Typepad
-does not have an easy image export. Actually image hosting is a real
-challenge and I don&rsquo;t know exactly the right way to do it inside Hugo.</p>
-
-<p>I&rsquo;ll need to adjust the theme or pick a new theme so that it only shows
-the first n posts on a page and then paginates, and I also need to adjust
-it so that it shows categories. The show everything approach is unreasonable
-when you have 1000s of pages to show off. On the other hand, the most
-reasonable themes that I can find that look nice don&rsquo;t have pagination
-turned on by default. There&rsquo;s some learning curve to roll my own, maybe
-one that has some kind of reasonable sidebar structure.</p>
 
 
 
