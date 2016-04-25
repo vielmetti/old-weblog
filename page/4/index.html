@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-24-game-of-fail-hbonow-down/" class="list-group-item">Game of Fail - HBO Now unable to host Game of Thrones premiere</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-24-facebook-break/" class="list-group-item">Taking a break from Facebook</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-23-roos-roast-downtown/" class="list-group-item">Roos Roast to add downtown Ann Arbor location</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-letterpress-qsl-cards/" class="list-group-item">Letterpress QSL cards</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016/" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4242,6 +4244,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12504,6 +12508,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12819,6 +12825,61 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>22 September 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-09-22-git-squash/">How to squash a commit in git</a>
+      </h3>
+      
+
+<p>If you are working on a project in Github, your work isn&rsquo;t always linear.
+Sometimes the change you make doesn&rsquo;t work completely, so you back a little
+bit of it out and move forward on a next part. It may take some hacking and
+sawing (and testing of course) to get a change that just works right.</p>
+
+<p>Projects like to have contributions, but project maintainers don&rsquo;t like
+to insert noise into their efforts. The ideal commit to a project is
+completely clean: one single commit that incorporates all of the changes
+that you want to do, without any of the intervening cruft.</p>
+
+<p>Thanks to Alan Gutierrez for the help here.</p>
+
+<p>In the lingo, this is known as &ldquo;squashing a commit&rdquo;. It turns
+<code>A-&gt;B-&gt;C-&gt;D-&gt;X-&gt;Y-&gt;Z</code> into <code>A-&gt;Z</code>. Here&rsquo;s how you do it.</p>
+
+<p>First, set up your environment before you start to work. Create a branch
+to put your changes in and work within that branch. You can do all of that
+from within Github, or from the command line as</p>
+
+<pre><code>% git checkout -b try/branch
+Switched to a new branch 'try/branch'
+</code></pre>
+
+<p>When you&rsquo;re ready to merge, create a pull request for that branch.
+That will gather together all of the changes you have made and drop
+them onto a single page for inspection. Look at the first change that
+you made in that sequence, and find the parent node for your first
+change; we&rsquo;ll rebase off of that parent. This was the crucial bit
+that I was unable to figure out from the documentation.</p>
+
+<p>Squash all of those commits for the branch
+into a single commit. There is no <code>git squash</code> command, alas; but there
+is <code>git rebase -i</code>.</p>
+
+<pre><code>% git rebase -i &lt;after-this-commit&gt;
+</code></pre>
+
+<p>Next, apply this single squashed commit to your master branch.</p>
+
+<h3 id="further-reading:d402ad0362f9cb748dc3191a35343d42">Further reading:</h3>
+
+<ul>
+<li>From Git Ready: <a href="http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html">Squashing commits with rebase</a></li>
+<li>Makandra Cards: <a href="http://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit">Squash several Git commits into a single commit</a></li>
+<li>David Walsh: <a href="http://davidwalsh.name/squash-commits-git">Squash commits with Git</a></li>
+<li>Pro Git,  Scott Chacon and Ben Straub: <a href="http://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History">Git Tools - Rewriting History</a></li>
+</ul>
 
 
   <h3>22 September 2015</h3>
@@ -13976,14 +14037,6 @@ upset friends and relatives of victims killed and injured in the
 blasts.</p>
 
 <hr/>
-
-
-  <h3>13 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-13-zenos-inbox/">Zeno&#39;s inbox</a>
-      </h3>
-      <p>It took me about an hour to half-empty my inbox.
-Alas, I have Zeno&rsquo;s Inbox, which is never emptied, only half-emptied.</p>
 
 
 
