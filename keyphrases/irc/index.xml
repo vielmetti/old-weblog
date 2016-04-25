@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Irc on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/irc/</link>
+    <description>Recent content in Irc on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2016 10:15:00 -0500</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/irc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>QSO on redditnet via Geekshed IRC</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-17-qso-on-redditnet/</link>
+      <pubDate>Sun, 17 Jan 2016 10:15:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-17-qso-on-redditnet/</guid>
+      <description>&lt;p&gt;The #redditnet channel on the &lt;a href=&#34;http://www.geekshed.net/&#34;&gt;Geekshed IRC network&lt;/a&gt;
+is full of amateur radio operators from the /r/amateurradio network on Reddit.
+People seem to be friendly and knowledgable and more likely than not
+to be actually doing digital modes on their radio rather than talking
+about that.&lt;/p&gt;
+
+&lt;p&gt;The channel practice is tolerant of people treating it as thought
+it were a CW or RTTY frequency, complete with contest style behavior
+and reception reports (you are always 59 on #redditnet). I haven&amp;rsquo;t
+ever done contesting myself for lack of appropriate gear, but I&amp;rsquo;m
+starting to see the appeal.&lt;/p&gt;
+
+&lt;p&gt;IRC was formally defined by RFC 1459 in 1993, but it dates from 1988
+and was inspired by the earlier BITNET Relay network of 1985. Unlike
+the Unix based Usenet network, which focused on email-sized messages,
+the IRC network is fundamentally about short messages and also about
+considerable autonomy among separate non-federated servers. It&amp;rsquo;s because
+of this that IRC has been relatively resistant to the spam that overran
+Usenet.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Thom &lt;a href=&#34;http://aprs.fi/info/a/W8TAM-1&#34;&gt;W8TAM&lt;/a&gt; for alerting me to this net,
+and Dan &lt;a href=&#34;http://www.kb6nu.com/&#34;&gt;KB6NU&lt;/a&gt; has a nice writeup
+of this few other social media nets for hams on his article
+&lt;a href=&#34;http://www.kb6nu.com/social-media-meets-ham-radio/&#34;&gt;Social Media meets ham radio&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

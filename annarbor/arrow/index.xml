@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arrow on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/annarbor/arrow/</link>
+    <description>Recent content in Arrow on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jan 2016 00:15:00 -0500</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/annarbor/arrow/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dave New N8SBE to speak at ARROW on Software Defined Radio</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/</link>
+      <pubDate>Wed, 13 Jan 2016 00:15:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/</guid>
+      <description>&lt;p&gt;Dave New N8SBE will be speaking at the January 2016 meeting of
+the ARROW radio club on the topic of Software Defined Radio.&lt;/p&gt;
+
+&lt;p&gt;He will present an introduction to GNU Radio and the GNU Radio
+Companion visual programming environment, and the HackRF One Software
+Defined Transceiver from Great Scott Gadgets.&lt;/p&gt;
+
+&lt;p&gt;The demo will include a disucssion of receiver and transmitter flow
+graphs, as well as resources to learn more about
+digital signal processing using the HackRF One and GNU Radio.&lt;/p&gt;
+
+&lt;p&gt;ARROW meets Wednesday, January 13, 2016, from 7:00 p.m. to 9:00 p.m. at
+Washtenaw Community College, room BE-172 or nearby room.&lt;/p&gt;
+
+&lt;p&gt;For more details contact ARROW at &lt;a href=&#34;http://www.w8pgw.org/&#34;&gt;http://www.w8pgw.org/&lt;/a&gt; .&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

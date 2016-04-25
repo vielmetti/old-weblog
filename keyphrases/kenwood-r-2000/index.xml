@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kenwood R 2000 on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/kenwood-r-2000/</link>
+    <description>Recent content in Kenwood R 2000 on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 May 2015 22:04:12 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/keyphrases/kenwood-r-2000/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Two repaired shortwave receivers in one day !</title>
+      <link>http://vielmetti.github.io/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</link>
+      <pubDate>Sun, 17 May 2015 22:04:12 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</guid>
+      <description>&lt;p&gt;From the fix-it-yourself department, two successful radio repairs in one day.&lt;/p&gt;
+
+&lt;p&gt;For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. &lt;/p&gt;
+
+&lt;p&gt;For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again. I&#39;m especially happy about the Sony because I had feared that it was a complicated repair. There&#39;s some corrosion on the battery terminals and I might be forewarned that would be the first thing to look at again. A discussion of another repair is written up by &lt;a href=&#34;http://idlenot.com/?p=1481&#34;&gt;KE1RI&lt;/a&gt; to replace an audio capacitor, fortunately I haven&#39;t had to do that.&lt;/p&gt;
+
+&lt;p&gt;Both stations are tuned to R Havana Cuba&#39;s Sunday night programming on 6000 KHz.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
