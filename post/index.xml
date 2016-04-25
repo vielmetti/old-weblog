@@ -6,8 +6,52 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Apr 2016 14:45:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 25 Apr 2016 16:15:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ann Arbor hydrant flushing maps</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-25-hidden-water-flush-maps/</link>
+      <pubDate>Mon, 25 Apr 2016 16:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-25-hidden-water-flush-maps/</guid>
+      <description>&lt;p&gt;The City of Ann Arbor has maps showing you where the hydrants
+are being flushed. If your water turns brown, the most likely
+cause of it is sediment being disturbed by hydrant flush tests.
+Run your cold water for a bit until it clears. If it doesn&amp;rsquo;t
+clear promptly, call the city. A secondary source of sediment
+is unexpected water main breaks.&lt;/p&gt;
+
+&lt;p&gt;It is possible to get notified of hydrant flushing in your
+neighborhood, but it&amp;rsquo;s not easy. The city sends out an email
+through GovDelivery alerting you that there is hydrant flushing
+somewhere in the city:&lt;/p&gt;
+
+&lt;p&gt;Routine fire hydrant flushing continues in Ann Arbor next week, April 25-29, 2016.&lt;/p&gt;
+
+&lt;p&gt;That email contains a link to a news release at&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.a2gov.org/news/pages/article.aspx?i=252&#34;&gt;http://www.a2gov.org/news/pages/article.aspx?i=252&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;which doesn&amp;rsquo;t say anything about where the flushing is going to take
+place, except to say that there&amp;rsquo;s a map. You click on
+the page that says there&amp;rsquo;s a map&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.a2gov.org/departments/field-operations/Pages/hydrantflush.aspx&#34;&gt;http://www.a2gov.org/departments/field-operations/Pages/hydrantflush.aspx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;and it reiterates that there&amp;rsquo;s a map, and one more click hopefully
+finally connects you to the map itself&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gisapp.ewashtenaw.org/Html5Viewer_2_5/index.html?configBase=http://gisapp.ewashtenaw.org/Geocortex/Essentials/REST/sites/A2HydrantPM/viewers/HydrantFlushing/virtualdirectory/Resources/Config/Default&#34;&gt;http://gisapp.ewashtenaw.org/Html5Viewer_2_5/index.html?configBase=http://gisapp.ewashtenaw.org/Geocortex/Essentials/REST/sites/A2HydrantPM/viewers/HydrantFlushing/virtualdirectory/Resources/Config/Default&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s three clicks to get to the page, with no hints anywhere
+along the way about where the hydrant flushing actually is.&lt;/p&gt;
+
+&lt;p&gt;If there were ever a reason to put in an embedded map on any
+of these pages, it would be that people are unlikely to click
+through three times just in case their neighborhood is affected.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Michigan DEQ with misleading graphic on progress in Flint Water Crisis</title>
@@ -431,29 +475,6 @@ He writes in an email sent from his iPhone on Saturday, Feb 13, 2016 at 1:26 PM:
 &lt;p&gt;Details on the city&amp;rsquo;s &lt;a href=&#34;http://www.a2gov.org/departments/engineering/Pages/Stadium-Blvd-Road-Reconstruction-Project.aspx&#34;&gt;Stadium Boulevard Road Reconstruction Project&lt;/a&gt; page do not yet reflect this new reality, and the
 &lt;a href=&#34;http://a2gov.legistar.com/MeetingDetail.aspx?ID=448974&amp;amp;GUID=C566FAA5-1AED-4525-AA34-8F5A4E2FBF6D&amp;amp;Options=info&amp;amp;Search=&#34;&gt;agenda for the February 16, 2016 Ann Arbor City Council&lt;/a&gt;
 meeting also does not include an agenda item on this topic.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Chicken and onion curry</title>
-      <link>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</link>
-      <pubDate>Sun, 14 Feb 2016 21:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</guid>
-      <description>&lt;p&gt;Saveur Magazine has a recipe for a &lt;a href=&#34;http://www.saveur.com/article/Recipes/Chicken-and-Onion-Curry&#34;&gt;chicken and onion curry&lt;/a&gt;
-from January 27, 2010. It took a little more than an hour
-to cook, but the results were very much worth it - delicious,
-and worth repeating.&lt;/p&gt;
-
-&lt;p&gt;We had the meal with rice, kale, and a
-&lt;a href=&#34;http://www.food.com/recipe/radish-raita-57431&#34;&gt;daikon raita&lt;/a&gt; from
-food.com that I kind of liked but which was not a big hit
-with the rest of the table.&lt;/p&gt;
-
-&lt;p&gt;The current meal planning regime here uses a Google calendar
-and a question at the end of every meal: do you want this again,
-and how many weeks before we have it again? This curry will
-repeat in 3 weeks.&lt;/p&gt;
 </description>
     </item>
     
