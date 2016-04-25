@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-04-24-mechanical-slaves/" class="list-group-item">Mechanical slaves and the Californian ideology</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-24-game-of-fail-hbonow-down/" class="list-group-item">Game of Fail - HBO Now unable to host Game of Thrones premiere</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-24-facebook-break/" class="list-group-item">Taking a break from Facebook</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-17-qso-on-redditnet/" class="list-group-item">QSO on redditnet via Geekshed IRC</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-letterpress-qsl-cards/" class="list-group-item">Letterpress QSL cards</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/" class="list-group-item">Ann Arbor area APRS network status, January 2016</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4246,6 +4248,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12516,6 +12520,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12831,6 +12837,20 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>12 September 2008</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2008/2008-09-12-creativity-vs-p/">creativity vs productivity</a>
+      </h3>
+      <p>Merlin Mann has relaunched <a href="http://www.43folders.com/">43 Folders</a>; he doesn't want to be the productivity guy any more, he wants to be the creativity guy.&nbsp; It's a good choice.</p>
+
+<p>He notes some essential tension between the demand of professional bloggers to produce immense quantities of on-topic dreck that generates a lot of page views, vs the wise craft of intense creative types who sweat the details to edit things down to a fine polish.&nbsp; (Or something like that; it probably overstates the issue.)&nbsp; And he bemoans the tendency of people to consume an endless stream of shitty first drafts as if that was the only thing worth doing:</p><blockquote><p>What worries me are the consequences of a diet comprised mostly of
+fake-connectedness, makebelieve insight, and unedited first drafts of <em>everything</em>.
+I think it’s making us small. I know that whenever I become aware of
+it, I realize how small it can make me. So, I’ve come to despise it.&nbsp; (from <a href="http://www.kungfugrippe.com/post/48588149/better">better)</a></p></blockquote><p>Since this post itself is a shitty first draft of a summary of what is probably 100 other things I've thought about, I'll keep it short.&nbsp; Sometimes, when you want to have deep insight into a topic, you have to immerse yourself in the details.&nbsp; Your makebelieve insight and fake-connectedness are exercises in helping you understand the world, and even though sometimes the explanation that comes up doesn't really sound any more insightful than what your wikipedia-quoting eight year old can come up with, it came from you.&nbsp; Sometimes, if you are really lucky, you get to reflect on a bunch of first drafts and turn them into second and third drafts - hurray!&nbsp; But at least you got that thinking out into public in a format that can get some feedback.&nbsp; The best way to have one good idea is to have a thousand ideas.</p>
+
+<p>Recommended reading: Alex Osborn's 1949 &quot;Your Creative Power: How To Use Imagination&quot;.</p>
 
 
   <h3>10 September 2008</h3>
@@ -13579,24 +13599,6 @@ Free from Mercury</p>
 <td valign="bottom">at <a href="http://michigan.rivals.com/schedule.asp?Year=2008&amp;Team=OHIOST"><strong>Ohio State</strong></a></td>
 
 <td valign="bottom" align="left" colspan="2">TBA</td></tr></tbody></table>
-
-
-  <h3>20 August 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-08-20-fixing-linkedin/">Fixing LinkedIn for Groups with Greasemonkey; step one, the naming of the parts</a>
-      </h3>
-      <p>I use LinkedIn for Groups to manage the Cisco Alumni Association group.&nbsp; One of the qualification steps is that you have to have worked for Cisco in the past (and you'd be surprised how many people apply who haven't any connection at all).</p>
-<p>
-The admin UI for that system is clumsy if you have to approve and delete a lot of people - basically there's no built-in support for checking someone out short of opening up a whole new window with their profile.&nbsp; That makes the workflow very clumsy and slow.
-</p>
-<p>
-The fix-it-yourself approach to this is Greasemonkey, splicing in the existing code that does this feature on other parts of the site to the Admin UI page.&nbsp; for your (really, for my) reading enjoyment, here's that code. </p>
-
-<p>Part two is causing this code to be called on another page other than the one it currently is being called!</p>
-
-<p>&nbsp;</p>
-
-<pre>* js/miniprofile_popup.js */<br /><br />var miniProfile=function()<br />{var profileLinks,popContainer;<br />var responseSuccess=function(o){popContainer.getElementsByTagName('div')[0].innerHTML=o.responseText;<br />popContainer.setAttribute('hasMiniPanel','true');<br />lui.miniPanel.setBody(o.responseText);<br />addPanelEvents();<br />lui.miniPanel.move(popContainer);<br />lui.miniPanel.show();}<br /><br />var callBack={success:responseSuccess,argument:[popContainer],timeout:10000}<br /><br />var addPanelEvents=function()<br />{lui.miniPanel.addCloseEvent();<br />var actionForms=YAHOO.util.Dom.getElementsByClassName('action-form','div',profilePanelBody);<br />if(actionForms==&quot;&quot;)return;<br />for(var i=0;actionForms.length&gt;i;i++){actionForms[i].style.display=&quot;none&quot;;}<br />var flagLink=YAHOO.util.Dom.getElementsByClassName('action-flag','a',profilePanelBody);<br />YAHOO.util.Event.addListener(flagLink,'click',function(e){YAHOO.util.Event.preventDefault(e);<br />toggleFlagForm(actionForms);},profilePanelBody);}<br /><br />var toggleFlagForm=function(el)<br />{for(var i=0;el.length&gt;i;i++)<br />{if(el[i].style.display==&quot;block&quot;)<br />{lui.hide(el[i]);}else{lui.show(el[i]);}}}<br />return{init:function(){profileLinks=YAHOO.util.Dom.getElementsByClassName('miniprofile-container','span','body');<br />lui.miniPanel.init(profileLinks,miniProfile.showProfile,miniProfile.fetchProfile);<br />profilePanelBody=lui.miniPanel.get();},fetchProfile:function(el){popContainer=el;<br />var url=el.className.split(' ')[1];<br />YAHOO.util.Connect.asyncRequest('GET',url,callBack);},<br />showProfile:function(el){popContainer=el;lui.miniPanel.setBody(el.getElementsByTagName('div')[0].innerHTML);<br />addPanelEvents();<br />lui.miniPanel.move(el);<br />lui.miniPanel.show();}}}();<br /><br />miniProfile.init();</pre>
 
 
 
