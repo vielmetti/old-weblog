@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-05-01-roosroast-may-day/" class="list-group-item">May Day at Roos Roast with Burroughs and Polya</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-25-hidden-water-flush-maps/" class="list-group-item">Ann Arbor hydrant flushing maps</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-25-mdeq-flint-water-graphic/" class="list-group-item">Michigan DEQ with misleading graphic on progress in Flint Water Crisis</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-24-alaska-earthquake/" class="list-group-item">M7.1 earthquake felt in Anchorage, Alaska</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-writing-things-down/" class="list-group-item">Writing things down</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary/" class="list-group-item">a2b3 lunch non-summary for 3d week of January 2016</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4254,6 +4256,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12540,6 +12544,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12855,6 +12861,27 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>23 May 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/">Running Node-RED on a Raspberry Pi with Docker and Hypriot</a>
+      </h3>
+      <p>My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there's distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here's where I got the parts.</p>
+
+<p><a href="http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">Hypriot's gettting started guide</a> brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.</p>
+
+<p>Hypriot has a <a href="https://gitter.im/hypriot/talk">chat window</a> on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.</p>
+
+<p>Docker's <a href="https://hub.docker.com/">DockerHub</a> is a one stop shop for packaged applications. When you're running on the Pi, you'll want to seek out versions with 'rpi' or 'arm' in their names as they have likely been adapted for that system.</p>
+
+<p>I ended up pulling Niel Eyde's Raspberry Pi versions of Node-RED from DockerHub as <a href="https://registry.hub.docker.com/u/nieleyde/rpi-nodered/">nieleyde/rpi-nodered</a>. It has all sorts of interesting modules that I had not previously built.</p>
+
+<p>Node-RED is at 0.10.6 at this writing. Its <a href="http://nodered.org/docs/hardware/raspberrypi.html">Raspberry Pi support</a> includes hardware support using <a href="http://wiringpi.com/">WiringPi</a> to access the GPIO pins. </p>
+
+<p>Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have <a href="http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/">merged forces</a> after a fork, which means hopefully development will start to be sane again.</p>
+
+<p>That all said I am not sure I have everything I need yet but as a leap forward it's pretty good!</p>
 
 
   <h3>17 May 2015</h3>
@@ -13295,23 +13322,6 @@ was behind the counter sorting out the morning flow and talking about the farmer
 <p>Next was to grab one of the many versions of "dump1090" which uses the SDR radio to tune to aircraft ADS-B broadcasts that give you a version of aircraft radar. This also worked well, perhaps better than I could have expected. From home with an antenna in the middle of the house I could hear airplanes just north of Jackson, MI from Ann Arbor, MI (about 40 miles). I relocated to a cafe near the dog park (Ellsworth at Platt) that has a good view of the southern sky, and the same little bitty antenna pulled in reception from airplanes near Fort Wayne, IN (about 120 miles). </p>
 
 <p>There's always more to try, of course. GNU Radio is a full toolkit for building your own radio design, complete with FM decoders and the like, and it has a fairly simple to understand user interface compared to how complex the underpinnings are (remember, FORTRAN). There's lots more software that uses the RTL-SDR libraries and even a port to the Raspberry Pi which I'd like to try.</p>
-
-
-  <h3>24 March 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-03-24-the-mysterious-crash-of-4u9525-germanwings-flight-9525-in-the-french-alps/">The mysterious crash of</a>
-      </h3>
-      <p>My Twitter feed was full of air crash news this morning. Germanwings flight 9525 crashed in the French Alps, killing all passengers aboard. Wikipedia has a <a href="http://www.wikiwand.com/en/Germanwings_Flight_9525">good summary</a>, perhaps as good as any.</p>
-
-<p>What was unusual about the crash was that there was no distress call, and that the plane descended rapidly and steadily into the ground without veering once from its course.</p>
-
-<p>Of note in this regard is another European flight on a similar aircraft some months earlier. Lufthansa 1829 on Nov 5th 2014 lost 4000 feet/minute of altitude after having problems with its control systems. The <a href="http://avherald.com/h?article=47d74074">Aviation Herald story</a> was written a few days later, and it references emergency airworthiness directive <a href="http://ad.easa.europa.eu/blob/easa_ad_2014_0266_E.pdf/EAD_2014-0266-E_1">2014-0266-E_1 (pdf)</a>. <a href="http://aviation-safety.net/wikibase/wiki.php?id=171411">AviationSafety.net has a summary of that incident</a>:</p>
-
-<blockquote>
-  <p>During climb, 12 NM NW of Pamplona, at approximately Flight Level 310, the aircraft unexpectedly decreased the pitch autonomous and started to descend. The aircraft reached a rate of descent of up to 4,000 ft/min. The crew was able to stop the descent at Flight Level 270. The flight was continued and the aircraft landed safely at its destination Munich Airport. </p>
-</blockquote>
-
-<p>At least superficially the incidents seem related. I am not expert enough at aviation issues to know if there is a real connection, or if this is mere coincidence.</p>
 
 
 

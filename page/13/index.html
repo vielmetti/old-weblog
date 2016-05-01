@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-05-01-roosroast-may-day/" class="list-group-item">May Day at Roos Roast with Burroughs and Polya</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-25-hidden-water-flush-maps/" class="list-group-item">Ann Arbor hydrant flushing maps</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-25-mdeq-flint-water-graphic/" class="list-group-item">Michigan DEQ with misleading graphic on progress in Flint Water Crisis</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-24-alaska-earthquake/" class="list-group-item">M7.1 earthquake felt in Anchorage, Alaska</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-writing-things-down/" class="list-group-item">Writing things down</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary/" class="list-group-item">a2b3 lunch non-summary for 3d week of January 2016</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4254,6 +4256,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12540,6 +12544,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12855,6 +12861,64 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>5 October 2014</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/">using &#34;jq&#34; for command line web applications for civic data</a>
+      </h3>
+      <p>One of the tools that I rediscovered and have been really happy for
+having done so is &ldquo;jq&rdquo;, a command line tool that bills itself as
+&ldquo;awk for json&rdquo;.</p>
+
+<p>I&rsquo;ve been writing awk code since 1985, and some limited subset
+of it is something that I know really, really well. awk, however,
+is from the punchcard era, and as such it likes to deal with records
+that are all on one line each. Parsing JSON in awk is very clumsy
+and ad hoc and really doesn&rsquo;t work all that well. Since most Internet
+APIs these days have some kind of JSON encoding, it means that you
+can&rsquo;t simply dash off an awk one-liner to consume and transform
+Internet input data.</p>
+
+<p>jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&rsquo;s garages:</p>
+
+<blockquote>
+  <p>curl -s http://www.a2dda.org/map/AADDACount.json |
+  jq "[.countdata[].spacesavail | tonumber] | add" </p>
+</blockquote>
+
+<p>I&rsquo;m not going to try to explain how jq works, except to note that
+it&rsquo;s constructed in order to be a filter: data comes in one JSON
+object at a time, and the script iterates over them, transforming
+them in some way and then passing JSON out the other end. This makes
+it perfect for ad hoc Unix pipeline efforts where you&rsquo;re chipping
+away at a data set trying to make sense of it by successively
+refining it as you go.</p>
+
+<p>I&rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
+bus system data, and for the Marquette Park Cemetery data. The
+parking data is straightforward, since it exits the system as JSON.
+Bus system data is only incrementally harder; it started either as
+HTML or as XML, and for that you want to use &ldquo;tidy&rdquo; and &ldquo;xml2json&rdquo;
+in your pipeline. The Park Cemetery data set started as JSON via
+the Socrata SODA API, but I needed little bits of &ldquo;sed&rdquo; and &ldquo;perl&rdquo;
+to smooth out some rough edges in the source data; it really wants
+to end up as GeoJSON when I&rsquo;m done, but it isn&rsquo;t there quite yet.</p>
+
+<p>Shell programming is my favorite programming environment. Any time
+I can take a set of well-understood tools and crunch through big
+data sets with only a few lines of code, I&rsquo;m happy. The challenge
+of shell programming is that it&rsquo;s full of opportunities to get
+things just a little bit wrong with parsing; by making JSON the
+data format that&rsquo;s shoveled between programs rather than a flat
+one-record-per-line text format, you open up the opportunity for
+pulling apart rather complex structures and manipulating them with
+hardly any work.</p>
+
+<p>For further reading, see Jeroen Janssens new book <a
+href="http://datascienceatthecommandline.com/">Data Science at the
+Command Line</a> which works you way through dozens of tools like
+this that can help manage big data without big programs.</p>
 
 
   <h3>5 October 2014</h3>
@@ -13284,19 +13348,6 @@ be cleaned up that drags down progress.</p>
       <a href="http://vielmetti.github.io/post/2014/2014-09-28-export-everything-is-missing-on-ello/">export everything is missing on ello</a>
       </h3>
       <p>I don't see an "export all my work here" button on ello, the new trendy social network. So I am unlikely to put anything there that I am unwilling to have destroyed on a moment's notice.</p>
-
-
-  <h3>28 September 2014</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2014/2014-09-28-a-blow-to-the-head-but-back-in-the-game/">a blow to the head, but back in the game</a>
-      </h3>
-      <p>The tone of Michigan football blogs has changed since the loss to Minnesota on Saturday. Before the game there was a lot of grumbling, but it was varied; no one single issue stood out. After the game, it was much more clear.</p>
-
-<p>A series of plays saw the second string Michigan quarterback, Shane Morris, get hit hard on his head. Morris is seen exhibiting signs of a concussion. Yet in an unfortunate sequence he goes back into the game after sitting out one play on the sidelines.</p>
-
-<p>Fans now have a pinpoint spot to point their anger at coach Brady Hoke. The team lost, but it's not all about winning and losing. What matters now is the understanding of the coaching staff and their inability to protect an obviously injured student from further harm.</p>
-
-<p>Michigan has gotten funding to reduce the risk of concussions in sports. It appears that all that effort was for naught in this particular instance of not protecting a player whose judgment was impaired because of a head injury. Coach Hoke is under fire and for good reason.</p>
 
 
 
