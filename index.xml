@@ -6,8 +6,52 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2016 11:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 01 May 2016 23:15:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Three column writing style</title>
+      <link>http://vielmetti.github.io/post/2016/2016-05-01-three-column-writing-style/</link>
+      <pubDate>Sun, 01 May 2016 23:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-05-01-three-column-writing-style/</guid>
+      <description>&lt;p&gt;The elements of a three column writing style:&lt;/p&gt;
+
+&lt;p&gt;There is a broad center, with sidebars left and right.&lt;/p&gt;
+
+&lt;p&gt;The left sidebar is labelled &amp;ldquo;Do&amp;rdquo;, and it contains a
+record of the things that were done; sit in a chair,
+drink a cup of coffee, do laundry between writing bits,
+make the bed.&lt;/p&gt;
+
+&lt;p&gt;The right sidebar contains snippets or longer of things
+that were read, since you are expected when writing to
+have reading materials nearby to crib from or to be
+inspired by. Tonight I have the Taschen postcardbook &amp;ldquo;Barkitecture&amp;rdquo;,
+and a postcard from Syracuse Cultural Workers on
+&amp;ldquo;How to create community&amp;rdquo;, to guide me along.&lt;/p&gt;
+
+&lt;p&gt;This leaves the middle main column for thoughts, impressions;
+&amp;ldquo;writing&amp;rdquo;, not that the other bits are any fewer words on
+the page.&lt;/p&gt;
+
+&lt;p&gt;The challenge overall is how to represent this on the
+computer screen. When you write in this style, the page
+can be read top to bottom or left to right or in any
+diagonal direction, and it will still make some sense.
+Short of typing words into cells of a spreadsheet, or
+composing in a monospaced font with exact word counts,
+it&amp;rsquo;s hard to recreate precisely.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve always liked writing in the sidebar, sometimes more
+so than the writing in the middle. Quadrille paper helps
+to keep the margins aligned.&lt;/p&gt;
+
+&lt;p&gt;(Note that the blogging format is essentailly a one-column
+style with some static sidebars, and I have never managed
+to compose anything suitable that really captures my notebooks.)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>May Day at Roos Roast with Burroughs and Polya</title>
@@ -544,30 +588,6 @@ generated more.&lt;/p&gt;
 as neither system is necessarily &amp;ldquo;useful&amp;rdquo; for individual messages in isolation.
 It&amp;rsquo;s the cumulative effect of being able to reach out to people that makes
 some value of them both.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Upgrade to El Capitan</title>
-      <link>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</link>
-      <pubDate>Wed, 30 Mar 2016 10:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m working through the details of an upgrade from Mavericks to
-El Capitan. Some running notes.&lt;/p&gt;
-
-&lt;p&gt;The upgrade took about 2 hrs. I went to the Apple Store at Briarwood
-in Ann Arbor to get the install done, since their Internet is faster
-than my home UVerse.&lt;/p&gt;
-
-&lt;p&gt;After doing the upgrade the next big slow task is &lt;code&gt;brew update&lt;/code&gt;. You
-would not be surprised to know that I have a lot of packages installed,
-and that brew is working hard to update everything.&lt;/p&gt;
-
-&lt;p&gt;The biggest reason that I upgraded was to get &lt;code&gt;xhyve&lt;/code&gt; and thus
-Docker for Mac. I&amp;rsquo;m using the beta now (beta 5) and have gotten
-a few trivial things to work, but am still sorting out a few
-questions which might or might not be issues.&lt;/p&gt;
 </description>
     </item>
     

@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-05-01-three-column-writing-style/" class="list-group-item">Three column writing style</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-05-01-roosroast-may-day/" class="list-group-item">May Day at Roos Roast with Burroughs and Polya</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-25-hidden-water-flush-maps/" class="list-group-item">Ann Arbor hydrant flushing maps</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-25-ann-arbor-public-schools-social-media-threat/" class="list-group-item">Ann Arbor Public Schools respond to social media threat</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-24-alaska-earthquake/" class="list-group-item">M7.1 earthquake felt in Anchorage, Alaska</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-22-writing-things-down/" class="list-group-item">Writing things down</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4256,6 +4258,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12546,6 +12550,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12861,6 +12867,62 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>30 October 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-10-30-the-aaata-microapi/">The AAATA MicroAPI</a>
+      </h3>
+      <p>I had a good conversation with Prabal Dutta today about the sort of infrastructure
+you need to build a very simple bus tracker application for the current iteration
+of the AAATA&rsquo;s online system.</p>
+
+<p>The desired goal is actually fairly simple: for a single place, identify the approximate
+location of a bus on a single bus line that serves that place, and alert the rider in time
+so that they can walk (or run) to catch the bus. Allow some time for getting there early.</p>
+
+<p>The JSON endpoint that shows all the buses on Route 5 you can fetch as follows:</p>
+
+<pre><code>curl -s http://microapi.theride.org/Location/5
+</code></pre>
+
+<p>and the data itself has records that look like this:</p>
+
+<pre><code>  {
+    &quot;Id&quot;: &quot;48674187&quot;,
+    &quot;routeAbbr&quot;: &quot;5&quot;,
+    &quot;adherence&quot;: -5,
+    &quot;timestamp&quot;: &quot;00:01:11.1189770&quot;,
+    &quot;lat&quot;: 422301779,
+    &quot;longitude&quot;: -837077535,
+    &quot;busNum&quot;: 401,
+    &quot;routeDirection&quot;: &quot;to Ann Arbor&quot;,
+    &quot;timePointName&quot;: &quot;Ellsworth &amp; Braeburn&quot;,
+    &quot;timePointAltName&quot;: &quot;N- Ellsworth Rd. west of Braeburn&quot;,
+    &quot;crossingTime&quot;: &quot;4:46 PM&quot;,
+    &quot;timePointStopID&quot;: &quot;1327&quot;
+  },
+</code></pre>
+
+<p>which reads as follows: &ldquo;At 4:46 PM, bus 401 was 5 minutes late and located at
+the Ellsworth &amp; Braeburn timepoint. That was 1 minute 11.1 seconds ago.&rdquo;</p>
+
+<p>It&rsquo;s then a short exercise left to the reader to suss out what this means for them.
+The simplest thing to do is to filter through the bus listings, pick out the ones
+where &ldquo;routeDirection&rdquo; is heading the right way, and where the &ldquo;timePointName&rdquo; is
+close enough that you can run for the bus but not so close that the bus has already
+zoomed past.</p>
+
+<p>My favorite general purpose tool for dealing with JSON data is <code>jq</code>, from
+<a href="https://stedolan.github.io/jq/">https://stedolan.github.io/jq/</a> . It has a syntax for filtering through and querying
+JSON objects with about as much expressive power as <code>sed</code>. The slightly more
+useful command runs like</p>
+
+<pre><code>curl -s http://microapi.theride.org/Location/5 | jq -c '.[]|[.routeDirection, .timePointName]' 
+</code></pre>
+
+<p>which picks out <code>routeDirection</code> and <code>timePointName</code> and lands them on a single line <code>-c</code>
+suitable for any of your favorite Unix tools.</p>
 
 
   <h3>30 October 2015</h3>
@@ -14310,44 +14372,6 @@ that&rsquo;s something that I can do next when the next time I&rsquo;m ready to
 contribute to the project.</p>
 
 <p>Credit goes to Github user <a href="https://github.com/khaytsus">khaytsus</a>.</p>
-
-
-  <h3>22 August 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-08-22-github-waffle-kanban-board/">Using Github Issues and Waffle.io as a personal kanban board</a>
-      </h3>
-      <p>I&rsquo;ve been using Github issues to track my personal todo list for quite some
-time now, and since November I&rsquo;ve been using Waffle.io to help that process.</p>
-
-<p>Waffle in this use is a view of a series of queues in my todo list. Most everything
-that I&rsquo;m not doing now lives in the &ldquo;backlog&rdquo; queue, which I try to keep to
-less than 100 just to keep myself sane. (At more than 100 there&rsquo;s usually a lot
-of duplicates; at less than 100 I&rsquo;m probably not acknowledging that there&rsquo;s
-something to be done). The &ldquo;Ready&rdquo; and &ldquo;In Progress&rdquo; queues hold no more than
-5 tasks apiece, since I want to keep everything in that state visible on
-the screen. Finally the &ldquo;Done&rdquo; queue reflects how much work there is that
-actually got accomplished over the last week, and I&rsquo;d love to say that was
-hovering at about 50 tasks a week though right now it&rsquo;s only at 34.</p>
-
-<p>Github issues are more than capable of handling a personal todo list - indeed
-it has a lot of features that if you tried to use all of them you&rsquo;d quickly
-find that too much of your time was perfecting your lists and not enough
-time was spent doing things. So the challenge is coming up with a simple
-configuration of the system that doesn&rsquo;t ignore what might be done, but that
-focuses on what really needs to be done.</p>
-
-<p>The inspriation for all of this is Jim Benson&rsquo;s &ldquo;Personal Kanban&rdquo;, and his
-observation that really the task simplifies down to two rules:</p>
-
-<ul>
-<li>Limit work in progress</li>
-<li>Visualize your work</li>
-</ul>
-
-<p>The rest is merely commentary.</p>
-
-<p>(Now I get to drag task 3568, &ldquo;Write up use of Waffle for Vacuum blog&rdquo;, into the
-&ldquo;Done&rdquo; category, which is kinetically very satisfactory.)</p>
 
 
 
