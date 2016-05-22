@@ -10,14 +10,19 @@
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Bots are hot</title>
+      <title>Bots are hot - again</title>
       <link>http://vielmetti.github.io/post/2016/2016-05-18-bots-are-hot/</link>
       <pubDate>Wed, 18 May 2016 11:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-05-18-bots-are-hot/</guid>
-      <description>&lt;p&gt;The title of the post is taken from a &lt;a href=&#34;http://www.wired.com/1996/04/netbots/&#34;&gt;1996 Wired article&lt;/a&gt;,
+      <description>&lt;p&gt;The title of the post is taken from a &lt;a href=&#34;http://www.wired.com/1996/04/netbots/&#34;&gt;1996 Wired article&lt;/a&gt;
+by &lt;a href=&#34;https://twitter.com/koxinga21&#34;&gt;Andrew Leonard&lt;/a&gt;
 describing the state of automated systems in the dot-com
 era.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Web robots – spiders, wanderers, and worms. Cancelbots, Lazarus, and Automoose. Chatterbots, softbots, userbots, taskbots, knowbots, and mailbots. MrBot and MrsBot. Warbots, clonebots, floodbots, annoybots, hackbots, and Vladbots. Gaybots, gossipbots, and gamebots. Skeleton bots, spybots, and sloth bots. Xbots and meta-bots. Eggdrop bots. Motorcycle bull dyke bots.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Bots are hot today in part because natural langauge processing
 has improved to the point where &lt;a href=&#34;https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html&#34;&gt;Google can build hardware&lt;/a&gt;
