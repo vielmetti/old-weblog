@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-05-24-zingermans-coffee/" class="list-group-item">At Zingermans Coffee for an afternoon of writing</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-05-23-day-trips-from-ann-arbor/" class="list-group-item">Day trips from Ann Arbor</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-05-18-bots-are-hot/" class="list-group-item">Bots are hot - again</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/" class="list-group-item">Upgrade to El Capitan</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-02-14-stadium-boulevard-project/" class="list-group-item">Stadium Boulevard project bids high, portions of project to be delayed</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/" class="list-group-item">Chicken and onion curry</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4262,6 +4264,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12564,6 +12568,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12879,6 +12885,13 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>20 January 2009</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2009/2009-01-20-regime-change-before-and-after-on-whitehousegov/">regime change: before and after on whitehouse.gov</a>
+      </h3>
+      <p>$ for n in $(~/bin/range 1 60); do curl -L http://whitehouse.gov -o whitehouse.$n.html; sleep 60; done &amp;<br />$ ls -ltr<br />total 1392<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:46 whitehouse.1.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:47 whitehouse.2.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:48 whitehouse.3.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:49 whitehouse.4.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:50 whitehouse.5.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:51 whitehouse.6.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:52 whitehouse.7.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:53 whitehouse.8.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:54 whitehouse.9.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:55 whitehouse.10.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:56 whitehouse.11.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:57 whitehouse.12.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:58 whitehouse.13.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 11:59 whitehouse.14.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 33323 Jan 20 12:00 whitehouse.15.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 10603 Jan 20 12:03 whitehouse.16.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 48922 Jan 20 12:04 whitehouse.17.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 48922 Jan 20 12:05 whitehouse.18.html<br />-rw-r--r--&#0160; 1 emv&#0160; staff&#0160; 48922 Jan 20 12:06 whitehouse.19.html</p>
 
 
   <h3>19 January 2009</h3>
@@ -13402,14 +13415,6 @@ handle for ease of use and...<br /></div><p><br /><a href="http://www.wikipatent
       </h3>
       <p>As part of <a href="http://vielmetti.typepad.com/vacuum/2008/12/dte-power-outage-on-28-december-2008-takes-down-att-iphone-wireless-service.html">watching DTE slowly restore power to the area</a>, I&#39;ve been pulling down copies of their outage maps.&#0160; These are big PDF files, suitable for framing, that encode a bunch of data in them about where the power is out.&#0160; </p><p>Here&#39;s some tools I used to get details out of PDF into image formats, (hopefully) to get them back down to a spreadsheet full of numbers.</p><p>1.&#0160; Fetch the outage report automatically with curl:</p><p><span style="font-size: 10px; font-family: Courier;">DATESTAMP=$(</span><span style="font-size: 10px; font-family: Courier;">date &quot;+%Y-%m-%d-%H-%M&quot;)</span><br /><span style="font-size: 10px; font-family: Courier;">curl -s -o outage.$DATESTAMP.pdf http://my.dteenergy.com/map/zi<span style="font-size: 17px;"></span>pCodeOutageMap.pdf</span></p><p>This grabs the file and date/time stamps it appropriately.&#0160; I&#39;m running in an every 15 minutes loop, which means it grabs the file that&#39;s updated every 30 minutes twice (a little redundancy, not too bad).</p><p>2.&#0160; Convert the report from PDF to PNG with sips:</p><p><span style="font-size: 10px; font-family: Courier;">sips -s format png outage.$DATESTAMP.pdf --out outage.$DATESTAMP.png</span></p><p>&#39;sips&#39; (the &quot;scriptable image processing system&quot;) has a bunch of Applescript front end documentation for it, but there is also a command line lurking there as well.&#0160; I&#39;m <a href="http://del.icio.us/vielmetti/sips">collecting bookmarks for tutorials on sips at delicious</a>.&#0160; There&#39;s a lot that it can do, since it is mostly a front end for the core graphics library on the Mac which is quite powerful, but the doc is clearly not written with the intention that anyone uses it directly.</p><p>3.&#0160; Do fun stuff to a series of images with ImageMagick:</p><p><span style="font-size: 10px; font-family: Courier;">composite&#0160; -compose difference ~/Desktop/outage.2008-12-28-23-47.png outage.2008-12-29-13-28.png difference-progress.gif</span></p><p>ImageMagick has dozens, maybe hundreds, of transformations that you can use to take a set of images and turn them into something else.&#0160; It&#39;s powerful and also reasonably well documented, and I won&#39;t even try to summarize <a href="http://www.imagemagick.org/script/command-line-options.php">the ImageMagick command line options list</a> which gives you plenty to play with.</p><p>4.&#0160; Stare at the results and try to make sense of them.</p><p><br />
 <a href="http://www.flickr.com/photos/edward-vielmetti/3147531409/" title="dte power outage restoration progress by Edward Vielmetti, on Flickr"><img alt="dte power outage restoration progress" height="195" src="http://farm4.static.flickr.com/3283/3147531409_24c6bfb7f0.jpg" width="500" /></a></p><p>Here&#39;s the DTE progress map (middle) with before (left) and after (right) reflecting about 14 hours of restoration efforts.&#0160; Click through to Flickr for detail.&#0160; The large amounts of black in the middle photo represent locations where work progress has not resulted in a change in service that&#39;s visible, though there may in fact have been 1000s of lines restored.</p><p>5.&#0160; What I want is a tool that would work on a PNG and would give me the color value of a given pixel, or that would give me a histogram of all of the color values of all of the pixels in an image.&#0160; There is a <a href="http://www.imagemagick.org/Usage/files/#histogram">histogram function in ImageMagick</a> but it doesn&#39;t quite do the trick at first glance, and I&#39;d be better off posting this than trying to do more myself!</p><p>The takeaway on this if you squint hard enough - 14 hours of effort, and not a lot of immediately visible progress across broad parts of Livingston, Washtenaw, and Downriver areas in DTE service restoration. </p>
-
-
-  <h3>28 December 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-12-28-dte-power-outage-on-28-december-2008-takes-down-att-iphone-wireless-service/">DTE power outage on 28 December 2008 takes down AT&amp;T, iPhone wireless service</a>
-      </h3>
-      <p>It was a dark and stormy night.&nbsp; Suddenly, the power went out.</p><p>The biggest effect: 210,000 <a href="http://finance.google.com/finance?q=dte">DTE</a> customers all over SE Michigan went dark.&nbsp; Here's a piece of the map to give you an idea - click through for current map.</p><p>The best DTE site for updates seems to be <a href="http://mobile.dteenergy.com/main/">mobile.dteenergy.com</a>, as much as there is a "best".</p><p><a href="http://mobile.dteenergy.com/map/outage.html"><img  alt="Picture 1" class="at-xid-6a00d8341c4f1a53ef010536a18612970c" src="http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536a18612970c-800wi" title="Picture 1" border="0"></a>
- </p><p>The biggest side effect of this was an outage of the AT&amp;T mobile network and as a result the iPhone network.&nbsp; <a href="http://weblogs.redeyechicago.com/iphoneblog/2008/12/iphone-and-att-outage.html">Redeye Chicago is doing ongoing coverage of the AT&amp;T outage.</a>&nbsp; That writer is also on twittter - <a href="http://twitter.com/iptib">follow @iptib</a> for details.&nbsp; The story as it stands is that a power outage in "Bloomfield MI" (Bloomfield Hills?&nbsp; Bloomfield Township?) took out some key equipment.</p><p>News coverage:</p><p>Ann Arbor Chronicle: <a href="http://annarborchronicle.com/2008/12/28/dte-outage-affects-3000-in-ann-arbor/">DTE Outage Affects 3000 in Ann Arbor</a></p><p>Detroit Free Press: <a href="http://www.freep.com/article/20081228/NEWS05/81228038">Winds cut power to 230,000; families try to stay warm</a></p><p><span></span></p><p>Click On Detroit (WDIV 4): <a href="http://www.clickondetroit.com/news/18368866/detail.html">195,000 DTE Customers Without Power</a></p><p>Associated Press: <a href="http://www.google.com/hostednews/ap/article/ALeqM5ifTg_yfYpAykFLdY6fVBnb3NeMZAD95C3UT80">High wind knocks out power to 413,000 in Michigan</a></p><p>Grand Rapids Press: <a href="http://www.mlive.com/grpress/news/index.ssf/2008/12/countybycounty_power_outages_d.html">County by county power outages due to high winds around Michigan</a></p><p></p><p></p>
 
 
 
