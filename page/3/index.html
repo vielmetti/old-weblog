@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-05-25-taco-king/" class="list-group-item">Taco King</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-05-25-vsplit/" class="list-group-item">Writing in vim with vsplit and multiple windows</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-05-25-ann-arbor-writing-escapes/" class="list-group-item">Ann Arbor quiet writing escapes</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-milnor-time/" class="list-group-item">Milnor Time at Mr. Stadium</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-17-ecuador-terremoto/" class="list-group-item">Earthquake in Ecuador, April 16, 2016</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-04-06-reluctance/" class="list-group-item">Reluctance</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4272,6 +4274,8 @@
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12594,6 +12598,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12909,6 +12915,70 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>16 December 2015</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/">OpenVPN scaling</a>
+      </h3>
+      <p>Previously: <a href="http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/">OpenVPN in a container</a></p>
+
+<p>Also previously: <a href="http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/">Split tunnels considered harmful</a></p>
+
+<p>I have this running in a staging environment and a test
+environment; it properly isolates OpenVPN from the underlying
+operating system, and seems to do the right thing performing
+rather well. However, its biggest limitation is that
+it runs on a single host &amp; thus provides neither
+high availability in the case of Amazon <a href="http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/">funkiness</a>
+nor scalability to handle lots of clients.</p>
+
+<p>Getting this to be more reliable was a matter of tracking
+down the right systemd configuration. I&rsquo;ll save systemd
+commentary for a separate post, saying only that it&rsquo;s new,
+it&rsquo;s not necessarily better for managing single machines,
+but I can see the advantages for consolidated management of
+big collections of machines.</p>
+
+<p>Some OpenVPN config alternatives to pursue that look like they might do
+the right thing are as follows:</p>
+
+<p><a href="http://www.cloudcoreo.com">CloudCoreo</a> has a setup based on the Amazon Elastic Load Balancer.
+They say</p>
+
+<blockquote>
+<p>Getting an OpenVPN config up and running in AWS is difficult. We&rsquo;ve already done it for you in an HA, durable, self-healing way. This blog post details how.</p>
+</blockquote>
+
+<p>The blog post is in two sections.
+<a href="http://blog.cloudcoreo.com/single-points-of-failure-openvpn/">Part one</a> details how they
+configured autoscaling, elastic load balancing, name service, S3
+storage and policies, and security and IAM policies to set things
+up the way that you would want them within Amazon&rsquo;s AWS.
+<a href="http://blog.cloudcoreo.com/single-points-of-failure-openvpn-part-2-of-2/">Part two</a> goes on to describe the particular OpenVPN policy
+and routing setup, and there&rsquo;s a bunch of policy there particularly
+with the use of split tunnels that you want to understand.</p>
+
+<p>Their claim that they have
+&ldquo;done it all for you&rdquo; reflects a <a href="http://hub.cloudcoreo.com/stack/servers-vpn_c6a65">complete configuration</a> available
+through their CloudCoreo system.</p>
+
+<p>A second approach is detailed by <a href="https://blog.zalando.com">Zalando</a>, a Berlin based retail fashion platform.
+Their article <a href="https://tech.zalando.com/blog/building-an-openvpn-cluster-zalando-style/">Building an OpenVPN Cluster, Zalando-Style</a>
+uses dynamic routing to distribute routes, and the
+<a href="http://www.nongnu.org/quagga/">Quagga</a> system as their software based router. This setup
+does not particularly depend on AWS features, and they
+claim that
+&ldquo;With this set up, we have about 800 users (150 in parallel) and haven’t faced any performance issues at anytime, from anywhere!&rdquo;
+It&rsquo;s a bit more complex to set up, though the writeup
+makes it clear that because of the flexibility that dynamic
+routing gives you there&rsquo;s the opportunity to construct
+firewall policies that follow the user quite independent
+of how they are connecting to the network.</p>
+
+<blockquote>
+<p>A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)</p>
+</blockquote>
 
 
   <h3>14 December 2015</h3>
@@ -13711,49 +13781,6 @@ Commission, which is actively looking to advance its agenda, should
 be working harder to make sure that the people can see what they are
 up to. Otherwise you hold a meeting and spend time away from your
 kids and there&rsquo;s no record of it - why did you bother?</p>
-
-
-  <h3>4 November 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-11-04-open-github-issues/">Open Github issues and open source projects</a>
-      </h3>
-      <p>As a first approximation, the number of open issues on an open source
-project that uses Github to track its issues is a metric of software
-complexity and project maturity.</p>
-
-<p>It&rsquo;s always worrisome to look at a project that has very few issues,
-because that&rsquo;s usually a signal that no one else is using the code.
-Every bit of software has incomplete features that prompt a request,
-and bugs looking for a fix. No open issues at all suggest a dead
-project, or at least one that&rsquo;s not actively attracting development.</p>
-
-<p>Too many issues, on the other hand, suggest a system that&rsquo;s so
-complex that no one person has a complete understanding of how
-the project works. The number of issues can grow beyond the point
-where a person could read and understand all the incoming bug
-reports and feature requests.</p>
-
-<p>Every successful open source project deals with the struggle between
-adding new features to fill out the original vision of the designers
-and fixing enough bugs to make the system stable enough that it
-can be used in production without undue fears. This tug-of-war between
-features and bug fixes plays itself out over time, and sometimes
-difficult and complex bugs that only affect a few users get
-deprioritized over shiny new features that will attract a lot of
-new people to the project.</p>
-
-<p>How many open issues can one person track? I&rsquo;ll estimate that the
-number is about 100, plus or minus. So when a two person project
-has 50 open issues, it seems like it&rsquo;s under control. A project
-that has over 1000 open issues (e.g. docker) can only raise some
-warning flags - how did it get to be so big? What sorts of issues
-can stick around for years and not get resolved? How on earth does
-one profess to have any overall understanding of a system that
-complex, short of devoting themselves to it?</p>
-
-<p>Related:</p>
-
-<p><a href="https://blog.abevoelker.com/why-i-dont-use-docker-much-anymore/">Why I don&rsquo;t use Docker much anymore</a>, Abe Voelker.</p>
 
 
 
