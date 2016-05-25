@@ -6,8 +6,71 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 May 2016 09:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 25 May 2016 10:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Writing in vim with vsplit and multiple windows</title>
+      <link>http://vielmetti.github.io/post/2016/2016-05-25-vsplit/</link>
+      <pubDate>Wed, 25 May 2016 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-05-25-vsplit/</guid>
+      <description>&lt;p&gt;I imagine a digital writing
+environment that mimics how I write
+in my paper notebooks. On paper I use multiple columns,
+with parallel writing across the columns and the
+ability to go back and forth rather than just reading
+up and down. A recent discussion of a
+&lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-05-01-three-column-writing-style/&#34;&gt;three column writing style&lt;/a&gt; describes how and why
+this works.&lt;/p&gt;
+
+&lt;p&gt;An approach new to me is to use very large windows in &amp;ldquo;vim&amp;rdquo;, with
+the &amp;ldquo;vsplit&amp;rdquo; command to split the screen into three very tall
+windows. I don&amp;rsquo;t manage to get a full 80 column width out of each
+of them, but 65 columns is close enough that it feels like a
+workable writing environment. Moving between windows isn&amp;rsquo;t
+quite as easy as guiding the pen across the printed page, but
+it&amp;rsquo;s much easier than trying to do a fancy layout in a markup
+language.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s difficult to translate the writing environment directly to the
+screen for display. This post will be on the right two-thirds of
+the blog with a relatively static left sidebar (which no one ever
+clicks on, but that seems obligatory for the design).  At some point
+I might do a redesign, and then who knows what the left and right
+context will be.&lt;/p&gt;
+
+&lt;p&gt;There was a brief moment when my writing environment was mostly
+wiki with special purpose (read: hacked in) commands for maintaining
+a separate sidebar for each file, displayed adjacent to the main
+text. This was a personal wiki so I didn&amp;rsquo;t have to negotiate
+appropriate activity by any other users. The perpetual connected
+side display allows you to have a little negotiation with yourself
+about things that aren&amp;rsquo;t quite ready to put into the main text.&lt;/p&gt;
+
+&lt;p&gt;vim is a very powerful environment, perhaps too powerful.
+Some key combinations have profound and unexpected power over the
+command buffer, and you get lost. I find
+it easier to cope with, though, than the even more powerful emacs.
+I used GNU Emacs for a while in college but never managed to keep
+up with it, in large part because the strange key combinations of
+alt-meta-control-coke-bottle would strain my wrists. At least with
+vim, I can keep my fingers on the home row for the most part.&lt;/p&gt;
+
+&lt;p&gt;Writing context is important, and too often lost. You
+don&amp;rsquo;t see the right sidebar where I have notes about
+the Internet of Things and the sorts of interesting equipment
+that might mount on a sign post. My notes about a mysterious vim
+&amp;ldquo;E212&amp;rdquo; error in the left sidebar are gone.&lt;/p&gt;
+
+&lt;p&gt;It looks like the vsplit windows on this particular screen, when
+filled, hold about 450 words. Fully loaded, that means that a
+page properly laid out might have more than 1300 words of usable
+typing space. I could get used to this layout - not just because
+it lets me see the whole work, but also because it admits a
+couple of productive distractions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ann Arbor quiet writing escapes</title>
@@ -751,37 +814,6 @@ Roos Roast website, February 2016&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.mlive.com/business/ann-arbor/index.ssf/2016/03/deep_local_comes_downtown_roos.html&#34;&gt;MLive story&lt;/a&gt;, March 1, 2016.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://annarborobserver.com/articles/____as_john_roos_arrives_full_article.html&#34;&gt;Ann Arbor Observer story&lt;/a&gt;, &amp;ldquo;Roos Roast finds new roost&amp;rdquo;, April 2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Washtenaw restaurant inspections</title>
-      <link>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</link>
-      <pubDate>Fri, 22 Apr 2016 15:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Who: Wayne Eaker and the a2civictech Slack team&lt;/li&gt;
-&lt;li&gt;What: Restaurant inspections from Washtenaw County&lt;/li&gt;
-&lt;li&gt;Where: &lt;a href=&#34;http://food-inspections.annarbortelegraph.com&#34;&gt;http://food-inspections.annarbortelegraph.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;When: As they are updated, up to twice a momth&lt;/li&gt;
-&lt;li&gt;Why: When you eat out, you care about food safety&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some example searches:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_count_total%3A%5B30%20TO%201000%5D&#34;&gt;Three restaurants with 30 or more violations&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_inspection_violation_codes%3A6-501.111%3A%20Controlling%20Pests&amp;amp;f[1]=field_inspection_date%3A2016&#34;&gt;Reports from 2016 of pest problems&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The hardest part of this project is that it&amp;rsquo;s dependent
-on an undocumented interface from the contractor who
-does the work for the county.&lt;/p&gt;
-
-&lt;p&gt;One very nice aspect of the system that Wayne put together is that
-you can get alerts from every time a new inspection comes out that
-matches your saved settings, so you can track a particular restaurant
-or problem over time.&lt;/p&gt;
 </description>
     </item>
     
