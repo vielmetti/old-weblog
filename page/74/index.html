@@ -70,6 +70,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-06-01-github-private-repos/" class="list-group-item">Github private repositories</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-05-25-taco-king/" class="list-group-item">Taco King</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-05-25-vsplit/" class="list-group-item">Writing in vim with vsplit and multiple windows</a></li>
@@ -107,12 +109,12 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-prince/" class="list-group-item">Prince</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-04-22-milnor-time/" class="list-group-item">Milnor Time at Mr. Stadium</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-04-17-ecuador-terremoto/" class="list-group-item">Earthquake in Ecuador, April 16, 2016</a></li>
         
     </ul>
 
     <div class="sidebar-calendar">
+	
+	   
 	
 	   
 	
@@ -4269,11 +4271,11 @@
 	
 	   
 	
-	   
-	
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -4485,8 +4487,6 @@ cf <a href="http://gohugo.io/extras/datafiles/">http://gohugo.io/extras/datafile
 I have to learn about git subtrees.</li>
 </ul>
 
-	   
-	
 	   
 	
 	   
@@ -12917,6 +12917,53 @@ this and there will almost always be something new to read.</p>
 
 
 
+  <h3>26 June 2008</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2008/2008-06-26-kilowatts-per-t/">kilowatts per terabyte, or terabytes per kilowatt: a measure of storage energy efficiency</a>
+      </h3>
+      <p>A measure of the efficiency of data storage; the equivalent would be W/GB (watts per gigabyte).</p>
+
+<p>The range measured below is 0.4 TB/KW (RAM) to 500 TB/KW (Blu-ray disks), with a corresponding range in access speed and update times.</p>
+
+<p>Some estimates or measures:</p>
+
+<p>If you are using solid state memory (no disk; just memory, configured as disk) from <a href="http://www.superssd.com/products/tera-ramsan/">Texas Memory Systems</a>, expect to have 2.5 KW/TB, or 0.4 TB/KW:<br />
+<blockquote><br />
+The Tera-RamSan incorporates specially designed 4-Gbit Fibre Channel or 4x InfiniBand interfaces that include performance-enhancing hardware to reduce I/O latency to under 14 microseconds. With I/O requests being served so quickly, an order-of-magnitude more requests per second are executed by a single Tera-RamSan interface as compared to other Fibre Channel interfaces. By scaling SSD modules up to 8 units (8 Fibre Channel links per unit or 4 InfiniBand links per unit), the Tera-RamSan is the ultimate storage solution for high-performance applications in total IOPS and total bandwidth. Also, because the Tera-RamSan is DDRRAM based, there is NO penalty for RANDOM accesses. Data requests need not be tuned for performance. User access time is not compromised, even if tens of thousands of users access the system simultaneously. Extreme performance is the key feature of the Tera-RamSan.  <br />
+</blockquote></p>
+
+<p><a href="http://deepfreeze9.blogspot.com/2005/06/tonne-per-terabyte.html">From 2005, Pierre Devries: including cooling</a> about 1 KW/TB, or 1 TB/KW:<br />
+<blockquote><br />
+Working off Barroso, Dean and Hölzle’s paper on the Google cluster architecture, I infer that the energy consumption for storage is approximately 1W/GB: a dual 1.4-GHz Intel Pentium III server with a two 80GB drives draws 120W per server. Adding Google’s estimate of about 40% for cooling, gives 165 W per 160 GB, or 1 W/GB (watt/gigabyte). <br />
+</blockquote></p>
+
+<p>in the <a href="http://deepfreeze9.blogspot.com/2005/06/tonne-per-terabyte.html?showComment=1120610880000#c112061093215420698">comments to that post</a>, using the archive.org architecture: 50W/TB, or 20 TB/KW:<br />
+<blockquote><br />
+Capricorn tech clains that their Petabox storage, which they built for archive.org, runs as little as 50W/TB. I don't think that number includes the power consumption of the required air conditioning.<br />
+</blockquote></p>
+
+<p>updating <a href="http://www.capricorn-tech.com/products.php">Capricorn's Petabox to the current (2008) web site</a>, we see 27W/TB, or 37 TB/KW:<br />
+<blockquote><br />
+The PetaBox is completely scalable, from individual terabyte nodes to petabyte clusters. A single 19-inch rack can support up to 120TB of raw disk space. This density is achieved through an economy of design that consumes as little as 27 watts per terabyte.<br />
+</blockquote></p>
+
+<p><a href="http://www.computerweekly.com/Articles/2007/03/23/222467/solving-storage-power-and-cooling-concerns.htm">Computer Weekly in 2007</a> talks about metrics but doesn't actually measure:<br />
+<blockquote><br />
+An individual drive uses 5W to 15W of power depending on its capacity, rotation speed, form factor and operating state, but "you can't just multiply the number of drives in an array by some average power rating to get a total," says Mark Greenlaw, senior director with storage marketing at EMC. The power consumption of the array is more than the sum of the power used by the individual drives. Controllers and other components consume power. Copan Systems proposes two metrics for archival data storage: storage density measured in terabytes per square foot and terabytes per kilowatt.<br />
+</blockquote></p>
+
+<p><a href="http://www.copansystems.com/news/press_releases.php?press_id=64">A COPAN Systems press release from 2007</a>; naturally, take press releases for what they are worth.  The range from 4 TB/KW (Fibre Channel), 17 TB/KW (SATA), and 100 TB/KW (COPAN's sooper stuffs):<br />
+<blockquote><br />
+COPAN Systems has taken a "revolutionary" approach in how it has engineered its products over the past 4 years to deal with power and cooling issues in the data center. The low power requirements of COPAN's enhanced MAID architecture integrated with the extremely large storage density delivers in excess of an impressive 100 terabyte (TB) per kilowatt, the highest in the industry. This compares to an average power density for Fibre Channel disk products of approximately 4 TB per kilowatt and an average rate for standard SATA disk products of 17 TB per kilowatt. The savings are significant with estimates for power and cooling savings between $5.7 million and $7.8 million over a four year time period.<br />
+</blockquote><br />
+MAID, or "massive array of idle disks", if you don't know it, is an architecture where the drives are usually powered down; you wouldn't use it for active hot storage, but for mostly offline stuff it's a possible solution.</p>
+
+<p>For the weird, here's a read-mostly solution: a <a href="http://powerfile.com/">Powerfile</a> array of Blu-ray optical drives, at 500 TB/KW.<br />
+<blockquote><br />
+Appliance Leverages Next-Generation Blu-ray Disc™ Technology to Deliver 70 Terabytes per Rack, 120 Terabytes per Appliance, and Industry-Leading Energy Efficiency of 500 Terabytes per Kilowatt <br />
+</blockquote></p>
+
+
   <h3>24 June 2008</h3>
       <h3>
       <a href="http://vielmetti.github.io/post/2008/2008-06-24-fire-maps---mic/">Fire maps - Michigan, California, and global</a>
@@ -13513,24 +13560,6 @@ Economic development practitioners are reluctant to abandon the traditional tool
 </blockquote></p>
 
 <p>This can explain some of the strained relationships that sometimes happen between entrepreneurs and economic development groups - the measures of success don't happen on the same time or size scales between the two groups.  This doesn't mean that people will be hostile to each other, or that they won't appreciate each others commitments to the process - just that the traditional economic development organization has funding and accountability which simply doesn't let it be a "guerrilla" agency.</p>
-
-
-  <h3>11 June 2008</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2008/2008-06-11-1920s-detroit-n/">1920s Detroit newsreels from the Detroit News online</a>
-      </h3>
-      <p><a href="http://www.lib.wayne.edu/resources/digital_library/det_news/"><br />
-<img alt="10000pigeons" title="10000pigeons" src="http://vielmetti.typepad.com/photos/uncategorized/2008/06/11/10000pigeons.jpg" border="0"  /><br />
-</a><br />
-via <a href="http://dalnetconsortium.wordpress.com/2008/06/04/wsus-virtual-motor-city-project/">the Detroit Area Libraries Network</a>:<br />
-<blockquote><br />
-From the WSULS News Blog: “Because of a six month extension to an Institute of Library and Museum Services grant, the Wayne State University Library System and the Walter P. Reuther Library just finished adding around 20,000 images and over 400 videos to the Virtual Motor City photo collection, an online resource already containing digitized images from the Detroit News Collection, a photojournalistic resource held at the Reuther Library.</p>
-
-<p>This is the first time that videos were digitized as part of the VMC Project. The new videos added are Detroit News newsreels from the 1920s and include footage from local people and events to more well-known subjects like Babe Ruth and Helen Keller. The videos can be browsed at <a href="http://www.lib.wayne.edu/resources/digital_library/det_news/">http://www.lib.wayne.edu/resources/digital_library/det_news/</a><br />
-</blockquote><br />
-<p><br />
-There's a remarkable collection of stuff here, though finding things in it is going to be a challenge at first - aside from a small amount of descriptive text per item, the collection is largely unindexed yet.  Some highlights include <a href="http://www.lib.wayne.edu/resources/digital_library/det_news/video.php?vid=8_11">the opening of the Detroit Institute of Arts</a>, a 1922 <a href="http://www.lib.wayne.edu/resources/digital_library/det_news/video.php?vid=6A_22">parade of old cars</a>, and the <a href="http://www.lib.wayne.edu/resources/digital_library/det_news/video.php?vid=3R1_29">1925 Detroit News bread-baking contest</a>.<br />
-</p></p>
 
 
 
