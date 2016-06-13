@@ -348,11 +348,6 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/sidebar/todo/</loc>
-    <lastmod>2015-09-15T10:11:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://vielmetti.github.io/post/2015/2015-09-14-zenos-inbox/</loc>
     <lastmod>2015-09-14T01:15:00-04:00</lastmod>
   </url>
@@ -720,11 +715,6 @@
   <url>
     <loc>http://vielmetti.github.io/post/wow-that-is-fast/</loc>
     <lastmod>2015-07-14T03:25:43-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vielmetti.github.io/sidebar/calendar/</loc>
-    <lastmod>2015-07-14T02:32:07-04:00</lastmod>
   </url>
   
   <url>
@@ -10249,6 +10239,10 @@
   
   <url>
     <loc>http://vielmetti.github.io/sidebar/blogroll/</loc>
+  </url>
+  
+  <url>
+    <loc>http://vielmetti.github.io/sidebar/todo/</loc>
   </url>
   
 </urlset>
