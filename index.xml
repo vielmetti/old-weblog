@@ -43,108 +43,6 @@ will see.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Taco King</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-25-taco-king/</link>
-      <pubDate>Wed, 25 May 2016 13:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-25-taco-king/</guid>
-      <description>&lt;p&gt;The back story on Taco King is that the a2b3 group was here for lunch
-once about two years ago on the same day that the kitchen was being inspected
-by the state - and that day the restaurant closed voluntarily
-to deal with some of its problems on the spot rather than
-face sanction. We haven&amp;rsquo;t been back as a group, but I wanted to
-check out the place to see what I was missing and if anything
-had obviously changed.&lt;/p&gt;
-
-&lt;p&gt;The inspection if you want to see it is on a2docs, as
-&lt;a href=&#34;https://a2docs.aadl.org/view/389&#34;&gt;World Call Shop (Taco King) inspections, October 2 2014&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m sure it could be a good place to bring a large group for
-lunch again, if you live with the
-understanding that not every circumstance is perfect, and some
-delicious food comes out of kitchens that are not perfectly clean.
-It doesn&amp;rsquo;t take much reading of restaurant inspections to know that
-it&amp;rsquo;s rare to get a perfect score.&lt;/p&gt;
-
-&lt;p&gt;On the down side, loud nonsense television is playing on the TV set.
-Ads for title loans, and the show is the People&amp;rsquo;s Court.
-It&amp;rsquo;s a noisy background that makes it less fun to eat.&lt;/p&gt;
-
-&lt;p&gt;The verdict: it was a bit more expensive than I remembered,
-even though I had the special. The food was OK but not exceptional;
-in particular, the lengua taco was not worth the $1.00 upcharge
-on the daily special, I am a fan of tongue but it wasn&amp;rsquo;t
-as articulate as I might expect it to be. And further I think I
-was charged $1.25 for a drink that was labelled $0.99 on the shelf.&lt;/p&gt;
-
-&lt;p&gt;The little things, always! And perhaps the little reasons not to bring a big group.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writing in vim with vsplit and multiple windows</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-25-vsplit/</link>
-      <pubDate>Wed, 25 May 2016 10:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-25-vsplit/</guid>
-      <description>&lt;p&gt;I imagine a digital writing
-environment that mimics how I write
-in my paper notebooks. On paper I use multiple columns,
-with parallel writing across the columns and the
-ability to go back and forth rather than just reading
-up and down. A recent discussion of a
-&lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-05-01-three-column-writing-style/&#34;&gt;three column writing style&lt;/a&gt; describes how and why
-this works.&lt;/p&gt;
-
-&lt;p&gt;An approach new to me is to use very large windows in &amp;ldquo;vim&amp;rdquo;, with
-the &amp;ldquo;vsplit&amp;rdquo; command to split the screen into three very tall
-windows. I don&amp;rsquo;t manage to get a full 80 column width out of each
-of them, but 65 columns is close enough that it feels like a
-workable writing environment. Moving between windows isn&amp;rsquo;t
-quite as easy as guiding the pen across the printed page, but
-it&amp;rsquo;s much easier than trying to do a fancy layout in a markup
-language.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s difficult to translate the writing environment directly to the
-screen for display. This post will be on the right two-thirds of
-the blog with a relatively static left sidebar (which no one ever
-clicks on, but that seems obligatory for the design).  At some point
-I might do a redesign, and then who knows what the left and right
-context will be.&lt;/p&gt;
-
-&lt;p&gt;There was a brief moment when my writing environment was mostly
-wiki with special purpose (read: hacked in) commands for maintaining
-a separate sidebar for each file, displayed adjacent to the main
-text. This was a personal wiki so I didn&amp;rsquo;t have to negotiate
-appropriate activity by any other users. The perpetual connected
-side display allows you to have a little negotiation with yourself
-about things that aren&amp;rsquo;t quite ready to put into the main text.&lt;/p&gt;
-
-&lt;p&gt;vim is a very powerful environment, perhaps too powerful.
-Some key combinations have profound and unexpected power over the
-command buffer, and you get lost. I find
-it easier to cope with, though, than the even more powerful emacs.
-I used GNU Emacs for a while in college but never managed to keep
-up with it, in large part because the strange key combinations of
-alt-meta-control-coke-bottle would strain my wrists. At least with
-vim, I can keep my fingers on the home row for the most part.&lt;/p&gt;
-
-&lt;p&gt;Writing context is important, and too often lost. You
-don&amp;rsquo;t see the right sidebar where I have notes about
-the Internet of Things and the sorts of interesting equipment
-that might mount on a sign post. My notes about a mysterious vim
-&amp;ldquo;E212&amp;rdquo; error in the left sidebar are gone.&lt;/p&gt;
-
-&lt;p&gt;It looks like the vsplit windows on this particular screen, when
-filled, hold about 450 words. Fully loaded, that means that a
-page properly laid out might have more than 1300 words of usable
-typing space. I could get used to this layout - not just because
-it lets me see the whole work, but also because it admits a
-couple of productive distractions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Ann Arbor quiet writing escapes</title>
       <link>http://vielmetti.github.io/post/2016/2016-05-25-ann-arbor-writing-escapes/</link>
       <pubDate>Wed, 25 May 2016 09:15:00 -0400</pubDate>
@@ -309,68 +207,6 @@ plagiarism as a thought-crime. From Kenneth Goldsmith:&lt;/p&gt;
     </item>
     
     <item>
-      <title>At Zingermans Coffee for an afternoon of writing</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-24-zingermans-coffee/</link>
-      <pubDate>Tue, 24 May 2016 15:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-24-zingermans-coffee/</guid>
-      <description>&lt;p&gt;A daily coffee and wifi report.&lt;/p&gt;
-
-&lt;p&gt;At times I get frustrated by my ability to sit down and produce words on a page.
-The challenge is not to keep going once I get going, but in the very act of
-getting started.&lt;/p&gt;
-
-&lt;p&gt;I do best at writing when I have a prompting question that allows me
-to go on and on at least to get to the point where the screen is full
-and ready to be edited down to size. The prompt doesn&amp;rsquo;t have to be
-the words that eventually get onto the page; it&amp;rsquo;s at least as likely
-that you discover what you sat down to do only &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; of the way down
-the screen, and then&amp;rsquo;t it&amp;rsquo;s time to shuffle the page around to save
-what&amp;rsquo;s savable and refocus what you had dealt with into a smaller spot.&lt;/p&gt;
-
-&lt;p&gt;Prompting questions are fun (and hard). I once wrote for AnnArbor.com, a
-semi-lovable job which was equal parts delight and horror. The delight
-was that the prompt only was to keep the phrase &amp;ldquo;Ann Arbor&amp;rdquo; in the first
-paragraph. The horror was the task of reading all of the comments
-on all of the stories written. Since then, I never read the comments.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s easy to be distracted while writing in such a way that the start
-never happens. Deadlines and word counts have a way of sharpening the
-mind, and that helps. The trick is to realize that you have to trick
-yourself sometimes into starting, and once the words start to flow
-it is not so difficult.&lt;/p&gt;
-
-&lt;p&gt;First, there&amp;rsquo;s all of the other windows that you might have open that have
-little bubbles protesting that you can&amp;rsquo;t close them until you empty out
-that bubble. I don&amp;rsquo;t want to count how many alternative rounded rectangles there
-are hiding on-screen that all demand some measure of attention. It&amp;rsquo;s
-not just that there are non-zero numbers on the inbox, that&amp;rsquo;s normal;
-it&amp;rsquo;s also that every other communications channel seems to be wide open.
-To close them you either deal with the system or ignore it.&lt;/p&gt;
-
-&lt;p&gt;Next of course since it&amp;rsquo;s Zingerman&amp;rsquo;s there&amp;rsquo;s almost always someone
-I know to reacquiaint myself with, or someone I don&amp;rsquo;t know to be
-introduced to. I&amp;rsquo;m not sure how they managed to make a non-descript
-entrance in an industrial park into Grand Central Station, but they
-did, and I appreciate the effort.&lt;/p&gt;
-
-&lt;p&gt;Finally there&amp;rsquo;s the notifications coming from various systems - Slack,
-or Facebook, or email. I&amp;rsquo;d be remiss in not suggesting to myself
-that I shut them off, but they persist, and because they are handy
-sometimes I let myself get noise in the upper right hand corner of the
-screen.&lt;/p&gt;
-
-&lt;p&gt;Of late the &amp;ldquo;screen is full&amp;rdquo; challenge has gotten harder, since I&amp;rsquo;m
-using as big a text window to type into as I can - 60+ lines tall, and
-more than 200 characters wide. A 500 word essay fits in one column
-of that page and can easily be seen on a single screen. Divide the
-screen in two, and 1000 words come to view. What you can do when
-the whole argument comes into sharp focus, and you can see that the
-excuses that you are making in the middle of it don&amp;rsquo;t need to be there.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Day trips from Ann Arbor</title>
       <link>http://vielmetti.github.io/post/2016/2016-05-23-day-trips-from-ann-arbor/</link>
       <pubDate>Mon, 23 May 2016 10:30:00 -0400</pubDate>
@@ -497,169 +333,6 @@ known only by people&amp;rsquo;s memories of them.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Three column writing style</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-01-three-column-writing-style/</link>
-      <pubDate>Sun, 01 May 2016 23:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-01-three-column-writing-style/</guid>
-      <description>&lt;p&gt;The elements of a three column writing style:&lt;/p&gt;
-
-&lt;p&gt;There is a broad center, with sidebars left and right.&lt;/p&gt;
-
-&lt;p&gt;The left sidebar is labelled &amp;ldquo;Do&amp;rdquo;, and it contains a
-record of the things that were done; sit in a chair,
-drink a cup of coffee, do laundry between writing bits,
-make the bed.&lt;/p&gt;
-
-&lt;p&gt;The right sidebar contains snippets or longer of things
-that were read, since you are expected when writing to
-have reading materials nearby to crib from or to be
-inspired by. Tonight I have the Taschen postcardbook &amp;ldquo;Barkitecture&amp;rdquo;,
-and a postcard from Syracuse Cultural Workers on
-&amp;ldquo;How to create community&amp;rdquo;, to guide me along.&lt;/p&gt;
-
-&lt;p&gt;This leaves the middle main column for thoughts, impressions;
-&amp;ldquo;writing&amp;rdquo;, not that the other bits are any fewer words on
-the page.&lt;/p&gt;
-
-&lt;p&gt;The challenge overall is how to represent this on the
-computer screen. When you write in this style, the page
-can be read top to bottom or left to right or in any
-diagonal direction, and it will still make some sense.
-Short of typing words into cells of a spreadsheet, or
-composing in a monospaced font with exact word counts,
-it&amp;rsquo;s hard to recreate precisely.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve always liked writing in the sidebar, sometimes more
-so than the writing in the middle. Quadrille paper helps
-to keep the margins aligned.&lt;/p&gt;
-
-&lt;p&gt;(Note that the blogging format is essentailly a one-column
-style with some static sidebars, and I have never managed
-to compose anything suitable that really captures my notebooks.)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>May Day at Roos Roast with Burroughs and Polya</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-01-roosroast-may-day/</link>
-      <pubDate>Sun, 01 May 2016 11:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-01-roosroast-may-day/</guid>
-      <description>&lt;p&gt;An account of
-the trip;
-what happened.&lt;/p&gt;
-
-&lt;p&gt;Egg and a shot
-at &lt;a href=&#34;http://twitter.com/roosroast&#34;&gt;Roos Roast&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;AVOID GRINDING
-OVER STEAMING POT.&lt;/p&gt;
-
-&lt;p&gt;Drinking the
-espresso shot,
-with an increasing
-titration of milk.
-Reading Twitter.
-Sunday a.m.
-tweeting is good.&lt;/p&gt;
-
-&lt;p&gt;Anker battery
-plugged in to
-75% Macbook.&lt;/p&gt;
-
-&lt;p&gt;Avantgarde
-Design &lt;a href=&#34;http://www.taschen.com&#34;&gt;postcard&lt;/a&gt;
-book, UM
-&lt;a href=&#34;http://www.umcu.org&#34;&gt;Credit Union&lt;/a&gt;
-pen.&lt;/p&gt;
-
-&lt;p&gt;Reqeusted &amp;ldquo;When
-We Are No
-More&amp;rdquo; Abby
-Smith &lt;a href=&#34;http://www.rumseywrites.com&#34;&gt;Rumsey&lt;/a&gt;.
-Deliver to
-Pittsfield (?!)&lt;/p&gt;
-
-&lt;p&gt;What I was thinking at the time.&lt;/p&gt;
-
-&lt;p&gt;Reading a &lt;a href=&#34;http://pinboard.in/u:vielmetti/t:burroughs&#34;&gt;Burroughs&lt;/a&gt; interview, on
-his multicolumn notebooks, cut ups,
-and fold-ins. Writing technology.&lt;/p&gt;
-
-&lt;p&gt;I reread How To Solve It when
-I am looking for work. Does it
-work? Is there some better text?&lt;/p&gt;
-
-&lt;p&gt;Grand Hotel serving sushi, says
-Crain&amp;rsquo;s Detroit. Do they also
-serve smelt? What happened
-to the smelt runs?&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://twitter.com/chairkicker&#34;&gt;Brian Kerr&lt;/a&gt; writes of the
-intricate ritual of being
-dependent on electronica, and
-the daily or more frequent need to
-recharge batteries.&lt;/p&gt;
-
-&lt;p&gt;Abby Smith Rumsey on
-prserving history in a
-digtial age;&lt;/p&gt;
-
-&lt;p&gt;Pondering that my digital
-ephemera are dependent on
-&lt;a href=&#34;http://www.typepad.com&#34;&gt;monthly subscriptions&lt;/a&gt;, and
-could fade in a moment.&lt;/p&gt;
-
-&lt;p&gt;Cyberspace, remember that,
-data gloves and VRML and
-the metaverse and all that?
-Yeah. There.&lt;/p&gt;
-
-&lt;p&gt;Quotations from any book I take with me.&lt;/p&gt;
-
-&lt;p&gt;What is the
-unknown?
-What are the
-data?
-What is the
-condition?&lt;/p&gt;
-
-&lt;p&gt;The second rule
-of discovery
-is to sit tight
-and wait until
-you get a
-bright idea.&lt;/p&gt;
-
-&lt;p&gt;Variation of
-the problem
-is essential.&lt;/p&gt;
-
-&lt;p&gt;Any relation
-to the adding
-machine firm?&lt;/p&gt;
-
-&lt;p&gt;My grandfather.&lt;/p&gt;
-
-&lt;p&gt;The International
-Style that developed
-as a result marked
-the breakthrough
-of functional design
-suited to the
-technical requirements
-of mass production.&lt;/p&gt;
-
-&lt;p&gt;end note&lt;/p&gt;
-
-&lt;p&gt;The Burroughvian three column style is
-very sutiable for the (illeg.) Read across,
-or down.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Ann Arbor hydrant flushing maps</title>
       <link>http://vielmetti.github.io/post/2016/2016-04-25-hidden-water-flush-maps/</link>
       <pubDate>Mon, 25 Apr 2016 16:15:00 -0400</pubDate>
@@ -773,6 +446,178 @@ obtained without somebody being enslaved.&lt;/p&gt;
 long-suffering inanimate machines that we imbue so much personality
 into that some of us unknowingly
 &lt;a href=&#34;http://www.businessinsider.com/amy-ingram-personal-assistant-2015-7&#34;&gt;flirt with a robot&lt;/a&gt; because we are so charmed by their devotion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Game of Fail - HBO Now unable to host Game of Thrones premiere</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-24-game-of-fail-hbonow-down/</link>
+      <pubDate>Sun, 24 Apr 2016 21:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-24-game-of-fail-hbonow-down/</guid>
+      <description>&lt;p&gt;HBO Now is experiencing technical difficulties in hosting the premeire
+of the popular Game of Thrones season, according to multiple reports
+monitored on Twitter.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Our team is working to resolve as soon as possible. Check back
+soon for updates.&amp;rdquo; &lt;a href=&#34;https://twitter.com/HBONowHelp/status/724409299770982403&#34;&gt;@HBONowHelp, 9:26 p.m.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;More news on this at &lt;a href=&#34;https://news.fastcompany.com/game-of-thrones-fans-getting-error-message-on-hbo-now-4004496&#34;&gt;Fast Company&lt;/a&gt;
+and (of course, where else) &lt;a href=&#34;https://www.reddit.com/r/gameofthrones/comments/4gb0j1/no_spoilers_hbo_now_blackout_error_message/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Reddit thread has lots of suggestions, some pointing the failure
+at HBO&amp;rsquo;s geolocation technology.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taking a break from Facebook</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-24-facebook-break/</link>
+      <pubDate>Sun, 24 Apr 2016 21:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-24-facebook-break/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m taking a temporary break from Facebook.&lt;/p&gt;
+
+&lt;p&gt;You probably won&amp;rsquo;t read this message in time to switch any of your
+normal communciations paths with me; indeed, unless I had told you
+that I was leaving Facebook idle for a while you wouldn&amp;rsquo;t notice at all.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d prefer it if more people were blogging, and more to the point if
+I were blogging more. I miss the olden days when you could count on
+people updating their blogs more than once a month and when it made
+sense to make the rounds of blogrolls. But I suppose that&amp;rsquo;s just
+net.nostalgia for the olden days, the same way you might say that
+Flickr was better the first few years, and oh we don&amp;rsquo;t have anything
+quite like the Napster that we once had.&lt;/p&gt;
+
+&lt;p&gt;What we do have is Facebook, and plenty of it. A recent story somewhere
+that I read somewhere (see, this media makes our brains mush) was that
+people with Facebook accounts are dying, and that the Facebook we know
+now will be dominated some time soon by memorials to the dead.&lt;/p&gt;
+
+&lt;p&gt;Faced with that grim promise, what to do instead? Twitter is my
+solace, the endless stacatto chatter punctuated by weird Unicode
+glyphs, with cryptic tendencies and self-contained non-sequiturs.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m taking a break. How can you tell? I&amp;rsquo;m writing again. I don&amp;rsquo;t
+write on Facebook, so much as scroll endlessly and leave little
+obscure comments made out of mostly-remembered lyrics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Roos Roast to add downtown Ann Arbor location</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-23-roos-roast-downtown/</link>
+      <pubDate>Sat, 23 Apr 2016 13:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-23-roos-roast-downtown/</guid>
+      <description>&lt;p&gt;Roos Roast is adding a downtown Ann Arbor location, due to open
+spring of 2016. The roastery on Rosewood will expand to a
+second location on E Liberty St, where Elixir Vitae used to be.
+Elixir will keep its Maynard St store open.&lt;/p&gt;
+
+&lt;p&gt;The interior construction in the store is going well,
+as far as it&amp;rsquo;s possible to determine from looking at
+the permit process and poking my head inside the door.
+So far the following permits have
+been pulled, according to the city&amp;rsquo;s eTrakit system:&lt;/p&gt;
+
+&lt;p&gt;BLDG16-0317 for demolition in the existing site, approved
+3/7/2016&lt;/p&gt;
+
+&lt;p&gt;ELEC16-0449 for internal electrical wiring, approved 4/18/2016;
+work by &lt;a href=&#34;http://www.bremray.com/&#34;&gt;Bremray Electrical&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HDC16-062 to the Historic District Commission for a sign,
+applied 4/18/2016&lt;/p&gt;
+
+&lt;p&gt;PLUM16-0551 for plumbing, work by Chelsea Plumbing&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://etrakit.a2gov.org/etrakit3/viewAttachment.aspx?Group=PERMIT&amp;amp;ActivityNo=SIGN16-0050&amp;amp;key=WMN%3a1604190852460942&#34;&gt;SIGN16-0050&lt;/a&gt;
+for an aluminum sign showing a hand holding a
+cup with the Roos Roast logo, applied 4/18/2016; the sign
+review is due 5/5/2016. Sign by &lt;a href=&#34;http://prototypedesigninc.com/&#34;&gt;Prototype Design&lt;/a&gt; in Tecumseh.&lt;/p&gt;
+
+&lt;p&gt;SOCC16-0024 for sidewalk occupancy, issued 4/21/2016.&lt;/p&gt;
+
+&lt;p&gt;The only piece of this process that looks like it could possibly go to
+a public hearing is the Historic District Commission determination
+of appropriateness of signage. If this were to be the case,
+a large orange poster would go up in front of the store to
+announce the meeting date.&lt;/p&gt;
+
+&lt;p&gt;A sign had been approved previously for the site in 2009 when the
+storefront housed &amp;ldquo;Organic Bliss&amp;rdquo;; at that point there was no
+requirement for anything more than staff approval of the signage.
+AnnArbor.com&amp;rsquo;s story about &lt;a href=&#34;http://www.annarbor.com/business-review/organic-bliss-to-shut-down-blaming-downtown-ann-arbors-independent-retail-environment/&#34;&gt;Organic Bliss closing in 2012&lt;/a&gt; has a photo of the storefront at that time.&lt;/p&gt;
+
+&lt;p&gt;Previously in the news, see:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://roosroast.com/2016/02/deep-er-local/&#34;&gt;Deep-er Local&lt;/a&gt; on the
+Roos Roast website, February 2016&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mlive.com/business/ann-arbor/index.ssf/2016/03/deep_local_comes_downtown_roos.html&#34;&gt;MLive story&lt;/a&gt;, March 1, 2016.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://annarborobserver.com/articles/____as_john_roos_arrives_full_article.html&#34;&gt;Ann Arbor Observer story&lt;/a&gt;, &amp;ldquo;Roos Roast finds new roost&amp;rdquo;, April 2016&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Washtenaw restaurant inspections</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</link>
+      <pubDate>Fri, 22 Apr 2016 15:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Who: Wayne Eaker and the a2civictech Slack team&lt;/li&gt;
+&lt;li&gt;What: Restaurant inspections from Washtenaw County&lt;/li&gt;
+&lt;li&gt;Where: &lt;a href=&#34;http://food-inspections.annarbortelegraph.com&#34;&gt;http://food-inspections.annarbortelegraph.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;When: As they are updated, up to twice a momth&lt;/li&gt;
+&lt;li&gt;Why: When you eat out, you care about food safety&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some example searches:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_count_total%3A%5B30%20TO%201000%5D&#34;&gt;Three restaurants with 30 or more violations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_inspection_violation_codes%3A6-501.111%3A%20Controlling%20Pests&amp;amp;f[1]=field_inspection_date%3A2016&#34;&gt;Reports from 2016 of pest problems&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The hardest part of this project is that it&amp;rsquo;s dependent
+on an undocumented interface from the contractor who
+does the work for the county.&lt;/p&gt;
+
+&lt;p&gt;One very nice aspect of the system that Wayne put together is that
+you can get alerts from every time a new inspection comes out that
+matches your saved settings, so you can track a particular restaurant
+or problem over time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prince</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-22-prince/</link>
+      <pubDate>Fri, 22 Apr 2016 14:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-22-prince/</guid>
+      <description>&lt;p&gt;Yesterday&amp;rsquo;s radio was full of the Prince music catalog. The artist
+passed away in his Minnesota home at the age of 57. In response
+any radio station that had anything other that pre-programmed music
+responded by playing his hits - &amp;ldquo;Little Red Corvette&amp;rdquo;, &amp;ldquo;Raspberry Beret&amp;rdquo;,
+&amp;ldquo;Purple Rain&amp;rdquo; - and the radio stations that had artistic control
+also played B sides, live shows, bootlegs and whatever they could find.
+Ann Arbor&amp;rsquo;s own WCBN was exemplary in this regard.&lt;/p&gt;
+
+&lt;p&gt;The radio that I remember is from the 80s when Prince&amp;rsquo;s music was
+in regular play on the Electrifyin&amp;rsquo; Mojo&amp;rsquo;s show on Detroit&amp;rsquo;s WJLB.
+Prince did a very rare live radio interview with Mojo, and you can
+hear it in two parts - &lt;a href=&#34;https://www.youtube.com/watch?v=NJZCoxZ5COY&#34;&gt;part one&lt;/a&gt;
+and &lt;a href=&#34;https://www.youtube.com/watch?v=ftKtWgXzMS8&#34;&gt;part two&lt;/a&gt; - on Youtube.&lt;/p&gt;
+
+&lt;p&gt;What I haven&amp;rsquo;t found yet is the computer font with a perfect Prince
+symbol in it. You can get close by
+&lt;a href=&#34;http://parkerhiggins.net/2013/01/writing-the-prince-symbol-in-unicode/&#34;&gt;writing the prince symbol in unicode&lt;/a&gt;,
+or this ASCII representation may suffice: O(+&amp;gt; . But the
+real deal came on a &lt;a href=&#34;http://nymag.com/following/2016/04/princes-legendary-floppy-disk-symbol-font.html&#34;&gt;3.5&amp;rdquo; floppy disc&lt;/a&gt; from Warner Bros.&lt;/p&gt;
 </description>
     </item>
     

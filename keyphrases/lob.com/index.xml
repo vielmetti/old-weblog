@@ -6,46 +6,8 @@
     <description>Recent content in Lob.Com on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2016 16:33:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 22:05:18 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/keyphrases/lob.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>QSL card template for Lob.com</title>
-      <link>http://vielmetti.github.io/post/2016/2016-01-01-qsl-card-template/</link>
-      <pubDate>Fri, 01 Jan 2016 16:33:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-01-01-qsl-card-template/</guid>
-      <description>&lt;p&gt;As previously noted here I&amp;rsquo;m fond of getting and sending postcards.
-I&amp;rsquo;m also a ham radio operator, which makes it reasonable to want
-to get and send postcards as QSL cards.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t have a stockpile of preprinted cards, so my habit is to
-recycle old postcards either from PTO Thrift ($0.10 each) or from
-a local bookseller ($0.00 each), apply a postcard stamp, and hand
-write the details. But I&amp;rsquo;ve also successfully send cards using
-the &lt;a href=&#34;http://www.lob.com&#34;&gt;lob.com service&lt;/a&gt; and the thought is that
-if I got my act together I could pretty easily put together a
-QSL printer that would run off a command line and lob full-custom cards
-into the mail at about $0.70 each postage paid.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t yet have a QSL card template for lob.com. Some notes for
-starting such a project:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://lob.com/blog/print-mail-custom-postcards-using-html-css-ruby-on-rails&#34;&gt;Print and Mail Custom Postcards using HTML, CSS, and Ruby on Rails&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lob.com/blog/free-4x6-postcard-templates/&#34;&gt;Free 4x6 Postcard Templates&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are tons of &amp;ldquo;QSL template&amp;rdquo; pages on the net, but most
-of them start from Microsoft Word, and I&amp;rsquo;m after an HTML
-QSL template.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;No results found for &amp;quot;html qsl template&amp;quot;.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Lots of SQL, not much QSL. Will keep looking!&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>lob a postcard: printer sends cards via API</title>
