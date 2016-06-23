@@ -15,15 +15,39 @@
       <pubDate>Fri, 04 Apr 2014 01:43:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/</guid>
-      <description>&lt;p&gt;Putting together a &lt;a href=&#34;http://twitter.com/vielmetti/lists/skywarn&#34;&gt;Twitter list&lt;/a&gt; and a set of Broadcastify radio feeds for Skywarn networks. I&#39;ll only be adding these when I have confirmed to listen to traffic. There are also Skywarn twitter lists from &lt;a href=&#34;https://twitter.com/KE4KMD/lists/skywarn&#34;&gt;KE4KMD&lt;/a&gt; that were used to compile this, and a national &lt;a href=&#34;http://skywarn.org&#34;&gt;skywarn.org&lt;/a&gt; that has a national directory. &lt;/p&gt;
+      <description>
+
+&lt;p&gt;This list of Skywarn nets is compiled from a &lt;a href=&#34;https://twitter.com/vielmetti/lists/skywarn&#34;&gt;list of Skywarn Twitter feeds&lt;/a&gt; and
+&lt;a href=&#34;http://www.broadcastify.com&#34;&gt;Broadcastify&lt;/a&gt; radio feeds. Networks are added when there is confirmed traffic.
+&lt;a href=&#34;https://www.twitter.com/KE4KMD/lists/skywarn&#34;&gt;KE4KMD&lt;/a&gt; maintains a similar list, which was used in part
+to develop this one. There is a &lt;a href=&#34;http://skywarn.org&#34;&gt;national Skywarn directory&lt;/a&gt; at Skywarn.org.&lt;/p&gt;
+
+&lt;p&gt;This list is sorted by state, and from there grouped regionally by National Weather Service forecast
+office directory. In some cases, NWS forecast areas cross state boundaries, and those are noted.&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.afn.org/~afn09444/weather/skywarn.html&#34;&gt;Index to SKYWARN Web Pages on the Internet&lt;/a&gt; is from Todd L. Sherman KB4MHH and has been updated since 1996; it is an excellent reference. &lt;a href=&#34;http://wx5tvs.com/storm-spotters.html&#34;&gt;SKYWARN Storm Spotters&lt;/a&gt; from David Drummond is another national list.&lt;/p&gt;
 
-&lt;p&gt;For an account of the use of Twitter for SKYWARN activities, read &lt;a href=&#34;https://ams.confex.com/ams/41BC2WxWarn/webprogram/Paper225882.html&#34;&gt;#tSpotter: SKYWARN in the Social Media Age&lt;/a&gt;, a paper presented to the American Metorological Society in 2013.&lt;/p&gt;
+&lt;p&gt;For an account of the use of Twitter for SKYWARN activities, read &lt;a href=&#34;https://ams.confex.com/ams/41BC2WxWarn/webprogram/Paper225882.html&#34;&gt;#tSpotter: SKYWARN in the Social Media Age&lt;/a&gt; from the 2013
+AMS conference.&lt;/p&gt;
 
-&lt;p&gt;So far I have details for 29 of 50 states compiled here as of April 5, 2014.&lt;/p&gt;
+&lt;p&gt;Details for 29 of 50 states compiled here as of April 5, 2014. The future plan is to integrate Skywarn, electric utility outage maps, and National Weather Service forecast info
+into a single collection, listing the 122 NWS forecast areas on a state by state basis, started June 21, 2016.&lt;/p&gt;
 
-&lt;h2&gt;Alabama&lt;/h2&gt;
+&lt;h2 id=&#34;national-weather-service:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;National Weather Service&lt;/h2&gt;
+
+&lt;p&gt;The National Weather Service has a number of Twitter accounts with detailed and timely information about severe weather. The service has
+forecasting offices with detailed forecasts for every part of the country, plus a set of national forecast offices.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Storm Prediction Center, @&lt;a href=&#34;https://twitter.com/NWSSPC&#34;&gt;NWSSPC&lt;/a&gt;. Mesoscale reports for outbreaks of severe weather, national
+forecast and fire maps, and detailed risk assessments. SPC uses the common hashtag of a two-character state name plus wx, e.g.
+#miwx for Michigan weather, in its reports.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tornado alerts, @&lt;a href=&#34;https://twitter.com/NWSTornado&#34;&gt;NWSTornado&lt;/a&gt;. Tornado forecasts, watches and warnings, and detailed maps
+with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;alabama:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Alabama&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/alwx&#34;&gt;alwx&lt;/a&gt;. Mobile area: #&lt;a href=&#34;http://www.tchat.io/rooms/mobwx&#34;&gt;mobwx&lt;/a&gt;&lt;/p&gt;
 
@@ -39,7 +63,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.w4ap.org/modules.php?name=SkyWarn&#34;&gt;Central Alabama Skywarn&lt;/a&gt; serves the Montgomery area. W4AP 146.840 repeater, training net Thursdays 7:00 p.m. CT.&lt;/p&gt;
 
-&lt;h2&gt;Alaska&lt;/h2&gt;
+&lt;h2 id=&#34;alaska:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Alaska&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/akwx&#34;&gt;akwx&lt;/a&gt;&lt;/p&gt;
 
@@ -49,7 +73,7 @@
 
 &lt;p&gt;NWS Fairbanks ham radio Skywarn station, &lt;a href=&#34;http://pafg.arh.noaa.gov/ham.php&#34;&gt;KL7FWX&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Arizona&lt;/h2&gt;
+&lt;h2 id=&#34;arizona:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Arizona&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/azwx&#34;&gt;azwx&lt;/a&gt;&lt;/p&gt;
 
@@ -57,7 +81,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.copahams.org/skywarn-in-arizona.html&#34;&gt;Maricopa Amateur Radio Association&lt;/a&gt; covers the Phoenix area.&lt;/p&gt;
 
-&lt;h2&gt;Arkansas&lt;/h2&gt;
+&lt;h2 id=&#34;arkansas:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Arkansas&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/arwx&#34;&gt;arwx&lt;/a&gt;&lt;/p&gt;
 
@@ -67,29 +91,29 @@
 
 &lt;p&gt;&lt;a href=&#34;https://www.broadcastify.com/listen/feed/5419&#34;&gt;W5RHS&lt;/a&gt; SKYWARN Repeater 147.120 Mhz via Broadcastify. West of Benton Arkansas, Saline County, linked to other Arkansas Skywarn nets.&lt;/p&gt;
 
-&lt;h2&gt;California&lt;/h2&gt;
+&lt;h2 id=&#34;california:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;California&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cawx&#34;&gt;cawx&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.swskywarn.org/&#34;&gt;Southwest California Skywarn&lt;/a&gt; serves the NWS San Diego office. Facebook: &lt;a href=&#34;https://www.facebook.com/SanDiegoCountySkywarn&#34;&gt;San Diego County Skywarn&lt;/a&gt;. Twitter: @&lt;a href=&#34;https://twitter.com/SnDgCo_Skywarn&#34;&gt;SnDgCo_Skywarn&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Colorado&lt;/h2&gt;
+&lt;h2 id=&#34;colorado:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Colorado&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cowx&#34;&gt;cowx&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.w9tec.com/chaseradio/co.html&#34;&gt;Eastern Colorado Severe Weather Frequencies&lt;/a&gt; from W9TEC, last updated 1/2010.&lt;/p&gt;
 
-&lt;h2&gt;Connecticut&lt;/h2&gt;
+&lt;h2 id=&#34;connecticut:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Connecticut&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ctwx&#34;&gt;ctwx&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ctskywarn.com/&#34;&gt;Connecticut Skywarn&lt;/a&gt; has maps of frequencies in use and reporting areas.&lt;/p&gt;
 
-&lt;h2&gt;Delaware&lt;/h2&gt;
+&lt;h2 id=&#34;delaware:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Delaware&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dewx&#34;&gt;dewx&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2&gt;District of Columbia&lt;/h2&gt;
+&lt;h2 id=&#34;district-of-columbia:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;District of Columbia&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dcwx&#34;&gt;dcwx&lt;/a&gt;&lt;/p&gt;
 
@@ -113,24 +137,58 @@
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/idwx&#34;&gt;idwx&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2&gt;Illinois&lt;/h2&gt;
+&lt;h2 id=&#34;illinois:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Illinois&lt;/h2&gt;
 
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ilwx&#34;&gt;ilwx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Severe weather: #&lt;a href=&#34;https://twitter.com/hashtag/ilwx&#34;&gt;ilwx&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://chicagolandskywarn.org/&#34;&gt;Chicagoland Skywarn&lt;/a&gt; covers the greater Chicago area. (Broadcastify feed is down).&lt;/p&gt;
+&lt;h3 id=&#34;chicago-area-romeoville-il-lot:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Chicago area: Romeoville, IL (LOT)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.northernilskywarn.org/&#34;&gt;Northern Illinois Skywarn&lt;/a&gt; covers Boone and Winnebago counties.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;National Weather Service: #&lt;a href=&#34;https://twitter.com/NWSChicago&#34;&gt;NWSChicago&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.lakecountyskywarn.org/&#34;&gt;Lake County Skywarn&lt;/a&gt; serves Libertyville, IL. The repeater for Skywarn is run by &lt;a href=&#34;http://www.races.org/&#34;&gt;Lake County RACES/ARES&lt;/a&gt;.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/20531&#34;&gt;WA9WLN Waldofar Repeater Network&lt;/a&gt; covers southern suburban counties Cook, Will, Kankakee and Lake co IN for the National Weather Service
+Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2&gt;Indiana&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://chicagolandskywarn.org/&#34;&gt;Chicagoland Skywarn&lt;/a&gt; covers the greater Chicago area. (Broadcastify feed is down).&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/inwx&#34;&gt;inwx&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.northernilskywarn.org/&#34;&gt;Northern Illinois Skywarn&lt;/a&gt; covers Boone and Winnebago counties.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/6063&#34;&gt;Central Indiana Skywarn Repeater Net W9ICE&lt;/a&gt; via Broadcastify. 39 county system.
-&lt;a href=&#34;http://www.w9nws.org/&#34;&gt;Central Indiana Skywarn&lt;/a&gt; web site. Indianapolis area, serves &lt;a href=&#34;http://www.crh.noaa.gov/ind/&#34;&gt;NWS Indianapolis&lt;/a&gt;.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.lakecountyskywarn.org/&#34;&gt;Lake County Skywarn&lt;/a&gt; serves Libertyville, IL. The repeater for Skywarn is run by &lt;a href=&#34;http://www.races.org/&#34;&gt;Lake County RACES/ARES&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.fwrc.info/index.php/skywarn&#34;&gt;Fort Wayne Radio Club SKYWARN&lt;/a&gt; is part of &lt;a href=&#34;http://www.imoskywarn.org/&#34;&gt;IMO Skywarn&lt;/a&gt;. IMO (&#34;Indiana-Michigan-Ohio&#34;) covers a 37 county warning area in northern Indiana, southernmost Michigan, and northwestern Ohio. &lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Electric Utility: &lt;a href=&#34;https://www.comed.com/_layouts/comedsp/outagemap.aspx&#34;&gt;ComEd Outage Map&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;central-illinois-lincoln-il-ilx:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Central Illinois: Lincoln, IL (ILX)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Electric Utility: &lt;a href=&#34;http://apps.ameren.com/outage/outagemap.aspx?state=IL&#34;&gt;Ameren Illinois outage map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;rest-of-the-state:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Rest of the state&lt;/h3&gt;
+
+&lt;p&gt;Southern Illinois weather forecast is from Paducah, Kentucky.&lt;/p&gt;
+
+&lt;h2 id=&#34;indiana:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Indiana&lt;/h2&gt;
+
+&lt;p&gt;Severe weather: #&lt;a href=&#34;https://twitter.com/hashtag/inwx&#34;&gt;inwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;indianapolis-and-central-indiana-ind:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Indianapolis and Central Indiana (IND)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/6063&#34;&gt;Central Indiana Skywarn Repeater Net W9ICE&lt;/a&gt; is a 39 county system.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.w9nws.org/&#34;&gt;Central Indiana Skywarn&lt;/a&gt; web site.&lt;/li&gt;
+&lt;li&gt;Indianapolis area, served by &lt;a href=&#34;http://www.crh.noaa.gov/ind/&#34;&gt;NWS Indianapolis&lt;/a&gt;. Also &lt;a href=&#34;https://www.facebook.com/NWSIndianapolis&#34;&gt;Facebook&lt;/a&gt;, Twitter &lt;a href=&#34;https://twitter.com/NWSIndianapolis&#34;&gt;@NWSIndianapolis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Electric Utility: &lt;a href=&#34;http://outagemap.duke-energy.com/in/default.html&#34;&gt;Duke Energy Indiana outage map&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Electric Utility: &lt;a href=&#34;http://apps.iplpower.com/outages/OutageMap.aspx&#34;&gt;Indianapolis Power and Light outage map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;northern-indiana-north-webster-in-iwx:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Northern Indiana, North Webster IN (IWX)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fwrc.info/index.php/skywarn&#34;&gt;Fort Wayne Radio Club SKYWARN&lt;/a&gt; is part of &lt;a href=&#34;http://www.imoskywarn.org/&#34;&gt;IMO Skywarn&lt;/a&gt;. IMO (&amp;ldquo;Indiana-Michigan-Ohio&amp;rdquo;) covers a 37 county warning area in northern Indiana, southernmost Michigan, and northwestern Ohio.&lt;/li&gt;
+&lt;li&gt;Electric Utility: &lt;a href=&#34;https://www.indianamichiganpower.com/outages/&#34;&gt;Indiana Michigan Power outage map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Electric Utility: &lt;a href=&#34;http://www.nipscooutages.com/WSSNisourceOutageMap/outagemap.html&#34;&gt;NIPSCO outage map&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2&gt;Iowa&lt;/h2&gt;
 
@@ -166,21 +224,53 @@
 
 &lt;p&gt;Taunton (Boston) area covers southern New England. Twitter: @&lt;a href=&#34;http://twitter.com/wx1box&#34;&gt;wx1box&lt;/a&gt;. &lt;a href=&#34;http://www.wx1box.org/&#34;&gt;WX1BOX Skywarn&lt;/a&gt; web site. Echolink &lt;em&gt;NEW-ENG&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2&gt;Michigan&lt;/h2&gt;
+&lt;h2 id=&#34;michigan:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Michigan&lt;/h2&gt;
+
+&lt;p&gt;Statewide severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;detroit-pontiac-ann-arbor-southeastern-michigan:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Detroit / Pontiac / Ann Arbor, Southeastern Michigan&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;@&lt;a href=&#34;https://twitter.com/NWSDetroit&#34;&gt;NWSDetroit&lt;/a&gt;: National Weather Service Detroit (DTX)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/19998&#34;&gt;Washtenaw County Skywarn&lt;/a&gt;, N8DUY 145.15 repeater. Ann Arbor area. (Broadcastify feed back in service 2015-05-09)&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Electric utility: &lt;a href=&#34;http://dteenergy.com/map/outage.html&#34;&gt;DTE Energy outage map&lt;/a&gt; serves the majority of the NWS Detroit area.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Newspapers: &lt;a href=&#34;http://freep.com&#34;&gt;Detroit Free Press&lt;/a&gt;, &lt;a href=&#34;http://detnews.com&#34;&gt;Detroit News&lt;/a&gt;, &lt;a href=&#34;http://mlive.com/ann-arbor&#34;&gt;Ann Arbor News&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Radio: &lt;a href=&#34;http://detroit.cbslocal.com/&#34;&gt;WWJ 950&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Television: WXYZ 7&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;grand-rapids-kalamazoo-western-michigan-grr:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Grand Rapids / Kalamazoo / Western Michigan (GRR)&lt;/h3&gt;
+
+&lt;p&gt;Regional severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/wmiwx&#34;&gt;#wmiwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;@&lt;a href=&#34;https://twitter.com/NWSGrandRapids&#34;&gt;NWSGrandRapids&lt;/a&gt;: National Weather Service Grand Rapids MI (GRR)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Electric utility: &lt;a href=&#34;https://www.consumersenergy.com/outagemap&#34;&gt;Consumers Energy outage map&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;television-wzzm-13:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Television: WZZM 13&lt;/h1&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/miwx&#34;&gt;miwx&lt;/a&gt;, #&lt;a href=&#34;http://tchat.io/rooms/wmiwx&#34;&gt;wmiwx&lt;/a&gt; (Western Michigan), #&lt;a href=&#34;http://tchat.io/rooms/upwx&#34;&gt;upwx&lt;/a&gt; (Upper Peninsula).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://kcra-mi.net/skywarn/mission.html&#34;&gt;Upper Peninsula Skywarn&lt;/a&gt;, 15 counties in the UP. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13447&#34;&gt;K8MDH 147.315 Mhz&lt;/a&gt;, Keewenaw County Skywarn/ARES via Broadcastify. &lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;http://www.kentcountyskywarn.org/&#34;&gt;Kent County Skywarn&lt;/a&gt; covers the Grand Rapids area. Facebook: &lt;a href=&#34;https://www.facebook.com/kcskywarn&#34;&gt;KentCounty Skywarn&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.lansingarpsc.com/skywarn.html&#34;&gt;Lansing Area Skywarn&lt;/a&gt; covers Ingham County. Listen live to the &lt;a href=&#34;http://www.lansingarpsc.com/listenlive.html&#34;&gt;Okemos repeater&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ottawaskywarn.org/&#34;&gt;Ottawa County Skywarn&lt;/a&gt;, Holland MI area. Listen online to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13885&#34;&gt;K8DAA 147.060&lt;/a&gt; via Broadcastify (down 4/6/14)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/19998&#34;&gt;Washtenaw County Skywarn&lt;/a&gt;, N8DUY repeater. Ann Arbor area. (Broadcastify feed back in service 2015-05-09)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.lansingarpsc.com/skywarn.html&#34;&gt;Lansing Area Skywarn&lt;/a&gt; covers Ingham County. Listen live to the &lt;a href=&#34;http://www.lansingarpsc.com/listenlive.html&#34;&gt;Okemos repeater&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Minnesota&lt;/h2&gt;
+&lt;h3 id=&#34;marquette-houghton-upper-peninsula-of-michigan:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Marquette / Houghton / Upper Peninsula of Michigan&lt;/h3&gt;
+
+&lt;p&gt;Regional severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/upwx&#34;&gt;#upwx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kcra-mi.net/skywarn/mission.html&#34;&gt;Upper Peninsula Skywarn&lt;/a&gt;, 15 counties in the UP. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13447&#34;&gt;K8MDH 147.315 Mhz&lt;/a&gt;, Keewenaw County Skywarn/ARES via Broadcastify. &lt;/p&gt;
+
+&lt;h2 id=&#34;minnesota:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Minnesota&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mnwx&#34;&gt;mnwx&lt;/a&gt;&lt;/p&gt;
 
