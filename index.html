@@ -78,6 +78,8 @@
     <h3 class="panel-title">Recent Posts</h3> 
     <ul class="sidebar-recent">
 	 
+	<li><a href="http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/" class="list-group-item">full stack plane spotting and data analysis</a></li>
+         
 	<li><a href="http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/" class="list-group-item">Plane finding with dump1090</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-06-01-github-private-repos/" class="list-group-item">Github private repositories</a></li>
@@ -115,8 +117,6 @@
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-13-building-board-of-appeals-lacks-quorum-january-2016/" class="list-group-item">January 2016 Ann Arbor Building Board of Appeals lacks a quorum</a></li>
          
 	<li><a href="http://vielmetti.github.io/post/2016/2016-01-08-a2council-liquor-license-report/" class="list-group-item">Ann Arbor City Council Liquor License Review Committee report, 8 January 2016</a></li>
-         
-	<li><a href="http://vielmetti.github.io/post/2016/2016-01-08-oxford-flood-network/" class="list-group-item">Oxford Flood Network</a></li>
         
     </ul>
 
@@ -4218,9 +4218,13 @@
 	
 	   
 	
+	   
+	
     </div>
 
     <div class="sidebar-todo">
+	
+	   
 	
 	   
 	
@@ -12437,6 +12441,8 @@ I have to learn about git subtrees.</li>
 	   
 	
 	   
+	
+	   
 	       
 
 <h2 id="blogroll:76742f83502b2cf566f8baa2d043b7db">Blogroll</h2>
@@ -12750,6 +12756,151 @@ this and there will almost always be something new to read.</p>
 
 <td width="55%" valign="top" halign="right">
 
+
+
+  <h3>11 July 2016</h3>
+      <h3>
+      <a href="http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/">full stack plane spotting and data analysis</a>
+      </h3>
+      
+
+<p>The task at hand is simple. Whenever a particular airplane is visible overhead,
+send out a tweet with that notice. Don&rsquo;t repeat yourself with this announcement
+more than twice an hour, but try not to have too much lag in reporting.</p>
+
+<p>The full stack of hardware and software to do this is not particularly
+complicated to use once you get it all running, but there are a series
+of issues and observations along the way that add to the complexity. I&rsquo;ll
+walk through the whole thing start to finish, and let you know where I
+left off.</p>
+
+<h2 id="plane-spotting:984b95b4570fb7d5b37f67357af2ada0">Plane spotting</h2>
+
+<p><a href="http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/">When last I wrote</a>,
+I had <a href="http://github.com/mutability/dump1090">dump1090</a>
+running on my MacBook. Since then, I&rsquo;ve taken the same software and gotten
+the latest dev release going on a Raspberry Pi 2.</p>
+
+<p>I switched to a smaller, simpler antenna, and the result was positive: instead of
+having a 40 to 50 nautical mile range, now I&rsquo;m in the 60 to 65 nm range (about 110 km).
+It might also help that the Pi 2 is not really doing very much else. That
+particular Pi 2 setup is using a slightly back-rev version of the
+<a href="http://blog.hypriot.com">Hypriot</a> software for the Pi, so it has all
+of the modern conveniences plus an instance of Docker on board. The
+temptation was to Dockerize everything, but I haven&rsquo;t gone there yet;
+the available Docker prebuilt releases don&rsquo;t have the bleeding edge of
+the dump1090-mutability code, and I want to see how the whole thing runs
+native for a while before containerizing it.</p>
+
+<p>The snag that slowed down this deployment a little was Google&rsquo;s decision
+to enforce an API key for personal use of Google Maps. In response, the
+very latest dump1090-mutability pulled out its Google Maps support, and
+went to <a href="http://openlayers.org/">OpenLayers</a>. This new support gives
+access to all kinds of base maps, including some aviation-specific
+charts. (&ldquo;Not for use in navigation.&rdquo;)</p>
+
+<p>Another piece of this was bringing up <a href="http://www.lighttpd.net/">lighttpd</a>
+(&ldquo;lighty&rdquo;), a lightweight HTTP server that replaces the rickety
+built-in HTTP server that dump1090 had originally shipped with.
+Configuration following the supplied instructions was simple,
+and lighttpd looks like a very suitable system to put in place to
+serve HTTP on embedded-class system that need flexiblity but not
+a big footprint.</p>
+
+<p>The other component in the Pi setup is an ADS-B feed to the excellent
+<a href="Planefinder">http://planefinder.net</a> site. Planefinder provides a Debian
+package for setting up the feed, and it runs neatly with only a minimum
+of overhead.</p>
+
+<p>The Pi does not yet have a working OpenVPN configuration, so I can&rsquo;t get
+to it over the net directly. For that I plan to revisit the
+<a href="http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/">SaltStack for Pi</a>
+configuration I wrote up last September. In the interim, salt has
+been upgraded, and perhaps it will be a little more stable over bad
+connections; we&rsquo;ll see.</p>
+
+<h2 id="data-analysis:984b95b4570fb7d5b37f67357af2ada0">Data analysis</h2>
+
+<p>dump1090 provides a data feed in a convenient JSON format, available
+through a URL on a standard configuruation. The ADS-B messages themselves
+are binary encoded, but the system brings them into JSON so that all
+of the downstream processing is very easy.</p>
+
+<p>Data handling is so straightforward that you can do it all without
+needing any special-purpose processing nodes in IBM&rsquo;s <a href="http://nodered.org">Node-RED</a>.
+A standard HTTP in node polls the data at the pace that you choose,
+and a simple function pulls apart the record of all planes into
+individual records for each plane.</p>
+
+<p>Getting Node-RED running is continuing to get easier over time.
+I&rsquo;m doing prototyping work on my Macintosh again, using the
+new <a href="https://blog.docker.com/2016/06/docker-mac-windows-public-beta/">Docker for Mac</a>
+setup to pick up a <a href="https://hub.docker.com/r/cpswan/node-red/">Node-RED container</a>
+to do the work in. <a href="https://kitematic.com/">Kitematic</a> comes with Docker for Mac,
+providing a convenient dashboard and interface to Docker Hub.</p>
+
+<p>(Do note, however, that if you got Docker for Mac running a few months
+ago, you&rsquo;ll need to go through a rebuild process to go to the latest
+beta. To <a href="https://docs.docker.com/docker-for-mac/troubleshoot/#/recreate-or-update-your-containers-after-beta-18-upgrade">recreate or update your containers after Beta 18 upgrade</a>
+follow the provided instructions.)</p>
+
+<p>Once you have both Node-RED and dump1090 running, connecting the
+two together is straightforward. I started with this
+<a href="https://gist.github.com/dceejay/3288996fefdc3aef04846496277b6444">gist from dceejay</a> which
+provides the basic flow and feeds into a
+<a href="http://flows.nodered.org/node/node-red-contrib-web-worldmap">worldmap node</a> that
+is a general programmable interface for putting things on a map. My
+<a href="https://gist.github.com/vielmetti/6329ea5a49dadd2f106980a20727d16e">updated dump1090 gist for Node-RED</a>
+adapts the data for a slightly different format between dump1090 forks.</p>
+
+<p>From here in it&rsquo;s relatively clear sailing. Set up a flow downstream
+from the plane messages, using a filter node to match the name or
+ICAO hex code of the airplane that you want to track. Wire it through
+a delay filter to set the frequency of messages you want to
+allow through, and a formatting node to pretty up the message in
+a form suitable for Twitter output.</p>
+
+<h2 id="incomplete-image-and-next-steps:984b95b4570fb7d5b37f67357af2ada0">Incomplete image and next steps.</h2>
+
+<p>This is a relatively complex stack, but it all fits neatly on a Raspberry Pi 2,
+and with a little bit more elbow grease it should be possible to containerize
+everything so that it Just Works and can be made to reliably work again.</p>
+
+<p>I&rsquo;d like to have OpenVPN running on the Pi 2, but it isn&rsquo;t yet, pending
+rework of Salt to get that to a current version and to port all of the
+work I did from an earlier version.</p>
+
+<p>I&rsquo;m picking up planes from 60+ nm away, but I know that with a better
+antenna, bandpass filter, and amplifier that I can do better.
+<a href="https://puck.nether.net/~jared/blog/?p=160">Jared Mauch&rsquo;s parts list</a>
+would be the place to go for starters with a very modest budget of
+a couple of hundred bucks.</p>
+
+<p>Reception is best i fyou have a clear view of the sky, which suggests
+an outdoors installation, powering the Pi with power over ethernet.</p>
+
+<p>The system is running on a Pi 2, but reports from Jared and from Phil Karn KA9Q
+suggest that if you do upgrade the reception that it&rsquo;s possible to
+saturate the Pi 2. Fortunately a Pi 3 does even better at the intended task.</p>
+
+<p>I&rsquo;m still figuring out what the very best way to create a Docker image
+that handles Node-RED, especially the installation of additional nodes
+and the management of flows. You&rsquo;d like to have the whole thing suitably
+tidy that it could be all loaded in from the get-go.</p>
+
+<p>dump1090-mutability is still mutating! It&rsquo;s under active development,
+both at the presentation layer and at the decoder layer. So it would
+be appropriate to have the attitude for at least one development machine
+to be sure that you were ready to rebuild from source whenever.</p>
+
+<p>If you only have half of this stack running (the Node-RED side) but no access
+to radios, you can find an existing dump1090 installation and pull the
+JSON from there. This is best done only via prior arrangement and only
+for testing purposes or for specific tasks. It&rsquo;s easy to crank up Node-RED
+to poll a URL every second; don&rsquo;t do that to a poor little Pi.</p>
+
+<p>The planes I want to watch don&rsquo;t take off very often - that&rsquo;s the appeal
+of watching for them.</p>
 
 
   <h3>2 July 2016</h3>
@@ -13791,110 +13942,6 @@ Fifth Ave., so he used cups. Carlstrom played his own version of
 Santa Clause this morning when he hung up the &ldquo;free coffee&rdquo; sign
 to old customers and newcomers alike. &ldquo;Business kind of picked up
 a little,&rdquo; Carlstrom noted.</p>
-
-
-  <h3>17 December 2015</h3>
-      <h3>
-      <a href="http://vielmetti.github.io/post/2015/2015-12-17-iot-platforms/">Platforms for the Internet of Things, 2015 edition</a>
-      </h3>
-      <p>A discussion on one of the lists I follow covers the question
-of &ldquo;platform&rdquo; support for the Internet of Things. Since consumer
-IoT is a kind of squooshy market right now with rapid changes
-in prices and no one obvious choice for what technology to adopt,
-it&rsquo;s worthwhile taking some kind of review of the landscape for
-2015 and sort out what to watch for next year.</p>
-
-<p>This is organized by vendor, and loosely grouped so that similar
-systems are next to each other. It&rsquo;s a highly dimensional space, but
-all elements have something in common: engineers are trying to
-change how we interact with simple devices like light bulbs through
-our hand-held phones, and no one has the full correct answer that&rsquo;s
-obviously right. Indeed it&rsquo;s not clear at all that there is
-a right answer for some of these controls; the
-<a href="http://twitter.com/internetofshit">Internet of Shit twitter account</a>
-collects with some glee the number of devices that emphatically should
-not be on the Internet.</p>
-
-<p>On to the platforms:</p>
-
-<p><em>Amazon</em> is hard to ignore. Many smaller cloud platforms are
-built on top of its AWS computing platforms, and Amazon has
-entered the fray with its AWS IoT service that offers a hosted
-MQTT message server. In addition Amazon has the Echo product
-that does voice recognition. Nearly impossible to ignore, Amazon
-is a clear central player in the IoT consumer space.</p>
-
-<p><em>Google</em> is a distant second in the IoT world, mostly because
-the Google Compute Engine isn&rsquo;t the first choice for a compute
-platform, and the Android phone isn&rsquo;t the first choice for a top
-end phone. Google does have the moxie to make it&rsquo;s &ldquo;Internet Thing&rdquo;
-be a self-driving car. The Nest thermostat is the most obvious
-home point-of-entry for Google, and the platform and brand extension
-to watch is more stuff that works with Nest.</p>
-
-<p><em>Apple</em> has the phone to want, and the assistant (Siri) that people
-have learned how to talk to to get things done. If the Internet of
-Things is going to be controlled from an app, it&rsquo;s an app that&rsquo;s going
-to run on an Apple phone, and you&rsquo;re going to be able to talk to it.
-Less clear is Apple&rsquo;s in-home device hub strategy - the AppleTV never
-really has had that open platform feel to attract the first-mover developer.</p>
-
-<p><em>Microsoft</em> would dearly love to play in this world, but Windows 10
-on ARM and the Raspberry Pi is a disappointment, and &ldquo;big data&rdquo; is mostly
-defined by problems too big for Excel. The Microsoft cloud platform,
-Azure, mostly seems to be used by organizations that treat it as
-a second or third data center, or who are locked in to Azure for
-business and partnership reasons. Microsoft&rsquo;s Cortana is capable, but
-hardly anyone has Windows phones to talk with.</p>
-
-<p><em>IBM</em> is the wild card here. Their Bluemix hosted platform service is
-interesting if unusual and not really aimed at the consumer space. A
-very interesting Node-RED project has extended IBM influence into
-the Raspberry Pi and Bluetooth BLE sensor space, but it feels like
-an interesting technology play and not a product.</p>
-
-<p>Next, to major players with hardware. &ldquo;How many engineers does it
-take to change a lightbulb?&rdquo;</p>
-
-<p><em>Philips</em> has the Hue line of home products, mostly lighting focused.
-There was a hue and cry about the Philips decision to disable support
-for some compatible products that did not have explicit partnership
-agreements in place, and the nature of the complaining made it clear
-that there&rsquo;s an active hobbyist community around this product space.</p>
-
-<p><em>Flex</em> is the new player, with its recent acquisition of the
-assets of Wink from the bankruptcy of Quirky.  Flex, formerly known
-as Flextronics, is a large contract manufacturer, and it knows how
-to build quite a few things; look for Wink&rsquo;s technology to make its
-way into a wider range of products.</p>
-
-<p><em>Samsung</em> and their SmartThings brand has enough market share to make
-interesting efforts, but again to that point there&rsquo;s no one breakout
-product in their portfolio that brings that brand much to mind unless
-you are using it.</p>
-
-<p>Finally -</p>
-
-<p>The biggest winner in the IoT space for this year and probably for
-next year is an Internet tool with the unlikely name of <a href="http://www.ifttt.com">IFTTT</a>.
-&ldquo;If this, then that&rdquo; is the level of control you get with IFTTT,
-and surprisingly enough that&rsquo;s enough to do all sorts of things -
-mostly because IFTTT speaks just enough of the protocols of over 100
-systems that you can glue together a recipe that does something
-when something else happens even when the two vendors you are dealing
-with have never heard of each other.</p>
-
-<p>Interoperability is the bugaboo of Internet of Things systems development.
-Many vendors want you to sign up to their big bear hug of a partnership
-agreement and work solely within their ecosystem. Others have narrow
-APIs and proprietary protocols that discourage casual reuse. Where
-IFTTT fits in is as a universal connector kit that lets you explore
-how parts fit together.  The IFTTT
-<a href="https://ifttt.com/recipes/collections/32-recipes-for-the-internet-of-things">recipes for the Internet of Things</a> captures some of the essence of what
-can be done right now without much of a fuss if you have wide protocol
-support, even if it&rsquo;s only very simple support.
-Many vendors in the &ldquo;Internet of Things&rdquo;
-space could benefit from thorough understanding of simple connectivity.</p>
 
 
 

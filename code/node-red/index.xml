@@ -6,8 +6,156 @@
     <description>Recent content in Node Red on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2015 16:57:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jul 2016 13:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/code/node-red/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>full stack plane spotting and data analysis</title>
+      <link>http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/</link>
+      <pubDate>Mon, 11 Jul 2016 13:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/</guid>
+      <description>
+
+&lt;p&gt;The task at hand is simple. Whenever a particular airplane is visible overhead,
+send out a tweet with that notice. Don&amp;rsquo;t repeat yourself with this announcement
+more than twice an hour, but try not to have too much lag in reporting.&lt;/p&gt;
+
+&lt;p&gt;The full stack of hardware and software to do this is not particularly
+complicated to use once you get it all running, but there are a series
+of issues and observations along the way that add to the complexity. I&amp;rsquo;ll
+walk through the whole thing start to finish, and let you know where I
+left off.&lt;/p&gt;
+
+&lt;h2 id=&#34;plane-spotting:984b95b4570fb7d5b37f67357af2ada0&#34;&gt;Plane spotting&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/&#34;&gt;When last I wrote&lt;/a&gt;,
+I had &lt;a href=&#34;http://github.com/mutability/dump1090&#34;&gt;dump1090&lt;/a&gt;
+running on my MacBook. Since then, I&amp;rsquo;ve taken the same software and gotten
+the latest dev release going on a Raspberry Pi 2.&lt;/p&gt;
+
+&lt;p&gt;I switched to a smaller, simpler antenna, and the result was positive: instead of
+having a 40 to 50 nautical mile range, now I&amp;rsquo;m in the 60 to 65 nm range (about 110 km).
+It might also help that the Pi 2 is not really doing very much else. That
+particular Pi 2 setup is using a slightly back-rev version of the
+&lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt; software for the Pi, so it has all
+of the modern conveniences plus an instance of Docker on board. The
+temptation was to Dockerize everything, but I haven&amp;rsquo;t gone there yet;
+the available Docker prebuilt releases don&amp;rsquo;t have the bleeding edge of
+the dump1090-mutability code, and I want to see how the whole thing runs
+native for a while before containerizing it.&lt;/p&gt;
+
+&lt;p&gt;The snag that slowed down this deployment a little was Google&amp;rsquo;s decision
+to enforce an API key for personal use of Google Maps. In response, the
+very latest dump1090-mutability pulled out its Google Maps support, and
+went to &lt;a href=&#34;http://openlayers.org/&#34;&gt;OpenLayers&lt;/a&gt;. This new support gives
+access to all kinds of base maps, including some aviation-specific
+charts. (&amp;ldquo;Not for use in navigation.&amp;rdquo;)&lt;/p&gt;
+
+&lt;p&gt;Another piece of this was bringing up &lt;a href=&#34;http://www.lighttpd.net/&#34;&gt;lighttpd&lt;/a&gt;
+(&amp;ldquo;lighty&amp;rdquo;), a lightweight HTTP server that replaces the rickety
+built-in HTTP server that dump1090 had originally shipped with.
+Configuration following the supplied instructions was simple,
+and lighttpd looks like a very suitable system to put in place to
+serve HTTP on embedded-class system that need flexiblity but not
+a big footprint.&lt;/p&gt;
+
+&lt;p&gt;The other component in the Pi setup is an ADS-B feed to the excellent
+&lt;a href=&#34;Planefinder&#34;&gt;http://planefinder.net&lt;/a&gt; site. Planefinder provides a Debian
+package for setting up the feed, and it runs neatly with only a minimum
+of overhead.&lt;/p&gt;
+
+&lt;p&gt;The Pi does not yet have a working OpenVPN configuration, so I can&amp;rsquo;t get
+to it over the net directly. For that I plan to revisit the
+&lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/&#34;&gt;SaltStack for Pi&lt;/a&gt;
+configuration I wrote up last September. In the interim, salt has
+been upgraded, and perhaps it will be a little more stable over bad
+connections; we&amp;rsquo;ll see.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-analysis:984b95b4570fb7d5b37f67357af2ada0&#34;&gt;Data analysis&lt;/h2&gt;
+
+&lt;p&gt;dump1090 provides a data feed in a convenient JSON format, available
+through a URL on a standard configuruation. The ADS-B messages themselves
+are binary encoded, but the system brings them into JSON so that all
+of the downstream processing is very easy.&lt;/p&gt;
+
+&lt;p&gt;Data handling is so straightforward that you can do it all without
+needing any special-purpose processing nodes in IBM&amp;rsquo;s &lt;a href=&#34;http://nodered.org&#34;&gt;Node-RED&lt;/a&gt;.
+A standard HTTP in node polls the data at the pace that you choose,
+and a simple function pulls apart the record of all planes into
+individual records for each plane.&lt;/p&gt;
+
+&lt;p&gt;Getting Node-RED running is continuing to get easier over time.
+I&amp;rsquo;m doing prototyping work on my Macintosh again, using the
+new &lt;a href=&#34;https://blog.docker.com/2016/06/docker-mac-windows-public-beta/&#34;&gt;Docker for Mac&lt;/a&gt;
+setup to pick up a &lt;a href=&#34;https://hub.docker.com/r/cpswan/node-red/&#34;&gt;Node-RED container&lt;/a&gt;
+to do the work in. &lt;a href=&#34;https://kitematic.com/&#34;&gt;Kitematic&lt;/a&gt; comes with Docker for Mac,
+providing a convenient dashboard and interface to Docker Hub.&lt;/p&gt;
+
+&lt;p&gt;(Do note, however, that if you got Docker for Mac running a few months
+ago, you&amp;rsquo;ll need to go through a rebuild process to go to the latest
+beta. To &lt;a href=&#34;https://docs.docker.com/docker-for-mac/troubleshoot/#/recreate-or-update-your-containers-after-beta-18-upgrade&#34;&gt;recreate or update your containers after Beta 18 upgrade&lt;/a&gt;
+follow the provided instructions.)&lt;/p&gt;
+
+&lt;p&gt;Once you have both Node-RED and dump1090 running, connecting the
+two together is straightforward. I started with this
+&lt;a href=&#34;https://gist.github.com/dceejay/3288996fefdc3aef04846496277b6444&#34;&gt;gist from dceejay&lt;/a&gt; which
+provides the basic flow and feeds into a
+&lt;a href=&#34;http://flows.nodered.org/node/node-red-contrib-web-worldmap&#34;&gt;worldmap node&lt;/a&gt; that
+is a general programmable interface for putting things on a map. My
+&lt;a href=&#34;https://gist.github.com/vielmetti/6329ea5a49dadd2f106980a20727d16e&#34;&gt;updated dump1090 gist for Node-RED&lt;/a&gt;
+adapts the data for a slightly different format between dump1090 forks.&lt;/p&gt;
+
+&lt;p&gt;From here in it&amp;rsquo;s relatively clear sailing. Set up a flow downstream
+from the plane messages, using a filter node to match the name or
+ICAO hex code of the airplane that you want to track. Wire it through
+a delay filter to set the frequency of messages you want to
+allow through, and a formatting node to pretty up the message in
+a form suitable for Twitter output.&lt;/p&gt;
+
+&lt;h2 id=&#34;incomplete-image-and-next-steps:984b95b4570fb7d5b37f67357af2ada0&#34;&gt;Incomplete image and next steps.&lt;/h2&gt;
+
+&lt;p&gt;This is a relatively complex stack, but it all fits neatly on a Raspberry Pi 2,
+and with a little bit more elbow grease it should be possible to containerize
+everything so that it Just Works and can be made to reliably work again.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d like to have OpenVPN running on the Pi 2, but it isn&amp;rsquo;t yet, pending
+rework of Salt to get that to a current version and to port all of the
+work I did from an earlier version.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m picking up planes from 60+ nm away, but I know that with a better
+antenna, bandpass filter, and amplifier that I can do better.
+&lt;a href=&#34;https://puck.nether.net/~jared/blog/?p=160&#34;&gt;Jared Mauch&amp;rsquo;s parts list&lt;/a&gt;
+would be the place to go for starters with a very modest budget of
+a couple of hundred bucks.&lt;/p&gt;
+
+&lt;p&gt;Reception is best i fyou have a clear view of the sky, which suggests
+an outdoors installation, powering the Pi with power over ethernet.&lt;/p&gt;
+
+&lt;p&gt;The system is running on a Pi 2, but reports from Jared and from Phil Karn KA9Q
+suggest that if you do upgrade the reception that it&amp;rsquo;s possible to
+saturate the Pi 2. Fortunately a Pi 3 does even better at the intended task.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m still figuring out what the very best way to create a Docker image
+that handles Node-RED, especially the installation of additional nodes
+and the management of flows. You&amp;rsquo;d like to have the whole thing suitably
+tidy that it could be all loaded in from the get-go.&lt;/p&gt;
+
+&lt;p&gt;dump1090-mutability is still mutating! It&amp;rsquo;s under active development,
+both at the presentation layer and at the decoder layer. So it would
+be appropriate to have the attitude for at least one development machine
+to be sure that you were ready to rebuild from source whenever.&lt;/p&gt;
+
+&lt;p&gt;If you only have half of this stack running (the Node-RED side) but no access
+to radios, you can find an existing dump1090 installation and pull the
+JSON from there. This is best done only via prior arrangement and only
+for testing purposes or for specific tasks. It&amp;rsquo;s easy to crank up Node-RED
+to poll a URL every second; don&amp;rsquo;t do that to a poor little Pi.&lt;/p&gt;
+
+&lt;p&gt;The planes I want to watch don&amp;rsquo;t take off very often - that&amp;rsquo;s the appeal
+of watching for them.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Coworking notes at Elixir Vitae</title>
