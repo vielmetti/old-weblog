@@ -23,5 +23,47 @@
 </description>
     </item>
     
+    <item>
+      <title>Supermemo: repetition is the very soul of the net</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-12-supermemo-repet/</link>
+      <pubDate>Tue, 12 Aug 2008 14:11:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-12-supermemo-repet/</guid>
+      <description>&lt;p&gt;I wrote about SuperMemo some months back, but if I&#39;ve told you once, I&#39;ve told you 146 times: &lt;a href=&#34;http://www.google.com/search?q=%22repetition+is+the+very+soul+of+the+net%22&#34;&gt;repetition is the very soul of the net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.supermemo.com/&#34;&gt;SuperMemo&lt;/a&gt; is a piece of software from P A Wozniak, originally developed in 1987 as a DOS program for learning languages.&amp;nbsp; Wozniak, a student of molecular biology, was frustrated by the amount of knowledge he lost after cramming for an exam, and worked to develop methods for improving long term memory.&amp;nbsp; His 1992 masters thesis, &lt;a href=&#34;http://www.supermemo.com/english/ol.htm&#34;&gt;Optimization of Learning&lt;/a&gt;, covered the early work on Supermemo and a discussion of spaced repetition in learning.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve been using some of the principles from SuperMemo, in particular the discussion of&lt;a href=&#34;http://www.supermemo.com/articles/paper.htm&#34;&gt; using SuperMemo without a computer&lt;/a&gt;, to structure some organized retrospective looks at what I have been interested in over time and also to trigger follow up contacts with people and ideas that would have otherwise been forgotten.&amp;nbsp; The important element of &lt;a href=&#34;http://en.wikipedia.org/wiki/Spaced_repetition&#34;&gt;spaced repetition&lt;/a&gt; is used not to remember facts and figures but to trigger memory of people and the context I saw them in.&amp;nbsp; The idea is that you structure a process to revisit previous days efforts - more recent days more frequently, and old days less frequently - and use that memory jogger to keep you connected.&lt;/p&gt;
+
+&lt;p&gt;What makes this newly easy (or at least easier) is some combination of tools and search engines not originally available in 1987, combined with my existing frequent blogging.&amp;nbsp; &amp;nbsp;Let me provide two examples, with some source code.&lt;/p&gt;
+
+&lt;p&gt;I keep a personal wiki with a page for each day.&amp;nbsp; This is actually the second of those I have tried doing - the first was on custom pre-release versions of the Socialtext software and I reanimated it on the current Socialtext hosted platform.&amp;nbsp; The notion is that you have a wiki page named &amp;quot;2008 August 12&amp;quot;, or really one page possible for every day, and you take notes on or about that day there or link to it to refer to it.&amp;nbsp; &amp;nbsp;There&#39;s a little bit of code that I wrote to make links from that page to a series of days spaced in the past and future which I include as a block on that page, making it easy to hyperlink forwards and backwards in time.&amp;nbsp; That&#39;s good, as far as I do have things in my personal wiki (though maintaining that every day is a burden and I often have big blank spots when the burden of diligence is too great).&lt;/p&gt;
+
+&lt;p&gt;The second and more immediately practical approach uses search engines to replace explicit page dates to slice up the world into punctuated time slices.&amp;nbsp; &amp;nbsp; I use this with my weblog, creating searches like&lt;br /&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;a href=&#34;http://www.google.com/search?q=site%3Avielmetti.typepad.com+%22August+12%2C+2007%22&#34;&gt;site:vielmetti.typepad.com &amp;quot;August 12, 2007&amp;quot;&lt;/a&gt;&lt;br /&gt;to methodically revisit the past.&amp;nbsp; As I said, it helps if you post daily, or have a tool like the delicious.com tag poster to do it for you.&amp;nbsp; &lt;/p&gt;
+
+&lt;p&gt;The code I wrote which I&#39;ll share is based on &amp;quot;day.sh&amp;quot; which I released some time ago.&amp;nbsp; That tool prints the date a specified time in the past; this new tool, &amp;quot;&lt;a href=&#34;http://monkey.org/~emv/src/spaced-days.tar&#34;&gt;spaced-days&lt;/a&gt;&amp;quot;, creates a series of days formatted appropriately for whatever you want to paste them into.&amp;nbsp; The sample I have generates Socialtext formatted wiki pages but minor edits will generate Mediawiki pages and more major ones could make HTML with the formatted searches above.&lt;/p&gt;
+
+&lt;p&gt;So if I&#39;m thinking about my cousin&#39;s wedding two years ago, or next year&#39;s St Urho&#39;s Day celebrations, or the Burns Park Run for 2009, it&#39;s because there was just enough reminders to jog 1/n of my memory and not the whole darn thing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>supermemo and morning coffee ritual memory</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-23-supermemo-and-m/</link>
+      <pubDate>Wed, 23 Apr 2008 08:31:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-23-supermemo-and-m/</guid>
+      <description>&lt;p&gt;An important piece of having coffee in the morning is making it part of a routine.  If you&#39;re predictable in your habits, you start to see the same people in the same space at the same time, and you get to be something of a regular.&lt;/p&gt;
+
+&lt;p&gt;If you&#39;re careful, and switch your morning allegiances from time to time but still visit the old haunts often enough, you can be what passes for a regular long after you stopped coming every day.&lt;/p&gt;
+
+&lt;p&gt;How often, then, do you need to show up for people to remember you?  For that I turn to structured repetition, and the power of priming memory periodically to strengthen it.  &lt;a href=&#34;http://www.supermemo.com&#34;&gt;Supermemo&lt;/a&gt;, a software package for memory improvement, has a nice paper on &lt;a href=&#34;http://www.supermemo.com/articles/paper.htm&#34;&gt;using Supermemo without a computer&lt;/a&gt;, which specifies a pattern of repetitions and intervals to get details into memory.  The table of intervals specified says that you review materials at this pace:&lt;/p&gt;
+
+&lt;p&gt;4 days, 7 days, 12 days, 20 days, 1 month, 2 months, 3 months, 5 months, 9 months, 16 months, 2 years, 4 years, 6 years, 11 years, 18 years&lt;/p&gt;
+
+&lt;p&gt;Which suggests that a well-timed practice of showing up at a cafe, introducing yourself to everyone, learning their names, and them coming back at precisely timed intervals to repeat the process would be enough to make you a regular in no time at all.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
