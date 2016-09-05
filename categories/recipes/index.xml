@@ -30,89 +30,6 @@ and the surrounding commentary.&lt;/p&gt;
     </item>
     
     <item>
-      <title>food coop notes for July 18, 2015</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</link>
-      <pubDate>Sat, 18 Jul 2015 14:23:56 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</guid>
-      <description>&lt;p&gt;Some notes over a cup of coffee and some cold roast chicken. I need
-to mix up my menu selections at the coop more so that I can remember
-what I was writing by what I ate; I usually eat the same thing!&lt;/p&gt;
-
-&lt;p&gt;Peter Honeyman and Lynn Chamberlain were here at the coop, doing
-the NY Times crossword. (Saturday crossword in 36:05, a mid-day triumph.)&lt;/p&gt;
-
-&lt;p&gt;At Farmer&amp;rsquo;s Market: cherries, parsley, kale, potatoes, dill, tomatoes.
-The potatoes will be boiled and dressed with a dill vinaigrette.
-(I had to look up the word vinaigrette.) The recipes I found add
-green beans and boiled eggs to a salad with cold potatoes, using
-a mustard vinaigrette with added chopped dill. The cherries will
-probably just be eaten out of hand.&lt;/p&gt;
-
-&lt;p&gt;The UP travel discussion included the obligatory discussion of insects,
-including ticks (&amp;ldquo;like bedbugs, for the woods&amp;rdquo;) and horrible sand
-flies that will swarm you and leave you screaming running from the
-beach. There&amp;rsquo;s a good reason that the UP has miles of undeveloped beaches.&lt;/p&gt;
-
-&lt;p&gt;You can&amp;rsquo;t mention bugs in the UP without remembering
-&lt;a href=&#34;http://somethingscrawlinginmyhair.com/&#34;&gt;The Backyard Arthropod Project&lt;/a&gt;,
-&amp;ldquo;A Field Guide to the North Side of Old Mill Hill, Atlantic Mine, MI&amp;rdquo;,
-by Tim Eisele.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m still hacking away at generating interesting reports from
-the &lt;a href=&#34;https://github.com/markvanderloo/stringdist&#34;&gt;stringdist&lt;/a&gt;
-package from Mark van der Loo. Yesterday&amp;rsquo;s post was
-&lt;a href=&#34;http://stackoverflow.com/questions/31486913/r-producing-a-list-of-near-matches-with-stringdist-and-stringdistmatrix&#34;&gt;R: producing a list of near matches with stringdist and stringdistmatrix&lt;/a&gt; and the answers provided
-helped unearth the melt() function from the reshape2 library,
-and with &lt;em&gt;that&lt;/em&gt; you take a matrix and turn it into an edge list.
-A little bit of filtering, and you get a report of near matches
-in a list, enough for me to catch variant spellings of
-vinagrette to vinaigrette in a &amp;ldquo;make test&amp;rdquo; step.&lt;/p&gt;
-
-&lt;p&gt;Stack Overflow was fun for this task, I&amp;rsquo;m going to try it again.
-The process of describing your problem in enough detail that someone
-who knows the issue can add the one or two lines of code to make
-it work is a useful exercise. It&amp;rsquo;s the opposite of a search
-engine in many ways - of course I could find melt() once I know
-its name, but if you don&amp;rsquo;t know the name you can&amp;rsquo;t find anything.&lt;/p&gt;
-
-&lt;p&gt;The next bit of interestingness has to do with turning the dist
-data structure returned by stringdist into a variety of useful
-images. There&amp;rsquo;s a package that dumps out a &amp;ldquo;dendogram&amp;rdquo;, and if I&amp;rsquo;m
-careful in formatting the data I think I can coerce R into producing
-data that can be imported directly into the tools that
-Valdis Krebs
-has written for network exploration and visualization. The
-promise within R is a &amp;ldquo;distgraph&amp;rdquo; that does the visualization,
-but I&amp;rsquo;m not yet finding the cadre of experts who use that.&lt;/p&gt;
-
-&lt;p&gt;The art on the walls is Julie Marron-Parker&amp;rsquo;s &amp;ldquo;Sunburst&amp;rdquo;. She writes&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Let the sun shine.&lt;/p&gt;
-
-&lt;p&gt;Living in Michigan (160 days of sun per year) I have come to
-appreciate when the sun is out. This piece brings the energy of the
-sun into the world, regardless of the weather outside.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tom Meloche writes about &lt;a href=&#34;http://tommeloche.com/the-doorway-effect/&#34;&gt;the doorway effect&lt;/a&gt;,
-where going through a doorway wipes out your short term memory
-to make way for new short term memories. It got me thinking
-about the &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;memory palace&lt;/span&gt;, and how you might construct
-in your mind a series of portals and doorways to walk through so
-that you can remember a series of items in such a way that you
-take advantage of the doorway effect to pull memories in and out
-of your short term thinking. The technology is &amp;ldquo;mnemotechnics&amp;rdquo;,
-that&amp;rsquo;s a good keyword to pull lots of interesting thinking
-(which sometimes sounds like crazytalk).&lt;/p&gt;
-
-&lt;p&gt;That reminds me - I need to move to another room, so that I can
-remember what I need to do here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>the hugo cookbook</title>
       <link>http://vielmetti.github.io/post/2015/2015-07-14-the-hugo-cookbook/</link>
       <pubDate>Tue, 14 Jul 2015 20:55:47 -0400</pubDate>
@@ -134,30 +51,6 @@ enough to be set up in the kitchen to look up recipes.&lt;/p&gt;
 &lt;p&gt;What I want to do is set things up so that if the post is from the
 recipes category, then the recipes list will show up in the sidebar
 of that post, sorted alphabetically. I think I can make that work.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>sweet potato cauliflower soup recipe</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</link>
-      <pubDate>Tue, 14 Jul 2015 18:15:02 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</guid>
-      <description>&lt;p&gt;Some sweet potato cauliflower soup recipes:&lt;/p&gt;
-
-&lt;p&gt;Allyson Kramer likes hers with a bit of garam masala:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&#34;&gt;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our Three Peas wants carrots and celery and chicken stock:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&#34;&gt;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Food.com and &amp;ldquo;Kelly in TO&amp;rdquo; calls for curry and cinnamon:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&#34;&gt;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our meal plan pairs this with biscuits and kale, and it was delicious!&lt;/p&gt;
 </description>
     </item>
     
@@ -419,26 +312,6 @@ lots of layers.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Hoppin&#39; Giovanni (Rapini with white beans)</title>
-      <link>http://vielmetti.github.io/post/2014/2014-01-02-hoppin-giovanni-rapini-with-white-beans/</link>
-      <pubDate>Thu, 02 Jan 2014 16:20:04 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2014/2014-01-02-hoppin-giovanni-rapini-with-white-beans/</guid>
-      <description>&lt;p&gt;This simple dish of beans and greens comes from Mary Ann Esposito&#39;s &lt;a href=&#34;http://www.ciaoitalia.com/seasons/season-2200/episode-2221/broccoli-rabe-with-white-beans&#34;&gt;Ciao Italia&lt;/a&gt;. It&#39;s similar in many ways to the traditional &#34;Hoppin&#39; John&#34; served for good luck for the new year.&lt;/p&gt;
-
-&lt;h2&gt;Hoppin&#39; Giovanni&lt;/h2&gt;
-
-&lt;p&gt;Wash and chop a bunch of rapini (broccoli rabe). If you can&#39;t find rapini, some other mild green like turnip greens (or even kale) would work nicely.&lt;/p&gt;
-
-&lt;p&gt;Mince a shallot fine and saute in a large pan in olive oil until fragrant. Add a few generous pinches of red pepper flakes. Put the chopped rapini into the pan and cook until the greens are cooked through.&lt;/p&gt;
-
-&lt;p&gt;Drain and rinse a can of white beans (cannellini). When the greens are cooked through, add the beans and stir. You can add a little more olive oil to the pan at this point if you want to. Stir and then bring back up to heat.&lt;/p&gt;
-
-&lt;p&gt;Serve hot. This would go good with pasta.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Lentil, feta, and olive pasta salad</title>
       <link>http://vielmetti.github.io/post/2013/2013-12-29-lentil-feta-and-olive-pasta-salad/</link>
       <pubDate>Sun, 29 Dec 2013 00:43:37 +0000</pubDate>
@@ -527,6 +400,71 @@ lots of layers.&lt;/p&gt;
 &lt;li&gt;Saturday: Spanish rice, cucumber salad&lt;/li&gt;
 &lt;li&gt;Sunday: ?&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kohlrabi and apple slaw - a study in comparative literature</title>
+      <link>http://vielmetti.github.io/post/2013/2013-09-21-kohlrabi-and-apple-slaw-a-study-in-comparative-literature/</link>
+      <pubDate>Sat, 21 Sep 2013 11:49:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-09-21-kohlrabi-and-apple-slaw-a-study-in-comparative-literature/</guid>
+      <description>&lt;p&gt;This recipe is assembled from a variety of sources; I&#39;ll update when I&#39;ve actually made it myself to report back.&lt;/p&gt;
+
+&lt;p&gt;The basic idea is that you make a dressing of mayo thinned with a little vinegar, and you use equal part shredded kohlrabi and shredded apple in the salad. Mustard is a common seasoning.&lt;/p&gt;
+
+&lt;p&gt;Some variations on the theme, with links to recipes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://allrecipes.com/recipe/kohlrabi-and-apple-slaw/&#34;&gt;AllRecipes&lt;/a&gt; adds prepared mustard, lemon juice, and sugar to the dressing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.epicurious.com/recipes/food/views/Kohlrabi-and-Apple-Salad-with-Creamy-Mustard-Dressing-10693&#34;&gt;Epicurious&lt;/a&gt; replaces the mayo with heavy cream and adds some chopped parsley and mustard&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bostonorganics.com/kohlrabi-and-apple-slaw/re/kohlrabi-and-apple-slaw&#34;&gt;Boston Organics&lt;/a&gt; follows Epicurious but replaces parsley with mint&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.floatingkitchen.net/kohlrabi-slaw-kohl-slaw/&#34;&gt;The Floating Kitchen&lt;/a&gt; adds carrots, and replaces the mayo with Greek yogurt&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.marthastewart.com/354687/kohlrabi-slaw&#34;&gt;Martha Stewart&lt;/a&gt; dresses the slaw with olive oil and lemon juice and skips the mayo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://edibletwincities.com/recipes-2013/kohlrabi-fennel-and-apple-slaw/&#34;&gt;Edible Twin Cities&lt;/a&gt; adds some fennel to the salad&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I could continue but this is enough meta-information to head to the kitchen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recipe: Cole slaw</title>
+      <link>http://vielmetti.github.io/post/2013/2013-07-20-recipe-cole-slaw/</link>
+      <pubDate>Sat, 20 Jul 2013 22:51:40 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-07-20-recipe-cole-slaw/</guid>
+      <description>&lt;p&gt;This recipe is easy and feeds a lot of people. I don&amp;#39;t tend to measure, so you&amp;#39;ll want to use proportions to your taste.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One half head of green cabbage&lt;/li&gt;
+&lt;li&gt;Four carrots&lt;/li&gt;
+&lt;li&gt;Cider vinegar&lt;/li&gt;
+&lt;li&gt;Mayo&lt;/li&gt;
+&lt;li&gt;Salt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Shred the cabbage using the slicing blade of your food processor. Put the cabbage in a large bowl. Shake some salt on top of the cabbage and mix it in.&lt;/p&gt;
+&lt;p&gt;Trim the carrots and grate them using the grating blade of your food processor. Add to the cabbage.&lt;/p&gt;
+&lt;p&gt;The dressing is a mixture of cider vinegar and mayo. Rather than mix them together first and then getting a dish dirty, I simply pour some cider vinegar over the top of the cabbage-carrot mixture, then add some mayo. Mix thoroughly until the cole slaw is lightly coated with the dressing.&lt;/p&gt;
+&lt;p&gt;Let sit at least an hour before serving. The cabbage and carrots will both lose a little moisture, so you&amp;#39;ll end up with more dressing than you started with.&lt;/p&gt;
+&lt;p&gt;Paired with pizza and two-buck chuck wine, this recipe will serve twelve.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Chekov&#39;s &#34;Gooseberries&#34;</title>
+      <link>http://vielmetti.github.io/post/2013/2013-07-13-from-chekovs-gooseberries/</link>
+      <pubDate>Sat, 13 Jul 2013 12:33:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-07-13-from-chekovs-gooseberries/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.eldritchpress.org/ac/gooseb.html&#34; target=&#34;_self&#34;&gt;Full text of Anton Chekov&amp;#39;s &amp;quot;Gooseberries&amp;quot; is available at Eldritch Press.&lt;/a&gt;&amp;#0160;An excerpt from this short story:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;But my point does not concern him so much as myself. I want to tell you what a change took place in me in those few hours while I was in his house. In the evening, while we were having tea, the cook laid a plateful of gooseberries on the table. They had not been bought, but were his own gooseberries, plucked for the first time since the bushes were planted. Nicholai Ivanich laughed with joy and for a minute or two he looked in silence at the gooseberries with tears in his eyes. He could not speak for excitement, then put one into his mouth, glanced at me in triumph, like a child at last being given its favourite toy, and said:&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;#39;How good they are!&amp;#39;&lt;/p&gt;
+&lt;p&gt;&amp;quot;He went on eating greedily, and saying all the while:&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;#39;How good they are! Do try one!&amp;#39;&lt;/p&gt;
+&lt;p&gt;&amp;quot;It was hard and sour, but, as Poushkin said, the illusion which exalts us is dearer to us than ten thousand truths. I saw a happy man, one whose dearest dream had come true, who had attained his goal in life, who had got what he wanted, and was pleased with his destiny and with himself....&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
 </description>
     </item>
     

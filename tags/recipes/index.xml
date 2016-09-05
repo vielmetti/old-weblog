@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/recipes/</link>
+    <description>Recent content in Recipes on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Feb 2016 21:00:00 -0500</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/recipes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Chicken and onion curry</title>
+      <link>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</link>
+      <pubDate>Sun, 14 Feb 2016 21:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</guid>
+      <description>&lt;p&gt;Saveur Magazine has a recipe for a &lt;a href=&#34;http://www.saveur.com/article/Recipes/Chicken-and-Onion-Curry&#34;&gt;chicken and onion curry&lt;/a&gt;
+from January 27, 2010. It took a little more than an hour
+to cook, but the results were very much worth it - delicious,
+and worth repeating.&lt;/p&gt;
+
+&lt;p&gt;We had the meal with rice, kale, and a
+&lt;a href=&#34;http://www.food.com/recipe/radish-raita-57431&#34;&gt;daikon raita&lt;/a&gt; from
+food.com that I kind of liked but which was not a big hit
+with the rest of the table.&lt;/p&gt;
+
+&lt;p&gt;The current meal planning regime here uses a Google calendar
+and a question at the end of every meal: do you want this again,
+and how many weeks before we have it again? This curry will
+repeat in 3 weeks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>food coop notes for July 18, 2015</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</link>
+      <pubDate>Sat, 18 Jul 2015 14:23:56 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/</guid>
+      <description>&lt;p&gt;Some notes over a cup of coffee and some cold roast chicken. I need
+to mix up my menu selections at the coop more so that I can remember
+what I was writing by what I ate; I usually eat the same thing!&lt;/p&gt;
+
+&lt;p&gt;Peter Honeyman and Lynn Chamberlain were here at the coop, doing
+the NY Times crossword. (Saturday crossword in 36:05, a mid-day triumph.)&lt;/p&gt;
+
+&lt;p&gt;At Farmer&amp;rsquo;s Market: cherries, parsley, kale, potatoes, dill, tomatoes.
+The potatoes will be boiled and dressed with a dill vinaigrette.
+(I had to look up the word vinaigrette.) The recipes I found add
+green beans and boiled eggs to a salad with cold potatoes, using
+a mustard vinaigrette with added chopped dill. The cherries will
+probably just be eaten out of hand.&lt;/p&gt;
+
+&lt;p&gt;The UP travel discussion included the obligatory discussion of insects,
+including ticks (&amp;ldquo;like bedbugs, for the woods&amp;rdquo;) and horrible sand
+flies that will swarm you and leave you screaming running from the
+beach. There&amp;rsquo;s a good reason that the UP has miles of undeveloped beaches.&lt;/p&gt;
+
+&lt;p&gt;You can&amp;rsquo;t mention bugs in the UP without remembering
+&lt;a href=&#34;http://somethingscrawlinginmyhair.com/&#34;&gt;The Backyard Arthropod Project&lt;/a&gt;,
+&amp;ldquo;A Field Guide to the North Side of Old Mill Hill, Atlantic Mine, MI&amp;rdquo;,
+by Tim Eisele.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m still hacking away at generating interesting reports from
+the &lt;a href=&#34;https://github.com/markvanderloo/stringdist&#34;&gt;stringdist&lt;/a&gt;
+package from Mark van der Loo. Yesterday&amp;rsquo;s post was
+&lt;a href=&#34;http://stackoverflow.com/questions/31486913/r-producing-a-list-of-near-matches-with-stringdist-and-stringdistmatrix&#34;&gt;R: producing a list of near matches with stringdist and stringdistmatrix&lt;/a&gt; and the answers provided
+helped unearth the melt() function from the reshape2 library,
+and with &lt;em&gt;that&lt;/em&gt; you take a matrix and turn it into an edge list.
+A little bit of filtering, and you get a report of near matches
+in a list, enough for me to catch variant spellings of
+vinagrette to vinaigrette in a &amp;ldquo;make test&amp;rdquo; step.&lt;/p&gt;
+
+&lt;p&gt;Stack Overflow was fun for this task, I&amp;rsquo;m going to try it again.
+The process of describing your problem in enough detail that someone
+who knows the issue can add the one or two lines of code to make
+it work is a useful exercise. It&amp;rsquo;s the opposite of a search
+engine in many ways - of course I could find melt() once I know
+its name, but if you don&amp;rsquo;t know the name you can&amp;rsquo;t find anything.&lt;/p&gt;
+
+&lt;p&gt;The next bit of interestingness has to do with turning the dist
+data structure returned by stringdist into a variety of useful
+images. There&amp;rsquo;s a package that dumps out a &amp;ldquo;dendogram&amp;rdquo;, and if I&amp;rsquo;m
+careful in formatting the data I think I can coerce R into producing
+data that can be imported directly into the tools that
+Valdis Krebs
+has written for network exploration and visualization. The
+promise within R is a &amp;ldquo;distgraph&amp;rdquo; that does the visualization,
+but I&amp;rsquo;m not yet finding the cadre of experts who use that.&lt;/p&gt;
+
+&lt;p&gt;The art on the walls is Julie Marron-Parker&amp;rsquo;s &amp;ldquo;Sunburst&amp;rdquo;. She writes&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Let the sun shine.&lt;/p&gt;
+
+&lt;p&gt;Living in Michigan (160 days of sun per year) I have come to
+appreciate when the sun is out. This piece brings the energy of the
+sun into the world, regardless of the weather outside.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tom Meloche writes about &lt;a href=&#34;http://tommeloche.com/the-doorway-effect/&#34;&gt;the doorway effect&lt;/a&gt;,
+where going through a doorway wipes out your short term memory
+to make way for new short term memories. It got me thinking
+about the &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;memory palace&lt;/span&gt;, and how you might construct
+in your mind a series of portals and doorways to walk through so
+that you can remember a series of items in such a way that you
+take advantage of the doorway effect to pull memories in and out
+of your short term thinking. The technology is &amp;ldquo;mnemotechnics&amp;rdquo;,
+that&amp;rsquo;s a good keyword to pull lots of interesting thinking
+(which sometimes sounds like crazytalk).&lt;/p&gt;
+
+&lt;p&gt;That reminds me - I need to move to another room, so that I can
+remember what I need to do here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sweet potato cauliflower soup recipe</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</link>
+      <pubDate>Tue, 14 Jul 2015 18:15:02 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-sweet-potato-cauliflower-soup/</guid>
+      <description>&lt;p&gt;Some sweet potato cauliflower soup recipes:&lt;/p&gt;
+
+&lt;p&gt;Allyson Kramer likes hers with a bit of garam masala:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&#34;&gt;http://www.allysonkramer.com/2011/10/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our Three Peas wants carrots and celery and chicken stock:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&#34;&gt;http://ourthreepeas.com/sweet-potato-cauliflower-soup/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Food.com and &amp;ldquo;Kelly in TO&amp;rdquo; calls for curry and cinnamon:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&#34;&gt;http://www.food.com/recipe/cauliflower-sweet-potato-curry-soup-246992&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our meal plan pairs this with biscuits and kale, and it was delicious!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hoppin&#39; Giovanni (Rapini with white beans)</title>
+      <link>http://vielmetti.github.io/post/2014/2014-01-02-hoppin-giovanni-rapini-with-white-beans/</link>
+      <pubDate>Thu, 02 Jan 2014 16:20:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-01-02-hoppin-giovanni-rapini-with-white-beans/</guid>
+      <description>&lt;p&gt;This simple dish of beans and greens comes from Mary Ann Esposito&#39;s &lt;a href=&#34;http://www.ciaoitalia.com/seasons/season-2200/episode-2221/broccoli-rabe-with-white-beans&#34;&gt;Ciao Italia&lt;/a&gt;. It&#39;s similar in many ways to the traditional &#34;Hoppin&#39; John&#34; served for good luck for the new year.&lt;/p&gt;
+
+&lt;h2&gt;Hoppin&#39; Giovanni&lt;/h2&gt;
+
+&lt;p&gt;Wash and chop a bunch of rapini (broccoli rabe). If you can&#39;t find rapini, some other mild green like turnip greens (or even kale) would work nicely.&lt;/p&gt;
+
+&lt;p&gt;Mince a shallot fine and saute in a large pan in olive oil until fragrant. Add a few generous pinches of red pepper flakes. Put the chopped rapini into the pan and cook until the greens are cooked through.&lt;/p&gt;
+
+&lt;p&gt;Drain and rinse a can of white beans (cannellini). When the greens are cooked through, add the beans and stir. You can add a little more olive oil to the pan at this point if you want to. Stir and then bring back up to heat.&lt;/p&gt;
+
+&lt;p&gt;Serve hot. This would go good with pasta.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paw Paws at Cobblestone Farm Market on Tuesday, 22 October 2013</title>
+      <link>http://vielmetti.github.io/post/2013/2013-10-21-paw-paws-at-cobblestone-farm-market-on-tuesday-22-october-2013/</link>
+      <pubDate>Mon, 21 Oct 2013 22:16:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-10-21-paw-paws-at-cobblestone-farm-market-on-tuesday-22-october-2013/</guid>
+      <description>&lt;p&gt;The following was posted to the Cobblestone Farm mailing list and is repeated here for your edification (and enjoyment of distinctive fruit).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Cobblestone Market has much to offer you and your family&amp;#0160;this Tuesday&amp;#0160;evening (4pm-7pm). Come try some new tastes, then warm your hands and feet by our fire pit!&amp;#0160;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;There will be&amp;#0160;paw&amp;#0160;paws&amp;#0160;at the market&amp;#0160;tomorrow, thanks to Marc Boone and his volunteers! Paw&amp;#0160;paws&amp;#0160;are a native fruit which tastes a like a banana and mango combined.&amp;#0160; Come have a taste and take some home. For more information on&amp;#0160;paw&amp;#0160;paws, see&amp;#0160;&amp;#0160;&lt;a href=&#34;http://www.livescience.com/34669-what-is-a-paw-paw.html&#34; target=&#34;_blank&#34;&gt;http://www.livescience.com/34669-what-is-a-paw-paw.html&lt;/a&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;Also for sampling, will be&amp;#0160;Locavorious&amp;#0160;with&amp;#0160;frozen local fruits &amp;amp; veggies. Welcome back,Locavorious!&amp;#0160;&lt;a href=&#34;http://www.locavorious.com/&#34; target=&#34;_blank&#34;&gt;http://www.locavorious.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lydia and Mum&amp;#0160;are excited to share their new&amp;#0160;baking adventures&amp;#0160;which will include Winter Squash and Pumpkin pies (even a gluten free pie), breads, whole wheat pumpkin muffins along with expanding choices of whole grain, gluten free, and vegan breads.&amp;#0160;&amp;#0160;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;Besides all this will be the usual at market: apples, winter squash, freshly dug potatoes, broccoli, giant kohlrabi suitable for winter storage ,eggplant, beets, carrots, salad greens, collards, kale, onions, tomatoes, garlic, peppers, cabbage, chard, celery, herbs, turnips, Brussels sprouts.&amp;#0160; Also at the market: goat milk soap, jams &amp;amp; jellies, grass-fed beef and pork, honey, eggs, artisan bread, baked goods, artisan bars, flowers dinner food, plants, tool sharpening, chair messages and more!&amp;#0160;Herbology&amp;#0160;Organics, which had to cancel at the last minute last week, plans to be there with candles, lotion and other skin care products including soaps, balms and oils. &amp;#0160;&lt;/p&gt;
+&lt;p&gt;10/22/13&amp;#0160;Events:&lt;/p&gt;
+&lt;p&gt;4-4:30 pm&amp;#0160;Kids Crafts with Stacey and Starr&lt;/p&gt;
+&lt;p&gt;4:30-5 pm&amp;#0160;Weekly Kids Rhythm Circle&lt;/p&gt;
+&lt;p&gt;5-6 pm&amp;#0160;Giant Bubbles with Jeanne and Pattie &amp;amp; Music by Lawrence Miller the Accordion Piper&lt;/p&gt;
+&lt;p&gt;6-7 pm&amp;#0160;Music by Samantha Steinbacher, Indie Singer/Songwriter&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;If you have food or toiletries that you would like to donate to Back&amp;#0160;Door&amp;#0160;Food&amp;#0160;Pantry&amp;#0160;(&lt;a href=&#34;http://www.backdoorfoodpantry.org/&#34; target=&#34;_blank&#34;&gt;http://www.backdoorfoodpantry.org/&lt;/a&gt;), Cobblestone Farm Market is setting aside a donation box at the information table each week. &amp;#0160;Please take a look at their website for items needed.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;See you at the market,&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;Jackie and Cobblestone Farm Market Team&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
