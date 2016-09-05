@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Casper on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/casper/</link>
+    <description>Recent content in Casper on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2016 14:45:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/casper/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New month, new theme</title>
+      <link>http://vielmetti.github.io/post/2016/2016-09-05-new-month-new-theme/</link>
+      <pubDate>Mon, 05 Sep 2016 14:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-09-05-new-month-new-theme/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve switched themes in this weblog, using &amp;ldquo;Casper&amp;rdquo;
+from Valère JEANTET who ported it from Ghost to Hugo.&lt;/p&gt;
+
+&lt;p&gt;The biggest advantage of the theme is that it&amp;rsquo;s neat
+and clean and looks like other people&amp;rsquo;s work. The
+biggest disadvantage is that I have 80+ pages of
+paginated weblog going back into the dim mists of time,
+and this theme doesn&amp;rsquo;t come out of the box with that
+in it.&lt;/p&gt;
+
+&lt;p&gt;There is a bigger, more existential question here. I&amp;rsquo;ve
+written on the order of 600,000 words &amp;ldquo;here&amp;rdquo;, whatever
+&amp;ldquo;here&amp;rdquo; means, on some rather large number of different
+topics. How on earth do you reorganize that into something
+sensible, or do you simply not bother?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
