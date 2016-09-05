@@ -162,5 +162,72 @@ of watching for them.&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>OpenVPN scaling</title>
+      <link>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</link>
+      <pubDate>Wed, 16 Dec 2015 12:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</guid>
+      <description>&lt;p&gt;Previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/&#34;&gt;OpenVPN in a container&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/&#34;&gt;Split tunnels considered harmful&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have this running in a staging environment and a test
+environment; it properly isolates OpenVPN from the underlying
+operating system, and seems to do the right thing performing
+rather well. However, its biggest limitation is that
+it runs on a single host &amp;amp; thus provides neither
+high availability in the case of Amazon &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/&#34;&gt;funkiness&lt;/a&gt;
+nor scalability to handle lots of clients.&lt;/p&gt;
+
+&lt;p&gt;Getting this to be more reliable was a matter of tracking
+down the right systemd configuration. I&amp;rsquo;ll save systemd
+commentary for a separate post, saying only that it&amp;rsquo;s new,
+it&amp;rsquo;s not necessarily better for managing single machines,
+but I can see the advantages for consolidated management of
+big collections of machines.&lt;/p&gt;
+
+&lt;p&gt;Some OpenVPN config alternatives to pursue that look like they might do
+the right thing are as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cloudcoreo.com&#34;&gt;CloudCoreo&lt;/a&gt; has a setup based on the Amazon Elastic Load Balancer.
+They say&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Getting an OpenVPN config up and running in AWS is difficult. We&amp;rsquo;ve already done it for you in an HA, durable, self-healing way. This blog post details how.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The blog post is in two sections.
+&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn/&#34;&gt;Part one&lt;/a&gt; details how they
+configured autoscaling, elastic load balancing, name service, S3
+storage and policies, and security and IAM policies to set things
+up the way that you would want them within Amazon&amp;rsquo;s AWS.
+&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn-part-2-of-2/&#34;&gt;Part two&lt;/a&gt; goes on to describe the particular OpenVPN policy
+and routing setup, and there&amp;rsquo;s a bunch of policy there particularly
+with the use of split tunnels that you want to understand.&lt;/p&gt;
+
+&lt;p&gt;Their claim that they have
+&amp;ldquo;done it all for you&amp;rdquo; reflects a &lt;a href=&#34;http://hub.cloudcoreo.com/stack/servers-vpn_c6a65&#34;&gt;complete configuration&lt;/a&gt; available
+through their CloudCoreo system.&lt;/p&gt;
+
+&lt;p&gt;A second approach is detailed by &lt;a href=&#34;https://blog.zalando.com&#34;&gt;Zalando&lt;/a&gt;, a Berlin based retail fashion platform.
+Their article &lt;a href=&#34;https://tech.zalando.com/blog/building-an-openvpn-cluster-zalando-style/&#34;&gt;Building an OpenVPN Cluster, Zalando-Style&lt;/a&gt;
+uses dynamic routing to distribute routes, and the
+&lt;a href=&#34;http://www.nongnu.org/quagga/&#34;&gt;Quagga&lt;/a&gt; system as their software based router. This setup
+does not particularly depend on AWS features, and they
+claim that
+&amp;ldquo;With this set up, we have about 800 users (150 in parallel) and haven’t faced any performance issues at anytime, from anywhere!&amp;rdquo;
+It&amp;rsquo;s a bit more complex to set up, though the writeup
+makes it clear that because of the flexibility that dynamic
+routing gives you there&amp;rsquo;s the opportunity to construct
+firewall policies that follow the user quite independent
+of how they are connecting to the network.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

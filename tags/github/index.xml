@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/github/</link>
+    <description>Recent content in Github on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 11:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Github private repositories</title>
+      <link>http://vielmetti.github.io/post/2016/2016-06-01-github-private-repos/</link>
+      <pubDate>Wed, 01 Jun 2016 11:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-06-01-github-private-repos/</guid>
+      <description>&lt;p&gt;Github has changed their pricing strategy to allow individual
+accounts to have more private repositories. This is a welcome
+change for accounts like mine.&lt;/p&gt;
+
+&lt;p&gt;As part of their change, enterprise pricing has increased.
+I&amp;rsquo;m told that this will multiply the bills that some companies
+will see.&lt;/p&gt;
+
+&lt;p&gt;This post tests a new private repo, and links to
+&lt;a href=&#34;https://github.com/pricing&#34;&gt;Github pricing&lt;/a&gt; for future reference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I am eating a sandwich, with a recipe in Github</title>
+      <link>http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes/</link>
+      <pubDate>Mon, 14 Dec 2015 23:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes/</guid>
+      <description>&lt;p&gt;Twitter is, of course, for telling people that you are eating a sandwich.
+That&amp;rsquo;s been the point of the system the whole time - long before selfies,
+even long before it took pictures at all, you might get a proper narrative
+of what people are eating for lunch or a snack.&lt;/p&gt;
+
+&lt;p&gt;Using the net to keep track of food is an old tradition; I need
+only point you at the &lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/main.html&#34;&gt;Usenet Cookbook&lt;/a&gt;,
+developed from 1985 to 1987 by Brian Reid, as an archetype.
+&amp;ldquo;I had a lettuce and tomato sandwich Saturday with mustard instead of mayonnaise. Better than I would have feared.&amp;rdquo; But that collection is
+weak on sandwiches, lending itself more to
+&lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/us/SP-menu.html&#34;&gt;soups&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To remedy this need I have started a small and pitiful but
+hopefully growable sandwich recipe collection, using Github
+as the hosting place of choice. See
+&lt;a href=&#34;https://github.com/vielmetti/sandwich&#34;&gt;the vielmetti/sandwich repository&lt;/a&gt;
+for the first start. As it happens, I am clearly not the only person
+to think this way; herewith some collection of sandwich collections.&lt;/p&gt;
+
+&lt;p&gt;Barrie Turner (@bazbt3) came up with roughly the same idea at the same
+time, and you might see his &lt;a href=&#34;http://bazbt3.re-app.net/2015/12/10/git-sandwiches/&#34;&gt;git sandwiches&lt;/a&gt; blog for the proper inspiration for collection
+development. Thanks to @ellemef for connecting us.&lt;/p&gt;
+
+&lt;p&gt;Single sandwiches in git include&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/magnus919/grilledcheese&#34;&gt;grilled cheese&lt;/a&gt;, from Magnus Hedemark&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pcon/recipes/tree/master/meals/fried_chicken_sandwich&#34;&gt;gluten free fried chicken sandwich&lt;/a&gt; from Patrick Connelly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and certainly many more.&lt;/p&gt;
+
+&lt;p&gt;If you are ill-equipped in your kitchen
+to make your own sandwiches, this command line tool will
+&lt;a href=&#34;https://github.com/travist/makemeasandwich.js&#34;&gt;order you a sandwich from Jimmy John&amp;rsquo;s&lt;/a&gt;. It comes with a makefile so that you invoke it as
+&lt;code&gt;sudo make me a sandwich&lt;/code&gt; and it will do the right thing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The productivity oscillator</title>
+      <link>http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator/</link>
+      <pubDate>Wed, 02 Dec 2015 07:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator/</guid>
+      <description>&lt;p&gt;I have been using Github issues for a long time as a todo list
+tracking and general productivity tool. It works well enough that
+I&amp;rsquo;ve opened over 4000 issues and have closed most of them.&lt;/p&gt;
+
+&lt;p&gt;The perpetual management challenge is in deciding how many issues
+is OK to leave open. Put too few in, and it feels like you have
+things to do that are not written down; put in too many, and you&amp;rsquo;re
+likely to have duplication and you forget what it is that you were
+trying to do in the first place.&lt;/p&gt;
+
+&lt;p&gt;The best part of the challenge is having some illusion of
+control over what is going on. I&amp;rsquo;m trying to work the queue
+this way. Some times my goal will be to create more open issues,
+putting things on the list to increase it up to a target goal.
+Other times the goal will be to reduce the size of the list by
+finishing tasks, clearing duplicates, or deciding not to get things
+done. By framing it as a deliberate game of &amp;ldquo;add tasks up to a
+target&amp;rdquo; or &amp;ldquo;clear tasks down to a target&amp;rdquo; I&amp;rsquo;m hoping to trick
+myself into taking on the easy things that I wrote down a month
+ago that will take a minute to do but are off my immediate radar.&lt;/p&gt;
+
+&lt;p&gt;The productivity oscillator suggests both a pattern of work and
+the illusion that whatever you are doing is the right thing to do.
+If you&amp;rsquo;re stuck trying to get stubborn things accomplished, write
+done some new easy goals and get those taken care of. It&amp;rsquo;s
+a quantified form of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/04/marginally_usef.html&#34;&gt;structured procrastination&lt;/a&gt; - which it turns out
+I&amp;rsquo;ve been talknig about for 10 years.&lt;/p&gt;
+
+&lt;p&gt;I wonder if there&amp;rsquo;s anything still on my todo list from 2005!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
