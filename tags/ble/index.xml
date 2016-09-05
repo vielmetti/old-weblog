@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ble on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/ble/</link>
+    <description>Recent content in Ble on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jan 2015 22:11:47 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/ble/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Just how cold is that window? Winter monitoring with the TI Sensortag, Node-RED, and Freeboard</title>
+      <link>http://vielmetti.github.io/post/2015/2015-01-27-just-how-cold-is-that-window-winter-monitoring-with-the-ti-sensortag-node-red-and-freeboard/</link>
+      <pubDate>Tue, 27 Jan 2015 22:11:47 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-01-27-just-how-cold-is-that-window-winter-monitoring-with-the-ti-sensortag-node-red-and-freeboard/</guid>
+      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40b54970d img-responsive&#34; alt=&#34;SensorTag&#34; title=&#34;SensorTag&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our living room has lovely (old) wooden windows. When it&#39;s cold, the windows get cold. Last year we got some lovely thermal curtains to insulate.&lt;/p&gt;
+
+&lt;p&gt;I thought I&#39;d use some of the equipment I had to see just how cold the windows were and how much warmer the curtains are to the touch.&lt;/p&gt;
+
+&lt;p&gt;The setup:&lt;/p&gt;
+
+&lt;p&gt;Macbook Air running OS X 10.9 (Mavericks), Node-RED 0.9.1, Freeboard, TI Sensortag. I&#39;m using RabbitMQ as my MQTT message passing system, but that&#39;s not strictly necessary for this application.&lt;/p&gt;
+
+&lt;p&gt;The Macbook has support for Bluetooth Low Energy (BLE) which is what the Sensortag talks. Support for BLE in Node-RED is provided by the &#34;noble&#34; module, which the &#34;sensortag&#34; module uses to communicate with the device. Freeboard is a visualization dashboard with some simple widgets to display data coming to it.&lt;/p&gt;
+
+&lt;p&gt;This report on &lt;a href=&#34;https://gist.github.com/dceejay/fb47301b759222e05f84&#34;&gt;how to use the Freeboard dashboard with Node-RED&lt;/a&gt; has all of the difficult parts. It provides a websocket listener for Freeboard, and you use the built-in websocket transmitter on Node-RED. There&#39;s a very tiny bit of logic to pull apart the data coming off the Sensortag; it could probably be less if I were more clever.&lt;/p&gt;
+
+&lt;p&gt;The Node-RED code looks like this&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40ac5970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-01-27 at 10.00.33 PM&#34; title=&#34;Screen Shot 2015-01-27 at 10.00.33 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;and the very simple dashboard I put together to test this looks like this&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0c9e228970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-01-27 at 9.07.09 PM&#34; title=&#34;Screen Shot 2015-01-27 at 9.07.09 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;There&#39;s a catch to using the TI Sensortag; it sometimes turns itself off, to save battery. To correct this you can install new firmware on the device to disable the battery saving mode. The folks at MyWeatherCenter provide a &lt;a href=&#34;http://www.myweathercenter.net/installing-a-new-firmware-for-ti-sensortag/&#34;&gt;link to their firmware&lt;/a&gt; which deals with the issue, at the cost of lower battery life. &lt;/p&gt;
+
+&lt;p&gt;The results: the windows are way, way colder than the inside air (about 45 degrees), but the curtains read much warmer (about 60 degrees). Thermal curtains for the win!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

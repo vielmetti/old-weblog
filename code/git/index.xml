@@ -95,35 +95,5 @@ is &lt;code&gt;git rebase -i&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
-    <item>
-      <title>that new computer smell</title>
-      <link>http://vielmetti.github.io/post/2014/2014-09-30-that-new-computer-smell/</link>
-      <pubDate>Tue, 30 Sep 2014 14:11:44 +0000</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2014/2014-09-30-that-new-computer-smell/</guid>
-      <description>&lt;p&gt;I won&#39;t be complaining about a small keyboard or a small screen for a while, but I have a lot of tools to reinstall on a new system.&lt;/p&gt;
-
-&lt;p&gt;In order of appearance:&lt;/p&gt;
-
-&lt;p&gt;Chrome, first thing. I like Safari enough in a pinch, but when it comes time to sync up my working environment, Chrome is what I need. A bonus on this system is that there&#39;s a working full-screen mode.&lt;/p&gt;
-
-&lt;p&gt;git comes with the machine, so I didn&#39;t have to install it; it&#39;s a big part of making sure that stuff gets version tracked.&lt;/p&gt;
-
-&lt;p&gt;Node-RED. I need to have a simple programming environment that is network and device aware, and for the past few months Node-RED has been it. I&#39;m at version 0.9.0 now. That depends first on having node.js installed, and subsequently on pulling in a lot of Node-RED dependencies.&lt;/p&gt;
-
-&lt;p&gt;Contacts. I&#39;ve synced Google Contacts with the Apple address book; that took an extra step since I&#39;m using 2-factor authentication at Google. The CardDAV support is new to me.&lt;/p&gt;
-
-&lt;p&gt;Dropbox. Plug it in, it just works. Next.&lt;/p&gt;
-
-&lt;p&gt;Google Drive. Plug it in, it seems to work; lots to sync including a lot of photos and a lot of unsorted old crap.&lt;/p&gt;
-
-&lt;p&gt;One of the things I&#39;m realizing is that yes, there&#39;s lots of &#34;unsorted old crap&#34; on this which is still a new machine. &lt;/p&gt;
-
-&lt;p&gt;XCode, that&#39;s a mighty big download.&lt;/p&gt;
-
-&lt;p&gt;Apple Software Update is patching the shellshock vulnerability, I hope.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
