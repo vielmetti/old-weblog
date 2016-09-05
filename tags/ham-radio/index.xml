@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ham Radio on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/ham-radio/</link>
+    <description>Recent content in Ham Radio on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jan 2016 09:00:00 -0500</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/ham-radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ann Arbor area APRS network status, January 2016</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/</link>
+      <pubDate>Thu, 14 Jan 2016 09:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/</guid>
+      <description>&lt;p&gt;APRS is the &amp;ldquo;Automatic Position Reporting Service&amp;rdquo;, a
+system for sharing information about the position of
+participating amateur radio stations. Clients transmit
+position reports on 144.39 Mhz; digipeaters repeat
+these reports to other monitoring stations; and various
+IGate sites monitor transmissions and send their findings
+to &lt;a href=&#34;http://aprs.fi&#34;&gt;aprs.fi&lt;/a&gt; which collects worldwide data.&lt;/p&gt;
+
+&lt;p&gt;In recent memory there has been an APRS digipeater in
+Chelsea, Michigan with wide area coverage, good enough
+to pick up travellers on I-94 west of Ann Arbor.
+The Chelsea digirepeater is currently off the air,
+which leaves a coverage gap.&lt;/p&gt;
+
+&lt;p&gt;There is one station within the city of Ann Arbor.
+&lt;a href=&#34;http://aprs.fi/info/a/KD8TDF&#34;&gt;KD8TDF&lt;/a&gt; is in southeast
+Ann Arbor (EN82dg). Its coverage is enough to pick up
+part of I-94 right adjacent to town. A second station,
+&lt;a href=&#34;http://aprs.fi/info/a/AB3DC-1&#34;&gt;AB3DC-1&lt;/a&gt; is the
+Ann Arbor/Ypsi Rx-iGate, w8pgw.org, right near St.
+Joe&amp;rsquo;s Hospital (EN82eg).&lt;/p&gt;
+
+&lt;p&gt;Discussion at last night&amp;rsquo;s ARROW meeting included a
+desire to experiment on 2 meters with digital modes.
+Dave New &lt;a href=&#34;http://www.qrz.com/DB/N8SBE&#34;&gt;N8SBE&lt;/a&gt; talked
+about software defined radio and GNU Radio, and demonstrated
+monitoring car key-fobs on UHF.&lt;/p&gt;
+
+&lt;p&gt;APRS is a very old and useful digital mode, and I
+am hopeful that local network conditions will improve.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

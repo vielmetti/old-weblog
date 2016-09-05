@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eliza on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/eliza/</link>
+    <description>Recent content in Eliza on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 May 2016 11:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/eliza/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bots are hot - again</title>
+      <link>http://vielmetti.github.io/post/2016/2016-05-18-bots-are-hot/</link>
+      <pubDate>Wed, 18 May 2016 11:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-05-18-bots-are-hot/</guid>
+      <description>&lt;p&gt;The title of the post is taken from a &lt;a href=&#34;http://www.wired.com/1996/04/netbots/&#34;&gt;1996 Wired article&lt;/a&gt;
+by &lt;a href=&#34;https://twitter.com/koxinga21&#34;&gt;Andrew Leonard&lt;/a&gt;
+describing the state of automated systems in the dot-com
+era.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Web robots – spiders, wanderers, and worms. Cancelbots, Lazarus, and Automoose. Chatterbots, softbots, userbots, taskbots, knowbots, and mailbots. MrBot and MrsBot. Warbots, clonebots, floodbots, annoybots, hackbots, and Vladbots. Gaybots, gossipbots, and gamebots. Skeleton bots, spybots, and sloth bots. Xbots and meta-bots. Eggdrop bots. Motorcycle bull dyke bots.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bots are hot today in part because natural langauge processing
+has improved to the point where &lt;a href=&#34;https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html&#34;&gt;Google can build hardware&lt;/a&gt;
+to speed up their software algorithms and run their immense
+training corpuses through it quickly to fine tune their approach.
+The output of this effort is ASICs that speed up their &lt;a href=&#34;https://www.tensorflow.org/&#34;&gt;Tensorflow&lt;/a&gt;
+algorithm for machine learning. Thus Google can safely give away
+their software, knowing that anyone else running it will use
+a multiple of the energy that it takes Google to do it.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s instructive to look at the changes throughout the years and
+how bots have co-evolved with the networks and computer systems
+that they inhabit. Early AIs like ELIZA and PARRY lived on
+mainframes connected to very slow wide-area networks, and it
+was years before the two of them talked to each other online.
+The 1980s and 1990s brought Usenet and the automation that could
+live on store-and-forward networks. AOL Instant Messenger&amp;rsquo;s
+ubiquitous chat met popular culture and the emergence of
+advertising bots like GooglyMinotaur, which promoted the music
+of Radiohead.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been writing what I think is some kind of manuscript about
+bots and their personalities, a biographical dictionary of
+emerging intelligences. I&amp;rsquo;m at about 10,000 words. It&amp;rsquo;s a challenge
+to try to corral that much quasi-intelligence onto the page, including
+trying as best I can to characterize some systems that are
+known only by people&amp;rsquo;s memories of them.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

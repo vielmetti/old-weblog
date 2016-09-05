@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radio on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/radio/</link>
+    <description>Recent content in Radio on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jul 2016 23:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Plane finding with dump1090</title>
+      <link>http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/</link>
+      <pubDate>Sat, 02 Jul 2016 23:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/</guid>
+      <description>&lt;p&gt;In March 2015 I wrote briefly about &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/&#34;&gt;plane spotting with dump1090&lt;/a&gt;.
+In short, many airplanes have ADS-B transponders which squawk out
+their location, airspeed, and current conditions, and you can pick
+up those transmissions using an inexpensive RTL-SDR tuner stick and
+a simple antenna.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been looking into this again to see if I can get a better
+understanding of how it works as well as to take advantage of a year plus
+of software development. Here&amp;rsquo;s a summary of the state of the art
+circa July 2016.&lt;/p&gt;
+
+&lt;p&gt;Hardware: I&amp;rsquo;m using a Nooelec NESDR Mini 2 tuner stick plugged into a MacBook Air
+as a portable plane-finding system. I have a Raspberry Pi 2 which looks
+like it could be a permanent installation for this, though the recommendation
+for busy skies is a Pi 3 which is enough faster to make a difference if you
+have a good antenna.&lt;/p&gt;
+
+&lt;p&gt;Antenna: The Mini 2 comes with a small whip antenna with a magnetic base, and I&amp;rsquo;m borrowing
+a larger antenna. There are scads of antenna designs out there for inexpensive
+small antennas tuned to 1090 Mhz, but I&amp;rsquo;m not there yet. There are also
+filters and amplifiers that can improve plane-finding capabilities; also not
+there yet.&lt;/p&gt;
+
+&lt;p&gt;Software: Here&amp;rsquo;s where I&amp;rsquo;ve made progress. The dump1090 software has been
+forked several times, each time with just a little bit more sophistication
+on the visual display as well as refinements of the decoding system. The
+one I&amp;rsquo;m using right now is a fork by &amp;ldquo;mutability&amp;rdquo;, available at
+&lt;a href=&#34;https://github.com/mutability/dump1090&#34;&gt;https://github.com/mutability/dump1090&lt;/a&gt; . It&amp;rsquo;s notable for being
+designed to run on a Raspberry Pi, as well as a bunch of small changes
+in the display that make it more pleasant to use than the older software
+I had been using.&lt;/p&gt;
+
+&lt;p&gt;Range: Just like I reported back in 2015, the typical results from my
+house are a range of 40-50 nautical miles in every direction. I haven&amp;rsquo;t
+yet taken the rig to my favorite plane-spotting cafe &amp;ndash; the Biggby at
+Platt and Ellsworth &amp;ndash; which has a clear view of the southern sky at
+a good elevation.&lt;/p&gt;
+
+&lt;p&gt;Tweaking the setup: Aside from changing out the hardware and relocating
+the antenna, the tweakable changes seem to be adjusting the gain control
+on the SDR. Initial experiments don&amp;rsquo;t give me strong conclusions as to
+what&amp;rsquo;s best. The reviews of a
+&lt;a href=&#34;https://www.amazon.com/ADS-B-1090MHz-Band-pass-SMA-Filter/dp/B010GBQXK8&#34;&gt;$20 band pass filter&lt;/a&gt; are
+promising for increasing the range.&lt;/p&gt;
+
+&lt;p&gt;Feeding the data elsewhere: One of the collective efforts around looking for
+airplanes is the ability to share the data with commerical and non-commericial
+systems that aggregate data from around the world. I&amp;rsquo;m digging
+&lt;a href=&#34;http://planefinder.net&#34;&gt;http://planefinder.net&lt;/a&gt; which has a nifty near-real-time feed of ADS-B
+and FAA and other international data for tracking flights. Planefinder is
+fast enough that I can hear an airplane overheard, check the display,
+and figure out which flight is there.&lt;/p&gt;
+
+&lt;p&gt;Satellite plane finding: The &lt;a href=&#34;https://directory.eoportal.org/web/eoportal/satellite-missions/g/gomx-3&#34;&gt;GOMX-3 satellite&lt;/a&gt;
+has an SDR with ADS-B reception and has successfully
+&lt;a href=&#34;http://www.airtrafficmanagement.net/2016/07/fr24-completes-satbased-adsb-tracking/&#34;&gt;fed data to Flightradar24&lt;/a&gt;,
+another commericial plane tracking system. ADS-B receivers are expected
+to be installed on the Iridium system over the next couple of years,
+which should over time provide improved global coverage and visibility
+into the current status of aircraft over oceans and the poles.&lt;/p&gt;
+
+&lt;p&gt;What it looks like: I don&amp;rsquo;t have a permanent installation running,
+but if you&amp;rsquo;re interested in the airspace above San Diego, you can
+see Phil Karn KA9Q&amp;rsquo;s system at &lt;a href=&#34;http://maggie.ka9q.net:8080/dump1090/gmap.html&#34;&gt;http://maggie.ka9q.net:8080/dump1090/gmap.html&lt;/a&gt;
+noting that he&amp;rsquo;s in easy range of picking traffic into LAX.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor area APRS network status, January 2016</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/</link>
+      <pubDate>Thu, 14 Jan 2016 09:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/</guid>
+      <description>&lt;p&gt;APRS is the &amp;ldquo;Automatic Position Reporting Service&amp;rdquo;, a
+system for sharing information about the position of
+participating amateur radio stations. Clients transmit
+position reports on 144.39 Mhz; digipeaters repeat
+these reports to other monitoring stations; and various
+IGate sites monitor transmissions and send their findings
+to &lt;a href=&#34;http://aprs.fi&#34;&gt;aprs.fi&lt;/a&gt; which collects worldwide data.&lt;/p&gt;
+
+&lt;p&gt;In recent memory there has been an APRS digipeater in
+Chelsea, Michigan with wide area coverage, good enough
+to pick up travellers on I-94 west of Ann Arbor.
+The Chelsea digirepeater is currently off the air,
+which leaves a coverage gap.&lt;/p&gt;
+
+&lt;p&gt;There is one station within the city of Ann Arbor.
+&lt;a href=&#34;http://aprs.fi/info/a/KD8TDF&#34;&gt;KD8TDF&lt;/a&gt; is in southeast
+Ann Arbor (EN82dg). Its coverage is enough to pick up
+part of I-94 right adjacent to town. A second station,
+&lt;a href=&#34;http://aprs.fi/info/a/AB3DC-1&#34;&gt;AB3DC-1&lt;/a&gt; is the
+Ann Arbor/Ypsi Rx-iGate, w8pgw.org, right near St.
+Joe&amp;rsquo;s Hospital (EN82eg).&lt;/p&gt;
+
+&lt;p&gt;Discussion at last night&amp;rsquo;s ARROW meeting included a
+desire to experiment on 2 meters with digital modes.
+Dave New &lt;a href=&#34;http://www.qrz.com/DB/N8SBE&#34;&gt;N8SBE&lt;/a&gt; talked
+about software defined radio and GNU Radio, and demonstrated
+monitoring car key-fobs on UHF.&lt;/p&gt;
+
+&lt;p&gt;APRS is a very old and useful digital mode, and I
+am hopeful that local network conditions will improve.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dave New N8SBE to speak at ARROW on Software Defined Radio</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/</link>
+      <pubDate>Wed, 13 Jan 2016 00:15:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/</guid>
+      <description>&lt;p&gt;Dave New N8SBE will be speaking at the January 2016 meeting of
+the ARROW radio club on the topic of Software Defined Radio.&lt;/p&gt;
+
+&lt;p&gt;He will present an introduction to GNU Radio and the GNU Radio
+Companion visual programming environment, and the HackRF One Software
+Defined Transceiver from Great Scott Gadgets.&lt;/p&gt;
+
+&lt;p&gt;The demo will include a disucssion of receiver and transmitter flow
+graphs, as well as resources to learn more about
+digital signal processing using the HackRF One and GNU Radio.&lt;/p&gt;
+
+&lt;p&gt;ARROW meets Wednesday, January 13, 2016, from 7:00 p.m. to 9:00 p.m. at
+Washtenaw Community College, room BE-172 or nearby room.&lt;/p&gt;
+
+&lt;p&gt;For more details contact ARROW at &lt;a href=&#34;http://www.w8pgw.org/&#34;&gt;http://www.w8pgw.org/&lt;/a&gt; .&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
