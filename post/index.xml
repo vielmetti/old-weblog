@@ -6,8 +6,52 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Sep 2016 01:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2016 17:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Daily coffee and wifi, September 6, 2016</title>
+      <link>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</link>
+      <pubDate>Tue, 06 Sep 2016 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</guid>
+      <description>&lt;p&gt;Coffee and wifi (double espresso over ice) at the &amp;ldquo;dog park Biggby&amp;rdquo;,
+Platt Road at Ellsworth. It&amp;rsquo;s not an inconvenient location,
+and the very large south-facing windows are good to know about
+as the days get shorter.&lt;/p&gt;
+
+&lt;p&gt;More than 90 degrees outside, and I&amp;rsquo;m preparing to make dinner.
+The recipe is for &amp;ldquo;broccoli Calabrian style&amp;rdquo; from Martha Rose Shulman.
+I couldn&amp;rsquo;t find that exact recipe online, but this
+&lt;a href=&#34;http://www.italycookingschools.com/bucatini-con-broccoli-alla-calabresebucatini-broccoli-calabrian-style/&#34;&gt;Bucatini Con Broccoli Alla Calabrese&lt;/a&gt; is close.
+Substitute sunflower seeds for pine nuts.
+The key to it is that you don&amp;rsquo;t want to cook anything too long,
+because it&amp;rsquo;s hot out.&lt;/p&gt;
+
+&lt;p&gt;First day of the 2016 school year for the boys. S. is at Community High School,
+and J. had his first day at Tappan Middle School. I don&amp;rsquo;t write
+about them much, but it sounded like today was a good day all in all.&lt;/p&gt;
+
+&lt;p&gt;Two new front tires for the car - one of them was quite flat, and they
+were both quite worn.&lt;/p&gt;
+
+&lt;p&gt;A new venue for lunch, the &lt;a href=&#34;https://www.sessionrooma2.com/&#34;&gt;Session Room&lt;/a&gt; on Jackson Road in Scio Township.
+They have a very long list of beers which you can conveniently order
+in very small glasses (4 oz) to try out and enjoy.&lt;/p&gt;
+
+&lt;p&gt;The current challenge is to get an instance of Salt running in a
+Docker container, integrated with OpenVPN a la this
+&lt;a href=&#34;https://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html&#34;&gt;OpenVPN provisioning with Salt&lt;/a&gt; recipe. We currently think that the
+best way to manage this is to connect it to the Docker
+container via an &lt;a href=&#34;https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2/&#34;&gt;Elastic File System&lt;/a&gt; mount.
+A sub-challenge is finding the right way to run Salt in a container;
+tooling for this is awkward because you really to run some commands
+within the context of the container. Soon&amp;rsquo;s
+&lt;a href=&#34;https://github.com/thisissoon/Docker-Salt-Master&#34;&gt;Docker Salt Master&lt;/a&gt; looks like a start.&lt;/p&gt;
+
+&lt;p&gt;Tonight, Ann Arbor City Council. Follow along on the #&lt;a href=&#34;https://twitter.com/hashtag/a2council&#34;&gt;a2council&lt;/a&gt; hashtag on Twitter.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Artist Rebecca Moss aboard the Hanjin Geneva</title>
@@ -830,67 +874,6 @@ symbol in it. You can get close by
 &lt;a href=&#34;http://parkerhiggins.net/2013/01/writing-the-prince-symbol-in-unicode/&#34;&gt;writing the prince symbol in unicode&lt;/a&gt;,
 or this ASCII representation may suffice: O(+&amp;gt; . But the
 real deal came on a &lt;a href=&#34;http://nymag.com/following/2016/04/princes-legendary-floppy-disk-symbol-font.html&#34;&gt;3.5&amp;rdquo; floppy disc&lt;/a&gt; from Warner Bros.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Earthquake in Ecuador, April 16, 2016</title>
-      <link>http://vielmetti.github.io/post/2016/2016-04-17-ecuador-terremoto/</link>
-      <pubDate>Sun, 17 Apr 2016 13:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-04-17-ecuador-terremoto/</guid>
-      <description>&lt;p&gt;Ann Arbor, MI, 17 April 2016: An earthquake hit near the coast of
-Ecuador on the evening of 16 April 2016. As of 1:00 p.m. Eastern
-time the current estimate is 235 killed and 1,557 wounded from the
-incident. Reports are still coming in from the hardest hit areas
-which lost telecommunications lines in the disaster, so expect these
-numbers to increase.&lt;/p&gt;
-
-&lt;p&gt;Early reports from Ecuador came in
-&lt;a href=&#34;https://twitter.com/abenavidesgol/status/721506479866572800&#34;&gt;primarily via social media&lt;/a&gt;, as it took
-a while for the nation&amp;rsquo;s news organization to cut over to flash reporting
-of the news from their regularly scheduled programs. The country&amp;rsquo;s
-vice president, &lt;a href=&#34;https://twitter.com/JorgeGlas&#34;&gt;Jorge Glas&lt;/a&gt;, provided
-regular and authoritative reports on damage and emergency response.&lt;/p&gt;
-
-&lt;p&gt;Reporting on the damage was almost entirely in Spanish,
-as there is no substantial English language media presence in the
-county. I found the automated translation service provided by Bing
-in the Twitter feed to be indispensible. Some words that you will
-see over and over again:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;personas heridas = people injured&lt;/li&gt;
-&lt;li&gt;personas fallecidas = people killed&lt;/li&gt;
-&lt;li&gt;sin luz = without electricity&lt;/li&gt;
-&lt;li&gt;sismo, terremoto, temblor = earthquake&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For music and (sometimes) news from Ecuador, I turned to Tunein, which
-relays thousands of radio stations worldwide. At various times the following
-channels were interesting or informative:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tunein.com/radio/Radio-Am%C3%A9rica-Estereo-%40Guayaquil%41-933-s68608/&#34;&gt;Radio America Estereo, Guayaquil&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tunein.com/radio/Radio-Quito-760-s59649/&#34;&gt;Radio Quito, 760 AM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tunein.com/radio/Ecuador-Inmediato-Radio-s59648/&#34;&gt;Ecuador Inmediato Radio, Quito&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I looked for the shortwave broadcast of &lt;a href=&#34;http://radiohcjb.org/&#34;&gt;HCJB&lt;/a&gt; but
-it would appear that its English language broadcasts are no more. There is
-news in Spanish on the site under the &lt;a href=&#34;http://radiohcjb.org/author/noticias/&#34;&gt;Noticias&lt;/a&gt; banner.&lt;/p&gt;
-
-&lt;p&gt;Some individual news feeds to follow from the time of the event:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/lewisshepherd&#34;&gt;Lewis Shepherd&lt;/a&gt;, Washington DC based analyst&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/elcomerciocom&#34;&gt;El Comercio&lt;/a&gt;, Quito newspaper&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/_MayraPacheco&#34;&gt;Mayra Pacheco&lt;/a&gt;, reporter for El Comercio&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/ECU911Quito&#34;&gt;ECU 911 Quito&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/IGEcuador&#34;&gt;IG Ecuador&lt;/a&gt;, Instituto Geofísico with quake maps and scientific reports&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thoughts go out to everyone affected by the quake.&lt;/p&gt;
 </description>
     </item>
     

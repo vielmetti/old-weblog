@@ -6,8 +6,52 @@
     <description>Recent content in Docker on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2016 13:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2016 17:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Daily coffee and wifi, September 6, 2016</title>
+      <link>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</link>
+      <pubDate>Tue, 06 Sep 2016 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</guid>
+      <description>&lt;p&gt;Coffee and wifi (double espresso over ice) at the &amp;ldquo;dog park Biggby&amp;rdquo;,
+Platt Road at Ellsworth. It&amp;rsquo;s not an inconvenient location,
+and the very large south-facing windows are good to know about
+as the days get shorter.&lt;/p&gt;
+
+&lt;p&gt;More than 90 degrees outside, and I&amp;rsquo;m preparing to make dinner.
+The recipe is for &amp;ldquo;broccoli Calabrian style&amp;rdquo; from Martha Rose Shulman.
+I couldn&amp;rsquo;t find that exact recipe online, but this
+&lt;a href=&#34;http://www.italycookingschools.com/bucatini-con-broccoli-alla-calabresebucatini-broccoli-calabrian-style/&#34;&gt;Bucatini Con Broccoli Alla Calabrese&lt;/a&gt; is close.
+Substitute sunflower seeds for pine nuts.
+The key to it is that you don&amp;rsquo;t want to cook anything too long,
+because it&amp;rsquo;s hot out.&lt;/p&gt;
+
+&lt;p&gt;First day of the 2016 school year for the boys. S. is at Community High School,
+and J. had his first day at Tappan Middle School. I don&amp;rsquo;t write
+about them much, but it sounded like today was a good day all in all.&lt;/p&gt;
+
+&lt;p&gt;Two new front tires for the car - one of them was quite flat, and they
+were both quite worn.&lt;/p&gt;
+
+&lt;p&gt;A new venue for lunch, the &lt;a href=&#34;https://www.sessionrooma2.com/&#34;&gt;Session Room&lt;/a&gt; on Jackson Road in Scio Township.
+They have a very long list of beers which you can conveniently order
+in very small glasses (4 oz) to try out and enjoy.&lt;/p&gt;
+
+&lt;p&gt;The current challenge is to get an instance of Salt running in a
+Docker container, integrated with OpenVPN a la this
+&lt;a href=&#34;https://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html&#34;&gt;OpenVPN provisioning with Salt&lt;/a&gt; recipe. We currently think that the
+best way to manage this is to connect it to the Docker
+container via an &lt;a href=&#34;https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2/&#34;&gt;Elastic File System&lt;/a&gt; mount.
+A sub-challenge is finding the right way to run Salt in a container;
+tooling for this is awkward because you really to run some commands
+within the context of the container. Soon&amp;rsquo;s
+&lt;a href=&#34;https://github.com/thisissoon/Docker-Salt-Master&#34;&gt;Docker Salt Master&lt;/a&gt; looks like a start.&lt;/p&gt;
+
+&lt;p&gt;Tonight, Ann Arbor City Council. Follow along on the #&lt;a href=&#34;https://twitter.com/hashtag/a2council&#34;&gt;a2council&lt;/a&gt; hashtag on Twitter.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>full stack plane spotting and data analysis</title>
@@ -159,6 +203,107 @@ to poll a URL every second; don&amp;rsquo;t do that to a poor little Pi.&lt;/p&g
 
 &lt;p&gt;The planes I want to watch don&amp;rsquo;t take off very often - that&amp;rsquo;s the appeal
 of watching for them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenVPN scaling</title>
+      <link>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</link>
+      <pubDate>Wed, 16 Dec 2015 12:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</guid>
+      <description>&lt;p&gt;Previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/&#34;&gt;OpenVPN in a container&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/&#34;&gt;Split tunnels considered harmful&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have this running in a staging environment and a test
+environment; it properly isolates OpenVPN from the underlying
+operating system, and seems to do the right thing performing
+rather well. However, its biggest limitation is that
+it runs on a single host &amp;amp; thus provides neither
+high availability in the case of Amazon &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/&#34;&gt;funkiness&lt;/a&gt;
+nor scalability to handle lots of clients.&lt;/p&gt;
+
+&lt;p&gt;Getting this to be more reliable was a matter of tracking
+down the right systemd configuration. I&amp;rsquo;ll save systemd
+commentary for a separate post, saying only that it&amp;rsquo;s new,
+it&amp;rsquo;s not necessarily better for managing single machines,
+but I can see the advantages for consolidated management of
+big collections of machines.&lt;/p&gt;
+
+&lt;p&gt;Some OpenVPN config alternatives to pursue that look like they might do
+the right thing are as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cloudcoreo.com&#34;&gt;CloudCoreo&lt;/a&gt; has a setup based on the Amazon Elastic Load Balancer.
+They say&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Getting an OpenVPN config up and running in AWS is difficult. We&amp;rsquo;ve already done it for you in an HA, durable, self-healing way. This blog post details how.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The blog post is in two sections.
+&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn/&#34;&gt;Part one&lt;/a&gt; details how they
+configured autoscaling, elastic load balancing, name service, S3
+storage and policies, and security and IAM policies to set things
+up the way that you would want them within Amazon&amp;rsquo;s AWS.
+&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn-part-2-of-2/&#34;&gt;Part two&lt;/a&gt; goes on to describe the particular OpenVPN policy
+and routing setup, and there&amp;rsquo;s a bunch of policy there particularly
+with the use of split tunnels that you want to understand.&lt;/p&gt;
+
+&lt;p&gt;Their claim that they have
+&amp;ldquo;done it all for you&amp;rdquo; reflects a &lt;a href=&#34;http://hub.cloudcoreo.com/stack/servers-vpn_c6a65&#34;&gt;complete configuration&lt;/a&gt; available
+through their CloudCoreo system.&lt;/p&gt;
+
+&lt;p&gt;A second approach is detailed by &lt;a href=&#34;https://blog.zalando.com&#34;&gt;Zalando&lt;/a&gt;, a Berlin based retail fashion platform.
+Their article &lt;a href=&#34;https://tech.zalando.com/blog/building-an-openvpn-cluster-zalando-style/&#34;&gt;Building an OpenVPN Cluster, Zalando-Style&lt;/a&gt;
+uses dynamic routing to distribute routes, and the
+&lt;a href=&#34;http://www.nongnu.org/quagga/&#34;&gt;Quagga&lt;/a&gt; system as their software based router. This setup
+does not particularly depend on AWS features, and they
+claim that
+&amp;ldquo;With this set up, we have about 800 users (150 in parallel) and haven’t faced any performance issues at anytime, from anywhere!&amp;rdquo;
+It&amp;rsquo;s a bit more complex to set up, though the writeup
+makes it clear that because of the flexibility that dynamic
+routing gives you there&amp;rsquo;s the opportunity to construct
+firewall policies that follow the user quite independent
+of how they are connecting to the network.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenVPN in a container</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/</link>
+      <pubDate>Fri, 20 Nov 2015 16:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/</guid>
+      <description>&lt;p&gt;A few notes on setting up OpenVPN in a container.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using CoreOS, which gives me Docker 1.7.1 in the &amp;ldquo;stable&amp;rdquo; branch.&lt;/p&gt;
+
+&lt;p&gt;Two different Docker configurations are available that take on this task,
+with slightly different setups. Kyle Manna&amp;rsquo;s &lt;a href=&#34;https://github.com/kylemanna/docker-openvpn&#34;&gt;docker-openvpn&lt;/a&gt;
+is what I&amp;rsquo;m working with; it in turn is derived from
+&lt;a href=&#34;https://github.com/jpetazzo/dockvpn&#34;&gt;jpetazzo/dockvpn&lt;/a&gt; which
+solves the same problem slightly differently.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04&#34;&gt;tutorial on Digital Ocean&lt;/a&gt;
+that describes the setup including client-side support.&lt;/p&gt;
+
+&lt;p&gt;A second &lt;a href=&#34;https://stefanscherer.github.io/run-your-own-dockerized-openvpn-server-at-scaleway/&#34;&gt;tutorial by Stefan Scherer&lt;/a&gt;
+gives instructions for use in the Scaleway ARM-based server cloud.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m at the stage right now where I downloaded and installed
+everything and created an &amp;ldquo;opvn&amp;rdquo; config file that successfully
+loads into Tunnelblick, but where it doesn&amp;rsquo;t quite yet have
+all of the routing set up. The slight complication in the
+configuration is that I want to give access to Amazon
+VPCs, so I have a few layers of software-defined networking
+to knit together (or to unravel depending on your perspective).&lt;/p&gt;
+
+&lt;p&gt;network ho!&lt;/p&gt;
 </description>
     </item>
     

@@ -6,8 +6,52 @@
     <description>Recent content in Openvpn on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2016 13:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2016 17:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Daily coffee and wifi, September 6, 2016</title>
+      <link>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</link>
+      <pubDate>Tue, 06 Sep 2016 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</guid>
+      <description>&lt;p&gt;Coffee and wifi (double espresso over ice) at the &amp;ldquo;dog park Biggby&amp;rdquo;,
+Platt Road at Ellsworth. It&amp;rsquo;s not an inconvenient location,
+and the very large south-facing windows are good to know about
+as the days get shorter.&lt;/p&gt;
+
+&lt;p&gt;More than 90 degrees outside, and I&amp;rsquo;m preparing to make dinner.
+The recipe is for &amp;ldquo;broccoli Calabrian style&amp;rdquo; from Martha Rose Shulman.
+I couldn&amp;rsquo;t find that exact recipe online, but this
+&lt;a href=&#34;http://www.italycookingschools.com/bucatini-con-broccoli-alla-calabresebucatini-broccoli-calabrian-style/&#34;&gt;Bucatini Con Broccoli Alla Calabrese&lt;/a&gt; is close.
+Substitute sunflower seeds for pine nuts.
+The key to it is that you don&amp;rsquo;t want to cook anything too long,
+because it&amp;rsquo;s hot out.&lt;/p&gt;
+
+&lt;p&gt;First day of the 2016 school year for the boys. S. is at Community High School,
+and J. had his first day at Tappan Middle School. I don&amp;rsquo;t write
+about them much, but it sounded like today was a good day all in all.&lt;/p&gt;
+
+&lt;p&gt;Two new front tires for the car - one of them was quite flat, and they
+were both quite worn.&lt;/p&gt;
+
+&lt;p&gt;A new venue for lunch, the &lt;a href=&#34;https://www.sessionrooma2.com/&#34;&gt;Session Room&lt;/a&gt; on Jackson Road in Scio Township.
+They have a very long list of beers which you can conveniently order
+in very small glasses (4 oz) to try out and enjoy.&lt;/p&gt;
+
+&lt;p&gt;The current challenge is to get an instance of Salt running in a
+Docker container, integrated with OpenVPN a la this
+&lt;a href=&#34;https://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html&#34;&gt;OpenVPN provisioning with Salt&lt;/a&gt; recipe. We currently think that the
+best way to manage this is to connect it to the Docker
+container via an &lt;a href=&#34;https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2/&#34;&gt;Elastic File System&lt;/a&gt; mount.
+A sub-challenge is finding the right way to run Salt in a container;
+tooling for this is awkward because you really to run some commands
+within the context of the container. Soon&amp;rsquo;s
+&lt;a href=&#34;https://github.com/thisissoon/Docker-Salt-Master&#34;&gt;Docker Salt Master&lt;/a&gt; looks like a start.&lt;/p&gt;
+
+&lt;p&gt;Tonight, Ann Arbor City Council. Follow along on the #&lt;a href=&#34;https://twitter.com/hashtag/a2council&#34;&gt;a2council&lt;/a&gt; hashtag on Twitter.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>full stack plane spotting and data analysis</title>
@@ -226,6 +270,40 @@ of how they are connecting to the network.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)&lt;/p&gt;
 &lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenVPN in a container</title>
+      <link>http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/</link>
+      <pubDate>Fri, 20 Nov 2015 16:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/</guid>
+      <description>&lt;p&gt;A few notes on setting up OpenVPN in a container.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using CoreOS, which gives me Docker 1.7.1 in the &amp;ldquo;stable&amp;rdquo; branch.&lt;/p&gt;
+
+&lt;p&gt;Two different Docker configurations are available that take on this task,
+with slightly different setups. Kyle Manna&amp;rsquo;s &lt;a href=&#34;https://github.com/kylemanna/docker-openvpn&#34;&gt;docker-openvpn&lt;/a&gt;
+is what I&amp;rsquo;m working with; it in turn is derived from
+&lt;a href=&#34;https://github.com/jpetazzo/dockvpn&#34;&gt;jpetazzo/dockvpn&lt;/a&gt; which
+solves the same problem slightly differently.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04&#34;&gt;tutorial on Digital Ocean&lt;/a&gt;
+that describes the setup including client-side support.&lt;/p&gt;
+
+&lt;p&gt;A second &lt;a href=&#34;https://stefanscherer.github.io/run-your-own-dockerized-openvpn-server-at-scaleway/&#34;&gt;tutorial by Stefan Scherer&lt;/a&gt;
+gives instructions for use in the Scaleway ARM-based server cloud.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m at the stage right now where I downloaded and installed
+everything and created an &amp;ldquo;opvn&amp;rdquo; config file that successfully
+loads into Tunnelblick, but where it doesn&amp;rsquo;t quite yet have
+all of the routing set up. The slight complication in the
+configuration is that I want to give access to Amazon
+VPCs, so I have a few layers of software-defined networking
+to knit together (or to unravel depending on your perspective).&lt;/p&gt;
+
+&lt;p&gt;network ho!&lt;/p&gt;
 </description>
     </item>
     
