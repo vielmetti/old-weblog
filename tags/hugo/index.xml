@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2015 15:47:24 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>diligently editing and converting for production</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</link>
+      <pubDate>Wed, 15 Jul 2015 15:47:24 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying my best to get this blog ready for production.
+The tasks remaining include the following.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Get a reasonable home page with pagination. Somehow I need
+to provide some kind of access to almost 2000 posts, and they
+don&amp;rsquo;t all fit on a single page. Sort through the design to make
+old things reachable, and then worry next about the formatter.
+(This is done at least minimally, though the provided paginator
+interface uses a list structure that&amp;rsquo;s not nice. Still, it gets
+me to what I need to in a ping.) Open discussion on gohugo is
+&lt;a href=&#34;http://discuss.gohugo.io/t/pagination-and-group-by-date/1441/3&#34;&gt;Pagination and group by date&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Publish to Github Pages, using vielmetti.github.io. I did this
+once (using Octopress) so it should be straightforward to do it again.
+I already do have a proper github repo (or nearly proper, it may
+be missing some key bits). Done; don&amp;rsquo;t have a perfect build script
+yet, but there&amp;rsquo;s at least a start.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Import all sorts more nonsense here, including a bunch of Superpatron
+and Blogger&amp;rsquo;s Secret and FOIA Coordiator weblogs. There&amp;rsquo;s no particular
+reason not to make it all one big soup. Import from Typepad is problematic
+but not impossible and that would be a good addition to the supported work;
+in particular it&amp;rsquo;s not evidently possible to export Markdown from Typepad,
+just HTML.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sort out theme issues so that I get a reasonable display for category
+and subcategory pages. I may have to write some things down by hand
+to get an understanding of what I really want. As it is right now
+those pages render as blank, in part because I need to convert a bunch
+of data imperfectly imported, which was throwing errors in my
+templates, which in turn was breaking the build. Dealing with the
+errored out builds is a question again for gohugo,
+&lt;a href=&#34;http://discuss.gohugo.io/t/taxononomy/1445&#34;&gt;taxononomy&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deal with the date problems. Lots of dates got imported without a timezone,
+but that was not the real issue; the real issue was also that lots got
+imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out and it seems to fix things.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implement, somehow, &amp;ldquo;edit on github&amp;rdquo; so that my workflow is easier.
+This might only be on the preview version. Some notes on the Hugo discussion
+forums
+describing how to do that are on
+&lt;a href=&#34;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&#34;&gt;How to implement “edit this page on github”?&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publishing from Hugo to Github Pages</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</link>
+      <pubDate>Tue, 14 Jul 2015 17:20:08 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</guid>
+      <description>&lt;p&gt;One of the challenges in getting things started is figuring
+out where the end product is going to live. Hugo has its own
+web server which is pretty nice, but since it generates static
+pages, the results can really go anywhere.&lt;/p&gt;
+
+&lt;p&gt;This tutorial goes through the process in excruciating detail&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;http://gohugo.io/tutorials/github-pages-blog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;but somehow fails to make it easy. What I&amp;rsquo;d like is a publishing
+workflow that just like the normal Hugo workflow puts things online
+instantly once they are built.&lt;/p&gt;
+
+&lt;p&gt;This one deploys with CodeShip&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&#34;&gt;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And this one deploys with Wercker&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/automated-deployments/&#34;&gt;http://gohugo.io/tutorials/automated-deployments/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yet one more, with Github hooks and S3/Cloudfront; it depends on s3cmd.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/imperialwicket/imperialwicket.com&#34;&gt;https://github.com/imperialwicket/imperialwicket.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, one that focuses on the github side of things:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/chrisjacob/825950&#34;&gt;https://gist.github.com/chrisjacob/825950&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The approach I have runs like so, it assumes that you have
+a working directory &amp;ldquo;~/src/hugo&amp;rdquo; with your blog in it, and
+a target directory &amp;ldquo;~/src/vielmetti.github.io&amp;rdquo; set up for
+github pages.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ~/src/hugo
+hugo -d ../vielmetti.github.io --theme=vacuum
+# wait to build, then
+cd ../vielmetti.github.io
+git add -A .
+git commit -m &amp;quot;build complete&amp;quot;
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;By having separate build directories like this you can keep the
+continuous build on your draft setup going, and then push a
+working version whenever you&amp;rsquo;re perfectly happy with the result.
+Not like anyone is really perfectly happy with any blog.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>customizing a theme</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-14-customizing-a-theme/</link>
+      <pubDate>Tue, 14 Jul 2015 14:32:07 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-14-customizing-a-theme/</guid>
+      <description>&lt;p&gt;Themes can be customized by editing the top matter, or by
+directly changing the theme. The challenge is understanding
+enough of how the moving parts interconnect to make it do what
+you want it to do, or at least enough of them so that you don&amp;rsquo;t
+have a blog that just looks like a weak ripoff of someone else&amp;rsquo;s.&lt;/p&gt;
+
+&lt;p&gt;This tutorial&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/creating-a-minimal-working-template/135/13&#34;&gt;http://discuss.gohugo.io/t/creating-a-minimal-working-template/135/13&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;does a very nice job of helping you walk through the simple
+bits. It does not get far enough to give you a sense for how
+to get pagination working but that&amp;rsquo;s at least a start.&lt;/p&gt;
+
+&lt;p&gt;There should be a super easy way to iterate through all
+of the themes. I&amp;rsquo;m looking for one that already nicely has
+some way of doing categories or tags or some kind of metadata.
+It would be extra super swell to find one that has a sidebar
+and footer structure to so that I can (finally) recreate notebook
+pages. I think I have someone that goes OK as a start - it
+wants to insert dynamic content into the sidebar for the home page,
+and then also to insert content that depends on the categories
+or tags for individual pages, so that the whole thing feels more
+like a carefully constructed notebook and less like a simple blog.&lt;/p&gt;
+
+&lt;p&gt;At some point you can iterate endlessly on appearance and completely
+lose track of contents. Fortuantely I have a body of work that I really
+want to see in this, so that motivates some level of forward progress.
+For instance, I&amp;rsquo;d love to see categories actually work here, since I
+have some content that belongs together. I also have sidebar ideas
+that really want to be exercised again.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
