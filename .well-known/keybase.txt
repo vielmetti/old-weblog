@@ -1,0 +1,52 @@
+https://keybase.io/vielmetti
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vielmetti.github.io
+  * I am vielmetti (https://keybase.io/vielmetti) on keybase.
+  * I have a public key ASBrewqWxjAQmo3tbep9luBqosoX1_TdmV8w1btRTw69MAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01206b7b0a96c630109a8ded6dea7d96e06aa2ca17d7f4dd995f30d5bb514f0ebd300a",
+            "host": "keybase.io",
+            "kid": "01206b7b0a96c630109a8ded6dea7d96e06aa2ca17d7f4dd995f30d5bb514f0ebd300a",
+            "uid": "76d51f9774540dbb4be0e16998016019",
+            "username": "vielmetti"
+        },
+        "service": {
+            "hostname": "vielmetti.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1473391548,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1473391417,
+        "hash": "404e053dba83616af636676a49edd3ff84433e7e63a43fc657e63d9794a3cf5c6d6888a6bf1b7932db0c76b293d8a3654d39ae34b3c5b968c641f14267f84935",
+        "seqno": 626356
+    },
+    "prev": "c4df6f9ebf7cbb1df95e53f3f3bfe0461ac0a1e1f6f809d76291337d513e7035",
+    "seqno": 24,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEga3sKlsYwEJqN7W3qfZbgaqLKF9f03ZlfMNW7UU8OvTAKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNmI3YjBhOTZjNjMwMTA5YThkZWQ2ZGVhN2Q5NmUwNmFhMmNhMTdkN2Y0ZGQ5OTVmMzBkNWJiNTE0ZjBlYmQzMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmI3YjBhOTZjNjMwMTA5YThkZWQ2ZGVhN2Q5NmUwNmFhMmNhMTdkN2Y0ZGQ5OTVmMzBkNWJiNTE0ZjBlYmQzMDBhIiwidWlkIjoiNzZkNTFmOTc3NDU0MGRiYjRiZTBlMTY5OTgwMTYwMTkiLCJ1c2VybmFtZSI6InZpZWxtZXR0aSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoidmllbG1ldHRpLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDczMzkxNTQ4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzMzOTE0MTcsImhhc2giOiI0MDRlMDUzZGJhODM2MTZhZjYzNjY3NmE0OWVkZDNmZjg0NDMzZTdlNjNhNDNmYzY1N2U2M2Q5Nzk0YTNjZjVjNmQ2ODg4YTZiZjFiNzkzMmRiMGM3NmIyOTNkOGEzNjU0ZDM5YWUzNGIzYzViOTY4YzY0MWYxNDI2N2Y4NDkzNSIsInNlcW5vIjo2MjYzNTZ9LCJwcmV2IjoiYzRkZjZmOWViZjdjYmIxZGY5NWU1M2YzZjNiZmUwNDYxYWMwYTFlMWY2ZjgwOWQ3NjI5MTMzN2Q1MTNlNzAzNSIsInNlcW5vIjoyNCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECTx2aGA6TE37TtP5eNu5lgcTJ3fFknU3rT3kmvukPaPa3UWVtCBMmgHV5D4IiFJ4UfZDoY0H57zVpaEnj9ol4PqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg2koO6RScHdMO4+QV3vq4xHFRlDRVEDRp0zK/J7oDgTujdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vielmetti
+
