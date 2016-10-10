@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker Detroit on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/docker-detroit/</link>
+    <description>Recent content in Docker Detroit on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2015 10:50:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/docker-detroit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker Detroit, Wednesday July 22, 2015, 6:00 pm, Troy, Michigan</title>
+      <link>http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit/</link>
+      <pubDate>Wed, 22 Jul 2015 10:50:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit/</guid>
+      <description>&lt;p&gt;I hope to see you at Docker Detroit&amp;rsquo;s kickoff meeting, to be held
+at RIIS, 1250 Stephenson Highway, Suite 200 in Troy, MI starting
+at 6:00 p.m. tonight July 22 2015.  I&amp;rsquo;ll be coming in from Ann
+Arbor. The venue is between 14 Mile and Maple behind Beaumont Hospital.
+Google Maps suggests that because of construction on I-75 in that
+area you might want to head north on Campbell instead of taking
+the I-75 / I-696 interchange north.&lt;/p&gt;
+
+&lt;p&gt;Leading the meeting tonight is Pepijn Bruienne from the University
+of Michigan. He will be speaking about &amp;ldquo;Docker in production&amp;rdquo;
+and organizing a group discussion with Q&amp;amp;A.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://www.meetup.com/Docker-Detroit/events/223111645/&#34;&gt;meetup announcement&lt;/a&gt;
+for more details, refreshments will be provided.&lt;/p&gt;
+
+&lt;p&gt;The meetup is hosted at &lt;a href=&#34;http://www.riis.com&#34;&gt;RIIS&lt;/a&gt; a boutique web
+and mobile development house. Hope to see you there!  I&amp;rsquo;ll be taking
+notes and plan to do a writeup of the event, as well as sharing my
+own experiences running Docker for ARM on a Raspberry PI 2.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

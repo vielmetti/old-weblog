@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linksys on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/linksys/</link>
+    <description>Recent content in Linksys on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2015 02:00:09 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/linksys/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Running DD-WRT as a switch on a Linksys WRT54GL</title>
+      <link>http://vielmetti.github.io/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</link>
+      <pubDate>Sun, 28 Jun 2015 02:00:09 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-06-28-running-dd-wrt-as-a-switch-on-a-linksys-wrt54gl/</guid>
+      <description>&lt;p&gt;I don&#39;t really need more wifi access points in the house, but I do need more wired ethernet ports. Thanks to ellemef&#39;s box o&#39;goodies I have a WRT54GL to play with, and I put DD-WRT on it set up in a configuration to run as a switch plugged into my existing ATT UVerse router. &lt;/p&gt;
+
+&lt;p&gt;I got the &lt;a href=&#34;http://www.dd-wrt.com/wiki/index.php/Linksys_WRT54GL&#34;&gt;DD-WRT firmware loaded&lt;/a&gt; by following the provided directions. Then I followed the instructions at &lt;a href=&#34;http://www.dd-wrt.com/wiki/index.php/Switch&#34;&gt;You are here: DD-WRT wiki mainpage / Linking Routers / Switch&lt;/a&gt; for configuration. A quick reboot and some recabling and a couple of Raspberry Pis now have their own ethernet ports.&lt;/p&gt;
+
+&lt;p&gt;The WRT54GL has a tiny amount of memory by modern standards - 4 megabytes of flash, and only 16 megabytes of system memory - but that&#39;s fine for the software of its era.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

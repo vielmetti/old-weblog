@@ -45,93 +45,6 @@ beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Daily Coffee and Wifi, Roos Roast Wednesday edition</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast/</link>
-      <pubDate>Wed, 22 Jul 2015 10:05:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-07-22-daily-coffee-wifi-roos-roast/</guid>
-      <description>&lt;p&gt;At Roos, an espresso over ice with a little half and half and a hard
-boiled egg. It&amp;rsquo;s a very compact breakfast. The espresso is served in
-an appropriately sized glass mug and tastes like the strongest little
-iced latte you will ever have.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;On my Mac, run &amp;lsquo;boot2docker upgrade&amp;rsquo;. That gets me up to current 1.7.1
-revision of everything.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Edwards-MacBook-Air:~ emv$ docker version
-Client version: 1.7.1
-Client API version: 1.19
-Go version (client): go1.4.2
-Git commit (client): 786b29d
-OS/Arch (client): darwin/amd64
-Server version: 1.7.1
-Server API version: 1.19
-Go version (server): go1.4.2
-Git commit (server): 786b29d
-OS/Arch (server): linux/amd64
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The issue that 1.7.1 resolves for me is certificate support - if I
-understand the bug right, the Docker daemon was creating a key for
-each interface it had, but not all of the interfaces were up at key
-init time. The fix was to move DHCP init earlier in the start sequence
-so that everything was initialized by the time key creation took place.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The Docker team is trying to improve code quality by having their
-code base pass the &lt;code&gt;golint&lt;/code&gt; test. The open issue,
-&lt;a href=&#34;https://github.com/docker/docker/pull/14784&#34;&gt;fix golint errors/warnings #14784&lt;/a&gt;,
-has attracted a swarm of contributors, and a lot of them have
-proposed changes that don&amp;rsquo;t pass the automated tests. The build
-farm is managed with Jenkins, and you can see the
-&lt;a href=&#34;https://jenkins.dockerproject.org/&#34;&gt;status of every build of Docker&lt;/a&gt; on their
-dashboard.&lt;/p&gt;
-
-&lt;p&gt;Having a full lintable codebase is a great goal. The challenge comes when
-the suggested changes by lint send you in the direction of making an
-incompatible change to some interface that has the &amp;ldquo;wrong&amp;rdquo; name but that
-people were relying on.&lt;/p&gt;
-
-&lt;p&gt;Perhaps importantly for the work I&amp;rsquo;m doing it&amp;rsquo;s worth noting that currently
-all of these tests are done on x86 platforms (Linux and Windows) and there
-isn&amp;rsquo;t an official automated build on ARM. I&amp;rsquo;ve been using the
-&lt;a href=&#34;http://blog.hypriot.com/downloads/&#34;&gt;Docker distribution from Hypriot&lt;/a&gt; as my
-baseline for working on the Raspberry Pi, with good success.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Construction on I-75 at 13 Mile Road! &lt;a href=&#34;http://www.theoaklandpress.com/general-news/20150715/traffic-delays-expected-for-6-weeks-on-i-75-and-13-mile-during-mdot-project&#34;&gt;Expect major delays&lt;/a&gt; at this
-project in Madison Heights. From the Oakland Press&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;During the construction project, there will be lane closures on both I-75 and 13 Mile Road in Madison Heights, said Diane Cross, a spokeswoman for the Michigan Department of Transportation, which is doing the work.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(insert map here)&lt;/p&gt;
-
-&lt;p&gt;None of the alternative routes look any good, allow extra time for travel.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Components of the postcard project are coming together. So far I have little
-pieces that put and get addresses from a database, resize pictures to the
-correct size, and generate test and live cards.&lt;/p&gt;
-
-&lt;p&gt;If I lob a single thoughtful card out every time I have an espresso, there
-will be some steady stream of cards going out. Next piece of the checklist is
-pulling a report showing which cards are in flight and which ones just arrived
-so that I can schedule followups.&lt;/p&gt;
-
-&lt;p&gt;One of the key bits of sending cards is that your recipient doesn&amp;rsquo;t get them
-right away. That gives you a chance to refine your thinking and contemplate
-what you have to say when you do follow up when they do get it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>bocker is a subset of Docker in 100 lines of shell script</title>
       <link>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</link>
       <pubDate>Tue, 21 Jul 2015 18:48:00 -0400</pubDate>
@@ -761,6 +674,24 @@ to start again!&lt;/p&gt;
 &lt;p&gt;To write in Octopress you put files in a directory written in Markdown. Then you use a command line tool called &#39;rake&#39;, the Ruby version of &#39;make&#39;, to do the publishing. Files that have changed get checked in to github. Then the whole site is put into static files, so that it all loads fast.&lt;/p&gt;
 
 &lt;p&gt;Amazing how much more time you have for hacking when you are not on Facebook.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, 1 June 2013, 11:15 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-01-hacker-news-summary-1-june-2013-1115-pm-est-edition/</link>
+      <pubDate>Sat, 01 Jun 2013 23:57:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-01-hacker-news-summary-1-june-2013-1115-pm-est-edition/</guid>
+      <description>&lt;p&gt;A late night Hacker News summary, pulling from&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_self&#34;&gt;https://news.ycombinator.com/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;1.&amp;#0160;&lt;a href=&#34;http://arstechnica.com/tech-policy/2013/06/apple-betrayed-by-its-own-law-firm/&#34; target=&#34;_self&#34;&gt;Apple betrayed by its own law firm.&lt;/a&gt;&amp;#0160;John&amp;#0160;J.&amp;#0160;McAleese, III, an attorney at one of&amp;#0160;Apple&amp;#39;s own go-to law firms, (Morgan, Lewis &amp;amp; Bockius), was behind a patent troll lawsuit from Flatworld Interactives. McAleese has been digitally erased from the Morgan Lewis site. (Ars Technica) &amp;quot;I predict this is going to be as much fun to watch as the Prenda Law case!&amp;quot;&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5806966&#34; target=&#34;_self&#34;&gt;( 4 comments )&lt;/a&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;2. &lt;a href=&#34;http://dehora.net/journal/2013/06/01/on-go/&#34; target=&#34;_self&#34;&gt;Bill de hOra writes about the Go language&lt;/a&gt;. &amp;quot;To my mind it bucks some orthodoxy on what a good effective language is supposed to look like; for that alone, it&amp;#39;s interesting. It makes sensible engineering decisions and&amp;#0160;is squarely in the category of languages I consider viable for server-side systems that you have to live with over time.&amp;quot;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;3. &lt;a href=&#34;http://www.nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html&#34; target=&#34;_self&#34;&gt;In the New York Times&lt;/a&gt;, Wikileaks founder Julian Assange takes on the banality of Google&amp;#39;s &amp;quot;Don&amp;#39;t be evil&amp;quot;. His review starts:&amp;#0160;&lt;a href=&#34;http://www.newdigitalage.com/&#34; target=&#34;_self&#34;&gt;“THE New Digital Age”&lt;/a&gt; is a startlingly clear and provocative blueprint for technocratic imperialism, from two of its leading witch doctors, Eric Schmidt and Jared Cohen, who construct a new idiom for United States global power in the 21st century.&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5805460&#34; target=&#34;_self&#34;&gt;138 comments:&lt;/a&gt;&amp;#0160;&amp;quot;But I must confess, that Julian Assange seem to be rather well spoken. And language wise - at least - it was a rather joy to read. Seemingly unlike the book he was reviewing.&amp;quot;&lt;/p&gt;
+4. code search on Github turns up tens of thousands of PHP projects susceptible to a SQL injection attack.&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5805025&#34; target=&#34;_self&#34;&gt;79 comments:&lt;/a&gt;&amp;#0160;&amp;quot;There&amp;#39;s more low-hanging fruit, if you&amp;#39;re willing to use more specialized searches.&amp;quot;
+&lt;p&gt;5. Manish Burman and Brandon Kase &lt;a href=&#34;http://bkase.github.io/CUDA-grep/finalreport.html&#34;&gt;wrote a version of grep that uses hardware acceleration from the CUDA libraries&lt;/a&gt; to run 2 to 10 times as fast as standard grep. &lt;a href=&#34;https://news.ycombinator.com/item?id=5803943&#34;&gt;22 comments&lt;/a&gt; include discussion from the developers.&lt;/p&gt;
+&lt;p&gt;6. &lt;a href=&#34;http://www.cartoonbrew.com/ideas-commentary/max-headroom-and-the-strange-world-of-pseudo-cgi-82745.html&#34;&gt;Max Headroom and the Strange World of Pseudo-CGI&lt;/a&gt;, a discussion in Cartoon Brew of the weird pseudo-computer animated graphics of the 1980s that were done with a series of non-computer techniques. &lt;a href=&#34;https://news.ycombinator.com/item?id=5803755&#34;&gt;19 comments&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;7. &amp;quot;Cruise ships are similar to assisted living centers in the amenities provided, costs per month, and many other areas.&amp;quot; J Am Geriatr Soc. 2004 Nov;52(11):1951-4. &lt;a href=&#34;https://news.ycombinator.com/item?id=5806006&#34;&gt;7 comments&lt;/a&gt;: &amp;quot;I met an elderly woman that lived on a cruise ship. She need a walked but was otherwise in good health. She knew everyone on the ship, and made new friends with every cruise. To her it was an awesome life, rather than being stuck in some home. The discounts you get for multiple cruises made it quite affordable for her. Eventually she would need more healthcare but she was going to stay as long as she could.&amp;quot;&lt;/p&gt;
 </description>
     </item>
     
