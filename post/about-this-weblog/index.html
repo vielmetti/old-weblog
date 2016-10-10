@@ -145,13 +145,18 @@ would be an oversimplification at many levels.</p>
 Building radio receivers and decoders in software. I&rsquo;m
 using an RTL-SDR tuner stick and the <a href="http://vielmetti.github.io/tags/dump1090/">dump1090</a>
 software as a way of getting ADS-B data that decodes
-airplane locations.</p>
+airplane locations. From listening to distant radio
+stations to decoding digital modes, SDR tools rapidly
+are transforming the nature of radio.</p>
 
 <p><a href="http://vielmetti.github.io/tags/rpi/">Raspberry Pi</a>. This little ARM based single board computer
 is a launching point for small scale situated experimental
 computing interfaces to the outside world. I&rsquo;m running
 the <a href="http://blog.hypriot.com">Hypriot</a> distribution on my
-systems, which provides infrastructure to run Docker.</p>
+systems, which provides infrastructure to run Docker.
+Pis are cheap and cheerful, and the ARM chips they are
+built from have applications all the way from disposable
+embedded computers to data center scale power efficient compute farms.</p>
 
 <p><a href="http://vielmetti.github.io/tags/embedded">Embedded controllers</a> with wireless data. Products like
 Particle&rsquo;s Electron and the Hologram systems point the
@@ -159,13 +164,16 @@ way to a future where small battery-operated devices
 have some kind of always-on global connectivity. Battery
 constraints and power consumption are the biggest considerations,
 and there&rsquo;s a whole field of possible radio frequencies and
-associated chipsets to evaluated.</p>
+associated chipsets to be evaluated.</p>
 
 <p><a href="http://vielmetti.github.io/tags/docker">Docker</a>. This tool allows you to encapsulate system dependencies
 so that even complex software can be launched and run
 without going through an extensive installation process.
 Run this on small systems like the Raspberry Pi, for development on OS X or Linux,
-and on servers like CoreOS on EC2.</p>
+and on servers like CoreOS on EC2. Container technology
+and cluster technology are still changing rapidly, with
+every new release offering new functions (and the risk of
+a smattering of interesting new bugs).</p>
 
 <p>CoreOS. This minimalist operating system is designed primarily
 to run Docker containers and to handle system updates automatically.
@@ -177,7 +185,9 @@ of providing a stable platform for container-first system designs.</p>
 means that you should never need to have a data center of your
 own, so long as you manage to figure out how to economically
 build systems out of their mostly (but not completely) reliable
-infrastructure.</p>
+infrastructure. When AWS goes down, though, watch out - it&rsquo;s likely
+to break in some novel way that your application, no matter how
+well engineered, will not expect to see.</p>
 
 <p>AWS IoT. This Amazon Web Services stack provides a message
 broker based on MQTT, plus a set of services for triggering
