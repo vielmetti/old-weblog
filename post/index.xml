@@ -25,16 +25,22 @@ figures are provided.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s built on NB-IoT standards that are
 &lt;a href=&#34;http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete&#34;&gt;standardized in June 2016&lt;/a&gt;
-by the 3GPP project and which are codified in their Release 13.
-No announcements from any vendor on when or if any carrier will actually
-support this, but the pre-annoucements all look at 2017 for commercializations.&lt;/p&gt;
+by the 3GPP project and which are codified in their Release 13.&lt;/p&gt;
 
-&lt;p&gt;Also no word yet on availability of dev boards for the SARA-N2. u-blox has been
+&lt;p&gt;The first announcement of use of this system is by Telenor in Norway, using it
+for a &lt;a href=&#34;http://www.mynewsdesk.com/uk/telenor/pressreleases/first-in-norway-with-narrowband-iot-1590130&#34;&gt;smart parking&lt;/a&gt;
+demonstration application in the city of Trondheim.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The pilot commences in January 2017 and will test out how smart sensors can tell you where there is available parking, and in time make it possible to reserve a parking space on your mobile phone, obtain real-time information on when a space will be free and if necessary be guided to other parking spaces if it is full.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No word yet on availability of dev boards for the SARA-N2. u-blox has been
 good about getting some of their technologies into the DIY marketplace, with
 the Particle Electron using their SARA‑G350, SARA‑U260 or SARA‑U270 chips,
 and the Hologram Dash with the LISA-U200, SARA‑U260 or SARA‑U270 chips.
 Still, u-blox&amp;rsquo;s product line is way bigger than the availability of
-consumer-focused parts to try them out.&lt;/p&gt;
+consumer-focused components to try them out.&lt;/p&gt;
 
 &lt;p&gt;More NB-IoT news from &lt;a href=&#34;http://www.huawei.com/minisite/hwmbbf15/en/nb-iot-accelerating-cellular-iot.html&#34;&gt;Huawei&lt;/a&gt;
 (from 2015), &lt;a href=&#34;http://www.vodafone.com/content/index/what/technology-blog/nb-iot-will-connect.html&#34;&gt;Vodafone&lt;/a&gt;

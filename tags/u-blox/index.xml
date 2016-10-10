@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Embedded on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/embedded/</link>
-    <description>Recent content in Embedded on Vacuum weblog from Edward Vielmetti</description>
+    <title>U Blox on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/u-blox/</link>
+    <description>Recent content in U Blox on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Oct 2016 16:15:00 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.io/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/tags/u-blox/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Narrowband IoT (NB-IoT) as a low power cellular data protocol on the u-blox SARA-N2</title>
