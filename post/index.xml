@@ -6,8 +6,29 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Sep 2016 13:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Oct 2016 01:15:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>No longer prolific</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-10-no-longer-prolific/</link>
+      <pubDate>Mon, 10 Oct 2016 01:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-10-no-longer-prolific/</guid>
+      <description>&lt;p&gt;I am no longer a prolific blogger, as the last of these posts was a month ago.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t get me wrong, I like the idea of blogging, it&amp;rsquo;s just that it takes
+a certain set of devotional habits to keep it going. Devotion like writing
+without an editor, for an uncertain audience, and without expectation of
+getting any compensation for it. All perfectly fine reasons to write, but
+not all that are easy to sustain.&lt;/p&gt;
+
+&lt;p&gt;You can only do so many things, and when it comes to writing, I find
+myself writing more for internal use to document a system that&amp;rsquo;s
+under development or to encourage myself to get some unpleasant task
+done. The era of writing for a general audience seems to be over.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Daily coffee and wifi, September 7, 2016</title>
@@ -863,37 +884,6 @@ obtained without somebody being enslaved.&lt;/p&gt;
 long-suffering inanimate machines that we imbue so much personality
 into that some of us unknowingly
 &lt;a href=&#34;http://www.businessinsider.com/amy-ingram-personal-assistant-2015-7&#34;&gt;flirt with a robot&lt;/a&gt; because we are so charmed by their devotion.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Washtenaw restaurant inspections</title>
-      <link>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</link>
-      <pubDate>Fri, 22 Apr 2016 15:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-04-22-washtenaw-restaraunt-inspections/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Who: Wayne Eaker and the a2civictech Slack team&lt;/li&gt;
-&lt;li&gt;What: Restaurant inspections from Washtenaw County&lt;/li&gt;
-&lt;li&gt;Where: &lt;a href=&#34;http://food-inspections.annarbortelegraph.com&#34;&gt;http://food-inspections.annarbortelegraph.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;When: As they are updated, up to twice a momth&lt;/li&gt;
-&lt;li&gt;Why: When you eat out, you care about food safety&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some example searches:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_count_total%3A%5B30%20TO%201000%5D&#34;&gt;Three restaurants with 30 or more violations&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/?f[0]=field_inspection_violation_codes%3A6-501.111%3A%20Controlling%20Pests&amp;amp;f[1]=field_inspection_date%3A2016&#34;&gt;Reports from 2016 of pest problems&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The hardest part of this project is that it&amp;rsquo;s dependent
-on an undocumented interface from the contractor who
-does the work for the county.&lt;/p&gt;
-
-&lt;p&gt;One very nice aspect of the system that Wayne put together is that
-you can get alerts from every time a new inspection comes out that
-matches your saved settings, so you can track a particular restaurant
-or problem over time.&lt;/p&gt;
 </description>
     </item>
     
