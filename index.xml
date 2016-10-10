@@ -6,8 +6,42 @@
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Oct 2016 15:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Oct 2016 16:15:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Narrowband IoT (NB-IoT) as a low power cellular data protocol on the u-blox SARA-N2</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-10-nb-iot/</link>
+      <pubDate>Mon, 10 Oct 2016 16:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-10-nb-iot/</guid>
+      <description>&lt;p&gt;In the process of looking at embedded radio components, I came across
+the u-blox &lt;a href=&#34;https://www.u-blox.com/en/product/sara-n2&#34;&gt;SARA-N2&lt;/a&gt;, a low power
+device designed to provide low bandwidth cellular data coverage for
+Internet of Things devices - &amp;ldquo;low power consumption and extended coverage&amp;rdquo;
+being the operative buzzwords. Speeds are 227 Kbps down and 21 Kbps up,
+and it&amp;rsquo;s claimed to be &amp;ldquo;low power&amp;rdquo; though no specific power consumption
+figures are provided.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s built on NB-IoT standards that are
+&lt;a href=&#34;http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete&#34;&gt;standardized in June 2016&lt;/a&gt;
+by the 3GPP project and which are codified in their Release 13.
+No announcements from any vendor on when or if any carrier will actually
+support this, but the pre-annoucements all look at 2017 for commercializations.&lt;/p&gt;
+
+&lt;p&gt;Also no word yet on availability of dev boards for the SARA-N2. u-blox has been
+good about getting some of their technologies into the DIY marketplace, with
+the Particle Electron using their SARA‑G350, SARA‑U260 or SARA‑U270 chips,
+and the Hologram Dash with the LISA-U200, SARA‑U260 or SARA‑U270 chips.
+Still, u-blox&amp;rsquo;s product line is way bigger than the availability of
+consumer-focused parts to try them out.&lt;/p&gt;
+
+&lt;p&gt;More NB-IoT news from &lt;a href=&#34;http://www.huawei.com/minisite/hwmbbf15/en/nb-iot-accelerating-cellular-iot.html&#34;&gt;Huawei&lt;/a&gt;
+(from 2015), &lt;a href=&#34;http://www.vodafone.com/content/index/what/technology-blog/nb-iot-will-connect.html&#34;&gt;Vodafone&lt;/a&gt;
+(indicating commerical rollout in 2017), and &lt;a href=&#34;http://www.gsma.com/connectedliving/narrow-band-internet-of-things-nb-iot/&#34;&gt;GSMA&lt;/a&gt;
+(a vendor forum).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>sdr.hu and the emergence of lots of small wideband SDR receivers</title>
@@ -660,29 +694,6 @@ and that brew is working hard to update everything.&lt;/p&gt;
 Docker for Mac. I&amp;rsquo;m using the beta now (beta 5) and have gotten
 a few trivial things to work, but am still sorting out a few
 questions which might or might not be issues.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Chicken and onion curry</title>
-      <link>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</link>
-      <pubDate>Sun, 14 Feb 2016 21:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</guid>
-      <description>&lt;p&gt;Saveur Magazine has a recipe for a &lt;a href=&#34;http://www.saveur.com/article/Recipes/Chicken-and-Onion-Curry&#34;&gt;chicken and onion curry&lt;/a&gt;
-from January 27, 2010. It took a little more than an hour
-to cook, but the results were very much worth it - delicious,
-and worth repeating.&lt;/p&gt;
-
-&lt;p&gt;We had the meal with rice, kale, and a
-&lt;a href=&#34;http://www.food.com/recipe/radish-raita-57431&#34;&gt;daikon raita&lt;/a&gt; from
-food.com that I kind of liked but which was not a big hit
-with the rest of the table.&lt;/p&gt;
-
-&lt;p&gt;The current meal planning regime here uses a Google calendar
-and a question at the end of every meal: do you want this again,
-and how many weeks before we have it again? This curry will
-repeat in 3 weeks.&lt;/p&gt;
 </description>
     </item>
     
