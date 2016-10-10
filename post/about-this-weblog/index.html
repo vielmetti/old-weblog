@@ -130,40 +130,68 @@
 since 1999 from Ann Arbor, Michigan. The topics vary
 widely, with over 2000 entries in the whole collection.</p>
 
-<p>There is no one single theme that predominates, but
-if you had to pick one from each letter of the alphabet,
-you&rsquo;d get this:</p>
+<p>In the interest of simplifying the presentation, some
+parts of this collection are currently offline, and the
+front page represents primarily current work and not
+a diversity of interests.</p>
 
-<ul>
-<li><a href="http:/tags/ann-arbor-michigan/">Ann Arbor</a></li>
-<li><a href="http:/tags/blueberries/">blueberries</a></li>
-<li><a href="http:/tags/creativity/">creativity</a></li>
-<li>Docker</li>
-<li>earthquakes</li>
-<li>FOIA</li>
-<li>great weird ideas</li>
-<li>ham radio</li>
-<li>Internet of Things</li>
-<li>journalism</li>
-<li>kids</li>
-<li>leadership</li>
-<li>maps</li>
-<li>networks</li>
-<li>OS X</li>
-<li>power outages</li>
-<li>questions</li>
-<li>[recipes]; [Raspberry Pi]</li>
-<li>Skywarn</li>
-<li>telegraph</li>
-<li>Upper Peninsula</li>
-<li>vacuum</li>
-<li>writing</li>
-<li>x</li>
-<li>Yooper</li>
-<li>z</li>
-</ul>
+<p>The current set of systems that are an area of focus -
+and the places I draw from for inspiration on each -
+are as follows. One might loosely couple these together
+under the heading of the &ldquo;Internet of Things&rdquo;, but that
+would be an oversimplification at many levels.</p>
 
-<p>Perhaps that gives a flavor of things.</p>
+<p><a href="http://vielmetti.github.io/tags/sdr/">Software defined radio</a>.
+Building radio receivers and decoders in software. I&rsquo;m
+using an RTL-SDR tuner stick and the <a href="http://vielmetti.github.io/tags/dump1090/">dump1090</a>
+software as a way of getting ADS-B data that decodes
+airplane locations.</p>
+
+<p>Raspberry Pi. This little ARM based single board computer
+is a launching point for small scale situated experimental
+computing interfaces to the outside world. I&rsquo;m running
+the <a href="http://blog.hypriot.com">Hypriot</a> distribution on my
+systems, which provides infrastructure to run Docker.</p>
+
+<p>Embedded controllers with cellular data. Products like
+Particle&rsquo;s Electron and the Hologram systems point the
+way to a future where small battery-operated devices
+have some kind of always-on global connectivity. Battery
+constraints and power consumption are the biggest considerations.</p>
+
+<p>Docker. This tool allows you to encapsulate system dependencies
+so that even complex software can be launched and run
+without going through an extensive installation process.
+Run this on small systems like the Raspberry Pi, on OS X,
+and on servers like CoreOS on EC2.</p>
+
+<p>CoreOS. This minimalist operating system is designed primarily
+to run Docker containers and to handle system updates automatically.
+As long as your services can handle being rebooted periodically
+for externally scheduled system updates, it does a great job
+of providing a stable platform for container-first system designs.</p>
+
+<p>Amazon Web Services. The sprawling set of Amazon capabilities
+means that you should never need to have a data center of your
+own, so long as you manage to figure out how to economically
+build systems out of their mostly (but not completely) reliable
+infrastructure.</p>
+
+<p>AWS IoT. This Amazon Web Services stack provides a message
+broker based on MQTT, plus a set of services for triggering
+functions in AWS Lambda when messages come in and a database
+capture with AWS DynamoDB. It&rsquo;s still an open question how
+expensive this system is at scale.</p>
+
+<p>MQTT. This simple publish-subscribe message broker standard
+lets very small systems communicate with the cloud in a method
+that doesn&rsquo;t require that the remote system have a globally
+routed address.</p>
+
+<p>Node-RED. This IBM project provides a nice drag and drop interface
+for building message-oriented prototype software and hardware
+interfaces. Built on top of node.js and npm, it also offers
+neatly encapsulated access to hundreds of javascript libraries.</p>
 
     </section>
 
