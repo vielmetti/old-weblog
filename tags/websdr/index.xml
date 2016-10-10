@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Websdr on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/websdr/</link>
+    <description>Recent content in Websdr on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Aug 2015 22:45:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/websdr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Listening to Radio Havana Cuba via a shortwave software defined radio</title>
+      <link>http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba/</link>
+      <pubDate>Mon, 24 Aug 2015 22:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-08-24-radio-havana-cuba/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m listening to Radio Havana Cuba via a shortwave listening post set up
+with a software defined radio. The system, &lt;a href=&#34;http://blerp2.dyndns.org:8901/&#34;&gt;Great Lakes Listening Post&lt;/a&gt;,
+has four separate radios covering the 80, 40, 30, and 20 meter bands, all
+fed into the &lt;a href=&#34;http://www.websdr.org&#34;&gt;WebSDR&lt;/a&gt; software from PA3FWM. It&amp;rsquo;s
+located in Michigan, and thus approximates the radio reception I&amp;rsquo;d get from
+my own receiver.&lt;/p&gt;
+
+&lt;p&gt;R Havana Cuba is a good station to listen to. There&amp;rsquo;s interesting political
+commentary, fun music, and the occasional show about shortwave listening.
+The signal is usually strong and the frequency (6000 kHz) is easy to remember.
+Most international braodcasters have refocused their attention on Internet
+based broadcasts, but R Havana Cuba continues on with its shortwave service.
+My Sony ICF-2010 set from the 1980s still has a Cold War era present to that
+frequency.&lt;/p&gt;
+
+&lt;p&gt;The biggest advantage to web-based software radio is the ability to pick up
+stations from listening posts around the world. The WebSDR platform has stations
+with good antennas around the world, and they each allow multiple listeners
+to tune in to different stations without any of them monopolizing the receiver.
+Most web-based SDR systems focus on shortwave and HF amateur bands, but every
+so often you find a system that can tune domestic medium wave (AM) and
+long wave bands, which gives you a chance to hear programs that were
+never anticipated to be listened to from half way around the world.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://vielmetti.github.io/images/R-Havana-Cuba-WebSDR.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Radio Havana Cuba on Great Lakes Listening Post WebSDR&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Discussion on &lt;a href=&#34;https://www.facebook.com/edward.vielmetti/posts/10105619636684853&#34;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>decoding radio digital modes without a radio, using WebSDR and fldigi</title>
+      <link>http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</link>
+      <pubDate>Sun, 09 Feb 2014 02:23:19 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to &amp;ldquo;listen&amp;rdquo; to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Fldigi-HB9ERN&#34; title=&#34;Fldigi-HB9ERN&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I think I have all of the components, but I have yet to be able to get everything to work as expected. Here&amp;rsquo;s what I have:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;WebSDR&lt;/a&gt; from &lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;http://websdr.ewi.utwente.nl:8901/&lt;/a&gt; . This is a software-defined radio tuning  to the radio airwaves at the University of Twente in the Netherlands; it runs in your browser. There are 87 of these systems running around the world, listed at &lt;a href=&#34;http://websdr.org/&#34;&gt;websdr.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.w1hkj.com/Fldigi.html&#34;&gt;fldigi&lt;/a&gt; from &lt;a href=&#34;http://www.w1hkj.com/Fldigi.html&#34;&gt;http://www.w1hkj.com/Fldigi.html&lt;/a&gt; . This software for Windows, Linux and OS X, runs on your local system and takes an audio signal and decodes it in one of many digital modes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://code.google.com/p/soundflower/&#34;&gt;Soundflower&lt;/a&gt; from &lt;a href=&#34;https://code.google.com/p/soundflower/&#34;&gt;https://code.google.com/p/soundflower/&lt;/a&gt; . This is a Mac system extension that allows you to redirect the audio output of one program (e.g. your browser) into the audio input of another program (e.g. fldigi). Not strictly necessary because the fldigi can also just decode whatever it hears through the computer&amp;rsquo;s built in microphone. I picked up the recommendation from an article on &lt;a href=&#34;http://www.hamradioandvision.com/websdr-digital-modes/&#34;&gt;HamRadioAndVision&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A number of people have done Youtube videos describing what they are doing to make this work. For example, &lt;a href=&#34;http://www.oz9aec.net/index.php/component/content/article/63-sdr/290-fun-with-websdr-and-fldigi&#34;&gt;OZ9AEC&lt;/a&gt; has a 6 minute Youtube from 2009 shows reception in single channel and multichannel mode. He doesn&#39;t use Soundflower, just the built in mic of his Mac.&lt;/p&gt;
+
+&lt;p&gt;Not described here - and probably what I need to figure out next - are two key bits of information. Where do you tune to pick up digital signals? And, more importantly, which decoder do you use? It&#39;s not hard to pick out which modulation is being used if you have some practice, but as of this writing I couldn&#39;t readily tell you what WEFAX sounds like compared to RTTY. Still sorting through those details before I can claim to have mastered this.&lt;/p&gt;
+
+&lt;p&gt;Note also that this should work with a local software-defined radio as well, or even with a &#34;hardware-defined radio&#34; placed near your mic or patched in with a mic cable.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

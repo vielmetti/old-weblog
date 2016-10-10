@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cubicsdr on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/cubicsdr/</link>
+    <description>Recent content in Cubicsdr on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Oct 2015 17:10:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/cubicsdr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CubicSDR, a cross-platform software defined radio</title>
+      <link>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</link>
+      <pubDate>Fri, 30 Oct 2015 17:10:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-10-30-cubicsdr/</guid>
+      <description>&lt;p&gt;CubicSDR is a software defined radio system for Mac, Linux, and Windows.
+It&amp;rsquo;s at version 0.1.4-beta as of August 28, 2015, and you can download
+the binaries from &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&#34;&gt;https://github.com/cjcliffe/CubicSDR/releases/tag/0.1.4&lt;/a&gt; or
+the source code from Github at &lt;a href=&#34;https://github.com/cjcliffe/CubicSDR&#34;&gt;https://github.com/cjcliffe/CubicSDR&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;My point of comparison for software defined radio is GQRX. When you put
+CubicSDR on the screen it has a very pretty waterfall display and relatively
+easy to sort out mouse commands, but it&amp;rsquo;s lacking some of the fancier
+controls that a more mature program like GQRX has accumulated over time.&lt;/p&gt;
+
+&lt;p&gt;The interesting direction that CubicSDR is heading in is the product
+roadmap that is on its home page - in particular, importing and using
+digital modes that the liquid-dsp package supports, and additional
+visualization tools that would make a pretty display even prettier.
+The roadmap easily has a couple of years of development work, so there&amp;rsquo;s
+lots to look forward to.&lt;/p&gt;
+
+&lt;p&gt;CubicSDR supports the RTL-SDR dongles like my NooElec NESDR Mini 2,
+and it&amp;rsquo;s free-as-in-GPL, so it&amp;rsquo;s very much worthwhile to give it a
+download and see what it looks like.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
