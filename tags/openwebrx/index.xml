@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openwebrx on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/openwebrx/</link>
+    <description>Recent content in Openwebrx on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Oct 2016 15:00:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/openwebrx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>sdr.hu and the emergence of lots of small wideband SDR receivers</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-10-sdr-hu-small-public-sdr/</link>
+      <pubDate>Mon, 10 Oct 2016 15:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-10-sdr-hu-small-public-sdr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://sdr.hu&#34;&gt;sdr.hu&lt;/a&gt; is the home base for OpenWebRX, a remote spectrum monitoring system
+written by Andras HA7ILM.&lt;/p&gt;
+
+&lt;p&gt;The system is designed to allow &lt;a href=&#34;https://github.com/simonyiszk/openwebrx&#34;&gt;OpenWebRX servers&lt;/a&gt;,
+running on RTL-SDR or HackRF hardware, to share their radio spectrum and allow remote tuning
+of the available radio bandwidth. A typical installation will allow up to four remote listeners
+to independently tune in, and the tuning filters allow the listener to independently control
+the bandwidth of the receiver.&lt;/p&gt;
+
+&lt;p&gt;A sample display shows WMVP-AM in Chicago monitored from SE Michigan.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Listening to the ALDS on ESPN 1000, WMVP-AM Chicago. Baseball (and radio DXing) instead of politics. &lt;a href=&#34;https://t.co/qFUMHDlqti&#34;&gt;pic.twitter.com/qFUMHDlqti&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/785285239157370883&#34;&gt;October 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;The wide band version of this is the &lt;a href=&#34;http://kiwisdr.com/KiwiSDR/&#34;&gt;KiwiSDR&lt;/a&gt;, a BeagleBone
+based receiver which has been developed as a Kickstarter campaign. Look for those
+systems on the sdr.hu list with a receiver tunable between 0 and 30 Mhz. This covers
+all of the broadcast AM range plus shortwave broadcast and HF amateur bands.&lt;/p&gt;
+
+&lt;p&gt;sdr.hu is not the only system with links to web-tunable SDR receivers. &lt;a href=&#34;http://websdr.org&#34;&gt;websdr.org&lt;/a&gt;,
+hosted at U Twente in the Netherlands, has its own set of receiver software and hardware.
+Coverage is by no means universal, but between the two collections there are hours of
+DX listening ahead of you (including, for my purposes, lots of alternatives to pull in
+baseball playoff broadcasts).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
