@@ -6,8 +6,85 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Oct 2016 16:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 9999 00:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About this weblog</title>
+      <link>http://vielmetti.github.io/post/about-this-weblog/</link>
+      <pubDate>Fri, 01 Jan 9999 00:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/about-this-weblog/</guid>
+      <description>&lt;p&gt;Edward Vielmetti has been writing the Vacuum weblog
+since 1999 from Ann Arbor, Michigan. The topics vary
+widely, with over 2000 entries in the whole collection.&lt;/p&gt;
+
+&lt;p&gt;In the interest of simplifying the presentation, some
+parts of this collection are currently offline, and the
+front page represents primarily current work and not
+a diversity of interests.&lt;/p&gt;
+
+&lt;p&gt;The current set of systems that are an area of focus -
+and the places I draw from for inspiration on each -
+are as follows. One might loosely couple these together
+under the heading of the &amp;ldquo;Internet of Things&amp;rdquo;, but that
+would be an oversimplification at many levels.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/sdr/&#34;&gt;Software defined radio&lt;/a&gt;.
+Building radio receivers and decoders in software. I&amp;rsquo;m
+using an RTL-SDR tuner stick and the &lt;a href=&#34;http://vielmetti.github.io/tags/dump1090/&#34;&gt;dump1090&lt;/a&gt;
+software as a way of getting ADS-B data that decodes
+airplane locations.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/rpi/&#34;&gt;Raspberry Pi&lt;/a&gt;. This little ARM based single board computer
+is a launching point for small scale situated experimental
+computing interfaces to the outside world. I&amp;rsquo;m running
+the &lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt; distribution on my
+systems, which provides infrastructure to run Docker.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/embedded&#34;&gt;Embedded controllers&lt;/a&gt; with wireless data. Products like
+Particle&amp;rsquo;s Electron and the Hologram systems point the
+way to a future where small battery-operated devices
+have some kind of always-on global connectivity. Battery
+constraints and power consumption are the biggest considerations,
+and there&amp;rsquo;s a whole field of possible radio frequencies and
+associated chipsets to evaluated.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/docker&#34;&gt;Docker&lt;/a&gt;. This tool allows you to encapsulate system dependencies
+so that even complex software can be launched and run
+without going through an extensive installation process.
+Run this on small systems like the Raspberry Pi, for development on OS X or Linux,
+and on servers like CoreOS on EC2.&lt;/p&gt;
+
+&lt;p&gt;CoreOS. This minimalist operating system is designed primarily
+to run Docker containers and to handle system updates automatically.
+As long as your services can handle being rebooted periodically
+for externally scheduled system updates, it does a great job
+of providing a stable platform for container-first system designs.&lt;/p&gt;
+
+&lt;p&gt;Amazon Web Services. The sprawling set of Amazon capabilities
+means that you should never need to have a data center of your
+own, so long as you manage to figure out how to economically
+build systems out of their mostly (but not completely) reliable
+infrastructure.&lt;/p&gt;
+
+&lt;p&gt;AWS IoT. This Amazon Web Services stack provides a message
+broker based on MQTT, plus a set of services for triggering
+functions in AWS Lambda when messages come in and a database
+capture with AWS DynamoDB. It&amp;rsquo;s still an open question how
+expensive this system is at scale.&lt;/p&gt;
+
+&lt;p&gt;MQTT. This simple publish-subscribe message broker standard
+lets very small systems communicate with the cloud in a method
+that doesn&amp;rsquo;t require that the remote system have a globally
+routed address.&lt;/p&gt;
+
+&lt;p&gt;Node-RED. This IBM project provides a nice drag and drop interface
+for building message-oriented prototype software and hardware
+interfaces. Built on top of node.js and npm, it also offers
+neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Narrowband IoT (NB-IoT) as a low power cellular data protocol on the u-blox SARA-N2</title>
@@ -676,30 +753,6 @@ symbol in it. You can get close by
 &lt;a href=&#34;http://parkerhiggins.net/2013/01/writing-the-prince-symbol-in-unicode/&#34;&gt;writing the prince symbol in unicode&lt;/a&gt;,
 or this ASCII representation may suffice: O(+&amp;gt; . But the
 real deal came on a &lt;a href=&#34;http://nymag.com/following/2016/04/princes-legendary-floppy-disk-symbol-font.html&#34;&gt;3.5&amp;rdquo; floppy disc&lt;/a&gt; from Warner Bros.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Upgrade to El Capitan</title>
-      <link>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</link>
-      <pubDate>Wed, 30 Mar 2016 10:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m working through the details of an upgrade from Mavericks to
-El Capitan. Some running notes.&lt;/p&gt;
-
-&lt;p&gt;The upgrade took about 2 hrs. I went to the Apple Store at Briarwood
-in Ann Arbor to get the install done, since their Internet is faster
-than my home UVerse.&lt;/p&gt;
-
-&lt;p&gt;After doing the upgrade the next big slow task is &lt;code&gt;brew update&lt;/code&gt;. You
-would not be surprised to know that I have a lot of packages installed,
-and that brew is working hard to update everything.&lt;/p&gt;
-
-&lt;p&gt;The biggest reason that I upgraded was to get &lt;code&gt;xhyve&lt;/code&gt; and thus
-Docker for Mac. I&amp;rsquo;m using the beta now (beta 5) and have gotten
-a few trivial things to work, but am still sorting out a few
-questions which might or might not be issues.&lt;/p&gt;
 </description>
     </item>
     
