@@ -6,8 +6,63 @@
     <description>Recent content in Posts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Oct 2016 01:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Oct 2016 12:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Writing assignment, 500 words</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-10-writing-assignment-500/</link>
+      <pubDate>Mon, 10 Oct 2016 12:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-10-writing-assignment-500/</guid>
+      <description>&lt;p&gt;The writing prompt is simple scaffolding: write 500 words about what you&amp;rsquo;re
+working on right now, so that when someone asks what you do, you have a proof
+point of it. This is preparation for going to a conference where proof of
+professional identity is the whole point of the exercise. The thing you
+say you&amp;rsquo;re working on should be elaborated on at the top of the page, and
+any supporting details that don&amp;rsquo;t fit into the narrative should be omitted.&lt;/p&gt;
+
+&lt;p&gt;To this end it&amp;rsquo;s as important to note what not to write about as what to write
+about. Better not to write about anything you don&amp;rsquo;t want anyone to pay you to
+do. If there&amp;rsquo;s some old technology that is entirely non-commercial, you&amp;rsquo;re free
+to discuss it on a mailing list, but for heaven&amp;rsquo;s sake don&amp;rsquo;t lead with it
+in your writing. There may be one day a year that people save up their odd
+tech stories for (like April 1 for the April Fools RFC series).&lt;/p&gt;
+
+&lt;p&gt;Unfiltered personal observations are also out. If you are eating a piece of
+pastry, save that for Twitter, where no one expects you to be on message all
+the time. Cat memes can go on Facebook, sunset photos to Instagram, bookmarks
+of recipes in Pinboard. They don&amp;rsquo;t belong in the professional blog.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easier to compose the identity exercise if the entire theme of what
+you do fits into two or three words. I follow the &lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt;
+weblog, which is all about Docker on ARM systems. It&amp;rsquo;s a fantastic channel,
+always with something new in that field, carefully and cleverly presented.
+Similarly the &lt;a href=&#34;http://www.rtl-sdr.com/&#34;&gt;RTL-SDR blog&lt;/a&gt; is always giving
+updates about software defined radio, without exception. Dan KB6NU&amp;rsquo;s
+&lt;a href=&#34;http://www.kb6nu.com/&#34;&gt;ham radio weblog&lt;/a&gt; is all ham radio, all the time.&lt;/p&gt;
+
+&lt;p&gt;What do you do if your writing to date is not conducive to minimalist
+descriptors? The easiest thing to do is to unpublish (temporarily or permanently)
+any distractions. If there&amp;rsquo;s something that in retrospect makes you cringe or
+confuses you when you read it, temporarily mark it as a draft. That one
+person who you want to have read a consistent and homogenized proof
+point doesn&amp;rsquo;t need to be distracted.&lt;/p&gt;
+
+&lt;p&gt;There was a time when I was a prolific local blogger, and every post had
+the word &amp;ldquo;Ann Arbor&amp;rdquo; in the lead paragraph. It hardly mattered what I wrote,
+so long as that touchstone was there. That era is over - it turns out that
+writing about a city in the face of the decline of local news is a career
+limiting move.&lt;/p&gt;
+
+&lt;p&gt;So: the process of writing 500 words about a topic may be less about deciding
+about what to write about, and more about deciding what not to write about.
+&amp;ldquo;What is it exactly that you do&amp;rdquo; is the prompt question, and the desired
+simple response is &amp;ldquo;Here is a sample of my work&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Sample carefully!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>No longer prolific</title>
@@ -27,54 +82,6 @@ not all that are easy to sustain.&lt;/p&gt;
 myself writing more for internal use to document a system that&amp;rsquo;s
 under development or to encourage myself to get some unpleasant task
 done. The era of writing for a general audience seems to be over.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Daily coffee and wifi, September 7, 2016</title>
-      <link>http://vielmetti.github.io/post/2016/2016-09-07-daily-coffee/</link>
-      <pubDate>Wed, 07 Sep 2016 13:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-09-07-daily-coffee/</guid>
-      <description>&lt;p&gt;Coffee and wifi (double espresso over ice) at the Peoples Food Coop,
-on North Fourth Ave. The lunch hot bar here is very good
-and the place is busy.&lt;/p&gt;
-
-&lt;p&gt;Last night was Ann Arbor City Council, a marathon session that
-resulted in grudging approval of site plans for hundreds of new homes
-and apartments over the opposition of neighbors in adjacent
-neighborhoods. Woodbury Club Apartments will be on the northeast
-side of town near Nixon Road and M-14, and South Pond Village
-will be tucked away off Chalmers behind Arborland but not connected
-to it. In both cases the votes reflected the split between the
-Council Party who saw the &amp;ldquo;yes&amp;rdquo; vote as obligatory to avoid a
-lawsuit, and the Anti Party who had few enough votes to be
-able to vote &amp;ldquo;no&amp;rdquo; as a protest vote.&lt;/p&gt;
-
-&lt;p&gt;The Apple keynote is today, awaiting news about new shiny toys
-to see how much less the old shiny toys are worth.
-Apparently the new Apple watch will have Pokemon Go on board.&lt;/p&gt;
-
-&lt;p&gt;The last time I took notes at the coop was
-&lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-07-18-food-coop-notes/&#34;&gt;July 18, 2015&lt;/a&gt;, when
-I took note of Tom Meloche&amp;rsquo;s post on
-&lt;a href=&#34;http://tommeloche.com/the-doorway-effect/&#34;&gt;the doorway effect&lt;/a&gt;,
-and how our short term memory gets dumped when we cross
-a threshold. &lt;a href=&#34;https://al.nd.edu/news/latest-news/27483-walking-through-doorways-causes-forgetting-new-research-shows/&#34;&gt;Gabriel Radvansky&lt;/a&gt;
-from Notre Dame is the scientist that Tom remembers.
-The effect apparently is that going through a door
-starts a new memory event, and to prepare for that
-new event and give us a fresh landscape for thinking
-the short term memory we had been holding gets emptied.&lt;/p&gt;
-
-&lt;p&gt;If you have an active imagination you can think of yourself
-moving through doors without ever really changing your
-place of sitting. My guess is that not only do you have
-your current thinking flushed when you leave a room, but
-the new room (if it&amp;rsquo;s familiar) pre-loads some thoughts.
-Construct your mental landscape appropriately and you
-end up with the memory palace which you can walk through
-effortlessly in your mind, remembering its details everywhere.&lt;/p&gt;
 </description>
     </item>
     
@@ -123,79 +130,6 @@ within the context of the container. Soon&amp;rsquo;s
     </item>
     
     <item>
-      <title>Artist Rebecca Moss aboard the Hanjin Geneva</title>
-      <link>http://vielmetti.github.io/post/2016/2016-09-06-rebecca-moss-aboard-the-hanjin-geneva/</link>
-      <pubDate>Tue, 06 Sep 2016 01:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-09-06-rebecca-moss-aboard-the-hanjin-geneva/</guid>
-      <description>&lt;p&gt;Hanjin Shipping is a Korean container shipping firm that has gone into
-bankruptcy, disrupting the worldwide container network. About 8 percent
-of transpacific cargo goes through this carrier, and as of this writing
-the ships are in an uncertain legal status, subject to seizure by creditors
-at ports if they land with their cargo.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Hanjin&amp;rsquo;s bankruptcy is the largest ever to hit the shipping industry
-so there&amp;rsquo;s no roadmap as to what will happen now, no precedent of
-comparable scale.&amp;rdquo; - BBC News&lt;/p&gt;
-
-&lt;p&gt;Rebecca Moss is aboard the Haijin Geneva, which is off the coast of Japan,
-awaiting orders. She signed up for a 23 day artist&amp;rsquo;s residency aboard the
-ship and then abruptly discovered that her cruise would not be quite what
-she expected.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s difficult to follow all of the details of Haijin, and the situation
-is fluid, changing from day to day. Here are some resources that capture
-the current situation.&lt;/p&gt;
-
-&lt;p&gt;Rebecca Moss&amp;rsquo;s odyssey is being chronicled by Kevin C. Griffin of the
-Vancouver Sun. &lt;a href=&#34;http://vancouversun.com/news/local-news/british-artist-on-vancouver-residency-stranded-on-hanjin-freighter&#34;&gt;British artist on Vancouver residency stranded on Hanjin freighter&lt;/a&gt;
-from September 1, 2016; &lt;a href=&#34;http://vancouversun.com/entertainment/local-arts/art-seen-stranded-at-sea-british-artist-sees-her-surroundings-with-new-eyes&#34;&gt;ART SEEN: Stranded at sea, British artist sees her surroundings with new eyes&lt;/a&gt;
-from September 2, 2016. Kimberly Phillips, the curator/director at Access Gallery,
-is in touch with Rebecca by email.&lt;/p&gt;
-
-&lt;p&gt;The Hanjin Geneva is tracked in global waters via a system known as AIS.
-Follow its location through these services:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.vesselfinder.com/vessels/HANJIN-GENEVA-IMO-9215646-MMSI-211377300&#34;&gt;Vessel Finder&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.marinetraffic.com/en/ais/details/ships/shipid:133837/mmsi:211377300/imo:9215646/vessel:HANJIN_GENEVA&#34;&gt;Marine Traffic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.marinetraffic.com/en/photos/of/ships/photo_keywords:9215646&#34;&gt;Marine Traffic photos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fleetmon.com/vessels/hanjin-geneva_9215646_26729/&#34;&gt;Fleetmon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://shipspotting.com&#34;&gt;Ship Spotting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A snapshot taken September 6 placed the ship off the cost of Chiba, Japan.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://vielmetti.github.io/images/Haijin-Geneva.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Haijin Geneva via Ship Spotting&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Some good sources for news on Hanjin Shipping:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.joc.com/maritime-news/container-lines/hanjin-shipping&#34;&gt;JOC.COM&lt;/a&gt; has a section; subscription required&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.lloydslist.com/ll/topic/hanjin/&#34;&gt;Lloyd&amp;rsquo;s List&lt;/a&gt; subscription required&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.reuters.com/finance/stocks/117930.KS/key-developments&#34;&gt;Reuters: Hanjin Shipping&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/news/types/asian-business-news&#34;&gt;Wall Street Journal: Asian Business News&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bbc.com/news/business-37241727&#34;&gt;BBC News&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As always Twitter is going to move faster for news than most other news sources;
-the hashtag #&lt;a href=&#34;http://twitter.com/hashtag/hanjin&#34;&gt;hanjin&lt;/a&gt; or #&lt;a href=&#34;http://twitter.com/hashtag/hanjinshipping&#34;&gt;hanjinshipping&lt;/a&gt; is worth watching.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>September 3, 2016 Oklahoma earthquakes</title>
       <link>http://vielmetti.github.io/post/2016/2016-09-05-oklahoma-earthquakes/</link>
       <pubDate>Mon, 05 Sep 2016 22:23:32 -0400</pubDate>
@@ -223,76 +157,6 @@ government to limit the use of these wells.&lt;/p&gt;
 &lt;a href=&#34;http://www.oklahoman.com/login?referer=/saturdays-5.6-magnitude-earthquake-ties-record-in-oklahoma/article/5516769&#34;&gt;The Oklahoman&lt;/a&gt;. Twitter is using the hashtag #&lt;a href=&#34;https://twitter.com/hashtag/okquake&#34;&gt;okquake&lt;/a&gt;,
 and &lt;a href=&#34;https://twitter.com/MattSchroyer&#34;&gt;Matthew Schroyer&lt;/a&gt; has an automated @&lt;a href=&#34;https://twitter.com/OKQuakeWatch&#34;&gt;OKQuakeWatch&lt;/a&gt; account
 tweeting USGS data about Oklahoma quakes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016 09 05 thinking in graphs vs thinking in lists</title>
-      <link>http://vielmetti.github.io/post/2016/2016-09-05-thinking-in-graphs/</link>
-      <pubDate>Mon, 05 Sep 2016 15:23:32 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-09-05-thinking-in-graphs/</guid>
-      <description>&lt;p&gt;Writing at the Biggby by the dog park with a 20 oz coffee close at hand.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Thinking style one&amp;rdquo; comes up with a topic with crisp edges,
-and then enumerates a set of carefully constrained and
-largely self-similar elements within that topic. You can
-be sure at the end that the question at hand has been
-thoroughly plumbed, and that nothing is missing because
-you went through diligently to the end.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Thinking style two&amp;rdquo; starts with a topic, really anything,
-and moves laterally and tangentially from one to the next.
-The cafe reminds you not of other cafes but of the dog park
-across the street and the converstaions there, but also of
-the day that you set up a radio at the cafe to listen to
-airplanes, and that moves tangentially along a trajectory
-towards radio listening in general.&lt;/p&gt;
-
-&lt;p&gt;I can do crisp edges and careful enumeration, but pretty soon
-I get distracted by the butterfly and then reminded of places
-in the world that I love where the butterfly lands on milkweed.&lt;/p&gt;
-
-&lt;p&gt;Blogging for me has been a process of catching thoughts as
-they go by, writing them down thoroughly enough that I can
-reconstruct the mindset at a later date, and then moving on
-to the next butterfly. Faced with that ephemeral corpus, who
-can complain that it&amp;rsquo;s hard to organize? There&amp;rsquo;s no one overarching
-theme to anything, just ideas flitting from here to there
-along a long migration.&lt;/p&gt;
-
-&lt;p&gt;When I have had good luck writing on a topic for a long time, it
-has been the discipline of ensuring that the lead paragraph always
-had a specific word. I could write anything I wanted to with the
-words &amp;ldquo;Ann Arbor&amp;rdquo; in the lead paragraph for AnnArbor.com; I can
-write anything with &amp;ldquo;FOIA&amp;rdquo; or something similar and get neatly
-pigeonholed there. But I don&amp;rsquo;t and won&amp;rsquo;t write about butterflies
-often enough to make a &amp;ldquo;butterfly blog&amp;rdquo;, even if that&amp;rsquo;s my style,
-flitting from one place to another.&lt;/p&gt;
-
-&lt;p&gt;NOTES&lt;/p&gt;
-
-&lt;p&gt;This Biggby is open until 6pm, even on Labor Day. Meijer is the
-next stop, for back-to-school lunch shopping.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s some ideal size for a collection of posts that are all
-related - if you can really write 150 separate things that are 500
-words each and are all related, you&amp;rsquo;ve got a substantial body of work.
-It may make sense to partition my blogging output into several
-smaller batches and work from that.&lt;/p&gt;
-
-&lt;p&gt;One day when listening to airplanes using dump1090 at this Biggby
-I managed to pick up a plane over Indianapolis. I have a feeling
-I&amp;rsquo;ll be buying more SDR radio gear in the near future.&lt;/p&gt;
-
-&lt;p&gt;Milkweed grows at Michigania and at the Vielmetti-Peters Conservation
-Reserve. It likes old fields.&lt;/p&gt;
-
-&lt;p&gt;You have to take some care when you have thoughts that go from one
-idea to the next to explain the transition slowly and clearly
-for the person listening to you. Sometimes you need to pretend like
-your mind is grinding slowly and deliberately through a set of
-predetermined tasks.&lt;/p&gt;
 </description>
     </item>
     
@@ -567,97 +431,6 @@ will see.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Ann Arbor quiet writing escapes</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-25-ann-arbor-writing-escapes/</link>
-      <pubDate>Wed, 25 May 2016 09:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-25-ann-arbor-writing-escapes/</guid>
-      <description>&lt;p&gt;Where to go in Ann Arbor to do some quiet writing, without distractions.
-There are plenty of cafes where there are lots of people around; this
-list looks for the empty places where you won&amp;rsquo;t have your attention broken
-quite so easily.&lt;/p&gt;
-
-&lt;p&gt;This is a much easier task in the summer time than it is during the school
-year, as the students thin out and University buildings are much quieter.&lt;/p&gt;
-
-&lt;p&gt;Central Campus:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.rackham.umich.edu/rackham-building/study-halls&#34;&gt;Rackham Building reading rooms&lt;/a&gt;, second floor. Very lovely, very quiet, recommended by many.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.lib.umich.edu/hatcher-graduate-library/carrels-hatcher-graduate-library&#34;&gt;Hatcher Graduate Library study carrels&lt;/a&gt;, especially on the higher floors. You&amp;rsquo;ll have a little room of your own.&lt;/li&gt;
-&lt;li&gt;Law Library reading room.&lt;/li&gt;
-&lt;li&gt;Michigan League, upper floors&lt;/li&gt;
-&lt;li&gt;Museum of Art&lt;/li&gt;
-&lt;li&gt;Palmer Commons, where the upper floors have writing desks&lt;/li&gt;
-&lt;li&gt;Social Work Library&lt;/li&gt;
-&lt;li&gt;Michigan Union first floor reading rooms&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Downtown:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ann Arbor City Hall, council chambers (not during a meeting)&lt;/li&gt;
-&lt;li&gt;Sweetwaters, Liberty or Washington St&lt;/li&gt;
-&lt;li&gt;Ann Arbor District Library, third floor (periodicals) or fourth floor (administration)&lt;/li&gt;
-&lt;li&gt;Zingerman&amp;rsquo;s Next Door, upstairs in one of the smaller rooms&lt;/li&gt;
-&lt;li&gt;Mighty Good Coffee&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;North side:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Matthaei Botanical Gardens&lt;/li&gt;
-&lt;li&gt;Duderstadt Center library, second floor (periodicals)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;South side:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ann Arbor Municipal Airport&lt;/li&gt;
-&lt;li&gt;Roos Roast&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ypsilanti&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Cultivate in Depot Town&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Of course, external distractions are only one part of the complex question of
-&amp;ldquo;why are no words appearing on the page&amp;rdquo;. There are some a few tricks that I
-use to minimize distractions coming from the computer itself.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Write in a big &amp;lsquo;vim&amp;rsquo; window. Open up Terminal, maximize a window,
-and then fire up &amp;lsquo;vim&amp;rsquo;. I&amp;rsquo;m managing to get 62 lines on the screen without
-having to squint, and the browser is not on the screen.&lt;/li&gt;
-&lt;li&gt;Go offline. If your writing environment allows, do your writing without
-a connection to the Internet.&lt;/li&gt;
-&lt;li&gt;If you must stay online, mute notifications. On my Mac that&amp;rsquo;s a
-&amp;ldquo;Do not disturb&amp;rdquo; setting.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;With a big screen up another functional way to avoid a distraction
-is to keep sitting until the screen is full. It&amp;rsquo;s not necessary to
-actually want to keep all of the words that you write - it&amp;rsquo;s OK to
-discard some of them in a subsequent editing session - but the self
-imposed constraint to fill the page all the way to the bottom on a 62
-line screen produces a substantial quantity of work in a single sitting.&lt;/p&gt;
-
-&lt;p&gt;A useful quality to cultivate is &amp;ldquo;sitzfleisch&amp;rdquo;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Germans have aptly called Sitzfleisch the ability to spend endless hours at a desk doing grueling work. Sitzfleisch is considered by mathematicians to be a better guage of success than any of the attractive definitions of talent with which psychologists regale us from time to time.  Gian-Carlo Rota.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pull up a seat, open up the screen, start typing. Don&amp;rsquo;t look up until the page is full.
-Set yourself a time limit and a word count and aim for that. The time limit can
-be enforced by parking in a space where your time is limited, which reminds
-me that I must be going.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A commonplace reader</title>
       <link>http://vielmetti.github.io/post/2016/2016-05-25-a-commonplace-reader/</link>
       <pubDate>Wed, 25 May 2016 01:00:00 -0400</pubDate>
@@ -727,88 +500,6 @@ plagiarism as a thought-crime. From Kenneth Goldsmith:&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Retroactively we can construct some level of patchwork that we can crib from, in interest or excitement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Day trips from Ann Arbor</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-23-day-trips-from-ann-arbor/</link>
-      <pubDate>Mon, 23 May 2016 10:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-23-day-trips-from-ann-arbor/</guid>
-      <description>&lt;p&gt;Some suggestions for places to go for same-day destination trips from Ann Arbor.
-I&amp;rsquo;m collecting up ideas suitable for rides in support of driver&amp;rsquo;s ed.&lt;/p&gt;
-
-&lt;p&gt;East via M-14&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Royal Oak: &lt;a href=&#34;http://detroitzoo.org/&#34;&gt;Detroit Zoo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Novi: 12 Oaks Mall&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;East via I-94&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Belleville: &lt;a href=&#34;http://yankeeairmuseum.org/&#34;&gt;Yankee Air Museum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dearborn: &lt;a href=&#34;https://www.thehenryford.org/&#34;&gt;Greenfield Village&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Dearborn: &lt;a href=&#34;https://www.thehenryford.org/&#34;&gt;Henry Ford Museum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Detroit: &lt;a href=&#34;http://www.dia.org/&#34;&gt;Detroit Institute of Arts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Detroit: &lt;a href=&#34;http://detroithistorical.org/&#34;&gt;Detroit Historical Museum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Detroit: &lt;a href=&#34;http://www.michigan.org/property/belle-isle-park/&#34;&gt;Belle Isle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Detroit: &lt;a href=&#34;http://www.motownmuseum.org/&#34;&gt;Motown Museum&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Canada&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Windsor: Via tunnel or bridge&lt;/li&gt;
-&lt;li&gt;Point Pelee: Bird sanctuary&lt;/li&gt;
-&lt;li&gt;Marine City: ferry to Canada&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;South via US-23&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Carleton: Calder Dairy&lt;/li&gt;
-&lt;li&gt;Monroe: 1812 National Park&lt;/li&gt;
-&lt;li&gt;Toledo: &lt;a href=&#34;http://www.toledomuseum.org/&#34;&gt;Toledo Museum of Art&lt;/a&gt; (45 minutes)&lt;/li&gt;
-&lt;li&gt;Toledo: Toledo Mud Hens&lt;/li&gt;
-&lt;li&gt;Toledo: Toledo Zoo&lt;/li&gt;
-&lt;li&gt;Port Clinton: birdwatching&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Southwest via US-12&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tecumseh:  Michigan State Univ &lt;a href=&#34;http://hiddenlakegardens.msu.edu/&#34;&gt;Hidden Lake Gardens&lt;/a&gt;, (one of the better kept State secrets) &amp;hellip;beautiful trails, Hosta Garden and conifer collection.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.irishhillsrecreation.com/&#34;&gt;Irish Hills&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;West vis I-94&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Kalamazoo: &lt;a href=&#34;http://www.airzoo.org/&#34;&gt;Air Zoo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;St Joseph: beaches&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Northwest via US-23 and I-96&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Grand Rapids: &lt;a href=&#34;http://www.meijergardens.org/&#34;&gt;Frederik Meijer Gardens &amp;amp; Sculpture Park&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;East Lansing: &lt;a href=&#34;http://dairystore.msu.edu/&#34;&gt;MSU Dairy Store&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;North via US-23&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Durand: &lt;a href=&#34;http://www.durandstation.org/&#34;&gt;Union Station&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Frankenmuth:  &lt;a href=&#34;https://www.bronners.com/&#34;&gt;Bronners&lt;/a&gt; / Outlet Shopping at Birch Run&lt;/li&gt;
-&lt;li&gt;Bay City: Polish food&lt;/li&gt;
-&lt;li&gt;Midland: &lt;a href=&#34;http://www.dowgardens.org/&#34;&gt;Dow Gardens&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Thumb: Port Crescent State Park&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thanks to members of the a2b3 mailing list for suggestions!&lt;/p&gt;
 </description>
     </item>
     
@@ -884,6 +575,151 @@ obtained without somebody being enslaved.&lt;/p&gt;
 long-suffering inanimate machines that we imbue so much personality
 into that some of us unknowingly
 &lt;a href=&#34;http://www.businessinsider.com/amy-ingram-personal-assistant-2015-7&#34;&gt;flirt with a robot&lt;/a&gt; because we are so charmed by their devotion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prince</title>
+      <link>http://vielmetti.github.io/post/2016/2016-04-22-prince/</link>
+      <pubDate>Fri, 22 Apr 2016 14:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-04-22-prince/</guid>
+      <description>&lt;p&gt;Yesterday&amp;rsquo;s radio was full of the Prince music catalog. The artist
+passed away in his Minnesota home at the age of 57. In response
+any radio station that had anything other that pre-programmed music
+responded by playing his hits - &amp;ldquo;Little Red Corvette&amp;rdquo;, &amp;ldquo;Raspberry Beret&amp;rdquo;,
+&amp;ldquo;Purple Rain&amp;rdquo; - and the radio stations that had artistic control
+also played B sides, live shows, bootlegs and whatever they could find.
+Ann Arbor&amp;rsquo;s own WCBN was exemplary in this regard.&lt;/p&gt;
+
+&lt;p&gt;The radio that I remember is from the 80s when Prince&amp;rsquo;s music was
+in regular play on the Electrifyin&amp;rsquo; Mojo&amp;rsquo;s show on Detroit&amp;rsquo;s WJLB.
+Prince did a very rare live radio interview with Mojo, and you can
+hear it in two parts - &lt;a href=&#34;https://www.youtube.com/watch?v=NJZCoxZ5COY&#34;&gt;part one&lt;/a&gt;
+and &lt;a href=&#34;https://www.youtube.com/watch?v=ftKtWgXzMS8&#34;&gt;part two&lt;/a&gt; - on Youtube.&lt;/p&gt;
+
+&lt;p&gt;What I haven&amp;rsquo;t found yet is the computer font with a perfect Prince
+symbol in it. You can get close by
+&lt;a href=&#34;http://parkerhiggins.net/2013/01/writing-the-prince-symbol-in-unicode/&#34;&gt;writing the prince symbol in unicode&lt;/a&gt;,
+or this ASCII representation may suffice: O(+&amp;gt; . But the
+real deal came on a &lt;a href=&#34;http://nymag.com/following/2016/04/princes-legendary-floppy-disk-symbol-font.html&#34;&gt;3.5&amp;rdquo; floppy disc&lt;/a&gt; from Warner Bros.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Upgrade to El Capitan</title>
+      <link>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</link>
+      <pubDate>Wed, 30 Mar 2016 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-03-30-upgrade-to-el-capitan/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m working through the details of an upgrade from Mavericks to
+El Capitan. Some running notes.&lt;/p&gt;
+
+&lt;p&gt;The upgrade took about 2 hrs. I went to the Apple Store at Briarwood
+in Ann Arbor to get the install done, since their Internet is faster
+than my home UVerse.&lt;/p&gt;
+
+&lt;p&gt;After doing the upgrade the next big slow task is &lt;code&gt;brew update&lt;/code&gt;. You
+would not be surprised to know that I have a lot of packages installed,
+and that brew is working hard to update everything.&lt;/p&gt;
+
+&lt;p&gt;The biggest reason that I upgraded was to get &lt;code&gt;xhyve&lt;/code&gt; and thus
+Docker for Mac. I&amp;rsquo;m using the beta now (beta 5) and have gotten
+a few trivial things to work, but am still sorting out a few
+questions which might or might not be issues.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chicken and onion curry</title>
+      <link>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</link>
+      <pubDate>Sun, 14 Feb 2016 21:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-02-14-chicken-and-onion-curry/</guid>
+      <description>&lt;p&gt;Saveur Magazine has a recipe for a &lt;a href=&#34;http://www.saveur.com/article/Recipes/Chicken-and-Onion-Curry&#34;&gt;chicken and onion curry&lt;/a&gt;
+from January 27, 2010. It took a little more than an hour
+to cook, but the results were very much worth it - delicious,
+and worth repeating.&lt;/p&gt;
+
+&lt;p&gt;We had the meal with rice, kale, and a
+&lt;a href=&#34;http://www.food.com/recipe/radish-raita-57431&#34;&gt;daikon raita&lt;/a&gt; from
+food.com that I kind of liked but which was not a big hit
+with the rest of the table.&lt;/p&gt;
+
+&lt;p&gt;The current meal planning regime here uses a Google calendar
+and a question at the end of every meal: do you want this again,
+and how many weeks before we have it again? This curry will
+repeat in 3 weeks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>a2b3 lunch non-summary for 3d week of January 2016</title>
+      <link>http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary/</link>
+      <pubDate>Thu, 21 Jan 2016 12:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-01-22-a2b3-lunch-nonsummary/</guid>
+      <description>&lt;p&gt;Thanks to everyone for coming to lunch. We had 16 people, and complete introductions in 23 minutes.&lt;/p&gt;
+
+&lt;p&gt;The topic of the question was &amp;ldquo;repair&amp;rdquo;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://lindadianefeldt.com/&#34;&gt;Linda Diane Feldt&lt;/a&gt; is repairing her side door, original equipment on a 90 y/o house.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/kathryn-sanderson-13134b13&#34;&gt;Kathryn Sanderson&lt;/a&gt; darns socks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/DanF1739&#34;&gt;Dan Friedus&lt;/a&gt; wants to know if you want to repair his 1980s Bolens garden tractors. (Make an offer.)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medicine.umich.edu/dept/biochem/ruthann-nichols-phd&#34;&gt;Ruthann Nichols&lt;/a&gt; teaches &lt;a href=&#34;http://www.lsa.umich.edu/UMICH/students/Home/Academics%20and%20Requirements/CourseSelection%26Scheduling/CourseGuide%28PostersandDocuments%29/Winter2014/1970CHEM120001.pdf&#34;&gt;Science and Wine&lt;/a&gt; as a freshman seminar at the U.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://johnbarrie.com/&#34;&gt;John Barrie&lt;/a&gt; recommends Fix It Friday at Maker Works, and is repairing an Advent 300 stereo.&lt;/li&gt;
+&lt;li&gt;Josephine (sp?) is repairing a sense of community and interviewing a new boss.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/missingnewmexico&#34;&gt;Lou Leone&lt;/a&gt; likes not having to repair things.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.soe.umich.edu/people/profile/linda_rayle/&#34;&gt;Linda Rayle&lt;/a&gt; is decluttering.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/rmrayle&#34;&gt;Roger Rayle&lt;/a&gt; says &amp;ldquo;ideas get repaired&amp;rdquo; by his efforts.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/lsiden&#34;&gt;Larry Siden&lt;/a&gt; is fixing code and got a rattling guitar amp repaired in Keego Harbor.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/hsgidley&#34;&gt;Helene Gidley&lt;/a&gt; is also darning socks and saved some wall paper for years for a successful repair.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.panoramio.com/photo/91151775&#34;&gt;Keith Alexander&lt;/a&gt; is repairing blank surfaces by painting murals.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/KathyGriswold&#34;&gt;Kathy Griswold&lt;/a&gt; repaired some household lighting.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.forbes.com/sites/kaipetainen&#34;&gt;Kai Petainen&lt;/a&gt; is repairing computer models for picking stocks.&lt;/li&gt;
+&lt;li&gt;Tim Athan is a forensic engineer and does failure analysis.&lt;/li&gt;
+&lt;li&gt;Ed Weiss is looking for help to repair help files for a music synth program written in Japanese for Windows 98.&lt;/li&gt;
+&lt;li&gt;Ed Vielmetti has successfully repaired two shortwave radios.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to Kai Petainen for his contribution and new membership to the Meetup group.
+The nominal dues are $20/yr which covers the costs of hosting on Meetup.
+Dues are completely voluntary and we always welcome everyone who comes.&lt;/p&gt;
+
+&lt;p&gt;Events coming up:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Friday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;22&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;Saturday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;23&lt;/sub&gt; Ann Arbor Farmers Market&lt;/li&gt;
+&lt;li&gt;Sunday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;24&lt;/sub&gt; &lt;a href=&#34;http://www.arrl.org/hamfests/hazel-park-w8hp-50th-annual-swap&#34;&gt;Hazel Park Hamfest&lt;/a&gt; 8a-noon&lt;/li&gt;
+&lt;li&gt;Sunday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;24&lt;/sub&gt; &amp;ldquo;Ann Arbor Cocktail Coven&amp;rdquo;, talk to Lou Leone for details, Facebook group&lt;/li&gt;
+&lt;li&gt;Monday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;25&lt;/sub&gt; a2civictech w/s/g Kathy Grisworld on SeeClickFix and civic engagement, at AADL&lt;/li&gt;
+&lt;li&gt;Tuesday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;26&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;Wednesday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;27&lt;/sub&gt; Agile Groupies w/s/g Helene Gidley at Pillar, &amp;ldquo;Lean Coffee&amp;rdquo; format.&lt;/li&gt;
+&lt;li&gt;Wednesday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;27&lt;/sub&gt; Zoning Board of Appeals; no agenda yet&lt;/li&gt;
+&lt;li&gt;Thursday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;28&lt;/sub&gt; a2b3 lunch at Ayse&amp;rsquo;s&lt;/li&gt;
+&lt;li&gt;Thursday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;28&lt;/sub&gt; IOT Detroit in Allen Park&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Future events:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fri-Sun &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;29&lt;/sub&gt;-&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;31&lt;/sub&gt; &lt;a href=&#34;https://mpowered.umich.edu/makeathon&#34;&gt;Makeathon&lt;/a&gt; at UM Stamps School&lt;/li&gt;
+&lt;li&gt;some future Friday: Fixit Friday at Maker Works&lt;/li&gt;
+&lt;li&gt;end of June: Michigan Energy Fair w/s/g John Barrie&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Events in the past&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;18&lt;/sub&gt; Ann Arbor City Council. What do we want? DRAFT MEETING MINUTES. When do we want them? EIGHT BUSINESS DAYS.&lt;/li&gt;
+&lt;li&gt;Tuesday &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt; a2newtech; Roger Rayle has video, I think.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Notes afterwards.&lt;/p&gt;
+
+&lt;p&gt;If I take notes in my notebook, it doesn&amp;rsquo;t take long to write this up.&lt;/p&gt;
 </description>
     </item>
     
