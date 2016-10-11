@@ -32,11 +32,12 @@ would be an oversimplification at many levels.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/sdr/&#34;&gt;Software defined radio&lt;/a&gt;.
 Building radio receivers and decoders in software. I&amp;rsquo;m
-using an RTL-SDR tuner stick and the &lt;a href=&#34;http://vielmetti.github.io/tags/dump1090/&#34;&gt;dump1090&lt;/a&gt;
-software as a way of getting ADS-B data that decodes
+using an &lt;a href=&#34;http://vielmetti.github.io/tags/rtl-sdr/&#34;&gt;RTL-SDR&lt;/a&gt;
+tuner stick and the &lt;a href=&#34;http://vielmetti.github.io/tags/dump1090/&#34;&gt;dump1090&lt;/a&gt;
+software as a way of getting ADS-B data that decodes to
 airplane locations. From listening to distant radio
 stations to decoding digital modes, SDR tools rapidly
-are transforming the nature of radio.&lt;/p&gt;
+are transforming the nature of radio experimentation.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/rpi/&#34;&gt;Raspberry Pi&lt;/a&gt;. This little ARM based single board computer
 is a launching point for small scale situated experimental
