@@ -20,7 +20,7 @@ for Node-RED that encapsulates the AWS IoT service and allows
 straightforward communication between the two systems over MQTT.&lt;/p&gt;
 
 &lt;p&gt;The node, node-red-contrib-aws-iot-hub,
-includes support both for the message-passing
+includes support for the message-passing
 part of AWS IoT using MQTT, allowing you to open
 a channel to the IoT service and publish or subscribe
 to message topics. The result is easy integration between
