@@ -6,8 +6,42 @@
     <description>Recent content in Aws Iot on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Dec 2015 15:15:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 11 Oct 2016 13:15:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/tags/aws-iot/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS IoT to Node-RED</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-11-aws-iot-to-node-red/</link>
+      <pubDate>Tue, 11 Oct 2016 13:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-11-aws-iot-to-node-red/</guid>
+      <description>&lt;p&gt;Duong Dinh Cuong (on Github as &lt;a href=&#34;https://github.com/cuongquay&#34;&gt;cuongquay&lt;/a&gt;) has contributed a node
+for Node-RED that encapsulates the AWS IoT service and allows
+straightforward communication between the two systems over MQTT.&lt;/p&gt;
+
+&lt;p&gt;The node, node-red-contrib-aws-iot-hub,
+includes support both for the message-passing
+part of AWS IoT using MQTT, allowing you to open
+a channel to the IoT service and publish or subscribe
+to message topics. The result is easy integration between
+the two systems. As a part of this process, the node
+includes support for AWS certificates that have to be
+installed &amp;ldquo;just so&amp;rdquo; to allow AWS to trust Node-RED.&lt;/p&gt;
+
+&lt;p&gt;The current release is 0.1.5 from today, October 11, 2016.
+You can find it on &lt;a href=&#34;https://github.com/cuongquay/node-red-contrib-aws-iot&#34;&gt;Github&lt;/a&gt;,
+on &lt;a href=&#34;https://www.npmjs.com/package/node-red-contrib-aws-iot-hub&#34;&gt;NPM&lt;/a&gt;,
+and in the &lt;a href=&#34;http://flows.nodered.org/node/node-red-contrib-aws-iot-hub&#34;&gt;Node-RED flows library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve tested this with my airplane tracking code which publishes
+from a Raspberry Pi to AWS IoT using mosquitto, and it all seems
+to check out OK. A next step on my part is to port the whole
+experience up from my Mac where a test instance is running up to
+CoreOS, and also to document the AWS command line to generate
+the correct certificates in the correct format with the correct
+file names.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Platforms for the Internet of Things, 2015 edition</title>
