@@ -88,6 +88,14 @@ functions in AWS Lambda when messages come in and a database
 capture with AWS DynamoDB. It&amp;rsquo;s still an open question how
 expensive this system is at scale.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/aws-lambda&#34;&gt;AWS Lambda&lt;/a&gt;.
+Instead of running Amazon Web Services one computer at a time,
+you run it one function call at a time. With support for
+Python and node.js, Lambda is an example of &amp;ldquo;serverless&amp;rdquo;
+computing, where the unit of compute resource you are
+marshalling to solve a problem is just as small as you can
+make it.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/mqtt&#34;&gt;MQTT&lt;/a&gt;.
 This simple publish-subscribe message broker standard
 lets very small systems communicate with the cloud in a method
