@@ -149,7 +149,7 @@ a diversity of interests.</p>
 <p>The current set of systems that are an area of focus -
 and the places I draw from for inspiration on each -
 are as follows. One might loosely couple these together
-under the heading of the &ldquo;Internet of Things&rdquo;, but that
+under the intersection of &ldquo;DevOps&rdquo; and the &ldquo;Internet of Things&rdquo;, but that
 would be an oversimplification at many levels.</p>
 
 <p><a href="http://vielmetti.github.io/tags/sdr/">Software defined radio</a>.
@@ -171,11 +171,11 @@ built from have applications all the way from disposable
 embedded computers to data center scale power efficient compute farms.</p>
 
 <p><a href="http://vielmetti.github.io/tags/embedded">Embedded controllers</a> with wireless data. Products like
-Particle&rsquo;s Electron and the Hologram systems point the
+Particle&rsquo;s Electron and the Hologram Dash systems point the
 way to a future where small battery-operated devices
 have some kind of always-on global connectivity. Battery
 constraints and power consumption are the biggest considerations,
-and there&rsquo;s a whole field of possible radio frequencies and
+and there&rsquo;s a wide variety of possible radio frequencies and
 associated chipsets to be evaluated.</p>
 
 <p><a href="http://vielmetti.github.io/tags/docker">Docker</a>. This tool allows you to encapsulate system dependencies
@@ -187,13 +187,15 @@ and cluster technology are still changing rapidly, with
 every new release offering new functions (and the risk of
 a smattering of interesting new bugs).</p>
 
-<p>CoreOS. This minimalist operating system is designed primarily
+<p><a href="http://vielmetti.github.io/tags/coreos">CoreOS</a>.
+This minimalist operating system is designed primarily
 to run Docker containers and to handle system updates automatically.
 As long as your services can handle being rebooted periodically
 for externally scheduled system updates, it does a great job
 of providing a stable platform for container-first system designs.</p>
 
-<p>Amazon Web Services. The sprawling set of Amazon capabilities
+<p><a href="http://vielmetti.github.io/tags/aws">Amazon Web Services</a>.
+The sprawling set of Amazon capabilities
 means that you should never need to have a data center of your
 own, so long as you manage to figure out how to economically
 build systems out of their mostly (but not completely) reliable
@@ -201,18 +203,21 @@ infrastructure. When AWS goes down, though, watch out - it&rsquo;s likely
 to break in some novel way that your application, no matter how
 well engineered, will not expect to see.</p>
 
-<p>AWS IoT. This Amazon Web Services stack provides a message
+<p><a href="http://vielmetti.github.io/tags/aws-iot">AWS IoT</a>.
+This Amazon Web Services stack provides a message
 broker based on MQTT, plus a set of services for triggering
 functions in AWS Lambda when messages come in and a database
 capture with AWS DynamoDB. It&rsquo;s still an open question how
 expensive this system is at scale.</p>
 
-<p>MQTT. This simple publish-subscribe message broker standard
+<p><a href="http://vielmetti.github.io/tags/mqtt">MQTT</a>.
+This simple publish-subscribe message broker standard
 lets very small systems communicate with the cloud in a method
 that doesn&rsquo;t require that the remote system have a globally
 routed address.</p>
 
-<p>Node-RED. This IBM project provides a nice drag and drop interface
+<p><a href="http://vielmetti.github.io/tags/node-red">Node-RED</a>.
+This IBM community project provides a nice drag and drop interface
 for building message-oriented prototype software and hardware
 interfaces. Built on top of node.js and npm, it also offers
 neatly encapsulated access to hundreds of javascript libraries.</p>

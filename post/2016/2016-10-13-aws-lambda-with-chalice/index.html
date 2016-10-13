@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" AWS Lambda for Python with &#34;Chalice&#34; &middot;  Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:site_name" content="Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:url" content="http://vielmetti.github.io/post/2016/2016-10-13-aws-lambda-with-chalice/" />
+    
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-10-13T00:15:00-04:00" />
+
+    
+    <meta property="og:article:tag" content="AWS" />
+    
+    <meta property="og:article:tag" content="Lambda" />
+    
+    <meta property="og:article:tag" content="Python" />
+    
+    
+
+  <title>
+     AWS Lambda for Python with &#34;Chalice&#34; &middot;  Vacuum weblog from Edward Vielmetti
+  </title>
+
+    <meta name="description" content="Tracking the comings and goings of @vielmetti" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://vielmetti.github.io/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://vielmetti.github.io/images/apple-touch-icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://vielmetti.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Vacuum weblog from Edward Vielmetti" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.15" />
+
+    <link rel="canonical" href="http://vielmetti.github.io/post/2016/2016-10-13-aws-lambda-with-chalice/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-83143-8', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/about-this-weblog/">About this weblog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-11-20-moon-maps-lroc/">New map of the dark side of the moon from the Lunar Reconnaissance Orbiter Camera (LROC)</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-06-09-power-outage-maps/">Power outage maps for all 50 states plus as many other countries as I can find</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/">Slack vs IRC</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/">Tune in to Skywarn nets in 50 states when severe weather threatens</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://vielmetti.github.io/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">AWS Lambda for Python with &#34;Chalice&#34;</h1>
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-10-13T00:15:00-04:00">
+            Oct 13, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/aws/">#AWS</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/lambda/">#Lambda</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/python/">#Python</a></span>
+         
+        </section>
+    </header>
+  
+    <section class="post-content">
+      <p><a href="https://github.com/awslabs/chalice">Chalice</a> is a microframework for Python for <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>,
+similar in spirit to <a href="http://flask.pocoo.org/">Flask</a>. What does that even mean?</p>
+
+<p>A framework is a set of libraries and coding conventions
+that makes development in a specific language for a specific
+task easier. That usually involves making some simplifying
+assumptions about the task you are trying to solve, and
+embedding those assumptions in your code so that you don&rsquo;t
+have to spell out quite as much detail to get a task done.</p>
+
+<p>A microframework is a small version of a framework, and the
+work echoes the current 2016 in-favor design principle of
+microservices, where instead of building some all-singing,
+all-dancing monolithic application that does everything,
+you figure out some components that can stand alone and be
+simplified away from the big thing so that they can change
+faster.</p>
+
+<p>What do you do with a microframework for Python for AWS Lambda?
+Well, you develop microservices in Lambda. Lambda is a hosting
+environment on Amazon Web Services that is ideal for very
+short lived processes or even just function calls that last
+a few seconds (&ldquo;micro&rdquo;) and get just a few things done.</p>
+
+<p>With Chalice, you are carefully guided through the process
+of setting up your first microservice in Python. It comes out of
+the box with sample code to do a &ldquo;hello world&rdquo; service, and
+from that sample code the entire set of Lambda packaging
+is built for you. There are a surprisingly large number of
+moving parts to actually get a Lambda function running;
+Chalice&rsquo;s build system hides most of those from you at the start.</p>
+
+<p>The code is available on Github, either to run as-is,
+to fork for your own edification, or simply to study.
+I&rsquo;ve gotten as far as hello, world, but no farther than that
+yet. There are lots of warnings to the effect of &ldquo;not
+yet ready for production use!&rdquo; so use with care.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://vielmetti.github.io/">Edward Vielmetti</a></h4>
+  
+  <p>Read <a href="http://vielmetti.github.io/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Ann Arbor, Michigan</span>
+    
+  </div>
+</section>
+
+
+
+    
+    <section class="share">
+      <h4>Share this post</h4>
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=AWS%20Lambda%20for%20Python%20with%20%22Chalice%22&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-10-13-aws-lambda-with-chalice%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span>
+      </a>
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-10-13-aws-lambda-with-chalice%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span>
+      </a>
+      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-10-13-aws-lambda-with-chalice%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span>
+      </a>
+    </section>
+    
+
+    
+    
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Vacuum weblog from Edward Vielmetti</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/index.js"></script>
+
+</body>
+</html>
+

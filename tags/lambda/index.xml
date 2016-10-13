@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lambda on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/lambda/</link>
+    <description>Recent content in Lambda on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2016 00:15:00 -0400</lastBuildDate>
+    <atom:link href="http://vielmetti.github.io/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS Lambda for Python with &#34;Chalice&#34;</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-13-aws-lambda-with-chalice/</link>
+      <pubDate>Thu, 13 Oct 2016 00:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-13-aws-lambda-with-chalice/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/awslabs/chalice&#34;&gt;Chalice&lt;/a&gt; is a microframework for Python for &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt;,
+similar in spirit to &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;. What does that even mean?&lt;/p&gt;
+
+&lt;p&gt;A framework is a set of libraries and coding conventions
+that makes development in a specific language for a specific
+task easier. That usually involves making some simplifying
+assumptions about the task you are trying to solve, and
+embedding those assumptions in your code so that you don&amp;rsquo;t
+have to spell out quite as much detail to get a task done.&lt;/p&gt;
+
+&lt;p&gt;A microframework is a small version of a framework, and the
+work echoes the current 2016 in-favor design principle of
+microservices, where instead of building some all-singing,
+all-dancing monolithic application that does everything,
+you figure out some components that can stand alone and be
+simplified away from the big thing so that they can change
+faster.&lt;/p&gt;
+
+&lt;p&gt;What do you do with a microframework for Python for AWS Lambda?
+Well, you develop microservices in Lambda. Lambda is a hosting
+environment on Amazon Web Services that is ideal for very
+short lived processes or even just function calls that last
+a few seconds (&amp;ldquo;micro&amp;rdquo;) and get just a few things done.&lt;/p&gt;
+
+&lt;p&gt;With Chalice, you are carefully guided through the process
+of setting up your first microservice in Python. It comes out of
+the box with sample code to do a &amp;ldquo;hello world&amp;rdquo; service, and
+from that sample code the entire set of Lambda packaging
+is built for you. There are a surprisingly large number of
+moving parts to actually get a Lambda function running;
+Chalice&amp;rsquo;s build system hides most of those from you at the start.&lt;/p&gt;
+
+&lt;p&gt;The code is available on Github, either to run as-is,
+to fork for your own edification, or simply to study.
+I&amp;rsquo;ve gotten as far as hello, world, but no farther than that
+yet. There are lots of warnings to the effect of &amp;ldquo;not
+yet ready for production use!&amp;rdquo; so use with care.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
