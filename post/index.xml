@@ -111,6 +111,86 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>96 cores hot wtih ARMv8 and Docker</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</link>
+      <pubDate>Fri, 14 Oct 2016 00:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</guid>
+      <description>&lt;p&gt;I had early access to a 96 core, 128 gigabyte ARMv8 server today. Here&amp;rsquo;s
+what I did to get all of the CPUs and all of the memory in use at the same
+time.&lt;/p&gt;
+
+&lt;p&gt;The system: a bare-metal hosting company is working on general availability
+of these ARMv8 (aarch64) servers. I got early access for beta testing.&lt;/p&gt;
+
+&lt;p&gt;The software: These systems boot with Ubuntu 16.04 which is plenty modern
+to run lots of workloads. The challenge I had was that there was no Docker
+available to download via apt-get. So, off to build my own.&lt;/p&gt;
+
+&lt;p&gt;A starting point: I began with this writeup of
+&lt;a href=&#34;http://blog.hypriot.com/post/getting-docker-running-on-a-high-density-armv8-server-from-hisilicon/&#34;&gt;running Docker on ARMv8 from HiSilicon&lt;/a&gt;
+written by the Hypriot folks. They lovingly and carefully document getting
+Docker going on a 16-core system, starting from Ubuntu 15.04. There are
+enough differences in the config that I had to adapt, but not so many
+that I was in foreign territory.&lt;/p&gt;
+
+&lt;p&gt;Go: The 96 core system has Go 1.6.2 installed out of the box, so I didn&amp;rsquo;t
+have to bootstrap that. That saved a bunch of time.&lt;/p&gt;
+
+&lt;p&gt;Building Docker without having a Docker server running is a trick. The
+Hypriot team describes it thusly:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For this purpose there is an easy, but not really well-known workaround. We have to check and install the necessary development dependencies first and then we can run the build script natively to get a first working Docker binary. So, let’s do it right away.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Follow their instructions closely, and you get a build of v1.10.2 of
+Docker, which you can copy into the bin directories and run directly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;time AUTO_GOPATH=1 ./hack/make.sh dynbinary
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Systemd was happy after I dug out the right service
+files for docker.service and docker.socket. Just copy the docker binaries
+into place, reload systemd, and you&amp;rsquo;re almost good to go. Almost, because
+you need to make sure you create /var/run/docker.sock which allows
+communications between the client and server.&lt;/p&gt;
+
+&lt;p&gt;Next attempt was to build the &amp;ldquo;master&amp;rdquo; release, and there I wasn&amp;rsquo;t
+able to successfully do a complete build because the &lt;code&gt;aufs&lt;/code&gt; tests
+did not all pass.  (See the &lt;a href=&#34;https://github.com/docker/docker/issues/27357&#34;&gt;open ticket&lt;/a&gt; for the details.)&lt;/p&gt;
+
+&lt;p&gt;After some time of building Docker over and over from source, and not
+getting tests to pass, I gave up and declared victory. Hooray! Someone
+who knows more about file systems can push the next step forward.&lt;/p&gt;
+
+&lt;p&gt;To test this system, Mohan Kartha pointed me at Marek Goldmann&amp;rsquo;s
+excellent treatise on &lt;a href=&#34;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&#34;&gt;resource management in Docker&lt;/a&gt;.
+He uses a system testing tool called &lt;code&gt;stress&lt;/code&gt; running inside a Docker
+container to exercise workloads. As a note to get this test running,
+you need to slightly change the provided Dockerfile, to read as follows
+to pick up an aarch64 version of Fedora.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM resin/aarch64-fedora:latest
+RUN yum -y install stress &amp;amp;&amp;amp; yum clean all
+ENTRYPOINT [&amp;quot;stress&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Build this Dockerfile and then run as follows to give a 96 core system
+a good workout. Install htop first so you get a good colorful screen to watch.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -it --rm stress --cpu 96 --io 96 --vm 96 --vm-bytes 4G --timeout 100s
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;. &lt;a href=&#34;https://twitter.com/Quintus23M&#34;&gt;@Quintus23M&lt;/a&gt; &lt;a href=&#34;https://twitter.com/docker&#34;&gt;@docker&lt;/a&gt; docker 1.10.2 + &amp;quot;stress&amp;quot; exercising all 96 cores and all 128G of memory. cc &lt;a href=&#34;https://twitter.com/mckartha&#34;&gt;@mckartha&lt;/a&gt; &lt;a href=&#34;https://t.co/kPm8JWUJKR&#34;&gt;pic.twitter.com/kPm8JWUJKR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/786773896691261440&#34;&gt;October 14, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;I saved away some binaries on a couple of systems so that reinstalling should
+be straightforward once this machine gets destroyed, and then off we go.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AWS Lambda for Python with &#34;Chalice&#34;</title>
       <link>http://vielmetti.github.io/post/2016/2016-10-13-aws-lambda-with-chalice/</link>
       <pubDate>Thu, 13 Oct 2016 00:15:00 -0400</pubDate>
@@ -754,50 +834,6 @@ plagiarism as a thought-crime. From Kenneth Goldsmith:&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Retroactively we can construct some level of patchwork that we can crib from, in interest or excitement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bots are hot - again</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-18-bots-are-hot/</link>
-      <pubDate>Wed, 18 May 2016 11:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-18-bots-are-hot/</guid>
-      <description>&lt;p&gt;The title of the post is taken from a &lt;a href=&#34;http://www.wired.com/1996/04/netbots/&#34;&gt;1996 Wired article&lt;/a&gt;
-by &lt;a href=&#34;https://twitter.com/koxinga21&#34;&gt;Andrew Leonard&lt;/a&gt;
-describing the state of automated systems in the dot-com
-era.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Web robots – spiders, wanderers, and worms. Cancelbots, Lazarus, and Automoose. Chatterbots, softbots, userbots, taskbots, knowbots, and mailbots. MrBot and MrsBot. Warbots, clonebots, floodbots, annoybots, hackbots, and Vladbots. Gaybots, gossipbots, and gamebots. Skeleton bots, spybots, and sloth bots. Xbots and meta-bots. Eggdrop bots. Motorcycle bull dyke bots.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Bots are hot today in part because natural langauge processing
-has improved to the point where &lt;a href=&#34;https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html&#34;&gt;Google can build hardware&lt;/a&gt;
-to speed up their software algorithms and run their immense
-training corpuses through it quickly to fine tune their approach.
-The output of this effort is ASICs that speed up their &lt;a href=&#34;https://www.tensorflow.org/&#34;&gt;Tensorflow&lt;/a&gt;
-algorithm for machine learning. Thus Google can safely give away
-their software, knowing that anyone else running it will use
-a multiple of the energy that it takes Google to do it.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s instructive to look at the changes throughout the years and
-how bots have co-evolved with the networks and computer systems
-that they inhabit. Early AIs like ELIZA and PARRY lived on
-mainframes connected to very slow wide-area networks, and it
-was years before the two of them talked to each other online.
-The 1980s and 1990s brought Usenet and the automation that could
-live on store-and-forward networks. AOL Instant Messenger&amp;rsquo;s
-ubiquitous chat met popular culture and the emergence of
-advertising bots like GooglyMinotaur, which promoted the music
-of Radiohead.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been writing what I think is some kind of manuscript about
-bots and their personalities, a biographical dictionary of
-emerging intelligences. I&amp;rsquo;m at about 10,000 words. It&amp;rsquo;s a challenge
-to try to corral that much quasi-intelligence onto the page, including
-trying as best I can to characterize some systems that are
-known only by people&amp;rsquo;s memories of them.&lt;/p&gt;
 </description>
     </item>
     
