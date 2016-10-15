@@ -6,8 +6,168 @@
     <description>Recent content in Docker on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Sep 2016 17:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 15 Oct 2016 00:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>More 96 core benchmarks</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</guid>
+      <description>&lt;p&gt;Yesterday I spent some time with a 96 core ARMv8 server.
+On day two I figured out a couple more things about that
+server.&lt;/p&gt;
+
+&lt;p&gt;First and foremost, the extended path of installing Docker
+on the server I chronicled yesterday ended up being much
+easier today. A simple&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install docker.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;did the right thing to bring Docker 1.12.1 into the system.
+Don&amp;rsquo;t do&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install docker
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;on Ubuntu; you&amp;rsquo;ll get &amp;ldquo;docker - System tray for KDE3/GNOME2
+docklet applications&amp;rdquo; instead. The
+&lt;a href=&#34;https://blog.docker.com/2014/04/docker-in-ubuntu-ubuntu-in-docker/&#34;&gt;original release announcement for Docker on Ubuntu&lt;/a&gt;
+explains why.&lt;/p&gt;
+
+&lt;p&gt;To characterize performance on real workloads,
+I compiled some packages from
+source. I did my best to force parallelism in the build.
+&lt;a href=&#34;https://www.gnu.org/software/make/manual/html_node/Parallel.html&#34;&gt;GNU Make supports a &amp;ldquo;-j&amp;rdquo; flag&lt;/a&gt;
+that tries to run more jobs at
+once, and that makes a big difference.
+It&amp;rsquo;s worth reading makefiles before you build on a system
+like this, because there may be special considerations for
+parallel builds.&lt;/p&gt;
+
+&lt;p&gt;Node.JS master built in 4.5 minutes, about a 38x speedup.&lt;/p&gt;
+
+&lt;p&gt;Go for linux/arm64 built in under 9 minutes instead of an hour.&lt;/p&gt;
+
+&lt;p&gt;With the help of the hosting provider, we also looked at power
+consumption of the server. Reported power used when idle was 212 watts,
+and the reported power under a heavy workload by the &lt;code&gt;stress&lt;/code&gt;
+test harness was about 80 watts more, at 292 watts. Roughly
+speaking that&amp;rsquo;s 2 watts per core idle, and 3 watts per core
+when loaded.
+&lt;a href=&#34;http://people.seas.harvard.edu/~apw/stress/&#34;&gt;Stress&lt;/a&gt; is from
+Amos Waterland; it runs nicely on Posix systems.&lt;/p&gt;
+
+&lt;p&gt;There is a version of &lt;code&gt;firefox&lt;/code&gt; for the system that installs
+with &lt;code&gt;apt-get install firefox&lt;/code&gt;, and I forwarded X11 from the
+data center to the cafe to see how it worked. It loads fine,
+but visiting pages like umich.edu result in a failure. I didn&amp;rsquo;t
+find an easy bug repository to report that too, but it was
+repeatable. If I do this again, I&amp;rsquo;ll&lt;/p&gt;
+
+&lt;p&gt;The &amp;ldquo;build Docker from scratch&amp;rdquo; project resulted in the
+&lt;a href=&#34;https://github.com/docker/docker/issues/27384&#34;&gt;build failing with TestOverlay128LayerRead&lt;/a&gt;, which is an issue with the overlay2 filesystem.
+It turns out that&amp;rsquo;s a much more interesting bug than
+yesterday&amp;rsquo;s Docker bug, since we can pinpoint how
+many layers can be overlaid (61, but not 62) before the
+failure.&lt;/p&gt;
+
+&lt;p&gt;One of the things I tested is
+&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Facebook&amp;rsquo;s new &amp;ldquo;yarn&amp;rdquo; package&lt;/a&gt;
+manager for Node.JS - it seemed to work just fine, but
+I had hoped that it would have some kind of bonus speed from
+parallelism, and I didn&amp;rsquo;t see that. Node is notably not
+a parallel language.&lt;/p&gt;
+
+&lt;p&gt;All in all a good day of trying to understand what the
+high performance world looks like when you have lots and
+lots of little cores. This is obviously not a server for
+every workload, but for the ones that match it should be great.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>96 cores hot with ARMv8 and Docker</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</link>
+      <pubDate>Fri, 14 Oct 2016 00:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</guid>
+      <description>&lt;p&gt;I had early access to a 96 core, 128 gigabyte ARMv8 server today. Here&amp;rsquo;s
+what I did to get all of the CPUs and all of the memory in use at the same
+time.&lt;/p&gt;
+
+&lt;p&gt;The system: a bare-metal hosting company is working on general availability
+of these ARMv8 (aarch64) servers. I got early access for beta testing.
+Talk to me if you&amp;rsquo;d like to know more.&lt;/p&gt;
+
+&lt;p&gt;The software: These systems boot with Ubuntu 16.04 which is plenty modern
+to run lots of workloads. The challenge I had was that there was no Docker
+available to download via apt-get. So, off to build my own.&lt;/p&gt;
+
+&lt;p&gt;A starting point: I began with this writeup of
+&lt;a href=&#34;http://blog.hypriot.com/post/getting-docker-running-on-a-high-density-armv8-server-from-hisilicon/&#34;&gt;running Docker on ARMv8 from HiSilicon&lt;/a&gt;
+written by the Hypriot folks. They lovingly and carefully document getting
+Docker going on a 16-core system, starting from Ubuntu 15.04. There are
+enough differences in the config that I had to adapt, but not so many
+that I was in foreign territory.&lt;/p&gt;
+
+&lt;p&gt;Go: The 96 core system has Go 1.6.2 installed out of the box, so I didn&amp;rsquo;t
+have to bootstrap that. That saved a bunch of time.&lt;/p&gt;
+
+&lt;p&gt;Building Docker without having a Docker server running is a trick. The
+Hypriot team describes it thusly:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For this purpose there is an easy, but not really well-known workaround. We have to check and install the necessary development dependencies first and then we can run the build script natively to get a first working Docker binary. So, let’s do it right away.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Follow their instructions closely, and you get a build of v1.10.2 of
+Docker, which you can copy into the bin directories and run directly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;time AUTO_GOPATH=1 ./hack/make.sh dynbinary
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Systemd was happy after I dug out the right service
+files for docker.service and docker.socket. Just copy the docker binaries
+into place, reload systemd, and you&amp;rsquo;re almost good to go. Almost, because
+you need to make sure you create /var/run/docker.sock which allows
+communications between the client and server.&lt;/p&gt;
+
+&lt;p&gt;Next attempt was to build the &amp;ldquo;master&amp;rdquo; release, and there I wasn&amp;rsquo;t
+able to successfully do a complete build because the &lt;code&gt;aufs&lt;/code&gt; tests
+did not all pass.  (See the &lt;a href=&#34;https://github.com/docker/docker/issues/27357&#34;&gt;open ticket&lt;/a&gt; for the details.)&lt;/p&gt;
+
+&lt;p&gt;After some time of building Docker over and over from source, and not
+getting tests to pass, I gave up and declared victory. Hooray! Someone
+who knows more about file systems can push the next step forward.&lt;/p&gt;
+
+&lt;p&gt;To test this system, Mohan Kartha pointed me at Marek Goldmann&amp;rsquo;s
+excellent treatise on &lt;a href=&#34;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&#34;&gt;resource management in Docker&lt;/a&gt;.
+He uses a system testing tool called &lt;code&gt;stress&lt;/code&gt; running inside a Docker
+container to exercise workloads. As a note to get this test running,
+you need to slightly change the provided Dockerfile, to read as follows
+to pick up an aarch64 version of Fedora.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM resin/aarch64-fedora:latest
+RUN yum -y install stress &amp;amp;&amp;amp; yum clean all
+ENTRYPOINT [&amp;quot;stress&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Build this Dockerfile and then run as follows to give a 96 core system
+a good workout. Install htop first so you get a good colorful screen to watch.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -it --rm stress --cpu 96 --io 96 --vm 96 --vm-bytes 4G --timeout 100s
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;. &lt;a href=&#34;https://twitter.com/Quintus23M&#34;&gt;@Quintus23M&lt;/a&gt; &lt;a href=&#34;https://twitter.com/docker&#34;&gt;@docker&lt;/a&gt; docker 1.10.2 + &amp;quot;stress&amp;quot; exercising all 96 cores and all 128G of memory. cc &lt;a href=&#34;https://twitter.com/mckartha&#34;&gt;@mckartha&lt;/a&gt; &lt;a href=&#34;https://t.co/kPm8JWUJKR&#34;&gt;pic.twitter.com/kPm8JWUJKR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/786773896691261440&#34;&gt;October 14, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;I saved away some binaries on a couple of systems so that reinstalling should
+be straightforward once this machine gets destroyed, and then off we go.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Daily coffee and wifi, September 6, 2016</title>

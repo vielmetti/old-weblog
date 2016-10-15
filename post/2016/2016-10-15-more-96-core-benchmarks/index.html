@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" More 96 core benchmarks &middot;  Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:site_name" content="Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:url" content="http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-10-15T00:00:00-04:00" />
+
+    
+    <meta property="og:article:tag" content="ARMv8" />
+    
+    <meta property="og:article:tag" content="aarch64" />
+    
+    <meta property="og:article:tag" content="Docker" />
+    
+    <meta property="og:article:tag" content="Node.JS" />
+    
+    <meta property="og:article:tag" content="stress" />
+    
+    
+
+  <title>
+     More 96 core benchmarks &middot;  Vacuum weblog from Edward Vielmetti
+  </title>
+
+    <meta name="description" content="Tracking the comings and goings of @vielmetti" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://vielmetti.github.io/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://vielmetti.github.io/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://vielmetti.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Vacuum weblog from Edward Vielmetti" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.15" />
+
+    <link rel="canonical" href="http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-83143-8', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/about-this-weblog/">About this weblog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-11-20-moon-maps-lroc/">New map of the dark side of the moon from the Lunar Reconnaissance Orbiter Camera (LROC)</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-06-09-power-outage-maps/">Power outage maps for all 50 states plus as many other countries as I can find</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/">Slack vs IRC</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/">Tune in to Skywarn nets in 50 states when severe weather threatens</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://vielmetti.github.io/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">More 96 core benchmarks</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-10-15T00:00:00-04:00">
+            Oct 15, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/armv8/">#ARMv8</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/aarch64/">#aarch64</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/docker/">#Docker</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/node.js/">#Node.JS</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/stress/">#stress</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>Yesterday I spent some time with a 96 core ARMv8 server.
+On day two I figured out a couple more things about that
+server.</p>
+
+<p>First and foremost, the extended path of installing Docker
+on the server I chronicled yesterday ended up being much
+easier today. A simple</p>
+
+<pre><code>apt-get install docker.io
+</code></pre>
+
+<p>did the right thing to bring Docker 1.12.1 into the system.
+Don&rsquo;t do</p>
+
+<pre><code>apt-get install docker
+</code></pre>
+
+<p>on Ubuntu; you&rsquo;ll get &ldquo;docker - System tray for KDE3/GNOME2
+docklet applications&rdquo; instead. The
+<a href="https://blog.docker.com/2014/04/docker-in-ubuntu-ubuntu-in-docker/">original release announcement for Docker on Ubuntu</a>
+explains why.</p>
+
+<p>To characterize performance on real workloads,
+I compiled some packages from
+source. I did my best to force parallelism in the build.
+<a href="https://www.gnu.org/software/make/manual/html_node/Parallel.html">GNU Make supports a &ldquo;-j&rdquo; flag</a>
+that tries to run more jobs at
+once, and that makes a big difference.
+It&rsquo;s worth reading makefiles before you build on a system
+like this, because there may be special considerations for
+parallel builds.</p>
+
+<p>Node.JS master built in 4.5 minutes, about a 38x speedup.</p>
+
+<p>Go for linux/arm64 built in under 9 minutes instead of an hour.</p>
+
+<p>With the help of the hosting provider, we also looked at power
+consumption of the server. Reported power used when idle was 212 watts,
+and the reported power under a heavy workload by the <code>stress</code>
+test harness was about 80 watts more, at 292 watts. Roughly
+speaking that&rsquo;s 2 watts per core idle, and 3 watts per core
+when loaded.
+<a href="http://people.seas.harvard.edu/~apw/stress/">Stress</a> is from
+Amos Waterland; it runs nicely on Posix systems.</p>
+
+<p>There is a version of <code>firefox</code> for the system that installs
+with <code>apt-get install firefox</code>, and I forwarded X11 from the
+data center to the cafe to see how it worked. It loads fine,
+but visiting pages like umich.edu result in a failure. I didn&rsquo;t
+find an easy bug repository to report that too, but it was
+repeatable. If I do this again, I&rsquo;ll</p>
+
+<p>The &ldquo;build Docker from scratch&rdquo; project resulted in the
+<a href="https://github.com/docker/docker/issues/27384">build failing with TestOverlay128LayerRead</a>, which is an issue with the overlay2 filesystem.
+It turns out that&rsquo;s a much more interesting bug than
+yesterday&rsquo;s Docker bug, since we can pinpoint how
+many layers can be overlaid (61, but not 62) before the
+failure.</p>
+
+<p>One of the things I tested is
+<a href="https://code.facebook.com/posts/1840075619545360">Facebook&rsquo;s new &ldquo;yarn&rdquo; package</a>
+manager for Node.JS - it seemed to work just fine, but
+I had hoped that it would have some kind of bonus speed from
+parallelism, and I didn&rsquo;t see that. Node is notably not
+a parallel language.</p>
+
+<p>All in all a good day of trying to understand what the
+high performance world looks like when you have lots and
+lots of little cores. This is obviously not a server for
+every workload, but for the ones that match it should be great.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://vielmetti.github.io/">Edward Vielmetti</a></h4>
+  
+  <p>Read <a href="http://vielmetti.github.io/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Ann Arbor, Michigan</span>
+    
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=More%2096%20core%20benchmarks&nbsp;-&nbsp;Vacuum%20weblog%20from%20Edward%20Vielmetti&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-10-15-more-96-core-benchmarks%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-10-15-more-96-core-benchmarks%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-10-15-more-96-core-benchmarks%2f&amp;description=More%2096%20core%20benchmarks"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-10-15-more-96-core-benchmarks%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Vacuum weblog from Edward Vielmetti</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/index.js"></script>
+    
+</body>
+</html>
+

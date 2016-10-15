@@ -111,6 +111,85 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>More 96 core benchmarks</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</guid>
+      <description>&lt;p&gt;Yesterday I spent some time with a 96 core ARMv8 server.
+On day two I figured out a couple more things about that
+server.&lt;/p&gt;
+
+&lt;p&gt;First and foremost, the extended path of installing Docker
+on the server I chronicled yesterday ended up being much
+easier today. A simple&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install docker.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;did the right thing to bring Docker 1.12.1 into the system.
+Don&amp;rsquo;t do&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install docker
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;on Ubuntu; you&amp;rsquo;ll get &amp;ldquo;docker - System tray for KDE3/GNOME2
+docklet applications&amp;rdquo; instead. The
+&lt;a href=&#34;https://blog.docker.com/2014/04/docker-in-ubuntu-ubuntu-in-docker/&#34;&gt;original release announcement for Docker on Ubuntu&lt;/a&gt;
+explains why.&lt;/p&gt;
+
+&lt;p&gt;To characterize performance on real workloads,
+I compiled some packages from
+source. I did my best to force parallelism in the build.
+&lt;a href=&#34;https://www.gnu.org/software/make/manual/html_node/Parallel.html&#34;&gt;GNU Make supports a &amp;ldquo;-j&amp;rdquo; flag&lt;/a&gt;
+that tries to run more jobs at
+once, and that makes a big difference.
+It&amp;rsquo;s worth reading makefiles before you build on a system
+like this, because there may be special considerations for
+parallel builds.&lt;/p&gt;
+
+&lt;p&gt;Node.JS master built in 4.5 minutes, about a 38x speedup.&lt;/p&gt;
+
+&lt;p&gt;Go for linux/arm64 built in under 9 minutes instead of an hour.&lt;/p&gt;
+
+&lt;p&gt;With the help of the hosting provider, we also looked at power
+consumption of the server. Reported power used when idle was 212 watts,
+and the reported power under a heavy workload by the &lt;code&gt;stress&lt;/code&gt;
+test harness was about 80 watts more, at 292 watts. Roughly
+speaking that&amp;rsquo;s 2 watts per core idle, and 3 watts per core
+when loaded.
+&lt;a href=&#34;http://people.seas.harvard.edu/~apw/stress/&#34;&gt;Stress&lt;/a&gt; is from
+Amos Waterland; it runs nicely on Posix systems.&lt;/p&gt;
+
+&lt;p&gt;There is a version of &lt;code&gt;firefox&lt;/code&gt; for the system that installs
+with &lt;code&gt;apt-get install firefox&lt;/code&gt;, and I forwarded X11 from the
+data center to the cafe to see how it worked. It loads fine,
+but visiting pages like umich.edu result in a failure. I didn&amp;rsquo;t
+find an easy bug repository to report that too, but it was
+repeatable. If I do this again, I&amp;rsquo;ll&lt;/p&gt;
+
+&lt;p&gt;The &amp;ldquo;build Docker from scratch&amp;rdquo; project resulted in the
+&lt;a href=&#34;https://github.com/docker/docker/issues/27384&#34;&gt;build failing with TestOverlay128LayerRead&lt;/a&gt;, which is an issue with the overlay2 filesystem.
+It turns out that&amp;rsquo;s a much more interesting bug than
+yesterday&amp;rsquo;s Docker bug, since we can pinpoint how
+many layers can be overlaid (61, but not 62) before the
+failure.&lt;/p&gt;
+
+&lt;p&gt;One of the things I tested is
+&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Facebook&amp;rsquo;s new &amp;ldquo;yarn&amp;rdquo; package&lt;/a&gt;
+manager for Node.JS - it seemed to work just fine, but
+I had hoped that it would have some kind of bonus speed from
+parallelism, and I didn&amp;rsquo;t see that. Node is notably not
+a parallel language.&lt;/p&gt;
+
+&lt;p&gt;All in all a good day of trying to understand what the
+high performance world looks like when you have lots and
+lots of little cores. This is obviously not a server for
+every workload, but for the ones that match it should be great.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>96 cores hot with ARMv8 and Docker</title>
       <link>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</link>
       <pubDate>Fri, 14 Oct 2016 00:15:00 -0400</pubDate>
@@ -762,79 +841,6 @@ will see.&lt;/p&gt;
 
 &lt;p&gt;This post tests a new private repo, and links to
 &lt;a href=&#34;https://github.com/pricing&#34;&gt;Github pricing&lt;/a&gt; for future reference.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A commonplace reader</title>
-      <link>http://vielmetti.github.io/post/2016/2016-05-25-a-commonplace-reader/</link>
-      <pubDate>Wed, 25 May 2016 01:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-05-25-a-commonplace-reader/</guid>
-      <description>&lt;p&gt;Sometimes it&amp;rsquo;s easier and faster to fill a page by quoting from others.&lt;/p&gt;
-
-&lt;p&gt;The commonplace book is the annotated scrapbook, carefully collecting
-bits from other writers with just enough commentary and selection to
-make them your own. If these were written in this era you&amp;rsquo;d call it
-&amp;ldquo;curation&amp;rdquo;, though I can only think of that word in the context of
-&amp;ldquo;curated meats&amp;rdquo;, somewhat salty and dry and meant to be preserved for
-some time.&lt;/p&gt;
-
-&lt;p&gt;Anyway, the commonplace book. Why write your own words, when there are
-so many other good ones already written to quote from? As it is said,
-though &lt;a href=&#34;http://quoteinvestigator.com/2013/03/06/artists-steal/&#34;&gt;no attribution is reliable&lt;/a&gt;,&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Immature artists copy, great artists steal.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The artist steal from tonight is Brian Eno, in particular his &lt;a href=&#34;http://oblicard.com/&#34;&gt;Oblique Strategies&lt;/a&gt;,
-which I now have as three lines of shell script plus 128 lines of text. A sample, intended
-to be drawn at random:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Not building a wall but making a brick&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As to brick-machines, this from Popular Science&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Bricks are fairly easy to make, but in the developing world, traditional fired bricks are sometimes weak and crumble-prone, while cement ones are often unaffordable. The Vermeer BP714 is the first compressed-earth-block machine that makes strong air-dried bricks out of dirt. Its bricks don&amp;rsquo;t just exceed U.S. cement-code strength requirements—they&amp;rsquo;re 20 to 30 percent stronger, and cheaper than other machines&amp;rsquo; too.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Of course that&amp;rsquo;s the story you want to tell when someone else
-has a lot of mud and you have a lot of machine.&lt;/p&gt;
-
-&lt;p&gt;The commonplace style of writing allows you to fill a page
-with text faster, since you&amp;rsquo;re cutting and pasting it in
-rather than sweating to find the exact words yourself. The
-downside is that you might sometimes have to hunt for the
-correct word, and it will be obvious that it&amp;rsquo;s someone
-else&amp;rsquo;s correct word. There is no question of plagiarism,
-just of assembly.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The serious crimes in terms of writing are that of plagiarism and copyright violation. (Reality Studio)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So long as we are going down this route, it&amp;rsquo;s worth rejecting
-plagiarism as a thought-crime. From Kenneth Goldsmith:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;It seems an appropriate response to a new condition in writing: With an unprecedented amount of available text, our problem is not needing to write more of it; instead, we must learn to negotiate the vast quantity that exists. How I make my way through this thicket of information—how I manage it, parse it, organize and distribute it—is what distinguishes my writing from yours.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We make patchworks. Most two word phrases can be easily found on the Internet.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Most two-word phrases are not produced under unpleasant stress, but in interest or excitement. (Penelope Leach, &amp;ldquo;Babyhood&amp;rdquo;)&lt;/p&gt;
-
-&lt;p&gt;The important thing is to provide the reader with enough information so that the article can be easily found on the References page. (Communication Research Methods in Postmodern Culture)&lt;/p&gt;
-
-&lt;p&gt;Lists of real-world materials and their refractive indexes are easily found on the Internet.  (Lanier, &amp;ldquo;Maya Studio Projects Texturing and Writing&amp;rdquo;)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Retroactively we can construct some level of patchwork that we can crib from, in interest or excitement.&lt;/p&gt;
 </description>
     </item>
     
