@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   	<meta property="og:title" content=" image processing on the mac with sips, ImageMagick - watching DTE restore power, slowly &middot;  Vacuum weblog from Edward Vielmetti" />
   	<meta property="og:site_name" content="Vacuum weblog from Edward Vielmetti" />
   	<meta property="og:url" content="http://vielmetti.github.io/post/2008/2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly/" />
-    
+
     
   	<meta property="og:type" content="article" />
 
@@ -28,8 +28,9 @@
 
     <link rel="shortcut icon" href="http://vielmetti.github.io/images/favicon.ico">
 	  <link rel="apple-touch-icon" href="http://vielmetti.github.io/images/apple-touch-icon.png" />
-    
+
     <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/nav.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
 
 
@@ -55,6 +56,8 @@
 
     </script>
     
+
+    
 </head>
 <body class="nav-closed">
 
@@ -64,6 +67,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
+        
         
         
             
@@ -104,6 +108,7 @@
 
 
 
+
 <header class="main-header post-head no-cover">
   <nav class="main-nav clearfix">
 
@@ -126,6 +131,8 @@
 
     <header class="post-header">
         <h1 class="post-title">image processing on the mac with sips, ImageMagick - watching DTE restore power, slowly</h1>
+        <small></small>
+
         <section class="post-meta">
         
           <time class="post-date" datetime="2008-12-29T15:12:19Z">
@@ -135,7 +142,7 @@
          
         </section>
     </header>
-  
+
     <section class="post-content">
       <p>As part of <a href="http://vielmetti.typepad.com/vacuum/2008/12/dte-power-outage-on-28-december-2008-takes-down-att-iphone-wireless-service.html">watching DTE slowly restore power to the area</a>, I&#39;ve been pulling down copies of their outage maps.&#0160; These are big PDF files, suitable for framing, that encode a bunch of data in them about where the power is out.&#0160; </p><p>Here&#39;s some tools I used to get details out of PDF into image formats, (hopefully) to get them back down to a spreadsheet full of numbers.</p><p>1.&#0160; Fetch the outage report automatically with curl:</p><p><span style="font-size: 10px; font-family: Courier;">DATESTAMP=$(</span><span style="font-size: 10px; font-family: Courier;">date &quot;+%Y-%m-%d-%H-%M&quot;)</span><br /><span style="font-size: 10px; font-family: Courier;">curl -s -o outage.$DATESTAMP.pdf http://my.dteenergy.com/map/zi<span style="font-size: 17px;"></span>pCodeOutageMap.pdf</span></p><p>This grabs the file and date/time stamps it appropriately.&#0160; I&#39;m running in an every 15 minutes loop, which means it grabs the file that&#39;s updated every 30 minutes twice (a little redundancy, not too bad).</p><p>2.&#0160; Convert the report from PDF to PNG with sips:</p><p><span style="font-size: 10px; font-family: Courier;">sips -s format png outage.$DATESTAMP.pdf --out outage.$DATESTAMP.png</span></p><p>&#39;sips&#39; (the &quot;scriptable image processing system&quot;) has a bunch of Applescript front end documentation for it, but there is also a command line lurking there as well.&#0160; I&#39;m <a href="http://del.icio.us/vielmetti/sips">collecting bookmarks for tutorials on sips at delicious</a>.&#0160; There&#39;s a lot that it can do, since it is mostly a front end for the core graphics library on the Mac which is quite powerful, but the doc is clearly not written with the intention that anyone uses it directly.</p><p>3.&#0160; Do fun stuff to a series of images with ImageMagick:</p><p><span style="font-size: 10px; font-family: Courier;">composite&#0160; -compose difference ~/Desktop/outage.2008-12-28-23-47.png outage.2008-12-29-13-28.png difference-progress.gif</span></p><p>ImageMagick has dozens, maybe hundreds, of transformations that you can use to take a set of images and turn them into something else.&#0160; It&#39;s powerful and also reasonably well documented, and I won&#39;t even try to summarize <a href="http://www.imagemagick.org/script/command-line-options.php">the ImageMagick command line options list</a> which gives you plenty to play with.</p><p>4.&#0160; Stare at the results and try to make sense of them.</p><p><br />
 <a href="http://www.flickr.com/photos/edward-vielmetti/3147531409/" title="dte power outage restoration progress by Edward Vielmetti, on Flickr"><img alt="dte power outage restoration progress" height="195" src="http://farm4.static.flickr.com/3283/3147531409_24c6bfb7f0.jpg" width="500" /></a></p><p>Here&#39;s the DTE progress map (middle) with before (left) and after (right) reflecting about 14 hours of restoration efforts.&#0160; Click through to Flickr for detail.&#0160; The large amounts of black in the middle photo represent locations where work progress has not resulted in a change in service that&#39;s visible, though there may in fact have been 1000s of lines restored.</p><p>5.&#0160; What I want is a tool that would work on a PNG and would give me the color value of a given pixel, or that would give me a histogram of all of the color values of all of the pixels in an image.&#0160; There is a <a href="http://www.imagemagick.org/Usage/files/#histogram">histogram function in ImageMagick</a> but it doesn&#39;t quite do the trick at first glance, and I&#39;d be better off posting this than trying to do more myself!</p><p>The takeaway on this if you squint hard enough - 14 hours of effort, and not a lot of immediately visible progress across broad parts of Livingston, Washtenaw, and Downriver areas in DTE service restoration. </p>
@@ -168,26 +175,32 @@
 
 
     
-    <section class="share">
-      <h4>Share this post</h4>
-      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=image%20processing%20on%20the%20mac%20with%20sips%2c%20ImageMagick%20-%20watching%20DTE%20restore%20power%2c%20slowly&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2008%2f2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly%2f"
-          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-          <span class="hidden">Twitter</span>
-      </a>
-      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2f2008%2f2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly%2f"
-          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-          <span class="hidden">Facebook</span>
-      </a>
-      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2008%2f2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly%2f"
-         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-          <span class="hidden">Google+</span>
-      </a>
-    </section>
-    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=image%20processing%20on%20the%20mac%20with%20sips%2c%20ImageMagick%20-%20watching%20DTE%20restore%20power%2c%20slowly&nbsp;-&nbsp;Vacuum%20weblog%20from%20Edward%20Vielmetti&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2008%2f2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2f2008%2f2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2008%2f2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly%2f&amp;description=image%20processing%20on%20the%20mac%20with%20sips%2c%20ImageMagick%20-%20watching%20DTE%20restore%20power%2c%20slowly"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2008%2f2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
 
     
-    
-    
+
+
+
 
   </footer>
 </article>
@@ -203,7 +216,7 @@
     <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.js"></script>
     <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="http://vielmetti.github.io/js/index.js"></script>
-
+    
 </body>
 </html>
 
