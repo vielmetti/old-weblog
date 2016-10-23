@@ -147,6 +147,30 @@
 	   
 <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="http://vielmetti.github.io/post/2013/2013-06-27-joyent-manta-mapreduce-for-unix-natives/">Joyent Manta: map/reduce for Unix natives</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>Joyent has released Manta, a computing environment that includes a powerful map/reduce system which leverages native Unix commands. Unlike a Hadoop world where you have to spin up a Java environment to get anything done, Manta makes map/reduce as simple as possible for those of us who know the Unix shell pretty well. Some examples may be useful. for n in $HOME/doc/books/* do wc -l $n &gt;&gt; $TMP/wc-tmp done awk &#39;{ t += $1 } END { print t }&#39; &lt; $TMP/wc-tmp has an equivalent in Manta as something like mfind -t o /$MANTA_HOME/stor/books | \ mjob create -o -m &quot;wc -l&quot; -r &quot;awk &#39;{ t += \$1 } END { print t }&#39; &quot; where the word count command &quot;wc&quot; is the &quot;map&quot; step, and the awk summation is the &quot;reduce&quot; step. <a class="read-more" href="http://vielmetti.github.io/post/2013/2013-06-27-joyent-manta-mapreduce-for-unix-natives/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        
+
+        
+        
+            Edward Vielmetti
+        
+        
+        <time class="post-date" datetime="2013-06-27T00:58:42Z">
+            27 Jun 2013
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2013/2013-06-26-stand-with-wendy/">Stand with Wendy</a></h2>
     </header>
     <section class="post-excerpt">
@@ -715,30 +739,6 @@
         
         <time class="post-date" datetime="2013-06-13T17:39:33Z">
             13 Jun 2013
-        </time>
-    </footer>
-</article>
-
-	
-	   
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="http://vielmetti.github.io/post/2013/2013-06-11-black-forest-fire-near-colorado-springs-colorado-with-map/">Black Forest Fire near Colorado Springs, Colorado (with maps updated Thursday 6/13 5:37 p.m MT)</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>UPDATED Thursday June 13, 6:00 p.m MT with new maps at the top. The fast-moving Black Forest Fire is burning homes northeast of Colorado Springs, Colorado. High temperatures, high winds, and low humidity are fanning the flames. Two people are known to have died in the fire, and more than 360 homes have been lost. If you are near the fire, please seek out current and official information rather than relying on this weblog. <a class="read-more" href="http://vielmetti.github.io/post/2013/2013-06-11-black-forest-fire-near-colorado-springs-colorado-with-map/">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        
-        
-
-        
-        
-            Edward Vielmetti
-        
-        
-        <time class="post-date" datetime="2013-06-11T23:15:59Z">
-            11 Jun 2013
         </time>
     </footer>
 </article>

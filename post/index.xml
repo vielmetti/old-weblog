@@ -111,6 +111,44 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Using SDR.HU to listen to AM radio sports</title>
+      <link>http://vielmetti.github.io/post/2016/2016-10-23-sdr-hu-am-dx-baseball-and-football/</link>
+      <pubDate>Sun, 23 Oct 2016 00:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-10-23-sdr-hu-am-dx-baseball-and-football/</guid>
+      <description>&lt;p&gt;The Cubs won the pennant, and the Buckeyes lost to Penn State. I was able to listen to
+the radio calls of both of these through recievers connected to &lt;a href=&#34;http://sdr.hu&#34;&gt;sdr.hu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Cubs radio call was from WMVP-AM, ESPN Chicago 1000. I had some practice listening
+to them through the Farmington Hills, MI SDR run by KB8SPI. That system is a KiwiSDR
+with a PA0RDT Mini-Whip, and it tunes from 0-30 Mhz including all of the longwave
+(broadcast AM) band. I also had a chance to pull in WTAM-AM Newsradio 1100 in Cleveland
+from the same receiver, though I had to work a bit to avoid adjacent channel interference
+from WCAR-AM 1090 in Detroit.&lt;/p&gt;
+
+&lt;p&gt;The Ohio State call was from WIMA-AM, Lima Ohio 1150. This was very easy to pick up from
+KH6ILT&amp;rsquo;s KiwiSDR in nearby Elida, OH. WIMA is part of the Ohio State IMG Sports Network,
+and it broadcasts all of the Buckeye football games. The signal is very strong (S9+30)
+and there is no interference from other stations. I was able to find this station from
+the &lt;a href=&#34;http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/radio-network.html&#34;&gt;list of Ohio State Buckeye radio stations&lt;/a&gt;,
+and it&amp;rsquo;s possible that this particular receiver might pick up other sports broadcasts as well;
+I&amp;rsquo;m also able to pull in WMVP-AM ESPN Chicago 1000 here.&lt;/p&gt;
+
+&lt;p&gt;Chasing AM radio sports is a lot of fun. Even if the major networks broadcast their
+video streams via cell phone apps for free from time to time - ESPN was showing
+the Ohio State game on their app at the end for free - it&amp;rsquo;s still useful to pick
+up the radio call. In this particular case the radio feed was a couple of plays
+ahead of the video, so I got about 45 seconds of lead time by listening to the radio.&lt;/p&gt;
+
+&lt;p&gt;The only small limitation about SDR.HU and its OpenWebRX software is that when I
+try to view it on a small cell-phone sized screen it doesn&amp;rsquo;t handle it very well.
+Note that these receivers are based on the Beaglebone hardware and can only handle
+four simultaneous listeners. With those two constraints in mind, it&amp;rsquo;s a great way
+to extend your listening reach.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>More 96 core benchmarks</title>
       <link>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</link>
       <pubDate>Sat, 15 Oct 2016 00:00:00 -0400</pubDate>
@@ -822,25 +860,6 @@ into the current status of aircraft over oceans and the poles.&lt;/p&gt;
 but if you&amp;rsquo;re interested in the airspace above San Diego, you can
 see Phil Karn KA9Q&amp;rsquo;s system at &lt;a href=&#34;http://maggie.ka9q.net:8080/dump1090/gmap.html&#34;&gt;http://maggie.ka9q.net:8080/dump1090/gmap.html&lt;/a&gt;
 noting that he&amp;rsquo;s in easy range of picking traffic into LAX.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Github private repositories</title>
-      <link>http://vielmetti.github.io/post/2016/2016-06-01-github-private-repos/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-06-01-github-private-repos/</guid>
-      <description>&lt;p&gt;Github has changed their pricing strategy to allow individual
-accounts to have more private repositories. This is a welcome
-change for accounts like mine.&lt;/p&gt;
-
-&lt;p&gt;As part of their change, enterprise pricing has increased.
-I&amp;rsquo;m told that this will multiply the bills that some companies
-will see.&lt;/p&gt;
-
-&lt;p&gt;This post tests a new private repo, and links to
-&lt;a href=&#34;https://github.com/pricing&#34;&gt;Github pricing&lt;/a&gt; for future reference.&lt;/p&gt;
 </description>
     </item>
     
