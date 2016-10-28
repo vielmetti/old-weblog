@@ -133,6 +133,11 @@ service, focused on Node.js, and has an integration directly into
 Github so that you can verify and validate every commit against their
 vulnerability analysis.&lt;/p&gt;
 
+&lt;p&gt;Next, make certain that your Dockerfiles are following best practices
+by checking them with &lt;a href=&#34;https://dockerbench.com/&#34;&gt;Docker Bench for Security&lt;/a&gt;,
+which is a portable shell script that checks for dozens of common
+practices that are good for security.&lt;/p&gt;
+
 &lt;p&gt;Assuming that your application is clear from any issues under your
 direct control, the next step is to track down and understand operating
 system vulnerabilities. One approach that I&amp;rsquo;ve read about but not used
