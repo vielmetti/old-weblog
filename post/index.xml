@@ -136,12 +136,15 @@ vulnerability analysis.&lt;/p&gt;
 &lt;p&gt;Assuming that your application is clear from any issues under your
 direct control, the next step is to track down and understand operating
 system vulnerabilities. One approach that I&amp;rsquo;ve read about but not used
-yet is &lt;a href=&#34;https://coreos.com/blog/vulnerability-analysis-for-containers/&#34;&gt;Clair&lt;/a&gt;
+yet is the open source &lt;a href=&#34;https://coreos.com/blog/vulnerability-analysis-for-containers/&#34;&gt;Clair&lt;/a&gt;
 from CoreOS. Clair does static analysis of containers, using a set of
 vulnerability databases that are parsed down to a Postgres database.
 There&amp;rsquo;s a certain amount of complexity in the whole thing, and as a
 result it&amp;rsquo;s not trivial to integrate this into a continuous integration
 process (though that task has been done at least once).&lt;/p&gt;
+
+&lt;p&gt;Docker has its own &lt;a href=&#34;https://docs.docker.com/docker-cloud/builds/image-scan/&#34;&gt;Docker Security Scanning&lt;/a&gt;,
+which is available to paid accounts.&lt;/p&gt;
 
 &lt;p&gt;One of the big issues in handling static analysis of Docker containers
 is that a popular and small Docker base image, Alpine Linux, is not
