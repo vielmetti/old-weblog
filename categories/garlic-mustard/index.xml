@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Garlic Mustard on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/garlic-mustard/</link>
-    <description>Recent content in Garlic Mustard on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/garlic-mustard/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2013 10:37:16 +0000</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/categories/garlic-mustard/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

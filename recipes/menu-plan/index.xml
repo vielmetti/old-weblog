@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Menu Plan on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/recipes/menu-plan/</link>
-    <description>Recent content in Menu Plan on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/recipes/menu-plan/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2013 07:00:00 +0000</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/recipes/menu-plan/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

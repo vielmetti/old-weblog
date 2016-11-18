@@ -40,7 +40,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
 
     <link rel="canonical" href="http://vielmetti.github.io/post/2015/2015-09-16-travis-ci/" />
 
@@ -173,7 +173,7 @@ With proper configuration you can build a matrix of versions or configurations
 to test, so instead of a test running on a single system it can run on
 3x3 or 2x4 or even 3x5x2 configurations.</p>
 
-<h3 id="ruby:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Ruby</h3>
+<h3 id="ruby">Ruby</h3>
 
 <p>Travis CI&rsquo;s default langauge is Ruby, and a lot of its tooling is written
 in Ruby, so its Ruby support is quite good.</p>
@@ -184,7 +184,7 @@ in Ruby, so its Ruby support is quite good.</p>
 <li><a href="http://docs.travis-ci.com/user/languages/ruby/">Building a Ruby Project, Travis CI</a></li>
 </ul>
 
-<h3 id="c-and-c:3a8a8bf475b0a53c2eff0d60f4a1b9bf">C and C++</h3>
+<h3 id="c-and-c">C and C++</h3>
 
 <p>The version of gcc and g++ on the default systems is 4.6, and you can
 pull in 4.8 through &lsquo;apt&rsquo;, but you currently have to pick up 4.8 through
@@ -194,7 +194,7 @@ the <code>ubuntu-toolchain-r-test</code> source and not simply by picking a gcc 
 <li><a href="https://github.com/rla/fast-feed/blob/master/.travis.yml">rla/fast-feed/.travis.yml</a></li>
 </ul>
 
-<h3 id="go-golang:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Go (golang)</h3>
+<h3 id="go-golang">Go (golang)</h3>
 
 <p>Go (golang) has not gone through a lot of versions yet, and its latest 1.5
 build is written in Go. Because the language is so young, there is not lots
@@ -208,7 +208,7 @@ configuration file doesn&rsquo;t have to do anything funky.</p>
 <li><a href="https://github.com/miekg/mmark/fast-feed/blob/master/.travis.yml">miekg/mmark/.travis.yml</a></li>
 </ul>
 
-<h3 id="nodejs:3a8a8bf475b0a53c2eff0d60f4a1b9bf">NodeJS</h3>
+<h3 id="nodejs">NodeJS</h3>
 
 <p>Node 4.0 is new, and the source currently of a fair bit of porting efforts as
 a lot of things have broken not in the language but in its libraries. Fortunately,
@@ -229,7 +229,7 @@ thing that you just built to subsequently pull in the right version of Node.</p>
 <li><a href="https://github.com/sass/node-sass/blob/master/.travis.yml">sass/node-sass/.travis.yml</a></li>
 </ul>
 
-<h3 id="python:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Python</h3>
+<h3 id="python">Python</h3>
 
 <p>Python 2 and Python 3 are both available on Travis CI, including even
 the latest Python 3.5.</p>
@@ -255,7 +255,7 @@ each version? The <code>tornado</code> package has that.</p>
 <li>(<a href="http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/">http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/</a>)</li>
 </ul>
 
-<h3 id="java:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Java</h3>
+<h3 id="java">Java</h3>
 
 <p>Java is supported.</p>
 
@@ -266,12 +266,12 @@ each version? The <code>tornado</code> package has that.</p>
 Github issues.</li>
 </ul>
 
-<h3 id="fortran:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Fortran</h3>
+<h3 id="fortran">Fortran</h3>
 
 <p>If you&rsquo;re building scientific codes, Fortran is available through the <code>apt</code>
 mechanism.</p>
 
-<h3 id="prolog:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Prolog</h3>
+<h3 id="prolog">Prolog</h3>
 
 <p>Prolog? Bring it in with apt-add-repository and apt-get. This is illustrative
 of Travis CI&rsquo;s ability to incorporate nearly any language, since you can install
@@ -281,7 +281,7 @@ new compilers and interpreters via package systems and then run them.</p>
 <li>(rla/simple-template)</li>
 </ul>
 
-<h3 id="multiple-langauges:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Multiple langauges</h3>
+<h3 id="multiple-langauges">Multiple langauges</h3>
 
 <p>Two versions of Go plus Python plus an external dependency that&rsquo;s being flaky?
 Use <code>language: python</code> because it&rsquo;s easier to install <code>go</code> from package
@@ -292,7 +292,7 @@ from scratch.</p>
 <li>(miekg/mmark, in progress)</li>
 </ul>
 
-<h3 id="os-x:3a8a8bf475b0a53c2eff0d60f4a1b9bf">OS X</h3>
+<h3 id="os-x">OS X</h3>
 
 <p>Use &lsquo;osx_image&rsquo; to tweak the version of &lsquo;osx&rsquo; that you get.</p>
 
@@ -301,7 +301,7 @@ from scratch.</p>
 <li>(<a href="http://blog.travis-ci.com/2015-09-09-xcode7-gm/">http://blog.travis-ci.com/2015-09-09-xcode7-gm/</a>)</li>
 </ul>
 
-<h3 id="both-linux-and-mac-in-general:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Both Linux and Mac, in general</h3>
+<h3 id="both-linux-and-mac-in-general">Both Linux and Mac, in general</h3>
 
 <p>Go is easy. (miekg/mmark)</p>
 
@@ -313,7 +313,7 @@ from scratch.</p>
 
 <p>Ruby &hellip; (should work pretty well, but not tested)</p>
 
-<h2 id="acknowledgements:3a8a8bf475b0a53c2eff0d60f4a1b9bf">Acknowledgements</h2>
+<h2 id="acknowledgements">Acknowledgements</h2>
 
 <p>Thanks to the following people for their help: Raivo Laanemets (@RaivoL),
 Mohan Kartha (@mckartha), Chris Dzombak (@cdzombak), &hellip;</p>

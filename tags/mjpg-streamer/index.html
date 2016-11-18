@@ -38,7 +38,7 @@
         <link href="http://vielmetti.github.io/tags/mjpg-streamer/index.xml" rel="alternate" type="application/rss+xml" title="Mjpg Streamer &middot; Vacuum weblog from Edward Vielmetti" />
       
     
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
 
     <link rel="canonical" href="http://vielmetti.github.io/tags/mjpg-streamer/" />
 
@@ -146,7 +146,12 @@
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">running mjpg-streamer on a Raspberry Pi 2 with an old Logitech webcam</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>I followed the instructions on this post on LinuxMediaServer.net to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware. lsusb returns this device: Bus 001 Device 004: ID 046d:08ae Logitech, Inc. QuickCam for Notebooks I had to add a driver for the camera: sudo modprobe gspca_zc3xx The camera I have shows up as /dev/video0 and has a resolution of 320x240: sudo ./mjpg_streamer -i "./input_uvc.so -r 320x240 -d /dev/video0" -o "./output_http.so -w www" Existence proof, showing that it works. <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">&raquo;</a></p>
+        <p>I followed the instructions on this post on LinuxMediaServer.net to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware.
+lsusb returns this device:
+ Bus 001 Device 004: ID 046d:08ae Logitech, Inc. QuickCam for Notebooks
+ I had to add a driver for the camera:
+ sudo modprobe gspca_zc3xx
+ The camera I have shows up as /dev/video0 and has a resolution of 320x240: <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         

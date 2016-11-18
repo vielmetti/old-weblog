@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Continuous Integration on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/continuous-integration/</link>
-    <description>Recent content in Continuous Integration on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/continuous-integration/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2015 07:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/keyphrases/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -84,7 +83,7 @@ With proper configuration you can build a matrix of versions or configurations
 to test, so instead of a test running on a single system it can run on
 3x3 or 2x4 or even 3x5x2 configurations.&lt;/p&gt;
 
-&lt;h3 id=&#34;ruby:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Ruby&lt;/h3&gt;
+&lt;h3 id=&#34;ruby&#34;&gt;Ruby&lt;/h3&gt;
 
 &lt;p&gt;Travis CI&amp;rsquo;s default langauge is Ruby, and a lot of its tooling is written
 in Ruby, so its Ruby support is quite good.&lt;/p&gt;
@@ -95,7 +94,7 @@ in Ruby, so its Ruby support is quite good.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://docs.travis-ci.com/user/languages/ruby/&#34;&gt;Building a Ruby Project, Travis CI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;c-and-c:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;C and C++&lt;/h3&gt;
+&lt;h3 id=&#34;c-and-c&#34;&gt;C and C++&lt;/h3&gt;
 
 &lt;p&gt;The version of gcc and g++ on the default systems is 4.6, and you can
 pull in 4.8 through &amp;lsquo;apt&amp;rsquo;, but you currently have to pick up 4.8 through
@@ -105,7 +104,7 @@ the &lt;code&gt;ubuntu-toolchain-r-test&lt;/code&gt; source and not simply by pi
 &lt;li&gt;&lt;a href=&#34;https://github.com/rla/fast-feed/blob/master/.travis.yml&#34;&gt;rla/fast-feed/.travis.yml&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;go-golang:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Go (golang)&lt;/h3&gt;
+&lt;h3 id=&#34;go-golang&#34;&gt;Go (golang)&lt;/h3&gt;
 
 &lt;p&gt;Go (golang) has not gone through a lot of versions yet, and its latest 1.5
 build is written in Go. Because the language is so young, there is not lots
@@ -119,7 +118,7 @@ configuration file doesn&amp;rsquo;t have to do anything funky.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/miekg/mmark/fast-feed/blob/master/.travis.yml&#34;&gt;miekg/mmark/.travis.yml&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;nodejs:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;NodeJS&lt;/h3&gt;
+&lt;h3 id=&#34;nodejs&#34;&gt;NodeJS&lt;/h3&gt;
 
 &lt;p&gt;Node 4.0 is new, and the source currently of a fair bit of porting efforts as
 a lot of things have broken not in the language but in its libraries. Fortunately,
@@ -140,7 +139,7 @@ thing that you just built to subsequently pull in the right version of Node.&lt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sass/node-sass/blob/master/.travis.yml&#34;&gt;sass/node-sass/.travis.yml&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;python:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Python&lt;/h3&gt;
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
 
 &lt;p&gt;Python 2 and Python 3 are both available on Travis CI, including even
 the latest Python 3.5.&lt;/p&gt;
@@ -166,7 +165,7 @@ each version? The &lt;code&gt;tornado&lt;/code&gt; package has that.&lt;/p&gt;
 &lt;li&gt;(&lt;a href=&#34;http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/&#34;&gt;http://blog.schwuk.com/2014/06/13/using-travis-ci-for-testing-django-projects/&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;java:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Java&lt;/h3&gt;
+&lt;h3 id=&#34;java&#34;&gt;Java&lt;/h3&gt;
 
 &lt;p&gt;Java is supported.&lt;/p&gt;
 
@@ -177,12 +176,12 @@ each version? The &lt;code&gt;tornado&lt;/code&gt; package has that.&lt;/p&gt;
 Github issues.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;fortran:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Fortran&lt;/h3&gt;
+&lt;h3 id=&#34;fortran&#34;&gt;Fortran&lt;/h3&gt;
 
 &lt;p&gt;If you&amp;rsquo;re building scientific codes, Fortran is available through the &lt;code&gt;apt&lt;/code&gt;
 mechanism.&lt;/p&gt;
 
-&lt;h3 id=&#34;prolog:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Prolog&lt;/h3&gt;
+&lt;h3 id=&#34;prolog&#34;&gt;Prolog&lt;/h3&gt;
 
 &lt;p&gt;Prolog? Bring it in with apt-add-repository and apt-get. This is illustrative
 of Travis CI&amp;rsquo;s ability to incorporate nearly any language, since you can install
@@ -192,7 +191,7 @@ new compilers and interpreters via package systems and then run them.&lt;/p&gt;
 &lt;li&gt;(rla/simple-template)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;multiple-langauges:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Multiple langauges&lt;/h3&gt;
+&lt;h3 id=&#34;multiple-langauges&#34;&gt;Multiple langauges&lt;/h3&gt;
 
 &lt;p&gt;Two versions of Go plus Python plus an external dependency that&amp;rsquo;s being flaky?
 Use &lt;code&gt;language: python&lt;/code&gt; because it&amp;rsquo;s easier to install &lt;code&gt;go&lt;/code&gt; from package
@@ -203,7 +202,7 @@ from scratch.&lt;/p&gt;
 &lt;li&gt;(miekg/mmark, in progress)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;os-x:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;OS X&lt;/h3&gt;
+&lt;h3 id=&#34;os-x&#34;&gt;OS X&lt;/h3&gt;
 
 &lt;p&gt;Use &amp;lsquo;osx_image&amp;rsquo; to tweak the version of &amp;lsquo;osx&amp;rsquo; that you get.&lt;/p&gt;
 
@@ -212,7 +211,7 @@ from scratch.&lt;/p&gt;
 &lt;li&gt;(&lt;a href=&#34;http://blog.travis-ci.com/2015-09-09-xcode7-gm/&#34;&gt;http://blog.travis-ci.com/2015-09-09-xcode7-gm/&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;both-linux-and-mac-in-general:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Both Linux and Mac, in general&lt;/h3&gt;
+&lt;h3 id=&#34;both-linux-and-mac-in-general&#34;&gt;Both Linux and Mac, in general&lt;/h3&gt;
 
 &lt;p&gt;Go is easy. (miekg/mmark)&lt;/p&gt;
 
@@ -224,7 +223,7 @@ from scratch.&lt;/p&gt;
 
 &lt;p&gt;Ruby &amp;hellip; (should work pretty well, but not tested)&lt;/p&gt;
 
-&lt;h2 id=&#34;acknowledgements:3a8a8bf475b0a53c2eff0d60f4a1b9bf&#34;&gt;Acknowledgements&lt;/h2&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
 
 &lt;p&gt;Thanks to the following people for their help: Raivo Laanemets (@RaivoL),
 Mohan Kartha (@mckartha), Chris Dzombak (@cdzombak), &amp;hellip;&lt;/p&gt;

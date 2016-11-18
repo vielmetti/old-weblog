@@ -74,7 +74,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
 
     <link rel="canonical" href="http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/" />
 
@@ -228,7 +228,7 @@ left off.</p>
 Node-RED for wiring flows for data processing, and
 Docker to package up the bits that are stable.</p>
 
-<h2 id="plane-spotting:984b95b4570fb7d5b37f67357af2ada0">Plane spotting</h2>
+<h2 id="plane-spotting">Plane spotting</h2>
 
 <p><a href="http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/">When last I wrote</a>,
 I had <a href="http://github.com/mutability/dump1090">dump1090</a>
@@ -274,7 +274,7 @@ configuration I wrote up last September. In the interim, salt has
 been upgraded, and perhaps it will be a little more stable over bad
 connections; we&rsquo;ll see.</p>
 
-<h2 id="data-analysis:984b95b4570fb7d5b37f67357af2ada0">Data analysis</h2>
+<h2 id="data-analysis">Data analysis</h2>
 
 <p>dump1090 provides a data feed in a convenient JSON format, available
 through a URL on a standard configuruation. The ADS-B messages themselves
@@ -315,7 +315,7 @@ a delay filter to set the frequency of messages you want to
 allow through, and a formatting node to pretty up the message in
 a form suitable for Twitter output.</p>
 
-<h2 id="incomplete-image-and-next-steps:984b95b4570fb7d5b37f67357af2ada0">Incomplete image and next steps.</h2>
+<h2 id="incomplete-image-and-next-steps">Incomplete image and next steps.</h2>
 
 <p>This is a relatively complex stack, but it all fits neatly on a Raspberry Pi 2,
 and with a little bit more elbow grease it should be possible to containerize

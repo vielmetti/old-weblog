@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alan Gutierrez on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/alan-gutierrez/</link>
-    <description>Recent content in Alan Gutierrez on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/alan-gutierrez/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2015 07:15:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/people/alan-gutierrez/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -56,7 +55,7 @@ is &lt;code&gt;git rebase -i&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Next, apply this single squashed commit to your master branch.&lt;/p&gt;
 
-&lt;h3 id=&#34;further-reading:d402ad0362f9cb748dc3191a35343d42&#34;&gt;Further reading:&lt;/h3&gt;
+&lt;h3 id=&#34;further-reading&#34;&gt;Further reading:&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;From Git Ready: &lt;a href=&#34;http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html&#34;&gt;Squashing commits with rebase&lt;/a&gt;&lt;/li&gt;

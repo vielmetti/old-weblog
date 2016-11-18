@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Travisci on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/travisci/</link>
-    <description>Recent content in Travisci on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/travisci/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2015 09:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/tags/travisci/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -117,7 +116,7 @@ We are working to resolve the problem. We apologize for any inconvenience.&amp;r
 #awsoutage and #awsdown . Twitter is unaffected by this outage,
 and Slack is also unaffected, which devops teams are both happy about.&lt;/p&gt;
 
-&lt;h3 id=&#34;news-coverage:0bf1024f29774b00d48e1402990b91e9&#34;&gt;News coverage&lt;/h3&gt;
+&lt;h3 id=&#34;news-coverage&#34;&gt;News coverage&lt;/h3&gt;
 
 &lt;p&gt;This &lt;a href=&#34;https://news.ycombinator.com/item?id=10247307&#34;&gt;Hacker News discussion&lt;/a&gt;
 is a good one as startups radio in their woes.&lt;/p&gt;

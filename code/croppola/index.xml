@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Croppola on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/croppola/</link>
-    <description>Recent content in Croppola on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/croppola/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2015 13:00:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/code/croppola/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

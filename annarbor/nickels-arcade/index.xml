@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nickels Arcade on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/annarbor/nickels-arcade/</link>
-    <description>Recent content in Nickels Arcade on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/annarbor/nickels-arcade/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2015 09:55:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/annarbor/nickels-arcade/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sidebars on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/sidebar/</link>
-    <description>Recent content in Sidebars on Vacuum weblog from Edward Vielmetti</description>
+    <title>Sidebar-rsses on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/sidebar/index.xml</link>
+    <description>Recent content in Sidebar-rsses on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://vielmetti.github.io/sidebar/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <guid>http://vielmetti.github.io/sidebar/blogroll/</guid>
       <description>
 
-&lt;h2 id=&#34;blogroll:76742f83502b2cf566f8baa2d043b7db&#34;&gt;Blogroll&lt;/h2&gt;
+&lt;h2 id=&#34;blogroll&#34;&gt;Blogroll&lt;/h2&gt;
 
 &lt;p&gt;Blogs and feeds I read, from time to time. Go through
 this and there will almost always be something new to read.&lt;/p&gt;
@@ -49,7 +49,7 @@ this and there will almost always be something new to read.&lt;/p&gt;
       <guid>http://vielmetti.github.io/sidebar/todo/</guid>
       <description>
 
-&lt;h2 id=&#34;todo:5b51c9e8380c18fc2ee8d866662d01d8&#34;&gt;Todo&lt;/h2&gt;
+&lt;h2 id=&#34;todo&#34;&gt;Todo&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Test integration (and maybe publishing too) with &lt;code&gt;travis&lt;/code&gt;&lt;/li&gt;

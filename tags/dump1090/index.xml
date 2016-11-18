@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dump1090 on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/dump1090/</link>
-    <description>Recent content in Dump1090 on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/dump1090/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2016 13:30:00 -0400</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/tags/dump1090/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -31,7 +30,7 @@ left off.&lt;/p&gt;
 Node-RED for wiring flows for data processing, and
 Docker to package up the bits that are stable.&lt;/p&gt;
 
-&lt;h2 id=&#34;plane-spotting:984b95b4570fb7d5b37f67357af2ada0&#34;&gt;Plane spotting&lt;/h2&gt;
+&lt;h2 id=&#34;plane-spotting&#34;&gt;Plane spotting&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/&#34;&gt;When last I wrote&lt;/a&gt;,
 I had &lt;a href=&#34;http://github.com/mutability/dump1090&#34;&gt;dump1090&lt;/a&gt;
@@ -77,7 +76,7 @@ configuration I wrote up last September. In the interim, salt has
 been upgraded, and perhaps it will be a little more stable over bad
 connections; we&amp;rsquo;ll see.&lt;/p&gt;
 
-&lt;h2 id=&#34;data-analysis:984b95b4570fb7d5b37f67357af2ada0&#34;&gt;Data analysis&lt;/h2&gt;
+&lt;h2 id=&#34;data-analysis&#34;&gt;Data analysis&lt;/h2&gt;
 
 &lt;p&gt;dump1090 provides a data feed in a convenient JSON format, available
 through a URL on a standard configuruation. The ADS-B messages themselves
@@ -118,7 +117,7 @@ a delay filter to set the frequency of messages you want to
 allow through, and a formatting node to pretty up the message in
 a form suitable for Twitter output.&lt;/p&gt;
 
-&lt;h2 id=&#34;incomplete-image-and-next-steps:984b95b4570fb7d5b37f67357af2ada0&#34;&gt;Incomplete image and next steps.&lt;/h2&gt;
+&lt;h2 id=&#34;incomplete-image-and-next-steps&#34;&gt;Incomplete image and next steps.&lt;/h2&gt;
 
 &lt;p&gt;This is a relatively complex stack, but it all fits neatly on a Raspberry Pi 2,
 and with a little bit more elbow grease it should be possible to containerize

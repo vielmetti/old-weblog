@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Directory on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/directory/</link>
-    <description>Recent content in Directory on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/directory/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Apr 2014 01:43:17 +0000</lastBuildDate>
     <atom:link href="http://vielmetti.github.io/tags/directory/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -33,7 +32,7 @@ AMS conference.&lt;/p&gt;
 &lt;p&gt;Details for 29 of 50 states compiled here as of April 5, 2014. The future plan is to integrate Skywarn, electric utility outage maps, and National Weather Service forecast info
 into a single collection, listing the 122 NWS forecast areas on a state by state basis, started June 21, 2016.&lt;/p&gt;
 
-&lt;h2 id=&#34;national-weather-service:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;National Weather Service&lt;/h2&gt;
+&lt;h2 id=&#34;national-weather-service&#34;&gt;National Weather Service&lt;/h2&gt;
 
 &lt;p&gt;The National Weather Service has a number of Twitter accounts with detailed and timely information about severe weather. The service has
 forecasting offices with detailed forecasts for every part of the country, plus a set of national forecast offices.&lt;/p&gt;
@@ -47,7 +46,7 @@ forecast and fire maps, and detailed risk assessments. SPC uses the common hasht
 with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;alabama:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Alabama&lt;/h2&gt;
+&lt;h2 id=&#34;alabama&#34;&gt;Alabama&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/alwx&#34;&gt;alwx&lt;/a&gt;. Mobile area: #&lt;a href=&#34;http://www.tchat.io/rooms/mobwx&#34;&gt;mobwx&lt;/a&gt;&lt;/p&gt;
 
@@ -63,7 +62,7 @@ with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.w4ap.org/modules.php?name=SkyWarn&#34;&gt;Central Alabama Skywarn&lt;/a&gt; serves the Montgomery area. W4AP 146.840 repeater, training net Thursdays 7:00 p.m. CT.&lt;/p&gt;
 
-&lt;h2 id=&#34;alaska:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Alaska&lt;/h2&gt;
+&lt;h2 id=&#34;alaska&#34;&gt;Alaska&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/akwx&#34;&gt;akwx&lt;/a&gt;&lt;/p&gt;
 
@@ -73,7 +72,7 @@ with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;
 
 &lt;p&gt;NWS Fairbanks ham radio Skywarn station, &lt;a href=&#34;http://pafg.arh.noaa.gov/ham.php&#34;&gt;KL7FWX&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;arizona:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Arizona&lt;/h2&gt;
+&lt;h2 id=&#34;arizona&#34;&gt;Arizona&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/azwx&#34;&gt;azwx&lt;/a&gt;&lt;/p&gt;
 
@@ -81,7 +80,7 @@ with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.copahams.org/skywarn-in-arizona.html&#34;&gt;Maricopa Amateur Radio Association&lt;/a&gt; covers the Phoenix area.&lt;/p&gt;
 
-&lt;h2 id=&#34;arkansas:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Arkansas&lt;/h2&gt;
+&lt;h2 id=&#34;arkansas&#34;&gt;Arkansas&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/arwx&#34;&gt;arwx&lt;/a&gt;&lt;/p&gt;
 
@@ -91,29 +90,29 @@ with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.broadcastify.com/listen/feed/5419&#34;&gt;W5RHS&lt;/a&gt; SKYWARN Repeater 147.120 Mhz via Broadcastify. West of Benton Arkansas, Saline County, linked to other Arkansas Skywarn nets.&lt;/p&gt;
 
-&lt;h2 id=&#34;california:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;California&lt;/h2&gt;
+&lt;h2 id=&#34;california&#34;&gt;California&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cawx&#34;&gt;cawx&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.swskywarn.org/&#34;&gt;Southwest California Skywarn&lt;/a&gt; serves the NWS San Diego office. Facebook: &lt;a href=&#34;https://www.facebook.com/SanDiegoCountySkywarn&#34;&gt;San Diego County Skywarn&lt;/a&gt;. Twitter: @&lt;a href=&#34;https://twitter.com/SnDgCo_Skywarn&#34;&gt;SnDgCo_Skywarn&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;colorado:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Colorado&lt;/h2&gt;
+&lt;h2 id=&#34;colorado&#34;&gt;Colorado&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.tchat.io/rooms/cowx&#34;&gt;cowx&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.w9tec.com/chaseradio/co.html&#34;&gt;Eastern Colorado Severe Weather Frequencies&lt;/a&gt; from W9TEC, last updated 1/2010.&lt;/p&gt;
 
-&lt;h2 id=&#34;connecticut:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Connecticut&lt;/h2&gt;
+&lt;h2 id=&#34;connecticut&#34;&gt;Connecticut&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/ctwx&#34;&gt;ctwx&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ctskywarn.com/&#34;&gt;Connecticut Skywarn&lt;/a&gt; has maps of frequencies in use and reporting areas.&lt;/p&gt;
 
-&lt;h2 id=&#34;delaware:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Delaware&lt;/h2&gt;
+&lt;h2 id=&#34;delaware&#34;&gt;Delaware&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dewx&#34;&gt;dewx&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;district-of-columbia:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;District of Columbia&lt;/h2&gt;
+&lt;h2 id=&#34;district-of-columbia&#34;&gt;District of Columbia&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/dcwx&#34;&gt;dcwx&lt;/a&gt;&lt;/p&gt;
 
@@ -137,11 +136,11 @@ with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/idwx&#34;&gt;idwx&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;illinois:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Illinois&lt;/h2&gt;
+&lt;h2 id=&#34;illinois&#34;&gt;Illinois&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;https://twitter.com/hashtag/ilwx&#34;&gt;ilwx&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;chicago-area-romeoville-il-lot:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Chicago area: Romeoville, IL (LOT)&lt;/h3&gt;
+&lt;h3 id=&#34;chicago-area-romeoville-il-lot&#34;&gt;Chicago area: Romeoville, IL (LOT)&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;National Weather Service: #&lt;a href=&#34;https://twitter.com/NWSChicago&#34;&gt;NWSChicago&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -160,21 +159,21 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Electric Utility: &lt;a href=&#34;https://www.comed.com/_layouts/comedsp/outagemap.aspx&#34;&gt;ComEd Outage Map&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;central-illinois-lincoln-il-ilx:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Central Illinois: Lincoln, IL (ILX)&lt;/h3&gt;
+&lt;h3 id=&#34;central-illinois-lincoln-il-ilx&#34;&gt;Central Illinois: Lincoln, IL (ILX)&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Electric Utility: &lt;a href=&#34;http://apps.ameren.com/outage/outagemap.aspx?state=IL&#34;&gt;Ameren Illinois outage map&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;rest-of-the-state:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Rest of the state&lt;/h3&gt;
+&lt;h3 id=&#34;rest-of-the-state&#34;&gt;Rest of the state&lt;/h3&gt;
 
 &lt;p&gt;Southern Illinois weather forecast is from Paducah, Kentucky.&lt;/p&gt;
 
-&lt;h2 id=&#34;indiana:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Indiana&lt;/h2&gt;
+&lt;h2 id=&#34;indiana&#34;&gt;Indiana&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;https://twitter.com/hashtag/inwx&#34;&gt;inwx&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;indianapolis-and-central-indiana-ind:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Indianapolis and Central Indiana (IND)&lt;/h3&gt;
+&lt;h3 id=&#34;indianapolis-and-central-indiana-ind&#34;&gt;Indianapolis and Central Indiana (IND)&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/6063&#34;&gt;Central Indiana Skywarn Repeater Net W9ICE&lt;/a&gt; is a 39 county system, based in Indianapolis.&lt;/li&gt;
@@ -186,7 +185,7 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;Television: &lt;a href=&#34;http://www.wthr.com/&#34;&gt;WTHR 13&lt;/a&gt;, &lt;a href=&#34;http://fox59.com/&#34;&gt;Fox 59 WXIN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;northern-indiana-north-webster-in-iwx:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Northern Indiana, North Webster IN (IWX)&lt;/h3&gt;
+&lt;h3 id=&#34;northern-indiana-north-webster-in-iwx&#34;&gt;Northern Indiana, North Webster IN (IWX)&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.fwrc.info/index.php/skywarn&#34;&gt;Fort Wayne Radio Club SKYWARN&lt;/a&gt; is part of &lt;a href=&#34;http://www.imoskywarn.org/&#34;&gt;IMO Skywarn&lt;/a&gt;. IMO (&amp;ldquo;Indiana-Michigan-Ohio&amp;rdquo;) covers a 37 county warning area in northern Indiana, southernmost Michigan, and northwestern Ohio.&lt;/li&gt;
@@ -194,7 +193,7 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;Electric Utility: &lt;a href=&#34;http://www.nipscooutages.com/WSSNisourceOutageMap/outagemap.html&#34;&gt;NIPSCO outage map&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;northwest-indiana-via-chicago-romeoville-il-lot:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Northwest Indiana, via Chicago/Romeoville IL (LOT)&lt;/h3&gt;
+&lt;h3 id=&#34;northwest-indiana-via-chicago-romeoville-il-lot&#34;&gt;Northwest Indiana, via Chicago/Romeoville IL (LOT)&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/22600&#34;&gt;N9IAA Northwest Indiana Skywarn&lt;/a&gt; is monitored from Chicago, serving Jasper La Porte Lake Newton Porter Starke counties in Indiana.&lt;/li&gt;
@@ -235,11 +234,11 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;Taunton (Boston) area covers southern New England. Twitter: @&lt;a href=&#34;http://twitter.com/wx1box&#34;&gt;wx1box&lt;/a&gt;. &lt;a href=&#34;http://www.wx1box.org/&#34;&gt;WX1BOX Skywarn&lt;/a&gt; web site. Echolink &lt;em&gt;NEW-ENG&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;michigan:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Michigan&lt;/h2&gt;
+&lt;h2 id=&#34;michigan&#34;&gt;Michigan&lt;/h2&gt;
 
 &lt;p&gt;Statewide severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;detroit-pontiac-ann-arbor-southeastern-michigan:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Detroit / Pontiac / Ann Arbor, Southeastern Michigan&lt;/h3&gt;
+&lt;h3 id=&#34;detroit-pontiac-ann-arbor-southeastern-michigan&#34;&gt;Detroit / Pontiac / Ann Arbor, Southeastern Michigan&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;@&lt;a href=&#34;https://twitter.com/NWSDetroit&#34;&gt;NWSDetroit&lt;/a&gt;: National Weather Service Detroit (DTX)&lt;/p&gt;&lt;/li&gt;
@@ -255,7 +254,7 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Television: WXYZ 7&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;grand-rapids-kalamazoo-western-michigan-grr:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Grand Rapids / Kalamazoo / Western Michigan (GRR)&lt;/h3&gt;
+&lt;h3 id=&#34;grand-rapids-kalamazoo-western-michigan-grr&#34;&gt;Grand Rapids / Kalamazoo / Western Michigan (GRR)&lt;/h3&gt;
 
 &lt;p&gt;Regional severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/wmiwx&#34;&gt;#wmiwx&lt;/a&gt;.&lt;/p&gt;
 
@@ -265,7 +264,7 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Electric utility: &lt;a href=&#34;https://www.consumersenergy.com/outagemap&#34;&gt;Consumers Energy outage map&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;television-wzzm-13:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Television: WZZM 13&lt;/h1&gt;
+&lt;h1 id=&#34;television-wzzm-13&#34;&gt;Television: WZZM 13&lt;/h1&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/miwx&#34;&gt;miwx&lt;/a&gt;, #&lt;a href=&#34;http://tchat.io/rooms/wmiwx&#34;&gt;wmiwx&lt;/a&gt; (Western Michigan), #&lt;a href=&#34;http://tchat.io/rooms/upwx&#34;&gt;upwx&lt;/a&gt; (Upper Peninsula).&lt;/p&gt;
 
@@ -275,13 +274,13 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.lansingarpsc.com/skywarn.html&#34;&gt;Lansing Area Skywarn&lt;/a&gt; covers Ingham County. Listen live to the &lt;a href=&#34;http://www.lansingarpsc.com/listenlive.html&#34;&gt;Okemos repeater&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;marquette-houghton-upper-peninsula-of-michigan:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Marquette / Houghton / Upper Peninsula of Michigan&lt;/h3&gt;
+&lt;h3 id=&#34;marquette-houghton-upper-peninsula-of-michigan&#34;&gt;Marquette / Houghton / Upper Peninsula of Michigan&lt;/h3&gt;
 
 &lt;p&gt;Regional severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/upwx&#34;&gt;#upwx&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://kcra-mi.net/skywarn/mission.html&#34;&gt;Upper Peninsula Skywarn&lt;/a&gt;, 15 counties in the UP. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13447&#34;&gt;K8MDH 147.315 Mhz&lt;/a&gt;, Keewenaw County Skywarn/ARES via Broadcastify. &lt;/p&gt;
 
-&lt;h2 id=&#34;minnesota:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;Minnesota&lt;/h2&gt;
+&lt;h2 id=&#34;minnesota&#34;&gt;Minnesota&lt;/h2&gt;
 
 &lt;p&gt;Severe weather: #&lt;a href=&#34;http://tchat.io/rooms/mnwx&#34;&gt;mnwx&lt;/a&gt;&lt;/p&gt;
 
@@ -414,7 +413,7 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
 
 &lt;h2&gt;Washington State&lt;/h2&gt;
 
-&lt;h2 id=&#34;west-virginia:196a574d5b9e32634fa65d78b306f7dd&#34;&gt;West Virginia&lt;/h2&gt;
+&lt;h2 id=&#34;west-virginia&#34;&gt;West Virginia&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Severe weather: &lt;a href=&#34;http://twitter.com/hashtag/wvwx&#34;&gt;#wvwx&lt;/a&gt;&lt;/li&gt;

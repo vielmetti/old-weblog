@@ -38,7 +38,7 @@
         <link href="http://vielmetti.github.io/tags/raspberry-pi/index.xml" rel="alternate" type="application/rss+xml" title="Raspberry Pi &middot; Vacuum weblog from Edward Vielmetti" />
       
     
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
 
     <link rel="canonical" href="http://vielmetti.github.io/tags/raspberry-pi/" />
 
@@ -146,7 +146,8 @@
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/">full stack plane spotting and data analysis</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>The task at hand is simple. Whenever a particular airplane is visible overhead, send out a tweet with that notice. Don&rsquo;t repeat yourself with this announcement more than twice an hour, but try not to have too much lag in reporting. The full stack of hardware and software to do this is not particularly complicated to use once you get it all running, but there are a series of issues and observations along the way that add to the complexity. <a class="read-more" href="http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/">&raquo;</a></p>
+        <p>The task at hand is simple. Whenever a particular airplane is visible overhead, send out a tweet with that notice. Don&rsquo;t repeat yourself with this announcement more than twice an hour, but try not to have too much lag in reporting.
+The full stack of hardware and software to do this is not particularly complicated to use once you get it all running, but there are a series of issues and observations along the way that add to the complexity. <a class="read-more" href="http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -206,7 +207,8 @@
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/">Plane finding with dump1090</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>In March 2015 I wrote briefly about plane spotting with dump1090. In short, many airplanes have ADS-B transponders which squawk out their location, airspeed, and current conditions, and you can pick up those transmissions using an inexpensive RTL-SDR tuner stick and a simple antenna. I&rsquo;ve been looking into this again to see if I can get a better understanding of how it works as well as to take advantage of a year plus of software development. <a class="read-more" href="http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/">&raquo;</a></p>
+        <p>In March 2015 I wrote briefly about plane spotting with dump1090. In short, many airplanes have ADS-B transponders which squawk out their location, airspeed, and current conditions, and you can pick up those transmissions using an inexpensive RTL-SDR tuner stick and a simple antenna.
+I&rsquo;ve been looking into this again to see if I can get a better understanding of how it works as well as to take advantage of a year plus of software development. <a class="read-more" href="http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -242,7 +244,9 @@
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/">Bringing up Node-RED and mosquitto under &#34;docker compose&#34; on a Raspberry Pi</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Progress, actually quite a lot of it: The problem, neatly stated. Docker is good for bringing up single services ("microservices"), but sometimes your application needs more than one thing running for the whole thing to work. Enter "docker compose", formerly "fig", which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation: Compose is a tool for defining and running complex applications with Docker. <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/">&raquo;</a></p>
+        <p>Progress, actually quite a lot of it:
+The problem, neatly stated. Docker is good for bringing up single services ("microservices"), but sometimes your application needs more than one thing running for the whole thing to work. Enter "docker compose", formerly "fig", which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:
+ Compose is a tool for defining and running complex applications with Docker. <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -282,7 +286,12 @@
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">running mjpg-streamer on a Raspberry Pi 2 with an old Logitech webcam</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>I followed the instructions on this post on LinuxMediaServer.net to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware. lsusb returns this device: Bus 001 Device 004: ID 046d:08ae Logitech, Inc. QuickCam for Notebooks I had to add a driver for the camera: sudo modprobe gspca_zc3xx The camera I have shows up as /dev/video0 and has a resolution of 320x240: sudo ./mjpg_streamer -i "./input_uvc.so -r 320x240 -d /dev/video0" -o "./output_http.so -w www" Existence proof, showing that it works. <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">&raquo;</a></p>
+        <p>I followed the instructions on this post on LinuxMediaServer.net to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware.
+lsusb returns this device:
+ Bus 001 Device 004: ID 046d:08ae Logitech, Inc. QuickCam for Notebooks
+ I had to add a driver for the camera:
+ sudo modprobe gspca_zc3xx
+ The camera I have shows up as /dev/video0 and has a resolution of 320x240: <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -346,7 +355,8 @@
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/">plane spotting; some quick notes on a new software-defined radio setup</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>A couple of years ago, I got one of the first-generation RTL-SDR USB software defined radio units. These inexpensive devices are originally designed as TV tuners, but clever radio hackers figured out how to turn them into software-defined radios that tune to a broad spectrum of radio. After some experimental use I managed to cook the original unit which in its death throes no longer listened. The vendor (Nooelec) generously offered a modest discount on my next purchase, so I took them up on the 2d generation unit. <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/">&raquo;</a></p>
+        <p>A couple of years ago, I got one of the first-generation RTL-SDR USB software defined radio units. These inexpensive devices are originally designed as TV tuners, but clever radio hackers figured out how to turn them into software-defined radios that tune to a broad spectrum of radio.
+After some experimental use I managed to cook the original unit which in its death throes no longer listened. The vendor (Nooelec) generously offered a modest discount on my next purchase, so I took them up on the 2d generation unit. <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -382,7 +392,8 @@
         <h2 class="post-title"><a href="http://vielmetti.github.io/post/2013/2013-01-10-a2b3-lunch-non-summary-for-january-10-2013-michigan-terminal-system-miniaturized/">a2b3 lunch non-summary for January 10, 2013; Michigan Terminal System, miniaturized</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>I organize lunch every week on Thursdays at Eastern Accents in downtown Ann Arbor. About 400 people get some kind of invitation, and attendance varies from 6 to 25+. (One week we filled the restaurant, which was just a little bit scary.) This week&#39;s crowd was good - I counted 18 seats - and the question of the week was asking people to talk about the job they had in college. <a class="read-more" href="http://vielmetti.github.io/post/2013/2013-01-10-a2b3-lunch-non-summary-for-january-10-2013-michigan-terminal-system-miniaturized/">&raquo;</a></p>
+        <p>I organize lunch every week on Thursdays at Eastern Accents in downtown Ann Arbor. About 400 people get some kind of invitation, and attendance varies from 6 to 25+. (One week we filled the restaurant, which was just a little bit scary.)
+This week&#39;s crowd was good - I counted 18 seats - and the question of the week was asking people to talk about the job they had in college. <a class="read-more" href="http://vielmetti.github.io/post/2013/2013-01-10-a2b3-lunch-non-summary-for-january-10-2013-michigan-terminal-system-miniaturized/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
