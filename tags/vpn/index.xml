@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/vpn/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://vielmetti.github.io/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Optimal Opera</title>
+      <link>http://vielmetti.github.io/post/2016/2016-12-19-optimal-opera/</link>
+      <pubDate>Mon, 19 Dec 2016 08:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-12-19-optimal-opera/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m testing out using Opera instead of Chrome as my browser of choice, as recommended by Ernie Smith.  So far so good.
+He notes that Opera is &amp;ldquo;basically Chrome (same engine) minus the battery drain&amp;rdquo;.
+My experience to date bears that out, though it&amp;rsquo;s in the early stages yet.&lt;/p&gt;
+
+&lt;p&gt;The first thing I noticed is that memory usage for Opera is way less than for Chrome.
+That&amp;rsquo;s a big deal for me because I&amp;rsquo;m often noticing that this MacBook Air is in the red zone for memory with Chrome.
+With Opera that&amp;rsquo;s not the case so far - memory has been green since starting.
+This should also translate into less SSD disk activity for swapping, and better battery life.&lt;/p&gt;
+
+&lt;p&gt;The default configuration includes a lot of interesting features, including an ad blocker and a VPN.
+Both of those are interesting, but not a complete replacement for the tools I&amp;rsquo;m looking for.&lt;/p&gt;
+
+&lt;p&gt;The ad blocker is speedy, but it doesn&amp;rsquo;t block the comments on MLive, which is a pity - Ghostery did that well.
+Fortunately, Ghostery is supported on Opera, so I can have two ad blockers running at once to get the desired result.
+Opera counts the number of ads blocked. I don&amp;rsquo;t know if Ghostery&amp;rsquo;s blocked ads are double-counted.&lt;/p&gt;
+
+&lt;p&gt;The VPN is set up to work with a public VPN endpoint, but I can&amp;rsquo;t configure it to use my private endpoint.
+There are a number of other VPN plugins (plugsin?) available, each connecting to their own set of endpoints.
+I&amp;rsquo;d like a general-purpose VPN tool that allows me to run my own endpoint, but I haven&amp;rsquo;t found one yet.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t import all of my bookmarks and cookies and passwords, which is a attempt to stay away from Facebook.
+Ask me how much time I spend (or waste) on Facebook! There must be a better use of your time than that.
+&lt;a href=&#34;https://mathbabe.org/2016/12/06/i-quit-facebook-and-my-life-is-better-now/&#34;&gt;Quit Facebook and make your life better&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
