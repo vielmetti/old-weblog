@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/kubernetes/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://vielmetti.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Trip report, Tectonic 2016.</title>
+      <link>http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/</link>
+      <pubDate>Mon, 19 Dec 2016 12:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/</guid>
+      <description>
+
+&lt;p&gt;The &lt;a href=&#34;https://tectonic.com/summit/&#34;&gt;Tectonic Summit&lt;/a&gt; was a conference in New York City in December 2016, hosted
+by &lt;a href=&#34;https://coreos.com/&#34;&gt;CoreOS&lt;/a&gt;, with the theme &lt;em&gt;Enterprise Kubernetes&lt;/em&gt;. Mohan Kartha and
+Edward Vielmetti went there as a guest of &lt;a href=&#34;http://packet.net&#34;&gt;Packet&lt;/a&gt;, a bare-metal hosting
+provider in the city. This report details highlights of the presentations
+at the event as well as accounts from attendees of what they thought
+was missing from the presentation and discussions.&lt;/p&gt;
+
+&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt; is an orchestration system that runs on top of a container
+system like &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;. It allows an enterprise or service provider to
+define a system that can scale up and down according to need. &lt;a href=&#34;http://blog.kubernetes.io/2016/12/kubernetes-1.5-supporting-production-workloads.html&#34;&gt;Version 1.5 of Kubernetes&lt;/a&gt;
+was announced during the event, and it has extended
+beyond the previous version by speeding up operations so that it can
+support larger clusters.&lt;/p&gt;
+
+&lt;p&gt;The Kubernetes project is relatively young, but it draws from
+the experience of Google&amp;rsquo;s &amp;ldquo;Borg&amp;rdquo; program. Version 1.0 came
+out about two years ago, and there have been tens of thousands
+of contributions to the codebase since then.&lt;/p&gt;
+
+&lt;h3 id=&#34;kubernetes-project-management-openstack-docker-comparison&#34;&gt;Kubernetes project management; OpenStack, Docker comparison&lt;/h3&gt;
+
+&lt;p&gt;The Kubernetes project is run by the &lt;a href=&#34;https://www.cncf.io/&#34;&gt;Cloud Native Computing Foundation&lt;/a&gt;,
+which is about 50% by weight Google and the rest other cloud providers
+like Amazon. There was some political discussion at the event where it
+was clear that Kubernetes proponents made an effort to distance themselves
+from the &lt;a href=&#34;http://www.openstack.org/foundation&#34;&gt;OpenStack Foundation&lt;/a&gt;. &lt;a href=&#34;http://www.openstack.org&#34;&gt;OpenStack&lt;/a&gt; was what people were doing
+a few years ago to solve a similar set of problems, and that project
+has floundered because of a combination of vendor-induced complexity
+and a set of designs that did not reflect actual operation practice.
+While the Kubernetes folks were all polite to OpenStack, they were
+clear that they did not want to be tarred with the same brush.&lt;/p&gt;
+
+&lt;p&gt;The other product positioning and political interest at the event was
+how various organizations were dealing with &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;. That company
+controls the container system that is being orchestrated by Kubernetes,
+but also has been clawing its way up the stack acquiring other organizations
+that do container management and monitoring and developing additional
+capacities beyond the container core.  &lt;a href=&#34;https://www.docker.com/products/docker-swarm&#34;&gt;Docker Swarm&lt;/a&gt; competes with
+Kubernetes, in the same way that the &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;rkt&lt;/a&gt; container engine competes
+with [containerd] provided by Docker. The Kubernetes
+team would really rather have a vendor-neutral, stable, drama free
+container engine, rather than one that mutates all the time.&lt;/p&gt;
+
+&lt;h3 id=&#34;self-driving-kubernetes-tectonic-from-coreos&#34;&gt;Self-driving Kubernetes: Tectonic from CoreOS&lt;/h3&gt;
+
+&lt;p&gt;The major product announcement at the event was from CoreOS, their
+namesake &lt;a href=&#34;https://tectonic.com/&#34;&gt;Tectonic&lt;/a&gt; product. The latest release of Tectonic is said to
+be &amp;ldquo;self-driving&amp;rdquo;, i.e. will upgrade the version of Kubernetes on
+a cluster automatically. Their observation was that people who
+run Kubernetes spend an inordinate amount of time outside of Kubernetes
+upgrading systems when a new version comes out, and that there was
+an opportunity to remove that burden by automatically handling
+upgrades using a strategy much like CoreOS&amp;rsquo;s own &lt;a href=&#34;https://coreos.com/os/docs/latest/&#34;&gt;Container Linux&lt;/a&gt;
+which automagically installs new versions when they are available.&lt;/p&gt;
+
+&lt;p&gt;Tectonic is now available with a &lt;a href=&#34;https://coreos.com/press/tectonic-self-driving.html&#34;&gt;free 10-node license&lt;/a&gt;. This is
+a new pricing strategy aimed at capturing the trial and test user
+market and offering an easier self-service onramp to getting started
+with the system.&lt;/p&gt;
+
+&lt;h3 id=&#34;sysdig-kubernetes-monitoring-and-debugging-tool&#34;&gt;Sysdig, Kubernetes monitoring and debugging tool&lt;/h3&gt;
+
+&lt;p&gt;Kubernetes monitoring was demonstrated by &lt;a href=&#34;http://www.sysdig.org/&#34;&gt;Sysdig&lt;/a&gt;, which has a product
+both for individual system monitoring and for container monitoring
+of Kubernetes and Docker systems. There is lots of complexity in the container
+world, with processes moving here and there and logical systems
+dispersed across physical machines. sysdig starts with a robust
+monitoring and introspection technology that can replace lots of
+one-shot Linux monitoring tools (ps, top, sysstat etc) and extends
+that tool function all the way up into Kubernetes.&lt;/p&gt;
+
+&lt;p&gt;Provided for a fee is &lt;a href=&#34;https://sysdig.com/sysdig/&#34;&gt;Sysdig Cloud&lt;/a&gt; which puts a point-and-click GUI interface on
+Kubernetes networking so that you get the whole picture at whatever
+level of detail you want. Sysdig&amp;rsquo;s CEO also presented in Chicago at Docker Chicago.&lt;/p&gt;
+
+&lt;h3 id=&#34;helm-kubernetes-provisioning-tool&#34;&gt;Helm, Kubernetes provisioning tool&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://helm.sh&#34;&gt;Helm&lt;/a&gt; was described as &amp;ldquo;like apt-get for Kubernetes&amp;rdquo;; it promises to make
+deployment of systems easier by allowing a prepackaged set of commands
+and configurations to be distributed through a central registry or
+produced for your own private use. Every system needs a package manager.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-studies-ticketmaster-planet&#34;&gt;Case studies: Ticketmaster, Planet&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/rossdakin/status/808323710381920256&#34;&gt;Ticketmaster&lt;/a&gt; was the main customer case study provided. Their system
+architecture support a very large, complex, heterogeneous workload
+with very old legacy stuff in the core of it (an old Vax, with its
+brain pickled into an emulator). The ticketing business model is
+a &amp;ldquo;self-induced DDOS attack&amp;rdquo; with very bursty loads when tickets
+go on sale. They use Kubernetes to schedule containers so as to
+handle peak loads better.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.planet.com/&#34;&gt;Planet&lt;/a&gt; was a second case study, which does global daily hi res
+satellite imagery.  Their previous operations environment deployed
+VMs with Ansible, which led to a relatively slow deployment process
+in which every image had crazy dependencies. Docker helps contain
+dependency interactions.  Kubernetes helps scheduling and deployment
+of resources as they are needed, so they can spin up and spin down
+resources specific to a task and not have to guess what part of the
+world their users are interested in today.&lt;/p&gt;
+
+&lt;h3 id=&#34;storage-the-missing-link&#34;&gt;Storage, the missing link&lt;/h3&gt;
+
+&lt;p&gt;Notably missing from the discussion was a comprehensive look at
+storage. People had seemed to have sorted out at least the basics
+of networking and compute distribution over these large workloads,
+but anyone who had large storage needs had worked out something
+specific and purpose-built to their environment.&lt;/p&gt;
+
+&lt;p&gt;I had a conversation with the CTO of Quantum who is
+the project lead for &lt;a href=&#34;https://rook.io/&#34;&gt;Rook&lt;/a&gt; which uses an embedded &lt;a href=&#34;https://www.mail-archive.com/ceph-users@lists.ceph.com/msg34143.html&#34;&gt;Ceph&lt;/a&gt; filesystem.
+Ceph is one of the file systems that has come out of the
+cluster world, and Rook is an attempt to cut it down to
+size and simplify it so that it can be easily embedded
+as container storage.&lt;/p&gt;
+
+&lt;p&gt;No one really wants to write a file system from scratch and use it
+in production that same year. The most mature file systems are decades
+old and have a long history of correctness and performance tweaks.
+Of all things to worry about people are largely unwilling to put
+production loads on untested storage.&lt;/p&gt;
+
+&lt;h3 id=&#34;kubernetes-progress-development-testing-deployment&#34;&gt;Kubernetes progress: development, testing, deployment&lt;/h3&gt;
+
+&lt;p&gt;What people are using Kubernetes for: mostly for testing. The average
+size of a cluster is less than 3 nodes, according to a Gartner
+analyst.  &lt;a href=&#34;bare metal hosting&#34;&gt;Packet&lt;/a&gt; has seen uptake as a Kubernetes
+test environment - it&amp;rsquo;s cheaper to provision bare metal than AWS or VMs
+for Kubernetes, and performant enough for the test environment.&lt;/p&gt;
+
+&lt;h3 id=&#34;arm-in-the-data-center&#34;&gt;ARM in the data center.&lt;/h3&gt;
+
+&lt;p&gt;We had a good lunch discussion of ARM processors in the data center. Question:
+is there any way to displace Intel&amp;rsquo;s dominance of data center
+computing?  ARM has advantages at very low end due to low power
+consumption, and the 4-core ARM Raspberry Pi 3 is a popular testbed for home clustering
+but not suitable for data center use. Packet has a &lt;a href=&#34;https://www.packet.net/bare-metal/servers/type-2a/&#34;&gt;96-core ARMv8 server&lt;/a&gt;
+that we have been involved in testing, and there was lots of interest in
+stories around that.&lt;/p&gt;
+
+&lt;p&gt;The challenges of ARM in the data center: Intel dominance on software
+side, some small amount of fragmentation in Unix flavors, immaturity
+of software ports to ARMv8 (even as compared to ARMv7), unconvincing
+economics. One ex-Transmeta guy was very pessimistic about displacing
+Intel because of Intel&amp;rsquo;s manufacturing lead. On the other hand a Khosla Ventures
+exec was bullish on &lt;a href=&#34;http://www.cavium.com&#34;&gt;Cavium&lt;/a&gt;, an ARM server core vendor, and thought they
+had a long way to grow. He was interested in a call back in 30 - 90
+days with report on uptake.&lt;/p&gt;
+
+&lt;h3 id=&#34;site-visit-packet-net&#34;&gt;Site visit: Packet.net&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://packet.net&#34;&gt;Packet&lt;/a&gt; provides bare metal as a service, either in your data
+center or their own. The office was very busy and bursting at the
+seams, with people sitting everywhere and a steady stream of vendors and
+partners in evidence. Packet are very nice, prompt, pleasant people to deal
+with, and they are expanding to new markets (Japan) with new
+investment (Softbank) on new servers (ARMv8).&lt;/p&gt;
+
+&lt;p&gt;The hosting market was explained to me this way: some companies have OpEx to
+spend, so they spend it on AWS; others have CapEx to spend, so they
+are trying to build a data center operating platform that&amp;rsquo;s friendly
+to using on premises. Can you run your system on other people&amp;rsquo;s
+capital? The Packet founders have been through this before and seem to have
+built a culture that knows its market.&lt;/p&gt;
+
+&lt;h3 id=&#34;in-conclusion&#34;&gt;In conclusion&lt;/h3&gt;
+
+&lt;p&gt;Good conference, and thanks to CoreOS for organizing the event
+and to Packet for inviting us to participate!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

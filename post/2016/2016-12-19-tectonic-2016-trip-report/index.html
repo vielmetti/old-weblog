@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Trip report, Tectonic 2016. &middot;  Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:site_name" content="Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:url" content="http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-12-19T12:00:00-05:00" />
+
+    
+    <meta property="og:article:tag" content="Kubernetes" />
+    
+    
+
+  <title>
+     Trip report, Tectonic 2016. &middot;  Vacuum weblog from Edward Vielmetti
+  </title>
+
+    <meta name="description" content="Tracking the comings and goings of @vielmetti" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://vielmetti.github.io/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://vielmetti.github.io/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://vielmetti.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Vacuum weblog from Edward Vielmetti" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.17" />
+
+    <link rel="canonical" href="http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-83143-8', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/about-this-weblog/">About this weblog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-11-20-moon-maps-lroc/">New map of the dark side of the moon from the Lunar Reconnaissance Orbiter Camera (LROC)</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-06-09-power-outage-maps/">Power outage maps for all 50 states plus as many other countries as I can find</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/">Slack vs IRC</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/">Tune in to Skywarn nets in 50 states when severe weather threatens</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://vielmetti.github.io/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Trip report, Tectonic 2016.</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-12-19T12:00:00-05:00">
+            Dec 19, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/kubernetes/">#Kubernetes</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>The <a href="https://tectonic.com/summit/">Tectonic Summit</a> was a conference in New York City in December 2016, hosted
+by <a href="https://coreos.com/">CoreOS</a>, with the theme <em>Enterprise Kubernetes</em>. Mohan Kartha and
+Edward Vielmetti went there as a guest of <a href="http://packet.net">Packet</a>, a bare-metal hosting
+provider in the city. This report details highlights of the presentations
+at the event as well as accounts from attendees of what they thought
+was missing from the presentation and discussions.</p>
+
+<h3 id="kubernetes">Kubernetes</h3>
+
+<p><a href="http://kubernetes.io/">Kubernetes</a> is an orchestration system that runs on top of a container
+system like <a href="https://www.docker.com/">Docker</a>. It allows an enterprise or service provider to
+define a system that can scale up and down according to need. <a href="http://blog.kubernetes.io/2016/12/kubernetes-1.5-supporting-production-workloads.html">Version 1.5 of Kubernetes</a>
+was announced during the event, and it has extended
+beyond the previous version by speeding up operations so that it can
+support larger clusters.</p>
+
+<p>The Kubernetes project is relatively young, but it draws from
+the experience of Google&rsquo;s &ldquo;Borg&rdquo; program. Version 1.0 came
+out about two years ago, and there have been tens of thousands
+of contributions to the codebase since then.</p>
+
+<h3 id="kubernetes-project-management-openstack-docker-comparison">Kubernetes project management; OpenStack, Docker comparison</h3>
+
+<p>The Kubernetes project is run by the <a href="https://www.cncf.io/">Cloud Native Computing Foundation</a>,
+which is about 50% by weight Google and the rest other cloud providers
+like Amazon. There was some political discussion at the event where it
+was clear that Kubernetes proponents made an effort to distance themselves
+from the <a href="http://www.openstack.org/foundation">OpenStack Foundation</a>. <a href="http://www.openstack.org">OpenStack</a> was what people were doing
+a few years ago to solve a similar set of problems, and that project
+has floundered because of a combination of vendor-induced complexity
+and a set of designs that did not reflect actual operation practice.
+While the Kubernetes folks were all polite to OpenStack, they were
+clear that they did not want to be tarred with the same brush.</p>
+
+<p>The other product positioning and political interest at the event was
+how various organizations were dealing with <a href="https://www.docker.com/">Docker</a>. That company
+controls the container system that is being orchestrated by Kubernetes,
+but also has been clawing its way up the stack acquiring other organizations
+that do container management and monitoring and developing additional
+capacities beyond the container core.  <a href="https://www.docker.com/products/docker-swarm">Docker Swarm</a> competes with
+Kubernetes, in the same way that the <a href="https://coreos.com/rkt/">rkt</a> container engine competes
+with [containerd] provided by Docker. The Kubernetes
+team would really rather have a vendor-neutral, stable, drama free
+container engine, rather than one that mutates all the time.</p>
+
+<h3 id="self-driving-kubernetes-tectonic-from-coreos">Self-driving Kubernetes: Tectonic from CoreOS</h3>
+
+<p>The major product announcement at the event was from CoreOS, their
+namesake <a href="https://tectonic.com/">Tectonic</a> product. The latest release of Tectonic is said to
+be &ldquo;self-driving&rdquo;, i.e. will upgrade the version of Kubernetes on
+a cluster automatically. Their observation was that people who
+run Kubernetes spend an inordinate amount of time outside of Kubernetes
+upgrading systems when a new version comes out, and that there was
+an opportunity to remove that burden by automatically handling
+upgrades using a strategy much like CoreOS&rsquo;s own <a href="https://coreos.com/os/docs/latest/">Container Linux</a>
+which automagically installs new versions when they are available.</p>
+
+<p>Tectonic is now available with a <a href="https://coreos.com/press/tectonic-self-driving.html">free 10-node license</a>. This is
+a new pricing strategy aimed at capturing the trial and test user
+market and offering an easier self-service onramp to getting started
+with the system.</p>
+
+<h3 id="sysdig-kubernetes-monitoring-and-debugging-tool">Sysdig, Kubernetes monitoring and debugging tool</h3>
+
+<p>Kubernetes monitoring was demonstrated by <a href="http://www.sysdig.org/">Sysdig</a>, which has a product
+both for individual system monitoring and for container monitoring
+of Kubernetes and Docker systems. There is lots of complexity in the container
+world, with processes moving here and there and logical systems
+dispersed across physical machines. sysdig starts with a robust
+monitoring and introspection technology that can replace lots of
+one-shot Linux monitoring tools (ps, top, sysstat etc) and extends
+that tool function all the way up into Kubernetes.</p>
+
+<p>Provided for a fee is <a href="https://sysdig.com/sysdig/">Sysdig Cloud</a> which puts a point-and-click GUI interface on
+Kubernetes networking so that you get the whole picture at whatever
+level of detail you want. Sysdig&rsquo;s CEO also presented in Chicago at Docker Chicago.</p>
+
+<h3 id="helm-kubernetes-provisioning-tool">Helm, Kubernetes provisioning tool</h3>
+
+<p><a href="https://helm.sh">Helm</a> was described as &ldquo;like apt-get for Kubernetes&rdquo;; it promises to make
+deployment of systems easier by allowing a prepackaged set of commands
+and configurations to be distributed through a central registry or
+produced for your own private use. Every system needs a package manager.</p>
+
+<h3 id="case-studies-ticketmaster-planet">Case studies: Ticketmaster, Planet</h3>
+
+<p><a href="https://twitter.com/rossdakin/status/808323710381920256">Ticketmaster</a> was the main customer case study provided. Their system
+architecture support a very large, complex, heterogeneous workload
+with very old legacy stuff in the core of it (an old Vax, with its
+brain pickled into an emulator). The ticketing business model is
+a &ldquo;self-induced DDOS attack&rdquo; with very bursty loads when tickets
+go on sale. They use Kubernetes to schedule containers so as to
+handle peak loads better.</p>
+
+<p><a href="https://www.planet.com/">Planet</a> was a second case study, which does global daily hi res
+satellite imagery.  Their previous operations environment deployed
+VMs with Ansible, which led to a relatively slow deployment process
+in which every image had crazy dependencies. Docker helps contain
+dependency interactions.  Kubernetes helps scheduling and deployment
+of resources as they are needed, so they can spin up and spin down
+resources specific to a task and not have to guess what part of the
+world their users are interested in today.</p>
+
+<h3 id="storage-the-missing-link">Storage, the missing link</h3>
+
+<p>Notably missing from the discussion was a comprehensive look at
+storage. People had seemed to have sorted out at least the basics
+of networking and compute distribution over these large workloads,
+but anyone who had large storage needs had worked out something
+specific and purpose-built to their environment.</p>
+
+<p>I had a conversation with the CTO of Quantum who is
+the project lead for <a href="https://rook.io/">Rook</a> which uses an embedded <a href="https://www.mail-archive.com/ceph-users@lists.ceph.com/msg34143.html">Ceph</a> filesystem.
+Ceph is one of the file systems that has come out of the
+cluster world, and Rook is an attempt to cut it down to
+size and simplify it so that it can be easily embedded
+as container storage.</p>
+
+<p>No one really wants to write a file system from scratch and use it
+in production that same year. The most mature file systems are decades
+old and have a long history of correctness and performance tweaks.
+Of all things to worry about people are largely unwilling to put
+production loads on untested storage.</p>
+
+<h3 id="kubernetes-progress-development-testing-deployment">Kubernetes progress: development, testing, deployment</h3>
+
+<p>What people are using Kubernetes for: mostly for testing. The average
+size of a cluster is less than 3 nodes, according to a Gartner
+analyst.  <a href="bare metal hosting">Packet</a> has seen uptake as a Kubernetes
+test environment - it&rsquo;s cheaper to provision bare metal than AWS or VMs
+for Kubernetes, and performant enough for the test environment.</p>
+
+<h3 id="arm-in-the-data-center">ARM in the data center.</h3>
+
+<p>We had a good lunch discussion of ARM processors in the data center. Question:
+is there any way to displace Intel&rsquo;s dominance of data center
+computing?  ARM has advantages at very low end due to low power
+consumption, and the 4-core ARM Raspberry Pi 3 is a popular testbed for home clustering
+but not suitable for data center use. Packet has a <a href="https://www.packet.net/bare-metal/servers/type-2a/">96-core ARMv8 server</a>
+that we have been involved in testing, and there was lots of interest in
+stories around that.</p>
+
+<p>The challenges of ARM in the data center: Intel dominance on software
+side, some small amount of fragmentation in Unix flavors, immaturity
+of software ports to ARMv8 (even as compared to ARMv7), unconvincing
+economics. One ex-Transmeta guy was very pessimistic about displacing
+Intel because of Intel&rsquo;s manufacturing lead. On the other hand a Khosla Ventures
+exec was bullish on <a href="http://www.cavium.com">Cavium</a>, an ARM server core vendor, and thought they
+had a long way to grow. He was interested in a call back in 30 - 90
+days with report on uptake.</p>
+
+<h3 id="site-visit-packet-net">Site visit: Packet.net</h3>
+
+<p><a href="http://packet.net">Packet</a> provides bare metal as a service, either in your data
+center or their own. The office was very busy and bursting at the
+seams, with people sitting everywhere and a steady stream of vendors and
+partners in evidence. Packet are very nice, prompt, pleasant people to deal
+with, and they are expanding to new markets (Japan) with new
+investment (Softbank) on new servers (ARMv8).</p>
+
+<p>The hosting market was explained to me this way: some companies have OpEx to
+spend, so they spend it on AWS; others have CapEx to spend, so they
+are trying to build a data center operating platform that&rsquo;s friendly
+to using on premises. Can you run your system on other people&rsquo;s
+capital? The Packet founders have been through this before and seem to have
+built a culture that knows its market.</p>
+
+<h3 id="in-conclusion">In conclusion</h3>
+
+<p>Good conference, and thanks to CoreOS for organizing the event
+and to Packet for inviting us to participate!</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://vielmetti.github.io/">Edward Vielmetti</a></h4>
+  
+  <p>Read <a href="http://vielmetti.github.io/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Ann Arbor, Michigan</span>
+    
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Trip%20report%2c%20Tectonic%202016.&nbsp;-&nbsp;Vacuum%20weblog%20from%20Edward%20Vielmetti&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-19-tectonic-2016-trip-report%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-19-tectonic-2016-trip-report%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-19-tectonic-2016-trip-report%2f&amp;description=Trip%20report%2c%20Tectonic%202016."
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-19-tectonic-2016-trip-report%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Vacuum weblog from Edward Vielmetti</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/index.js"></script>
+    
+</body>
+</html>
+
