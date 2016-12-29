@@ -24,7 +24,7 @@ just how to get them running, but also how to poke inside them while
 they are running to see what they are doing and make sure that you
 can make sense of what is happening while you develop or run in production.&lt;/p&gt;
 
-&lt;p&gt;At [Tectonic] I was introduced to one tool that handles Docker
+&lt;p&gt;At &lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/&#34;&gt;Tectonic&lt;/a&gt; I was introduced to one tool that handles Docker
 and Kubernetes container introspection, &lt;a href=&#34;http://sysdig.com&#34;&gt;Sysdig&lt;/a&gt;. From Twitter I
 also discovered &lt;a href=&#34;http://portainer.io&#34;&gt;Portainer&lt;/a&gt;, a nice system for container management.
 Having installed both Portainer and Sysdig, the interesting bit
