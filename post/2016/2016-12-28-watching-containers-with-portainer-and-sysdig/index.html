@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Watching containers with Portainer and Sysdig &middot;  Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:site_name" content="Vacuum weblog from Edward Vielmetti" />
+  	<meta property="og:url" content="http://vielmetti.github.io/post/2016/2016-12-28-watching-containers-with-portainer-and-sysdig/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-12-28T23:30:00-05:00" />
+
+    
+    <meta property="og:article:tag" content="devops" />
+    
+    <meta property="og:article:tag" content="Portainer" />
+    
+    <meta property="og:article:tag" content="Sysdig" />
+    
+    
+
+  <title>
+     Watching containers with Portainer and Sysdig &middot;  Vacuum weblog from Edward Vielmetti
+  </title>
+
+    <meta name="description" content="Tracking the comings and goings of @vielmetti" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://vielmetti.github.io/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://vielmetti.github.io/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://vielmetti.github.io/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://vielmetti.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Vacuum weblog from Edward Vielmetti" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.17" />
+
+    <link rel="canonical" href="http://vielmetti.github.io/post/2016/2016-12-28-watching-containers-with-portainer-and-sysdig/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-83143-8', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/about-this-weblog/">About this weblog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-11-20-moon-maps-lroc/">New map of the dark side of the moon from the Lunar Reconnaissance Orbiter Camera (LROC)</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2011/2011-06-09-power-outage-maps/">Power outage maps for all 50 states plus as many other countries as I can find</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2015/2015-11-01-slack-vs-irc/">Slack vs IRC</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://vielmetti.github.io/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/">Tune in to Skywarn nets in 50 states when severe weather threatens</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://vielmetti.github.io/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Watching containers with Portainer and Sysdig</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-12-28T23:30:00-05:00">
+            Dec 28, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/devops/">#devops</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/portainer/">#Portainer</a></span>
+         
+          <span class="post-tag small"><a href="http://vielmetti.github.io/tags/sysdig/">#Sysdig</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>[screen capture: csysdig running inside Portainer]</p>
+
+<p><blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Run <a href="https://twitter.com/sysdig">@sysdig</a> CLI tool &quot;csysdig&quot; inside of a <a href="https://twitter.com/portainerio">@portainerio</a> console window. Nice way to watch <a href="https://twitter.com/docker">@docker</a> and <a href="https://twitter.com/coreos">@coreos</a> cc <a href="https://twitter.com/mckartha">@mckartha</a> <a href="https://t.co/hJGiHuJwKs">pic.twitter.com/hJGiHuJwKs</a></p>&mdash; Edward Vielmetti (@vielmetti) <a href="https://twitter.com/vielmetti/status/814320562294181888">December 29, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>The question to be answered is how to manage Docker containers - not
+just how to get them running, but also how to poke inside them while
+they are running to see what they are doing and make sure that you
+can make sense of what is happening while you develop or run in production.</p>
+
+<p>At [Tectonic] I was introduced to one tool that handles Docker
+and Kubernetes container introspection, <a href="http://sysdig.com">Sysdig</a>. From Twitter I
+also discovered <a href="http://portainer.io">Portainer</a>, a nice system for container management.
+Having installed both Portainer and Sysdig, the interesting bit
+happens when you connect the together.</p>
+
+<p>Portainer provides a very high level view of your container
+infrastructure, with an easy browser level access to see what
+containers you have loaded on the system, what&rsquo;s running, and how
+to start or restart or pull new containers. Sysdig on the other
+hand has a very low level kernel&rsquo;s eye view of the system, watching
+every system call and timing it and providing a system browser (with
+&ldquo;csysdig&rdquo;) that is reminiscent of faithful Unix tools like &lsquo;htop&rsquo;.</p>
+
+<p>First, install each of them according to package instructions.
+As of this writing (December 2016) Portainer will run on Intel
+and ARM platforms, but Sysdig really wants to run on Intel only.</p>
+
+<p><a href="https://portainer.readthedocs.io/en/latest/deployment.html">Portainer install instructions</a>
+will want you to pull the latest version (v1.11) and then
+set a password. The vision for Portainer product direction
+is full role based access control, so expect developments
+here; just know that for now, if you want an admin password
+to persist, you&rsquo;ll have to persist the data in the filesystem
+or in a Docker storage volume. As installs go, this is pretty
+easy.</p>
+
+<p>Next, you&rsquo;ll want to follow the <a href="http://www.sysdig.org/install/">Sysdig install instructions</a>
+for installing Sysdig in a container. We&rsquo;re monitoring CoreOS,
+which makes the effort directly supported; I haven&rsquo;t done Ubuntu yet.
+Sysdig wants to have a kernel module installed, and the CoreOS
+install effort takes advantage of automated new kernel builds whenever
+CoreOS does a new release.</p>
+
+<p>Once both systems are up, connect them together. You&rsquo;ll want to
+connect to a running sysdig container through the console, via
+the navigation path dashboard / containers / sysdig / console.
+Launch a console window on your Sysdig container, and in that console
+run &ldquo;csysdig -pc&rdquo;. You&rsquo;ll have a view on the innards of your containers.</p>
+
+<p>Now the biggest missing piece is the amount of this narrative
+given over to install instructions, rather than use instructions.
+Portainer has some very nice ways to install a variety of containerized
+applications, but it doesn&rsquo;t know how to launch Sysdig in a single
+click, nor is it reasonable to naively assume that it can. Even once
+you get the command line invocation right there may be a pesky
+requirement to get kernel headers all exactly correct. Still, if
+possible that would be the direction I&rsquo;d give to both organizations -
+make it easier to embed Sysdig tools and functions inside a Portainer framework.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://vielmetti.github.io/">Edward Vielmetti</a></h4>
+  
+  <p>Read <a href="http://vielmetti.github.io/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Ann Arbor, Michigan</span>
+    
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Watching%20containers%20with%20Portainer%20and%20Sysdig&nbsp;-&nbsp;Vacuum%20weblog%20from%20Edward%20Vielmetti&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-28-watching-containers-with-portainer-and-sysdig%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-28-watching-containers-with-portainer-and-sysdig%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-28-watching-containers-with-portainer-and-sysdig%2f&amp;description=Watching%20containers%20with%20Portainer%20and%20Sysdig"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2f2016%2f2016-12-28-watching-containers-with-portainer-and-sysdig%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Vacuum weblog from Edward Vielmetti</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://vielmetti.github.io/js/index.js"></script>
+    
+</body>
+</html>
+
