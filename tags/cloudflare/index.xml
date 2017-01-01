@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/cloudflare/index.xml</link>
+    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://vielmetti.github.io/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Happy leap second (or mostly happy) and happy new year for 2017</title>
+      <link>http://vielmetti.github.io/post/2017/2017-01-01-leap-second/</link>
+      <pubDate>Sun, 01 Jan 2017 10:00:01 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-01-01-leap-second/</guid>
+      <description>&lt;p&gt;Happy new year, and from a technology perspective, also happy leap second.&lt;/p&gt;
+
+&lt;p&gt;As always, when there&amp;rsquo;s a leap second, people get a chance to debug their
+timekeeping code. I guess if they happen frequently enough the code will
+get better exercise and some bugs will be shaken out. Generally every time
+some government messes with timekeeping, a small army of programmer gets
+a few hours of work to adjust with some occasional unplanned downtime.&lt;/p&gt;
+
+&lt;p&gt;The biggest issue identified was at Cloudflare, a distributed system
+for web cachine.
+&lt;a href=&#34;https://www.cloudflarestatus.com/incidents/1fczgjmknplp&#34;&gt;Some DNS lookups causing 5xx errors due to leap second bug&lt;/a&gt;
+is the incident report.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Starting at 00:00 UTC on January 1, 2017, CNAME resolutions on some machines stopped working due to a bug triggered by the universal addition of one leap second, which affected both some authoritative DNS and origin DNS lookups, causing 5xx errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The future timekeeping bug that&amp;rsquo;s most likely to create worldwide
+angst on the scale of Y2K is the
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Year_2038_problem&#34;&gt;Year 2038 problem&lt;/a&gt;,
+which I&amp;rsquo;m counting on helping fix to fund my retirement.&lt;/p&gt;
+
+&lt;p&gt;TimeAndDate News has a &lt;a href=&#34;https://www.timeanddate.com/news/time/&#34;&gt;time zone news&lt;/a&gt; feed,
+which is useful to track worldwide adjustments to and from Daylight Savings Time.&lt;/p&gt;
+
+&lt;p&gt;Finally in timekeeping news and notes, the &lt;a href=&#34;https://coreos.com/os/docs/latest/configuring-date-and-timezone.html&#34;&gt;CoreOS help pages for timekeeping&lt;/a&gt;
+illustrate the importance of keeping good time within a computing cluster.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;CoreOS clusters use NTP to synchronize the clocks of member nodes, and all machines start an NTP client at boot. CoreOS versions later than 681.0.0 use systemd-timesyncd(8) as the default NTP client. Earlier versions used ntpd(8). Use systemctl to check which service is running:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;ldquo;Systemd is eating the world&amp;rdquo;, and one of the things it has eaten is timekeeping.
+One of the old CoreOS bugs, &lt;a href=&#34;https://github.com/coreos/bugs/issues/391&#34;&gt;systemd-timesyncd not as precise as ntpd&lt;/a&gt;,
+reports that because of systemd-timesyncd&amp;rsquo;s less precise timekeeping there
+are problems with Deis and Ceph. The bug report is from 2015 and was closed
+due to inactivity, but if you have weird problems with CoreOS, Deis, and Ceph,
+check your clocks!&lt;/p&gt;
+
+&lt;p&gt;Hail truechimers, exit falsetickers!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

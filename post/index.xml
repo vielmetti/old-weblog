@@ -111,6 +111,55 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Happy leap second (or mostly happy) and happy new year for 2017</title>
+      <link>http://vielmetti.github.io/post/2017/2017-01-01-leap-second/</link>
+      <pubDate>Sun, 01 Jan 2017 10:00:01 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-01-01-leap-second/</guid>
+      <description>&lt;p&gt;Happy new year, and from a technology perspective, also happy leap second.&lt;/p&gt;
+
+&lt;p&gt;As always, when there&amp;rsquo;s a leap second, people get a chance to debug their
+timekeeping code. I guess if they happen frequently enough the code will
+get better exercise and some bugs will be shaken out. Generally every time
+some government messes with timekeeping, a small army of programmer gets
+a few hours of work to adjust with some occasional unplanned downtime.&lt;/p&gt;
+
+&lt;p&gt;The biggest issue identified was at Cloudflare, a distributed system
+for web cachine.
+&lt;a href=&#34;https://www.cloudflarestatus.com/incidents/1fczgjmknplp&#34;&gt;Some DNS lookups causing 5xx errors due to leap second bug&lt;/a&gt;
+is the incident report.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Starting at 00:00 UTC on January 1, 2017, CNAME resolutions on some machines stopped working due to a bug triggered by the universal addition of one leap second, which affected both some authoritative DNS and origin DNS lookups, causing 5xx errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The future timekeeping bug that&amp;rsquo;s most likely to create worldwide
+angst on the scale of Y2K is the
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Year_2038_problem&#34;&gt;Year 2038 problem&lt;/a&gt;,
+which I&amp;rsquo;m counting on helping fix to fund my retirement.&lt;/p&gt;
+
+&lt;p&gt;TimeAndDate News has a &lt;a href=&#34;https://www.timeanddate.com/news/time/&#34;&gt;time zone news&lt;/a&gt; feed,
+which is useful to track worldwide adjustments to and from Daylight Savings Time.&lt;/p&gt;
+
+&lt;p&gt;Finally in timekeeping news and notes, the &lt;a href=&#34;https://coreos.com/os/docs/latest/configuring-date-and-timezone.html&#34;&gt;CoreOS help pages for timekeeping&lt;/a&gt;
+illustrate the importance of keeping good time within a computing cluster.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;CoreOS clusters use NTP to synchronize the clocks of member nodes, and all machines start an NTP client at boot. CoreOS versions later than 681.0.0 use systemd-timesyncd(8) as the default NTP client. Earlier versions used ntpd(8). Use systemctl to check which service is running:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;ldquo;Systemd is eating the world&amp;rdquo;, and one of the things it has eaten is timekeeping.
+One of the old CoreOS bugs, &lt;a href=&#34;https://github.com/coreos/bugs/issues/391&#34;&gt;systemd-timesyncd not as precise as ntpd&lt;/a&gt;,
+reports that because of systemd-timesyncd&amp;rsquo;s less precise timekeeping there
+are problems with Deis and Ceph. The bug report is from 2015 and was closed
+due to inactivity, but if you have weird problems with CoreOS, Deis, and Ceph,
+check your clocks!&lt;/p&gt;
+
+&lt;p&gt;Hail truechimers, exit falsetickers!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Watching containers with Portainer and Sysdig</title>
       <link>http://vielmetti.github.io/post/2016/2016-12-28-watching-containers-with-portainer-and-sysdig/</link>
       <pubDate>Wed, 28 Dec 2016 23:30:00 -0500</pubDate>
@@ -907,61 +956,6 @@ hosted at U Twente in the Netherlands, has its own set of receiver software and 
 Coverage is by no means universal, but between the two collections there are hours of
 DX listening ahead of you (including, for my purposes, lots of alternatives to pull in
 baseball playoff broadcasts).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writing assignment, 500 words</title>
-      <link>http://vielmetti.github.io/post/2016/2016-10-10-writing-assignment-500/</link>
-      <pubDate>Mon, 10 Oct 2016 12:30:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-10-10-writing-assignment-500/</guid>
-      <description>&lt;p&gt;The writing prompt is simple scaffolding: write 500 words about what you&amp;rsquo;re
-working on right now, so that when someone asks what you do, you have a proof
-point of it. This is preparation for going to a conference where proof of
-professional identity is the whole point of the exercise. The thing you
-say you&amp;rsquo;re working on should be elaborated on at the top of the page, and
-any supporting details that don&amp;rsquo;t fit into the narrative should be omitted.&lt;/p&gt;
-
-&lt;p&gt;To this end it&amp;rsquo;s as important to note what not to write about as what to write
-about. Better not to write about anything you don&amp;rsquo;t want anyone to pay you to
-do. If there&amp;rsquo;s some old technology that is entirely non-commercial, you&amp;rsquo;re free
-to discuss it on a mailing list, but for heaven&amp;rsquo;s sake don&amp;rsquo;t lead with it
-in your writing. There may be one day a year that people save up their odd
-tech stories for (like April 1 for the April Fools RFC series).&lt;/p&gt;
-
-&lt;p&gt;Unfiltered personal observations are also out. If you are eating a piece of
-pastry, save that for Twitter, where no one expects you to be on message all
-the time. Cat memes can go on Facebook, sunset photos to Instagram, bookmarks
-of recipes in Pinboard. They don&amp;rsquo;t belong in the professional blog.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s easier to compose the identity exercise if the entire theme of what
-you do fits into two or three words. I follow the &lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt;
-weblog, which is all about Docker on ARM systems. It&amp;rsquo;s a fantastic channel,
-always with something new in that field, carefully and cleverly presented.
-Similarly the &lt;a href=&#34;http://www.rtl-sdr.com/&#34;&gt;RTL-SDR blog&lt;/a&gt; is always giving
-updates about software defined radio, without exception. Dan KB6NU&amp;rsquo;s
-&lt;a href=&#34;http://www.kb6nu.com/&#34;&gt;ham radio weblog&lt;/a&gt; is all ham radio, all the time.&lt;/p&gt;
-
-&lt;p&gt;What do you do if your writing to date is not conducive to minimalist
-descriptors? The easiest thing to do is to unpublish (temporarily or permanently)
-any distractions. If there&amp;rsquo;s something that in retrospect makes you cringe or
-confuses you when you read it, temporarily mark it as a draft. That one
-person who you want to have read a consistent and homogenized proof
-point doesn&amp;rsquo;t need to be distracted.&lt;/p&gt;
-
-&lt;p&gt;There was a time when I was a prolific local blogger, and every post had
-the word &amp;ldquo;Ann Arbor&amp;rdquo; in the lead paragraph. It hardly mattered what I wrote,
-so long as that touchstone was there. That era is over - it turns out that
-writing about a city in the face of the decline of local news is a career
-limiting move.&lt;/p&gt;
-
-&lt;p&gt;So: the process of writing 500 words about a topic may be less about deciding
-about what to write about, and more about deciding what not to write about.
-&amp;ldquo;What is it exactly that you do&amp;rdquo; is the prompt question, and the desired
-simple response is &amp;ldquo;Here is a sample of my work&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Sample carefully!&lt;/p&gt;
 </description>
     </item>
     
