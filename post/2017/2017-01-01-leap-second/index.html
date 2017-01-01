@@ -164,13 +164,34 @@
     </header>
 
     <section class="post-content">
-      <p>Happy new year, and from a technology perspective, also happy leap second.</p>
+      
+
+<p>Happy new year, and from a technology perspective, also happy leap second.</p>
+
+<p>[image: timekeeping for the leap second, from FSM Labs]
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Here&#39;s a complete picture of <a href="https://twitter.com/hashtag/leapsecond?src=hash">#leapsecond</a> 2016. <a href="https://t.co/DFp6XgnPig">pic.twitter.com/DFp6XgnPig</a></p>&mdash; FSMLabs (@FSMLabs) <a href="https://twitter.com/FSMLabs/status/815589123121618944">January 1, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 <p>As always, when there&rsquo;s a leap second, people get a chance to debug their
 timekeeping code. I guess if they happen frequently enough the code will
 get better exercise and some bugs will be shaken out. Generally every time
 some government messes with timekeeping, a small army of programmer gets
 a few hours of work to adjust with some occasional unplanned downtime.</p>
+
+<p><a href="http://www.fsmlabs.com">FSMLabs</a> watched the time change closely, and their image above
+shows one peculiarity of reported time: Google&rsquo;s NTP servers
+returned a time that was up to half a second off, slowly creeping
+out of sync with real time and then back into sync. They write
+in a recap, <a href="http://www.fsmlabs.com/news/2017/01/01/2leapsecondskew2016.html">Leapsecond 2016 complete</a></p>
+
+<blockquote>
+<p>You can see that Google starts its 20 hour leap-second “skew” 10 hours before the event and then skews back to the real time. Everyone else stays correct and then has a short error as they “leap” the second and then come back into correct time.</p>
+</blockquote>
+
+<p>FSMLabs sells precision timekeeping equipment aimed at the financial
+industry.</p>
+
+<h3 id="leap-second-bugs">Leap second bugs</h3>
 
 <p>The biggest issue identified was at Cloudflare, a distributed system
 for web cachine.
@@ -181,13 +202,16 @@ is the incident report.</p>
 <p>Starting at 00:00 UTC on January 1, 2017, CNAME resolutions on some machines stopped working due to a bug triggered by the universal addition of one leap second, which affected both some authoritative DNS and origin DNS lookups, causing 5xx errors.</p>
 </blockquote>
 
-<p>The future timekeeping bug that&rsquo;s most likely to create worldwide
-angst on the scale of Y2K is the
-<a href="https://en.wikipedia.org/wiki/Year_2038_problem">Year 2038 problem</a>,
-which I&rsquo;m counting on helping fix to fund my retirement.</p>
+<p>In the real world, the biggest reported issue that could be
+suspicious was reported by the BBC as <a href="http://www.bbc.com/news/uk-38482746">London ambulance service hit by new year fault</a>,
+an account of computer system crashes at London Ambulance Service (LAS)
+that are peculiarly synchronized with the appearance of the leap second.</p>
 
-<p>TimeAndDate News has a <a href="https://www.timeanddate.com/news/time/">time zone news</a> feed,
-which is useful to track worldwide adjustments to and from Daylight Savings Time.</p>
+<blockquote>
+<p>It is understood the computer system crashed, so calls had to be recorded by pen and paper for nearly five hours on one of the busiest nights of the year.</p>
+</blockquote>
+
+<h3 id="systemd-is-eating-the-world">Systemd is eating the world</h3>
 
 <p>Finally in timekeeping news and notes, the <a href="https://coreos.com/os/docs/latest/configuring-date-and-timezone.html">CoreOS help pages for timekeeping</a>
 illustrate the importance of keeping good time within a computing cluster.</p>
@@ -203,7 +227,19 @@ are problems with Deis and Ceph. The bug report is from 2015 and was closed
 due to inactivity, but if you have weird problems with CoreOS, Deis, and Ceph,
 check your clocks!</p>
 
+<h3 id="notes-and-references">Notes and references</h3>
+
+<p>The future timekeeping bug that&rsquo;s most likely to create worldwide
+angst on the scale of Y2K is the
+<a href="https://en.wikipedia.org/wiki/Year_2038_problem">Year 2038 problem</a>,
+which I&rsquo;m counting on helping fix to fund my retirement.</p>
+
+<p>TimeAndDate News has a <a href="https://www.timeanddate.com/news/time/">time zone news</a> feed,
+which is useful to track worldwide adjustments to and from Daylight Savings Time.</p>
+
 <p>Hail truechimers, exit falsetickers!</p>
+
+<h4 id="updated-2017-01-01t16-07-00-to-add-fsm-labs-london-ambulance-notes-headers">Updated 2017-01-01T16:07:00 to add FSM Labs, London Ambulance notes, headers</h4>
 
     </section>
 
