@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/coreos/index.xml</link>
+    <link>http://vielmetti.github.io/tags/ntppool/index.xml</link>
     <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/coreos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vielmetti.github.io/tags/ntppool/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Happy leap second (or mostly happy) and happy new year for 2017</title>
@@ -94,40 +94,6 @@ reported that as of a few hours before the leap second, 3463 servers in the pool
 &lt;p&gt;Hail truechimers, exit falsetickers!&lt;/p&gt;
 
 &lt;h4 id=&#34;updated-2017-01-01t16-07-00-to-add-fsm-labs-london-ambulance-notes-headers&#34;&gt;Updated 2017-01-01T16:07:00 to add FSM Labs, London Ambulance notes, headers&lt;/h4&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OpenVPN in a container</title>
-      <link>http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/</link>
-      <pubDate>Fri, 20 Nov 2015 16:30:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/</guid>
-      <description>&lt;p&gt;A few notes on setting up OpenVPN in a container.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m using CoreOS, which gives me Docker 1.7.1 in the &amp;ldquo;stable&amp;rdquo; branch.&lt;/p&gt;
-
-&lt;p&gt;Two different Docker configurations are available that take on this task,
-with slightly different setups. Kyle Manna&amp;rsquo;s &lt;a href=&#34;https://github.com/kylemanna/docker-openvpn&#34;&gt;docker-openvpn&lt;/a&gt;
-is what I&amp;rsquo;m working with; it in turn is derived from
-&lt;a href=&#34;https://github.com/jpetazzo/dockvpn&#34;&gt;jpetazzo/dockvpn&lt;/a&gt; which
-solves the same problem slightly differently.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04&#34;&gt;tutorial on Digital Ocean&lt;/a&gt;
-that describes the setup including client-side support.&lt;/p&gt;
-
-&lt;p&gt;A second &lt;a href=&#34;https://stefanscherer.github.io/run-your-own-dockerized-openvpn-server-at-scaleway/&#34;&gt;tutorial by Stefan Scherer&lt;/a&gt;
-gives instructions for use in the Scaleway ARM-based server cloud.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m at the stage right now where I downloaded and installed
-everything and created an &amp;ldquo;opvn&amp;rdquo; config file that successfully
-loads into Tunnelblick, but where it doesn&amp;rsquo;t quite yet have
-all of the routing set up. The slight complication in the
-configuration is that I want to give access to Amazon
-VPCs, so I have a few layers of software-defined networking
-to knit together (or to unravel depending on your perspective).&lt;/p&gt;
-
-&lt;p&gt;network ho!&lt;/p&gt;
 </description>
     </item>
     
