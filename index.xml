@@ -111,6 +111,40 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>ISO 8601 date format and keeping track of weeks</title>
+      <link>http://vielmetti.github.io/post/2017/2017-W03-5-iso-date-format/</link>
+      <pubDate>Fri, 20 Jan 2017 09:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-W03-5-iso-date-format/</guid>
+      <description>&lt;p&gt;Warning: objects in calendar are closer than they appear.&lt;/p&gt;
+
+&lt;p&gt;I can never keep track of the day of the month, it seems.
+The watch on my wrist has a day marker, but it wants to have
+a 31 day month, and when we have 30 or 28 day months the
+day has to be manually adjusted. On the other hand, I have
+a keen sense for what day of the week it is.&lt;/p&gt;
+
+&lt;p&gt;The calendar for me is the ISO 8601 date format that supports calendaring
+by day of week and week of the year. Today is 2017-W03-5,
+which is conveniently and readily read as the Friday (5) of the
+third week of 2017. There are rules from ISO 8601 about when
+to start the year and what to do when weeks cross year boundaries,
+but other than that small confusion it&amp;rsquo;s a very straightforward
+calendar to use.&lt;/p&gt;
+
+&lt;p&gt;The biggest bonus of it is just how readily you can plan for events
+months in the future, because rather than thinking by month and
+having to compute odd distances, you can think by weeks and simply
+subtract.&lt;/p&gt;
+
+&lt;p&gt;Some background: &lt;a href=&#34;http://www.staff.science.uu.nl/~gent0113/calendar/isocalendar.htm&#34;&gt;The Mathematics of the ISO 8601 Calendar&lt;/a&gt;,
+R.H. van Gent 2005; &lt;a href=&#34;http://calendarswamp.blogspot.com&#34;&gt;Calendar Swamp&lt;/a&gt;,
+a weblog by Scott Mace; and &lt;a href=&#34;https://www.calconnect.org&#34;&gt;CalConnect&lt;/a&gt;,
+&amp;ldquo;The Calendaring and Scheduling Consortium&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Happy leap second (or mostly happy) and happy new year for 2017</title>
       <link>http://vielmetti.github.io/post/2017/2017-01-01-leap-second/</link>
       <pubDate>Sun, 01 Jan 2017 10:00:01 -0500</pubDate>
@@ -963,39 +997,6 @@ consumer-focused components to try them out.&lt;/p&gt;
 (from 2015), &lt;a href=&#34;http://www.vodafone.com/content/index/what/technology-blog/nb-iot-will-connect.html&#34;&gt;Vodafone&lt;/a&gt;
 (indicating commerical rollout in 2017), and &lt;a href=&#34;http://www.gsma.com/connectedliving/narrow-band-internet-of-things-nb-iot/&#34;&gt;GSMA&lt;/a&gt;
 (a vendor forum).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>sdr.hu and the emergence of lots of small wideband SDR receivers</title>
-      <link>http://vielmetti.github.io/post/2016/2016-10-10-sdr-hu-small-public-sdr/</link>
-      <pubDate>Mon, 10 Oct 2016 15:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-10-10-sdr-hu-small-public-sdr/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://sdr.hu&#34;&gt;sdr.hu&lt;/a&gt; is the home base for OpenWebRX, a remote spectrum monitoring system
-written by Andras HA7ILM.&lt;/p&gt;
-
-&lt;p&gt;The system is designed to allow &lt;a href=&#34;https://github.com/simonyiszk/openwebrx&#34;&gt;OpenWebRX servers&lt;/a&gt;,
-running on RTL-SDR or HackRF hardware, to share their radio spectrum and allow remote tuning
-of the available radio bandwidth. A typical installation will allow up to four remote listeners
-to independently tune in, and the tuning filters allow the listener to independently control
-the bandwidth of the receiver.&lt;/p&gt;
-
-&lt;p&gt;A sample display shows WMVP-AM in Chicago monitored from SE Michigan.&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Listening to the ALDS on ESPN 1000, WMVP-AM Chicago. Baseball (and radio DXing) instead of politics. &lt;a href=&#34;https://t.co/qFUMHDlqti&#34;&gt;pic.twitter.com/qFUMHDlqti&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/785285239157370883&#34;&gt;October 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;The wide band version of this is the &lt;a href=&#34;http://kiwisdr.com/KiwiSDR/&#34;&gt;KiwiSDR&lt;/a&gt;, a BeagleBone
-based receiver which has been developed as a Kickstarter campaign. Look for those
-systems on the sdr.hu list with a receiver tunable between 0 and 30 Mhz. This covers
-all of the broadcast AM range plus shortwave broadcast and HF amateur bands.&lt;/p&gt;
-
-&lt;p&gt;sdr.hu is not the only system with links to web-tunable SDR receivers. &lt;a href=&#34;http://websdr.org&#34;&gt;websdr.org&lt;/a&gt;,
-hosted at U Twente in the Netherlands, has its own set of receiver software and hardware.
-Coverage is by no means universal, but between the two collections there are hours of
-DX listening ahead of you (including, for my purposes, lots of alternatives to pull in
-baseball playoff broadcasts).&lt;/p&gt;
 </description>
     </item>
     
