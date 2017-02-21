@@ -111,6 +111,26 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Small wins</title>
+      <link>http://vielmetti.github.io/post/2017/2017-W08-1-small-wins/</link>
+      <pubDate>Mon, 20 Feb 2017 22:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-W08-1-small-wins/</guid>
+      <description>&lt;p&gt;I am reminded again of Karl Weick&amp;rsquo;s work on &amp;ldquo;small wins&amp;rdquo;,
+the observation that large problems are so large that we
+are overwhelmed just in thinking about them. It
+can be incredibly powerful to have a series of small wins
+that provide some momentum and that set you up for
+increasing confidence and capability to tackle bigger issues.&lt;/p&gt;
+
+&lt;p&gt;My small win of the moment is getting this blog post up,
+reminding myself that once upon a time I met a writing
+deadline every day for publication, and knowing that it&amp;rsquo;s
+not necessary for every single post to be a big thing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ISO 8601 date format and keeping track of weeks</title>
       <link>http://vielmetti.github.io/post/2017/2017-W03-5-iso-date-format/</link>
       <pubDate>Fri, 20 Jan 2017 09:00:00 -0500</pubDate>
@@ -957,46 +977,6 @@ experience up from my Mac where a test instance is running up to
 CoreOS, and also to document the AWS command line to generate
 the correct certificates in the correct format with the correct
 file names.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Narrowband IoT (NB-IoT) as a low power cellular data protocol on the u-blox SARA-N2</title>
-      <link>http://vielmetti.github.io/post/2016/2016-10-10-nb-iot/</link>
-      <pubDate>Mon, 10 Oct 2016 16:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-10-10-nb-iot/</guid>
-      <description>&lt;p&gt;In the process of looking at embedded radio components, I came across
-the u-blox &lt;a href=&#34;https://www.u-blox.com/en/product/sara-n2&#34;&gt;SARA-N2&lt;/a&gt;, a low power
-device designed to provide low bandwidth cellular data coverage for
-Internet of Things devices - &amp;ldquo;low power consumption and extended coverage&amp;rdquo;
-being the operative buzzwords. Speeds are 227 Kbps down and 21 Kbps up,
-and it&amp;rsquo;s claimed to be &amp;ldquo;low power&amp;rdquo; though no specific power consumption
-figures are provided.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s built on NB-IoT standards that are
-&lt;a href=&#34;http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete&#34;&gt;standardized in June 2016&lt;/a&gt;
-by the 3GPP project and which are codified in their Release 13.&lt;/p&gt;
-
-&lt;p&gt;The first announcement of use of this system is by Telenor in Norway, using it
-for a &lt;a href=&#34;http://www.mynewsdesk.com/uk/telenor/pressreleases/first-in-norway-with-narrowband-iot-1590130&#34;&gt;smart parking&lt;/a&gt;
-demonstration application in the city of Trondheim.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The pilot commences in January 2017 and will test out how smart sensors can tell you where there is available parking, and in time make it possible to reserve a parking space on your mobile phone, obtain real-time information on when a space will be free and if necessary be guided to other parking spaces if it is full.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;No word yet on availability of dev boards for the SARA-N2. u-blox has been
-good about getting some of their technologies into the DIY marketplace, with
-the Particle Electron using their SARA‑G350, SARA‑U260 or SARA‑U270 chips,
-and the Hologram Dash with the LISA-U200, SARA‑U260 or SARA‑U270 chips.
-Still, u-blox&amp;rsquo;s product line is way bigger than the availability of
-consumer-focused components to try them out.&lt;/p&gt;
-
-&lt;p&gt;More NB-IoT news from &lt;a href=&#34;http://www.huawei.com/minisite/hwmbbf15/en/nb-iot-accelerating-cellular-iot.html&#34;&gt;Huawei&lt;/a&gt;
-(from 2015), &lt;a href=&#34;http://www.vodafone.com/content/index/what/technology-blog/nb-iot-will-connect.html&#34;&gt;Vodafone&lt;/a&gt;
-(indicating commerical rollout in 2017), and &lt;a href=&#34;http://www.gsma.com/connectedliving/narrow-band-internet-of-things-nb-iot/&#34;&gt;GSMA&lt;/a&gt;
-(a vendor forum).&lt;/p&gt;
 </description>
     </item>
     
