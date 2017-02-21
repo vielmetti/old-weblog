@@ -111,6 +111,50 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Abandoning analytics</title>
+      <link>http://vielmetti.github.io/post/2017/2017-W08-2-abandoning-analytics/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:01 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-W08-2-abandoning-analytics/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve stopped for the most part watching and caring about
+how many people view the various bits of writing I do.&lt;/p&gt;
+
+&lt;p&gt;The analytical tools out there for measuring
+the net have their primary impetus the selling of advertising,
+and as such they have slowly but surely morphed to be less
+and less useful for the discovery of non-commerical intent.&lt;/p&gt;
+
+&lt;p&gt;It used to be that Google Analytics would tell you the
+exact search terms that someone used to get to your page.
+That&amp;rsquo;s gone now, unless you&amp;rsquo;re buying ad keywords. Every
+system still gives raw page counts, but who cares about
+eyeballs if you don&amp;rsquo;t know what they are focusing on?&lt;/p&gt;
+
+&lt;p&gt;So the tactics of gathering and spreading attention have
+to shift. Search is no longer the only currency of value,
+and Facechat and Snapbook and Instachirp all proclaim
+that they can measure engagement (and buy attention for
+a low, low price). Be that as it may, it&amp;rsquo;s much less
+important for me right now to collect lots of viewers.
+Much more important for any given piece of work is exactly
+who sees it, what they see in it, and whether it gets
+past the initial flip, flip, flip through the infinite
+net to have someone actually read to the bottom.&lt;/p&gt;
+
+&lt;p&gt;I can pretty much predict what kind of Twitter behavior
+generates a lot of page views - the tweetstorm! - but
+who needs to do that all the time? Especially when
+sometimes the goal is not to have a lot of random
+people see something.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m writing this for you, you see; perhaps it&amp;rsquo;s just for
+me, time-shifted into the future, looking backwards on
+the day and understanding why measurement of readership
+is not the only metric of interestingness.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>That new system smell</title>
       <link>http://vielmetti.github.io/post/2017/2017-W08-1-that-new-system-smell/</link>
       <pubDate>Mon, 20 Feb 2017 23:45:00 -0500</pubDate>
@@ -879,87 +923,6 @@ a parallel language.&lt;/p&gt;
 high performance world looks like when you have lots and
 lots of little cores. This is obviously not a server for
 every workload, but for the ones that match it should be great.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>96 cores hot with ARMv8 and Docker</title>
-      <link>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</link>
-      <pubDate>Fri, 14 Oct 2016 00:15:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</guid>
-      <description>&lt;p&gt;I had early access to a 96 core, 128 gigabyte ARMv8 server today. Here&amp;rsquo;s
-what I did to get all of the CPUs and all of the memory in use at the same
-time.&lt;/p&gt;
-
-&lt;p&gt;The system: a bare-metal hosting company is working on general availability
-of these ARMv8 (aarch64) servers. I got early access for beta testing.
-Talk to me if you&amp;rsquo;d like to know more.&lt;/p&gt;
-
-&lt;p&gt;The software: These systems boot with Ubuntu 16.04 which is plenty modern
-to run lots of workloads. The challenge I had was that there was no Docker
-available to download via apt-get. So, off to build my own.&lt;/p&gt;
-
-&lt;p&gt;A starting point: I began with this writeup of
-&lt;a href=&#34;http://blog.hypriot.com/post/getting-docker-running-on-a-high-density-armv8-server-from-hisilicon/&#34;&gt;running Docker on ARMv8 from HiSilicon&lt;/a&gt;
-written by the Hypriot folks. They lovingly and carefully document getting
-Docker going on a 16-core system, starting from Ubuntu 15.04. There are
-enough differences in the config that I had to adapt, but not so many
-that I was in foreign territory.&lt;/p&gt;
-
-&lt;p&gt;Go: The 96 core system has Go 1.6.2 installed out of the box, so I didn&amp;rsquo;t
-have to bootstrap that. That saved a bunch of time.&lt;/p&gt;
-
-&lt;p&gt;Building Docker without having a Docker server running is a trick. The
-Hypriot team describes it thusly:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;For this purpose there is an easy, but not really well-known workaround. We have to check and install the necessary development dependencies first and then we can run the build script natively to get a first working Docker binary. So, let’s do it right away.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Follow their instructions closely, and you get a build of v1.10.2 of
-Docker, which you can copy into the bin directories and run directly.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;time AUTO_GOPATH=1 ./hack/make.sh dynbinary
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Systemd was happy after I dug out the right service
-files for docker.service and docker.socket. Just copy the docker binaries
-into place, reload systemd, and you&amp;rsquo;re almost good to go. Almost, because
-you need to make sure you create /var/run/docker.sock which allows
-communications between the client and server.&lt;/p&gt;
-
-&lt;p&gt;Next attempt was to build the &amp;ldquo;master&amp;rdquo; release, and there I wasn&amp;rsquo;t
-able to successfully do a complete build because the &lt;code&gt;aufs&lt;/code&gt; tests
-did not all pass.  (See the &lt;a href=&#34;https://github.com/docker/docker/issues/27357&#34;&gt;open ticket&lt;/a&gt; for the details.)&lt;/p&gt;
-
-&lt;p&gt;After some time of building Docker over and over from source, and not
-getting tests to pass, I gave up and declared victory. Hooray! Someone
-who knows more about file systems can push the next step forward.&lt;/p&gt;
-
-&lt;p&gt;To test this system, Mohan Kartha pointed me at Marek Goldmann&amp;rsquo;s
-excellent treatise on &lt;a href=&#34;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&#34;&gt;resource management in Docker&lt;/a&gt;.
-He uses a system testing tool called &lt;code&gt;stress&lt;/code&gt; running inside a Docker
-container to exercise workloads. As a note to get this test running,
-you need to slightly change the provided Dockerfile, to read as follows
-to pick up an aarch64 version of Fedora.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;FROM resin/aarch64-fedora:latest
-RUN yum -y install stress &amp;amp;&amp;amp; yum clean all
-ENTRYPOINT [&amp;quot;stress&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Build this Dockerfile and then run as follows to give a 96 core system
-a good workout. Install htop first so you get a good colorful screen to watch.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;docker run -it --rm stress --cpu 96 --io 96 --vm 96 --vm-bytes 4G --timeout 100s
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;. &lt;a href=&#34;https://twitter.com/Quintus23M&#34;&gt;@Quintus23M&lt;/a&gt; &lt;a href=&#34;https://twitter.com/docker&#34;&gt;@docker&lt;/a&gt; docker 1.10.2 + &amp;quot;stress&amp;quot; exercising all 96 cores and all 128G of memory. cc &lt;a href=&#34;https://twitter.com/mckartha&#34;&gt;@mckartha&lt;/a&gt; &lt;a href=&#34;https://t.co/kPm8JWUJKR&#34;&gt;pic.twitter.com/kPm8JWUJKR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/786773896691261440&#34;&gt;October 14, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;I saved away some binaries on a couple of systems so that reinstalling should
-be straightforward once this machine gets destroyed, and then off we go.&lt;/p&gt;
 </description>
     </item>
     
