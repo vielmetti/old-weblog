@@ -111,6 +111,37 @@ neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Every day</title>
+      <link>http://vielmetti.github.io/post/2017/2017-W08-3-every-day/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:01 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-W08-3-every-day/</guid>
+      <description>&lt;p&gt;Once upon a time I had a daily deadline to write 500 words. Anything
+was fair game as long as it was spelled correctly and included the
+two words &amp;ldquo;Ann Arbor&amp;rdquo; prominently in the lead paragraph. Those days
+are gone, but the memory of them reminds me of just how much hard work
+it is to have something new to say every day that&amp;rsquo;s worthy of publication.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a certain rhythm to writing every day. I appreciate it for
+what it requires of you, that daily dose of composing yourself to the
+point of putting something down on paper that you&amp;rsquo;re willing to review the
+next day and not run shrieking from in horror.&lt;/p&gt;
+
+&lt;p&gt;One of the things I&amp;rsquo;ve learned from blogging for a while is that
+not everything that gets written down and published needs to stay
+published forever. The every day publication doesn&amp;rsquo;t need to be
+a permanent totem. It can live for a few days or a few weeks and
+then silently disappear, leaving room for something that matters more
+or that&amp;rsquo;s more on topic for some value of topic that you want to
+present yourself as.&lt;/p&gt;
+
+&lt;p&gt;Still I write. It&amp;rsquo;s hard to, but it&amp;rsquo;s also hard not to, and the
+only way to get a few good words on the page is to produce a lot
+of words and then be selective about what to keep around.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Abandoning analytics</title>
       <link>http://vielmetti.github.io/post/2017/2017-W08-2-abandoning-analytics/</link>
       <pubDate>Tue, 21 Feb 2017 00:00:01 -0500</pubDate>
@@ -844,85 +875,6 @@ try to view it on a small cell-phone sized screen it doesn&amp;rsquo;t handle it
 Note that these receivers are based on the Beaglebone hardware and can only handle
 four simultaneous listeners. With those two constraints in mind, it&amp;rsquo;s a great way
 to extend your listening reach.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>More 96 core benchmarks</title>
-      <link>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</link>
-      <pubDate>Sat, 15 Oct 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</guid>
-      <description>&lt;p&gt;Yesterday I spent some time with a 96 core ARMv8 server.
-On day two I figured out a couple more things about that
-server.&lt;/p&gt;
-
-&lt;p&gt;First and foremost, the extended path of installing Docker
-on the server I chronicled yesterday ended up being much
-easier today. A simple&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install docker.io
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;did the right thing to bring Docker 1.12.1 into the system.
-Don&amp;rsquo;t do&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install docker
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;on Ubuntu; you&amp;rsquo;ll get &amp;ldquo;docker - System tray for KDE3/GNOME2
-docklet applications&amp;rdquo; instead. The
-&lt;a href=&#34;https://blog.docker.com/2014/04/docker-in-ubuntu-ubuntu-in-docker/&#34;&gt;original release announcement for Docker on Ubuntu&lt;/a&gt;
-explains why.&lt;/p&gt;
-
-&lt;p&gt;To characterize performance on real workloads,
-I compiled some packages from
-source. I did my best to force parallelism in the build.
-&lt;a href=&#34;https://www.gnu.org/software/make/manual/html_node/Parallel.html&#34;&gt;GNU Make supports a &amp;ldquo;-j&amp;rdquo; flag&lt;/a&gt;
-that tries to run more jobs at
-once, and that makes a big difference.
-It&amp;rsquo;s worth reading makefiles before you build on a system
-like this, because there may be special considerations for
-parallel builds.&lt;/p&gt;
-
-&lt;p&gt;Node.JS master built in 4.5 minutes, about a 38x speedup.&lt;/p&gt;
-
-&lt;p&gt;Go for linux/arm64 built in under 9 minutes instead of an hour.&lt;/p&gt;
-
-&lt;p&gt;With the help of the hosting provider, we also looked at power
-consumption of the server. Reported power used when idle was 212 watts,
-and the reported power under a heavy workload by the &lt;code&gt;stress&lt;/code&gt;
-test harness was about 80 watts more, at 292 watts. Roughly
-speaking that&amp;rsquo;s 2 watts per core idle, and 3 watts per core
-when loaded.
-&lt;a href=&#34;http://people.seas.harvard.edu/~apw/stress/&#34;&gt;Stress&lt;/a&gt; is from
-Amos Waterland; it runs nicely on Posix systems.&lt;/p&gt;
-
-&lt;p&gt;There is a version of &lt;code&gt;firefox&lt;/code&gt; for the system that installs
-with &lt;code&gt;apt-get install firefox&lt;/code&gt;, and I forwarded X11 from the
-data center to the cafe to see how it worked. It loads fine,
-but visiting pages like umich.edu result in a failure. I didn&amp;rsquo;t
-find an easy bug repository to report that too, but it was
-repeatable. If I do this again, I&amp;rsquo;ll&lt;/p&gt;
-
-&lt;p&gt;The &amp;ldquo;build Docker from scratch&amp;rdquo; project resulted in the
-&lt;a href=&#34;https://github.com/docker/docker/issues/27384&#34;&gt;build failing with TestOverlay128LayerRead&lt;/a&gt;, which is an issue with the overlay2 filesystem.
-It turns out that&amp;rsquo;s a much more interesting bug than
-yesterday&amp;rsquo;s Docker bug, since we can pinpoint how
-many layers can be overlaid (61, but not 62) before the
-failure.&lt;/p&gt;
-
-&lt;p&gt;One of the things I tested is
-&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Facebook&amp;rsquo;s new &amp;ldquo;yarn&amp;rdquo; package&lt;/a&gt;
-manager for Node.JS - it seemed to work just fine, but
-I had hoped that it would have some kind of bonus speed from
-parallelism, and I didn&amp;rsquo;t see that. Node is notably not
-a parallel language.&lt;/p&gt;
-
-&lt;p&gt;All in all a good day of trying to understand what the
-high performance world looks like when you have lots and
-lots of little cores. This is obviously not a server for
-every workload, but for the ones that match it should be great.&lt;/p&gt;
 </description>
     </item>
     
