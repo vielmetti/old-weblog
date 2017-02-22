@@ -4277,6 +4277,8 @@
     
         
     
+        
+    
 
     
         
@@ -4300,6 +4302,41 @@
 </nav>
 
     </div>
+
+    
+        
+<article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">running mjpg-streamer on a Raspberry Pi 2 with an old Logitech webcam</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>I followed the instructions on this post on LinuxMediaServer.net to get an old Logitech web camera running on a Raspberry Pi 2. Here are some of the changes I did from the original to support my hardware.
+lsusb returns this device:
+ Bus 001 Device 004: ID 046d:08ae Logitech, Inc. QuickCam for Notebooks
+ I had to add a driver for the camera:
+ sudo modprobe gspca_zc3xx
+ The camera I have shows up as /dev/video0 and has a resolution of 320x240: <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-06-27-running-mjpg-streamer-on-a-raspberry-pi-2/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        
+
+        
+        
+            Edward Vielmetti
+        
+        on
+            
+                <a href="http://vielmetti.github.io/tags/mjpg-streamer/">#mjpg-streamer</a>,
+            
+                <a href="http://vielmetti.github.io/tags/raspberry-pi/">#Raspberry Pi</a>,
+            
+        
+        <time class="post-date" datetime="2015-06-27T12:49:59-04:00">
+            27 Jun 2015
+        </time>
+    </footer>
+</article>
 
     
         
@@ -4928,39 +4965,6 @@ Can't talk about rhubarb without Rhabarberbarbara. <a class="read-more" href="ht
         
         
         <time class="post-date" datetime="2015-05-29T22:41:36-04:00">
-            29 May 2015
-        </time>
-    </footer>
-</article>
-
-    
-        
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="http://vielmetti.github.io/post/2015/2015-05-29-building-a-dipole-antenna-for-your-sdr-tuner-stick-from-an-old-set-of-headphones/">Building a dipole antenna for your SDR tuner stick from an old set of headphones</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>Some notes before I try to do the build.
-The parts I have or know I can get: cheap earbud headphones, NooElec NESDR Mini 2 SDR tuner stick with whip antenna, Nokia 635 phone, antenna from an older NESDR Mini SDR tuner stick.
-Parts I need: a short adapter cable that provides antenna in for the SDR stick as a headphone jack socket.
-The SDR tuner comes with an antenna, but I want to replace it with a dipole - especially one cut to have a center point for FM broadcast on 88. <a class="read-more" href="http://vielmetti.github.io/post/2015/2015-05-29-building-a-dipole-antenna-for-your-sdr-tuner-stick-from-an-old-set-of-headphones/">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        
-        
-
-        
-        
-            Edward Vielmetti
-        
-        on
-            
-                <a href="http://vielmetti.github.io/tags/radio/">#radio</a>,
-            
-                <a href="http://vielmetti.github.io/tags/sdr/">#sdr</a>,
-            
-        
-        <time class="post-date" datetime="2015-05-29T13:50:57-04:00">
             29 May 2015
         </time>
     </footer>
