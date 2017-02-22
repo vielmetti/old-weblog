@@ -21,23 +21,25 @@ widely, with over 2000 entries in the whole collection.&lt;/p&gt;
 
 &lt;p&gt;In the interest of simplifying the presentation, some
 parts of this collection are currently offline, and the
-front page represents primarily current work and not
-a diversity of interests.&lt;/p&gt;
+front page has some mix of meditation and detail.&lt;/p&gt;
 
 &lt;p&gt;The current set of systems that are an area of focus -
 and the places I draw from for inspiration on each -
-are as follows. One might loosely couple these together
-under the intersection of &amp;ldquo;DevOps&amp;rdquo; and the &amp;ldquo;Internet of Things&amp;rdquo;, but that
-would be an oversimplification at many levels.&lt;/p&gt;
+are as follows.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/sdr/&#34;&gt;Software defined radio&lt;/a&gt;.
-Building radio receivers and decoders in software. I&amp;rsquo;m
-using an &lt;a href=&#34;http://vielmetti.github.io/tags/rtl-sdr/&#34;&gt;RTL-SDR&lt;/a&gt;
-tuner stick and the &lt;a href=&#34;http://vielmetti.github.io/tags/dump1090/&#34;&gt;dump1090&lt;/a&gt;
-software as a way of getting ADS-B data that decodes to
-airplane locations. From listening to distant radio
-stations to decoding digital modes, SDR tools rapidly
-are transforming the nature of radio experimentation.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/writing&#34;&gt;Writing&lt;/a&gt;.
+Self-reflective thoughts about producing a bunch
+of work through the medium of this weblog, and through
+other writing outlets that are less satisfying. Trying
+as best I can to write more letters and postcards and
+not spend as much time on instachirp.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/radio&#34;&gt;Radio&lt;/a&gt;.
+Software defined radio, listening to far-off stations,
+operating 2 meter ham radio, various ways to listen to
+baseball online, and the like all capture my attention.
+One nice thing about radio is that you can listen to it
+while doing something else.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/rpi/&#34;&gt;Raspberry Pi&lt;/a&gt;. This little ARM based single board computer
 is a launching point for small scale situated experimental
@@ -48,65 +50,14 @@ Pis are cheap and cheerful, and the ARM chips they are
 built from have applications all the way from disposable
 embedded computers to data center scale power efficient compute farms.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/embedded&#34;&gt;Embedded controllers&lt;/a&gt; with wireless data. Products like
-Particle&amp;rsquo;s Electron and the Hologram Dash systems point the
-way to a future where small battery-operated devices
-have some kind of always-on global connectivity. Battery
-constraints and power consumption are the biggest considerations,
-and there&amp;rsquo;s a wide variety of possible radio frequencies and
-associated chipsets to be evaluated.&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/docker&#34;&gt;Docker&lt;/a&gt;. This tool allows you to encapsulate system dependencies
 so that even complex software can be launched and run
 without going through an extensive installation process.
 Run this on small systems like the Raspberry Pi, for development on OS X or Linux,
-and on servers like CoreOS on EC2. Container technology
+and on bare-metal servers like Packet. Container technology
 and cluster technology are still changing rapidly, with
 every new release offering new functions (and the risk of
 a smattering of interesting new bugs).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/coreos&#34;&gt;CoreOS&lt;/a&gt;.
-This minimalist operating system is designed primarily
-to run Docker containers and to handle system updates automatically.
-As long as your services can handle being rebooted periodically
-for externally scheduled system updates, it does a great job
-of providing a stable platform for container-first system designs.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/aws&#34;&gt;Amazon Web Services&lt;/a&gt;.
-The sprawling set of Amazon capabilities
-means that you should never need to have a data center of your
-own, so long as you manage to figure out how to economically
-build systems out of their mostly (but not completely) reliable
-infrastructure. When AWS goes down, though, watch out - it&amp;rsquo;s likely
-to break in some novel way that your application, no matter how
-well engineered, will not expect to see.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/aws-iot&#34;&gt;AWS IoT&lt;/a&gt;.
-This Amazon Web Services stack provides a message
-broker based on MQTT, plus a set of services for triggering
-functions in AWS Lambda when messages come in and a database
-capture with AWS DynamoDB. It&amp;rsquo;s still an open question how
-expensive this system is at scale.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/aws-lambda&#34;&gt;AWS Lambda&lt;/a&gt;.
-Instead of running Amazon Web Services one computer at a time,
-you run it one function call at a time. With support for
-Python and node.js, Lambda is an example of &amp;ldquo;serverless&amp;rdquo;
-computing, where the unit of compute resource you are
-marshalling to solve a problem is just as small as you can
-make it.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/mqtt&#34;&gt;MQTT&lt;/a&gt;.
-This simple publish-subscribe message broker standard
-lets very small systems communicate with the cloud in a method
-that doesn&amp;rsquo;t require that the remote system have a globally
-routed address.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/tags/node-red&#34;&gt;Node-RED&lt;/a&gt;.
-This IBM community project provides a nice drag and drop interface
-for building message-oriented prototype software and hardware
-interfaces. Built on top of node.js and npm, it also offers
-neatly encapsulated access to hundreds of javascript libraries.&lt;/p&gt;
 </description>
     </item>
     

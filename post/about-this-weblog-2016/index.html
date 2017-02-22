@@ -7,12 +7,12 @@
 
   	<meta property="og:title" content=" About this weblog &middot;  Vacuum weblog from Edward Vielmetti" />
   	<meta property="og:site_name" content="Vacuum weblog from Edward Vielmetti" />
-  	<meta property="og:url" content="http://vielmetti.github.io/post/about-this-weblog/" />
+  	<meta property="og:url" content="http://vielmetti.github.io/post/about-this-weblog-2016/" />
 
     
   	<meta property="og:type" content="article" />
 
-    <meta property="og:article:published_time" content="9999-01-01T00:00:00-04:00" />
+    <meta property="og:article:published_time" content="2016-01-01T00:00:00-04:00" />
 
     
     
@@ -42,7 +42,7 @@
     
     <meta name="generator" content="Hugo 0.17" />
 
-    <link rel="canonical" href="http://vielmetti.github.io/post/about-this-weblog/" />
+    <link rel="canonical" href="http://vielmetti.github.io/post/about-this-weblog-2016/" />
 
     
     <script>
@@ -71,7 +71,7 @@
         
         
             
-            <li class="nav-opened nav-current" role="presentation">
+            <li class="nav-opened" role="presentation">
             	<a href="http://vielmetti.github.io/post/about-this-weblog/">About this weblog</a>
             </li>
         
@@ -135,8 +135,8 @@
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="9999-01-01T00:00:00-04:00">
-            Jan 1, 9999
+          <time class="post-date" datetime="2016-01-01T00:00:00-04:00">
+            Jan 1, 2016
           </time>
         
          
@@ -150,25 +150,23 @@ widely, with over 2000 entries in the whole collection.</p>
 
 <p>In the interest of simplifying the presentation, some
 parts of this collection are currently offline, and the
-front page has some mix of meditation and detail.</p>
+front page represents primarily current work and not
+a diversity of interests.</p>
 
 <p>The current set of systems that are an area of focus -
 and the places I draw from for inspiration on each -
-are as follows.</p>
+are as follows. One might loosely couple these together
+under the intersection of &ldquo;DevOps&rdquo; and the &ldquo;Internet of Things&rdquo;, but that
+would be an oversimplification at many levels.</p>
 
-<p><a href="http://vielmetti.github.io/tags/writing">Writing</a>.
-Self-reflective thoughts about producing a bunch
-of work through the medium of this weblog, and through
-other writing outlets that are less satisfying. Trying
-as best I can to write more letters and postcards and
-not spend as much time on instachirp.</p>
-
-<p><a href="http://vielmetti.github.io/tags/radio">Radio</a>.
-Software defined radio, listening to far-off stations,
-operating 2 meter ham radio, various ways to listen to
-baseball online, and the like all capture my attention.
-One nice thing about radio is that you can listen to it
-while doing something else.</p>
+<p><a href="http://vielmetti.github.io/tags/sdr/">Software defined radio</a>.
+Building radio receivers and decoders in software. I&rsquo;m
+using an <a href="http://vielmetti.github.io/tags/rtl-sdr/">RTL-SDR</a>
+tuner stick and the <a href="http://vielmetti.github.io/tags/dump1090/">dump1090</a>
+software as a way of getting ADS-B data that decodes to
+airplane locations. From listening to distant radio
+stations to decoding digital modes, SDR tools rapidly
+are transforming the nature of radio experimentation.</p>
 
 <p><a href="http://vielmetti.github.io/tags/rpi/">Raspberry Pi</a>. This little ARM based single board computer
 is a launching point for small scale situated experimental
@@ -179,14 +177,65 @@ Pis are cheap and cheerful, and the ARM chips they are
 built from have applications all the way from disposable
 embedded computers to data center scale power efficient compute farms.</p>
 
+<p><a href="http://vielmetti.github.io/tags/embedded">Embedded controllers</a> with wireless data. Products like
+Particle&rsquo;s Electron and the Hologram Dash systems point the
+way to a future where small battery-operated devices
+have some kind of always-on global connectivity. Battery
+constraints and power consumption are the biggest considerations,
+and there&rsquo;s a wide variety of possible radio frequencies and
+associated chipsets to be evaluated.</p>
+
 <p><a href="http://vielmetti.github.io/tags/docker">Docker</a>. This tool allows you to encapsulate system dependencies
 so that even complex software can be launched and run
 without going through an extensive installation process.
 Run this on small systems like the Raspberry Pi, for development on OS X or Linux,
-and on bare-metal servers like Packet. Container technology
+and on servers like CoreOS on EC2. Container technology
 and cluster technology are still changing rapidly, with
 every new release offering new functions (and the risk of
 a smattering of interesting new bugs).</p>
+
+<p><a href="http://vielmetti.github.io/tags/coreos">CoreOS</a>.
+This minimalist operating system is designed primarily
+to run Docker containers and to handle system updates automatically.
+As long as your services can handle being rebooted periodically
+for externally scheduled system updates, it does a great job
+of providing a stable platform for container-first system designs.</p>
+
+<p><a href="http://vielmetti.github.io/tags/aws">Amazon Web Services</a>.
+The sprawling set of Amazon capabilities
+means that you should never need to have a data center of your
+own, so long as you manage to figure out how to economically
+build systems out of their mostly (but not completely) reliable
+infrastructure. When AWS goes down, though, watch out - it&rsquo;s likely
+to break in some novel way that your application, no matter how
+well engineered, will not expect to see.</p>
+
+<p><a href="http://vielmetti.github.io/tags/aws-iot">AWS IoT</a>.
+This Amazon Web Services stack provides a message
+broker based on MQTT, plus a set of services for triggering
+functions in AWS Lambda when messages come in and a database
+capture with AWS DynamoDB. It&rsquo;s still an open question how
+expensive this system is at scale.</p>
+
+<p><a href="http://vielmetti.github.io/tags/aws-lambda">AWS Lambda</a>.
+Instead of running Amazon Web Services one computer at a time,
+you run it one function call at a time. With support for
+Python and node.js, Lambda is an example of &ldquo;serverless&rdquo;
+computing, where the unit of compute resource you are
+marshalling to solve a problem is just as small as you can
+make it.</p>
+
+<p><a href="http://vielmetti.github.io/tags/mqtt">MQTT</a>.
+This simple publish-subscribe message broker standard
+lets very small systems communicate with the cloud in a method
+that doesn&rsquo;t require that the remote system have a globally
+routed address.</p>
+
+<p><a href="http://vielmetti.github.io/tags/node-red">Node-RED</a>.
+This IBM community project provides a nice drag and drop interface
+for building message-oriented prototype software and hardware
+interfaces. Built on top of node.js and npm, it also offers
+neatly encapsulated access to hundreds of javascript libraries.</p>
 
     </section>
 
@@ -218,19 +267,19 @@ a smattering of interesting new bugs).</p>
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=About%20this%20weblog&nbsp;-&nbsp;Vacuum%20weblog%20from%20Edward%20Vielmetti&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=About%20this%20weblog&nbsp;-&nbsp;Vacuum%20weblog%20from%20Edward%20Vielmetti&amp;url=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog-2016%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog-2016%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog%2f&amp;description=About%20this%20weblog"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog-2016%2f&amp;description=About%20this%20weblog"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fvielmetti.github.io%2fpost%2fabout-this-weblog-2016%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
