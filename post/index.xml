@@ -62,6 +62,28 @@ a smattering of interesting new bugs).&lt;/p&gt;
     </item>
     
     <item>
+      <title>Dogfooding</title>
+      <link>http://vielmetti.github.io/post/2017/2017-W08-4-dogfooding/</link>
+      <pubDate>Thu, 23 Feb 2017 00:01:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-W08-4-dogfooding/</guid>
+      <description>&lt;p&gt;To &amp;ldquo;dogfood&amp;rdquo; comes from the phrase &amp;ldquo;to eat your own dogfood&amp;rdquo;,
+giving the sense that you are not only producing a product
+but also consuming it as well. This is intended to show that
+you care so much about your customers success in using that
+product that you are willing to use it the way they are
+intended to use it.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Dogfooding&amp;rdquo; is thus shorthand for actually depending
+on something that you make yourself for sale.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Dude, they should have spent more time dogfooding that app!&amp;rdquo;
+&lt;a href=&#34;https://newrepublic.com/article/115349/dogfooding-tech-slang-working-out-glitches&#34;&gt;The New Republic&lt;/a&gt;
+has a good take on the phrase.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>What is it that you do?</title>
       <link>http://vielmetti.github.io/post/2017/2017-W08-3-what-is-it-that-you-do/</link>
       <pubDate>Wed, 22 Feb 2017 09:30:00 -0500</pubDate>
@@ -728,38 +750,6 @@ He had a full month to produce each installment, and at times was working on two
 
 &lt;p&gt;I prefer to think of it as a syndicated essay, sent in fragments over the wire one line at a time.
 It&amp;rsquo;s up to the recipient to reassemble the fragments and to call out when there&amp;rsquo;s a missing piece.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Optimal Opera</title>
-      <link>http://vielmetti.github.io/post/2016/2016-12-19-optimal-opera/</link>
-      <pubDate>Mon, 19 Dec 2016 08:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-12-19-optimal-opera/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m testing out using Opera instead of Chrome as my browser of choice, as recommended by Ernie Smith.  So far so good.
-He notes that Opera is &amp;ldquo;basically Chrome (same engine) minus the battery drain&amp;rdquo;.
-My experience to date bears that out, though it&amp;rsquo;s in the early stages yet.&lt;/p&gt;
-
-&lt;p&gt;The first thing I noticed is that memory usage for Opera is way less than for Chrome.
-That&amp;rsquo;s a big deal for me because I&amp;rsquo;m often noticing that this MacBook Air is in the red zone for memory with Chrome.
-With Opera that&amp;rsquo;s not the case so far - memory has been green since starting.
-This should also translate into less SSD disk activity for swapping, and better battery life.&lt;/p&gt;
-
-&lt;p&gt;The default configuration includes a lot of interesting features, including an ad blocker and a VPN.
-Both of those are interesting, but not a complete replacement for the tools I&amp;rsquo;m looking for.&lt;/p&gt;
-
-&lt;p&gt;The ad blocker is speedy, but it doesn&amp;rsquo;t block the comments on MLive, which is a pity - Ghostery did that well.
-Fortunately, Ghostery is supported on Opera, so I can have two ad blockers running at once to get the desired result.
-Opera counts the number of ads blocked. I don&amp;rsquo;t know if Ghostery&amp;rsquo;s blocked ads are double-counted.&lt;/p&gt;
-
-&lt;p&gt;The VPN is set up to work with a public VPN endpoint, but I can&amp;rsquo;t configure it to use my private endpoint.
-There are a number of other VPN plugins (plugsin?) available, each connecting to their own set of endpoints.
-I&amp;rsquo;d like a general-purpose VPN tool that allows me to run my own endpoint, but I haven&amp;rsquo;t found one yet.&lt;/p&gt;
-
-&lt;p&gt;I didn&amp;rsquo;t import all of my bookmarks and cookies and passwords, which is a attempt to stay away from Facebook.
-Ask me how much time I spend (or waste) on Facebook! There must be a better use of your time than that.
-&lt;a href=&#34;https://mathbabe.org/2016/12/06/i-quit-facebook-and-my-life-is-better-now/&#34;&gt;Quit Facebook and make your life better&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
