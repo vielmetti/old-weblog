@@ -62,6 +62,51 @@ a smattering of interesting new bugs).&lt;/p&gt;
     </item>
     
     <item>
+      <title>Templated issue reporting in Github</title>
+      <link>http://vielmetti.github.io/post/2017/2017-W11-4-issue-reporting/</link>
+      <pubDate>Fri, 17 Mar 2017 09:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-W11-4-issue-reporting/</guid>
+      <description>&lt;p&gt;A well-managed software project will inevitably have
+issues come up that need discussion and resolution. These
+might be out-and-out bugs, but more often than not they
+are also difficulties that people have getting started
+running something complex, or issues that arise when
+building for an environment that is not the same as what
+the developers have experienced.&lt;/p&gt;
+
+&lt;p&gt;The best projects I&amp;rsquo;ve seen have used the ability for
+Github to provide a template for the issue report. Rather
+than getting a blank page to type in your problem,
+you are gently guided by an already filled out page
+that prompts you with questions. Think of it as a simple
+checklist for reporting, as there are many things that
+someone might write, but only a few things that you really want to see.&lt;/p&gt;
+
+&lt;p&gt;The most useful and relevant pair of questions that I like
+to see are &amp;ldquo;What did you expect to see&amp;rdquo; and &amp;ldquo;What did you
+actually see&amp;rdquo;. Figuring out the expected future state of
+the system from someone else&amp;rsquo;s point of view can be a
+challenge, and a good prompt allows people to express what
+they would like to see happen even if they don&amp;rsquo;t really
+understand how the system really works.&lt;/p&gt;
+
+&lt;p&gt;Github&amp;rsquo;s mechanism for handling templated issue and
+pull request is &lt;a href=&#34;https://github.com/blog/2111-issue-and-pull-request-templates&#34;&gt;written up nicely on their blog&lt;/a&gt;.
+In addition, you might like Tal Ater&amp;rsquo;s
+&lt;a href=&#34;https://www.talater.com/open-source-templates/#/&#34;&gt;choose your own adventure&lt;/a&gt;
+decision tree to help you sort out what kind of
+template you might like.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The first mailbox is simply labeled issues (&amp;ldquo;as if I don&amp;rsquo;t have enough of my own to deal with&amp;rdquo;, you think to yourself).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As if!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DTE power outage is worst in company history due to high winds</title>
       <link>http://vielmetti.github.io/post/2017/2017-W10-4-dte-power-outage/</link>
       <pubDate>Thu, 09 Mar 2017 14:30:00 -0500</pubDate>
@@ -146,68 +191,6 @@ its news story about the AWS outage.&lt;/p&gt;
     </item>
     
     <item>
-      <title>For severe weather</title>
-      <link>http://vielmetti.github.io/post/2017/2017-W08-5-for-severe-weather/</link>
-      <pubDate>Fri, 24 Feb 2017 00:01:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2017/2017-W08-5-for-severe-weather/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m setting aside this evening in anticipation of severe weather.
-Unseasonable warmth has meant that southeastern Michigan is at
-risk for a rare February tornado. Ever since the &lt;a href=&#34;http://www.crh.noaa.gov/news/display_cmsstory.php?wfo=dtx&amp;amp;storyid=80731&amp;amp;source=0&#34;&gt;tornado hit Dexter&lt;/a&gt;
-a few years ago, people in the area have had some focus
-on their storm preparation.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s some ways to prepare.&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Best potential for severe storms Friday in the evening and first half of the night, roughly 6PM to midnight. &lt;a href=&#34;https://twitter.com/hashtag/miwx?src=hash&#34;&gt;#miwx&lt;/a&gt; &lt;a href=&#34;https://t.co/dtKqAeBqQh&#34;&gt;pic.twitter.com/dtKqAeBqQh&lt;/a&gt;&lt;/p&gt;&amp;mdash; NWS Detroit (@NWSDetroit) &lt;a href=&#34;https://twitter.com/NWSDetroit/status/834864557441028096&#34;&gt;February 23, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;First and foremost, charge all of the devices that you
-care about well in advance.&lt;/p&gt;
-
-&lt;p&gt;Twitter is always a good place to watch for news. The hashtag
-used by weather watchers in Michigan is &lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt; , and the National
-Weather Service Detroit uses the &lt;a href=&#34;https://twitter.com/NWSDetroit&#34;&gt;@NWSDetroit&lt;/a&gt; twitter
-feed to keep people informed.&lt;/p&gt;
-
-&lt;p&gt;I count on my amateur radio station at home to stay
-connected to the Skywarn network. Locally this net uses
-the 145.15 Mhz frequency on the N8DUY repeater, which
-is located in Scio Township near I-94 and M-14. I spent
-a little time tonight tuning up and making sure that
-could get into the repeater OK, and I was successful,
-thanks to a rig on long-term loan from W8TAM and an antenna that
-KB6NU helped me build last year.&lt;/p&gt;
-
-&lt;p&gt;If the power goes out it&amp;rsquo;s good to have a backup radio. I have
-a couple of inexpensive Baofeng rigs that have pretty good
-battery life and can tune not just to amateur bands but also
-to broadcast FM and to the weather bands.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re looking for signs of storm damage, the power outage
-maps provide a 30 minute delayed detailed track of where
-weather has impacted the power grid. I put together a
-&lt;a href=&#34;http://vielmetti.github.io/post/2011/2011-06-09-power-outage-maps/&#34;&gt;list of outage maps&lt;/a&gt;
-a few years ago, which is still generally useful; locally,
-the maps from &lt;a href=&#34;http://www.dteenergy.com/map/outage.html&#34;&gt;DTE Energy&lt;/a&gt;
-and &lt;a href=&#34;https://www.consumersenergy.com/outagemap&#34;&gt;Consumers Energy&lt;/a&gt; cover
-most of the Lower Peninsula. Both companies have mobile
-phone apps that allow you to log outages and view maps.&lt;/p&gt;
-
-&lt;p&gt;When weather hits, public safety traffic monitored by scanners
-can also be of interest. &lt;a href=&#34;http://www.broadcastify.com/listen/top&#34;&gt;Broadcastify&amp;rsquo;s list of top feeds&lt;/a&gt;
-is worth checking when dispatchers are handling weather-related calls.&lt;/p&gt;
-
-&lt;p&gt;There are several sites that have radar feeds, and of those,
-I have a fondness for the reporting from the &lt;a href=&#34;http://www.wunderground.com&#34;&gt;Weather Underground&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m missing some AA batteries for a dedicated weather radio
-that runs on AC power but that can run from batteries; that
-would be good to sort out before the evening.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Dogfooding</title>
       <link>http://vielmetti.github.io/post/2017/2017-W08-4-dogfooding/</link>
       <pubDate>Thu, 23 Feb 2017 00:01:00 -0500</pubDate>
@@ -226,101 +209,6 @@ on something that you make yourself for sale.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Dude, they should have spent more time dogfooding that app!&amp;rdquo;
 &lt;a href=&#34;https://newrepublic.com/article/115349/dogfooding-tech-slang-working-out-glitches&#34;&gt;The New Republic&lt;/a&gt;
 has a good take on the phrase.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What is it that you do?</title>
-      <link>http://vielmetti.github.io/post/2017/2017-W08-3-what-is-it-that-you-do/</link>
-      <pubDate>Wed, 22 Feb 2017 09:30:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2017/2017-W08-3-what-is-it-that-you-do/</guid>
-      <description>&lt;p&gt;The question &amp;ldquo;What is it that you do&amp;rdquo; is a peculiarly
-Midwestern one, which admits most easily as an answer
-&amp;ldquo;I work in the mines&amp;rdquo; or &amp;ldquo;I work at Fords&amp;rdquo;. Much more
-interesting is the expected response to the California version of the query, which lets you
-talk about the places that you used to work so that you
-can put together a story that matches not only what you&amp;rsquo;re
-doing now but also selective bits and pieces of a work
-history to back it up.&lt;/p&gt;
-
-&lt;p&gt;The west coast question allows for lots of selectivity
-in producing an on-the-spot narrative that backs up your
-qualifications for whatever you happen to be focusing on
-now, but doesn&amp;rsquo;t require you to dig a small narrow niche
-and occupy only that.&lt;/p&gt;
-
-&lt;p&gt;The worst thing that you can do is become pigeonholed as
-that person who does that thing. If you bring your whole
-person to the job, there&amp;rsquo;s no need to describe yourself
-so narrowly even if the task at hand is quite specific.&lt;/p&gt;
-
-&lt;p&gt;(Inspired by Bill Tozier and by Alan Gutierrez, both of
-whom have amusing and informed answers to this question.)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Letters to self</title>
-      <link>http://vielmetti.github.io/post/2017/2017-W08-3-letters-to-self/</link>
-      <pubDate>Wed, 22 Feb 2017 00:30:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2017/2017-W08-3-letters-to-self/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m reminded that the biggest use I have of bloggging is to write
-notes to myself that I&amp;rsquo;ll review later, either deliberately or
-accidentally as I look for some authority on a topic that I temporarily
-mastered well enough to write down.&lt;/p&gt;
-
-&lt;p&gt;Blogging is an increasingly
-solitary affair and its golden age is over.
-But self-adddressed envelopes for bits
-of things that you notice are fun to open later.&lt;/p&gt;
-
-&lt;p&gt;(And now I am distracted by some project I want to
-try out, and will thus finish this thought half way
-to completion.)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Focus</title>
-      <link>http://vielmetti.github.io/post/2017/2017-W08-3-focus/</link>
-      <pubDate>Wed, 22 Feb 2017 00:01:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2017/2017-W08-3-focus/</guid>
-      <description>&lt;p&gt;My favorite weblogs are very focused. With them you can count on
-every post having something narrowly on the theme of the blog, with
-variety within a certain limit.&lt;/p&gt;
-
-&lt;p&gt;This is not a focused weblog, except that I write all of it, and
-that it reflects my varied interests which don&amp;rsquo;t lend themselves to
-a narrow bead on a single topic.&lt;/p&gt;
-
-&lt;p&gt;How to reconcile this contradiction? Very well then, I contradict myself.&lt;/p&gt;
-
-&lt;p&gt;One way to try to cope with having a wide range of interests
-is to be honest
-about it, and to try to limit what you want to say right now.
-I have tried to do that with my introductory
-post, but even that seems like it&amp;rsquo;s been overtaken by events. I&amp;rsquo;ll
-refine that statement of purpose to be clear what it is
-that I could and should write about daily.&lt;/p&gt;
-
-&lt;p&gt;A second approach is to be generous in linking out to what I read,
-so that it&amp;rsquo;s more obvious by reference what has my attention.
-So the &amp;ldquo;radio&amp;rdquo; section should mention London Shortwave, the RTL-SDR
-weblog, and KB6NU&amp;rsquo;s amateur radio blog as three sources - not the
-only three, but a representative sample of interests.&lt;/p&gt;
-
-&lt;p&gt;If I write more, I can go back and unpublish the bits
-that are off-topic, so that the long-term publication stream fits some
-more processed and refined notion of self.&lt;/p&gt;
-
-&lt;p&gt;A better idea simply is to write more, and to write more often, and
-to be less telegraphic and more epistolary in my typical communications.
-140 characters is not enough, and when I&amp;rsquo;m tempted to
-instachirp something, better to
-get it out in long form than squeezed into a tiny box.&lt;/p&gt;
 </description>
     </item>
     
@@ -428,37 +316,6 @@ a recent visit, and what sorts of language gets used
 to talk about opportunity and to qualify the difference
 between the world of incremental change versus the
 world of radical reinvention.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Send a postcard</title>
-      <link>http://vielmetti.github.io/post/2017/2017-W08-1-send-a-postcard/</link>
-      <pubDate>Mon, 20 Feb 2017 23:30:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2017/2017-W08-1-send-a-postcard/</guid>
-      <description>&lt;p&gt;On my recent trip to California I wrote a few postcards. It
-was harder to do that on the plane than it used to be back
-in my days of frequent travel. The seats are much more cramped
-than they once were, and there&amp;rsquo;s a distraction of Internet on
-the airplane that is real.&lt;/p&gt;
-
-&lt;p&gt;The challenge of sending postcards on today&amp;rsquo;s Internet is that
-everyone thinks that snapbooking or facechatting or whatever is
-a sign of a connection. There is no viral postcard craze, not
-yet in this century. You end up being a bit quirky just for
-remembering what someone&amp;rsquo;s postal address is.&lt;/p&gt;
-
-&lt;p&gt;One of the reasons that I love postcards so much is that I&amp;rsquo;ve
-collected some good ones to send and made a few of my own.
-The QSL card is one example of this, made by and sent to ham
-radio operators as a souvenier of a contact made. I&amp;rsquo;m always
-happy to send a QSL card even if my response rate in getting
-cards in return is sporadic.&lt;/p&gt;
-
-&lt;p&gt;If I know your postal address,
-there&amp;rsquo;s some finite chance that instead of getting an
-instachirp message from me, you&amp;rsquo;ll get a postcard.&lt;/p&gt;
 </description>
     </item>
     
@@ -602,6 +459,322 @@ reported that as of a few hours before the leap second, 3463 servers in the pool
 &lt;p&gt;Hail truechimers, exit falsetickers!&lt;/p&gt;
 
 &lt;h4 id=&#34;updated-2017-01-01t16-07-00-to-add-fsm-labs-london-ambulance-notes-headers&#34;&gt;Updated 2017-01-01T16:07:00 to add FSM Labs, London Ambulance notes, headers&lt;/h4&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Watching containers with Portainer and Sysdig</title>
+      <link>http://vielmetti.github.io/post/2016/2016-12-28-watching-containers-with-portainer-and-sysdig/</link>
+      <pubDate>Wed, 28 Dec 2016 23:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-12-28-watching-containers-with-portainer-and-sysdig/</guid>
+      <description>&lt;p&gt;[screen capture: csysdig running inside Portainer]&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Run &lt;a href=&#34;https://twitter.com/sysdig&#34;&gt;@sysdig&lt;/a&gt; CLI tool &amp;quot;csysdig&amp;quot; inside of a &lt;a href=&#34;https://twitter.com/portainerio&#34;&gt;@portainerio&lt;/a&gt; console window. Nice way to watch &lt;a href=&#34;https://twitter.com/docker&#34;&gt;@docker&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/coreos&#34;&gt;@coreos&lt;/a&gt; cc &lt;a href=&#34;https://twitter.com/mckartha&#34;&gt;@mckartha&lt;/a&gt; &lt;a href=&#34;https://t.co/hJGiHuJwKs&#34;&gt;pic.twitter.com/hJGiHuJwKs&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/814320562294181888&#34;&gt;December 29, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;The question to be answered is how to manage Docker containers - not
+just how to get them running, but also how to poke inside them while
+they are running to see what they are doing and make sure that you
+can make sense of what is happening while you develop or run in production.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/&#34;&gt;Tectonic&lt;/a&gt; I was introduced to one tool that handles Docker
+and Kubernetes container introspection, &lt;a href=&#34;http://sysdig.com&#34;&gt;Sysdig&lt;/a&gt;. From Twitter I
+also discovered &lt;a href=&#34;http://portainer.io&#34;&gt;Portainer&lt;/a&gt;, a nice system for container management.
+Having installed both Portainer and Sysdig, the interesting bit
+happens when you connect the together.&lt;/p&gt;
+
+&lt;p&gt;Portainer provides a very high level view of your container
+infrastructure, with an easy browser level access to see what
+containers you have loaded on the system, what&amp;rsquo;s running, and how
+to start or restart or pull new containers. Sysdig on the other
+hand has a very low level kernel&amp;rsquo;s eye view of the system, watching
+every system call and timing it and providing a system browser (with
+&amp;ldquo;csysdig&amp;rdquo;) that is reminiscent of faithful Unix tools like &amp;lsquo;htop&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;First, install each of them according to package instructions.
+As of this writing (December 2016) Portainer will run on Intel
+and ARM platforms, but Sysdig really wants to run on Intel only.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://portainer.readthedocs.io/en/latest/deployment.html&#34;&gt;Portainer install instructions&lt;/a&gt;
+will want you to pull the latest version (v1.11) and then
+set a password. The vision for Portainer product direction
+is full role based access control, so expect developments
+here; just know that for now, if you want an admin password
+to persist, you&amp;rsquo;ll have to persist the data in the filesystem
+or in a Docker storage volume. As installs go, this is pretty
+easy.&lt;/p&gt;
+
+&lt;p&gt;Next, you&amp;rsquo;ll want to follow the &lt;a href=&#34;http://www.sysdig.org/install/&#34;&gt;Sysdig install instructions&lt;/a&gt;
+for installing Sysdig in a container. We&amp;rsquo;re monitoring CoreOS,
+which makes the effort directly supported; I haven&amp;rsquo;t done Ubuntu yet.
+Sysdig wants to have a kernel module installed, and the CoreOS
+install effort takes advantage of automated new kernel builds whenever
+CoreOS does a new release.&lt;/p&gt;
+
+&lt;p&gt;Once both systems are up, connect them together. You&amp;rsquo;ll want to
+connect to a running sysdig container through the console, via
+the navigation path dashboard / containers / sysdig / console.
+Launch a console window on your Sysdig container, and in that console
+run &amp;ldquo;csysdig -pc&amp;rdquo;. You&amp;rsquo;ll have a view on the innards of your containers.&lt;/p&gt;
+
+&lt;p&gt;Now the biggest missing piece is the amount of this narrative
+given over to install instructions, rather than use instructions.
+Portainer has some very nice ways to install a variety of containerized
+applications, but it doesn&amp;rsquo;t know how to launch Sysdig in a single
+click, nor is it reasonable to naively assume that it can. Even once
+you get the command line invocation right there may be a pesky
+requirement to get kernel headers all exactly correct. Still, if
+possible that would be the direction I&amp;rsquo;d give to both organizations -
+make it easier to embed Sysdig tools and functions inside a Portainer framework.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trip report, Tectonic 2016.</title>
+      <link>http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/</link>
+      <pubDate>Mon, 19 Dec 2016 12:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/</guid>
+      <description>
+
+&lt;p&gt;The &lt;a href=&#34;https://tectonic.com/summit/&#34;&gt;Tectonic Summit&lt;/a&gt; was a conference in New York City in December 2016, hosted
+by &lt;a href=&#34;https://coreos.com/&#34;&gt;CoreOS&lt;/a&gt;, with the theme &lt;em&gt;Enterprise Kubernetes&lt;/em&gt;. Mohan Kartha and
+Edward Vielmetti went there as a guest of &lt;a href=&#34;http://packet.net&#34;&gt;Packet&lt;/a&gt;, a bare-metal hosting
+provider in the city. This report details highlights of the presentations
+at the event as well as accounts from attendees of what they thought
+was missing from the presentation and discussions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_v0.9.2.jpg&#34; style=&#34;max-width=100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt; is an orchestration system that runs on top of a container
+system like &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;. It allows an enterprise or service provider to
+define a system that can scale up and down according to need. &lt;a href=&#34;http://blog.kubernetes.io/2016/12/kubernetes-1.5-supporting-production-workloads.html&#34;&gt;Version 1.5 of Kubernetes&lt;/a&gt;
+was announced during the event, and it has extended
+beyond the previous version by speeding up operations so that it can
+support larger clusters.&lt;/p&gt;
+
+&lt;p&gt;The Kubernetes project is relatively young, but it draws from
+the experience of Google&amp;rsquo;s &amp;ldquo;Borg&amp;rdquo; program. Version 1.0 came
+out about two years ago, and there have been tens of thousands
+of contributions to the codebase since then.&lt;/p&gt;
+
+&lt;h3 id=&#34;kubernetes-project-management-openstack-docker-comparison&#34;&gt;Kubernetes project management; OpenStack, Docker comparison&lt;/h3&gt;
+
+&lt;p&gt;The Kubernetes project is run by the &lt;a href=&#34;https://www.cncf.io/&#34;&gt;Cloud Native Computing Foundation&lt;/a&gt;,
+which is about 50% by weight Google and the rest other cloud providers
+like Amazon. There was some political discussion at the event where it
+was clear that Kubernetes proponents made an effort to distance themselves
+from the &lt;a href=&#34;http://www.openstack.org/foundation&#34;&gt;OpenStack Foundation&lt;/a&gt;. &lt;a href=&#34;http://www.openstack.org&#34;&gt;OpenStack&lt;/a&gt; was what people were doing
+a few years ago to solve a similar set of problems, and that project
+has floundered because of a combination of vendor-induced complexity
+and a set of designs that did not reflect actual operation practice.
+While the Kubernetes folks were all polite to OpenStack, they were
+clear that they did not want to be tarred with the same brush.&lt;/p&gt;
+
+&lt;p&gt;The other product positioning and political interest at the event was
+how various organizations were dealing with &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;. That company
+controls the container system that is being orchestrated by Kubernetes,
+but also has been clawing its way up the stack acquiring other organizations
+that do container management and monitoring and developing additional
+capacities beyond the container core.  &lt;a href=&#34;https://www.docker.com/products/docker-swarm&#34;&gt;Docker Swarm&lt;/a&gt; competes with
+Kubernetes, in the same way that the &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;rkt&lt;/a&gt; container engine competes
+with [containerd] provided by Docker. The Kubernetes
+team would really rather have a vendor-neutral, stable, drama free
+container engine, rather than one that mutates all the time.&lt;/p&gt;
+
+&lt;h3 id=&#34;self-driving-kubernetes-tectonic-from-coreos&#34;&gt;Self-driving Kubernetes: Tectonic from CoreOS&lt;/h3&gt;
+
+&lt;p&gt;The major product announcement at the event was from CoreOS, their
+namesake &lt;a href=&#34;https://tectonic.com/&#34;&gt;Tectonic&lt;/a&gt; product. The latest release of Tectonic is said to
+be &amp;ldquo;self-driving&amp;rdquo;, i.e. will upgrade the version of Kubernetes on
+a cluster automatically. Their observation was that people who
+run Kubernetes spend an inordinate amount of time outside of Kubernetes
+upgrading systems when a new version comes out, and that there was
+an opportunity to remove that burden by automatically handling
+upgrades using a strategy much like CoreOS&amp;rsquo;s own &lt;a href=&#34;https://coreos.com/os/docs/latest/&#34;&gt;Container Linux&lt;/a&gt;
+which automagically installs new versions when they are available.&lt;/p&gt;
+
+&lt;p&gt;Tectonic is now available with a &lt;a href=&#34;https://coreos.com/press/tectonic-self-driving.html&#34;&gt;free 10-node license&lt;/a&gt;. This is
+a new pricing strategy aimed at capturing the trial and test user
+market and offering an easier self-service onramp to getting started
+with the system.&lt;/p&gt;
+
+&lt;h3 id=&#34;sysdig-kubernetes-monitoring-and-debugging-tool&#34;&gt;Sysdig, Kubernetes monitoring and debugging tool&lt;/h3&gt;
+
+&lt;p&gt;Kubernetes monitoring was demonstrated by &lt;a href=&#34;http://www.sysdig.org/&#34;&gt;Sysdig&lt;/a&gt;, which has a product
+both for individual system monitoring and for container monitoring
+of Kubernetes and Docker systems. There is lots of complexity in the container
+world, with processes moving here and there and logical systems
+dispersed across physical machines. sysdig starts with a robust
+monitoring and introspection technology that can replace lots of
+one-shot Linux monitoring tools (ps, top, sysstat etc) and extends
+that tool function all the way up into Kubernetes.&lt;/p&gt;
+
+&lt;p&gt;Provided for a fee is &lt;a href=&#34;https://sysdig.com/sysdig/&#34;&gt;Sysdig Cloud&lt;/a&gt; which puts a point-and-click GUI interface on
+Kubernetes networking so that you get the whole picture at whatever
+level of detail you want. Sysdig&amp;rsquo;s CEO also presented in Chicago at Docker Chicago.&lt;/p&gt;
+
+&lt;h3 id=&#34;helm-kubernetes-provisioning-tool&#34;&gt;Helm, Kubernetes provisioning tool&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://helm.sh&#34;&gt;Helm&lt;/a&gt; was described as &amp;ldquo;like apt-get for Kubernetes&amp;rdquo;; it promises to make
+deployment of systems easier by allowing a prepackaged set of commands
+and configurations to be distributed through a central registry or
+produced for your own private use. Every system needs a package manager.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-studies-ticketmaster-planet&#34;&gt;Case studies: Ticketmaster, Planet&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/rossdakin/status/808323710381920256&#34;&gt;Ticketmaster&lt;/a&gt; was the main customer case study provided. Their system
+architecture support a very large, complex, heterogeneous workload
+with very old legacy stuff in the core of it (an old Vax, with its
+brain pickled into an emulator). The ticketing business model is
+a &amp;ldquo;self-induced DDOS attack&amp;rdquo; with very bursty loads when tickets
+go on sale. They use Kubernetes to schedule containers so as to
+handle peak loads better.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.planet.com/&#34;&gt;Planet&lt;/a&gt; was a second case study, which does global daily hi res
+satellite imagery.  Their previous operations environment deployed
+VMs with Ansible, which led to a relatively slow deployment process
+in which every image had crazy dependencies. Docker helps contain
+dependency interactions.  Kubernetes helps scheduling and deployment
+of resources as they are needed, so they can spin up and spin down
+resources specific to a task and not have to guess what part of the
+world their users are interested in today.&lt;/p&gt;
+
+&lt;h3 id=&#34;storage-the-missing-link&#34;&gt;Storage, the missing link&lt;/h3&gt;
+
+&lt;p&gt;Notably missing from the discussion was a comprehensive look at
+storage. People had seemed to have sorted out at least the basics
+of networking and compute distribution over these large workloads,
+but anyone who had large storage needs had worked out something
+specific and purpose-built to their environment.&lt;/p&gt;
+
+&lt;p&gt;I had a conversation with the CTO of Quantum who is
+the project lead for &lt;a href=&#34;https://rook.io/&#34;&gt;Rook&lt;/a&gt; which uses an embedded &lt;a href=&#34;https://www.mail-archive.com/ceph-users@lists.ceph.com/msg34143.html&#34;&gt;Ceph&lt;/a&gt; filesystem.
+Ceph is one of the file systems that has come out of the
+cluster world, and Rook is an attempt to cut it down to
+size and simplify it so that it can be easily embedded
+as container storage.&lt;/p&gt;
+
+&lt;p&gt;No one really wants to write a file system from scratch and use it
+in production that same year. The most mature file systems are decades
+old and have a long history of correctness and performance tweaks.
+Of all things to worry about people are largely unwilling to put
+production loads on untested storage.&lt;/p&gt;
+
+&lt;h3 id=&#34;kubernetes-progress-development-testing-deployment&#34;&gt;Kubernetes progress: development, testing, deployment&lt;/h3&gt;
+
+&lt;p&gt;What people are using Kubernetes for: mostly for testing. The average
+size of a cluster is less than 3 nodes, according to a Gartner
+analyst.  &lt;a href=&#34;bare metal hosting&#34;&gt;Packet&lt;/a&gt; has seen uptake as a Kubernetes
+test environment - it&amp;rsquo;s cheaper to provision bare metal than AWS or VMs
+for Kubernetes, and performant enough for the test environment.&lt;/p&gt;
+
+&lt;h3 id=&#34;arm-in-the-data-center&#34;&gt;ARM in the data center.&lt;/h3&gt;
+
+&lt;p&gt;We had a good lunch discussion of ARM processors in the data center. Question:
+is there any way to displace Intel&amp;rsquo;s dominance of data center
+computing?  ARM has advantages at very low end due to low power
+consumption, and the 4-core ARM Raspberry Pi 3 is a popular testbed for home clustering
+but not suitable for data center use. Packet has a &lt;a href=&#34;https://www.packet.net/bare-metal/servers/type-2a/&#34;&gt;96-core ARMv8 server&lt;/a&gt;
+that we have been involved in testing, and there was lots of interest in
+stories around that.&lt;/p&gt;
+
+&lt;p&gt;The challenges of ARM in the data center: Intel dominance on software
+side, some small amount of fragmentation in Unix flavors, immaturity
+of software ports to ARMv8 (even as compared to ARMv7), unconvincing
+economics. One ex-Transmeta guy was very pessimistic about displacing
+Intel because of Intel&amp;rsquo;s manufacturing lead. On the other hand a Khosla Ventures
+exec was bullish on &lt;a href=&#34;http://www.cavium.com&#34;&gt;Cavium&lt;/a&gt;, an ARM server core vendor, and thought they
+had a long way to grow. He was interested in a call back in 30 - 90
+days with report on uptake.&lt;/p&gt;
+
+&lt;h3 id=&#34;site-visit-packet-net&#34;&gt;Site visit: Packet.net&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://packet.net&#34;&gt;Packet&lt;/a&gt; provides bare metal as a service, either in your data
+center or their own. The office was very busy and bursting at the
+seams, with people sitting everywhere and a steady stream of vendors and
+partners in evidence. Packet are very nice, prompt, pleasant people to deal
+with, and they are expanding to new markets (Japan) with new
+investment (Softbank) on new servers (ARMv8).&lt;/p&gt;
+
+&lt;p&gt;The hosting market was explained to me this way: some companies have OpEx to
+spend, so they spend it on AWS; others have CapEx to spend, so they
+are trying to build a data center operating platform that&amp;rsquo;s friendly
+to using on premises. Can you run your system on other people&amp;rsquo;s
+capital? The Packet founders have been through this before and seem to have
+built a culture that knows its market.&lt;/p&gt;
+
+&lt;h3 id=&#34;in-conclusion&#34;&gt;In conclusion&lt;/h3&gt;
+
+&lt;p&gt;Good conference, and thanks to CoreOS for organizing the event
+and to Packet for inviting us to participate!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Optimal Opera</title>
+      <link>http://vielmetti.github.io/post/2016/2016-12-19-optimal-opera/</link>
+      <pubDate>Mon, 19 Dec 2016 08:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-12-19-optimal-opera/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m testing out using Opera instead of Chrome as my browser of choice, as recommended by Ernie Smith.  So far so good.
+He notes that Opera is &amp;ldquo;basically Chrome (same engine) minus the battery drain&amp;rdquo;.
+My experience to date bears that out, though it&amp;rsquo;s in the early stages yet.&lt;/p&gt;
+
+&lt;p&gt;The first thing I noticed is that memory usage for Opera is way less than for Chrome.
+That&amp;rsquo;s a big deal for me because I&amp;rsquo;m often noticing that this MacBook Air is in the red zone for memory with Chrome.
+With Opera that&amp;rsquo;s not the case so far - memory has been green since starting.
+This should also translate into less SSD disk activity for swapping, and better battery life.&lt;/p&gt;
+
+&lt;p&gt;The default configuration includes a lot of interesting features, including an ad blocker and a VPN.
+Both of those are interesting, but not a complete replacement for the tools I&amp;rsquo;m looking for.&lt;/p&gt;
+
+&lt;p&gt;The ad blocker is speedy, but it doesn&amp;rsquo;t block the comments on MLive, which is a pity - Ghostery did that well.
+Fortunately, Ghostery is supported on Opera, so I can have two ad blockers running at once to get the desired result.
+Opera counts the number of ads blocked. I don&amp;rsquo;t know if Ghostery&amp;rsquo;s blocked ads are double-counted.&lt;/p&gt;
+
+&lt;p&gt;The VPN is set up to work with a public VPN endpoint, but I can&amp;rsquo;t configure it to use my private endpoint.
+There are a number of other VPN plugins (plugsin?) available, each connecting to their own set of endpoints.
+I&amp;rsquo;d like a general-purpose VPN tool that allows me to run my own endpoint, but I haven&amp;rsquo;t found one yet.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t import all of my bookmarks and cookies and passwords, which is a attempt to stay away from Facebook.
+Ask me how much time I spend (or waste) on Facebook! There must be a better use of your time than that.
+&lt;a href=&#34;https://mathbabe.org/2016/12/06/i-quit-facebook-and-my-life-is-better-now/&#34;&gt;Quit Facebook and make your life better&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Derp Learning</title>
+      <link>http://vielmetti.github.io/post/2016/2016-11-24-derp-learning/</link>
+      <pubDate>Thu, 24 Nov 2016 15:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2016/2016-11-24-derp-learning/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Derp Learning&amp;rdquo; is a categorization of the mistakes that &amp;ldquo;deep learning&amp;rdquo; techniques
+in artificial intelligence tend to make. It&amp;rsquo;s a typo, but also a deep insight into
+how complex systems fail.&lt;/p&gt;
+
+&lt;p&gt;Some examples to illustrate:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1412.1897&#34;&gt;Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images&lt;/a&gt;, 2014.
+Nguyen describes &amp;ldquo;fooling images&amp;rdquo; that deep neural networks misclassify after being
+trained with a training set. These images are straightforward to construct and
+will fool the network with high confidence.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dailydot.com/debug/tay-racist-microsoft-twitter/&#34;&gt;Microsoft&amp;rsquo;s racist robot and the problem with AI development&lt;/a&gt;,
+The Daily Dot, 2016. Microsoft&amp;rsquo;s conversational chatbot &amp;ldquo;Tay&amp;rdquo; undergoes some unsupervised learning from Twitter,
+and emerges as a racist Holocaust denier.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.bbc.com/news/technology-38092196?ocid=socialflow_twitter&#34;&gt;Convict-spotting algorithm criticised&lt;/a&gt;, BBC, 2016.
+A &lt;a href=&#34;https://arxiv.org/pdf/1611.04135v2.pdf&#34;&gt;paper&lt;/a&gt; from Wu and Zhang purports to find that
+Chinese faces can be automatically classified as criminal based on facial
+characteristics such as the curvature of the upper lip. This &amp;ldquo;research&amp;rdquo;
+hearkens back to the bad old days of phrenology when criminologists
+predicted behavior based on the bumps on people&amp;rsquo;s heads.&lt;/p&gt;
+
+&lt;p&gt;Artificial intelligence doesn&amp;rsquo;t kill people; training data kills people.&lt;/p&gt;
 </description>
     </item>
     
