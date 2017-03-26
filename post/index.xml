@@ -62,6 +62,75 @@ a smattering of interesting new bugs).&lt;/p&gt;
     </item>
     
     <item>
+      <title>Oblique strategies as a service</title>
+      <link>http://vielmetti.github.io/post/2017/2017-W12-4-oblique-strategy-as-a-service/</link>
+      <pubDate>Fri, 24 Mar 2017 11:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-W12-4-oblique-strategy-as-a-service/</guid>
+      <description>&lt;p&gt;In 1975, Brian Eno and Peter Schmidt collaborated on
+a card deck of strategies for overcoming creative blocks.
+This was produced in limited and somewhat varying editions,
+and when it escaped into the computing world at slightly
+later date, various electronic versions were produced
+(including one in FORTRAN). &lt;a href=&#34;http://aprendizdetodo.com/toys/?item=20041208&#34;&gt;Prentiss Riddle noted&lt;/a&gt; some
+of this history in 2004.&lt;/p&gt;
+
+&lt;p&gt;The &amp;lsquo;oblique&amp;rsquo; code is simple; a file with strategies, one per line,
+and a function to return a random line from that file.
+There are lots of random line functions out there, including
+the GNU &amp;ldquo;shuf&amp;rdquo; command, and various implementations done
+purely in the Unix shell.&lt;/p&gt;
+
+&lt;p&gt;In the tradition of exercising the card &amp;ldquo;Use an old idea&amp;rdquo;
+I present to you &amp;ldquo;Oblique strategies as a service&amp;rdquo;,
+implemented on Alex Ellis&amp;rsquo;s &amp;ldquo;Functions as a service&amp;rdquo; platform.
+The short version of how to do this involves starting from
+the &lt;a href=&#34;https://github.com/alexellis/faas&#34;&gt;Github repository&lt;/a&gt; and
+installing it according to the blog post at
+&lt;a href=&#34;http://blog.alexellis.io/functions-as-a-service/&#34;&gt;http://blog.alexellis.io/functions-as-a-service/&lt;/a&gt; . Bring up
+the sample according to directions, then follow the discussion
+at &lt;a href=&#34;https://github.com/alexellis/faas/issues/26&#34;&gt;https://github.com/alexellis/faas/issues/26&lt;/a&gt; to see how to
+add a new function at runtime. At some point it boils down to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% curl localhost:8080/system/functions -d &#39;
+{&amp;quot;service&amp;quot;: &amp;quot;oblique&amp;quot;, &amp;quot;image&amp;quot;: &amp;quot;vielmetti/faas-oblique&amp;quot;, &amp;quot;envProcess&amp;quot;: &amp;quot;/usr/bin/oblique&amp;quot;, &amp;quot;network&amp;quot;: &amp;quot;func_functions&amp;quot;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to instantiate the function, and then&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% curl -d &amp;quot;&amp;quot; localhost:8080/functions/oblique
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to call it.&lt;/p&gt;
+
+&lt;p&gt;Alex&amp;rsquo;s system relies on a long-running process in each
+containers, a so-called &amp;ldquo;watchdog&amp;rdquo; process that accepts
+requests, handles input/output to the function through
+the Go os/exec syscall, and marshalls requests.
+The actual function can be really anything including
+any command that communicates through stdio.&lt;/p&gt;
+
+&lt;p&gt;Some related work:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazon&amp;rsquo;s &amp;ldquo;Lambda&amp;rdquo; service&lt;/li&gt;
+&lt;li&gt;Glider Lab&amp;rsquo;s &amp;ldquo;cmd.io&amp;rdquo;, &amp;ldquo;commands as a service&amp;rdquo;; see &lt;a href=&#34;http://gliderlabs.com/devlog/2016/announcing-cmd-io/&#34;&gt;announcing cmd.io&lt;/a&gt;, 2016 build on top of ssh&lt;/li&gt;
+&lt;li&gt;Ben Firshman&amp;rsquo;s &amp;ldquo;Funker&amp;rdquo;, Functions as Docker containers; see &lt;a href=&#34;https://github.com/bfirsh/funker&#34;&gt;Funker repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have this running successfully on my Mac, in Docker 17.03.1-ce-rc1-mac3
+(15924) on the &amp;ldquo;edge&amp;rdquo; release channel. Performance is
+on par with a local invocation of the same command.&lt;/p&gt;
+
+&lt;p&gt;Next steps? Why of course, port Functions as a Service to
+ARMv8. It&amp;rsquo;s already in the midst of being set up for ARM-based
+Raspberry Pi systems, so the portability work has been
+isolated. Follow the issue at &lt;a href=&#34;https://github.com/alexellis/faas/issues/27&#34;&gt;https://github.com/alexellis/faas/issues/27&lt;/a&gt;
+to see where we are going with that.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Templated issue reporting in Github</title>
       <link>http://vielmetti.github.io/post/2017/2017-W11-4-issue-reporting/</link>
       <pubDate>Fri, 17 Mar 2017 09:00:00 +0000</pubDate>
@@ -743,38 +812,6 @@ I&amp;rsquo;d like a general-purpose VPN tool that allows me to run my own endpo
 &lt;p&gt;I didn&amp;rsquo;t import all of my bookmarks and cookies and passwords, which is a attempt to stay away from Facebook.
 Ask me how much time I spend (or waste) on Facebook! There must be a better use of your time than that.
 &lt;a href=&#34;https://mathbabe.org/2016/12/06/i-quit-facebook-and-my-life-is-better-now/&#34;&gt;Quit Facebook and make your life better&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Derp Learning</title>
-      <link>http://vielmetti.github.io/post/2016/2016-11-24-derp-learning/</link>
-      <pubDate>Thu, 24 Nov 2016 15:00:00 -0500</pubDate>
-      
-      <guid>http://vielmetti.github.io/post/2016/2016-11-24-derp-learning/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Derp Learning&amp;rdquo; is a categorization of the mistakes that &amp;ldquo;deep learning&amp;rdquo; techniques
-in artificial intelligence tend to make. It&amp;rsquo;s a typo, but also a deep insight into
-how complex systems fail.&lt;/p&gt;
-
-&lt;p&gt;Some examples to illustrate:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1412.1897&#34;&gt;Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images&lt;/a&gt;, 2014.
-Nguyen describes &amp;ldquo;fooling images&amp;rdquo; that deep neural networks misclassify after being
-trained with a training set. These images are straightforward to construct and
-will fool the network with high confidence.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.dailydot.com/debug/tay-racist-microsoft-twitter/&#34;&gt;Microsoft&amp;rsquo;s racist robot and the problem with AI development&lt;/a&gt;,
-The Daily Dot, 2016. Microsoft&amp;rsquo;s conversational chatbot &amp;ldquo;Tay&amp;rdquo; undergoes some unsupervised learning from Twitter,
-and emerges as a racist Holocaust denier.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bbc.com/news/technology-38092196?ocid=socialflow_twitter&#34;&gt;Convict-spotting algorithm criticised&lt;/a&gt;, BBC, 2016.
-A &lt;a href=&#34;https://arxiv.org/pdf/1611.04135v2.pdf&#34;&gt;paper&lt;/a&gt; from Wu and Zhang purports to find that
-Chinese faces can be automatically classified as criminal based on facial
-characteristics such as the curvature of the upper lip. This &amp;ldquo;research&amp;rdquo;
-hearkens back to the bad old days of phrenology when criminologists
-predicted behavior based on the bumps on people&amp;rsquo;s heads.&lt;/p&gt;
-
-&lt;p&gt;Artificial intelligence doesn&amp;rsquo;t kill people; training data kills people.&lt;/p&gt;
 </description>
     </item>
     
