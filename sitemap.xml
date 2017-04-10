@@ -10776,14 +10776,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/categories/apples/</loc>
-    <lastmod>2013-10-28T10:10:30+00:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/apples/</loc>
+    <lastmod>2014-11-01T12:46:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/apples/</loc>
-    <lastmod>2014-11-01T12:46:38+00:00</lastmod>
+    <loc>http://vielmetti.github.io/categories/apples/</loc>
+    <lastmod>2013-10-28T10:10:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11202,6 +11202,12 @@
   </url>
   
   <url>
+    <loc>http://vielmetti.github.io/recipes/blueberries/</loc>
+    <lastmod>2013-07-17T13:47:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://vielmetti.github.io/categories/blueberries/</loc>
     <lastmod>2012-07-03T21:21:27+00:00</lastmod>
     <priority>0</priority>
@@ -11210,12 +11216,6 @@
   <url>
     <loc>http://vielmetti.github.io/tags/blueberries/</loc>
     <lastmod>2008-07-22T23:50:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://vielmetti.github.io/recipes/blueberries/</loc>
-    <lastmod>2013-07-17T13:47:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11364,14 +11364,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/broccoli/</loc>
-    <lastmod>2016-09-06T17:00:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/broccoli/</loc>
+    <lastmod>2014-01-13T19:42:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/broccoli/</loc>
-    <lastmod>2014-01-13T19:42:51+00:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/broccoli/</loc>
+    <lastmod>2016-09-06T17:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11496,14 +11496,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/cauliflower/</loc>
-    <lastmod>2015-07-14T18:15:02-04:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/cauliflower/</loc>
+    <lastmod>2009-12-06T13:38:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/cauliflower/</loc>
-    <lastmod>2009-12-06T13:38:38+00:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/cauliflower/</loc>
+    <lastmod>2015-07-14T18:15:02-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11772,6 +11772,12 @@
   </url>
   
   <url>
+    <loc>http://vielmetti.github.io/code/</loc>
+    <lastmod>2015-07-17T16:11:41-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://vielmetti.github.io/categories/code/</loc>
     <lastmod>2015-07-31T02:30:00-04:00</lastmod>
     <priority>0</priority>
@@ -11780,12 +11786,6 @@
   <url>
     <loc>http://vielmetti.github.io/tags/code/</loc>
     <lastmod>2015-07-22T10:05:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://vielmetti.github.io/code/</loc>
-    <lastmod>2015-07-17T16:11:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11958,14 +11958,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/curry/</loc>
-    <lastmod>2016-02-14T21:00:00-05:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/curry/</loc>
+    <lastmod>2009-12-06T13:38:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/curry/</loc>
-    <lastmod>2009-12-06T13:38:38+00:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/curry/</loc>
+    <lastmod>2016-02-14T21:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12270,6 +12270,12 @@
   </url>
   
   <url>
+    <loc>http://vielmetti.github.io/code/docker/</loc>
+    <lastmod>2015-09-11T17:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://vielmetti.github.io/categories/docker/</loc>
     <lastmod>2015-06-22T16:53:10-04:00</lastmod>
     <priority>0</priority>
@@ -12278,12 +12284,6 @@
   <url>
     <loc>http://vielmetti.github.io/tags/docker/</loc>
     <lastmod>2016-10-28T10:30:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://vielmetti.github.io/code/docker/</loc>
-    <lastmod>2015-09-11T17:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12684,14 +12684,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/espresso-over-ice/</loc>
-    <lastmod>2015-07-22T10:05:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/espresso-over-ice/</loc>
+    <lastmod>2015-07-21T10:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/espresso-over-ice/</loc>
-    <lastmod>2015-07-21T10:30:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/espresso-over-ice/</loc>
+    <lastmod>2015-07-22T10:05:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13122,14 +13122,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/git/</loc>
-    <lastmod>2015-06-27T23:06:54-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/git/</loc>
+    <lastmod>2015-09-22T07:15:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/git/</loc>
-    <lastmod>2015-09-22T07:15:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/git/</loc>
+    <lastmod>2015-06-27T23:06:54-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13146,14 +13146,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/github-issues/</loc>
-    <lastmod>2015-12-02T07:00:00-05:00</lastmod>
+    <loc>http://vielmetti.github.io/code/github-issues/</loc>
+    <lastmod>2015-08-22T23:55:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/github-issues/</loc>
-    <lastmod>2015-08-22T23:55:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/github-issues/</loc>
+    <lastmod>2015-12-02T07:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13266,14 +13266,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/categories/gopher/</loc>
-    <lastmod>2014-10-08T13:43:16+00:00</lastmod>
+    <loc>http://vielmetti.github.io/code/gopher/</loc>
+    <lastmod>2015-07-21T10:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/gopher/</loc>
-    <lastmod>2015-07-21T10:30:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/categories/gopher/</loc>
+    <lastmod>2014-10-08T13:43:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13290,14 +13290,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/gqrx/</loc>
-    <lastmod>2015-03-30T18:50:16-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/gqrx/</loc>
+    <lastmod>2015-08-23T11:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/gqrx/</loc>
-    <lastmod>2015-08-23T11:00:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/gqrx/</loc>
+    <lastmod>2015-03-30T18:50:16-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14082,6 +14082,12 @@
   </url>
   
   <url>
+    <loc>http://vielmetti.github.io/recipes/juneberries/</loc>
+    <lastmod>2013-05-23T16:36:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://vielmetti.github.io/tags/juneberries/</loc>
     <lastmod>2008-06-17T22:03:39+00:00</lastmod>
     <priority>0</priority>
@@ -14090,12 +14096,6 @@
   <url>
     <loc>http://vielmetti.github.io/keyphrases/juneberries/</loc>
     <lastmod>2015-06-15T22:30:06-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://vielmetti.github.io/recipes/juneberries/</loc>
-    <lastmod>2013-05-23T16:36:22+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14418,14 +14418,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/little-bird/</loc>
-    <lastmod>2015-07-21T16:57:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/little-bird/</loc>
+    <lastmod>2015-07-22T15:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/little-bird/</loc>
-    <lastmod>2015-07-22T15:00:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/little-bird/</loc>
+    <lastmod>2015-07-21T16:57:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15084,13 +15084,13 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/keyphrases/morel/</loc>
+    <loc>http://vielmetti.github.io/recipes/morel/</loc>
     <lastmod>2009-04-25T08:48:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/morel/</loc>
+    <loc>http://vielmetti.github.io/keyphrases/morel/</loc>
     <lastmod>2009-04-25T08:48:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -15504,14 +15504,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/openvpn/</loc>
-    <lastmod>2016-09-06T17:00:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/openvpn/</loc>
+    <lastmod>2015-09-07T00:45:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/openvpn/</loc>
-    <lastmod>2015-09-07T00:45:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/openvpn/</loc>
+    <lastmod>2016-09-06T17:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15690,14 +15690,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/paw-paw/</loc>
-    <lastmod>2013-10-21T22:16:23+00:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/paw-paw/</loc>
+    <lastmod>2008-09-08T10:03:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/paw-paw/</loc>
-    <lastmod>2008-09-08T10:03:00+00:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/paw-paw/</loc>
+    <lastmod>2013-10-21T22:16:23+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15984,14 +15984,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/potato/</loc>
-    <lastmod>2015-07-18T14:23:56-04:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/potato/</loc>
+    <lastmod>2014-11-02T00:45:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/potato/</loc>
-    <lastmod>2014-11-02T00:45:52+00:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/potato/</loc>
+    <lastmod>2015-07-18T14:23:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16158,14 +16158,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/python/</loc>
-    <lastmod>2016-10-13T00:15:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/python/</loc>
+    <lastmod>2015-07-17T16:11:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/python/</loc>
-    <lastmod>2015-07-17T16:11:41-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/python/</loc>
+    <lastmod>2016-10-13T00:15:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16194,14 +16194,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/r/</loc>
-    <lastmod>2015-07-18T14:23:56-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/r/</loc>
+    <lastmod>2015-07-24T09:55:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/r/</loc>
-    <lastmod>2015-07-24T09:55:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/r/</loc>
+    <lastmod>2015-07-18T14:23:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16296,14 +16296,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/raspberry-pi/</loc>
-    <lastmod>2016-07-11T13:30:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/raspberry-pi/</loc>
+    <lastmod>2015-09-07T00:45:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/raspberry-pi/</loc>
-    <lastmod>2015-09-07T00:45:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/raspberry-pi/</loc>
+    <lastmod>2016-07-11T13:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16344,6 +16344,12 @@
   </url>
   
   <url>
+    <loc>http://vielmetti.github.io/recipes/</loc>
+    <lastmod>2014-11-01T12:46:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://vielmetti.github.io/categories/recipes/</loc>
     <lastmod>2015-07-19T21:36:25-04:00</lastmod>
     <priority>0</priority>
@@ -16352,12 +16358,6 @@
   <url>
     <loc>http://vielmetti.github.io/tags/recipes/</loc>
     <lastmod>2016-02-14T21:00:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://vielmetti.github.io/recipes/</loc>
-    <lastmod>2014-11-01T12:46:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16620,14 +16620,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/salt/</loc>
-    <lastmod>2016-09-06T17:00:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/salt/</loc>
+    <lastmod>2015-09-07T00:45:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/salt/</loc>
-    <lastmod>2015-09-07T00:45:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/salt/</loc>
+    <lastmod>2016-09-06T17:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16662,14 +16662,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/categories/sandwiches/</loc>
-    <lastmod>2011-12-07T01:57:03+00:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/sandwiches/</loc>
+    <lastmod>2011-12-04T22:18:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/sandwiches/</loc>
-    <lastmod>2011-12-04T22:18:20+00:00</lastmod>
+    <loc>http://vielmetti.github.io/categories/sandwiches/</loc>
+    <lastmod>2011-12-07T01:57:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16949,14 +16949,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/soup/</loc>
-    <lastmod>2015-07-14T18:15:02-04:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/soup/</loc>
+    <lastmod>2013-02-11T22:26:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/soup/</loc>
-    <lastmod>2013-02-11T22:26:16+00:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/soup/</loc>
+    <lastmod>2015-07-14T18:15:02-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17099,14 +17099,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/categories/strawberries/</loc>
-    <lastmod>2013-05-22T13:57:19+00:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/strawberries/</loc>
+    <lastmod>2009-06-14T23:42:36+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/strawberries/</loc>
-    <lastmod>2009-06-14T23:42:36+00:00</lastmod>
+    <loc>http://vielmetti.github.io/categories/strawberries/</loc>
+    <lastmod>2013-05-22T13:57:19+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17177,14 +17177,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/sweet-potato/</loc>
-    <lastmod>2015-07-14T18:15:02-04:00</lastmod>
+    <loc>http://vielmetti.github.io/recipes/sweet-potato/</loc>
+    <lastmod>2013-12-26T13:52:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/recipes/sweet-potato/</loc>
-    <lastmod>2013-12-26T13:52:27+00:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/sweet-potato/</loc>
+    <lastmod>2015-07-14T18:15:02-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17591,14 +17591,14 @@
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/tags/travisci/</loc>
-    <lastmod>2015-09-20T09:00:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/code/travisci/</loc>
+    <lastmod>2015-09-16T09:22:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://vielmetti.github.io/code/travisci/</loc>
-    <lastmod>2015-09-16T09:22:00-04:00</lastmod>
+    <loc>http://vielmetti.github.io/tags/travisci/</loc>
+    <lastmod>2015-09-20T09:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   

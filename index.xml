@@ -30,7 +30,7 @@ The current set of systems that are an area of focus - and the places I draw fro
       <guid>http://vielmetti.github.io/post/2017/2017-w15-1-upgrade-to-hugo-0-20/</guid>
       <description>I&amp;rsquo;ve upgraded this weblog to Hugo 0.20, which is available by Homebrew on the Mac and with a series of prebuilt binaries for many systems.
 Hugo in this 0.20 new release promises a lot of new features, including but not limited to support for rendering calendars. I&amp;rsquo;ll give it a try.
-One of the goals of Hugo for me is also getting it to run on linux/arm64. It should be easy, since it&amp;rsquo;s written in Go, and golang ports are absurdly easy.</description>
+One of my goals of Hugo is getting it to run on linux/arm64. It should be easy, since it&amp;rsquo;s written in Go, and golang ports are absurdly easy.</description>
     </item>
     
     <item>
