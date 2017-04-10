@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/code/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Code on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/code/</link>
+    <description>Recent content in Code on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2015 02:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>mitmproxy</title>
@@ -14,33 +17,8 @@
       <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</guid>
-      <description>&lt;p&gt;In his &lt;a href=&#34;http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/&#34;&gt;An internet x-ray machine for the masses&lt;/a&gt;, Paul Ohm writes a lucid introduction to
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;mitmproxy&lt;/span&gt;,
-a man-in-the-middle proxy server that allows you to
-get between your browser and the Internet and poke at
-(and change) the traffic going between the two.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mitmproxy.org&#34;&gt;http://mitmproxy.org&lt;/a&gt; is the home of mitmproxy. It&amp;rsquo;s
-the work of &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Aldo Cortesi&lt;/span&gt; and a cast of
-hundreds of contributors on github at &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;https://github.com/mitmproxy/mitmproxy&lt;/a&gt; .
-I used the OS X binary distribution from the download page.
-There&amp;rsquo;s also a nifty Dockerized version on
-Dockerhub as &lt;a href=&#34;https://registry.hub.docker.com/u/mitmproxy/mitmproxy/&#34;&gt;docker pull mitmproxy/mitmproxy&lt;/a&gt;
-to get you started quickly too.&lt;/p&gt;
-
-&lt;p&gt;Man-in-the-middle (or monkey-in-the-middle) systems are not
-new, of course, and Dug Song&amp;rsquo;s &lt;a href=&#34;http://www.monkey.org/~dugsong/dsniff/&#34;&gt;dsniff&lt;/a&gt;
-package dates to 1999. What we&amp;rsquo;ve learned in a decade and a half
-is that security through obscurity vanishes in the face of better
-tools for looking at network traffic as it&amp;rsquo;s going by with high
-level tools for making sense of what&amp;rsquo;s there.&lt;/p&gt;
-
-&lt;p&gt;As ever, all of these tools have both benign and malicious uses.
-If you can trick someone into using your proxy server for their
-traffic, all kinds of foolishness can result. Better is the use
-that you proxy your own traffic and behold all of the cookies,
-beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
-</description>
+      <description>In his An internet x-ray machine for the masses, Paul Ohm writes a lucid introduction to mitmproxy, a man-in-the-middle proxy server that allows you to get between your browser and the Internet and poke at (and change) the traffic going between the two.
+http://mitmproxy.org is the home of mitmproxy. It&amp;rsquo;s the work of Aldo Cortesi and a cast of hundreds of contributors on github at https://github.com/mitmproxy/mitmproxy . I used the OS X binary distribution from the download page.</description>
     </item>
     
     <item>
@@ -49,13 +27,7 @@ beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
       <pubDate>Tue, 21 Jul 2015 18:48:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/p8952/bocker&#34;&gt;bocker&lt;/a&gt; is Docker (or at least
-a good sized subset of it) in 100 lines of shell script.
-I suppose the point is that even though there&amp;rsquo;s a huge
-world of hype surrounding containerization as a next step
-of systems management, when you get down to it, it&amp;rsquo;s just not
-that complicated.&lt;/p&gt;
-</description>
+      <description>bocker is Docker (or at least a good sized subset of it) in 100 lines of shell script. I suppose the point is that even though there&amp;rsquo;s a huge world of hype surrounding containerization as a next step of systems management, when you get down to it, it&amp;rsquo;s just not that complicated.</description>
     </item>
     
     <item>
@@ -64,148 +36,8 @@ that complicated.&lt;/p&gt;
       <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-21-daily-coffee-wifi-erc-south-main/</guid>
-      <description>&lt;p&gt;Espresso over ice at ERC South Main. This is now my favorite summer drink.
-Served in a cup with enough ice and you get the makings of a very strong
-iced latte, just add a little half and half.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The work of the morning is finishing up yesterday&amp;rsquo;s work on sending
-postcards with Lob.com. Key to this effort is resizing your favorite
-images so that they meet the template. Fortunately I had the presence
-of mind seven years ago to
-&lt;a href=&#34;http://vielmetti.github.io/post/2008/2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly/&#34;&gt;write up my notes on using sips and Imagemagick&lt;/a&gt;
-for image manipulation and that helped. In this case the magic incantation
-was&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sips -z 1275 1875 original.jpg --out new.jpg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t have a Mac, or want to do this on a server or container
-somewhere, you&amp;rsquo;ll want Imagemagick. That venerable program has a
-bazillion options, and you&amp;rsquo;ll find the image geometry options at
-&lt;a href=&#34;http://www.imagemagick.org/script/command-line-processing.php#geometry&#34;&gt;http://www.imagemagick.org/script/command-line-processing.php#geometry&lt;/a&gt; .
-Recreating this exact sips command is left as an exercise for the reader.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;That bit of image processing taken care of, the next iteration is to
-launch a few actual postcards into the ether. After having confirmed
-that everything goes OK on the test key, I sent out four cards. Estimated
-delivery date is July 30, so I&amp;rsquo;m expecting about a two week turnaround
-for feedback that I got everything right. Lob has card tracking so I guess
-the next step is to write the simple tools to know when things were
-delivered so that I can plan some phone calls.&lt;/p&gt;
-
-&lt;hr  /&gt;
-
-&lt;p&gt;My cousin Zorba has perhaps the best bio in the business.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;He has, in the course of his endeavors: been shot at by Navajos
-in Utah; seized and threatened at knifepoint by rednecks in Arkansas;
-chased by AK-47-toting soldiers in Hungary; run out of town by the
-Penitentes in Truchas; shaken down by the Federales in Baja, and
-forced to be rude to secure a cab in Rome. He has hung out of and
-over: planes, balloons, helicopters, boats, rafts, race cars,
-elevator shafts, too tall cliffs, and real deep canyons- and yet,
-he still has enthusiasm and a good attitude.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Jerry Davis asks why we still have academic journals:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Web has greatly reduced the barriers to entry for new journals
-and other platforms for communicating scientific output, and the
-number of journals continues to multiply. This leaves readers and
-authors with the daunting cognitive challenge of navigating the
-literature and discerning contributions that are both relevant and
-significant. Meanwhile, measures of journal impact that might guide
-the use of the literature have become more visible and consequential,
-leading to “impact gamesmanship” that renders the measures increasingly
-suspect.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The essay, published in &lt;a href=&#34;http://asq.sagepub.com/content/59/2/193&#34;&gt;Administrative Science Quarterly&lt;/a&gt; in June 2014, has the seeds of its own answer. Journals
-exist to enrich academic publishers.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Pay per Article - You may purchase this article for US$32.00. You
-must download your purchase, which is yours to keep, within 24
-hours.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&amp;rsquo;ll just ask Jerry for a preprint.&lt;/p&gt;
-
-&lt;p&gt;Previously (1995!) I get quoted in the Times Higher Education Supplement.
-The debate then centered around Stevan Harnad, an open access journal
-advocate who saw clearly the trend towards low cost electronic publications,
-thusly:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;It remains only to tally up these PostGutenberg values: If the
-world&amp;rsquo;s esoteric scholarly/scientific literature were available to
-everyone for free in electronic form, the first benefit to the
-author would be the great increase in the visibility, accessibility
-and hence the potential impact of his work (1). This would of course
-also be a benefit to all scholars when they are wearing their
-readers&amp;rsquo; rather than their authors&amp;rsquo; hats (2). Some fear that such
-a literature would be overwhelming and un-navigable, but stop and
-think: How do we currently manage it in paper? If the entire corpus
-were transferred to the Net, instead of our eyes and fingers and
-feet doing the walking to get to the papers or to get the papers
-to us, electronic directories containing everything could be searched
-using the kinds of keyword search already used today in searching
-electronic databases that contain the titles and abstracts (but not
-the articles) in the paper literature. Then, one more click, and
-you have the paper itself! Or clever &amp;ldquo;knowbots&amp;rdquo; (automatic search
-programmes) could be designed to go out instead of us and look for
-papers fitting our profile of interests, leaving us even more time
-to actually read what we want and to do our research, rather than
-running after the literature.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;My reply, &lt;a href=&#34;https://www.timeshighereducation.co.uk/features/harnad-versus-fuller-round-2/98502.article&#34;&gt;immortalized from the past&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Edward Vielmetti (bottom) uncontroversially points out that there
-is a lot of rubbish on the Internet; but he is sceptical of peer
-review as a solution.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The original commentary is lost in the mists of time, I hope.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There are two institutions that went by the name of GopherCon.
-(No, it&amp;rsquo;s not a furry convention; that&amp;rsquo;s Anthrocon.) One was
-from the early 1990s surrounding the Gopher internet browsing
-protocol; the other is for enthusiasts and programmers of the
-Go programming language. I am not aware of anyone who can claim
-to have gone to both events.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.databaseteam.org/10-database/0722cf77b51ab4ba.htm&#34;&gt;GopherCon 1995&lt;/a&gt;
-featured discussion of GopherVR and VRML for virtual reality in Gopher,
-the Hyper-G Information System for hypertext authoring, and an
-early morning session on Integrating Gopher and WWW.&lt;/p&gt;
-
-&lt;p&gt;GopherCon 2015 was in early July in Colorado. Of the items on
-the agenda this talk by Barak Michener was perhaps the most interesting
-to follow through on:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Written in Go, Cayley is a graph database based on technology
-behind Freebase.com. Starting with a short history of the inspirations
-behind Cayley, this talk will deep-dive into the moving parts of
-building a graph database, between the various query languages, the
-storage engines, and the iterator trees.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And of course this blog is now powered by Hugo which is written in Go
-so I&amp;rsquo;m learning a little about the Go template language as a side effect.&lt;/p&gt;
-</description>
+      <description>Espresso over ice at ERC South Main. This is now my favorite summer drink. Served in a cup with enough ice and you get the makings of a very strong iced latte, just add a little half and half.
+The work of the morning is finishing up yesterday&amp;rsquo;s work on sending postcards with Lob.com. Key to this effort is resizing your favorite images so that they meet the template. Fortunately I had the presence of mind seven years ago to write up my notes on using sips and Imagemagick for image manipulation and that helped.</description>
     </item>
     
     <item>
@@ -214,65 +46,8 @@ so I&amp;rsquo;m learning a little about the Go template language as a side effe
       <pubDate>Mon, 20 Jul 2015 11:13:43 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-20-daily-coffee-wifi-packard-biggby/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s a warm but pleasant mid-summer late Monday morning, and I&amp;rsquo;m
-visiting the first cafe inbound on a walk to town. Biggby Packard
-is where I end up when the inbound bus schedule timing is just so.&lt;/p&gt;
-
-&lt;p&gt;Summertime cafes near campus are odd. There&amp;rsquo;s not really enough here
-to motivate someone to drive here for coffee, so it draws people
-from the surrounding neighborhood and from the athletic campus.
-I&amp;rsquo;ve been in here before when I was the only patron for more than
-an hour but this morning there&amp;rsquo;s a few more people sitting typing.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;I first ran into the &amp;ldquo;pocketmod&amp;rdquo; planning technique in 2005, and
-here it is 10 years later and there&amp;rsquo;s one in my pocket.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A pocketmod is a cleverly folded piece of paper with preprinted
-templates for things like a mini calendar, todo list, quadrille
-paper, checklist etc. It&amp;rsquo;s the smallest instance of a PDA that I
-have seen yet, requiring nothing more than a blank piece of paper
-and a pair of scissors to execute. You could even bypass the scissors
-if you had good paper and a crisp straightedge to do a rip.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Astoundingly, &lt;a href=&#34;http://www.pocketmod.com/&#34;&gt;http://www.pocketmod.com/&lt;/a&gt; is still online, in all of
-its 2005-2007 glory. That system does an 8-up PDF from a set of templates,
-so that you can print a lovingly detailed mini booklet. My own use
-has long since devolved into scrap paper plus rip down the center.
-When it fills up, invert the fold, and you have a brand new organizer.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Now playing, Johnny Cash&amp;rsquo;s &amp;ldquo;One Piece at a Time&amp;rdquo;. &amp;ldquo;GM wouldn&amp;rsquo;t miss just
-one little piece.&amp;rdquo; Look for the promo photo.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Menu plan: green beans with walnuts and miso sauce, plus a few green beans
-uncooked on the side for J who likes to eat the raw. A recipe of sorts is
-at &lt;a href=&#34;http://www.thekitchn.com/recipe-review-green-beans-with-49874&#34;&gt;The Kitchn&lt;/a&gt;,
-which refers to a 2005 New York Times Dining article about Yumiko
-Kano and her brand of Japanese cooking.
-&lt;a href=&#34;http://justbento.com/handbook/bento-basics/review-saisai-lunch-vegan-bento-by-yumiko-kano&#34;&gt;Just Bento&lt;/a&gt; has some reviews of books by Yumiko Kano (aka Yumiko Kanoh or
-Kanou Kumiko). &lt;a href=&#34;http://theunbearablelightnessofbeinghungry.com/2009/10/vegetarian-ramen/&#34;&gt;The Unbearable Lightness of Being Hungry&lt;/a&gt; has a 2009 vegetarian ramen recipe
-from the same author. There&amp;rsquo;s a &lt;a href=&#34;http://metropolis.co.jp/dining/table-talk/yumiko-kano/&#34;&gt;profile of Yumiko Kano&lt;/a&gt; in Metropolis.&lt;/p&gt;
-
-&lt;p&gt;We got some
-very yummy new potatoes from Farmers Market that I cooked up last night,
-which were 1000x more wonderful than storebought old potatoes.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Exit Biggby heading north to North Campus to Mujo&amp;rsquo;s, for some
-time spent writing. Close all of the windows, save all of the
-documents, publish locally all of the works in progress. North
-Campus has the virute of frequent free bus service from Central
-Campus, and it&amp;rsquo;s far enough away to completely flush all of
-the thoughts of what I had been doing so I can work on another project.&lt;/p&gt;
-</description>
+      <description>It&amp;rsquo;s a warm but pleasant mid-summer late Monday morning, and I&amp;rsquo;m visiting the first cafe inbound on a walk to town. Biggby Packard is where I end up when the inbound bus schedule timing is just so.
+Summertime cafes near campus are odd. There&amp;rsquo;s not really enough here to motivate someone to drive here for coffee, so it draws people from the surrounding neighborhood and from the athletic campus. I&amp;rsquo;ve been in here before when I was the only patron for more than an hour but this morning there&amp;rsquo;s a few more people sitting typing.</description>
     </item>
     
     <item>
@@ -281,35 +56,8 @@ the thoughts of what I had been doing so I can work on another project.&lt;/p&gt
       <pubDate>Sun, 19 Jul 2015 22:05:18 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-lob-a-postcard-printer/</guid>
-      <description>&lt;p&gt;Lob.com has an API to send postcards-as-a-service ($0.70 per each,
-full custom both sides). Details at &lt;a href=&#34;https://lob.com/services/postcards&#34;&gt;https://lob.com/services/postcards&lt;/a&gt; .
-It works, but all of the user interface is up to you; if you know
-a good service for delivering a single full-custom postcard with
-postage that actually has a user interface and not an API for less
-than $1.00 each, let me know and I&amp;rsquo;ll update here.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve started checking in a few tiny utility programs that exercise
-the Lob API. Look for &lt;a href=&#34;https://github.com/vielmetti/postcard&#34;&gt;https://github.com/vielmetti/postcard&lt;/a&gt; on Github.
-The goal at some point is to have a &amp;ldquo;postcard&amp;rdquo; application
-that has a user interface like so.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;postcard --to mom --photo cute-kids.jpg --message &amp;quot;they get so big so fast! love ed&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also in this business is PostalMethods with a Postcard API based on SOAP.
-That&amp;rsquo;s not a convenient interface in the languages that I use, but you
-can look at the API at &lt;a href=&#34;http://www.postalmethods.com/lp/postcard-api&#34;&gt;http://www.postalmethods.com/lp/postcard-api&lt;/a&gt; .
-Their prices for postcards run $1.50 per each or less, with quantity
-discounts - see &lt;a href=&#34;http://www.postalmethods.com/pricing&#34;&gt;http://www.postalmethods.com/pricing&lt;/a&gt; for details.&lt;/p&gt;
-
-&lt;p&gt;Postful used to have an API for postcards. They were
-&lt;a href=&#34;http://blog.click2mail.com/articles/view/click2mail-acquires-postful/&#34;&gt;bought by Click2Mail in 2011&lt;/a&gt;. Pricing for Click2Mail&amp;rsquo;s postcards starts at $0.25
-per card plus $0.284 postcard, but there&amp;rsquo;s a $2.00 minimum if
-you don&amp;rsquo;t have credits on account. I wasn&amp;rsquo;t able to determine
-at first glance whether their REST API applied to onesy-twoesy
-printing options, though it was clear that if you wanted to send
-1000 cards that the pricing would be competitive.&lt;/p&gt;
-</description>
+      <description>Lob.com has an API to send postcards-as-a-service ($0.70 per each, full custom both sides). Details at https://lob.com/services/postcards . It works, but all of the user interface is up to you; if you know a good service for delivering a single full-custom postcard with postage that actually has a user interface and not an API for less than $1.00 each, let me know and I&amp;rsquo;ll update here.
+I&amp;rsquo;ve started checking in a few tiny utility programs that exercise the Lob API.</description>
     </item>
     
     <item>
@@ -318,73 +66,7 @@ printing options, though it was clear that if you wanted to send
       <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</guid>
-      <description>&lt;p&gt;The problem, simply stated, is that of typoes and inconsistent
-spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of
-text that you want to annotate with some metadata, like categories
-and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which
-tags you want to use, but you want to catch through some test or
-lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into
-a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
-will catch minor deviations from the norm and advise you when you
-should go back with a fresh pair of eyes and do an edit.
-The bigger problem is &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;deduplication&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;My first pass at a proposed solution was to look for a version of
-the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
-There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Udi Manber&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;[WM92a]
-Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
-Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
-1992), pp. 153-162.&lt;/p&gt;
-
-&lt;p&gt;Neither of these first lines of attack to see if someone had
-completely solved the problem before did the trick, but some
-searching around and a conversation with
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;John Hritz&lt;/span&gt;
-hit the neuron that remembered the algorithm called the
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Levenshtein distance&lt;/span&gt;.
-That led me to
-&lt;span style=&#34;background-color: #ffbfff;&#34;&gt;Wikibook: Algorithm Implementation&lt;/span&gt;,
-and its set of
-&lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
-was a very slow implementation in the bash shell included
-in that collection that was a cut and paste and two lines of
-code from being exactly what I needed. A little bit of glue
-code in awk and I was ready to go.&lt;/p&gt;
-
-&lt;p&gt;Now the problem with cut and paste two lines of code is that this
-particular implmentation is very slow, albeit correct. Given the
-choice between slow correct code and fast code that&amp;rsquo;s wrong (because
-of the bug that you don&amp;rsquo;t yet understand), I&amp;rsquo;ll take the slow code
-plus a comment and a writeup that describes how to make it faster.&lt;/p&gt;
-
-&lt;p&gt;What I&amp;rsquo;m really after is just the pairwise comparison of a set
-of words where the two words are close to each other. If the
-distance between two words is greater than some threshhold, I don&amp;rsquo;t need
-to go any further. That algorithmic shortcut isn&amp;rsquo;t in the library
-codes that I found.&lt;/p&gt;
-
-&lt;p&gt;The bigger question is how to write a
-checklist
-and implement it in code to make sure that a big body of work stays
-internally consistent. It&amp;rsquo;s one thing to have a
-categorization
-rule for your writers that says &amp;ldquo;always use the
-singular&amp;rdquo;, but very much something different to have Test 38 in
-your automated test corpus apply that rule and notice when it&amp;rsquo;s
-wrong.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Update 29 July 2015:
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Dennis Yurichev&lt;/span&gt; with a post
-&lt;a href=&#34;http://yurichev.com/blog/fuzzy_string/&#34;&gt;Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.&lt;/a&gt; shares some Python code to handle the
-case of automated checking against a probably correct dictionary. He uses this
-&lt;a href=&#34;https://pypi.python.org/pypi/python-Levenshtein/0.12.0&#34;&gt;python-Levenshtein&lt;/a&gt; module
-to do the hard work.&lt;/p&gt;
-</description>
+      <description>The problem, simply stated, is that of typoes and inconsistent spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of text that you want to annotate with some metadata, like categories and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which tags you want to use, but you want to catch through some test or lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into a field that really has &amp;ldquo;apple&amp;rdquo; most of the time.</description>
     </item>
     
     <item>
@@ -393,20 +75,7 @@ to do the hard work.&lt;/p&gt;
       <pubDate>Sun, 28 Jun 2015 15:23:26 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-28-using-a-squid-cache-to-make-automated-data-collection-a-bit-less-rude/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.squid-cache.org/&#34;&gt;&lt;code&gt;squid&lt;/code&gt; is a web caching system&lt;/a&gt;. Instead of browsing directly to a site, you point your browser at a squid cache, and the cache serves up cached copies of the data you are asking for. If squid has an out of date copy of the data it fetches a new one for you. The goal is to be a transparent cache, and to be nearly as fast as direct access when you don&#39;t have the data, and way faster when you do.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m doing some automated data collection from the web using &lt;code&gt;curl&lt;/code&gt;, and as a part of that I want to not be overly aggressive in harvesting details from a site if I already have a recent copy of the data that hasn&#39;t changed. Putting a cache in the way makes sense, since unlike most GUI based browsers that have their own caches, &lt;code&gt;curl&lt;/code&gt; just fetches whatever it&#39;s asked for unquestioningly even if it just got the same thing seconds ago - unless you tell it to use a cache.&lt;/p&gt;
-
-&lt;p&gt;The first appearance of squid dates to 1996, so it&#39;s old software by modern standards. It dates from the bad old days when the Internet was slow on long haul links but fast locally, and so it made all the sense in the world to optimize and economize. Even now there are lots of times and places where the net is slow enough that you&#39;re willing to introduce a little bit of complexity in exchange for a little bit of speed.&lt;/p&gt;
-
-&lt;p&gt;I installed my copy of squid on my Mac using MacPorts, which seems to do a fine job. I had also tried to build a copy of squid using what looked like simple instructions on Docker using the configuration on &lt;a href=&#34;https://github.com/michaljemala/docker-squid&#34;&gt;@michaeljemala/docker-squid&lt;/a&gt;, but for reasons as of yet unexplained I got the error message&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-curl: (7) Failed to connect to localhost port 3128: Connection refused
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;after setting that up and following package directions.  Still puzzling out whether that&#39;s a result of some Docker configuration oddness on 1.7.0, or something else. Anyway, the native version is working, so I&#39;m good for now.&lt;/p&gt;
-</description>
+      <description>squid is a web caching system. Instead of browsing directly to a site, you point your browser at a squid cache, and the cache serves up cached copies of the data you are asking for. If squid has an out of date copy of the data it fetches a new one for you. The goal is to be a transparent cache, and to be nearly as fast as direct access when you don&#39;t have the data, and way faster when you do.</description>
     </item>
     
     <item>
@@ -415,49 +84,8 @@ curl: (7) Failed to connect to localhost port 3128: Connection refused
       <pubDate>Wed, 24 Jun 2015 10:23:20 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</guid>
-      <description>&lt;p&gt;My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.&lt;/p&gt;
-
-&lt;p&gt;Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes. If you are working on something where it doesn&#39;t matter which order things happen in as long as they all get done you are in good shape to get tremendous performance improvements simply by overlapping operations.&lt;/p&gt;
-
-&lt;p&gt;An example:&lt;/p&gt;
-
-&lt;p&gt;DTE Energy does not have one single page on their web site that shows you the total number of outages across their system - or if they do have it, it&#39;s so well hidden that I haven&#39;t found it. What they do have is a way to fetch the outage count for a single ZIP code. So, armed with a set of zip codes, you can determine a total. You don&#39;t care which ZIP is fetched first but you do want them all to show up before you add them up.&lt;/p&gt;
-
-&lt;p&gt;The one-line command I have for this is&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The script dte-by-zip runs as follows, fetching a page from a DTE server and parsing it:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;$ dte-by-zip 48104&lt;/p&gt;
-  
-  &lt;p&gt;38&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;thus the parallel invocation reads roughly as follows: &#34;for 32 parallel threads, using the dte-zips data file one line a time as command line arguments, run dte-by-zip; add up all the results&#34;.&lt;/p&gt;
-
-&lt;p&gt;Note that if you are using &#34;curl&#34; to fetch pages, you want to be aware of the &lt;code&gt;--max-time&lt;/code&gt; option.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;-m, --max-time &lt;seconds&gt;
-               Maximum time in seconds that you allow the  whole  operation  to
-               take.   This is useful for preventing your batch jobs from hang-
-               ing for hours due to slow networks or links going  down. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now you don&#39;t want to go too crazy with parallel operations on network resources, it&#39;s possible to overrun a remote server and it might be faster to pull 8 or 16 parallel threads instead of 32 or 64 depending on the nature of the remote machine.&lt;/p&gt;
-
-&lt;p&gt;Article describing tool (for citations):&lt;/p&gt;
-
-&lt;p&gt;O. Tange (2011): GNU Parallel - The Command-Line Power Tool, ;login: The USENIX Magazine, February 2011:42-47.&lt;/p&gt;
-
-&lt;p&gt;Authors&#39; website for obtaining code:&lt;/p&gt;
-
-&lt;p&gt;http://www.gnu.org/software/parallel/&lt;/p&gt;
-</description>
+      <description>My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.
+Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes.</description>
     </item>
     
     <item>
@@ -466,39 +94,9 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
       <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</guid>
-      <description>&lt;pre&gt;
-&gt; style &lt;- styleGrad(prop=&#34;score&#34;, breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg=&#34;score&#34;)
-&gt; leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)
-&lt;/pre&gt;
-
-&lt;p&gt;So, progress.&lt;/p&gt;
-
-&lt;p&gt;One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.&lt;/p&gt;
-
-&lt;p&gt;A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.&lt;/p&gt;
-
-&lt;p&gt;A screenshot of the result is below:&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; title=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Some big caveats.&lt;/p&gt;
-
-&lt;p&gt;My color palette is all wrong - I need to think that through. &lt;/p&gt;
-
-&lt;p&gt;This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.&lt;/p&gt;
-
-&lt;p&gt;The map needs labels of some sort. (How they will look when everything is smushed together, don&#39;t know.)&lt;/p&gt;
-
-&lt;p&gt;It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.&lt;/p&gt;
-
-&lt;p&gt;The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.&lt;/p&gt;
-
-&lt;p&gt;RESTAURANT NAMES ARE IN ALL CAPS AND THAT&#39;S SHOUTING.&lt;/p&gt;
-
-&lt;p&gt;Leaflet can do all sorts of things and I&#39;ve hardly scratched the surface.&lt;/p&gt;
-
-&lt;p&gt;I probably could do this all in R - or all in Python - but I&#39;m trying to spin up on both systems &amp;amp; thus really want to use each for what they are good at.&lt;/p&gt;
-</description>
+      <description>style leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)  So, progress.
+One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.
+A second process (code above) is in R using the LeafletR graphing package.</description>
     </item>
     
     <item>
@@ -507,59 +105,8 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
       <pubDate>Sun, 05 Oct 2014 09:03:34 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-05-using-jq-for-command-line-web-applications-for-civic-data/</guid>
-      <description>&lt;p&gt;One of the tools that I rediscovered and have been really happy for
-having done so is &amp;ldquo;jq&amp;rdquo;, a command line tool that bills itself as
-&amp;ldquo;awk for json&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been writing awk code since 1985, and some limited subset
-of it is something that I know really, really well. awk, however,
-is from the punchcard era, and as such it likes to deal with records
-that are all on one line each. Parsing JSON in awk is very clumsy
-and ad hoc and really doesn&amp;rsquo;t work all that well. Since most Internet
-APIs these days have some kind of JSON encoding, it means that you
-can&amp;rsquo;t simply dash off an awk one-liner to consume and transform
-Internet input data.&lt;/p&gt;
-
-&lt;p&gt;jq fixes that situation. Here for example is a one line renderings of a common task I look to solve with municipal data as a test of any new tool development: analysis of parking data. This code sample prints the total number of open spaces in the Ann Arbor Downtown Development Authority&amp;rsquo;s garages:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;curl -s http://www.a2dda.org/map/AADDACount.json |
-  jq &#34;[.countdata[].spacesavail | tonumber] | add&#34; &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&amp;rsquo;m not going to try to explain how jq works, except to note that
-it&amp;rsquo;s constructed in order to be a filter: data comes in one JSON
-object at a time, and the script iterates over them, transforming
-them in some way and then passing JSON out the other end. This makes
-it perfect for ad hoc Unix pipeline efforts where you&amp;rsquo;re chipping
-away at a data set trying to make sense of it by successively
-refining it as you go.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve built jq pipelines for this Ann Arbor parking data, for AAATA
-bus system data, and for the Marquette Park Cemetery data. The
-parking data is straightforward, since it exits the system as JSON.
-Bus system data is only incrementally harder; it started either as
-HTML or as XML, and for that you want to use &amp;ldquo;tidy&amp;rdquo; and &amp;ldquo;xml2json&amp;rdquo;
-in your pipeline. The Park Cemetery data set started as JSON via
-the Socrata SODA API, but I needed little bits of &amp;ldquo;sed&amp;rdquo; and &amp;ldquo;perl&amp;rdquo;
-to smooth out some rough edges in the source data; it really wants
-to end up as GeoJSON when I&amp;rsquo;m done, but it isn&amp;rsquo;t there quite yet.&lt;/p&gt;
-
-&lt;p&gt;Shell programming is my favorite programming environment. Any time
-I can take a set of well-understood tools and crunch through big
-data sets with only a few lines of code, I&amp;rsquo;m happy. The challenge
-of shell programming is that it&amp;rsquo;s full of opportunities to get
-things just a little bit wrong with parsing; by making JSON the
-data format that&amp;rsquo;s shoveled between programs rather than a flat
-one-record-per-line text format, you open up the opportunity for
-pulling apart rather complex structures and manipulating them with
-hardly any work.&lt;/p&gt;
-
-&lt;p&gt;For further reading, see Jeroen Janssens new book &lt;a
-href=&#34;http://datascienceatthecommandline.com/&#34;&gt;Data Science at the
-Command Line&lt;/a&gt; which works you way through dozens of tools like
-this that can help manage big data without big programs.&lt;/p&gt;
-</description>
+      <description>One of the tools that I rediscovered and have been really happy for having done so is &amp;ldquo;jq&amp;rdquo;, a command line tool that bills itself as &amp;ldquo;awk for json&amp;rdquo;.
+I&amp;rsquo;ve been writing awk code since 1985, and some limited subset of it is something that I know really, really well. awk, however, is from the punchcard era, and as such it likes to deal with records that are all on one line each.</description>
     </item>
     
     <item>
@@ -568,26 +115,9 @@ this that can help manage big data without big programs.&lt;/p&gt;
       <pubDate>Sun, 24 Nov 2013 16:45:56 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-11-24-programming-your-new-radio-with-chirp/</guid>
-      <description>&lt;p&gt;From the &lt;a href=&#34;http://chirp.danplanet.com/projects/chirp/wiki/Home&#34;&gt;CHIRP web site&lt;/a&gt; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;CHIRP is a free, open-source tool for programming your amateur radio. It supports a large number of manufacturers and models, as well as provides a way to interface with multiple data sources and formats.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The basic idea is that rather than learning the peculiarities of your radio&#39;s programming interface, you use CHIRP which has access to databases like &lt;a href=&#34;http://www.radioreference.com&#34;&gt;Radio Reference&lt;/a&gt; and &lt;a href=&#34;http://www.repeaterbook.com/&#34;&gt;RepeaterBook&lt;/a&gt; to find the channels you want to have easy access to. Programming the device should just be a matter of loading in the set you want, attaching your radio to your computer via a programming cable, and selecting &#34;Upload to Radio&#34;.&lt;/p&gt;
-
-&lt;p&gt;My new radio is on its way, so I&#39;ll update this when I get it to work! So far the application was easy to install (you have to install a Python runtime on OS X before it works) and it was easy to get the Washtenaw county repeater list from &lt;a href=&#34;http://www.repeaterbook.com/&#34;&gt;RepeaterBook&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;UPDATED: It worked the first time! Here&#39;s what I did to make it go smoothly.&lt;/p&gt;
-
-&lt;p&gt;First, before you upload channels to your radio, you have to download its current configuration. This gets all of the settings out of the system.&lt;/p&gt;
-
-&lt;p&gt;Second, after you are done uploading the channels, unplug the programming cable from the radio. This should be obvious? but somehow it wasn&#39;t. Once I unplugged things everything worked just fine.&lt;/p&gt;
-
-&lt;p&gt;Third, make sure that you pick the right radio that you are connecting to or else unpredictable things can happen.&lt;/p&gt;
-
-&lt;p&gt;I found the walk-through at &lt;a href=&#34;http://www.miklor.com/COM/UV_CHIRP.php&#34;&gt;Miklor&#39;s CHIRP Software Guide&lt;/a&gt; to be useful and helpful, and it suggested some additional features (like setting channels to be receive-only) that will probably get me to re-program the radio a few times before I&#39;m done.&lt;/p&gt;
-</description>
+      <description>From the CHIRP web site -
+ CHIRP is a free, open-source tool for programming your amateur radio. It supports a large number of manufacturers and models, as well as provides a way to interface with multiple data sources and formats.
+ The basic idea is that rather than learning the peculiarities of your radio&#39;s programming interface, you use CHIRP which has access to databases like Radio Reference and RepeaterBook to find the channels you want to have easy access to.</description>
     </item>
     
     <item>
@@ -596,16 +126,8 @@ this that can help manage big data without big programs.&lt;/p&gt;
       <pubDate>Fri, 11 Oct 2013 01:29:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-11-a-few-very-small-mobile-apps-as-i-learn-jquery-mobile/</guid>
-      <description>&lt;p&gt;I&#39;m putting together a few mobile apps (in the form of mobile web sites) that are designed for small-screen phone use. Here&#39;s what&#39;s in the works. Each of these are likely to change over time, so don&#39;t get too fond of anything just yet.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/m/a2trees.html&#34;&gt;a2trees&lt;/a&gt; app provides some kind of on-the-go listing of street trees in Ann Arbor that are interesting. The observation that there is a great apple crop in 2013 and that there are city trees laden with nice apples just waiting to be picked was the motivation. It&#39;s really bare-bones now, with not more more in the way of detail than my old &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/07/amelanchier-shadbush-juneberry-sugar-plum-inventory-for-ann-arbor-2009.html&#34;&gt;juneberry listing&lt;/a&gt; post, except neatly set up for mobile use.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/m/index.html&#34;&gt;mobile web&lt;/a&gt; app is self-referential in that it tries to collect useful bookmarks to mobile-ready versions of things like newspaper, bus, weather, netnews, and other web pages specially formatted for mobile use. I got tired of typing in the URL to fetch the bus listing so I put it on a menu. This is an up-to-dated version of the list I kept of &lt;a href=&#34;http://www.monkey.org/~emv/m/&#34;&gt;mobile sites on monkey.org&lt;/a&gt; dating back about 5 years from when I had a Blackberry and was collecting same. The project is &lt;a href=&#34;http://github.com/vielmetti/mobile&#34;&gt;up on Github&lt;/a&gt; (and has been for the past 5 years!) but there&#39;s not much more to look at than data. Please do feel free to give me feedback there as well as here.&lt;/p&gt;
-
-&lt;p&gt;Finally two power outage related mobile sites. The &lt;a href=&#34;http://vielmetti.typepad.com/power-outage-maps/index.html&#34;&gt;mobile power outage maps&lt;/a&gt; collection is a slow but sure approach to turning my popular &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html&#34;&gt;power outage maps&lt;/a&gt; blog post into something more tidy for the small screen. The state it&#39;s in is functional but not complete, and I expect I&#39;ll chip away at it as storms or outages warrant. A second and new app for me is a &lt;a href=&#34;http://vielmetti.typepad.com/power-outage-maps/index-ziplookup.html&#34;&gt;utility company finder&lt;/a&gt; site that takes as its input the first three digits of a zip code and returns the utility companies that serve that area, or type the utility name and get back a list of 3-digit zips it serves. The big caveats on this are that it&#39;s slow, slow, slow, and that the data set it&#39;s derived from is nominally from 2011 but shows many signs of not being kept up to date with utility mergers and name changes since then.&lt;/p&gt;
-
-&lt;p&gt;All of these &#34;mobile&#34; things are browser-based right now, so you can try them from whatever system you are likely to be typing at. They use &lt;a href=&#34;http://jquerymobile.com&#34;&gt;jQuery Mobile&lt;/a&gt; for the fancy bits, and I&#39;m pretty happy so far in just how far I get with that system using HTML do to the work and not having to write a bunch of Javascript to get things to work. On the server side I have been generating these as static sites using old-fashioned Unix shell scripts and makefiles, and though it&#39;s not elegant by any means, it is well within exactly the kind of coding environment I&#39;ve been using since the 1980s.&lt;/p&gt;
-</description>
+      <description>I&#39;m putting together a few mobile apps (in the form of mobile web sites) that are designed for small-screen phone use. Here&#39;s what&#39;s in the works. Each of these are likely to change over time, so don&#39;t get too fond of anything just yet.
+The a2trees app provides some kind of on-the-go listing of street trees in Ann Arbor that are interesting. The observation that there is a great apple crop in 2013 and that there are city trees laden with nice apples just waiting to be picked was the motivation.</description>
     </item>
     
     <item>
@@ -614,52 +136,8 @@ this that can help manage big data without big programs.&lt;/p&gt;
       <pubDate>Mon, 12 Aug 2013 23:52:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-12-taking-inventory-of-old-github-projects/</guid>
-      <description>&lt;p&gt;Setting up &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; has given me a chance to look through some of
-&lt;a href=&#34;https://github.com/vielmetti&#34;&gt;my old Github repositories&lt;/a&gt; and re-assess what&#39;s there and how to 
-improve on them. &lt;/p&gt;
-
-&lt;p&gt;This is more like a wish list than an actual set of directions, and it
-reflects how much the world has moved since I first signed up for a
-github account.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/aadl-amazon-linky&#34;&gt;aadl-amazon-linky&lt;/a&gt; and &lt;a href=&#34;http://vielmetti.typepad.com/superpatron&#34;&gt;superpatron&lt;/a&gt;. Both of these are interfaces
-to the &lt;a href=&#34;http://aadl.org&#34;&gt;Ann Arbor District Library&lt;/a&gt; catalog, which has a very accessible
-programming interface with things like RSS feeds for catalog searches.
-I&#39;d like to go back and revisit two parts of this. One was a Greasemonkey
-plugin to put library results in Amazon; that should be a Chrome plugin.
-The second was a &#34;&lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/79567788/&#34;&gt;wall of books&lt;/a&gt;&#34; report displaying an RSS query as a
-page full of book cover images. Of the two, the second looks easiest to
-recreate; I just checked in some new code, &lt;a href=&#34;https://github.com/vielmetti/superpatron/blob/master/tools/wall-by-keyword.sh&#34;&gt;wall by keyword&lt;/a&gt;, which does
-the trick.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/vielmetti-shelltools&#34;&gt;vielmetti-shelltools&lt;/a&gt;. This is a small collection of shell scripts
-that I carry around with me and put on whatever system I happen to be
-working on. It would be worthwhile to go back through and compare
-what I used then with what I use now and refresh the collection.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/postcard&#34;&gt;postcard&lt;/a&gt;. This was a hopeful project to use various web-to-postcard
-APIs to generate custom postcards on the fly from the command line. Alas,
-several of those APIs have disappeared. The real action in this market is
-sending a real postcard from your iPhone or Android phone, with products
-like &lt;a href=&#34;http://postagramapp.com/&#34;&gt;Postagram&lt;/a&gt; leading the way. The other neat feature is to go to a drugstore
-and make an instant print, then stick a stamp on the back and mail it.
-(&lt;a href=&#34;http://communitynetworking2008.wordpress.com/&#34;&gt;Steve Cisler&lt;/a&gt; taught me that trick.)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/twitter-mutual-friends&#34;&gt;twitter-mutual-friends&lt;/a&gt;. Once upon a time, the Twitter API was so
-simple that you could write a useful application in four lines of shell
-script. Now the API has improved itself, and it&#39;s gotten a lot more 
-complicated. Look at simple apps like &lt;a href=&#34;https://github.com/gianu/latest_tweets&#34;&gt;latest_tweets&lt;/a&gt; by gianu to
-get an idea of what you&#39;re up against now.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/mobile&#34;&gt;mobile&lt;/a&gt;. Again, once upon a time, I had a Blackberry phone which
-had the world&#39;s worst usable web browser. Fortunately there were enough
-web sites that had a minimalist presentation that I was able to put
-together a directory of workable sites, which I used for quite a while.
-Now I have an Android phone that runs Chrome as well as apps and I don&#39;t
-need the list of sites quite so much; still, it&#39;s worthwhile to have
-a place to collect them when I find them.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So when it&#39;s time to write some code here are some ideas for where
-to start again!&lt;/p&gt;
-</description>
+      <description>Setting up Octopress has given me a chance to look through some of my old Github repositories and re-assess what&#39;s there and how to improve on them. This is more like a wish list than an actual set of directions, and it reflects how much the world has moved since I first signed up for a github account.
+ aadl-amazon-linky and superpatron. Both of these are interfaces to the Ann Arbor District Library catalog, which has a very accessible programming interface with things like RSS feeds for catalog searches.</description>
     </item>
     
     <item>
@@ -668,12 +146,8 @@ to start again!&lt;/p&gt;
       <pubDate>Sun, 11 Aug 2013 21:56:54 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-11-octopress-up-and-running/</guid>
-      <description>&lt;p&gt;I am using Octopress to build a new web site at &lt;a href=&#34;http://vielmetti.github.io&#34;&gt;http://vielmetti.github.io&lt;/a&gt;. This looks like it will be a good place as any to write about code and any github projects I am working on. I will keep writing about everything else here.&lt;/p&gt;
-
-&lt;p&gt;To write in Octopress you put files in a directory written in Markdown. Then you use a command line tool called &#39;rake&#39;, the Ruby version of &#39;make&#39;, to do the publishing. Files that have changed get checked in to github. Then the whole site is put into static files, so that it all loads fast.&lt;/p&gt;
-
-&lt;p&gt;Amazing how much more time you have for hacking when you are not on Facebook.&lt;/p&gt;
-</description>
+      <description>I am using Octopress to build a new web site at http://vielmetti.github.io. This looks like it will be a good place as any to write about code and any github projects I am working on. I will keep writing about everything else here.
+To write in Octopress you put files in a directory written in Markdown. Then you use a command line tool called &#39;rake&#39;, the Ruby version of &#39;make&#39;, to do the publishing.</description>
     </item>
     
     <item>
@@ -682,16 +156,247 @@ to start again!&lt;/p&gt;
       <pubDate>Sat, 01 Jun 2013 23:57:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-01-hacker-news-summary-1-june-2013-1115-pm-est-edition/</guid>
-      <description>&lt;p&gt;A late night Hacker News summary, pulling from&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_self&#34;&gt;https://news.ycombinator.com/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;1.&amp;#0160;&lt;a href=&#34;http://arstechnica.com/tech-policy/2013/06/apple-betrayed-by-its-own-law-firm/&#34; target=&#34;_self&#34;&gt;Apple betrayed by its own law firm.&lt;/a&gt;&amp;#0160;John&amp;#0160;J.&amp;#0160;McAleese, III, an attorney at one of&amp;#0160;Apple&amp;#39;s own go-to law firms, (Morgan, Lewis &amp;amp; Bockius), was behind a patent troll lawsuit from Flatworld Interactives. McAleese has been digitally erased from the Morgan Lewis site. (Ars Technica) &amp;quot;I predict this is going to be as much fun to watch as the Prenda Law case!&amp;quot;&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5806966&#34; target=&#34;_self&#34;&gt;( 4 comments )&lt;/a&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;2. &lt;a href=&#34;http://dehora.net/journal/2013/06/01/on-go/&#34; target=&#34;_self&#34;&gt;Bill de hOra writes about the Go language&lt;/a&gt;. &amp;quot;To my mind it bucks some orthodoxy on what a good effective language is supposed to look like; for that alone, it&amp;#39;s interesting. It makes sensible engineering decisions and&amp;#0160;is squarely in the category of languages I consider viable for server-side systems that you have to live with over time.&amp;quot;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;3. &lt;a href=&#34;http://www.nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html&#34; target=&#34;_self&#34;&gt;In the New York Times&lt;/a&gt;, Wikileaks founder Julian Assange takes on the banality of Google&amp;#39;s &amp;quot;Don&amp;#39;t be evil&amp;quot;. His review starts:&amp;#0160;&lt;a href=&#34;http://www.newdigitalage.com/&#34; target=&#34;_self&#34;&gt;“THE New Digital Age”&lt;/a&gt; is a startlingly clear and provocative blueprint for technocratic imperialism, from two of its leading witch doctors, Eric Schmidt and Jared Cohen, who construct a new idiom for United States global power in the 21st century.&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5805460&#34; target=&#34;_self&#34;&gt;138 comments:&lt;/a&gt;&amp;#0160;&amp;quot;But I must confess, that Julian Assange seem to be rather well spoken. And language wise - at least - it was a rather joy to read. Seemingly unlike the book he was reviewing.&amp;quot;&lt;/p&gt;
-4. code search on Github turns up tens of thousands of PHP projects susceptible to a SQL injection attack.&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=5805025&#34; target=&#34;_self&#34;&gt;79 comments:&lt;/a&gt;&amp;#0160;&amp;quot;There&amp;#39;s more low-hanging fruit, if you&amp;#39;re willing to use more specialized searches.&amp;quot;
-&lt;p&gt;5. Manish Burman and Brandon Kase &lt;a href=&#34;http://bkase.github.io/CUDA-grep/finalreport.html&#34;&gt;wrote a version of grep that uses hardware acceleration from the CUDA libraries&lt;/a&gt; to run 2 to 10 times as fast as standard grep. &lt;a href=&#34;https://news.ycombinator.com/item?id=5803943&#34;&gt;22 comments&lt;/a&gt; include discussion from the developers.&lt;/p&gt;
-&lt;p&gt;6. &lt;a href=&#34;http://www.cartoonbrew.com/ideas-commentary/max-headroom-and-the-strange-world-of-pseudo-cgi-82745.html&#34;&gt;Max Headroom and the Strange World of Pseudo-CGI&lt;/a&gt;, a discussion in Cartoon Brew of the weird pseudo-computer animated graphics of the 1980s that were done with a series of non-computer techniques. &lt;a href=&#34;https://news.ycombinator.com/item?id=5803755&#34;&gt;19 comments&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;7. &amp;quot;Cruise ships are similar to assisted living centers in the amenities provided, costs per month, and many other areas.&amp;quot; J Am Geriatr Soc. 2004 Nov;52(11):1951-4. &lt;a href=&#34;https://news.ycombinator.com/item?id=5806006&#34;&gt;7 comments&lt;/a&gt;: &amp;quot;I met an elderly woman that lived on a cruise ship. She need a walked but was otherwise in good health. She knew everyone on the ship, and made new friends with every cruise. To her it was an awesome life, rather than being stuck in some home. The discounts you get for multiple cruises made it quite affordable for her. Eventually she would need more healthcare but she was going to stay as long as she could.&amp;quot;&lt;/p&gt;
-</description>
+      <description>A late night Hacker News summary, pulling from&amp;#0160;https://news.ycombinator.com/.
+1.&amp;#0160;Apple betrayed by its own law firm.&amp;#0160;John&amp;#0160;J.&amp;#0160;McAleese, III, an attorney at one of&amp;#0160;Apple&amp;#39;s own go-to law firms, (Morgan, Lewis &amp;amp; Bockius), was behind a patent troll lawsuit from Flatworld Interactives. McAleese has been digitally erased from the Morgan Lewis site. (Ars Technica) &amp;quot;I predict this is going to be as much fun to watch as the Prenda Law case!&amp;quot;&amp;#0160;( 4 comments )&amp;#0160;</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, Wednesday 29 May 2013, 5:00 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-29-hacker-news-summary-wednesday-29-may-2013-500-pm-est-edition/</link>
+      <pubDate>Wed, 29 May 2013 17:48:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-29-hacker-news-summary-wednesday-29-may-2013-500-pm-est-edition/</guid>
+      <description>Welcome to the Wednesday version of a daily Hacker News summary. In the news today: a new Gmail interface, a Drupal security breach, how to negotiate a job offer, Bill Gates goes to India, and Mary Meeker&#39;s Internet Trends.
+I&#39;m going to diverge a little from past practice and pick and choose a little more carefully than normally, going a little beyond the top 8 to find the stories that actually interest me.</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, Tuesday 28 May 2013, 9:45 p.m edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-tuesday-28-may-2013-945-pm-edition/</link>
+      <pubDate>Tue, 28 May 2013 22:22:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-tuesday-28-may-2013-945-pm-edition/</guid>
+      <description>A late evening version of Hacker News for Tuesday 28 May 2013. I&amp;#39;ve added links to the comments for each entry, and try to pull out a useful quote from the comments if there are any that are easy to find. Of interest: Pixar raytracing, Liberty Reserve money laundering, and Harvard email snooping.
+1. A breakdown of github pull requests by acceptance rate, for a variety of languages and projects. If you want to get your pull request accepted, don&amp;#39;t write C++, write Scala; and contribute to projects like Akka&amp;#0160;and&amp;#0160;backbone-fundamentals that take 80+% of pull requests.</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Tuesday 28 May 2013, 7:00 a.m. edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-for-tuesday-28-may-2013-700-am-edition/</link>
+      <pubDate>Tue, 28 May 2013 07:45:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-28-hacker-news-summary-for-tuesday-28-may-2013-700-am-edition/</guid>
+      <description>Here&amp;#39;s a summary of the top stories on Hacker News at this moment, as part of daily exercise to do a closer reading of the tech news. See On Summarization for more background.
+1. &amp;quot;Opera for desktop has not only been redesigned; it&amp;#39;s also completely re-engineered under the hood. With the Chromium engine, users get a standards-compliant and high-performance browser.&amp;quot; (Opera) &amp;quot;The price of switching to Chromium: Opera.app = 37.8 MB, Opera Next.</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary, Monday 27 May 2013, 3:00 p.m. edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-27-hacker-news-summary-monday-27-may-2013-300-pm-edition/</link>
+      <pubDate>Mon, 27 May 2013 15:19:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-27-hacker-news-summary-monday-27-may-2013-300-pm-edition/</guid>
+      <description>A summary of Hacker News from 3:00 p.m. on Memorial Day. It&amp;#39;s getting faster to produce these, but it still takes at least a minute or two per each.
+I wonder about the churn rate of the Hacker News front page. How long do you have to wait to ensure that the top 10 posts have all cycled out? Every day is clearly enough, but I&amp;#39;m suspecting that it might take as little as 12 hours to cycle through what passes for news.</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Sunday 26 May 2013, 6:00 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-26-hacker-news-summary-for-sunday-26-may-2013-600-pm-est-edition/</link>
+      <pubDate>Sun, 26 May 2013 18:18:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-26-hacker-news-summary-for-sunday-26-may-2013-600-pm-est-edition/</guid>
+      <description>Compiled hastily, here&amp;#39;s a summary of today&amp;#39;s Hacker News top 10. Based solely on the top 10, it&amp;#39;s a slow news day.
+1. &amp;quot;If you try to get several regular polygons to meet snugly at a point in the plane, what’s the most sides any of the polygons can have? The answer is 42.&amp;quot; (Azimuth Project) Some observations of mathematical questions for which the answer is 42 or a multiple thereof, in time for Towel Day.</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Saturday, 25 May 2013, 10:15 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-25-hacker-news-summary-for-saturday-25-may-2013-1015-pm-est-edition/</link>
+      <pubDate>Sat, 25 May 2013 22:49:15 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-25-hacker-news-summary-for-saturday-25-may-2013-1015-pm-est-edition/</guid>
+      <description>The top 10 stories on Hacker News this instant, summarized quickly. It&amp;#39;s taking me about 3 minutes per article to read and digest it well enough to write down a few words about it.
+1. Poll: &amp;quot;What is your hourly rate, or your monthly salary converted into hourly rate (divided by ~165 hours) in USD?&amp;quot; (csomar) Much discussion in the comments as to whether people are charging too little.
+2. 98% of venture capitalists aren&amp;#39;t dumb (Mark Suster), a response to &amp;quot;Dear Dumb VC&amp;quot; (Andy Dunn).</description>
+    </item>
+    
+    <item>
+      <title>Hacker News summary for Friday, 24 May 2013, 8:00 p.m. EST edition</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-24-hacker-news-summary-for-friday-24-may-2013-800-pm-est-edition/</link>
+      <pubDate>Fri, 24 May 2013 20:32:35 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-24-hacker-news-summary-for-friday-24-may-2013-800-pm-est-edition/</guid>
+      <description>An attempt to catch the top news of Hacker News on a Friday evening and summarize the top 10 stories; I won&amp;#39;t make any decisions about what should be in the top 10, just note them here with a summary. It took me about 30 minutes to summarize 10 stories, without being selective about which ones were important.
+1. Ben Howdle is &amp;quot;Too scared to write a line of code&amp;quot; (Medium).</description>
+    </item>
+    
+    <item>
+      <title>You are likely to be eaten by a grue.</title>
+      <link>http://vielmetti.github.io/post/2011/2011-01-21-you-are-likely-to-be-eaten-by-a-grue/</link>
+      <pubDate>Fri, 21 Jan 2011 22:25:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-01-21-you-are-likely-to-be-eaten-by-a-grue/</guid>
+      <description>The video, entitled &#34;It is pitch dark&#34;, from nerdcore hip-hop grandmaster MC Frontalot.
+
+The lyrics, in part:
+You are likely to be eaten by a grue. If this predicament seems particularly cruel, consider whose fault it could be: not a torch or a match in your inventory. What is a grue?
+The grue is a sinister, lurking presence in the dark places of the earth. Its favorite diet is adventurers, but its insatiable appetite is tempered by its fear of light.</description>
+    </item>
+    
+    <item>
+      <title>Map Warper: stretch an old map to fit the new landscape</title>
+      <link>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</link>
+      <pubDate>Wed, 24 Jun 2009 22:34:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</guid>
+      <description>http://www.vizworld.com/2009/06/testing-map-warper-beta/
+Maitri has a great write-up of Map Warper, a tool for taking old maps and stretching them (rectifying them) to match another base map.&amp;#0160; Tim Waters has developed an open source tool called Map Warper (Beta) into which you can upload a scanned map, georectify it and save it out as an image or a map layer.&amp;#0160; As a former resident of New Orleans, where a transparent recovery and historic preservation are daily uphill battles, this tool can be invaluable in saving and sharing ancient and new maps of the city’s original development and re-development since Hurricane Katrina and The Flood.</description>
+    </item>
+    
+    <item>
+      <title>whitehouse.gov: sending data to statse.webtrendslive.com</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-20-whitehousegov-sending-data-to-statsewebtrendslivecom/</link>
+      <pubDate>Tue, 20 Jan 2009 22:59:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-20-whitehousegov-sending-data-to-statsewebtrendslivecom/</guid>
+      <description>On the page:
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;/includes/webtrends.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+in that code:
+
+function WebTrends(){
+var that=this;
+// begin: user modifiable
+this.dcsid=&amp;quot;dcs0l9nq800000ctek411lue6_2c8b&amp;quot;;
+ this.domain=&amp;quot;statse.webtrendslive.com&amp;quot;;
+this.timezone=-5;
+this.fpcdom=&amp;quot;.whitehouse.gov&amp;quot;;
+this.onsitedoms=&amp;quot;&amp;quot;;
+this.downloadtypes=&amp;quot;xls,doc,pdf,txt,csv,zip&amp;quot;;
+this.rightclicktypes=&amp;quot;xls,doc,pdf,txt,csv,zip&amp;quot;;
+this.trackevents=true;
+this.enabled=true;
+this.i18n=false;
+this.fpc=&amp;quot;WT_FPC&amp;quot;;
+// end: user modifiable
+this.DCS={};
+this.WT={};
+this.DCSext={};
+this.images=[];
+this.index=0;
+this.exre=(function(){return(window.RegExp?new RegExp(&amp;quot;dcs(uri)|(ref)|(aut)|(met)|(sta)|(sip)|(pro)
+|(byt)|(dat)|(p3p)|(cfg)|(redirect)|(cip)&amp;quot;,&amp;quot;i&amp;quot;):&amp;quot;&amp;quot;);})();
+this.re=(function(){return(window.RegExp?(that.i18n?{&amp;quot;%25&amp;quot;:/\%/g}:{&amp;quot;%09&amp;quot;:/\t/g,&amp;quot;%20&amp;quot;:/ /g,&amp;quot;%23&amp;quot;:/\#
+/g,&amp;quot;%26&amp;quot;:/\&amp;amp;/g,&amp;quot;%2B&amp;quot;:/\+/g,&amp;quot;%3F&amp;quot;:/\?/g,&amp;quot;%5C&amp;quot;:/\\/g,&amp;quot;%22&amp;quot;:/\&amp;quot;/g,&amp;quot;%7F&amp;quot;:/\x7F/g,&amp;quot;%A0&amp;quot;:/\xA0/g}):&amp;quot;&amp;quot;);})(
+);
+}
+in the privacy policy:
+Browser information collected on the web site: We log IP addresses, which are the locations of computers or networks on the Internet, and analyze them in order to improve the value of our site.</description>
+    </item>
+    
+    <item>
+      <title>regime change: before and after on whitehouse.gov</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-20-regime-change-before-and-after-on-whitehousegov/</link>
+      <pubDate>Tue, 20 Jan 2009 12:07:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-20-regime-change-before-and-after-on-whitehousegov/</guid>
+      <description>$ for n in $(~/bin/range 1 60); do curl -L http://whitehouse.gov -o whitehouse.$n.html; sleep 60; done &amp;amp;
+$ ls -ltr
+total 1392
+-rw-r--r--&amp;#0160; 1 emv&amp;#0160; staff&amp;#0160; 33323 Jan 20 11:46 whitehouse.1.html
+-rw-r--r--&amp;#0160; 1 emv&amp;#0160; staff&amp;#0160; 33323 Jan 20 11:47 whitehouse.2.html
+-rw-r--r--&amp;#0160; 1 emv&amp;#0160; staff&amp;#0160; 33323 Jan 20 11:48 whitehouse.3.html
+-rw-r--r--&amp;#0160; 1 emv&amp;#0160; staff&amp;#0160; 33323 Jan 20 11:49 whitehouse.4.html
+-rw-r--r--&amp;#0160; 1 emv&amp;#0160; staff&amp;#0160; 33323 Jan 20 11:50 whitehouse.5.html
+-rw-r--r--&amp;#0160; 1 emv&amp;#0160; staff&amp;#0160; 33323 Jan 20 11:51 whitehouse.</description>
+    </item>
+    
+    <item>
+      <title>&#34;crush collision&#34;, a new album from The MD5</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-31-crush-collision-a-new-album-from-the-md5/</link>
+      <pubDate>Wed, 31 Dec 2008 15:51:36 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-31-crush-collision-a-new-album-from-the-md5/</guid>
+      <description>No, not really, but wouldn&amp;#39;t it be awesome?
+This is the team that wrote the paper MD5 considered harmful today: Creating a rogue CA certificate which showed that the security model of HTTPS can be defeated using a combination of attacks on the MD5 hash algorithm plus non-random serial numbers in the popular RapidSSL and FreeSSL certificates.&amp;#0160; They used a cluster of 200 PS3s for a weekend of number crunching.</description>
+    </item>
+    
+    <item>
+      <title>stuck on a postcard / postful / curl problem</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</link>
+      <pubDate>Tue, 30 Dec 2008 15:00:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</guid>
+      <description>FIXED, see the bottom.&amp;#0160; 12/31
+rather than give up in total frustration, here&amp;#39;s what I am trying to implement, using &amp;quot;curl&amp;quot; to drive the system.&amp;#0160; This is from the &amp;quot;postful&amp;quot; API docs.
+1. Upload the document. To uploading a document, submit a POST to:
+http://www.postful.com/service/upload Be sure to include the Content-Type and Content-Length headers and the document itself as the body of the request.
+POST /upload HTTP/1.0
+Content-Type: application/octet-stream
+Content-Length: 301456</description>
+    </item>
+    
+    <item>
+      <title>image processing on the mac with sips, ImageMagick - watching DTE restore power, slowly</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly/</link>
+      <pubDate>Mon, 29 Dec 2008 15:12:19 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly/</guid>
+      <description>As part of watching DTE slowly restore power to the area, I&amp;#39;ve been pulling down copies of their outage maps.&amp;#0160; These are big PDF files, suitable for framing, that encode a bunch of data in them about where the power is out.&amp;#0160; Here&amp;#39;s some tools I used to get details out of PDF into image formats, (hopefully) to get them back down to a spreadsheet full of numbers.
+1.&amp;#0160; Fetch the outage report automatically with curl:</description>
+    </item>
+    
+    <item>
+      <title>using &#34;tidy&#34; in a screen scraping pipeline</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-26-using-tidy-in-a-screen-scraping-pipeline/</link>
+      <pubDate>Fri, 26 Dec 2008 14:24:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-26-using-tidy-in-a-screen-scraping-pipeline/</guid>
+      <description>When the AATA mobile ride track is up, I have a script that runs periodically to decode the web pages and turn them into data.&amp;#0160; The pages are formatted for humans, so I need to do screen scraping on them to reconstruct the original data values.
+There are a lot of tools for screen scraping, with each of them appealing to a programmer who has a certain world view of the web and how things are put together.</description>
+    </item>
+    
+    <item>
+      <title>How to run Django on Google App Engine - results of the Ann Arbor Google App Engine hackathon</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-17-how-to-run-django-on-google-app-engine---results-of-the-ann-arbor-google-app-engine-hackathon/</link>
+      <pubDate>Mon, 17 Nov 2008 11:07:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-17-how-to-run-django-on-google-app-engine---results-of-the-ann-arbor-google-app-engine-hackathon/</guid>
+      <description>I&#39;m at the Google App Engine hackathon in Ann Arbor.&amp;nbsp; My goal for the day is to get a Django instance running on top of appengine as much as possible, using as much of the existing code base that&#39;s out there that I can.&amp;nbsp; (This instead of say, hacking a wiki, which is what their sample app is - been there done that.)
+Here&#39;s some background reading:
+Using Django with Appengine - Shabda Raaj.</description>
+    </item>
+    
+    <item>
+      <title>Programming and the &#34;intelligent web&#34;</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-16-programming-and/</link>
+      <pubDate>Thu, 16 Oct 2008 21:16:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-16-programming-and/</guid>
+      <description>Some notes from the publisher&#39;s sites on new(ish) books on programming a web 2.0 world.&amp;nbsp; Just remember, &amp;quot;every day computers are making people easier and easier to use.&amp;quot;
+Programming Collective Intelligence, 1st Edition by Toby Segaran
+ Want to tap the power behind search rankings, product recommendations, social bookmarking, and online matchmaking? This fascinating book demonstrates how you can build Web 2.0 applications to mine the enormous amount of data created by people on the Internet.</description>
+    </item>
+    
+    <item>
+      <title>Fixing LinkedIn for Groups with Greasemonkey; step one, the naming of the parts</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-20-fixing-linkedin/</link>
+      <pubDate>Wed, 20 Aug 2008 15:11:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-20-fixing-linkedin/</guid>
+      <description>I use LinkedIn for Groups to manage the Cisco Alumni Association group.&amp;nbsp; One of the qualification steps is that you have to have worked for Cisco in the past (and you&#39;d be surprised how many people apply who haven&#39;t any connection at all).
+ The admin UI for that system is clumsy if you have to approve and delete a lot of people - basically there&#39;s no built-in support for checking someone out short of opening up a whole new window with their profile.</description>
+    </item>
+    
+    <item>
+      <title>threequel === threequal - of movies, code, and the l33t</title>
+      <link>http://vielmetti.github.io/post/2008/2008-05-19-threequel-three/</link>
+      <pubDate>Mon, 19 May 2008 18:36:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-05-19-threequel-three/</guid>
+      <description>A few definitions for you, with citations from the wild; spelling is as in the original with Google counts of occurences, if possible.
+In short: threequel and 3quel are about movies; threequal is the &#34;===&#34; operator; 3qual is hacker speak. More or less.
+threequel (33,900): When I was a kid, I assumed all third installments in a horror series had to capitalize on the ability to turn the “3″ in the title into “3-D.</description>
     </item>
     
   </channel>

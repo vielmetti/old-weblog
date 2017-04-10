@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/information-security/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Information Security on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/information-security/</link>
+    <description>Recent content in Information Security on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/information-security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Nov 2014 01:48:27 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/information-security/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Tor network takedown by the Nazgûl</title>
@@ -14,18 +17,10 @@
       <pubDate>Mon, 10 Nov 2014 01:48:27 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-10-tor-network-takedown-by-the-nazg%C3%BBl/</guid>
-      <description>&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;I would liken Tor to putting on Sauron&amp;#39;s ring. The wearer is invisible to ordinary beings, like Men, but highly visible to the Nazgûl.&lt;/p&gt;&amp;mdash; Matthew Green (@matthew_d_green) &lt;a href=&#34;https://twitter.com/matthew_d_green/status/525441833024110593&#34;&gt;October 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://arstechnica.com/security/2014/11/silk-road-other-tor-darknet-sites-may-have-been-decloaked-through-ddos/&#34;&gt;Ars Technica writes&lt;/a&gt; (November 9, 2014) about the takedown of many sites on the Tor network. An excerpt:&lt;/p&gt;
-
-&lt;blockquote&gt;
-The theory posited by “the kid who started Doxbin“ to nachash was that the attack was an attempt to force connections to the site’s various .onion addresses to follow paths that went over Tor network nodes set up by law enforcement. By filling up the “circuits” through secure Tor network nodes, law enforcement operatives could have made it possible to connect to the services only through Tor routing servers they controlled—allowing them to see the real Internet Protocol address of the server hosting them.
-&lt;/blockquote&gt;
-
-&lt;p&gt;In general, beware any service that provides security, because any users of that service become targets.&lt;/p&gt;
-</description>
+      <description>I would liken Tor to putting on Sauron&amp;#39;s ring. The wearer is invisible to ordinary beings, like Men, but highly visible to the Nazgûl.
+&amp;mdash; Matthew Green (@matthew_d_green) October 24, 2014 
+Ars Technica writes (November 9, 2014) about the takedown of many sites on the Tor network. An excerpt:
+ The theory posited by “the kid who started Doxbin“ to nachash was that the attack was an attempt to force connections to the site’s various .</description>
     </item>
     
     <item>
@@ -34,10 +29,8 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Thu, 25 Sep 2014 00:05:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-25-shellshock-the-logo/</guid>
-      <description>&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;No security vulnerability disclosure is complete without a logo. &lt;a href=&#34;https://twitter.com/hashtag/ShellShock?src=hash&#34;&gt;#ShellShock&lt;/a&gt; &lt;a href=&#34;http://t.co/yZFDj745Po&#34;&gt;pic.twitter.com/yZFDj745Po&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paul M. Gerhardt (@pmg) &lt;a href=&#34;https://twitter.com/pmg/status/514925328632799232&#34;&gt;September 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>No security vulnerability disclosure is complete without a logo. #ShellShock pic.twitter.com/yZFDj745Po
+&amp;mdash; Paul M. Gerhardt (@pmg) September 24, 2014</description>
     </item>
     
     <item>
@@ -46,56 +39,10 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Sun, 06 Oct 2013 23:05:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-06-slow-obamacare-registration-denial-of-service-attack-or-self-inflicted-injury/</guid>
-      <description>&lt;p&gt;The new healthcare marketplace for the Affordable Care Act, &lt;a href=&#34;http://www.healthcare.gov&#34;&gt;Healthcare.GOV&lt;/a&gt;, has been operating slowly under the weight of open enrollment for &#34;Obamacare&#34; plans. The question then comes up: is this some kind of coordinated denial of service attack on the system, or is the system architecture simply slow under heavy load?&lt;/p&gt;
+      <description>The new healthcare marketplace for the Affordable Care Act, Healthcare.GOV, has been operating slowly under the weight of open enrollment for &#34;Obamacare&#34; plans. The question then comes up: is this some kind of coordinated denial of service attack on the system, or is the system architecture simply slow under heavy load?
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affd2204f970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019affd2204f970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-10-06 at 10.31.25 PM&#34; title=&#34;Screen shot 2013-10-06 at 10.31.25 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affd2204f970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.reuters.com/article/2013/10/05/us-usa-healthcare-technology-analysis-idUSBRE99407T20131005&#34;&gt;Reuters took a look at the issue&lt;/a&gt;, and found some problems with the healthcare marketplace&#39;s systems design.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Five outside technology experts interviewed by Reuters, however, say they believe flaws in system architecture, not traffic alone, contributed to the problems. For instance, when a user tries to create an account on HealthCare.gov, which serves insurance exchanges in 36 states, it prompts the computer to load an unusually large amount of files and software, overwhelming the browser, experts said. If they are right, then just bringing more servers online, as officials say they are doing, will not fix the site.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.nytimes.com/news/affordable-care-act/2013/10/01/in-debut-affordable-care-web-site-baffles-many-users/&#34;&gt;New York Times reported on the site&#39;s debut&lt;/a&gt; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;While the site took three years to build, it took only a few minutes for it to break down when it went live at 8 a.m. E.D.T. Some consumers said they were met with an error message in the early morning when trying to visit the Web site, which seemed to be overwhelmed with traffic and limited by apparent programming issues. Many people took to Twitter and Facebook to note that the site was down.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And &lt;a href=&#34;http://tv.msnbc.com/2013/10/04/obamacare-disaster-or-routine-maintenance/&#34;&gt;MSNBC asks&lt;/a&gt; - disaster or routine maintenance?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;HHS officials said that they will be taking down the “application part of the website” for scheduled maintenance this weekend, according to NBC News’ Kristin Welker. The announcement was red meat for critics of Obamacare, who have been largely silent since the health care law rolled out earlier this week. Speaker John Boehner said the administration’s announcement was proof that “the president’s health care law has been an unmitigated disaster.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So far, no reliable reports that I&#39;ve been able to find blame the problem on a specific denial of service attack; rather, it appears to be a combination of sudden demand for the service, teething pains for a new site, and system complexity. I did not note any commentary from the Arbor Networks &lt;a href=&#34;http://www.arbornetworks.com/asert/&#34;&gt;ASERT&lt;/a&gt; weblog, which writes about DDOS attacks. &lt;a href=&#34;http://www.renesys.com/blog/&#34;&gt;Renesys&lt;/a&gt;, usually a useful view on problems, is reporting on Internet downtime in Sudan and Syria. My heads-up site for Internet-wide problems, the &lt;a href=&#34;http://puck.nether.net/mailman/listinfo/outages&#34;&gt;outages mailing list&lt;/a&gt;, is silent. Strangely, the place I&#39;d expect to have seen this show up - the automated news aggregator &lt;a href=&#34;http://www.techmeme.com/131007/p12#a131007p12&#34;&gt;Techmeme&lt;/a&gt; - is also quiet (Update: see below for Techmeme coverage). The &lt;a href=&#34;http://www.reddit.com/r/obamacare&#34;&gt;Obamacare Reddit subboard&lt;/a&gt; has some reports from people who made it through the system, and others who are having problems.&lt;/p&gt;
-
-&lt;p&gt;More insights:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/05/a-techie-walks-us-through-healthcare-govs-two-big-problems/&#34;&gt;Washington Post interview&lt;/a&gt; with Jyoti Bansal, the founder of AppDynamics, an application management company that, among other things “makes sure essential software applications of customers such as Netflix stay up and running.” &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most of the problems like these are in the software. Hardware is the easy part. You can add more hardware and do it easily. Software takes more time. In the rush of getting this out, it seems like testing wasn’t done completely. My expectations from this is that these problems should go away in the next few weeks. The site still won’t be as fast as something like Netflix, but it should work.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Thousands of comments on the &lt;a href=&#34;https://www.facebook.com/Healthcare.gov&#34;&gt;Facebook page for Healthcare.Gov&lt;/a&gt; - just one of them here!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I find it so telling of Americans if you can&#39;t get it within 4 days when you have 6 months to sign up we throw up our hands, have a temper tantrum and take our toys and go home. How about waiting a couple weeks and try again.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Techmeme weighs in leading with a Wall Street Journal story -&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Six days into the launch of insurance marketplaces created by the new health-care law, the federal government acknowledged for the first time Sunday it needed to fix design and software problems that have kept customers from applying online for coverage.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+Reuters took a look at the issue, and found some problems with the healthcare marketplace&#39;s systems design.
+ Five outside technology experts interviewed by Reuters, however, say they believe flaws in system architecture, not traffic alone, contributed to the problems.</description>
     </item>
     
     <item>
@@ -104,28 +51,8 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Mon, 26 Aug 2013 11:34:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-26-need-a-login-and-registration-system-for-a-free-wifi-network-/</guid>
-      <description>&lt;p&gt;A note from Steve Pierce regarding a request for ideas and code to help people log into a free WiFi mesh network. Contact him for details at bottom.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hdl.com&#34;&gt;HDL.com&lt;/a&gt; and volunteers have deployed a free WiFi network in SE Michigan over the last 5 years. With over 1,000 access points deployed and 650,000 unique devices connected, &lt;a href=&#34;http://wireless.ypsi.com&#34;&gt;Wireless Ypsi&lt;/a&gt; and companion networks such as &lt;a href=&#34;http://detroitenabled.org/&#34;&gt;Detroit Enabled&lt;/a&gt; are averaging over 2,500 users per day, making it one of the largest free WiFi networks in the country.&lt;/p&gt;
-
-&lt;p&gt;The equipment and connections are paid for by local community groups like Focus Hope and Public Housing along with business owners and community champions. No money is charged to use the WiFi service, nor is there any advertising revenue. &lt;/p&gt;
-
-&lt;p&gt;The free network, called Wireless Ypsi and Detroit Enabled is HDL.com’s way of giving back to the community. We help secure Internet bandwidth and donate time and equipment to support the free network.&lt;/p&gt;
-
-&lt;p&gt;The struggle we face is making sure we comply with Internet Service providers terms of service agreements. One recent requirement is to not have anonymous access to the network. While we would love to have open and free Internet for everyone, the reality is Internet service costs money and the major carriers like Comcast and AT&amp;amp;T don’t provide the service for free. So while Wireless Ypsi and Detroit Enabled offer free WiFi for residents, business and visitors, someone still needs to pay for the connections.&lt;/p&gt;
-
-&lt;p&gt;To continue to use these paid connections we need a system that will allow people to sign up for free accounts to use the service. We want something akin to Facebook or Twitter that will allow for instant sign up and use of the free WiFi network.&lt;/p&gt;
-
-&lt;p&gt;Users would provide their name, address, phone and email address and chose a secure password. They would immediately be granted access to the network for one day. A confirmation email link is sent to the email address and it must be confirmed to continue to use the service beyond the first day.&lt;/p&gt;
-
-&lt;p&gt;Authentication would use a RADIUS server or similar service which would need to be selected, as well. We must insure proper data security and programming techniques are used to protect the data.&lt;/p&gt;
-
-&lt;p&gt;Not having a login and registration system is the single largest barrier we face today to continued large scale deployments of free WiFi. We have proven with our 5 year success story that the network is reliable and sustainable. Yet not having a login and registration system has virtually stopped us from expanding services into new areas until we can address this need.&lt;/p&gt;
-
-&lt;p&gt;Contact: Steve Pierce, Steve@HDL.com or 734-274-4602&lt;/p&gt;
-</description>
+      <description>A note from Steve Pierce regarding a request for ideas and code to help people log into a free WiFi mesh network. Contact him for details at bottom.
+ HDL.com and volunteers have deployed a free WiFi network in SE Michigan over the last 5 years. With over 1,000 access points deployed and 650,000 unique devices connected, Wireless Ypsi and companion networks such as Detroit Enabled are averaging over 2,500 users per day, making it one of the largest free WiFi networks in the country.</description>
     </item>
     
     <item>
@@ -134,12 +61,7 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Mon, 05 Aug 2013 07:55:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-05-tor-network-anonymity-compromised-by-javascript-exploit/</guid>
-      <description>&lt;p&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.torproject.org/&#34; target=&#34;_self&#34;&gt;TOR&lt;/a&gt;&lt;/strong&gt; is an anonymous network set up originally by the US Navy in order to support cloaked access by the US Government to the Internet. Users access the network through a computer or browser set up to point traffic towards a network of &amp;quot;onion routers&amp;quot;, which scramble the path that the packet takes to eventually reach the Internet. There are also provisions for &amp;quot;dark&amp;quot; web sites or hidden service operators to exist within the TOR network, which should in theory be reachable anonymously by TOR users but not the great outside Internet. A 2005 era web site &lt;a href=&#34;http://www.onion-router.net/&#34; target=&#34;_self&#34;&gt;describes the theory&lt;/a&gt; behind onion routing.&lt;/p&gt;
-&lt;p&gt;The TOR network operators have encouraged a broad spectrum of users to participate in the system, and it has become favored of several unsavory business enterprises that take advantage of the anonymity provided to transact business that would be shut down on the public Internet. (Or so it is alleged; I haven&amp;#39;t seen that first hand).&lt;/p&gt;
-&lt;p&gt;In early August, 2013, the TOR network was compromised. A popular browser for the system, the &lt;a href=&#34;https://www.torproject.org/projects/torbrowser.html.en&#34; target=&#34;_self&#34;&gt;Tor Browser Bundle&lt;/a&gt;, was attacked with a Javascript exploit that causes the nominally anonymous system to report its real IP address and MAC address to a central server, thus decloaking the device. The allegations are flying around as to who did this attack, but it&amp;#39;s been alleged that a government is behind it because there are no indications that the exploit inserts any malware - just this deanonymizing task.&lt;/p&gt;
-&lt;p&gt;More reading via Techmeme:&amp;#0160;&lt;a href=&#34;http://arstechnica.com/tech-policy/2013/08/alleged-tor-hidden-service-operator-busted-for-child-porn-distribution/&#34; target=&#34;_self&#34;&gt;Alleged Tor hidden service operator busted for child porn distribution&lt;/a&gt;&amp;#0160;(Ars Technica);&amp;#0160;&lt;a href=&#34;http://boingboing.net/2013/08/04/anonymous-web-host-shut-down.html&#34; target=&#34;_self&#34;&gt;Anonymous Web-host shut down, owner arrested; Tor users compromised by Javascript exploit&lt;/a&gt; (Boing Boing);&amp;#0160;&lt;a href=&#34;http://bitcoinmagazine.com/freedom-hosting-taken-down-founder-arrestes-users-fed-javascript-exploits/&#34; target=&#34;_self&#34;&gt;Freedom Hosting Taken Down, Founder Arrested, Users fed Javascript Exploits&lt;/a&gt; (Bitcoin Magazine);&amp;#0160;&lt;a href=&#34;https://blog.torproject.org/blog/hidden-services-current-events-and-freedom-hosting&#34; target=&#34;_self&#34;&gt;Hidden Services, Current Events, and Freedom Hosting&lt;/a&gt;&amp;#0160;(Tor Project).&lt;/p&gt;
-&lt;pre&gt;&lt;br /&gt;&lt;/pre&gt;&lt;/p&gt;
-</description>
+      <description>TOR is an anonymous network set up originally by the US Navy in order to support cloaked access by the US Government to the Internet. Users access the network through a computer or browser set up to point traffic towards a network of &amp;quot;onion routers&amp;quot;, which scramble the path that the packet takes to eventually reach the Internet. There are also provisions for &amp;quot;dark&amp;quot; web sites or hidden service operators to exist within the TOR network, which should in theory be reachable anonymously by TOR users but not the great outside Internet.</description>
     </item>
     
     <item>
@@ -148,9 +70,7 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Fri, 29 Mar 2013 22:53:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-29-collected-articles-on-code-reconstruction-katharine-swift-1976-as-announced-in-cryptolog/</guid>
-      <description>&lt;p&gt;The National Security Agency has &lt;a href=&#34;%20http://www.nsa.gov/public_info/declass/cryptologs.shtml&#34; target=&#34;_self&#34;&gt;declassified a number of issues of CRYPTOLOG&lt;/a&gt;, their in-house magazine. Here&amp;#39;s an example from 1977, announcing the publication (for anyone with a Top Secret Codeword clearance) of &lt;a href=&#34;http://www.nsa.gov/about/cryptologic_heritage/women/honorees/swift.shtml&#34; target=&#34;_self&#34;&gt;Katharine Swift&amp;#39;s&lt;/a&gt; &amp;quot;Collected Articles on Code Reconstruction&amp;quot;. &amp;#0160;&amp;quot;It is hoped that managers as well as book-breakers and programmers, and senior analysts as well as neophytes, will find material that will help each in making his individual contribution on the job.&amp;quot;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d4263c059970c-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-03-29 at 10.42.31 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017d4263c059970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d4263c059970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-03-29 at 10.42.31 PM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The National Security Agency has declassified a number of issues of CRYPTOLOG, their in-house magazine. Here&amp;#39;s an example from 1977, announcing the publication (for anyone with a Top Secret Codeword clearance) of Katharine Swift&amp;#39;s &amp;quot;Collected Articles on Code Reconstruction&amp;quot;. &amp;#0160;&amp;quot;It is hoped that managers as well as book-breakers and programmers, and senior analysts as well as neophytes, will find material that will help each in making his individual contribution on the job.</description>
     </item>
     
     <item>
@@ -159,32 +79,10 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Fri, 08 Jun 2012 11:58:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-06-08-more-computer-security-problems-in-more-systems-not-only-hashed-and-salted-but-pan-seared-and-dusted/</guid>
-      <description>&lt;p&gt;When you notice &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/06/linkedin-has-had-a-password-leak.html&#34; target=&#34;_self&#34;&gt;a big LinkedIn password breach&lt;/a&gt; one day, and then several other sites also announce problems in subsequent days, there seems to be a pattern worth noticing. Here&amp;#39;s what I&amp;#39;ve noticed of late.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Ars Technica reports that the &lt;a href=&#34;http://arstechnica.com/security/2012/06/flame-crypto-breakthrough/&#34; target=&#34;_self&#34;&gt;Flame virus uses a previously undiscovered attack on the MD5 cryptographic hash&lt;/a&gt; in order to carry out some of its devious work.&amp;#0160;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Flame is the first known example of an MD5 collision attack being used maliciously in a real-world environment. It wielded the esoteric technique to digitally sign malicious code with a fraudulent certificate that&amp;#0160;&lt;a href=&#34;http://arstechnica.com/security/2012/06/flame-malware-was-signed-by-rogue-microsoft-certificate/&#34;&gt;appeared to originate with Microsoft&lt;/a&gt;. By deploying fake servers on networks that hosted machines already infected by Flame—and using the certificates to sign Flame modules—the malware was able to&amp;#0160;&lt;a href=&#34;http://arstechnica.com/security/2012/06/flames-god-mode-cheat-code-wielded-to-hijack-windows-7-server-2008/&#34;&gt;hijack the Windows Update mechanism&lt;/a&gt;&amp;#0160;Microsoft uses to distribute patches to hundreds of millions of customers.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Taking over Windows Update is game over for a compromised system, and of course it&amp;#39;s also an efficient way to keep your bugged system up to date with the latest bugs. Flame is thus suspected of being created by a powerful nation-state, since the crypto needed to do this is beyond the grasp of but a few skilled mathematicians.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.bricklink.com&#34; target=&#34;_self&#34;&gt;Bricklink&lt;/a&gt; is reporting that &lt;a href=&#34;http://www.bricklink.com/messageThread.asp?ID=133899&amp;amp;amp;nID=642624&#34; target=&#34;_self&#34;&gt;their admin user id was stolen&lt;/a&gt;, and a number of accounts were fraudulently merged together. No word yet on how the attacker(s) got access to the key account on the system, and I haven&amp;#39;t seen any other reporting about problems at this LEGO trading site.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;As a few people noticed, a number of major accounts were merged fraudulently&amp;#0160;around 12:15 pm EDT today. As a merge is almost impossible to undo, the solution&amp;#0160;was to do a database rollback to 12:00 PM EDT today. This breach was due to the&amp;#0160;Admin user ID being stolen.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;TheNextWeb writes about &lt;a href=&#34;http://thenextweb.com/insider/2012/06/07/change-your-last-fm-password-now-there-may-have-been-another-security-breach/&#34; target=&#34;_self&#34;&gt;problems at last.fm which is reporting a big password leak&lt;/a&gt; on the scale of LinkedIn. The &lt;a href=&#34;http://www.last.fm/passwordsecurity&#34; target=&#34;_self&#34;&gt;last.fm notice&lt;/a&gt; reads in part&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We are currently investigating the leak of some Last.fm user passwords. This follows recent password leaks on other sites, as well as information posted online. As a precautionary measure, we’re asking all our users to change their passwords immediately.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Passwords are a weak link in many online systems, and password database security gets short shrift in some growing startups. Perhaps these two tweets from Pinboard&amp;#39;s founder&amp;#0160;Maciej Ceglowski are worth noting to round out the report.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div&gt;&lt;a href=&#34;https://twitter.com/#!/Pinboard&#34;&gt;&lt;strong&gt;Pinboard&lt;/strong&gt;&amp;#0160;‏@&lt;strong&gt;Pinboard&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&amp;#0160;&lt;/strong&gt;Proud to reassure my users that&amp;#0160;&lt;strong&gt;Pinboard&lt;/strong&gt;&amp;#0160;passwords are not only hashed and salted, but pan-seared and dusted with a saffron quince reduction&lt;/div&gt;
-&lt;div&gt;&lt;a href=&#34;https://twitter.com/#!/Pinboard&#34;&gt;&lt;strong&gt;Pinboard&lt;/strong&gt;&amp;#0160;‏@&lt;strong&gt;Pinboard&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&amp;#0160;&lt;/strong&gt;(rightly) exasperated security person asks me to admit that Pinboard uses bcrypt. But there is no known way to make a bcrypt tweet funny&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://codahale.com/how-to-safely-store-a-password/&#34; target=&#34;_self&#34;&gt;More on bcrypt from Coda Hale.&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>When you notice a big LinkedIn password breach one day, and then several other sites also announce problems in subsequent days, there seems to be a pattern worth noticing. Here&amp;#39;s what I&amp;#39;ve noticed of late.
+&amp;#0160;
+Ars Technica reports that the Flame virus uses a previously undiscovered attack on the MD5 cryptographic hash in order to carry out some of its devious work.&amp;#0160;
+ Flame is the first known example of an MD5 collision attack being used maliciously in a real-world environment.</description>
     </item>
     
     <item>
@@ -193,34 +91,8 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Wed, 06 Jun 2012 23:08:18 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-06-06-linkedin-has-had-a-password-leak/</guid>
-      <description>&lt;p&gt;Change your LinkedIn password.&lt;/p&gt;
-&lt;p&gt;News emerged on Wednesday, June 6, 2012 that LinkedIn had a leak of its password database. This was confirmed as a number of security researchers identified their own password hashes in the file, as well as a number of cracked passwords from that file that had the string &amp;quot;LinkedIn&amp;quot; or some variant in the text. You can protect yourself by changing your LinkedIn password, and by also changing any other passwords that you use which are the same. LinkedIn, for its part, has promised to strengthen its internal controls and introduce a &amp;quot;salt&amp;quot; into its password storage system.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://blog.linkedin.com/2012/06/06/linkedin-member-passwords-compromised/&#34; target=&#34;_self&#34;&gt;An update from LinkedIn&lt;/a&gt;&amp;#0160;acknowledges the leak. The &lt;a href=&#34;http://money.cnn.com/2012/06/06/technology/linkedin-password-hack/index.htm&#34; target=&#34;_self&#34;&gt;reporting from CNN&lt;/a&gt; is unusually detailed:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Countless passwords on the list contain the word &amp;quot;linkedin.&amp;quot; On a&amp;#0160;&lt;a href=&#34;https://news.ycombinator.com/item?id=4073309&#34;&gt;popular hacker forum&lt;/a&gt;, many reported finding passwords such as &amp;quot;linkedout,&amp;quot; &amp;quot;recruiter,&amp;quot; &amp;quot;googlerecruiter,&amp;quot; &amp;quot;toprecruiter,&amp;quot; &amp;quot;superrecruiter,&amp;quot; &amp;quot;humanresources&amp;quot; and &amp;quot;hiring.&amp;quot;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The leak was complicated by LinkedIn&amp;#39;s use of SHA-1 as its encryption scheme for passwords without using a &amp;quot;salt&amp;quot; to improve password security. &lt;a href=&#34;http://blog.agilebits.com/2012/06/06/a-salt-free-diet-is-bad-for-your-security/&#34; target=&#34;_self&#34;&gt;AgileBits has a good discussion of how salting works&lt;/a&gt;, and why you should use it; in short, it adds a little more randomness to even bad passwords so that an attacker can&amp;#39;t pre-compute the hashed stored passwords directly.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Even if Bot and Alice use the same password (and so have the same hash of their passwords) they don’t have to worry about each other. Who they need to worry about is Charlie the Cracker. Charlie may have spent months running software that picks passwords and generates the hashes of those passwords. He will store those millions of passwords and their hashes in a database called a “Rainbow Table.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Even without a rainbow table, modern password cracking hardware is mighty fast. How fast? &lt;a href=&#34;http://erratasec.blogspot.com/2012/06/confirmed-linkedin-6mil-password-dump.html&#34; target=&#34;_self&#34;&gt;Robert Graham from Errata Security lays it out&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt;&amp;#0160;How fast can hackers crack passwords? The answer &amp;quot;2 billion per second&amp;quot; using the Radeon HD 7970 (the latest top-of-the-line graphics processor). Each letter of a password has 100 combinations (UPPER, lower, d1g1ts, $ymbols). A 5 letter password therefore has&amp;#0160;&lt;tt&gt;100 x 100 x 100 x 100 x 100&lt;/tt&gt;&amp;#0160;or 10 billion combinations, meaning it can be cracked in 5 seconds. A 6 letter password has 100 times that, or 500 seconds. A 7 letter password has 100 times that, or 50,000 seconds, or 13 hours. An 8 character password is roughly 57 days. A 9 character password is 100 times that, about 15 years. In other words, if your password was 7 letters, the hacker has already cracked it, but if it&amp;#39;s 9 letters, it&amp;#39;s too difficult to crack with brute force.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Of course, &amp;quot;too difficult&amp;quot; for one computer is not the same as &amp;quot;too difficult&amp;quot; for a network of computing resources. Thomas Roth in 2010 on &lt;a href=&#34;http://stacksmashing.net/2010/11/15/cracking-in-the-cloud-amazons-new-ec2-gpu-instances/&#34; target=&#34;_self&#34;&gt;Cracking Passwords in the Cloud&lt;/a&gt;&amp;#0160;on Amazon&amp;#39;s EC2:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Using the CUDA-Multiforce, I was able to crack all hashes from&amp;#0160;&lt;a href=&#34;http://stacksmashing.net/blogfiles/2010_11_15/sha1_hashes.txt&#34;&gt;this&lt;/a&gt;&amp;#0160;file with a password length from 1-6 in only 49 Minutes (1 hour costs 2.10$ by the way.):&lt;/p&gt;
-&lt;div&gt;
-&lt;div&gt;Compute done: Reference time 2950.1 seconds&lt;br /&gt;Stepping rate: 249.2M MD4/s&lt;br /&gt;Search rate: 3488.4M NTLM/s&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;This just shows one more time that SHA1 for password hashing is deprecated – You really don’t want to use it anymore! Instead, use something like scrypt or PBKDF2! Just imagine a whole cluster of these machines (which is now easily available to anybody thanks to Amazon) cracking passwords for you. Pretty comfortable, large-scale password cracking for everybody!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;So 6 character SHA-1 hashes would cost about $2 to crack in 2010 computer-dollars; 7 characters, $200; 8 characters, $20,000; and 9 characters, &amp;quot;only&amp;quot; $2 million. &lt;a href=&#34;http://stacksmashing.net/2010/11/20/cracking-passwords-in-the-cloud-getting-the-facts-straight/&#34; target=&#34;_self&#34;&gt;Roth further concludes&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The thing that was new is that, due to the new Amazon offering, everyone is able to spawn a 100-or-more node cluster in the cloud and distribute the task of cracking passwords onto these nodes. The task of cracking hashes is especially suitable for massive parallelization! An attacker could easily spawn a gigantic cluster of nodes using stolen credit card information, and it would be no problem for him to crack 8-character passwords in a nice timeframe.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;So, &amp;quot;recruiter&amp;quot;, step up your game (and change your password, and your password algorithm).&lt;/p&gt;
-</description>
+      <description>Change your LinkedIn password.
+News emerged on Wednesday, June 6, 2012 that LinkedIn had a leak of its password database. This was confirmed as a number of security researchers identified their own password hashes in the file, as well as a number of cracked passwords from that file that had the string &amp;quot;LinkedIn&amp;quot; or some variant in the text. You can protect yourself by changing your LinkedIn password, and by also changing any other passwords that you use which are the same.</description>
     </item>
     
     <item>
@@ -229,34 +101,8 @@ The theory posited by “the kid who started Doxbin“ to nachash was that the a
       <pubDate>Mon, 04 May 2009 16:44:25 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-05-04-that-image-of-the-spreadsheet-in-the-pdf-you-sent-me-is-not-the-public-record-you-are-required-to-sh/</guid>
-      <description>&lt;p&gt;&lt;p&gt;I&amp;#39;ve become one of those people who requests and then reads the &amp;quot;board packets&amp;quot; for meetings of public bodies.&amp;#0160; These are fascinating things, generally 50-150 page tomes of memos, spreadsheets, graphs, charts, and news clippings that the staff of a public body will prepare for its board to go into a public meeting.&lt;/p&gt;&lt;p&gt;The fascinating thing from a technical point of view is just how many of these board packets include spreadsheets, and how many of the spreadsheets are presented either as bitmapped images or as text-only documents.&amp;#0160; In either case, there&amp;#39;s no way to know how the spreadsheet is constructed, whether the totals presented really add up to the totals displayed, and what if anything is hidden in the model used to come up with the numbers.&lt;/p&gt;&lt;p&gt;The latest one of these I&amp;#39;m getting clarification on is a spreadsheet where the numbers simply don&amp;#39;t add up - one row of expenses where the sum of the figures doesn&amp;#39;t jive with the total presented.&amp;#0160; And I can&amp;#39;t look at that without thinking a lot more about what else I might be missing, either by accident or design.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.cfo.com/article.cfm/11779964?f=related&#34;&gt;Not that anyone would deliberately hide things in a spreadsheet, though it&amp;#39;s been known to happen in my little town:&lt;/a&gt;&amp;#0160; from CFO.COM:&lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;The former CFO of a company that produces electronic databases of
-archived information from publishers settled charges made by the
-Securities and Exchange Commission that, with the use of spreadsheet
-aids, he made fraudulent monthly and quarterly and accounting entries
-for more than five years.&lt;/p&gt;
-&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;As part of the alleged scheme, Scott Hirth, who was vice president
-of finance and CFO of the information and learning division of ProQuest
-Company from 1999 through 2005, created false documentation to back up
-the balances in accounts he allegedly manipulated, according to the
-SEC. His account-reconciliation spreadsheets, for instance, contained
-&amp;quot;hidden rows&amp;quot; so that false account entries didn&amp;#39;t show up when they
-were printed in hard copy, according to the complaint.&lt;/p&gt;
- &lt;div class=&#34;blockquote clear&#34; id=&#34;related&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Related Articles&lt;/h4&gt;
-  &lt;ul class=&#34;articleBoxList clear&#34; id=&#34;relarticles&#34;&gt;&lt;li&gt;&lt;a href=&#34;http://www.cfo.com/article.cfm/11773924?f=related&#34;&gt;Spreadsheets: Formula for Success&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cfo.com/article.cfm/11525407?f=related&#34;&gt;Sloppy Spreadsheets: Readers Speak Out&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cfo.com/article.cfm/11288290?f=related&#34;&gt;Spreadsheet &amp;quot;Worst Practices&amp;quot;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cfo.com/article.cfm/9821335?f=related&#34;&gt;Spreadsheets: Fear No Evil&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cfo.com/article.cfm/9641392?f=related&#34;&gt;Tickling the Keyboard: 10 Spreadsheet Tips&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;The former finance chief also allegedly covered up false information
-by rendering it invisible through the use of &amp;quot;white font,&amp;quot; or
-white-colored text, in the spreadsheets, the commission charged.&lt;/p&gt;&lt;p&gt;White font!&amp;#0160; I guess that beats using white-out on the printouts.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>I&amp;#39;ve become one of those people who requests and then reads the &amp;quot;board packets&amp;quot; for meetings of public bodies.&amp;#0160; These are fascinating things, generally 50-150 page tomes of memos, spreadsheets, graphs, charts, and news clippings that the staff of a public body will prepare for its board to go into a public meeting.
+The fascinating thing from a technical point of view is just how many of these board packets include spreadsheets, and how many of the spreadsheets are presented either as bitmapped images or as text-only documents.</description>
     </item>
     
   </channel>

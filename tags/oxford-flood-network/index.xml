@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/oxford-flood-network/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Oxford Flood Network on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/oxford-flood-network/</link>
+    <description>Recent content in Oxford Flood Network on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/oxford-flood-network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2016 11:30:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/oxford-flood-network/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Oxford Flood Network</title>
@@ -14,32 +17,9 @@
       <pubDate>Fri, 08 Jan 2016 11:30:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-01-08-oxford-flood-network/</guid>
-      <description>&lt;p&gt;The Oxford Flood Network is making a flood detection network in
-the UK, using low cost sensors and volunteers. They are sharing
-their &lt;a href=&#34;https://github.com/oxfloodnet&#34;&gt;code on Github&lt;/a&gt; and their
-results on the &lt;a href=&#34;https://twitter.com/flood_network&#34;&gt;Flood_Network&lt;/a&gt;
-Twitter account.&lt;/p&gt;
-
-&lt;p&gt;They encourage you to &lt;a href=&#34;http://flood.network/join&#34;&gt;join their effort&lt;/a&gt;,
-and no high technology is necessary. The network incorporates
-both readings from automated sensors (about £250) as well as
-manual readings from gaugeboards or photos.&lt;/p&gt;
-
-&lt;p&gt;New as of December 2015 is an &lt;a href=&#34;http://www.nominet.uk/iot-technology-powers-an-interactive-flood-map-and-sensor-network/&#34;&gt;interactive flood map&lt;/a&gt;.
-A post from Nominet describes the effort:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Nominet, in association with the Flood Network, is today launching an interactive, online map which visualises river and stream levels around Oxford. The map, showing how technology can be a part of flood defence systems anywhere, has been developed following a successful pilot project with the Oxford Flood Network. The project has been focused on exploring the potential of the Internet of Things (IoT) to create an extensive, localised, early-warning system for flood-prone areas for the first time in the UK.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The system is using TVWS (&amp;ldquo;TV white space&amp;rdquo;) as its wide area backhaul
-network for these sensors for hard-to-reach devices that are outside
-of the range of wifi. Cost-effective and reliable access to remote
-small sensors is one of the tough spots in Internet of Things development,
-it&amp;rsquo;s interesting to see TVWS as a possible solution to this issue.
-The other relevant technology for low-cost metro area networks for
-sensors is Lorawan, more about which later.&lt;/p&gt;
-</description>
+      <description>The Oxford Flood Network is making a flood detection network in the UK, using low cost sensors and volunteers. They are sharing their code on Github and their results on the Flood_Network Twitter account.
+They encourage you to join their effort, and no high technology is necessary. The network incorporates both readings from automated sensors (about £250) as well as manual readings from gaugeboards or photos.
+New as of December 2015 is an interactive flood map.</description>
     </item>
     
   </channel>

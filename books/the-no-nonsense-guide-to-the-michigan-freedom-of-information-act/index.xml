@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/books/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>The No Nonsense Guide To The Michigan Freedom Of Information Act on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/books/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act/</link>
+    <description>Recent content in The No Nonsense Guide To The Michigan Freedom Of Information Act on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/books/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2013 11:50:02 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/books/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Writing release notes for a new version of my Michigan FOIA book, using Leanpub</title>
@@ -14,12 +17,8 @@
       <pubDate>Tue, 09 Apr 2013 11:50:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-09-writing-release-notes-for-a-new-version-of-my-michigan-foia-book-using-leanpub/</guid>
-      <description>&lt;p&gt;&lt;p&gt;The book is my&amp;#0160;&lt;a href=&#34;https://leanpub.com/michigan-foia&#34; target=&#34;_self&#34;&gt;No-Nonsense Guide to the Michigan Freedom of Information Act (FOIA)&lt;/a&gt;, which I&amp;#39;m publishing (early) and updating (as its written) &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/03/writing-and-publishing-early-with-leanpub.html&#34; target=&#34;_self&#34;&gt;using Leanpub&lt;/a&gt;. Here&amp;#39;s what I sent out to subscribers - all four of them! - this morning.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;m happy to have a chance to keep working on this, since even the smallest amount of money from new sales covers the direct costs &amp;#0160;of coffee to do the writing.&lt;/p&gt;
-&lt;p&gt;Release Notes
-&lt;/p&gt;
-&lt;blockquote&gt;April 9, 2013.&lt;br /&gt;&lt;br /&gt;This release updates the first 7 chapters of the book plus the introduction. Most of the changes are to fill in gaps, small reorganizations of the text, and line edits; there&amp;#39;s not a ton of new original materials. Chapters 8 through to the end are unchanged.&lt;br /&gt;&lt;br /&gt;One of the things that&amp;#39;s new in the Michigan FOIA world is that Muckrock (Appendix A) now supports FOIA requests to a number of Ann Arbor cities. My first trial with this worked a little bit well, and I&amp;#39;m going to keep trying to improve how that system works so that I get the best writeup of it.&lt;br /&gt;&lt;br /&gt;A document trove from a recent FOIA request is a log of all FOIA requests to the City of Ann Arbor over the span of two months. Look for a future set of edits to expand the &amp;quot;sample requests&amp;quot; considerably based on that collection, since I&amp;#39;m still digesting them.&lt;br /&gt;&lt;br /&gt;If anyone has tried the &amp;quot;send to Kindle&amp;quot; feature, let me know how it went.&lt;br /&gt;&lt;br /&gt;As always, if you have any questions, contact me at&amp;#0160;&lt;a href=&#34;mailto:edward.vielmetti@gmail.com&#34; target=&#34;_blank&#34;&gt;edward.vielmetti@gmail.com&lt;/a&gt;&amp;#0160;or&amp;#0160;&lt;a href=&#34;tel:%2B1%20734%20330%202465&#34; target=&#34;_blank&#34;&gt;+1 734 330 2465&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;thanks&lt;br /&gt;&lt;br /&gt;Ed&lt;/blockquote&gt;&lt;/p&gt;
-</description>
+      <description>The book is my&amp;#0160;No-Nonsense Guide to the Michigan Freedom of Information Act (FOIA), which I&amp;#39;m publishing (early) and updating (as its written) using Leanpub. Here&amp;#39;s what I sent out to subscribers - all four of them! - this morning.
+I&amp;#39;m happy to have a chance to keep working on this, since even the smallest amount of money from new sales covers the direct costs &amp;#0160;of coffee to do the writing.</description>
     </item>
     
   </channel>

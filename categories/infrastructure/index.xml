@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/infrastructure/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Infrastructure on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/infrastructure/</link>
+    <description>Recent content in Infrastructure on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2013 11:34:17 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Need: A login and registration system for a free WiFi network</title>
@@ -14,28 +17,8 @@
       <pubDate>Mon, 26 Aug 2013 11:34:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-26-need-a-login-and-registration-system-for-a-free-wifi-network-/</guid>
-      <description>&lt;p&gt;A note from Steve Pierce regarding a request for ideas and code to help people log into a free WiFi mesh network. Contact him for details at bottom.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hdl.com&#34;&gt;HDL.com&lt;/a&gt; and volunteers have deployed a free WiFi network in SE Michigan over the last 5 years. With over 1,000 access points deployed and 650,000 unique devices connected, &lt;a href=&#34;http://wireless.ypsi.com&#34;&gt;Wireless Ypsi&lt;/a&gt; and companion networks such as &lt;a href=&#34;http://detroitenabled.org/&#34;&gt;Detroit Enabled&lt;/a&gt; are averaging over 2,500 users per day, making it one of the largest free WiFi networks in the country.&lt;/p&gt;
-
-&lt;p&gt;The equipment and connections are paid for by local community groups like Focus Hope and Public Housing along with business owners and community champions. No money is charged to use the WiFi service, nor is there any advertising revenue. &lt;/p&gt;
-
-&lt;p&gt;The free network, called Wireless Ypsi and Detroit Enabled is HDL.com’s way of giving back to the community. We help secure Internet bandwidth and donate time and equipment to support the free network.&lt;/p&gt;
-
-&lt;p&gt;The struggle we face is making sure we comply with Internet Service providers terms of service agreements. One recent requirement is to not have anonymous access to the network. While we would love to have open and free Internet for everyone, the reality is Internet service costs money and the major carriers like Comcast and AT&amp;amp;T don’t provide the service for free. So while Wireless Ypsi and Detroit Enabled offer free WiFi for residents, business and visitors, someone still needs to pay for the connections.&lt;/p&gt;
-
-&lt;p&gt;To continue to use these paid connections we need a system that will allow people to sign up for free accounts to use the service. We want something akin to Facebook or Twitter that will allow for instant sign up and use of the free WiFi network.&lt;/p&gt;
-
-&lt;p&gt;Users would provide their name, address, phone and email address and chose a secure password. They would immediately be granted access to the network for one day. A confirmation email link is sent to the email address and it must be confirmed to continue to use the service beyond the first day.&lt;/p&gt;
-
-&lt;p&gt;Authentication would use a RADIUS server or similar service which would need to be selected, as well. We must insure proper data security and programming techniques are used to protect the data.&lt;/p&gt;
-
-&lt;p&gt;Not having a login and registration system is the single largest barrier we face today to continued large scale deployments of free WiFi. We have proven with our 5 year success story that the network is reliable and sustainable. Yet not having a login and registration system has virtually stopped us from expanding services into new areas until we can address this need.&lt;/p&gt;
-
-&lt;p&gt;Contact: Steve Pierce, Steve@HDL.com or 734-274-4602&lt;/p&gt;
-</description>
+      <description>A note from Steve Pierce regarding a request for ideas and code to help people log into a free WiFi mesh network. Contact him for details at bottom.
+ HDL.com and volunteers have deployed a free WiFi network in SE Michigan over the last 5 years. With over 1,000 access points deployed and 650,000 unique devices connected, Wireless Ypsi and companion networks such as Detroit Enabled are averaging over 2,500 users per day, making it one of the largest free WiFi networks in the country.</description>
     </item>
     
     <item>
@@ -44,48 +27,17 @@
       <pubDate>Tue, 14 Oct 2008 12:56:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-10-14-october-22-2008/</guid>
-      <description>&lt;p&gt;Brewster&#39;s coming to town to talk at the U.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.si.umich.edu/jsb/&#34;&gt;Official announcement from the school of information&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Brewster gave me a mug from Thinking Machines back in the WAIS days, I&#39;m looking forward to the visit.&lt;/p&gt;
-
-&lt;p&gt;More details:&lt;/p&gt;
-
-&lt;p&gt;Wed, Oct 22, 3:00 - 5:30&lt;br /&gt;
-&lt;br /&gt;
-Live Webcast - &lt;a target=&#34;_blank&#34; href=&#34;http://si.umich.edu/jsb&#34;&gt;http://si.umich.edu/jsb&lt;/a&gt;&lt;br /&gt;
-Submit your questions via e-mail.&lt;br /&gt;
-&lt;br /&gt;
-Or attend in person:&lt;br /&gt;
-Biomed Science Research Bldg Auditorium&lt;br /&gt;
-(corner of Huron and Glen in Ann Arbor)&lt;br /&gt;
-&lt;br /&gt;
-A leading proponent of open access to all knowledge will consider the&lt;br /&gt;
-consequences of the consolidation of information into the hands of a few&lt;br /&gt;
-private organizations when he delivers the keynote lecture at the fourth&lt;br /&gt;
-John Seely Brown Symposium on Technology and Society, sponsored by U-M&#39;s&lt;br /&gt;
-School of Information.&lt;br /&gt;
-&lt;br /&gt;
-&lt;span class=&#34;nfakPe&#34;&gt;Brewster&lt;/span&gt; &lt;span class=&#34;nfakPe&#34;&gt;Kahle&lt;/span&gt;, founder of the Internet Archive and director of the Open&lt;br /&gt;
-Content Alliance (OCA), has been a critic of proprietary services like&lt;br /&gt;
-the massive Google Books project, which does not make the books it scans&lt;br /&gt;
-available to other search services.&amp;nbsp; The project recently scanned its&lt;br /&gt;
-one-millionth volume from the University of Michigan libraries.&lt;br /&gt;
-&lt;br /&gt;
-Following &lt;span class=&#34;nfakPe&#34;&gt;Kahle&lt;/span&gt;&#39;s talk, a panel of experts will comment on &lt;span class=&#34;nfakPe&#34;&gt;Kahle&lt;/span&gt;&#39;s ideas&lt;br /&gt;
-and discuss the possibilities of &amp;quot;Library 2.0&amp;quot; -- the next generation of&lt;br /&gt;
-libraries, which will capitalize on all that the digital age has to&lt;br /&gt;
-offer to benefit patrons, including social networking, 24-hour services,&lt;br /&gt;
-and user-created content.&lt;br /&gt;
-&lt;br /&gt;
-The event is free and open to the public and will be followed by a&lt;br /&gt;
-public reception.&lt;br /&gt;
-&lt;br /&gt;
-Please visit &lt;a target=&#34;_blank&#34; href=&#34;http://si.umich.edu/jsb&#34;&gt;http://si.umich.edu/jsb&lt;/a&gt; to learn more about the event or to&lt;br /&gt;
-view the Webcast. During &lt;span class=&#34;nfakPe&#34;&gt;Brewster&lt;/span&gt; &lt;span class=&#34;nfakPe&#34;&gt;Kahle&lt;/span&gt;&#39;s keynote talk and the Q&amp;amp;A session&lt;br /&gt;
-that will follow it, submit your questions online to &lt;a href=&#34;mailto:jsbsymposium@umich.edu&#34;&gt;jsbsymposium@umich.edu&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Brewster&#39;s coming to town to talk at the U.
+Official announcement from the school of information
+Brewster gave me a mug from Thinking Machines back in the WAIS days, I&#39;m looking forward to the visit.
+More details:
+Wed, Oct 22, 3:00 - 5:30
+Live Webcast - http://si.umich.edu/jsb
+Submit your questions via e-mail.
+Or attend in person:
+Biomed Science Research Bldg Auditorium
+(corner of Huron and Glen in Ann Arbor)
+A leading proponent of open access to all knowledge will consider the</description>
     </item>
     
     <item>
@@ -94,29 +46,9 @@ that will follow it, submit your questions online to &lt;a href=&#34;mailto:jsbs
       <pubDate>Sun, 28 Sep 2008 15:18:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-28-atlgas-real-tim/</guid>
-      <description>&lt;p&gt;For a bunch of reasons which I don&#39;t completely understand, there are gasoline shortages in the Atlanta area.&lt;/p&gt;
-
-&lt;p&gt;The net is responding by using the #atlgas tag on Twitter to coordinate real time information about the location and availability of gasoline.&amp;nbsp; &lt;/p&gt;
-
-&lt;p&gt;To look at it the easiest way is through the &lt;a href=&#34;http://search.twitter.com/search?q=atlgas&#34;&gt;twitter search for #atlgas&lt;/a&gt;.&amp;nbsp; Some recent examples -&lt;/p&gt;
-
-&lt;p&gt; &lt;a target=&#34;_blank&#34; onclick=&#34;pageTracker._trackPageview(&#39;/exit/to/wheelmom&#39;);&#34; href=&#34;http://twitter.com/wheelmom&#34;&gt;wheelmom&lt;/a&gt;: &lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt940102661&#34;&gt;&lt;a href=&#34;http://search.twitter.com/search?q=%23atlgas&#34;&gt;&lt;strong&gt;#atlgas&lt;/strong&gt;&lt;/a&gt; BP at I-85 and Clairmont. $4.39(!) Barely a wait.&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&#34;msg&#34;&gt;
-&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &lt;a target=&#34;_blank&#34; onclick=&#34;pageTracker._trackPageview(&#39;/exit/to/wheelmom&#39;);&#34; href=&#34;http://twitter.com/wheelmom&#34;&gt;wheelmom&lt;/a&gt;: &lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt940100491&#34;&gt;&lt;a href=&#34;http://search.twitter.com/search?q=%23atlgas&#34;&gt;&lt;strong&gt;#atlgas&lt;/strong&gt;&lt;/a&gt; Gas as QT I-85 and Pleasantdale Rd. near I-285 interchange. $3.99. Lines about 15 cars deep at each driveway entrance.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;div class=&#34;msg&#34;&gt;
-&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &lt;a target=&#34;_blank&#34; onclick=&#34;pageTracker._trackPageview(&#39;/exit/to/jinah&#39;);&#34; href=&#34;http://twitter.com/jinah&#34;&gt;jinah&lt;/a&gt;: &lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt940096309&#34;&gt;&lt;a href=&#34;http://search.twitter.com/search?q=%23atlgas&#34;&gt;&lt;strong&gt;#atlgas&lt;/strong&gt;&lt;/a&gt; Hemphill/14th BP had all grades at 8 PM starting at $4.29. Less than 5 min wait.&lt;/span&gt;
-&amp;nbsp; &lt;/div&gt;&lt;br /&gt;&lt;div class=&#34;msg&#34;&gt;
-&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &lt;a target=&#34;_blank&#34; onclick=&#34;pageTracker._trackPageview(&#39;/exit/to/esmathis&#39;);&#34; href=&#34;http://twitter.com/esmathis&#34;&gt;esmathis&lt;/a&gt;: &lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt940081679&#34;&gt;QT n DeKalb mall now out. &lt;a href=&#34;http://search.twitter.com/search?q=%23atlgas&#34;&gt;&lt;strong&gt;#atlgas&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;The Web 1.0 of gas price reporting is very efficient, using reports from credit receipts of fleet vehicles to give you next day pricing nation wide.&amp;nbsp; The Web 2.0 version of this is GasBuddy, which lets you pinpoint pricing as part of a social network.&amp;nbsp; Neither of these two services have the notion that a station might not have any gas, or that it might have a line, and that the length of the line is part of the price of the gas.&amp;nbsp; so twitter adaptively fills in the blank.&lt;br /&gt;&lt;br /&gt;I&#39;m old enough to remember 1973.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;The Canadian Centre for Architecture presents a microsite related
-to 1973: Sorry, Out of Gas, a major exhibition exploring architecture&#39;s
-response to the 1973 oil crisis. The exhibition is on view at the CCA
-in Montréal until 20 April 2008.&lt;a dir=&#34;ltr&#34; rel=&#34;nofollow&#34; title=&#34;http://www.sorryoutofgas.org&#34; target=&#34;_blank&#34; href=&#34;http://www.sorryoutofgas.org/&#34;&gt;&amp;nbsp; http://www.sorryoutofgas.org&lt;/a&gt;&lt;br /&gt;
-&amp;nbsp; &lt;/div&gt;
-&amp;nbsp; &lt;/div&gt;
-
-&lt;p&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt940102661&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;object width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/184HTMzsSdo&amp;amp;hl=en&amp;amp;fs=1&#34; /&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34; /&gt;&lt;embed width=&#34;425&#34; height=&#34;344&#34; src=&#34;http://www.youtube.com/v/184HTMzsSdo&amp;amp;hl=en&amp;amp;fs=1&#34; type=&#34;application/x-shockwave-flash&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
-</description>
+      <description>For a bunch of reasons which I don&#39;t completely understand, there are gasoline shortages in the Atlanta area.
+The net is responding by using the #atlgas tag on Twitter to coordinate real time information about the location and availability of gasoline.&amp;nbsp; To look at it the easiest way is through the twitter search for #atlgas.&amp;nbsp; Some recent examples -
+ wheelmom: #atlgas BP at I-85 and Clairmont. $4.39(!) Barely a wait.</description>
     </item>
     
     <item>
@@ -125,59 +57,8 @@ in Montréal until 20 April 2008.&lt;a dir=&#34;ltr&#34; rel=&#34;nofollow&#34; 
       <pubDate>Thu, 25 Sep 2008 00:01:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-25-storage-density/</guid>
-      <description>&lt;p&gt;One way to get high density storage without creating building-wide cooling issues is to move your computing and storage facilities into a container which can be housed out of the building.&amp;nbsp; I&#39;m looking at specs for some various systems to do this, optimized for storage density, to see what the expectations might be for what you&#39;d get in &amp;quot;petabytes per container&amp;quot;.&lt;/p&gt;
-
-&lt;p&gt;The answer appears to be &amp;quot;about one petabyte per six linear feet of container&amp;quot;, or put another way, &amp;quot;about one petabyte per ten cubic meters of containerized storage.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.archive.org/web/petabox.php&#34;&gt;The Internet Archive&#39;s Petabox design specs:&lt;/a&gt; included requirements to run in a shipping container.&lt;/p&gt;
-
-&lt;p&gt;How big is a shipping container? &lt;a href=&#34;http://blog.managednetworks.co.uk/it-support/googles-20-petabytes/&#34;&gt; If a grain of rice is one byte, a shipping container can hold a half a gigabyte,&lt;/a&gt; and a petabyte covers central London in a meter of rice.&amp;nbsp; So, a lot.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;amp;Sect2=HITOFF&amp;amp;d=PALL&amp;amp;p=1&amp;amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;amp;r=1&amp;amp;f=G&amp;amp;l=50&amp;amp;s1=7,278,273.PN.&amp;amp;OS=PN/7,278,273&amp;amp;RS=PN/7,278,273&#34;&gt;Google&#39;s patent &lt;strong&gt;7,278,273 &lt;/strong&gt;covers a modular data center:&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Modular data centers with modular components suitable for use with rack or
-&amp;nbsp; &amp;nbsp;&amp;nbsp; shelf mount computing systems, for example, are disclosed. The modular
-&amp;nbsp; &amp;nbsp;&amp;nbsp; center generally includes a modular computing module including an
-&amp;nbsp; &amp;nbsp;&amp;nbsp; intermodal shipping container and computing systems mounted within the
-&amp;nbsp; &amp;nbsp;&amp;nbsp; container and configured to be shipped and operated within the container
-&amp;nbsp; &amp;nbsp;&amp;nbsp; and a temperature control system for maintaining the air temperature
-&amp;nbsp; &amp;nbsp;&amp;nbsp; surrounding the computing systems. The intermodal shipping container may
-&amp;nbsp; &amp;nbsp;&amp;nbsp; be configured in accordance to International Organization for
-&amp;nbsp; &amp;nbsp;&amp;nbsp; Standardization (ISO) container manufacturing standards or otherwise
-&amp;nbsp; &amp;nbsp;&amp;nbsp; configured with respect to height, length, width, weight, and/or lifting
-&amp;nbsp; &amp;nbsp;&amp;nbsp; points of the container for transport via an intermodal transport
-&amp;nbsp; &amp;nbsp;&amp;nbsp; infrastructure. The modular design enables the modules to be cost
-&amp;nbsp; &amp;nbsp;&amp;nbsp; effectively built at a factory and easily transported to and deployed at
-&amp;nbsp; &amp;nbsp;&amp;nbsp; a data center site.
-&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href=&#34;http://www.sun.com/products/sunmd/s20/perspectives.jsp&#34;&gt;Sun built something called Project Black Box, now called the Sun Modular Datacenter; &lt;/a&gt;they are selling it to organizations that have maxed out their existing data centers or who need on site computing before the rest of a facility under construction is built.&amp;nbsp; It specs out at 3 petabytes per 20 foot container.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.rackable.com/products/icecube.aspx&#34;&gt;Rackable Systems has the ICECube, at 7.1 petabytes per 40 foot container:&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Rackable Systems’ award-winning ICE Cube™ data center solution delivers 
-extreme server and storage density in a self-contained, fully portable 20’ 
-or 40’ container. Its advanced cooling design dramatically cuts ongoing 
-operational expenses as does its easy serviceability. First deployed in March, 
-2007, the latest generation ICE Cube more than doubles the maximum density to 
-2800 independent servers per container—for up to 22,400 cores in a 40&#39; x 
-8&#39; container. For storage-focused deployments, the ICE Cube is capable of housing 
-up to 7.1 Petabytes of data. Designed to augment or replace traditional brick-and-mortar 
-data centers of any size, these high densities are achieved while offering a broader 
-choice of container sizes and configurability of Rackable Systems’ Eco-Logical™ 
-servers and storage.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;The best researchy piece I found on this is from &lt;a href=&#34;http://www.datacenterknowledge.com/archives/2008/01/11/microsoft-confirms-data-center-in-a-box/&#34;&gt;Chuck Thacker of Microsoft Research, via a piece in Data Center Knowledge in January 2008 &lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;In October Thacker gave a presentation at the Stanford Networking Seminar titled “Rethinking Data Centers” (available in &lt;a href=&#34;http://netseminar.stanford.edu/seminars/10_25_07.ppt&#34;&gt;PowerPoint&lt;/a&gt;)
-that examined various approaches to “data center in a box” approach to
-portable data centers. Thacker’s slides describe an approach using
-40-foot containerized data centers packed with 32 energy-efficient
-racks, each filled with 40 1U servers. Using 64 of those containers
-would result in a data center facility filled with 82,000 servers and
-using 16 megawatts of power.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;The &lt;a href=&#34;http://netseminar.stanford.edu/&#34;&gt;Stanford Networking Seminar &lt;/a&gt;schedule shows a bunch of interesting talks, some with slides, almost all with speaker bios, recommended.&amp;nbsp; Here&#39;s the description of this talk:&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;
-Microsoft builds several data centers each year, with each center containing in excess of fifty thousand servers.&amp;nbsp; This is 
-quite expensive, and we&#39;d like to reduce the capital and operating expenses for these centers.&lt;/p&gt;
-
-&lt;p&gt;
-This talk suggests that an effective way to do this is to treat the data center as a system, rather than focusing on the 
-individual components such as networking and servers.&amp;nbsp; I&#39;ll describe one way this could work, with a particular focus on the 
-networking infrastructure. &lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Stor&lt;/p&gt;
-</description>
+      <description>One way to get high density storage without creating building-wide cooling issues is to move your computing and storage facilities into a container which can be housed out of the building.&amp;nbsp; I&#39;m looking at specs for some various systems to do this, optimized for storage density, to see what the expectations might be for what you&#39;d get in &amp;quot;petabytes per container&amp;quot;.
+The answer appears to be &amp;quot;about one petabyte per six linear feet of container&amp;quot;, or put another way, &amp;quot;about one petabyte per ten cubic meters of containerized storage.</description>
     </item>
     
     <item>
@@ -186,49 +67,14 @@ networking infrastructure. &lt;/p&gt;&lt;/blockquote&gt;
       <pubDate>Mon, 25 Aug 2008 09:50:43 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-25-mercury-in-retr-1/</guid>
-      <description>&lt;p&gt;&lt;p&gt;For any of you who run Yahoo Groups, it&amp;#39;s well known that &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/03/an_explanation_.html&#34;&gt;Yahoo has problems when Mercury is retrograde.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://thereverseengineers.wordpress.com/&#34;&gt;The Reverse Engineers&lt;/a&gt; have a song &amp;quot;&lt;a href=&#34;http://www.amazon.com/gp/product/B00127CR74/ref=dm_dp_trk1&#34; target=&#34;_self&#34;&gt;Mercury in Retrograde&lt;/a&gt;&amp;quot; that&amp;#39;s a $0.99 download from Amazon.&lt;/p&gt;
-&lt;p&gt;The lyrics match the problem.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.garageband.com/mp3/Mercury_in_Retrograde-The_Reverse_Engineers.mp3?song_id=202250&amp;amp;ilike=1&#34;&gt;Mercury in Retrograde&lt;/a&gt;&lt;br /&gt;
-&lt;/strong&gt;&lt;em&gt;Lyrics by Charles Cote, Daniel Cote, William Cote&lt;/em&gt;
-&lt;/p&gt;
-&lt;p&gt;It travels round the sun&lt;br /&gt;
-Six times to our one&lt;br /&gt;
-What no one else can see&lt;br /&gt;
-Is plain as day to me&lt;/p&gt;
-&lt;p&gt;They say its surface is hot as hell&lt;br /&gt;
-Unwitting servants to its spell&lt;br /&gt;
-You can’t flee Mercury in retrograde&lt;/p&gt;
-&lt;p&gt;You can’t flee Mercury&lt;br /&gt;
-You can’t flee Mercury&lt;br /&gt;
-You can’t flee Mercury&lt;/p&gt;
-&lt;p&gt;It’s ten times worse than a full moon&lt;br /&gt;
-You’re not even safe in your bedroom&lt;br /&gt;
-Controls more than the rising tides&lt;br /&gt;
-There’s nowhere to hide&lt;br /&gt;
-There’s nowhere to hide&lt;/p&gt;
-&lt;p&gt;The gods must be against me&lt;br /&gt;
-My shortwave doesn’t work&lt;br /&gt;
-Lost signal, no connection&lt;br /&gt;
-Nothing goes right&lt;/p&gt;
-&lt;p&gt;Imbalance in the system&lt;br /&gt;
-Rogue planet off its track&lt;br /&gt;
-All circuits overloaded&lt;br /&gt;
-Nothing goes right&lt;/p&gt;
-&lt;p&gt;Damn that planet&lt;br /&gt;
-Damn that star&lt;br /&gt;
-Force of disruption from afar&lt;br /&gt;
-You can’t flee Mercury&lt;br /&gt;
-You can’t flee Mercury&lt;/p&gt;
-&lt;p&gt;Free from Mercury&lt;br /&gt;
-Free from Mercury&lt;/p&gt;
-&lt;p&gt;© 2004 The Reverse Engineers&lt;/p&gt;
-&lt;object height=&#34;385&#34; width=&#34;480&#34;&gt;
-&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/Xf--5OVJe0g?fs=1&amp;amp;hl=en_US&#34; /&gt;
-&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34; /&gt;
-&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&gt;&lt;embed allowfullscreen=&#34;true&#34; allowscriptaccess=&#34;always&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/v/Xf--5OVJe0g?fs=1&amp;amp;hl=en_US&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;480&#34; /&gt;
-&lt;/object&gt;&lt;/p&gt;
-</description>
+      <description>For any of you who run Yahoo Groups, it&amp;#39;s well known that Yahoo has problems when Mercury is retrograde.
+The Reverse Engineers have a song &amp;quot;Mercury in Retrograde&amp;quot; that&amp;#39;s a $0.99 download from Amazon.
+The lyrics match the problem.
+Mercury in Retrograde
+Lyrics by Charles Cote, Daniel Cote, William Cote It travels round the sun
+Six times to our one
+What no one else can see
+Is plain as day to me</description>
     </item>
     
     <item>
@@ -237,44 +83,9 @@ Free from Mercury&lt;/p&gt;
       <pubDate>Fri, 01 Aug 2008 09:48:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-01-laptop-backpack/</guid>
-      <description>&lt;p&gt;I recently sent out an email query to the &lt;a href=&#34;http://groups.yahoo.com/group/a2b3&#34;&gt;a2b3&lt;/a&gt; mailing list about backpacks suitable for laptops.&amp;nbsp; In the interests of not keeping useful information in my inbox, here&#39;s a summary of sorts.&lt;/p&gt;
-
-&lt;p&gt;The list, in no particular order, with some amount of incomplete information:&lt;/p&gt;
-
-&lt;p&gt;Land&#39;s End: the pack I have has a label, don&#39;t know the name of it in their catalog.&amp;nbsp; It&#39;s nice.&amp;nbsp; The &lt;a href=&#34;http://www.landsend.com/outfits/backpacks/index.html&#34;&gt;Land&#39;s End backpack page&lt;/a&gt; has more.&lt;/p&gt;
-
-&lt;p&gt;North Face: the Yavapai, &amp;quot;carries not only my laptop but a change of clothes when I get to work by bike.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Brooklyn Industries: &amp;quot;really like it. However, when I graduated from a MacBook to a Pro, the notebook was a bit too large, so definitely try inserting the notebook before purchasing.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Patagonia: Lightwire backpack &amp;quot;a great deal&amp;quot; right now at least &lt;a href=&#34;http://www.patagonia.com/web/us/product/product_focus.jsp?OPTION=PRODUCT_FOCUS_DISPLAY_HANDLER&amp;amp;style_color=48860-683&amp;amp;ws=true&amp;amp;catcode=WS.WEB_SPECIALS&amp;amp;refferer=WSL&#34;&gt;on sale now&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Tom Bihn: &amp;quot;As someone who has carried my laptop in it everywhere for the last 10 years, I highly recommend&amp;quot; the &lt;a href=&#34;http://www.tombihn.com/page/001/PROD/100/TB0104&#34;&gt;Brain Bag&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Spire USA: &amp;quot;I&#39;ve been carrying a messenger vert bag from &lt;a href=&#34;http://spireusa.com&#34;&gt;Spire USA&lt;/a&gt; for 9 years.&amp;nbsp; Others in my family use the backpacks and love them as much as I love my bag.&amp;nbsp; Their bags have had good attention to detail for people connected to their laptops.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Office Depot / Staples: &amp;quot;For the budget minded I found the laptop backpacks at Office Depot/Staples to be very sufficient&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bbpbags.com/hamptons_collection.html&#34;&gt;BBP:&lt;/a&gt; &amp;quot;It&#39;s innovative, big, and while it&#39;s always in backpack mode - it still kinda looks like a messenger bag - which to my way of thinking makes it a 1/2 step more acceptable in the rare more formal meeting.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.timbuk2.com&#34;&gt;Timbuk 2&lt;/a&gt;: &amp;quot;I am using a Timbuk2 Messenger Bag that I got from Bivouac a few years ago.&amp;nbsp; Great bag, and I think it will outlive ME!&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Timbuk2 again: I have the Timbuk2 Underground. It&#39;s incredible spacious - I carry my MBP, DSLR + 2 lenses, several books in the main compartment. And then there are the 2 side pockets that carry numerous other gadgets, GPS, power cord, etc.&lt;/p&gt;
-
-&lt;p&gt;Franklin Covey: &lt;a href=&#34;http://shopping.franklincovey.com/shopping/catalog/productaccessories.jsp?navAction=push&amp;amp;navCount=0&amp;amp;crc=cat129&amp;amp;id=prod1710026&amp;amp;skuid=32361&#34;&gt;Victorinox&lt;/a&gt;: &amp;quot;This spring I finally found a backpack I am happy with.&amp;nbsp; It is the world&#39;s greatest compter backpack.&amp;nbsp; It can easily allow you to travel with two computers and accessories, or with just one computer and all your travel needs for a night or two.&amp;nbsp; It shows no signs of wear after four months, but whenever it does fall apart, it will be the first time I ever happily buy the same model twice in a row.&amp;nbsp; Oh, and did I mention that it costs less than $80?&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Deuter: &amp;quot;I have a Deuter that I bought at Bivouac several years ago. I bought the one that was called something like &amp;quot;mega office&amp;quot; or &amp;quot;giga office&amp;quot;. It&#39;s less daypack-y and more laptop-and-pens-n-stuff-hold-y than most of what Bivouac sells. It&#39;s been great - nice features, has aged well.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;LL Bean: &amp;quot;I love my LL Bean backpack. My mom got it for me when I was a senior in college (1993-94). It&lt;br /&gt;
-lived through that year, law school, marriage, our honeymoon (it was my carry-on), teacher certification classes, two teaching jobs, and it is still happy to ride on my back when I ride my bike. I love that bag&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Brenthaven: &amp;quot;I couldn&#39;t be a bigger fan of Brenthaven backpacks. I&#39;ve had one of
-their models for probably 8 years and it still looks brand new and is
-amazingly well laid out. They are a bit spendy but I see no signs that
-this thing will ever wear out.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Thanks to Tom Brandt, Ron Suarez, Joel Dalton, Susan Harris, Mike Monan, Becki Kain, Bill Merrill, Helene Gidley, Chris Poterala, Matt Souden, Brian Cors, Nathaniel Borenstein, Dunrie Greiling, Andrew Turner, Patti Smith, Sean Convery and others.&lt;/p&gt;
-</description>
+      <description>I recently sent out an email query to the a2b3 mailing list about backpacks suitable for laptops.&amp;nbsp; In the interests of not keeping useful information in my inbox, here&#39;s a summary of sorts.
+The list, in no particular order, with some amount of incomplete information:
+Land&#39;s End: the pack I have has a label, don&#39;t know the name of it in their catalog.&amp;nbsp; It&#39;s nice.&amp;nbsp; The Land&#39;s End backpack page has more.</description>
     </item>
     
     <item>
@@ -283,40 +94,10 @@ this thing will ever wear out.&amp;quot;&lt;/p&gt;
       <pubDate>Tue, 29 Jul 2008 22:07:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-07-29-service-as-a-se/</guid>
-      <description>&lt;p&gt;After a small set of discussions today with people I won&#39;t blog about, here&#39;s some ideas from people I don&#39;t know using a phrase I thought I might have made up: &#34;service as a service&#34;.&lt;/p&gt;
+      <description>After a small set of discussions today with people I won&#39;t blog about, here&#39;s some ideas from people I don&#39;t know using a phrase I thought I might have made up: &#34;service as a service&#34;.
+James Urquhart&#39;s &#34;The Wisdom of Clouds&#34; on Service as a Service Market Explored:
 
-&lt;p&gt;James Urquhart&#39;s &#34;The Wisdom of Clouds&#34; on &lt;a href=&#34;http://blog.jamesurquhart.com/2008/03/service-as-service-market-explored.html&#34;&gt;Service as a Service Market Explored&lt;/a&gt;:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Real quick, David Linthicum has a cool post on the move in the market from human-oriented SaaS (Software as a Service) to systems oriented SaaS--perhaps better named &#34;Service as a Service&#34;. The naming is a little nerdy, but David is right on about this being an ultimate goal of the SaaS market, as well as of cloud computing in general.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;chase that reference to this &lt;a href=&#34;http://www.intelligententerprise.com/blog/archives/2008/03/when_saas_means.html&#34;&gt;Intelligent Enterprise article on When SaaS Means &#39;Services as a Service&#39; &lt;/a&gt;:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-StrikeIron is the one that comes to mind. StrikeIron is not a SaaS provider, but a SaaS provider with the first S being &#39;Services&#39; vs. &#39;Software.&#39; They offer a variety of services, such as SMS text messaging, tax rate calculations, address validation, etc. The objective being not to provide the holistic application, but simple components that can be abstracted into enterprise and SaaS applications, as needed, for a small monthly subscription fee. Thus, you don&#39;t write it, you don&#39;t test it, you don&#39;t host it, you just leverage its functionality at a fraction of the cost if you developed the same service in-house.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;hm, perhaps a little bit too &#34;granular&#34; (oh I love to hate that word; coarse, Demera, what are you talking, sugar?).  Another try goes down the manufacturing route - envisioning cheap frictionless production of one-off quantities of things, in this case printed letters sent through the mail.  The &lt;a href=&#34;http://blog.postful.com/2007/10/29/manufacturing-as-a-service-maas/&#34;&gt;Postful blog on Manufacturing as a Service&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-The modern service cloud ushers in a fundamental shift in our accounting of economic costs. The endemic overhead in even the most basic of deals and transactions is perhaps the key factor in determining the structure of our economic systems at all scales. The service cloud can reduce those transaction costs to negligible levels.
-&lt;/blockquote&gt;
-
-&lt;p&gt;and finally perhaps this one from &lt;a href=&#34;http://jrsays.com/2007/09/software-as-service-objectification-of.html&#34;&gt;JR Says on the objectification of business processes&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-I know the term “Service-as-a-service” sounds like an idiotic reference to nothing, but my point is that business services can finally be delivered in a way which is easily acquirable by customers, as true services, with:
-- clear, non-obtrusive contracts (the business kind… you know, ToS you feel no obligation to read ;)
-- clear communication contracts (the implementation kind… “you give us A , we give you B”)
-- pay as you go – with clear pricing
-- strong support (imagine that)
-&lt;/blockquote&gt;
-
-&lt;p&gt;I went to Cuil (gaelic for &#34;fail&#34;) for the last word; it&#39;s a good one.  Via &lt;a href=&#34;http://www.cubiccompass.com/blogs/main/PermaLink,guid,794ab498-c692-4eb4-b3c7-b02c9e0917e2.aspx&#34;&gt;Cubic Compass&lt;/a&gt;, quoting &lt;a href=&#34;http://www.tcg-advisors.com/who/lay.htm&#34;&gt;Philip Lay&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&#34;What is likely to no longer work is the conventional time and materials model of expensive &#34;manual&#34; services, now seen to be highly inefficient unless enabled by increasing use of automation.  What must be made to work is to have virtually every service substantially automated and deliverable online once the service in question has been transformed from a custom, never-done-before, thing to a repeatable and relatively routine activity.&#34;
-&lt;/blockquote&gt;
-</description>
+Real quick, David Linthicum has a cool post on the move in the market from human-oriented SaaS (Software as a Service) to systems oriented SaaS--perhaps better named &#34;</description>
     </item>
     
     <item>
@@ -325,48 +106,10 @@ I know the term “Service-as-a-service” sounds like an idiotic reference to n
       <pubDate>Thu, 26 Jun 2008 10:28:10 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-26-kilowatts-per-t/</guid>
-      <description>&lt;p&gt;A measure of the efficiency of data storage; the equivalent would be W/GB (watts per gigabyte).&lt;/p&gt;
-
-&lt;p&gt;The range measured below is 0.4 TB/KW (RAM) to 500 TB/KW (Blu-ray disks), with a corresponding range in access speed and update times.&lt;/p&gt;
-
-&lt;p&gt;Some estimates or measures:&lt;/p&gt;
-
-&lt;p&gt;If you are using solid state memory (no disk; just memory, configured as disk) from &lt;a href=&#34;http://www.superssd.com/products/tera-ramsan/&#34;&gt;Texas Memory Systems&lt;/a&gt;, expect to have 2.5 KW/TB, or 0.4 TB/KW:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-The Tera-RamSan incorporates specially designed 4-Gbit Fibre Channel or 4x InfiniBand interfaces that include performance-enhancing hardware to reduce I/O latency to under 14 microseconds. With I/O requests being served so quickly, an order-of-magnitude more requests per second are executed by a single Tera-RamSan interface as compared to other Fibre Channel interfaces. By scaling SSD modules up to 8 units (8 Fibre Channel links per unit or 4 InfiniBand links per unit), the Tera-RamSan is the ultimate storage solution for high-performance applications in total IOPS and total bandwidth. Also, because the Tera-RamSan is DDRRAM based, there is NO penalty for RANDOM accesses. Data requests need not be tuned for performance. User access time is not compromised, even if tens of thousands of users access the system simultaneously. Extreme performance is the key feature of the Tera-RamSan.  &lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://deepfreeze9.blogspot.com/2005/06/tonne-per-terabyte.html&#34;&gt;From 2005, Pierre Devries: including cooling&lt;/a&gt; about 1 KW/TB, or 1 TB/KW:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Working off Barroso, Dean and Hölzle’s paper on the Google cluster architecture, I infer that the energy consumption for storage is approximately 1W/GB: a dual 1.4-GHz Intel Pentium III server with a two 80GB drives draws 120W per server. Adding Google’s estimate of about 40% for cooling, gives 165 W per 160 GB, or 1 W/GB (watt/gigabyte). &lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;in the &lt;a href=&#34;http://deepfreeze9.blogspot.com/2005/06/tonne-per-terabyte.html?showComment=1120610880000#c112061093215420698&#34;&gt;comments to that post&lt;/a&gt;, using the archive.org architecture: 50W/TB, or 20 TB/KW:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Capricorn tech clains that their Petabox storage, which they built for archive.org, runs as little as 50W/TB. I don&#39;t think that number includes the power consumption of the required air conditioning.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;updating &lt;a href=&#34;http://www.capricorn-tech.com/products.php&#34;&gt;Capricorn&#39;s Petabox to the current (2008) web site&lt;/a&gt;, we see 27W/TB, or 37 TB/KW:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-The PetaBox is completely scalable, from individual terabyte nodes to petabyte clusters. A single 19-inch rack can support up to 120TB of raw disk space. This density is achieved through an economy of design that consumes as little as 27 watts per terabyte.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.computerweekly.com/Articles/2007/03/23/222467/solving-storage-power-and-cooling-concerns.htm&#34;&gt;Computer Weekly in 2007&lt;/a&gt; talks about metrics but doesn&#39;t actually measure:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-An individual drive uses 5W to 15W of power depending on its capacity, rotation speed, form factor and operating state, but &#34;you can&#39;t just multiply the number of drives in an array by some average power rating to get a total,&#34; says Mark Greenlaw, senior director with storage marketing at EMC. The power consumption of the array is more than the sum of the power used by the individual drives. Controllers and other components consume power. Copan Systems proposes two metrics for archival data storage: storage density measured in terabytes per square foot and terabytes per kilowatt.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.copansystems.com/news/press_releases.php?press_id=64&#34;&gt;A COPAN Systems press release from 2007&lt;/a&gt;; naturally, take press releases for what they are worth.  The range from 4 TB/KW (Fibre Channel), 17 TB/KW (SATA), and 100 TB/KW (COPAN&#39;s sooper stuffs):&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-COPAN Systems has taken a &#34;revolutionary&#34; approach in how it has engineered its products over the past 4 years to deal with power and cooling issues in the data center. The low power requirements of COPAN&#39;s enhanced MAID architecture integrated with the extremely large storage density delivers in excess of an impressive 100 terabyte (TB) per kilowatt, the highest in the industry. This compares to an average power density for Fibre Channel disk products of approximately 4 TB per kilowatt and an average rate for standard SATA disk products of 17 TB per kilowatt. The savings are significant with estimates for power and cooling savings between $5.7 million and $7.8 million over a four year time period.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
-MAID, or &#34;massive array of idle disks&#34;, if you don&#39;t know it, is an architecture where the drives are usually powered down; you wouldn&#39;t use it for active hot storage, but for mostly offline stuff it&#39;s a possible solution.&lt;/p&gt;
-
-&lt;p&gt;For the weird, here&#39;s a read-mostly solution: a &lt;a href=&#34;http://powerfile.com/&#34;&gt;Powerfile&lt;/a&gt; array of Blu-ray optical drives, at 500 TB/KW.&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Appliance Leverages Next-Generation Blu-ray Disc™ Technology to Deliver 70 Terabytes per Rack, 120 Terabytes per Appliance, and Industry-Leading Energy Efficiency of 500 Terabytes per Kilowatt &lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-</description>
+      <description>A measure of the efficiency of data storage; the equivalent would be W/GB (watts per gigabyte).
+The range measured below is 0.4 TB/KW (RAM) to 500 TB/KW (Blu-ray disks), with a corresponding range in access speed and update times.
+Some estimates or measures:
+If you are using solid state memory (no disk; just memory, configured as disk) from Texas Memory Systems, expect to have 2.5 KW/TB, or 0.4 TB/KW:</description>
     </item>
     
     <item>
@@ -375,24 +118,10 @@ Appliance Leverages Next-Generation Blu-ray Disc™ Technology to Deliver 70 Ter
       <pubDate>Fri, 13 Jun 2008 00:57:25 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-13-waterwatch-adva/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://water.usgs.gov/waterwatch/?m=flood&amp;r=us&#34;&gt;&lt;br /&gt;
-&lt;img alt=&#34;WaterWatch for 12 June 2008&#34; title=&#34;WaterWatch&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/12/picture_13.png&#34; border=&#34;0&#34;  /&gt;&lt;br /&gt;
-&lt;/a&gt;&lt;br /&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&#34;http://water.usgs.gov/waterwatch/?m=flood&amp;r=us&#34;&gt;WaterWatch&lt;/a&gt; is a US Geological Survey online product that gives consolidated river level and flood stage information across the US.  The graphic is from 12 June 2008 showing the floods across the midwestern US.&lt;br /&gt;
-&lt;/p&gt;&lt;br /&gt;
-&lt;br/&gt;
-&lt;a href=&#34;http://www.weather.gov/ahps/&#34;&gt;&lt;br /&gt;
-&lt;img alt=&#34;National Weather Service River Observations&#34; title=&#34;National Weather Service River Observations&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/12/picture_14.png&#34; border=&#34;0&#34; style=&#34; margin: 0px 5px 5px 0px;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;p&gt;&lt;br /&gt;
-A similar set of data (not precisely the same, but overlapping) is kept by the National Weather Service, as part of their &lt;a href=&#34;http://www.weather.gov/ahps&#34;&gt;Advanced Hydrologic Prediction Service&lt;/a&gt;.  This has a whole set of comprehensive rainfall measures, which are as useful in drought condition monitoring as they are in flood monitoring.&lt;br /&gt;
-&lt;/p&gt;&lt;br /&gt;
-&lt;a href=&#34;http://water.weather.gov/index.php?layer%5B%5D=0&amp;layer%5B%5D=1&amp;layer%5B%5D=4&amp;timetype=RECENT&amp;loctype=STATE&amp;units=engl&amp;timeframe=last14days&amp;timeYYYY=2008&amp;timeMM=6&amp;timeDD=12&amp;product=per_normal&amp;loc=stateMI&#34;&gt;&lt;br /&gt;
-&lt;img alt=&#34;Picture_15&#34; title=&#34;Picture_15&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/12/picture_15.png&#34; border=&#34;0&#34;  /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;p&gt;&lt;br /&gt;
-This &lt;a href=&#34;http://water.weather.gov/index.php&#34;&gt;precipitation map&lt;/a&gt; image, for instance, shows the last 2 weeks of rain as a percentage of normal - with the extreme rains in Iowa, Wisconsin, and southwestern Michigan sharply contrasted with the dry western Upper Peninsula.&lt;br /&gt;
-&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>WaterWatch is a US Geological Survey online product that gives consolidated river level and flood stage information across the US. The graphic is from 12 June 2008 showing the floods across the midwestern US.
+ 
+
+A similar set of data (not precisely the same, but overlapping) is kept by the National Weather Service, as part of their Advanced Hydrologic Prediction Service. This has a whole set of comprehensive rainfall measures, which are as useful in drought condition monitoring as they are in flood monitoring.</description>
     </item>
     
     <item>
@@ -401,22 +130,9 @@ This &lt;a href=&#34;http://water.weather.gov/index.php&#34;&gt;precipitation ma
       <pubDate>Wed, 11 Jun 2008 10:20:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-11-dte-power-outag/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://my.dteenergy.com/map/outage.html&#34;&gt;&lt;img class=&#34;image-full&#34; alt=&#34;Poweroutagejune11map&#34; title=&#34;Poweroutagejune11map&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/11/poweroutagejune11map.jpg&#34; border=&#34;0&#34; style=&#34;float: left; margin: 0px 5px 5px 0px;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.detnews.com/apps/pbcs.dll/article?AID=/20080611/METRO/806110390/1409/METRO&#34;&gt;The Detroit News&lt;/a&gt; has some reporting on the DTE power outages across the Detroit metro region.&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-The company serves Metro Detroit, home to about 136,000 of the homes and businesses still without power. More than two-thirds of those -- 95,000 -- are in Oakland County, where frustrations are running high as schools and businesses remained closed and families flocked to hotels for temporary shelter. Since Sunday night, an estimated 600,000 people in Michigan have been affected by the outages.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;br /&gt;
-The map above is from the &lt;a href=&#34;http://my.dteenergy.com/map/outage.html&#34;&gt;DTE current outage map&lt;/a&gt;, which gives a color-coded perspective on the current situation.  &lt;br /&gt;
-&lt;/p&gt;&lt;br /&gt;
-&lt;p&gt;&lt;br /&gt;
-UPDATE with extended coverage:&lt;br /&gt;
-&lt;/p&gt;&lt;br /&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.toledoblade.com/apps/pbcs.dll/article?AID=/20080611/NEWS12/806110458&#34;&gt;Monroe County&lt;/a&gt;, 8200 still without power, 22 car train derailment in Ohio&#39;s Ottawa county (via Toledo Blade).&lt;/p&gt;&lt;br /&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.romeoobserver.com/story.asp?storyid=12195&#34;&gt;Macomb County&lt;/a&gt;: 58000 lost power at peak of storm, 400 still without power, some downed power lines simply marked and blocked off awaiting crews (Romeo Observer)&lt;/p&gt;&lt;br /&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.statenews.com/index.php/article/2008/06/severe_weather_causes_waste_dump_silences_radio_station&#34;&gt;Ingham County&lt;/a&gt;: power outage causes sewage dump into the Cedar River; Michigan State University student radio station WDBM taken offline (State News)&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>The Detroit News has some reporting on the DTE power outages across the Detroit metro region.
+
+The company serves Metro Detroit, home to about 136,000 of the homes and businesses still without power. More than two-thirds of those -- 95,000 -- are in Oakland County, where frustrations are running high as schools and businesses remained closed and families flocked to hotels for temporary shelter. Since Sunday night, an estimated 600,000 people in Michigan have been affected by the outages.</description>
     </item>
     
     <item>
@@ -425,62 +141,9 @@ UPDATE with extended coverage:&lt;br /&gt;
       <pubDate>Mon, 19 May 2008 10:00:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-05-19-reification-is/</guid>
-      <description>&lt;p&gt;Reification is an ontological imperative.&lt;/p&gt;
-
-&lt;p&gt;I think that this might be some deep statement about the
-semantic web, but it&#39;s so deep that I really don&#39;t understand it.&lt;/p&gt;
-
-&lt;p&gt;Reification in this sense appears to have something to do with
-taking abstract concepts and making them concrete, turning 
-ad hoc heuristics into code, writing down a set of things into
-a list so that it can be machine processed and sorted, and 
-otherwise taking thoughts and ideas and turning them into bits.&lt;/p&gt;
-
-&lt;p&gt;Ontological has to do with categories and classification, the
-relationships between things, and especially how to create data
-structures to represent these.  In typical ontologies, the result
-is some data structure that looks like a graph, often but not
-necessarily a hierarchy, which puts things into buckets based
-on their essential features.&lt;/p&gt;
-
-&lt;p&gt;If I had to reprocess this through my own experience, it would
-have to do with the relationship between writing things down
-and sorting through them.  Fundamentally, if you are going to
-take a long list of abstractions and make them concrete, you
-get as a necessary side effect the ability to distinguish between
-them and group them into bunches based on attributes that may
-not have been explicit in the abstract conceptions of things.&lt;/p&gt;
-
-&lt;p&gt;To see someone else having thought through the repercussions of
-this, see:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.shirky.com/writings/ontology_overrated.html&#34;&gt;
-Clay Shirky, &#34;Ontology is overrated&#34;&lt;/a&gt;.  On tagging systems
-vs. hierarchical classification, and how it&#39;s OK to have tag
-collections from a bunch of people make sense of the identity
-of things on the net vs. having centralized catalogers do that.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.librarything.com/thingology/2006/07/tags-reading-and-listening-list.php&#34;&gt;
-Tim Spalding on Tags: A reading and listening list&lt;/a&gt;, from Thing-ology.
-Tim has addressed the problem of making explicit people&#39;s
-information about their own books in a way that makes
-collective information visible with LibraryThing, and there&#39;s
-a lot more to it than just saying &#34;tags rock!&#34;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.yourdonreport.com/index.php/2008/04/14/detroit-presentation-the-politics-of-metrics/&#34;&gt;Ed Yourdon, &#34;The Politics of Metrics&#34;&lt;/a&gt;, a talk he gave at the Software Best Practices conference in Detroit in April 2008.
-When the thing to be reified is the behavior of individuals, and
-the ontology that is applied is a measure of quality or success,
-there are all manner of messy politics and second-order effects
-that come into play.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://joechip.net/brian/2007/12/06/alive-to-the-extent/&#34;&gt;Brian Kerr channeling Christopher Alexander&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-“To seek the timeless way we first must know the quality without a number. There is a central quality which is the rooted criterion of life and the spirit of man, a town, a building, or a wilderness. This quality is objective and precise, but it cannot be numbered.”
-&lt;/blockquote&gt;
-
-&lt;p&gt;I write this down (reification), and then Typepad insists that I add a category to it (ontological imperative).  It landed in &#34;cyberinfrastructure&#34;, this weird bag of side effects of computerizing the world.&lt;/p&gt;
-</description>
+      <description>Reification is an ontological imperative.
+I think that this might be some deep statement about the semantic web, but it&#39;s so deep that I really don&#39;t understand it.
+Reification in this sense appears to have something to do with taking abstract concepts and making them concrete, turning ad hoc heuristics into code, writing down a set of things into a list so that it can be machine processed and sorted, and otherwise taking thoughts and ideas and turning them into bits.</description>
     </item>
     
     <item>
@@ -489,62 +152,7 @@ that come into play.&lt;/p&gt;
       <pubDate>Tue, 12 Feb 2008 20:56:54 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-02-12-yahoo-alumni-as/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-Quite a few people got laid off at Yahoo today; reports are trickling in from Twitter.
-&lt;/p&gt;&lt;p&gt;
-UPDATED: This hit &lt;a href=&#34;http://www.techmeme.com/080212/p167#a080212p167&#34;&gt;techmeme&lt;/a&gt;; adding a few details throughout.
-&lt;/p&gt;&lt;p&gt;
-&lt;a href=&#34;http://www.news.com/8301-10784_3-9870487-7.html&#34;&gt;CNET reports 1000 (but &amp;ldquo;no details&amp;rdquo;).&lt;/a&gt;
-&lt;/p&gt;&lt;blockquote&gt;
-&amp;ldquo;We are aligning resources to support our big bets: starting points, must buy, and open,&amp;rdquo; a Yahoo spokeswoman said. That refers to Yahoo&amp;rsquo;s new mission of being the most popular starting place for people on the Internet and the most popular advertising platform, as well as the company&amp;rsquo;s focus on opening up Yahoo&amp;rsquo;s network to third-party publishers.
-&lt;br /&gt;
-&lt;br /&gt;Asked to confirm the exact number of employees affected or what departments they were in, the spokeswoman said the company was not providing details.
-&lt;br /&gt;
-&lt;br /&gt;&amp;ldquo;We&amp;rsquo;re making these targeted reductions in areas of our business that don&amp;rsquo;t support our critical growth initiatives,&amp;rdquo; she said.
-&lt;/blockquote&gt;&lt;p&gt;
-Some news coverage:
-&lt;/p&gt;&lt;p&gt;
-&lt;a href=&#34;http://searchengineland.com/080212-183132.php&#34;&gt;Yahoo Layoffs Happening Now&lt;/a&gt; - Search Engine Land roundup.
-&lt;/p&gt;&lt;p&gt;
-Some people by name:
-&lt;/p&gt;&lt;p&gt;
-&lt;a href=&#34;http://susanmernit.blogspot.com/2008/02/just-got-laid-off-at-yahoo.html&#34;&gt;Susan Mernit&lt;/a&gt; (Personals)
-&lt;/p&gt;&lt;blockquote&gt;
-Well, the law of continuous revolution just gave me a good shove.
-&lt;br /&gt;Today is my last day at Yahoo and the start of something new.
-&lt;/blockquote&gt;&lt;p&gt;
-&lt;a href=&#34;http://www.paidcontent.org/entry/419-yahoo-layoffs-begin-media-group-numbers/&#34;&gt;Patrick Houston&lt;/a&gt; (Lifestyles) - via PaidContent
-&lt;/p&gt;&lt;blockquote&gt;
-I’m told now the number for the Media Group will be about 50. That’s lower than it probably would have been had other actions like the dismantling of the Brand Universe group (some reassigned, some laid off) not already been taken in the last few months.
-&lt;/blockquote&gt;&lt;p&gt;
-&lt;a href=&#34;http://www.fudco.com/habitat/archives/000066.html&#34;&gt;Randy Farmer and Chip Morningstar&lt;/a&gt;
-&lt;/p&gt;&lt;blockquote&gt;
-It turns out that this force reduction included [me] Randy Farmer and Chip Morningstar - much to our mutual surprise as we each had strong contributor/leadership roles in the company. From here it looks like they might have gone after those with larger salaries given the number of top-quality people we saw get the axe today. Given what we were working on, it was doubly confusing.
-&lt;/blockquote&gt;&lt;p&gt;
-&lt;a href=&#34;http://twitter.com/ryankuder&#34;&gt;Ryan Kuder&lt;/a&gt; who was twittering the news.
-&lt;/p&gt;&lt;blockquote&gt;
-Holy crap! Just catching up&amp;hellip;What an overwhelmingly supportive response to my layoff tweets today. Y&amp;rsquo;all are awesome. Thank you.
-&lt;/blockquote&gt;&lt;p&gt;
-&lt;a href=&#34;http://www.techcrunch.com/2008/02/12/yahoo-brickhouse-left-headless/&#34;&gt;Salim Ismail (Brickhouse)&lt;/a&gt; (TechCrunch)
-&lt;/p&gt;&lt;blockquote&gt;
-Salim Ismail, who has led Yahoo Brickhouse since since March 2007, left the company today as part of broader layoffs at Yahoo. Layoff packages were being offered, he said, and he left voluntarily.
-&lt;/blockquote&gt;&lt;p&gt;
-There&amp;rsquo;s more I&amp;rsquo;m sure.
-&lt;/p&gt;&lt;p&gt;
-Tips for someone starting an alumni association: use free infrastructure, like a mailing list and some kind of directory, to bootstrap yourself.  See e.g. the &lt;a href=&#34;http://cisco-alumni.org&#34;&gt;Cisco Alumni Association&lt;/a&gt; which now numbers 700+ ex-Cisco employees on a Yahoo group and in LinkedIn.
-&lt;/p&gt;&lt;p&gt;
-Predictably, the recruiters have chimed in:
-&lt;/p&gt;&lt;p&gt;
-&lt;a href=&#34;http://watchmojo.com/web/blog/index.php/2008/02/12/memo-to-yhoo-staffers-looking-for-a-few-good-men-and-women/&#34;&gt;Memo to YHOO Staffers&lt;/a&gt; - WatchMOJO
-&lt;/p&gt;&lt;blockquote&gt;
-When I started Mojo Supreme, it was because I wanted to hire people and build something big.  I no longer have to think about it, I can actually do it.  So, if you have left YHOO or simply looking for a gig, check out what we do and drop me a line.
-&lt;/blockquote&gt;&lt;p&gt;
-&lt;a href=&#34;http://furrier.org/2008/02/13/wanted-any-yahoo-social-netwoking-social-graph-product-mgrs-and-engineers/&#34;&gt;Wanted: Any Yahoo&lt;/a&gt; - furrier.org
-&lt;/p&gt;&lt;blockquote&gt;
-Consider this an open call for Yahoo entrepreneurs who know social networks and social graph technology: I’m looking for product managers and engineers for my new social advertising startup.
-&lt;/blockquote&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/alumni&#34; rel=&#34;tag&#34;&gt;alumni&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/autumn&#34; rel=&#34;tag&#34;&gt;autumn&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/jobs&#34; rel=&#34;tag&#34;&gt;jobs&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/layoff&#34; rel=&#34;tag&#34;&gt;layoff&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/yahoo&#34; rel=&#34;tag&#34;&gt;yahoo&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>Quite a few people got laid off at Yahoo today; reports are trickling in from Twitter.  UPDATED: This hit techmeme; adding a few details throughout.  CNET reports 1000 (but &amp;ldquo;no details&amp;rdquo;).  &amp;ldquo;We are aligning resources to support our big bets: starting points, must buy, and open,&amp;rdquo; a Yahoo spokeswoman said. That refers to Yahoo&amp;rsquo;s new mission of being the most popular starting place for people on the Internet and the most popular advertising platform, as well as the company&amp;rsquo;s focus on opening up Yahoo&amp;rsquo;s network to third-party publishers.</description>
     </item>
     
   </channel>

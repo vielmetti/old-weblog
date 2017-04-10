@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/internet-history/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Internet History on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/internet-history/</link>
+    <description>Recent content in Internet History on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/internet-history/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2013 16:51:02 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/internet-history/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Douglas Engelbart (1925-2013) - inventor of interactive computing</title>
@@ -14,15 +17,9 @@
       <pubDate>Wed, 03 Jul 2013 16:51:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-07-03-douglas-engelbart-1925-2013-inventor-of-interactive-computing/</guid>
-      <description>&lt;p&gt;Douglas Engelbart has died at the age of 88.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.nytimes.com/2013/07/04/technology/douglas-c-engelbart-inventor-of-the-computer-mouse-dies-at-88.html?pagewanted=all&#34; target=&#34;_self&#34;&gt;New York Times obit from John Markoff:&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Douglas C. Engelbart, a visionary scientist whose singular epiphany in 1950 about technology’s potential to expand human intelligence led to a host of inventions — among them the computer mouse — that became the basis for both the Internet and the modern personal computer, died on Tuesday at his home in Atherton, Calif. He was 88.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Engelbart was known for this 1968 (!) demo of interactive computing:&lt;/p&gt;
-&lt;iframe width=&#34;600&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/yJDv-zdhzMY?rel=0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;The story goes that while in World War II stationed on an island he read the Vannevar Bush work &#34;&lt;a href=&#34;http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/3881/&#34;&gt;As We May Think&lt;/a&gt;&#34;, and it became the foundation for his work.&lt;/p&gt;
-</description>
+      <description>Douglas Engelbart has died at the age of 88.
+New York Times obit from John Markoff:
+ Douglas C. Engelbart, a visionary scientist whose singular epiphany in 1950 about technology’s potential to expand human intelligence led to a host of inventions — among them the computer mouse — that became the basis for both the Internet and the modern personal computer, died on Tuesday at his home in Atherton, Calif. He was 88.</description>
     </item>
     
     <item>
@@ -31,18 +28,8 @@
       <pubDate>Thu, 09 May 2013 22:25:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-09-the-internet-as-a-moving-target-and-its-hard-to-hit-a-moving-target/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://archives.obs-us.com/obs/english/books/editinc/andr-ap1.htm&#34; target=&#34;_self&#34;&gt;From Tracy LaQuey, 1994:&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;Remember, the Internet is a moving target. Computer names change. Sites disappear. What works today may not work tomorrow.&amp;#0160;&lt;/blockquote&gt;
-&lt;div&gt;Pursuing this phrase where it also shows up:&lt;/div&gt;
-&lt;div&gt;&lt;a href=&#34;http://www.elizabethlloydevans.com/2011/05/19/internet-as-a-moving-target-by-yang-guobin/&#34; target=&#34;_self&#34;&gt;From the introduction to &amp;quot;The Power of the Internet in China&amp;quot;, 2011, emphasis added:&lt;/a&gt;&lt;/div&gt;
-&lt;blockquote&gt;“Learning about Internet culture is like learning a new language. Immersion is the most important approach – but immersion in cyberspace has its seductive side. There is always something new: there are new developments related to the Internet, whether technological, social, cultural, or political. Studying the Internet did indeed feel like shooting a moving target. …&lt;strong&gt;To be sure, the Internet changes daily.&lt;/strong&gt; But that does not mean what happened yesterday is meaningless today, for every little development in the past becomes part of the present. …Seen in this way, no research of the Internet can be outdated.”&lt;/blockquote&gt;
-&lt;div&gt;
-&lt;/div&gt;
-&lt;p&gt;And illustrating just how resilient an organzation can be in the face of opposition, &lt;a href=&#34;http://www.renesys.com/blog/2010/12/wikileaks-moving-target.shtml&#34; target=&#34;_self&#34;&gt;Wikileaks as a moving target (from Renesys), 2010:&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;Second, it&amp;#39;s apparent that search and social infrastructure (Google and Twitter) now play a key role in re-spawning content that gets blocked in any one place, and drawing even more attention to the surviving copies. If suppressed content automatically goes viral, the Internet&amp;#39;s construction basically guarantees that that content will have a home for the rest of time. If you attack DNS support, people will tweet raw IP addresses. If you take down the BGP routes to web content, people will put up more mirrors, or switch to overlay networks to distribute the data. You&amp;#0160;can&amp;#39;t burn down the&lt;a href=&#34;http://jameshannam.com/library.htm&#34;&gt;Library of Alexandria&lt;/a&gt;&amp;#0160;any more— it will respawn in someone&amp;#39;s basement in Stockholm, or Denver, or Beijing.&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>From Tracy LaQuey, 1994:
+Remember, the Internet is a moving target. Computer names change. Sites disappear. What works today may not work tomorrow.&amp;#0160; Pursuing this phrase where it also shows up: From the introduction to &amp;quot;The Power of the Internet in China&amp;quot;, 2011, emphasis added: “Learning about Internet culture is like learning a new language. Immersion is the most important approach – but immersion in cyberspace has its seductive side. There is always something new: there are new developments related to the Internet, whether technological, social, cultural, or political.</description>
     </item>
     
     <item>
@@ -51,8 +38,9 @@
       <pubDate>Wed, 25 Feb 2009 09:33:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-02-25-borrowed-nostalgia-for-the-unremembered-90s-at-slate/</guid>
-      <description>&lt;p&gt;&lt;p&gt;&lt;a href=&#34;http://slate.com/id/2212108&#34;&gt;Slate&amp;#39;s&amp;#0160;&lt;/a&gt;&lt;span style=&#34;line-height: normal; color: #660033; font-size: 14px; font-style: italic; font-family: Helvetica; &#34;&gt;Farhad Manjoo&lt;/span&gt;&lt;span style=&#34;font-family: Helvetica; &#34;&gt;&amp;#0160;wonders what the fuss was all about of the Internet of 1996:&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;&lt;div&gt;&lt;span style=&#34;font-family: Arial; line-height: normal; &#34;&gt;&lt;p style=&#34;font: normal normal normal 0.75em/1.5em Verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 12px; padding-right: 36px; padding-bottom: 12px; padding-left: 36px; &#34;&gt;I started thinking about the Web of yesteryear after I got an e-mail from an idly curious&amp;#0160;&lt;strong&gt;&lt;em&gt;Slate&lt;/em&gt;&lt;/strong&gt;colleague: What did people do online back when&lt;strong&gt;&lt;em&gt;Slate&lt;/em&gt;&lt;/strong&gt;&amp;#0160;launched, he wondered? After plunging into the&amp;#0160;&lt;a href=&#34;http://www.archive.org/index.php&#34; style=&#34;text-decoration: none; color: #0066cc; outline-style: none; outline-width: initial; outline-color: initial; &#34; target=&#34;_blank&#34;&gt;Internet Archive&lt;/a&gt;&amp;#0160;and talking to several people who were watching the Web closely back then, I&amp;#39;ve got an answer: not very much.&lt;/p&gt;&lt;div&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: 18px;&#34;&gt;Once you get past the &amp;quot;oh ha ha dancing cats&amp;quot; attitude of the article, you discover that the preserved online record of the World Wide Web circa 1996 is incomplete (at least as seen via the Internet Archive) and there&amp;#39;s really not that much to explain why people were interested in it. &amp;#0160;That&amp;#39;s true especially if you constrain your view only to things that you can find now that were web based:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: 18px;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: Verdana; line-height: 18px; font-size: 12px; &#34;&gt;Some of Yahoo&amp;#39;s&amp;#0160;&lt;a href=&#34;http://web.archive.org/web/19961017235908/http:/www2.yahoo.com/&#34; style=&#34;text-decoration: none; color: #0066cc; outline-style: none; outline-width: initial; outline-color: initial; &#34; target=&#34;_blank&#34;&gt;1996-era front pages&lt;/a&gt;&amp;#0160;have been saved in&amp;#0160;&lt;a href=&#34;http://web.archive.org/web/*/http:/www.yahoo.com&#34; style=&#34;text-decoration: none; color: #0066cc; outline-style: none; outline-width: initial; outline-color: initial; &#34; target=&#34;_blank&#34;&gt;the Internet Archive&lt;/a&gt;. What&amp;#39;s interesting about them is what they lack. First, no e-mail: The first webmail site, Hotmail,&lt;a href=&#34;http://en.wikipedia.org/wiki/Hotmail#Development_history&#34; style=&#34;text-decoration: none; color: #0066cc; outline-style: none; outline-width: initial; outline-color: initial; &#34; target=&#34;_blank&#34;&gt;launched in July of 1996&lt;/a&gt;. There was no instant-messaging software; the first big IM client, ICQ, hit the Web early in 1997.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: 18px;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: 18px;&#34;&gt;This would be sad if it were true, but it&amp;#39;s not true.&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: 18px;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: 18px;&#34;&gt;Email has been around for a long time (since 1975 or so), and in 1996 companies like &lt;/span&gt;&lt;a href=&#34;http://www.businessweek.com/1997/34/roster34/netc.htm&#34;&gt;Netcom&lt;/a&gt;&amp;#0160;were selling dial-up Internet connections just as fast as they could install modems to serve the demand. &amp;#0160;&lt;a href=&#34;http://news.cnet.com/Netcom-unveils-NetCruiser-for-the-Mac/2100-1023_3-201736.html&#34;&gt;Netcom&amp;#39;s NetCruiser software was state of the art,&lt;/a&gt; and it had wide support for the popular stuff of the day:&lt;/div&gt;&lt;br /&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: Arial; line-height: 17px; color: #353535; font-size: 12px; &#34;&gt;NetCruiser for the Mac will include support for GIF and JPEG image formats and drag-and-drop support. NetCruiser also includes access to the Web, email, Usenet newsgroups, Internet Relay Chat (IRC), Gopher, ftp, and Telnet.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;p&gt;&lt;span style=&#34;color: #353535; font-family: Arial; font-size: 12px; line-height: 17px;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span style=&#34;color: #353535; font-family: Arial; font-size: 12px; line-height: 17px;&#34;&gt;If Slate can&amp;#39;t remember what the net was like back when it was doubling every six months, that&amp;#39;s a reflection of the poor physical record that the virtual world has left behind.&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&#34;color: #353535; font-family: Arial; font-size: 12px; line-height: 17px;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&#34;color: #353535; font-family: Arial; font-size: 12px; line-height: 17px;&#34;&gt;More discussion at &lt;/span&gt;&lt;a href=&#34;http://www.techmeme.com/090225/p9#a090225p9&#34;&gt;Techmeme&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Slate&amp;#39;s&amp;#0160;Farhad Manjoo&amp;#0160;wonders what the fuss was all about of the Internet of 1996:
+I started thinking about the Web of yesteryear after I got an e-mail from an idly curious&amp;#0160;Slatecolleague: What did people do online back whenSlate&amp;#0160;launched, he wondered? After plunging into the&amp;#0160;Internet Archive&amp;#0160;and talking to several people who were watching the Web closely back then, I&amp;#39;ve got an answer: not very much.
+Once you get past the &amp;quot;oh ha ha dancing cats&amp;quot; attitude of the article, you discover that the preserved online record of the World Wide Web circa 1996 is incomplete (at least as seen via the Internet Archive) and there&amp;#39;s really not that much to explain why people were interested in it.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/aviation/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Aviation on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/aviation/</link>
+    <description>Recent content in Aviation on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/aviation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Mar 2015 18:44:16 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/aviation/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The mysterious crash of</title>
@@ -14,18 +17,9 @@
       <pubDate>Tue, 24 Mar 2015 18:44:16 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-24-the-mysterious-crash-of-4u9525-germanwings-flight-9525-in-the-french-alps/</guid>
-      <description>&lt;p&gt;My Twitter feed was full of air crash news this morning. Germanwings flight 9525 crashed in the French Alps, killing all passengers aboard. Wikipedia has a &lt;a href=&#34;http://www.wikiwand.com/en/Germanwings_Flight_9525&#34;&gt;good summary&lt;/a&gt;, perhaps as good as any.&lt;/p&gt;
-
-&lt;p&gt;What was unusual about the crash was that there was no distress call, and that the plane descended rapidly and steadily into the ground without veering once from its course.&lt;/p&gt;
-
-&lt;p&gt;Of note in this regard is another European flight on a similar aircraft some months earlier. Lufthansa 1829 on Nov 5th 2014 lost 4000 feet/minute of altitude after having problems with its control systems. The &lt;a href=&#34;http://avherald.com/h?article=47d74074&#34;&gt;Aviation Herald story&lt;/a&gt; was written a few days later, and it references emergency airworthiness directive &lt;a href=&#34;http://ad.easa.europa.eu/blob/easa_ad_2014_0266_E.pdf/EAD_2014-0266-E_1&#34;&gt;2014-0266-E_1 (pdf)&lt;/a&gt;. &lt;a href=&#34;http://aviation-safety.net/wikibase/wiki.php?id=171411&#34;&gt;AviationSafety.net has a summary of that incident&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;During climb, 12 NM NW of Pamplona, at approximately Flight Level 310, the aircraft unexpectedly decreased the pitch autonomous and started to descend. The aircraft reached a rate of descent of up to 4,000 ft/min. The crew was able to stop the descent at Flight Level 270. The flight was continued and the aircraft landed safely at its destination Munich Airport. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;At least superficially the incidents seem related. I am not expert enough at aviation issues to know if there is a real connection, or if this is mere coincidence.&lt;/p&gt;
-</description>
+      <description>My Twitter feed was full of air crash news this morning. Germanwings flight 9525 crashed in the French Alps, killing all passengers aboard. Wikipedia has a good summary, perhaps as good as any.
+What was unusual about the crash was that there was no distress call, and that the plane descended rapidly and steadily into the ground without veering once from its course.
+Of note in this regard is another European flight on a similar aircraft some months earlier.</description>
     </item>
     
     <item>
@@ -34,18 +28,8 @@
       <pubDate>Wed, 12 Mar 2014 17:13:14 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-12-the-mystery-of-flight-mh370/</guid>
-      <description>&lt;p&gt;I was up late the other night when the news that &lt;a href=&#34;https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370&#34;&gt;Malaysia Airlines Flight 370&lt;/a&gt; was missing came out. There was a flurry of speculation as to its whereabouts, but no hard news. I went to bed figuring that by morning the mystery would be resolved.&lt;/p&gt;
-
-&lt;p&gt;That was four days ago, and the plane is still missing and the mystery has only deepened. &lt;/p&gt;
-
-&lt;p&gt;Short of going on a search and rescue mission yourself, the closest that anyone can do to chip in on the search is to join in on &lt;a href=&#34;http://www.tomnod.com/nod/challenge/malaysiaairsar2014&#34;&gt;Tomnod&lt;/a&gt; which has a crowd-sourced digital image recognition system. From &lt;a href=&#34;http://www.webpronews.com/tomnod-website-set-up-to-involve-public-in-the-search-for-malaysia-airlines-flight-370-2014-03&#34;&gt;WebProNews&lt;/a&gt; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Tomnod, a Mongolian word that translates to “Big Eye,” is owned by Colorado-based satellite company Digital Globe. The company trained five satellites on the region of the Gulf of Thailand, the plane’s last known location. The satellites transmit data and photos of the area on the Tomnod website. It is hoped that through millions of crowdsourcing volunteers acting as a large virtual search party, signs of the missing plane will be found.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Until the disappearance of the jet has been explained, my heart goes out to the families of those who were on board.&lt;/p&gt;
-</description>
+      <description>I was up late the other night when the news that Malaysia Airlines Flight 370 was missing came out. There was a flurry of speculation as to its whereabouts, but no hard news. I went to bed figuring that by morning the mystery would be resolved.
+That was four days ago, and the plane is still missing and the mystery has only deepened. Short of going on a search and rescue mission yourself, the closest that anyone can do to chip in on the search is to join in on Tomnod which has a crowd-sourced digital image recognition system.</description>
     </item>
     
     <item>
@@ -54,31 +38,8 @@
       <pubDate>Sat, 06 Jul 2013 16:20:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-07-06-asiana-airlines-flight-214-a-boeing-777-crash-lands-at-san-francisco-airport-with-303-on-board/</guid>
-      <description>&lt;p&gt;Asiana Airlines Flight 214, a Boeing 777, crash landed at San Francisco Airport on Saturday, July, 2013 with 307 passengers and crew on board. As of this writing (1:19 PM PT) there are no confirmed fatalities, but it&amp;#39;s too early yet to give a final accounting. The plane did not report any problems before landing, and caught fire on the ground.&lt;/p&gt;
-&lt;p&gt;SFO airport was closed for several hours, and flights were diverted to other area airports.&lt;/p&gt;
-&lt;p&gt;This is breaking news, and here are some sources for it as the story unfolds.&lt;/p&gt;
-&lt;p&gt;Wikipedia: &lt;a href=&#34;http://en.wikipedia.org/wiki/Asiana_Airlines_Flight_214&#34; target=&#34;_self&#34;&gt;Asiana Airlines Flight 214&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Asiana Airlines:&amp;#0160;&lt;a href=&#34;https://plus.google.com/u/0/114095967881168349734/posts/YiszZ5TSwMZ&#34; target=&#34;_self&#34;&gt;Press Release for Incident Involving Asiana Flight OZ 214&lt;/a&gt; (July 7, 2013 06:30 KOR.Time)&lt;/p&gt;
-&lt;p&gt;Passenger &lt;a href=&#34;https://twitter.com/Eunner&#34; target=&#34;_self&#34;&gt;David Eun&lt;/a&gt; tweeted from the tarmac minutes after the crash.&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
-&lt;p&gt;I just crash landed at SFO. Tail ripped off. Most everyone seems fine. I&amp;#39;m ok. Surreal... (at &lt;a href=&#34;https://twitter.com/flySFO&#34;&gt;@flySFO&lt;/a&gt;) [pic] — &lt;a href=&#34;https://t.co/E6Ur1XEfa4&#34;&gt;https://t.co/E6Ur1XEfa4&lt;/a&gt;&lt;/p&gt;
-— David Eun (@Eunner) &lt;a href=&#34;https://twitter.com/Eunner/statuses/353592664526028801&#34;&gt;July 6, 2013&lt;/a&gt;&lt;/blockquote&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/cnnbrk&#34;&gt;@cnnbrk&lt;/a&gt; &lt;a href=&#34;https://twitter.com/CNN&#34;&gt;@cnn&lt;/a&gt; more photos my dad has sent from 777 crash &lt;a href=&#34;http://t.co/F0ekLTKwPv&#34;&gt;pic.twitter.com/F0ekLTKwPv&lt;/a&gt;&lt;/p&gt;
-— Bird (@EuniceBirdRah) &lt;a href=&#34;https://twitter.com/EuniceBirdRah/statuses/353615730308177920&#34;&gt;July 6, 2013&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script src=&#34;//platform.twitter.com/widgets.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//platform.twitter.com/widgets.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-&lt;p&gt;Scanner traffic: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/6336&#34; target=&#34;_self&#34;&gt;San Francisco Fire and EMS&lt;/a&gt; (6000+ listeners), &lt;a href=&#34;http://www.broadcastify.com/listen/feed/3561&#34; target=&#34;_self&#34;&gt;SFO Airport and Oakland Center&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe frameborder=&#34;no&#34; height=&#34;166&#34; scrolling=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F99956220&#34; width=&#34;100%&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Broadcast news: &lt;a href=&#34;http://tunein.com/radio/CNN-s20407/&#34; target=&#34;_self&#34;&gt;CNN&lt;/a&gt;&amp;#0160;(via Tunein); account from &lt;a href=&#34;http://sanfrancisco.cbslocal.com/2013/07/06/plane-crash-at-sfo/&#34;&gt;KCBS&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Newspaper reports: The Guardian, &lt;a href=&#34;http://www.guardian.co.uk/world/2013/jul/06/san-francisco-airport-plane-crash-boeing&#34; target=&#34;_self&#34;&gt;Boeing 777 from Seoul crashes on landing at San Francisco Airport&lt;/a&gt;. New York Times, &lt;a href=&#34;http://www.nytimes.com/2013/07/07/us/san-francisco-plane-crash.html?hp&amp;amp;_r=0&#34; target=&#34;_self&#34;&gt;2 Die and Many Are Hurt as Plane Crashes in San Francisco&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Twitter: follow @&lt;a href=&#34;http://twitter.com/flySFO&#34; target=&#34;_self&#34;&gt;flySFO &lt;/a&gt;(airport official), @&lt;a href=&#34;http://twitter.com/MickiMaynard&#34; target=&#34;_self&#34;&gt;MickiMaynard&lt;/a&gt; (reporter), @&lt;a href=&#34;http://twitter.com/eunner&#34; target=&#34;_self&#34;&gt;Eunner&lt;/a&gt; (passenger), @&lt;a href=&#34;http://twitter.com/SoCalEMSFire&#34; target=&#34;_self&#34;&gt;SoCalEMSFire&lt;/a&gt; (monitoring scanner).&lt;/p&gt;
-&lt;p&gt;Reddit: &lt;a href=&#34;http://www.reddit.com/comments/1hreaz&#34; target=&#34;_self&#34;&gt;Apparent 777 crash at SFO&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A good technical discussion of the aircraft is on Airliners.NET: &lt;a href=&#34;http://www.airliners.net/aviation-forums/general_aviation/read.main/5809207/&#34; target=&#34;_self&#34;&gt;OZ 777 Crashes at SFO&lt;/a&gt;. See also Flight Aware,&amp;#0160;&lt;a href=&#34;http://flightaware.com/news/article/Asiana-777-AAR214-crashes-upon-landing-at-SFO/182&#34; target=&#34;_self&#34;&gt;Asiana 777 (AAR214) crashes upon landing at SFO&lt;/a&gt;; Aviation Herald,&amp;#0160;&lt;a href=&#34;http://avherald.com/h?article=464ef64f&amp;amp;opt=4096&#34; target=&#34;_self&#34;&gt;Accident: Asiana B772 at San Francisco on Jul 6th 2013, touched down short of the runway, broke up and burst into flames&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;UPDATE: Passenger/crew count updated to 307 from 303 per press conference at 7:45pm PT.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Asiana Airlines Flight 214, a Boeing 777, crash landed at San Francisco Airport on Saturday, July, 2013 with 307 passengers and crew on board. As of this writing (1:19 PM PT) there are no confirmed fatalities, but it&amp;#39;s too early yet to give a final accounting. The plane did not report any problems before landing, and caught fire on the ground.
+SFO airport was closed for several hours, and flights were diverted to other area airports.</description>
     </item>
     
   </channel>

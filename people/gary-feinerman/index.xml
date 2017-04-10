@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/gary-feinerman/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Gary Feinerman on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/gary-feinerman/</link>
+    <description>Recent content in Gary Feinerman on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/gary-feinerman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2014 01:08:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/gary-feinerman/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Mt Gox in bankruptcy court - &#34;We&#39;ve been goxed!&#34;</title>
@@ -14,30 +17,9 @@
       <pubDate>Wed, 12 Mar 2014 01:08:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-12-mt-gox-in-bankruptcy-court-weve-been-goxed/</guid>
-      <description>&lt;p&gt;From &lt;a href=&#34;http://www.bloomberg.com/news/2014-03-11/mt-gox-u-s-affiliate-owner-s-assets-frozen-by-federal-judge.html&#34;&gt;Bloomberg News&lt;/a&gt;, March 11 2014&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Mt. Gox Inc., the American affiliate of the bankrupt Bitcoin exchange that lost track of hundreds of millions of dollars’ worth of virtual currency, had its U.S. assets frozen by a federal judge in Chicago.&lt;/p&gt;
-  
-  &lt;p&gt;U.S. District Judge Gary Feinerman today issued a temporary order tying up money and property belonging to the affiliate, its ultimate corporate parent, Tibanne KK, and principal Mark Karpeles after a hearing today.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://web.archive.org/web/20140309232354/https://www.tibanne.com/&#34;&gt;Tibanne KK&lt;/a&gt;? Here&#39;s the web page for that site, as captured by the Internet Archive on March 9, 2014.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Tibanne Co. Ltd. is a Tokyo, Japan-based corporation founded in 2009 by Mark Karpeles, a young technopreneur with more than 15 years experience in software development, network administration and business development. Mark is well-versed in multiple programming languages, has a strong background in network security, and is well-known in the tech community.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.forbes.com/sites/andygreenberg/2014/03/09/hackers-hit-mt-gox-exchanges-ceo-claim-to-publish-evidence-of-fraud/&#34;&gt;Andy Greenberg on Forbes&lt;/a&gt; has a discussion of hackers who published what is claimed to be a database dump stolen from Mt Gox:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I couldn’t verify that Sunday’s database dump was real, or that it showed any of the “lying” that the hackers claimed. In fact, it may simply show how Mt. Gox’s accounting mismatched with its actual store of Bitcoins–that it was counting bitcoins as being safe in its coffers when they had already been stolen by thieves.&lt;/p&gt;
-  
-  &lt;p&gt;But as Bitcoin experts pore over the hacked files, they may yet offer clues to the mystery around Mt. Gox’s fate. The Bitcoin community has been puzzled by the apparent lack of movement of Mt. Gox’s bitcoins since the company declared bankruptcy last month. Despite stating that it lost 850,000 bitcoins in total in its bankruptcy filing, Bitcoin experts haven’t seen the movement of those coins in the Bitcoin blockchain, the public ledger of transactions that prevents fraud and forgery in the Bitcoin economy.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We&#39;ve been goxed!&lt;/p&gt;
-</description>
+      <description>From Bloomberg News, March 11 2014
+ Mt. Gox Inc., the American affiliate of the bankrupt Bitcoin exchange that lost track of hundreds of millions of dollars’ worth of virtual currency, had its U.S. assets frozen by a federal judge in Chicago.
+U.S. District Judge Gary Feinerman today issued a temporary order tying up money and property belonging to the affiliate, its ultimate corporate parent, Tibanne KK, and principal Mark Karpeles after a hearing today.</description>
     </item>
     
   </channel>

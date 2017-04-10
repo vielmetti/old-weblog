@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/github-issues/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Github Issues on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/github-issues/</link>
+    <description>Recent content in Github Issues on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/github-issues/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2015 07:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/github-issues/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The productivity oscillator</title>
@@ -14,36 +17,8 @@
       <pubDate>Wed, 02 Dec 2015 07:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator/</guid>
-      <description>&lt;p&gt;I have been using Github issues for a long time as a todo list
-tracking and general productivity tool. It works well enough that
-I&amp;rsquo;ve opened over 4000 issues and have closed most of them.&lt;/p&gt;
-
-&lt;p&gt;The perpetual management challenge is in deciding how many issues
-is OK to leave open. Put too few in, and it feels like you have
-things to do that are not written down; put in too many, and you&amp;rsquo;re
-likely to have duplication and you forget what it is that you were
-trying to do in the first place.&lt;/p&gt;
-
-&lt;p&gt;The best part of the challenge is having some illusion of
-control over what is going on. I&amp;rsquo;m trying to work the queue
-this way. Some times my goal will be to create more open issues,
-putting things on the list to increase it up to a target goal.
-Other times the goal will be to reduce the size of the list by
-finishing tasks, clearing duplicates, or deciding not to get things
-done. By framing it as a deliberate game of &amp;ldquo;add tasks up to a
-target&amp;rdquo; or &amp;ldquo;clear tasks down to a target&amp;rdquo; I&amp;rsquo;m hoping to trick
-myself into taking on the easy things that I wrote down a month
-ago that will take a minute to do but are off my immediate radar.&lt;/p&gt;
-
-&lt;p&gt;The productivity oscillator suggests both a pattern of work and
-the illusion that whatever you are doing is the right thing to do.
-If you&amp;rsquo;re stuck trying to get stubborn things accomplished, write
-done some new easy goals and get those taken care of. It&amp;rsquo;s
-a quantified form of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/04/marginally_usef.html&#34;&gt;structured procrastination&lt;/a&gt; - which it turns out
-I&amp;rsquo;ve been talknig about for 10 years.&lt;/p&gt;
-
-&lt;p&gt;I wonder if there&amp;rsquo;s anything still on my todo list from 2005!&lt;/p&gt;
-</description>
+      <description>I have been using Github issues for a long time as a todo list tracking and general productivity tool. It works well enough that I&amp;rsquo;ve opened over 4000 issues and have closed most of them.
+The perpetual management challenge is in deciding how many issues is OK to leave open. Put too few in, and it feels like you have things to do that are not written down; put in too many, and you&amp;rsquo;re likely to have duplication and you forget what it is that you were trying to do in the first place.</description>
     </item>
     
   </channel>

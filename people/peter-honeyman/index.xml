@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/peter-honeyman/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Peter Honeyman on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/peter-honeyman/</link>
+    <description>Recent content in Peter Honeyman on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/peter-honeyman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2015 12:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/peter-honeyman/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>a2b3 lunch non-summary at Blue Nile for 30 July 2015</title>
@@ -14,45 +17,8 @@
       <pubDate>Thu, 30 Jul 2015 12:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-30-a2b3-lunch-nonsummary/</guid>
-      <description>&lt;p&gt;Nice lunch today at the Blue Nile. We had 10 people for lunch, including two
-people (Azita Azadi and Tom Meloche) who had moved back to town from far away.
-I had the vegetarian plate which was delicious (love me some injera).&lt;/p&gt;
-
-&lt;p&gt;The question of the day was regarding postcards, something I&amp;rsquo;m thinking about
-quite a bit. With a modest (but still too big) amount of effort I can launch
-a postcard from the command line of my Mac. It&amp;rsquo;s got to be easier (so I don&amp;rsquo;t
-have to look up command line options) but the basic structure works pretty well.&lt;/p&gt;
-
-&lt;p&gt;Postcards are archaic, perhaps, and also perhaps more expensive per each than
-reaching someone through Facebook advertising. I do have to say though that I
-love sending them, and love receiving them in return. I&amp;rsquo;d love to do the experiment
-of $20 spent on Facebook vs $20 spent on postcards, and wonder what the return
-would be; or better yet, $20 spent on each and identify particular synergies between
-super-high-tech and old-fashioned.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The card I got in the mail today was from Peter Honeyman and Lynn Chamberlain,
-two of my faithful correspondents. They sent a photo of the Pickle Barrel House Museum
-in Grand Marais, Michigan. The historic marker there reads:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Pioneer Cooperage Company of Chicago designed this small
-vacation cottage, which stood on the shores of nearby Sable Lake
-from 1926 until about 1937. It was built for William Donahey, creator
-of the Chicago Tribune cartoon story The Teenie Weenies. The house
-was constructed as a typical barrel would have been, only on a much
-larger scale. The main barrel contained a living area on the first
-floor and a bedroom on the second. A pantry connected this barrel
-to a smaller single-story one, which housed a kitchen. Donahey spent
-ten summers at the cottage with his wife, Mary, herself a noted
-author of children&amp;rsquo;s books. The structure was then moved to its
-current site and used as a tourist information center. The Pickle
-Barrel House is listed in the National Register of Historic Places.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Sounds like a destination for next time!&lt;/p&gt;
-</description>
+      <description>Nice lunch today at the Blue Nile. We had 10 people for lunch, including two people (Azita Azadi and Tom Meloche) who had moved back to town from far away. I had the vegetarian plate which was delicious (love me some injera).
+The question of the day was regarding postcards, something I&amp;rsquo;m thinking about quite a bit. With a modest (but still too big) amount of effort I can launch a postcard from the command line of my Mac.</description>
     </item>
     
     <item>
@@ -61,95 +27,10 @@ Barrel House is listed in the National Register of Historic Places.&lt;/p&gt;
       <pubDate>Mon, 20 Jul 2015 17:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-20-commuter-north-and-south/</guid>
-      <description>&lt;p&gt;A bus labeled &amp;ldquo;TRAINING&amp;rdquo;. Don&amp;rsquo;t take that one.&lt;/p&gt;
-
-&lt;p&gt;Kayakers in bright yellow kayaks on the Huron River under the bridge on Fuller Road.&lt;/p&gt;
-
-&lt;p&gt;Would it be too much to ask to have wifi actually on the blue bus, or
-is it more reasonable to expect that people have cell data coverage
-everywhere and that wifi on the bus is for long haul buses like Megabus?&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m happy that with Hugo I can have a reasonably complete local blogging
-environment completely independent of having Internet access, so long as I have
-my computer with me. On the other hand doing live-blogging from a phone is
-not possible, not that it ever really was very practical with any previous setup).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&amp;ldquo;Your UMARC shack access code is &amp;hellip;&amp;rdquo; Achievement unlocked.&lt;/p&gt;
-
-&lt;p&gt;The todo list right now for the shack is very short - &amp;ldquo;get in&amp;rdquo;. Now that I&amp;rsquo;m
-in I should have a longer list. There is a lot of gear in that room
-to get familiar with, not least of which is HF equipment with tunable
-and movable antennas.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wired.com/2013/06/twitter-marius-eriksen-finagle/&#34;&gt;Why Twitter Has More Freedom To Innovate Than Google&lt;/a&gt; is a 2013 Wired Magazine writeup.
-Prominently featured are Marius Eriksen, Niels Provos, and Peter Honeyman.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This was in the early aughts, when Eriksen was an undergrad at
-Michigan, studying computer science under a professor and lovable
-eccentric named Peter Honeyman. Known as “Dr. Honey” among the
-undergrads and PhD students at his Center for Information Technology
-Integration, Honeyman was famous for making assignments without
-really making assignments. “He would develop a particular obsession,
-and he would give you random hints about it, but he wouldn’t actually
-tell you what to do,” Eriksen remembers. “You would end up collaborating
-with people on whatever it was, in this freeform way, without much
-direction at all.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I talked to one of Peter&amp;rsquo;s current students. Evan is looking at ways to
-direct RF energy at devices to make them fail in interesting ways.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Stanford, Berkeley, and the University of Michigan are working on the
-&lt;a href=&#34;http://it.slashdot.org/story/15/06/30/1917207/stanford-starts-the-secure-internet-of-things-project&#34;&gt;Secure Internet of Things Project (slashdot)&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Stanford, Berkeley, and the University of Michigan have now started
-the Secure Internet of Things Project, which aims to promote security
-and transparency for IoT devices. They hope to unite regulators,
-researchers, and manufacturers to ensure nascent internet-connected
-tech is developed in a way that respects customer privacy and choice.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The web site has more details at &lt;a href=&#34;http://iot.stanford.edu&#34;&gt;http://iot.stanford.edu&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;Among the presentations at the Secure Internet of Things Project Retreat
-in Half Moon Bay on June 5, 2015 was this by U of Michigan&amp;rsquo;s Prabal Dutta,
-&lt;a href=&#34;http://iot.stanford.edu/retreat15/sitp15-swhw.pdf&#34;&gt;State of the Field: Hardware and Systems&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;(embed deck here, if I can)
-&lt;hr /&gt;&lt;/p&gt;
-
-&lt;p&gt;The LP0965 Antenna is a Log Periodic PCB directional antenna, at 5-6dBi Gain.
-The design is from Kent Britain WA5VJB, and a
-&lt;a href=&#34;http://www.wa5vjb.com/pcb-pdfs/LP8565.pdf&#34;&gt;data sheet for the antenna&lt;/a&gt; describes its
-utility for signals from 850 Mhz to 6500 Mhz. See &lt;a href=&#34;http://wa5vjb.com&#34;&gt;http://wa5vjb.com&lt;/a&gt; for more
-circuit board antennas for use for hobby, wifi, microwave and cellular use.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Traffic jam on Fuller on the return trip, backed up all the way to the river.
-It took about 15 minutes to get through because of construction on westbound
-Fuller taking traffic to one lane. It would have been faster to take the Route 1
-AAATA bus via Pontiac Trail, even though it would have been a considerable detour,
-or to walk to Plymouth Road and take the 2 in.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There was a fire at the Michigan League this afternoon. No sign of any issues
-as I pass by this evening.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The question when taking Commuter South is always where to get off the bus. Today
-I&amp;rsquo;ll take it all the way to the end of its route.&lt;/p&gt;
-</description>
+      <description>A bus labeled &amp;ldquo;TRAINING&amp;rdquo;. Don&amp;rsquo;t take that one.
+Kayakers in bright yellow kayaks on the Huron River under the bridge on Fuller Road.
+Would it be too much to ask to have wifi actually on the blue bus, or is it more reasonable to expect that people have cell data coverage everywhere and that wifi on the bus is for long haul buses like Megabus?
+I&amp;rsquo;m happy that with Hugo I can have a reasonably complete local blogging environment completely independent of having Internet access, so long as I have my computer with me.</description>
     </item>
     
     <item>
@@ -158,18 +39,10 @@ I&amp;rsquo;ll take it all the way to the end of its route.&lt;/p&gt;
       <pubDate>Fri, 03 Jun 2011 20:40:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-03-no-email-for-the-weekend/</guid>
-      <description>&lt;p&gt;I&amp;#39;ve updated my email vacation message to inform my correspondents that I&amp;#39;m taking the weekend off from electronic mail. If you get some message to that effect, you know how to get ahold of me.&lt;/p&gt;
-&lt;p&gt;I envy those with enough status to completely exit electronic mail, but at the very least I expect that an occasional weekend could be email-free.&lt;/p&gt;
-&lt;p&gt;Some background:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paul Jones&lt;/strong&gt; has given up on email, in his &lt;a href=&#34;http://ibiblio.org/pjones/blog/category/noemail/&#34; target=&#34;_self&#34;&gt;#noemail&lt;/a&gt; project.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://peter.honeyman.org/&#34; target=&#34;_self&#34;&gt;Peter Honeyman&lt;/a&gt;&lt;/strong&gt; is behind on reading his email. Aren&amp;#39;t we all?&lt;/p&gt;
-&lt;p&gt;Tumblr CEO &lt;strong&gt;David Karp&lt;/strong&gt; notices that &amp;quot;&lt;a href=&#34;http://www.inc.com/magazine/201106/the-way-i-work-david-karp-of-tumblr.html&#34; target=&#34;_self&#34;&gt;if you&amp;#39;re not responsive to e-mail&lt;/a&gt;, it trains people to leave you alone.&amp;quot;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;John Freeman&lt;/strong&gt; rants against &lt;a href=&#34;http://books.simonandschuster.com/Tyranny-of-E-mail/John-Freeman/9781416576730&#34; target=&#34;_self&#34;&gt;the tyranny of email&lt;/a&gt;, in book length form.&lt;/p&gt;
-&lt;p&gt;In 2010, &lt;strong&gt;Nathaniel Borenstein&lt;/strong&gt; &lt;a href=&#34;http://www.cio.co.uk/debate/3232906/nathaniel-borenstein-on-why-email-isnt-dead/&#34; target=&#34;_self&#34;&gt;told CIO magazine that email was not dead&lt;/a&gt;.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;In 2003, &lt;a href=&#34;http://dir.salon.com/tech/feature/2003/10/02/e_mail/index.html&#34; target=&#34;_self&#34;&gt;E-mail is broken&lt;/a&gt; was a Salon.com headline. &lt;strong&gt;Jacob Nielsen &lt;/strong&gt;&amp;quot;stopped using e-mail and hired staff to do it for me.&amp;quot; It was a bad year for spam, and &lt;strong&gt;Joi Ito&lt;/strong&gt; pronounced email &lt;a href=&#34;http://joi.ito.com/weblog/2003/08/14/email-is-offici.html&#34; target=&#34;_self&#34;&gt;officially broken&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www-cs-faculty.stanford.edu/~uno/email.html&#34; target=&#34;_self&#34;&gt;&lt;strong&gt;Don Knuth&lt;/strong&gt; has been happy&lt;/a&gt;&amp;#0160;since he gave up email in 1990 after 15 years of use.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>I&amp;#39;ve updated my email vacation message to inform my correspondents that I&amp;#39;m taking the weekend off from electronic mail. If you get some message to that effect, you know how to get ahold of me.
+I envy those with enough status to completely exit electronic mail, but at the very least I expect that an occasional weekend could be email-free.
+Some background:
+Paul Jones has given up on email, in his #noemail project.</description>
     </item>
     
   </channel>

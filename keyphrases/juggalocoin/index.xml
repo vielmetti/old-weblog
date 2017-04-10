@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/juggalocoin/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Juggalocoin on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/juggalocoin/</link>
+    <description>Recent content in Juggalocoin on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/juggalocoin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Apr 2014 12:18:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/juggalocoin/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Insane coin posse</title>
@@ -14,30 +17,8 @@
       <pubDate>Mon, 14 Apr 2014 12:18:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-04-14-insane-coin-posse/</guid>
-      <description>&lt;p&gt;The latest in cryptocurrencies is the Juggalocoin, proposed to handle the transactional needs of the fans of the Insane Clown Posse. From &lt;a href=&#34;http://www.billboard.com/biz/articles/news/digital-and-mobile/6049084/meet-the-insane-coin-posse-juggalos-get-their-own&#34;&gt;Billboard&lt;/a&gt; (because after all this is an entertainment story):&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whoop whoop! A very tech-savvy Juggalo by the name of Papa Nutt has taken it upon himself to create a cryptocurrency specifically for Faygo-chugging devotees of &#34;the Family&#34; to buy goods and services with*, especially at the upcoming Gathering of the Juggalos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now, the acid test of any coin: can you buy Faygo with it? From &lt;a href=&#34;http://www.slate.com/blogs/future_tense/2014/04/09/juggalocoins_the_cryptocurrency_for_insane_clown_posse_fans.html&#34;&gt;Slate&lt;/a&gt;: &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It seems quite possible this is all a good joke, but given the purchasing power of the Juggaloes, the Faygo company might want to update its payment system just to be safe.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;On &lt;a href=&#34;https://bitcointalk.org/index.php?topic=568484.0&#34;&gt;Bitcointalk&lt;/a&gt;, someone who calls themself &#34;Juggalocoin&#34; launches into a spirited defense of the currency:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To reach the huge non-crypto masses requires something they can identify with.  Dogecoin did it.  Kinda.  In a weird, fleeting way.  Doge is just a glimpse of what&#39;s possible.  But memes have a VERY limited lifespan.  Doge may grow beyond the meme.  I don&#39;t know.  But with Juggalos, it&#39;s not about a meme.  It&#39;s about a community.  A community that already exists, and has been around for over 20 years!  &lt;/p&gt;
-  
-  &lt;p&gt;This is the innovation that JuggaloCoin offers:  A coin that appeals to a very specific, very tight community.  A community of over 1 million people.  We are offering a real opportunity for crypto to dramatically increase its reach.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For more details than you&#39;d ever want to see, visit &lt;a href=&#34;http://juggalocoin.org/&#34;&gt;juggalocoin.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Previously on this blog, an account of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2014/03/april-3-2014-finn-brunton-on-cryptocurrencies-north-quad-space-2435-400-pm.html&#34;&gt;Finn Brunton&#39;s talk on cryptocurrencies&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The latest in cryptocurrencies is the Juggalocoin, proposed to handle the transactional needs of the fans of the Insane Clown Posse. From Billboard (because after all this is an entertainment story):
+ Whoop whoop! A very tech-savvy Juggalo by the name of Papa Nutt has taken it upon himself to create a cryptocurrency specifically for Faygo-chugging devotees of &#34;the Family&#34; to buy goods and services with*, especially at the upcoming Gathering of the Juggalos.</description>
     </item>
     
   </channel>

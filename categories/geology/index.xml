@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/geology/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Geology on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/geology/</link>
+    <description>Recent content in Geology on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/geology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Apr 2015 03:55:49 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/geology/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Calbuco volcano in Chile has erupted; 23 April 2015, early a.m. update</title>
@@ -14,34 +17,9 @@
       <pubDate>Thu, 23 Apr 2015 03:55:49 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-04-23-the-calbuco-volcano-in-chile-has-erupted-23-april-2015-early-am-update/</guid>
-      <description>&lt;p&gt;The pictures coming out of Calbuco are stunning, let me find a few to save them here. Local coverage is from &lt;a href=&#34;http://www.biobiochile.cl/&#34;&gt;biobiochile.cl&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.biobiochile.cl/2015/04/23/volcan-calbuco-retoma-proceso-eruptivo-sernageomin-alista-nuevo-reporte.shtml&#34;&gt;Volcán Calbuco retoma proceso eruptivo con expulsión de material incandescente&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Una densa columna de lava y material incandescente comenzó a desprenderse desde el cráter del volcán Calbuco pasada la 1:00 de la madrugada de este jueves, en lo que fue calificado como una reactivación abrupta del macizo.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Spectacular images show &lt;a href=&#34;https://twitter.com/hashtag/Calbuco?src=hash&#34;&gt;#Calbuco&lt;/a&gt; volcano erupting in Chile &lt;a href=&#34;http://t.co/LJJ3EpJEeD&#34;&gt;http://t.co/LJJ3EpJEeD&lt;/a&gt; &lt;a href=&#34;http://t.co/K3nbjzuNgf&#34;&gt;pic.twitter.com/K3nbjzuNgf&lt;/a&gt;&lt;/p&gt;&amp;mdash; BioBioChile (@biobio) &lt;a href=&#34;https://twitter.com/biobio/status/591147515505958913&#34;&gt;April 23, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;This image just moved, too. Unbelievable. &lt;a href=&#34;https://twitter.com/hashtag/Calbuco?src=hash&#34;&gt;#Calbuco&lt;/a&gt; &lt;a href=&#34;http://t.co/aAjVfoIsy4&#34;&gt;http://t.co/aAjVfoIsy4&lt;/a&gt; &lt;a href=&#34;http://t.co/REoADDYAFT&#34;&gt;pic.twitter.com/REoADDYAFT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Craig Newman (@craignewman) &lt;a href=&#34;https://twitter.com/craignewman/status/591110757443592192&#34;&gt;April 23, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;A &lt;a href=&#34;http://www.webcamgalore.com/EN/webcam/Chile/Calbuco/16766.html&#34;&gt;live webcam from Calbuco&lt;/a&gt; is dark at 0400 Eastern, but when the day breaks there should be more.&lt;/p&gt;
-
-&lt;p&gt;This video from Youtube has the moment of the explosion, from hiker Franco Valerio.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/X9h3l0aiP7M?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;For science, go to &lt;a href=&#34;http://www.sernageomin.cl/&#34;&gt;http://www.sernageomin.cl/&lt;/a&gt;, the Servicio Nacional de Geología y Minería.&lt;/p&gt;
-
-&lt;p&gt;Area map. Map contents copyright Bing and Nokia.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77eb85b970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c77eb85b970b img-responsive&#34; style=&#34;width: 557px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Calbuco-Chile-area-map&#34; title=&#34;Calbuco-Chile-area-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77eb85b970b-580wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>The pictures coming out of Calbuco are stunning, let me find a few to save them here. Local coverage is from biobiochile.cl:
+Volcán Calbuco retoma proceso eruptivo con expulsión de material incandescente
+ Una densa columna de lava y material incandescente comenzó a desprenderse desde el cráter del volcán Calbuco pasada la 1:00 de la madrugada de este jueves, en lo que fue calificado como una reactivación abrupta del macizo.</description>
     </item>
     
     <item>
@@ -50,24 +28,9 @@
       <pubDate>Sat, 03 Aug 2013 14:22:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-03-is-the-northern-michigan-geologic-repository-association-a-public-body-under-michigan-foia/</guid>
-      <description>&lt;p&gt;The question from &lt;a href=&#34;http://www.miningjournal.net/page/content.detail/id/589393/FOIA-at-core-of-court-case.html?nav=5006&#34; target=&#34;_self&#34;&gt;a story in the Marquette Mining Journal&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;MARQUETTE - Marquette County Circuit Court Judge Thomas Solka heard oral arguments Thursday on a case involving whether the Northern Michigan Geologic Repository Association is a public body subject to producing financial information under the Freedom of Information Act.&lt;/p&gt;
-&lt;p&gt;The association is important to plaintiffs in the case because it was created under state law requirements by the Michigan Department of Environmental Quality, which makes it a public body by extension, the plaintiffs contend.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The association in question is the &lt;a href=&#34;https://www.michigan.gov/deq/0,4561,7-135-3311_4111_18442-168830--,00.html&#34; target=&#34;_self&#34;&gt;Northern Michigan Geologic Repository Assocation&lt;/a&gt;, described on a Michigan DEQ site as follows.&lt;/p&gt;
-&lt;blockquote&gt;The Geological Core and Sample Repository holds a &lt;br /&gt;collection of drill core and cuttings from 67 counties &lt;br /&gt;in Michigan, including all 15 counties from the Upper &lt;br /&gt;Peninsula. The purpose of the collection is to act as &lt;br /&gt;a &amp;quot;rock library&amp;quot; and make the collected material &lt;br /&gt;available to individual researchers and industry for &lt;br /&gt;geologic study. It is hoped that the collection will &lt;br /&gt;lead to increased mineral and fuel exploration and &lt;br /&gt;development in various parts of Michigan. Both the &lt;br /&gt;local and state economies may benefit by more jobs &lt;br /&gt;being created.&lt;/blockquote&gt;
-&lt;p&gt;The plaintiffs contend:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;The murky facts surrounding the Northern Michigan Geologic Repository Association exemplify the need for the Freedom of Information Act and the purpose for which it was enacted: to shine a light on the actions of government officials which directly impact the citizens whom they purport to represent,&amp;quot; said Jana Mathieu, the plaintiff&amp;#39;s attorney.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;More details from &lt;a href=&#34;http://savethewildup.org/2013/06/citizens-demand-federal-investigation-of-collusion-between-state-regulators-and-mining-industry/&#34; target=&#34;_self&#34;&gt;Save the Wild UP&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Near the Upper Peninsula District Office of the Department of Environmental Quality (DEQ) in Gwinn, this map taped to the wall of a large warehouse labels the facility a “State Warehouse.” Core samples are stored within, but the DEQ claims no further association with NMGRA, the non-profit that has leased the warehouse and is attempting to raise money to make it a state geologic repository.&lt;/strong&gt;&lt;/p&gt;
-&lt;div&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>The question from a story in the Marquette Mining Journal:
+ MARQUETTE - Marquette County Circuit Court Judge Thomas Solka heard oral arguments Thursday on a case involving whether the Northern Michigan Geologic Repository Association is a public body subject to producing financial information under the Freedom of Information Act.
+The association is important to plaintiffs in the case because it was created under state law requirements by the Michigan Department of Environmental Quality, which makes it a public body by extension, the plaintiffs contend.</description>
     </item>
     
     <item>
@@ -76,26 +39,8 @@
       <pubDate>Thu, 22 Dec 2011 23:55:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-12-22-eqnz/</guid>
-      <description>&lt;p&gt;Ann Arbor, December 22, 2011 - Three strong earthquakes of more than magnitude 5 hit Christchurch, New Zealand today, disrupting the power and telecommunications networks in the area and damaging roads and structures because of liquefaction of the soil. Damage and injury estimates are incomplete as of this writing.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;According to USGS, three earthquake hits christchurch today , 5.8 at 01:58:36 PM, 5.3 at 02:06:25 PM and 5.8 at 03:18:02 PM&amp;nbsp;&lt;a title=&#34;#eqnz&#34; rel=&#34;nofollow&#34; href=&#34;https://twitter.com/#!/search?q=%23eqnz&#34;&gt;&lt;strong&gt;#&lt;/strong&gt;&lt;strong&gt;&lt;strong&gt;eqnz&lt;/strong&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Power grid operator&amp;nbsp;&lt;a href=&#34;http://oriongroup.co.nz&#34; target=&#34;_self&#34;&gt;Orion New Zealand&lt;/a&gt; is providing network updates via Twitter on the status of the electrical grid during the aftermath of the quake; follow @&lt;a href=&#34;https://twitter.com/#!/OrionNZ&#34; target=&#34;_self&#34;&gt;OrionNZ&lt;/a&gt; for details. The updates via Twitter are happening in addition to their normal reporting on their web site:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Due to the extent of outages on the Orion network at present, we are unable to update this page.&amp;nbsp; We will resume usual updates as soon as possible.&amp;nbsp; In the interim, please see our&amp;nbsp;&lt;a href=&#34;http://www.oriongroup.co.nz/outages.aspx&#34;&gt;home&lt;/a&gt;&amp;nbsp;page for general updates about power supply following the December aftershocks.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;5:20pm: We are unable to update the outages page at &lt;a href=&#34;http://oriongroup.co.nz&#34; target=&#34;_self&#34;&gt;oriongroup.co.nz&lt;/a&gt; at present, as we are still scoping&amp;nbsp;&lt;a title=&#34;#eqnz&#34; rel=&#34;nofollow&#34; href=&#34;https://twitter.com/#!/search?q=%23eqnz&#34;&gt;#&lt;strong&gt;eqnz&lt;/strong&gt;&lt;/a&gt;&amp;nbsp;works&lt;/blockquote&gt;
-&lt;a href=&#34;https://twitter.com/#!/TelecomNZ&#34; target=&#34;_self&#34;&gt;Telecom New Zealand&lt;/a&gt; issued this update, also via Twitter
-&lt;blockquote&gt;
-&lt;p&gt;Full update from us - some congestion, some sites on battery backup, pls txt instead of calling if you can:&amp;nbsp;&lt;a title=&#34;http://www.telecom-media.co.nz/releases_detail.asp?id=3827&amp;amp;page=index&#34; rel=&#34;nofollow&#34; href=&#34;http://t.co/hlYycX0s&#34; target=&#34;_blank&#34;&gt;http://cot.ag/rF9daM&lt;/a&gt;&amp;nbsp;&lt;a title=&#34;#eqnz&#34; rel=&#34;nofollow&#34; href=&#34;https://twitter.com/#!/search?q=%23eqnz&#34;&gt;&lt;strong&gt;#&lt;/strong&gt;&lt;strong&gt;&lt;strong&gt;eqnz&lt;/strong&gt;&lt;/strong&gt;&lt;/a&gt;&amp;nbsp;^RI&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The &lt;a href=&#34;http://www.nzraw.co.nz/earthquake/christchurch-liquefaction-photos-and-video-in-eastern-suburbs/&#34; target=&#34;_self&#34;&gt;NZ Raw weblog has photos and video of the damage&lt;/a&gt;, which includes liquefaction of the soil.&lt;/p&gt;
-&lt;blockquote&gt;
-(A geologist) was keen to use the photos in a paper he was writing and said (and I more-or-less quote) “I’ve been to substantial earthquakes all over the world for the past 30 years and I haven’t seen liquefaction anywhere near as bad as it is in Christchurch. You guys are pretty interesting right now!”
-&lt;/blockquote&gt;
-&lt;iframe width=&#34;500&#34; height=&#34;369&#34; src=&#34;http://www.youtube.com/embed/YZeoY4UKZP8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;The hash tag in common use for the event is &lt;a title=&#34;#eqnz&#34; rel=&#34;nofollow&#34; href=&#34;https://twitter.com/#!/search?q=%23eqnz&#34;&gt;&lt;strong&gt;#eqnz&lt;/strong&gt;&lt;/a&gt;, and usage of that tag is nearly universal.&lt;/p&gt;
-</description>
+      <description>Ann Arbor, December 22, 2011 - Three strong earthquakes of more than magnitude 5 hit Christchurch, New Zealand today, disrupting the power and telecommunications networks in the area and damaging roads and structures because of liquefaction of the soil. Damage and injury estimates are incomplete as of this writing.
+ According to USGS, three earthquake hits christchurch today , 5.8 at 01:58:36 PM, 5.3 at 02:06:25 PM and 5.8 at 03:18:02 PM&amp;nbsp;#eqnz</description>
     </item>
     
     <item>
@@ -104,11 +49,9 @@
       <pubDate>Thu, 10 Mar 2011 22:11:06 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-03-10-gumbotil-kay-leverett-macclintock-1925/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.uiowa.edu/~calvin/image/cpc7215.jpg&#34;&gt;&lt;img alt=&#34;George F. Kay, Frank Leverett, Paul MacClintock, Ricketts Iowa, Nebraskan gumbotil&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e86a2a819970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e86a2a819970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from www.uiowa.edu&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;George F. Kay, Frank Leverett, and Paul MacClintock, 4 miles NE of Ricketts, IA, at the Nebraskan gumbotil outcrop. &amp;#0160;Photo &lt;a href=&#34;http://www.uiowa.edu/~calvin&#34; target=&#34;_self&#34;&gt;Calvin Photographic Collection&lt;/a&gt;. From &lt;a href=&#34;http://nmita.iowa.uiowa.edu/paleo/Collectors/Kay.htm&#34; target=&#34;_self&#34;&gt;George Frederick Kay 1873-1943&lt;/a&gt;, University of Iowa.&amp;#0160;Photographed by: Earl T. Apfel, July 1925.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Frank Leverett did extensive field work in Michigan; this &lt;a href=&#34;http://www.michigan.gov/deq/0,1607,7-135-3307_3331-230206--,00.html&#34; target=&#34;_self&#34;&gt;Michigan Digital Geology Library&lt;/a&gt;&amp;#0160;has many of his notebooks.&lt;/p&gt;
-&lt;p&gt;George F. Kay was my great-grandfather.&lt;/p&gt;
-</description>
+      <description>George F. Kay, Frank Leverett, and Paul MacClintock, 4 miles NE of Ricketts, IA, at the Nebraskan gumbotil outcrop. &amp;#0160;Photo Calvin Photographic Collection. From George Frederick Kay 1873-1943, University of Iowa.&amp;#0160;Photographed by: Earl T. Apfel, July 1925.&amp;#0160;
+Frank Leverett did extensive field work in Michigan; this Michigan Digital Geology Library&amp;#0160;has many of his notebooks.
+George F. Kay was my great-grandfather.</description>
     </item>
     
     <item>
@@ -117,9 +60,7 @@
       <pubDate>Thu, 10 Mar 2011 21:34:53 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-03-10-soil-texture-triangle/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;SoilTriangle.gif&#34; src=&#34;http://www.oneplan.org/Images/soilMst/SoilTriangle.gif&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;from &lt;a href=&#34;http://140.254.84.203/wiki/index.php/Soil_textural_triangle&#34; target=&#34;_self&#34;&gt;Soil Textural Triangle&lt;/a&gt;, in &lt;a href=&#34;http://140.254.84.203/wiki/index.php/Main_Page&#34; target=&#34;_self&#34;&gt;Plantfacts&lt;/a&gt;, a wiki at Ohio State University.&lt;/p&gt;
-</description>
+      <description>from Soil Textural Triangle, in Plantfacts, a wiki at Ohio State University.</description>
     </item>
     
     <item>
@@ -128,14 +69,8 @@
       <pubDate>Sat, 31 Jan 2009 17:12:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-01-31-alaska-volcano-maps-mt-redoubt-2009/</guid>
-      <description>&lt;p&gt;There are active volcanoes in Alaska, especially now including Mt. Redoubt.&amp;#0160; It appears likely to erupt as of this writing, and I&amp;#39;m not expecting to be on the top of things when it does.&amp;#0160; The &lt;a href=&#34;http://www.avo.alaska.edu/&#34;&gt;Alaska Volcano Observatory&lt;/a&gt; is the best source of current information, and they are using twitter at &lt;a href=&#34;http://twitter.com/alaska_avo&#34;&gt;@alaska_avo&lt;/a&gt; for updates.&lt;/p&gt;&lt;p&gt;Here are some sources for Alaska volcano maps - so you know where things are, how far apart the various places are, and what might be downwind.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.avo.alaska.edu/volcanoes/cook_inlet.php&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;CookInlet&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef010536fda786970b image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536fda786970b-800wi&#34; title=&#34;CookInlet&#34; /&gt;&lt;/a&gt; Mt. Redoubt is in the Cook Inlet part of Alaska, near Anchorage. This map shows distances and links to the AVO&amp;#39;s pages on the various volcanoes in this area. &lt;a href=&#34;http://www.avo.alaska.edu/volcanoes/volcinfo.php?volcname=Redoubt&#34;&gt;Mt. Redoubt&lt;/a&gt; is also historically known as Ujakushatsch, Viesokaia, Goreloi, Mirando, Redoubt Volcano, Redoubt, Mt., Yjakushatsch, Burnt Mtn., Goryalaya, Redoute Mtn. and Redutskaya, Sopka. 
- &lt;/p&gt;
-
-&lt;p&gt;
-The Smithsonian has a collection of satellite imagery from volcanoes around the world. Here are their &lt;a href=&#34;http://ava.jpl.nasa.gov/volcano.asp?vnum=1103-03-&#34;&gt;satellite photos of Mt. Redoubt from the ASTER Volcano Archive.&lt;/a&gt;  These will load into Google Earth as KML files as well. The &amp;quot;plain&amp;quot; imagery from this are about 30 megapixels apiece and are from 2000; here&amp;#39;s a piece of one of them.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536fdad7c970b-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Picture 19&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef010536fdad7c970b &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536fdad7c970b-800wi&#34; title=&#34;Picture 19&#34; /&gt;&lt;/a&gt;
- &lt;br /&gt;
-&lt;/p&gt;
-</description>
+      <description>There are active volcanoes in Alaska, especially now including Mt. Redoubt.&amp;#0160; It appears likely to erupt as of this writing, and I&amp;#39;m not expecting to be on the top of things when it does.&amp;#0160; The Alaska Volcano Observatory is the best source of current information, and they are using twitter at @alaska_avo for updates.
+Here are some sources for Alaska volcano maps - so you know where things are, how far apart the various places are, and what might be downwind.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/docker/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Docker on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/docker/</link>
+    <description>Recent content in Docker on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2016 10:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Static vulnerability analysis tools for Docker containers</title>
@@ -14,89 +17,8 @@
       <pubDate>Fri, 28 Oct 2016 10:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-28-static-vulnerability-analysis/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;re developing in Docker, and you have a container with a lot of layers
-when you&amp;rsquo;re done. How do you make sure that you don&amp;rsquo;t have security vulnerabilities
-hiding somewhere inside there, especially if you are running a container that
-depends on something that depends on something that depends on something else?&lt;/p&gt;
-
-&lt;p&gt;The first step is to understand your own application, so that you can have some
-sense for how the dependencies that you have control over are impacted. This
-is actually a more difficult problem than you&amp;rsquo;d expect, since a lot of
-packages are in turn dependent on other packages and so on and so on.
-I&amp;rsquo;ve used &lt;a href=&#34;https://gemnasium.com/&#34;&gt;Gemnasium&lt;/a&gt; to help with this. It tracks
-Ruby, Node.js, Python, and PHP dependencies, and generates alerts when
-a package has a known issue that should trigger an update.
-The &lt;a href=&#34;https://nodesecurity.io/&#34;&gt;Node Security Project&lt;/a&gt; has a similar
-service, focused on Node.js, and has an integration directly into
-Github so that you can verify and validate every commit against their
-vulnerability analysis.&lt;/p&gt;
-
-&lt;p&gt;Next, make certain that your Dockerfiles are following best practices
-by checking them with &lt;a href=&#34;https://dockerbench.com/&#34;&gt;Docker Bench for Security&lt;/a&gt;,
-which is a portable shell script that checks for dozens of common
-practices that are good for security.&lt;/p&gt;
-
-&lt;p&gt;One of the difficult practices that&amp;rsquo;s common to Dockerfiles is the
-tendency for people to work their way around package managers in
-the install process, to avoid the sometimes hefty overhead of maintaining
-a package index. When you install a package with&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl | tar &amp;amp;&amp;amp; ./configure &amp;amp;&amp;amp; make install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;instead of RPM or apk or apt or your distribution&amp;rsquo;s favorite package
-manager, it can be very hard to keep track of precisely which version
-that incantation actually put into place.&lt;/p&gt;
-
-&lt;p&gt;Assuming that your application is now somehow clear from any issues under your
-direct control, the next step is to track down and understand operating
-system vulnerabilities. One approach that I&amp;rsquo;ve read about but not used
-yet is the open source &lt;a href=&#34;https://coreos.com/blog/vulnerability-analysis-for-containers/&#34;&gt;Clair&lt;/a&gt;
-from CoreOS. Clair does static analysis of containers, using a set of
-vulnerability databases that are parsed down to a Postgres database.
-There&amp;rsquo;s a certain amount of complexity in the whole thing, and as a
-result it&amp;rsquo;s not trivial to integrate this into a continuous integration
-process (though that task has been done at least once).&lt;/p&gt;
-
-&lt;p&gt;Docker has its own &lt;a href=&#34;https://docs.docker.com/docker-cloud/builds/image-scan/&#34;&gt;Docker Security Scanning&lt;/a&gt;,
-which is available to paid accounts.&lt;/p&gt;
-
-&lt;p&gt;One of the big issues in handling static analysis of Docker containers
-is that a popular and small Docker base image, Alpine Linux, is not
-covered by Clair in part because Alpine does not have a fully machine
-parsable vulnerability analysis database. The Clair project is
-&lt;a href=&#34;https://github.com/coreos/clair/issues/12&#34;&gt;working on the issue&lt;/a&gt;, but
-they are hampered in part by the small size of the Alpine team and
-their focus on code vs. documentation. From
-&lt;a href=&#34;http://lists.alpinelinux.org/alpine-devel/5231.html&#34;&gt;a post to alpine-devel in 2016&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;we try do more the actual work, than the paperwork ;-)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Doing continuous integration on a complex project with multiple open
-source dependencies can pose tricky issues, especially when you&amp;rsquo;re
-dealing with code that is at or near end of life. If you discover
-that the vulnerability is in a component that has been removed from
-active development, yet you depend on it, you may be forced to either
-live with a known bug or undertake expensive porting efforts to
-get back to a good state. For example, Node-RED used the &lt;code&gt;ws&lt;/code&gt;
-package from npm, at a version known to have a denial of service
-attack. &lt;a href=&#34;https://github.com/node-red/node-red/issues/931&#34;&gt;This issue persists&lt;/a&gt;
-as of late October 2016 because of the project&amp;rsquo;s desire to continue
-to support Raspberry Pi hardware with the default operating system load.
-The Pi&amp;rsquo;s base Raspbian system uses Node.js at 0.10 which is now
-obsolete, and the fixes to &lt;code&gt;ws&lt;/code&gt; don&amp;rsquo;t include 0.10 patches.&lt;/p&gt;
-
-&lt;p&gt;What exactly are you running, how do you know that it&amp;rsquo;s free of
-known issues, and how can you mitigate or fix the problems you
-find? It&amp;rsquo;s hard to do dynamic analysis at scale, because of
-the likelihood that bugs exist that can escape your testing
-environment. Static analysis looks like a reasonable alternative
-(assuming that the components themselves are well tested), but
-the increasingly layered nature of modern software development
-means that this is a hard, hard task.&lt;/p&gt;
-</description>
+      <description>You&amp;rsquo;re developing in Docker, and you have a container with a lot of layers when you&amp;rsquo;re done. How do you make sure that you don&amp;rsquo;t have security vulnerabilities hiding somewhere inside there, especially if you are running a container that depends on something that depends on something that depends on something else?
+The first step is to understand your own application, so that you can have some sense for how the dependencies that you have control over are impacted.</description>
     </item>
     
     <item>
@@ -105,77 +27,10 @@ means that this is a hard, hard task.&lt;/p&gt;
       <pubDate>Sat, 15 Oct 2016 00:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-15-more-96-core-benchmarks/</guid>
-      <description>&lt;p&gt;Yesterday I spent some time with a 96 core ARMv8 server.
-On day two I figured out a couple more things about that
-server.&lt;/p&gt;
-
-&lt;p&gt;First and foremost, the extended path of installing Docker
-on the server I chronicled yesterday ended up being much
-easier today. A simple&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install docker.io
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;did the right thing to bring Docker 1.12.1 into the system.
-Don&amp;rsquo;t do&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install docker
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;on Ubuntu; you&amp;rsquo;ll get &amp;ldquo;docker - System tray for KDE3/GNOME2
-docklet applications&amp;rdquo; instead. The
-&lt;a href=&#34;https://blog.docker.com/2014/04/docker-in-ubuntu-ubuntu-in-docker/&#34;&gt;original release announcement for Docker on Ubuntu&lt;/a&gt;
-explains why.&lt;/p&gt;
-
-&lt;p&gt;To characterize performance on real workloads,
-I compiled some packages from
-source. I did my best to force parallelism in the build.
-&lt;a href=&#34;https://www.gnu.org/software/make/manual/html_node/Parallel.html&#34;&gt;GNU Make supports a &amp;ldquo;-j&amp;rdquo; flag&lt;/a&gt;
-that tries to run more jobs at
-once, and that makes a big difference.
-It&amp;rsquo;s worth reading makefiles before you build on a system
-like this, because there may be special considerations for
-parallel builds.&lt;/p&gt;
-
-&lt;p&gt;Node.JS master built in 4.5 minutes, about a 38x speedup.&lt;/p&gt;
-
-&lt;p&gt;Go for linux/arm64 built in under 9 minutes instead of an hour.&lt;/p&gt;
-
-&lt;p&gt;With the help of the hosting provider, we also looked at power
-consumption of the server. Reported power used when idle was 212 watts,
-and the reported power under a heavy workload by the &lt;code&gt;stress&lt;/code&gt;
-test harness was about 80 watts more, at 292 watts. Roughly
-speaking that&amp;rsquo;s 2 watts per core idle, and 3 watts per core
-when loaded.
-&lt;a href=&#34;http://people.seas.harvard.edu/~apw/stress/&#34;&gt;Stress&lt;/a&gt; is from
-Amos Waterland; it runs nicely on Posix systems.&lt;/p&gt;
-
-&lt;p&gt;There is a version of &lt;code&gt;firefox&lt;/code&gt; for the system that installs
-with &lt;code&gt;apt-get install firefox&lt;/code&gt;, and I forwarded X11 from the
-data center to the cafe to see how it worked. It loads fine,
-but visiting pages like umich.edu result in a failure. I didn&amp;rsquo;t
-find an easy bug repository to report that too, but it was
-repeatable. If I do this again, I&amp;rsquo;ll&lt;/p&gt;
-
-&lt;p&gt;The &amp;ldquo;build Docker from scratch&amp;rdquo; project resulted in the
-&lt;a href=&#34;https://github.com/docker/docker/issues/27384&#34;&gt;build failing with TestOverlay128LayerRead&lt;/a&gt;, which is an issue with the overlay2 filesystem.
-It turns out that&amp;rsquo;s a much more interesting bug than
-yesterday&amp;rsquo;s Docker bug, since we can pinpoint how
-many layers can be overlaid (61, but not 62) before the
-failure.&lt;/p&gt;
-
-&lt;p&gt;One of the things I tested is
-&lt;a href=&#34;https://code.facebook.com/posts/1840075619545360&#34;&gt;Facebook&amp;rsquo;s new &amp;ldquo;yarn&amp;rdquo; package&lt;/a&gt;
-manager for Node.JS - it seemed to work just fine, but
-I had hoped that it would have some kind of bonus speed from
-parallelism, and I didn&amp;rsquo;t see that. Node is notably not
-a parallel language.&lt;/p&gt;
-
-&lt;p&gt;All in all a good day of trying to understand what the
-high performance world looks like when you have lots and
-lots of little cores. This is obviously not a server for
-every workload, but for the ones that match it should be great.&lt;/p&gt;
-</description>
+      <description>Yesterday I spent some time with a 96 core ARMv8 server. On day two I figured out a couple more things about that server.
+First and foremost, the extended path of installing Docker on the server I chronicled yesterday ended up being much easier today. A simple
+apt-get install docker.io  did the right thing to bring Docker 1.12.1 into the system. Don&amp;rsquo;t do
+apt-get install docker  on Ubuntu; you&amp;rsquo;ll get &amp;ldquo;docker - System tray for KDE3/GNOME2 docklet applications&amp;rdquo; instead.</description>
     </item>
     
     <item>
@@ -184,79 +39,9 @@ every workload, but for the ones that match it should be great.&lt;/p&gt;
       <pubDate>Fri, 14 Oct 2016 00:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-14-96-cores-hot-with-armv8/</guid>
-      <description>&lt;p&gt;I had early access to a 96 core, 128 gigabyte ARMv8 server today. Here&amp;rsquo;s
-what I did to get all of the CPUs and all of the memory in use at the same
-time.&lt;/p&gt;
-
-&lt;p&gt;The system: a bare-metal hosting company is working on general availability
-of these ARMv8 (aarch64) servers. I got early access for beta testing.
-Talk to me if you&amp;rsquo;d like to know more.&lt;/p&gt;
-
-&lt;p&gt;The software: These systems boot with Ubuntu 16.04 which is plenty modern
-to run lots of workloads. The challenge I had was that there was no Docker
-available to download via apt-get. So, off to build my own.&lt;/p&gt;
-
-&lt;p&gt;A starting point: I began with this writeup of
-&lt;a href=&#34;http://blog.hypriot.com/post/getting-docker-running-on-a-high-density-armv8-server-from-hisilicon/&#34;&gt;running Docker on ARMv8 from HiSilicon&lt;/a&gt;
-written by the Hypriot folks. They lovingly and carefully document getting
-Docker going on a 16-core system, starting from Ubuntu 15.04. There are
-enough differences in the config that I had to adapt, but not so many
-that I was in foreign territory.&lt;/p&gt;
-
-&lt;p&gt;Go: The 96 core system has Go 1.6.2 installed out of the box, so I didn&amp;rsquo;t
-have to bootstrap that. That saved a bunch of time.&lt;/p&gt;
-
-&lt;p&gt;Building Docker without having a Docker server running is a trick. The
-Hypriot team describes it thusly:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;For this purpose there is an easy, but not really well-known workaround. We have to check and install the necessary development dependencies first and then we can run the build script natively to get a first working Docker binary. So, let’s do it right away.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Follow their instructions closely, and you get a build of v1.10.2 of
-Docker, which you can copy into the bin directories and run directly.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;time AUTO_GOPATH=1 ./hack/make.sh dynbinary
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Systemd was happy after I dug out the right service
-files for docker.service and docker.socket. Just copy the docker binaries
-into place, reload systemd, and you&amp;rsquo;re almost good to go. Almost, because
-you need to make sure you create /var/run/docker.sock which allows
-communications between the client and server.&lt;/p&gt;
-
-&lt;p&gt;Next attempt was to build the &amp;ldquo;master&amp;rdquo; release, and there I wasn&amp;rsquo;t
-able to successfully do a complete build because the &lt;code&gt;aufs&lt;/code&gt; tests
-did not all pass.  (See the &lt;a href=&#34;https://github.com/docker/docker/issues/27357&#34;&gt;open ticket&lt;/a&gt; for the details.)&lt;/p&gt;
-
-&lt;p&gt;After some time of building Docker over and over from source, and not
-getting tests to pass, I gave up and declared victory. Hooray! Someone
-who knows more about file systems can push the next step forward.&lt;/p&gt;
-
-&lt;p&gt;To test this system, Mohan Kartha pointed me at Marek Goldmann&amp;rsquo;s
-excellent treatise on &lt;a href=&#34;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&#34;&gt;resource management in Docker&lt;/a&gt;.
-He uses a system testing tool called &lt;code&gt;stress&lt;/code&gt; running inside a Docker
-container to exercise workloads. As a note to get this test running,
-you need to slightly change the provided Dockerfile, to read as follows
-to pick up an aarch64 version of Fedora.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;FROM resin/aarch64-fedora:latest
-RUN yum -y install stress &amp;amp;&amp;amp; yum clean all
-ENTRYPOINT [&amp;quot;stress&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Build this Dockerfile and then run as follows to give a 96 core system
-a good workout. Install htop first so you get a good colorful screen to watch.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;docker run -it --rm stress --cpu 96 --io 96 --vm 96 --vm-bytes 4G --timeout 100s
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;. &lt;a href=&#34;https://twitter.com/Quintus23M&#34;&gt;@Quintus23M&lt;/a&gt; &lt;a href=&#34;https://twitter.com/docker&#34;&gt;@docker&lt;/a&gt; docker 1.10.2 + &amp;quot;stress&amp;quot; exercising all 96 cores and all 128G of memory. cc &lt;a href=&#34;https://twitter.com/mckartha&#34;&gt;@mckartha&lt;/a&gt; &lt;a href=&#34;https://t.co/kPm8JWUJKR&#34;&gt;pic.twitter.com/kPm8JWUJKR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/786773896691261440&#34;&gt;October 14, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;I saved away some binaries on a couple of systems so that reinstalling should
-be straightforward once this machine gets destroyed, and then off we go.&lt;/p&gt;
-</description>
+      <description>I had early access to a 96 core, 128 gigabyte ARMv8 server today. Here&amp;rsquo;s what I did to get all of the CPUs and all of the memory in use at the same time.
+The system: a bare-metal hosting company is working on general availability of these ARMv8 (aarch64) servers. I got early access for beta testing. Talk to me if you&amp;rsquo;d like to know more.
+The software: These systems boot with Ubuntu 16.</description>
     </item>
     
     <item>
@@ -265,42 +50,8 @@ be straightforward once this machine gets destroyed, and then off we go.&lt;/p&g
       <pubDate>Tue, 06 Sep 2016 17:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</guid>
-      <description>&lt;p&gt;Coffee and wifi (double espresso over ice) at the &amp;ldquo;dog park Biggby&amp;rdquo;,
-Platt Road at Ellsworth. It&amp;rsquo;s not an inconvenient location,
-and the very large south-facing windows are good to know about
-as the days get shorter.&lt;/p&gt;
-
-&lt;p&gt;More than 90 degrees outside, and I&amp;rsquo;m preparing to make dinner.
-The recipe is for &amp;ldquo;broccoli Calabrian style&amp;rdquo; from Martha Rose Shulman.
-I couldn&amp;rsquo;t find that exact recipe online, but this
-&lt;a href=&#34;http://www.italycookingschools.com/bucatini-con-broccoli-alla-calabresebucatini-broccoli-calabrian-style/&#34;&gt;Bucatini Con Broccoli Alla Calabrese&lt;/a&gt; is close.
-Substitute sunflower seeds for pine nuts.
-The key to it is that you don&amp;rsquo;t want to cook anything too long,
-because it&amp;rsquo;s hot out.&lt;/p&gt;
-
-&lt;p&gt;First day of the 2016 school year for the boys. S. is at Community High School,
-and J. had his first day at Tappan Middle School. I don&amp;rsquo;t write
-about them much, but it sounded like today was a good day all in all.&lt;/p&gt;
-
-&lt;p&gt;Two new front tires for the car - one of them was quite flat, and they
-were both quite worn.&lt;/p&gt;
-
-&lt;p&gt;A new venue for lunch, the &lt;a href=&#34;https://www.sessionrooma2.com/&#34;&gt;Session Room&lt;/a&gt; on Jackson Road in Scio Township.
-They have a very long list of beers which you can conveniently order
-in very small glasses (4 oz) to try out and enjoy.&lt;/p&gt;
-
-&lt;p&gt;The current challenge is to get an instance of Salt running in a
-Docker container, integrated with OpenVPN a la this
-&lt;a href=&#34;https://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html&#34;&gt;OpenVPN provisioning with Salt&lt;/a&gt; recipe. We currently think that the
-best way to manage this is to connect it to the Docker
-container via an &lt;a href=&#34;https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2/&#34;&gt;Elastic File System&lt;/a&gt; mount.
-A sub-challenge is finding the right way to run Salt in a container;
-tooling for this is awkward because you really to run some commands
-within the context of the container. Soon&amp;rsquo;s
-&lt;a href=&#34;https://github.com/thisissoon/Docker-Salt-Master&#34;&gt;Docker Salt Master&lt;/a&gt; looks like a start.&lt;/p&gt;
-
-&lt;p&gt;Tonight, Ann Arbor City Council. Follow along on the #&lt;a href=&#34;https://twitter.com/hashtag/a2council&#34;&gt;a2council&lt;/a&gt; hashtag on Twitter.&lt;/p&gt;
-</description>
+      <description>Coffee and wifi (double espresso over ice) at the &amp;ldquo;dog park Biggby&amp;rdquo;, Platt Road at Ellsworth. It&amp;rsquo;s not an inconvenient location, and the very large south-facing windows are good to know about as the days get shorter.
+More than 90 degrees outside, and I&amp;rsquo;m preparing to make dinner. The recipe is for &amp;ldquo;broccoli Calabrian style&amp;rdquo; from Martha Rose Shulman. I couldn&amp;rsquo;t find that exact recipe online, but this Bucatini Con Broccoli Alla Calabrese is close.</description>
     </item>
     
     <item>
@@ -309,151 +60,8 @@ within the context of the container. Soon&amp;rsquo;s
       <pubDate>Mon, 11 Jul 2016 13:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/</guid>
-      <description>
-
-&lt;p&gt;The task at hand is simple. Whenever a particular airplane is visible overhead,
-send out a tweet with that notice. Don&amp;rsquo;t repeat yourself with this announcement
-more than twice an hour, but try not to have too much lag in reporting.&lt;/p&gt;
-
-&lt;p&gt;The full stack of hardware and software to do this is not particularly
-complicated to use once you get it all running, but there are a series
-of issues and observations along the way that add to the complexity. I&amp;rsquo;ll
-walk through the whole thing start to finish, and let you know where I
-left off.&lt;/p&gt;
-
-&lt;p&gt;The basic toolkit is dump1090-mutability for plane spotting,
-Node-RED for wiring flows for data processing, and
-Docker to package up the bits that are stable.&lt;/p&gt;
-
-&lt;h2 id=&#34;plane-spotting&#34;&gt;Plane spotting&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/&#34;&gt;When last I wrote&lt;/a&gt;,
-I had &lt;a href=&#34;http://github.com/mutability/dump1090&#34;&gt;dump1090&lt;/a&gt;
-running on my MacBook. Since then, I&amp;rsquo;ve taken the same software and gotten
-the latest dev release going on a Raspberry Pi 2.&lt;/p&gt;
-
-&lt;p&gt;I switched to a smaller, simpler antenna, and the result was positive: instead of
-having a 40 to 50 nautical mile range, now I&amp;rsquo;m in the 60 to 65 nm range (about 110 km).
-It might also help that the Pi 2 is not really doing very much else. That
-particular Pi 2 setup is using a slightly back-rev version of the
-&lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt; software for the Pi, so it has all
-of the modern conveniences plus an instance of Docker on board. The
-temptation was to Dockerize everything, but I haven&amp;rsquo;t gone there yet;
-the available Docker prebuilt releases don&amp;rsquo;t have the bleeding edge of
-the dump1090-mutability code, and I want to see how the whole thing runs
-native for a while before containerizing it.&lt;/p&gt;
-
-&lt;p&gt;The snag that slowed down this deployment a little was Google&amp;rsquo;s decision
-to enforce an API key for personal use of Google Maps. In response, the
-very latest dump1090-mutability pulled out its Google Maps support, and
-went to &lt;a href=&#34;http://openlayers.org/&#34;&gt;OpenLayers&lt;/a&gt;. This new support gives
-access to all kinds of base maps, including some aviation-specific
-charts. (&amp;ldquo;Not for use in navigation.&amp;rdquo;)&lt;/p&gt;
-
-&lt;p&gt;Another piece of this was bringing up &lt;a href=&#34;http://www.lighttpd.net/&#34;&gt;lighttpd&lt;/a&gt;
-(&amp;ldquo;lighty&amp;rdquo;), a lightweight HTTP server that replaces the rickety
-built-in HTTP server that dump1090 had originally shipped with.
-Configuration following the supplied instructions was simple,
-and lighttpd looks like a very suitable system to put in place to
-serve HTTP on embedded-class system that need flexiblity but not
-a big footprint.&lt;/p&gt;
-
-&lt;p&gt;The other component in the Pi setup is an ADS-B feed to the excellent
-&lt;a href=&#34;http://planefinder.net&#34;&gt;Planefinder&lt;/a&gt; site. Planefinder provides a Debian
-package for setting up the feed, and it runs neatly with only a minimum
-of overhead. As a bonus you get free use of their apps, which are
-notable for running in much closer to real time than others I have seen.&lt;/p&gt;
-
-&lt;p&gt;The Pi does not yet have a working OpenVPN configuration, so I can&amp;rsquo;t get
-to it over the net directly. For that I plan to revisit the
-&lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/&#34;&gt;SaltStack for Pi&lt;/a&gt;
-configuration I wrote up last September. In the interim, salt has
-been upgraded, and perhaps it will be a little more stable over bad
-connections; we&amp;rsquo;ll see.&lt;/p&gt;
-
-&lt;h2 id=&#34;data-analysis&#34;&gt;Data analysis&lt;/h2&gt;
-
-&lt;p&gt;dump1090 provides a data feed in a convenient JSON format, available
-through a URL on a standard configuruation. The ADS-B messages themselves
-are binary encoded, but the system brings them into JSON so that all
-of the downstream processing is very easy.&lt;/p&gt;
-
-&lt;p&gt;Data handling is so straightforward that you can do it all without
-needing any special-purpose processing nodes in IBM&amp;rsquo;s &lt;a href=&#34;http://nodered.org&#34;&gt;Node-RED&lt;/a&gt;.
-A standard HTTP in node polls the data at the pace that you choose,
-and a simple function pulls apart the record of all planes into
-individual records for each plane.&lt;/p&gt;
-
-&lt;p&gt;Getting Node-RED running is continuing to get easier over time.
-I&amp;rsquo;m doing prototyping work on my Macintosh again, using the
-new &lt;a href=&#34;https://blog.docker.com/2016/06/docker-mac-windows-public-beta/&#34;&gt;Docker for Mac&lt;/a&gt;
-setup to pick up a &lt;a href=&#34;https://hub.docker.com/r/cpswan/node-red/&#34;&gt;Node-RED container&lt;/a&gt;
-to do the work in. &lt;a href=&#34;https://kitematic.com/&#34;&gt;Kitematic&lt;/a&gt; comes with Docker for Mac,
-providing a convenient dashboard and interface to Docker Hub.&lt;/p&gt;
-
-&lt;p&gt;(Do note, however, that if you got Docker for Mac running a few months
-ago, you&amp;rsquo;ll need to go through a rebuild process to go to the latest
-beta. To &lt;a href=&#34;https://docs.docker.com/docker-for-mac/troubleshoot/#/recreate-or-update-your-containers-after-beta-18-upgrade&#34;&gt;recreate or update your containers after Beta 18 upgrade&lt;/a&gt;
-follow the provided instructions.)&lt;/p&gt;
-
-&lt;p&gt;Once you have both Node-RED and dump1090 running, connecting the
-two together is straightforward. I started with this
-&lt;a href=&#34;https://gist.github.com/dceejay/3288996fefdc3aef04846496277b6444&#34;&gt;gist from dceejay&lt;/a&gt; which
-provides the basic flow and feeds into a
-&lt;a href=&#34;http://flows.nodered.org/node/node-red-contrib-web-worldmap&#34;&gt;worldmap node&lt;/a&gt; that
-is a general programmable interface for putting things on a map. My
-&lt;a href=&#34;https://gist.github.com/vielmetti/6329ea5a49dadd2f106980a20727d16e&#34;&gt;updated dump1090 gist for Node-RED&lt;/a&gt;
-adapts the data for a slightly different format between dump1090 forks.&lt;/p&gt;
-
-&lt;p&gt;From here in it&amp;rsquo;s relatively clear sailing. Set up a flow downstream
-from the plane messages, using a filter node to match the name or
-ICAO hex code of the airplane that you want to track. Wire it through
-a delay filter to set the frequency of messages you want to
-allow through, and a formatting node to pretty up the message in
-a form suitable for Twitter output.&lt;/p&gt;
-
-&lt;h2 id=&#34;incomplete-image-and-next-steps&#34;&gt;Incomplete image and next steps.&lt;/h2&gt;
-
-&lt;p&gt;This is a relatively complex stack, but it all fits neatly on a Raspberry Pi 2,
-and with a little bit more elbow grease it should be possible to containerize
-everything so that it Just Works and can be made to reliably work again.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;d like to have OpenVPN running on the Pi 2, but it isn&amp;rsquo;t yet, pending
-rework of Salt to get that to a current version and to port all of the
-work I did from an earlier version.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m picking up planes from 60+ nm away, but I know that with a better
-antenna, bandpass filter, and amplifier that I can do better.
-&lt;a href=&#34;https://puck.nether.net/~jared/blog/?p=160&#34;&gt;Jared Mauch&amp;rsquo;s parts list&lt;/a&gt;
-would be the place to go for starters with a very modest budget of
-a couple of hundred bucks.&lt;/p&gt;
-
-&lt;p&gt;Reception is best if you have a clear view of the sky, which suggests
-an outdoors installation, powering the Pi with power over ethernet.&lt;/p&gt;
-
-&lt;p&gt;The system is running on a Pi 2, but reports from Jared and from Phil Karn KA9Q
-suggest that if you do upgrade the reception that it&amp;rsquo;s possible to
-saturate the Pi 2. Fortunately a Pi 3 does even better at the intended task.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m still figuring out what the very best way to create a Docker image
-that handles Node-RED, especially the installation of additional nodes
-and the management of flows. You&amp;rsquo;d like to have the whole thing suitably
-tidy that it could be all loaded in from the get-go.&lt;/p&gt;
-
-&lt;p&gt;dump1090-mutability is still mutating! It&amp;rsquo;s under active development,
-both at the presentation layer and at the decoder layer. So it would
-be appropriate to have the attitude for at least one development machine
-to be sure that you were ready to rebuild from source whenever.&lt;/p&gt;
-
-&lt;p&gt;If you only have half of this stack running (the Node-RED side) but no access
-to radios, you can find an existing dump1090 installation and pull the
-JSON from there. This is best done only via prior arrangement and only
-for testing purposes or for specific tasks. It&amp;rsquo;s easy to crank up Node-RED
-to poll a URL every second; don&amp;rsquo;t do that to a poor little Pi.&lt;/p&gt;
-
-&lt;p&gt;The planes I want to watch don&amp;rsquo;t take off very often - that&amp;rsquo;s the appeal
-of watching for them.&lt;/p&gt;
-</description>
+      <description>The task at hand is simple. Whenever a particular airplane is visible overhead, send out a tweet with that notice. Don&amp;rsquo;t repeat yourself with this announcement more than twice an hour, but try not to have too much lag in reporting.
+The full stack of hardware and software to do this is not particularly complicated to use once you get it all running, but there are a series of issues and observations along the way that add to the complexity.</description>
     </item>
     
     <item>
@@ -462,65 +70,9 @@ of watching for them.&lt;/p&gt;
       <pubDate>Wed, 16 Dec 2015 12:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</guid>
-      <description>&lt;p&gt;Previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/&#34;&gt;OpenVPN in a container&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Also previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/&#34;&gt;Split tunnels considered harmful&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I have this running in a staging environment and a test
-environment; it properly isolates OpenVPN from the underlying
-operating system, and seems to do the right thing performing
-rather well. However, its biggest limitation is that
-it runs on a single host &amp;amp; thus provides neither
-high availability in the case of Amazon &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/&#34;&gt;funkiness&lt;/a&gt;
-nor scalability to handle lots of clients.&lt;/p&gt;
-
-&lt;p&gt;Getting this to be more reliable was a matter of tracking
-down the right systemd configuration. I&amp;rsquo;ll save systemd
-commentary for a separate post, saying only that it&amp;rsquo;s new,
-it&amp;rsquo;s not necessarily better for managing single machines,
-but I can see the advantages for consolidated management of
-big collections of machines.&lt;/p&gt;
-
-&lt;p&gt;Some OpenVPN config alternatives to pursue that look like they might do
-the right thing are as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cloudcoreo.com&#34;&gt;CloudCoreo&lt;/a&gt; has a setup based on the Amazon Elastic Load Balancer.
-They say&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Getting an OpenVPN config up and running in AWS is difficult. We&amp;rsquo;ve already done it for you in an HA, durable, self-healing way. This blog post details how.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The blog post is in two sections.
-&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn/&#34;&gt;Part one&lt;/a&gt; details how they
-configured autoscaling, elastic load balancing, name service, S3
-storage and policies, and security and IAM policies to set things
-up the way that you would want them within Amazon&amp;rsquo;s AWS.
-&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn-part-2-of-2/&#34;&gt;Part two&lt;/a&gt; goes on to describe the particular OpenVPN policy
-and routing setup, and there&amp;rsquo;s a bunch of policy there particularly
-with the use of split tunnels that you want to understand.&lt;/p&gt;
-
-&lt;p&gt;Their claim that they have
-&amp;ldquo;done it all for you&amp;rdquo; reflects a &lt;a href=&#34;http://hub.cloudcoreo.com/stack/servers-vpn_c6a65&#34;&gt;complete configuration&lt;/a&gt; available
-through their CloudCoreo system.&lt;/p&gt;
-
-&lt;p&gt;A second approach is detailed by &lt;a href=&#34;https://blog.zalando.com&#34;&gt;Zalando&lt;/a&gt;, a Berlin based retail fashion platform.
-Their article &lt;a href=&#34;https://tech.zalando.com/blog/building-an-openvpn-cluster-zalando-style/&#34;&gt;Building an OpenVPN Cluster, Zalando-Style&lt;/a&gt;
-uses dynamic routing to distribute routes, and the
-&lt;a href=&#34;http://www.nongnu.org/quagga/&#34;&gt;Quagga&lt;/a&gt; system as their software based router. This setup
-does not particularly depend on AWS features, and they
-claim that
-&amp;ldquo;With this set up, we have about 800 users (150 in parallel) and haven’t faced any performance issues at anytime, from anywhere!&amp;rdquo;
-It&amp;rsquo;s a bit more complex to set up, though the writeup
-makes it clear that because of the flexibility that dynamic
-routing gives you there&amp;rsquo;s the opportunity to construct
-firewall policies that follow the user quite independent
-of how they are connecting to the network.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Previously: OpenVPN in a container
+Also previously: Split tunnels considered harmful
+I have this running in a staging environment and a test environment; it properly isolates OpenVPN from the underlying operating system, and seems to do the right thing performing rather well. However, its biggest limitation is that it runs on a single host &amp;amp; thus provides neither high availability in the case of Amazon funkiness nor scalability to handle lots of clients.</description>
     </item>
     
     <item>
@@ -529,32 +81,10 @@ of how they are connecting to the network.&lt;/p&gt;
       <pubDate>Fri, 20 Nov 2015 16:30:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/</guid>
-      <description>&lt;p&gt;A few notes on setting up OpenVPN in a container.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m using CoreOS, which gives me Docker 1.7.1 in the &amp;ldquo;stable&amp;rdquo; branch.&lt;/p&gt;
-
-&lt;p&gt;Two different Docker configurations are available that take on this task,
-with slightly different setups. Kyle Manna&amp;rsquo;s &lt;a href=&#34;https://github.com/kylemanna/docker-openvpn&#34;&gt;docker-openvpn&lt;/a&gt;
-is what I&amp;rsquo;m working with; it in turn is derived from
-&lt;a href=&#34;https://github.com/jpetazzo/dockvpn&#34;&gt;jpetazzo/dockvpn&lt;/a&gt; which
-solves the same problem slightly differently.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04&#34;&gt;tutorial on Digital Ocean&lt;/a&gt;
-that describes the setup including client-side support.&lt;/p&gt;
-
-&lt;p&gt;A second &lt;a href=&#34;https://stefanscherer.github.io/run-your-own-dockerized-openvpn-server-at-scaleway/&#34;&gt;tutorial by Stefan Scherer&lt;/a&gt;
-gives instructions for use in the Scaleway ARM-based server cloud.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m at the stage right now where I downloaded and installed
-everything and created an &amp;ldquo;opvn&amp;rdquo; config file that successfully
-loads into Tunnelblick, but where it doesn&amp;rsquo;t quite yet have
-all of the routing set up. The slight complication in the
-configuration is that I want to give access to Amazon
-VPCs, so I have a few layers of software-defined networking
-to knit together (or to unravel depending on your perspective).&lt;/p&gt;
-
-&lt;p&gt;network ho!&lt;/p&gt;
-</description>
+      <description>A few notes on setting up OpenVPN in a container.
+I&amp;rsquo;m using CoreOS, which gives me Docker 1.7.1 in the &amp;ldquo;stable&amp;rdquo; branch.
+Two different Docker configurations are available that take on this task, with slightly different setups. Kyle Manna&amp;rsquo;s docker-openvpn is what I&amp;rsquo;m working with; it in turn is derived from jpetazzo/dockvpn which solves the same problem slightly differently.
+There&amp;rsquo;s a tutorial on Digital Ocean that describes the setup including client-side support.</description>
     </item>
     
     <item>
@@ -563,120 +93,8 @@ to knit together (or to unravel depending on your perspective).&lt;/p&gt;
       <pubDate>Sun, 20 Sep 2015 09:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/</guid>
-      <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;A distributed system is one in which the failure of a computer
-you didn&amp;rsquo;t even know existed can render your own computer unusable.
-&lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Amazon Web Services DynamoDB experienced downtime in the N Virginia
-availability zone early Sunday morning, September 20, 2015. As
-a result, a number of other AWS services inside N Virginia that
-depend on DynamoDB also had downtime. Companies and organizations
-that built services on top of those systems who didn&amp;rsquo;t have
-geographic load balancing were having problems as well.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: Amazon&amp;rsquo;s report &lt;a href=&#34;https://aws.amazon.com/message/5467D2/&#34;&gt;Summary of the Amazon DynamoDB Service Disruption and Related Impacts in the US-East Region&lt;/a&gt; is available as of September 23, 2015.&lt;/p&gt;
-
-&lt;p&gt;Affected services include at least CloudWatch, SES, SNS, SQS, SWS,
-AutoScale, Cloud Formation, Directory Service, Key Mgmt and Lambda,
-according to a report on Hacker News.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://status.aws.amazon.com/&#34;&gt;http://status.aws.amazon.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Reports from &lt;a href=&#34;https://www.twitter.com/ylastic&#34;&gt;@ylastic&lt;/a&gt; on Twitter
-have been helpful in keeping track of outages. &lt;a href=&#34;http://www.ylastic.com&#34;&gt;http://www.ylastic.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Down Detector has a page of AWS outages trouble reports, and
-details pulled from Twitter. &lt;a href=&#34;https://downdetector.com/status/aws-amazon-web-services&#34;&gt;https://downdetector.com/status/aws-amazon-web-services&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;When core infrastructure goes down, it tends to affect other platforms
-that depend on that core infrastructure and that hide it from their
-users. This in turn affects applications built on those platforms.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Docker: &amp;ldquo;We are currently seeing intermittent errors when pushing
-and pulling, related to issues that AWS is having. We are currently
-investigating the causes, and doing what we can to mitigate the
-problems.&amp;rdquo; @dockerstatus and &lt;a href=&#34;http://status.docker.com/&#34;&gt;http://status.docker.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Heroku: &amp;ldquo;Starting new dynos (unidling, one-off, scaling or
-restarting crashed apps, new releases) is still unavailable.&amp;rdquo; &amp;ldquo;Until
-this incident is resolved, you might be unable to open new support
-tickets with us. If you need to communicate with our support staff
-during this time, please email outage-support@heroku.com.&amp;rdquo; @herokustatus
-and &lt;a href=&#34;https://status.heroku.com/incidents/811&#34;&gt;https://status.heroku.com/incidents/811&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CircleCI: &amp;ldquo;Experiencing Issues with Heroku and AWS&amp;rdquo;. @circleci
-and &lt;a href=&#34;http://status.circleci.com/&#34;&gt;http://status.circleci.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;TravisCI: &amp;ldquo;Partial System Outage&amp;rdquo;. @traviscistatus and
-&lt;a href=&#34;https://www.traviscistatus.com/&#34;&gt;https://www.traviscistatus.com/&lt;/a&gt; After incident report
-at &lt;a href=&#34;https://www.traviscistatus.com/incidents/wzyhx97450f4&#34;&gt;https://www.traviscistatus.com/incidents/wzyhx97450f4&lt;/a&gt; ,
-&amp;ldquo;Degradations and outages due to AWS us-east-1 domino effect&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are a lot of applications built on AWS and on Heroku,
-which are at risk of downtime. A comprehensive list is probably
-impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Airbnb&lt;/li&gt;
-&lt;li&gt;Amazon Echo&lt;/li&gt;
-&lt;li&gt;Amazon Instant Video&lt;/li&gt;
-&lt;li&gt;AWS Console. The API is hosted in each region, so the command line worked, but the console is hosted out of us-east-1 and was unavailable.&lt;/li&gt;
-&lt;li&gt;AWS Support Tickets. Use this &lt;a href=&#34;http://www.amazon.com/gp/html-forms-controller/support-center-issues-u&#34;&gt;workaround&lt;/a&gt; ???&lt;/li&gt;
-&lt;li&gt;Buffer&lt;/li&gt;
-&lt;li&gt;Canopy. &amp;ldquo;Our iOS app is down due to the system-wide #AWSoutage. Updates will be provided soon.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Canva&lt;/li&gt;
-&lt;li&gt;Clickfunnels. &amp;ldquo;Our development team is aware of this, however, at this time, the only thing that we can do is wait until the issues at Amazon AWS are resolved completely.&amp;rdquo; &lt;a href=&#34;http://status.clickfunnels.com/&#34;&gt;http://status.clickfunnels.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;CoinSimple. &amp;ldquo;Widespread outage in Amazon Web Services is affecting several Internet services, including @CoinSimple. Please check here for updates.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;DuoLingo&lt;/li&gt;
-&lt;li&gt;FastSpring. &amp;ldquo;We were having some intermittent problems due to #awsoutage. The problem is being resolved by Amazon.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;GroupMe&lt;/li&gt;
-&lt;li&gt;HashiCorp. &amp;ldquo;Our infrastructure provider is experiencing issues which may cause our project websites to be inaccessible. Sorry for the inconvenience.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;IFTTT. &amp;ldquo;We have identified an issue with our service provider. We will continue to provide updates as more information becomes available.&amp;rdquo; &lt;a href=&#34;http://status.ifttt.com/incidents/xnbwnqj608hg&#34;&gt;http://status.ifttt.com/incidents/xnbwnqj608hg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;IMDB&lt;/li&gt;
-&lt;li&gt;Lightspeed POS. &amp;ldquo;Monitoring - Our service provider is experiencing a major issue with several of their services. Our engineers are working to reduce our reliance on these components until their issues are resolved. Some customers may experience slowness related to this problem.&amp;rdquo; &lt;a href=&#34;http://status.lightspeedretail.com/&#34;&gt;http://status.lightspeedretail.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mediacom&lt;/li&gt;
-&lt;li&gt;Medium. &amp;ldquo;Identified - We&amp;rsquo;re working to fix a major outage and will be back online as soon as possible.&amp;rdquo; &lt;a href=&#34;https://medium.statuspage.io/&#34;&gt;https://medium.statuspage.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Nest. &amp;ldquo;We’re investigating a service outage with the Nest mobile app and Cam services, and the team is working on a fix. Details to come.&amp;rdquo; &lt;a href=&#34;https://nest.com/support/#status&#34;&gt;https://nest.com/support/#status&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Netflix. &amp;ldquo;We are currently experiencing issues streaming on all devices.
-We are working to resolve the problem. We apologize for any inconvenience.&amp;rdquo; &lt;a href=&#34;https://help.netflix.com/help&#34;&gt;https://help.netflix.com/help&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper. &amp;ldquo;account related activities in Paper are down due to problems with our infrastructure provider #AWS&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Pocket.&lt;/li&gt;
-&lt;li&gt;Product Hunt. &amp;ldquo;Our servers are sick. We’re working on it right meow 😻&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Reddit.&lt;/li&gt;
-&lt;li&gt;Quandl. &amp;ldquo;The Quandl website and API are temporarily unavailable, due to problems at #AWS.&amp;rdquo;  &lt;a href=&#34;http://quandl.statuspage.io&#34;&gt;http://quandl.statuspage.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Shipt. &amp;ldquo;Unfortunately, we&amp;rsquo;re down right now with the #AWSOutage.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Social Flow&lt;/li&gt;
-&lt;li&gt;Takipi. &amp;ldquo;Due to an AWS outage, we&amp;rsquo;re experiencing some slowness and connectivity issues. Stay tuned for updates&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Tinder.&lt;/li&gt;
-&lt;li&gt;Twilio. &amp;ldquo;Update - We have established the DynamoDB backend in another AWS region and are re-routing requests from upstream services to the new region. We will provide another update once we verify that the requests are being serviced properly. &amp;rdquo; &lt;a href=&#34;http://status.twilio.com/&#34;&gt;http://status.twilio.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Viber. &amp;ldquo;We are experiencing disruptions in our service. We are working to resolve this issue. Sorry for the inconvenience.&amp;rdquo; &lt;a href=&#34;https://support.viber.com/&#34;&gt;https://support.viber.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;waffle.io &amp;ldquo;Experiencing Issues with Heroku&amp;rdquo; &lt;a href=&#34;http://status.waffle.io/&#34;&gt;http://status.waffle.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Walt Disney World app.&lt;/li&gt;
-&lt;li&gt;Wink.  &amp;ldquo;We are noticing increased connection issues for Wink users. Our engineers are working with Amazon to get this resolved ASAP.&amp;rdquo; &lt;a href=&#34;http://status.winkapp.com/&#34;&gt;http://status.winkapp.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Follow the discussion on Twitter on the #AWS hashtag, as well as
-#awsoutage and #awsdown . Twitter is unaffected by this outage,
-and Slack is also unaffected, which devops teams are both happy about.&lt;/p&gt;
-
-&lt;h3 id=&#34;news-coverage&#34;&gt;News coverage&lt;/h3&gt;
-
-&lt;p&gt;This &lt;a href=&#34;https://news.ycombinator.com/item?id=10247307&#34;&gt;Hacker News discussion&lt;/a&gt;
-is a good one as startups radio in their woes.&lt;/p&gt;
-
-&lt;p&gt;TNW: &lt;a href=&#34;http://thenextweb.com/insider/2015/09/20/amazon-web-services-goes-down-taking-netflix-reddit-pocket-and-more-with-it/&#34;&gt;Amazon Web Services goes down, taking Netflix, Reddit, Pocket and more with it&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Register: &lt;a href=&#34;http://www.theregister.co.uk/2015/09/20/aws_database_outage/&#34;&gt;AWS knocks Amazon, Netflix, Tinder and IMDb offline in MEGA data collapse; Cloudopocalypse stalks Sunday sofa surfers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;VentureBeat: &lt;a href=&#34;http://venturebeat.com/2015/09/20/amazons-aws-outage-takes-down-netflix-reddit-medium-and-more/&#34;&gt;Amazon’s AWS outage takes down Netflix, Reddit, Medium, and more
-&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A distributed system is one in which the failure of a computer you didn&amp;rsquo;t even know existed can render your own computer unusable. Leslie Lamport, 1987
+ Amazon Web Services DynamoDB experienced downtime in the N Virginia availability zone early Sunday morning, September 20, 2015. As a result, a number of other AWS services inside N Virginia that depend on DynamoDB also had downtime. Companies and organizations that built services on top of those systems who didn&amp;rsquo;t have geographic load balancing were having problems as well.</description>
     </item>
     
     <item>
@@ -685,26 +103,7 @@ is a good one as startups radio in their woes.&lt;/p&gt;
       <pubDate>Wed, 22 Jul 2015 10:50:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-22-docker-detroit/</guid>
-      <description>&lt;p&gt;I hope to see you at Docker Detroit&amp;rsquo;s kickoff meeting, to be held
-at RIIS, 1250 Stephenson Highway, Suite 200 in Troy, MI starting
-at 6:00 p.m. tonight July 22 2015.  I&amp;rsquo;ll be coming in from Ann
-Arbor. The venue is between 14 Mile and Maple behind Beaumont Hospital.
-Google Maps suggests that because of construction on I-75 in that
-area you might want to head north on Campbell instead of taking
-the I-75 / I-696 interchange north.&lt;/p&gt;
-
-&lt;p&gt;Leading the meeting tonight is Pepijn Bruienne from the University
-of Michigan. He will be speaking about &amp;ldquo;Docker in production&amp;rdquo;
-and organizing a group discussion with Q&amp;amp;A.&lt;/p&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;http://www.meetup.com/Docker-Detroit/events/223111645/&#34;&gt;meetup announcement&lt;/a&gt;
-for more details, refreshments will be provided.&lt;/p&gt;
-
-&lt;p&gt;The meetup is hosted at &lt;a href=&#34;http://www.riis.com&#34;&gt;RIIS&lt;/a&gt; a boutique web
-and mobile development house. Hope to see you there!  I&amp;rsquo;ll be taking
-notes and plan to do a writeup of the event, as well as sharing my
-own experiences running Docker for ARM on a Raspberry PI 2.&lt;/p&gt;
-</description>
+      <description>I hope to see you at Docker Detroit&amp;rsquo;s kickoff meeting, to be held at RIIS, 1250 Stephenson Highway, Suite 200 in Troy, MI starting at 6:00 p.m. tonight July 22 2015. I&amp;rsquo;ll be coming in from Ann Arbor. The venue is between 14 Mile and Maple behind Beaumont Hospital. Google Maps suggests that because of construction on I-75 in that area you might want to head north on Campbell instead of taking the I-75 / I-696 interchange north.</description>
     </item>
     
     <item>
@@ -713,53 +112,9 @@ own experiences running Docker for ARM on a Raspberry PI 2.&lt;/p&gt;
       <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
-      <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
-
-&lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for &lt;em&gt;why&lt;/em&gt; that&#39;s a relevant task is at this post on Hypriot, &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;How to use Docker Compose to run complex multi container apps on your Raspberry Pi&lt;/a&gt;, which I dutifully and successfully managed to run all of the examples from. &lt;/p&gt;
-
-&lt;p&gt;Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.&lt;/p&gt;
-
-&lt;pre&gt;
-nodered:
-  image: nieleyde/rpi2-nodered
-  command: flows.json
-  volumes:
-    - /home/pi/node-red:/root/.node-red
-  ports: 
-    - &#34;1880:1880&#34;
-  links:
-    - mosquitto
-
-mosquitto:
-  image: nieleyde/rpi-mosquitto
-  ports:
-    - &#34;1883:1883&#34;
-&lt;/pre&gt;
-
-&lt;p&gt;Some subtleties to note:&lt;/p&gt;
-
-&lt;p&gt;The nieleyde/rpi2-nodered runs on the Pi 2; there&#39;s a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven&#39;t yet tweaked this to run on x86, but if you do, you&#39;ll need to update the &#34;image&#34; stanzas everywhere.&lt;/p&gt;
-
-&lt;p&gt;The &#34;command&#34; and &#34;volumes&#34; stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you&#39;ll need to change this; I haven&#39;t gotten that far yet. It might also make sense to have a data volume container, but again I&#39;m not there yet.&lt;/p&gt;
-
-&lt;p&gt;The &#34;mosquitto&#34; configuration is extremely bare bones and runs the default config, which is wide open. I haven&#39;t gotten far enough to replace the config file with something better, but that&#39;s an obvious next step.&lt;/p&gt;
-
-&lt;p&gt;From within Node-RED you refer to this internal MQTT server at hostname &#34;mosquitto&#34;, port &#34;1883&#34;. If the links stanza was changed to &#34;mqtt&#34; and the mosquitto section was changed to &#34;mqtt&#34; you&#39;d then refer to the MQTT server at hostname &#34;mqtt&#34;.&lt;/p&gt;
-
-&lt;p&gt;For further reading:&lt;/p&gt;
-
-&lt;p&gt;An issue open on Niel Eyde&#39;s rpi-nodered Github, &lt;a href=&#34;https://github.com/nieleyde/rpi-nodered/issues/5&#34;&gt;documentation for how to extend this image with your own nodes and flows&lt;/a&gt;, where I&#39;m working some of this out.&lt;/p&gt;
-
-&lt;p&gt;On the Node-RED Github, &lt;a href=&#34;https://github.com/node-red/node-red/issues/603&#34;&gt;Support for Docker install for Node-RED&lt;/a&gt;, which is epic and helpful in many ways.&lt;/p&gt;
-
-&lt;p&gt;The essential &lt;a href=&#34;http://blog.hypriot.com/&#34;&gt;Hypriot weblog&lt;/a&gt;, specifically the aforementioned &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;Docker Compose examples&lt;/a&gt; and the &lt;a href=&#34;https://github.com/hypriot/compose&#34;&gt;Hypriot Docker Compose&lt;/a&gt; Github repository.&lt;/p&gt;
-</description>
+      <description>Progress, actually quite a lot of it:
+The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:
+ Compose is a tool for defining and running complex applications with Docker.</description>
     </item>
     
     <item>
@@ -768,48 +123,9 @@ mosquitto:
       <pubDate>Fri, 26 Jun 2015 19:50:46 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-26-docker-170-issues-problems-with-mac-and-boot2docker-arm-and-disk-size-of-images/</guid>
-      <description>&lt;p&gt;Docker 1.7.0 has been released into the wild. Every .0 release of software should be expected to have some issues, no matter how good the QA and automated test process. Here&#39;s what to expect if you&#39;re getting Docker 1.7.0 up and running.&lt;/p&gt;
-
-&lt;h3&gt;boot2docker on Mac&lt;/h3&gt;
-
-&lt;p&gt;On the Mac, with boot2docker: &lt;a href=&#34;https://github.com/boot2docker/boot2docker/issues/938&#34;&gt;Docker certs not valid with 1.7 upgrade&lt;/a&gt; is issue 938 on boot2docker. The symptom is a message like this&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;An error occurred trying to connect: Get https://192.168.59.103:2376/v1.19/containers/json: x509: certificate is valid for 127.0.0.1, 10.0.2.15, not 192.168.59.103&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;and restarting docker on the VM with &lt;code&gt;boot2docker ssh sudo /etc/init.d/docker restart&lt;/code&gt; fixes it, at least temporarily. Read through the issue on github to see the full diagnosis - as best I understand it, eth1 is not up when certificates are generated, hence the cert not valid error.&lt;/p&gt;
-
-&lt;h3&gt;Raspberry Pi or any other ARM system&lt;/h3&gt;
-
-&lt;p&gt;On a Raspberry Pi: &lt;a href=&#34;https://github.com/docker/docker/issues/14184&#34;&gt;Docker 1.7 on RaspberryPI : &#34;socket operation on non-socket&#34;&lt;/a&gt; is issue 14184 on docker. The symptom is a message like this:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[tki@anzu ~]$ docker start redis
-  Error response from daemon: Cannot start container redis: socket operation on non-socket
-  Error: failed to start containers: [redis]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The error flushed out a whole set of people running Docker on ARM on a variety of platforms, all having similar issues. If you&#39;re running a Scaleway C1, ODROID C1, ODROID XU3-Lite, Utilite Pro, Cubox 4x4, and all flavors of Raspberry Pi or Pi 2 you&#39;ll see this. &#34;When using --net host the container starts&#34; is the report, but port forwarding fails to work in that case.&lt;/p&gt;
-
-&lt;h3&gt;Ubuntu: problems with statically compiled Docker binaries&lt;/h3&gt;
-
-&lt;p&gt;The issue is &lt;a href=&#34;https://github.com/docker/docker/issues/14035&#34;&gt;Ubuntu 15.04 vivid can not start docker 1.7.0&lt;/a&gt;, docker issue 14035. The relevant bits of the error message are&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;ERRO[0000] Udev sync is not supported. This will lead to unexpected behavior, data loss and errors. For more information, see https://docs.docker.com/reference/commandline/cli/#daemon-storage-driver-option &lt;/p&gt;
-  
-  &lt;p&gt;ERRO[0000] [graphdriver] prior storage driver &#34;devicemapper&#34; failed: driver not supported &lt;/p&gt;
-  
-  &lt;p&gt;FATA[0000] Error starting daemon: error initializing graphdriver: driver not supported &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is a long discussion, culminating in &lt;code&gt;In the end, removing /var/lib/docker/devicemapper/ will fix the issue&lt;/code&gt;, but people are also rolling back to 1.6.2. &lt;/p&gt;
-
-&lt;h3&gt;Ubuntu on x86: large file sizes&lt;/h3&gt;
-
-&lt;p&gt;A report that &lt;a href=&#34;https://forums.docker.com/t/docker-1-7-0-is-using-huge-amount-of-disk-space/2046&#34;&gt;Docker 1.7.0 is using huge amounts of disk space&lt;/a&gt; appears on the Docker forum, item 2046. &lt;a href=&#34;https://github.com/docker/docker/issues/14204&#34;&gt;Pulling image fills disk/image size is huge, version 1.7.0&lt;/a&gt; is issue 14204 on Docker. Not much insight into this one yet.&lt;/p&gt;
-</description>
+      <description>Docker 1.7.0 has been released into the wild. Every .0 release of software should be expected to have some issues, no matter how good the QA and automated test process. Here&#39;s what to expect if you&#39;re getting Docker 1.7.0 up and running.
+boot2docker on Mac On the Mac, with boot2docker: Docker certs not valid with 1.7 upgrade is issue 938 on boot2docker. The symptom is a message like this
+ An error occurred trying to connect: Get https://192.</description>
     </item>
     
     <item>
@@ -818,24 +134,10 @@ mosquitto:
       <pubDate>Wed, 24 Jun 2015 13:27:13 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-24-a-few-notes-from-dockercon-2015-as-seen-via-twitter/</guid>
-      <description>&lt;p&gt;The annual conference for Docker, &lt;a href=&#34;http://www.dockercon.com/&#34;&gt;Dockercon&lt;/a&gt;, has been going on. A few highlights from the event as seen through Twitter - I was not there to attend it.&lt;/p&gt;
-
-&lt;p&gt;Docker is real on the Raspberry Pi through support for the ARM processor. &lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Awesome live demo of Docker on a Raspberry Pi by &lt;a href=&#34;https://twitter.com/Quintus23M&#34;&gt;@Quintus23M&lt;/a&gt; in the &lt;a href=&#34;https://twitter.com/hashtag/dockercon?src=hash&#34;&gt;#dockercon&lt;/a&gt; closing keynote. &lt;a href=&#34;http://t.co/DJfBtpcYws&#34;&gt;pic.twitter.com/DJfBtpcYws&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bridget Kromhout (@bridgetkromhout) &lt;a href=&#34;https://twitter.com/bridgetkromhout/status/613495958089785344&#34;&gt;June 23, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;More details from the presenter, &lt;a href=&#34;http://blog.hypriot.com/post/dockercon2015/&#34;&gt;Hypriot-Demo and challenge at DockerCon 2015&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Docker&#39;s plumbing is being spun out as &lt;a href=&#34;http://blog.docker.com/2015/06/runc/&#34;&gt;runC&lt;/a&gt;. The new infrastructure supports migration of containers from one server to another, illustrated through a Quake III demo.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;QuakeIII in a container, migrated seamlessly from Singapore to Amsterdam to London using &lt;a href=&#34;https://twitter.com/hashtag/runc?src=hash&#34;&gt;#runc&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/hashtag/dockercon?src=hash&#34;&gt;#dockercon&lt;/a&gt; &lt;a href=&#34;http://t.co/no3c0G1MDY&#34;&gt;pic.twitter.com/no3c0G1MDY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paul V. Novarese (@pvnovarese) &lt;a href=&#34;https://twitter.com/pvnovarese/status/613499654219526144&#34;&gt;June 24, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;For more highlights, see the &lt;a href=&#34;http://venturebeat.com/2015/06/22/everything-announced-at-dockercon-2015/&#34;&gt;Venturebeat roundup of Dockercon 2015&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The annual conference for Docker, Dockercon, has been going on. A few highlights from the event as seen through Twitter - I was not there to attend it.
+Docker is real on the Raspberry Pi through support for the ARM processor. Awesome live demo of Docker on a Raspberry Pi by @Quintus23M in the #dockercon closing keynote. pic.twitter.com/DJfBtpcYws
+&amp;mdash; Bridget Kromhout (@bridgetkromhout) June 23, 2015 
+More details from the presenter, Hypriot-Demo and challenge at DockerCon 2015.</description>
     </item>
     
     <item>
@@ -844,22 +146,7 @@ mosquitto:
       <pubDate>Sat, 23 May 2015 02:06:33 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/</guid>
-      <description>&lt;p&gt;My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there&#39;s distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here&#39;s where I got the parts.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/&#34;&gt;Hypriot&#39;s gettting started guide&lt;/a&gt; brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.&lt;/p&gt;
-
-&lt;p&gt;Hypriot has a &lt;a href=&#34;https://gitter.im/hypriot/talk&#34;&gt;chat window&lt;/a&gt; on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.&lt;/p&gt;
-
-&lt;p&gt;Docker&#39;s &lt;a href=&#34;https://hub.docker.com/&#34;&gt;DockerHub&lt;/a&gt; is a one stop shop for packaged applications. When you&#39;re running on the Pi, you&#39;ll want to seek out versions with &#39;rpi&#39; or &#39;arm&#39; in their names as they have likely been adapted for that system.&lt;/p&gt;
-
-&lt;p&gt;I ended up pulling Niel Eyde&#39;s Raspberry Pi versions of Node-RED from DockerHub as &lt;a href=&#34;https://registry.hub.docker.com/u/nieleyde/rpi-nodered/&#34;&gt;nieleyde/rpi-nodered&lt;/a&gt;. It has all sorts of interesting modules that I had not previously built.&lt;/p&gt;
-
-&lt;p&gt;Node-RED is at 0.10.6 at this writing. Its &lt;a href=&#34;http://nodered.org/docs/hardware/raspberrypi.html&#34;&gt;Raspberry Pi support&lt;/a&gt; includes hardware support using &lt;a href=&#34;http://wiringpi.com/&#34;&gt;WiringPi&lt;/a&gt; to access the GPIO pins. &lt;/p&gt;
-
-&lt;p&gt;Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have &lt;a href=&#34;http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/&#34;&gt;merged forces&lt;/a&gt; after a fork, which means hopefully development will start to be sane again.&lt;/p&gt;
-
-&lt;p&gt;That all said I am not sure I have everything I need yet but as a leap forward it&#39;s pretty good!&lt;/p&gt;
-</description>
+      <description>My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there&#39;s distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot.</description>
     </item>
     
   </channel>

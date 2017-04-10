@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sidebar-rsses on Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/sidebar/index.xml</link>
-    <description>Recent content in Sidebar-rsses on Vacuum weblog from Edward Vielmetti</description>
+    <title>Sidebars on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/sidebar/</link>
+    <description>Recent content in Sidebars on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/sidebar/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://vielmetti.github.io/sidebar/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>blogroll</title>
@@ -14,31 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/sidebar/blogroll/</guid>
-      <description>
-
-&lt;h2 id=&#34;blogroll&#34;&gt;Blogroll&lt;/h2&gt;
-
-&lt;p&gt;Blogs and feeds I read, from time to time. Go through
-this and there will almost always be something new to read.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/hashtag/a2council&#34;&gt;#a2council&lt;/a&gt; feed for Ann Arbor City Council&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://localwiki.org/ann-arbor/_activity&#34;&gt;Arborwiki &amp;ldquo;recent changes&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/top&#34;&gt;Broadcastify&lt;/a&gt; &amp;ldquo;Top Feeds&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://a2gov.legistar.com/Calendar.aspx&#34;&gt;City of Ann Arbor calendar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dteenergy.com/map/outage.html&#34;&gt;DTE Outage Map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://etrakit.a2gov.org/&#34;&gt;ETrakit&lt;/a&gt;, City of Ann Arbor permit system&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt;, Docker on Raspberry Pi on ARM&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.kb6nu.com/&#34;&gt;KB6NU&amp;rsquo;s Ham Radio Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kottke.org&#34;&gt;Jason Kottke&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt; feed for Michigan weather&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.aadl.org/oldnewsblog&#34;&gt;Old News Blog&lt;/a&gt;, Ann Arbor District Library&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://play.aadl.org/&#34;&gt;play.aadl.org&lt;/a&gt;, AADL Summer Reading Game&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://retractionwatch.com/&#34;&gt;Retraction Watch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.techmeme.com/river&#34;&gt;Techmeme River&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://food-inspections.annarbortelegraph.com/&#34;&gt;Washtenaw County Food Inspections&lt;/a&gt; updated monthly&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Blogroll Blogs and feeds I read, from time to time. Go through this and there will almost always be something new to read.
+ #a2council feed for Ann Arbor City Council Arborwiki &amp;ldquo;recent changes&amp;rdquo; Broadcastify &amp;ldquo;Top Feeds&amp;rdquo; City of Ann Arbor calendar DTE Outage Map ETrakit, City of Ann Arbor permit system Hypriot, Docker on Raspberry Pi on ARM KB6NU&amp;rsquo;s Ham Radio Blog Jason Kottke #miwx feed for Michigan weather Old News Blog, Ann Arbor District Library play.</description>
     </item>
     
     <item>
@@ -47,27 +26,7 @@ this and there will almost always be something new to read.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/sidebar/todo/</guid>
-      <description>
-
-&lt;h2 id=&#34;todo&#34;&gt;Todo&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Test integration (and maybe publishing too) with &lt;code&gt;travis&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Auto-discovery for RSS feed, per &lt;a href=&#34;http://gohugo.io/templates/rss/&#34;&gt;http://gohugo.io/templates/rss/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Short codes for easy linking. First pass complete.
-Assisted synaesthesia and colorized names and phrases.
-(Started, with colorized but not linked names)&lt;/li&gt;
-&lt;li&gt;Nicely thought through category and taxonomy pages. They
-have stubs now, but they need design.
-and it should integrate with Arborwiki. (Started.)&lt;/li&gt;
-&lt;li&gt;Links from books to their corresponding URLs and ISBNs to
-link to AADL and Amazon pages, perhaps with Librarything data&lt;/li&gt;
-&lt;li&gt;Pagination with group by date, coming in 0.15&lt;/li&gt;
-&lt;li&gt;Fix problem with dots in taxonomy names, coming in 0.15&lt;/li&gt;
-&lt;li&gt;Make sure that the theme is in version control, which means
-I have to learn about git subtrees.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Todo  Test integration (and maybe publishing too) with travis Auto-discovery for RSS feed, per http://gohugo.io/templates/rss/ Short codes for easy linking. First pass complete. Assisted synaesthesia and colorized names and phrases. (Started, with colorized but not linked names) Nicely thought through category and taxonomy pages. They have stubs now, but they need design. and it should integrate with Arborwiki. (Started.) Links from books to their corresponding URLs and ISBNs to link to AADL and Amazon pages, perhaps with Librarything data Pagination with group by date, coming in 0.</description>
     </item>
     
   </channel>

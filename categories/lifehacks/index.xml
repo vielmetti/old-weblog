@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/lifehacks/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Lifehacks on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/lifehacks/</link>
+    <description>Recent content in Lifehacks on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/lifehacks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2013 17:39:02 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/lifehacks/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Evernote (for Android) as a reminder system</title>
@@ -14,12 +17,7 @@
       <pubDate>Sun, 16 Jun 2013 17:39:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-16-evernote-for-android-as-a-reminder-system/</guid>
-      <description>&lt;p&gt;I have a fickle relationship with &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/reminder_systems/&#34; target=&#34;_self&#34;&gt;reminder systems&lt;/a&gt;. Usually the drill is to discover something new, vigorously dump everything I can possibly think into it, and then slowly but surely get disillusioned with it as time goes on. The smell of a new system is seductive, and when something new comes along there&amp;#39;s a tendency to look at its good side and to focus on the bad parts of whatever you were using before.&lt;/p&gt;
-&lt;p&gt;Thus my latest desire is to stop using &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34; target=&#34;_self&#34;&gt;Github as an issue tracking system&lt;/a&gt; for personal reminders, and to start using Evernote. I&amp;#39;ve written about Github before; the truth of it is that it&amp;#39;s not a bad system, but it&amp;#39;s set up enough for multi-person use that some of the easy affordances of single person use go to the wayside. Besides, my own use of it has tapered off and that&amp;#39;s a sign that something new needs to take its place.&lt;/p&gt;
-&lt;p&gt;Evernote hasn&amp;#39;t been written about much here, but there&amp;#39;s a lot that I am starting to like about it. The &lt;a href=&#34;http://blog.evernote.com/blog/2013/06/06/evernote-reminders-arrive-on-android/?utm_source=vacuum&#34; target=&#34;_self&#34;&gt;Android&lt;/a&gt; support for reminders is new. Android support in general it lags a bit behind iOS. The level that I&amp;#39;m currently using it it&amp;#39;s still free. Their reminder system is new, but still looks at least minimally functional enough to get the work done. Since it fits in my phone pretty well it seems as though I should be able to make the transition and not be pinned down in front of my computer screen when it&amp;#39;s time to brainstorm what to do next.&lt;/p&gt;
-&lt;p&gt;Basically it&amp;#39;s what every new system is, the new system smell, while it&amp;#39;s still revolutionary and not the politburo. Enjoy the new system before you figure out how to routinize it into distraction.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>I have a fickle relationship with reminder systems. Usually the drill is to discover something new, vigorously dump everything I can possibly think into it, and then slowly but surely get disillusioned with it as time goes on. The smell of a new system is seductive, and when something new comes along there&amp;#39;s a tendency to look at its good side and to focus on the bad parts of whatever you were using before.</description>
     </item>
     
     <item>
@@ -28,13 +26,8 @@
       <pubDate>Mon, 27 May 2013 16:40:35 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-27-yesterbox-answer-yesterdays-email-today/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://yesterbox.com&#34; target=&#34;_self&#34;&gt;Yesterbox&lt;/a&gt; is a technique from Zappo&amp;#39;s CEO Tony Hseih that redefines the task of email management. Rather than aim for an &amp;quot;inbox zero&amp;quot; for today&amp;#39;s email (a never-ending task), he calls for answering today&amp;#39;s mail tomorrow, and yesterday&amp;#39;s mail today. Every message gets a one day delay unless it&amp;#39;s so urgent that has to be dealt with right away.&lt;/p&gt;
-&lt;p&gt;The biggest problem with &amp;quot;inbox zero&amp;quot; is that it&amp;#39;s impossible to be caught up for any length of time, since you need to be always on the alert for new messages. In contrast, &amp;quot;yesterbox&amp;quot; gives you a finite number of messages to work through from yesterday, and once you&amp;#39;re done, you&amp;#39;re done. There&amp;#39;s no need to feel guilty, no need to feel like you&amp;#39;re procrastinating, and no need to obsessively check today&amp;#39;s messages. They can all be dealt with tomorrow.&lt;/p&gt;
-&lt;p&gt;Hseih estimates that it takes him three hours to plow through a day&amp;#39;s messages, and he puts that time on his calendar in the morning to handle the previous day&amp;#39;s correspondence. That&amp;#39;s the world of a busy and successful CEO - you might well have a different time chunk that you&amp;#39;d need to commit to, probably a lot less.&lt;/p&gt;
-&lt;p&gt;Emptying the inbox is a Sisyphean task. Yesterbox tries to make it a finite problem to handle. As a bonus, every conversation becomes a slow conversation, and there&amp;#39;s a lot of routine unimportant detail in everyone&amp;#39;s inbox that can be ignored once a day has gone past.&lt;/p&gt;
-&lt;p&gt;(Filed under &amp;quot;Productivity&amp;quot;, &amp;quot;Lifehacks&amp;quot;. See also &amp;quot;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2010/03/meaningless-indicators-of-progress.html&#34; target=&#34;_self&#34;&gt;Meaningless indicators of progress&lt;/a&gt;&amp;quot;. I wonder how long it would take to process a day&amp;#39;s worth of Twitter sent to you on one-day delay. In Greek mythology, Sisyphus was condemned to empty his email inbox each day, only to find it full the next day. &amp;#0160;See Doug Mann,&amp;#0160;&lt;a href=&#34;http://www.adjunctnation.com/2006/09/01/54-the-electronic-myth-of-sisyphus/&#34; target=&#34;_self&#34;&gt;The Electronic Myth of Sisyphus&lt;/a&gt;, 2006.)&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Yesterbox is a technique from Zappo&amp;#39;s CEO Tony Hseih that redefines the task of email management. Rather than aim for an &amp;quot;inbox zero&amp;quot; for today&amp;#39;s email (a never-ending task), he calls for answering today&amp;#39;s mail tomorrow, and yesterday&amp;#39;s mail today. Every message gets a one day delay unless it&amp;#39;s so urgent that has to be dealt with right away.
+The biggest problem with &amp;quot;inbox zero&amp;quot; is that it&amp;#39;s impossible to be caught up for any length of time, since you need to be always on the alert for new messages.</description>
     </item>
     
     <item>
@@ -43,10 +36,8 @@
       <pubDate>Tue, 14 Jun 2011 12:13:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-14-lack-of-discretion-is-the-better-part-of-twitter/</guid>
-      <description>&lt;p&gt;The input box on Twitter is very small, the user interface works on a cell phone, and it all feels so much like you are having a small intimate conversation with a few confidants. Something horrible is said and you and perhaps the world realize that this thing is not just a harmless lark.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Twitter is a global communications infrastructure, with short meaningful names that replace carrier-assigned numbers for text and picture messaging. It&amp;#39;s only a few short hops and some integration with shiny hardware to make that global namespace be the key to a lot more communications and publishing.&lt;/p&gt;
-&lt;p&gt;By all means, display your plumage on Twitter. Your indiscretions make up for the rest of us who are content to describe where we are eating a sandwich. We read along, fascinated, taking notes carefully on what not to say.&lt;/p&gt;
-</description>
+      <description>The input box on Twitter is very small, the user interface works on a cell phone, and it all feels so much like you are having a small intimate conversation with a few confidants. Something horrible is said and you and perhaps the world realize that this thing is not just a harmless lark.&amp;#0160;
+Twitter is a global communications infrastructure, with short meaningful names that replace carrier-assigned numbers for text and picture messaging.</description>
     </item>
     
     <item>
@@ -55,11 +46,9 @@
       <pubDate>Thu, 16 Dec 2010 23:42:59 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-12-16-clean-your-dishwasher-with-the-breakfast-drink-of-astronauts/</guid>
-      <description>&lt;p&gt;&lt;p&gt;I&amp;rsquo;m sure there&amp;rsquo;s a cheaper way to clean a dishwasher than to put heavily marketed, sugary &amp;ldquo;breakfast drink&amp;rdquo; powder into it. Tang is citric acid and sweetener and artificial flavor that tastes like moon rocks.&lt;/p&gt;
-&lt;p&gt;The dishwasher is cleaner, though, which is a good thing.&lt;/p&gt;
-&lt;p&gt;Other suggestions for cleaners include vinegar, straight citric acid, borax, and baking soda. None of those have the astronaut cachet.&lt;/p&gt;
-&lt;object width=&#34;480&#34; height=&#34;385&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/TWghCdIqedA?fs=1&amp;amp;hl=en_US&#34;&gt;&lt;/param&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;&gt;&lt;/param&gt;&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34;&gt;&lt;/param&gt;&lt;embed src=&#34;http://www.youtube.com/v/TWghCdIqedA?fs=1&amp;amp;hl=en_US&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; width=&#34;480&#34; height=&#34;385&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m sure there&amp;rsquo;s a cheaper way to clean a dishwasher than to put heavily marketed, sugary &amp;ldquo;breakfast drink&amp;rdquo; powder into it. Tang is citric acid and sweetener and artificial flavor that tastes like moon rocks.
+The dishwasher is cleaner, though, which is a good thing.
+Other suggestions for cleaners include vinegar, straight citric acid, borax, and baking soda. None of those have the astronaut cachet.</description>
     </item>
     
     <item>
@@ -68,13 +57,10 @@
       <pubDate>Tue, 14 Dec 2010 22:14:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-12-14-cayenne-in-your-socks/</guid>
-      <description>&lt;p&gt;An old, old recipe to keep your feet warm: sprinkle cayenne in your socks. &amp;#0160;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The powdered capsicum slightly dusted in the socks of persons subject to cold feet will generally prove a salutary means of overpowering that unpleasant sensation. (&lt;a href=&#34;http://books.google.com/books?id=VhTrAAAAMAAJ&amp;amp;dq=cayenne%20socks&amp;amp;pg=PA161#v=onepage&amp;amp;q=cayenne%20socks&amp;amp;f=false&#34; target=&#34;_self&#34;&gt;The American Dispensatory&lt;/a&gt;, 1823)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Not recommended to keep your fingers warm.&lt;/p&gt;
-&lt;p&gt;An illustrated example, from The Cooper Family: &lt;a href=&#34;http://thecoopfam.wordpress.com/2010/12/05/warm-feet-in-the-snow/&#34; target=&#34;_self&#34;&gt;Warm feet in the snow&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>An old, old recipe to keep your feet warm: sprinkle cayenne in your socks. &amp;#0160;
+ The powdered capsicum slightly dusted in the socks of persons subject to cold feet will generally prove a salutary means of overpowering that unpleasant sensation. (The American Dispensatory, 1823)
+ Not recommended to keep your fingers warm.
+An illustrated example, from The Cooper Family: Warm feet in the snow.</description>
     </item>
     
     <item>
@@ -83,33 +69,16 @@
       <pubDate>Thu, 12 Mar 2009 10:34:27 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-03-12-the-story-of-madstone-w-r-sanner-fort-worth-tx-1886/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://files.usgwarchives.net/al/lamar/newspapers/theverno1424gnw.txt&#34;&gt;pulled from text at an online newspaper clippings archive&lt;/a&gt;&lt;/p&gt;&lt;p&gt;THE COURIER&lt;br /&gt;
-ALEX A. WALL, Editor and Proprietor&lt;br /&gt;
-Vernon, Alabama&lt;br /&gt;
-Friday, December 24, 1886&lt;/p&gt;&lt;p&gt;
-THE STORY OF MAD-STONE&lt;br /&gt;
-[Fort Worth (Texas), December 4th - Cor. New York Mail and Express]&lt;br /&gt;
-Miss May Bartlett was bitten yesterday by a dog which, from all&lt;br /&gt;
-indications, is mad. A mad-stone owned by W. R. Sanner, of this city,&lt;br /&gt;
-has been applied and adhered several times, drawing out the poison.&lt;br /&gt;
-This stone has something of a history. In 1848 Captain Wilson, of&lt;br /&gt;
-Alabama, killed a white deer in Talladega County, and search was made&lt;br /&gt;
-in the stomach for a stone. One was found a little larger than a&lt;br /&gt;
-goose-egg, with a flat surface on one side It resembled a petrified&lt;br /&gt;
-sponge. The stone up to this time has been used in upward of one&lt;br /&gt;
-thousand cases. Captain Wilson gave the stone to Mr. Cowan, who lives&lt;br /&gt;
-near Handley, in this county. Mr. Cowan, as a token of great&lt;br /&gt;
-friendship, gave the stone to W. R. Sanner, who would part with it for&lt;br /&gt;
-no amount. The philosophy of the operation of the stone and the reason&lt;br /&gt;
-it is found in the stomach of the white deer is given by the Indians&lt;br /&gt;
-as follows: &amp;quot;The white deer is more susceptible to vegetable poisons&lt;br /&gt;
-taken into the stomach when eaten with grass. To preserve the life of&lt;br /&gt;
-the animal, nature has placed in the stomach this porous stone, which&lt;br /&gt;
-at once absorbs the poison, neutralizes it, and saves the deer&amp;#39;s life.&lt;br /&gt;
-The stone applied to a bit into which poison has been injected at once&lt;br /&gt;
-draws it out, and when its pores are filled drops off; being soaked in&lt;br /&gt;
-milk the stone is made pure again and ready for another application.&amp;quot;&lt;/p&gt;
-</description>
+      <description>pulled from text at an online newspaper clippings archive
+THE COURIER
+ALEX A. WALL, Editor and Proprietor
+Vernon, Alabama
+Friday, December 24, 1886
+ THE STORY OF MAD-STONE
+[Fort Worth (Texas), December 4th - Cor. New York Mail and Express]
+Miss May Bartlett was bitten yesterday by a dog which, from all
+indications, is mad. A mad-stone owned by W. R. Sanner, of this city,
+has been applied and adhered several times, drawing out the poison.</description>
     </item>
     
     <item>
@@ -118,8 +87,8 @@ milk the stone is made pure again and ready for another application.&amp;quot;&l
       <pubDate>Thu, 20 Nov 2008 21:54:15 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-20-the-brain-v5-beta-for-mac-os-x/</guid>
-      <description>&lt;p&gt;Once upon a time a long time ago I used &lt;a href=&#34;http://www.thebrain.com/&#34;&gt;The Brain&lt;/a&gt;, an innovative and distinctive mind and idea mapping tool.&amp;#0160; I hit a wall at some point in my use of it, switched my desktop to a platform that it didn&amp;#39;t support, and unfocused from it.&lt;/p&gt;&lt;p&gt;There&amp;#39;s now a copy of The Brain for the Mac, and I pulled it down this afternoon to help someone work on a presentation where they need to make sense of a whole semester&amp;#39;s worth of interconnected ideas.&amp;#0160; We&amp;#39;ll see how it goes - I&amp;#39;m looking forward to using it for exploratory work again.&lt;/p&gt;
-</description>
+      <description>Once upon a time a long time ago I used The Brain, an innovative and distinctive mind and idea mapping tool.&amp;#0160; I hit a wall at some point in my use of it, switched my desktop to a platform that it didn&amp;#39;t support, and unfocused from it.
+There&amp;#39;s now a copy of The Brain for the Mac, and I pulled it down this afternoon to help someone work on a presentation where they need to make sense of a whole semester&amp;#39;s worth of interconnected ideas.</description>
     </item>
     
     <item>
@@ -128,8 +97,13 @@ milk the stone is made pure again and ready for another application.&amp;quot;&l
       <pubDate>Thu, 30 Oct 2008 23:12:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-10-30-top-10-delicous-tags-unusual-delicious-tags/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://jeweledplatypus.org/cgi-bin/blosxom.cgi/britta/toptags.html&#34;&gt;inspired by britta&lt;/a&gt;, here is a list of my top 10 tags on delicious, annotated.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; - lots of links from around the state&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; - lots of links from around town&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/library&#34;&gt;library&lt;/a&gt; - links from and about libraries from around the world&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/blog&#34;&gt;blog&lt;/a&gt; - these are primarily the &amp;quot;about&amp;quot; pages of blogs&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/superpatron&#34;&gt;superpatron&lt;/a&gt; - it would be convienent if these were auto-summarized for my &lt;a href=&#34;http://vielmetti.typepad.com/superpatron&#34;&gt;superpatron&lt;/a&gt; blog&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/google&#34;&gt;google&lt;/a&gt; - an exhaustive tour of the google archipelago&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/books&#34;&gt;books&lt;/a&gt; - many of which I am not reading because of time spent on the net&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/food&#34;&gt;food&lt;/a&gt; - recipes, restaurants, and &lt;a href=&#34;http://delicious.com/vielmetti/f00dzorz&#34;&gt;f00dzorz &lt;/a&gt;&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/design&#34;&gt;design&lt;/a&gt; - not a tag I usually generate myself, so these are copies of others&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/howto&#34;&gt;howto&lt;/a&gt; - tutorials, references, instruction guides, answers to common questions&lt;/p&gt;&lt;p&gt;my other typically atypical delicious tagging use is to use long tags that no one else uses, and that I use only once or a small number of times.&amp;#0160; to illustrate:&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://delicious.com/vielmetti/%E2%98%83&#34;&gt;☃&lt;/a&gt; - the unicode &amp;quot;snowman&amp;quot; character and its travels&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/chicken-chicken-chicken&#34;&gt;chicken-chicken-chicken&lt;/a&gt; - encompassing Ig Nobel prize winning research, municipal ordinances and recipes&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/warning%3Aindirect-selflink&#34;&gt;warning:indirect-selflink&lt;/a&gt; - pointers to articles that point to things that I&amp;#39;ve written&lt;br /&gt;&lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-1908&#34;&gt;party-like-its-1908&lt;/a&gt; - plus similar links to each other year, noting history or relevant narratives of time&lt;/p&gt;&lt;p&gt;generally I like to give every article some unique tag, along some axis of a person&amp;#39;s name, a date, a location, or a nice turn of phrase from the thing quoted. &lt;/p&gt;&lt;p&gt;&amp;quot;my new filing technique is unstoppable&amp;quot;&lt;/p&gt;
-</description>
+      <description>inspired by britta, here is a list of my top 10 tags on delicious, annotated.
+michigan - lots of links from around the state
+annarbor - lots of links from around town
+library - links from and about libraries from around the world
+blog - these are primarily the &amp;quot;about&amp;quot; pages of blogs
+superpatron - it would be convienent if these were auto-summarized for my superpatron blog
+google - an exhaustive tour of the google archipelago</description>
     </item>
     
     <item>
@@ -138,14 +112,9 @@ milk the stone is made pure again and ready for another application.&amp;quot;&l
       <pubDate>Fri, 25 Jul 2008 15:00:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-07-25-noe-web-disease/</guid>
-      <description>&lt;p&gt;Here&#39;s a bit of science fiction I&#39;d like to read -&lt;/p&gt;
-
-&lt;p&gt;The time is the future, but the near future, within reach - perhaps 2012.  The hero has some kind of cognitive deficit that&#39;s progressive, so that they are slowly losing their ability to reason.  (Think Flowers for Algernon, for instance.)&lt;/p&gt;
-
-&lt;p&gt;The twist is that the nature of the loss of thinking is that they are fine in person and in everything they normally do, but that they are unable to effectively use search engines any more.  And so the near-term always on instant recall of every obscure fact in the world is slipping away from them - bit by bit - as search engine result pages get more and more inscrutable.&lt;/p&gt;
-
-&lt;p&gt;Inspired in part by the &lt;a href=&#34;http://onewebday.org/?p=335&#34;&gt;Noe Web Day journal&lt;/a&gt; that Zack McCune kept.&lt;/p&gt;
-</description>
+      <description>Here&#39;s a bit of science fiction I&#39;d like to read -
+The time is the future, but the near future, within reach - perhaps 2012. The hero has some kind of cognitive deficit that&#39;s progressive, so that they are slowly losing their ability to reason. (Think Flowers for Algernon, for instance.)
+The twist is that the nature of the loss of thinking is that they are fine in person and in everything they normally do, but that they are unable to effectively use search engines any more.</description>
     </item>
     
     <item>
@@ -154,26 +123,9 @@ milk the stone is made pure again and ready for another application.&amp;quot;&l
       <pubDate>Thu, 19 Jun 2008 11:10:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-19-the-notebooks-o/</guid>
-      <description>&lt;p&gt;Since 1994, Cosma Shalizi has been keeping track of what he is reading and what he is interested in in his &lt;a href=&#34;http://www.cscs.umich.edu/~crshalizi/notebooks/&#34;&gt;notebooks&lt;/a&gt; online.&lt;/p&gt;
-
-&lt;pre&gt;
-Burned all my notebooks 
-What good are notebooks 
-If they won&#39;t help me survive?
-&lt;/pre&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.cscs.umich.edu/~crshalizi/notebooks/faq.html#colophon&#34;&gt;colophon&lt;/a&gt; is worth quoting in full, though you&#39;ll need to go to the original to get all of the hyperlinks.&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-These notebooks began in September 1994 as a set of key-words for Usenet filtering; I don&amp;rsquo;t remember why I started to elaborate them, but I did, and put them online on 3 October 1994. They quickly became a single huge useless file, which a few people, moved by boredom, misplaced pity or Teutonic thoroughness, were kind enough to read. At their urging, on 13 March 1995 I split it into many more or less conveniently sized files, one per subject, ordered by date. (Those still dated 1994 haven&amp;rsquo;t been significantly changed since before then, or if they have, I&amp;rsquo;ve been too lazy to update their date.) That was the last change in format until March 2004, when I moved them into Blosxom, so they could have an RSS feed and a basic search facility (since I&amp;rsquo;m clearly never going to get around to creating, much less maintaining, a genuine index).&lt;/p&gt;
-
-&lt;p&gt;The notebooks have been written in Emacs on, successively, 1992-vintage NeXT workstations, a succession of Sun workstations, a second-hand Powerbook Duo named sloth, a much-missed Powerbook G4 named gluttony and, currently, a new Powerbook named wrath. (Note to hardware manufacturers: those could be the names of your products instead, if you give them to me!) Each notebook is a simple HTML file. (The ones containing mathematical symbols are produced using HTMX.) For the first ten years, that was it. Since I started using Blosxom, it&#39;s dynamically generated the displayed pages, so that the pages you read are filtered, prettified versions of the ones I write. Index pages are statically generated (using cron every half hour), so they get served faster, and some fiddling with Apache&#39;s URL re-writing engine keeps you from seeing the seams. The complete installation uses the following Blosxom plugins: entries_template, file, find, flavourdir, foreshortened, interpolate_conditional, meta, metadate, SmartyPants, storytitle. Danny Yee kindly provided me with a cascading style sheet, and explained how to use it.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;I follow &lt;A href=&#34;http://del.icio.us/cshalizi&#34;&gt;Cosma on delicious&lt;/a&gt;, where he uses awesome tags like &lt;a href=&#34;http://del.icio.us/cshalizi/gives_economists_a_bad_name&#34;&gt;gives_economists_a_bad_name&lt;/a&gt; and &lt;a href=&#34;http://del.icio.us/cshalizi/why_oh_why_cant_we_have_a_better_press_corps&#34;&gt;why_oh_why_cant_we_have_a_better_press_corps&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks to &lt;a href=&#34;http://williamtozier.com/slurry&#34;&gt;Bill Tozier&lt;/a&gt;, who aimed a &lt;a href=&#34;http://del.icio.us/url/29b0459e4665be48e93ea95e2810a857&#34;&gt;delicious link in the right direction&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Since 1994, Cosma Shalizi has been keeping track of what he is reading and what he is interested in in his notebooks online.
+ Burned all my notebooks What good are notebooks If they won&#39;t help me survive?  The colophon is worth quoting in full, though you&#39;ll need to go to the original to get all of the hyperlinks.
+ These notebooks began in September 1994 as a set of key-words for Usenet filtering; I don&amp;rsquo;t remember why I started to elaborate them, but I did, and put them online on 3 October 1994.</description>
     </item>
     
     <item>
@@ -182,25 +134,7 @@ These notebooks began in September 1994 as a set of key-words for Usenet filteri
       <pubDate>Tue, 04 Mar 2008 18:01:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-03-04-note-to-self-15/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-If you could pay attention to just one thing over the next 15 minutes, what would it be?
-&lt;/p&gt;&lt;p&gt;
-The list of categories of potential things to be alert to is too long, so it doesn&amp;rsquo;t make sense to sort through them to find the right type of thing.  Don&amp;rsquo;t start by reviewing the list, because the list is too long to review without making that the one solitary task.
-&lt;/p&gt;&lt;p&gt;
-It&amp;rsquo;s always good to remove things from the desk or desktop, particularly if that can be done quickly and ruthlessly; similarly, closing applications is helpful.  Reduce the choice space.
-&lt;/p&gt;&lt;p&gt;
-If the inbox is open at all, it will quickly absorb 15 minutes just in care and tending.  Thus any sub-task that involves the inbox will likely overlap the whole time span with the need to fully tend to that collection.   Similarly, any review of any statistics, any perusal of any stream of novelty or items of possible interest, will easily consume that stretch of time just in picking through the list or going through it.
-&lt;/p&gt;&lt;p&gt;
-Some aspects of online life lend themselves to the 15 minute burst.  A quarter hour can manage a few additions or subtractions to a mailing list, a few wiki pages tweaked harmlessly, a series of essentially mindless but unautomated two-minute tasks strung together until time runs out.  The burden of diligence, to be certain, useful especially when maintained daily for years, but not the contemplation of one moment.
-&lt;/p&gt;&lt;p&gt;
-I&amp;rsquo;ve used systems for task-reminders (the infinite todo list) that let you pick a task at random and then use that as the suggestion for the next thing to do.  Taken to some logical extreme you might want a machine to prompt you for the next thing that you wanted it to remind you of and just iterate through that until some pile of tasks got managed into submission.  (Pity you if you fill the system with the wrong tasks.)
-&lt;/p&gt;&lt;p&gt;
-In 15 minutes I can walk about 1600 steps, about &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt; of my daily stated pedestrian quota.  If the ground is level and not too slippery, some of the tasks requiring diligence can go with it, the walk through the quiet neighborhood allowing email deletion and some amount of phone calling as possible.&lt;br /&gt;
-&lt;/p&gt;&lt;p&gt;
-Not coincidentally, this post took about 15 minutes to write the first time through.  I&amp;rsquo;m expecting that another 15 would give it a good edit more suitable for publication (links!  references to witty bloggers!  links to lifehacker so that I get some traffic!) but that&amp;rsquo;s less important than getting home to family right now.
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/attention&#34; rel=&#34;tag&#34;&gt;attention&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>If you could pay attention to just one thing over the next 15 minutes, what would it be?  The list of categories of potential things to be alert to is too long, so it doesn&amp;rsquo;t make sense to sort through them to find the right type of thing. Don&amp;rsquo;t start by reviewing the list, because the list is too long to review without making that the one solitary task.</description>
     </item>
     
   </channel>

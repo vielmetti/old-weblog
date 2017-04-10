@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/typepad/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Typepad on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/typepad/</link>
+    <description>Recent content in Typepad on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/typepad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2015 11:40:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/typepad/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>make tidy</title>
@@ -14,39 +17,8 @@
       <pubDate>Sat, 25 Jul 2015 11:40:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been converting over old postings on this blog from Typepad.
-The data export and import was imperfect, and this meant that I&amp;rsquo;ve
-been poring over the data to figure out what keeps and what goes
-and what-not. It&amp;rsquo;s a chance to review old words.&lt;/p&gt;
-
-&lt;p&gt;One of the artifacts of the old hosting platform was a helpful at
-times system called &lt;a href=&#34;http://www.zemanta.com&#34;&gt;Zemanta&lt;/a&gt;. Zemanta would
-figure out what you were writing about and give you helpful suggestions
-for related links, both to things that you had written as well as
-to things other people had written.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve decided as part of the transformation of the old weblog into
-the new one to unlink those &amp;ldquo;related links&amp;rdquo;, in the hope that
-eventually Hugo&amp;rsquo;s own system will create some either algorithmically
-derived relations or at least an easier way to do that by hand.&lt;/p&gt;
-
-&lt;p&gt;In the meantime I&amp;rsquo;m looking closely at what Zemanta did so I can
-undo it. The first set of artifacts is a &amp;ldquo;fieldset&amp;rdquo; with its links,
-and that&amp;rsquo;s easy enough to search and destroy. Occasionally but not
-always I find my links decorated with a &lt;code&gt;class=&amp;quot;zem_slink&amp;quot;&lt;/code&gt; marker
-that&amp;rsquo;s a little harder to find. Most insidious so far was exactly
-one time where Zemanta (or Typepad) rewrote or wrote an Amazon link
-to include an affiliate link points to Zemanta, and not to me.&lt;/p&gt;
-
-&lt;p&gt;Rewriting 1500+ pages is going to take a while. The biggest question
-is unpublishing some of them, since time has passed and I don&amp;rsquo;t need
-to republish everything. There&amp;rsquo;s conversion from HTML to Markdown
-to remove the uglies, spelling errors to catch, next
-categories and taxonomies to fill, layout to work on, etc. At
-some point I need to sort out image management. But first I&amp;rsquo;m going
-to understand the consequences of previous convenience decisions
-I made to use Zemanta and to undo that decision.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been converting over old postings on this blog from Typepad. The data export and import was imperfect, and this meant that I&amp;rsquo;ve been poring over the data to figure out what keeps and what goes and what-not. It&amp;rsquo;s a chance to review old words.
+One of the artifacts of the old hosting platform was a helpful at times system called Zemanta. Zemanta would figure out what you were writing about and give you helpful suggestions for related links, both to things that you had written as well as to things other people had written.</description>
     </item>
     
   </channel>

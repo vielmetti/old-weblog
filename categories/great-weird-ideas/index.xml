@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/great-weird-ideas/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Great Weird Ideas on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/great-weird-ideas/</link>
+    <description>Recent content in Great Weird Ideas on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/great-weird-ideas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Nov 2014 18:27:45 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/great-weird-ideas/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>That bright idea of yours might cost you $25,000</title>
@@ -14,14 +17,8 @@
       <pubDate>Fri, 14 Nov 2014 18:27:45 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-14-that-bright-idea-of-yours-might-cost-you-25000/</guid>
-      <description>&lt;p&gt;A cautionary tale.&lt;/p&gt;
-
-&lt;p&gt;What&#39;s the value of an idea? Consider that some ideas might have a negative value; indeed that most of them might. It may take you some substantial investment to test out your idea, to prove it, to build something minimal to show people that it was real. And then when you&#39;re ready with it there might be a net result that you finally have talked to enough people that you know that you need to scrap it and start over.&lt;/p&gt;
-
-&lt;p&gt;If then I am skeptical of your great new project and want to be critical of it first rather than embrace it, it&#39;s not because I don&#39;t think that you should be at all ashamed or sad to have come up with anything good. It&#39;s more for me - this is the first step of defensiveness that will help me not get involved.&lt;/p&gt;
-
-&lt;p&gt;Please, if I pitch something in your direction, try to dissuade me from doing it. Tell me that no one has done it, or that everyone has done it, or that there&#39;s no customers, or that it would cost too much to try, or that it can&#39;t scale, or whatever. Shake me out of my temporary enthusiasm. I can generate a lot of ideas that each might take $25,000 to prove out, and the faster I can get to &#34;no&#34; the happier I&#39;ll be.&lt;/p&gt;
-</description>
+      <description>A cautionary tale.
+What&#39;s the value of an idea? Consider that some ideas might have a negative value; indeed that most of them might. It may take you some substantial investment to test out your idea, to prove it, to build something minimal to show people that it was real. And then when you&#39;re ready with it there might be a net result that you finally have talked to enough people that you know that you need to scrap it and start over.</description>
     </item>
     
     <item>
@@ -30,22 +27,7 @@
       <pubDate>Mon, 07 Apr 2014 00:20:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-04-07-how-are-you-going-to-keep-them-down-on-the-farm-after-theyve-seen-5d/</guid>
-      <description>&lt;p&gt;I spent some quality time playing the dreadfully addictive game &#34;2048&#34;. (No, I won&#39;t link to it.) After beating it a few times, I went looking for higher dimensional versions and found a 2048 3D, 4D, and 5D version. And, after playing and beating &lt;a href=&#34;http://cesarkawakami.github.io/2048-5D/&#34;&gt;2048 5D&lt;/a&gt; I am no longer satisfied with most of the user interfaces that I see. &lt;/p&gt;
-
-&lt;p&gt;5 dimensional thinking on a 2x2x2x2x2 board is really not all that hard, once you bend your mind to it. You use the arrow keys to navigate in small steps, AWSD to navigate in larger steps, and QE for the largest steps. Of course the steps aren&#39;t really larger when you consider the full dimensions of the space, but based on how the cells are laid down on a flat screen that&#39;s a reasonable approximation.&lt;/p&gt;
-
-&lt;p&gt;After successfully navigating a 5D space, the traditional presentation of a list as a scrolling 1-dimensional space, or even a web browser&#39;s narrow navigational confines, seems impossibly small. I can page up and down in a browser, but what would it mean to page left and right? Or to page in and out, or hither and yon? (Pick some more navigational opposites.) Tabs help a little bit for the left-right navigation, and windows perhaps are the in-out method, but what of hither and yon?&lt;/p&gt;
-
-&lt;p&gt;Here&#39;s a small proposal. The browser could keep track not just of the history of which pages you have seen in the past, but also the order that you&#39;ve seen them in. Over time, that flow history turns into a graph of expected page transitions. Your browser could respond to some command that was &#34;show me the next page I&#39;m likely to go to&#34;, and that would be inferred by the history mechanism. The &#34;next&#34; button would always be active.&lt;/p&gt;
-
-&lt;p&gt;I suppose this is related to my routine preference for guided randomness in my work. I would rather not try to work my way down a list where I decide explicitly what to do next. Rather, the computer uses some algorithm to select a next thing (a roll of the dice, or some weighted choice) and that&#39;s the next thing to do. With the right sorts of dimensional logic, there could be a couple of different things that would be reasonably &#34;next&#34; and they would be surprising but plausible next things to work through.&lt;/p&gt;
-
-&lt;p&gt;What&#39;s kind of sad is that the hyperspace of my idealistic youth - where the network was big, and you used spatial metaphors to zoom down information pathways of your own choosing - has been replaced by the UIs of Facebook, Twitter, or even email where the &#34;read the top, refresh, read the top again&#34; is what you&#39;re guided down. There&#39;s no more chasing down endless hyperlinks - everything you might want is predigested and put in front of you, and if you don&#39;t like it you can just hit refresh like some slot-machine player and hope for better.&lt;/p&gt;
-
-&lt;p&gt;So I want some space to work in, not just lists, and not just read from the top. Let me decorate rooms with ideas, and traverse some kind of non-linear structure to get from one idea to the next. Vannevar Bush&#39;s &#34;memex&#34; had trails that led through it, and it didn&#39;t pretend that you could instantly go from one idea to the next without passing through something else. When I think I want to carve out some space for thinking, and have it be something other than the infinite scrolling list. &lt;/p&gt;
-
-&lt;p&gt;File under &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/great-weird-ideas/&#34;&gt;Great Weird Ideas&lt;/a&gt;. Previously in Great Weird Ideas, a musing on &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/top-of-mind-vs-top-of-page.html&#34;&gt;top of page&lt;/a&gt;. A non-linear structure for organizing thought is &lt;a href=&#34;http://www.thebrain.com/community/big-thinker-quotes/jerry/&#34;&gt;Jerry&#39;s Brain&lt;/a&gt;. Previous musings on a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/01/graph-structured-rolodex.html&#34;&gt;graph-structured rolodex&lt;/a&gt;. A 2004 lunch with Peter Morville, described in terms of a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2004/03/findability_sus.html&#34;&gt;memory palace&lt;/a&gt;. Network Access to Multimedia Information, &lt;a href=&#34;http://www.apps.ietf.org/rfc/rfc1614.html&#34;&gt;RFC 1614&lt;/a&gt;, describes the chaotic immediately pre-World Wide Web days of 1994.&lt;/p&gt;
-</description>
+      <description>I spent some quality time playing the dreadfully addictive game &#34;2048&#34;. (No, I won&#39;t link to it.) After beating it a few times, I went looking for higher dimensional versions and found a 2048 3D, 4D, and 5D version. And, after playing and beating 2048 5D I am no longer satisfied with most of the user interfaces that I see. 5 dimensional thinking on a 2x2x2x2x2 board is really not all that hard, once you bend your mind to it.</description>
     </item>
     
     <item>
@@ -54,14 +36,8 @@
       <pubDate>Sun, 23 Jun 2013 16:28:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-23-when-you-have-no-idea-what-to-write-use-randomness-in-your-favor/</guid>
-      <description>&lt;p&gt;I&amp;#39;ve been trying to keep up a daily pace to blogging here; that&amp;#39;s been my habit for almost ten years. The problem is that it&amp;#39;s not always easy to know what to write about.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ve taken to using a few prompting tricks to help sort through some ideas about what to write about. The simplest one is one I haven&amp;#39;t heard of before: use the day of the month as a key into the letters of the alphabet, and thus write about something appropriate for that day. E.g. on the 1st of the month be inspired by the letter &amp;#39;A&amp;#39; categories, on the 10th come up with something appropriate for &amp;#39;J&amp;#39;, and today the 23th come up with something to do with &amp;#39;W&amp;#39;. If you have enough categories, this actually isn&amp;#39;t too hard; I have &amp;quot;Weather&amp;quot;, &amp;quot;Web/Tech&amp;quot;, &amp;quot;Weblogs&amp;quot;, &amp;quot;Weird&amp;quot;, &amp;quot;Wiki&amp;quot;, &amp;quot;Winter&amp;quot;, and &amp;quot;Writing&amp;quot; to choose from. X is much harder.&lt;/p&gt;
-&lt;p&gt;The same trick works to sort semi-randomly through your contact files, looking for the long-lost &amp;quot;U&amp;quot;-lettered friends on the 22d.&lt;/p&gt;
-&lt;p&gt;Equal attention by letters of the alphabet does not guarantee an equal balance of attention across all things; you&amp;#39;d be better off somehow taking the old encyclopedic route of splitting C into Ca-Ch and Ci-Cz, and lumping W-X-Y-Z together.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;A little bit of deliberate randomness makes it appear as though you are more attentive to odd things than you might otherwise get if you just focused in on the simple things. Brainstorms that focus on something that are not for today&amp;#39;s letter can be scheduled for posting into the future on the appropriate day-slot.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;I find myself wishing that my contact manager would let me graph frequency of names across two dimensions, so that my name would be 5 across and 22 down, sorted together with all of the other E. V.&amp;#39;s out there.&lt;/p&gt;
-&lt;p&gt;Anyway, just one more &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/great-weird-ideas&#34; target=&#34;_self&#34;&gt;great weird idea&lt;/a&gt; to throw out into the world.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;ve been trying to keep up a daily pace to blogging here; that&amp;#39;s been my habit for almost ten years. The problem is that it&amp;#39;s not always easy to know what to write about.
+I&amp;#39;ve taken to using a few prompting tricks to help sort through some ideas about what to write about. The simplest one is one I haven&amp;#39;t heard of before: use the day of the month as a key into the letters of the alphabet, and thus write about something appropriate for that day.</description>
     </item>
     
     <item>
@@ -70,11 +46,7 @@
       <pubDate>Sat, 16 Mar 2013 23:41:32 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-16-pocket-twitter-a-suitable-replacement-for-the-internet-when-offline/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c37c7e221970b-pi&#34;&gt;&lt;img alt=&#34;IMG_20130316_004647&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017c37c7e221970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c37c7e221970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;IMG_20130316_004647&#34; /&gt;&lt;/a&gt;&lt;br /&gt;I haven&amp;#39;t had a working smart phone in months, and so the times when I find myself needing to write down short messages to the world don&amp;#39;t always coincide with the times that I&amp;#39;m on the net. Hence this version of &amp;quot;pocket twitter&amp;quot;, writing down things that you want to share (or to remember) on paper, and saving that paper away until the next time it&amp;#39;s possible to share a photograph.&lt;/p&gt;
-&lt;p&gt;This is from a few weeks ago, back when gas was $3.339 per gallon, and during and after a snowstorm and rain event that had people watching for localized flooding. You can read the rest, but for some reason I was thinking about the &lt;a href=&#34;http://oldcomputers.net/jupiter-ace.html&#34; target=&#34;_self&#34;&gt;Jupiter Ace&lt;/a&gt;, a Forth-based machine from the early 1980s. What the mind will do when it has some paper to work with for storage.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>I haven&amp;#39;t had a working smart phone in months, and so the times when I find myself needing to write down short messages to the world don&amp;#39;t always coincide with the times that I&amp;#39;m on the net. Hence this version of &amp;quot;pocket twitter&amp;quot;, writing down things that you want to share (or to remember) on paper, and saving that paper away until the next time it&amp;#39;s possible to share a photograph.</description>
     </item>
     
     <item>
@@ -83,12 +55,7 @@
       <pubDate>Sat, 16 Mar 2013 00:35:19 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-16-new-phone-to-test-out-for-a-while/</guid>
-      <description>&lt;p&gt;I am going to be able to see if I can get the intended recipient please do you have any questions. 
-Automatic arrangement of the intended recipient please notify us to the sender immediately and then you have to be able to see the resulting directly with a lot of this message. 
-It does not quite as well as I have to be able to be but it is still working with some reservations. 
-Written with the same automatic arrangement of the keyboard that makes typing easier if not exactly easy to read.&lt;/p&gt;
-&lt;p&gt;[When a keyboard suggests the next word to type, and you take the suggestions, you get some weird results.]&lt;/p&gt;
-</description>
+      <description>I am going to be able to see if I can get the intended recipient please do you have any questions. Automatic arrangement of the intended recipient please notify us to the sender immediately and then you have to be able to see the resulting directly with a lot of this message. It does not quite as well as I have to be able to be but it is still working with some reservations.</description>
     </item>
     
     <item>
@@ -97,8 +64,7 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Sun, 01 Jan 2012 15:08:49 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-01-01-great-weird-ideas-vs-slow-accretion-of-interesting-things/</guid>
-      <description>&lt;p&gt;From time to time I have &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/great-weird-ideas/&#34; target=&#34;_self&#34;&gt;great weird ideas&lt;/a&gt;, but those don&amp;#39;t happen every day. So instead of using this weblog just to catch the brainstorms I have to be also prepared to have it slowly collect the ordinary things that catch my eye long enough to be worth saving.&lt;/p&gt;
-</description>
+      <description>From time to time I have great weird ideas, but those don&amp;#39;t happen every day. So instead of using this weblog just to catch the brainstorms I have to be also prepared to have it slowly collect the ordinary things that catch my eye long enough to be worth saving.</description>
     </item>
     
     <item>
@@ -107,14 +73,9 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Sun, 26 Jun 2011 10:59:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-26-top-of-mind-vs-top-of-page/</guid>
-      <description>&lt;p&gt;At what point did &amp;quot;top of mind&amp;quot; get replaced by &amp;quot;top of page&amp;quot; ? For people like me who spend a lot of time online, it&amp;#39;s easy for social network systems like Twitter and Facebook to be a steady stream of distractions, especially when the usual clues for what is important get replaced simply by cues for what is new.&lt;/p&gt;
-&lt;p&gt;Some background for context.&lt;/p&gt;
-&lt;p&gt;The earliest use of the phrase &amp;quot;top of mind&amp;quot; that I can find in a modern context is &lt;a href=&#34;http://www.jstor.org/pss/3149678&#34; target=&#34;_self&#34;&gt;Alin Gruber&amp;#39;s Top of Mind Awareness and Share of Families&lt;/a&gt; (1969), a discussion in the Journal of Marketing Research on how closely the snap judgments that consumers make about brand recogition map to market share.&lt;/p&gt;
-&lt;p&gt;&amp;quot;Top of page&amp;quot; shows up in the news and design business as &amp;quot;above the fold&amp;quot;; see this Boxes and Arrows design article, &lt;a href=&#34;http://www.boxesandarrows.com/view/blasting-the-myth-of&#34; target=&#34;_self&#34;&gt;Blasting the Myth of the Fold&lt;/a&gt;&amp;#0160;(2007).&lt;/p&gt;
-&lt;p&gt;Facebook&amp;#39;s Top News page comes from their Edgerank algorithm, the details of which change as quickly as and are kept as proprietary as Google&amp;#39;s Pagerank algorithm.&amp;#0160;&lt;a href=&#34;http://techcrunch.com/2010/04/22/facebook-edgerank/&#34; target=&#34;_self&#34;&gt;EdgeRank: The Secret Sauce That Makes Facebook’s News Feed Tick&lt;/a&gt; (Techcrunch, 2010) gives a simplified explanation of it.&lt;/p&gt;
-&lt;p&gt;&amp;quot;&lt;a href=&#34;http://www.annarborsummerfestival.org/index.php/events/top_of_the_park/&#34; target=&#34;_self&#34;&gt;Top of the park&lt;/a&gt;&amp;quot; is the music and movies part of the Ann Arbor Summer Festival, held on Ingalls Mall. It used to be hosted at the top of the parking structure next to the Power Center, hence the name.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Thanks to Rod Johnson (&amp;quot;Top of Park&amp;quot;).&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>At what point did &amp;quot;top of mind&amp;quot; get replaced by &amp;quot;top of page&amp;quot; ? For people like me who spend a lot of time online, it&amp;#39;s easy for social network systems like Twitter and Facebook to be a steady stream of distractions, especially when the usual clues for what is important get replaced simply by cues for what is new.
+Some background for context.
+The earliest use of the phrase &amp;quot;top of mind&amp;quot; that I can find in a modern context is Alin Gruber&amp;#39;s Top of Mind Awareness and Share of Families (1969), a discussion in the Journal of Marketing Research on how closely the snap judgments that consumers make about brand recogition map to market share.</description>
     </item>
     
     <item>
@@ -123,14 +84,10 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Mon, 13 Jun 2011 11:52:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-13-dial-by-name-using-the-twitter-name-space/</guid>
-      <description>&lt;p&gt;I find myself wanting to call people once in a while, and I also find that I know people&amp;#39;s twitter names pretty well.&lt;/p&gt;
-&lt;p&gt;What is disappointing is that none of the tools I have let me &amp;quot;dial by twitter name&amp;quot; in the sense that there&amp;#39;s no command line prompt that has a &amp;quot;call&amp;quot; verb which takes the twitter username as an object.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;% call @vielmetti&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Actually, I&amp;#39;m at even a worse spot; I don&amp;#39;t even have a &amp;quot;call&amp;quot; command to start from at the shell script prompt. However, Twitter is in a good spot to do this - it knows the cell phone number of a lot of its users.&lt;/p&gt;
-&lt;p&gt;Perhaps then this is too good of an idea - does following someone mean that you are expecting to get calls from them? Some measure of opt-in seems appropriate, lest that eggbot spammer direct dial you to sell you air duct cleaning.&lt;/p&gt;
-</description>
+      <description>I find myself wanting to call people once in a while, and I also find that I know people&amp;#39;s twitter names pretty well.
+What is disappointing is that none of the tools I have let me &amp;quot;dial by twitter name&amp;quot; in the sense that there&amp;#39;s no command line prompt that has a &amp;quot;call&amp;quot; verb which takes the twitter username as an object.
+ % call @vielmetti
+ Actually, I&amp;#39;m at even a worse spot; I don&amp;#39;t even have a &amp;quot;call&amp;quot; command to start from at the shell script prompt.</description>
     </item>
     
     <item>
@@ -139,15 +96,8 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Fri, 10 Jun 2011 09:36:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-10-unknowledge-management/</guid>
-      <description>&lt;p&gt;From &lt;a href=&#34;http://www.nooron.org/know/uplift_linguistic_shell/unknowledge_pattern_language&#34; target=&#34;_self&#34;&gt;The Unknowledge Pattern Language&lt;/a&gt;, on Nooron:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Unknowledge Patterns describe ways of talking about that which is unknown. For example, the discovery of the periodic table of the elements created a pattern of information about what we didn&amp;#39;t know about the elements, until we &amp;quot;filled in the blanks.&amp;quot; These &amp;quot;named voids&amp;quot; in our knowledge were powerful attractors, and shaped the discourse of science. Are there other ways of naming voids which shape our discovery? The discovery of zero, a &amp;quot;missing nothing,&amp;quot; was one of the turning points in Western thought. Are there other missing nothings lurking about, waiting to be discovered? If so, how do we name these voids, and to what end? This is the stuff of unknowledge management.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Giving a name to something is a powerful act of creation. The ability to describe the unknown and nonexistent with words that are suggestive of its qualities creates a new universe of the plausible alternatives to the way that things are right now, and gives a way forward either to discover the absent or to rename existing concepts as though they were brand new.&lt;/p&gt;
-&lt;p&gt;My first hand experience in this world is in the world of wiki, where any name can be the target of commentary. Your wiki link to &lt;a href=&#34;http://arborwiki.org/city/Price_of_a_cup_of_coffee&#34; target=&#34;_self&#34;&gt;Price of a cup of coffee&lt;/a&gt;&amp;#0160;is real, even if the page that answers that query is currently blank. At a later time you can bind the name to its commentary, and use the statistics you get from watching people explore the unknowledge of the world to decide which of it to bring to reality.&lt;/p&gt;
-&lt;p&gt;A counterpoint to this line of reasoning is the periodic need to unname things which have names, so that they can grow new names that are newly reflective of the current observation. We didn&amp;#39;t know that we had land-line phones and terrestrial radios until cell phones and satellite radios forced the use of distinctive nomenclature. &amp;#0160;&lt;/p&gt;
-&lt;p&gt;Credit to Pete Kaminski, who has used the word &amp;quot;incipient links&amp;quot; to describe the deliberate use of wiki pointers to nowhere, and to Tom Munnecke for Nooron and the phrase &amp;quot;unknowledge management&amp;quot;. Pete also gave me &amp;quot;great weird ideas&amp;quot;, where this clearly fits.&lt;/p&gt;
-</description>
+      <description>From The Unknowledge Pattern Language, on Nooron:
+ Unknowledge Patterns describe ways of talking about that which is unknown. For example, the discovery of the periodic table of the elements created a pattern of information about what we didn&amp;#39;t know about the elements, until we &amp;quot;filled in the blanks.&amp;quot; These &amp;quot;named voids&amp;quot; in our knowledge were powerful attractors, and shaped the discourse of science. Are there other ways of naming voids which shape our discovery?</description>
     </item>
     
     <item>
@@ -156,10 +106,8 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Thu, 09 Jun 2011 09:09:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-09-my-great-weird-ideas-dont-fit-in-140-characters/</guid>
-      <description>&lt;p&gt;I have a brainstorm and want to capture it in a bottle before it dissipates. It&amp;#39;s impossible to fit it into a box that allows too few words. A suitably complex thought asks for at least a couple of paragraphs to stretch out its feelers and see if it grabs ahold of anything.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;The Twitter input box doesn&amp;#39;t give the thought enough room to spark. It too quickly fizzles out, bumping into traffic and weather reports that ground it or pop culture that doesn&amp;#39;t pop for it.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;When a great weird idea hits, you want it to hit a dry jack pine tree on a hot day and make it smoulder. It might take a day for the jack to catch fire, long after the first flash is gone. Use Twitter to fan the flames, not to light the fire.&lt;/p&gt;
-</description>
+      <description>I have a brainstorm and want to capture it in a bottle before it dissipates. It&amp;#39;s impossible to fit it into a box that allows too few words. A suitably complex thought asks for at least a couple of paragraphs to stretch out its feelers and see if it grabs ahold of anything.&amp;#0160;
+The Twitter input box doesn&amp;#39;t give the thought enough room to spark. It too quickly fizzles out, bumping into traffic and weather reports that ground it or pop culture that doesn&amp;#39;t pop for it.</description>
     </item>
     
     <item>
@@ -168,21 +116,8 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Tue, 31 May 2011 23:59:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-05-31-things-i-wish-i-had-written-may-2011-edition-a-g/</guid>
-      <description>&lt;p&gt;May is almost over, and as always there is more I wish I would have done than was actually done. Some notes on things not written, in the hopes next year will bring another May (chances are good) and that I&amp;#39;ll have some of these May stories written before then.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/a2b3&#34; target=&#34;_self&#34;&gt;a2b3&lt;/a&gt;. I would have loved to have written meeting non-summaries for every lunch meeting, capturing at least who was there, what the question was, how long it took to introduce everyone, how many people where there, and who the new people were. Some of this should be ritualizable, with a clipboard and a form? &amp;#0160;(Noted: &lt;a href=&#34;http://www.vertex42.com/ExcelTemplates/sign-in-sheet.html&#34; target=&#34;_self&#34;&gt;printable sign in sheets&lt;/a&gt;; &lt;a href=&#34;http://www.crowdjuice.com&#34; target=&#34;_self&#34;&gt;Crowdjuice&lt;/a&gt;, for signups in advance with a social matchmaker function.)&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://arborwiki.org/city/Ann_Arbor_City_Council&#34; target=&#34;_self&#34;&gt;Ann Arbor City Council&lt;/a&gt;. Every month I read the news, and there&amp;#39;s always someone referring to some document but not producing it for inspection. The story that needs the document, in this case the map, is the maps for the proposed marijuana ordinance; I tracked them down but haven&amp;#39;t published them yet. &amp;#0160;(&lt;a href=&#34;http://a2docs.org/doc/293/&#34; target=&#34;_self&#34;&gt;School buffer zones&lt;/a&gt;, a2docs)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/arborwiki&#34; target=&#34;_self&#34;&gt;Arborwiki&lt;/a&gt;. Every month deserves at least one wiki posting, and this month I find myself wishing I had written down the simple rule of copy editing with wiki: always link to anything in boldface or caps, and if it doesn&amp;#39;t exist, make it exist by fixing the spelling or creating the page.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/secret&#34; target=&#34;_self&#34;&gt;Blogger&amp;#39;s Secret&lt;/a&gt;. This section is not sure whether it&amp;#39;s a &lt;a href=&#34;http://vielmetti.typepad.com/secret&#34; target=&#34;_self&#34;&gt;whole weblog&lt;/a&gt; or just some &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/secret&#34; target=&#34;_self&#34;&gt;random notes&lt;/a&gt;, and if it is a weblog it should certainly be written with the thought that there&amp;#39;s some non-zero byproduct from the work. The message is simple (write twice a day about one thing), but that&amp;#39;s a heck of a lot of work to keep up and do anything else.&lt;/p&gt;
-&lt;p&gt;Chicago. Why do I have a whole Chicago category, but don&amp;#39;t get there more often? One or the other of those should be fixed. (And ask, since Detroit is so much closer, why the Detroit category is not more full; ditto Lansing.)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://a2gov.org/ctn&#34; target=&#34;_self&#34;&gt;Community Television Network&lt;/a&gt;. I&amp;#39;d love to have told you about the time I spent getting trained to use the equipment there to produce some good old-fashioned public access television shows, but somehow the training hasn&amp;#39;t happened yet.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/coworking&#34; target=&#34;_self&#34;&gt;Coworking&lt;/a&gt;. There&amp;#39;s a very good story about how various coworking spaces are the same and how they differ, but to tell it right I want to visit more of them. I do need to also write more about the &lt;a href=&#34;http://www.workantileexchange.com&#34; target=&#34;_self&#34;&gt;Workantile Exchange&lt;/a&gt;, the downtown coworking club I am a part of.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/dioxane&#34; target=&#34;_self&#34;&gt;Dioxane&lt;/a&gt;. Our favorite plume generates slow-moving controversy, when data about how it is being monitored becomes less accessible.&lt;/p&gt;
-&lt;p&gt;Farmers Market. I&amp;#39;d love to post pictures every week, and I want to get to the Wednesday night market which starts June 1.&lt;/p&gt;
-&lt;p&gt;Fishing, floods. There were stories of people running into carp on bike paths, people fly fishing for carp, and more hot carp action during the latest Huron River floods. Pictures please!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/great-weird-ideas&#34; target=&#34;_self&#34;&gt;Great Weird Ideas&lt;/a&gt;. No end to them; the question is managing them, or at least corralling them so that you can set them aside and get back to the modest ordinary tasks that you need to for the day. Thus this wish list stops at the end of this section, ignoring H-Z for now.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>May is almost over, and as always there is more I wish I would have done than was actually done. Some notes on things not written, in the hopes next year will bring another May (chances are good) and that I&amp;#39;ll have some of these May stories written before then.
+a2b3. I would have loved to have written meeting non-summaries for every lunch meeting, capturing at least who was there, what the question was, how long it took to introduce everyone, how many people where there, and who the new people were.</description>
     </item>
     
     <item>
@@ -191,34 +126,15 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Sun, 22 May 2011 23:45:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-05-22-autocomplete/</guid>
-      <description>&lt;p&gt;Note to self: if you are going to name a new site, think about when you autocomplete it what sites you&amp;#39;re competing with for autocomplete space.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;AA - &lt;a href=&#34;http://www.aadl.org&#34; target=&#34;_self&#34;&gt;Ann Arbor District Library&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AB - about:memory, Chrome diagnostic&lt;/p&gt;
-&lt;p&gt;AC - &lt;a href=&#34;http://www.accuweather.com/us/mi/ann-arbor/48104/city-weather-forecast.asp&#34; target=&#34;_self&#34;&gt;Accuweather for Ann Arbor 48104&lt;/a&gt;, city weather forecast&lt;/p&gt;
-&lt;p&gt;AD - &lt;a href=&#34;http://adage.com/&#34; target=&#34;_self&#34;&gt;Advertising Age&lt;/a&gt;, trade publication for the advertising industry&lt;/p&gt;
-&lt;p&gt;AE - (not used)&lt;/p&gt;
-&lt;p&gt;AF - (not used)&lt;/p&gt;
-&lt;p&gt;AG - (not used)&lt;/p&gt;
-&lt;p&gt;AH - (not used)&lt;/p&gt;
-&lt;p&gt;AI - &lt;a href=&#34;http://www.damnarbor.com/2011/02/invasive-species-ailanthus-altissima.html&#34; target=&#34;_self&#34;&gt;Ailanthus altissima&lt;/a&gt; (Tree of heaven), in particular the Damn Arbor review of this invasive species&amp;#0160;&lt;/p&gt;
-&lt;p&gt;AJ - &lt;a href=&#34;http://www.ajc.com/&#34; target=&#34;_self&#34;&gt;Atlanta Journal-Constitution&lt;/a&gt;, a newspaper in Atlanta, Georgia&lt;/p&gt;
-&lt;p&gt;AK - (not used)&lt;/p&gt;
-&lt;p&gt;AL - (fails to load)&lt;/p&gt;
-&lt;p&gt;AM - &lt;a href=&#34;http://am1610.org&#34; target=&#34;_self&#34;&gt;AM 1610&lt;/a&gt;, The Station, from Hamtramck Michigan.&lt;/p&gt;
-&lt;p&gt;AN - &lt;a href=&#34;http://annarborchronicle.com/&#34; target=&#34;_self&#34;&gt;Ann Arbor Chronicle&lt;/a&gt;, online newspaper that focuses on civic affairs and local government coverage for Ann Arbor, Michigan.&lt;/p&gt;
-&lt;p&gt;AO - &lt;a href=&#34;http://aol.com&#34; target=&#34;_self&#34;&gt;AOL.COM&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://aol.com&#34; target=&#34;_self&#34;&gt;&lt;/a&gt;AP - &lt;a href=&#34;https://apps.facebook.com/activestep/&#34; target=&#34;_self&#34;&gt;Steps&lt;/a&gt; application on Facebook, which loads via &lt;a href=&#34;https://apps.facebook.com&#34; target=&#34;_self&#34;&gt;apps.facebook.com&lt;/a&gt;.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;AQ - (not used)&lt;/p&gt;
-&lt;p&gt;AR - &lt;a href=&#34;http://arborwiki.org&#34; target=&#34;_self&#34;&gt;Arborwiki&lt;/a&gt;, a local encyclopedia of information about the Ann Arbor area that anyone can edit.&lt;/p&gt;
-&lt;p&gt;AS - &lt;a href=&#34;http://ask.com&#34; target=&#34;_self&#34;&gt;ASK.com&lt;/a&gt;, a search engine&lt;/p&gt;
-&lt;p&gt;AT - &lt;a href=&#34;http://att.net&#34; target=&#34;_self&#34;&gt;ATT.NET&lt;/a&gt;, which redirects somehow to My Yahoo. The dream of the 90s is alive.&lt;/p&gt;
-&lt;p&gt;AU - (not used)&lt;/p&gt;
-&lt;p&gt;AV - &lt;a href=&#34;http://aviationweather.gov/&#34; target=&#34;_self&#34;&gt;AviationWeather.GOV&lt;/a&gt; - National Weather Service consolidated weather reporting for aviation use.&lt;/p&gt;
-&lt;p&gt;AW - Google search for &lt;a href=&#34;http://www.google.com/search?aq=2&amp;amp;oq=aw&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&amp;amp;q=awk&#34; target=&#34;_self&#34;&gt;AWK&lt;/a&gt;, a programming language that dates from Version 7 Unix (1977)&lt;/p&gt;
-&lt;p&gt;AX - (not used)&lt;/p&gt;
-&lt;p&gt;AY - (not used)&lt;/p&gt;
-&lt;p&gt;AZ - (not used)&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Note to self: if you are going to name a new site, think about when you autocomplete it what sites you&amp;#39;re competing with for autocomplete space.&amp;#0160;
+AA - Ann Arbor District Library
+AB - about:memory, Chrome diagnostic
+AC - Accuweather for Ann Arbor 48104, city weather forecast
+AD - Advertising Age, trade publication for the advertising industry
+AE - (not used)
+AF - (not used)
+AG - (not used)
+AH - (not used)</description>
     </item>
     
     <item>
@@ -227,8 +143,7 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Sun, 17 Oct 2010 16:39:44 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-10-17-its-hard-to-have-great-weird-ideas-when-youre-busy-closing-trouble-tickets/</guid>
-      <description>&lt;p&gt;Conversely, it&amp;#39;s hard to close trouble tickets when you are having great weird ideas; those ideas tend to create trouble in and of themselves.&lt;/p&gt;
-</description>
+      <description>Conversely, it&amp;#39;s hard to close trouble tickets when you are having great weird ideas; those ideas tend to create trouble in and of themselves.</description>
     </item>
     
     <item>
@@ -237,19 +152,8 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Mon, 12 Jul 2010 12:15:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-07-12-nathan-schneider-defends-the-memory-theater/</guid>
-      <description>&lt;p&gt;An essay published in &lt;a href=&#34;http://www.openlettersmonthly.com/in-defense-of-the-memory-theater/&#34;&gt;Open Letters Monthly.&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;What concerns me about the literary apocalypse that everybody now expects—the at least partial elimination of paper books in favor of digital alternatives—is not chiefly the books themselves, but the bookshelf. My fear is for the eclectic, personal collections that we bookish people assemble over the course of our lives, as well as for their grander, public step-siblings. &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;I fear for our memory theaters.&lt;/span&gt;&lt;/blockquote&gt;
-&lt;p&gt;Any essay of lamentation about the end of books and the glory of human memory has to include some touchstones.  Frances Yates is that touchstone here:&lt;/p&gt;
-&lt;blockquote&gt;One of the books that I used to habitually pick up from my college library, and which, recently, I finally bought used, is &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Frances Yates&lt;/span&gt;’s classic &lt;span style=&#34;background-color: #ffdfbf;&#34;&gt;The Art of Memory&lt;/span&gt;. First published in 1966, it chronicles lost mnemonic techniques, passed down from the ancient orators to the Renaissance humanists: spaces people would conjure in their minds to help them remember all the precious accoutrements of civilized knowledge.&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538f3bef0a970b-pi&#34;&gt;&lt;img alt=&#34;The Art of Memory&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538f3bef0a970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538f3bef0a970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;The Art of Memory&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;One of the pleasures of writing incessantly online is the likelihood that you&amp;#39;ve run across something before, even if you don&amp;#39;t have it in the top of memory.  Prentiss Riddle wrote about &lt;a href=&#34;http://aprendizdetodo.com/time/?item=20030331&#34;&gt;The Art of Memory&lt;/a&gt; in 2003, apparently because I mentioned it on a mailing list, saying this:&lt;/p&gt;
-&lt;blockquote&gt;[Frances Yates], [The Art of Memory] -- just getting started on this one, which is an account of the history of mnemotechnics: the art and practice of expanding and augmenting the human memory. The classical account of this goes back to &lt;span style=&#34;background-color: #bfdfff;&#34;&gt;Simonides of Ceos&lt;/span&gt;, who had memorized all of the names and seating arrangements of the attendees at a banquet while giving a speech to them and was thus able to identify the dead when the banquet hall collapsed. Ancient orators used these memory systems to memorize long, long speeches.&lt;/blockquote&gt;
-&lt;p&gt;Now, armed with a new word &amp;quot;mnemotechnic&amp;quot;, I can go through and pluck out this precious specimen from Google Books; the &lt;a href=&#34;http://books.google.com/books?id=ImcPAAAAYAAJ&#34;&gt;Phreno-mnemotechnic dictionary&lt;/a&gt;, a work from 1844 by &lt;span style=&#34;background-color: #bfdfff;&#34;&gt;Francis Fauvel-Gourand&lt;/span&gt; with a preface that illustrates the noted figures in the history of those who have an exceptional memory. The bulk of the work is a dictionary compiled along the principles of &amp;quot;soundex&amp;quot;, where words with similar consonant structure are indexed together and given a number.  Thus you will find on page 62 the entry for 382 (&amp;quot;homophony&amp;quot;, &amp;quot;muffin&amp;quot;); to make this make sense, you need to get a mapping between the &amp;quot;m&amp;quot; sound and the number 3, &amp;quot;f&amp;quot; or &amp;quot;ph&amp;quot; and 8, &amp;quot;n&amp;quot; and 2, and then encode.&lt;/p&gt;
-&lt;p&gt;Could there be any practical use for this?  Certainly; this is a &lt;span style=&#34;background-color: #ffbfff;&#34;&gt;learned synesthesia&lt;/span&gt;, where numbers turn into words.  If you ever have had to memorize a license plate number (I am looking at one where the partial plate is &amp;quot;6981&amp;quot;) you know it&amp;#39;s hard.  But knowing that 69 maps to &amp;quot;sheep&amp;quot; and 81 maps to &amp;quot;fat&amp;quot; means that this vehicle can be memorialized as &amp;quot;sheepfat&amp;quot;, which is wonderful in its own way.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;background-color: #ddebe2;&#34;&gt;Now where was I?  Distracted, I guess&lt;/span&gt;.  Like Nathan Schneider, my memories are indexed in part through the books I have been reading.  The bookshelf that he evokes, carefully collected, is the memory construct that says that when you pull in one book you want to be able to leaf through the one next to it on the bookshelf, or the whole shelf full of them assembled for a purpose.  You judge the quality of a story told through books by the quality and comprehensiveness of the books invoked to tell it, and you look for the bibliography eagerly for texts you have missed.&lt;/p&gt;
-&lt;p&gt;My bookshelves are too small to hold all the books that might sit on them, but sometimes there have been ways to make up for that.  The &lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/3177427/&#34;&gt;photo of the bookshelf&lt;/a&gt; provides some substitute to prove not only that you have had the books but also that you know that some go together with others.&lt;/p&gt;
-&lt;p&gt;Find the book&amp;#0160;&amp;lt;a href=&amp;quot;http://www.amazon.com/gp/product/0226950018/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=superpatron-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399369&amp;amp;creativeASIN=0226950018&amp;quot;&amp;gt;The Art of Memory&amp;lt;/a&amp;gt;&amp;lt;img src=&amp;quot;http://www.assoc-amazon.com/e/ir?t=&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=0226950018&amp;amp;camp=217145&amp;amp;creative=399369&amp;quot; width=&amp;quot;1&amp;quot; height=&amp;quot;1&amp;quot; border=&amp;quot;0&amp;quot; alt=&amp;quot;&amp;quot; style=&amp;quot;border:none !important; margin:0px !important;&amp;quot; /&amp;gt; on Amazon.&lt;/p&gt;
-</description>
+      <description>An essay published in Open Letters Monthly.
+What concerns me about the literary apocalypse that everybody now expects—the at least partial elimination of paper books in favor of digital alternatives—is not chiefly the books themselves, but the bookshelf. My fear is for the eclectic, personal collections that we bookish people assemble over the course of our lives, as well as for their grander, public step-siblings. I fear for our memory theaters.</description>
     </item>
     
     <item>
@@ -258,18 +162,9 @@ Written with the same automatic arrangement of the keyboard that makes typing ea
       <pubDate>Sun, 11 Jul 2010 21:05:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-07-11-assisted-synesthesia-as-augmented-reality/</guid>
-      <description>&lt;p&gt;&lt;p&gt;A comment I wrote on Ethan Hein&amp;#39;s &lt;a href=&#34;http://www.ethanhein.com/wp/2009/in-the-sequencer-the-notation-is-the-performance&#34;&gt;account of color-coding sequencer tracks:&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;When you say “&lt;span style=&#34;background-color: #bfffdf;&#34;&gt;color coding improved your ears&lt;/span&gt;”, the first thing that comes to mind is that you are doing some kind of machine-assisted &lt;span style=&#34;background-color: #ffff80;&#34;&gt;synesthesia&lt;/span&gt;. very cool, that.&lt;/blockquote&gt;
-&lt;p&gt;another enticing pice from &lt;a href=&#34;http://oblong.com/article/085zBpRSY9JeLv2z.html&#34;&gt;oblong industries&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;It&amp;#39;s true that one of the elements is a blue ball that bounces in time to the music and touches down on the notes that are playing just then. Also true: a ball like that can never be entirely serious, but it can be entirely effective. What works is assisted &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;synaesthesia&lt;/span&gt;, making sound seem like sight and looking seem like hearing. The time in which music happens is turned into the space of the animated score.&lt;/blockquote&gt;
-&lt;p&gt;And then pretty quickly we hit this &lt;a href=&#34;http://www.youtube.com/watch?v=b6YTQJVzwlI&#34;&gt;video of John Underkoffler at TED&lt;/a&gt; on the future of the user interface.  Not quite what I was after, very lovely in its own Minority Report style but not for the perspective I was after.&lt;/p&gt;
-&lt;p&gt;This has &lt;a href=&#34;http://jaicoxkiod.blogspot.com/&#34;&gt;an interesting perspective from a &lt;span style=&#34;background-color: #bfffdf;&#34;&gt;synaesthete&lt;/span&gt;, but I won&amp;#39;t quote&lt;/a&gt; based on the copyright:&lt;/p&gt;
-&lt;blockquote&gt;PLEASE DO NOT LIFT CONTENT FROM THESE PAGES WITHOUT FIRST OBTAINING PERMISSION. ONCE PERMISSION HAS BEEN OBTAINED, YOU ARE OBLIGED TO INCLUDE A LINK FROM THE CONTENT BACK TO THIS SITE. You are welcome to post content on this site, provided you include a link back to its hosting origin. Many thanks.&lt;/blockquote&gt;
-&lt;p&gt;An, finally, aha, wikipedia yields a reference:  Plouznikoff, N., Plouznikoff, A. &amp;amp; Robert, J.-M. (2005), &amp;quot;Artificial &lt;span style=&#34;background-color: #ffbfff;&#34;&gt;Grapheme-Color Synesthesia&lt;/span&gt; for Wearable Task Support&amp;quot;, Ninth IEEE International Symposium on Wearable Computers, pp. 108-113&lt;/p&gt;
-&lt;blockquote&gt;This paper presents the benefits of generating an artificial &lt;span style=&#34;background-color: #ffbfdf;&#34;&gt;visual synesthesia&lt;/span&gt; through a wearable computer. Following a short introduction to remind the need for seamless human-wearable computer interactions, this paper makes the case for drawing upon synesthesia, a combination of the senses naturally occurring in a small portion of the population, to augment everyday entities and more precisely to enrich written graphemes. We present the rationale behind our research and summarize the functionality, architecture and implementation of our current prototype. Preliminary results suggest that this kind of &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;artificial synesthesia improves short term memory recall and visual information search times&lt;/span&gt;.&lt;/blockquote&gt;
-&lt;p&gt;and &lt;a href=&#34;http://doi.acm.org/10.1145/1124772.1124828&#34;&gt;the followup paper&lt;/a&gt; crucially gives the link to augmented reality&lt;/p&gt;
-&lt;blockquote&gt;This paper studies a novel approach advocating the virtual alteration of real-world interfaces through a form of augmented reality. Following an introduction reminding the need for easy to use and more consistent interfaces across our many day to day devices, this paper makes the case for using wearable computers to enhance the interactions between humans and conventional appliances. We present the rationale behind our research and summarize our current prototype&amp;#39;s functionalities, architecture and implementation. Preliminary results suggest that &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;virtually altering the interface of real world devices improves execution times for simple tasks using these devices.&lt;/span&gt;&lt;/blockquote&gt;&lt;/p&gt;
-</description>
+      <description>A comment I wrote on Ethan Hein&amp;#39;s account of color-coding sequencer tracks:
+When you say “color coding improved your ears”, the first thing that comes to mind is that you are doing some kind of machine-assisted synesthesia. very cool, that. another enticing pice from oblong industries
+It&amp;#39;s true that one of the elements is a blue ball that bounces in time to the music and touches down on the notes that are playing just then.</description>
     </item>
     
   </channel>

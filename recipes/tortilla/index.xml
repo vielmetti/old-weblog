@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/recipes/tortilla/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Tortilla on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/recipes/tortilla/</link>
+    <description>Recent content in Tortilla on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/recipes/tortilla/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Oct 2014 23:45:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/recipes/tortilla/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>recipe: tortilla casserole</title>
@@ -14,36 +17,10 @@
       <pubDate>Wed, 15 Oct 2014 23:45:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-15-recipe-tortilla-casserole/</guid>
-      <description>&lt;p&gt;This comes out kind of like a lasagna and is designed the same way:
-lots of layers.&lt;/p&gt;
-
-&lt;p&gt;Ingredients:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;one package tortillas (whole wheat, corn, or flour)&lt;/li&gt;
-&lt;li&gt;one can tomatoes with chiles&lt;/li&gt;
-&lt;li&gt;one can black beans&lt;/li&gt;
-&lt;li&gt;1/2 jar corn relish&lt;/li&gt;
-&lt;li&gt;one package shredded cheese&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;assemble in layers, roughly as so:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;tortillas&lt;/li&gt;
-&lt;li&gt;tomatoes with chiles&lt;/li&gt;
-&lt;li&gt;tortillas&lt;/li&gt;
-&lt;li&gt;beans&lt;/li&gt;
-&lt;li&gt;cheese&lt;/li&gt;
-&lt;li&gt;tortillas&lt;/li&gt;
-&lt;li&gt;relish&lt;/li&gt;
-&lt;li&gt;cheese&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bake in a 350 degree oven; I left it in for about an hour, until the top was nicely browned and not singed.&lt;/p&gt;
-
-&lt;p&gt;Served 3 (one dinner guest opted out)&lt;/p&gt;
-</description>
+      <description>This comes out kind of like a lasagna and is designed the same way: lots of layers.
+Ingredients:
+ one package tortillas (whole wheat, corn, or flour) one can tomatoes with chiles one can black beans 1/2 jar corn relish one package shredded cheese  assemble in layers, roughly as so:
+ tortillas tomatoes with chiles tortillas beans cheese tortillas relish cheese  Bake in a 350 degree oven; I left it in for about an hour, until the top was nicely browned and not singed.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/node-red/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Node Red on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/node-red/</link>
+    <description>Recent content in Node Red on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/node-red/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Oct 2016 13:15:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/node-red/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>AWS IoT to Node-RED</title>
@@ -14,32 +17,8 @@
       <pubDate>Tue, 11 Oct 2016 13:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-11-aws-iot-to-node-red/</guid>
-      <description>&lt;p&gt;Duong Dinh Cuong (on Github as &lt;a href=&#34;https://github.com/cuongquay&#34;&gt;cuongquay&lt;/a&gt;) has contributed a node
-for Node-RED that encapsulates the AWS IoT service and allows
-straightforward communication between the two systems over MQTT.&lt;/p&gt;
-
-&lt;p&gt;The node, node-red-contrib-aws-iot-hub,
-includes support for the message-passing
-part of AWS IoT using MQTT, allowing you to open
-a channel to the IoT service and publish or subscribe
-to message topics. The result is easy integration between
-the two systems. As a part of this process, the node
-includes support for AWS certificates that have to be
-installed &amp;ldquo;just so&amp;rdquo; to allow AWS to trust Node-RED.&lt;/p&gt;
-
-&lt;p&gt;The current release is 0.1.5 from today, October 11, 2016.
-You can find it on &lt;a href=&#34;https://github.com/cuongquay/node-red-contrib-aws-iot&#34;&gt;Github&lt;/a&gt;,
-on &lt;a href=&#34;https://www.npmjs.com/package/node-red-contrib-aws-iot-hub&#34;&gt;NPM&lt;/a&gt;,
-and in the &lt;a href=&#34;http://flows.nodered.org/node/node-red-contrib-aws-iot-hub&#34;&gt;Node-RED flows library&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve tested this with my airplane tracking code which publishes
-from a Raspberry Pi to AWS IoT using mosquitto, and it all seems
-to check out OK. A next step on my part is to port the whole
-experience up from my Mac where a test instance is running up to
-CoreOS, and also to document the AWS command line to generate
-the correct certificates in the correct format with the correct
-file names.&lt;/p&gt;
-</description>
+      <description>Duong Dinh Cuong (on Github as cuongquay) has contributed a node for Node-RED that encapsulates the AWS IoT service and allows straightforward communication between the two systems over MQTT.
+The node, node-red-contrib-aws-iot-hub, includes support for the message-passing part of AWS IoT using MQTT, allowing you to open a channel to the IoT service and publish or subscribe to message topics. The result is easy integration between the two systems. As a part of this process, the node includes support for AWS certificates that have to be installed &amp;ldquo;just so&amp;rdquo; to allow AWS to trust Node-RED.</description>
     </item>
     
     <item>
@@ -48,151 +27,8 @@ file names.&lt;/p&gt;
       <pubDate>Mon, 11 Jul 2016 13:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/</guid>
-      <description>
-
-&lt;p&gt;The task at hand is simple. Whenever a particular airplane is visible overhead,
-send out a tweet with that notice. Don&amp;rsquo;t repeat yourself with this announcement
-more than twice an hour, but try not to have too much lag in reporting.&lt;/p&gt;
-
-&lt;p&gt;The full stack of hardware and software to do this is not particularly
-complicated to use once you get it all running, but there are a series
-of issues and observations along the way that add to the complexity. I&amp;rsquo;ll
-walk through the whole thing start to finish, and let you know where I
-left off.&lt;/p&gt;
-
-&lt;p&gt;The basic toolkit is dump1090-mutability for plane spotting,
-Node-RED for wiring flows for data processing, and
-Docker to package up the bits that are stable.&lt;/p&gt;
-
-&lt;h2 id=&#34;plane-spotting&#34;&gt;Plane spotting&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/&#34;&gt;When last I wrote&lt;/a&gt;,
-I had &lt;a href=&#34;http://github.com/mutability/dump1090&#34;&gt;dump1090&lt;/a&gt;
-running on my MacBook. Since then, I&amp;rsquo;ve taken the same software and gotten
-the latest dev release going on a Raspberry Pi 2.&lt;/p&gt;
-
-&lt;p&gt;I switched to a smaller, simpler antenna, and the result was positive: instead of
-having a 40 to 50 nautical mile range, now I&amp;rsquo;m in the 60 to 65 nm range (about 110 km).
-It might also help that the Pi 2 is not really doing very much else. That
-particular Pi 2 setup is using a slightly back-rev version of the
-&lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt; software for the Pi, so it has all
-of the modern conveniences plus an instance of Docker on board. The
-temptation was to Dockerize everything, but I haven&amp;rsquo;t gone there yet;
-the available Docker prebuilt releases don&amp;rsquo;t have the bleeding edge of
-the dump1090-mutability code, and I want to see how the whole thing runs
-native for a while before containerizing it.&lt;/p&gt;
-
-&lt;p&gt;The snag that slowed down this deployment a little was Google&amp;rsquo;s decision
-to enforce an API key for personal use of Google Maps. In response, the
-very latest dump1090-mutability pulled out its Google Maps support, and
-went to &lt;a href=&#34;http://openlayers.org/&#34;&gt;OpenLayers&lt;/a&gt;. This new support gives
-access to all kinds of base maps, including some aviation-specific
-charts. (&amp;ldquo;Not for use in navigation.&amp;rdquo;)&lt;/p&gt;
-
-&lt;p&gt;Another piece of this was bringing up &lt;a href=&#34;http://www.lighttpd.net/&#34;&gt;lighttpd&lt;/a&gt;
-(&amp;ldquo;lighty&amp;rdquo;), a lightweight HTTP server that replaces the rickety
-built-in HTTP server that dump1090 had originally shipped with.
-Configuration following the supplied instructions was simple,
-and lighttpd looks like a very suitable system to put in place to
-serve HTTP on embedded-class system that need flexiblity but not
-a big footprint.&lt;/p&gt;
-
-&lt;p&gt;The other component in the Pi setup is an ADS-B feed to the excellent
-&lt;a href=&#34;http://planefinder.net&#34;&gt;Planefinder&lt;/a&gt; site. Planefinder provides a Debian
-package for setting up the feed, and it runs neatly with only a minimum
-of overhead. As a bonus you get free use of their apps, which are
-notable for running in much closer to real time than others I have seen.&lt;/p&gt;
-
-&lt;p&gt;The Pi does not yet have a working OpenVPN configuration, so I can&amp;rsquo;t get
-to it over the net directly. For that I plan to revisit the
-&lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/&#34;&gt;SaltStack for Pi&lt;/a&gt;
-configuration I wrote up last September. In the interim, salt has
-been upgraded, and perhaps it will be a little more stable over bad
-connections; we&amp;rsquo;ll see.&lt;/p&gt;
-
-&lt;h2 id=&#34;data-analysis&#34;&gt;Data analysis&lt;/h2&gt;
-
-&lt;p&gt;dump1090 provides a data feed in a convenient JSON format, available
-through a URL on a standard configuruation. The ADS-B messages themselves
-are binary encoded, but the system brings them into JSON so that all
-of the downstream processing is very easy.&lt;/p&gt;
-
-&lt;p&gt;Data handling is so straightforward that you can do it all without
-needing any special-purpose processing nodes in IBM&amp;rsquo;s &lt;a href=&#34;http://nodered.org&#34;&gt;Node-RED&lt;/a&gt;.
-A standard HTTP in node polls the data at the pace that you choose,
-and a simple function pulls apart the record of all planes into
-individual records for each plane.&lt;/p&gt;
-
-&lt;p&gt;Getting Node-RED running is continuing to get easier over time.
-I&amp;rsquo;m doing prototyping work on my Macintosh again, using the
-new &lt;a href=&#34;https://blog.docker.com/2016/06/docker-mac-windows-public-beta/&#34;&gt;Docker for Mac&lt;/a&gt;
-setup to pick up a &lt;a href=&#34;https://hub.docker.com/r/cpswan/node-red/&#34;&gt;Node-RED container&lt;/a&gt;
-to do the work in. &lt;a href=&#34;https://kitematic.com/&#34;&gt;Kitematic&lt;/a&gt; comes with Docker for Mac,
-providing a convenient dashboard and interface to Docker Hub.&lt;/p&gt;
-
-&lt;p&gt;(Do note, however, that if you got Docker for Mac running a few months
-ago, you&amp;rsquo;ll need to go through a rebuild process to go to the latest
-beta. To &lt;a href=&#34;https://docs.docker.com/docker-for-mac/troubleshoot/#/recreate-or-update-your-containers-after-beta-18-upgrade&#34;&gt;recreate or update your containers after Beta 18 upgrade&lt;/a&gt;
-follow the provided instructions.)&lt;/p&gt;
-
-&lt;p&gt;Once you have both Node-RED and dump1090 running, connecting the
-two together is straightforward. I started with this
-&lt;a href=&#34;https://gist.github.com/dceejay/3288996fefdc3aef04846496277b6444&#34;&gt;gist from dceejay&lt;/a&gt; which
-provides the basic flow and feeds into a
-&lt;a href=&#34;http://flows.nodered.org/node/node-red-contrib-web-worldmap&#34;&gt;worldmap node&lt;/a&gt; that
-is a general programmable interface for putting things on a map. My
-&lt;a href=&#34;https://gist.github.com/vielmetti/6329ea5a49dadd2f106980a20727d16e&#34;&gt;updated dump1090 gist for Node-RED&lt;/a&gt;
-adapts the data for a slightly different format between dump1090 forks.&lt;/p&gt;
-
-&lt;p&gt;From here in it&amp;rsquo;s relatively clear sailing. Set up a flow downstream
-from the plane messages, using a filter node to match the name or
-ICAO hex code of the airplane that you want to track. Wire it through
-a delay filter to set the frequency of messages you want to
-allow through, and a formatting node to pretty up the message in
-a form suitable for Twitter output.&lt;/p&gt;
-
-&lt;h2 id=&#34;incomplete-image-and-next-steps&#34;&gt;Incomplete image and next steps.&lt;/h2&gt;
-
-&lt;p&gt;This is a relatively complex stack, but it all fits neatly on a Raspberry Pi 2,
-and with a little bit more elbow grease it should be possible to containerize
-everything so that it Just Works and can be made to reliably work again.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;d like to have OpenVPN running on the Pi 2, but it isn&amp;rsquo;t yet, pending
-rework of Salt to get that to a current version and to port all of the
-work I did from an earlier version.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m picking up planes from 60+ nm away, but I know that with a better
-antenna, bandpass filter, and amplifier that I can do better.
-&lt;a href=&#34;https://puck.nether.net/~jared/blog/?p=160&#34;&gt;Jared Mauch&amp;rsquo;s parts list&lt;/a&gt;
-would be the place to go for starters with a very modest budget of
-a couple of hundred bucks.&lt;/p&gt;
-
-&lt;p&gt;Reception is best if you have a clear view of the sky, which suggests
-an outdoors installation, powering the Pi with power over ethernet.&lt;/p&gt;
-
-&lt;p&gt;The system is running on a Pi 2, but reports from Jared and from Phil Karn KA9Q
-suggest that if you do upgrade the reception that it&amp;rsquo;s possible to
-saturate the Pi 2. Fortunately a Pi 3 does even better at the intended task.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m still figuring out what the very best way to create a Docker image
-that handles Node-RED, especially the installation of additional nodes
-and the management of flows. You&amp;rsquo;d like to have the whole thing suitably
-tidy that it could be all loaded in from the get-go.&lt;/p&gt;
-
-&lt;p&gt;dump1090-mutability is still mutating! It&amp;rsquo;s under active development,
-both at the presentation layer and at the decoder layer. So it would
-be appropriate to have the attitude for at least one development machine
-to be sure that you were ready to rebuild from source whenever.&lt;/p&gt;
-
-&lt;p&gt;If you only have half of this stack running (the Node-RED side) but no access
-to radios, you can find an existing dump1090 installation and pull the
-JSON from there. This is best done only via prior arrangement and only
-for testing purposes or for specific tasks. It&amp;rsquo;s easy to crank up Node-RED
-to poll a URL every second; don&amp;rsquo;t do that to a poor little Pi.&lt;/p&gt;
-
-&lt;p&gt;The planes I want to watch don&amp;rsquo;t take off very often - that&amp;rsquo;s the appeal
-of watching for them.&lt;/p&gt;
-</description>
+      <description>The task at hand is simple. Whenever a particular airplane is visible overhead, send out a tweet with that notice. Don&amp;rsquo;t repeat yourself with this announcement more than twice an hour, but try not to have too much lag in reporting.
+The full stack of hardware and software to do this is not particularly complicated to use once you get it all running, but there are a series of issues and observations along the way that add to the complexity.</description>
     </item>
     
     <item>
@@ -201,93 +37,8 @@ of watching for them.&lt;/p&gt;
       <pubDate>Tue, 21 Jul 2015 16:57:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-21-coworking-notes/</guid>
-      <description>&lt;p&gt;A productive afternoon with Mohan Kartha in which I opened a great
-many tabs in Chrome. This bit of writing to close those out. Elixir
-Vitae is a great spot for writing - lots of quiet noise from the coolers
-to keep a background hum, and close to the bus station.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;I&amp;rsquo;m sorting out the simplest task that I&amp;rsquo;d like to do with Node-RED,
-now that I have a Raspberry Pi 2 running it under Docker in a configuration
-that&amp;rsquo;s reliable enough that it seems like it&amp;rsquo;s stable. The easiest
-network test in the world is the ping test, and so my first stab at
-a try for &amp;ldquo;run always&amp;rdquo; is a simple configuration to notice when the
-network looks like it&amp;rsquo;s down and when it is to collect some more
-detailed information and log it to a file.&lt;/p&gt;
-
-&lt;p&gt;The inspiration for that is this simple configuration from an idea
-by Nathan Chantrell, implemented by Martin Harizanov in 2014.
-&lt;a href=&#34;https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/&#34;&gt;Presence detection using phone’s WiFi and Node-RED&lt;/a&gt; relies on static
-IP address assignments from DHCP, plus &amp;ldquo;ping&amp;rdquo;, to notice if
-someone&amp;rsquo;s device is in the building, turned on, and listening to
-wifi.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve had enough phones drain their battery to know that absence
-of a wifi signal is not an unambiguous marker!&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Fantelope is doing a beta product launch at the final AFC Ann Arbor minor
-league soccer game of the year, Saturday, July 25 at 6 PM at Hollway
-Field (Pioneer High School, 601 W. Stadium, Ann Arbor). See
-&lt;a href=&#34;http://fantelope.com/afc-ann-arbor-fantelope-beta-launch/&#34;&gt;the Fantelope web site&lt;/a&gt;
-for more details.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;My first pass at writing code to send postcards from Lob.com is
-working. The note to self is that if you have a square bracket in
-a URL, that you have to turn off curl&amp;rsquo;s globbing function, e.g.
-with -g or &amp;ndash;globoff. &amp;ldquo;When you set this option, you can specify
-URLs that contain the letters {}[] without having them being
-interpreted by curl itself. &amp;ldquo;&lt;/p&gt;
-
-&lt;p&gt;Every card has a tracking code, so the next bit of reporting to write
-is to see which cards are awaiting printing, which ones are in transit,
-where they are going to and whether they have been received.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The AAATA moved the endpoint URL for its old-school &amp;ldquo;classic&amp;rdquo;
-mobile RideTrak application. To go to a particular route like
-the 5, see e.g. &lt;a href=&#34;http://mobile.theride.org/classic/rideguide_m.asp?route=5&#34;&gt;http://mobile.theride.org/classic/rideguide_m.asp?route=5&lt;/a&gt; .
-The main &lt;a href=&#34;http://mobile.theride.org&#34;&gt;http://mobile.theride.org&lt;/a&gt; has a newer interface, but
-alas my Windows Phone 8.1 with its Internet Explorer browser
-doesn&amp;rsquo;t do that page justice. (That, and I prefer the old interface
-because I managed to figure it out for the stop I&amp;rsquo;m always catching
-the bus from.)&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.getlittlebird.com/&#34;&gt;Little Bird&lt;/a&gt; promises to
-&amp;ldquo;help businesses unlock the valuable information in structured social data&amp;rdquo;.
-I&amp;rsquo;ve asked for a trial to see what they have in store.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;I&amp;rsquo;m wondering what the best approach is to the task of
-&amp;ldquo;download all of my email from Gmail&amp;rdquo;, since the storage I
-now have available on my laptop would make it straightforward
-to have an 18 GB personal mail spool and because I really actually
-would love to search through it so that I can mark some messages
-for permanent deletion. One possibility is &lt;a href=&#34;https://www.enkive.org&#34;&gt;Enkive&lt;/a&gt;
-from The Linux Box.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;I am reminded that I want to carry around a set of headphones with me
-that plug into my Nokia 635 so that I can use the phone as a radio,
-and also reminded that I want to try to construct a headphone dipole
-as an antenna for my NooElec DVB-T tuner. The challenge will be remembering
-those desires at the right time so that when I see the parts I need
-in the junk pile at home that I can grab what I need for my every
-day carry bag.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Oh, and I need to track down an 8 GB USB stick to load a boot ISO on.&lt;/p&gt;
-</description>
+      <description>A productive afternoon with Mohan Kartha in which I opened a great many tabs in Chrome. This bit of writing to close those out. Elixir Vitae is a great spot for writing - lots of quiet noise from the coolers to keep a background hum, and close to the bus station.
+ I&amp;rsquo;m sorting out the simplest task that I&amp;rsquo;d like to do with Node-RED, now that I have a Raspberry Pi 2 running it under Docker in a configuration that&amp;rsquo;s reliable enough that it seems like it&amp;rsquo;s stable.</description>
     </item>
     
     <item>
@@ -296,53 +47,9 @@ day carry bag.&lt;/p&gt;
       <pubDate>Mon, 13 Jul 2015 02:18:01 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-13-bringing-up-node-red-and-mosquitto-under-docker-compose-on-a-raspberry-pi/</guid>
-      <description>&lt;p&gt;Progress, actually quite a lot of it:&lt;/p&gt;
-
-&lt;p&gt;The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Compose is a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The particular task I have in front of me is launching Node-RED and mosquitto (an MQTT broker) together on a Raspberry Pi 2 which is running Hypriot and Docker. Most of the background for &lt;em&gt;why&lt;/em&gt; that&#39;s a relevant task is at this post on Hypriot, &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;How to use Docker Compose to run complex multi container apps on your Raspberry Pi&lt;/a&gt;, which I dutifully and successfully managed to run all of the examples from. &lt;/p&gt;
-
-&lt;p&gt;Emboldened by this I tried to get Wordpress running with MySQL but got stuck because of a variety of things (not the least of which was some over-enthusiastic documentation that downplayed the complexity of that task, and the lack of a Pi-specific Wordpress Docker images). But having had the taste of what might be I carried on until I managed to get something to work for what I really wanted: Node-RED running alongside mosquitto so that I could have a local MQTT broker to talk to.&lt;/p&gt;
-
-&lt;pre&gt;
-nodered:
-  image: nieleyde/rpi2-nodered
-  command: flows.json
-  volumes:
-    - /home/pi/node-red:/root/.node-red
-  ports: 
-    - &#34;1880:1880&#34;
-  links:
-    - mosquitto
-
-mosquitto:
-  image: nieleyde/rpi-mosquitto
-  ports:
-    - &#34;1883:1883&#34;
-&lt;/pre&gt;
-
-&lt;p&gt;Some subtleties to note:&lt;/p&gt;
-
-&lt;p&gt;The nieleyde/rpi2-nodered runs on the Pi 2; there&#39;s a corresponding nieleyde/rpi-nodered for the Pi. Both are ARM images. I haven&#39;t yet tweaked this to run on x86, but if you do, you&#39;ll need to update the &#34;image&#34; stanzas everywhere.&lt;/p&gt;
-
-&lt;p&gt;The &#34;command&#34; and &#34;volumes&#34; stanzas in the nodered configuration serve to make Docker mount a subdirectory on the host machine where the flows.json file is stored; this makes changes to the configuration persistent. If you want a read-only configuration, you&#39;ll need to change this; I haven&#39;t gotten that far yet. It might also make sense to have a data volume container, but again I&#39;m not there yet.&lt;/p&gt;
-
-&lt;p&gt;The &#34;mosquitto&#34; configuration is extremely bare bones and runs the default config, which is wide open. I haven&#39;t gotten far enough to replace the config file with something better, but that&#39;s an obvious next step.&lt;/p&gt;
-
-&lt;p&gt;From within Node-RED you refer to this internal MQTT server at hostname &#34;mosquitto&#34;, port &#34;1883&#34;. If the links stanza was changed to &#34;mqtt&#34; and the mosquitto section was changed to &#34;mqtt&#34; you&#39;d then refer to the MQTT server at hostname &#34;mqtt&#34;.&lt;/p&gt;
-
-&lt;p&gt;For further reading:&lt;/p&gt;
-
-&lt;p&gt;An issue open on Niel Eyde&#39;s rpi-nodered Github, &lt;a href=&#34;https://github.com/nieleyde/rpi-nodered/issues/5&#34;&gt;documentation for how to extend this image with your own nodes and flows&lt;/a&gt;, where I&#39;m working some of this out.&lt;/p&gt;
-
-&lt;p&gt;On the Node-RED Github, &lt;a href=&#34;https://github.com/node-red/node-red/issues/603&#34;&gt;Support for Docker install for Node-RED&lt;/a&gt;, which is epic and helpful in many ways.&lt;/p&gt;
-
-&lt;p&gt;The essential &lt;a href=&#34;http://blog.hypriot.com/&#34;&gt;Hypriot weblog&lt;/a&gt;, specifically the aforementioned &lt;a href=&#34;http://blog.hypriot.com/post/docker-compose-nodejs-haproxy/&#34;&gt;Docker Compose examples&lt;/a&gt; and the &lt;a href=&#34;https://github.com/hypriot/compose&#34;&gt;Hypriot Docker Compose&lt;/a&gt; Github repository.&lt;/p&gt;
-</description>
+      <description>Progress, actually quite a lot of it:
+The problem, neatly stated. Docker is good for bringing up single services (&#34;microservices&#34;), but sometimes your application needs more than one thing running for the whole thing to work. Enter &#34;docker compose&#34;, formerly &#34;fig&#34;, which automates the process of running various Docker commands in the right order with the right arguments all driven from a configuration file. As described by their documentation:
+ Compose is a tool for defining and running complex applications with Docker.</description>
     </item>
     
     <item>
@@ -351,22 +58,7 @@ mosquitto:
       <pubDate>Sat, 23 May 2015 02:06:33 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-23-running-node-red-on-a-raspberry-pi-with-docker-and-hypriot/</guid>
-      <description>&lt;p&gt;My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there&#39;s distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot. A word of explanation of how this all works in detail is too much, but here&#39;s where I got the parts.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/&#34;&gt;Hypriot&#39;s gettting started guide&lt;/a&gt; brings you up to speed on getting Docker running on your ARM device (e.g. your Raspberry Pi). They have bootable images that you can download and burn to SD card, and from there you load up applications from Docker.&lt;/p&gt;
-
-&lt;p&gt;Hypriot has a &lt;a href=&#34;https://gitter.im/hypriot/talk&#34;&gt;chat window&lt;/a&gt; on Gitter, so you can pop in and there will be occasionally people to assist. Best to do things European time.&lt;/p&gt;
-
-&lt;p&gt;Docker&#39;s &lt;a href=&#34;https://hub.docker.com/&#34;&gt;DockerHub&lt;/a&gt; is a one stop shop for packaged applications. When you&#39;re running on the Pi, you&#39;ll want to seek out versions with &#39;rpi&#39; or &#39;arm&#39; in their names as they have likely been adapted for that system.&lt;/p&gt;
-
-&lt;p&gt;I ended up pulling Niel Eyde&#39;s Raspberry Pi versions of Node-RED from DockerHub as &lt;a href=&#34;https://registry.hub.docker.com/u/nieleyde/rpi-nodered/&#34;&gt;nieleyde/rpi-nodered&lt;/a&gt;. It has all sorts of interesting modules that I had not previously built.&lt;/p&gt;
-
-&lt;p&gt;Node-RED is at 0.10.6 at this writing. Its &lt;a href=&#34;http://nodered.org/docs/hardware/raspberrypi.html&#34;&gt;Raspberry Pi support&lt;/a&gt; includes hardware support using &lt;a href=&#34;http://wiringpi.com/&#34;&gt;WiringPi&lt;/a&gt; to access the GPIO pins. &lt;/p&gt;
-
-&lt;p&gt;Node-RED currently supports Node.JS 0.10. Node.JS and IO.JS have &lt;a href=&#34;http://sdtimes.com/node-js-and-io-js-to-merge-under-node-js-foundation/&#34;&gt;merged forces&lt;/a&gt; after a fork, which means hopefully development will start to be sane again.&lt;/p&gt;
-
-&lt;p&gt;That all said I am not sure I have everything I need yet but as a leap forward it&#39;s pretty good!&lt;/p&gt;
-</description>
+      <description>My goal for the week was to empty out my inbox sufficiently that I would be able to make progress on some programming tasks that are hard to do when there&#39;s distractions. The inbox got all the way down to zero, and that meant that there was a chunk of evening time suitable for hacking. Happy to report that the result of this is Node-RED running on a Raspberry Pi under Docker on top of Hypriot.</description>
     </item>
     
     <item>
@@ -375,32 +67,10 @@ mosquitto:
       <pubDate>Tue, 27 Jan 2015 22:11:47 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-01-27-just-how-cold-is-that-window-winter-monitoring-with-the-ti-sensortag-node-red-and-freeboard/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40b54970d img-responsive&#34; alt=&#34;SensorTag&#34; title=&#34;SensorTag&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40b54970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our living room has lovely (old) wooden windows. When it&#39;s cold, the windows get cold. Last year we got some lovely thermal curtains to insulate.&lt;/p&gt;
-
-&lt;p&gt;I thought I&#39;d use some of the equipment I had to see just how cold the windows were and how much warmer the curtains are to the touch.&lt;/p&gt;
-
-&lt;p&gt;The setup:&lt;/p&gt;
-
-&lt;p&gt;Macbook Air running OS X 10.9 (Mavericks), Node-RED 0.9.1, Freeboard, TI Sensortag. I&#39;m using RabbitMQ as my MQTT message passing system, but that&#39;s not strictly necessary for this application.&lt;/p&gt;
-
-&lt;p&gt;The Macbook has support for Bluetooth Low Energy (BLE) which is what the Sensortag talks. Support for BLE in Node-RED is provided by the &#34;noble&#34; module, which the &#34;sensortag&#34; module uses to communicate with the device. Freeboard is a visualization dashboard with some simple widgets to display data coming to it.&lt;/p&gt;
-
-&lt;p&gt;This report on &lt;a href=&#34;https://gist.github.com/dceejay/fb47301b759222e05f84&#34;&gt;how to use the Freeboard dashboard with Node-RED&lt;/a&gt; has all of the difficult parts. It provides a websocket listener for Freeboard, and you use the built-in websocket transmitter on Node-RED. There&#39;s a very tiny bit of logic to pull apart the data coming off the Sensortag; it could probably be less if I were more clever.&lt;/p&gt;
-
-&lt;p&gt;The Node-RED code looks like this&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07e40ac5970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-01-27 at 10.00.33 PM&#34; title=&#34;Screen Shot 2015-01-27 at 10.00.33 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07e40ac5970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;and the very simple dashboard I put together to test this looks like this&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0c9e228970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-01-27 at 9.07.09 PM&#34; title=&#34;Screen Shot 2015-01-27 at 9.07.09 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0c9e228970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;There&#39;s a catch to using the TI Sensortag; it sometimes turns itself off, to save battery. To correct this you can install new firmware on the device to disable the battery saving mode. The folks at MyWeatherCenter provide a &lt;a href=&#34;http://www.myweathercenter.net/installing-a-new-firmware-for-ti-sensortag/&#34;&gt;link to their firmware&lt;/a&gt; which deals with the issue, at the cost of lower battery life. &lt;/p&gt;
-
-&lt;p&gt;The results: the windows are way, way colder than the inside air (about 45 degrees), but the curtains read much warmer (about 60 degrees). Thermal curtains for the win!&lt;/p&gt;
-</description>
+      <description>Our living room has lovely (old) wooden windows. When it&#39;s cold, the windows get cold. Last year we got some lovely thermal curtains to insulate.
+I thought I&#39;d use some of the equipment I had to see just how cold the windows were and how much warmer the curtains are to the touch.
+The setup:
+Macbook Air running OS X 10.9 (Mavericks), Node-RED 0.9.1, Freeboard, TI Sensortag. I&#39;m using RabbitMQ as my MQTT message passing system, but that&#39;s not strictly necessary for this application.</description>
     </item>
     
     <item>
@@ -409,28 +79,9 @@ mosquitto:
       <pubDate>Tue, 30 Sep 2014 14:11:44 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-30-that-new-computer-smell/</guid>
-      <description>&lt;p&gt;I won&#39;t be complaining about a small keyboard or a small screen for a while, but I have a lot of tools to reinstall on a new system.&lt;/p&gt;
-
-&lt;p&gt;In order of appearance:&lt;/p&gt;
-
-&lt;p&gt;Chrome, first thing. I like Safari enough in a pinch, but when it comes time to sync up my working environment, Chrome is what I need. A bonus on this system is that there&#39;s a working full-screen mode.&lt;/p&gt;
-
-&lt;p&gt;git comes with the machine, so I didn&#39;t have to install it; it&#39;s a big part of making sure that stuff gets version tracked.&lt;/p&gt;
-
-&lt;p&gt;Node-RED. I need to have a simple programming environment that is network and device aware, and for the past few months Node-RED has been it. I&#39;m at version 0.9.0 now. That depends first on having node.js installed, and subsequently on pulling in a lot of Node-RED dependencies.&lt;/p&gt;
-
-&lt;p&gt;Contacts. I&#39;ve synced Google Contacts with the Apple address book; that took an extra step since I&#39;m using 2-factor authentication at Google. The CardDAV support is new to me.&lt;/p&gt;
-
-&lt;p&gt;Dropbox. Plug it in, it just works. Next.&lt;/p&gt;
-
-&lt;p&gt;Google Drive. Plug it in, it seems to work; lots to sync including a lot of photos and a lot of unsorted old crap.&lt;/p&gt;
-
-&lt;p&gt;One of the things I&#39;m realizing is that yes, there&#39;s lots of &#34;unsorted old crap&#34; on this which is still a new machine. &lt;/p&gt;
-
-&lt;p&gt;XCode, that&#39;s a mighty big download.&lt;/p&gt;
-
-&lt;p&gt;Apple Software Update is patching the shellshock vulnerability, I hope.&lt;/p&gt;
-</description>
+      <description>I won&#39;t be complaining about a small keyboard or a small screen for a while, but I have a lot of tools to reinstall on a new system.
+In order of appearance:
+Chrome, first thing. I like Safari enough in a pinch, but when it comes time to sync up my working environment, Chrome is what I need. A bonus on this system is that there&#39;s a working full-screen mode.</description>
     </item>
     
     <item>
@@ -439,22 +90,8 @@ mosquitto:
       <pubDate>Fri, 27 Jun 2014 19:05:33 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-06-27-the-internet-of-power-outages/</guid>
-      <description>&lt;p&gt;The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there&#39;s bad weather - to the extent that I can pretty much tell where there&#39;s bad weather by the outbound clicks on the page.&lt;/p&gt;
-
-&lt;p&gt;The page, however, is not fed with live data; it only has static instances of previous maps. It in and of itself doesn&#39;t alert when there&#39;s trouble, and it doesn&#39;t let you know that the storm coming your way might be severe.&lt;/p&gt;
-
-&lt;p&gt;One of the challenges of automation in the utility outage map space is the diversity of vendors for power company outage maps and the utter lack of any standard interface. To dig out how many people have lost their power in 48104 under program control, you actually have to work at it, and to rely on undocumented interfaces that could change at any time. For all of the user-friendly efforts out there, there&#39;s a lot of systems that are hard to pull raw data from.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve started a very tiny version of what I suspect could be a complete project, namely to automate the alerting when a few zip codes around me have outages. The code, written in Node-RED, runs periodically to poll the DTE Energy outage map site and to ask for outage data for a few specific zip codes. It then parses that data in a Javascript/node.js node which returns it to a switch that decides whether to alert (in my case, when there are more than 250 outages in any given monitored zipcode). Alerts go out via Twitter on the @vielmetti account and via SMS to me.&lt;/p&gt;
-
-&lt;p&gt;The monitoring task for the adjacent utility company, Consumers Energy, is a bit different. I haven&#39;t completed this effort yet, but again a poll of their site will pull a report which in this case has a list of counties and an outage count in each county. There&#39;s a few counties that I&#39;m monitoring, and I&#39;ll figure out the threshold for alerts there.&lt;/p&gt;
-
-&lt;p&gt;Node-RED is a nice programming environment for this, since it&#39;s flexible in many ways about how data gets into it and how and when alerts are done. I&#39;m still sorting through the new &#34;trigger&#34; alert node in 0.8.0 which makes it possible to buffer up things so you don&#39;t get an overflow of messages all at once, and there&#39;s some subtle alarm-management logic that I want to get right so that this system can be used for real alerting and not just curiosity.&lt;/p&gt;
-
-&lt;p&gt;When Hurricane Sandy hit the east coast, there was a long delay between the time that power went out and when it was restored, and there was some innovation in outage tracking and holding public utilities accountable for restoration performance. Similarly, when a storm hit the East Lansing, MI area there were furious municipal power consumers outraged that their utility company didn&#39;t have an accurate tracking map.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m hoping that this starts to look like an architecture for outage tracking that can be refined over time, and I&#39;d be super happy if utility companies started to post outage information in any reasonable easy to parse JSON or XML format files (really, it just has to be published, standards can occur as we get experience). I&#39;ll poll regularly enough to get some kind of timeline as to when the lights went out and how long it took for them to return.&lt;/p&gt;
-</description>
+      <description>The single most popular page on this web site is the power outage tracking map collection page. It has static copies of samples of power outage maps from utilities around the country, and it gets bunches of hits every single time there&#39;s bad weather - to the extent that I can pretty much tell where there&#39;s bad weather by the outbound clicks on the page.
+The page, however, is not fed with live data; it only has static instances of previous maps.</description>
     </item>
     
   </channel>

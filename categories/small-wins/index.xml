@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/small-wins/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Small Wins on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/small-wins/</link>
+    <description>Recent content in Small Wins on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/small-wins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Sep 2014 05:46:50 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/small-wins/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>BJ Fogg on the &#34;motivation wave&#34; and small wins</title>
@@ -14,12 +17,7 @@
       <pubDate>Tue, 02 Sep 2014 05:46:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-02-bj-fogg-on-the-motivation-wave-and-small-wins/</guid>
-      <description>&lt;p&gt;I have written about here previously about Stanford researcher BJ Fogg in the context of his &#34;Tiny Habits&#34; project. He has a talk here from 2012 about the &#34;motivation wave&#34; and how software and systems that are are looking to facilitate behavior change need to recognize that people have the ability to do hard things only every so often, and thus they need to build in structures that let people do easy things that are still on-task when their motivations are low. The challenge is to get people to do things when they are motivated that allow them to expand their capacity to be on task when they are not motivated, e.g. by making it possible for them to get small and easy wins and tiny successes when their personal motivation is at a low ebb. &lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d061676c970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d061676c970c img-responsive&#34; style=&#34;width: 466px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2014-09-02 at 5.45.30 AM&#34; title=&#34;Screen shot 2014-09-02 at 5.45.30 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d061676c970c-500wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;600&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/fqUSjHjIEFg?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>I have written about here previously about Stanford researcher BJ Fogg in the context of his &#34;Tiny Habits&#34; project. He has a talk here from 2012 about the &#34;motivation wave&#34; and how software and systems that are are looking to facilitate behavior change need to recognize that people have the ability to do hard things only every so often, and thus they need to build in structures that let people do easy things that are still on-task when their motivations are low.</description>
     </item>
     
     <item>
@@ -28,8 +26,12 @@
       <pubDate>Fri, 01 May 2009 23:43:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-05-01-a-few-brief-words-appropriate-to-our-nonblogging-friends-on-twitter/</guid>
-      <description>&lt;p&gt;Brevity is the very soul of wit.&amp;#0160; - Wm. Shakespeare.&lt;br /&gt;I would have written something shorter if I had only had the time. - attrib Blaise Pascal, Mark Twain&lt;br /&gt;I have a marvelous proof but the margins are too small to contain it.&amp;#0160; Fermat&amp;#39;s Last Theorem&lt;br /&gt;Small is beautiful.&amp;#0160; E. F. Schumacher via Leopold Kohr&lt;br /&gt;Small wins are compact, tangible, upbeat, non-controversial, and relatively rare.&amp;#0160; Karl Weick.&lt;br /&gt;Think small.&amp;#0160;&amp;#0160; DDB ad for Volkswagen&lt;br /&gt;Less is more.&amp;#0160; Ludwig Mies van der Rohe on minimalism&lt;br /&gt;Reduce, reuse, recycle.&lt;br /&gt;Get the little book!&amp;#0160; E. B. White&lt;br /&gt;Every little bit helps.&lt;/p&gt;&lt;p&gt;Smaller but bitter.&amp;#0160; pin worn by University of Michigan workers downsized in 1980s budget cuts&lt;br /&gt;Every little bit hurts.&amp;#0160; Brenda Holloway; Funkadelic&lt;/p&gt;&lt;p&gt;prompted by this post:&lt;/p&gt;&lt;p&gt;&lt;span class=&#34;status-body&#34;&gt;&lt;span class=&#34;entry-content&#34;&gt;me: Bloggers can write paragraphs, while twitterers are left to only write sentence fragments.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;a href=&#34;http://twitter.com/islandidea&#34;&gt;islandidea&lt;/a&gt;: maybe that&amp;#39;s why Tweetists enjoy quality brevity, while bloggers are underemployed with their verbal quantity. ;-)&lt;/p&gt;
-</description>
+      <description>Brevity is the very soul of wit.&amp;#0160; - Wm. Shakespeare.
+I would have written something shorter if I had only had the time. - attrib Blaise Pascal, Mark Twain
+I have a marvelous proof but the margins are too small to contain it.&amp;#0160; Fermat&amp;#39;s Last Theorem
+Small is beautiful.&amp;#0160; E. F. Schumacher via Leopold Kohr
+Small wins are compact, tangible, upbeat, non-controversial, and relatively rare.&amp;#0160; Karl Weick.
+Think small.&amp;#0160;&amp;#0160; DDB ad for Volkswagen</description>
     </item>
     
   </channel>

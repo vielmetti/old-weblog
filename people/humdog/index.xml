@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/humdog/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Humdog on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/humdog/</link>
+    <description>Recent content in Humdog on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/humdog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jul 2011 13:25:21 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/humdog/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>anti-internet texts from the 1990s</title>
@@ -14,21 +17,9 @@
       <pubDate>Fri, 29 Jul 2011 13:25:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-07-29-cyberspace-is-gone/</guid>
-      <description>&lt;p&gt;A collection of anti-Internet texts from the mid-1990s. Each of these were written at the point just as the net was unquestionably entering its stage of hyper-growth, absorbing more and more personal time as well as gobbling up independent networks into its own.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.acturban.org/biennial/doc_planners/treanor_internet_hyperliberalism.htm&#34; target=&#34;_self&#34;&gt;The Internet As Hyper-Liberalism&lt;/a&gt;&amp;#0160;(1996) argues against interconnectivity of networks.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Net-ism is wrong because it is coercively expansionist. There is no inherent or inevitable technical or historical trend to a single communication network. On the contrary: never before in history, have so many separate networks been technically possible. Linking all networks together is a conscious choice by some people, a choice then imposed on others. The logic is identical to that of colonial governments, which forced peasants into the agricultural market, by imposing cash taxes. (To pay the tax, the peasants had to sell cash crops such as sugar). This logic says in effect: &amp;#39;no one is free to stay outside the free market&amp;#39;. Today, not just governments, but business, social movements, intellectuals and artists, all want to impose the Net. This broad movement is obviously more than profit-seeking (and a non-profit Net would also be wrong). It is an ideological movement seeking ideological imposition. That imposition itself, the universalism, the expansionism, their involuntary nature, the basic unfreedom to exit - that is what makes liberal structures wrong. That applies to the free market, and it applies inherently to the Internet.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;From &lt;a href=&#34;http://folksonomy.co/?permalink=2299&#34; target=&#34;_self&#34;&gt;Pandora&amp;#39;s Vox Redux&lt;/a&gt; (humdog, 1994)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;many times in cyberspace, i felt it necessary to say that i was human. once, i was told that i existed primarily as a voice in somebody’s head. lots of times, i need to see handwriting on paper or a photograph or a phone conversation to confirm the humanity of the voice, but that is the way that i am. i resist being boxed and inventoried and i guess i take william gibson seriously when he writes about machine intelligence and constructs. i do not like it. i suspect that my words have been extracted and that when this essay shows up, they will be extracted some more. when i left cyberspace, i left early one morning and forgot to take out the trash. two friends called me on the phone afterwards and said, hummie your directory is still there. and i said OH. and they knew and i knew, that it was possible that people had been entertaining themselves with the contents of my directories. the amusement never ends, as peter gabriel wrote. maybe sometime i will rant again if something interesting comes up. in the meantime, give my love to the FBI.&amp;quot;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Cliff Stoll in Newsweek, &lt;a href=&#34;http://threewordchant.com/2010/02/24/why-the-internet-will-fail-from-1995/&#34; target=&#34;_self&#34;&gt;Why The Internet Will Fail&lt;/a&gt; (1995)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;What’s missing from this electronic wonderland? Human contact. Discount the fawning techno-burble about virtual communities. Computers and networks isolate us from one another. A network chat line is a limp substitute for meeting friends over coffee. No interactive multimedia display comes close to the excitement of a live concert. And who’d prefer cybersex to the real thing? While the Internet beckons brightly, seductively flashing an icon of knowledge-as-power, this nonplace lures us to surrender our time on earth. A poor substitute it is, this virtual reality where frustration is legion and where–in the holy names of Education and Progress–important aspects of human interactions are relentlessly devalued.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The mid-1990s were a good time to be high-mindedly anti-network.&lt;/p&gt;
-</description>
+      <description>A collection of anti-Internet texts from the mid-1990s. Each of these were written at the point just as the net was unquestionably entering its stage of hyper-growth, absorbing more and more personal time as well as gobbling up independent networks into its own.
+The Internet As Hyper-Liberalism&amp;#0160;(1996) argues against interconnectivity of networks.
+ Net-ism is wrong because it is coercively expansionist. There is no inherent or inevitable technical or historical trend to a single communication network.</description>
     </item>
     
   </channel>

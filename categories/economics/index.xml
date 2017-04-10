@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/economics/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Economics on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/economics/</link>
+    <description>Recent content in Economics on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/economics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2013 13:09:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/economics/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>&#34;On Wine Bullshit&#34; from the Journal of Wine Economics</title>
@@ -14,23 +17,8 @@
       <pubDate>Wed, 08 May 2013 13:09:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-08-on-wine-bullshit-from-the-journal-of-wine-economics/</guid>
-      <description>&lt;p&gt;Richard E. Quandt takes on descriptive adjectives for wines in his essay &amp;quot;&lt;a href=&#34;http://www.wine-economics.org/aawe/wp-content/uploads/2012/10/Vol.2-No.2-2007-Some-New-Software.pdf&#34; target=&#34;_self&#34;&gt;On Wine Bullshit&lt;/a&gt;&amp;quot;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-We did one other thing. We arranged all the attributes in alphabetical order, and then 
-used a random number generator to select (without replacement) either 10 or 15 attributes 
-from among them and then replicated this experiment a number of times. Here are the 
- results for one particular replication of the experiment for truly hypothetical wines.
-&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Château La Merde, 1995. Packed and tight, with oily, smoked game and petrol, yet 
-with reﬁned fruit, a hint of black fruit and olive ﬂavors and aromas, and supported 
-by meaty fruit, undergrowth and lush tannins running through the lengthy ﬁnish. 
-Best from 2007 through 2025, Inky, with olive-tinged black currants, blackberries, 
-tobacco and delicious vegetable ﬂavors.
-&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;There&amp;#39;s more good writing about wine and economics in the &lt;a href=&#34;http://www.wine-economics.org/journal/&#34;&gt;Journal of Wine Economics&lt;/a&gt;, published by Cambridge University Press.&lt;/p&gt;
-</description>
+      <description>Richard E. Quandt takes on descriptive adjectives for wines in his essay &amp;quot;On Wine Bullshit&amp;quot;.
+  We did one other thing. We arranged all the attributes in alphabetical order, and then used a random number generator to select (without replacement) either 10 or 15 attributes from among them and then replicated this experiment a number of times. Here are the results for one particular replication of the experiment for truly hypothetical wines.</description>
     </item>
     
     <item>
@@ -39,13 +27,7 @@ tobacco and delicious vegetable ﬂavors.
       <pubDate>Thu, 23 Jun 2011 09:30:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-23-prediction-markets/</guid>
-      <description>&lt;p&gt;Prediction markets provide a nice, idealized way to use market mechanisms to predict the future. They are a slightly idealized version of an office betting pool and allow small scale bets (real or virtual) on future events. Unlike a real futures market, where you can get guarantees of future performance on things like delivery of gasoline or frozen orange juice, there&amp;#39;s no way that betting on some prospective GOP hopeful will lift your candidate to office.&lt;/p&gt;
-&lt;p&gt;Market manipulation is the bane of most prediction markets. Consider Intrade, a prediction market in which GOP hopefuls are listed. The media will report that a newcomer is trading well, but won&amp;#39;t necessarily note that the frontrunner&amp;#39;s place is based on less than $500 worth of daily trades. If someone were to want to bump their favorite over the top for at least a little while it would only take pocket money from a proper hidden campaign pocket to game the system in your favor.&lt;/p&gt;
-&lt;p&gt;Gaming the system is a problem in systems that pretend to be markets, and where some ideal form of market is lionized as a way to gain enlightenment from the invisible hand of Adam Smith. Turning the system into a game to be one sullies the economist&amp;#39;s ideals of a rational allocation of resources based on infinite economic rigor.&lt;/p&gt;
-&lt;p&gt;Why fight people&amp;#39;s tendencies to want to subvert the intent of the system builder? The new hot trend in online environments is gamification, where gaming the system becomes the whole goal of the system. Unlike markets, which try to come to truth with some single-valued score of value, games have the opportunity to bring the world into a lovely multi-valued focus, with different people winning each at their own version of the game. The introduction of badges, short term competitions, lots of ways to score points and other fun side games overwhelms the narrow trading interests in market-based predicitons.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;The future of prediction markets lives inside complex predictive games. The game design has to take into account not only the rapid conclusions that you can draw when you have an efficient market for opinions, but also the continuous efforts you have to keep up to maintain people&amp;#39;s attention on a topic for any length of time. The good games reward active participation; the challenge becomes how to draw conclusions from the work of engaged gamers working inside your system.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Thanks to &lt;a href=&#34;http://xca2.com/&#34; target=&#34;_self&#34;&gt;Brian Kerr&lt;/a&gt; for the idea. Games are on my mind because of the work of the Ann Arbor District Library and Eli Neiburger to &lt;a href=&#34;http://play.aadl.org&#34; target=&#34;_self&#34;&gt;build games into the summer reading program&lt;/a&gt; at the library. I tried to &lt;a href=&#34;http://vielmetti.typepad.com/superpatron/2007/02/predicting_hold.html&#34; target=&#34;_self&#34;&gt;predict library use&lt;/a&gt;&amp;#0160;with a prediction market in 2007, and &lt;a href=&#34;http://home.inklingmarkets.com/markets/17016&#34; target=&#34;_self&#34;&gt;attendance at lunch&lt;/a&gt;&amp;#0160;in 2009, using Inkling Markets. The game of choice at the Workantile Exchange is a version of bingo; when I bring my kid to work an alert player may win. The &lt;a href=&#34;http://www.intrade.com/v4/markets/contract/?contractId=652757&#34; target=&#34;_self&#34;&gt;Intrade GOP market&lt;/a&gt; shows the book of available trades; at this writing, purchasing about 300 shares of Mitt Romney would push the price up 8% at a cost of less than $1200. &lt;a href=&#34;http://www.empireavenue.com/&#34; target=&#34;_self&#34;&gt;Empire Avenue&lt;/a&gt; turns social media friendships into a giant game, with badges and prizes.&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Prediction markets provide a nice, idealized way to use market mechanisms to predict the future. They are a slightly idealized version of an office betting pool and allow small scale bets (real or virtual) on future events. Unlike a real futures market, where you can get guarantees of future performance on things like delivery of gasoline or frozen orange juice, there&amp;#39;s no way that betting on some prospective GOP hopeful will lift your candidate to office.</description>
     </item>
     
     <item>
@@ -54,19 +36,9 @@ tobacco and delicious vegetable ﬂavors.
       <pubDate>Wed, 22 Oct 2008 21:51:04 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-10-22-october-24-2008-icos-daniel-beunza-columbia-university-a-model-is-not-a-market-promises-and-pitfalls-of-quantitative-f/</guid>
-      <description>&lt;p&gt;via the ICOS list; events are at the U of Michigan Business School.&lt;/p&gt;&lt;p&gt;Join ICOS this Friday for a talk by Daniel Beunza of the Columbia Business School. &amp;#0160;Beunza uses ethnographic techniques to explore how traders in financial markets calculate value in the face of fundamental uncertainty -- a timely topic, to say the least! &amp;#0160;Beunza is a leading contributor to&lt;br /&gt;
-the social studies of finance, and has published papers in Organization Studies, Socio-Economic Review, and Industrial and Corporate Change.&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-Speaker:&lt;br /&gt;
-Daniel Beunza, Columbia University&lt;br /&gt;
-&lt;a href=&#34;http://www4.gsb.columbia.edu/cbs-directory/detail/5845524/Daniel+Beunza&#34; target=&#34;_blank&#34;&gt;http://www4.gsb.columbia.edu/&lt;wbr /&gt;cbs-directory/detail/5845524/&lt;wbr /&gt;Daniel+Beunza&lt;/a&gt;&lt;br /&gt;
-Presentation: &amp;quot;A Model is Not a Market: Promises and Pitfalls of&lt;br /&gt;
-Quantitative Finance&amp;quot;&lt;br /&gt;
-Time and Place: 1:30 (sharp) - 3 pm, Friday, October 24, K1320 School of&lt;br /&gt;
-Business&lt;br /&gt;
-Paper download:&lt;br /&gt;
-&lt;a href=&#34;http://icos.cms.si.umich.edu/sites/icos.cms.si.umich.edu/files/081015%20Beunza%20and%20Stark%20-%20Devices%20for%20Doubt%20-%20Oct%202008.pdf&#34; target=&#34;_blank&#34;&gt;http://icos.cms.si.umich.edu/&lt;wbr /&gt;sites/icos.cms.si.umich.edu/&lt;wbr /&gt;files/081015%20Beunza%20and%&lt;wbr /&gt;20Stark%20-%20Devices%20for%&lt;wbr /&gt;20Doubt%20-%20Oct%202008.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;a small piece of the paper:&lt;/p&gt;&amp;#0160; &lt;p&gt;&lt;br /&gt;To explore the calculative dilemma faced by the arbitrageur we adopt an ethnographic research design. This approach is particularly useful to understand the day-to-day social and material practices of calculation. Ethnography places the researcher in the same uncertain position as his or her subjects, thereby avoiding the danger of underestimating uncertainty (Agar 1986; Spradley 1979). Its emphasis on practice taps into the actual solutions developed by the users, as opposed to those intended by the designer of the system (Orlikowski 1992; Barley 1986). Our study spans three years of observations at the equity derivatives trading room of pseudonymous International Securities, a large global investment bank with American headquarters on Wall Street. From this period, we selected a single morning of trading at the merger arbitrage desk. The combination of two years of observation with one full morning of data provides a high-frequency, highly contextualized account, in line with the literature in cognitive &lt;br /&gt;science and distributed cognition (Hutchins 1995; Hutchins and Klausen 1992).&amp;#0160;&amp;#0160; &lt;/p&gt;
-</description>
+      <description>via the ICOS list; events are at the U of Michigan Business School.
+Join ICOS this Friday for a talk by Daniel Beunza of the Columbia Business School. &amp;#0160;Beunza uses ethnographic techniques to explore how traders in financial markets calculate value in the face of fundamental uncertainty -- a timely topic, to say the least! &amp;#0160;Beunza is a leading contributor to
+the social studies of finance, and has published papers in Organization Studies, Socio-Economic Review, and Industrial and Corporate Change.</description>
     </item>
     
     <item>
@@ -75,12 +47,9 @@ Paper download:&lt;br /&gt;
       <pubDate>Tue, 30 Sep 2008 14:32:13 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-30-explaining-fina/</guid>
-      <description>&lt;p&gt;this photo says most of it:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://eatock.com/projects/do-not-touch-counter-balance-shelves/&#34;&gt;http://eatock.com/projects/do-not-touch-counter-balance-shelves/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;via kottke&lt;/p&gt;
-</description>
+      <description>this photo says most of it:
+http://eatock.com/projects/do-not-touch-counter-balance-shelves/
+via kottke</description>
     </item>
     
     <item>
@@ -89,22 +58,8 @@ Paper download:&lt;br /&gt;
       <pubDate>Wed, 24 Sep 2008 16:37:32 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-24-financial-panic/</guid>
-      <description>&lt;p&gt;Party like it&#39;s what year?&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;The characteristics which distinguish a panic of that character from those smaller financial convulsions and industrial set-backs which are of constant occurrence on speculative markets, are five in number: &lt;/p&gt;
-
-&lt;p&gt;First, a credit crisis so acute as to involve the holding back of payment of cash by banks to depositors, and the momentary suspension of practically all credit facilities. &lt;/p&gt;
-
-&lt;p&gt;Second, the general hoarding of money by individuals, through withdrawal of great sums of cash from banks, thereby depleting bank reserves, involving runs of depositors on banks, and, in this country, bringing about an actual premium on currency. &lt;/p&gt;
-
-&lt;p&gt;Third, such financial helplessness, in the country at large, that gold has to be bought or borrowed instantly in huge quantity from other countries, and that emergency expedients have to be adopted to provide the necessary medium of exchange for ordinary business. &lt;/p&gt;
-
-&lt;p&gt;Fourth, the shutting down of manufacturing enterprises, suddenly and on a large scale, chiefly because of absolute inability to get credit, but partly also because of fear that demand from consumers will suddenly disappear. &lt;/p&gt;
-
-&lt;p&gt;Fifth, fulfilment of this last misgiving, in the shape of abrupt disappearance of the buying demand throughout the country, this particular phenomenon being prolonged through a period of months and sometimes years.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Answer below.&lt;/p&gt;
-
-&lt;p&gt;From &amp;quot;The Quarterly Journal of Economics&amp;quot;, 1909, the article &amp;quot;A Year After The Panic of 1907&amp;quot;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://books.google.com/books?id=XMc4AAAAMAAJ&amp;amp;dq=%22panic%20of%201907%22&amp;amp;as_brr=1&amp;amp;client=firefox-a&amp;amp;pg=PA185&amp;amp;ci=162,263,670,616&amp;amp;source=bookclip&#34;&gt;&lt;img border=&#34;0&#34; alt=&#34;Text not available&#34; src=&#34;http://books.google.com/books?id=XMc4AAAAMAAJ&amp;amp;pg=PA185&amp;amp;img=1&amp;amp;zoom=3&amp;amp;hl=en&amp;amp;sig=ACfU3U3Haj3pZhuNxjv345_GCAqAWFBkoA&amp;amp;ci=162%2C263%2C670%2C616&amp;amp;edge=1&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&#34;http://books.google.com/books?id=XMc4AAAAMAAJ&amp;amp;dq=%22panic%20of%201907%22&amp;amp;as_brr=1&amp;amp;client=firefox-a&amp;amp;pg=PA185&amp;amp;ci=162,263,670,616&amp;amp;source=bookclip&#34;&gt;The Quarterly Journal of Economics&amp;nbsp; By Charles Franklin Dunbar,&amp;nbsp; Frank William Taussig,&amp;nbsp; Edward Chamberlin,&amp;nbsp; William Leonard Crum,&amp;nbsp; Alvin Harvey Hansen,&amp;nbsp; Abbott Payson Usher,&amp;nbsp; Harvard University,&amp;nbsp; Arthur Eli Monroe,&amp;nbsp; JSTOR (Organization),&amp;nbsp; OCLC FirstSearch Electronic Collections Online&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Party like it&#39;s what year?
+The characteristics which distinguish a panic of that character from those smaller financial convulsions and industrial set-backs which are of constant occurrence on speculative markets, are five in number: First, a credit crisis so acute as to involve the holding back of payment of cash by banks to depositors, and the momentary suspension of practically all credit facilities. Second, the general hoarding of money by individuals, through withdrawal of great sums of cash from banks, thereby depleting bank reserves, involving runs of depositors on banks, and, in this country, bringing about an actual premium on currency.</description>
     </item>
     
   </channel>

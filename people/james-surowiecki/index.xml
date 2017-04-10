@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/james-surowiecki/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>James Surowiecki on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/james-surowiecki/</link>
+    <description>Recent content in James Surowiecki on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/james-surowiecki/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Oct 2010 18:05:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/james-surowiecki/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>What we can learn from procrastination : James Surowiecki The New Yorker</title>
@@ -14,19 +17,7 @@
       <pubDate>Sun, 17 Oct 2010 18:05:11 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-10-17-what-we-can-learn-from-procrastination-the-new-yorker/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;
-&lt;p&gt;Academics, who work for long periods in a self-directed fashion, may be especially prone to putting things off: surveys suggest that the vast majority of college students procrastinate, and articles in the literature of procrastination often allude to the author’s own problems with finishing the piece. (This article will be no exception.) But the academic buzz around the subject isn’t just a case of eggheads rationalizing their slothfulness. As various scholars argue in “The Thief of Time,” edited by Chrisoula Andreou and Mark D. White (Oxford; $65)—a collection of essays on procrastination, ranging from the resolutely theoretical to the surprisingly practical—the tendency raises fundamental philosophical and psychological issues.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;small&gt;via &lt;a href=&#34;http://www.newyorker.com/arts/critics/books/2010/10/11/101011crbo_books_surowiecki?currentPage=all&#34;&gt;www.newyorker.com&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Naturally, I am reading this while procrastinating.&lt;/p&gt;
-&lt;p&gt;I gave &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2004/03/time_management.html&#34; target=&#34;_self&#34;&gt;precise instructions to myself&lt;/a&gt; in my journal in 1999, repeated in 2004, on how to avoid procrastination, under the guise of &amp;quot;time management&amp;quot;. This presumes, of course, that all you need to do is make a few rational decisions and buck up and buckle down to work, in the ignorance of all other possible motivations.&lt;/p&gt;
-&lt;p&gt;A challenge in a world of infinite possibilities is that choosing to do anything means you are choosing not to do something else. This brings to mind &lt;a href=&#34;http://www.personalkanban.com/pk/personal-kanban-101/&#34; target=&#34;_self&#34;&gt;Jim Benson&amp;#39;s Personal Kanban&lt;/a&gt;, which only has two rules at its core:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Visualize your work&lt;/li&gt;
-&lt;li&gt;Limit your work in progress&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A sure cure for procrastination, then, is simply to not do something, rather than putting it off. Alas not all tasks can be discarded so easily.&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>Academics, who work for long periods in a self-directed fashion, may be especially prone to putting things off: surveys suggest that the vast majority of college students procrastinate, and articles in the literature of procrastination often allude to the author’s own problems with finishing the piece. (This article will be no exception.) But the academic buzz around the subject isn’t just a case of eggheads rationalizing their slothfulness. As various scholars argue in “The Thief of Time,” edited by Chrisoula Andreou and Mark D.</description>
     </item>
     
   </channel>

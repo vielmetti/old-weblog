@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/recipes/walnuts/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Walnuts on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/recipes/walnuts/</link>
+    <description>Recent content in Walnuts on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/recipes/walnuts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jul 2012 00:59:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/recipes/walnuts/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Green beans with walnuts</title>
@@ -14,23 +17,8 @@
       <pubDate>Mon, 23 Jul 2012 00:59:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-07-23-green-beans-with-walnuts/</guid>
-      <description>&lt;p&gt;More recipes! This was a part of tonight&amp;#39;s dinner.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Oil for sauteing&lt;/li&gt;
-&lt;li&gt;Garlic&lt;/li&gt;
-&lt;li&gt;Walnuts, halves or pieces&lt;/li&gt;
-&lt;li&gt;Green beans, trimmed&lt;/li&gt;
-&lt;li&gt;Oregano&lt;/li&gt;
-&lt;li&gt;Lemon juice&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Heat the oil in a large saucepan. Mince the garlic small, and add to the hot oil. Cook, stirring, until it smells great. Add the walnuts and stir fry until slightly browned or at least hot. Add the green beans and stir until coated with the oil. Sprinkle some oregano on top. Continue cooking until the green beans are done, then add some lemon juice and cover and take off the heat.&lt;/p&gt;
-&lt;p&gt;- end -&lt;/p&gt;
-&lt;p&gt;Recipe variants:&lt;/p&gt;
-&lt;p&gt;Toast the walnuts in the oven first, per this &lt;a href=&#34;http://allrecipes.com/recipe/lemon-green-beans-with-walnuts/&#34; target=&#34;_self&#34;&gt;Lemon Green Beans with Walnuts recipe on Allrecipes&lt;/a&gt;. (Seems like a lot of work to me.)&lt;/p&gt;
-&lt;p&gt;Add some dijon mustard, per &lt;a href=&#34;http://www.thebittenword.com/thebittenword/2009/11/thanksgiving-2009-green-beans-and-walnuts-with-lemon-vinaigrette.html&#34; target=&#34;_self&#34;&gt;this Bon Appetit recipe via The Bitten Word&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Add dried cherries, per &lt;a href=&#34;http://www.epicurious.com/recipes/food/views/Green-Beans-with-Toasted-Walnuts-and-Dried-Cherry-Vinaigrette-361791&#34; target=&#34;_self&#34;&gt;this Epicurious recipe&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Replace the oregano with dried basil, and omit the lemon juice. Steam the beans with a little water at the end.&lt;/p&gt;
-</description>
+      <description>More recipes! This was a part of tonight&amp;#39;s dinner.
+ Oil for sauteing Garlic Walnuts, halves or pieces Green beans, trimmed Oregano Lemon juice  Heat the oil in a large saucepan. Mince the garlic small, and add to the hot oil. Cook, stirring, until it smells great. Add the walnuts and stir fry until slightly browned or at least hot. Add the green beans and stir until coated with the oil.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/lob/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Lob on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/lob/</link>
+    <description>Recent content in Lob on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/code/lob/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2015 01:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/lob/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>First round of postcards</title>
@@ -14,18 +17,8 @@
       <pubDate>Thu, 30 Jul 2015 01:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-30-first-round-of-postcards/</guid>
-      <description>&lt;p&gt;A first round of postcards sent via Lob.com have arrived or are
-nearly arrived at their destinations. The initial experience of
-sending them made it clear that I need to do some simple user
-interface improvements. I think I can cope with the current situation
-on producing the card back photo, but again there&amp;rsquo;s more work to be
-done making the text on the page wonderful.&lt;/p&gt;
-
-&lt;p&gt;A reasonable question is, why do you send them? Why not send
-email or a Facebook message? The answer is fairly simple, no one
-ever remarks on my email prowess but even an ordinary card
-elicits a response.&lt;/p&gt;
-</description>
+      <description>A first round of postcards sent via Lob.com have arrived or are nearly arrived at their destinations. The initial experience of sending them made it clear that I need to do some simple user interface improvements. I think I can cope with the current situation on producing the card back photo, but again there&amp;rsquo;s more work to be done making the text on the page wonderful.
+A reasonable question is, why do you send them?</description>
     </item>
     
   </channel>

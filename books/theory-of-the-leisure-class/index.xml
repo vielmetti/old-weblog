@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/books/theory-of-the-leisure-class/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Theory Of The Leisure Class on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/books/theory-of-the-leisure-class/</link>
+    <description>Recent content in Theory Of The Leisure Class on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/books/theory-of-the-leisure-class/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2010 01:04:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/books/theory-of-the-leisure-class/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Thorstein Veblen, cranky economist, on handmade goods</title>
@@ -14,13 +17,8 @@
       <pubDate>Sat, 18 Dec 2010 01:04:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-12-18-thorstein-veblen-cranky-economist-on-handmade-goods/</guid>
-      <description>&lt;p&gt;For future reference, since I end up immediately thinking of Veblen when I read about &lt;a href=&#34;http://www.sippey.com/2010/12/scharffenberger-tofu.html&#34; target=&#34;_self&#34;&gt;artisanal tofu&lt;/a&gt;. This from Theory of the Leisure Class is on hand-made goods (emphasis added).&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The position here taken is enforced in a felicitous manner by the place assigned in the economy of consumption to machine products. The point of material difference between machine-made goods and the hand-wrought goods which serve the same purposes is, ordinarily, that the former serve their primary purpose more adequately. They are a more perfect product—show a more perfect adaptation of means to end. This does not save them from disesteem and deprecation, for they fall short under the test of honorific waste. &lt;em&gt;Hand labor is a more wasteful method of production; hence the goods turned out by this method are more serviceable for the purpose of pecuniary reputability; hence the marks of hand labor come to be honorific, and the goods which exhibit these marks take rank as of higher grade than the corresponding machine product. &lt;/em&gt;Commonly, if not invariably, the honorific marks of hand labor are certain imperfections and irregularities in the lines of the hand-wrought article, showing where the workman has fallen short in the execution of the design. The ground of the superiority of hand-wrought goods, therefore, is a certain margin of crudeness. This margin must never be so wide as to show bungling workmanship, since that would be evidence of low cost, nor so narrow as to suggest the ideal precision attained only by the machine, for that would be evidence of low cost.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The &lt;a href=&#34;http://www.gutenberg.org/files/833/833-h/833-h.htm&#34; target=&#34;_self&#34;&gt;Gutenberg edition of Theory of the Leisure Class&lt;/a&gt;&amp;#0160;is a convenient edition, since it&amp;#39;s all on one page; it also has those honorific marks of hand labor, including exhortations at the end to give the reader &amp;quot;Plain Vanilla ASCII&amp;quot; upon request.&lt;/p&gt;
-&lt;p&gt;With the passage of time, of course, the details of the relationship between man and machine also change. Goods produced on an old machine, ideally one for which parts cannot be obtained except by manufacturing them yourself, obtain the high status of handmade goods. The more obscure the equipment, the better, and imperfections in old equipment provide the same &amp;quot;honorific marks&amp;quot; of handmade goods.&amp;#0160;&lt;/p&gt;
-</description>
+      <description>For future reference, since I end up immediately thinking of Veblen when I read about artisanal tofu. This from Theory of the Leisure Class is on hand-made goods (emphasis added).
+ The position here taken is enforced in a felicitous manner by the place assigned in the economy of consumption to machine products. The point of material difference between machine-made goods and the hand-wrought goods which serve the same purposes is, ordinarily, that the former serve their primary purpose more adequately.</description>
     </item>
     
   </channel>

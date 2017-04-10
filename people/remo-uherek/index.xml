@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/remo-uherek/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Remo Uherek on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/remo-uherek/</link>
+    <description>Recent content in Remo Uherek on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/remo-uherek/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2015 13:45:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/remo-uherek/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Checklist Manifesto, in checklist format</title>
@@ -14,9 +17,8 @@
       <pubDate>Fri, 17 Jul 2015 13:45:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-17-checklist-manifesto-summary-in-checklist-form/</guid>
-      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My Checklist Manifesto summary (of course in checklist form) THANK YOU &lt;a href=&#34;https://twitter.com/Atul_Gawande&#34;&gt;@Atul_Gawande&lt;/a&gt; &lt;a href=&#34;http://t.co/PfsIMwcCiB&#34;&gt;http://t.co/PfsIMwcCiB&lt;/a&gt; &lt;a href=&#34;http://t.co/ZfzP72RgiF&#34;&gt;pic.twitter.com/ZfzP72RgiF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Remo Uherek (@remouherek) &lt;a href=&#34;https://twitter.com/remouherek/status/617272863599513600&#34;&gt;July 4, 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>My Checklist Manifesto summary (of course in checklist form) THANK YOU @Atul_Gawande http://t.co/PfsIMwcCiB pic.twitter.com/ZfzP72RgiF
+&amp;mdash; Remo Uherek (@remouherek) July 4, 2015</description>
     </item>
     
   </channel>

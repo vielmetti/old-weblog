@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/power-outages/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Power Outages on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/power-outages/</link>
+    <description>Recent content in Power Outages on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/power-outages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Mar 2015 11:14:50 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/power-outages/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cleaning polygons in R and Shapely</title>
@@ -14,81 +17,7 @@
       <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</guid>
-      <description>&lt;p&gt;The project of the week has been an effort to generate a set of
-maps - 2935 of them, in fact. The source data is from the Department
-of Energy, listing a set of utility companies and the counties they
-cover; the goal is to have a boundary map generated for each utility
-company. I know it won&amp;rsquo;t be a perfect boundary (most utility companies
-have at least one county that they only provide service to part
-of), but as a start it&amp;rsquo;s a pretty good one.&lt;/p&gt;
-
-&lt;p&gt;The DOE data is based on their Form EIA-861, and I&amp;rsquo;m working from
-the 2013 data set. See &lt;a
-href=&#34;http://www.eia.gov/electricity/data/eia861/&#34;&gt;Electric power
-sales, revenue, and energy efficiency Form EIA-861 detailed data
-files&lt;/a&gt; if you want to get your own files. It&amp;rsquo;s provided as Excel
-(XLSX) files, so you&amp;rsquo;ll need something compatible to read them; I
-ended up using &lt;a
-href=&#34;http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html&#34;&gt;in2csv
-from csvkit&lt;/a&gt; as the first part of the pipeline to break these
-apart.&lt;/p&gt;
-
-&lt;p&gt;You get lines from the provided file that look like this:&lt;/p&gt;
-
-&lt;pre&gt;
-Data Year,Utility Number,Utility Name,State,County
-2013,5109,DTE Electric Company,MI,Shiawassee
-2013,5109,DTE Electric Company,MI,St Clair
-2013,5109,DTE Electric Company,MI,Tuscola
-2013,5109,DTE Electric Company,MI,Washtenaw
-2013,5109,DTE Electric Company,MI,Wayne
-&lt;/pre&gt;
-
-&lt;p&gt;The next challenge is to pull a map for each county served. To do this, convert the (State,County) list to a FIPS code, using a table like this one from ORNL called &lt;a href=&#34;http://cta.ornl.gov/transnet/CoFIPS00.txt&#34;&gt;CoFIPS00.txt&lt;/a&gt;. (MI,Washtenaw) turns into 26161. Feed a list of FIPS codes into the Census Reporter geo API, and out comes GeoJSON files, like so: &lt;a href=&#34;http://api.censusreporter.org/1.0/geo/show/tiger2013?geo_ids=05000US26103,05000US26003&#34;&gt;GeoJSON for Marquette and Alger Counties, Michigan&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;We have a list of counties for each utility, so at minimum we&#39;re set right there. But we need to get 2935 of them, and it&#39;s kind of slow to wait for each one to return before fetching the next one. That motivates the use of &lt;a href=&#34;http://www.gnu.org/software/parallel/&#34;&gt;GNU Parallel&lt;/a&gt;, a shell tool for executing jobs in parallel. On my four core MacBook Air I ran 32 jobs in parallel, and 2935 fetches (using &#34;curl&#34;) took 287 seconds with the median elapsed time for each job at about 3 seconds - about a 31x speedup vs doing things serially.&lt;/p&gt;
-
-&lt;p&gt;However, the GeoJSON provided is really one shape per county, and we&#39;re looking for a complete service area in a single shape, so we need to merge the result together. Here a useful tool is the &#34;R&#34; stats package, particularly the &#34;rgeos&#34;, &#34;rgdal&#34;, and &#34;maptools&#34; packages. &lt;/p&gt;
-
-&lt;p&gt;The first step is the &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgdal/docs/ogrInfo&#34;&gt;readOGR() function from the rgdal library&lt;/a&gt;. It takes a variety of input map formats including GeoJSON and shape files and pulls them into a Spatial vector object in R. rgdal is an R interface to Frank Warmerdam&#39;s &lt;a href=&#34;http://www.gdal.org/&#34;&gt;Geospatial Data Abstraction Library&lt;/a&gt;, and it handles both raster and vector geospatial data formats.&lt;/p&gt;
-
-&lt;p&gt;Next, use the &lt;a href=&#34;http://www.inside-r.org/packages/cran/maptools/docs/unionSpatialPolygons&#34;&gt;unionSpatialPolygons() function from the maptools library&lt;/a&gt; to merge the county polygons into a single polygon. The docs say that this is a wrapper around the &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgeos/docs/gUnion&#34;&gt;gUnion() function from the rgeos library&lt;/a&gt;. rgeos comes from the Google Summer of Code 2010, and this &lt;a href=&#34;https://gsoc2010r.wordpress.com/2010/06/10/rgeos-introduction/&#34;&gt;introduction to the project&lt;/a&gt; explains the motivation. rgeos provides an R interface to &lt;a href=&#34;http://trac.osgeo.org/geos/&#34;&gt;GEOS&lt;/a&gt;, which is in turn a C++ port of &lt;a href=&#34;http://tsusiatsoftware.net/jts/main.html&#34;&gt;JTS&lt;/a&gt;, the Java Topology Suite.&lt;/p&gt;
-
-&lt;p&gt;After you run the unionSpatialPolygons() operation, you will inevitably find that there are tiny holes in your unioned map. Geographic boundaries are complex, and as a result there are often little areas that don&#39;t quite touch, leaving little bits of land that aren&#39;t included anywhere. This algorithm from stackoverflow, &lt;a href=&#34;http://stackoverflow.com/questions/12663263/dissolve-holes-in-polygon-in-r&#34;&gt;Dissolve holes in polygon in R&lt;/a&gt;, takes care of the issue. &lt;/p&gt;
-
-&lt;pre&gt;
-G.rings = Filter(function(f){f@ringDir==1},G.union@polygons[[1]]@Polygons)
-G.bounds = SpatialPolygons(list(Polygons(G.rings,ID=1)))
-&lt;/pre&gt;
-
-&lt;p&gt;As the Polygon documentation note for ringDir: &#34;the ring direction of the ring (polygon) coordinates, holes are expected to be anti-clockwise&#34;&lt;/p&gt;
-
-&lt;p&gt;Having done this cleanup work, we return a GeoJSON file with the &lt;a href=&#34;http://www.rdocumentation.org/packages/leafletR/functions/toGeoJSON&#34;&gt;toGeoJSON() function from the leafletR package&lt;/a&gt;. Now I probably don&#39;t need to pull in all of leafletR; there&#39;s a &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgdal/docs/writeOGR&#34;&gt;writeOGR() function in the rgdal package&lt;/a&gt; that should also do the same work. The aside, though, is that &lt;a href=&#34;https://github.com/chgrl/leafletR&#34;&gt;leafletR&lt;/a&gt; creates nice maps in R using the &lt;a href=&#34;http://leafletjs.com/&#34;&gt;Leaflet&lt;/a&gt; Javascript library.&lt;/p&gt;
-
-&lt;p&gt;With all that done, we have a new GeoJSON file that&#39;s a cleaned up merge of multiple county outlines done in R. However, the process isn&#39;t quite done. Some of the merged files don&#39;t have holes, but they do have &#34;slivers&#34;, little angular bits of geometry from where two counties don&#39;t quite touch at their corners. I didn&#39;t find an algorithm to unsliver in R, but this &lt;a href=&#34;http://gis.stackexchange.com/questions/120286/removing-small-polygons-gaps-in-a-shapely-polygon&#34;&gt;Removing small polygons gaps in a Shapely polygon&lt;/a&gt; did the trick. &lt;/p&gt;
-
-&lt;pre&gt;
-# Here&#39;s the algorithm
-fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style=JOIN_STYLE.mitre)
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://toblerity.org/shapely/manual.html&#34;&gt;Shapely&lt;/a&gt; from Sean Gilles is a &#34;Python package for set-theoretic analysis and manipulation of planar features using (via Python’s ctypes module) functions from the well known and widely deployed GEOS library.&#34; So we&#39;re back to GEOS, which is also supported by R...which means I suspect this algorithm translates directly back into R by proper invocation of the equivalent &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgeos/docs/gBuffer&#34;&gt;gBuffer() function from the rgeos package&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;No matter, I installed Shapely. It&#39;s pretty fast, and if I had time to refine this operation I&#39;d try to port all of the R code back into python using Shapely to see if I could get a meaningful speedup improvement.&lt;/p&gt;
-
-&lt;p&gt;All this description! Here&#39;s the code.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/vielmetti/13f6feae14111ff1c148&#34;&gt;unsliver.py&lt;/a&gt; - in Python with the Shapely library&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/450495defeff6e4d1440&#34;&gt;mergeGeoJSON.Rscript&lt;/a&gt; - in R with rgeos, sp, rgdal, maptools, and leafletR&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And here&#39;s a picture:&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/vielmetti/2a6feadf268ca2b686e7.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Thanks go to Joe Germuska (for Census Reporter and csvkit), Markus Spath (for R help), Matt Hampel (for mapping help), Jacob Wasserman (for Shapely help), Stan Gregg (for outage mapping), Mohan Kartha (for GNU Parallel and AWS help), and anyone else who I missed along the way.                                          &lt;/p&gt;
-</description>
+      <description>The project of the week has been an effort to generate a set of maps - 2935 of them, in fact. The source data is from the Department of Energy, listing a set of utility companies and the counties they cover; the goal is to have a boundary map generated for each utility company. I know it won&amp;rsquo;t be a perfect boundary (most utility companies have at least one county that they only provide service to part of), but as a start it&amp;rsquo;s a pretty good one.</description>
     </item>
     
     <item>
@@ -97,14 +26,10 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Fri, 03 Oct 2014 09:48:25 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/</guid>
-      <description>&lt;p&gt;The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The &lt;a href=&#34;http://thescoopblog.dallasnews.com/2014/10/as-north-texas-experiences-exceptional-drought-for-first-time-since-2011-rain-and-cooler-temperatures-expected-today.html/&#34;&gt;Dallas Morning News live blog&lt;/a&gt; details the impact, with more than 250,000 people without power.&lt;/p&gt;
+      <description>The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The Dallas Morning News live blog details the impact, with more than 250,000 people without power.
+This outage map from about 7:00 p.m. that evening shows the extent of the damage.
 
-&lt;p&gt;This outage map from about 7:00 p.m. that evening shows the extent of the damage.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ec75d0970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; title=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are. The &lt;a href=&#34;http://stormcenter.oncor.com/default.html&#34;&gt;Oncor Storm Center&lt;/a&gt; page was what people were focusing on, so I took a look. Oncor&#39;s map is built by iFactor, which does maps for a lot of utility companies. Alas the most useful view for a big storm - outages by zip code - is hidden under a menu, but once you find it you can get a nice colorful overview of where things are the worst.&lt;/p&gt;
-</description>
+My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are.</description>
     </item>
     
     <item>
@@ -113,67 +38,7 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Sun, 29 Dec 2013 10:42:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-29-lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; hit the Lansing area hard,
-and the municipal power authority has not handled the resulting
-outages as well as citizens would have them do. &lt;/p&gt;
-
-&lt;p&gt;The Lansing, Michigan area has electrical service from LBWL,
-the &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt;. Even though the surrounding
-area is served by Consumers Energy, LBWL serves an area roughly
-encompassing Lansing and East Lansing. For one thing,
-LBWL does not maintain an outage map online, which is relatively 
-unusual in this day and age.&lt;/p&gt;
-
-&lt;p&gt;The map below is a crowd-sourced tracking of outages and
-restorations in the Lansing area. It&#39;s been put together
-under the lead of @&lt;a href=&#34;http://twitter.com/jsiarto&#34;&gt;jsiarto&lt;/a&gt; (Jeff Siarto) with the help of
-other Lansing area residents and with data pulled in part from
-the &lt;a href=&#34;https://www.facebook.com/LansingBWL&#34;&gt;LBWL Facebook page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fb51d76a970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; title=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sources to look for more information -&lt;/p&gt;
-
-&lt;p&gt;I wrote up the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; with some maps of the 
-other damage to the area.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt; is a municipally owned public utility,
-governed by a Board of Commissioners. The board is made up of eight
-Lansing residents, each appointed for a four-year term on the board
-by the Mayor and confirmed by City Council.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://mapsengine.google.com/map/u/0/edit?mid=zQmyH1IIAz6Y.kuBivwl-Ve2I&#34;&gt;Lansing Area Power Outages map&lt;/a&gt; is a Google map, and this image
-is just a snapshot of it.&lt;/p&gt;
-
-&lt;p&gt;News coverage -&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wilx.com/news/headlines/East-Lansing-Resident-Creates-Public-BWL-Outage-Map-237336791.html&#34;&gt;WILX-TV&lt;/a&gt; - East Lansing Resident Creates Public BWL Outage Map&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unlike Consumers Energy and DTE, Lansing Board of Water and Light doesn&#39;t have a real time outage map for customers, but it&#39;s something the company is currently developing, according to company spokesperson Steve Serkaian.&lt;/p&gt;
-  
-  &lt;p&gt;&#34;We&#39;re working on a &#34;smart grid&#34; system that&#39;s similar to what other utilities offer, but it&#39;s something that costs a significant amount of money to implement,&#34; he said. &#34;But we have heard our customers loud and clear and we&#39;re committed to working on communicating with them better.&#34;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.lansingstatejournal.com/article/20131227/NEWS01/312270013/BWL-leader-We-heard-loud-clear-&#34;&gt;Lansing State Journal&lt;/a&gt; - Board of Water and Light: &#39;We have heard loud and clear&#39;; BWL promises to review its handling of the ice storm cleanup&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;(BWL General Manager J. Peter Lark) said BWL is running at “optimum” staffing levels. On Friday, he said, 30 crews were on the ground, a figure that includes 12 line crews and five tree-trimming crews. Crews are made up of two or three people, with most line crews using three.
-  The utility to date has brought in outside help from five other municipally owned utilities, but Lark said Friday he doesn’t plan to bring in more — at least one BWL employee would have to ride with the outside crew, and that would reduce the number of BWL crews in operation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://michiganradio.org/post/most-power-restored-michigan-lbwl-still-has-work-do&#34;&gt;Michigan Radio&lt;/a&gt; - Most power restored in Michigan, LBWL still has work to do&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most of those still without power are customers of Lansing’s public utility. Angry customers showed up at a company press conference yesterday to complain about the slow repairs. The number of Lansing Board of Water and Light customers without power actually increased yesterday as melting ice from tree limbs damaged more power lines.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://lansingonlinenews.com/news/5-lingering-questions-about-the-lansing-ice-storm-yours/&#34;&gt;Lansing Online News&lt;/a&gt; - 5 lingering questions about the Lansing ice storm – yours?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The press conference confirmed communication failures on the part of the officials involved. But when will that get better? Why not now? When will the outages be over? When will the community return to normal? When will the powers-that-be get their act together so people can make wise choices? Temperatures are expected to plunge into single digits tonight. What should people whose power is out do now? Move their families, especially the elderly and infirm, to other locations? Can people with pets still take them to the Ingham County Animal Shelter? When will those who should have the answers start communicating effectively?&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>The ice storm of late December 2013 hit the Lansing area hard, and the municipal power authority has not handled the resulting outages as well as citizens would have them do. The Lansing, Michigan area has electrical service from LBWL, the Lansing Board of Water and Light. Even though the surrounding area is served by Consumers Energy, LBWL serves an area roughly encompassing Lansing and East Lansing. For one thing, LBWL does not maintain an outage map online, which is relatively unusual in this day and age.</description>
     </item>
     
     <item>
@@ -182,24 +47,8 @@ is just a snapshot of it.&lt;/p&gt;
       <pubDate>Wed, 03 Sep 2008 16:26:16 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-03-power-outage-ma/</guid>
-      <description>&lt;p&gt;Whenever the power goes out, there&#39;s a burst of search traffic by people to try to figure out what is going on and when the lights will be back on.&lt;/p&gt;
-
-&lt;p&gt;Lots of utility companies have outage management systems which provide some widely varied amount of information about what&#39;s going on - there&#39;s a bunch of vendors, no obvious standards being used, and even file formats and page styles are all over the place.&amp;nbsp; With hurricanes on their way, and dozens of different electric companies dealing with possible problems, it looked like a mess.&amp;nbsp; So I made a map.&lt;/p&gt;
-
-&lt;iframe width=&#34;425&#34; scrolling=&#34;no&#34; height=&#34;350&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;hl=en&amp;amp;s=AARTsJp0kTd9LVAlt2TXywCOVrI94rIX_g&amp;amp;msa=0&amp;amp;msid=113932165856461159137.000455fd4a9e930f6b943&amp;amp;ll=36.668419,-83.935547&amp;amp;spn=24.587157,37.353516&amp;amp;z=4&amp;amp;output=embed&#34;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;a href=&#34;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;hl=en&amp;amp;msa=0&amp;amp;msid=113932165856461159137.000455fd4a9e930f6b943&amp;amp;ll=36.668419,-83.935547&amp;amp;spn=24.587157,37.353516&amp;amp;z=4&amp;amp;source=embed&#34; style=&#34;color: rgb(0, 0, 255); text-align: left;&#34;&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;
-
-&lt;/p&gt;
-
-&lt;p&gt;This map (incomplete now; notably missing the west coast and new england) has regions corresponding to power company service areas, more or less, and links from those regions direct to the outage reporting page.&amp;nbsp; It&#39;s a hack - you&#39;d love something lovely which really put all of the live data on one page - but you live with the infrastructure you have, not the infrastructure you want to have.&lt;/p&gt;
-
-&lt;p&gt;--&lt;/p&gt;
-
-&lt;p&gt;As I said a bunch of vendors are working on these sorts of tools; here&#39;s a review of sorts.&lt;/p&gt;
-
-&lt;p&gt;The shiniest and nicest so far appears to be &lt;a href=&#34;http://www.ifactorconsulting.com&#34;&gt;iFactor&lt;/a&gt;, which handles mapping for Con Edison (NYC), Progress Energy (Fla), Nebraska Public Power District and Entergy (New Orleans). The New Orleans system has had a tremendous workout with Gustav, and at some point the crush of queries made them take it offline; it went back online with limited information (ie. the utility doesn&#39;t know when things are going to be online again so that part of the system is disabled).&amp;nbsp; They are using Microsoft Virtual Earth for their base maps.&lt;/p&gt;
-</description>
+      <description>Whenever the power goes out, there&#39;s a burst of search traffic by people to try to figure out what is going on and when the lights will be back on.
+Lots of utility companies have outage management systems which provide some widely varied amount of information about what&#39;s going on - there&#39;s a bunch of vendors, no obvious standards being used, and even file formats and page styles are all over the place.</description>
     </item>
     
   </channel>

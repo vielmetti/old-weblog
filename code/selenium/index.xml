@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/selenium/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Selenium on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/selenium/</link>
+    <description>Recent content in Selenium on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/code/selenium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2015 12:58:34 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/selenium/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Automating web testing and scraping with Selenium and the Firefox Selenium IDE</title>
@@ -14,25 +17,8 @@
       <pubDate>Wed, 24 Jun 2015 12:58:34 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-24-automating-web-testing-and-scraping-with-selenium-and-the-firefox-selenium-ide/</guid>
-      <description>&lt;p&gt;You might like me occasionally want to pull a bit of data from some web site and use that data in a script or process. Some modern web sites are fiendishly complex and don&#39;t have the data you want on a simple API or page that you can parse; instead, you&#39;re expected to navigate through a whole next of menus and links that present the data attractively.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m making a go of tackling this task with Selenium, a browser automation system which can drive browsers like Firefox and Chrome and that can in turn be driven by programming languages like Python.  Some notes.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;&gt;Download and install Firefox&lt;/a&gt; if you don&#39;t already have it installed, from mozilla.org.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://docs.seleniumhq.org/projects/ide/&#34;&gt;Download and install the Selenium IDE&lt;/a&gt; for Firefox, which lets you interactively create Selenium scripts within Firefox.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;From the command line, &lt;code&gt;pip install selenium&lt;/code&gt; to get the package of Python drivers for Selenium.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you&#39;re also using Google Chrome, you&#39;ll want &lt;a href=&#34;https://sites.google.com/a/chromium.org/chromedriver/&#34;&gt;ChromeDriver&lt;/a&gt; to get Selenium to talk to Chrome.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;With this all you have enough of the tools to be dangerous.&lt;/p&gt;
-
-&lt;p&gt;Udemy has a &lt;a href=&#34;https://blog.udemy.com/selenium-ide-tutorial/&#34;&gt;Selenium IDE tutorial&lt;/a&gt; to walk through to get you started, as a prelude to their for-pay course on the same topic. Guru99 also has a &lt;a href=&#34;http://www.guru99.com/selenium-tutorial.html&#34;&gt;free Selenium tutorial&lt;/a&gt; that covers the Selenium IDE. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://scraping.pro/selenium-ide-and-web-scraping/&#34;&gt;A very nice overview of the process&lt;/a&gt; from scraping.pro gives you some insight into what&#39;s really going on. The workflow is to create interactive scripts from within Firefox, then export them to Python and run them through a driver that drives multiple browsers. You can tweak lots of details in the Python script and incorporate those into some bigger applications.&lt;/p&gt;
-
-&lt;p&gt;Best bet though is to find someone who knows it and watch over their shoulder and ask questions!&lt;/p&gt;
-</description>
+      <description>You might like me occasionally want to pull a bit of data from some web site and use that data in a script or process. Some modern web sites are fiendishly complex and don&#39;t have the data you want on a simple API or page that you can parse; instead, you&#39;re expected to navigate through a whole next of menus and links that present the data attractively.
+I&#39;m making a go of tackling this task with Selenium, a browser automation system which can drive browsers like Firefox and Chrome and that can in turn be driven by programming languages like Python.</description>
     </item>
     
   </channel>

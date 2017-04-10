@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/san-franciso-california/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>San Franciso California on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/san-franciso-california/</link>
+    <description>Recent content in San Franciso California on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/san-franciso-california/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Dec 2011 14:58:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/san-franciso-california/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Missing maps lead to gas leaks in PG&amp;E network</title>
@@ -14,14 +17,8 @@
       <pubDate>Sat, 31 Dec 2011 14:58:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-12-31-missing-maps-lead-to-gas-leaks-in-pge-network/</guid>
-      <description>&lt;p&gt;The San Francisco Chronicle has a story about how important it is to keep an accurate set of maps:&amp;#0160;&lt;a href=&#34;http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/12/31/MNLS1MJ8GM.DTL&#34; target=&#34;_self&#34;&gt;Missing maps mean PG&amp;amp;E lines weren&amp;#39;t inspected&lt;/a&gt;. The story is from December 31, 2011:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Pacific Gas and Electric Co. failed to check nearly 14 miles of gas distribution pipelines for leaks for up to two decades when it lost track of 16 maps needed to guide mandated safety inspections of its system in eastern Contra Costa County, company officials acknowledged to state regulators Friday.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;The result of the missing inspections: long-overdue discovery of seven leaks along over 13 miles of pipeline, including one repair that was &amp;quot;urgent&amp;quot;.&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;Read more:&amp;#0160;&lt;a href=&#34;http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/12/30/BALS1MJ8GM.DTL#ixzz1i8ycasgg&#34;&gt;http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/12/30/BALS1MJ8GM.DTL#ixzz1i8ycasgg&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>The San Francisco Chronicle has a story about how important it is to keep an accurate set of maps:&amp;#0160;Missing maps mean PG&amp;amp;E lines weren&amp;#39;t inspected. The story is from December 31, 2011:
+ Pacific Gas and Electric Co. failed to check nearly 14 miles of gas distribution pipelines for leaks for up to two decades when it lost track of 16 maps needed to guide mandated safety inspections of its system in eastern Contra Costa County, company officials acknowledged to state regulators Friday.</description>
     </item>
     
   </channel>

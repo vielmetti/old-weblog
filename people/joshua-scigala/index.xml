@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/joshua-scigala/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Joshua Scigala on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/joshua-scigala/</link>
+    <description>Recent content in Joshua Scigala on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/joshua-scigala/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2015 02:31:08 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/joshua-scigala/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>BBC: &#34;Greece&#39;s bank holiday from hell&#34;; impact on Bitcoin transactions?</title>
@@ -14,18 +17,9 @@
       <pubDate>Mon, 29 Jun 2015 02:31:08 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-29-bbc-greeces-bank-holiday-from-hell-impact-on-bitcoin-transactions/</guid>
-      <description>&lt;p&gt;From the BBC: &lt;a href=&#34;http://www.bbc.com/news/business-33306158&#34;&gt;Greece&#39;s bank holiday from hell&lt;/a&gt;. Greek banks are expected to stay shuttered for more than a week, and in the meantime depositors can only withdraw 60 euros per day.&lt;/p&gt;
-
-&lt;p&gt;The Internet spin on this is to wonder how Bitcoin will be used to evade currency controls. From Financial Post, &lt;a href=&#34;http://business.financialpost.com/investing/bitcoin-is-the-real-winner-in-greece-crisis&#34;&gt;Bitcoin is the real winner in Greece crisis&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The main driver for bitcoin prices seem to be Greek buyers.  Joshua Scigala, co-founder of Vaultoro.com, told Reuters this week that his company has seen a 124 per cent pick up in web hits from Greek IP addresses.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You know you&#39;re in a crisis when Bitcoin looks like a safe haven.&lt;/p&gt;
-
-&lt;p&gt;More on Reddit: &lt;a href=&#34;http://www.reddit.com/r/Bitcoin/comments/3bfitl/how_to_buy_bitcoin_in_greece/&#34;&gt;How to buy Bitcoin in Greece&lt;/a&gt; .&lt;/p&gt;
-</description>
+      <description>From the BBC: Greece&#39;s bank holiday from hell. Greek banks are expected to stay shuttered for more than a week, and in the meantime depositors can only withdraw 60 euros per day.
+The Internet spin on this is to wonder how Bitcoin will be used to evade currency controls. From Financial Post, Bitcoin is the real winner in Greece crisis:
+ The main driver for bitcoin prices seem to be Greek buyers.</description>
     </item>
     
   </channel>

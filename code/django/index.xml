@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/django/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Django on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/django/</link>
+    <description>Recent content in Django on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/code/django/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Nov 2008 11:07:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/django/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to run Django on Google App Engine - results of the Ann Arbor Google App Engine hackathon</title>
@@ -14,21 +17,9 @@
       <pubDate>Mon, 17 Nov 2008 11:07:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-17-how-to-run-django-on-google-app-engine---results-of-the-ann-arbor-google-app-engine-hackathon/</guid>
-      <description>&lt;p&gt;I&#39;m at the Google App Engine hackathon in Ann Arbor.&amp;nbsp; My goal for the day is to get a Django instance running on top of appengine as much as possible, using as much of the existing code base that&#39;s out there that I can.&amp;nbsp; (This instead of say, hacking a wiki, which is what their sample app is - been there done that.)&lt;/p&gt;&lt;p&gt;Here&#39;s some background reading:&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.42topics.com/dumps/django/docs.html&#34;&gt;Using Django with Appengine&lt;/a&gt; - Shabda Raaj.&amp;nbsp; &#34;Welcome to Django tutorial for integrating with Appengine. This is a port of the &lt;a class=&#34;reference&#34; href=&#34;http://www.djangoproject.com/documentation/&#34;&gt;Django tutorial&lt;/a&gt;
-to use appengine instead of Pure Django.
-Like in the Django tutorial, we build a poll engine, where you can
-create polls and others can vote for them. Instead of the four part
-Django tutorial, we use only one tutorial. Also, as many parts of
-Django, most prominently its &lt;strong&gt;super&lt;/strong&gt;
-Admin interface do not work, we will work around them. I will assume
-that you know python well. However I do not assume that you have
-previous experience with Django. Django concepts are explained.&#34;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://code.google.com/p/app-engine-patch/&#34;&gt;app-engine-patch&lt;/a&gt; - &lt;/p&gt;&lt;p&gt;With app-engine-patch a major part of Django works on App Engine
-without any modifications. The most important change is that you have
-to use Google&#39;s &lt;tt&gt;Model&lt;/tt&gt; class because the development model is too different from Django. &lt;/p&gt;&lt;p&gt;We also integrate a package called &lt;strong&gt;ragendja&lt;/strong&gt; which provides functions that simplify Django and App Engine development. &lt;/p&gt;&lt;p&gt;to be continued....&lt;/p&gt;&lt;p&gt;
-Here&#39;s Guido van Rossum&#39;s keynote in September 2008 about Google App Engine and Django.&lt;/p&gt;
-
-&lt;p&gt;&lt;object height=&#34;344&#34; width=&#34;425&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/CmyFcChTc4M&amp;amp;hl=en&amp;amp;fs=1&#34;&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;&gt;&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34;&gt;&lt;embed src=&#34;http://www.youtube.com/v/CmyFcChTc4M&amp;amp;hl=en&amp;amp;fs=1&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; height=&#34;344&#34; width=&#34;425&#34;&gt;&lt;/object&gt;&lt;/p&gt;
-</description>
+      <description>I&#39;m at the Google App Engine hackathon in Ann Arbor.&amp;nbsp; My goal for the day is to get a Django instance running on top of appengine as much as possible, using as much of the existing code base that&#39;s out there that I can.&amp;nbsp; (This instead of say, hacking a wiki, which is what their sample app is - been there done that.)
+Here&#39;s some background reading:
+Using Django with Appengine - Shabda Raaj.</description>
     </item>
     
   </channel>

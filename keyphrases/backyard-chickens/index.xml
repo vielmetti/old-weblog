@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/backyard-chickens/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Backyard Chickens on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/backyard-chickens/</link>
+    <description>Recent content in Backyard Chickens on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/backyard-chickens/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Dec 2007 08:49:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/backyard-chickens/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Chicken coops in Ann Arbor</title>
@@ -14,16 +17,7 @@
       <pubDate>Tue, 04 Dec 2007 08:49:54 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-12-04-chicken-coops-i/</guid>
-      <description>&lt;p&gt;
-from UPI in their &#34;quirks&#34; section:
-&lt;/p&gt;&lt;blockquote&gt;
-ANN ARBOR, Mich., Dec. 3 (UPI) -- Officials in Ann Arbor, Mich., are working on a plan to allow residents of the college town to set up their own chicken coops.
-&lt;br /&gt;
-&lt;br /&gt;City Councilman Stephen Kunselman told his colleagues during the weekend there is support among residents who like the idea of having access to &#34;farm fresh&#34; eggs, which some foodies consider to be tastier and healthier than the store-bought variety.
-&lt;/blockquote&gt;&lt;p&gt;
-To the reader: a challenge to update the &lt;a href=&#34;http://arborwiki.org/city/Chicken_coops&#34;&gt;chicken coops&lt;/a&gt; page on Arborwiki, noting the urban history of residential avian husbandry, and to document in particular the tipping point at which eggs from your back yard went from being a sign of prosperity to something else.
-&lt;/p&gt;
-</description>
+      <description>from UPI in their &#34;quirks&#34; section:  ANN ARBOR, Mich., Dec. 3 (UPI) -- Officials in Ann Arbor, Mich., are working on a plan to allow residents of the college town to set up their own chicken coops. City Councilman Stephen Kunselman told his colleagues during the weekend there is support among residents who like the idea of having access to &#34;farm fresh&#34; eggs, which some foodies consider to be tastier and healthier than the store-bought variety.</description>
     </item>
     
   </channel>

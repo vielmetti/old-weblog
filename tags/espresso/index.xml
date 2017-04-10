@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/espresso/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Espresso on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/espresso/</link>
+    <description>Recent content in Espresso on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/espresso/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jul 2015 21:36:25 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/espresso/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>espresso over ice with a little half and half</title>
@@ -14,18 +17,8 @@
       <pubDate>Sun, 19 Jul 2015 21:36:25 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-espresso-over-ice-with-a-little-half-and-half/</guid>
-      <description>&lt;p&gt;A simple recipe that you can order from your favorite barista:
-an espresso shot over ice. Leave enough room to add a spot of
-half and half. Cold, refreshing, and very strong.&lt;/p&gt;
-
-&lt;p&gt;To try: a shot of espresso over shaved ice. I think this is
-doable at Ann Arbor Farmers Market where you&amp;rsquo;d go to the stall
-where a granny is selling shaved ice, and then walk a plain snow cone
-over to the Roos Roast stand for your espresso shot.&lt;/p&gt;
-
-&lt;p&gt;Inspired by a Facebook post from Allen Leibowitz in Texas ordering a snow cone
-and the surrounding commentary.&lt;/p&gt;
-</description>
+      <description>A simple recipe that you can order from your favorite barista: an espresso shot over ice. Leave enough room to add a spot of half and half. Cold, refreshing, and very strong.
+To try: a shot of espresso over shaved ice. I think this is doable at Ann Arbor Farmers Market where you&amp;rsquo;d go to the stall where a granny is selling shaved ice, and then walk a plain snow cone over to the Roos Roast stand for your espresso shot.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/nsfnet/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Nsfnet on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/nsfnet/</link>
+    <description>Recent content in Nsfnet on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/nsfnet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Dec 2007 22:34:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/nsfnet/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>NSFNET reunion, a perspective</title>
@@ -14,20 +17,7 @@
       <pubDate>Mon, 03 Dec 2007 22:34:41 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-12-03-nsfnet-reunion/</guid>
-      <description>&lt;p&gt;
-I was at the NSFNET 20th reunion last week.  Here&#39;s some notes after the fact.
-&lt;/p&gt;&lt;p&gt;
-I took good notes on URLs mentioned on delicious - look at &lt;a href=&#34;http://del.icio.us/vielmetti/nsfnet&#34;&gt;http://del.icio.us/vielmetti/nsfnet&lt;/a&gt; to get the running commentary as I was trying to do it.
-&lt;/p&gt;&lt;p&gt;
-History is written by the winners, and thus the NSFNET history was written by the winners - the winners of the 1987 contract to manage it (Merit, MCI and IBM), and those who personally or corporately won out when the backbone was transformed from a research and educational network into a commercial one.  The tone was primarily uncritical, self-congratulatory, and celebratory.
-&lt;/p&gt;&lt;p&gt;
-History is also written by those who collect and carefully store their papers, and there were several retired academics and network builders who were looking for long term institutional homes for the collections of maps, documents, email, standards and correspondence that they accumulated over the years.  Those looking to produce a history would do well to look at collections like the &lt;a href=&#34;http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;cc=bhlead;q1=nsfnet;rgn=main;view=text;didno=umich-bhl-05138&#34;&gt;Merit Network Inc. Records 1966-2002&lt;/a&gt; at the Bentley Historical Library, which has not only all of the official publications from the time but also some amazing depth (60 linear feet) of printed correspondence, proposals that did not win, and other parts of the history some forgotten and some simply unspoken.
-&lt;/p&gt;&lt;p&gt;
-For a broader context of a part of this time, the &lt;a href=&#34;http://www.dotcomarchive.org/&#34;&gt;Dot Com Archive&lt;/a&gt; at Maryland has an (as of yet sealed) collection of dot com era business plans from a failed law firm - again telling the story from the accumulation of documents, and not the selective memory of a few.
-&lt;/p&gt;&lt;p&gt;
-Thanks to everyone I saw there (cja, mayabe, dsobeloff, glee, srh) and especially to those who were young enough in 1987 to disagree with the networking orthodoxy of the time (because we had nothing to lose and everything to win).
-&lt;/p&gt;
-</description>
+      <description>I was at the NSFNET 20th reunion last week. Here&#39;s some notes after the fact.  I took good notes on URLs mentioned on delicious - look at http://del.icio.us/vielmetti/nsfnet to get the running commentary as I was trying to do it.  History is written by the winners, and thus the NSFNET history was written by the winners - the winners of the 1987 contract to manage it (Merit, MCI and IBM), and those who personally or corporately won out when the backbone was transformed from a research and educational network into a commercial one.</description>
     </item>
     
     <item>
@@ -36,14 +26,7 @@ Thanks to everyone I saw there (cja, mayabe, dsobeloff, glee, srh) and especiall
       <pubDate>Thu, 29 Nov 2007 11:14:14 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-11-29-dave-mills-on-r/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-I&amp;rsquo;m in DC for the NSFNET reunion - here&amp;rsquo;s a deck from 1999 that Dave Mills put together on the view of routing in the Internet in the 1980s.
-&lt;/p&gt;&lt;div&gt;
-&lt;object style=&#34;margin:0px&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=millssession4slides-1196350269631203-5&#34;/&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;/&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;always&#34;/&gt;&lt;embed src=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=millssession4slides-1196350269631203-5&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/span&gt;&lt;a href=&#34;http://www.slideshare.net/?src=embed&#34;&gt;&lt;img src=&#34;http://static.slideshare.net/swf/logo_embd.png&#34; style=&#34;border:0px none;margin-bottom:-5px&#34; alt=&#34;SlideShare&#34;/&gt;&lt;/a&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt; | &lt;/span&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/edwardvielmetti/millssession4slides&#34; title=&#34;View &#39;Mills.Session4.Slides&#39; on SlideShare&#34;&gt;View&lt;/a&gt;&lt;/span&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt; | &lt;/span&gt;&lt;span style=&#34;font-size:11pt;&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/upload&#34;&gt;Upload your own&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m in DC for the NSFNET reunion - here&amp;rsquo;s a deck from 1999 that Dave Mills put together on the view of routing in the Internet in the 1980s.  | View| Upload your own</description>
     </item>
     
   </channel>

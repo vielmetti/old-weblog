@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/christopher-olston/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Christopher Olston on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/christopher-olston/</link>
+    <description>Recent content in Christopher Olston on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/christopher-olston/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Dec 2007 11:16:55 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/christopher-olston/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>quantitative measures of usability (or, measuring measurability)</title>
@@ -14,28 +17,7 @@
       <pubDate>Tue, 04 Dec 2007 11:16:55 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-12-04-quantitative-me/</guid>
-      <description>&lt;p&gt;
-I did the Google search for &#34;quantitative measures of usability&#34;, to see if that line of thinking would get me something useful.  Here&#39;s some explorations around those search results, and some reflections on that line of reasoning.
-&lt;/p&gt;&lt;p&gt;
-&lt;strong&gt;CHI: single usability metric&lt;/strong&gt;
-&lt;/p&gt;&lt;p&gt;
-There is a site &#34;measuring usability&#34; which unsurprisingly ranked high on the list.  It introduces the novel concept of a &#34;single measure of usability&#34;, which looks like the sum of a bunch of individual metrics all mushed together into a single number.  (Sauro and Kindlund, CHI 2005).  It measures task completion times, task time, satisfaction and error counts, and is a formalized version of what looks like an original Excel spreadsheet.  
-&lt;/p&gt;&lt;p&gt;
-From an electronic commerce point of view this is a promising number, but an expensive one to compute - from web server logs you can impute task completion and task times, and maybe get some sense for errors, but satisfaction is hard to grind out of a server log.   It comes from the CHI tradition of simple models of user behavior assessed from small data sets.  But it&#39;s a start.
-&lt;/p&gt;&lt;p&gt;
-&lt;strong&gt;Patents: quantitative measures of qualitative usability&lt;/strong&gt;
-&lt;/p&gt;&lt;p&gt;
-There&#39;s a patent filing (Ed Chi, Christopher Olston) with this initial claim:
-&lt;/p&gt;&lt;blockquote&gt;
-A system for determining a quantitative measure of qualitative usability of related Web pages, comprising: stored Web pages that each include at least one hyperlink referencing and proximal cues relating to distal content included in another Web page; a stored information goal identifying a target Web page; an activation network, comprising a directed graph comprising nodes corresponding to the Web pages and arcs corresponding to the hyperlinks, wherein a weight is assigned to each arc to represent a probability of traversal of the corresponding hyperlink based on a relatedness of keywords in the information goal to the proximal cues included in the referenced Web page; and a simulator to evaluate a traversal through the activation network to the node corresponding to the target Web page as a quantitative measure of usability.
-&lt;/blockquote&gt;&lt;p&gt;
-There&#39;s more (of course, it&#39;s a patent, there&#39;s a lot more).  It appears to be a simulator-driven version of the same PageRank algorithms that Google started out with, except that rather than assuming a random walk through page space it takes into account what Google would call quality scores and what they call &#34;information scent&#34;.  Chi works at PARC, and this looks like an elaboration of their &lt;a href=&#34;http://portal.acm.org/citation.cfm?id=937550&#34;&gt;ScentTrails&lt;/a&gt; paper (TOCHI 2003).  Note that it&#39;s not about task completion as above but more about findability within a search space, and as thus it describes a different problem than above.
-&lt;/p&gt;&lt;p&gt;
-&lt;strong&gt;More work
-&lt;/p&gt;&lt;p&gt;
-&lt;/strong&gt;I&#39;m sure there&#39;s more relevant work in this field, but given that the first words I used to look both unearthed CHI related papers, I&#39;m not sure I have the right language to express the thing I&#39;m really after.  so I&#39;ll stop...
-&lt;/p&gt;
-</description>
+      <description>I did the Google search for &#34;quantitative measures of usability&#34;, to see if that line of thinking would get me something useful. Here&#39;s some explorations around those search results, and some reflections on that line of reasoning.  CHI: single usability metric  There is a site &#34;measuring usability&#34; which unsurprisingly ranked high on the list. It introduces the novel concept of a &#34;single measure of usability&#34;, which looks like the sum of a bunch of individual metrics all mushed together into a single number.</description>
     </item>
     
   </channel>

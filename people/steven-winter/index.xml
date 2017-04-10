@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/steven-winter/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Steven Winter on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/steven-winter/</link>
+    <description>Recent content in Steven Winter on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/steven-winter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Apr 2009 08:48:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/steven-winter/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Radial categorization and the trouble with tags</title>
@@ -14,8 +17,7 @@
       <pubDate>Fri, 24 Apr 2009 08:48:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-04-24-radial-categorization-and-the-trouble-with-tags/</guid>
-      <description>&lt;p&gt;I&amp;#39;m writing this post, and I don&amp;#39;t have a good category to put it in, so I have to create a category for it; but the process of creating the category describes some other set of things that could belong to it, and then by the time I am done with figuring out where it belongs inside my word-hoard posted to this blog I can go back and retroactively cross-post a half dozen other prototypical posts to that category so it looks like I&amp;#39;ve been thinking about it all along.&lt;/p&gt;&lt;p&gt;Authors to cite, preferably from my bookshelf, so that I can show a stack of books:&lt;/p&gt;&lt;p&gt;Lakoff, &amp;quot;Women, Fire and Dangerous Things&amp;quot;&lt;br /&gt;&amp;quot;Sorting Things Out: Categorization and its Consequences&amp;quot;&lt;br /&gt;something by Ranganathan that I don&amp;#39;t have close at hand&lt;br /&gt;Tony Buzan on mind mapping&lt;br /&gt;Gould and White&amp;#39;s &amp;quot;Mental Maps&amp;quot;&lt;br /&gt;&amp;quot;Your Creative Power&amp;quot;&lt;br /&gt;and something from Steven Winter on categories and the law.&lt;/p&gt;&lt;p&gt;Scheduled to post a week from today so that it has time to cook.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;m writing this post, and I don&amp;#39;t have a good category to put it in, so I have to create a category for it; but the process of creating the category describes some other set of things that could belong to it, and then by the time I am done with figuring out where it belongs inside my word-hoard posted to this blog I can go back and retroactively cross-post a half dozen other prototypical posts to that category so it looks like I&amp;#39;ve been thinking about it all along.</description>
     </item>
     
   </channel>

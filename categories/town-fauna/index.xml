@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/town-fauna/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Town Fauna on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/town-fauna/</link>
+    <description>Recent content in Town Fauna on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/town-fauna/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2013 21:44:12 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/town-fauna/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Vulpes vulpes and Corvus brachyrhynchos</title>
@@ -14,14 +17,10 @@
       <pubDate>Thu, 26 Dec 2013 21:44:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-26-vulpes-vulpes-and-corvus-brachyrhynchos/</guid>
-      <description>&lt;p&gt;Spotted in the greater Ypsi-Arbor metropolitan area:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://arborwiki.org/Foxes&#34;&gt;Vulpes vulpes&lt;/a&gt; (the red fox), photographed by Ben Connor-Barrie for Damn Arbor in &lt;a href=&#34;http://www.damnarbor.com/2013/12/a-visit-from-normal-park-fox.html&#34;&gt;A visit from the Normal Park Fox&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://arborwiki.org/Crows&#34;&gt;Corvus brachyrhynchos&lt;/a&gt; (the American crow), darkening the skies and narrated by @&lt;a href=&#34;http://twitter.com/annarborcrows&#34;&gt;annarborcrows&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;Many more wildlife spottings are in the &lt;a href=&#34;http://arborwiki.org/Town_fauna&#34;&gt;Town fauna&lt;/a&gt; page on &lt;a href=&#34;http://arborwiki.org&#34;&gt;Arborwiki&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Spotted in the greater Ypsi-Arbor metropolitan area:
+Vulpes vulpes (the red fox), photographed by Ben Connor-Barrie for Damn Arbor in A visit from the Normal Park Fox.
+Corvus brachyrhynchos (the American crow), darkening the skies and narrated by @annarborcrows .
+Many more wildlife spottings are in the Town fauna page on Arborwiki.</description>
     </item>
     
     <item>
@@ -30,8 +29,8 @@
       <pubDate>Wed, 17 Mar 2010 23:27:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-03-17-muskrat-love/</guid>
-      <description>&lt;p&gt;As part of a &amp;quot;town fauna&amp;quot; series on AnnArbor.com, I wrote this piece on a &lt;a href=&#34;http://www.annarbor.com/vielmetti/town-fauna-muskrat-rescue/&#34;&gt;muskrat rescue by a 4th grade group&lt;/a&gt; on a field trip to a water treatment plant.&lt;/p&gt;&lt;p&gt;I take no small measure of pride in the first comment: &amp;quot;&lt;span style=&#34;font-family: Arial, Helvetica, sans-serif; line-height: 18px; color: #4c4c4c; font-size: 14px; &#34;&gt;thank god for the ann arbor news and their hard-hitting muskrat coverage. unbelievable.&amp;quot;&lt;/span&gt;&lt;/p&gt;
-</description>
+      <description>As part of a &amp;quot;town fauna&amp;quot; series on AnnArbor.com, I wrote this piece on a muskrat rescue by a 4th grade group on a field trip to a water treatment plant.
+I take no small measure of pride in the first comment: &amp;quot;thank god for the ann arbor news and their hard-hitting muskrat coverage. unbelievable.&amp;quot;</description>
     </item>
     
   </channel>

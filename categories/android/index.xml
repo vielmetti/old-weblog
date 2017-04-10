@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/android/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Android on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/android/</link>
+    <description>Recent content in Android on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Sep 2014 08:44:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>github on the very small screen is not much fun</title>
@@ -14,18 +17,10 @@
       <pubDate>Tue, 30 Sep 2014 08:44:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-30-github-on-the-very-small-screen-is-not-much-fun/</guid>
-      <description>&lt;p&gt;Github is not much fun on a very small screen.&lt;/p&gt;
-
-&lt;p&gt;Octodroid does a competent job of letting you add comments to issues and scrolling through issues. It isn&#39;t so wonderful if you have gone to some trouble to categorize issues by milestone.&lt;/p&gt;
-
-&lt;p&gt;None of the github Android clients I have give any access to the github wiki.&lt;/p&gt;
-
-&lt;p&gt;Mostly the difficult part is that I had a well worked out workflow that moved open issues or if my inbox and into github, and the small screen simply does not make that a smooth process. Short of getting a bigger screen, I don&#39;t see any way to support that kind of flow on a small device.&lt;/p&gt;
-
-&lt;p&gt;I simply do not see enough on this little device screen to make it useful for assisting decision making about what to do next. While an omnipresent device is ideal for instant response to the top of the inbox, it is really limiting for handling overflow situations.&lt;/p&gt;
-
-&lt;p&gt;If I had to stick to the small screen indefinitely I would cancel some projects that are just too frustrating to keep up with. Surprisingly, blogging would stay. Pushing out commentary in an unlinked one way scroll only demands a modest typing skill and has only a minimum need for structure. &lt;/p&gt;
-</description>
+      <description>Github is not much fun on a very small screen.
+Octodroid does a competent job of letting you add comments to issues and scrolling through issues. It isn&#39;t so wonderful if you have gone to some trouble to categorize issues by milestone.
+None of the github Android clients I have give any access to the github wiki.
+Mostly the difficult part is that I had a well worked out workflow that moved open issues or if my inbox and into github, and the small screen simply does not make that a smooth process.</description>
     </item>
     
     <item>
@@ -34,22 +29,7 @@
       <pubDate>Sun, 02 Mar 2014 17:13:13 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-02-some-new-apps-for-my-android-phone/</guid>
-      <description>&lt;p&gt;I organize lunch on Thursdays every week, and I ask my lunch group a question so that people can say a few words after they introduce themselves. This week the food was at &lt;a href=&#34;http://arborwiki.org/Taco_King&#34;&gt;Taco King&lt;/a&gt; (yummy) and the question was about new apps for people&#39;s phones that they added, or apps that they uninstalled. It was a good way to get some insight into the new parts of the net that are explored only through apps.&lt;/p&gt;
-
-&lt;p&gt;Some new ones to me or recommendations that were shared included:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mywickr.com/en/index.php&#34;&gt;Wickr&lt;/a&gt;, a secure messaging app with self-destructing messages like Snapchat&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://telegram.org/&#34;&gt;Telegram&lt;/a&gt;, an instant messaging app like WhatsApp&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://slack.com&#34;&gt;Slack&lt;/a&gt;, the mobile client for the IRC-like group network&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.mapillary.com/&#34;&gt;Mapillary&lt;/a&gt;, a crowd-sourced version of Google Street View&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.gasbuddy.com/GasBuddyMobileApps.aspx&#34;&gt;GasBuddy&lt;/a&gt;, a crowd-sourced view of gasoline prices&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is just a fraction of all of the apps listed. It feels like the app space still has a lot of room in it for innovation, but you&#39;ll notice that for each of these my short description is harkening back to some other application that more people know about. &lt;/p&gt;
-
-&lt;p&gt;What&#39;s your favorite new app? Email me, or @vielmetti on Twitter, or post a comment here.&lt;/p&gt;
-</description>
+      <description>I organize lunch on Thursdays every week, and I ask my lunch group a question so that people can say a few words after they introduce themselves. This week the food was at Taco King (yummy) and the question was about new apps for people&#39;s phones that they added, or apps that they uninstalled. It was a good way to get some insight into the new parts of the net that are explored only through apps.</description>
     </item>
     
     <item>
@@ -58,16 +38,8 @@
       <pubDate>Sun, 24 Nov 2013 14:57:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-11-24-octodroid-is-a-github-client-for-android/</guid>
-      <description>&lt;p&gt;I&#39;m using Github as a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34;&gt;personal issue tracker&lt;/a&gt;, still using it in fact for a whole year. It says that I&#39;ve crossed 1200+ things off my todo lists and still have 70+ left to go. Unlike &#34;inbox zero&#34;, I&#39;m resigned to the notion that my todo list will hover somewhere between 60 and 90 things to do at any time.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;inbox zero just means that my todo list is full&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/statuses/384368542616805376&#34;&gt;September 29, 2013&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://octodroid.com/&#34;&gt;Octodroid&lt;/a&gt; is a Github client for Android. It provides access to a bunch of Github features, most notably the issues feature. I can sort through issues, scroll through them, add comments and mark them as closed. It&#39;s free (free is good) though there hasn&#39;t been an update to the software in the better part of a year.&lt;/p&gt;
-
-&lt;p&gt;There are other fancier todo lists in the world, but very few of them come with a complete source code control system and a serviceable wiki. My only complaint with any of the Android tools for Github that I&#39;ve found so far is that none of them are really good wiki editors. I sometimes miss how good Evernote is at providing a simple synchronized text editor, and wish that it had more wiki-nature. Octodroid is just good enough at tracking what I&#39;m doing and not doing to satisfy the need to have a todo list that goes with me everywhere that doesn&#39;t live in my inbox.&lt;/p&gt;
-</description>
+      <description>I&#39;m using Github as a personal issue tracker, still using it in fact for a whole year. It says that I&#39;ve crossed 1200+ things off my todo lists and still have 70+ left to go. Unlike &#34;inbox zero&#34;, I&#39;m resigned to the notion that my todo list will hover somewhere between 60 and 90 things to do at any time.
+inbox zero just means that my todo list is full</description>
     </item>
     
     <item>
@@ -76,12 +48,7 @@
       <pubDate>Sun, 16 Jun 2013 17:39:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-16-evernote-for-android-as-a-reminder-system/</guid>
-      <description>&lt;p&gt;I have a fickle relationship with &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/reminder_systems/&#34; target=&#34;_self&#34;&gt;reminder systems&lt;/a&gt;. Usually the drill is to discover something new, vigorously dump everything I can possibly think into it, and then slowly but surely get disillusioned with it as time goes on. The smell of a new system is seductive, and when something new comes along there&amp;#39;s a tendency to look at its good side and to focus on the bad parts of whatever you were using before.&lt;/p&gt;
-&lt;p&gt;Thus my latest desire is to stop using &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34; target=&#34;_self&#34;&gt;Github as an issue tracking system&lt;/a&gt; for personal reminders, and to start using Evernote. I&amp;#39;ve written about Github before; the truth of it is that it&amp;#39;s not a bad system, but it&amp;#39;s set up enough for multi-person use that some of the easy affordances of single person use go to the wayside. Besides, my own use of it has tapered off and that&amp;#39;s a sign that something new needs to take its place.&lt;/p&gt;
-&lt;p&gt;Evernote hasn&amp;#39;t been written about much here, but there&amp;#39;s a lot that I am starting to like about it. The &lt;a href=&#34;http://blog.evernote.com/blog/2013/06/06/evernote-reminders-arrive-on-android/?utm_source=vacuum&#34; target=&#34;_self&#34;&gt;Android&lt;/a&gt; support for reminders is new. Android support in general it lags a bit behind iOS. The level that I&amp;#39;m currently using it it&amp;#39;s still free. Their reminder system is new, but still looks at least minimally functional enough to get the work done. Since it fits in my phone pretty well it seems as though I should be able to make the transition and not be pinned down in front of my computer screen when it&amp;#39;s time to brainstorm what to do next.&lt;/p&gt;
-&lt;p&gt;Basically it&amp;#39;s what every new system is, the new system smell, while it&amp;#39;s still revolutionary and not the politburo. Enjoy the new system before you figure out how to routinize it into distraction.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>I have a fickle relationship with reminder systems. Usually the drill is to discover something new, vigorously dump everything I can possibly think into it, and then slowly but surely get disillusioned with it as time goes on. The smell of a new system is seductive, and when something new comes along there&amp;#39;s a tendency to look at its good side and to focus on the bad parts of whatever you were using before.</description>
     </item>
     
     <item>
@@ -90,13 +57,8 @@
       <pubDate>Mon, 10 Jun 2013 14:45:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-10-tunein-listen-to-broadcast-radio-from-all-over-the-world/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019103316b58970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Tunein-appicon-free&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019103316b58970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019103316b58970c-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Tunein-appicon-free&#34; /&gt;&lt;/a&gt;I&amp;#39;m fond of &lt;a href=&#34;http://www.tunein.com&#34; target=&#34;_self&#34;&gt;TuneIn&lt;/a&gt;, a free service that lets you tune in to radio broadcasts from all over the world. I used it last night to listen to Pacific Coast League AAA baseball, and I&amp;#39;ve previously tuned in hockey games, news stations from far-away places when there&amp;#39;s breaking news, and the occasional music channel.&lt;/p&gt;
-&lt;p&gt;One of the remarkable things about TuneIn is that they have program schedules for the stations they are following, and so you can get real time updates for what&amp;#39;s playing now and who&amp;#39;s playing whom. The front page rotates new songs that if you&amp;#39;re a quick click you can hear more or less in their entirety as they are being broadcast.&lt;/p&gt;
-&lt;p&gt;A particularly useful part of TuneIn is its &amp;quot;trending&amp;quot; tab, where it gives you real time feedback on which channels have the most activity. When people are listening primarily to music, it&amp;#39;s a slow news day; when the top station is an all-news local channel, there&amp;#39;s breaking news.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://play.google.com/store/apps/details?id=tunein.player&amp;amp;hl=en&#34; target=&#34;_self&#34;&gt;TuneIn Android app&lt;/a&gt; has nearly all of the features of the web site, and it takes advantage of knowing where you are to offer up local stations. In addition there&amp;#39;s a &amp;quot;TuneIn Radio Pro&amp;quot;, which gives you record and rewind for $4.99. There has to be a monetization strategy in there somewhere; they also serve up ads as you connect to some channels.&lt;/p&gt;
-&lt;p&gt;Recommended. For public safety scanner monitoring, &lt;a href=&#34;http://www.broadcastify.com/&#34; target=&#34;_self&#34;&gt;Broadcastify&lt;/a&gt; is a good complement.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;m fond of TuneIn, a free service that lets you tune in to radio broadcasts from all over the world. I used it last night to listen to Pacific Coast League AAA baseball, and I&amp;#39;ve previously tuned in hockey games, news stations from far-away places when there&amp;#39;s breaking news, and the occasional music channel.
+One of the remarkable things about TuneIn is that they have program schedules for the stations they are following, and so you can get real time updates for what&amp;#39;s playing now and who&amp;#39;s playing whom.</description>
     </item>
     
     <item>
@@ -105,10 +67,8 @@
       <pubDate>Mon, 03 Jun 2013 10:54:14 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-03-vine-for-android-finally-arrives/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Vine is a versatile short-form video capture application for iPhone and now for Android. It lets you grab 6 second short videos, like the one embedded below, and post them easily from your phone or tablet.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=co.vine.android&#34;&gt;Get Vine for Android from the Google Play store.&lt;/a&gt;&lt;/p&gt;
-&lt;iframe class=&#34;vine-embed&#34; src=&#34;https://vine.co/v/b3vVuTI13V6/embed/postcard&#34; width=&#34;600&#34; height=&#34;600&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>Vine is a versatile short-form video capture application for iPhone and now for Android. It lets you grab 6 second short videos, like the one embedded below, and post them easily from your phone or tablet.
+Get Vine for Android from the Google Play store.</description>
     </item>
     
     <item>
@@ -117,11 +77,8 @@
       <pubDate>Sun, 24 Mar 2013 12:53:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-24-being-partially-online-is-worse-than-either-being-online-or-being-offline/</guid>
-      <description>&lt;p&gt;There&#39;s nothing more frustrating to me than being almost but not quite on the Internet, as I discovered today when going to a cafe (unnamed, but &lt;a href=&#34;http://arborwiki.org/Grand_Traverse_Pie_Company&#34; target=&#34;_self&#34;&gt;linked&lt;/a&gt;) which advertised free wifi. My connections were slow and unreliable and frustrating to use. It looks like you&#39;re online but any applications that depend on always-on Internet for their well being work out badly.&lt;/p&gt;
-&lt;p&gt;The best reaction that I have for this state of interrupted connectivity is to go offline and write in my little notebook. I&#39;ve written before about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/03/pocket-twitter-a-suitable-replacement-for-the-internet-when-offline.html&#34; target=&#34;_self&#34;&gt;Pocket Twitter&lt;/a&gt;; there&#39;s also a very effective &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/issue-tracker-a-github-project-for-personal-productivity.html&#34; target=&#34;_self&#34;&gt;Pocket Issue Tracker&lt;/a&gt; where you write down things to do and then re-sync them with your online issue tracker once you are online again.&lt;/p&gt;
-&lt;p&gt;There is technology that will help this state of interrupted connectivity, and I use it when I can. Of all of the applications that I use, &lt;a href=&#34;http://mail.google.com&#34; target=&#34;_self&#34;&gt;Gmail&lt;/a&gt; and &lt;a href=&#34;http://www.evernote.com&#34; target=&#34;_self&#34;&gt;Evernote&lt;/a&gt; are the two that have the best developed clients that can intelligently buffer things when you&#39;re offline. If I have my laptop and no connectivity, I can also use &#34;git&#34; and &#34;vim&#34; to work on my writing projects, knowing that a &#34;git push origin master&#34; command will resync when I&#39;m ready to update changes.&lt;/p&gt;
-&lt;p&gt;Once upon a time there was no internet and every application worked well offline. Netnews was delivered one batch at a time, and you&#39;d read it while the modem was quiet; email, if it was important enough, might warrant a long distance call to deliver. Now, when the net is down or flaky you should still be able to get work done. And yes, I should really get a data plan for my new phone so that I don&#39;t have to rely on the quality of random coffee shops for personal productivity.&lt;/p&gt;
-</description>
+      <description>There&#39;s nothing more frustrating to me than being almost but not quite on the Internet, as I discovered today when going to a cafe (unnamed, but linked) which advertised free wifi. My connections were slow and unreliable and frustrating to use. It looks like you&#39;re online but any applications that depend on always-on Internet for their well being work out badly.
+The best reaction that I have for this state of interrupted connectivity is to go offline and write in my little notebook.</description>
     </item>
     
     <item>
@@ -130,12 +87,8 @@
       <pubDate>Sun, 24 Mar 2013 12:28:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-24-two-sleep-tracker-applications-for-android-sleepbot-and-sleeptime/</guid>
-      <description>&lt;p&gt;I&#39;m going to try to review two different applications for Android that are designed to track your sleeping habits and improve your ability to wake up on time.&lt;/p&gt;
-&lt;p&gt;Both &lt;a href=&#34;http://mysleepbot.com/&#34; target=&#34;_self&#34;&gt;SleepBot&lt;/a&gt; (http://mysleepbot.com/) and &lt;a href=&#34;http://www.azumio.com/apps/sleep-time/&#34; target=&#34;_self&#34;&gt;SleepTime&lt;/a&gt; (http://www.azumio.com/apps/sleep-time/) have the same basic strategy. You put your phone under your pillow and go to sleep. The phone&#39;s accelerometer notices your tossing and turning or your deeply quiet snoozing, and keeps track of same overnight. When it comes to be time to wake up, they look for a time window when you&#39;re not in deep sleep in order to maximize the chance that you wake up refreshed.&lt;/p&gt;
-&lt;p&gt;I haven&#39;t used SleepTime yet, but SleepBot seemed to work this morning. That is to say, it did wake me up at 7:00 alert enough to notice that I was awake, but since I didn&#39;t have anything else planned for that early hour I caught some more sleep.&lt;/p&gt;
-&lt;p&gt;The only hitch I really see is that overnight is when I like to charge the phone, and by keeping the phone under the pillow it gets in the way of starting the next day with a full battery.&lt;/p&gt;
-&lt;p&gt;I&#39;d be happy to hear any reviews or recommendations from anyone who&#39;s tried these over a longer period of time. I have a faint goal of getting to bed earlier and getting up earlier, and if this can be accomplished with the help of a tiny habit to put my phone under my pillow before bedtime, let&#39;s try that out and see what works.&lt;/p&gt;
-</description>
+      <description>I&#39;m going to try to review two different applications for Android that are designed to track your sleeping habits and improve your ability to wake up on time.
+Both SleepBot (http://mysleepbot.com/) and SleepTime (http://www.azumio.com/apps/sleep-time/) have the same basic strategy. You put your phone under your pillow and go to sleep. The phone&#39;s accelerometer notices your tossing and turning or your deeply quiet snoozing, and keeps track of same overnight. When it comes to be time to wake up, they look for a time window when you&#39;re not in deep sleep in order to maximize the chance that you wake up refreshed.</description>
     </item>
     
   </channel>

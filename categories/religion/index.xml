@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/religion/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Religion on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/religion/</link>
+    <description>Recent content in Religion on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/religion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jun 2008 23:06:14 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/religion/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Flying Spaghetti Monster in Spore Creature Creator</title>
@@ -14,12 +17,8 @@
       <pubDate>Tue, 17 Jun 2008 23:06:14 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-17-flying-spaghett/</guid>
-      <description>&lt;p&gt;Various people have expressed wonder, delight, or dismay at the amount of time they have spent tonight playing with the &lt;a href=&#34;http://blog.wired.com/games/2008/04/spore-creature.html&#34;&gt;Spore Creature Creator&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To save you those emotions, I give you rapture - the verified appearance of the &lt;a href=&#34;http://www.venganza.org/2008/06/17/fsm-spore-creature.htm&#34;&gt;Flying Spaghetti Monster&lt;/a&gt;, as envisioned by a devout Pastafarian.&lt;/p&gt;
-
-&lt;p&gt;&lt;object width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/Qvxpe8ili0c&amp;hl=en&#34;&gt;&lt;/param&gt;&lt;embed src=&#34;http://www.youtube.com/v/Qvxpe8ili0c&amp;hl=en&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
-</description>
+      <description>Various people have expressed wonder, delight, or dismay at the amount of time they have spent tonight playing with the Spore Creature Creator.
+To save you those emotions, I give you rapture - the verified appearance of the Flying Spaghetti Monster, as envisioned by a devout Pastafarian.</description>
     </item>
     
   </channel>

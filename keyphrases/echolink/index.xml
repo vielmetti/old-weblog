@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/echolink/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Echolink on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/echolink/</link>
+    <description>Recent content in Echolink on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/echolink/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Dec 2014 01:03:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/echolink/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Some notes on Echolink and websdr</title>
@@ -14,16 +17,8 @@
       <pubDate>Tue, 09 Dec 2014 01:03:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</guid>
-      <description>&lt;p&gt;Echolink is a system that lets amateur radio operators transmit from their computer, through a relay at a suitable Echolink server. You have to be a licensed ham to get on the network, and typically there&#39;s a two-way repeater set up to some radio station so that you can hear what&#39;s being said on RF and vice versa.&lt;/p&gt;
-
-&lt;p&gt;websdr is a system that lets anyone listen to a slice of radio spectrum. There are websdr servers running around the globe, each tuned in to some particular slice of the radio waves. Multiple people can tune in at the same time and hear their own piece of the airwaves.&lt;/p&gt;
-
-&lt;p&gt;The interesting thing happens when you connect these two systems together. Some small number of the websdr receivers tune into the 2 meter band, which is the typical band used by Echolink. Using Echolink (or in my case the Mac application Echomac) I identified an Echolink host in the vicinity of the websdr receiver, then connected to it. Sure enough, I was able to hear my call sign back in through the websdr front end.&lt;/p&gt;
-
-&lt;p&gt;This little image shows the result. Transmitted via DM0ZHS, and monitored at http://129.187.5.188:8901/ on 145237.50 kHz, I&#39;m sending from Isen, Germany and receiving the transmission at the Olympic Tower in Munich, Germany.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0a4d614970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0a4d614970c img-responsive&#34; style=&#34;width: 590px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-12-09 at 1.00.38 AM&#34; title=&#34;Screen Shot 2014-12-09 at 1.00.38 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0a4d614970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>Echolink is a system that lets amateur radio operators transmit from their computer, through a relay at a suitable Echolink server. You have to be a licensed ham to get on the network, and typically there&#39;s a two-way repeater set up to some radio station so that you can hear what&#39;s being said on RF and vice versa.
+websdr is a system that lets anyone listen to a slice of radio spectrum.</description>
     </item>
     
   </channel>

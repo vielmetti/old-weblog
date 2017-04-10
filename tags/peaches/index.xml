@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/peaches/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Peaches on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/peaches/</link>
+    <description>Recent content in Peaches on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/peaches/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Aug 2015 16:00:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/peaches/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>August 2015 Farmers Market report</title>
@@ -14,13 +17,9 @@
       <pubDate>Sat, 22 Aug 2015 16:00:01 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-08-22-august-farmers-market-report/</guid>
-      <description>&lt;p&gt;At Ann Arbor Farmers Market:&lt;/p&gt;
-
-&lt;p&gt;Red Haven peaches 🍑, potatoes 🍠, kale, green onions, tomatoes, red peppers,
-and a cherry snow cone for my shopping companion.&lt;/p&gt;
-
-&lt;p&gt;(Testing to see how the emoji comes out; I didn&amp;rsquo;t see a kale emoji.)&lt;/p&gt;
-</description>
+      <description>At Ann Arbor Farmers Market:
+Red Haven peaches 🍑, potatoes 🍠, kale, green onions, tomatoes, red peppers, and a cherry snow cone for my shopping companion.
+(Testing to see how the emoji comes out; I didn&amp;rsquo;t see a kale emoji.)</description>
     </item>
     
   </channel>

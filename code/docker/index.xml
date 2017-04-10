@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/docker/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Docker on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/docker/</link>
+    <description>Recent content in Docker on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/code/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Sep 2015 17:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/docker/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Bluetooth and bluez inside Docker</title>
@@ -14,25 +17,9 @@
       <pubDate>Fri, 11 Sep 2015 17:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-09-11-bluetooth-bluez-inside-docker/</guid>
-      <description>&lt;p&gt;If you have a Bluetooth device attached to a Linux system, it&amp;rsquo;s
-not clear how to attach that device to a Docker container on that
-same system.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bluez&lt;/code&gt;, the Bluetooth driver for Linux, uses the &lt;code&gt;D-Bus&lt;/code&gt; to communicate.
-This is more complex than a FIFO or socket interface, and thus less
-easy to obviously say how it should be mapped into the Docker processs
-and file system space.&lt;/p&gt;
-
-&lt;p&gt;The references below show several ways of not doing this task,
-and hopefully at some point will get answers on how to do it.&lt;/p&gt;
-
-&lt;p&gt;References for further reading:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/docker/docker/issues/16208&#34;&gt;Bluetooth socket can&amp;rsquo;t be opened inside container&lt;/a&gt;, Docker Github issues 16208&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker&#34;&gt;Accessing Bluetooth dongle from inside Docker?&lt;/a&gt;, Stack Overflow.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>If you have a Bluetooth device attached to a Linux system, it&amp;rsquo;s not clear how to attach that device to a Docker container on that same system.
+bluez, the Bluetooth driver for Linux, uses the D-Bus to communicate. This is more complex than a FIFO or socket interface, and thus less easy to obviously say how it should be mapped into the Docker processs and file system space.
+The references below show several ways of not doing this task, and hopefully at some point will get answers on how to do it.</description>
     </item>
     
     <item>
@@ -41,67 +28,8 @@ and hopefully at some point will get answers on how to do it.&lt;/p&gt;
       <pubDate>Fri, 24 Jul 2015 09:55:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/</guid>
-      <description>&lt;p&gt;Daily coffee and wifi at Argus Farm Stop, outside in the sunshine
-under a lovely red umbrella canopy. Espresso over ice and a day-old
-olive twist. The view is of a Sky Trak lift at the construction
-site across moving materials to the back of The Mark, a building
-that&amp;rsquo;s going up where the car wash used to be.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The news of the day is a death on State Street. A young man was
-climbing over the skylights at the Nickels Arcade and fell to his
-death when the skylight glass gave way.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;On July 24, 1915, the SS Eastland was packed with employees from
-the Western Electric Hawthorne Works when it rolled over in
-the Chicago River. 844 passengers and crew lost their lives, making
-the Eastland disaster the worst shipwreck on the Great Lakes.
-See the &lt;a href=&#34;http://www.eastlanddisaster.org/&#34;&gt;Eastland Disaster Historical Society&lt;/a&gt;
-for extensive notes on and photos of the scene and its aftermath.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The next meeting of &lt;a href=&#34;http://www.meetup.com/a2civictech/&#34;&gt;a2civictech&lt;/a&gt;
-is coming up on Monday, July 27, 2015.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.literatibookstore.com/&#34;&gt;Literati Bookstore&lt;/a&gt; is open
-again after a water leak caused them to shut down.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;A few months ago I wrote a tiny R script that generates maps. The challenge
-today is to find a portable environment so that I can deploy this script
-on shared infrastructure. The project took 30 minutes of MacBook Air processor
-time running full blast parallel, and while I don&amp;rsquo;t care about wall clock time
-to complete the effort I do care about building something that I can hand
-off to someone else to run.&lt;/p&gt;
-
-&lt;p&gt;The hope is that the &lt;a href=&#34;https://github.com/rocker-org/ropensci&#34;&gt;ropensci&lt;/a&gt; Docker
-package from the Rocker project is the answer, or most of the answer, for this.
-Rocker has built R images where lots of useful packages have been installed,
-including systems where the install directions are a little bit complex.&lt;/p&gt;
-
-&lt;p&gt;With all complicated software environments the biggest challenge is dealing
-with dependencies. If you want to use the latest and greatest fast algorithms,
-you have to be prepared to spin up on what the cool kids are doing in the
-rest of their environment. If somehow you can jump to the edge of the development
-in the algorithm world without being tripped up by the hairy dependency graph
-that got you there, it can be a lot more fun.&lt;/p&gt;
-
-&lt;p&gt;So; install Docker on the Mac with &amp;lsquo;boot2docker&amp;rsquo;; then&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker pull rocker/ropensci
-docker run -it rocker/ropensci R
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and poof, you have an environment current to this month&amp;rsquo;s desktop of leading
-R developers.&lt;/p&gt;
-</description>
+      <description>Daily coffee and wifi at Argus Farm Stop, outside in the sunshine under a lovely red umbrella canopy. Espresso over ice and a day-old olive twist. The view is of a Sky Trak lift at the construction site across moving materials to the back of The Mark, a building that&amp;rsquo;s going up where the car wash used to be.
+ The news of the day is a death on State Street.</description>
     </item>
     
     <item>
@@ -110,13 +38,7 @@ R developers.&lt;/p&gt;
       <pubDate>Tue, 21 Jul 2015 18:48:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-21-docker-in-bash/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/p8952/bocker&#34;&gt;bocker&lt;/a&gt; is Docker (or at least
-a good sized subset of it) in 100 lines of shell script.
-I suppose the point is that even though there&amp;rsquo;s a huge
-world of hype surrounding containerization as a next step
-of systems management, when you get down to it, it&amp;rsquo;s just not
-that complicated.&lt;/p&gt;
-</description>
+      <description>bocker is Docker (or at least a good sized subset of it) in 100 lines of shell script. I suppose the point is that even though there&amp;rsquo;s a huge world of hype surrounding containerization as a next step of systems management, when you get down to it, it&amp;rsquo;s just not that complicated.</description>
     </item>
     
     <item>
@@ -125,18 +47,8 @@ that complicated.&lt;/p&gt;
       <pubDate>Mon, 22 Jun 2015 16:53:10 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-22-dockers-new-runc-doesnt-yet-work-on-mac-os-x-/</guid>
-      <description>&lt;p&gt;Docker has a new runtime environment that they are releasing called &lt;a href=&#34;http://blog.docker.com/2015/06/runc/&#34;&gt;runC&lt;/a&gt;. It&#39;s a &#34;lightweight universal plumbing&#34; that tries to encapsulate all of the Docker dependencies and infrastructure. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Because of Docker&#39;s start on Linux systems, it&#39;s been tricky to get it running under Mac OS X. Some tries to make it work depend on setting up virtual machines (with the likes of boot2docker) which makes it work at the cost of performance and flexibility. Docker on OS X has not been exceptionally easy though it does work once you commit to doing all of your Docker server work inside a VM&lt;/p&gt;
-
-&lt;p&gt;runC would be an answer to the problem of native Docker on OSX X, one might hope, but as of its first release it doesn&#39;t work. The first of what is probably many hurdles is the extensive use of the clone(2) system call instead of fork(2). This &lt;a href=&#34;http://files.meetup.com/10602292/See%20Docker%20from%20the%20Perspective%20of%20Linux%20Process.pdf&#34;&gt;presentation from Allen Sun at DaoCloud&lt;/a&gt; goes into the details of Docker&#39;s use of clone(2) from the perspective of Linux processes. It is notable that the OS X &#34;Darwin&#34; kernel doesn&#39;t have clone(2), and it&#39;s as far as I can tell not readily possible to mimic all of clone&#39;s semantics strictly by using fork in clever ways.&lt;/p&gt;
-
-&lt;p&gt;An open issue on Github is tracking &lt;a href=&#34;https://github.com/opencontainers/runc/issues/9&#34;&gt;Build fails on Mac OS X 10.9&lt;/a&gt;. I don&#39;t see an easy fix without work by Apple on their kernel.&lt;/p&gt;
-</description>
+      <description>Docker has a new runtime environment that they are releasing called runC. It&#39;s a &#34;lightweight universal plumbing&#34; that tries to encapsulate all of the Docker dependencies and infrastructure.  To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.
+ Because of Docker&#39;s start on Linux systems, it&#39;s been tricky to get it running under Mac OS X.</description>
     </item>
     
   </channel>

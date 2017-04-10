@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/unknowledge/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Unknowledge on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/unknowledge/</link>
+    <description>Recent content in Unknowledge on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/unknowledge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2011 09:36:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/unknowledge/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Unknowledge management</title>
@@ -14,15 +17,8 @@
       <pubDate>Fri, 10 Jun 2011 09:36:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-10-unknowledge-management/</guid>
-      <description>&lt;p&gt;From &lt;a href=&#34;http://www.nooron.org/know/uplift_linguistic_shell/unknowledge_pattern_language&#34; target=&#34;_self&#34;&gt;The Unknowledge Pattern Language&lt;/a&gt;, on Nooron:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Unknowledge Patterns describe ways of talking about that which is unknown. For example, the discovery of the periodic table of the elements created a pattern of information about what we didn&amp;#39;t know about the elements, until we &amp;quot;filled in the blanks.&amp;quot; These &amp;quot;named voids&amp;quot; in our knowledge were powerful attractors, and shaped the discourse of science. Are there other ways of naming voids which shape our discovery? The discovery of zero, a &amp;quot;missing nothing,&amp;quot; was one of the turning points in Western thought. Are there other missing nothings lurking about, waiting to be discovered? If so, how do we name these voids, and to what end? This is the stuff of unknowledge management.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Giving a name to something is a powerful act of creation. The ability to describe the unknown and nonexistent with words that are suggestive of its qualities creates a new universe of the plausible alternatives to the way that things are right now, and gives a way forward either to discover the absent or to rename existing concepts as though they were brand new.&lt;/p&gt;
-&lt;p&gt;My first hand experience in this world is in the world of wiki, where any name can be the target of commentary. Your wiki link to &lt;a href=&#34;http://arborwiki.org/city/Price_of_a_cup_of_coffee&#34; target=&#34;_self&#34;&gt;Price of a cup of coffee&lt;/a&gt;&amp;#0160;is real, even if the page that answers that query is currently blank. At a later time you can bind the name to its commentary, and use the statistics you get from watching people explore the unknowledge of the world to decide which of it to bring to reality.&lt;/p&gt;
-&lt;p&gt;A counterpoint to this line of reasoning is the periodic need to unname things which have names, so that they can grow new names that are newly reflective of the current observation. We didn&amp;#39;t know that we had land-line phones and terrestrial radios until cell phones and satellite radios forced the use of distinctive nomenclature. &amp;#0160;&lt;/p&gt;
-&lt;p&gt;Credit to Pete Kaminski, who has used the word &amp;quot;incipient links&amp;quot; to describe the deliberate use of wiki pointers to nowhere, and to Tom Munnecke for Nooron and the phrase &amp;quot;unknowledge management&amp;quot;. Pete also gave me &amp;quot;great weird ideas&amp;quot;, where this clearly fits.&lt;/p&gt;
-</description>
+      <description>From The Unknowledge Pattern Language, on Nooron:
+ Unknowledge Patterns describe ways of talking about that which is unknown. For example, the discovery of the periodic table of the elements created a pattern of information about what we didn&amp;#39;t know about the elements, until we &amp;quot;filled in the blanks.&amp;quot; These &amp;quot;named voids&amp;quot; in our knowledge were powerful attractors, and shaped the discourse of science. Are there other ways of naming voids which shape our discovery?</description>
     </item>
     
   </channel>

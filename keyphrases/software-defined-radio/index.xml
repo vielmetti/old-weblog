@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/software-defined-radio/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Software Defined Radio on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/software-defined-radio/</link>
+    <description>Recent content in Software Defined Radio on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/software-defined-radio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2013 23:26:49 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/software-defined-radio/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Software defined radio (SDR) for Mac OS X</title>
@@ -14,11 +17,9 @@
       <pubDate>Sat, 20 Apr 2013 23:26:49 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-20-software-defined-radio-sdr-for-mac-os-x/</guid>
-      <description>&lt;p&gt;I&amp;#39;ve started looking into software defined radio for Mac OS X. The goal is to take a cheap USB stick, plug it in to the Mac, and have it connect to software that will decode radio signals.&lt;/p&gt;
-&lt;p&gt;So far there&amp;#39;s nothing obvious that&amp;#39;s packaged as a single collection of software plus hardware, but that&amp;#39;s not surprising.&lt;/p&gt;
-&lt;p&gt;My best notes to date are from &lt;a href=&#34;http://pinboard.in/t:sdr&#34; target=&#34;_self&#34;&gt;Pinboard&amp;#39;s t:sdr tag&lt;/a&gt;, which looks like it has a few dozen people sharing links.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ll update this when I get more working details.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;ve started looking into software defined radio for Mac OS X. The goal is to take a cheap USB stick, plug it in to the Mac, and have it connect to software that will decode radio signals.
+So far there&amp;#39;s nothing obvious that&amp;#39;s packaged as a single collection of software plus hardware, but that&amp;#39;s not surprising.
+My best notes to date are from Pinboard&amp;#39;s t:sdr tag, which looks like it has a few dozen people sharing links.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/dave-winer/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Dave Winer on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/dave-winer/</link>
+    <description>Recent content in Dave Winer on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/dave-winer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 May 2012 10:19:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/dave-winer/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>&#34;The business model is hamsters generating less money with each turn of the wheel.&#34;</title>
@@ -14,14 +17,9 @@
       <pubDate>Wed, 30 May 2012 10:19:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-05-30-the-business-model-is-hamsters-generating-less-money-with-each-turn-of-the-wheel/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://scripting.com/stories/2012/05/26/newYorkTech.html&#34; target=&#34;_self&#34;&gt;The phrase is from Dave Winer&lt;/a&gt;, noting the path of Web 2.0 company growth and the difference between what the systems are worth to the owners vs. what they are worth to the early adopters:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The APIs are corporate APIs, the CMSes are silos, the business model is hamsters generating less money with each turn of the wheel.&amp;#0160;&lt;a name=&#34;isNewYorkTechDifferentFromCaliforniaTechThereMightBeSomeSlightDifferencesButYouCouldTakeATechConferenceFromCaliforniaPlopItDownInNycAndNotOnlyWouldTheSameIdeasBeDiscussedFromTheSamePerspectiveButMostOfThePeopleWouldBeTheSameTheApisAreCorporateApisTheCmsesAreSilosTheBusinessModelIsHamstersGeneratingLessMoneyWithEachTurnOfTheWheel&#34;&gt;&amp;#0160;&lt;/a&gt;&lt;a href=&#34;http://scripting.com/stories/2012/05/26/newYorkTech.html#isNewYorkTechDifferentFromCaliforniaTechThereMightBeSomeSlightDifferencesButYouCouldTakeATechConferenceFromCaliforniaPlopItDownInNycAndNotOnlyWouldTheSameIdeasBeDiscussedFromTheSamePerspectiveButMostOfThePeopleWouldBeTheSameTheApisAreCorporateApisTheCmsesAreSilosTheBusinessModelIsHamstersGeneratingLessMoneyWithEachTurnOfTheWheel&#34;&gt;&lt;img alt=&#34;permalink&#34; border=&#34;0&#34; height=&#34;9&#34; src=&#34;http://scripting.com/images/2001/09/20/sharpPermaLink3.gif&#34; width=&#34;6&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I can&amp;#39;t say this is wrong, but it brings some regret for the time spent being the early hamster on the wheel and seeing whatever value I added to the likes of brand new systems being captured completely by those systems. It makes me want to start something brand new of my own - but then - you end up being captured by all of the tools you have to learn to bring it online.&lt;/p&gt;
-&lt;p&gt;Perhaps the best thing to think through this is that all new shiny online services have a lifespan. Some of them grow quickly and then die (remember Pownce? I thought not), some of them grow slowly and still live on somehow (remember Plurk?), others never get off the ground (a dozen tiny spam-overrun Twitter clones), and a tiny handful make it to Twitter size. You generally don&amp;#39;t know when you&amp;#39;re starting to talk to people through some new online system whether you are going to treat it as a long-term commitment to learning a complex system, or just some hands-on experimentation in something to be ignored and forgotten in a few weeks.&lt;/p&gt;
-&lt;p&gt;So you are a hamster, and you see a wheel. Do you get on to try it out, give yourself some exercise, or do you go to your workshop and build a better wheel?&lt;/p&gt;
-</description>
+      <description>The phrase is from Dave Winer, noting the path of Web 2.0 company growth and the difference between what the systems are worth to the owners vs. what they are worth to the early adopters:
+ The APIs are corporate APIs, the CMSes are silos, the business model is hamsters generating less money with each turn of the wheel.&amp;#0160;&amp;#0160;
+ I can&amp;#39;t say this is wrong, but it brings some regret for the time spent being the early hamster on the wheel and seeing whatever value I added to the likes of brand new systems being captured completely by those systems.</description>
     </item>
     
   </channel>

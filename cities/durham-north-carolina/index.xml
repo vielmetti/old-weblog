@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/durham-north-carolina/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Durham North Carolina on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/durham-north-carolina/</link>
+    <description>Recent content in Durham North Carolina on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/durham-north-carolina/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Aug 2008 15:54:16 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/durham-north-carolina/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Anthrasimias gujaratensis - oldest anthropoid in Asia, 54.5 million years old</title>
@@ -14,23 +17,9 @@
       <pubDate>Tue, 12 Aug 2008 15:54:16 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-12-anthrasimias-gu/</guid>
-      <description>&lt;p&gt;As seen in the Duke University news:&lt;a href=&#34;http://news.duke.edu/2008/08/anthrasimias.html&#34;&gt; &lt;span id=&#34;innercontent&#34;&gt;Little Teeth Suggest Big Jump in Primate Timeline&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span id=&#34;innercontent&#34;&gt;&lt;p&gt;&lt;span class=&#34;dateline&#34; style=&#34;text-transform: uppercase;&#34;&gt;&lt;span sytle=&#34;text-transform: uppercase;&#34;&gt;&lt;br /&gt;DURHAM, NC&lt;/span&gt; -- &lt;/span&gt;&lt;span class=&#34;newsitembody&#34;&gt;Tiny
-fossilized teeth excavated from an Indian open-pit coal mine could be
-the oldest Asian remains ever found of anthropoids, the primate lineage
-of today&#39;s monkeys, apes and humans, say researchers from Duke
-University and the Indian Institute of Technology.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;newsitembody&#34;&gt;Just
-9-thousandths of a square inch in size, the teeth are about 54.5
-million years old and suggest these early primates were no larger than
-modern dwarf lemurs weighing about 2 to 3 ounces. Studies of the shape
-of the teeth suggest these small animals could live on a fruit and
-insect diet, according to the researchers.&lt;/span&gt;&lt;/p&gt;&lt;span class=&#34;newsitembody&#34;&gt;&lt;p&gt;&amp;quot;It&#39;s
-certainly the oldest anthropoid from Asia and India,&amp;quot; said Richard Kay,
-a Duke professor of evolutionary anthropology who is corresponding
-author of a report to be published online during the week of Aug. 4-8
-in &lt;em&gt;Proceedings of the National Academy of Sciences (PNAS)&lt;/em&gt;&lt;/p&gt;&lt;/span&gt;&lt;/span&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Anthrasimias gujarentisis is a &lt;a href=&#34;http://scholar.google.com/scholar?q=Eocene+eosimiid+anthropoid+primate&#34;&gt;Eocene eosimiid anthropoid primate&lt;/a&gt; (search on Google Scholar), and this 2004 book by Kay and Ross on &lt;a href=&#34;http://www.amazon.com/Anthropoid-Origins-Developments-Primatology-Prospects/dp/0306481200&#34;&gt;Anthropoid Origins&lt;/a&gt; gives a thorough overview of the field.&lt;/p&gt;
-</description>
+      <description>As seen in the Duke University news:Little Teeth Suggest Big Jump in Primate Timeline
+DURHAM, NC -- Tiny fossilized teeth excavated from an Indian open-pit coal mine could be the oldest Asian remains ever found of anthropoids, the primate lineage of today&#39;s monkeys, apes and humans, say researchers from Duke University and the Indian Institute of Technology.
+Just 9-thousandths of a square inch in size, the teeth are about 54.5 million years old and suggest these early primates were no larger than modern dwarf lemurs weighing about 2 to 3 ounces.</description>
     </item>
     
   </channel>

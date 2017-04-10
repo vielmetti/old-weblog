@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/september/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>September on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/september/</link>
+    <description>Recent content in September on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/september/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Aug 2013 00:36:16 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/september/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Starting up the fall</title>
@@ -14,8 +17,7 @@
       <pubDate>Wed, 28 Aug 2013 00:36:16 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-28-starting-up-the-fall/</guid>
-      <description>&lt;p&gt;And so it begins; my calendar is starting to fill with kid events celebrating the start of school. Soon, there will be a daily routine that ensures that the routine to and fro always happens exactly on time.&lt;/p&gt;
-</description>
+      <description>And so it begins; my calendar is starting to fill with kid events celebrating the start of school. Soon, there will be a daily routine that ensures that the routine to and fro always happens exactly on time.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/u-blox/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>U Blox on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/u-blox/</link>
+    <description>Recent content in U Blox on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/u-blox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2016 16:15:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/u-blox/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Narrowband IoT (NB-IoT) as a low power cellular data protocol on the u-blox SARA-N2</title>
@@ -14,38 +17,8 @@
       <pubDate>Mon, 10 Oct 2016 16:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-10-nb-iot/</guid>
-      <description>&lt;p&gt;In the process of looking at embedded radio components, I came across
-the u-blox &lt;a href=&#34;https://www.u-blox.com/en/product/sara-n2&#34;&gt;SARA-N2&lt;/a&gt;, a low power
-device designed to provide low bandwidth cellular data coverage for
-Internet of Things devices - &amp;ldquo;low power consumption and extended coverage&amp;rdquo;
-being the operative buzzwords. Speeds are 227 Kbps down and 21 Kbps up,
-and it&amp;rsquo;s claimed to be &amp;ldquo;low power&amp;rdquo; though no specific power consumption
-figures are provided.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s built on NB-IoT standards that are
-&lt;a href=&#34;http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete&#34;&gt;standardized in June 2016&lt;/a&gt;
-by the 3GPP project and which are codified in their Release 13.&lt;/p&gt;
-
-&lt;p&gt;The first announcement of use of this system is by Telenor in Norway, using it
-for a &lt;a href=&#34;http://www.mynewsdesk.com/uk/telenor/pressreleases/first-in-norway-with-narrowband-iot-1590130&#34;&gt;smart parking&lt;/a&gt;
-demonstration application in the city of Trondheim.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The pilot commences in January 2017 and will test out how smart sensors can tell you where there is available parking, and in time make it possible to reserve a parking space on your mobile phone, obtain real-time information on when a space will be free and if necessary be guided to other parking spaces if it is full.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;No word yet on availability of dev boards for the SARA-N2. u-blox has been
-good about getting some of their technologies into the DIY marketplace, with
-the Particle Electron using their SARA‑G350, SARA‑U260 or SARA‑U270 chips,
-and the Hologram Dash with the LISA-U200, SARA‑U260 or SARA‑U270 chips.
-Still, u-blox&amp;rsquo;s product line is way bigger than the availability of
-consumer-focused components to try them out.&lt;/p&gt;
-
-&lt;p&gt;More NB-IoT news from &lt;a href=&#34;http://www.huawei.com/minisite/hwmbbf15/en/nb-iot-accelerating-cellular-iot.html&#34;&gt;Huawei&lt;/a&gt;
-(from 2015), &lt;a href=&#34;http://www.vodafone.com/content/index/what/technology-blog/nb-iot-will-connect.html&#34;&gt;Vodafone&lt;/a&gt;
-(indicating commerical rollout in 2017), and &lt;a href=&#34;http://www.gsma.com/connectedliving/narrow-band-internet-of-things-nb-iot/&#34;&gt;GSMA&lt;/a&gt;
-(a vendor forum).&lt;/p&gt;
-</description>
+      <description>In the process of looking at embedded radio components, I came across the u-blox SARA-N2, a low power device designed to provide low bandwidth cellular data coverage for Internet of Things devices - &amp;ldquo;low power consumption and extended coverage&amp;rdquo; being the operative buzzwords. Speeds are 227 Kbps down and 21 Kbps up, and it&amp;rsquo;s claimed to be &amp;ldquo;low power&amp;rdquo; though no specific power consumption figures are provided.
+It&amp;rsquo;s built on NB-IoT standards that are standardized in June 2016 by the 3GPP project and which are codified in their Release 13.</description>
     </item>
     
   </channel>

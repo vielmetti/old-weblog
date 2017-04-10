@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/slow-conversations/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Slow Conversations on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/slow-conversations/</link>
+    <description>Recent content in Slow Conversations on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/slow-conversations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2010 22:46:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/slow-conversations/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Slow conversations with a daily deadline and an unanswered question</title>
@@ -14,12 +17,8 @@
       <pubDate>Sat, 16 Oct 2010 22:46:54 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-10-16-slow-conversations-with-a-daily-deadline/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://munnecke.com/blog/&#34; target=&#34;_self&#34;&gt;Tom Munnecke&lt;/a&gt; reminds me of a slow conversation we have been having for a few years. &amp;#0160;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/10/slow_conversati.html&#34; target=&#34;_self&#34;&gt;I noted it here about five years ago.&lt;/a&gt;&amp;#0160;&amp;#0160;Five years is a pretty good time to stretch out a single line of thinking, so it&amp;#39;s worthwhile reflecting on how much current writing structure allows for some amount of leisurely conversation in the face of a daily deadline.&lt;/p&gt;
-&lt;p&gt;The hard part about taking a question slowly is that &lt;a href=&#34;http://www.annarbor.com/vielmetti&#34; target=&#34;_self&#34;&gt;most of what I end up writing for AnnArbor.com&lt;/a&gt; is done with a short deadline. A daily column gets written the same day, much of the time, and the hours spent reading and following up on comments are as near real time performance art as anything else. How on earth do you have leisurely conversations when there&amp;#39;s always the next thing to do?&lt;/p&gt;
-&lt;p&gt;The answer, perhaps, is to leave open questions which are unanswered, and don&amp;#39;t try to seal off the end of each piece of writing with a neat and tidy finish. By leaving open ended questions which would take much more time than could be answered inside the scope of the words you have to produce today, you get the hopeful opportunity to revisit that same topic knowing a bit more about what you don&amp;#39;t know when it&amp;#39;s time to look again.&lt;/p&gt;
-&lt;p&gt;This echoes, in part, one of &lt;a href=&#34;http://dangillmor.com/&#34; target=&#34;_self&#34;&gt;Dan Gillmor&lt;/a&gt;&amp;#39;s suggestions for journalism: that readers and writers &lt;a href=&#34;http://personaldemocracy.com/blog-entry/using-distributed-media-and-people-ask-hard-questions&#34; target=&#34;_self&#34;&gt;collect unanswered questions&lt;/a&gt; as a part of the process of addressing complicated issues, and that the collected set of questions gets raised not only by the author but also by anyone else who wants to take up the task.&lt;/p&gt;
-&lt;p&gt;Writing a good question is difficult, and knowing when and where to pose it is a challenge. Some questions are better spoken, and others better written down. If the questions are difficult enough, you might spend most of the time looking to see who will answer them sensibly. &amp;#0160;Yet it may be that only by raising more questions than you are able to answer that you will get forward progress on complicated issues at a pace that doesn&amp;#39;t lend itself to instant answers.&lt;/p&gt;
-</description>
+      <description>Tom Munnecke reminds me of a slow conversation we have been having for a few years. &amp;#0160;I noted it here about five years ago.&amp;#0160;&amp;#0160;Five years is a pretty good time to stretch out a single line of thinking, so it&amp;#39;s worthwhile reflecting on how much current writing structure allows for some amount of leisurely conversation in the face of a daily deadline.
+The hard part about taking a question slowly is that most of what I end up writing for AnnArbor.</description>
     </item>
     
   </channel>

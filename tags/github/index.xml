@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/github/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Github on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/github/</link>
+    <description>Recent content in Github on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jun 2016 11:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Github private repositories</title>
@@ -14,17 +17,9 @@
       <pubDate>Wed, 01 Jun 2016 11:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-06-01-github-private-repos/</guid>
-      <description>&lt;p&gt;Github has changed their pricing strategy to allow individual
-accounts to have more private repositories. This is a welcome
-change for accounts like mine.&lt;/p&gt;
-
-&lt;p&gt;As part of their change, enterprise pricing has increased.
-I&amp;rsquo;m told that this will multiply the bills that some companies
-will see.&lt;/p&gt;
-
-&lt;p&gt;This post tests a new private repo, and links to
-&lt;a href=&#34;https://github.com/pricing&#34;&gt;Github pricing&lt;/a&gt; for future reference.&lt;/p&gt;
-</description>
+      <description>Github has changed their pricing strategy to allow individual accounts to have more private repositories. This is a welcome change for accounts like mine.
+As part of their change, enterprise pricing has increased. I&amp;rsquo;m told that this will multiply the bills that some companies will see.
+This post tests a new private repo, and links to Github pricing for future reference.</description>
     </item>
     
     <item>
@@ -33,43 +28,8 @@ will see.&lt;/p&gt;
       <pubDate>Mon, 14 Dec 2015 23:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-12-14-i-am-eating-a-sandwich-github-recipes/</guid>
-      <description>&lt;p&gt;Twitter is, of course, for telling people that you are eating a sandwich.
-That&amp;rsquo;s been the point of the system the whole time - long before selfies,
-even long before it took pictures at all, you might get a proper narrative
-of what people are eating for lunch or a snack.&lt;/p&gt;
-
-&lt;p&gt;Using the net to keep track of food is an old tradition; I need
-only point you at the &lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/main.html&#34;&gt;Usenet Cookbook&lt;/a&gt;,
-developed from 1985 to 1987 by Brian Reid, as an archetype.
-&amp;ldquo;I had a lettuce and tomato sandwich Saturday with mustard instead of mayonnaise. Better than I would have feared.&amp;rdquo; But that collection is
-weak on sandwiches, lending itself more to
-&lt;a href=&#34;http://www.lysator.liu.se/etexts/recept/us/SP-menu.html&#34;&gt;soups&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To remedy this need I have started a small and pitiful but
-hopefully growable sandwich recipe collection, using Github
-as the hosting place of choice. See
-&lt;a href=&#34;https://github.com/vielmetti/sandwich&#34;&gt;the vielmetti/sandwich repository&lt;/a&gt;
-for the first start. As it happens, I am clearly not the only person
-to think this way; herewith some collection of sandwich collections.&lt;/p&gt;
-
-&lt;p&gt;Barrie Turner (@bazbt3) came up with roughly the same idea at the same
-time, and you might see his &lt;a href=&#34;http://bazbt3.re-app.net/2015/12/10/git-sandwiches/&#34;&gt;git sandwiches&lt;/a&gt; blog for the proper inspiration for collection
-development. Thanks to @ellemef for connecting us.&lt;/p&gt;
-
-&lt;p&gt;Single sandwiches in git include&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/magnus919/grilledcheese&#34;&gt;grilled cheese&lt;/a&gt;, from Magnus Hedemark&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pcon/recipes/tree/master/meals/fried_chicken_sandwich&#34;&gt;gluten free fried chicken sandwich&lt;/a&gt; from Patrick Connelly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;and certainly many more.&lt;/p&gt;
-
-&lt;p&gt;If you are ill-equipped in your kitchen
-to make your own sandwiches, this command line tool will
-&lt;a href=&#34;https://github.com/travist/makemeasandwich.js&#34;&gt;order you a sandwich from Jimmy John&amp;rsquo;s&lt;/a&gt;. It comes with a makefile so that you invoke it as
-&lt;code&gt;sudo make me a sandwich&lt;/code&gt; and it will do the right thing.&lt;/p&gt;
-</description>
+      <description>Twitter is, of course, for telling people that you are eating a sandwich. That&amp;rsquo;s been the point of the system the whole time - long before selfies, even long before it took pictures at all, you might get a proper narrative of what people are eating for lunch or a snack.
+Using the net to keep track of food is an old tradition; I need only point you at the Usenet Cookbook, developed from 1985 to 1987 by Brian Reid, as an archetype.</description>
     </item>
     
     <item>
@@ -78,36 +38,8 @@ to make your own sandwiches, this command line tool will
       <pubDate>Wed, 02 Dec 2015 07:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-12-02-the-productity-oscillator/</guid>
-      <description>&lt;p&gt;I have been using Github issues for a long time as a todo list
-tracking and general productivity tool. It works well enough that
-I&amp;rsquo;ve opened over 4000 issues and have closed most of them.&lt;/p&gt;
-
-&lt;p&gt;The perpetual management challenge is in deciding how many issues
-is OK to leave open. Put too few in, and it feels like you have
-things to do that are not written down; put in too many, and you&amp;rsquo;re
-likely to have duplication and you forget what it is that you were
-trying to do in the first place.&lt;/p&gt;
-
-&lt;p&gt;The best part of the challenge is having some illusion of
-control over what is going on. I&amp;rsquo;m trying to work the queue
-this way. Some times my goal will be to create more open issues,
-putting things on the list to increase it up to a target goal.
-Other times the goal will be to reduce the size of the list by
-finishing tasks, clearing duplicates, or deciding not to get things
-done. By framing it as a deliberate game of &amp;ldquo;add tasks up to a
-target&amp;rdquo; or &amp;ldquo;clear tasks down to a target&amp;rdquo; I&amp;rsquo;m hoping to trick
-myself into taking on the easy things that I wrote down a month
-ago that will take a minute to do but are off my immediate radar.&lt;/p&gt;
-
-&lt;p&gt;The productivity oscillator suggests both a pattern of work and
-the illusion that whatever you are doing is the right thing to do.
-If you&amp;rsquo;re stuck trying to get stubborn things accomplished, write
-done some new easy goals and get those taken care of. It&amp;rsquo;s
-a quantified form of &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/04/marginally_usef.html&#34;&gt;structured procrastination&lt;/a&gt; - which it turns out
-I&amp;rsquo;ve been talknig about for 10 years.&lt;/p&gt;
-
-&lt;p&gt;I wonder if there&amp;rsquo;s anything still on my todo list from 2005!&lt;/p&gt;
-</description>
+      <description>I have been using Github issues for a long time as a todo list tracking and general productivity tool. It works well enough that I&amp;rsquo;ve opened over 4000 issues and have closed most of them.
+The perpetual management challenge is in deciding how many issues is OK to leave open. Put too few in, and it feels like you have things to do that are not written down; put in too many, and you&amp;rsquo;re likely to have duplication and you forget what it is that you were trying to do in the first place.</description>
     </item>
     
     <item>
@@ -116,54 +48,10 @@ I&amp;rsquo;ve been talknig about for 10 years.&lt;/p&gt;
       <pubDate>Tue, 14 Jul 2015 17:20:08 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</guid>
-      <description>&lt;p&gt;One of the challenges in getting things started is figuring
-out where the end product is going to live. Hugo has its own
-web server which is pretty nice, but since it generates static
-pages, the results can really go anywhere.&lt;/p&gt;
-
-&lt;p&gt;This tutorial goes through the process in excruciating detail&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;http://gohugo.io/tutorials/github-pages-blog/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;but somehow fails to make it easy. What I&amp;rsquo;d like is a publishing
-workflow that just like the normal Hugo workflow puts things online
-instantly once they are built.&lt;/p&gt;
-
-&lt;p&gt;This one deploys with CodeShip&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&#34;&gt;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And this one deploys with Wercker&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/automated-deployments/&#34;&gt;http://gohugo.io/tutorials/automated-deployments/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Yet one more, with Github hooks and S3/Cloudfront; it depends on s3cmd.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/imperialwicket/imperialwicket.com&#34;&gt;https://github.com/imperialwicket/imperialwicket.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, one that focuses on the github side of things:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/chrisjacob/825950&#34;&gt;https://gist.github.com/chrisjacob/825950&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The approach I have runs like so, it assumes that you have
-a working directory &amp;ldquo;~/src/hugo&amp;rdquo; with your blog in it, and
-a target directory &amp;ldquo;~/src/vielmetti.github.io&amp;rdquo; set up for
-github pages.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd ~/src/hugo
-hugo -d ../vielmetti.github.io --theme=vacuum
-# wait to build, then
-cd ../vielmetti.github.io
-git add -A .
-git commit -m &amp;quot;build complete&amp;quot;
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;By having separate build directories like this you can keep the
-continuous build on your draft setup going, and then push a
-working version whenever you&amp;rsquo;re perfectly happy with the result.
-Not like anyone is really perfectly happy with any blog.&lt;/p&gt;
-</description>
+      <description>One of the challenges in getting things started is figuring out where the end product is going to live. Hugo has its own web server which is pretty nice, but since it generates static pages, the results can really go anywhere.
+This tutorial goes through the process in excruciating detail
+http://gohugo.io/tutorials/github-pages-blog/
+but somehow fails to make it easy. What I&amp;rsquo;d like is a publishing workflow that just like the normal Hugo workflow puts things online instantly once they are built.</description>
     </item>
     
     <item>
@@ -172,26 +60,9 @@ Not like anyone is really perfectly happy with any blog.&lt;/p&gt;
       <pubDate>Sat, 27 Jun 2015 23:06:54 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-27-gogs-a-self-hosted-git-server/</guid>
-      <description>&lt;p&gt;Gogs is a self-hosted Git server, an alternative to using Github as a for-pay hosted service or Gitlab as another self-hosted system. It&#39;s written in the Go language, and is said to be sparing of system resources.&lt;/p&gt;
+      <description>Gogs is a self-hosted Git server, an alternative to using Github as a for-pay hosted service or Gitlab as another self-hosted system. It&#39;s written in the Go language, and is said to be sparing of system resources.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a5b824970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-27 at 11.01.35 PM&#34; title=&#34;Screen Shot 2015-06-27 at 11.01.35 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I&#39;m building it using Docker on a Raspberry Pi 2, thanks to the folks at Hypriot; the writeup is &lt;a href=&#34;http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/&#34;&gt;Run your own GitHub-like service with the help of Docker&lt;/a&gt;, and the file on Dockerhub is at &lt;a href=&#34;https://registry.hub.docker.com/u/hypriot/rpi-gogs-raspbian/&#34;&gt;hypriot/rpi-gogs-raspbian&lt;/a&gt;. The install went essentially as described; note that if you are using Avahi to provide a .local name service, you can avoid using IP addresses in configuration files and instead use names like &#34;black-pearl.local&#34; as your hostname.&lt;/p&gt;
-
-&lt;p&gt;Juan B. Rodriguez did a nice writeup of &lt;a href=&#34;http://jbrodriguez.io/gogs-an-alternative-to-gitlab/&#34;&gt;Gogs, an alternative to Gitlab&lt;/a&gt;, again with a Docker based installation description and a nice feature comparison.&lt;/p&gt;
-
-&lt;p&gt;After some poking around with Gogs I noted three substantial limitations, none of which are complete show-stoppers but which collectively give me pause about doing a wholesale replacement of Github with Gogs; and a fourth that gives me hope for some project that might address these issues but which might not end up being called Gogs.&lt;/p&gt;
-
-&lt;p&gt;First, there&#39;s no built-in wiki. I don&#39;t always use a wiki with a Github repository, and when I do I&#39;m not always thrilled by the minimalist features of Github&#39;s wiki, but it&#39;s mighty handy and I miss it right away. Gogs doesn&#39;t have a wiki, and though it&#39;s been an acknowledged issue for a long time it doesn&#39;t seem to have any forward movement.&lt;/p&gt;
-
-&lt;p&gt;Second, there&#39;s no built-in file editor. I&#39;m very used to the workflow where you see a file that has some small problem, you fork the repository right in the editor, type in your fix, save, and submit your patch to the maintainers. It&#39;s a very straightforward way of doing small things efficiently without dropping down to the command line, and the lack of it makes Gogs hard to understand how it would work in a mostly-web world.&lt;/p&gt;
-
-&lt;p&gt;Third, Gogs has a lot of obvious copying from Github, and I&#39;m uncertain about the whole ethos of wholesale replication of documentation. Sometimes there&#39;s not even an effort made to document what the system does and instead there&#39;s just a link to Github documentation. Self-hosted systems should have self-hosted documentation, and even if you&#39;re replicating someone else&#39;s system faithfully you still need to write up your own docs.&lt;/p&gt;
-
-&lt;p&gt;Fourth and finally, Gogs has been forked. &#34;gitea&#34; is &#34;Git with a cup of tea&#34;, and it seems to have a bunch of energy to fix things that the Gogs project is currently lacking. See &lt;a href=&#34;https://github.com/go-gitea/gitea&#34;&gt;the gitea project on Github&lt;/a&gt; and its corresponding &lt;a href=&#34;https://gitter.im/go-gitea/gitea&#34;&gt;gitter chat for gitea&lt;/a&gt;. gitea has not produced a release yet, but when it does I&#39;ll be sure to look for a reasonable packaging of it to try it out.&lt;/p&gt;
-
-&lt;p&gt;All of that said, I&#39;m happy to have found Gogs, and plan to poke through it some more and store some not-very-important files in it for a while until I get some confidence in it. I don&#39;t think it (or gitea) is an instant replacement for my hosted Github service, but for the narrow purpose of holding a private repository beyond what Github provides for its service plan it looks like a reasonable alternative now.&lt;/p&gt;
-</description>
+I&#39;m building it using Docker on a Raspberry Pi 2, thanks to the folks at Hypriot; the writeup is Run your own GitHub-like service with the help of Docker, and the file on Dockerhub is at hypriot/rpi-gogs-raspbian.</description>
     </item>
     
   </channel>

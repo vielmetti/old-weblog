@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/distributed-system/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Distributed System on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/distributed-system/</link>
+    <description>Recent content in Distributed System on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/distributed-system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 May 2012 22:27:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/distributed-system/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>distributed systems, and systems failure in general</title>
@@ -14,13 +17,9 @@
       <pubDate>Wed, 30 May 2012 22:27:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</guid>
-      <description>&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;div&gt;
-&lt;div&gt;&amp;quot;A distributed system is one in which the failure of a computer you didn&amp;#39;t even know existed can render your own computer unusable.&amp;quot; &lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34; target=&#34;_self&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;; though the same observation would be true for cloud computing today.&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://plus.google.com/u/1/114388360171023330683/posts/ZAgC1CB95kX&#34; target=&#34;_self&#34;&gt;Noted recently on this Google Plus thread&lt;/a&gt;; I don&amp;#39;t think I&amp;#39;ll quote the whole thing, but by referencing it here I&amp;#39;ll find it again at least for a while.&lt;/p&gt;
-</description>
+      <description>&amp;#0160;
+ &amp;quot;A distributed system is one in which the failure of a computer you didn&amp;#39;t even know existed can render your own computer unusable.&amp;quot; Leslie Lamport, 1987; though the same observation would be true for cloud computing today.  &amp;#0160;
+Noted recently on this Google Plus thread; I don&amp;#39;t think I&amp;#39;ll quote the whole thing, but by referencing it here I&amp;#39;ll find it again at least for a while.</description>
     </item>
     
   </channel>

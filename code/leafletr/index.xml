@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/leafletr/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Leafletr on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/leafletr/</link>
+    <description>Recent content in Leafletr on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/code/leafletr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Mar 2015 01:09:35 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/leafletr/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Maps with Leaflet and LeafletR</title>
@@ -14,39 +17,9 @@
       <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</guid>
-      <description>&lt;pre&gt;
-&gt; style &lt;- styleGrad(prop=&#34;score&#34;, breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg=&#34;score&#34;)
-&gt; leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)
-&lt;/pre&gt;
-
-&lt;p&gt;So, progress.&lt;/p&gt;
-
-&lt;p&gt;One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.&lt;/p&gt;
-
-&lt;p&gt;A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.&lt;/p&gt;
-
-&lt;p&gt;A screenshot of the result is below:&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; title=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Some big caveats.&lt;/p&gt;
-
-&lt;p&gt;My color palette is all wrong - I need to think that through. &lt;/p&gt;
-
-&lt;p&gt;This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.&lt;/p&gt;
-
-&lt;p&gt;The map needs labels of some sort. (How they will look when everything is smushed together, don&#39;t know.)&lt;/p&gt;
-
-&lt;p&gt;It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.&lt;/p&gt;
-
-&lt;p&gt;The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.&lt;/p&gt;
-
-&lt;p&gt;RESTAURANT NAMES ARE IN ALL CAPS AND THAT&#39;S SHOUTING.&lt;/p&gt;
-
-&lt;p&gt;Leaflet can do all sorts of things and I&#39;ve hardly scratched the surface.&lt;/p&gt;
-
-&lt;p&gt;I probably could do this all in R - or all in Python - but I&#39;m trying to spin up on both systems &amp;amp; thus really want to use each for what they are good at.&lt;/p&gt;
-</description>
+      <description>style leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)  So, progress.
+One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.
+A second process (code above) is in R using the LeafletR graphing package.</description>
     </item>
     
   </channel>

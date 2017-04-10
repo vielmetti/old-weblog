@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/les-orchard/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Les Orchard on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/les-orchard/</link>
+    <description>Recent content in Les Orchard on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/les-orchard/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Dec 2010 00:19:35 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/les-orchard/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Alas, poor delicious, you knew us well</title>
@@ -14,17 +17,9 @@
       <pubDate>Fri, 17 Dec 2010 00:19:35 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-12-17-alas-poor-delicious-you-knew-us-well/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;http://techcrunch.com/2010/12/16/is-yahoo-shutting-down-del-icio-us/&#34; target=&#34;_self&#34;&gt;scuttlebutt&lt;/a&gt; is that delicious is going to be &lt;a href=&#34;http://twitter.com/#!/bpm140/status/15473591558602752&#34; target=&#34;_self&#34;&gt;axed&lt;/a&gt; by Yahoo.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Once upon a time, I bookmarked everything interesting that came across my path to delicious (back when it was del.icio.us). &amp;#0160;It was part of my routine, and a daily summary was posted through to this blog.&lt;/p&gt;
-&lt;p&gt;Delicious was from the tags era of the Internet, where in addition to noting that a thing existed you could add your own tags to describe it. Sometimes these were straightforward tags, like the 1533 pages I marked as &amp;quot;&lt;a href=&#34;http://www.delicious.com/vielmetti/annarbor&#34; target=&#34;_self&#34;&gt;annarbor&lt;/a&gt;&amp;quot;. Others were idiosyncratic, like the 5 pages I marked as &amp;quot;&lt;a href=&#34;http://www.delicious.com/vielmetti/attention-to-irrelevant-details&#34; target=&#34;_self&#34;&gt;attention-to-irrelevant-details&lt;/a&gt;&amp;quot;.&lt;/p&gt;
-&lt;p&gt;There are other, better ways to bookmark things so that lots of people see them. The facebook &amp;quot;like&amp;quot; button gets more page views without consuming any &lt;a href=&#34;http://elab.eserver.org/hfl0098.html&#34; target=&#34;_self&#34;&gt;cognitive overhead&lt;/a&gt; about how to tag, whether to tag, and what you&amp;#39;ve tagged before. Actually writing about something is quite a bit better than just bookmarking it, because you get to be yourself for a little while and not just an automaton forwarding on links automatically.&lt;/p&gt;
-&lt;p&gt;Every bookmark I ever did on delicious, up until now, is archived for posterity here:&amp;#0160;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/delicious-20101216.htm&#34; target=&#34;_self&#34;&gt;vielmetti.typepad.com/vacuum/delicious-20101216.htm&lt;/a&gt;&amp;#0160;. As I review it, there really should have been more of them marked &amp;quot;attention to irrelevant details&amp;quot;. It&amp;#39;s hours of reading, though some of it goes by fast because the site that was linked to has disappeared, leaving only the bookmark and whatever clipping I managed to care about.&lt;/p&gt;
-&lt;p&gt;edit: now with more cognitive overhead&lt;/p&gt;
-&lt;p&gt;more delicious:&lt;/p&gt;
-&lt;p&gt;Les Orchard, &lt;a href=&#34;http://decafbad.com/blog/2010/12/19/let-a-million-bookmarks-bloom&#34; target=&#34;_self&#34;&gt;Let a million bookmarks bloom&lt;/a&gt;. &amp;quot;Use the web. Host your own, pay for it, or find someone who values your data.&amp;quot;&lt;/p&gt;
-&lt;p&gt;Stephen Hood,&amp;#0160;&lt;a href=&#34;http://uniquehazards.tumblr.com/post/2377362882/we-can-save-delicious-but-probably-not-in-the-way-you&#34;&gt;We can save Delicious, but probably not in the way you think&lt;/a&gt;. &amp;quot;The Delicious user community could organize to save the data themselves via a coordinated harvesting project.&amp;quot;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Edward Vielmetti is&amp;#0160;&lt;a href=&#34;http://www.delicious.com/vielmetti&#34; target=&#34;_self&#34;&gt;http://www.delicious.com/vielmetti&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>The scuttlebutt is that delicious is going to be axed by Yahoo.&amp;#0160;
+Once upon a time, I bookmarked everything interesting that came across my path to delicious (back when it was del.icio.us). &amp;#0160;It was part of my routine, and a daily summary was posted through to this blog.
+Delicious was from the tags era of the Internet, where in addition to noting that a thing existed you could add your own tags to describe it.</description>
     </item>
     
   </channel>

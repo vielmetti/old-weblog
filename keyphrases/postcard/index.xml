@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/postcard/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Postcard on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/postcard/</link>
+    <description>Recent content in Postcard on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/postcard/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2015 12:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/postcard/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>a2b3 lunch non-summary at Blue Nile for 30 July 2015</title>
@@ -14,45 +17,8 @@
       <pubDate>Thu, 30 Jul 2015 12:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-30-a2b3-lunch-nonsummary/</guid>
-      <description>&lt;p&gt;Nice lunch today at the Blue Nile. We had 10 people for lunch, including two
-people (Azita Azadi and Tom Meloche) who had moved back to town from far away.
-I had the vegetarian plate which was delicious (love me some injera).&lt;/p&gt;
-
-&lt;p&gt;The question of the day was regarding postcards, something I&amp;rsquo;m thinking about
-quite a bit. With a modest (but still too big) amount of effort I can launch
-a postcard from the command line of my Mac. It&amp;rsquo;s got to be easier (so I don&amp;rsquo;t
-have to look up command line options) but the basic structure works pretty well.&lt;/p&gt;
-
-&lt;p&gt;Postcards are archaic, perhaps, and also perhaps more expensive per each than
-reaching someone through Facebook advertising. I do have to say though that I
-love sending them, and love receiving them in return. I&amp;rsquo;d love to do the experiment
-of $20 spent on Facebook vs $20 spent on postcards, and wonder what the return
-would be; or better yet, $20 spent on each and identify particular synergies between
-super-high-tech and old-fashioned.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The card I got in the mail today was from Peter Honeyman and Lynn Chamberlain,
-two of my faithful correspondents. They sent a photo of the Pickle Barrel House Museum
-in Grand Marais, Michigan. The historic marker there reads:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Pioneer Cooperage Company of Chicago designed this small
-vacation cottage, which stood on the shores of nearby Sable Lake
-from 1926 until about 1937. It was built for William Donahey, creator
-of the Chicago Tribune cartoon story The Teenie Weenies. The house
-was constructed as a typical barrel would have been, only on a much
-larger scale. The main barrel contained a living area on the first
-floor and a bedroom on the second. A pantry connected this barrel
-to a smaller single-story one, which housed a kitchen. Donahey spent
-ten summers at the cottage with his wife, Mary, herself a noted
-author of children&amp;rsquo;s books. The structure was then moved to its
-current site and used as a tourist information center. The Pickle
-Barrel House is listed in the National Register of Historic Places.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Sounds like a destination for next time!&lt;/p&gt;
-</description>
+      <description>Nice lunch today at the Blue Nile. We had 10 people for lunch, including two people (Azita Azadi and Tom Meloche) who had moved back to town from far away. I had the vegetarian plate which was delicious (love me some injera).
+The question of the day was regarding postcards, something I&amp;rsquo;m thinking about quite a bit. With a modest (but still too big) amount of effort I can launch a postcard from the command line of my Mac.</description>
     </item>
     
     <item>
@@ -61,18 +27,8 @@ Barrel House is listed in the National Register of Historic Places.&lt;/p&gt;
       <pubDate>Thu, 30 Jul 2015 01:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-30-first-round-of-postcards/</guid>
-      <description>&lt;p&gt;A first round of postcards sent via Lob.com have arrived or are
-nearly arrived at their destinations. The initial experience of
-sending them made it clear that I need to do some simple user
-interface improvements. I think I can cope with the current situation
-on producing the card back photo, but again there&amp;rsquo;s more work to be
-done making the text on the page wonderful.&lt;/p&gt;
-
-&lt;p&gt;A reasonable question is, why do you send them? Why not send
-email or a Facebook message? The answer is fairly simple, no one
-ever remarks on my email prowess but even an ordinary card
-elicits a response.&lt;/p&gt;
-</description>
+      <description>A first round of postcards sent via Lob.com have arrived or are nearly arrived at their destinations. The initial experience of sending them made it clear that I need to do some simple user interface improvements. I think I can cope with the current situation on producing the card back photo, but again there&amp;rsquo;s more work to be done making the text on the page wonderful.
+A reasonable question is, why do you send them?</description>
     </item>
     
     <item>
@@ -81,35 +37,8 @@ elicits a response.&lt;/p&gt;
       <pubDate>Sun, 19 Jul 2015 22:05:18 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-lob-a-postcard-printer/</guid>
-      <description>&lt;p&gt;Lob.com has an API to send postcards-as-a-service ($0.70 per each,
-full custom both sides). Details at &lt;a href=&#34;https://lob.com/services/postcards&#34;&gt;https://lob.com/services/postcards&lt;/a&gt; .
-It works, but all of the user interface is up to you; if you know
-a good service for delivering a single full-custom postcard with
-postage that actually has a user interface and not an API for less
-than $1.00 each, let me know and I&amp;rsquo;ll update here.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve started checking in a few tiny utility programs that exercise
-the Lob API. Look for &lt;a href=&#34;https://github.com/vielmetti/postcard&#34;&gt;https://github.com/vielmetti/postcard&lt;/a&gt; on Github.
-The goal at some point is to have a &amp;ldquo;postcard&amp;rdquo; application
-that has a user interface like so.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;postcard --to mom --photo cute-kids.jpg --message &amp;quot;they get so big so fast! love ed&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also in this business is PostalMethods with a Postcard API based on SOAP.
-That&amp;rsquo;s not a convenient interface in the languages that I use, but you
-can look at the API at &lt;a href=&#34;http://www.postalmethods.com/lp/postcard-api&#34;&gt;http://www.postalmethods.com/lp/postcard-api&lt;/a&gt; .
-Their prices for postcards run $1.50 per each or less, with quantity
-discounts - see &lt;a href=&#34;http://www.postalmethods.com/pricing&#34;&gt;http://www.postalmethods.com/pricing&lt;/a&gt; for details.&lt;/p&gt;
-
-&lt;p&gt;Postful used to have an API for postcards. They were
-&lt;a href=&#34;http://blog.click2mail.com/articles/view/click2mail-acquires-postful/&#34;&gt;bought by Click2Mail in 2011&lt;/a&gt;. Pricing for Click2Mail&amp;rsquo;s postcards starts at $0.25
-per card plus $0.284 postcard, but there&amp;rsquo;s a $2.00 minimum if
-you don&amp;rsquo;t have credits on account. I wasn&amp;rsquo;t able to determine
-at first glance whether their REST API applied to onesy-twoesy
-printing options, though it was clear that if you wanted to send
-1000 cards that the pricing would be competitive.&lt;/p&gt;
-</description>
+      <description>Lob.com has an API to send postcards-as-a-service ($0.70 per each, full custom both sides). Details at https://lob.com/services/postcards . It works, but all of the user interface is up to you; if you know a good service for delivering a single full-custom postcard with postage that actually has a user interface and not an API for less than $1.00 each, let me know and I&amp;rsquo;ll update here.
+I&amp;rsquo;ve started checking in a few tiny utility programs that exercise the Lob API.</description>
     </item>
     
     <item>
@@ -118,9 +47,7 @@ printing options, though it was clear that if you wanted to send
       <pubDate>Thu, 23 Sep 2010 01:18:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-09-23-postcard-thoughts/</guid>
-      <description>&lt;p&gt;If I were to hive off another blog from this one, today I&amp;#39;d do the postcard blog; one that somehow every single post in the blog had the word postcard in the title and postcard in the first paragraph. All postcards all the time, and a design that looked like it was made for postcards.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/4452665619/&#34; title=&#34;Prettyman Boarding House postcard by Edward Vielmetti, on Flickr&#34;&gt;&lt;img alt=&#34;Prettyman Boarding House postcard&#34; height=&#34;275&#34; src=&#34;http://farm5.static.flickr.com/4007/4452665619_7d2c6a527d.jpg&#34; width=&#34;417&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>If I were to hive off another blog from this one, today I&amp;#39;d do the postcard blog; one that somehow every single post in the blog had the word postcard in the title and postcard in the first paragraph. All postcards all the time, and a design that looked like it was made for postcards.</description>
     </item>
     
     <item>
@@ -129,22 +56,13 @@ printing options, though it was clear that if you wanted to send
       <pubDate>Tue, 30 Dec 2008 15:00:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-12-30-stuck-on-a-postcard-postful-curl-problem/</guid>
-      <description>&lt;p&gt;FIXED, see the bottom.&amp;#0160; 12/31&lt;/p&gt;&lt;p&gt;rather than give up in total frustration, here&amp;#39;s what I am trying to implement, using &amp;quot;curl&amp;quot; to drive the system.&amp;#0160; This is from the &lt;a href=&#34;http://www.postful.com/developer/guide&#34;&gt;&amp;quot;postful&amp;quot; API docs&lt;/a&gt;.&lt;/p&gt;&lt;h4 style=&#34;margin-left: 40px;&#34;&gt;1. Upload the document.&lt;/h4&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;To uploading a document, submit a POST to:&lt;/p&gt;
-
-&lt;pre style=&#34;margin-left: 40px;&#34;&gt;http://www.postful.com/service/upload&lt;/pre&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;Be sure to include the Content-Type and Content-Length headers and the document itself as the body of the request.&lt;/p&gt;
-
-&lt;pre style=&#34;margin-left: 40px;&#34;&gt;&lt;code&gt;POST /upload HTTP/1.0&lt;br /&gt;Content-Type: application/octet-stream&lt;br /&gt;Content-Length: 301456&lt;br /&gt;&lt;br /&gt;... file content here ...&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;If the upload is successful, you will receive a response like the following:&lt;/p&gt;
-
-&lt;pre style=&#34;margin-left: 40px;&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;br /&gt;&amp;lt;upload&amp;gt;&lt;br /&gt; &amp;lt;id&amp;gt;290797321.waltershandy.2&amp;lt;/id&amp;gt;&lt;br /&gt;&amp;lt;/upload&amp;gt;&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;What is critical in this response is the &lt;strong&gt;id&lt;/strong&gt; assigned by the server to your document, in this example &lt;strong&gt;290797321.waltershandy.2&lt;/strong&gt;. You will use that id to reference the document in the next step.&lt;/p&gt;&lt;p&gt;I think it should work with&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;font-size: 12px; font-family: Courier;&#34;&gt;curl -v --user edward.vielmeti@gmail.com:t0ps3kr3t&amp;#0160; --data-binary &amp;quot;upload=@m-28-shield.png&amp;quot; http://postful.com/service/upload&lt;/span&gt;&lt;/p&gt;&lt;p&gt;but, it doesn&amp;#39;t.&amp;#0160; ideas?&amp;#0160; mac os if it matters, the &lt;/p&gt;&lt;p&gt;% curl --version&lt;br /&gt;curl 7.16.3 (powerpc-apple-darwin9.0) libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3&lt;br /&gt;Protocols: tftp ftp telnet dict ldap http file https ftps &lt;br /&gt;Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz&amp;#0160;&lt;/p&gt;&lt;p&gt;update: typo fixed&lt;/p&gt;&lt;p&gt;update2: working now!&amp;#0160; command line is&lt;/p&gt;&lt;p style=&#34;font-family: Courier;&#34;&gt;curl -k -v --user edward.vielmetti@gmail.com:s4x4s54&amp;#0160; --data-binary &amp;quot;@m-28-shield.png&amp;quot;&lt;a href=&#34;https://postful.com/service/upload&#34; target=&#34;_blank&#34;&gt; https://postful.com/service/&lt;wbr /&gt;upload&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;font-family: Helvetica;&#34;&gt;note three things: &amp;quot;-k&amp;quot; option; https, not http:; spell the user name right (duh).&lt;/p&gt;&lt;p style=&#34;font-family: Helvetica;&#34;&gt;next task: get the address side formatted right.&lt;/p&gt;
-</description>
+      <description>FIXED, see the bottom.&amp;#0160; 12/31
+rather than give up in total frustration, here&amp;#39;s what I am trying to implement, using &amp;quot;curl&amp;quot; to drive the system.&amp;#0160; This is from the &amp;quot;postful&amp;quot; API docs.
+1. Upload the document. To uploading a document, submit a POST to:
+http://www.postful.com/service/upload Be sure to include the Content-Type and Content-Length headers and the document itself as the body of the request.
+POST /upload HTTP/1.0
+Content-Type: application/octet-stream
+Content-Length: 301456</description>
     </item>
     
     <item>
@@ -153,31 +71,7 @@ printing options, though it was clear that if you wanted to send
       <pubDate>Sat, 29 Mar 2008 20:39:10 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-03-29-ten-secrets-to/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-1.  Send a postcard.
-&lt;/p&gt;&lt;p&gt;
-2.  Go for a walk.
-&lt;/p&gt;&lt;p&gt;
-3.  Use the library.
-&lt;/p&gt;&lt;p&gt;
-4.  Keep your inbox at zero.
-&lt;/p&gt;&lt;p&gt;
-5.  Find a group to go to lunch with regularly.
-&lt;/p&gt;&lt;p&gt;
-6.  Say thank you.
-&lt;/p&gt;&lt;p&gt;
-7.  Keep track of what you do.
-&lt;/p&gt;&lt;p&gt;
-8.  Keep track of what you promise to do.
-&lt;/p&gt;&lt;p&gt;
-9.  Always carry something to write with.
-&lt;/p&gt;&lt;p&gt;
-10.  Get enough sleep.
-&lt;/p&gt;&lt;p&gt;
-I wish I could say that I do all this, but at least it&amp;rsquo;s something to aim for.  And I wish I had the infinite patience to hyperlink all of these, but I don&amp;rsquo;t, so take it on faith that I&amp;rsquo;ve thought about and written about them before.
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/pnb&#34; rel=&#34;tag&#34;&gt;pnb&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/lists&#34; rel=&#34;tag&#34;&gt;lists&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>1. Send a postcard.  2. Go for a walk.  3. Use the library.  4. Keep your inbox at zero.  5. Find a group to go to lunch with regularly.  6. Say thank you.  7. Keep track of what you do.  8. Keep track of what you promise to do.  9. Always carry something to write with.  10. Get enough sleep.  I wish I could say that I do all this, but at least it&amp;rsquo;s something to aim for.</description>
     </item>
     
     <item>
@@ -186,27 +80,8 @@ I wish I could say that I do all this, but at least it&amp;rsquo;s something to 
       <pubDate>Tue, 04 Dec 2007 09:21:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-12-04-the-power-of-th/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-I used to send a lot more postcards, back in the day when I was on airplanes all the time.&lt;br /&gt;
-&lt;/p&gt;&lt;p&gt;
-&lt;a href=&#34;http://www.jasonwomack.com&#34;&gt;Jason Womack&lt;/a&gt; sends this out in his newsletter recently, about holiday cards and card writing in general:
-&lt;/p&gt;&lt;blockquote&gt;
-Chances are however you celebrate the closing of one year and the opening of another, you will connect with more people in your network during the holiday season.
-&lt;br /&gt;
-&lt;br /&gt;People wonder how I have time for it all. They ask me, &amp;ldquo;You REALLY write handwritten cards weekly?&amp;rdquo; My answer is yes&amp;hellip;and I love it.
-&lt;br /&gt;
-&lt;br /&gt;Here&amp;rsquo;s how I do it:
-&lt;br /&gt;
-&lt;br /&gt;    * I buy a 5-10 cards at a time. I write my return address and put a first class stamp on it, so it&amp;rsquo;s ready to go. I put those cards into an &amp;ldquo;action&amp;rdquo; folder that goes into my briefcase.
-&lt;br /&gt;
-&lt;br /&gt;    * Whenever I have some down time like when I&amp;rsquo;m early to a meeting, sitting at an airport, waiting for a seminar to begin, or on a break while coaching, I simply open that folder. Really, all I need is 4 minutes, and I can get it done quickly and easily!
-&lt;br /&gt;
-&lt;br /&gt;    * For the holidays, I prefer to write a personal note, rather than just sign my name. If you&amp;rsquo;re going to make the effort to reach out, say something!
-&lt;/blockquote&gt;&lt;p&gt;
-&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2004/09/send_a_postcard.html&#34;&gt;I learned to write postcards from my grandfather Marshall Kay&lt;/a&gt;, a geologist who would send appropriate ones from his field trips.  Perhaps the solution is more field trips to exotic locations (or more locations that provide postcards as handy self-promotional materials).
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/postcard&#34; rel=&#34;tag&#34;&gt;postcard&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/writing&#34; rel=&#34;tag&#34;&gt;writing&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>I used to send a lot more postcards, back in the day when I was on airplanes all the time.
+ Jason Womack sends this out in his newsletter recently, about holiday cards and card writing in general:  Chances are however you celebrate the closing of one year and the opening of another, you will connect with more people in your network during the holiday season. People wonder how I have time for it all.</description>
     </item>
     
   </channel>

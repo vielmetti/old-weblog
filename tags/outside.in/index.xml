@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/outside.in/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Outside.In on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/outside.in/</link>
+    <description>Recent content in Outside.In on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/outside.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2008 09:59:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/outside.in/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>outside.in &#34;top local blog&#34; roundup: what exactly am i writing about here?</title>
@@ -14,29 +17,8 @@
       <pubDate>Wed, 22 Oct 2008 09:59:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-10-22-what-exactly-am/</guid>
-      <description>&lt;p&gt;outside.in is a blog aggregator; it scoops up posts from around the net, codes them by geography, and then presents you the reader with a feed that&#39;s local to whatever you want it to be local about.&amp;nbsp; &lt;a href=&#34;http://outside.in/Ann_Arbor_MI&#34;&gt;Here is the outside.in Ann Arbor page&lt;/a&gt; .&amp;nbsp; I get their newsletter sent to me which ends up being a good day&#39;s local news clippings.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.outside.in/2008/10/21/dept-of-blogiology-101-ann-arbor/&#34;&gt;Here&#39;s their roundup of top Ann Arbor blogs and bloggers; Vacuum is listed as a top local blog. &lt;/a&gt; They describe what I write about as follows:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://vielmetti.typepad.com/vacuum/&#34;&gt;Vacuum &lt;/a&gt;-
-A love of the neighborhood library and awareness of local school news,
-political happenings, tech updates and the occasional recipe make this
-eclectic blog a must read. &lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;It&#39;s always interesting to figure out what other people thing you are doing - if you are trying to maintain a laser-like coherent focus on being eclectic, it&#39;s hard to know what to do next.&amp;nbsp; &amp;nbsp;I&#39;m happy that recipes make for good filler.&lt;/p&gt;
-
-&lt;p&gt;To give credit where credit is due, here&#39;s perhaps better sources for any of the components that go into this effort:&lt;/p&gt;
-
-&lt;p&gt;Libraries: my main library blog is &lt;a href=&#34;http://vielmetti.typepad.com/superpatron&#34;&gt;Superpatron&lt;/a&gt; which spun out of Vacuum about two years ago.&amp;nbsp; Locally the &lt;a href=&#34;http://aadl.org&#34;&gt;Ann Arbor District Library&lt;/a&gt; site has a bunch of blogs inside it including &lt;a href=&#34;http://www.aadl.org/taxonomy/term/302&#34;&gt;a good one on local history&lt;/a&gt;, Globally my short list for library inspiration includes &lt;a href=&#34;http://www.theshiftedlibrarian.com/&#34;&gt;Jenny Levine&#39;s The Shifted Librarian&lt;/a&gt;, &lt;a href=&#34;http://tametheweb.com/&#34;&gt;Michael Stephens writing Tame The Web&lt;/a&gt;, and &lt;a href=&#34;http://www.blyberg.net/&#34;&gt;self-described library geek John Blyberg&#39;s eponymous blog.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Local school news: the &lt;a href=&#34;http://www.burnsparkpto.org/&#34;&gt;Burns Park Elementary PTO has a web site and newsletter&lt;/a&gt;&amp;nbsp; which I clip from regularly (mostly, it seems, to remind myself of things in the future).&amp;nbsp; The &lt;a href=&#34;http://annarborchronicle.com/&#34;&gt;Ann Arbor Chronicle&lt;/a&gt; has good coverage of school meetings which I am never ever likely to attend regularly.&amp;nbsp; The &lt;a href=&#34;http://groups.yahoo.com/group/arborparents&#34;&gt;very busy arborparents mailing list &lt;/a&gt;connects parents across town and across the area - more news than I can readily absorb but always something of interest and a very helpful bunch for asking questions of.&lt;/p&gt;
-
-&lt;p&gt;Political happenings:&amp;nbsp; I think the outside.in people were keyed on to my elections coverage; rather than take any kind of political stance visibly here at all in any tedious partisan way, I try to always collect &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/10/ann-arbor-michi.html&#34;&gt;as much details as I can on elections including sample ballots and polling place locations and times.&lt;/a&gt;&amp;nbsp; &amp;nbsp;The best sources for that are &lt;a href=&#34;http://potifos.com/polygon/&#34;&gt;county clerk Larry Kestenbaum&#39;s occasional blogging&lt;/a&gt;, plus a certain degree of digging through municipal web sites.&amp;nbsp; The &lt;a href=&#34;http://www.a2gov.org/services/Pages/E-mailAlertSubscription.aspx&#34;&gt;City of Ann Arbor&#39;s email alert service&lt;/a&gt; helps a lot.&lt;/p&gt;
-
-&lt;p&gt;Tech updates: This leaves broad room for interpretation.&amp;nbsp; &amp;nbsp;In the useful but sometimes tedious realm, &lt;a href=&#34;http://techmeme.com/&#34;&gt;techmeme is the only tech news tracker you need to listen to the silicon valley echo chamber&lt;/a&gt;.&amp;nbsp; Collecting more local tech news is helped by&lt;a href=&#34;http://concentratemedia.com/&#34;&gt; Issue Media Group&#39;s Concentrate&lt;/a&gt; and by &lt;a href=&#34;http://www.wwj.com/pages/317228.php&#34;&gt;Matt Roush&#39;s Great Lakes IT Report&lt;/a&gt;, both of which are eager to write about local stuff.&amp;nbsp; My &lt;a href=&#34;http://groups.yahoo.com/group/a2b3&#34;&gt;a2b3 weekly lunch group and the mailing list that goes with it&lt;/a&gt; are my local collection source for interesting people and projects and tech (and note that quite a bit of this is pre-market projects not yet in the Silicon Valley radar).&lt;/p&gt;
-
-&lt;p&gt;The occasional recipe: The relentlessly practical answer to how this gets done is &amp;quot;blog what you eat&amp;quot;; if you are persistent about that, you get ready-made menu plans for next year around the same time.&amp;nbsp; &amp;nbsp;Locally, I turn to &lt;a href=&#34;http://4obsessions.blogspot.com&#34;&gt;Kate Remen-Wait&#39;s Four Obsessions blog&lt;/a&gt; when I need a menu idea,&amp;nbsp; &lt;a href=&#34;http://www.kitchenchick.com&#34;&gt;Kitchenchick for reviews of local restaurants&lt;/a&gt;, and &lt;a href=&#34;http://www.thefarmersmarketer.com/&#34;&gt;The Farmer&#39;s Marketer for a market list from the Ann Arbor Farmers Market&lt;/a&gt;.&amp;nbsp; Globally the technique is &amp;quot;google cooking&amp;quot; or &amp;quot;twitter cooking&amp;quot; where you simply type in a list of ingredients into either search box and hope someone has something inspiring. &lt;/p&gt;
-
-&lt;p&gt;Eclectica.&amp;nbsp; It&#39;s imporant to be fed a steady diet of things which are interesting; if &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2006/09/creativity_is_a.html&#34;&gt;creativity is an import-export game&lt;/a&gt;, then this is the import side of that.&amp;nbsp; Reliably I pull from&lt;a href=&#34;http://delicious.com/network/vielmetti&#34;&gt; my network on delicious&lt;/a&gt; for great weird ideas.&amp;nbsp; There are a few weblogs that specialize in the eclectic, most notably &lt;a href=&#34;http://catless.ncl.ac.uk/bifurcated/rivets/&#34;&gt;Lindsay Marshall&#39;s Bifurcated Rivets: A Compendium of Eclectica for Epopts.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;so there you go.&lt;/p&gt;
-</description>
+      <description>outside.in is a blog aggregator; it scoops up posts from around the net, codes them by geography, and then presents you the reader with a feed that&#39;s local to whatever you want it to be local about.&amp;nbsp; Here is the outside.in Ann Arbor page .&amp;nbsp; I get their newsletter sent to me which ends up being a good day&#39;s local news clippings.
+Here&#39;s their roundup of top Ann Arbor blogs and bloggers; Vacuum is listed as a top local blog.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/how-to/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>How To on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/how-to/</link>
+    <description>Recent content in How To on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jan 2013 22:42:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to mount your smart phone on a tripod, by Roger Rayle</title>
@@ -14,9 +17,8 @@
       <pubDate>Wed, 23 Jan 2013 22:42:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-01-23-how-to-mount-your-smart-phone-on-a-tripod-by-roger-rayle/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Roger Rayle (@wguru) gets the credit for this slide deck, which shows you how to adapt an automotive aftermarket phone mount as a holder for that phone in a tripod.&lt;/p&gt;
-&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/16130313&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;http://www.slideshare.net/wguru/tripod-mount-for-smart-phone&#34; title=&#34;Tripod Mount for Smart Phone&#34; target=&#34;_blank&#34;&gt;Tripod Mount for Smart Phone&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/wguru&#34; target=&#34;_blank&#34;&gt;wguru&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Roger Rayle (@wguru) gets the credit for this slide deck, which shows you how to adapt an automotive aftermarket phone mount as a holder for that phone in a tripod.
+  Tripod Mount for Smart Phone  from wguru</description>
     </item>
     
     <item>
@@ -25,11 +27,8 @@
       <pubDate>Wed, 06 Jun 2012 23:09:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-06-06-washing-machine-hose-leak-repair/</guid>
-      <description>&lt;p&gt;There are a couple of good sites for information about do-it-yourself washing machine repair. Ours had a leak, which I think I traced to a tiny hole in the low-pressure drain hose that was fixable with a pipe tape that the good folks at Stadium Hardware helped me find. Let&amp;#39;s hope the repair holds!&lt;/p&gt;
-&lt;p&gt;I used the &lt;a href=&#34;http://www.familyhandyman.com/DIY-Projects/Home-Repair/Appliance-Repair/how-to-repair-a-leaking-washing-machine/View-All&#34; target=&#34;_self&#34;&gt;Family Handyman&amp;#39;s How To Repair a Leaking Washing Machine&lt;/a&gt;&amp;#0160;as my guide. The pinhole sized leak was in the middle of the low-pressure drain hose, where a rusty piece of bracket had wedged itself against the hose and slowly caused it to get a pinhole sized hole. The repair was made with &lt;a href=&#34;http://www.duckbrand.com/Products/diy-products/diy-specialties/self-fusing-repair-tape.aspx&#34; target=&#34;_self&#34;&gt;Duck Brand Wrap-Fix Tape&lt;/a&gt;, a self-fusing silicone tape that says it&amp;#39;s good to 100 PSI.&amp;#0160;And &lt;a href=&#34;http://arborwiki.org/city/Stadium_Hardware&#34; target=&#34;_self&#34;&gt;Stadium Hardware&lt;/a&gt;&amp;#0160;(Arborwiki link) is a marvelous store, with helpful folks and a seemingly infinite supply of parts for every hardware need.&lt;/p&gt;
-&lt;p&gt;Now let&amp;#39;s just hope the repair holds! The next step, if it doesn&amp;#39;t, is to replace that hose entirely. Repair Clinic has &lt;a href=&#34;http://www.repairclinic.com/GE-Washing-Machine-Hose-Tube-Or-Fittings-Parts?z=100&#34; target=&#34;_self&#34;&gt;about 70 different GE washing machine hose parts available&lt;/a&gt;; I haven&amp;#39;t yet identified the exact part.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Please note that the repair for the high-pressure supply hose would be very different, as noted in the comment below. The Family Handyman guide referenced above suggests getting a metallic no-burst supply hose &lt;a href=&#34;http://www.fluidmaster.com/washing-machine-connectors.html/&#34; target=&#34;_self&#34;&gt;similar to this one from Fluidmaster&lt;/a&gt; to replace any worn, corroded, or leaky supply hoses. Supply lines run at much higher pressure than drain lines.&lt;/p&gt;
-</description>
+      <description>There are a couple of good sites for information about do-it-yourself washing machine repair. Ours had a leak, which I think I traced to a tiny hole in the low-pressure drain hose that was fixable with a pipe tape that the good folks at Stadium Hardware helped me find. Let&amp;#39;s hope the repair holds!
+I used the Family Handyman&amp;#39;s How To Repair a Leaking Washing Machine&amp;#0160;as my guide. The pinhole sized leak was in the middle of the low-pressure drain hose, where a rusty piece of bracket had wedged itself against the hose and slowly caused it to get a pinhole sized hole.</description>
     </item>
     
     <item>
@@ -38,10 +37,8 @@
       <pubDate>Fri, 07 Jan 2011 16:41:19 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-01-07-link-blogging-from-pinboard/</guid>
-      <description>&lt;p&gt;Once upon a time this blog featured (?) a daily link dump from delicious. It was completely automated, so that once a day something got dumped in. I don&amp;#39;t know if anyone read it except search engines, but it was a handy way to replicate some content.&lt;/p&gt;
-&lt;p&gt;There must be a way to do this from pinboard, which is what I am using now, but I don&amp;#39;t see a one-click from the &lt;a href=&#34;http://pinboard.in/howto&#34; target=&#34;_self&#34;&gt;pinboard FAQ&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Once upon a time this blog featured (?) a daily link dump from delicious. It was completely automated, so that once a day something got dumped in. I don&amp;#39;t know if anyone read it except search engines, but it was a handy way to replicate some content.
+There must be a way to do this from pinboard, which is what I am using now, but I don&amp;#39;t see a one-click from the pinboard FAQ.</description>
     </item>
     
     <item>
@@ -50,8 +47,9 @@
       <pubDate>Mon, 21 Dec 2009 23:16:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-12-21-emptying-out-my-inbox-into-my-blog/</guid>
-      <description>&lt;p&gt;Every so often the inbox is full and the blog is empty; this is an attempt to remedy that.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;How to do an introduction online.&lt;/strong&gt;&amp;#0160; X, meet Y; Y, meet X.&amp;#0160; X is notable for a1, a2, a3; Y is notable for b1, b2, b3.&amp;#0160; You have a mutual interest in c1, c2, c3; you should connect.&amp;#0160; There are several of those pending.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;How to make the best of not responding to mail promptly.&lt;/strong&gt;&amp;#0160; Answer long, hoping that your thoughtfulness makes up for your tardiness.&amp;#0160; Follow up with a new question, assuming that anything that went more than some period of time - two weeks, a month, or more - was overtaken by events and you want to be seen as having good follow up skills.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;How much inbox is too much inbox&lt;/strong&gt;.&amp;#0160; Inbox zero, for sure, in someone&amp;#39;s dreams.&amp;#0160; I&amp;#39;m generally happier when the bottomless queue reaches 100 or less, since it seems more likely that each one might represent a chance to connect with someone in particular.&amp;#0160; There&amp;#39;s also a time duration beyond which it makes more sense to start afresh than it does to reply.&lt;/p&gt;
-</description>
+      <description>Every so often the inbox is full and the blog is empty; this is an attempt to remedy that.
+How to do an introduction online.&amp;#0160; X, meet Y; Y, meet X.&amp;#0160; X is notable for a1, a2, a3; Y is notable for b1, b2, b3.&amp;#0160; You have a mutual interest in c1, c2, c3; you should connect.&amp;#0160; There are several of those pending.
+How to make the best of not responding to mail promptly.</description>
     </item>
     
     <item>
@@ -60,30 +58,10 @@
       <pubDate>Wed, 30 Jul 2008 11:13:38 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-07-30-what-to-do-befo/</guid>
-      <description>&lt;p&gt;&#34;Be prepared.&#34;&lt;/p&gt;
+      <description>&#34;Be prepared.&#34;
+from &#39;bill says this&#39;:
 
-&lt;p&gt;&lt;a href=&#34;http://billsaysthis.com/content/misc/losewallet.phtml&#34;&gt;from &#39;bill says this&#39;&lt;/a&gt;:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-But here&#39;s some critical information to limit the damage in case this happens to you or someone you know. As everyone always advises, cancel your credit cards immediately, but the key is having the toll free numbers and your card numbers handy so you know whom to call. Keep those where you can find them easily. File a police report immediately in the jurisdiction where it was stolen, this proves to credit providers you were diligent, and is a first step toward an investigation (if there ever is one).&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://consumerist.com/368235/weekend-project-photocopy-your-wallet&#34;&gt;Photocopy your wallet - yes?&lt;/a&gt; (Consumerist)&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-We&#39;ve all been there, that sickening feeling as you reach for your back pocket, only to find your wallet gone. A frantic search turns up nothing. You feel sad. But you wouldn&#39;t feel that sad if you had photocopied the contents of your wallet. Then you would have a legal copy of your license to use until it got replaced, and all your account numbers and the phone numbers you need to call for replacements. So take a second this weekend to pop your wallet into the photocopy or scanner and keep the paper in a safe place. You might be very glad some day that you did.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.iliumsoft.com/?p=75&#34;&gt;Photocopy your wallet - no?&lt;/a&gt; (Ellen Craw, Ilium Software)&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-I really hate it when people suggest photocopying your wallet contents for extra safety. Call me crazy (many people do) and paranoid (there’s some truth to that as well), but a photocopier is nothing but a scanner plus a printer. There’s no guarantee that your info is cleared out as soon as the pages are printed. If it’s your own copier in your own home office, fine, but if you take your wallet to Kinkos or CopyMax or any commercial place, keep in mind that what you’re doing is using their scanner to scan all the numbers you’re carefully protecting other places.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://randomwalksinlowcountries.blogspot.com/2008/05/what-to-do-if-you-lose-your-us-passport.html&#34;&gt;Scan your wallet, and upload it to the interwebs?&lt;/a&gt;  (&#34;Random Walks in the Lowlands&#34;)&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-1) Make a backup. Years ago, someone suggested that I put a scan of my critical documents up on the Internet where I could always access them from anywhere. So I scanned my passport, driver&#39;s license, and birth certificate in a password-protected file that I mailed to a supplemental Yahoo account. It was easy to just download and print it to have all of the information and documentation that the embassy required.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://amsterdam.usconsulate.gov/lost_stolen_passports.html&#34;&gt;If you lose a passport&lt;/a&gt;, you&#39;ll have to fill out the form &lt;a href=&#34;http://travel.state.gov/pdf/DS-0064.pdf&#34;&gt;DS-64&lt;/a&gt;; a photocopy of your current passport is an excellent way to be able to fill out that form.&lt;/p&gt;
-</description>
+But here&#39;s some critical information to limit the damage in case this happens to you or someone you know. As everyone always advises, cancel your credit cards immediately, but the key is having the toll free numbers and your card numbers handy so you know whom to call. Keep those where you can find them easily. File a police report immediately in the jurisdiction where it was stolen, this proves to credit providers you were diligent, and is a first step toward an investigation (if there ever is one).</description>
     </item>
     
   </channel>

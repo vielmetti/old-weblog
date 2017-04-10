@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/baseball/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Baseball on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/baseball/</link>
+    <description>Recent content in Baseball on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/baseball/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2013 21:01:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/baseball/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>DTE statement on power outage at beginning of 3d game of 2013 ALCS at Comerica Park in Detroit</title>
@@ -14,24 +17,9 @@
       <pubDate>Tue, 15 Oct 2013 21:01:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-15-dte-statement-on-power-outage-at-beginning-of-3d-game-of-2013-alcs-at-comerica-park-in-detroit/</guid>
-      <description>&lt;p&gt;From DTE Energy:&lt;/p&gt;
-
-&lt;h2&gt;DTE Energy addresses temporary lighting failure at Comerica Park&lt;/h2&gt;
-
-&lt;p&gt;DETROIT, Oct. 15, 2013 /PRNewswire/ -- DTE Energy&#39;s preliminary investigation of the temporary lighting failure that occurred at Comerica Park during Major League Baseball&#39;s American League Championship Series (ALCS), has found there was a cable failure in the area near the stadium, which caused the problem.&lt;/p&gt;
-
-&lt;p&gt;The lights in the stadium were out for approximately 20 minutes beginning at approximately 4:41 p.m. Power was restored in the stadium at around 5:00 p.m.&lt;/p&gt;
-
-&lt;p&gt;The cable failure caused a voltage reduction, which tripped the lights in the stadium. The momentary sag in voltage was an isolated incident.&lt;/p&gt;
-
-&lt;p&gt;DTE Energy maintains two independent electrical feeds for precisely this kind of an event. Both feeds to the park continued to provide power during the incident.&lt;/p&gt;
-
-&lt;p&gt;&#34;We&#39;ve identified the cause of the disturbance and we worked with officials at Comerica Park to resolve the issue quickly,&#34; said Steve Kurmas, President and Chief Operating Officer for DTE Electric, a unit of DTE Energy. &#34;We regret the interruption.&#34;&lt;/p&gt;
-
-&lt;p&gt;DTE Energy (NYSE:DTE) is a Detroit-based diversified energy company involved in the development and management of energy-related businesses and services nationwide. Its operating units include an electric utility serving 2.1 million customers in Southeastern Michigan and a natural gas utility serving 1.2 million customers in Michigan.  Information about DTE Energy is available at &lt;a href=&#34;http://dteenergy.com&#34;&gt;dteenergy.com&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/dte_energy&#34;&gt;twitter.com/dte_energy&lt;/a&gt; and &lt;a href=&#34;http://facebook.com/dteenegy&#34;&gt;facebook.com/dteenergy&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;SOURCE DTE Energy&lt;/p&gt;
-</description>
+      <description>From DTE Energy:
+DTE Energy addresses temporary lighting failure at Comerica Park DETROIT, Oct. 15, 2013 /PRNewswire/ -- DTE Energy&#39;s preliminary investigation of the temporary lighting failure that occurred at Comerica Park during Major League Baseball&#39;s American League Championship Series (ALCS), has found there was a cable failure in the area near the stadium, which caused the problem.
+The lights in the stadium were out for approximately 20 minutes beginning at approximately 4:41 p.</description>
     </item>
     
     <item>
@@ -40,22 +28,8 @@
       <pubDate>Fri, 13 Sep 2013 12:26:11 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-13-listening-to-baseball-online-with-global-tuners-radio/</guid>
-      <description>&lt;p&gt;It&#39;s not easy to do, but with a little bit of perseverance and a little bit of luck you may be able to listen to your favorite baseball team online without an MLB subscription by way of &lt;a href=&#34;http://www.globaltuners.com&#34;&gt;Global Tuners&lt;/a&gt;. Here&#39;s how it works (and why it&#39;s hard).&lt;/p&gt;
-
-&lt;p&gt;First, you&#39;ll need a &lt;a href=&#34;http://www.globaltuners.com&#34;&gt;Global Tuners&lt;/a&gt; account. This service provides you access to dozens of AM, FM, and short wave receivers around the world. The way it works is that the receivers are hooked up to a digital front end that lets you tune them remotely and that plays back the audio through the net. In general only one person can tune in at a time, so it&#39;s first come first served. &lt;/p&gt;
-
-&lt;p&gt;Second, you&#39;ll need to have some idea of which AM and FM stations your favorite team&#39;s radio network covers. For example, the &lt;a href=&#34;http://detroit.tigers.mlb.com/det/schedule/radioaffiliates.jsp&#34;&gt;Detroit Tigers radio network&lt;/a&gt; has AM and FM station ranging from Houghton in the U.P. to Toledo Ohio and Angola Indiana, and the &lt;a href=&#34;http://houston.astros.mlb.com/hou/schedule/radio_affiliates.jsp&#34;&gt;Houston Astros radio network&lt;/a&gt; also covers San Antonio and Shreveport. If the Tigers play the Astros, you can possibly tune to either network&#39;s stations - you&#39;ll either get home or away team coverage.&lt;/p&gt;
-
-&lt;p&gt;Finally, and here&#39;s the tricky part, you&#39;ll want to figure out which of the tuners covers which of the stations you are interested in. As it happens none of the tuners cover any stations that the Tigers routinely broadcast on, but the Astros are on KTKR 760 AM &lt;a href=&#34;http://www.ticket760.com/main.html&#34;&gt;Ticket 760&lt;/a&gt; in San Antonio, and there&#39;s a &lt;a href=&#34;http://www.globaltuners.com/receiver/info.php?r=1155&#34;&gt;receiver in San Antonio&lt;/a&gt; that might be free to listen through to them.&lt;/p&gt;
-
-&lt;p&gt;Figuring out radio channels can be weird - some stations have higher power and transmit over clear channels for long distances, and others don&#39;t cover much more ground than the city they are based in. So the &#34;best&#34; channel to tune in might be for a station that&#39;s powerful but far away. When you search through the MLB.com site for stations, look for the &#34;flagship&#34; station listed, which often broadcasts with higher power and over a greater distance than the other stations in the network. As an example, here&#39;s a report of &lt;a href=&#34;http://globaltuners.blogspot.com/2011/10/knbr.html&#34;&gt;hearing the San Francisco Giants&lt;/a&gt; from a tuner in Phoenix, AZ more than 600 miles away.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The signal was weak at a distance of over 650 miles, with little interference from other stations but some noise and fading.  Nonetheless, the content was usable and the station IDs clear.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The hobby of DXing gets an extra boost when you can tune in to radios that are far away. It&#39;s fun to scan the dial and hear what&#39;s out there. Most tuners have a band scan listing that you can see what&#39;s there. I listen to remote radio stations on &lt;a href=&#34;http://www.tunein.com&#34;&gt;Tunein&lt;/a&gt; as well, but there&#39;s not the same sense of being there when the reception is too perfect, and the baseball powers that be block internet-based games over regular radio channels.&lt;/p&gt;
-</description>
+      <description>It&#39;s not easy to do, but with a little bit of perseverance and a little bit of luck you may be able to listen to your favorite baseball team online without an MLB subscription by way of Global Tuners. Here&#39;s how it works (and why it&#39;s hard).
+First, you&#39;ll need a Global Tuners account. This service provides you access to dozens of AM, FM, and short wave receivers around the world.</description>
     </item>
     
   </channel>

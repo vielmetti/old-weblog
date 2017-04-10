@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/michigan-health-insurance/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Michigan Health Insurance on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/michigan-health-insurance/</link>
+    <description>Recent content in Michigan Health Insurance on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/michigan-health-insurance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jan 2009 00:07:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/michigan-health-insurance/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>&#34;Blue Cross is warned by AG on Medicare practices&#34;, Patricia Anstett, Detroit Free Press, Dec 19 2008</title>
@@ -14,17 +17,8 @@
       <pubDate>Sun, 11 Jan 2009 00:07:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-01-11-blue-cross-is-warned-by-ag-on-medicare-practices-patricia-anstett-detroit-free-press-dec-19-2008/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.freep.com/article/20081219/BUSINESS06/812190356&#34;&gt;from this Free Press article&lt;/a&gt;; hyperlinks mine.&amp;#0160; &lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;&lt;a href=&#34;http://michigan.gov/ag&#34;&gt;Michigan&amp;#39;s Attorney General&amp;#39;s Office&lt;/a&gt; has warned &lt;a href=&#34;http://www.bcbsm.com&#34;&gt;Blue Cross Blue
-Shield of Michigan&lt;/a&gt; to immediately stop what it believes are deceptive
-business practices that make it difficult for seniors to buy
-supplemental Medicare policies.&lt;/p&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;In a letter Wednesday, &lt;a href=&#34;http://www.mirsnews.com/lob_bio.php?cid=667&#34;&gt;Carol Isaacs&lt;/a&gt;, deputy attorney general, told
-Blue Cross general counsel Lisa DeMoss that the office has received
-more than a half dozen complaints that Blue Cross, the state&amp;#39;s insurer
-of last resort, does not promote the policies. Instead, &amp;quot;Blue Cross and
-its agents have been fervently marketing&amp;quot; its costlier Medicare Advantage products, Isaacs said, in the letter.&lt;/p&gt;&lt;p&gt;A quick look at the &lt;a href=&#34;http://www.bcbsm.com/medicare/&#34;&gt;Blue Cross Blue Shield of Michigan Medicare 2009&lt;/a&gt; page shows prominent branding for the &amp;quot;Medicare Advantage&amp;quot; name; it&amp;#39;s not clear at all to me which if any of the products there are which.&amp;#0160; There is no &amp;quot;Medigap&amp;quot; branding visible, or &amp;quot;supplemental Medicare&amp;quot; language in h1 bold type.&lt;/p&gt;&lt;p&gt;A useful tool though after some searching is a &lt;a href=&#34;http://search.bcbsm.com/&#34;&gt;BCBSM search engine&lt;/a&gt;, buried deep somewhere inside the site, powered by Verity and searching across a variety of sites with precise control over the dates of the documents returned.&lt;/p&gt;
-</description>
+      <description>from this Free Press article; hyperlinks mine.&amp;#0160; Michigan&amp;#39;s Attorney General&amp;#39;s Office has warned Blue Cross Blue Shield of Michigan to immediately stop what it believes are deceptive business practices that make it difficult for seniors to buy supplemental Medicare policies.
+In a letter Wednesday, Carol Isaacs, deputy attorney general, told Blue Cross general counsel Lisa DeMoss that the office has received more than a half dozen complaints that Blue Cross, the state&amp;#39;s insurer of last resort, does not promote the policies.</description>
     </item>
     
   </channel>

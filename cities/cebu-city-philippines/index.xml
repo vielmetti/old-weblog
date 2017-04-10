@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/cebu-city-philippines/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Cebu City Philippines on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/cebu-city-philippines/</link>
+    <description>Recent content in Cebu City Philippines on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/cebu-city-philippines/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2013 00:17:03 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/cebu-city-philippines/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Magnitude 7&#43; earthquake on 15 October 2013 shakes Bohol and Cebu, Philippines</title>
@@ -14,26 +17,10 @@
       <pubDate>Tue, 15 Oct 2013 00:17:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-15-magnitude-7-earthquake-shakes-bohol-and-cebu-philippines-/</guid>
-      <description>&lt;p&gt;An earthquake hit the island of Bohol in the Philippines at 8:12 a.m. local time (0012 UTC) on 15 October 2013, resulting in numerous fatalities (93 as of this writing, but the total is likely to be revised upwards). Nearby Cebu City was also shaken. Over 400,000 families have been affected, according to the &lt;a href=&#34;http://www.ndrrmc.gov.ph&#34;&gt;NDRRMC&lt;/a&gt; (National Disaster Risk Reduction and Management Council).&lt;/p&gt;
+      <description>An earthquake hit the island of Bohol in the Philippines at 8:12 a.m. local time (0012 UTC) on 15 October 2013, resulting in numerous fatalities (93 as of this writing, but the total is likely to be revised upwards). Nearby Cebu City was also shaken. Over 400,000 families have been affected, according to the NDRRMC (National Disaster Risk Reduction and Management Council).
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0008c31d970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0008c31d970c&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Bohol-earthquake-2013_1015_0012_B2F&#34; title=&#34;Bohol-earthquake-2013_1015_0012_B2F&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0008c31d970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Map from &lt;a href=&#34;http://www.phivolcs.dost.gov.ph/html/update_SOEPD/2013_Earthquake_Bulletins/October/2013_1015_0012_B2F.html&#34;&gt;Phivolcs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The best coverage I have seen is a &lt;a href=&#34;http://earthquake-report.com/2013/10/15/very-strong-earthquake-mindanao-philippines-on-october-15-2013/&#34;&gt;live blog from Earthquake-Report.com&lt;/a&gt; which has been updated every 10 minutes or so with news reports, photos from the scene, maps and seismology reports.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/tokyodrastic&#34;&gt;Robert Michael Poole&lt;/a&gt; (@tokyodrastic) has dramatic photos from the scene, which are being shared through multiple news channels and via Twitter.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;Loboc Church in Bohol collapsed front and center... Landslides around. People must be hurt. But seeing no casualties &lt;a href=&#34;http://t.co/oaoeU3bsI0&#34;&gt;pic.twitter.com/oaoeU3bsI0&lt;/a&gt;&lt;/p&gt;&amp;mdash; Robert Michael Poole (@tokyodrastic) &lt;a href=&#34;https://twitter.com/tokyodrastic/statuses/389921847132704768&#34;&gt;October 15, 2013&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;From an article on &lt;a href=&#34;http://www.bohol.ph/article8.html&#34;&gt;Bohol&#39;s old churches&lt;/a&gt; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Church of San Pedro in Loboc is the second oldest church in Bohol. It was originally built in 1602, but soon reduced to ashes. In 1638, a stronger one was built. Located near the river, it has survived a number of floods. Inside the church, you can admire some remarkable naive paintings on the ceiling. A Spanish coat of arms can be found in the stone wall near the entrance of the convent. The bell tower of Loboc is about 100 meters from the church.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+Map from Phivolcs.
+The best coverage I have seen is a live blog from Earthquake-Report.</description>
     </item>
     
   </channel>

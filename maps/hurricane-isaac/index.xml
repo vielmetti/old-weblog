@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/hurricane-isaac/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Hurricane Isaac on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/hurricane-isaac/</link>
+    <description>Recent content in Hurricane Isaac on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/hurricane-isaac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Aug 2012 22:50:32 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/hurricane-isaac/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hurricane Isaac flood maps and flooding predictions</title>
@@ -14,29 +17,8 @@
       <pubDate>Thu, 30 Aug 2012 22:50:32 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-08-30-hurricane-isaac-flood-maps-and-flooding-predictions/</guid>
-      <description>&lt;p&gt;Hurricane Isaac brought with it high winds and a substantial amount of rain, and both of those combined has led to a lot of flooding. Here are some maps I&amp;#39;ve collected while the storm is still underway. You should know that for each of them I&amp;#39;ll also give a link to the underlying mapping source so that you can get current information.&lt;/p&gt;
-&lt;p&gt;If you are in the affected area and need details about flooded roads or the risk of dams or levees bursting or anything else, &lt;strong&gt;do not trust this weblog for current information&lt;/strong&gt;; seek out official and up to date sources.&lt;/p&gt;
-&lt;p&gt;Most of the maps are dated August 30, 2012, unless otherwise noted.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rainfall&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A good source for maps of observed precipitation is &lt;a href=&#34;http://water.weather.gov&#34; target=&#34;_self&#34;&gt;water.weather.gov&lt;/a&gt;, specifically the &lt;a href=&#34;http://water.weather.gov/precip/&#34; target=&#34;_self&#34;&gt;AHPS&lt;/a&gt; (Advanced Hydrometeorological Prediction Service). Here&amp;#39;s a 7 day observed rainfall for Louisiana from that service, showing some areas with upwards of 20 inches of observed rainfall.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c319049ba970b-pi&#34;&gt;&lt;img alt=&#34;Ahps-louisiana-7-day-precipitation&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017c319049ba970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c319049ba970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Ahps-louisiana-7-day-precipitation&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Predicted rainfall&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A good source for rainfall predictions running out to the next 5 days (120 hours) is the &lt;a href=&#34;http://www.hpc.ncep.noaa.gov/qpf/day1-5.shtml&#34; target=&#34;_self&#34;&gt;Quantitative Precipitation Forecast (QPF).&lt;/a&gt;&amp;#0160;These models are updated several times a day and give rainfall estimates over the entire country. (Your rainfall will differ.) This is the run from Thursday, August 30, 2012, showing a predicted 5 day course for the remnants of Isaac to dump rain up the Mississippi and Ohio River valleys.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c31904d5d970b-pi&#34;&gt;&lt;img alt=&#34;P120i00&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017c31904d5d970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c31904d5d970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;P120i00&#34; /&gt;&lt;/a&gt;&lt;strong&gt;Predicted flooding&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The National Weather Serivce &lt;a href=&#34;http://www.spc.noaa.gov/products/wwa/&#34; target=&#34;_self&#34;&gt;Watch, Warning, Advisory Display&lt;/a&gt;&amp;#0160;shows this map with areas in pale green with warnings of potential floods, darker green (Arkansas) with current flood conditions, and parts of Louisiana and Mississippi with flash flood warnings. The accompanying text for some forecasts note that because of the dry and drought conditions the ground will be hard, and thus less able to absorb moisture leading to heavy runoff and flooding.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017617877774970c-pi&#34;&gt;&lt;img alt=&#34;Picture 13&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017617877774970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017617877774970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 13&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;strong&gt;River gauges, current&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Many rivers have flood gauges which measure and report current flood status. This is a map from water.weather.gov&amp;#39;s River Observations page showing the whole nation, with flooding marked in color. You can zoom in to individual observations as well.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c31905265970b-pi&#34;&gt;&lt;img alt=&#34;Ahps-river-observations&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017c31905265970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c31905265970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Ahps-river-observations&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Here&amp;#39;s a zoom of the New Orleans area for the same data. Please note that the gauges are only on rivers, and will not show flash flood areas, levee breaches, or other places where water is not usually found.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c319054b1970b-pi&#34;&gt;&lt;img alt=&#34;Picture 11&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017c319054b1970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c319054b1970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 11&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Satellite imagery&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ll be on the lookout for satellite photos that show flooding; those usually don&amp;#39;t appear until after the storm has cleared, because any imagery sensitive to water will pick up the clouds first. &amp;#0160;Here&amp;#39;s a NASA Aqua/MODIS image, pulled from their &lt;a href=&#34;http://earthdata.nasa.gov/data/near-real-time-data/rapid-response&#34; target=&#34;_self&#34;&gt;Rapid Response Imagery&lt;/a&gt; datasets.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01761787716c970c-pi&#34;&gt;&lt;img alt=&#34;Picture 12&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01761787716c970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01761787716c970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 12&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>Hurricane Isaac brought with it high winds and a substantial amount of rain, and both of those combined has led to a lot of flooding. Here are some maps I&amp;#39;ve collected while the storm is still underway. You should know that for each of them I&amp;#39;ll also give a link to the underlying mapping source so that you can get current information.
+If you are in the affected area and need details about flooded roads or the risk of dams or levees bursting or anything else, do not trust this weblog for current information; seek out official and up to date sources.</description>
     </item>
     
   </channel>

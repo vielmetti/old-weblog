@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/november/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>November on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/november/</link>
+    <description>Recent content in November on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/november/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2011 23:05:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/november/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Moonset over University Hospital, Ann Arbor</title>
@@ -14,10 +17,7 @@
       <pubDate>Sun, 06 Nov 2011 23:05:22 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-11-06-moonset-over-university-hospital-ann-arbor/</guid>
-      <description>&lt;p&gt;Time lapse photography from &lt;a href=&#34;https://www.google.com/search?q=%22kai+petainen+is+*%22&#34;&gt;Kai Petainen&lt;/a&gt;, looking west towards U Hospital in Ann Arbor. Used with permission.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;480&#34; height=&#34;360&#34; src=&#34;http://www.youtube.com/embed/2AfmQBm_-sg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>Time lapse photography from Kai Petainen, looking west towards U Hospital in Ann Arbor. Used with permission.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/minneapolis-minnesota/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Minneapolis Minnesota on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/minneapolis-minnesota/</link>
+    <description>Recent content in Minneapolis Minnesota on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/minneapolis-minnesota/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2008 14:53:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/minneapolis-minnesota/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Little Brown Jug, and other Michigan - Minnesota connections</title>
@@ -14,21 +17,8 @@
       <pubDate>Sat, 08 Nov 2008 14:53:54 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-08-the-little-brown-jug-and-other-michigan---minnesota-connections/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010535e32c60970c-pi&#34; style=&#34;float: left;&#34;&gt;&lt;img alt=&#34;Gopher&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef010535e32c60970c &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010535e32c60970c-800wi&#34; style=&#34;margin: 0px 5px 5px 0px;&#34; title=&#34;Gopher&#34; /&gt;&lt;/a&gt;
- Since it&amp;#39;s game day (Michigan at Minnesota) I thought I&amp;#39;d link to at least a few connections between Michigan and Minnesota.&lt;/p&gt;&lt;p&gt;1.&amp;#0160; The Little Brown Jug is the trophy that goes back and forth between the two schools depending on which one wins the game.&amp;#0160; It was originally purchased as a water jug for the Michigan team on an away game to Minnesota in 1903, it was left behind after the game (a 6-6 tie).&amp;#0160; &lt;a href=&#34;http://www.thedailygopher.com/2008/11/6/655570/the-little-brown-jug&#34;&gt;The Daily Gopher has an excellent roundup of the story (warning: Minnesota point of view) quoting from several Michigan football blogs.&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Days later when Yost sent a letter requesting his water jug back, Cook replied saying &amp;quot;&lt;em&gt;We have your little brown jug; if you want it, you’ll have to win it.&lt;/em&gt;&amp;quot; &lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;More on the &lt;a href=&#34;http://arborwiki.org/city/Little_Brown_Jug&#34;&gt;Little Brown Jug&lt;/a&gt;, and on the &lt;a href=&#34;http://arborwiki.org/city/Brown_Jug&#34;&gt;Brown Jug&lt;/a&gt; (a South University campus bar and restaurant) at Arborwiki.&lt;/p&gt;&lt;p&gt;2.&amp;#0160; Michigan shares a border with Minnesota along Lake Superior, and there is public transportation by ferry from Houghton, Michigan to Grand Portage, Minnesota via a stop at the Isle Royale National Park.&amp;#0160;&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.isleroyaleboats.com/&#34;&gt;Minnesota to Isle Royale ferry information:&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Grand Portage Isle Royale Transportation Line began as a way for the
-    Sivertson family of Lake Superior&amp;#39;s north shore to transport their catch of
-    freshwater fish from Isle Royale to Minnesota. It gradually expanded to include
-    passenger service. &lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;a href=&#34;http://www.nps.gov/isro&#34;&gt;Michigan to Isle Royale ferry information:&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Unlike other Isle Royale ferry services, the Ranger III was designed by
-the National Park Service specifically to bridge the gap between the
-mainland and the Island. It was built to withstand the Lake’s fierce
-storms and its ice breaking capabilities assist in opening the park in
-the spring. An experienced nine-member crew take great pride in not
-only maintaining the vessel, but in serving its passengers. The Ranger
-III’s Captain, Bill Hanrahan, a graduate of the Great Lakes Maritime
-Academy, has over&amp;#0160;30 years of experience; the crews combined experience
-is just under 200 years.&lt;/div&gt;&lt;p&gt;&lt;br /&gt;3.&amp;#0160; Ann Arbor, MI was the site of GopherCon &amp;#39;92, a 50 person workshop for developers and users of the Gopher information system, a pioneering Internet publishing system that was for some brief furry moment the hot new thing on MTV and bigger than that super-complicated World Wide Web hypertext thing.&amp;#0160; &lt;a href=&#34;http://iubio.bio.indiana.edu/soft/util/gopher/gophercon1.txt&#34;&gt;Prentiss Riddle wrote up the trip report for it,&lt;/a&gt; and here&amp;#39;s his writeup on my presentation at the time:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;RELATED TECHNOLOGIES: Ed Vielmetti of CICnet gave a talk on &amp;quot;what we would be gathering to discuss if UMinn had never developed Gopher&amp;quot;, meaning primarily World-Wide Web (WWW). WWW was developed for the high-energy physics community and serves as a model of what Gopher could do if a discipline-oriented virtual community invested in it&lt;br /&gt;heavily. WWW is based on SGML (Standard General Markup Language&amp;quot;), an ISO standard for marking up text which WWW uses to implement hypertext. SGML is a bear and it is a significant investment of effort to properly add a document to WWW, but the result is quite powerful (for instance, WWW handles footnotes in hypertext). &lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;The Internet periodically notices that Gopher is not dead; here are a survey of the current Gopher infrastructure from &lt;a href=&#34;http://kottke.org/06/08/gopher-still-going&#34;&gt;Jason Kottke&lt;/a&gt;, some April development from &lt;a href=&#34;http://george.hotelling.net/90percent/geekery/howto_make_a_weblog_a_gopherlog.php&#34;&gt;George Hotelling&lt;/a&gt;, and a manifesto from &lt;a href=&#34;http://www.scn.org/%7Ebkarger/gopher-manifesto&#34;&gt;Bjorn Karger&lt;/a&gt;.&amp;#0160; &lt;/p&gt;
-</description>
+      <description>Since it&amp;#39;s game day (Michigan at Minnesota) I thought I&amp;#39;d link to at least a few connections between Michigan and Minnesota.
+1.&amp;#0160; The Little Brown Jug is the trophy that goes back and forth between the two schools depending on which one wins the game.&amp;#0160; It was originally purchased as a water jug for the Michigan team on an away game to Minnesota in 1903, it was left behind after the game (a 6-6 tie).</description>
     </item>
     
   </channel>

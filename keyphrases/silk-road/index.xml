@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/silk-road/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Silk Road on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/silk-road/</link>
+    <description>Recent content in Silk Road on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/silk-road/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2013 15:54:06 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/silk-road/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Bitcoin volatility after Silk Road shutdown</title>
@@ -14,14 +17,7 @@
       <pubDate>Wed, 02 Oct 2013 15:54:06 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-02-bitcoin-volatility-after-silk-road-shutdown/</guid>
-      <description>&lt;p&gt;The markets have not been kind to Bitcoin over the past few hours. Here&#39;s a 24 hour snapshot from the &lt;a href=&#34;http://bitcoinity.org/markets&#34;&gt;Bitcoin price tracking site Bitcoinity&lt;/a&gt;. What you see is a steady state of $140 per Bitcoin disrupted into a steep decline to $110, and then a ragged recovery up towards the $125 level. Your guess is good as mine what the rate will be in the next 24 hours.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affbd614d970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019affbd614d970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-10-02 at 3.37.32 PM&#34; title=&#34;Screen shot 2013-10-02 at 3.37.32 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affbd614d970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Why the volatility? It turns out that a popular Bitcoin trading site, Silk Road, has been shut down by the Feds. Silk Road was known for its free and easy Bitcoin-fueled trading in drugs, and the &lt;a href=&#34;http://www.reuters.com/article/2013/10/02/crime-silkroad-raid-idUSL1N0HS12C20131002&#34;&gt;indictment alleges&lt;/a&gt; that the proprietor, a certain Ross William Ulbricht, known as &#34;Dread Pirate Roberts,&#34; also used the site to plan a contract &#34;hit&#34; on someone who crossed his path.&lt;/p&gt;
-
-&lt;p&gt;Many, many more comments are on &lt;a href=&#34;https://news.ycombinator.com/item?id=6482992&#34;&gt;the Hacker News story&lt;/a&gt;, and an account of the Bitcoin volatility in &lt;a href=&#34;http://www.reuters.com/article/2013/10/02/crime-silkroad-bitcoin-idUSL1N0HS1Q820131002&#34;&gt;a Reuters followup&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The markets have not been kind to Bitcoin over the past few hours. Here&#39;s a 24 hour snapshot from the Bitcoin price tracking site Bitcoinity. What you see is a steady state of $140 per Bitcoin disrupted into a steep decline to $110, and then a ragged recovery up towards the $125 level. Your guess is good as mine what the rate will be in the next 24 hours.</description>
     </item>
     
   </channel>

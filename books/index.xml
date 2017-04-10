@@ -1,124 +1,410 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
+    <title>Books on Vacuum weblog from Edward Vielmetti</title>
     <link>http://vielmetti.github.io/books/</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <description>Recent content in Books on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2015 16:11:41 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.io/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2008 14:44:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/books/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Levenshtein distance for approximate match</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</link>
-      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      <title>A Field Guide To Blueberries</title>
+      <link>http://vielmetti.github.io/books/a-field-guide-to-blueberries/</link>
+      <pubDate>Sun, 03 Aug 2008 14:44:33 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</guid>
-      <description>&lt;p&gt;The problem, simply stated, is that of typoes and inconsistent
-spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of
-text that you want to annotate with some metadata, like categories
-and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which
-tags you want to use, but you want to catch through some test or
-lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into
-a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
-will catch minor deviations from the norm and advise you when you
-should go back with a fresh pair of eyes and do an edit.
-The bigger problem is &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;deduplication&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;My first pass at a proposed solution was to look for a version of
-the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
-There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Udi Manber&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;[WM92a]
-Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
-Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
-1992), pp. 153-162.&lt;/p&gt;
-
-&lt;p&gt;Neither of these first lines of attack to see if someone had
-completely solved the problem before did the trick, but some
-searching around and a conversation with
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;John Hritz&lt;/span&gt;
-hit the neuron that remembered the algorithm called the
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Levenshtein distance&lt;/span&gt;.
-That led me to
-&lt;span style=&#34;background-color: #ffbfff;&#34;&gt;Wikibook: Algorithm Implementation&lt;/span&gt;,
-and its set of
-&lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
-was a very slow implementation in the bash shell included
-in that collection that was a cut and paste and two lines of
-code from being exactly what I needed. A little bit of glue
-code in awk and I was ready to go.&lt;/p&gt;
-
-&lt;p&gt;Now the problem with cut and paste two lines of code is that this
-particular implmentation is very slow, albeit correct. Given the
-choice between slow correct code and fast code that&amp;rsquo;s wrong (because
-of the bug that you don&amp;rsquo;t yet understand), I&amp;rsquo;ll take the slow code
-plus a comment and a writeup that describes how to make it faster.&lt;/p&gt;
-
-&lt;p&gt;What I&amp;rsquo;m really after is just the pairwise comparison of a set
-of words where the two words are close to each other. If the
-distance between two words is greater than some threshhold, I don&amp;rsquo;t need
-to go any further. That algorithmic shortcut isn&amp;rsquo;t in the library
-codes that I found.&lt;/p&gt;
-
-&lt;p&gt;The bigger question is how to write a
-checklist
-and implement it in code to make sure that a big body of work stays
-internally consistent. It&amp;rsquo;s one thing to have a
-categorization
-rule for your writers that says &amp;ldquo;always use the
-singular&amp;rdquo;, but very much something different to have Test 38 in
-your automated test corpus apply that rule and notice when it&amp;rsquo;s
-wrong.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Update 29 July 2015:
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Dennis Yurichev&lt;/span&gt; with a post
-&lt;a href=&#34;http://yurichev.com/blog/fuzzy_string/&#34;&gt;Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.&lt;/a&gt; shares some Python code to handle the
-case of automated checking against a probably correct dictionary. He uses this
-&lt;a href=&#34;https://pypi.python.org/pypi/python-Levenshtein/0.12.0&#34;&gt;python-Levenshtein&lt;/a&gt; module
-to do the hard work.&lt;/p&gt;
-</description>
+      <guid>http://vielmetti.github.io/books/a-field-guide-to-blueberries/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>relevance in social networks - a function of local density</title>
-      <link>http://vielmetti.github.io/post/2008/2008-02-14-relevance-in-so/</link>
-      <pubDate>Thu, 14 Feb 2008 01:26:10 +0000</pubDate>
+      <title>A Sand County Almanac</title>
+      <link>http://vielmetti.github.io/books/a-sand-county-almanac/</link>
+      <pubDate>Sat, 05 Jun 2010 14:59:33 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2008/2008-02-14-relevance-in-so/</guid>
-      <description>&lt;p&gt;This very interesting phrase gets exactly one search hit in Google,
-a use in the book &amp;ldquo;Network Analysis: Methodological Foundations&amp;rdquo;
-by Ulrik Brandes, Thomas Erlebach.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m getting my copy via inter-library loan (yay Melcat) and hope
-to dig through it.  The relevant chapter is on &amp;ldquo;local density&amp;rdquo;,
-which looks to have all kinds of NP-hard math about finding dense
-clusters, cliques, and  inside networks.&lt;/p&gt;
-
-&lt;p&gt;What makes a portion of a social network more relevant than the
-rest of it?  I.e., if you want to partition a network into an
-&amp;ldquo;interesting&amp;rdquo; part and a &amp;ldquo;less interesting&amp;rdquo; part, how do you cut
-it?  This is then a property less of any individual ego and more a
-property of a subset of the group.   Large networks have enormous
-(and computationally difficult) different ways they can be sliced
-up, so you have to have some heuristics that lead you to the right
-places.&lt;/p&gt;
-
-&lt;p&gt;On a network like the internet, where do you measure &amp;ldquo;local density&amp;rdquo;?
-Decide how much it matters that people are in the same place at the
-same time, and how much it matters that they quote each other all
-the time, and how much it matters that they sync up even though
-they are far apart.&lt;/p&gt;
-
-&lt;p style=&#34;text-align:center;&#34;&gt;
-&lt;img src=&#34;http://ecx.images-amazon.com/images/I/01TOTCbRZlL.jpg&#34; /&gt;
-&lt;br /&gt;&lt;a href=&#34;http://www.amazon.com/gp/redirect.html%3FASIN=3540249796%26tag=superpatron-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3540249796%253FSubscriptionId=02ZH6J1W0649DTNS6002&#34;&gt;&#34;Network Analysis: Methodological Foundations (Lecture Notes in Computer Science)&#34; (Springer)&lt;/a&gt;
-&lt;/p&gt;
-</description>
+      <guid>http://vielmetti.github.io/books/a-sand-county-almanac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>After The Car</title>
+      <link>http://vielmetti.github.io/books/after-the-car/</link>
+      <pubDate>Tue, 02 Jun 2009 23:05:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/after-the-car/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anatomy Of A Murder</title>
+      <link>http://vielmetti.github.io/books/anatomy-of-a-murder/</link>
+      <pubDate>Thu, 09 May 2013 00:17:25 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/anatomy-of-a-murder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bird By Bird</title>
+      <link>http://vielmetti.github.io/books/bird-by-bird/</link>
+      <pubDate>Wed, 03 Dec 2008 00:06:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/bird-by-bird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blur</title>
+      <link>http://vielmetti.github.io/books/blur/</link>
+      <pubDate>Fri, 28 Dec 2007 01:19:47 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/blur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>City Comforts</title>
+      <link>http://vielmetti.github.io/books/city-comforts/</link>
+      <pubDate>Tue, 28 Jan 2014 20:05:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/city-comforts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Click Clack Moo Cows That Type</title>
+      <link>http://vielmetti.github.io/books/click-clack-moo-cows-that-type/</link>
+      <pubDate>Sun, 29 Jul 2012 23:14:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/click-clack-moo-cows-that-type/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecting The Nineteenth Century World</title>
+      <link>http://vielmetti.github.io/books/connecting-the-nineteenth-century-world/</link>
+      <pubDate>Thu, 20 Jun 2013 00:59:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/connecting-the-nineteenth-century-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crazy Busy</title>
+      <link>http://vielmetti.github.io/books/crazy-busy/</link>
+      <pubDate>Fri, 28 Dec 2007 01:19:47 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/crazy-busy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyberspace First Steps</title>
+      <link>http://vielmetti.github.io/books/cyberspace-first-steps/</link>
+      <pubDate>Tue, 28 Jan 2014 20:05:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/cyberspace-first-steps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science At The Command Line</title>
+      <link>http://vielmetti.github.io/books/data-science-at-the-command-line/</link>
+      <pubDate>Sun, 05 Oct 2014 09:03:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/data-science-at-the-command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Vertigo</title>
+      <link>http://vielmetti.github.io/books/digital-vertigo/</link>
+      <pubDate>Tue, 22 May 2012 13:56:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/digital-vertigo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fraud Of The Century Rutherford B. Hayes Samuel Tilden And The Stolen Election Of 1876</title>
+      <link>http://vielmetti.github.io/books/fraud-of-the-century-rutherford-b.-hayes-samuel-tilden-and-the-stolen-election-of-1876/</link>
+      <pubDate>Fri, 21 Jun 2013 14:04:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/fraud-of-the-century-rutherford-b.-hayes-samuel-tilden-and-the-stolen-election-of-1876/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Give And Take</title>
+      <link>http://vielmetti.github.io/books/give-and-take/</link>
+      <pubDate>Sat, 10 Aug 2013 23:36:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/give-and-take/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gooseberries</title>
+      <link>http://vielmetti.github.io/books/gooseberries/</link>
+      <pubDate>Sat, 13 Jul 2013 12:33:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/gooseberries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home Comforts</title>
+      <link>http://vielmetti.github.io/books/home-comforts/</link>
+      <pubDate>Sat, 02 May 2009 14:14:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/home-comforts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How To Solve It</title>
+      <link>http://vielmetti.github.io/books/how-to-solve-it/</link>
+      <pubDate>Tue, 28 Jan 2014 20:05:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/how-to-solve-it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In Formation</title>
+      <link>http://vielmetti.github.io/books/in-formation/</link>
+      <pubDate>Thu, 13 Mar 2008 23:50:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/in-formation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Journal Of Marketing Research</title>
+      <link>http://vielmetti.github.io/books/journal-of-marketing-research/</link>
+      <pubDate>Sun, 26 Jun 2011 10:59:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/journal-of-marketing-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mindsharing The Art Of Crowdsourcing Everything</title>
+      <link>http://vielmetti.github.io/books/mindsharing-the-art-of-crowdsourcing-everything/</link>
+      <pubDate>Sun, 19 Jul 2015 14:01:15 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/mindsharing-the-art-of-crowdsourcing-everything/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Olive The Other Reindeer</title>
+      <link>http://vielmetti.github.io/books/olive-the-other-reindeer/</link>
+      <pubDate>Thu, 06 Dec 2007 21:38:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/olive-the-other-reindeer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Letters Monthly</title>
+      <link>http://vielmetti.github.io/books/open-letters-monthly/</link>
+      <pubDate>Mon, 12 Jul 2010 12:15:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/open-letters-monthly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phreno Mnemotechnic Dictionary</title>
+      <link>http://vielmetti.github.io/books/phreno-mnemotechnic-dictionary/</link>
+      <pubDate>Mon, 12 Jul 2010 12:15:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/phreno-mnemotechnic-dictionary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Collective Intelligence</title>
+      <link>http://vielmetti.github.io/books/programming-collective-intelligence/</link>
+      <pubDate>Thu, 16 Oct 2008 21:16:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/programming-collective-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Plenty</title>
+      <link>http://vielmetti.github.io/books/red-plenty/</link>
+      <pubDate>Sun, 09 Dec 2012 23:16:05 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/red-plenty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safe Patients Smart Hospitals</title>
+      <link>http://vielmetti.github.io/books/safe-patients-smart-hospitals/</link>
+      <pubDate>Thu, 04 Feb 2010 00:25:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/safe-patients-smart-hospitals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snow Crash</title>
+      <link>http://vielmetti.github.io/books/snow-crash/</link>
+      <pubDate>Thu, 16 Oct 2008 21:16:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/snow-crash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Physics How Good Ideas Spread   The Lessons From A New Science</title>
+      <link>http://vielmetti.github.io/books/social-physics-how-good-ideas-spread---the-lessons-from-a-new-science/</link>
+      <pubDate>Sun, 09 Mar 2014 18:32:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/social-physics-how-good-ideas-spread---the-lessons-from-a-new-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spam A Shadow History Of The Internet</title>
+      <link>http://vielmetti.github.io/books/spam-a-shadow-history-of-the-internet/</link>
+      <pubDate>Wed, 08 May 2013 17:37:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/spam-a-shadow-history-of-the-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systemantics</title>
+      <link>http://vielmetti.github.io/books/systemantics/</link>
+      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/systemantics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telegraphic Realism Victorian Fiction And Other Information Systems</title>
+      <link>http://vielmetti.github.io/books/telegraphic-realism-victorian-fiction-and-other-information-systems/</link>
+      <pubDate>Thu, 20 Jun 2013 00:59:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/telegraphic-realism-victorian-fiction-and-other-information-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Art Of Memory</title>
+      <link>http://vielmetti.github.io/books/the-art-of-memory/</link>
+      <pubDate>Mon, 12 Jul 2010 12:15:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-art-of-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Best Of Technology Writing 2006</title>
+      <link>http://vielmetti.github.io/books/the-best-of-technology-writing-2006/</link>
+      <pubDate>Thu, 06 Dec 2007 08:52:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-best-of-technology-writing-2006/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Checklist Manifesto</title>
+      <link>http://vielmetti.github.io/books/the-checklist-manifesto/</link>
+      <pubDate>Thu, 04 Feb 2010 00:25:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-checklist-manifesto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cult Of The Amateur</title>
+      <link>http://vielmetti.github.io/books/the-cult-of-the-amateur/</link>
+      <pubDate>Tue, 22 May 2012 13:56:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-cult-of-the-amateur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Journal Of Heredity</title>
+      <link>http://vielmetti.github.io/books/the-journal-of-heredity/</link>
+      <pubDate>Tue, 04 Aug 2009 23:45:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-journal-of-heredity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Nepal Cookbook</title>
+      <link>http://vielmetti.github.io/books/the-nepal-cookbook/</link>
+      <pubDate>Mon, 27 Apr 2015 02:29:29 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-nepal-cookbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The No Nonsense Guide To The Michigan Freedom Of Information Act</title>
+      <link>http://vielmetti.github.io/books/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act/</link>
+      <pubDate>Tue, 09 Apr 2013 11:50:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-no-nonsense-guide-to-the-michigan-freedom-of-information-act/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Story Of The Apple</title>
+      <link>http://vielmetti.github.io/books/the-story-of-the-apple/</link>
+      <pubDate>Sat, 15 Nov 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-story-of-the-apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Strength Of Weak Ties</title>
+      <link>http://vielmetti.github.io/books/the-strength-of-weak-ties/</link>
+      <pubDate>Sun, 19 Jul 2015 14:01:15 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-strength-of-weak-ties/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Systems Bible</title>
+      <link>http://vielmetti.github.io/books/the-systems-bible/</link>
+      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-systems-bible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Thief Of Time</title>
+      <link>http://vielmetti.github.io/books/the-thief-of-time/</link>
+      <pubDate>Sun, 17 Oct 2010 18:05:11 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/the-thief-of-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory Of The Leisure Class</title>
+      <link>http://vielmetti.github.io/books/theory-of-the-leisure-class/</link>
+      <pubDate>Sat, 18 Dec 2010 01:04:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/books/theory-of-the-leisure-class/</guid>
+      <description></description>
     </item>
     
   </channel>

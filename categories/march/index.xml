@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/march/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>March on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/march/</link>
+    <description>Recent content in March on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/march/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2014 16:52:27 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/march/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Signs of spring</title>
@@ -14,20 +17,8 @@
       <pubDate>Wed, 12 Mar 2014 16:52:27 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-12-signs-of-spring/</guid>
-      <description>&lt;p&gt;In no particular order, ignoring the snow day today and the half a foot of fresh snow on the ground. Thanks to Patti for the updates!&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Daylight saving time. It&#39;s now light what seems like late into the evening, and it&#39;s only going to get lighter later from now on through mid summer.&lt;/li&gt;
-&lt;li&gt;Snowdrops. Spotted yesterday (before the snow) at the sunny side of our house.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://festifools.org&#34;&gt;Festifools&lt;/a&gt; is only a few weeks away. Giant puppet parades in downtown Ann Arbor !&lt;/li&gt;
-&lt;li&gt;March 16th is &lt;a href=&#34;http://sturhosday.com/&#34;&gt;St. Urho&#39;s Day&lt;/a&gt;, where we celebrate St. Urho chasing the grasshoppers out of Finland to save the grape crop. (Truly.)&lt;/li&gt;
-&lt;li&gt;Ann Arbor&#39;s giant LEGO event &lt;a href=&#34;http://www.brickbash.com/&#34;&gt;Brick Bash&lt;/a&gt; is March 29 at Skyline HS.&lt;/li&gt;
-&lt;li&gt;Patti&#39;s birthday!&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;http://aafilmfest.org/52/&#34;&gt;52d Ann Arbor Film Festival&lt;/a&gt;, March 25-30 at the Michigan Theater and the UMMA Helmut Stern Auditorium.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The biggest sign of spring is that it&#39;s possible to ignore the snow day. What&#39;s 6 inches of snow between friends when it&#39;s likely to melt in the next few days?&lt;/p&gt;
-</description>
+      <description>In no particular order, ignoring the snow day today and the half a foot of fresh snow on the ground. Thanks to Patti for the updates!
+ Daylight saving time. It&#39;s now light what seems like late into the evening, and it&#39;s only going to get lighter later from now on through mid summer. Snowdrops. Spotted yesterday (before the snow) at the sunny side of our house. Festifools is only a few weeks away.</description>
     </item>
     
   </channel>

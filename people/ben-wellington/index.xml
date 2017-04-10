@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/ben-wellington/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ben Wellington on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/ben-wellington/</link>
+    <description>Recent content in Ben Wellington on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/ben-wellington/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Mar 2015 08:56:56 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/ben-wellington/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>What&#39;s the most expensive parking space in Ann Arbor?</title>
@@ -14,18 +17,8 @@
       <pubDate>Tue, 24 Mar 2015 08:56:56 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-24-whats-the-most-expensive-parking-space-in-ann-arbor/</guid>
-      <description>&lt;p&gt;Last night was the a2civictech meetup. We met at Zingerman&#39;s Next Door, there were 9 people who showed up, some familiar faces and some new ones.&lt;/p&gt;
-
-&lt;p&gt;The nominal topic of the discussion was data quality, understanding how various data sets that come from civic sources have noise in them and looking at ways to deal with that. The best story was that of a well map that showed a hill in the middle of a lake, because the underlying data set had two wells with the same name and the person who built the map picked the wrong data to map.&lt;/p&gt;
-
-&lt;p&gt;As always with these discussions the question turned to what data there might be available to look at, and how to get it. That led us to questions of what other people were doing with municipal data in other cities, and to this New York City parking ticket analysis: &lt;a href=&#34;http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new&#34;&gt;Success: How NYC Open Data and Reddit Saved New Yorkers Over $55,000 a Year&lt;/a&gt;. It seems that there was a parking space in New York that looked like it was a legal spot, but turned out to be frequently ticketed because it was near a fire hydrant. After some analysis and publicity by Ben Wellington of I Quant NY, the NYC DOT repainted the stripes on the street to clearly mark this spot as a no-go.&lt;/p&gt;
-
-&lt;p&gt;So the question becomes, how would you repeat this analysis for Ann Arbor, and what would you look for? Where are there locations that frequently generate tickets, what do they look like on a map, and how much ticket revenue comes per space?  And in the public interest, are there any spots that generate disproportionate ticket frequencies that should be looked at carefully to improve signage?&lt;/p&gt;
-
-&lt;p&gt;It looks like a project. In New York there&#39;s a data catalog that includes this data set and many others; no such data has been released in Ann Arbor. So the first step is understanding what the process is for getting a year or two of ticket data to start analyzing it.&lt;/p&gt;
-
-&lt;p&gt;Update: here&#39;s a &lt;a href=&#34;http://www.ted.com/talks/ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data?language=en&#34;&gt;TED Talk by Ben Wellington&lt;/a&gt; on &#34;How we found the worst place to park in New York City -- using big data&#34;.&lt;/p&gt;
-</description>
+      <description>Last night was the a2civictech meetup. We met at Zingerman&#39;s Next Door, there were 9 people who showed up, some familiar faces and some new ones.
+The nominal topic of the discussion was data quality, understanding how various data sets that come from civic sources have noise in them and looking at ways to deal with that. The best story was that of a well map that showed a hill in the middle of a lake, because the underlying data set had two wells with the same name and the person who built the map picked the wrong data to map.</description>
     </item>
     
   </channel>

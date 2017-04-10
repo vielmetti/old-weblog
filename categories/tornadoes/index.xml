@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/tornadoes/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Tornadoes on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/tornadoes/</link>
+    <description>Recent content in Tornadoes on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/tornadoes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2015 20:44:35 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/tornadoes/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Denton TX area tornado of 7 May 2015</title>
@@ -14,10 +17,8 @@
       <pubDate>Thu, 07 May 2015 20:44:35 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-07-denton-tx-tornado-of-7-may-2015/</guid>
-      <description>&lt;p&gt;May 7 2015 9:34p Eastern: Live coverage of Texas storms from &lt;a href=&#34;http://www.wfaa.com/story/weather/2015/05/07/north-texas-weather-tornadoes/70976904/&#34;&gt;WFAA 8 ABC &#34;Confirmed tornadoes, hail hit North Texas&#34;&lt;/a&gt;. Twitter hashtag &lt;a href=&#34;https://twitter.com/hashtag/txwx?src=hash&#34;&gt;#txwx&lt;/a&gt; and weather service is &lt;a href=&#34;https://twitter.com/NWSFortWorth&#34;&gt;@NWSFortWorth&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ann Arbor, MI, May 7 2015 8:42p Eastern: Listening right now to the &lt;a href=&#34;http://www.broadcastify.com/listen/feed/8307&#34;&gt;W5NGU repeater on Broadcastify&lt;/a&gt; where net control is running an emergency net. Tornadoes on the ground with ham radio operators giving precise locations of the storms and net control calling out spotters to get reports.&lt;/p&gt;
-</description>
+      <description>May 7 2015 9:34p Eastern: Live coverage of Texas storms from WFAA 8 ABC &#34;Confirmed tornadoes, hail hit North Texas&#34;. Twitter hashtag #txwx and weather service is @NWSFortWorth.
+Ann Arbor, MI, May 7 2015 8:42p Eastern: Listening right now to the W5NGU repeater on Broadcastify where net control is running an emergency net. Tornadoes on the ground with ham radio operators giving precise locations of the storms and net control calling out spotters to get reports.</description>
     </item>
     
     <item>
@@ -26,12 +27,11 @@
       <pubDate>Tue, 18 Jun 2013 20:52:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-18-denver-international-airport-hit-by-june-18-2013-ef-1-tornado-no-one-hurt/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.wunderground.com/blog/JeffMasters/comment.html?entrynum=2440&#34; target=&#34;_self&#34;&gt;Dr Jeff Masters has remarkable radar imagery &lt;/a&gt;from Weather Underground, since the storm went directly over the NWS Denver station.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901d8a3880970b-pi&#34;&gt;&lt;img alt=&#34;Denver_tornado-1422-mdt-june-18-2013&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901d8a3880970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901d8a3880970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Denver_tornado-1422-mdt-june-18-2013&#34; /&gt;&lt;/a&gt;&lt;br /&gt;More news coverage:&lt;/p&gt;
-&lt;p&gt;The Washington Post &lt;a href=&#34;http://www.washingtonpost.com/blogs/capital-weather-gang/wp/2013/06/18/tornado-at-denver-international-airport/&#34; target=&#34;_self&#34;&gt;collected photos and video from Twitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Denver Post:&amp;#0160;&lt;a href=&#34;http://www.denverpost.com/breakingnews/ci_23486005/denver-weather-includes-chance-heavy-scattered-storms&#34; target=&#34;_self&#34;&gt;Tornado at Denver International Airport forces diversions, evacuations&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>Dr Jeff Masters has remarkable radar imagery from Weather Underground, since the storm went directly over the NWS Denver station.
+ 
+More news coverage:
+The Washington Post collected photos and video from Twitter.
+Denver Post:&amp;#0160;Tornado at Denver International Airport forces diversions, evacuations</description>
     </item>
     
     <item>
@@ -40,20 +40,8 @@
       <pubDate>Fri, 31 May 2013 21:59:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-31-holiday-inn-in-earth-city-mo-/</guid>
-      <description>&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;p&gt;There are multiple rumors on Twitter - as of yet unconfirmed - that KMOV-TV has reported a &amp;ldquo;mass casualties&amp;rdquo; event at a Holiday Inn in Earth City, MO as a result of the storms that are going through St Louis on the evening of May 31, 2013. There is not yet any photo evidence or any web page from a reliable source to confirm this.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s hope this is just an Internet rumor.&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;I&amp;rsquo;m at Holiday Inn in Earth City.No injuries here.Damage to building, but not structurally at this time.Power out in Earth City.&lt;/p&gt;&amp;mdash; Chief Tim Fitch (@ChiefTimFitch) &lt;a href=&#34;https://twitter.com/ChiefTimFitch/status/340664164290801664&#34;&gt;June 1, 2013&lt;/a&gt;&lt;/blockquote&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;We have confirmed with Pattonville Fire that the Holiday Inn is cleared. No casualties.&lt;/p&gt;&amp;mdash; St Louis County OEM (@StlCoOEM) &lt;a href=&#34;https://twitter.com/StlCoOEM/status/340655745429278721&#34;&gt;June 1, 2013&lt;/a&gt;&lt;/blockquote&gt;
-&lt;p&gt;News sources that would be likely to print a story or cover it: &lt;a href=&#34;http://www.kmov.com/&#34; target=&#34;_self&#34;&gt;KMOV-TV St Louis&lt;/a&gt;. &lt;a href=&#34;http://www.kmov.com/home/KMOV-Live-Stream-129813793.html&#34;&gt;KMOV has a live stream&lt;/a&gt;, which appears to be overloaded - I&amp;rsquo;m getting video but no audio.&lt;/p&gt;
-&lt;p&gt;Listening also to &lt;a href=&#34;http://betaplayer.radio.com/player/newsradio-1120-kmox&#34;&gt;KMOX&lt;/a&gt;, CBS news radio in St Louis. They are reading from Twitter, &amp;ldquo;I&amp;rsquo;m getting very skeptical about Twitter.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;The hotel in question: &lt;a href=&#34;http://www.ihg.com/holidayinn/hotels/us/en/st.-louis/stlhi/hoteldetail&#34; target=&#34;_self&#34;&gt;Holiday Inn Airport West, Earth City MO&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;No movement of I-70 in the Earth City area.&amp;rdquo; (KMOX)&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;Called Holiday Inn in Earth City, MO, lines down. &lt;a href=&#34;https://twitter.com/search/%23MOwx&#34;&gt;#MOwx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jim Gray (@jimgrayonline) &lt;a href=&#34;https://twitter.com/jimgrayonline/status/340648316947791872&#34;&gt;June 1, 2013&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p&gt;We have NO confirmation of casaulties at the Holiday Inn in Earth City yet. Pattonville Fire is on scene.&lt;/p&gt;&amp;mdash; St Louis County OEM (@StlCoOEM) &lt;a href=&#34;https://twitter.com/StlCoOEM/status/340649948938911746&#34;&gt;June 1, 2013&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
-</description>
+      <description>There are multiple rumors on Twitter - as of yet unconfirmed - that KMOV-TV has reported a &amp;ldquo;mass casualties&amp;rdquo; event at a Holiday Inn in Earth City, MO as a result of the storms that are going through St Louis on the evening of May 31, 2013. There is not yet any photo evidence or any web page from a reliable source to confirm this.
+Let&amp;rsquo;s hope this is just an Internet rumor.</description>
     </item>
     
   </channel>

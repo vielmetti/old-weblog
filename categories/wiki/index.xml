@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/wiki/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Wiki on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/wiki/</link>
+    <description>Recent content in Wiki on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2014 16:33:52 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>For machines, by machines: Wikipedia is for bots</title>
@@ -14,16 +17,9 @@
       <pubDate>Fri, 26 Sep 2014 16:33:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-26-for-machines-by-machines-wikipedia-is-for-bots/</guid>
-      <description>&lt;p&gt;What is Wikipedia for? It&#39;s for bots.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.theverge.com/2014/2/18/5412636/this-machine-kills-trolls-how-wikipedia-robots-snuff-out-vandalism&#34;&gt;This machine kills trolls: How Wikipedia’s robots and cyborgs snuff out vandalism&lt;/a&gt; writes up the work of the Wikipedia contributors who have written robots (bots) that automatically extirpate contributions to the encyclopedia that are unwanted.&lt;/p&gt;
-
-&lt;p&gt;Alas, the result of all of this highly efficient robot-driven editing is that many new editors first interaction with the system is not with a human being, but with a faceless robot. The real worry is that the crowd of new editors that used to flock to the site to provide modest and well-intentioned edits are being systematically pushed away by the overroboticism of the systems administration. &lt;/p&gt;
-
-&lt;p&gt;Bot vs bot is a long term war that has no human winners, and the quality of the resulting system is poorer because the bots feed largely on newbies. Only when you master the gauntlet of robot overlords do you eventually get welcomed into the inner sanctum of humanity. Those who stay will be always watched over by the machines, and only a few in the Wikipedia elite will master the necessary skills to automatically patrol the recent changes based on their programming efforts.&lt;/p&gt;
-
-&lt;p&gt;Inspired by a fascinating talk at &lt;a href=&#34;http://icos.umich.edu&#34;&gt;ICOS&lt;/a&gt; by Wikimedia Foundation researcher &lt;a href=&#34;http://www-users.cs.umn.edu/~halfak/&#34;&gt;Aaron Halfaker&lt;/a&gt;, who might come to different conclusions from the same data.&lt;/p&gt;
-</description>
+      <description>What is Wikipedia for? It&#39;s for bots.
+This machine kills trolls: How Wikipedia’s robots and cyborgs snuff out vandalism writes up the work of the Wikipedia contributors who have written robots (bots) that automatically extirpate contributions to the encyclopedia that are unwanted.
+Alas, the result of all of this highly efficient robot-driven editing is that many new editors first interaction with the system is not with a human being, but with a faceless robot.</description>
     </item>
     
     <item>
@@ -32,20 +28,8 @@
       <pubDate>Thu, 28 Aug 2014 21:09:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-08-28-building-a-marquette-localwiki/</guid>
-      <description>&lt;p&gt;I visit Marquette Michigan every summer to see family and catch up with friends and visit the place I went to high school. Every so often there&#39;s a reunion, but often it&#39;s just a matter of going back to the home town and figuring out what&#39;s up and what&#39;s what.&lt;/p&gt;
-
-&lt;p&gt;Since I&#39;ve been working on Arborwiki for the better part of eight years, I thought last year that I&#39;d give a try to make a &lt;a href=&#34;http://localwiki.net/marquettemi&#34;&gt;Localwiki for Marquette&lt;/a&gt;. Technologically it was easy to do - Localwiki makes adding new regions easy - but practically it&#39;s got some challenges. Here are notes on what it means to look at Localwiki for a rural area.&lt;/p&gt;
-
-&lt;p&gt;The first most obvious thing to note is that there often are places and locations that don&#39;t have a currently updated home page. If you want to document the area, you have to attach a lot of things to its history, and the places like closed mines, abandoned railroads, long-gone restaurants, shuttered gas stations, and the like have to be created from scratch and not simply replicated from existing content. This is typical of the history portion of any Localwiki effort, in that local histories of otherwise not notable enough for Wikipedia things demand a combination of original research and local knowledge. The page I started for the &lt;a href=&#34;http://localwiki.net/marquettemi/Red_Road&#34;&gt;Red Road&lt;/a&gt; is one example of this.&lt;/p&gt;
-
-&lt;p&gt;When you&#39;re doing a map of areas that are relatively rural, you find that the default street map used by Localwiki isn&#39;t that interesting. As much as I know it&#39;s difficult to do, I wish the system had easier ways of integrating other map sources into the effort. Street maps are really the wrong tool when you&#39;re looking at areas that are mostly woods; you&#39;d like a topo map, maybe, and a plat map that showed land ownership, and a geological surface map that gave some hint what the land looked like and a forest map that showed which lands were in commercial forest. None of these are likely to show up in Google Maps any time soon.&lt;/p&gt;
-
-&lt;p&gt;Trails and non-motorized pathways are a big opportunity for Localwiki. My mom is working on a project for signage for the &lt;a href=&#34;http://localwiki.net/marquettemi/Iron_Ore_Heritage_Trail&#34;&gt;Iron Ore Heritage Trail&lt;/a&gt;, and I&#39;ve put the bug in her ear that it might be interesting to cross-link somehow the interpretive signs on the trail with the corresponding Localwiki pages. Even getting good photography and mapping of trail heads would be a big enough project that I can imagine spending a week scouting out locations and not being done.&lt;/p&gt;
-
-&lt;p&gt;There&#39;s a concern at the Wikipedia project that linking to Localwiki pages is somehow dicey because of advertising on Localwiki, or perhaps because not enough people on Wikipedia are familiar enough with Localwiki to know what to expect when they see a page. As a contrast, there are also concerns on a Facebook group I follow about &#34;wikishit&#34; when people see a years-old &lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Marquette_Monster&amp;amp;oldid=622698099&#34;&gt;Marquette Monster&lt;/a&gt; page that was completely fabricated.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ll look for more ways to get more reliable information into the Marquette Localwiki. I&#39;m particularly happy with the start that the &lt;a href=&#34;http://localwiki.net/marquettemi/Gazetteer&#34;&gt;Gazetteer&lt;/a&gt; page has for listing location, and there&#39;s some long amount of work to give the &lt;a href=&#34;http://localwiki.net/marquettemi/Mines&#34;&gt;Mines&lt;/a&gt; page its due to document the mining history of the area. I&#39;m not sure the system has a single goal, but I&#39;m always happy when other people pick up on it, add their piece, and make it useful to themselves.&lt;/p&gt;
-</description>
+      <description>I visit Marquette Michigan every summer to see family and catch up with friends and visit the place I went to high school. Every so often there&#39;s a reunion, but often it&#39;s just a matter of going back to the home town and figuring out what&#39;s up and what&#39;s what.
+Since I&#39;ve been working on Arborwiki for the better part of eight years, I thought last year that I&#39;d give a try to make a Localwiki for Marquette.</description>
     </item>
     
     <item>
@@ -54,17 +38,7 @@
       <pubDate>Thu, 21 Aug 2014 20:06:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</guid>
-      <description>&lt;p&gt;The St Louis, Missouri Localwiki - &lt;a href=&#34;http://localwiki.net/st-louis&#34;&gt;http://localwiki.net/st-louis&lt;/a&gt; - was mostly empty when the events in Ferguson, MO started on August 9, 2014 with the death of 18 year old student Michael Brown. As with any event where there&#39;s a lot that&#39;s going on in an unfamiliar area, I was drawn to making some sense of what was happening. This has been especially true when the coverage on the #&lt;a href=&#34;http://twitter.com/hashtag/ferguson&#34;&gt;ferguson&lt;/a&gt; hashtag overwhelmed my Twitter feed, which had been usually quiet at night.&lt;/p&gt;
-
-&lt;p&gt;The Localwiki crew - including Jason Denizac, Marina Kukso, Philip Neustrom, James Halliday, and others have been super helpful in filling in the blanks on the Localwiki map around Ferguson. It&#39;s been helpful to get one step away from the relentless outsider media scrum and read background pieces by local journalists from places like the 
-&lt;a href=&#34;http://localwiki.net/st-louis/Riverfront_Times&#34;&gt;Riverfront Times&lt;/a&gt;, the 
-&lt;a href=&#34;http://localwiki.net/st-louis/St._Louis_American&#34;&gt;St. Louis American&lt;/a&gt;, and the 
-&lt;a href=&#34;http://localwiki.net/st-louis/St._Louis_Post-Dispatch&#34;&gt;St. Louis Post-Dispatch&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;Writing and editing a localwiki has been a helpful way for me to process some of the difficult things that have gone on. It turns a helpless feeling into some sort of community engagement. I am conscious that I&#39;m not always going to be engaged in this effort at the level that I am now, so there&#39;s some extra care not to leave too many loose ends in the process. As of this writing (August 21, 2014) there are about 150 pages in the St. Louis Localwiki, which is just barely a start.&lt;/p&gt;
-
-&lt;p&gt;Ideally someone local to the scene would eventually happen upon the localwiki and find it useful, or someone who was comfortable in the localwiki space would move to the area and be drawn to it as a way to document their surroundings. To some extent I feel like as much of an outside tourist as the news media that parachuted into the area to cover events; yet it doesn&#39;t really feel that way so much. Time will tell.&lt;/p&gt;
-</description>
+      <description>The St Louis, Missouri Localwiki - http://localwiki.net/st-louis - was mostly empty when the events in Ferguson, MO started on August 9, 2014 with the death of 18 year old student Michael Brown. As with any event where there&#39;s a lot that&#39;s going on in an unfamiliar area, I was drawn to making some sense of what was happening. This has been especially true when the coverage on the #ferguson hashtag overwhelmed my Twitter feed, which had been usually quiet at night.</description>
     </item>
     
     <item>
@@ -73,22 +47,9 @@
       <pubDate>Fri, 24 May 2013 21:54:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-24-jay-gatsby-the-wikipedia-page-from-2009-as-edited-by-dan-murphy-before-the-wikivandals-took-over/</guid>
-      <description>&lt;p&gt;&lt;p&gt;&lt;a href=&#34;http://www.csmonitor.com/About/Staff/Dan-Murphy&#34; target=&#34;_self&#34;&gt;Dan Murphy&lt;/a&gt; wrote this biography of the fictional character Jay Gatsby for Wikipedia in 2009. Since then, the anonymous hordes of Wikipedia editors &lt;a href=&#34;http://wikipediocracy.com/forum/viewtopic.php?f=14&amp;amp;t=2285&#34; target=&#34;_self&#34;&gt;have not improved&lt;/a&gt; upon the page. Here is the &lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117&#34; target=&#34;_self&#34;&gt;23 October 2009&lt;/a&gt; version of &amp;quot;Jay Gatsby&amp;quot;, which is much better written than the current edition.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Jay Gatsby&lt;/strong&gt;&amp;#0160;is the&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Title_role#Title_character&#34; title=&#34;Title role&#34;&gt;titular character&lt;/a&gt;&amp;#0160;of&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/F._Scott_Fitzgerald&#34; title=&#34;F. Scott Fitzgerald&#34;&gt;F. Scott Fitzgerald&lt;/a&gt;&amp;#39;s 1925 novel&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/The_Great_Gatsby&#34; title=&#34;The Great Gatsby&#34;&gt;The Great Gatsby&lt;/a&gt;. The character has become an archetype of self-made American men seeking to join&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Upper_class&#34; title=&#34;Upper class&#34;&gt;High society&lt;/a&gt;&amp;#0160;and the name has become synonymous with successful businessmen with shady pasts in the US.&lt;/p&gt;
-&lt;h2&gt;Character biography&lt;/h2&gt;
-&lt;p&gt;James &amp;quot;Jimmy&amp;quot; Gatz, a bright young man from a poor family in North Dakota, despised the imprecations of poverty so much he dropped out of&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/St._Olaf_College&#34; title=&#34;St. Olaf College&#34;&gt;St. Olaf College&lt;/a&gt;&amp;#0160;in Minnesota after only a few weeks because of his shame at the janitorial job he had to take to pay his way. While training in 1917 to join the infantry and fight in&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/World_War_I&#34; title=&#34;World War I&#34;&gt;World War I&lt;/a&gt;&amp;#0160;he meets and promptly falls in love with the beautiful Daisy, who represents everything he is not: she is rich, from a patrician East Coast family and born with the proverbial silver spoon in her mouth. After the war, from which he emerged as a hero for his participation in the bloody battles of&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Battle_of_the_Marne&#34; title=&#34;Battle of the Marne&#34;&gt;Marne&lt;/a&gt;&amp;#0160;and&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Battle_of_Argonne&#34; title=&#34;Battle of Argonne&#34;&gt;Argonne&lt;/a&gt;, he attends&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Trinity_College,_Oxford&#34; title=&#34;Trinity College, Oxford&#34;&gt;Trinity College&lt;/a&gt;,&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/University_of_Oxford&#34; title=&#34;University of Oxford&#34;&gt;Oxford&lt;/a&gt;. While there he receives a letter from Daisy telling him she has married the equally aristocratic Tom Buchanan. Rather than admit defeat, he commits his life to becoming a man of the sort of wealth and stature he imagines could win her love.&lt;sup id=&#34;cite_ref-1&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Gatz returned home to an America transformed by&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Prohibition_in_the_United_States&#34; title=&#34;Prohibition in the United States&#34;&gt;prohibition&lt;/a&gt;&amp;#0160;in 1919, a period in American history in which gangsters earned the sort of vast wealth previously the domain of the connected upper classes, an era in which &amp;quot;all the old boundaries that separated the classes were being broken, and a new wave of instant millionaires, like Gatsby himself&amp;hellip; mingled with the polo-players who inhabited the stiff enclaves of the established rich of Long Island&amp;#39;s gold coast.&amp;quot;&lt;sup id=&#34;cite_ref-2&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-2&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&amp;#0160;This era later came to be known as the&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Jazz_Age&#34; title=&#34;Jazz Age&#34;&gt;Jazz Age&lt;/a&gt;, after Fitzgerald&amp;#39;s own coinage.&lt;/p&gt;
-&lt;p&gt;Gatz, who renamed himself Jay Gatsby, made a fortune in bootlegging thanks to his association with gangsters like Meyer Wolfsheim (patterned after real-life American gangster&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Arnold_Rothstein&#34; title=&#34;Arnold Rothstein&#34;&gt;Arnold Rothstein&lt;/a&gt;) and sets himself up in a mansion in the fictional West Egg, Long Island, a haunt of the&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Nouveaux_riche&#34; title=&#34;Nouveaux riche&#34;&gt;nouveaux riche&lt;/a&gt;&amp;#0160;and across from the old-line money East Egg, where Tom and Daisy Buchanan live. Gatsby hosts wild parties, open to all comers, there every weekend, in the hopes that Daisy will attend and he can win her heart. He eventually catches up with Daisy, but fails to convince her to leave Tom. After his failure to change Daisy&amp;#39;s mind is clear to all but him, Daisy drives Gatsby&amp;#39;s car with Gatsby in the passenger seat and she accidentally strikes and kills Myrtle, the lover of her husband Tom, in a hit-and-run accident. Myrtle&amp;#39;s jealous husband George tracks the car back to the Buchanan home, where Tom lies and tells him that Gatsby was the driver of the car that killed his wife. George goes to Gatsby&amp;#39;s house, finds him floating in his lavish pool, and murders him before taking his own life. Almost none of Gatsby&amp;#39;s high society friends attend his funeral and in the meantime Gatsby&amp;#39;s underworld connections begin picking through his belongings in his mansion.&lt;sup id=&#34;cite_ref-3&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-3&#34;&gt;[3]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h2&gt;Gatsby as a reference point&lt;/h2&gt;
-&lt;p&gt;The figure of Jay Gatsby became a cultural touchstone in 20th century America.&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Chris_Mathews&#34; title=&#34;Chris Mathews&#34;&gt;Chris Mathews&lt;/a&gt;&amp;#0160;in his book&amp;#0160;&lt;em&gt;American&lt;/em&gt;&amp;#0160;even forgives Gatsby his serial lies. When the poor native son Gatsby tells Nick Carraway, his only true friend and a relative of Daisy&amp;#39;s, he was brought up wealthy and that he attended Oxford because &amp;quot;all my ancestors have been educated there&amp;quot; Mathews sees him as the eternal American striver. &amp;quot;Gatsby needed more than money: he needed to be someone who had&amp;#0160;&lt;em&gt;always&lt;/em&gt;&amp;#0160;had it&amp;hellip; this blind faith that he can retrofit his very existence to Daisy&amp;#39;s specifications is the heart and soul of the&amp;#0160;&lt;em&gt;The Great Gatsby&lt;/em&gt;. It&amp;#39;s the classic story of the fresh start, the second chance.&amp;quot;&lt;sup id=&#34;cite_ref-4&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-4&#34;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&amp;quot;Jay Gatsby&amp;hellip; appears to be the quintessential American male hero. He is a powerful businessman with shady connections, drives a glamorous car&amp;hellip; and pursues the beautiful, privileged Daisy,&amp;quot; Michael Kimmel and Amy Aronson write.&lt;sup id=&#34;cite_ref-5&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-5&#34;&gt;[5]&lt;/a&gt;&lt;/sup&gt;&amp;#0160;In the Handbook of American Folklore, Richard Dorson sees Gatsby as a new American archetype who made a decision to transform himself after his first chance encounter with his mentor Dan Cody, who opens the door to riches in boot-legging. &amp;quot;The ragged youth who some months later (after Gatsby drops out of St. Olaf) introduces himself to a degenerate yachtsman as Jay Gatsby has explicitly rejected the Protestant ethic&amp;hellip; in favor of a much more extravagant form of ambition.&amp;quot;&lt;sup id=&#34;cite_ref-6&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-6&#34;&gt;[6]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Referring to real life figures as&amp;#0160;&lt;em&gt;Gatsby&lt;/em&gt;&amp;#0160;has been common in the United States, usually in reference to rich men whose rise to prominence involved an element of deception. In a story on&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/R._Foster_Winans&#34; title=&#34;R. Foster Winans&#34;&gt;R. Foster Winans&lt;/a&gt;, a reporter for the&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Wall_Street_Journal&#34; title=&#34;Wall Street Journal&#34;&gt;Wall Street Journal&lt;/a&gt;&amp;#39;s&amp;#0160;&lt;em&gt;Heard on the Street&lt;/em&gt;&amp;#0160;column who was fired after it was discovered he was giving advance knowledge of the columns&amp;#39; contents to Peter Brant, the&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Seattle_Post_Intelligencer&#34; title=&#34;Seattle Post Intelligencer&#34;&gt;Seattle Post Intelligencer&lt;/a&gt;&amp;#0160;described Brant as &amp;quot;Winan&amp;#39;s Gatsby.&amp;quot; The article noted that Brant had changed his name from Bornstein and said he was &amp;quot;a man who turned his back on his heritage and his family because he felt that being recognized as Jewish would be a detriment to his career.&amp;quot;&lt;sup id=&#34;cite_ref-7&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-7&#34;&gt;[7]&lt;/a&gt;&lt;/sup&gt;&amp;#0160;The&amp;#0160;&lt;em&gt;Heard on the Street&lt;/em&gt;&amp;#0160;column often effects the prices of the stocks it mentions.&lt;/p&gt;
-&lt;p&gt;The character is often used as a symbol of great wealth. Reporting in 2009 on the collapse of home prices and tourist spending in the exclusive&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Hamptons&#34; title=&#34;Hamptons&#34;&gt;Hamptons&lt;/a&gt;&amp;#0160;on Long Island, not far from the fictional setting of Gatsby&amp;#39;s home, the Wall Street Journal quoted a struggling hotelier as saying &amp;quot;Jay Gatsby is dead.&amp;quot;&lt;sup id=&#34;cite_ref-8&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=Jay_Gatsby&amp;amp;oldid=321578117#cite_note-8&#34;&gt;[8]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;hr /&gt;&lt;/p&gt;
-</description>
+      <description>Dan Murphy wrote this biography of the fictional character Jay Gatsby for Wikipedia in 2009. Since then, the anonymous hordes of Wikipedia editors have not improved upon the page. Here is the 23 October 2009 version of &amp;quot;Jay Gatsby&amp;quot;, which is much better written than the current edition.
+&amp;#0160;
+Jay Gatsby&amp;#0160;is the&amp;#0160;titular character&amp;#0160;of&amp;#0160;F. Scott Fitzgerald&amp;#39;s 1925 novel&amp;#0160;The Great Gatsby. The character has become an archetype of self-made American men seeking to join&amp;#0160;High society&amp;#0160;and the name has become synonymous with successful businessmen with shady pasts in the US.</description>
     </item>
     
     <item>
@@ -97,20 +58,7 @@
       <pubDate>Tue, 21 May 2013 13:48:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-21-wikipedia-is-the-great-postmodern-novel-qworty-and-wikipedia-as-unreliable-text/</guid>
-      <description>&lt;p&gt;Credit to Salon&amp;#39;s Andrew Leonard for the article &amp;quot;&lt;a href=&#34;http://www.salon.com/2013/05/17/revenge_ego_and_the_corruption_of_wikipedia/&#34; target=&#34;_self&#34;&gt;Revenge, ego, and the corruption of Wikipedia&lt;/a&gt;&amp;quot;, which unmasks wiki-troll Qworty and his pattern of anonymous mean-spirited edits to settle old grudges. Qworty - his real name is not important to my discussion of him - was a prolific Wikipedian. He routinely sabotaged the biographies of rival writers by doing things like removing lists of literary prizes they had won after they had died. Because Qworty generally played within the rules of the Wikipedia game, even his most egregious efforts had their defenders:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the aftermath of &lt;a href=&#34;http://www.nytimes.com/2013/04/28/opinion/sunday/wikipedias-sexism-toward-female-novelists.html?_r=0&#34; target=&#34;_self&#34;&gt;the Filipacchi episode&lt;/a&gt;, Qworty did not lack for defenders. Qworty, like many other Wikipedia editors, took seriously his responsibility to root out what he considered self promotion,&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Template:Peacock&#34;&gt;unjustifiable praise&lt;/a&gt;&amp;#0160;or outright&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Puffery&#34;&gt;puffery.&lt;/a&gt;&amp;#0160;Just the facts, ma’am! He described himself,&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=User:Qworty&amp;amp;diff=prev&amp;amp;oldid=552532243&#34;&gt;on his own Wikipedia user page,&lt;/a&gt;&amp;#0160;as particularly focused on identifying and fixing “articles with potential conflicts of interest.” Wherever he found people manipulating Wikipedia to their own advantage, he would intervene.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Andrew Leonard caught wind of Qworty&amp;#39;s excesses and decided to investigate further. What he found led to a remarkable revelation: Qworty was playing a game with Wikipedia, a game different from that of neutral points of view and building the knowledge of the world.&lt;/p&gt;
-&lt;p&gt;Qworty&amp;#39;s user page has been blanked, but thanks to Wikipedia&amp;#39;s infinite memory, it lives on in past revisions. Before the page was shut down, it was replaced by a &amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/w/index.php?title=User_talk:Qworty&amp;amp;oldid=556021296&#34; target=&#34;_self&#34;&gt;postmodernist manifesto&lt;/a&gt; of sorts.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;So when you ask “Who is Qworty?” be aware of the&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Affective_fallacy&#34; title=&#34;Affective fallacy&#34;&gt;affective fallacy&lt;/a&gt;&amp;#0160;and the&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/Intentional_fallacy&#34; title=&#34;Intentional fallacy&#34;&gt;intentional fallacy&lt;/a&gt;. Be aware that not everybody has reacted to my words in the way that you do (because not everybody is like you), and be aware that anybody who is trying to guess my intentions as a writer is blowing the purest gas.&lt;/p&gt;
-&lt;p&gt;So who is Qworty? Qworty is one of the creators of text on Wikipedia.&lt;/p&gt;
-&lt;p&gt;And what is Wikipedia? Wikipedia is the great postmodern novel, the book that&amp;#0160;&lt;a href=&#34;http://en.wikipedia.org/wiki/James_Joyce&#34; title=&#34;James Joyce&#34;&gt;James Joyce&lt;/a&gt;&amp;#0160;might have written if he had lived long enough and could somehow convert himself into the finite number of monkeys who are writing this postmodern novel that is subtitled “the encyclopedia that anyone can edit.”&lt;/p&gt;
-&lt;p&gt;Wikipedia is pretty busy telling you what it is not—&lt;a href=&#34;http://en.wikipedia.org/wiki/Wikipedia:NOT&#34; title=&#34;Wikipedia:NOT&#34;&gt;WP:NOT&lt;/a&gt;—so the question must be engaged, just what&amp;#0160;&lt;em&gt;is&lt;/em&gt;&amp;#0160;Wikipedia, besides a poorly understood post-modern novel in perpetual progress?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The postmodern encyclopedia does not like being described as such, and Qworty (after some thrashing about) has been banned from Wikipedia.&lt;/p&gt;
-</description>
+      <description>Credit to Salon&amp;#39;s Andrew Leonard for the article &amp;quot;Revenge, ego, and the corruption of Wikipedia&amp;quot;, which unmasks wiki-troll Qworty and his pattern of anonymous mean-spirited edits to settle old grudges. Qworty - his real name is not important to my discussion of him - was a prolific Wikipedian. He routinely sabotaged the biographies of rival writers by doing things like removing lists of literary prizes they had won after they had died.</description>
     </item>
     
     <item>
@@ -119,13 +67,7 @@
       <pubDate>Tue, 30 Apr 2013 01:11:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-30-categorization-and-its-discontents/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://upload.wikimedia.org/wikipedia/commons/3/39/Category-diagram.png&#34;&gt;&lt;img alt=&#34;image from upload.wikimedia.org&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017eeab11984970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017eeab11984970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;image from upload.wikimedia.org&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Wikipedia is going through one of its &lt;a href=&#34;http://en.wikipedia.org/wiki/Wikipedia:Categories_for_discussion/Log/2013_April_24#Category:American_women_novelists&#34; target=&#34;_self&#34;&gt;periodic existential crises&lt;/a&gt;, this time over the use of categories. A diligent editor created a category of &amp;quot;American women novelists&amp;quot; and began adding female novelists to it, and then removing them from the category &amp;quot;American novelists&amp;quot;. A predictable hue and cry ensued. James Gleick tells the story in some detail in the NY Review of Books, under the title &amp;quot;&lt;a href=&#34;http://www.nybooks.com/blogs/nyrblog/2013/apr/29/wikipedia-women-problem/&#34; target=&#34;_self&#34;&gt;Wikipedia&amp;#39;s Women Problem&lt;/a&gt;&amp;quot;.&lt;/p&gt;
-&lt;p&gt;Categorization is hard in a Wikipedia world. The namespace for articles is flat, so there&amp;#39;s no implicit categories assigned simply by what a page is named. On the other hand, categories can contain subcategories, and the Wikipedia editors take advantage of this to create elaborate categorical structures. Everything is part of something else, in some extended rhetorical tangle. (The image is from the article &lt;a href=&#34;http://en.wikipedia.org/wiki/Wikipedia:Categorization&#34; target=&#34;_self&#34;&gt;Wikipedia:Categorization&lt;/a&gt;.)&lt;/p&gt;
-&lt;p&gt;Categories don&amp;#39;t have to have subcategories, of course; that&amp;#39;s a convention that&amp;#39;s not universal to all wiki software. Localwiki&amp;#39;s equivalent structure looks more like tags, and tags are in one big flat namespace with no explicit hierarchy.&lt;/p&gt;
-&lt;p&gt;Fundamentally the choice is how to best improve findability of articles, and how to incorporate a distinctive feel to a system. Wikipedia has &amp;quot;&lt;a href=&#34;http://en.wikipedia.org/wiki/Category:Doughnuts&#34; target=&#34;_self&#34;&gt;Category:Doughnuts&lt;/a&gt;&amp;quot;, with one subcategory &amp;quot;Doughnut shops&amp;quot; which in turn has a subcategory &amp;quot;Tim Hortons&amp;quot; which in turn has 12 pages, including Timbits. Arborwiki has a page &lt;a href=&#34;http://arborwiki.org/Donuts&#34; target=&#34;_self&#34;&gt;Donuts&lt;/a&gt;, which includes pages tagged with the tag &amp;quot;donuts&amp;quot;, and is in turn tagged as &amp;quot;Pastries that are not strange&amp;quot;. (And yes, there is a &amp;quot;&lt;a href=&#34;http://arborwiki.org/tags/pastriesthatarestrange&#34; target=&#34;_self&#34;&gt;Pastries that are strange&lt;/a&gt;&amp;quot; tag as well.)&lt;/p&gt;
-&lt;p&gt;Wikipedia has a problem when the technically correct task of splitting a big category into smaller parts runs smack into the political minefield of deciding which part of the category is to be primary and which is to be secondary. No one wants to be secondary, and no reasonable system would always yield category warring. Perhaps Wikipedia has bumped up against some size limit where it&amp;#39;s impossible for any one person to understand the complexity of the classification system it has built.&lt;/p&gt;
-</description>
+      <description>Wikipedia is going through one of its periodic existential crises, this time over the use of categories. A diligent editor created a category of &amp;quot;American women novelists&amp;quot; and began adding female novelists to it, and then removing them from the category &amp;quot;American novelists&amp;quot;. A predictable hue and cry ensued. James Gleick tells the story in some detail in the NY Review of Books, under the title &amp;quot;Wikipedia&amp;#39;s Women Problem&amp;quot;.</description>
     </item>
     
     <item>
@@ -134,40 +76,10 @@
       <pubDate>Mon, 29 Apr 2013 00:06:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-29-notes-from-my-talk-on-arborwiki-and-localwiki-at-echicago-2013/</guid>
-      <description>&lt;p&gt;I had the good fortune to talk about &lt;a href=&#34;http://arborwiki.org&#34; target=&#34;_self&#34;&gt;Arborwiki&lt;/a&gt; and &lt;a href=&#34;http://www.localwiki.org&#34; target=&#34;_self&#34;&gt;Localwiki&lt;/a&gt; at eChicago in April 2013. Here are the notes that I took in preparation for the talk; the actual text of the talk varied from this, since I was speaking impromptu.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;About Arborwiki&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Who: &lt;/strong&gt;More than a dozen core contributors over the lifespan of the project, plus many more who have made small edits to pages.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Where&lt;/strong&gt;: Greater Ann Arbor - including Washtenaw County and the farmers who come to the Farmers Market from surrounding counties.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;When&lt;/strong&gt;: Started in September 2005 as a class project at Community High School, then moved to servers at the Ann Arbor District Library.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What&lt;/strong&gt;: About 10,000 pages, including the most popular &lt;a href=&#34;http://arborwiki.org/Birthday_Deals&#34; target=&#34;_self&#34;&gt;Birthday Deals&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/Volunteer_Opportunities&#34; target=&#34;_self&#34;&gt;Volunteer Opportunities&lt;/a&gt;, and perennial favorite &lt;a href=&#34;http://arborwiki.org/Donuts&#34; target=&#34;_self&#34;&gt;Donuts&lt;/a&gt; and &lt;a href=&#34;http://arborwiki.org/paczki&#34; target=&#34;_self&#34;&gt;Paczki&lt;/a&gt; pages.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;: To build community information about the Ann Arbor area.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Guiding principles&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Locality, not notability, is the main criterion for relevance; if it&amp;#39;s here, then it&amp;#39;s relevant.&lt;/p&gt;
-&lt;p&gt;Take a local point of view, not a neutral point of view; original text and personal views welcomed.&lt;/p&gt;
-&lt;p&gt;Lots of external links to reference sources.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;State of the project&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Arborwiki is a mature system - it has over 10,000 pages in it, and thus there&amp;#39;s likely to be something about most things that people might look for that are relevant to the Ann Arbor area.&lt;/p&gt;
-&lt;p&gt;One advantage to maturity is that a lot of people know about the project through a popular &amp;quot;&lt;a href=&#34;http://arborwiki.org/Birthday_Deals&#34; target=&#34;_self&#34;&gt;Birthday Deals&lt;/a&gt;&amp;quot; page, and we don&amp;#39;t have to explain in the abstract what we&amp;#39;re working on - that individual page gets about two hundred visits per day.&lt;/p&gt;
-&lt;p&gt;A second advantage is that we&amp;#39;ve gotten tremendous amounts of cooperation from the &lt;a href=&#34;http://aadl.org&#34; target=&#34;_self&#34;&gt;Ann Arbor District Library&lt;/a&gt; system, including help with research, links, technical support, and free hosting for this community project.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Challenges of a mature system&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;There&amp;#39;s no &amp;quot;new wiki&amp;quot; smell, and we can&amp;#39;t count on having a barn-raising strategy for people who want to document their community for the first time. Any enthusiasm has to be in the context of a lot of things that already exist.&lt;/p&gt;
-&lt;p&gt;The core of regular contributors is relatively small compared to the number of pages in the system. It would take 30+ page edits per day of existing pages just to get enough eyes on the older parts of Arborwiki just to keep each page refreshed to be less than a year since its latest edit.&lt;/p&gt;
-&lt;p&gt;There are too many short, uninformative pages with just a single bare link and no photo, no map, no template etc. One editor - and that would be me - went through a long period of emphasizing quantity over quality. Now that the quantity is there, it&amp;#39;s time to focus on quality.&lt;/p&gt;
-&lt;p&gt;The site needs more photos and better support from photographers.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Ypsiwiki problem&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Once upon a time there was a separate &lt;a href=&#34;http://arborwiki.org/Ypsiwiki&#34; target=&#34;_self&#34;&gt;Ypsiwiki&lt;/a&gt; which covered Ypsilanti. It was decided to merge those pages in because there was too much project overlap and not quite enough of a critical mass to keep the two systems separate. The Arborwiki name was retained, and as a result, there&amp;#39;s resistance overall from contributors from Ypsilanti to contribute to a project that&amp;#39;s not theirs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What to do next&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Improve the most popular pages on the site. Use Google Analytics to identify the pages that get the most traffic, and go through them page by page to ensure that they are up to date, correct, accurate, and informative.&lt;/p&gt;
-&lt;p&gt;Create new pages based on a &amp;quot;Page not found&amp;quot; report from Google Analytics, noting where people click on terms that get them to a blank or empty page.&lt;/p&gt;
-&lt;p&gt;Visit a random page in the site and make it better. Add a map, a photograph, a category, or a paragraph of information.&lt;/p&gt;
-&lt;p&gt;Learn the seasonal rhythms of the site. For example, the Paczki page gets traffic for about a week a year, but the Donuts page gets steady traffic year round.&lt;/p&gt;
-&lt;p&gt;Follow public meetings like the meetings of the &lt;a href=&#34;http://arborwiki.org/Ann_Arbor_City_Council&#34; target=&#34;_self&#34;&gt;Ann Arbor City Council&lt;/a&gt;, and tweet out links to projects or issues that are relevant agenda items.&lt;/p&gt;
-&lt;p&gt;Wish someone a happy birthday by sending them a link to the Birthday Deals page on Facebook.&lt;/p&gt;
-&lt;p&gt;Reward new contributors by recognizing them in public through Facebook or Twitter links to their new contributions.&lt;/p&gt;
-&lt;p&gt;Recognize that a Localwiki project has a natural size, and identify where you are in the process.&lt;/p&gt;
-&lt;p&gt;Pay attention to traffic patterns - popular pages, referral sites, keywords used.&lt;/p&gt;
-&lt;p&gt;If you want traffic, track the news, and befriend local media so that they are aware of the resource.&lt;/p&gt;
-</description>
+      <description>I had the good fortune to talk about Arborwiki and Localwiki at eChicago in April 2013. Here are the notes that I took in preparation for the talk; the actual text of the talk varied from this, since I was speaking impromptu.
+About Arborwiki
+Who: More than a dozen core contributors over the lifespan of the project, plus many more who have made small edits to pages.
+Where: Greater Ann Arbor - including Washtenaw County and the farmers who come to the Farmers Market from surrounding counties.</description>
     </item>
     
     <item>
@@ -176,16 +88,9 @@
       <pubDate>Tue, 23 Apr 2013 00:00:46 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-23-locality-vs-notability/</guid>
-      <description>&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;div class=&#34;photo-wrap photo-xid-6a00d8341c4f1a53ef017eea7e0468970d photo-full &#34; id=&#34;photo-xid-6a00d8341c4f1a53ef017eea7e0468970d&#34; style=&#34;float: right; margin: 0px 5px 5px 0px; width: 194px;&#34;&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017eea7e0468970d-pi&#34;&gt;&lt;img alt=&#34;Localwiki-logo&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017eea7e0468970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017eea7e0468970d-800wi&#34; title=&#34;Localwiki-logo&#34; /&gt;&lt;/a&gt;
-&lt;div class=&#34;photo-caption caption-xid-6a00d8341c4f1a53ef017eea7e0468970d&#34; id=&#34;caption-xid-6a00d8341c4f1a53ef017eea7e0468970d&#34;&gt;Localwiki&lt;/div&gt;
-&lt;/div&gt;
-In Wikipedia, every article is measured against a broad global sense of &amp;quot;notability&amp;quot;. An individual or a topic has to be notable and newsworthy enough to be included, and though the standards vary there is some &lt;a href=&#34;http://en.wikipedia.org/wiki/Wikipedia:NOTABILITY&#34; target=&#34;_self&#34;&gt;global consensus to what it means&lt;/a&gt;. If an article doesn&amp;#39;t meet the grade, it&amp;#39;s subject to deletion.
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;On a &lt;a href=&#34;http://localwiki.org&#34; target=&#34;_self&#34;&gt;Localwiki&lt;/a&gt;, every article is measured against an individual sense of &amp;quot;locality&amp;quot;. An individual or topic has to be relevant to that location that is being covered. Standards vary widely, but the general feeling I get is that if you put the subject&amp;#39;s dot on a map and the dot is too far from the center of gravity of the Localwiki, it will be rejected.&lt;/p&gt;
-&lt;p&gt;This gives curious and interesting results. It means that the &lt;a href=&#34;http://arborwiki.org/Great_Shanghai_Restaurant&#34; target=&#34;_self&#34;&gt;closing of an otherwise un-notable buffet restaurant in a strip mall&lt;/a&gt; is notable enough for a Localwiki simply because it&amp;#39;s local, but also that people making worldwide headlines don&amp;#39;t have a place in a Localwiki (unless of course they have some particular and peculiar tie to a single location).&amp;#0160;&lt;/p&gt;
-&lt;p&gt;I find myself wishing that more places had local wikis - the process of editing is much less demanding when you simply need to identify that something is of local interest vs. going up against the global test. And locality is still ambiguous, but not so much as to be impossible to gauge.&lt;/p&gt;
-</description>
+      <description>&amp;#0160;
+ Localwiki  In Wikipedia, every article is measured against a broad global sense of &amp;quot;notability&amp;quot;. An individual or a topic has to be notable and newsworthy enough to be included, and though the standards vary there is some global consensus to what it means. If an article doesn&amp;#39;t meet the grade, it&amp;#39;s subject to deletion. &amp;#0160;
+On a Localwiki, every article is measured against an individual sense of &amp;quot;locality&amp;quot;.</description>
     </item>
     
     <item>
@@ -194,10 +99,8 @@ In Wikipedia, every article is measured against a broad global sense of &amp;quo
       <pubDate>Mon, 03 Dec 2012 00:23:19 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-12-03-toledowiki-is-up-and-running/</guid>
-      <description>&lt;p&gt;See &lt;a href=&#34;http://www.toledowiki.net&#34; target=&#34;_self&#34;&gt;toledowiki.net&lt;/a&gt;&amp;#0160;for a city wiki for Toledo, Ohio. As of this writing it has 113 users, who have created 362 pages about the city.&lt;/p&gt;
-&lt;p&gt;It&amp;#39;s always interesting to see a city wiki start up, and by stumbling around the first few pages you get a sense for the places that are at the interesting core of a city. The first few &lt;a href=&#34;http://toledowiki.net/Coffee_Shops&#34; target=&#34;_self&#34;&gt;coffee shops&lt;/a&gt; that are mapped tell you where people care enough to share their places to work, and the &lt;a href=&#34;http://toledowiki.net/Flyers&#34; target=&#34;_self&#34;&gt;flyers&lt;/a&gt; collection lets you see what&amp;#39;s on the bulletin boards around town.&lt;/p&gt;
-&lt;p&gt;My working knowledge of Toledo is bounded by the few places that I routinely visit - the &lt;a href=&#34;http://toledowiki.net/Toledo_Museum_of_Art&#34; target=&#34;_self&#34;&gt;art museum&lt;/a&gt;, the ball field where the &lt;a href=&#34;http://toledowiki.net/Toledo_Mud_Hens&#34; target=&#34;_self&#34;&gt;Mud Hens&lt;/a&gt; play, and a few routine stops along the freeway near the turnpike exit. It&amp;#39;s incredibly helpful to have a local guide to the whole rest of the town to make it possible to think about alternative destinations the next time I visit.&lt;/p&gt;
-</description>
+      <description>See toledowiki.net&amp;#0160;for a city wiki for Toledo, Ohio. As of this writing it has 113 users, who have created 362 pages about the city.
+It&amp;#39;s always interesting to see a city wiki start up, and by stumbling around the first few pages you get a sense for the places that are at the interesting core of a city. The first few coffee shops that are mapped tell you where people care enough to share their places to work, and the flyers collection lets you see what&amp;#39;s on the bulletin boards around town.</description>
     </item>
     
     <item>
@@ -206,15 +109,8 @@ In Wikipedia, every article is measured against a broad global sense of &amp;quo
       <pubDate>Mon, 09 Jan 2012 22:44:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-01-09-personal-public-and-team-wikis/</guid>
-      <description>&lt;p&gt;Personal wikis are a source for endless fascination, and they would lend themselves towards machine learning to the extent that you can imagine personal information management as a machine-assisted process. These are as individualized as snowflakes and about as durable.&lt;/p&gt;
-
-&lt;p&gt;Public utility wikis come in a variety of flavors, and don&#39;t always share an equivalent management structure or function. Sometimes there is a very small team of creators and a large periphery of consumers, and it&#39;s possible for a suitably designed personal effort to extend to public use if approached with care. Arborwiki fits the bill for this for me; I&#39;ve made a lot&lt;br /&gt;
-of edits there, but the most popular pages have the most diverse edit base.&lt;/p&gt;
-
-&lt;p&gt;Team wikis appear in this decade to be embedded in some other bigger system that needs a shared editable place but that also has some other explicitly transactional work going on. Wiki nature does not include the verbs &#34;assign&#34;, &#34;delegate&#34;, &#34;report on&#34;, or even really &#34;decide&#34;, and if you are doing any kind of process work you often land on something beyond a&lt;br /&gt;
-simple &#34;edit this page&#34;. &lt;br /&gt;
-&lt;/p&gt;
-</description>
+      <description>Personal wikis are a source for endless fascination, and they would lend themselves towards machine learning to the extent that you can imagine personal information management as a machine-assisted process. These are as individualized as snowflakes and about as durable.
+Public utility wikis come in a variety of flavors, and don&#39;t always share an equivalent management structure or function. Sometimes there is a very small team of creators and a large periphery of consumers, and it&#39;s possible for a suitably designed personal effort to extend to public use if approached with care.</description>
     </item>
     
     <item>
@@ -223,9 +119,8 @@ simple &#34;edit this page&#34;. &lt;br /&gt;
       <pubDate>Sun, 27 Feb 2011 22:56:10 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-02-27-camera-wikiorg-is-a-successful-non-commercial-fork-of-camerapedia/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.camera-wiki.org&#34; target=&#34;_self&#34;&gt;Camera-wiki.org&lt;/a&gt; is a successful, non-commercial fork of Camerapedia. It was built over the span of about a month, with a small team of volunteers reconstructing the wiki and its image database in response to a sale of Camerapedia to Wikia. &lt;a href=&#34;http://www.steevithak.com/2011/02/27/goodbye-camerapedia-hello-camera-wiki-org/&#34; target=&#34;_self&#34;&gt;Steevithiak tells the tale from the inside&lt;/a&gt;, of late-night perl scripts crawling through the databases reconstructing the site and of coordinated action to rebuild the photo pool.&lt;/p&gt;
-&lt;p&gt;The challenge of running a wiki is not only that you have to maintain a large collection of encyclopedic content, but also that you have to keep a pile of funky software running. The enticing trade is to accept advertising on your wiki pages in exchange for &amp;quot;free&amp;quot; hosting. The hosting company gets your community&amp;#39;s sweat equity, unless they &lt;a href=&#34;http://blog.camera-wiki.org/2011/02/07/hello-world/&#34; target=&#34;_self&#34;&gt;rebel en masse&lt;/a&gt; and go and build their own sandbox. &lt;a href=&#34;http://www.flickr.com/groups/camerapedia/discuss/72157625827923382/&#34; target=&#34;_self&#34;&gt;More power to them&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Camera-wiki.org is a successful, non-commercial fork of Camerapedia. It was built over the span of about a month, with a small team of volunteers reconstructing the wiki and its image database in response to a sale of Camerapedia to Wikia. Steevithiak tells the tale from the inside, of late-night perl scripts crawling through the databases reconstructing the site and of coordinated action to rebuild the photo pool.
+The challenge of running a wiki is not only that you have to maintain a large collection of encyclopedic content, but also that you have to keep a pile of funky software running.</description>
     </item>
     
     <item>
@@ -234,8 +129,8 @@ simple &#34;edit this page&#34;. &lt;br /&gt;
       <pubDate>Tue, 23 Jun 2009 13:35:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-23-wiki-wednesday-using-google-analytics-to-find-places-to-add-to-your-content/</guid>
-      <description>&lt;p&gt;Of course it isn&amp;#39;t Wednesday yet, but I&amp;#39;ll be a day early.&lt;/p&gt;&lt;p&gt;One of the things I&amp;#39;ve been tracking over at Arborwiki with our analytics install is the fraction of pages that people hit that don&amp;#39;t exist yet.&amp;#0160; These are marked on screen so that if you know what you are looking for you&amp;#39;ll recognize it, but often people don&amp;#39;t, so they click through and get a blank edit screen.&lt;/p&gt;&lt;p&gt;Every so often people do edit this page - but often they don&amp;#39;t.&amp;#0160; &lt;/p&gt;&lt;p&gt;A reasonable goal is to try to minimize the number of times people get frustrated, so one way to track that is to look at the fraction of pages over time where people hit a blank page and try to minimize that.&amp;#0160; Looking at it over the last 3 months it appears that 3.2% of page views go to a page that doesn&amp;#39;t exist yet - if you do a &amp;quot;Top Content&amp;quot; report, and then filter for the string &amp;quot;redlink&amp;quot;, you&amp;#39;ll get what you want.&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011570540df2970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Picture 5&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef011570540df2970c image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011570540df2970c-800wi&#34; title=&#34;Picture 5&#34; /&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;One way to do continuous improvement, then, is to run a simple report for the pages on any given day, and look through them for ones where people clicked and didn&amp;#39;t find anything.&amp;#0160; Go to those wanted pages and search until you can put in something at least minimal for them.&lt;/p&gt;&lt;p&gt;Today&amp;#39;s crop of such pages includes the &lt;a href=&#34;http://arborwiki.org/city/Ann%20Arbor%20Wine%20Club&#34;&gt;Ann Arbor Wine Club&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Edward%20Burger&#34;&gt;Edward Burger&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Michael%20R.%20Reid&#34;&gt;Michael R. Reid&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Miles%20Street&#34;&gt;Miles Street&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Native%20Plant%20Nursery&#34;&gt;Native Plant Nursery&lt;/a&gt;, and &lt;a href=&#34;http://arborwiki.org/city/Oakland%20Cruisers&#34;&gt;Oakland Cruisers&lt;/a&gt;.&amp;#0160; With any small amount of diligence you can whittle away at the edges and reduce the failure rate over time.&lt;/p&gt;
-</description>
+      <description>Of course it isn&amp;#39;t Wednesday yet, but I&amp;#39;ll be a day early.
+One of the things I&amp;#39;ve been tracking over at Arborwiki with our analytics install is the fraction of pages that people hit that don&amp;#39;t exist yet.&amp;#0160; These are marked on screen so that if you know what you are looking for you&amp;#39;ll recognize it, but often people don&amp;#39;t, so they click through and get a blank edit screen.</description>
     </item>
     
     <item>
@@ -244,8 +139,8 @@ simple &#34;edit this page&#34;. &lt;br /&gt;
       <pubDate>Wed, 25 Feb 2009 12:15:18 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-02-25-on-wandering-into-someone-elses-wiki/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Every once in a while you find a smallish wiki that looks like it&amp;#39;s healthy and has interesting material. &amp;#0160;These wikis are bigger than the single person brain-dump, and smaller than Wikipedia, and less abandoned than most temporary bouts of enthusiasm that bring people into wiki-land.&lt;/p&gt;&lt;br /&gt;&lt;div&gt;Inevitably when I find one of these I have the urge to edit and organize just long enough to figure out what kind of stuff is in it. &amp;#0160;Sometimes the wiki authors so much assume that everyone knows what some key terms or concepts are, and so those things never get their own pages until you wander in and link them. &amp;#0160;Other times the wiki authorship collectively is so interesting in making links to things that they never manage to get around to putting pages at the other end of the links. &amp;#0160;Doing a round of edits to random pages to try to improve them just enough to make sense of them is a way to figure out whether you want to wrap your brain more about the topic.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;Wikipedia, in its timeless charmless categorical imperative way, calls the sort of people who wander into a wiki and start tidying things up as &lt;a href=&#34;http://en.wikipedia.org/wiki/Wikipedia:GNOME&#34;&gt;WikiGnomes&lt;/a&gt;. &amp;#0160;This is a passive-aggressive way of saying &amp;quot;who the hell are you and why are you editing all of these pages and not adding anything to them&amp;quot;. &amp;#0160; If someone else calls you that, step back and head back to your blog. &amp;#0160;The other term of art for this is &amp;quot;Wiki gardening&amp;quot;, which implies some low-level drone job pulling weeds and fixing other people&amp;#39;s punctuation, which also completely misses the point.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;Sometimes, in order to make your own sense of something, you have to change it and see if it changes back after you touch it.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;(Written on the occasion of &lt;a href=&#34;http://wiki.code4lib.org&#34;&gt;wandering into the Code4Lib wiki&lt;/a&gt;, making a dozen changes, and stepping back.)&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Every once in a while you find a smallish wiki that looks like it&amp;#39;s healthy and has interesting material. &amp;#0160;These wikis are bigger than the single person brain-dump, and smaller than Wikipedia, and less abandoned than most temporary bouts of enthusiasm that bring people into wiki-land.
+Inevitably when I find one of these I have the urge to edit and organize just long enough to figure out what kind of stuff is in it.</description>
     </item>
     
     <item>
@@ -254,55 +149,8 @@ simple &#34;edit this page&#34;. &lt;br /&gt;
       <pubDate>Wed, 07 Jan 2009 15:08:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-01-07-womens-national-farm-and-garden-association-arborwiki-wiki-wednesday/</guid>
-      <description>&lt;p&gt;For Wiki Wednesday, I&amp;#39;m starting a new series where I pull a random (or at least semi-random) page from Arborwiki and look for ways to improve it.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://arborwiki.org/index.php/Women%27s_National_Farm_and_Garden_Association&#34;&gt;
-            
-            
-            Women&amp;#39;s National Farm and Garden Association            
-            
-                        
-        &lt;/a&gt;
-                
-            &lt;/p&gt;&lt;h3 id=&#34;siteSub&#34;&gt;From ArborWiki
-            
-            
-            &lt;/h3&gt;&lt;dl&gt;&lt;dd&gt;
-The Ann Arbor Branch, Woman’s National Farm &amp;amp; Garden Association,
-is dedicated to ensuring opportunities for women in horticulture and
-providing children an environment that is green and safe to learn from
-and to steward; our fundraising supports educational scholarships in
-horticulture and related areas and grants for community gardens that
-further our mission and goals.
-&lt;/dd&gt;&lt;/dl&gt;
-&lt;p&gt;The Ann Arbor group was started in 1914. It hosts two annual events, a Greens Market in December and a Garden Walk in June. 
-&lt;/p&gt;&lt;p&gt;Web: &lt;a class=&#34;external free&#34; href=&#34;http://www.annarborfarmandgarden.org&#34; rel=&#34;nofollow&#34; title=&#34;http://www.annarborfarmandgarden.org&#34;&gt;http://www.annarborfarmandgarden.org&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a name=&#34;In_the_news&#34;&gt;&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;&lt;span class=&#34;editsection&#34;&gt;&lt;a href=&#34;http://arborwiki.org/index.php?title=Women%27s_National_Farm_and_Garden_Association&amp;amp;action=edit&amp;amp;section=1&#34; title=&#34;Edit section: In the news&#34;&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;mw-headline&#34;&gt;In the news &lt;/span&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt; &lt;a class=&#34;external text&#34; href=&#34;http://www.mlive.com/annarbornews/features/index.ssf/2008/12/association_branch_has_been_go.html&#34; rel=&#34;nofollow&#34; title=&#34;http://www.mlive.com/annarbornews/features/index.ssf/2008/12/association_branch_has_been_go.html&#34;&gt;Association branch has been going, growing green since 1946&lt;/a&gt;, Ann Arbor News, December 2008
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;div class=&#34;printfooter&#34;&gt;
-Retrieved from &amp;quot;&lt;a href=&#34;http://arborwiki.org/index.php/Women%27s_National_Farm_and_Garden_Association&#34;&gt;http://arborwiki.org/index.php/Women%27s_National_Farm_and_Garden_Association&lt;/a&gt;&amp;quot;&lt;/div&gt;
-            &lt;div id=&#34;catlinks&#34;&gt;&lt;p class=&#34;catlinks&#34;&gt;&lt;a href=&#34;http://arborwiki.org/index.php/Special:Categories&#34; title=&#34;Special:Categories&#34;&gt;Category&lt;/a&gt;: &lt;span dir=&#34;ltr&#34;&gt;&lt;a href=&#34;http://arborwiki.org/index.php/Category:Gardening&#34; title=&#34;Category:Gardening&#34;&gt;Gardening&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&#34;catlinks&#34;&gt;&lt;span dir=&#34;ltr&#34;&gt;&lt;a href=&#34;http://arborwiki.org/index.php/Category:Gardening&#34; title=&#34;Category:Gardening&#34;&gt;&lt;br /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
-&lt;p&gt;
-Some things that could be improved on this - and there&amp;#39;s a long list - might be 
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;More information about the founders
-&lt;/li&gt;
-&lt;li&gt;A list of organization presidents or leaders over time, w/links to bio pages
-&lt;/li&gt;
-&lt;li&gt;More of the context of the founding, the &amp;quot;origin story&amp;quot; of the group
-&lt;/li&gt;
-&lt;li&gt;Photographs of annual events and more detailed accounts of same
-&lt;/li&gt;
-&lt;li&gt;A date for the June Garden Walk
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thanks to &lt;a href=&#34;http://www.ebonhawke.com/wiki-wednesday-non-playable-races/&#34;&gt;ebonhawke, the guild wars 2 wiki&lt;/a&gt; for this idea.&lt;/p&gt;
-</description>
+      <description>For Wiki Wednesday, I&amp;#39;m starting a new series where I pull a random (or at least semi-random) page from Arborwiki and look for ways to improve it.
+Women&amp;#39;s National Farm and Garden Association  From ArborWiki  The Ann Arbor Branch, Woman’s National Farm &amp;amp; Garden Association, is dedicated to ensuring opportunities for women in horticulture and providing children an environment that is green and safe to learn from and to steward; our fundraising supports educational scholarships in horticulture and related areas and grants for community gardens that further our mission and goals.</description>
     </item>
     
     <item>
@@ -311,14 +159,49 @@ Some things that could be improved on this - and there&amp;#39;s a long list - m
       <pubDate>Wed, 19 Nov 2008 14:11:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-19-wiki-analytics-using-the-new-google-analytics-tools-to-measure-and-improve-a-civic-wiki/</guid>
-      <description>&lt;p&gt;This is part of the Wiki Wednesday and coincidentally also part of the Web Analytics Wednesday series.&lt;/p&gt;&lt;p&gt;UPDATE: changed throughout, some spots still not filled in, I am promising some graphs; want to work in the RichmondWiki blog notes as well.&lt;/p&gt;&lt;p&gt;UPDATE2: analytics for wiki edit failure&lt;/p&gt;&lt;p&gt;Google Analytics has a bunch of new features.&amp;#0160; Mediawiki, the code that runs Arborwiki, has Google Analytics installed and is tracking user behavior to help improve the quality and relevance of the content that&amp;#39;s there.&amp;#0160; Here&amp;#39;s some applications of the new features.&lt;/p&gt;&lt;p&gt;1.&amp;#0160; Segmentation by geography.&lt;/p&gt;&lt;p&gt;Arborwiki covers information about Ann Arbor, Ypsilanti, and the surrounding Washtenaw County area.&amp;#0160; One reasonable segmentation of the readership and contributor base is to see how people from inside the area behave compared to people from outside the area.&lt;/p&gt;&lt;p&gt;...&lt;/p&gt;&lt;p&gt;(graph)&lt;/p&gt;&lt;p&gt;We&amp;#39;ll break down usage for specific pages and see how they differ.&amp;#0160; First, look at traffic coming from Wikipedia - how does it compare to everything else?&lt;/p&gt;&lt;p&gt;(graph)&lt;/p&gt;&lt;p&gt;Next, look at the most popular page, the &amp;quot;birthday deals&amp;quot; page, who is seeing that?&lt;/p&gt;&lt;p&gt;(graph)&lt;/p&gt;&lt;p&gt;A further refinement will look at how much birthday deal traffic is coming from surrounding suburbs, e.g. Oakland County.&amp;#0160; &lt;/p&gt;&lt;p&gt;2.&amp;#0160;&amp;#0160; Conversion tracking: who edits a page.&lt;/p&gt;&lt;p&gt;We have set up the idea that a page edit is a success criterion and a conversion goal.&amp;#0160; More page edits, the better.&amp;#0160; Please contribute.&lt;/p&gt;&lt;p&gt;There are at least two end states: a page is edited that didn&amp;#39;t exist before, or a person edits a page (because they linked to something that wasn&amp;#39;t there) and it was abandoned.&amp;#0160; That&amp;#39;s a failure condition and a sign that the wiki is incomplete in that specific area.&amp;#0160; So we set up reports to look for pages where people are editing the page but it shows up as the exit page, which implies that someone left the page in mid-edit&lt;/p&gt;&lt;p&gt;The method:&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;segment by page includes &amp;quot;action=edit&amp;quot;&lt;/li&gt;
-&lt;li&gt;top content report (or perhaps &lt;/li&gt;
-&lt;li&gt;show &amp;quot;exit rate&amp;quot;&lt;/li&gt;
-&lt;li&gt;the higher the exit rate for edits, the more people bailed out; look to improve anything that&amp;#39;s red?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;(graph)&lt;/p&gt;&lt;p&gt;(report)&lt;/p&gt;&lt;p&gt;3.&amp;#0160; ...&lt;/p&gt;&lt;p&gt;...&lt;/p&gt;&lt;p&gt;(quote from Avinash)&lt;br /&gt;(quote from ...)&lt;/p&gt;&lt;p&gt;...&lt;/p&gt;&lt;p&gt;You can overthink a civic wiki; until there&amp;#39;s a critical mass of content, report generation is not that much good.&amp;#0160; So don&amp;#39;t stare at your metrics until you have some idea that there&amp;#39;s enough there to work from - a map of the holiday light shows (Richmond Wiki), the great places to go for a birthday dinner (Arborwiki), [your favorite civic wiki&amp;#39;s favorite page].&lt;/p&gt;&lt;p&gt;----&lt;/p&gt;&lt;p&gt;More on this topic:&lt;/p&gt;&lt;p&gt;Web Analytics Wednesday meets worldwide: ...&lt;br /&gt;Wiki Wednesday meets worldwide ...&lt;br /&gt;Other civic wikis: RichmondWiki&lt;/p&gt;
-</description>
+      <description>This is part of the Wiki Wednesday and coincidentally also part of the Web Analytics Wednesday series.
+UPDATE: changed throughout, some spots still not filled in, I am promising some graphs; want to work in the RichmondWiki blog notes as well.
+UPDATE2: analytics for wiki edit failure
+Google Analytics has a bunch of new features.&amp;#0160; Mediawiki, the code that runs Arborwiki, has Google Analytics installed and is tracking user behavior to help improve the quality and relevance of the content that&amp;#39;s there.</description>
+    </item>
+    
+    <item>
+      <title>Describing wiki to the expert user of Microsoft Word</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-12-describing-wiki-to-the-expert-user-of-microsoft-word/</link>
+      <pubDate>Wed, 12 Nov 2008 13:28:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-12-describing-wiki-to-the-expert-user-of-microsoft-word/</guid>
+      <description>Part of a Wiki Wednesday series; this post is NOT FINISHED but I needed to post it anyway.
+Using a wiki to help develop and edit text for your project is appealing because when it all works you can, when everything works right, get a lot more done with less document management overhead. &amp;#0160; However, there is a large group of professionals who regularly work with complex documents who are intimately familiar with Microsoft Word, are experts in understanding how it can be used to build complex and attractive deliverables, and for whom a wiki environment is novel - not just because the mechanics of editing, change tracking, and formatting for presentation are different, but because the model for how people work together in this world is not the same.</description>
+    </item>
+    
+    <item>
+      <title>notes on wiki use in organizations</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-02-notes-on-wiki-u/</link>
+      <pubDate>Thu, 02 Oct 2008 16:20:07 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-02-notes-on-wiki-u/</guid>
+      <description>Stewart Mader and I had a good conversation, and from it came references to these posts; I&#39;m noting them now here so that I can find them again (!) and so that I can remember the context of the conversation.&amp;nbsp; Five effective wiki uses - a piece in Website Magazine.&amp;nbsp; In short: project management, customer/client collaboration, documentation, online community, FAQs and policies.
+Onboarding: getting your new employees cleared for takeoff - some wiki patterns associated with using wiki to answer new hire questions and otherwise get new people to be part of an organization</description>
+    </item>
+    
+    <item>
+      <title>Google AdSense in professional association wikis</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-26-google-adsense/</link>
+      <pubDate>Tue, 26 Aug 2008 10:29:09 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-26-google-adsense/</guid>
+      <description>Google&#39;s AdSense program is designed to provide relevant targeted advertising content to web pages.&amp;nbsp; It works, sometimes intermittently, on weblogs - but there&#39;s often enough other non-relevant things on the design of those pages to work only indifferently.&amp;nbsp; What you do find however is that the appropriately targeted wiki design - especially one where the subject matter expertise of a professional association is involved, and where the words in use a specific to a field of specialty - yields extremely targeted results.</description>
+    </item>
+    
+    <item>
+      <title>thank you for supporting arborwiki</title>
+      <link>http://vielmetti.github.io/post/2008/2008-07-23-thank-you-for-s/</link>
+      <pubDate>Wed, 23 Jul 2008 00:02:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-07-23-thank-you-for-s/</guid>
+      <description>From time to time people ask questions about Ann Arbor, and from time to time there are what appear to be encyclopedic responses to them. Part of the reason for this is Arborwiki, a wiki that covers information about Ann Arbor, Ypsilanti, Washtenaw County and the rest of the area.
+Matt Hampel runs this with an ad hoc collective doing editorial direction and the Ann Arbor District Library providing hosting. It&#39;s not advertising driven, and while is has a lot of information about businesses any obviously marketing copy gets edited out pretty quickly.</description>
     </item>
     
   </channel>

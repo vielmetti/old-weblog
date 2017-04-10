@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/maps/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Maps on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/maps/</link>
+    <description>Recent content in Maps on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/maps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2015 10:39:24 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/maps/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Using blitzortung.org and lightningmaps.org to watch lightning roll in</title>
@@ -14,20 +17,8 @@
       <pubDate>Wed, 24 Jun 2015 10:39:24 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-24-using-blitzortungorg-and-lightningmapsorg-to-watch-lightning-roll-in/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a3e4ed970b img-responsive&#34; style=&#34;width: 332px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; title=&#34;Screen Shot 2015-06-23 at 12.25.53 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a3e4ed970b-350wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;A brief note on two pages I refer to during severe weather, like the storms that rolled through the area on Monday night and Tuesday early morning that led to &lt;a href=&#34;https://localwiki.org/ann-arbor/June_2015_Manchester_tornado&#34;&gt;tornado damage in Manchester&lt;/a&gt; on the morning of June 23, 2015.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.lightningmaps.org/&#34;&gt;LightningMaps.org&lt;/a&gt; has a zoomable near real time map of lightning strikes. You can zoom and pan around looking at locations of lightning strikes, with a small (less than 10 seconds) delay. When everything lines up right you can see the lightning strike on your computer before you hear the thunder.&lt;/p&gt;
-
-&lt;p&gt;The LightningMaps data comes from the &lt;a href=&#34;http://www.blitzortung.org&#34;&gt;BlitzOrtung&lt;/a&gt; project, which has deployed a set of custom designed lightning detectors world wide. From their page:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&#34;Blitzortung.org&#34; is a lightning detection network for the location of electromagnetic discharges in the atmosphere (lightning discharges) based on the time of arrival (TOA) and time of group arrival (TOGA) method. It consists of several lightning receivers and one central processing server. The stations transmit their data in short time intervals over the Internet to our server. Every data sentence contains the precise time of arrival of the received lightning discharge impulse (&#34;sferic&#34;) and the exact geographic position of the receiver. With this information from all stations the exact positions of the discharges are computed. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Blitzortung is working on a new generation of lightning detectors, which are not yet available, and they are no longer manufacturing their first generation of detectors. Even so the US coverage of lightning detection is very good and recommended for storm tracking. The project lead is Egon Wanke of Dusseldorf, Germany.&lt;/p&gt;
-</description>
+      <description>A brief note on two pages I refer to during severe weather, like the storms that rolled through the area on Monday night and Tuesday early morning that led to tornado damage in Manchester on the morning of June 23, 2015.
+LightningMaps.org has a zoomable near real time map of lightning strikes. You can zoom and pan around looking at locations of lightning strikes, with a small (less than 10 seconds) delay.</description>
     </item>
     
     <item>
@@ -36,49 +27,8 @@
       <pubDate>Wed, 24 Jun 2015 10:23:20 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-24-using-gnu-parallel-to-speed-up-network-operations/</guid>
-      <description>&lt;p&gt;My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.&lt;/p&gt;
-
-&lt;p&gt;Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes. If you are working on something where it doesn&#39;t matter which order things happen in as long as they all get done you are in good shape to get tremendous performance improvements simply by overlapping operations.&lt;/p&gt;
-
-&lt;p&gt;An example:&lt;/p&gt;
-
-&lt;p&gt;DTE Energy does not have one single page on their web site that shows you the total number of outages across their system - or if they do have it, it&#39;s so well hidden that I haven&#39;t found it. What they do have is a way to fetch the outage count for a single ZIP code. So, armed with a set of zip codes, you can determine a total. You don&#39;t care which ZIP is fetched first but you do want them all to show up before you add them up.&lt;/p&gt;
-
-&lt;p&gt;The one-line command I have for this is&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The script dte-by-zip runs as follows, fetching a page from a DTE server and parsing it:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;$ dte-by-zip 48104&lt;/p&gt;
-  
-  &lt;p&gt;38&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;thus the parallel invocation reads roughly as follows: &#34;for 32 parallel threads, using the dte-zips data file one line a time as command line arguments, run dte-by-zip; add up all the results&#34;.&lt;/p&gt;
-
-&lt;p&gt;Note that if you are using &#34;curl&#34; to fetch pages, you want to be aware of the &lt;code&gt;--max-time&lt;/code&gt; option.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;-m, --max-time &lt;seconds&gt;
-               Maximum time in seconds that you allow the  whole  operation  to
-               take.   This is useful for preventing your batch jobs from hang-
-               ing for hours due to slow networks or links going  down. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now you don&#39;t want to go too crazy with parallel operations on network resources, it&#39;s possible to overrun a remote server and it might be faster to pull 8 or 16 parallel threads instead of 32 or 64 depending on the nature of the remote machine.&lt;/p&gt;
-
-&lt;p&gt;Article describing tool (for citations):&lt;/p&gt;
-
-&lt;p&gt;O. Tange (2011): GNU Parallel - The Command-Line Power Tool, ;login: The USENIX Magazine, February 2011:42-47.&lt;/p&gt;
-
-&lt;p&gt;Authors&#39; website for obtaining code:&lt;/p&gt;
-
-&lt;p&gt;http://www.gnu.org/software/parallel/&lt;/p&gt;
-</description>
+      <description>My current laptop (a MacBook Air) has a plenty fast processor and super fast disk. This means that the usual bottleneck for system operations is the network, not the computer itself. I go from wifi spot to other wifi spot enough that I know that performance varies a lot, and especially there are a lot of places where the network is really not fast enough.
+Enter GNU Parallel. This little tool lets you spawn a whole series of processes, with the next one starting when the previous one completes.</description>
     </item>
     
     <item>
@@ -87,12 +37,9 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
       <pubDate>Sat, 14 Mar 2015 22:46:51 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-14-strange-alaska/</guid>
-      <description>&lt;p&gt;This strange map of Alaska from the National Park Service annexes parts of Canada.&lt;/p&gt;
+      <description>This strange map of Alaska from the National Park Service annexes parts of Canada.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0ec55e2970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0ec55e2970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-14 at 10.33.54 PM&#34; title=&#34;Screen Shot 2015-03-14 at 10.33.54 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0ec55e2970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks to eagle eyed Canadian Kai Petainen for pointing this out. Original at &lt;a href=&#34;http://www.nps.gov/state/ak/index.htm&#34;&gt;http://www.nps.gov/state/ak/index.htm&lt;/a&gt;, which is an embed of &lt;a href=&#34;http://www.nps.gov/maps/embed.html?mapId=f0cc55f0-99a6-4be4-a4d8-b9cbdb5931db#ak/parks&#34;&gt;this full state map&lt;/a&gt;. &lt;/p&gt;
-</description>
+Thanks to eagle eyed Canadian Kai Petainen for pointing this out. Original at http://www.nps.gov/state/ak/index.htm, which is an embed of this full state map. </description>
     </item>
     
     <item>
@@ -101,81 +48,7 @@ parallel -P 32 -a ~/data/dte-zips ~/bin/dte-by-zip | jq -s add
       <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-04-cleaning-polygons-in-r-and-shapely/</guid>
-      <description>&lt;p&gt;The project of the week has been an effort to generate a set of
-maps - 2935 of them, in fact. The source data is from the Department
-of Energy, listing a set of utility companies and the counties they
-cover; the goal is to have a boundary map generated for each utility
-company. I know it won&amp;rsquo;t be a perfect boundary (most utility companies
-have at least one county that they only provide service to part
-of), but as a start it&amp;rsquo;s a pretty good one.&lt;/p&gt;
-
-&lt;p&gt;The DOE data is based on their Form EIA-861, and I&amp;rsquo;m working from
-the 2013 data set. See &lt;a
-href=&#34;http://www.eia.gov/electricity/data/eia861/&#34;&gt;Electric power
-sales, revenue, and energy efficiency Form EIA-861 detailed data
-files&lt;/a&gt; if you want to get your own files. It&amp;rsquo;s provided as Excel
-(XLSX) files, so you&amp;rsquo;ll need something compatible to read them; I
-ended up using &lt;a
-href=&#34;http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html&#34;&gt;in2csv
-from csvkit&lt;/a&gt; as the first part of the pipeline to break these
-apart.&lt;/p&gt;
-
-&lt;p&gt;You get lines from the provided file that look like this:&lt;/p&gt;
-
-&lt;pre&gt;
-Data Year,Utility Number,Utility Name,State,County
-2013,5109,DTE Electric Company,MI,Shiawassee
-2013,5109,DTE Electric Company,MI,St Clair
-2013,5109,DTE Electric Company,MI,Tuscola
-2013,5109,DTE Electric Company,MI,Washtenaw
-2013,5109,DTE Electric Company,MI,Wayne
-&lt;/pre&gt;
-
-&lt;p&gt;The next challenge is to pull a map for each county served. To do this, convert the (State,County) list to a FIPS code, using a table like this one from ORNL called &lt;a href=&#34;http://cta.ornl.gov/transnet/CoFIPS00.txt&#34;&gt;CoFIPS00.txt&lt;/a&gt;. (MI,Washtenaw) turns into 26161. Feed a list of FIPS codes into the Census Reporter geo API, and out comes GeoJSON files, like so: &lt;a href=&#34;http://api.censusreporter.org/1.0/geo/show/tiger2013?geo_ids=05000US26103,05000US26003&#34;&gt;GeoJSON for Marquette and Alger Counties, Michigan&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;We have a list of counties for each utility, so at minimum we&#39;re set right there. But we need to get 2935 of them, and it&#39;s kind of slow to wait for each one to return before fetching the next one. That motivates the use of &lt;a href=&#34;http://www.gnu.org/software/parallel/&#34;&gt;GNU Parallel&lt;/a&gt;, a shell tool for executing jobs in parallel. On my four core MacBook Air I ran 32 jobs in parallel, and 2935 fetches (using &#34;curl&#34;) took 287 seconds with the median elapsed time for each job at about 3 seconds - about a 31x speedup vs doing things serially.&lt;/p&gt;
-
-&lt;p&gt;However, the GeoJSON provided is really one shape per county, and we&#39;re looking for a complete service area in a single shape, so we need to merge the result together. Here a useful tool is the &#34;R&#34; stats package, particularly the &#34;rgeos&#34;, &#34;rgdal&#34;, and &#34;maptools&#34; packages. &lt;/p&gt;
-
-&lt;p&gt;The first step is the &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgdal/docs/ogrInfo&#34;&gt;readOGR() function from the rgdal library&lt;/a&gt;. It takes a variety of input map formats including GeoJSON and shape files and pulls them into a Spatial vector object in R. rgdal is an R interface to Frank Warmerdam&#39;s &lt;a href=&#34;http://www.gdal.org/&#34;&gt;Geospatial Data Abstraction Library&lt;/a&gt;, and it handles both raster and vector geospatial data formats.&lt;/p&gt;
-
-&lt;p&gt;Next, use the &lt;a href=&#34;http://www.inside-r.org/packages/cran/maptools/docs/unionSpatialPolygons&#34;&gt;unionSpatialPolygons() function from the maptools library&lt;/a&gt; to merge the county polygons into a single polygon. The docs say that this is a wrapper around the &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgeos/docs/gUnion&#34;&gt;gUnion() function from the rgeos library&lt;/a&gt;. rgeos comes from the Google Summer of Code 2010, and this &lt;a href=&#34;https://gsoc2010r.wordpress.com/2010/06/10/rgeos-introduction/&#34;&gt;introduction to the project&lt;/a&gt; explains the motivation. rgeos provides an R interface to &lt;a href=&#34;http://trac.osgeo.org/geos/&#34;&gt;GEOS&lt;/a&gt;, which is in turn a C++ port of &lt;a href=&#34;http://tsusiatsoftware.net/jts/main.html&#34;&gt;JTS&lt;/a&gt;, the Java Topology Suite.&lt;/p&gt;
-
-&lt;p&gt;After you run the unionSpatialPolygons() operation, you will inevitably find that there are tiny holes in your unioned map. Geographic boundaries are complex, and as a result there are often little areas that don&#39;t quite touch, leaving little bits of land that aren&#39;t included anywhere. This algorithm from stackoverflow, &lt;a href=&#34;http://stackoverflow.com/questions/12663263/dissolve-holes-in-polygon-in-r&#34;&gt;Dissolve holes in polygon in R&lt;/a&gt;, takes care of the issue. &lt;/p&gt;
-
-&lt;pre&gt;
-G.rings = Filter(function(f){f@ringDir==1},G.union@polygons[[1]]@Polygons)
-G.bounds = SpatialPolygons(list(Polygons(G.rings,ID=1)))
-&lt;/pre&gt;
-
-&lt;p&gt;As the Polygon documentation note for ringDir: &#34;the ring direction of the ring (polygon) coordinates, holes are expected to be anti-clockwise&#34;&lt;/p&gt;
-
-&lt;p&gt;Having done this cleanup work, we return a GeoJSON file with the &lt;a href=&#34;http://www.rdocumentation.org/packages/leafletR/functions/toGeoJSON&#34;&gt;toGeoJSON() function from the leafletR package&lt;/a&gt;. Now I probably don&#39;t need to pull in all of leafletR; there&#39;s a &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgdal/docs/writeOGR&#34;&gt;writeOGR() function in the rgdal package&lt;/a&gt; that should also do the same work. The aside, though, is that &lt;a href=&#34;https://github.com/chgrl/leafletR&#34;&gt;leafletR&lt;/a&gt; creates nice maps in R using the &lt;a href=&#34;http://leafletjs.com/&#34;&gt;Leaflet&lt;/a&gt; Javascript library.&lt;/p&gt;
-
-&lt;p&gt;With all that done, we have a new GeoJSON file that&#39;s a cleaned up merge of multiple county outlines done in R. However, the process isn&#39;t quite done. Some of the merged files don&#39;t have holes, but they do have &#34;slivers&#34;, little angular bits of geometry from where two counties don&#39;t quite touch at their corners. I didn&#39;t find an algorithm to unsliver in R, but this &lt;a href=&#34;http://gis.stackexchange.com/questions/120286/removing-small-polygons-gaps-in-a-shapely-polygon&#34;&gt;Removing small polygons gaps in a Shapely polygon&lt;/a&gt; did the trick. &lt;/p&gt;
-
-&lt;pre&gt;
-# Here&#39;s the algorithm
-fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style=JOIN_STYLE.mitre)
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://toblerity.org/shapely/manual.html&#34;&gt;Shapely&lt;/a&gt; from Sean Gilles is a &#34;Python package for set-theoretic analysis and manipulation of planar features using (via Python’s ctypes module) functions from the well known and widely deployed GEOS library.&#34; So we&#39;re back to GEOS, which is also supported by R...which means I suspect this algorithm translates directly back into R by proper invocation of the equivalent &lt;a href=&#34;http://www.inside-r.org/packages/cran/rgeos/docs/gBuffer&#34;&gt;gBuffer() function from the rgeos package&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;No matter, I installed Shapely. It&#39;s pretty fast, and if I had time to refine this operation I&#39;d try to port all of the R code back into python using Shapely to see if I could get a meaningful speedup improvement.&lt;/p&gt;
-
-&lt;p&gt;All this description! Here&#39;s the code.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/vielmetti/13f6feae14111ff1c148&#34;&gt;unsliver.py&lt;/a&gt; - in Python with the Shapely library&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/450495defeff6e4d1440&#34;&gt;mergeGeoJSON.Rscript&lt;/a&gt; - in R with rgeos, sp, rgdal, maptools, and leafletR&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And here&#39;s a picture:&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/vielmetti/2a6feadf268ca2b686e7.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Thanks go to Joe Germuska (for Census Reporter and csvkit), Markus Spath (for R help), Matt Hampel (for mapping help), Jacob Wasserman (for Shapely help), Stan Gregg (for outage mapping), Mohan Kartha (for GNU Parallel and AWS help), and anyone else who I missed along the way.                                          &lt;/p&gt;
-</description>
+      <description>The project of the week has been an effort to generate a set of maps - 2935 of them, in fact. The source data is from the Department of Energy, listing a set of utility companies and the counties they cover; the goal is to have a boundary map generated for each utility company. I know it won&amp;rsquo;t be a perfect boundary (most utility companies have at least one county that they only provide service to part of), but as a start it&amp;rsquo;s a pretty good one.</description>
     </item>
     
     <item>
@@ -184,39 +57,9 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-02-maps-with-leaflet-and-leafletr/</guid>
-      <description>&lt;pre&gt;
-&gt; style &lt;- styleGrad(prop=&#34;score&#34;, breaks=seq(50,100,by=10) ,style.val=rev(rainbow(5)), leg=&#34;score&#34;)
-&gt; leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)
-&lt;/pre&gt;
-
-&lt;p&gt;So, progress.&lt;/p&gt;
-
-&lt;p&gt;One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.&lt;/p&gt;
-
-&lt;p&gt;A second process (code above) is in R using the LeafletR graphing package. It in turn takes the GeoJSON file as originally provided, and writes an HTML file that reads it using the Leaflet maps package.&lt;/p&gt;
-
-&lt;p&gt;A screenshot of the result is below:&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7572bc9970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; title=&#34;Screen Shot 2015-03-02 at 12.56.42 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7572bc9970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Some big caveats.&lt;/p&gt;
-
-&lt;p&gt;My color palette is all wrong - I need to think that through. &lt;/p&gt;
-
-&lt;p&gt;This process is based on a single monthly Excel file, and should be updated to include all recent inspections and not just a single month.&lt;/p&gt;
-
-&lt;p&gt;The map needs labels of some sort. (How they will look when everything is smushed together, don&#39;t know.)&lt;/p&gt;
-
-&lt;p&gt;It would be nice to have HTML links to the Arborwiki page for each restaurant, and to a deep link for the inspections itself.&lt;/p&gt;
-
-&lt;p&gt;The geocoder is a bit slow, and I should cache previous results so that it goes faster in future months.&lt;/p&gt;
-
-&lt;p&gt;RESTAURANT NAMES ARE IN ALL CAPS AND THAT&#39;S SHOUTING.&lt;/p&gt;
-
-&lt;p&gt;Leaflet can do all sorts of things and I&#39;ve hardly scratched the surface.&lt;/p&gt;
-
-&lt;p&gt;I probably could do this all in R - or all in Python - but I&#39;m trying to spin up on both systems &amp;amp; thus really want to use each for what they are good at.&lt;/p&gt;
-</description>
+      <description>style leaflet(data=&#34;/Users/emv/tmp/N.geojson&#34;,dest=tempdir(),popup=&#34;*&#34;,style=style)  So, progress.
+One process, written in python, takes an Excel file provided by the county and creates a GeoJSON file from it. Addresses in the file are geocoded. The original file has a set of restaurant inspection reports and three kinds of inspection problems found; I add a fourth &#34;score&#34; variable that&#39;s derived in some way from those three.
+A second process (code above) is in R using the LeafletR graphing package.</description>
     </item>
     
     <item>
@@ -225,12 +68,9 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Sun, 23 Nov 2014 08:25:38 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-23-kinder-morgan-gas-pipeline-maps/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.kindermorgan.com/&#34;&gt;Kinder Morgan&lt;/a&gt; runs a number of pipelines that carry natural gas through the United States. Detailed maps are available that show the current status for these pipelines.&lt;/p&gt;
+      <description>Kinder Morgan runs a number of pipelines that carry natural gas through the United States. Detailed maps are available that show the current status for these pipelines.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d09750e7970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d09750e7970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-11-23 at 8.13.33 AM&#34; title=&#34;Screen Shot 2014-11-23 at 8.13.33 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d09750e7970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;This map is from the &lt;a href=&#34;http://webapps.elpaso.com/PortalUI/DefaultKM.aspx?TSP=TGPD&#34;&gt;Tennessee Gas Pipeline&lt;/a&gt; which carries gas from the Gulf Coast to the Northeast US. The map is accompanied by a series of operational data and alerts that tell gas shippers what to expect, provide gas consumption forecasts based on the weather, and alerts users of the pipeline of exceptional events in the case of equipment failure.&lt;/p&gt;
-</description>
+This map is from the Tennessee Gas Pipeline which carries gas from the Gulf Coast to the Northeast US. The map is accompanied by a series of operational data and alerts that tell gas shippers what to expect, provide gas consumption forecasts based on the weather, and alerts users of the pipeline of exceptional events in the case of equipment failure.</description>
     </item>
     
     <item>
@@ -239,16 +79,8 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Sat, 22 Nov 2014 13:06:23 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-22-non-traditional-maps-to-monitor-severe-weather/</guid>
-      <description>&lt;p&gt;When ordinary weather maps don&#39;t tell you what the worst of the weather is like out there, I turn to these sources for information.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Twitter, especially. A search this morning for &#34;ann arbor ice&#34; gave plenty of illustrations why it was not suitable to be out walking around. Streets and highways were bad, and a Delta flight slid off the runway at DTW. For Michigan weather follow the &lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt; hashtag.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Google Maps with the &#34;traffic&#34; overlay. Zoom way out, and you&#39;ll see splotches of red, showing where traffic is moving at significantly lower than posted speeds; zoom in, and you get recent reports from motorists using Waze reporting specific incidents.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Broadcastify&#39;s &#34;top feeds&#34;. Here you count on citizens monitoring public safety traffic to give you an idea of what kinds of places are working a lot of incidents. The &lt;a href=&#34;http://www.broadcastify.com/listen/top&#34;&gt;top feeds&lt;/a&gt; can also be set up to generate alerts on your phone if you use their mobile app.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Power outage maps, for when storms and incidents get really bad. There&#39;s no one single source to go to, but if you can figure out which utility company covers an area, their outage map is a good measure of storm location or path and intensity.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The morning&#39;s problem was ice. An unusual and good map of ice risk is the &lt;a href=&#34;http://www.spia-index.com/&#34;&gt;SPIA Index&lt;/a&gt;, a metric that combines an ice forecast with a wind forecast to predict damage. &lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>When ordinary weather maps don&#39;t tell you what the worst of the weather is like out there, I turn to these sources for information.
+ Twitter, especially. A search this morning for &#34;ann arbor ice&#34; gave plenty of illustrations why it was not suitable to be out walking around. Streets and highways were bad, and a Delta flight slid off the runway at DTW. For Michigan weather follow the #miwx hashtag.</description>
     </item>
     
     <item>
@@ -257,14 +89,9 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Mon, 10 Nov 2014 00:30:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-10-new-cases-of-ebola-in-sub-saharan-africa-map-from-mmwr-september-28october-18-2014/</guid>
-      <description>&lt;p&gt;Number of new cases of Ebola virus disease reported — West Africa, September 28–October 18&lt;/p&gt;
+      <description>Number of new cases of Ebola virus disease reported — West Africa, September 28–October 18
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c70389ff970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c70389ff970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Mmwr-ebola-map-m6343a3f2&#34; title=&#34;Mmwr-ebola-map-m6343a3f2&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c70389ff970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The figure above is a map of West Africa showing the number of new cases of Ebola reported in West Africa during September 28-October 18, 2014. Counts of Ebola were highest in the area around Monrovia and in the district of Bong, Liberia; the Freetown area and the northwest districts of Sierra Leone; and the district of Macenta, Guinea.&lt;/p&gt;
-
-&lt;p&gt;Figures and accompanying text from the &lt;a href=&#34;http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6343a3.htm?s_cid=mm6343a3_w&#34;&gt;Update: Ebola Virus Disease Outbreak — West Africa, October 2014&lt;/a&gt; from the &#34;Morbidity and Mortality Weekly Report&#34;, published by the Centers for Disease Control and Prevention (cdc.gov).&lt;/p&gt;
-</description>
+The figure above is a map of West Africa showing the number of new cases of Ebola reported in West Africa during September 28-October 18, 2014. Counts of Ebola were highest in the area around Monrovia and in the district of Bong, Liberia; the Freetown area and the northwest districts of Sierra Leone; and the district of Macenta, Guinea.</description>
     </item>
     
     <item>
@@ -273,14 +100,10 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Fri, 03 Oct 2014 09:48:25 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-03-severe-storms-of-october-2-2014-hit-the-dallas-fort-worth-area-oncor-power-outage-map-shows-the-stor/</guid>
-      <description>&lt;p&gt;The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The &lt;a href=&#34;http://thescoopblog.dallasnews.com/2014/10/as-north-texas-experiences-exceptional-drought-for-first-time-since-2011-rain-and-cooler-temperatures-expected-today.html/&#34;&gt;Dallas Morning News live blog&lt;/a&gt; details the impact, with more than 250,000 people without power.&lt;/p&gt;
+      <description>The Dallas-Fort Worth area was hit by severe storms the evening of October 2, 2014. The Dallas Morning News live blog details the impact, with more than 250,000 people without power.
+This outage map from about 7:00 p.m. that evening shows the extent of the damage.
 
-&lt;p&gt;This outage map from about 7:00 p.m. that evening shows the extent of the damage.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ec75d0970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; title=&#34;Screen Shot 2014-10-02 at 7.16.00 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec75d0970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are. The &lt;a href=&#34;http://stormcenter.oncor.com/default.html&#34;&gt;Oncor Storm Center&lt;/a&gt; page was what people were focusing on, so I took a look. Oncor&#39;s map is built by iFactor, which does maps for a lot of utility companies. Alas the most useful view for a big storm - outages by zip code - is hidden under a menu, but once you find it you can get a nice colorful overview of where things are the worst.&lt;/p&gt;
-</description>
+My power outage tracker page is a good early warning of problems with the power grid. By looking at what web pages people are clicking through on, I can see where the troubles are.</description>
     </item>
     
     <item>
@@ -289,14 +112,10 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Thu, 02 Oct 2014 23:12:11 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-02-fall-2014-colors-from-space-from-modis-on-the-terra-satellite/</guid>
-      <description>&lt;p&gt;NASA&#39;s Terra satellite captured this image of the Great Lakes, with fall colors clearly visible in the UP.&lt;/p&gt;
+      <description>NASA&#39;s Terra satellite captured this image of the Great Lakes, with fall colors clearly visible in the UP.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec36e0970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ec36e0970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Greatlakes_tmo_2014269_lrg&#34; title=&#34;Greatlakes_tmo_2014269_lrg&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ec36e0970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Image Credit: Jeff Schmaltz at NASA GSFC. Caption by Mike Carlowicz&lt;/p&gt;
-
-&lt;p&gt;A few days after autumn showed up on the calendar in the Northern Hemisphere, it showed up on the landscape of North America. The Moderate Resolution Imaging Spectroradiometer &lt;a href=&#34;http://modis.gsfc.nasa.gov/&#34;&gt;MODIS&lt;/a&gt; on NASA’s Terra satellite captured this view of fall colors around the Great Lakes on Sept. 26, 2014.&lt;/p&gt;
-</description>
+Image Credit: Jeff Schmaltz at NASA GSFC. Caption by Mike Carlowicz
+A few days after autumn showed up on the calendar in the Northern Hemisphere, it showed up on the landscape of North America. The Moderate Resolution Imaging Spectroradiometer MODIS on NASA’s Terra satellite captured this view of fall colors around the Great Lakes on Sept.</description>
     </item>
     
     <item>
@@ -305,14 +124,8 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Fri, 26 Sep 2014 10:32:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-26-chicago-aviation-donut/</guid>
-      <description>&lt;p&gt;A fire at the Chicago air traffic control center (ZAU) forced rerouting of air traffic near O&#39;Hare and Midway airports. This picture, credit to Paul Saffo via Facebook, shows the impact. &lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d36e0970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb078d36e0970d img-responsive&#34; style=&#34;width: 453px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Ohare-donut&#34; title=&#34;Ohare-donut&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d36e0970d-500wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;This map is from the FAA - compare it for scale.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d6ab4970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb078d6ab4970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Zau_tier&#34; title=&#34;Zau_tier&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d6ab4970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>A fire at the Chicago air traffic control center (ZAU) forced rerouting of air traffic near O&#39;Hare and Midway airports. This picture, credit to Paul Saffo via Facebook, shows the impact. 
+This map is from the FAA - compare it for scale.</description>
     </item>
     
     <item>
@@ -321,16 +134,10 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Tue, 22 Jul 2014 23:40:54 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-07-22-22-23-july-2014-lightning-storms-over-lake-michigan/</guid>
-      <description>&lt;p&gt;This map from &lt;a href=&#34;http://lightningmaps.org&#34;&gt;LightningMaps.ORG&lt;/a&gt; shows lightning over Lake Michigan and into Ottawa County, Michigan at about 11:15 p.m on 22 July 2014. Note the strong line of storms crossing the lake.&lt;/p&gt;
+      <description>This map from LightningMaps.ORG shows lightning over Lake Michigan and into Ottawa County, Michigan at about 11:15 p.m on 22 July 2014. Note the strong line of storms crossing the lake.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a511e73a00970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a511e73a00970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Lightning-map-22-july-2014-2321-est&#34; title=&#34;Lightning-map-22-july-2014-2321-est&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a511e73a00970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The corresponding power outage map is from &lt;a href=&#34;http://www.consumersenergy.com/outagemap&#34;&gt;Consumers Energy&lt;/a&gt;. Outage reporting generally lags behind realtime by 15-30 minutes, and of course not every lightning strike turns into a power problem (though sometimes it seems like it does).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/ctid/1296&#34;&gt;Ottawa County, Michigan radio feeds&lt;/a&gt; are available on Broadcastify. &lt;/p&gt;
-
-&lt;p&gt;It appears that the SKYWARN repeater&#39;s internet feed (147.060 K8DAA repeater, owned by the &lt;a href=&#34;http://www.hollandarc.org/&#34;&gt;Holland Amateur Radio Club&lt;/a&gt; in Holland, Michigan) is offline. Look up &lt;a href=&#34;http://www.repeaterbook.com/repeaters/details.php?state_id=26&amp;amp;ID=155&#34;&gt;K8DAA&lt;/a&gt; on Repeaterbook to get contact details. &#34;Membership in the Holland Amateur Radio Club is open to any and all persons who have an interest in amateur radio.&#34;&lt;/p&gt;
-</description>
+The corresponding power outage map is from Consumers Energy. Outage reporting generally lags behind realtime by 15-30 minutes, and of course not every lightning strike turns into a power problem (though sometimes it seems like it does).
+Ottawa County, Michigan radio feeds are available on Broadcastify.</description>
     </item>
     
     <item>
@@ -339,67 +146,7 @@ fx = poly.buffer(eps, 1, join_style=JOIN_STYLE.mitre).buffer(-eps, 1, join_style
       <pubDate>Sun, 29 Dec 2013 10:42:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-29-lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; hit the Lansing area hard,
-and the municipal power authority has not handled the resulting
-outages as well as citizens would have them do. &lt;/p&gt;
-
-&lt;p&gt;The Lansing, Michigan area has electrical service from LBWL,
-the &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt;. Even though the surrounding
-area is served by Consumers Energy, LBWL serves an area roughly
-encompassing Lansing and East Lansing. For one thing,
-LBWL does not maintain an outage map online, which is relatively 
-unusual in this day and age.&lt;/p&gt;
-
-&lt;p&gt;The map below is a crowd-sourced tracking of outages and
-restorations in the Lansing area. It&#39;s been put together
-under the lead of @&lt;a href=&#34;http://twitter.com/jsiarto&#34;&gt;jsiarto&lt;/a&gt; (Jeff Siarto) with the help of
-other Lansing area residents and with data pulled in part from
-the &lt;a href=&#34;https://www.facebook.com/LansingBWL&#34;&gt;LBWL Facebook page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fb51d76a970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; title=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sources to look for more information -&lt;/p&gt;
-
-&lt;p&gt;I wrote up the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; with some maps of the 
-other damage to the area.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt; is a municipally owned public utility,
-governed by a Board of Commissioners. The board is made up of eight
-Lansing residents, each appointed for a four-year term on the board
-by the Mayor and confirmed by City Council.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://mapsengine.google.com/map/u/0/edit?mid=zQmyH1IIAz6Y.kuBivwl-Ve2I&#34;&gt;Lansing Area Power Outages map&lt;/a&gt; is a Google map, and this image
-is just a snapshot of it.&lt;/p&gt;
-
-&lt;p&gt;News coverage -&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wilx.com/news/headlines/East-Lansing-Resident-Creates-Public-BWL-Outage-Map-237336791.html&#34;&gt;WILX-TV&lt;/a&gt; - East Lansing Resident Creates Public BWL Outage Map&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unlike Consumers Energy and DTE, Lansing Board of Water and Light doesn&#39;t have a real time outage map for customers, but it&#39;s something the company is currently developing, according to company spokesperson Steve Serkaian.&lt;/p&gt;
-  
-  &lt;p&gt;&#34;We&#39;re working on a &#34;smart grid&#34; system that&#39;s similar to what other utilities offer, but it&#39;s something that costs a significant amount of money to implement,&#34; he said. &#34;But we have heard our customers loud and clear and we&#39;re committed to working on communicating with them better.&#34;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.lansingstatejournal.com/article/20131227/NEWS01/312270013/BWL-leader-We-heard-loud-clear-&#34;&gt;Lansing State Journal&lt;/a&gt; - Board of Water and Light: &#39;We have heard loud and clear&#39;; BWL promises to review its handling of the ice storm cleanup&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;(BWL General Manager J. Peter Lark) said BWL is running at “optimum” staffing levels. On Friday, he said, 30 crews were on the ground, a figure that includes 12 line crews and five tree-trimming crews. Crews are made up of two or three people, with most line crews using three.
-  The utility to date has brought in outside help from five other municipally owned utilities, but Lark said Friday he doesn’t plan to bring in more — at least one BWL employee would have to ride with the outside crew, and that would reduce the number of BWL crews in operation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://michiganradio.org/post/most-power-restored-michigan-lbwl-still-has-work-do&#34;&gt;Michigan Radio&lt;/a&gt; - Most power restored in Michigan, LBWL still has work to do&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most of those still without power are customers of Lansing’s public utility. Angry customers showed up at a company press conference yesterday to complain about the slow repairs. The number of Lansing Board of Water and Light customers without power actually increased yesterday as melting ice from tree limbs damaged more power lines.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://lansingonlinenews.com/news/5-lingering-questions-about-the-lansing-ice-storm-yours/&#34;&gt;Lansing Online News&lt;/a&gt; - 5 lingering questions about the Lansing ice storm – yours?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The press conference confirmed communication failures on the part of the officials involved. But when will that get better? Why not now? When will the outages be over? When will the community return to normal? When will the powers-that-be get their act together so people can make wise choices? Temperatures are expected to plunge into single digits tonight. What should people whose power is out do now? Move their families, especially the elderly and infirm, to other locations? Can people with pets still take them to the Ingham County Animal Shelter? When will those who should have the answers start communicating effectively?&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>The ice storm of late December 2013 hit the Lansing area hard, and the municipal power authority has not handled the resulting outages as well as citizens would have them do. The Lansing, Michigan area has electrical service from LBWL, the Lansing Board of Water and Light. Even though the surrounding area is served by Consumers Energy, LBWL serves an area roughly encompassing Lansing and East Lansing. For one thing, LBWL does not maintain an outage map online, which is relatively unusual in this day and age.</description>
     </item>
     
     <item>
@@ -408,34 +155,9 @@ is just a snapshot of it.&lt;/p&gt;
       <pubDate>Mon, 23 Dec 2013 02:54:16 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-23-maps-of-south-sudan-and-its-capital-city-of-juba/</guid>
-      <description>&lt;p&gt;Some maps of South Sudan, which is in the news today because of an emerging civil war.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.unocha.org/south-sudan/&#34;&gt;UNOCHA South Sudan&lt;/a&gt; describes the displaced persons in South Sudan:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;On 20-21 December (2013), the security situation remained stable but tense in Juba. It is estimated that at least 20,000 people are sheltering at the two main UNMISS bases in town. During assessments in different neighbourhoods of Juba, protection agencies found several areas deserted, and witnessed looting.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf411c5970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3faf411c5970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;South-sudan-unocha-displaced-persons-map&#34; title=&#34;South-sudan-unocha-displaced-persons-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf411c5970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The UNOCHA briefing map detail shows the detail of cities. Juba is in the province of Central Equatoria.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf424c1970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3faf424c1970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;BriefingMap-South-Sudan-UNOCHA-October-2012&#34; title=&#34;BriefingMap-South-Sudan-UNOCHA-October-2012&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faf424c1970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Stamen Design highlights South Sudan in a &lt;a href=&#34;http://content.stamen.com/the_world_by_national_geographic_is_live&#34;&gt;2011 post describing The World&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Stamen&#39;s first iPad app and our first project with the National Geographic Society, is available for &lt;a href=&#34;https://itunes.apple.com/us/app/the-world-by-national-geographic/id454811793&#34;&gt;download from Apple&#39;s app store&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b03809da9970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b03809da9970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Stamen-design-national-geographic-southsudan&#34; title=&#34;Stamen-design-national-geographic-southsudan&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b03809da9970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, &lt;a href=&#34;http://www.southsudanmaps.org/&#34;&gt;SouthSudanMaps.org&lt;/a&gt; has detailed maps of a number of cities in the country. This is an excerpt of detail of the city of Juba.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0380cb88970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0380cb88970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Juba-map-excerpt-south-sudan-maps&#34; title=&#34;Juba-map-excerpt-south-sudan-maps&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0380cb88970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.goss-online.org/magnoliaPublic/en/Business-and-Industry/Documents-for-Investors/mainColumnParagraphs/0/content_files/file9/South%20Sudan%20Investor%20Guide_24_11_11.pdf&#34;&gt;Republic of South Sudan Investor Guide&lt;/a&gt; has more maps, and a number of descriptions of the country from a perspective of trying to attract foreign investment.&lt;/p&gt;
-</description>
+      <description>Some maps of South Sudan, which is in the news today because of an emerging civil war.
+UNOCHA South Sudan describes the displaced persons in South Sudan:
+ On 20-21 December (2013), the security situation remained stable but tense in Juba. It is estimated that at least 20,000 people are sheltering at the two main UNMISS bases in town. During assessments in different neighbourhoods of Juba, protection agencies found several areas deserted, and witnessed looting.</description>
     </item>
     
     <item>
@@ -444,42 +166,991 @@ is just a snapshot of it.&lt;/p&gt;
       <pubDate>Sat, 21 Dec 2013 16:28:59 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-21-ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index/</guid>
-      <description>&lt;p&gt;On the &lt;a href=&#34;http://www.spia-index.com/&#34;&gt;Sperry-Piltz Ice Accumulation Index&lt;/a&gt;:&lt;/p&gt;
+      <description>On the Sperry-Piltz Ice Accumulation Index:
+ The Sperry–Piltz Ice Accumulation Index, or SPIA Index, is a forward-looking, ice accumulation and ice damage prediction index that uses an algorithm of researched parameters that, when combined with National Weather Service forecast data, predicts the projected footprint, total ice accumulation, and resulting potential damage from approaching ice storms. It is a tool to be used for risk management and/or winter weather preparedness.</description>
+    </item>
+    
+    <item>
+      <title>Plowing snow at midnight</title>
+      <link>http://vielmetti.github.io/post/2013/2013-12-15-plowing-snow-at-midnight/</link>
+      <pubDate>Sun, 15 Dec 2013 00:06:09 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-12-15-plowing-snow-at-midnight/</guid>
+      <description>Ann Arbor&#39;s plow truck fleet is out in force in the wee hours of Sunday, 15 December 2013. You can follow along your self on the city snow plow tracking page.
 
-&lt;blockquote&gt;
-  &lt;p&gt;The Sperry–Piltz Ice Accumulation Index, or SPIA Index, is a forward-looking, ice accumulation and ice damage prediction index that uses an algorithm of researched parameters that, when combined with National Weather Service forecast data, predicts the projected footprint, total ice accumulation, and resulting potential damage from approaching ice storms. It is a tool to be used for risk management and/or winter weather preparedness.&lt;/p&gt;
-&lt;/blockquote&gt;
+No, I don&#39;t know either why Jackson Road is labeled as US-12. More details of the City of Ann Arbor plowing program at http://a2gov.org/snow.
+How much snow did we get? The National Weather Service map says about 6 inches in Ann Arbor.</description>
+    </item>
+    
+    <item>
+      <title>DETROITography, a weblog of maps about Detroit</title>
+      <link>http://vielmetti.github.io/post/2013/2013-12-11-detroitography-a-weblog-of-maps-about-detroit/</link>
+      <pubDate>Wed, 11 Dec 2013 23:58:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-12-11-detroitography-a-weblog-of-maps-about-detroit/</guid>
+      <description>File under Detroit and maps -
+From detroitography.com:  Maps and geography of Detroit – that’s what we are all about. We like to write about maps that other people make about the city as well as create our own maps of Detroit.
+ This map (one of many on the site) shows the overlap of what people map out when they say they are from Detroit. The densest is the downtown region only; the most generous encompasses a 9-county region.</description>
+    </item>
+    
+    <item>
+      <title>The ice storm of 6 December 2013 as seen through Google Maps</title>
+      <link>http://vielmetti.github.io/post/2013/2013-12-07-the-ice-storm-of-6-december-2013-as-seen-through-google-maps/</link>
+      <pubDate>Sat, 07 Dec 2013 10:15:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-12-07-the-ice-storm-of-6-december-2013-as-seen-through-google-maps/</guid>
+      <description>A novel use of Google Maps is to see the impact of ice storms on traffic, and from that deduce the storm&#39;s extent. This example is collected by WLKY&#39;s Jared Heil, a meteorologist in Louisville, KY.</description>
+    </item>
+    
+    <item>
+      <title>Philippines: Typhoon Haiyan (Yolanda) Landfall Map from UN OCHA</title>
+      <link>http://vielmetti.github.io/post/2013/2013-11-10-philippines-typhoon-haiyan-yolanda-landfall-map-from-un-ocha/</link>
+      <pubDate>Sun, 10 Nov 2013 01:14:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-11-10-philippines-typhoon-haiyan-yolanda-landfall-map-from-un-ocha/</guid>
+      <description>This map is taken from the UN OCHA (Office for the Coordination of Humanitarian Affairs) post Philippines: Super Typhoon Haiyan makes landfall, UN and humanitarian community on high-alert, dated 8 November 2013; click through for a larger version.
 
-&lt;p&gt;The index is named after its co-developers, Sidney Sperry of the Oklahoma Association of Electric Cooperatives and Steven Piltz, meteorologist-in-charge at the National Weather Service in Tulsa.&lt;/p&gt;
+Many further details about the devastation of Haiyan (Yolanda) on the Philippines can be found in the Al Jazeera live blog Typhoon Haiyan Live. As of 10 November 2013 there are reported estimates of the dead as a result of this storm exceeding 10,000 people.</description>
+    </item>
+    
+    <item>
+      <title>Map of air pollution in China from aqicn.info</title>
+      <link>http://vielmetti.github.io/post/2013/2013-10-23-map-of-air-pollution-in-china-from-aqicninfo/</link>
+      <pubDate>Wed, 23 Oct 2013 16:32:54 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-10-23-map-of-air-pollution-in-china-from-aqicninfo/</guid>
+      <description>This real time air pollution in China map is from aqicn.info, which describes itself as follows:
+ The aqicn.info team is a young and dynamic team located in Beijing, China, and composed of two professionals working for the product engineering and design industries All the credits must go to the US Embassies in China for initially providing and publishing their PM.25 air quality measurement, as well as the China MEP for the huge effort in providing PM2.</description>
+    </item>
+    
+    <item>
+      <title>A map of the October 2013 wildfires in New South Wales, Australia</title>
+      <link>http://vielmetti.github.io/post/2013/2013-10-19-a-map-of-the-october-2013-wildfires-in-new-south-wales-australia/</link>
+      <pubDate>Sat, 19 Oct 2013 01:08:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-10-19-a-map-of-the-october-2013-wildfires-in-new-south-wales-australia/</guid>
+      <description>Bush fires are burning in New South Wales, Australia in October 2013. If you are near the fire, you must find a more accurate and timely source of information than this blog post.
+A BBC report quotes from a local official:
+ Minister for Police and Emergency Services Michael Gallacher told the BBC that &#34;the speed and the ferocity&#34; of the fires was something &#34;not seen for many, many years&#34;.</description>
+    </item>
+    
+    <item>
+      <title>collecting maps</title>
+      <link>http://vielmetti.github.io/post/2013/2013-10-19-collecting-maps/</link>
+      <pubDate>Sat, 19 Oct 2013 00:52:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-10-19-collecting-maps/</guid>
+      <description>I have a bunch of maps I&#39;ve seen recently that illustrate stories. I&#39;m not sure that I&#39;m up to telling the whole story, but the maps are great, and so I&#39;ll collect them here.</description>
+    </item>
+    
+    <item>
+      <title>Singapore haze map for 24 June 2013</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-24-singapore-haze-map-for-24-june-2013/</link>
+      <pubDate>Mon, 24 Jun 2013 23:36:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-24-singapore-haze-map-for-24-june-2013/</guid>
+      <description>The BBC World Service has reporting on the dense haze that&amp;rsquo;s covering Singapore and parts of Malaysia as a result of land-clearing fires in Indonesia. The map below is from the Meteorological Service Singapore. The Indonesian president has apologized for the haze, notes the Straits Times.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b036cc601970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b036cc601970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Spia-index-2013-12-21-22-wfoNE_USSPIAMax&#34; title=&#34;Spia-index-2013-12-21-22-wfoNE_USSPIAMax&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b036cc601970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+Singaporeans are advised to wear masks when going outdoors, and to stay indoors if at all possible. SingPost has issued masks for postal workers.</description>
+    </item>
+    
+    <item>
+      <title>Black Forest Fire near Colorado Springs, Colorado (with maps updated Thursday 6/13 5:37 p.m MT)</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-11-black-forest-fire-near-colorado-springs-colorado-with-map/</link>
+      <pubDate>Tue, 11 Jun 2013 23:15:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-11-black-forest-fire-near-colorado-springs-colorado-with-map/</guid>
+      <description>UPDATED Thursday June 13, 6:00 p.m MT with new maps at the top.
+The fast-moving Black Forest Fire is burning homes northeast of Colorado Springs, Colorado. High temperatures, high winds, and low humidity are fanning the flames. Two people are known to have died in the fire, and more than 360 homes have been lost. If you are near the fire, please seek out current and official information rather than relying on this weblog.</description>
+    </item>
+    
+    <item>
+      <title>I-5 Bridge over the Skagit River collapses in Washington State</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-23-i-5-bridge-over-the-skagit-river-collapses-in-washington-state/</link>
+      <pubDate>Thu, 23 May 2013 23:03:07 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-23-i-5-bridge-over-the-skagit-river-collapses-in-washington-state/</guid>
+      <description>This is breaking news, and this blog post will be out of date.
+The Interstate 5 bridge over the Skagit River has collapsed near Mount Vernon, Washington. A map shows where the incident happened, about half way between Seattle and the Canadian border.
+ 
+As of this writing there are no confirmed details about the cause of the bridge collapse. The Seattle Times says it may have been because an oversized truck hit the bridge with its load.</description>
+    </item>
+    
+    <item>
+      <title>Wet West Michigan: maps of flooding, April 2013</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-21-wet-west-michigan-maps-of-flooding-april-2013/</link>
+      <pubDate>Sun, 21 Apr 2013 15:33:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-21-wet-west-michigan-maps-of-flooding-april-2013/</guid>
+      <description>This map from MLive shows roads closed due to flooding in Western Michigan. (Turn around, don&amp;#39;t drown). Click through for the interactive version.
+ 
+A similar map from NOAA shows flood gauge readings across the area.
+ 
+The purple gauge in this above map is Grand Rapids at Comstock Park, which is showing flooding at almost 6 feet above flood stage.
+ 
+The historical big flood in Grand Rapids is from 1904; this collection rephotographs scenes from that flood in 2004.</description>
+    </item>
+    
+    <item>
+      <title>Walking on water</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-21-walking-on-water/</link>
+      <pubDate>Sun, 21 Apr 2013 14:59:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-21-walking-on-water/</guid>
+      <description>I was out for a walk along the Huron River, and Runtastic mapped it as though I was actually in the middle of the river.
+ 
+There&amp;#39;s actually a path in the &amp;quot;middle&amp;quot; of the river, a berm that separates the Argo Cascades city park from the Huron River per se. Microsoft and Nokia don&amp;#39;t appear to know about that path, just illustrating some of the perils of computing walking directions in an urban environment.</description>
+    </item>
+    
+    <item>
+      <title>Algerian oil and gas pipeline and field map (from mem-algeria.org)</title>
+      <link>http://vielmetti.github.io/post/2013/2013-01-18-algerian-oil-and-gas-pipeline-and-field-map-from-mem-algeriaorg/</link>
+      <pubDate>Fri, 18 Jan 2013 16:33:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-01-18-algerian-oil-and-gas-pipeline-and-field-map-from-mem-algeriaorg/</guid>
+      <description>The map below is a reduced size of the original, which is an oil and gas pipeline and field map of Algeria. It&amp;#39;s hosted on the site mem-algeria.org and doesn&amp;#39;t have any other credits on the map. (Not for use in navigation.)
+MEM stands for&amp;#0160;Ministère de l’Energie et des Mines; this is an official map from that ministry of the Algerian government.
+ 
+The incident of late - see Bloomberg News story of 18 January 2013 - focus on the complex at the Amenas Gas Field; a detail of this map is below, showing Amenas (labeled here as &amp;quot;In Amenas&amp;quot;) near the border with Libya.</description>
+    </item>
+    
+    <item>
+      <title>January 2013 heat wave, fires in Australia</title>
+      <link>http://vielmetti.github.io/post/2013/2013-01-09-january-2013-heat-wave-fires-in-australia/</link>
+      <pubDate>Wed, 09 Jan 2013 12:26:07 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-01-09-january-2013-heat-wave-fires-in-australia/</guid>
+      <description>Here&amp;#39;s a heat wave map of Australia for January 14, 2013. Note that the system had to add an extra set of colors to represent the hottest temperatures. More current maps from the Australian Bureau of Meteorology.&amp;#0160;</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor is &#34;very bikeable&#34;, according to Bike Score (with map)</title>
+      <link>http://vielmetti.github.io/post/2012/2012-12-26-ann-arbor-is-very-bikeable-according-to-bike-score-with-map/</link>
+      <pubDate>Wed, 26 Dec 2012 17:13:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-12-26-ann-arbor-is-very-bikeable-according-to-bike-score-with-map/</guid>
+      <description>I watched a cyclist go down Packard today in the middle of a snowstorm, so you get an idea of how intrepid you need to be to enjoy Ann Arbor&amp;#39;s bicycle routes around town. Here&amp;#39;s a map of where Bike Score thinks the city is most bikeable.&amp;#0160;It looks like they are missing the bicycle path along the river through Gallup Park.</description>
+    </item>
+    
+    <item>
+      <title>Northern Lights for November 12, 2012</title>
+      <link>http://vielmetti.github.io/post/2012/2012-11-12-northern-lights-for-november-12-2012/</link>
+      <pubDate>Mon, 12 Nov 2012 21:52:55 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-11-12-northern-lights-for-november-12-2012/</guid>
+      <description>Tonight&#39;s northern lights are visible in Yellowknife, Canada. Here&#39;s a snapshot from the AuroraMAX HD camera. (Tonight is Monday, November 12, 2012.)
+ 
+The forecast for tonight from the University of Alaska suggests that the aurora may be visible as far south as Lansing, Michigan. From my Pinterest maps board:
+ Source: gi.alaska.edu via Edward Vielmetti on Pinterest
+&amp;nbsp;
 
-&lt;p&gt;The map shows intensity of the ice storm on a scale from 0 (little impact) to 5 (catastrophic damage). The index incorporates measures of rainfall (as ice), wind, and temperatures to come up with an aggregate measure. Washtenaw County&#39;s forecast is a 0, but to the north (Livingston) and west (Jackson) counties there are chances for more severe icing. The forecast gives the worst hit to upstate New York along Lake Ontario; alas this map does not show Canadian forecasts, but &lt;a href=&#34;http://news.nationalpost.com/2013/12/21/severe-weather-warnings-sweep-across-all-of-central-and-eastern-canada-travel-threatened/&#34;&gt;news accounts&lt;/a&gt; predict severe weather in Toronto as well.&lt;/p&gt;
+Some evidence of sightings:
+The Twitter account @Aurora_Alerts is active when the Northern Lights are active, and it gives very short term forecasts of activity.</description>
+    </item>
+    
+    <item>
+      <title>All maps, all the time, on Pinterest</title>
+      <link>http://vielmetti.github.io/post/2012/2012-11-12-all-maps-all-the-time-on-pinterest/</link>
+      <pubDate>Mon, 12 Nov 2012 20:41:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-11-12-all-maps-all-the-time-on-pinterest/</guid>
+      <description>My Pinterest feed is all maps, all the time. It&amp;#39;s like I discovered rec.arts.maps and jumped right in.
+I don&amp;#39;t try to make Pinterest a simple copy of anything else that I do online, in part because there&amp;#39;s really nothing similar to it to copy. It&amp;#39;s ridiculously easy to make a copy of an image and attach a few words to it, and there&amp;#39;s not any real problem with posting too much stuff to it because when you&amp;#39;re on topic it all just flows down the page nicely.</description>
+    </item>
+    
+    <item>
+      <title>Long Island power outages: three maps from LIPA on Saturday, November 3 2012</title>
+      <link>http://vielmetti.github.io/post/2012/2012-11-03-long-island-power-outages-three-maps-from-lipa/</link>
+      <pubDate>Sat, 03 Nov 2012 23:20:47 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-11-03-long-island-power-outages-three-maps-from-lipa/</guid>
+      <description>The Long Island Power Authority has not one but three maps showing power outages and restorations. I&amp;#39;m not sure which is most informative. Each of these are from the evening of Saturday, November 3, 2012. Please click through to the page linked for current updates.
+Some news that goes along with this:
+Newsday, Tuesday November 6: &amp;quot;Cuomo blasts delays in power restoration as &amp;#39;unacceptable&amp;#39;&amp;quot;
+ Criticism of LIPA&amp;#39;s outage map prompted the utility to produce a new format.</description>
+    </item>
+    
+    <item>
+      <title>2012 election prediction maps</title>
+      <link>http://vielmetti.github.io/post/2012/2012-11-03-2012-election-prediction-maps/</link>
+      <pubDate>Sat, 03 Nov 2012 14:42:11 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-11-03-2012-election-prediction-maps/</guid>
+      <description>From Nate Silver&amp;#39;s NY Times weblog FiveThirtyEight, captured Saturday, November 3, 2012:
+ 
+The Los Angeles Times electoral map, again a prediction from Saturday. Note that this analysis doesn&amp;#39;t give exact numerical predictions. The Chicago Tribune links to the same map.
+ 
+&amp;#0160;
+The Detroit Free Press runs with&amp;#0160;a map from Real Clear Politics:
+The Australian Broadcasting Company (ABC) interactive map, showing toss-up states in orange:</description>
+    </item>
+    
+    <item>
+      <title>Hoarder&#39;s LA map collection goes to the Los Angeles Public Library</title>
+      <link>http://vielmetti.github.io/post/2012/2012-10-19-the-la-times-has-a-great-story-about-a-map-collection-that-is-going-to-the-los-angeles-public-library-after-the-collector-d/</link>
+      <pubDate>Fri, 19 Oct 2012 20:07:33 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-10-19-the-la-times-has-a-great-story-about-a-map-collection-that-is-going-to-the-los-angeles-public-library-after-the-collector-d/</guid>
+      <description>THE L.A. Times has a great story about a map collection that is going to the Los Angeles Public Library after the collector died, leaving no heirs.
+ Stashed everywhere in the 948-square-foot tear-down were maps. Tens of thousands of maps. Fold-out street maps were stuffed in file cabinets, crammed into cardboard boxes, lined up on closet shelves and jammed into old dairy crates.
+ The find included all sorts of rare materials - here&amp;#39;s only a partial list:</description>
+    </item>
+    
+    <item>
+      <title>Plan your Washington, DC bike trips with bikeplanner.org</title>
+      <link>http://vielmetti.github.io/post/2012/2012-08-12-plan-your-washington-dc-bike-trips-with-bikeplannerorg/</link>
+      <pubDate>Sun, 12 Aug 2012 17:28:09 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-08-12-plan-your-washington-dc-bike-trips-with-bikeplannerorg/</guid>
+      <description>Pick two endpoints of the journey that you want to take, and then click on the triangle on the left to select your favorite combination of short distance, flat, and bicycle friendly. The route will adjust to reflect the tradeoffs you make. A sample route from bikeplanner.org is below.
 
-&lt;p&gt;A report from Brampton, Ontario:&lt;/p&gt;
+More details from the Washington Post: &amp;quot;A bike map for Washington&amp;quot;
+ BikePlanner was created by&amp;#0160;OpenPlans, a nonprofit group based in New York that wants to use technology to improve transportation.</description>
+    </item>
+    
+    <item>
+      <title>July 2012 West Shore Pipeline spill leads to Upper Peninsula energy emergency</title>
+      <link>http://vielmetti.github.io/post/2012/2012-07-24-july-2012-west-shore-pipeline-spill-leads-to-upper-peninsula-energy-emergency/</link>
+      <pubDate>Tue, 24 Jul 2012 23:08:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-07-24-july-2012-west-shore-pipeline-spill-leads-to-upper-peninsula-energy-emergency/</guid>
+      <description>The West Shore Pipeline carries refined fuels from refineries near the southern end of Lake Michigan north to Green Bay, and from there fuel is carried by truck to the Upper Peninsula.
+A spill on this pipeline near Milwaukee led to it being shut down for a time this week, and even though the pipeline is back in operation, the effects linger in the form of a fuel shortage in the UP.</description>
+    </item>
+    
+    <item>
+      <title>Derecho of June 29, 2012, with time lapse radar video</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-29-derecho-of-june-29-2012/</link>
+      <pubDate>Fri, 29 Jun 2012 23:14:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-29-derecho-of-june-29-2012/</guid>
+      <description>ANN ARBOR (June 29, 2012) An intense storm called a derecho with long lived straight line winds passed to the south of the area today. The Disaster Mapping weblog entry 6/29/2012 Derecho has a good summary of the impact to the power grid from storm, which had knocked out power to over 3 million people as of 11:45 p.m from Illinois all the way to DC. Wind gusts of over 90 miles per hour were clocked in some areas as the storm blew through.</description>
+    </item>
+    
+    <item>
+      <title>MinnPost: Mapping the &#34;Nice Ride&#34; bicycles in Minneapolis</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-08-mapping-the-nice-ride-free-bicycles-in-minneapolis/</link>
+      <pubDate>Fri, 08 Jun 2012 19:06:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-08-mapping-the-nice-ride-free-bicycles-in-minneapolis/</guid>
+      <description>MinnPost.com has an excellent visualization of the &amp;quot;Nice Ride&amp;quot; bike system in Minneapolis. They took GPS data from 40+ bikes in that system and mapped out where they were going on a typical day in the system. Here&amp;#39;s a snapshot from mid-afternoon ; the base map grid shows the most commonly used routes.
+ The system began in Minneapolis two years ago. With the St. Paul expansion, there are now 146 stations with 1,328 bikes available stretching between Minneapolis’ Uptown and St.</description>
+    </item>
+    
+    <item>
+      <title>Rush Plus: Washington, DC gets a new Metro map</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-08-rush-plus-washington-dc-gets-a-new-metro-map/</link>
+      <pubDate>Fri, 08 Jun 2012 18:47:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-08-rush-plus-washington-dc-gets-a-new-metro-map/</guid>
+      <description>Washington, DC is getting a new Metro map, and some new services. Called Rush Plus, it&amp;#39;s designed to add additional service to existing lines and to change the rush-hour routing of some trains so that you can make more connections without a transfer.
+The full Metro map is here, in all its PDF glory; the sample below is hoped to be a reasonable size. Express Night Out&amp;#39;s DC Rider columnist Vicki Hallett has a story, Mix and Map, about what&amp;#39;s new.</description>
+    </item>
+    
+    <item>
+      <title>Wisconsin recall election results, 2012, in graphics</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-06-wisconsin-recall-election-results-2012-in-graphics/</link>
+      <pubDate>Wed, 06 Jun 2012 00:22:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-06-wisconsin-recall-election-results-2012-in-graphics/</guid>
+      <description>Two views of the Wisconsin recall election, in which Governor Scott Walker (R) survived a challenge from Milwaukee mayor Tom Barrett (D). With 93% of precincts counted, Walker leads 54% to 45%.
+The&amp;#0160;Milwaukee Journal-Sentinel results map&amp;#0160;shows who won which county:
 
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Devastation in &lt;a href=&#34;https://twitter.com/search?q=%23Brampton&amp;amp;src=hash&#34;&gt;#Brampton&lt;/a&gt; from the &lt;a href=&#34;https://twitter.com/search?q=%23icestorm&amp;amp;src=hash&#34;&gt;#icestorm&lt;/a&gt; tonight. Impassable roads and destroyed trees everywhere. &lt;a href=&#34;http://t.co/RrQmlTPjQm&#34;&gt;pic.twitter.com/RrQmlTPjQm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Moffat Creative .ca (@MoffatCreative) &lt;a href=&#34;https://twitter.com/MoffatCreative/statuses/414614023364022272&#34;&gt;December 22, 2013&lt;/a&gt;&lt;/blockquote&gt;
+TheNew York Times coverage also shows the margin of victory, which puts the map into stark relief:
 
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+Compare this with theless clear Huffington Post interactive recall results margin graphic, which shows percentage size of lead on a county by county basis; that over-weights the color of rural counties, and underestimates the size of the urban difference in the total vote count.</description>
+    </item>
+    
+    <item>
+      <title>Duck Lake Fire, north of Newberry MI</title>
+      <link>http://vielmetti.github.io/post/2012/2012-05-25-duck-lake-fire-north-of-newberry-mi/</link>
+      <pubDate>Fri, 25 May 2012 17:19:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-05-25-duck-lake-fire-north-of-newberry-mi/</guid>
+      <description>Some sources for information on the Duck Lake Fire, which started on Wednesday, May 23, 2012 and is burning rapidly in Luce County, north of Newberry, MI. The fire is dangerous and has caused evacuations; if you are reading this and you are in the area, seek authoritative and current information from official sources.
+The fire brings to mind the 2007 Sleeper Lake Fire&amp;#0160;which burned over 18,000 acres in Luce County.</description>
+    </item>
+    
+    <item>
+      <title>Michigan Lyme disease and black-legged tick map</title>
+      <link>http://vielmetti.github.io/post/2012/2012-05-14-michigan-lyme-disease-and-black-legged-tick-map/</link>
+      <pubDate>Mon, 14 May 2012 00:21:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-05-14-michigan-lyme-disease-and-black-legged-tick-map/</guid>
+      <description>This map is from the Michigan Department of Community Health and was last updated in 2009; it shows counties with confirmed and with risk for Lyme disease based on populations of&amp;#0160;Ixodes scapularis&amp;#0160;(Black-Legged Tick), the vector species for Lyme disease.
 
-&lt;p&gt;Ice in Burlington, Vermont:&lt;/p&gt;
+More details from Michigan.gov.</description>
+    </item>
+    
+    <item>
+      <title>Mappy Hour Detroit, Wednesday, May 2, 2012 5 pm at Mercury Burger Bar, Detroit MI</title>
+      <link>http://vielmetti.github.io/post/2012/2012-04-30-mappy-hour-detroit-wednesday-may-2-2012-5-pm-at-mercury-burger-bar-detroit-mi/</link>
+      <pubDate>Mon, 30 Apr 2012 17:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-04-30-mappy-hour-detroit-wednesday-may-2-2012-5-pm-at-mercury-burger-bar-detroit-mi/</guid>
+      <description>
+Come visit lovely Mappy Hour, happy hour for metro Detroit map nerds. Wednesday May 2, Mercury Burger Bar (2163 Michigan Ave,&amp;#0160;Detroit, MI 48216), Five-ish.&amp;#0160; View Map&amp;#0160;·&amp;#0160;Get Directions  More on the Mercury Burger Bar from the Detroit News. </description>
+    </item>
+    
+    <item>
+      <title>Union membership rates by state, 2011 data from Bureau of Labor Statistics</title>
+      <link>http://vielmetti.github.io/post/2012/2012-04-30-union-membership-rates-by-state-2011-data-from-bureau-of-labor-statistics/</link>
+      <pubDate>Mon, 30 Apr 2012 12:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-04-30-union-membership-rates-by-state-2011-data-from-bureau-of-labor-statistics/</guid>
+      <description>From a Bureau of Labor Statistics news release:
+ In 2011, the number of workers belonging to a union in Michigan was 671,000, the U.S. Bureau of Labor Statistics reported [on&amp;#0160;Monday, April 9, 2012]. Regional Commissioner Charlene Peiffer noted that union members accounted for 17.5 percent of wage and salary workers in Michigan in 2011 compared to 16.5 percent a year earlier. At its peak in 1989, the first year state data were available, Michigan’s union membership rate was 26.</description>
+    </item>
+    
+    <item>
+      <title>Japanese Mitsui chemical plant explosion, monitored via transmissions of NHK World Radio Japan</title>
+      <link>http://vielmetti.github.io/post/2012/2012-04-22-japanese-mitsui-chemical-plant-explosion-monitored-via-transmissions-of-nhk-world-radio-japan/</link>
+      <pubDate>Sun, 22 Apr 2012 02:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-04-22-japanese-mitsui-chemical-plant-explosion-monitored-via-transmissions-of-nhk-world-radio-japan/</guid>
+      <description>A fire at a chemical plant in Japan killed one and injured dozens, according to broadcasts monitored on international shortwave frequencies and Internet news and trade publication sources.
 
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;A little ice @ &lt;a href=&#34;https://twitter.com/search?q=%23btvairport&amp;amp;src=hash&#34;&gt;#btvairport&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23icicles&amp;amp;src=hash&#34;&gt;#icicles&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23VtICE13&amp;amp;src=hash&#34;&gt;#VtICE13&lt;/a&gt; &lt;a href=&#34;http://t.co/A8hZm1CQGs&#34;&gt;pic.twitter.com/A8hZm1CQGs&lt;/a&gt;&lt;/p&gt;&amp;mdash; Burlington Airport (@BTVAirport) &lt;a href=&#34;https://twitter.com/BTVAirport/statuses/414624086703091713&#34;&gt;December 22, 2013&lt;/a&gt;&lt;/blockquote&gt;
+The NHK news includes news of a chemical plant explosion at Mitsui Chemicals&amp;#39; Iwakuni-Ohtake facility, which straddles areas in Yamaguchi and Hiroshima prefectures. The Mitsui Chemicals site&amp;#0160;identifies the site of the plant as&amp;#0160;1-2, Waki 6-chome, Waki-cho, Kuga-gun, Yamaguchi 740-0061, and says the following chemicals are produced there:</description>
+    </item>
+    
+    <item>
+      <title>AIS and the Costa Concordia, a ship off course</title>
+      <link>http://vielmetti.github.io/post/2012/2012-01-16-ais-and-the-costa-concordia-a-ship-off-course/</link>
+      <pubDate>Mon, 16 Jan 2012 22:16:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-01-16-ais-and-the-costa-concordia-a-ship-off-course/</guid>
+      <description>In a BBC News report, &amp;ldquo;Costa Concordia cruise ship captain &amp;lsquo;went off course&amp;rsquo;&amp;rdquo;, this map is presented.
+&amp;nbsp;
+ It&amp;rsquo;s credited to the shipping newsletter Lloyd&amp;rsquo;s List, which on its web site further credits the detail to data from AIS. Here&amp;rsquo;s a few trackers that keep measure of ship locations from AIS, the Automatic Identification System:
+  MarineTraffic.com Vessel Finder AIS Hub VT Explorer Sail WX  More detail on AIS from the US Coast Guard, and from the ever-handy Wikipedia.</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor plow trucks: public tracking</title>
+      <link>http://vielmetti.github.io/post/2012/2012-01-02-ann-arbor-plow-trucks-public-tracking/</link>
+      <pubDate>Mon, 02 Jan 2012 23:01:33 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-01-02-ann-arbor-plow-trucks-public-tracking/</guid>
+      <description>The Ann Arbor plow truck public tracking page shows where the snow plows are out and about in Ann Arbor.
 
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+This view shows 4 of the 5 trucks that were out on Monday evening, January 2, 2012.
+Plow routes are color coded, and plow trucks are numbered. One tip: if you are using Chrome, turn on and off the &amp;quot;label&amp;quot; field to get the trucks to show.
+The system is build by Radio Satellite Integrators, and uses ESRI map technology.</description>
+    </item>
+    
+    <item>
+      <title>Missing maps lead to gas leaks in PG&amp;E network</title>
+      <link>http://vielmetti.github.io/post/2011/2011-12-31-missing-maps-lead-to-gas-leaks-in-pge-network/</link>
+      <pubDate>Sat, 31 Dec 2011 14:58:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-12-31-missing-maps-lead-to-gas-leaks-in-pge-network/</guid>
+      <description>The San Francisco Chronicle has a story about how important it is to keep an accurate set of maps:&amp;#0160;Missing maps mean PG&amp;amp;E lines weren&amp;#39;t inspected. The story is from December 31, 2011:
+ Pacific Gas and Electric Co. failed to check nearly 14 miles of gas distribution pipelines for leaks for up to two decades when it lost track of 16 maps needed to guide mandated safety inspections of its system in eastern Contra Costa County, company officials acknowledged to state regulators Friday.</description>
+    </item>
+    
+    <item>
+      <title>5 most popular maps of 2011 for this blog</title>
+      <link>http://vielmetti.github.io/post/2011/2011-12-28-5-popular-maps/</link>
+      <pubDate>Wed, 28 Dec 2011 23:26:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-12-28-5-popular-maps/</guid>
+      <description>Here&#39;s the 5 most popular mapping pages on Vacuum over the past 12 months - these are all in the top 10 most popular pages on this blog overall in that time span.
+1. Power outage maps for 50 states. I only really have about 44 states with maps, but the collection is otherwise excellent, and it gets lots of search traffic when there are big storms. Peak storm action of Hurricane Irene and of the Halloween snowstorm that hit the Northeast both saw 3000+ visits per day of people looking for outage maps for their area.</description>
+    </item>
+    
+    <item>
+      <title>National drought maps: GRACE (Gravity Recovery and Climate Experiment) shows Texas drought</title>
+      <link>http://vielmetti.github.io/post/2011/2011-12-03-national-drought-maps-grace-gravity-recovery-and-climate-experiment-shows-texas-drought/</link>
+      <pubDate>Sat, 03 Dec 2011 22:26:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-12-03-national-drought-maps-grace-gravity-recovery-and-climate-experiment-shows-texas-drought/</guid>
+      <description>The technical description is from Groundwater and Soil Moisture Conditions from GRACE Data Assimilation, one of the sets of maps available at the National Drought Mitigation Center at the University of Nebraska - Lincoln.
+ Launched in 2002, NASA’s Gravity Recovery and Climate Experiment satellites are unique in their ability to measure variations in water stored at all levels above and within the land surface (terrestrial water storage). However, the spatial (150,000 km2) and temporal (monthly with a significant time lag) resolutions of the GRACE fields limit their direct applicability for drought assessment.</description>
+    </item>
+    
+    <item>
+      <title>New map of the dark side of the moon from the Lunar Reconnaissance Orbiter Camera (LROC)</title>
+      <link>http://vielmetti.github.io/post/2011/2011-11-20-moon-maps-lroc/</link>
+      <pubDate>Sun, 20 Nov 2011 19:12:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-11-20-moon-maps-lroc/</guid>
+      <description>The LROC (Lunar Reconnaissance Orbiter Camera) orbits the moon, taking high resolution photos and beaming back data for analysis. This photo shows relief of the far side (the &#34;dark side&#34;) of the moon, with false color indicating terrain.
 
-&lt;p&gt;Power outage map (Sunday a.m.) from DTE Energy:&lt;/p&gt;
+LROC WAC color shaded relief of the lunar farside (NASA/GSFC/DLR/Arizona State University).</description>
+    </item>
+    
+    <item>
+      <title>Oklahoma earthquakes, November 5-7 2011 and historical</title>
+      <link>http://vielmetti.github.io/post/2011/2011-11-06-oklahoma-earthquakes-november-2011/</link>
+      <pubDate>Sun, 06 Nov 2011 00:26:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-11-06-oklahoma-earthquakes-november-2011/</guid>
+      <description>ANN ARBOR USA, November 5-7, 2011 (Vacuum News) - There were a series of earthquakes in Lincoln County, Oklahoma, but we didn&#39;t feel them here in Ann Arbor, Michigan.
+Some maps and news from people who did feel the quakes follow. The data here are preliminary, and you&#39;ll want to go to the USGS page for the Oklahoma quake for details, and Oklahoma earthquake history to figure out how normal this is.</description>
+    </item>
+    
+    <item>
+      <title>Snowtober: power outage maps for Halloween 2011 storm</title>
+      <link>http://vielmetti.github.io/post/2011/2011-10-29-snowtober-power-outage-maps-for-halloween-2011/</link>
+      <pubDate>Sat, 29 Oct 2011 08:20:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-10-29-snowtober-power-outage-maps-for-halloween-2011/</guid>
+      <description>THIS WEEK IN MAPS, for Sunday, October 30, 2011: A late October snowstorm is heading up the East Coast of the United States for Halloween. Here&#39;s maps of the affected areas, showing what parts of the electrical grid have had the worst impact from the heavy, wet snow in the forecast.
+New Hampshire As of 2:00 a.m. Sunday, 32% of PSNH customers are without power.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faef1bf8970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3faef1bf8970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Dte-outage-map-2013-12-22-10-30-am&#34; title=&#34;Dte-outage-map-2013-12-22-10-30-am&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3faef1bf8970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+Massachusetts NSTAR list of power outages by town (PDF) for midnight, Sunday; no map.</description>
+    </item>
+    
+    <item>
+      <title>September 2011 flooding on the Susquehanna River basin after Tropical Storm Lee</title>
+      <link>http://vielmetti.github.io/post/2011/2011-09-08-september-2011-flooding-on-the-susquehanna-river-basin-after-tropical-storm-lee/</link>
+      <pubDate>Thu, 08 Sep 2011 10:43:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-09-08-september-2011-flooding-on-the-susquehanna-river-basin-after-tropical-storm-lee/</guid>
+      <description>The remnants of Tropical Storm Lee have made their way slowly from the Gulf of Mexico to the northeastern United States, bringing a storm with a slow-moving heavy rain. There is widespread flooding in the Susquehanna River basin and flash floods across the area. The Weather Underground&amp;#39;s Jeff Masters has commentary on the storm from the morning of September 8, 2011, saying
+ An extreme rainfall event unprecedented in recorded history has hit the&amp;#0160;Binghamton, New York&amp;#0160;area, where 7.</description>
+    </item>
+    
+    <item>
+      <title>Fire map layer on Weather Underground&#39;s WunderMap for Central Texas fires</title>
+      <link>http://vielmetti.github.io/post/2011/2011-09-06-central-texas-fires/</link>
+      <pubDate>Tue, 06 Sep 2011 10:40:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-09-06-central-texas-fires/</guid>
+      <description>Labor Day was a particularly bad day for fires in central Texas. If you&amp;#39;re in that area, you may be looking for maps of where the fires are around you. Of course, you&amp;#39;re already listening to local radio and television for news that you would need to make a decision quickly.
+The Weather Underground&amp;#39;s &amp;quot;WunderMap&amp;quot; product has a &amp;quot;fire&amp;quot; layer, which displays smoke plumes, areas that have active fires, and the perimeters of contained fires.</description>
+    </item>
+    
+    <item>
+      <title>2011 Vermont flood maps after Irene</title>
+      <link>http://vielmetti.github.io/post/2011/2011-08-30-2011-vermont-flood-maps-irene/</link>
+      <pubDate>Tue, 30 Aug 2011 02:11:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-08-30-2011-vermont-flood-maps-irene/</guid>
+      <description>Vermont was hard hit by Irene. There are lots of photos and videos out there showing some of the devastation and flooding; here are maps that give some sense for the area involved.&amp;#0160;
+Vermont Flooding 2011 on Facebook&amp;#0160;is a good community resource, as is Mad River Valley Hurricane Irene. For volunteer coordination, see the VTResponse weblog.
+Detailed city maps showing flooded areas are not yet available. FEMA maps show the most vulnerable areas, and are available for Burlington,&amp;#0160;Montpelier, Waitsfield, and other cities.</description>
+    </item>
+    
+    <item>
+      <title>Hurricane Irene&#39;s path forecasts</title>
+      <link>http://vielmetti.github.io/post/2011/2011-08-23-hurricane-irenes-path-forecasts/</link>
+      <pubDate>Tue, 23 Aug 2011 10:54:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-08-23-hurricane-irenes-path-forecasts/</guid>
+      <description>Hurricane Irene is the first major storm of the 2011 season, with a forecast path that is tracking up the US East Coast. The Weather Underground 2011 Hurricane Irene page is a good one page summary of data, and it will be accurate after this page is outdated.
+ Hurricane forecasting uses a series of models to estimate the position and intensity of storms. With a system this size, there is uncertainty as to the ultimate storm path, and it&amp;#39;s not uncommon for a 5 day forecast to note that it might be more than 200 miles off course.</description>
+    </item>
+    
+    <item>
+      <title>June 2011 Howes Lake Wildfire west of Grayling, Michigan (Crawford, Kalkaska counties)</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-07-howes-lake-fire-grayling/</link>
+      <pubDate>Tue, 07 Jun 2011 16:37:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-07-howes-lake-fire-grayling/</guid>
+      <description>Update June 8, 2011: the Howes Lake Wildfire has been contained. Here is a wildfire map, from the Michigan DNR. See also an incident action plan (PDF), 8.5 x 11&amp;quot; version of this map, and an area map for reference.
+News stories, many of which have photos: Andrew Keller at UpNorthLive: &amp;quot;Families go home&amp;quot;
+ The firefighters looked exhausted today, but those men and women were still at it, making sure this fire wouldn&amp;#39;t pick back up and damage would stay at 817 acres.</description>
+    </item>
+    
+    <item>
+      <title>Lightning damage closes Ann Arbor Northside Elementary School on May 26, no one injured</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-26-may-storm-northside-lightning/</link>
+      <pubDate>Thu, 26 May 2011 01:42:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-26-may-storm-northside-lightning/</guid>
+      <description>Lightning hit a brick chimney at Ann Arbor&amp;#39;s Northside Elementary School on Wednesday at about 4:15 p.m., sending bricks flying 100 feet through the school pickup area. Fortunately, no one was hurt, as the area was vacant except for a staff member&amp;#39;s vehicle which was damaged by flying brick.
+I was aware of this when it happened because the lightning strike was powerful enough to cause the power grid to bounce, prompting comments on Twitter and speculating on the exact location.</description>
+    </item>
+    
+    <item>
+      <title>Huron River: May 25, 2011 flooding</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-26-huron-river-may-2011-flood/</link>
+      <pubDate>Thu, 26 May 2011 00:21:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-26-huron-river-may-2011-flood/</guid>
+      <description>The river is high. Will it flood? That&amp;#39;s a very good question to ask in the morning before a storm; and the answer today turned out to be yes. Roads were inundated, Lake Barracuda emerged from its stormwater geyser, Depot Street filled with water, Mullholland Creek popped a manhole cover, and S. Main Street near Michigan Stadium filled. West Park&amp;#39;s new water features get a workout.
+Basements have taken on water, and the full extent of storm damage is unknown yet until we get the May 26 predicted rains.</description>
+    </item>
+    
+    <item>
+      <title>DTE power outage map for May 23, 2011, 11:00 p.m.</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-23-dte-power-outage-map-for-may-23-2011-1100-pm/</link>
+      <pubDate>Mon, 23 May 2011 23:18:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-23-dte-power-outage-map-for-may-23-2011-1100-pm/</guid>
+      <description>This DTE power outage map shows the storm paths through the area for the storms of May 23, 2011 pretty clearly. Note the track along Michigan Avenue and then heading a bit to the north via the Davison; you&amp;#39;re looking for when individual purple dots turn to green, yellow, orange and then red.
 
-&lt;p&gt;Power outage map (Sunday a.m.) from Consumers Energy:&lt;/p&gt;
+ Map: DTE Energy, as of 11:03 p.m. ET May 23, 2011; data may be more than 15 minutes old.</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Farmers Market report, third Saturday in May 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-21-ann-arbor-farmers-market-report-third-saturday-in-may-2011/</link>
+      <pubDate>Sat, 21 May 2011 18:47:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-21-ann-arbor-farmers-market-report-third-saturday-in-may-2011/</guid>
+      <description>Here&amp;#39;s what some people have written about recently in their writings about the Ann Arbor Farmers Market, especially looking at produce that&amp;#39;s at market, new vendors and old, how people are doing and checking the weather.
+The one constant is that everyone seems to have gotten a lot of rain. Here&amp;#39;s a map of the last 7 days of precipitation.
+Some notes:
+Eggs: Grandma from Grandma&amp;#39;s Kitchen brought 137 dozen eggs.</description>
+    </item>
+    
+    <item>
+      <title>April 10/11 2011 Lake Michigan storms: Mesoscale Discussion 402</title>
+      <link>http://vielmetti.github.io/post/2011/2011-04-10-april-1011-2011-lake-michigan-storms-mesoscale-discussion-402/</link>
+      <pubDate>Sun, 10 Apr 2011 23:02:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-04-10-april-1011-2011-lake-michigan-storms-mesoscale-discussion-402/</guid>
+      <description>Severe storms and damaging winds are possible across the upper Great Lakes from the storm on April 10/April 11 2011. This map is from Mesoscale Discussion 402.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b037bb014970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b037bb014970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Consumers-outage-map-2013-12-22-10-30-am&#34; title=&#34;Consumers-outage-map-2013-12-22-10-30-am&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b037bb014970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+Edward Vielmetti watches for severe storms.</description>
+    </item>
+    
+    <item>
+      <title>Take Back the Night rally, Thursday, April 7, 2011, University of Michigan</title>
+      <link>http://vielmetti.github.io/post/2011/2011-04-05-take-back-the-night-rally-thursday-april-7-2011-university-of-michigan/</link>
+      <pubDate>Tue, 05 Apr 2011 10:45:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-04-05-take-back-the-night-rally-thursday-april-7-2011-university-of-michigan/</guid>
+      <description>The 2011 Ann Arbor Take Back the Night march and rally starts at 7:00 on Thursday, April 7, on the Diag at the University of Michigan. It is expected to run until 9:00 p.m.&amp;#0160;
+If you made a lantern for the 2011 Fool Moon parade, you could bring it here too.
+Event map, details to follow.
+Edward Vielmetti promotes safe, affordable, late night public transportation.</description>
+    </item>
+    
+    <item>
+      <title>North Central River flood outlook, April 3-8, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-04-04-north-central-river-flood-outlook-april-3-8-2011/</link>
+      <pubDate>Mon, 04 Apr 2011 00:41:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-04-04-north-central-river-flood-outlook-april-3-8-2011/</guid>
+      <description>A snapshot of the flood outlook from the North Central River Forecast Center&amp;#0160;shows what a wet spring week will do to river levels.
 
-&lt;p&gt;Ice estimate from National Weather Service Detroit:&lt;/p&gt;
+ The Huron River in Ann Arbor will have high water this week.
+ Edward Vielmetti splashes in puddles.</description>
+    </item>
+    
+    <item>
+      <title>DTE power outage in downtown Ann Arbor on March 28 at 7:00 p.m., 197 customers affected</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-28-dte-power-outage-march-28-ann-arbor-downtown/</link>
+      <pubDate>Mon, 28 Mar 2011 22:27:05 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-28-dte-power-outage-march-28-ann-arbor-downtown/</guid>
+      <description>DTE Energy&amp;nbsp;&amp;nbsp;(NYSE:DTE) is reporting an area power outage affected 196 customers in downtown Ann Arbor as of 10:45 p.m.&amp;nbsp;Monday, March 28, 2011. The power has been off since 7:00 p.m., and the estimated restoration time is from 5:00 a.m. to 7:00 a.m. on Tuesday. Refer to Job ID&amp;nbsp;W11032800140 in correspondence.
+A second outage affects a single customer and was identified as trouble with a high voltage equipment owner. This outage also occurred at 7:00 p.</description>
+    </item>
+    
+    <item>
+      <title>Oberon Day is March 28, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-27-oberon-day-march-28/</link>
+      <pubDate>Sun, 27 Mar 2011 23:02:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-27-oberon-day-march-28/</guid>
+      <description>&amp;#0160;Bell&amp;#39;s Brewery&amp;#0160;releases Oberon, their summer beer, on March 28, 2011. The event is marked by the annual Michigan celebration of the hope that the winter is finally behind us and baseball is about to start.
+Here are some details on how to get Oberon near you, if you happen to be near one of the places mentioned in this list; this is not a complete list, but their web site will let you find more.</description>
+    </item>
+    
+    <item>
+      <title>Huron River water level watching: USGS National Water Information System</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-23-huron-river-waterwatch/</link>
+      <pubDate>Wed, 23 Mar 2011 13:41:35 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-23-huron-river-waterwatch/</guid>
+      <description>Follow the level of the Huron River as it goes through Ann Arbor&amp;#0160;with the USGS National Water Information System. On March 23, the river is rising, but it&amp;#39;s also fluctuating in levels, enough that it&amp;#39;s difficult to determine whether current trends would lead you to believe that there is any risk of flooding.
+If you were to watch this closely, what would you watch?
+The USGS will give you an alert if the level of the river is above or below a certain level.</description>
+    </item>
+    
+    <item>
+      <title>March 22 is World Water Day; tracking the Ann Arbor dioxane plume toward the Huron River</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-22-world-water-day/</link>
+      <pubDate>Tue, 22 Mar 2011 06:54:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-22-world-water-day/</guid>
+      <description>March 22 is World Water Day. The 2011 theme is Water for Cities: Responding to the Urban Challenge. The Ann Arbor District Library is hosting a 7:00 p.m. panel &amp;quot;Our Water, Our Future&amp;quot;, with&amp;#0160;Mike Wiley from the University of Michigan School of Natural Resources and Environment hosting.
+A recording of the event is available for viewing or download at the Ann Abor District Library.
+In Ann Arbor, the slow-moving but inexorable urban water supply problem is the spread of a dioxane plume towards the Huron River and the City of Ann Arbor&amp;#39;s drinking water supply source at Barton Pond.</description>
+    </item>
+    
+    <item>
+      <title>2010 Michigan census data</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-22-2010-michigan-census-data/</link>
+      <pubDate>Tue, 22 Mar 2011 00:46:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-22-2010-michigan-census-data/</guid>
+      <description>Census data for Michigan from the 2010 census will be used for reapportionment. When the data is available, this chart will show it. The release date was at 2:00 p.m. on March 22, 2011.
+IFRAMES not supported
+More, much more, when it actually shows up; from census.gov.
+News releases From the Census, U.S. Census Bureau Delivers Michigan&amp;#39;s 2010 Census Population Totals, Including First Look at Race and Hispanic Origin Data for Legislative Redistricting (cb11-cn106, 3/22/11).</description>
+    </item>
+    
+    <item>
+      <title>Weather forecast for Tubilustrium: Wednesday, March 23, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-21-tubilistrium-weather/</link>
+      <pubDate>Mon, 21 Mar 2011 19:28:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-21-tubilistrium-weather/</guid>
+      <description>There&amp;#39;s a storm coming, which may bring some mix of rain, snow, sleet, freezing rain, and ice pellets to Ann Arbor. The worst of it will be on Wednesday, March 23 2011, &amp;#0160;the date of the Roman festival of Tubilustrium. This event was&amp;#0160;held in honor of Vulcan, the god of fire and metal working.
+Some charts, graphs, maps etc.
+The Weatherspark forecast&amp;#0160;has a nice spark-line style chart interface; this is an excerpt from the full page.</description>
+    </item>
+    
+    <item>
+      <title>Fukushima fallout plume animation</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-18-fukushima-fallout-plume-animation/</link>
+      <pubDate>Fri, 18 Mar 2011 14:31:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-18-fukushima-fallout-plume-animation/</guid>
+      <description>Click to animate this plume of fallout from the Fukushima nuclear disaster in Japan, as produced by ZAMG&amp;#0160;(Zentralanstalt für Meteorologie und Geodynamik,&amp;#0160;Viennese Central Institute for Meteorology and Geodynamics, Vienna Austria). Via the Harvard Japan Sendai Earthquake Data Portal.
+Note that this is not the hoax map &amp;quot;Nuclear fallout&amp;quot; described by Snopes.
+Of the map, the authors write (in German)
+ Zur Farbskalierung ist zu sagen, dass die rote Skala Gebiete kennzeichnet, die seit Beginn des Unfalles mit einer Effektivdosis von&amp;#0160;maximal&amp;#0160;100 Milli-Sievert pro Stunde belastet waren (laut Informationen der IAEO).</description>
+    </item>
+    
+    <item>
+      <title>Fukushima maps</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-13-fukushima-maps/</link>
+      <pubDate>Sun, 13 Mar 2011 22:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-13-fukushima-maps/</guid>
+      <description>Radiation is escaping from the Fukushima nuclear power plant after multiple explosions at the site.
+A widely distributed graphic, attributed to&amp;#0160;Australian Radiation Services and purporting to show fallout patterns, is confirmed to be a hoax. A map from ZAMG in Vienna models the plume.
+This post has been updated Friday, March 18 2011 at 3:00 pm to add the ZAMG info, which is on its own page.
+News sources
+Wikipedia: Fukushima I Nuclear Power Plant; Fukushima I nuclear accidents.</description>
+    </item>
+    
+    <item>
+      <title>Tokyo power outage maps</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-13-tokyo-power-outage-maps/</link>
+      <pubDate>Sun, 13 Mar 2011 08:46:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-13-tokyo-power-outage-maps/</guid>
+      <description>Due to extreme impacts of earthquake and tsunami on the Japanese electrical energy grid, power companies in Japan are putting into place scheduled outages to reduce their energy load.
+Sources
+Nikkei:&amp;#0160;Tokyo Electric Power Co.&amp;#0160;(9501)&amp;#0160;and Tohoku Electric Power Co.&amp;#0160;(9506)&amp;#0160;will implement planned power cuts on a rolling basis .
+Harvard: Japan Sendai Earthquake Data Portal. A team at the&amp;#0160;&amp;#0160;Harvard Center for Geographic Analysis&amp;#0160;is collecting and publishing geospatial data about the earthquake.
+&amp;quot;Illuminating Japan&amp;quot; weblog&amp;#0160;gakuranman.</description>
+    </item>
+    
+    <item>
+      <title>Tsunami maps for March 2011 Honshu earthquake</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-11-tsunami-maps-for-march-2011-honshu-earthquake/</link>
+      <pubDate>Fri, 11 Mar 2011 06:49:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-11-tsunami-maps-for-march-2011-honshu-earthquake/</guid>
+      <description>Here&amp;#39;s a view from Ann Arbor of the Japanese earthquake. A magnitude 8.9 earthquake struck off the coast of Honshu, Japan at 5:46 UTC, 2:46 pm Japan time, and 12:46 a.m. Eastern Time, about 6200 miles from Ann Arbor. Damage is extensive, with the city of Sendai hit hard, and concern for the&amp;#0160;Fukushima Nuclear Plant. The effects of the tsunami stretched across the Pacific.
+This post was last updated Friday, March 11 2011 at 11:50 a.</description>
+    </item>
+    
+    <item>
+      <title>Australia flood map, January 10, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-01-09-australia-flood-map-january-10-2011/</link>
+      <pubDate>Sun, 09 Jan 2011 22:57:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-01-09-australia-flood-map-january-10-2011/</guid>
+      <description>Source is the Australia River and Rainfall Conditions page from the Australia Bureau of Meteorology.
+ Also of note is the 1 week rainfall map from the Climate page on the same source
+ More maps and map collections:
+VerySpatial: Australian flood maps. A very good comprehensive collection of flood maps, from which several of the maps below are sourced.
+Larvatus Proveo: Brisbane flood maps and up to date flood information.</description>
+    </item>
+    
+    <item>
+      <title>It pours, man it pours</title>
+      <link>http://vielmetti.github.io/post/2010/2010-12-21-it-pours-man-it-pours/</link>
+      <pubDate>Tue, 21 Dec 2010 00:01:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-12-21-it-pours-man-it-pours/</guid>
+      <description>It never rains in Southern California.
+&amp;nbsp;
+ It pours, man it pours.
+ Image: National Weather Service Advanced Hydrological Prediction Service</description>
+    </item>
+    
+    <item>
+      <title>Typhoon Megi or Typhoon Juan maps</title>
+      <link>http://vielmetti.github.io/post/2010/2010-10-21-typhoon-megi-or-typhoon-juan-maps/</link>
+      <pubDate>Thu, 21 Oct 2010 20:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-10-21-typhoon-megi-or-typhoon-juan-maps/</guid>
+      <description>A few maps or links to same.
+Tropical storm coverage
+Tropical Storm Risk covers all storms in the tropics.
+China
+Weather China radar.
+Taiwan
+Taiwan Central Weather Bureau has maps and forecasts.
+A rainfall map accompanies a Taipei Times story about rockslides.
+Hong Kong
+Map from Hong Kong Observatory.
+Joint Typhoon Warning Center
+Map of Megi. &amp;#0160;JTWC is run by the US Navy.
+Philippines
+Philippine Loop &amp;#0160;from NOAA Southern Hemisphere Services.</description>
+    </item>
+    
+    <item>
+      <title>Preoccupied expression</title>
+      <link>http://vielmetti.github.io/post/2010/2010-10-14-my-entry/</link>
+      <pubDate>Thu, 14 Oct 2010 13:24:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-10-14-my-entry/</guid>
+      <description>from A Wind in the Willows. &amp;#0160;The Google Book Search edition from 1908 does not have these illustrations.</description>
+    </item>
+    
+    <item>
+      <title>Herriman Fire (Utah) map and current news</title>
+      <link>http://vielmetti.github.io/post/2010/2010-09-20-herriman-fire-utah-map-and-current-news/</link>
+      <pubDate>Mon, 20 Sep 2010 02:51:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-09-20-herriman-fire-utah-map-and-current-news/</guid>
+      <description>There is a large fire near Herriman, Utah, known as the Herriman Fire or the Machine Gun Fire. Some details.
+On twitter, follow #herrimanfire&amp;#0160;.
+Maps are being produced with evacuation zones. Look for one that loads fast, which means that a typical output from a GIS system with every road marked in loving detail is not what you want. &amp;#0160;See e.g.
+ 800kb map hosted on Google Docs 8.1mb map hosted on Scribd, a copy of the official map, loads faster 8.</description>
+    </item>
+    
+    <item>
+      <title>San Bruno Fire: pipeline network</title>
+      <link>http://vielmetti.github.io/post/2010/2010-09-09-san-bruno-fire-pipeline-network-/</link>
+      <pubDate>Thu, 09 Sep 2010 22:56:09 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-09-09-san-bruno-fire-pipeline-network-/</guid>
+      <description>Map from National Pipeline Mapping System, PHMSA.
+ </description>
+    </item>
+    
+    <item>
+      <title>Where will the freeway go?</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-09-where-will-the-freeway-go/</link>
+      <pubDate>Fri, 09 Jul 2010 01:01:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-09-where-will-the-freeway-go/</guid>
+      <description>Hiding in municipal archives across the county are maps of where the freeways will go. &amp;nbsp;Some of them got built, some of them didn&#39;t. &amp;nbsp;Those documents will date from after the Second World War, and lots of them will be 1950s and 1960s artifacts.
+Some of the history will show up in land records; this account from Genoa Township looks typical
+ The land was farmed from 1950 until 1962 when the Michigan State Highway came through and condemned eight different parcels in the township to construct Interstate 96.</description>
+    </item>
+    
+    <item>
+      <title>a wet month here, a dry month elsewhere</title>
+      <link>http://vielmetti.github.io/post/2010/2010-06-12-a-wet-month-here-a-dry-month-elsewhere/</link>
+      <pubDate>Sat, 12 Jun 2010 20:16:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-06-12-a-wet-month-here-a-dry-month-elsewhere/</guid>
+      <description>About this analysis, from the Advanced Hydrologic Prediction Service of the National Weather Service
+:  &amp;ldquo;Observed&amp;rdquo; data is a byproduct of National Weather Service (NWS) operations at the 12 CONUS River Forecast Centers (RFCs), and is displayed as a gridded field with a spatial resolution of roughly 4x4 km. &amp;ldquo;Observed&amp;rdquo; data is expressed as a 24-hour total ending at 1200 Z (same as Greenwich Mean Time, or GMT), with longer periods simply being a summation of multiple 24-hour periods.</description>
+    </item>
+    
+    <item>
+      <title>Lightning map from StrikeStar</title>
+      <link>http://vielmetti.github.io/post/2010/2010-06-02-lightning-map-from-strikestar/</link>
+      <pubDate>Wed, 02 Jun 2010 22:02:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-06-02-lightning-map-from-strikestar/</guid>
+      <description>This&amp;#0160;lightning map for the continential US from StrikeStar&amp;#0160;is new to me for the season - you can really see storms move across the landscape if you only look for lightning bolts.
+&amp;#0160;  &amp;#0160;</description>
+    </item>
+    
+    <item>
+      <title>Amelanchier (Shadbush, Juneberry, Sugar Plum) inventory for Ann Arbor, 2009</title>
+      <link>http://vielmetti.github.io/post/2009/2009-07-03-amelanchier-shadbush-juneberry-sugar-plum-inventory-for-ann-arbor-2009/</link>
+      <pubDate>Fri, 03 Jul 2009 00:47:55 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-07-03-amelanchier-shadbush-juneberry-sugar-plum-inventory-for-ann-arbor-2009/</guid>
+      <description>Here&amp;#39;s a complete list of where all of the Amelanchier (juneberry, shadbush, sugar plum depending on where you are from) trees are on the public streets in Ann Arbor.&amp;#0160; The complete inventory shows 356 trees, each geocoded; rather than try to pin them on a map, this is by street name in alphabetical order, with quite a bit of duplicates eliminated.
+The whole program to do this is
+grep -i Amelanchier trees09.</description>
+    </item>
+    
+    <item>
+      <title>Map Warper: stretch an old map to fit the new landscape</title>
+      <link>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</link>
+      <pubDate>Wed, 24 Jun 2009 22:34:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</guid>
+      <description>http://www.vizworld.com/2009/06/testing-map-warper-beta/
+Maitri has a great write-up of Map Warper, a tool for taking old maps and stretching them (rectifying them) to match another base map.&amp;#0160; Tim Waters has developed an open source tool called Map Warper (Beta) into which you can upload a scanned map, georectify it and save it out as an image or a map layer.&amp;#0160; As a former resident of New Orleans, where a transparent recovery and historic preservation are daily uphill battles, this tool can be invaluable in saving and sharing ancient and new maps of the city’s original development and re-development since Hurricane Katrina and The Flood.</description>
+    </item>
+    
+    <item>
+      <title>Jon Udell and Andrew Turner talking about neogeography</title>
+      <link>http://vielmetti.github.io/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</link>
+      <pubDate>Sun, 03 May 2009 11:57:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-05-03-jon-udell-and-andrew-turner-talking-about-neogeography/</guid>
+      <description>Two friends, Jon Udell and Andrew Turner, in this piece on IT Conversations:
+Neocartography, neogeography, the geospatial web: These words and phrases evoke the unfolding drama at the intersection of physical and virtual space. Andrew Turner is in the thick of the action. In this conversation with host Jon Udell he discusses GeoCommons, pocketmaps, collaborative data curation, and the evolution of design in a world of networked spatial and temporal data.</description>
+    </item>
+    
+    <item>
+      <title>Australia (Victoria, Melbourne area), February 2009 fire map</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-08-australia-victoria-melbourne-area-february-2009-fire-map/</link>
+      <pubDate>Sun, 08 Feb 2009 10:21:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-08-australia-victoria-melbourne-area-february-2009-fire-map/</guid>
+      <description>As pulled from the Google Australia weblog on the fires in Australia goes into detail and has a live map of the fires, included below.
+ As a snapshot of this here&amp;#39;s what it looked like when I grabbed it this morning: 
+There&amp;#39;s more maps of fire in Australia at aus-emaps; this is a link to static copies of maps, which is better than the live image because of heavy server load.</description>
+    </item>
+    
+    <item>
+      <title>new TDWR - Thermal Dopplr Weather Radar - at Detroit via Weather Underground</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-16-new-tdwr-thermal-dopplr-weather-radar-at-detroit-via-weather-underground/</link>
+      <pubDate>Tue, 16 Dec 2008 17:15:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-16-new-tdwr-thermal-dopplr-weather-radar-at-detroit-via-weather-underground/</guid>
+      <description>Detroit has a new weather radar offering what the Weather Underground calls &amp;quot;high def radar&amp;quot;.&amp;#0160; Here&amp;#39;s the link to the TDWR Radar for Detroit.
+The vendor&amp;#39;s web site, TSC, says
+The Federal Aviation Administration&amp;#39;s (FAA) Terminal Doppler Weather Radar (TDWR) system detects and reports hazardous weather in and around airport terminal approach and departure zones. The TDWR identifies and warns air traffic controllers (ATCs) of low altitude wind shear hazards caused by microbursts and their associated gust fronts, in addition to reporting on precipitation intensities and providing advanced warning of wind shifts.</description>
+    </item>
+    
+    <item>
+      <title>2008 Election Maps: Wayne Baker on metaphors of color in Mark Newman&#39;s cartograms</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-15-2008-election-maps-wayne-baker-on-metaphors-of-color-in-mark-newmans-cartograms/</link>
+      <pubDate>Sat, 15 Nov 2008 14:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-15-2008-election-maps-wayne-baker-on-metaphors-of-color-in-mark-newmans-cartograms/</guid>
+      <description>We&#39;ve seen lots of electoral maps, with the US colored various shades of red, blue, or purple. The simplest ones just colorize the map; the most complex distort the map and refine the color space to show various aspects of the population, its voting patterns and changes over time. Jason Kottke has a good collection of 2008 election maps from all over the world, showing mostly the state of real time map software by newspapers, web sites, and television updated during the vote count.</description>
+    </item>
+    
+    <item>
+      <title>Santa Barbara and Montecito &#34;Tea Fire&#34;, November 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-14-santa-barbara-and-montecito-t-fire/</link>
+      <pubDate>Fri, 14 Nov 2008 12:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-14-santa-barbara-and-montecito-t-fire/</guid>
+      <description>UPDATE: the latest Santa Barbara fire is the &#34;White Fire&#34; in May 2013. Twitter: #whitefire.
+UPDATE: the below post refers to the Tea Fire of late 2008; there&#39;s a new Jesusita fire page for May 2009 fire,for anyone coming here by search.
+NOTE: Comments on this item are open again, links updated to noon PST Friday
+&amp;nbsp; Jason Fox of Seattle, WA writes:
+My brother is a musician and lives less than 2 miles south of the fire , he has lost power here is a picture he just took beforehand , feel free to post it on your blog, or to fwd it to news agencies , his name is Justin Fox, of the band Tripdavon.</description>
+    </item>
+    
+    <item>
+      <title>Power outage maps</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-03-power-outage-ma/</link>
+      <pubDate>Wed, 03 Sep 2008 16:26:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-03-power-outage-ma/</guid>
+      <description>Whenever the power goes out, there&#39;s a burst of search traffic by people to try to figure out what is going on and when the lights will be back on.
+Lots of utility companies have outage management systems which provide some widely varied amount of information about what&#39;s going on - there&#39;s a bunch of vendors, no obvious standards being used, and even file formats and page styles are all over the place.</description>
+    </item>
+    
+    <item>
+      <title>Drought monitor for late August 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-25-drought-monitor/</link>
+      <pubDate>Mon, 25 Aug 2008 12:55:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-25-drought-monitor/</guid>
+      <description> It&#39;s seemed like a dry summer here in Ann Arbor, with brown grass the normal state of affairs. We have nothing on the southeast. Note that this map is before the impact of Fay which dumped a lot of rain.  </description>
+    </item>
+    
+    <item>
+      <title>Michigan Football Parking 2008 map</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-19-michigan-footba/</link>
+      <pubDate>Tue, 19 Aug 2008 14:03:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-19-michigan-footba/</guid>
+      <description>These are projected, estimated, possible, or likely prices for Michigan football parking for 2008.&amp;nbsp; It&#39;s based on the dataset I collected from the 2007 football season, which as you might recall had an unfortunate start (which definitely impacted prices).
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b037bb2e5970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b037bb2e5970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;NOAA-Detroit-ICE_21-22Dec13&#34; title=&#34;NOAA-Detroit-ICE_21-22Dec13&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b037bb2e5970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+View Larger Map
+
+It needs better icons so you don&#39;t have to decode the color chart.&amp;nbsp; Typically prices can vary $5 from week to week depending on the game, and if all goes well it will rain on a Thursday so that the golf course is closed and thus neighborhood parking is at a premium.</description>
+    </item>
+    
+    <item>
+      <title>Fire maps - Michigan, California, and global</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-24-fire-maps---mic/</link>
+      <pubDate>Tue, 24 Jun 2008 18:31:28 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-24-fire-maps---mic/</guid>
+      <description>Drought Severity Index by Region from NOAA for the week ending 21 June 2008
+It&#39;s fire season (at least in the places where it isn&#39;t flood or landslide season) and the best way to be ready for a fire is to not have the fire start at all.
+Here&#39;s a collection of Michigan fire maps, and some additional resources to help get to current information about what&#39;s going on.</description>
+    </item>
+    
+    <item>
+      <title>Montgomery County, MD &#34;boil water&#34; map</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-17-montgomery-coun/</link>
+      <pubDate>Tue, 17 Jun 2008 16:56:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-17-montgomery-coun/</guid>
+      <description>The Gaithersburg, MD area has a &#34;boil water&#34; advisory; note the interesting and good use of Google Maps to show the boundaries. The image will click through to the live map.
+
+thanks to @genehack for the pointers that led me there.
+the news from the washington post:
+
+A massive rupture in a 48-inch water main disrupted routines across large swaths of Montgomery County yesterday, forcing residents to scramble for sources of safe drinking water and prompting county officials to order about 700 restaurants not to prepare food.</description>
+    </item>
+    
+    <item>
+      <title>Trapster snapshot of speed traps in Ann Arbor (and the rest of the US)</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-13-trapster-snapsh/</link>
+      <pubDate>Fri, 13 Jun 2008 11:01:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-13-trapster-snapsh/</guid>
+      <description>At a previous employer&#39;s previous location, my office was on a street (Depot St) regularly used to speed through town. Every day people would zoom to and from the hospital, and every day the AAPD would stop some fraction of them to give them tickets. I was glad for it too - to cross Depot when cars are barreling along at 45 in a 30 zone was not fun.</description>
+    </item>
+    
+    <item>
+      <title>How hot is your power grid?  Real time maps from the Midwest ISO</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-12-how-hot-is-your/</link>
+      <pubDate>Thu, 12 Jun 2008 16:08:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-12-how-hot-is-your/</guid>
+      <description>Continuing the summer power grid watch theme - lots of Oakland County, MI still is waiting for restoration of service - let&#39;s look at the real time map for watching the greater power grid.
+In the Midwest, power coordination between utilities is done through the Midwest ISO, an organization that is responsible for orderly transfer of capacity between generators and transmission lines and for helping plan and predict seasonal and outage-related load changes that require competitors to work together.</description>
+    </item>
+    
+    <item>
+      <title>Michigan gas price maps from GasBuddy</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-11-michigan-gas-pr/</link>
+      <pubDate>Wed, 11 Jun 2008 11:47:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-11-michigan-gas-pr/</guid>
+      <description>GasBuddy has built a very nice infrastructure for tracking gas prices across the county. If you sign up, you can update the site with current observations of pricing; if you don&#39;t sign up, you can still view individual and aggregated data.
+
+The map above is not quite enough to decide where to stop, except to note that if you happen to be heading south you should probably fill up in Ohio, not Michigan (tax differences account for the price difference).</description>
+    </item>
+    
+    <item>
+      <title>When the 3G iPhone comes out, you&#39;ll be just in range (or just out of range)</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-11-when-the-3g-iph/</link>
+      <pubDate>Wed, 11 Jun 2008 11:11:19 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-11-when-the-3g-iph/</guid>
+      <description>The AT&amp;T coverage viewer shows you where your 3G iPhone is going to work in some awesome, inspiring, mind-bogglingly wonderful way. (yeah right). The photo clip above is where it&#39;s going to work in Washtenaw County, with the dark blue coverage showing the ideal places.</description>
+    </item>
+    
+    <item>
+      <title>Google Street View comes to Ann Arbor, at least some of it</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-11-google-street-v/</link>
+      <pubDate>Wed, 11 Jun 2008 10:35:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-11-google-street-v/</guid>
+      <description>Google&#39;s Street View has come to Ann Arbor. From the looks of it, the photos were taken last fall; gas was $2.899 a gallon. The photo of my street showed Mario and Luigi&#39;s toys out in the front, and a neighbor across the street was working on his lawn.
+
+Notable from the map above is the scrupulous adherence to the freeway boundaries of Ann Arbor in the mapping effort.</description>
+    </item>
+    
+    <item>
+      <title>Detroit suburban SMART bus transit routing in Google Transit</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-26-detroit-suburba/</link>
+      <pubDate>Wed, 26 Mar 2008 15:23:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-26-detroit-suburba/</guid>
+      <description>The Detroit area SMART bus system now has routing and schedule information in Google Transit. It gives bus numbers and times for rides across the metro Detroit area, and plans the next available trips for you.  With all of this data it now looks almost possible to schedule and plan transportation from Ann Arbor to large parts of metro Detroit on public transportation. Mind you it&amp;rsquo;s a little roundabout, but you have two choices:  - take Amtrak Ann Arbor - Detroit - Royal Oak - Pontiac, 3 trips/day - take the Michigan Flyer bus to Metro Airport, switch to a SMART bus, and connect to routes from there - allow plenty of time for transfers and to find your stops.</description>
+    </item>
+    
+    <item>
+      <title>AATA proposed route changes for Fall 2008, preliminary analysis</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-13-aata-proposed-r/</link>
+      <pubDate>Thu, 13 Mar 2008 00:03:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-13-aata-proposed-r/</guid>
+      <description>The AATA has announced proposed changes to the schedule for this fall. New maps and schedules are not out yet, but there are descriptions of the changes. Here&#39;s a breakdown of what wins and what loses with the change.  There&#39;s more information and discussion of this on: - Arbor Update - Get Downtown - Ann Arbor News - Ann Arbor Is Overrated links to follow when they all get around to writing about it  The short summary, I think, is that the bus system is shifting its service to improve route frequency to the west side of town, cutting service on routes that have low ridership, and shaving a trip here and there.</description>
     </item>
     
   </channel>

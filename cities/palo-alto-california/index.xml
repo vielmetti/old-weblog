@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/palo-alto-california/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Palo Alto California on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/palo-alto-california/</link>
+    <description>Recent content in Palo Alto California on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/palo-alto-california/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Nov 2008 11:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/palo-alto-california/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Widget Wednesday - Socialtext OpenSocial hackathon, November 12, 2008</title>
@@ -14,25 +17,8 @@
       <pubDate>Wed, 12 Nov 2008 11:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-12-widget-wednesday/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.socialtext.com&#34;&gt;Socialtext&lt;/a&gt; is organizing &lt;a href=&#34;http://www.socialtext.net/open/index.cgi?widget_wednesday&#34;&gt;Widget Wednesday&lt;/a&gt; today.&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;
-PALO ALTO, CA - November 5, 2008 - &lt;a href=&#34;http://www.socialtext.com/blog/2008/11/widget-wednesday-launched-a-di.html&#34;&gt;Socialtext, the Enterprise Social
-Software leader, today announced it will host Widget Wednesday on
-November 12,&lt;/a&gt; a distributed hackathon for widgets and mashups.
-Socialtext partners Box.net, Denodo, Newsgator, Meebo, Six Apart,
-Slideshare and others will participate in the hackathon to develop
-OpenSocial standard-based widgets and mashups on the Socialtext
-platform. Socialtext also announced that it will release all of the
-widgets it develops under an Open Source license -- to help partners,
-customers and developer community members create mashups leveraging
-Socialtext&amp;#39;s best-in-class REST API.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://code.google.com/apis/opensocial/&#34;&gt;OpenSocial is the standard propogated by Google for creating widgets:&lt;/a&gt;&amp;#0160; There is an OpenSocial Foundation, and &lt;a href=&#34;http://opensocialapis.blogspot.com/2008/11/opensocials-first-birthday-detailed.html&#34;&gt;they are celebrating a 1st anniversary in (where else) San Francisco on November 13&lt;/a&gt;. A highlight of the event is the &lt;a href=&#34;http://wiki.opensocial.org/index.php?title=Cross-container_Development#Containers&#34;&gt;Global Container Crawl&lt;/a&gt; where you test your install on as many systems as you can do in one afternoon.&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;There are hundreds of millions of people using social networking
-sites that support OpenSocial apps. To take advantage of the
-distribution that OpenSocial provides, you&amp;#39;ll want your app to run on
-more than just one site. There are a few things to consider when
-writing or maintaining an app that works across containers. This page
-will give you an overview of these issues, and you can find tips for
-reaching users on specific containers by following the links in the &lt;a href=&#34;http://wiki.opensocial.org/index.php?title=Cross-container_Development#Containers&#34; title=&#34;Cross-container Development&#34;&gt; Containers&lt;/a&gt; section.
-&lt;/p&gt;&lt;p&gt;The &lt;a href=&#34;http://wiki.opensocial.org/index.php?title=Main_Page&#34;&gt;OpenSocial community wiki&lt;/a&gt; has way more details.&lt;/p&gt;
-</description>
+      <description>Socialtext is organizing Widget Wednesday today.
+PALO ALTO, CA - November 5, 2008 - Socialtext, the Enterprise Social Software leader, today announced it will host Widget Wednesday on November 12, a distributed hackathon for widgets and mashups. Socialtext partners Box.net, Denodo, Newsgator, Meebo, Six Apart, Slideshare and others will participate in the hackathon to develop OpenSocial standard-based widgets and mashups on the Socialtext platform. Socialtext also announced that it will release all of the widgets it develops under an Open Source license -- to help partners, customers and developer community members create mashups leveraging Socialtext&amp;#39;s best-in-class REST API.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/typepad/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Typepad on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/typepad/</link>
+    <description>Recent content in Typepad on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/typepad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2015 13:33:15 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/typepad/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>converting typepad to hugo</title>
@@ -14,41 +17,11 @@
       <pubDate>Tue, 14 Jul 2015 13:33:15 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-14-converting-typepad-to-hugo/</guid>
-      <description>&lt;p&gt;The task of the night was getting a few years worth of Typepad posts
-into Hugo.&lt;/p&gt;
-
-&lt;p&gt;My first step was to convert to Jekyll format, which I did using this
-typepad_to_jekyll Ruby gem:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/koozie/typepad_to_jekyll&#34;&gt;https://github.com/koozie/typepad_to_jekyll&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You then need to do a few things to get the Jekyll files exactly right
-for Hugo:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Change the date format&lt;/li&gt;
-&lt;li&gt;Rewrite the Categories&lt;/li&gt;
-&lt;li&gt;Download and relink all of the images&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Changing the format for &amp;ldquo;date&amp;rdquo; was a one-liner in perl with the -i (&amp;ldquo;edit in
-place&amp;rdquo;) flag.  I didn&amp;rsquo;t get to the category rewrite or the image rescue yet.
-The approach I took was to simply hack on the output files, rather than
-change the source code to the typepad_to_jekyll program, but if you were
-serious about it you&amp;rsquo;d do the latter and fork it until it did the right thing.&lt;/p&gt;
-
-&lt;p&gt;Relinking all of the images requires opening a support ticket because Typepad
-does not have an easy image export. Actually image hosting is a real
-challenge and I don&amp;rsquo;t know exactly the right way to do it inside Hugo.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll need to adjust the theme or pick a new theme so that it only shows
-the first n posts on a page and then paginates, and I also need to adjust
-it so that it shows categories. The show everything approach is unreasonable
-when you have 1000s of pages to show off. On the other hand, the most
-reasonable themes that I can find that look nice don&amp;rsquo;t have pagination
-turned on by default. There&amp;rsquo;s some learning curve to roll my own, maybe
-one that has some kind of reasonable sidebar structure.&lt;/p&gt;
-</description>
+      <description>The task of the night was getting a few years worth of Typepad posts into Hugo.
+My first step was to convert to Jekyll format, which I did using this typepad_to_jekyll Ruby gem:
+https://github.com/koozie/typepad_to_jekyll
+You then need to do a few things to get the Jekyll files exactly right for Hugo:
+ Change the date format Rewrite the Categories Download and relink all of the images  Changing the format for &amp;ldquo;date&amp;rdquo; was a one-liner in perl with the -i (&amp;ldquo;edit in place&amp;rdquo;) flag.</description>
     </item>
     
   </channel>

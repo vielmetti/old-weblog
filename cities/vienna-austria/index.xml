@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/vienna-austria/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Vienna Austria on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/vienna-austria/</link>
+    <description>Recent content in Vienna Austria on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/vienna-austria/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2011 14:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/vienna-austria/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Fukushima fallout plume animation</title>
@@ -14,22 +17,10 @@
       <pubDate>Fri, 18 Mar 2011 14:31:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-03-18-fukushima-fallout-plume-animation/</guid>
-      <description>&lt;p&gt;Click to animate this plume of fallout from the Fukushima nuclear disaster in Japan, as produced by &lt;a href=&#34;http://www.zamg.ac.at/&#34; target=&#34;_self&#34;&gt;ZAMG&lt;/a&gt;&amp;#0160;(Zentralanstalt für Meteorologie und Geodynamik,&amp;#0160;&lt;a href=&#34;http://www.zamg.ac.at/&#34;&gt;Viennese Central Institute for Meteorology and Geodynamics&lt;/a&gt;, Vienna Austria). Via the Harvard &lt;a href=&#34;http://cegrp.cga.harvard.edu/japan/?q=content/maps&#34; target=&#34;_self&#34;&gt;Japan Sendai Earthquake Data Portal&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Note that this is not the hoax map &amp;quot;&lt;a href=&#34;http://www.snopes.com/photos/technology/fallout.asp&#34; target=&#34;_self&#34;&gt;Nuclear fallout&lt;/a&gt;&amp;quot; described by Snopes.&lt;/p&gt;
-&lt;p&gt;Of the map, the authors write (in German)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Zur Farbskalierung ist zu sagen, dass die rote Skala Gebiete kennzeichnet, die seit Beginn des Unfalles mit einer Effektivdosis von&amp;#0160;&lt;strong&gt;maximal&lt;/strong&gt;&amp;#0160;100 Milli-Sievert pro Stunde belastet waren (laut Informationen der IAEO). Die violette Skala zeigt daher maximal 100 Nano-Sievert pro Stunde an. Dieser Wert ist, selbst über ein Jahr summiert, niedriger als die natürliche Belastung, der jeder Mensch ausgesetzt ist.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;as translated&amp;#0160;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Regarding the colour scaling of the simulation, one needs to keep in mind that the red colour marks areas around the plant where&amp;#0160;the effective dose rates were, at the absolute maximum, 100 Milli-Sievert per hour (according to information released by IAEA in&amp;#0160;Vienna). The violet colour thus shows areas with estimated effective dose rates of 100 Nano-Sievert (maximum) per hour. Summed&amp;#0160;up over a period of one year, this would still be less than the natural radiation exposure of an average citizen.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Note that this is a simulation, and based on dispersion calculations. Actual measurements of observed nucleotides have been collected from locations monitoring the Comprehensive Nuclear Test Ban Treaty, as noted in this March 16 post &amp;quot;&lt;a href=&#34;http://www.zamg.ac.at/aktuell/index.php?seite=1&amp;amp;artikel=ZAMG_2011-03-16GMT12:35&#34; target=&#34;_self&#34;&gt;CTBTO Messnetz misst erste Radioaktivitätswerte über Japan/ Korrektur&lt;/a&gt;&amp;quot;.&lt;/p&gt;
-&lt;p&gt;Nature Magazine has a story,&amp;#0160;&lt;a href=&#34;http://www.nature.com/news/2011/110317/full/news.2011.168.html&#34; target=&#34;_self&#34;&gt;Radiation data from Japanese disaster starts to filter out&lt;/a&gt;, (March 17) which describes the release of this data by the Austrian organization &lt;a href=&#34;http://zamg.ac.at&#34; target=&#34;_self&#34;&gt;ZAMG&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://sendai.hmdc.harvard.edu/portal/other_distro/Fukushima_plume_animation.gif&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;More &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/maps/&#34;&gt;maps here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Click to animate this plume of fallout from the Fukushima nuclear disaster in Japan, as produced by ZAMG&amp;#0160;(Zentralanstalt für Meteorologie und Geodynamik,&amp;#0160;Viennese Central Institute for Meteorology and Geodynamics, Vienna Austria). Via the Harvard Japan Sendai Earthquake Data Portal.
+Note that this is not the hoax map &amp;quot;Nuclear fallout&amp;quot; described by Snopes.
+Of the map, the authors write (in German)
+ Zur Farbskalierung ist zu sagen, dass die rote Skala Gebiete kennzeichnet, die seit Beginn des Unfalles mit einer Effektivdosis von&amp;#0160;maximal&amp;#0160;100 Milli-Sievert pro Stunde belastet waren (laut Informationen der IAEO).</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/travel/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Travel on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/travel/</link>
+    <description>Recent content in Travel on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Aug 2013 20:13:43 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>My somewhat internet-free vacation to the Upper Peninsula</title>
@@ -14,14 +17,8 @@
       <pubDate>Fri, 23 Aug 2013 20:13:43 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-23-my-somewhat-internet-free-vacation-to-the-upper-peninsula/</guid>
-      <description>&lt;p&gt;It wasn&#39;t completely internet-free, because there was wifi at my Mom&#39;s place and wifi at McDonald&#39;s for the occasional stops and wifi at the very nice Dead River Cafe in Marquette. But for the most part the net was kept at bay, since T-Mobile data service ended at Pinconning and I was with a phone that didn&#39;t have internet-everywhere coverage for the better part of a week.&lt;/p&gt;
-
-&lt;p&gt;There are a couple of places I would have liked to have captured in the moment while I was there with a camera and with Twitter to share them. For example, there&#39;s the cutest little gazebo-like structure on the Iron Ore Heritage Trail underneath the LS&amp;amp;I railroad trestle. It&#39;s cute until you realize that it&#39;s there to deflect the ore pellets off the trail and off of the heads of passing bicyclists as they go under an active set of tracks.&lt;/p&gt;
-
-&lt;p&gt;I also missed there being a local wiki to look things up in (and to add my own commentary to) for the Upper Peninsula, along the lines of Ann Arbor&#39;s Arborwiki. There&#39;s a lot of history in the area that&#39;s still relatively unwritten, and it would have been fantastic to have a place to store bits of commentary and observations without necessarily broadcasting a stream of social media to my long-suffering friends.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m back, not having missed Facebook much at all, and not having been tethered to a Twitter update stream, and only 100 messages behind in my inbox.&lt;/p&gt;
-</description>
+      <description>It wasn&#39;t completely internet-free, because there was wifi at my Mom&#39;s place and wifi at McDonald&#39;s for the occasional stops and wifi at the very nice Dead River Cafe in Marquette. But for the most part the net was kept at bay, since T-Mobile data service ended at Pinconning and I was with a phone that didn&#39;t have internet-everywhere coverage for the better part of a week.
+There are a couple of places I would have liked to have captured in the moment while I was there with a camera and with Twitter to share them.</description>
     </item>
     
     <item>
@@ -30,33 +27,9 @@
       <pubDate>Sat, 18 Jun 2011 00:54:16 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-18-united-airlines-grounded-by-computer-systems-crash-17-june-2011/</guid>
-      <description>&lt;p&gt;&lt;p&gt;United Airlines is down because of a computer systems crash. Details are minimal as to what has actually happened. Here&amp;rsquo;s some sources.&lt;/p&gt;
-&lt;p&gt;Chicago: &lt;a href=&#34;http://www.chicagobreakingnews.com/news/local/chibrknews-computer-outage-disrupts-united-airlines-flights-20110617,0,7262156.story&#34;&gt;Chicago Breaking News&lt;/a&gt; puts the start of the problems at 7:15 p.m. Central (8:15 p.m. Eastern) and reports major problems at O&amp;rsquo;Hare. A &lt;a href=&#34;http://www.nbcchicago.com/traffic/transit/ohare-united-airlines-flights-124114134.html&#34;&gt;later update&lt;/a&gt; attributes the first official announcement of the problem as coming from the FAA, not from United.&lt;/p&gt;
-&lt;p&gt;Flyertalk forums: &lt;a href=&#34;http://www.flyertalk.com/forum/united-mileage-plus-consolidated/1227426-17-june-major-systems-outage-impacting-uniteds-airport-online-operations-10.html&#34;&gt;Major Systems Outage Impacting United&amp;rsquo;s Airport and Online Operations&lt;/a&gt; details problems into the night affecting United locations nationwide.&lt;/p&gt;
-&lt;p&gt;Web site, United.com: at 1:13 a.m. Eastern, the error is &amp;ldquo;Sorry, your request could not be processed due to system error. Please click the link below to check the flight status.&amp;rdquo; Later, a &lt;a href=&#34;http://www.united.com/page/article/0,6867,53772,00.html&#34;&gt;statement&lt;/a&gt;, unsigned, undated:
-&lt;blockquote&gt;
-This evening, United Airlines experienced a computer outage interrupting the airline’s flight departures, airport processing and reservations systems. As a result, customers may experience difficulties completing transactions at united.com and United reservations. Our technology team is working to resolve the issue as soon as possible. We apologize for the disruption being caused to travelers at affected airports and we are seeking to resume operations as quickly as possible.
-&lt;/blockquote&gt;
-&lt;p&gt;In 2009, a &lt;a href=&#34;http://archive.chicagobreakingnews.com/2009/07/computer-glitch-causes-long-lines-at-ohare.html&#34;&gt;similar problem&lt;/a&gt;, perhaps:
-&lt;blockquote&gt;
-FAA spokeswoman Elizabeth Isham Cory said that United had ordered a ground stop of its planes on its own that ended at 7:55 a.m. The problem began about 5:15 a.m., she said.&lt;/p&gt;
-
-&lt;p&gt;United had told the FAA that it was a computer issue that made the airline unable to check in people for flights and resulted in an inability to get final flight information to the cockpit, Cory said.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;I only remember in my 10 years one other time&amp;rdquo; that computer glitches have caused this much trouble with flights, Cory said.
-&lt;/blockquote&gt;
-A second report shows a similar system-wide glitch in 2007, here &lt;a href=&#34;http://news.cnet.com/8301-10784_3-9732049-7.html&#34;&gt;reported by CNET&lt;/a&gt;:
-&lt;blockquote&gt;
-A total of 24 domestic flights were canceled, and 268 domestic and international flights were delayed by an average of one and half hours, according to United spokeswoman Robin Urbanski Janikowski.
-&amp;ldquo;We do not know the cause of the outage, and it&amp;rsquo;s something that we will investigate. The computer outage affected the systems that United uses to dispatch flights for departure,&amp;rdquo; Janikowski said in an e-mailed statement.
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;Read more: &lt;a href=&#34;http://news.cnet.com/8301-10784_3-9732049-7.html#ixzz1PbZgy3Bn&#34;&gt;http://news.cnet.com/8301-10784_3-9732049-7.html#ixzz1PbZgy3Bn&lt;/a&gt;
-Make that twice in 10 years.
-&lt;/p&gt;
-&lt;p&gt;For some musical interlude, enjoy &amp;ldquo;United Breaks Guitars&amp;rdquo; from 2009.&lt;/p&gt;
-&lt;iframe width=&#34;500&#34; height=&#34;314&#34; src=&#34;http://www.youtube.com/embed/5YGc4zOqozo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>United Airlines is down because of a computer systems crash. Details are minimal as to what has actually happened. Here&amp;rsquo;s some sources.
+Chicago: Chicago Breaking News puts the start of the problems at 7:15 p.m. Central (8:15 p.m. Eastern) and reports major problems at O&amp;rsquo;Hare. A later update attributes the first official announcement of the problem as coming from the FAA, not from United.
+Flyertalk forums: Major Systems Outage Impacting United&amp;rsquo;s Airport and Online Operations details problems into the night affecting United locations nationwide.</description>
     </item>
     
     <item>
@@ -65,12 +38,10 @@ Make that twice in 10 years.
       <pubDate>Mon, 27 Dec 2010 11:15:16 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-12-27-interurban-newsletters/</guid>
-      <description>&lt;p&gt;Some titles available in Google Books; there&amp;#39;s certain to be more.&lt;/p&gt;
-&lt;p&gt;Electric Railway Journal. &amp;#0160;v.33, &lt;a href=&#34;http://books.google.com/books?id=moxMAAAAYAAJ&#34; target=&#34;_self&#34;&gt;1906&lt;/a&gt;. v.42, &lt;a href=&#34;http://books.google.com/books?id=xalMAAAAYAAJ&#34; target=&#34;_self&#34;&gt;1913&lt;/a&gt;. v.45, &lt;a href=&#34;http://books.google.com/books?id=y6dMAAAAYAAJ&#34; target=&#34;_self&#34;&gt;1915&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Street Railway Journal. v.21, &lt;a href=&#34;http://books.google.com/books?id=cmhJAAAAYAAJ&#34; target=&#34;_self&#34;&gt;1903&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Electric Railway Service (Detroit United Lines). &lt;a href=&#34;http://books.google.com/books?id=EmQ1AAAAMAAJ&#34; target=&#34;_self&#34;&gt;1917&lt;/a&gt;. This last one is remarkable as an in-house PR newsletter, full of editorials railing against the Detroit Evening News, and with notably precise accounting for the delays (and causes thereof) on streetcar lines. &amp;quot;The Lying Evening News Still Continues to Lie&amp;quot; was a headline from 1914.&lt;/p&gt;
-&lt;p&gt;Print archives include the Plymouth (Michigan) Historical Museum, with a &lt;a href=&#34;http://www.plymouthhistory.org/findingaids/rg49findingaid.htm&#34; target=&#34;_self&#34;&gt;finder&amp;#39;s aid available&lt;/a&gt;, and the University of Michigan &lt;a href=&#34;http://porter.umdl.umich.edu/r/railroad/&#34; target=&#34;_self&#34;&gt;Transportation History Collection&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Some titles available in Google Books; there&amp;#39;s certain to be more.
+Electric Railway Journal. &amp;#0160;v.33, 1906. v.42, 1913. v.45, 1915.
+Street Railway Journal. v.21, 1903.
+Electric Railway Service (Detroit United Lines). 1917. This last one is remarkable as an in-house PR newsletter, full of editorials railing against the Detroit Evening News, and with notably precise accounting for the delays (and causes thereof) on streetcar lines. &amp;quot;The Lying Evening News Still Continues to Lie&amp;quot; was a headline from 1914.</description>
     </item>
     
     <item>
@@ -79,8 +50,8 @@ Make that twice in 10 years.
       <pubDate>Sun, 11 Apr 2010 22:25:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-04-11-subaru-forester-2006-diagnostic-code-p0851/</guid>
-      <description>&lt;p&gt;Check engine light goes on, and the cruise control light blinks. &amp;#0160;The vehicle&amp;#39;s owner is concerned.&lt;/p&gt;&lt;p&gt;Drive the car to an auto parts store (O&amp;#39;Reilly, formerly Murray&amp;#39;s), borrow their diagnostic tool, read out the code. &amp;#0160;The tool itself doesn&amp;#39;t say too much about what it is, but it was free to use, and it was easy to use. &amp;#0160;Note to self: next time the check engine light goes on on any vehicle, take it there first.&lt;/p&gt;&lt;p&gt;Spend some time searching online; after what seems like too much time, find this Subaru service bulletin, titled&amp;#0160;&lt;a href=&#34;http://techinfo.subaru.com/html/downloadPdf.jsp?doc_id=157592&#34;&gt;Diagnostic procedures for P0851/P0852&lt;/a&gt;. See also a copy of this on the BSR site, also &lt;a href=&#34;http://www.bescaredracing.com/sti/tsb/P051-P052_procedures.pdf&#34;&gt;Diagnostic procedures for P0851/P0852&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;An &lt;a href=&#34;http://www.justanswer.com/questions/1f02n-p0851-neutral-safety-switch-2003-subaru-legacy-wag-automatic&#34;&gt;answer on JustAnswers&lt;/a&gt; makes it look like a routine task and not a safety concern, but with all of this car stuff, it&amp;#39;s hard to know precisely.&lt;/p&gt;
-</description>
+      <description>Check engine light goes on, and the cruise control light blinks. &amp;#0160;The vehicle&amp;#39;s owner is concerned.
+Drive the car to an auto parts store (O&amp;#39;Reilly, formerly Murray&amp;#39;s), borrow their diagnostic tool, read out the code. &amp;#0160;The tool itself doesn&amp;#39;t say too much about what it is, but it was free to use, and it was easy to use. &amp;#0160;Note to self: next time the check engine light goes on on any vehicle, take it there first.</description>
     </item>
     
     <item>
@@ -89,23 +60,9 @@ Make that twice in 10 years.
       <pubDate>Wed, 15 Jul 2009 21:57:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-07-15-i75-at-9-mile-road-in-hazel-park-north-of-detroit-mi-tanker-explosion/</guid>
-      <description>&lt;p&gt;A gasoline tanker exploded at I-75 and 9 Mile Road. &amp;nbsp;Here&#39;s what I was able to find out. &amp;nbsp;No photos posted here, a few videos embedded, you will find plenty by clicking through.&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Detroit Free Press: &lt;a href=&#34;http://freep.com/article/20090715/NEWS03/90715083&#34;&gt;Tanker Fire in Hazel Park closes I-75&lt;/a&gt;&lt;/div&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: Georgia; font-size: 13px; &#34;&gt;Fire crews are on the scene of the crash 10 miles north of downtown Detroit. Police are ordering onlookers gathered along the top of the embankments along the crash site to move back to avoid exposure to toxic smoke.&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: Georgia; font-size: 13px; line-height: 15px;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;a href=&#34;http://www.wxyz.com/news/story/BREAKING-Massive-Fire-in-Hazel-Park/DfqWrkOca0avFwo2l2ybSA.cspx&#34;&gt;WXYZ&lt;/a&gt;&lt;span style=&#34;font-size: 13px; line-height: 15px; font-family: Arial; &#34;&gt; has a photo set with &lt;/span&gt;&lt;a href=&#34;http://www.wxyz.com/Photo.aspx?content_id=ae96fa0d-9c43-466b-af17-0a36976c9b48&#34;&gt;dramatic photos of the fire scene&lt;/a&gt;&lt;span style=&#34;font-size: 13px; line-height: 15px; font-family: Arial; &#34;&gt;.&lt;/span&gt;&lt;div&gt;&lt;span style=&#34;font-family: Arial; font-size: 13px; line-height: 15px;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: Verdana; line-height: normal; font-size: 12px; &#34;&gt;HAZEL PARK, Mich. (WXYZ) - A tanker truck--and possibly two or three semi trucks--has exploded in the vacinity of northbound I-75/I-696/Nine Mile Road in Hazel Park, causing a massive fire and explosion.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;Twitter user kevindavis1914 is on the scene and posted &lt;/span&gt;&lt;a href=&#34;http://twitpic.com/ahmeb&#34;&gt;photos of black smoke clouds&lt;/a&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;&#34;&lt;/span&gt;&lt;a href=&#34;http://search.twitter.com/search?q=i-75&#34;&gt;I-75&lt;/a&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;&#34; is a trending topic on Twitter; no coverage yet from CNN, NY Times, MSNBC.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&#34;http://www.traffic.com/Detroit-Traffic/Detroit-Traffic-Reports.html&#34;&gt;Detroit.Traffic.Com&lt;/a&gt;&lt;span style=&#34;font-family: Verdana; font-size: 12px; line-height: normal;&#34;&gt; shows I-75 closed between 8 Mile Road and I-696.&lt;/span&gt;&lt;/div&gt;
-&lt;p&gt;
-update: an 8 minute live video clip from WXYZ
-&lt;/p&gt;&lt;p&gt;update: &lt;a href=&#34;http://www.macombdaily.com/articles/2009/07/15/news/doc4a5e8806c1640717392767.txt&#34;&gt;Macomb Daily&lt;/a&gt; story&lt;/p&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-family: &#39;Courier New&#39;; line-height: 21px; color: #363636; font-size: 14px; &#34;&gt;The driver of the tanker escaped with minor injuries, asking authorities to call his Lansing-based company to let them know he made it out of the vehicle, which was engulfed in flames that covered the freeway and reached up beyond the overpass.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;color: #363636; font-family: &#39;Courier New&#39;; font-size: 14px; line-height: 21px;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;script language=&#34;JavaScript&#34; type=&#34;text/javascript&#34; src=&#34;http://wxyz.img.origin.entriq.net/dayportcore/dpm/DayPortPlayers.js&#34;&gt;&lt;/script&gt;&lt;script language=&#34;JavaScript&#34; type=&#34;text/javascript&#34;&gt;DayPortPlayer.newPlayer({articleID:&#34;21747&#34;,bannerAdObjectID:&#34;null&#34;,videoAdObjectID:&#34;null&#34;,videoAdConDefID:&#34;2&#34;,playerInstanceID:&#34;24FAD9E0-DC70-2532-414F-7E6F051C4C2F&#34;,domain:&#34;wxyz.dayport.com&#34;,rootCategory:&#34;null&#34;,categoryID:&#34;16&#34;,accPos:&#34;CCTVI.NEWS&#34;,accSite:&#34;WXYZ&#34;});&lt;/script&gt;
-&lt;p&gt;Update: SEMCOG &lt;a href=&#34;http://www.semcog.org/Data/Apps/crash.report.cfm?type=0&amp;id=63067587&#34;&gt;historical crash data for the area&lt;/a&gt;, not including this crash, showing the roads in the immediate vicinity.&lt;/p&gt;
-&lt;p&gt;Update: Fox 2 WJBK video
-&lt;object type=&#34;application/x-shockwave-flash&#34; id=&#34;video&#34; width=&#34;320&#34; height=&#34;280&#34; data=&#34;http://www.myfoxdetroit.com/video/videoplayer.swf&#34;&gt;&lt;param value=&#34;http://www.myfoxdetroit.com/video/videoplayer.swf&#34; name=&#34;movie&#34;/&gt;&lt;param value=&#34;&amp;skin=MP1ExternalAll-MFL.swf&amp;embed=true&amp;adSrc=http%3A%2F%2Fad%2Edoubleclick%2Enet%2Fadx%2Ftsg%2Ewjbk%2Fnews%2Fdetail%3Bdcmt%3Dtext%2Fxml%3Bpos%3D%3Btile%3D2%3Bsz%3D320x240%3Bord%3D844808058580383600%3Frand%3D0%2E08184802834875882&amp;flv=http%3A%2F%2Fwww%2Emyfoxdetroit%2Ecom%2Ffeeds%2FoutboundFeed%3FobfType%3DVIDEO%5FPLAYER%5FSMIL%5FFEED%26componentId%3D130213343&amp;img=http%3A%2F%2Fmedia2%2Emyfoxdetroit%2Ecom%2F%2Fphoto%2F2009%2F07%2F15%2F9%2DP%2DTANKER%2DFIRE%5Ftmb0000%5F20090715220638%5F640%5F480%2EJPG&amp;story=http%3A%2F%2Fwww%2Emyfoxdetroit%2Ecom%2Fdpp%2Fnews%2F090715%5Ftankers%5Fexplode&#34; name=&#34;FlashVars&#34;/&gt;&lt;param value=&#34;all&#34; name=&#34;allowNetworking&#34;/&gt;&lt;param value=&#34;always&#34; name=&#34;allowScriptAccess&#34;/&gt;&lt;/object&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Power outages map from DTE Energy shows 2000-5000 people in the vicinity without power:
-&lt;a style=&#34;display: inline;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01157116e3dd970c-pi&#34;&gt;&lt;img class=&#34;at-xid-6a00d8341c4f1a53ef01157116e3dd970c&#34; alt=&#34;Picture 7&#34; title=&#34;Picture 7&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01157116e3dd970c-800wi&#34; border=&#34;0&#34;  /&gt;&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Update: Youtube video from @traviswolf; he writes &#34;my house is 1 block in from﻿ the 75 service drive at nine mile. this is basically my back yard.
-&lt;object width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/6YonK6rTUxI&amp;hl=en&amp;fs=1&amp;&#34;&gt;&lt;/param&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;&gt;&lt;/param&gt;&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34;&gt;&lt;/param&gt;&lt;embed src=&#34;http://www.youtube.com/v/6YonK6rTUxI&amp;hl=en&amp;fs=1&amp;&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
-</description>
+      <description>A gasoline tanker exploded at I-75 and 9 Mile Road. &amp;nbsp;Here&#39;s what I was able to find out. &amp;nbsp;No photos posted here, a few videos embedded, you will find plenty by clicking through.
+
+Detroit Free Press: Tanker Fire in Hazel Park closes I-75Fire crews are on the scene of the crash 10 miles north of downtown Detroit. Police are ordering onlookers gathered along the top of the embankments along the crash site to move back to avoid exposure to toxic smoke.</description>
     </item>
     
     <item>
@@ -114,40 +71,8 @@ Update: Youtube video from @traviswolf; he writes &#34;my house is 1 block in fr
       <pubDate>Tue, 02 Jun 2009 23:05:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-02-after-the-car-john-urry-and-kingsley-dennis/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Kingsley Dennis and John Urry have a new book out, &amp;ldquo;After The Car&amp;rdquo;.&amp;nbsp; I have a review copy on the way from the publisher; until it arrives, you can see the intro and the index from the Amazon link below.&amp;nbsp; This is an oddly appropriate text to anticipate the week GM went bankrupt.&lt;/p&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;Allow me for a brief moment to indulge. I would
-like to inform you that my co-authored book titled &amp;lsquo;After the Car&amp;rsquo; has
-now been published (finally!), and is currently sitting idly in Amazon.
-See - &lt;br&gt;
-&lt;iframe marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://rcm.amazon.com/e/cm?t=superpatron-20&amp;amp;o=1&amp;amp;p=8&amp;amp;l=as1&amp;amp;asins=0745644228&amp;amp;md=10FE9736YVPPT7A0FBG2&amp;amp;fc1=000000&amp;amp;IS2=1&amp;amp;lt1=_blank&amp;amp;m=amazon&amp;amp;lc1=0000FF&amp;amp;bc1=000000&amp;amp;bg1=FFFFFF&amp;amp;f=ifr&#34; style=&#34;width: 120px; height: 240px;&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;br&gt;Generally
-the book is &amp;lsquo;academic-ish&amp;rsquo; and I&amp;rsquo;m not expecting any of you to buy!
-Although concerned with the car the book is also about the &amp;lsquo;future&amp;rsquo; and
-addresses issues of a post peak-oil society. If you should feel so
-inclined, or know of anyone who might be mildly interested, I would be
-happy that you pass on the news. Below is the blurb:&lt;br&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;strong&gt;Product Description&lt;/strong&gt;&lt;br&gt; It is difficult to imagine a world
-without the car, and yet that is exactly what Dennis and Urry set out
-to do in this provocative new book. They argue that the days of the car
-are numbered: powerful forces around the world are undermining the car
-system and will usher in a new transport system sometime in the next
-few decades. Specifically, the book examines how several major
-processes are shaping the future of how we travel, including:&lt;br&gt;• Global warming and its many global consequences&lt;br&gt;• Peaking of oil supplies&lt;br&gt;• Increased digitisation of many aspects of economic and social life&lt;br&gt;• Massive global population increases&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;The
-authors look at changes in technology, policy, economy and society, and
-make a convincing argument for a future where, by necessity, the
-present car system will be re–designed and re–engineered. Yet the
-book also suggests that there are some hugely bleak dilemmas facing the
-twenty first century. The authors lay out what they consider to be
-possible ‘post–car’ future scenarios. These they describe as ‘local
-sustainability’, ‘regional warlordism’ and ‘digital networks of
-control’. &lt;br&gt;&lt;em&gt;After The Car&lt;/em&gt; will be of great interest to
-planners, policy makers, social scientists, futurologists, those
-working in industry, as well as general readers.&lt;br&gt;Some have
-described the 20th Century as the century of the car. Now that century
-has come to a close – and things are about to change. &lt;br&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Kingsley Dennis and John Urry have a new book out, &amp;ldquo;After The Car&amp;rdquo;.&amp;nbsp; I have a review copy on the way from the publisher; until it arrives, you can see the intro and the index from the Amazon link below.&amp;nbsp; This is an oddly appropriate text to anticipate the week GM went bankrupt.
+Allow me for a brief moment to indulge. I would like to inform you that my co-authored book titled &amp;lsquo;After the Car&amp;rsquo; has now been published (finally!</description>
     </item>
     
     <item>
@@ -156,8 +81,7 @@ has come to a close – and things are about to change. &lt;br&gt;&lt;/div&gt;&l
       <pubDate>Tue, 23 Dec 2008 16:20:36 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-12-23-the-bus-game-why-its-important-to-get-the-aatas-mobile-ridetrak-back-online/</guid>
-      <description>&lt;p&gt;While &lt;a href=&#34;http://theride.org/SystemDown.asp&#34;&gt;waiting for the AATA&amp;#39;s mobile ridetrak system to go back online&lt;/a&gt; (it&amp;#39;s been down for two weeks now due to &lt;a href=&#34;http://annarborchronicle.com/2008/12/16/local-groups-scramble-after-ias-eviction/&#34;&gt;a series of unfortunate events&lt;/a&gt;), I&amp;#39;ve been thinking about how to model the network of bus and pedestrian routes so that you could say some useful things about the goodness of a given route network for a particular task at a particular time of day.&amp;#0160; What I&amp;#39;m after is understanding just how far I can reasonably go from where I am to somewhere else useful based on bus routes, my willingness or ability to walk, and the minute by minute information about how late the bus is.&lt;/p&gt;&lt;p&gt;Frankly, this is a complex set of questions to answer, especially if you&amp;#39;re unwilling to wait outside for the bus and if you&amp;#39;re willing to ride unfamiliar buses to new destinations.&amp;#0160; Most people figure out how a single route does between two places at two particular times, sorting through the commuter problem and coming up with a rough rule of thumb that depends on the bus being more or less predictably late.&amp;#0160;&amp;#0160; By the time you sort through all of the details to get somewhere new, the bus might have gone by.&lt;/p&gt;&lt;p&gt;Some observations, numbered, probably requiring each of them to have more details.&lt;/p&gt;&lt;p&gt;1.&amp;#0160; Always carry a paper schedule.&amp;#0160; If the bus computer system is down again, or your phone is out of battery, a piece of paper no matter how confusing is probably better than nothing.&lt;/p&gt;&lt;p&gt;2.&amp;#0160; Some places are better to wait than others.&amp;#0160; The cost of being wrong about a bus when you&amp;#39;re at the Blake Transit Center is small, because there&amp;#39;s a warm place to wait and because there are six buses an hour that go to or near enough to my house to be reasonable to get on.&amp;#0160; Contrairiwise, missing a bus by 1 minute on some routes might mean you would wait for an hour (or more).&amp;#0160; &lt;/p&gt;&lt;p&gt;3.&amp;#0160; Close by stops might really be far away.&amp;#0160; This is a function of pedestrian access - if you need to cross a busy street to get to a stop, it might take two, three, or five minutes to cross between lights and perhaps even a 20 minute hike if you look at the worst pedestrian crossing (Washtenaw at Platt).&amp;#0160; A naive pedestrian distance measure is going to be wrong.&lt;/p&gt;&lt;p&gt;4.&amp;#0160; All roads lead to downtown.&amp;#0160; With a few exceptions, the Ann Arbor route system is about getting people to the center of Ann Arbor.&amp;#0160; You&amp;#39;ll have a lot better luck getting anywhere if you go downtown first and use it as the base of operations.&amp;#0160;&amp;#0160; I looked at &amp;quot;optimal routes&amp;quot; from home to some places nearby and the best way to get there was a 20+ minute walk, and there are too many destinations where the trip by bus is 40+ minutes for what is a 10 minute drive.&amp;#0160; &lt;/p&gt;&lt;p&gt;5.&amp;#0160; The University bus system, although frequent, is not integrated with the AATA system.&amp;#0160; This is most notable when you look at Google Transit to plan a trip and notice that it doesn&amp;#39;t ever put you on a UM bus.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160; Many of the UM buses run frequently enough during my time to use them that no schedule is necessary, but you have to always be prepared to do a transfer of a random, maximum time if you&amp;#39;re switching lines.&lt;/p&gt;&lt;p&gt;The model that I had in mind for looking at this whole system was to make a big graph, with each node on the graph being a plausible location to be at and the edges being the time to go to the next node.&amp;#0160; There would be a pedestrian network reflecting the sidewalks and bus stops, and a bus network overlaid on top of it where if you were on the bus you could move from node to node but if you weren&amp;#39;t on the bus you&amp;#39;d have to wait.&amp;#0160; Some nodes would be warm (cafes, libraries) and some would be cold and slushy (most bus stops).&amp;#0160; &lt;/p&gt;&lt;p&gt;This graph becomes the playing board for a big urban game.&amp;#0160; You and all of the other players start at various points on the board, and each minute you take a turn either walking to a next node, staying still where you are, or riding on a bus.&amp;#0160; The winner after 60 turns is the person who managed to get the highest score - whether it be maximum minutes on a bus, maximum distance from origin, maximum distance walking, interesting destinations reached, or any other measure you&amp;#39;d like to score.&amp;#0160; Minus points for wet boots.&amp;#0160; Double minus points for missing the kids pickup from day care.&lt;/p&gt;&lt;p&gt;As you can see from thinking about this game a little bit, you can play a lot more effectively if you know where all of the buses are.&amp;#0160; Instead of getting negative points for the boot-minutes you spend shivering at the stop, you can accumulate credits indoors until the last minute necessary to get outside.&amp;#0160;&amp;#0160; Knowing that an infrequent bus is close by lets you get bonus points for going to stops that are close by but not often served, and it lets you avoid missed connections where the schedule says you can get from one line to another but you won&amp;#39;t make that connection when the outbound line is late.&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;I&amp;#39;m collecting a bunch of links about this on delicious - see &lt;a href=&#34;http://delicious.com/vielmetti/where-is-my-fracking-bus&#34;&gt;http://delicious.com/vielmetti/where-is-my-fracking-bus&lt;/a&gt; for my idiosyncratic collection, and more generally if you are looking at transportation literature a key term is &lt;a href=&#34;http://ntlsearch.bts.gov/tris/search.do?new=&amp;amp;b1=9&amp;amp;f1=ht&amp;amp;t1=Automatic+vehicle+location&amp;amp;d=&#34;&gt;automatic vehicle location&lt;/a&gt;.&amp;#0160; Route planning sits on top of that, and the best current summary of the state of the world is from &lt;a href=&#34;http://radar.oreilly.com/2008/12/the-state-of-transit-routing.html&#34;&gt;Andrew Turner&amp;#39;s summary of the state of transit routing in 2008&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>While waiting for the AATA&amp;#39;s mobile ridetrak system to go back online (it&amp;#39;s been down for two weeks now due to a series of unfortunate events), I&amp;#39;ve been thinking about how to model the network of bus and pedestrian routes so that you could say some useful things about the goodness of a given route network for a particular task at a particular time of day.&amp;#0160; What I&amp;#39;m after is understanding just how far I can reasonably go from where I am to somewhere else useful based on bus routes, my willingness or ability to walk, and the minute by minute information about how late the bus is.</description>
     </item>
     
     <item>
@@ -166,43 +90,9 @@ has come to a close – and things are about to change. &lt;br&gt;&lt;/div&gt;&l
       <pubDate>Mon, 15 Dec 2008 13:45:18 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-12-15-after-the-car-john-urry-and-kingsley-dennis/</guid>
-      <description>&lt;p&gt;thanks to &lt;a href=&#34;http://panarchy.com&#34;&gt;Paul Hartzog &lt;/a&gt;for the connection.&lt;/p&gt;&lt;p&gt;A new book on its way on the post-automotive era; quoting their release page in its entirety.&lt;/p&gt;&lt;div id=&#34;bookinfo&#34;&gt;
-        &lt;a href=&#34;http://www.polity.co.uk/book.asp?ref=9780745644219&#34;&gt;After the Car&lt;/a&gt;
-        
-        &lt;span style=&#34;font-family: Arial;&#34;&gt;&lt;strong&gt;By: &lt;/strong&gt;John Urry (Lancaster University) and Kingsley DENNIS&lt;/span&gt;&lt;script src=&#34;http://w.sharethis.com/widget/?tabs=email%2Cweb&amp;amp;charset=utf-8&amp;amp;style=default&amp;amp;publisher=089f821f-9995-48b4-81d9-c156ce5b82bc&amp;amp;headerbg=%236fa0c4&amp;amp;inactivebg=%23999999&amp;amp;inactivefg=%23ffffff&amp;amp;linkfg=%23c27045&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;&lt;span style=&#34;font-family: Arial;&#34;&gt;.&lt;/span&gt;
-        &lt;div class=&#34;clear&#34;&gt;&lt;hr /&gt;&lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div id=&#34;bookcover&#34;&gt;
-        
-        
-                &lt;img alt=&#34;&#34; height=&#34;270&#34; src=&#34;http://www.blackwellpublishing.com//content/BPL_Images/Content_Store/Middle_Sized/URRY9780745644219/DENNIS_URRY-%20After%20the%20Car1.jpg&#34; /&gt;
-            
-        
-        
-        &lt;/div&gt;          
-        
-        
-            &lt;h3 style=&#34;clear: both;&#34;&gt;&lt;a class=&#34;linktitle&#34; name=&#34;description&#34;&gt;Description&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;
-It is difficult to imagine a world without the car, and yet that is
-exactly what Dennis and Urry set out to do in this provocative new
-book. They argue that the days of the car are numbered: powerful forces
-around the world are undermining the car system and will usher in a new
-transport system sometime in the next few decades. Specifically, the
-book examines how several major processes are shaping the future of how
-we travel, including:&lt;br /&gt;• Global warming and its many global consequences&lt;br /&gt;• Peaking of oil supplies&lt;br /&gt;• Increased digitisation of many aspects of economic and social life&lt;br /&gt;• Massive global population increases&lt;br /&gt;The
-authors look at changes in technology, policy, economy and society, and
-make a convincing argument for a future where, by necessity, the
-present car system will be re-designed and re-engineered. &lt;/p&gt;&lt;p&gt;Yet
-the book also suggests that there are some hugely bleak dilemmas facing
-the twenty first century. The authors lay out what they consider to be
-possible &amp;#39;post-car&amp;#39; future scenarios. These they describe as &amp;#39;local
-sustainability&amp;#39;, &amp;#39;regional warlordism&amp;#39; and &amp;#39;digital networks of
-control&amp;#39;. &lt;/p&gt;&lt;p&gt;&lt;em&gt;After The Car&lt;/em&gt; will be of great interest to
-planners, policy makers, social scientists, futurologists, those
-working in industry, as well as general readers.&lt;/p&gt;&lt;p&gt;Some have
-described the 20th Century as the century of the car. Now that century
-has come to a close - and things are about to change. &lt;/p&gt;
-</description>
+      <description>thanks to Paul Hartzog for the connection.
+A new book on its way on the post-automotive era; quoting their release page in its entirety.
+After the Car By: John Urry (Lancaster University) and Kingsley DENNIS.    Description It is difficult to imagine a world without the car, and yet that is exactly what Dennis and Urry set out to do in this provocative new book. They argue that the days of the car are numbered: powerful forces around the world are undermining the car system and will usher in a new transport system sometime in the next few decades.</description>
     </item>
     
     <item>
@@ -211,18 +101,8 @@ has come to a close - and things are about to change. &lt;/p&gt;
       <pubDate>Mon, 18 Aug 2008 14:07:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-18-link-bus-2008-m/</guid>
-      <description>&lt;p&gt;The Ann Arbor Link Bus starts service again next week.&amp;nbsp; Every year I get tired of not being able to figure out when the bus is going to show up, and this year I tried to build a new map to help out.&amp;nbsp; This is a work in progress.&lt;/p&gt;
-
-&lt;p&gt;The key idea here (so far poorly executed, but I&#39;ll get it right) is to replace the stop letters with stop numbers, and to number the stops by the number of minutes after the quarter hour that the bus is expected.&amp;nbsp; So the Y stop becomes an 11 stop, since the bus is supposed to get there at 11 26 41 56.&lt;/p&gt;
-
-&lt;p&gt;Google Maps now has a way to do custom icons, and I&#39;m using letters from a Unicode alphabet to get the circled numbers.&amp;nbsp; A few glitches still until I host those icons locally.&amp;nbsp; It&#39;s hard to get the icons located precisely right at all scales and resolutions, don&#39;t know how to fix that (short of actually doing paste up on a paper map).&lt;/p&gt;
-
-&lt;p&gt;UPDATE: &lt;a href=&#34;http://www.homelessdave.com&#34;&gt;Dave Askins&lt;/a&gt; is contributing a set of icons for the stop markers - the &amp;ldquo;9&amp;rdquo; stop there is the new and improved, which allows for better stop locating.&lt;/p&gt;
-
-&lt;iframe width=&#34;425&#34; scrolling=&#34;no&#34; height=&#34;350&#34; frameborder=&#34;0&#34; src=&#34;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;hl=en&amp;amp;msa=0&amp;amp;msid=113932165856461159137.000454b12127d16d9f71e&amp;amp;ll=42.276816,-83.737675&amp;amp;spn=0.011336,0.023754&amp;amp;output=embed&amp;amp;s=AARTsJpzVzgf33wwyrLyUrZ7g5ACoXMMoA&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;a href=&#34;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;hl=en&amp;amp;msa=0&amp;amp;msid=113932165856461159137.000454b12127d16d9f71e&amp;amp;ll=42.276816,-83.737675&amp;amp;spn=0.011336,0.023754&amp;amp;source=embed&#34; style=&#34;color: rgb(0, 0, 255); text-align: left;&#34;&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-</description>
+      <description>The Ann Arbor Link Bus starts service again next week.&amp;nbsp; Every year I get tired of not being able to figure out when the bus is going to show up, and this year I tried to build a new map to help out.&amp;nbsp; This is a work in progress.
+The key idea here (so far poorly executed, but I&#39;ll get it right) is to replace the stop letters with stop numbers, and to number the stops by the number of minutes after the quarter hour that the bus is expected.</description>
     </item>
     
     <item>
@@ -231,31 +111,16 @@ has come to a close - and things are about to change. &lt;/p&gt;
       <pubDate>Tue, 06 May 2008 10:11:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-05-06-personalized-tr/</guid>
-      <description>&lt;p&gt;Some notes on something that doesn&#39;t exist yet, but should.&lt;/p&gt;
-
-&lt;p&gt;Imagine a service that has URLs like&lt;/p&gt;
-
-&lt;p&gt;http://wheresmybus.org/route/5/inbound/packard+granger/3&lt;br /&gt;
-http://wheresmybus.org/route/any/inbound/packard+state/0&lt;br /&gt;
-http://wheresmybus.org/route/any/any/stone-school+eisenhower/4&lt;/p&gt;
-
-&lt;p&gt;and which has a very simple output of the times you need to leave to catch the next bus&lt;/p&gt;
-
-&lt;p&gt;8:04&lt;br /&gt;
-8:22&lt;/p&gt;
-
-&lt;p&gt;based on the following:&lt;/p&gt;
-
-&lt;p&gt;real time bus location information (via mobile ridetrak), for buses already en route, and then estimated times for scheduled buses not yet visible.  This is scrapable from existing services.&lt;/p&gt;
-
-&lt;p&gt;previously estimated, interpolated times for time points, so &#34;packard+granger&#34; is known to be &#34;packard+south&#34; plus 2 minutes.  Interpolation is something that the AATA won&#39;t provide, but if you know your route you can probably get within a minute or two.&lt;/p&gt;
-
-&lt;p&gt;user specified time offsets to show time you spend to get to the bus stop, the &#34;3&#34; in the above giving me time to walk out the door and walk to the bus, but not to run.&lt;/p&gt;
-
-&lt;p&gt;The &#34;any&#34; route variant would let you simultaneously get information about next-bus routing for stops that have multiple lines serving them, and also let you go in any direction just in case you want the &#34;anywhere but here&#34; bus system.&lt;/p&gt;
-
-&lt;p&gt;In my typical use of mobile ridetrak I often do this computation in my head (oh, the bus is 8 minutes late...let&#39;s see, that means I can leave at ... or walk down how many stops?)  That&#39;s a lot of math for what should be straightforward for a computer to put together, and if you crunched this down tiny enough it could fit on a very tiny screen.&lt;/p&gt;
-</description>
+      <description>Some notes on something that doesn&#39;t exist yet, but should.
+Imagine a service that has URLs like
+http://wheresmybus.org/route/5/inbound/packard+granger/3
+http://wheresmybus.org/route/any/inbound/packard+state/0
+http://wheresmybus.org/route/any/any/stone-school+eisenhower/4
+and which has a very simple output of the times you need to leave to catch the next bus
+8:04
+8:22
+based on the following:
+real time bus location information (via mobile ridetrak), for buses already en route, and then estimated times for scheduled buses not yet visible. This is scrapable from existing services.</description>
     </item>
     
   </channel>

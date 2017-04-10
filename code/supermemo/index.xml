@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/supermemo/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Supermemo on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/supermemo/</link>
+    <description>Recent content in Supermemo on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/code/supermemo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2011 11:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/supermemo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Supermemo, spaced repetition and time-structured randomness</title>
@@ -14,12 +17,7 @@
       <pubDate>Mon, 06 Jun 2011 11:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-06-supermemo-spaced-repetition-and-structured-randomness/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Picture 4&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01538eec7f78970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01538eec7f78970b-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Picture 4&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ve written about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/08/supermemo-repet.html&#34; target=&#34;_self&#34;&gt;Supermemo&lt;/a&gt; before, a system for focusing your attention on things that you have previously learned in such a way that you reinforce long term memory. Given a set of items which you were confident in at a stage in the past, identify a way to re-test yourself on that confidence. Space out those retest intervals so that you keep the learning from decaying into nothingness. Repetition is the very soul of the net, and if you are careful you can repeat at intervals that don&amp;#39;t overwhelm.&lt;/p&gt;
-&lt;p&gt;New to me this week is a similar spaced repetition training tool focused on short term memory. Referred to as &amp;quot;&lt;a href=&#34;http://en.wikipedia.org/wiki/N-back&#34; target=&#34;_self&#34;&gt;N-back&lt;/a&gt;&amp;quot; (Wikipedia), it looks at turning the process of matching repetitive items in a sequence into a game, with higher scores if you can recall that e.g. 3 letters ago there was also an &amp;#39;x&amp;#39; in the string. The application &lt;a href=&#34;http://brainworkshop.sourceforge.net/&#34; target=&#34;_self&#34;&gt;Brain Workshop&lt;/a&gt;&amp;#0160;was created by Paul Hoskinson and lets you play with your current skills; I haven&amp;#39;t seen anyone render this into hardware a la the old game of &lt;strong&gt;Simon&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;To turn the random noise of the world into patterns that you understand and can manipulate and recognize, you need to find the useful connections and build upon them somehow. You can&amp;#39;t just learn by remembering things out of context - it always helps to learn by doing. People love to make things into patterns, and an organized exploration of an otherwise random world can help you make connections which are key to understanding the world.&lt;/p&gt;
-&lt;p&gt;The space I keep trying to explore is remembering the names of people, some of whom I know rather well by face, others who I know only by their work. The index into this space that lends itself to randomness is the birthday, which you can be pretty sure to capture less than 1% of the set of people every day. Alas, &lt;a href=&#34;http://www.letsmovetothemoon.com/facebook-cheapens-birthdays/&#34; target=&#34;_self&#34;&gt;Facebook has cheapened&lt;/a&gt; the opportunity for &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/12/how-to-remember-birthdays-ed44-edition.html&#34; target=&#34;_self&#34;&gt;remembering someone&amp;#39;s birthday&lt;/a&gt; as a distinguishing mark, so the challenge is to use this somehow else; if I happen to remember your half birthday, it&amp;#39;s because I&amp;#39;m trying to remember and plan both forward and back 6 months. Even better if I send you a half-birthday postcard (to combine two unusual abilities). Wish me luck.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;ve written about Supermemo before, a system for focusing your attention on things that you have previously learned in such a way that you reinforce long term memory. Given a set of items which you were confident in at a stage in the past, identify a way to re-test yourself on that confidence. Space out those retest intervals so that you keep the learning from decaying into nothingness. Repetition is the very soul of the net, and if you are careful you can repeat at intervals that don&amp;#39;t overwhelm.</description>
     </item>
     
     <item>
@@ -28,22 +26,8 @@
       <pubDate>Tue, 12 Aug 2008 14:11:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-12-supermemo-repet/</guid>
-      <description>&lt;p&gt;I wrote about SuperMemo some months back, but if I&#39;ve told you once, I&#39;ve told you 146 times: &lt;a href=&#34;http://www.google.com/search?q=%22repetition+is+the+very+soul+of+the+net%22&#34;&gt;repetition is the very soul of the net&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.supermemo.com/&#34;&gt;SuperMemo&lt;/a&gt; is a piece of software from P A Wozniak, originally developed in 1987 as a DOS program for learning languages.&amp;nbsp; Wozniak, a student of molecular biology, was frustrated by the amount of knowledge he lost after cramming for an exam, and worked to develop methods for improving long term memory.&amp;nbsp; His 1992 masters thesis, &lt;a href=&#34;http://www.supermemo.com/english/ol.htm&#34;&gt;Optimization of Learning&lt;/a&gt;, covered the early work on Supermemo and a discussion of spaced repetition in learning.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve been using some of the principles from SuperMemo, in particular the discussion of&lt;a href=&#34;http://www.supermemo.com/articles/paper.htm&#34;&gt; using SuperMemo without a computer&lt;/a&gt;, to structure some organized retrospective looks at what I have been interested in over time and also to trigger follow up contacts with people and ideas that would have otherwise been forgotten.&amp;nbsp; The important element of &lt;a href=&#34;http://en.wikipedia.org/wiki/Spaced_repetition&#34;&gt;spaced repetition&lt;/a&gt; is used not to remember facts and figures but to trigger memory of people and the context I saw them in.&amp;nbsp; The idea is that you structure a process to revisit previous days efforts - more recent days more frequently, and old days less frequently - and use that memory jogger to keep you connected.&lt;/p&gt;
-
-&lt;p&gt;What makes this newly easy (or at least easier) is some combination of tools and search engines not originally available in 1987, combined with my existing frequent blogging.&amp;nbsp; &amp;nbsp;Let me provide two examples, with some source code.&lt;/p&gt;
-
-&lt;p&gt;I keep a personal wiki with a page for each day.&amp;nbsp; This is actually the second of those I have tried doing - the first was on custom pre-release versions of the Socialtext software and I reanimated it on the current Socialtext hosted platform.&amp;nbsp; The notion is that you have a wiki page named &amp;quot;2008 August 12&amp;quot;, or really one page possible for every day, and you take notes on or about that day there or link to it to refer to it.&amp;nbsp; &amp;nbsp;There&#39;s a little bit of code that I wrote to make links from that page to a series of days spaced in the past and future which I include as a block on that page, making it easy to hyperlink forwards and backwards in time.&amp;nbsp; That&#39;s good, as far as I do have things in my personal wiki (though maintaining that every day is a burden and I often have big blank spots when the burden of diligence is too great).&lt;/p&gt;
-
-&lt;p&gt;The second and more immediately practical approach uses search engines to replace explicit page dates to slice up the world into punctuated time slices.&amp;nbsp; &amp;nbsp; I use this with my weblog, creating searches like&lt;br /&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;a href=&#34;http://www.google.com/search?q=site%3Avielmetti.typepad.com+%22August+12%2C+2007%22&#34;&gt;site:vielmetti.typepad.com &amp;quot;August 12, 2007&amp;quot;&lt;/a&gt;&lt;br /&gt;to methodically revisit the past.&amp;nbsp; As I said, it helps if you post daily, or have a tool like the delicious.com tag poster to do it for you.&amp;nbsp; &lt;/p&gt;
-
-&lt;p&gt;The code I wrote which I&#39;ll share is based on &amp;quot;day.sh&amp;quot; which I released some time ago.&amp;nbsp; That tool prints the date a specified time in the past; this new tool, &amp;quot;&lt;a href=&#34;http://monkey.org/~emv/src/spaced-days.tar&#34;&gt;spaced-days&lt;/a&gt;&amp;quot;, creates a series of days formatted appropriately for whatever you want to paste them into.&amp;nbsp; The sample I have generates Socialtext formatted wiki pages but minor edits will generate Mediawiki pages and more major ones could make HTML with the formatted searches above.&lt;/p&gt;
-
-&lt;p&gt;So if I&#39;m thinking about my cousin&#39;s wedding two years ago, or next year&#39;s St Urho&#39;s Day celebrations, or the Burns Park Run for 2009, it&#39;s because there was just enough reminders to jog 1/n of my memory and not the whole darn thing.&lt;/p&gt;
-</description>
+      <description>I wrote about SuperMemo some months back, but if I&#39;ve told you once, I&#39;ve told you 146 times: repetition is the very soul of the net.
+SuperMemo is a piece of software from P A Wozniak, originally developed in 1987 as a DOS program for learning languages.&amp;nbsp; Wozniak, a student of molecular biology, was frustrated by the amount of knowledge he lost after cramming for an exam, and worked to develop methods for improving long term memory.</description>
     </item>
     
     <item>
@@ -52,16 +36,8 @@
       <pubDate>Wed, 23 Apr 2008 08:31:06 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-04-23-supermemo-and-m/</guid>
-      <description>&lt;p&gt;An important piece of having coffee in the morning is making it part of a routine.  If you&#39;re predictable in your habits, you start to see the same people in the same space at the same time, and you get to be something of a regular.&lt;/p&gt;
-
-&lt;p&gt;If you&#39;re careful, and switch your morning allegiances from time to time but still visit the old haunts often enough, you can be what passes for a regular long after you stopped coming every day.&lt;/p&gt;
-
-&lt;p&gt;How often, then, do you need to show up for people to remember you?  For that I turn to structured repetition, and the power of priming memory periodically to strengthen it.  &lt;a href=&#34;http://www.supermemo.com&#34;&gt;Supermemo&lt;/a&gt;, a software package for memory improvement, has a nice paper on &lt;a href=&#34;http://www.supermemo.com/articles/paper.htm&#34;&gt;using Supermemo without a computer&lt;/a&gt;, which specifies a pattern of repetitions and intervals to get details into memory.  The table of intervals specified says that you review materials at this pace:&lt;/p&gt;
-
-&lt;p&gt;4 days, 7 days, 12 days, 20 days, 1 month, 2 months, 3 months, 5 months, 9 months, 16 months, 2 years, 4 years, 6 years, 11 years, 18 years&lt;/p&gt;
-
-&lt;p&gt;Which suggests that a well-timed practice of showing up at a cafe, introducing yourself to everyone, learning their names, and them coming back at precisely timed intervals to repeat the process would be enough to make you a regular in no time at all.&lt;/p&gt;
-</description>
+      <description>An important piece of having coffee in the morning is making it part of a routine. If you&#39;re predictable in your habits, you start to see the same people in the same space at the same time, and you get to be something of a regular.
+If you&#39;re careful, and switch your morning allegiances from time to time but still visit the old haunts often enough, you can be what passes for a regular long after you stopped coming every day.</description>
     </item>
     
   </channel>

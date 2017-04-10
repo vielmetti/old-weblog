@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/macports/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Macports on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/macports/</link>
+    <description>Recent content in Macports on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/macports/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2015 14:15:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/macports/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>sudo port upgrade outdated</title>
@@ -14,36 +17,8 @@
       <pubDate>Fri, 30 Oct 2015 14:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-10-30-sudo-port-upgrade-outdated/</guid>
-      <description>&lt;p&gt;Macports is a system for bringing 3d party software to the Mac
-under some kind of organized control. Rather than randomly downloading
-binaries or sources, you pick from a wide variety of software
-that&amp;rsquo;s already been ported with all of its dependencies carefully
-noted.&lt;/p&gt;
-
-&lt;p&gt;The process of bringing lots of software online inevitably means
-that when one system gets updated there are ripple effects up the
-stack until the software you had been using stops working. The easiest
-solution is to pull the freshest of the fresh versions, with all
-dependencies suitably upgraded as well, so that you can at least
-get to par with the latest. Only then can you sort through debug
-information and know that if you report a bug it can be repeated
-by people who are running current code.&lt;/p&gt;
-
-&lt;p&gt;With Macports this is two commands&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo port selfupdate
-sudo port upgrade outdated
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The warning of course is that the second of these two commands
-can take a very, very long time, as new software is downloaded
-and compiled.&lt;/p&gt;
-
-&lt;p&gt;All that is done! About 12 hours later, I again have a copy of
-&lt;code&gt;gqrx&lt;/code&gt; that works, in particular the one that says that it is
-&lt;code&gt;Gqrx software defined radio receiver 20151017&lt;/code&gt;. I shouldn&amp;rsquo;t
-have waited months to do the upgrade.&lt;/p&gt;
-</description>
+      <description>Macports is a system for bringing 3d party software to the Mac under some kind of organized control. Rather than randomly downloading binaries or sources, you pick from a wide variety of software that&amp;rsquo;s already been ported with all of its dependencies carefully noted.
+The process of bringing lots of software online inevitably means that when one system gets updated there are ripple effects up the stack until the software you had been using stops working.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/current-affairs/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Current Affairs on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/current-affairs/</link>
+    <description>Recent content in Current Affairs on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/current-affairs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2010 19:30:27 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/current-affairs/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Wikileaks Iraq War Logs document release and media analysis</title>
@@ -14,19 +17,13 @@
       <pubDate>Fri, 22 Oct 2010 19:30:27 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-10-22-wikileaks-iraq-war-logs-document-release-and-media-analysis/</guid>
-      <description>&lt;p&gt;&lt;p&gt;My twitter feed is full of the &lt;a href=&#34;http://twitter.com/wikileaks&#34; target=&#34;_self&#34;&gt;Wikileaks&lt;/a&gt; release of 400,000 records from the Iraq War. A number of news organizations got early access to the data; each of them wrote their own story.&lt;/p&gt;
-&lt;p&gt;New York Times: &lt;a href=&#34;http://www.nytimes.com/interactive/world/war-logs.html&#34; target=&#34;_self&#34;&gt;The War Logs&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Al Jazeera: &lt;a href=&#34;http://english.aljazeera.net/secretiraqfiles/&#34; target=&#34;_self&#34;&gt;The Secret Iraq Files&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The Guardian: &lt;a href=&#34;http://www.guardian.co.uk/world/iraq-war-logs&#34; target=&#34;_self&#34;&gt;Iraq: The War Logs&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Spiegel Online: &lt;a href=&#34;http://www.spiegel.de/international/topic/iraq_war_logs/&#34; target=&#34;_self&#34;&gt;Iraq War Logs&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;CNN was offered the data, but &lt;a href=&#34;http://www.cnn.com/2010/US/10/22/wikileaks.iraq/index.html&#34; target=&#34;_self&#34;&gt;chose not to take it&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;CNN was offered access to the documents in advance of the release but declined because of conditions that were attached to accepting the material.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div&gt;I won&amp;#39;t go into any commentary here, except to note that the timing of the release was apparently a bit early; Al Jazeera broke the embargo 30 minutes before the scheduled time that all media would tell the story.&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;Boing Boing is &lt;a href=&#34;http://www.boingboing.net/2010/10/22/wikileaks-releases-n.html&#34; target=&#34;_self&#34;&gt;tracking news coverage of the Wikileaks release&lt;/a&gt;, noting new news releases as they appear.&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>My twitter feed is full of the Wikileaks release of 400,000 records from the Iraq War. A number of news organizations got early access to the data; each of them wrote their own story.
+New York Times: The War Logs.
+Al Jazeera: The Secret Iraq Files.
+The Guardian: Iraq: The War Logs.
+Spiegel Online: Iraq War Logs.
+CNN was offered the data, but chose not to take it.
+ CNN was offered access to the documents in advance of the release but declined because of conditions that were attached to accepting the material.</description>
     </item>
     
   </channel>

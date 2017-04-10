@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/ghost/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ghost on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/ghost/</link>
+    <description>Recent content in Ghost on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2016 14:45:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>New month, new theme</title>
@@ -14,22 +17,8 @@
       <pubDate>Mon, 05 Sep 2016 14:45:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-09-05-new-month-new-theme/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve switched themes in this weblog, using &lt;a href=&#34;https://github.com/vjeantet/hugo-theme-casper&#34;&gt;Casper&lt;/a&gt;
-from Valère JEANTET who ported it from &lt;a href=&#34;https://ghost.org/&#34;&gt;Ghost&lt;/a&gt; to &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The biggest advantage of the theme is that it&amp;rsquo;s neat
-and clean and looks like other people&amp;rsquo;s work. The
-biggest disadvantage is that I have 80+ pages of
-paginated weblog going back into the dim mists of time,
-and this theme doesn&amp;rsquo;t come out of the box with
-support for that kind of deep back list in it.&lt;/p&gt;
-
-&lt;p&gt;There is a bigger, more existential question here. I&amp;rsquo;ve
-written on the order of 600,000 words &amp;ldquo;here&amp;rdquo;, whatever
-&amp;ldquo;here&amp;rdquo; means, on some rather large number of different
-topics. How on earth do you reorganize that into something
-sensible, or do you simply not bother?&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve switched themes in this weblog, using Casper from Valère JEANTET who ported it from Ghost to Hugo.
+The biggest advantage of the theme is that it&amp;rsquo;s neat and clean and looks like other people&amp;rsquo;s work. The biggest disadvantage is that I have 80+ pages of paginated weblog going back into the dim mists of time, and this theme doesn&amp;rsquo;t come out of the box with support for that kind of deep back list in it.</description>
     </item>
     
   </channel>

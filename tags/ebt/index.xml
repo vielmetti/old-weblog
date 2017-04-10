@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/ebt/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ebt on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/ebt/</link>
+    <description>Recent content in Ebt on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/ebt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Oct 2013 14:28:38 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/ebt/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>EBT systems down in multiple states, Michigan Bridge card not working</title>
@@ -14,58 +17,9 @@
       <pubDate>Sat, 12 Oct 2013 14:28:38 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-12-ebt-systems-down-in-multiple-states-michigan-bridge-card-not-working-/</guid>
-      <description>&lt;p&gt;EBT (&#34;food stamps&#34;) cards are not working in 17 states, including Michigan, on Saturday October 12, 2013. States affected include &lt;a href=&#34;http://dhr.alabama.gov/news/news_detail.aspx?ID=8253&#34;&gt;Alabama&lt;/a&gt;, California (&#34;Golden State Advantage&#34;), Georgia, Iowa, Illinois, Louisiana, Massachusetts, Maryland, Michigan (&#34;Bridge Card&#34;), Mississippi, New Jersey, Ohio (&#34;Direction Card&#34;), Oklahoma, Pennsylvania, Texas and Virginia.&lt;/p&gt;
-
-&lt;p&gt;As of 9:58 p.m., Xerox claims that the system is back online. From an email from Jennifer Wasmer, Xerox PR:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Update:   Xerox Resolves EBT System Outage.
-  Beneficiary access to programs such as SNAP, TANF, and other programs has been restored to the 17 States where Xerox provides EBT service.  Re-starting the EBT system required time to ensure service was back at full functionality.  Beneficiaries who required immediate access to their benefits could work with their local merchants who could activate an emergency voucher process where available. We appreciate our clients’ patience while we resolved this issue and apologize for any inconvenience. We realize that access to these benefits is important to families in the states we serve. We continue to investigate the cause of the issue so we can take steps to ensure a similar interruption does not re-occur.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Some news as it emerges, not all of the news accounts are consistent yet.&lt;/p&gt;
-
-&lt;p&gt;A statement received via email from &lt;a href=&#34;http://news.xerox.com/contacts&#34;&gt;Karen Arena&lt;/a&gt;, Xerox:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;During a routine test of our back-up systems Saturday morning,  Xerox’s Electronic Benefits Transfer (EBT) system experienced a temporary shutdown. While the system is now up and running, beneficiaries in the 17 affected states continue to experience connectivity issues to access their benefits. This disruption impacts EBT beneficiaries who rely on the system for SNAP and WIC. Technical staff is addressing the issue and expect the system to be restored soon.  Beneficiaries requiring access to their benefits can work with their local retailers who can activate an emergency voucher system where available. We appreciate our clients’ patience while we work through this outage as quickly as possible.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nbcphiladelphia.com/news/local/Problems-With-EBT-Systems--227518221.html&#34;&gt;NBC Philadelphia&lt;/a&gt; has a quote from the vendor ACS, a division of Xerox.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Sheree Powell, Director of the Oklahoma Department of Human Services, also told NBC10 affiliate KFOR that the system failure is the result of a power outage at a Xerox facility. EBT cards in several states are powered by a company that Xerox owns called ACS, Inc.
-  &#34;We are getting updated in real time,&#34; said &lt;a href=&#34;http://news.xerox.com/contacts&#34;&gt;Karen Arena&lt;/a&gt;, a spokeswoman for Xerox. &#34;But as far as I know right now some of the Electronic Benefits Transfer (EBT) system is experiencing temporary connectivity issues. Technical staff is addressing the issue and expect the system to be restored soon. The issue stemmed from a routine check of the system.&#34;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Mississippi: &lt;a href=&#34;http://www.sunherald.com/2013/10/12/5026021/food-stamp-fiasco-results-in-declined.html&#34;&gt;UPDATE: Mississippi food stamp fiasco not related to government shutdown&lt;/a&gt; - &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Julia Bryan, public information officer for the Mississippi Department of Human Services, said the problems stemmed from a power outage at the main data center for Xerox, the vendor for EBT cards in Mississippi and 16 other states across the nation. The outage caused equipment problems that led to cards being declined at stores across the state. Bryan said Xerox reported that the issue should be resolved shortly, but no specific time frame was available. &#34;This has nothing to do with the federal government shutdown,&#34; Bryan said.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Georgia: &lt;a href=&#34;http://www.ajc.com/news/news/national-govt-politics/ebt-benefits-system-down-across-atlanta/nbMcR/&#34;&gt;EBT benefits system down across Atlanta&lt;/a&gt; - Atlanta Journal-Constitution&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The electronic system that allows welfare recipients to buy food with their benefits went down across the Atlanta area Saturday, according to local grocery stores. Several news media reports say the Electronic Benefits Transfer system – which allows low-income people to spend their Supplemental Nutrition Assistant Program benefits with payment cards – was not working in Michigan and Virginia as well. The cause of the problem is unknown. State and federal officials could not be reached for comment Saturday afternoon.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Michigan: &lt;a href=&#34;http://wwmt.com/shared/news/features/top-stories/stories/wwmt_customers-stores-reporting-ebt-issues-14571.shtml&#34;&gt;Customers, Stores Reporting EBT Issues&lt;/a&gt; - WWMT Kalamazoo Michigan&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;According the DHS, an system update on the retailers&#39; side has caused the problem. While it is widespread, DHS says the issue is being investigated and should be corrected quickly. Human services says other states are having similar issues. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Read More at: http://wwmt.com/shared/news/features/top-stories/stories/wwmt_customers-stores-reporting-ebt-issues-14571.shtml&lt;/p&gt;
-
-&lt;p&gt;Also noted problems in Ohio, Oklahoma, Virginia.&lt;/p&gt;
-
-&lt;p&gt;Massuchusetts: &lt;a href=&#34;http://boston.cbslocal.com/2013/10/12/computer-upgrade-blamed-for-nationwide-ebt-system-shutdown-on-saturday/&#34;&gt;Computer Upgrade Blamed For Nationwide EBT System Shutdown On Saturday&lt;/a&gt; - CBS Boston&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The representative said the glitch is affecting people nationwide. She could not say when officials expected the system to be restored.vPeople calling the customer service line were being told to call back later. The federal EBT website was unavailable due to the government shutdown.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>EBT (&#34;food stamps&#34;) cards are not working in 17 states, including Michigan, on Saturday October 12, 2013. States affected include Alabama, California (&#34;Golden State Advantage&#34;), Georgia, Iowa, Illinois, Louisiana, Massachusetts, Maryland, Michigan (&#34;Bridge Card&#34;), Mississippi, New Jersey, Ohio (&#34;Direction Card&#34;), Oklahoma, Pennsylvania, Texas and Virginia.
+As of 9:58 p.m., Xerox claims that the system is back online. From an email from Jennifer Wasmer, Xerox PR:
+ Update: Xerox Resolves EBT System Outage.</description>
     </item>
     
   </channel>

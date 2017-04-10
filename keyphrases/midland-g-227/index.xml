@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/midland-g-227/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Midland G 227 on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/midland-g-227/</link>
+    <description>Recent content in Midland G 227 on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/midland-g-227/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jul 2015 11:52:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/midland-g-227/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Notes on the Midland G-227 GMRS/FRS radio</title>
@@ -14,31 +17,10 @@
       <pubDate>Sun, 19 Jul 2015 11:52:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227/</guid>
-      <description>&lt;p&gt;Midland G-227 GMRS radio, quantity two, a gift from the
-Wells-Becker Motorcycle Emporium in Dexter, Michigan.&lt;/p&gt;
-
-&lt;p&gt;I replaced batteries in both of them, they take 4xAAA.&lt;/p&gt;
-
-&lt;p&gt;Radio 1 successfully hears static when the (M) monitor
-button is depresssed; Radio 2 hears nothing.&lt;/p&gt;
-
-&lt;p&gt;A manual is at &lt;a href=&#34;http://www.manualslib.com/manual/396326/Midland-G-225.html&#34;&gt;http://www.manualslib.com/manual/396326/Midland-G-225.html&lt;/a&gt;
-which describes the frequencies of the 22 channels it can transmit on.
-A reasonable next step is to get my NooElec SDR tuner out and see if
-I can monitor a transmission. If Radio 2 transmits, I suspect a loose
-connection to the speaker.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Midland-G-227C2-7-Mile-22-Channel-Two-Way/dp/B00008JOMG&#34;&gt;Amazon reviews&lt;/a&gt;
-complain mostly that the range of the radios is not &amp;ldquo;7 miles&amp;rdquo; as
-marketed, but closer to &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; mile to 1 mile on land. That&amp;rsquo;s typical
-for this band as I understand it.&lt;/p&gt;
-
-&lt;p&gt;In the same gift also a Uniden labeled &amp;ldquo;Scramble&amp;rdquo; that has a NOAA
-weather logo on it, so it probably also monitors weather frequencies.
-Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
-
-&lt;p&gt;You can never have too many radios!&lt;/p&gt;
-</description>
+      <description>Midland G-227 GMRS radio, quantity two, a gift from the Wells-Becker Motorcycle Emporium in Dexter, Michigan.
+I replaced batteries in both of them, they take 4xAAA.
+Radio 1 successfully hears static when the (M) monitor button is depresssed; Radio 2 hears nothing.
+A manual is at http://www.manualslib.com/manual/396326/Midland-G-225.html which describes the frequencies of the 22 channels it can transmit on. A reasonable next step is to get my NooElec SDR tuner out and see if I can monitor a transmission.</description>
     </item>
     
   </channel>

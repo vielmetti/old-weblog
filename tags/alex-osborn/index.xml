@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/alex-osborn/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Alex Osborn on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/alex-osborn/</link>
+    <description>Recent content in Alex Osborn on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/alex-osborn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Sep 2008 10:57:46 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/alex-osborn/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>creativity vs productivity</title>
@@ -14,15 +17,8 @@
       <pubDate>Fri, 12 Sep 2008 10:57:46 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-12-creativity-vs-p/</guid>
-      <description>&lt;p&gt;Merlin Mann has relaunched &lt;a href=&#34;http://www.43folders.com/&#34;&gt;43 Folders&lt;/a&gt;; he doesn&#39;t want to be the productivity guy any more, he wants to be the creativity guy.&amp;nbsp; It&#39;s a good choice.&lt;/p&gt;
-
-&lt;p&gt;He notes some essential tension between the demand of professional bloggers to produce immense quantities of on-topic dreck that generates a lot of page views, vs the wise craft of intense creative types who sweat the details to edit things down to a fine polish.&amp;nbsp; (Or something like that; it probably overstates the issue.)&amp;nbsp; And he bemoans the tendency of people to consume an endless stream of shitty first drafts as if that was the only thing worth doing:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;What worries me are the consequences of a diet comprised mostly of
-fake-connectedness, makebelieve insight, and unedited first drafts of &lt;em&gt;everything&lt;/em&gt;.
-I think it’s making us small. I know that whenever I become aware of
-it, I realize how small it can make me. So, I’ve come to despise it.&amp;nbsp; (from &lt;a href=&#34;http://www.kungfugrippe.com/post/48588149/better&#34;&gt;better)&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Since this post itself is a shitty first draft of a summary of what is probably 100 other things I&#39;ve thought about, I&#39;ll keep it short.&amp;nbsp; Sometimes, when you want to have deep insight into a topic, you have to immerse yourself in the details.&amp;nbsp; Your makebelieve insight and fake-connectedness are exercises in helping you understand the world, and even though sometimes the explanation that comes up doesn&#39;t really sound any more insightful than what your wikipedia-quoting eight year old can come up with, it came from you.&amp;nbsp; Sometimes, if you are really lucky, you get to reflect on a bunch of first drafts and turn them into second and third drafts - hurray!&amp;nbsp; But at least you got that thinking out into public in a format that can get some feedback.&amp;nbsp; The best way to have one good idea is to have a thousand ideas.&lt;/p&gt;
-
-&lt;p&gt;Recommended reading: Alex Osborn&#39;s 1949 &amp;quot;Your Creative Power: How To Use Imagination&amp;quot;.&lt;/p&gt;
-</description>
+      <description>Merlin Mann has relaunched 43 Folders; he doesn&#39;t want to be the productivity guy any more, he wants to be the creativity guy.&amp;nbsp; It&#39;s a good choice.
+He notes some essential tension between the demand of professional bloggers to produce immense quantities of on-topic dreck that generates a lot of page views, vs the wise craft of intense creative types who sweat the details to edit things down to a fine polish.</description>
     </item>
     
   </channel>

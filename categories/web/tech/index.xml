@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/web/tech/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Web/Tech on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/web/tech/</link>
+    <description>Recent content in Web/Tech on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/web/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2013 17:50:36 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/web/tech/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Microsoft&#39;s Outlook.com down for three days in flood of error traffic</title>
@@ -14,8 +17,7 @@
       <pubDate>Sun, 18 Aug 2013 17:50:36 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-18-microsofts-outlookcom-down-for-three-days-in-flood-of-error-traffic/</guid>
-      <description>&lt;p&gt;Microsoft&#39;s Outlook.com service was down for three days; here&#39;s a detailed writeup at &lt;a href=&#34;http://thenextweb.com/microsoft/2013/08/17/microsoft-apologizes-for-three-day-outlook-com-outage-says-caching-issue-was-to-blame/&#34;&gt;The Next Web&lt;/a&gt;. A summary of sorts: &#34;The failure caused these devices to receive an error and continuously try to connect to our service. This resulted in a flood of traffic that our services did not handle properly.&#34;&lt;/p&gt;
-</description>
+      <description>Microsoft&#39;s Outlook.com service was down for three days; here&#39;s a detailed writeup at The Next Web. A summary of sorts: &#34;The failure caused these devices to receive an error and continuously try to connect to our service. This resulted in a flood of traffic that our services did not handle properly.&#34;</description>
     </item>
     
     <item>
@@ -24,39 +26,7 @@
       <pubDate>Tue, 13 Aug 2013 00:36:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-13-learning-markdown/</guid>
-      <description>&lt;p&gt;I have a feeling that I&#39;m going to be doing a lot more writing using the &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
-language rather than using a web based rich text editor or plain HTML. Markdown
-is &lt;a href=&#34;http://help.typepad.com/using_markdown.html&#34;&gt;supported by Typepad&lt;/a&gt;, &lt;a href=&#34;http://octopress.org/docs/&#34;&gt;supported by Octopress&lt;/a&gt; (with a bunch of enhancements), &lt;a href=&#34;https://help.github.com/articles/github-flavored-markdown&#34;&gt;supported by Github&lt;/a&gt; (with a few changes to be more code-friendly), &lt;a href=&#34;https://github.com/plasticboy/vim-markdown&#34;&gt;supported by Vim&lt;/a&gt; (with colorizing of text),
-and &lt;a href=&#34;https://leanpub.com/help/manual&#34;&gt;supported by Leanpub&lt;/a&gt; (which turns them into EPUB and MOBI files). That&#39;s five
-for five for the environments I&#39;m working in the most, which suggests that it&#39;s
-worthwhile to learn all that I can.&lt;/p&gt;
-
-&lt;p&gt;Markdown is a fairly simple language, and it&#39;s relatively old in net terms (2004)
-so it&#39;s had time to mature. Maturing means both that there are well-documented
-core features that are invariant among all Markdown interpreters, as well as 
-sometimes incompatible details that show up when people extend the system.&lt;/p&gt;
-
-&lt;p&gt;Some popular interpreters include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.pell.portland.or.us/~orc/Code/discount/&#34;&gt;Discount&lt;/a&gt;, in C&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dafoster.net/projects/rdiscount/&#34;&gt;RDiscount&lt;/a&gt;, in Ruby as a wrapper to Discount&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kramdown.rubyforge.org/&#34;&gt;kramdown&lt;/a&gt;, written in Ruby&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://maruku.rubyforge.org/&#34;&gt;Maruku&lt;/a&gt;, also written in Ruby; can render to LaTeX&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fletcherpenney.net/multimarkdown/&#34;&gt;MultiMarkdown&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://michelf.ca/projects/php-markdown/extra/&#34;&gt;PHP Markdown Extra&lt;/a&gt;, written in PHP with extensions to Markdown&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt;, a universal document converter with support for many formats&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jgm/peg-markdown&#34;&gt;peg-markdown&lt;/a&gt;, a fast parser in C&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/vmg/redcarpet&#34;&gt;Redcarpet&lt;/a&gt;, a Ruby gem&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And some popular editors for Mac OS X include:&lt;/p&gt;
-
-&lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mouapp.com/&#34;&gt;Mou&lt;/a&gt;, a Markdown editor for web developers&lt;/li&gt;&lt;/p&gt;
-
-&lt;p&gt;You&#39;ll find &lt;a href=&#34;http://mac.appstorm.net/roundups/productivity-roundups/35-markdown-apps-for-the-mac/&#34;&gt;reviews of 35 Markdown apps for Mac&lt;/a&gt; at Appstorm; I haven&#39;t tried them all (and probably never will).&lt;/p&gt;
-</description>
+      <description>I have a feeling that I&#39;m going to be doing a lot more writing using the Markdown language rather than using a web based rich text editor or plain HTML. Markdown is supported by Typepad, supported by Octopress (with a bunch of enhancements), supported by Github (with a few changes to be more code-friendly), supported by Vim (with colorizing of text), and supported by Leanpub (which turns them into EPUB and MOBI files).</description>
     </item>
     
     <item>
@@ -65,46 +35,7 @@ sometimes incompatible details that show up when people extend the system.&lt;/p
       <pubDate>Mon, 18 Mar 2013 09:34:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-18-the-import-export-problem-and-fragile-internet-services/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s the scenario. You and your team work hard to use a
-new piece of collaboration software that offers some unique features
-that are suited either to the work at hand or that appeal to your
-sense of novelty. The tool works great and you get into it, using
-some of the more complex parts of the system to great advantage.
-Then the system&amp;rsquo;s owners send out the dreaded self-congratulatory
-message saying that they have been acquired by a big company, or
-some beleagured product manager announces that their system is being
-sunsetted. You need to move.&lt;/p&gt;
-
-&lt;p&gt;Moving turns out to be hard. Once upon a time when the only thing
-you needed to move was electronic mail, there were only a handful
-of email file formats, and though they were incompletely specified
-you could readily move among them. Moving between news readers was
-just a matter of reusing your .newsrc file. Life was simpler then
-(cue sad violins).&lt;/p&gt;
-
-&lt;p&gt;The situation now is much more complicated. If you are extremely
-lucky, the system you have has an export file that is the same as
-its import file, and someone has built a faithful clone of your
-original service for you to migrate to. That was the case in my
-move from &lt;a  href=&#34;http://en.wikipedia.org/wiki/Delicious_%28website%29&#34;
-rel=&#34;wikipedia&#34; target=&#34;_blank&#34; title=&#34;Delicious (website)&#34;&gt;Delicious&lt;/a&gt;
-to &lt;a  href=&#34;http://www.pinboard.in&#34; rel=&#34;homepage&#34; target=&#34;_blank&#34;
-title=&#34;Pinboard&#34;&gt;Pinboard&lt;/a&gt;. If you&amp;rsquo;re keeping a weblog,
-though, things can get really unhappy really fast, and a friend to
-recently migrated from &lt;a  href=&#34;http://www.posterous.com&#34;
-rel=&#34;homepage&#34; target=&#34;_blank&#34; title=&#34;Posterous&#34;&gt;Posterous&lt;/a&gt; to
-&lt;a  href=&#34;http://wordpress.org&#34; rel=&#34;homepage&#34; target=&#34;_blank&#34;
-title=&#34;WordPress&#34;&gt;WordPress&lt;/a&gt; went through gyrations that I&amp;rsquo;m
-not sure that I would have tolerated.&lt;/p&gt;
-
-&lt;p&gt;The fundamental problem, I suppose, is that the more innovating the
-service the less likely that its data is structured so simply that
-you can drop it in to someting else. Brand new user interfaces, the
-ones that attract traffic because of the ever present need for
-novelty, also have novel data structures. Watch out when getting
-into something new that you may find it easier to start than to
-stop.&lt;/p&gt;
-</description>
+      <description>Here&amp;rsquo;s the scenario. You and your team work hard to use a new piece of collaboration software that offers some unique features that are suited either to the work at hand or that appeal to your sense of novelty. The tool works great and you get into it, using some of the more complex parts of the system to great advantage. Then the system&amp;rsquo;s owners send out the dreaded self-congratulatory message saying that they have been acquired by a big company, or some beleagured product manager announces that their system is being sunsetted.</description>
     </item>
     
     <item>
@@ -113,19 +44,8 @@ stop.&lt;/p&gt;
       <pubDate>Sun, 23 Dec 2012 17:33:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-12-23-the-d2-pad-a-short-review-of-an-android-tablet/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B00BF9MU7G/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00BF9MU7G&amp;linkCode=as2&amp;tag=superpatron-20&#34;&gt;&lt;img border=&#34;0&#34; align=&#34;right&#34; src=&#34;http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&amp;ASIN=B00BF9MU7G&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=superpatron-20&#34; &gt;&lt;/a&gt;&lt;img src=&#34;http://www.assoc-amazon.com/e/ir?t=superpatron-20&amp;l=as2&amp;o=1&amp;a=B00BF9MU7G&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
-&lt;p&gt;The boys got D2 pads (&lt;a href=&#34;http://d2pad.info&#34; target=&#34;_self&#34;&gt;&lt;a href=&#34;http://d2pad.info&#34;&gt;http://d2pad.info&lt;/a&gt;&lt;/a&gt;) for Hanukah. Here&amp;rsquo;s a 250 word long review of this 7&amp;rdquo; Android tablet.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve never owned an Android tablet of my own, so I don&amp;rsquo;t have much to compare against. The experience so far recommends it as a handy adjunct to a full-size computer for some tasks, and it makes me more confident in my hunch that an Android phone is going to be my next phone.&lt;/p&gt;
-&lt;p&gt;We ran into problems charging one of the devices, but helpful tech support fixed it. The D2 pad would not charge with the provided wall adapter, but it did charge just fine using a USB cable. I can&amp;rsquo;t explain why.&lt;/p&gt;
-&lt;p&gt;The devices don&amp;rsquo;t support the Google Play store. I find myself mostly using the Amazon App Store, which appears to be a credible alternative. I&amp;rsquo;m sticking to free apps for the moment; the favorite so far is Swype, an alternative keyboard.&lt;/p&gt;
-&lt;p&gt;The camera on the device grainy even in good light, and it takes crappy photos in low light. It would be fine for a low resolution video chat.&lt;/p&gt;
-&lt;p&gt;The touch screen is surprisingly good for such an inexpensive device. On one of the two units, we found that there was a small defect where it appeared that one corner of the screen was being pressed down on continuously; that seems to have gone away.&lt;/p&gt;
-&lt;p&gt;I wish the device allowed true multiple user operations. #2 son is getting tired of having my Google calendar alerts show up on his screen.&lt;/p&gt;
-&lt;p&gt;UPDATE:&lt;/p&gt;
-&lt;p&gt;One of the pads now has a cracked screen, after someone got a bit frustrated with it. It still functions just fine. The funky defect on the corner of the screen never really did go away.&lt;/p&gt;
-&lt;p&gt;The Android operating system environment gets an enthusiastic thumbs up from the more vigorous user of the system, who is looking forward to the day when he gets better hardware to work with. He&amp;rsquo;s showed me all sorts of fun things including an &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.ytremote&#34; target=&#34;_self&#34;&gt;Android based remote control for Youtube&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;The boys are getting used to seeing Papa&amp;rsquo;s Twitter show up from time to time on their screens, and #1 son is looking forward to the day when he&amp;rsquo;s old enough to get his own Twitter account.&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>The boys got D2 pads (http://d2pad.info) for Hanukah. Here&amp;rsquo;s a 250 word long review of this 7&amp;rdquo; Android tablet.
+I&amp;rsquo;ve never owned an Android tablet of my own, so I don&amp;rsquo;t have much to compare against. The experience so far recommends it as a handy adjunct to a full-size computer for some tasks, and it makes me more confident in my hunch that an Android phone is going to be my next phone.</description>
     </item>
     
     <item>
@@ -134,14 +54,9 @@ stop.&lt;/p&gt;
       <pubDate>Wed, 30 May 2012 10:19:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-05-30-the-business-model-is-hamsters-generating-less-money-with-each-turn-of-the-wheel/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://scripting.com/stories/2012/05/26/newYorkTech.html&#34; target=&#34;_self&#34;&gt;The phrase is from Dave Winer&lt;/a&gt;, noting the path of Web 2.0 company growth and the difference between what the systems are worth to the owners vs. what they are worth to the early adopters:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The APIs are corporate APIs, the CMSes are silos, the business model is hamsters generating less money with each turn of the wheel.&amp;#0160;&lt;a name=&#34;isNewYorkTechDifferentFromCaliforniaTechThereMightBeSomeSlightDifferencesButYouCouldTakeATechConferenceFromCaliforniaPlopItDownInNycAndNotOnlyWouldTheSameIdeasBeDiscussedFromTheSamePerspectiveButMostOfThePeopleWouldBeTheSameTheApisAreCorporateApisTheCmsesAreSilosTheBusinessModelIsHamstersGeneratingLessMoneyWithEachTurnOfTheWheel&#34;&gt;&amp;#0160;&lt;/a&gt;&lt;a href=&#34;http://scripting.com/stories/2012/05/26/newYorkTech.html#isNewYorkTechDifferentFromCaliforniaTechThereMightBeSomeSlightDifferencesButYouCouldTakeATechConferenceFromCaliforniaPlopItDownInNycAndNotOnlyWouldTheSameIdeasBeDiscussedFromTheSamePerspectiveButMostOfThePeopleWouldBeTheSameTheApisAreCorporateApisTheCmsesAreSilosTheBusinessModelIsHamstersGeneratingLessMoneyWithEachTurnOfTheWheel&#34;&gt;&lt;img alt=&#34;permalink&#34; border=&#34;0&#34; height=&#34;9&#34; src=&#34;http://scripting.com/images/2001/09/20/sharpPermaLink3.gif&#34; width=&#34;6&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I can&amp;#39;t say this is wrong, but it brings some regret for the time spent being the early hamster on the wheel and seeing whatever value I added to the likes of brand new systems being captured completely by those systems. It makes me want to start something brand new of my own - but then - you end up being captured by all of the tools you have to learn to bring it online.&lt;/p&gt;
-&lt;p&gt;Perhaps the best thing to think through this is that all new shiny online services have a lifespan. Some of them grow quickly and then die (remember Pownce? I thought not), some of them grow slowly and still live on somehow (remember Plurk?), others never get off the ground (a dozen tiny spam-overrun Twitter clones), and a tiny handful make it to Twitter size. You generally don&amp;#39;t know when you&amp;#39;re starting to talk to people through some new online system whether you are going to treat it as a long-term commitment to learning a complex system, or just some hands-on experimentation in something to be ignored and forgotten in a few weeks.&lt;/p&gt;
-&lt;p&gt;So you are a hamster, and you see a wheel. Do you get on to try it out, give yourself some exercise, or do you go to your workshop and build a better wheel?&lt;/p&gt;
-</description>
+      <description>The phrase is from Dave Winer, noting the path of Web 2.0 company growth and the difference between what the systems are worth to the owners vs. what they are worth to the early adopters:
+ The APIs are corporate APIs, the CMSes are silos, the business model is hamsters generating less money with each turn of the wheel.&amp;#0160;&amp;#0160;
+ I can&amp;#39;t say this is wrong, but it brings some regret for the time spent being the early hamster on the wheel and seeing whatever value I added to the likes of brand new systems being captured completely by those systems.</description>
     </item>
     
     <item>
@@ -150,18 +65,9 @@ stop.&lt;/p&gt;
       <pubDate>Wed, 19 Oct 2011 22:02:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-10-19-google-analytics-real-time-vs-mybloglog/</guid>
-      <description>&lt;blockquote&gt;
-  &lt;p&gt;We are writing to inform you that you have now been added to the beta for Google Analytics Real-Time! As we announced the Real-Time reports show you what is happening on your website as it happens.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Once upon a time, there was &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/02/mybloglog-is-officially-dead.html&#34;&gt;mybloglog&lt;/a&gt;. It was great, and then Yahoo bought it, gave it the big purple Yahoo squeeze of love, and then killed it.&lt;/p&gt;
-
-&lt;p&gt;Google now has a &lt;a href=&#34;http://analytics.blogspot.com/2011/09/whats-happening-on-your-site-right-now.html&#34;&gt;real time version of Google Analytics&lt;/a&gt;, which does some of the things that mybloglog once it. It tells you in real time what pages are being looked at, where people are coming from to look at them, and which keywords and referring sites are driving traffic. It scratches some of the same itch that mybloglog used to scratch, when there&#39;s some kind of burst of news and you want to know what&#39;s going on in real time and not on tomorrow&#39;s reporting.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/02/mybloglog-is-officially-dead.html&#34;&gt;mybloglog&lt;/a&gt; had something that GA doesn&#39;t have and really hasn&#39;t had: tracking of clicks not to the site you&#39;re looking at, but to something out there in the world that you linked to. That was great to use - and something that made it easy to see that you were successful as a blogger because you were driving traffic elsewhere. That&#39;s gone; maybe someone will build it, but maybe they won&#39;t.&lt;/p&gt;
-
-&lt;p&gt;As for the big purple squeeze of love, see also delicious, &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/09/delicious-mangled-by-carpetbaggers.html&#34;&gt;mangled by carpetbaggers&lt;/a&gt; after being abandoned by Yahoo. I have to wonder whether there&#39;s a web 3.0, the &lt;a href=&#34;http://www.whump.com/moreLikeThis/2007/02/23/bsg-corners-a-theory/&#34;&gt;clipped corner remake&lt;/a&gt; of web 2.0 properties that were acquired and then sunsetted.&lt;/p&gt;
-</description>
+      <description>We are writing to inform you that you have now been added to the beta for Google Analytics Real-Time! As we announced the Real-Time reports show you what is happening on your website as it happens.
+ Once upon a time, there was mybloglog. It was great, and then Yahoo bought it, gave it the big purple Yahoo squeeze of love, and then killed it.
+Google now has a real time version of Google Analytics, which does some of the things that mybloglog once it.</description>
     </item>
     
     <item>
@@ -170,34 +76,15 @@ stop.&lt;/p&gt;
       <pubDate>Sun, 22 May 2011 23:45:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-05-22-autocomplete/</guid>
-      <description>&lt;p&gt;Note to self: if you are going to name a new site, think about when you autocomplete it what sites you&amp;#39;re competing with for autocomplete space.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;AA - &lt;a href=&#34;http://www.aadl.org&#34; target=&#34;_self&#34;&gt;Ann Arbor District Library&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AB - about:memory, Chrome diagnostic&lt;/p&gt;
-&lt;p&gt;AC - &lt;a href=&#34;http://www.accuweather.com/us/mi/ann-arbor/48104/city-weather-forecast.asp&#34; target=&#34;_self&#34;&gt;Accuweather for Ann Arbor 48104&lt;/a&gt;, city weather forecast&lt;/p&gt;
-&lt;p&gt;AD - &lt;a href=&#34;http://adage.com/&#34; target=&#34;_self&#34;&gt;Advertising Age&lt;/a&gt;, trade publication for the advertising industry&lt;/p&gt;
-&lt;p&gt;AE - (not used)&lt;/p&gt;
-&lt;p&gt;AF - (not used)&lt;/p&gt;
-&lt;p&gt;AG - (not used)&lt;/p&gt;
-&lt;p&gt;AH - (not used)&lt;/p&gt;
-&lt;p&gt;AI - &lt;a href=&#34;http://www.damnarbor.com/2011/02/invasive-species-ailanthus-altissima.html&#34; target=&#34;_self&#34;&gt;Ailanthus altissima&lt;/a&gt; (Tree of heaven), in particular the Damn Arbor review of this invasive species&amp;#0160;&lt;/p&gt;
-&lt;p&gt;AJ - &lt;a href=&#34;http://www.ajc.com/&#34; target=&#34;_self&#34;&gt;Atlanta Journal-Constitution&lt;/a&gt;, a newspaper in Atlanta, Georgia&lt;/p&gt;
-&lt;p&gt;AK - (not used)&lt;/p&gt;
-&lt;p&gt;AL - (fails to load)&lt;/p&gt;
-&lt;p&gt;AM - &lt;a href=&#34;http://am1610.org&#34; target=&#34;_self&#34;&gt;AM 1610&lt;/a&gt;, The Station, from Hamtramck Michigan.&lt;/p&gt;
-&lt;p&gt;AN - &lt;a href=&#34;http://annarborchronicle.com/&#34; target=&#34;_self&#34;&gt;Ann Arbor Chronicle&lt;/a&gt;, online newspaper that focuses on civic affairs and local government coverage for Ann Arbor, Michigan.&lt;/p&gt;
-&lt;p&gt;AO - &lt;a href=&#34;http://aol.com&#34; target=&#34;_self&#34;&gt;AOL.COM&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://aol.com&#34; target=&#34;_self&#34;&gt;&lt;/a&gt;AP - &lt;a href=&#34;https://apps.facebook.com/activestep/&#34; target=&#34;_self&#34;&gt;Steps&lt;/a&gt; application on Facebook, which loads via &lt;a href=&#34;https://apps.facebook.com&#34; target=&#34;_self&#34;&gt;apps.facebook.com&lt;/a&gt;.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;AQ - (not used)&lt;/p&gt;
-&lt;p&gt;AR - &lt;a href=&#34;http://arborwiki.org&#34; target=&#34;_self&#34;&gt;Arborwiki&lt;/a&gt;, a local encyclopedia of information about the Ann Arbor area that anyone can edit.&lt;/p&gt;
-&lt;p&gt;AS - &lt;a href=&#34;http://ask.com&#34; target=&#34;_self&#34;&gt;ASK.com&lt;/a&gt;, a search engine&lt;/p&gt;
-&lt;p&gt;AT - &lt;a href=&#34;http://att.net&#34; target=&#34;_self&#34;&gt;ATT.NET&lt;/a&gt;, which redirects somehow to My Yahoo. The dream of the 90s is alive.&lt;/p&gt;
-&lt;p&gt;AU - (not used)&lt;/p&gt;
-&lt;p&gt;AV - &lt;a href=&#34;http://aviationweather.gov/&#34; target=&#34;_self&#34;&gt;AviationWeather.GOV&lt;/a&gt; - National Weather Service consolidated weather reporting for aviation use.&lt;/p&gt;
-&lt;p&gt;AW - Google search for &lt;a href=&#34;http://www.google.com/search?aq=2&amp;amp;oq=aw&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&amp;amp;q=awk&#34; target=&#34;_self&#34;&gt;AWK&lt;/a&gt;, a programming language that dates from Version 7 Unix (1977)&lt;/p&gt;
-&lt;p&gt;AX - (not used)&lt;/p&gt;
-&lt;p&gt;AY - (not used)&lt;/p&gt;
-&lt;p&gt;AZ - (not used)&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Note to self: if you are going to name a new site, think about when you autocomplete it what sites you&amp;#39;re competing with for autocomplete space.&amp;#0160;
+AA - Ann Arbor District Library
+AB - about:memory, Chrome diagnostic
+AC - Accuweather for Ann Arbor 48104, city weather forecast
+AD - Advertising Age, trade publication for the advertising industry
+AE - (not used)
+AF - (not used)
+AG - (not used)
+AH - (not used)</description>
     </item>
     
     <item>
@@ -206,14 +93,9 @@ stop.&lt;/p&gt;
       <pubDate>Sat, 22 May 2010 18:33:18 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-05-22-new-design/</guid>
-      <description>&lt;p&gt;Mostly, the design is new because I was ready to scrap a bland custom design and go with something from the Typepad gallery. &amp;#0160;I also like this one in part because it has a nice wide area for pictures in blog posts.&lt;/p&gt;
-&lt;p&gt;I had to hit &amp;quot;shift-refresh&amp;quot; to force everything to load.&lt;/p&gt;
-&lt;p&gt;There&amp;#39;s something effortlessly fun in doing a redesign just by picking a selection from a menu, and suddenly having everything look new. &amp;#0160;How few things work that way!&lt;/p&gt;
-&lt;p&gt;It was especially nice that when I picked a photo to use for the theme, that the system suggested an appropriate accompanying color palette.&lt;/p&gt;
-&lt;p&gt;Also noted, 5/22/2010: as author, my top navigation bar has an &amp;quot;edit post&amp;quot; button, so I can change things well after the fact. &amp;#0160;This is promising. &amp;#0160;I do notice that there are no archives links anymore and no easy way for anyone to notice that I&amp;#39;ve been plugging away at this for years, but the &amp;quot;search&amp;quot; box is very welcomed, and should unearth some things that would have otherwise been buried.&lt;/p&gt;
-&lt;p&gt;3/19/11: The design I had picked was &amp;quot;Chroma&amp;quot;. I&amp;#39;ve swapped that out for &amp;quot;Journal Black&amp;quot;, which served to restore the category and archive links. --Ed&lt;/p&gt;
-&lt;p&gt;4/24/13: Now using the &amp;quot;Clean&amp;quot; theme, with radically simplified sidebars.&lt;/p&gt;
-</description>
+      <description>Mostly, the design is new because I was ready to scrap a bland custom design and go with something from the Typepad gallery. &amp;#0160;I also like this one in part because it has a nice wide area for pictures in blog posts.
+I had to hit &amp;quot;shift-refresh&amp;quot; to force everything to load.
+There&amp;#39;s something effortlessly fun in doing a redesign just by picking a selection from a menu, and suddenly having everything look new.</description>
     </item>
     
     <item>
@@ -222,8 +104,7 @@ stop.&lt;/p&gt;
       <pubDate>Sun, 21 Dec 2008 22:55:44 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-12-21-retrenching-on-web-20-controlling-your-presence-by-turning-off-abandoned-services/</guid>
-      <description>&lt;p&gt;If there&amp;#39;s one thing that&amp;#39;s characteristic of Web 2.0, it&amp;#39;s that a lot of people made it very easy to create free accounts that let you do some very small, specialized amount of publishing on their site.&amp;#0160; From recipes to wish lists to book lists to diaries to reviews, almost anything you can possibly think of writing had a home &amp;quot;free&amp;quot; on the net, as long as you were willing to have someone else&amp;#39;s advertising there sponsoring it.&lt;/p&gt;&lt;p&gt;With the retrenching in Web 2.0 properties - either sites getting bought up and closed down, abandoned by their new owners, orphaned, or mutated beyond recognition in the search for profit, it&amp;#39;s time to start looking closely at what kinds of remnant &amp;quot;internet presence&amp;quot; I have lurking on the internets and see about turning off anything that&amp;#39;s no longer relevant or up to date.&amp;#0160; Here&amp;#39;s a list of sorts of long-forgotten enthusiasms that should be mercifully excised or republished in some current format.&lt;/p&gt;&lt;p&gt;Yikes!&amp;#0160; There&amp;#39;s a lot of debris here.&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://blogs.opml.org/vacuum/&#34;&gt;OPML blog&lt;/a&gt; - Dave Winer&amp;#39;s software for publishing; I used it about a dozen times between 2006 and 2008.&amp;#0160; The sidebar is full of links to blogs that I don&amp;#39;t read, helping boost their pagerank.&amp;#0160; If I can get back to it, I&amp;#39;ll nix it.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.superpatron.com/&#34;&gt;superpatron.com&lt;/a&gt; - Once upon a time I was going to move my Typepad blog for superpatron over to Wordpress; that project stopped before it really got started, leaving a half baked page up.&amp;#0160; Redo that so that it redirects properly.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www-personal.umich.edu/%7Eemv/project/vacuum/&#34;&gt;Vacuum #8&lt;/a&gt; - The last iteration of my Blogger based blog from 2003, after which I switched over to Typepad.&amp;#0160; It&amp;#39;s a relic, and I think I&amp;#39;l keep it as a relic, in part because I used to have a functioning design that had a nice ever-growing ad hoc sidebar full of marginalia and none of the Typepad designs really support that well.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.socialtext.net/exchange/index.cgi?edward_vielmetti&#34;&gt;Edward Vielmetti - Socialtext Customer Exchange&lt;/a&gt; - yikes, a wiki.&amp;#0160; It should get a copy of the standard bio.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/people/edward-vielmetti/&#34;&gt;Flickr&lt;/a&gt; - Not many photos uploaded since my camera died a technicolor death.&amp;#0160; My bio is about two years out of date, and it doesn&amp;#39;t have the current picture.&amp;#0160; I&amp;#39;m increasingly irritated by Flickr&amp;#39;s cutesiepie error messages, which don&amp;#39;t line up with their unpleasant treatment of key staff.&amp;#0160; When my Pro account runs out I probably won&amp;#39;t renew it, which means I need to unpublish about 130 photos.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://edwardvielmetti.jaiku.com/&#34;&gt;Jaiku&lt;/a&gt; - Like a bad penny, it follows you around, collecting scraps of things that you once fed it and keeping them for all eternity.&amp;#0160; There was once a time when I used Jaiku when Twitter was down, but it&amp;#39;s been so thoroughly orphaned by Google that it&amp;#39;s hardly worth the bother.&amp;#0160; &amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://plazes.com/users/5955&#34;&gt;Plazes&lt;/a&gt; - Like a bad pfennig, it follows you around, collecting scraps of information about where you were and remembering them for all time.&amp;#0160; I used to use Plazes, but enough creepy encounters from people who were unsubtle about the uses of always-on geolocation soured me on the use of any remote location tracking software ever again. &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.scribd.com/people/view/4400930-vielmetti&#34;&gt;Scribd&lt;/a&gt; - Hey, once upon a time I created an account!&amp;#0160; I hope they have password recovery.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/pdp/profile/A10XJYJ0AHB3QY&#34;&gt;Amazon&lt;/a&gt; - This bio is a few years old.&amp;#0160; Do I really want to share my wish list - which no one has ever bought me anything from - with the world?&amp;#0160; After all I don&amp;#39;t really use it as a wish list, just a way to bookmark things within Amazon.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/User:Edward_Vielmetti&#34;&gt;Wikipedia&lt;/a&gt; - Eeek!&amp;#0160; A wiki. &amp;#0160; Not very useful or helpful as a profile page, perhaps that&amp;#39;s just as well.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://portal.acm.org/author_page.cfm?id=81100105173&#34;&gt;ACM Portal&lt;/a&gt; - Only one publication; gotta get on that.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.pandora.com/people/edward.vielmetti&#34;&gt;Pandora&lt;/a&gt; - I haven&amp;#39;t used this in how many years?&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.meetup.com/members/16128/&#34;&gt;Meetup&lt;/a&gt; - Party like it&amp;#39;s 2002.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://www.xing.com/profile/Edward_Vielmetti&#34;&gt;Xing&lt;/a&gt; - If I&amp;#39;m going to really use this, then it needs a complete overhaul - what&amp;#39;s there is also woefully out of date.&amp;#0160; I&amp;#39;d be better off starting over.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://a2skatepark.org/profile/EdwardVielmetti&#34;&gt;a2skatepark&lt;/a&gt; - eek!&amp;#0160; Ning, I think, gets the credit or blame for this skeletal self-description.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.plaxo.com/directory/profile/38654936346/209b82c7/Edward/Vielmetti&#34;&gt;Plaxo&lt;/a&gt; - eek!&amp;#0160; Needs work.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.plodt.com/vielmetti/&#34;&gt;plodt&lt;/a&gt; - huh?&amp;#0160; I never remember signing up for this, but it seems to be stalking me.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.vegguide.org/user/597&#34;&gt;VegGuide&lt;/a&gt; - I apparently used this once back in 2004, and it hasn&amp;#39;t forgetten about me yet.&amp;#0160; Yet.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.43things.com/person/edwardvielmetti&#34;&gt;43 Things&lt;/a&gt; - For a brief shining moment in 2004 this was interesting; now it&amp;#39;s just more crap on the net beyond my direct control.&amp;#0160; I hope they have password recovery.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://360.yahoo.com/profile-FOLvu.o0ba8lWOZm5gQ86w--?cq=1&#34;&gt;Yahoo 360&lt;/a&gt; - I had hoped that they had killed this off, but I guess they didn&amp;#39;t; the sleeping baby on the front page is now almost 4 years old.&amp;#0160; (cute kid, huh?)&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.listphile.com/a2b3_membership_roster/Edward_Vielmetti&#34;&gt;ListPhile&lt;/a&gt; - I hope they have password recovery; I don&amp;#39;t remember ever signing up for it, but there I am larger than life.&amp;#0160; Huh?&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://edwardvielmetti.vox.com/&#34;&gt;Vox&lt;/a&gt; - I&amp;#39;m averaging about a post every six months.&lt;/p&gt;&lt;p&gt;There&amp;#39;s more, I&amp;#39;m sure, and I&amp;#39;m not even counting all of the aggregators and refeeders and etc etc that replicated stuff I wrote without me asking to or having any control over the presentation.&lt;/p&gt;
-</description>
+      <description>If there&amp;#39;s one thing that&amp;#39;s characteristic of Web 2.0, it&amp;#39;s that a lot of people made it very easy to create free accounts that let you do some very small, specialized amount of publishing on their site.&amp;#0160; From recipes to wish lists to book lists to diaries to reviews, almost anything you can possibly think of writing had a home &amp;quot;free&amp;quot; on the net, as long as you were willing to have someone else&amp;#39;s advertising there sponsoring it.</description>
     </item>
     
     <item>
@@ -232,22 +113,9 @@ stop.&lt;/p&gt;
       <pubDate>Tue, 26 Aug 2008 14:39:23 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-26-make-your-web-s/</guid>
-      <description>&lt;p&gt;This blog loads very, very slowly.&amp;nbsp; (Sorry.)&amp;nbsp; It&#39;s big, it&#39;s full of weird crap that I like to post because it&#39;s interesting, and sometimes things break because the weird crap is no longer supported.&lt;/p&gt;
-
-&lt;p&gt;If you want it to go faster look at this:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Steve Souders book High Performance Web Sites describes the 14 best
-practices he developed while working as the Chief Performance Yahoo!.
-YSlow, the Firebug extension he created, codified those best practices.
-Now working at Google, Steve discusses the next set of best practices
-he&#39;s discovered, including the impact of iframes and where to place
-(and where not to place) inline script blocks. &lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;and it you want to understand why web sites that are faster are better, more profitable, and more helpful for users see &lt;a href=&#34;http://www.amazon.com/dp/0596515081/?tag=superpatron-20&#34;&gt;Andy King&#39;s Web Site Optimization&lt;/a&gt; &lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Fast display speed is the key to success with your website. It
-increases profits, decreases costs, and improves customer satisfaction
-(not to mention search engine rankings, accessibility, and
-maintainability).
-&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Here&#39;s Steve Souders talk at Google.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;object height=&#34;344&#34; width=&#34;425&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/QRUqVyP27Hw&amp;amp;hl=en&amp;amp;fs=1&#34; /&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34; /&gt;&lt;embed height=&#34;344&#34; width=&#34;425&#34; src=&#34;http://www.youtube.com/v/QRUqVyP27Hw&amp;amp;hl=en&amp;amp;fs=1&#34; type=&#34;application/x-shockwave-flash&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
-</description>
+      <description>This blog loads very, very slowly.&amp;nbsp; (Sorry.)&amp;nbsp; It&#39;s big, it&#39;s full of weird crap that I like to post because it&#39;s interesting, and sometimes things break because the weird crap is no longer supported.
+If you want it to go faster look at this:
+Steve Souders book High Performance Web Sites describes the 14 best practices he developed while working as the Chief Performance Yahoo!. YSlow, the Firebug extension he created, codified those best practices.</description>
     </item>
     
     <item>
@@ -256,11 +124,8 @@ maintainability).
       <pubDate>Sat, 29 Mar 2008 10:27:47 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-03-29-lou-rosenfeld-1/</guid>
-      <description>&lt;p&gt;&lt;p&gt;&lt;a href=&#34;http://www.louisrosenfeld.com&#34;&gt;Lou Rosenfeld&lt;/a&gt; has a new workshop about analytics for the search within sites - the sort of information that is quantitatively and qualitatively different from general search terms and behavior because it&amp;rsquo;s within a closed domain (e.g. an intranet) or because people who are looking for something have already found you.&lt;/p&gt;
-&lt;div style=&#34;width:425px;text-align:left&#34; id=&#34;__ss_323514&#34;&gt;&lt;object style=&#34;margin:0px&#34; height=&#34;355&#34; width=&#34;425&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=site-search-analytics-workshop-presentation-1206591636862053-4&#34;/&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;/&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;always&#34;/&gt;&lt;embed src=&#34;http://static.slideshare.net/swf/ssplayer2.swf?doc=site-search-analytics-workshop-presentation-1206591636862053-4&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&#34;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&#34;&gt;&lt;a href=&#34;http://www.slideshare.net/?src=embed&#34;&gt;&lt;img src=&#34;http://static.slideshare.net/swf/logo_embd.png&#34; style=&#34;border:0px none;margin-bottom:-5px&#34; alt=&#34;SlideShare&#34;/&gt;&lt;/a&gt; | &lt;a href=&#34;http://www.slideshare.net/lrosenfeld/site-search-analytics-workshop-presentation&#34; title=&#34;View this slideshow on SlideShare&#34;&gt;View&lt;/a&gt; | &lt;a href=&#34;http://www.slideshare.net/upload&#34;&gt;Upload your own&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;img style=&#34;visibility:hidden;width:0px;height:0px;&#34; border=0 width=0 height=0 src=&#34;http://counters.gigya.com/wildfire/CIMP/Jmx*PTEyMDY4MDA*MDg*MjYmcHQ9MTIwNjgwMDQyMTkwNiZwPTEwMTkxJmQ9Jm49.jpg&#34; /&gt;
-&lt;p&gt;He&amp;rsquo;s &lt;a href=&#34;http://louisrosenfeld.com/home/bloug_archive/2008/03/slides_for_my_new_workshop.html&#34;&gt;looking for comments and feedback&lt;/a&gt; - thanks.&lt;/p.
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/analytics&#34; rel=&#34;tag&#34;&gt;analytics&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/search&#34; rel=&#34;tag&#34;&gt;search&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/louis-rosenfeld&#34; rel=&#34;tag&#34;&gt;louis-rosenfeld&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/slideshare&#34; rel=&#34;tag&#34;&gt;slideshare&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/workshop&#34; rel=&#34;tag&#34;&gt;workshop&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>Lou Rosenfeld has a new workshop about analytics for the search within sites - the sort of information that is quantitatively and qualitatively different from general search terms and behavior because it&amp;rsquo;s within a closed domain (e.g. an intranet) or because people who are looking for something have already found you.
+ | View | Upload your ownHe&amp;rsquo;s looking for comments and feedback - thanks.Technorati Tags: analytics, search, louis-rosenfeld, slideshare, workshop</description>
     </item>
     
     <item>
@@ -269,28 +134,7 @@ maintainability).
       <pubDate>Thu, 13 Mar 2008 23:50:53 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-03-13-every-day-compu/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-One of my dot-com era relics is issue #2 of the short-lived magazine In Formation.  Here&amp;rsquo;s
-&lt;br /&gt;&lt;a href=&#34;http://query.nytimes.com/gst/fullpage.html?res=9C0DE5DA1530F936A25750C0A96E958260&#34;&gt;what the New York Times said about it in 1998:&lt;/a&gt; - the hypertext annotations are mine.
-&lt;/p&gt;&lt;blockquote&gt;
- It&amp;rsquo;s not exactly &lt;a href=&#34;http://www.youtube.com/watch?v=X7wYtt6NroQ&#34;&gt;Howard Beale&lt;/a&gt;, the mad anchor in &lt;a href=&#34;http://www.imdb.com/title/tt0074958/&#34;&gt;Network&lt;/a&gt;,&amp;rdquo; deciding he&amp;rsquo;s opposed to corporate news operations, but a group of Silicon Valley wonks has taken the daring step of going public with an equally heretical notion. The cyber-future can wait.
-&lt;br /&gt;
-&lt;br /&gt;The medium is a new quarterly magazine &amp;ndash; a print magazine &amp;ndash; called In Formation. Pitched as a hype buster for these high-tech times, the premiere issue, just out, announces its intentions with the acutely paranoid tag line, &lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla%3Aen-US%3Aofficial&amp;amp;hs=Snf&amp;amp;q=%22every+day+computers+are+making+people+easier+to+use%22&amp;amp;btnG=Search&#34;&gt;&amp;ldquo;Every day, computers are making people easier to use.&amp;rdquo;&lt;/a&gt; Whether that spirit takes the form of an article on the draconian implications of a &lt;a href=&#34;http://www.facebook.com&#34;&gt;nationwide student database&lt;/a&gt; or on the &lt;a href=&#34;http://blogs.zdnet.com/BTL/?p=8211&#34;&gt;loss of privacy in a cashless society&lt;/a&gt;, the subtext remains the same: &amp;ldquo;Be afraid. Be very afraid.&amp;rdquo; Which is not to say the magazine is humorless. In a parody, &amp;ldquo;The Internet Watch,&amp;rdquo; the first issue cleverly skewers&lt;a href=&#34;http://www.amazon.com/gp/redirect.html%3FASIN=0596513747%26tag=superpatron-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596513747%253FSubscriptionId=02ZH6J1W0649DTNS6002&#34;&gt; &lt;/a&gt;the hagiographic new-media profile, tracking the rise of the edgy, youthful genius behind&lt;a href=&#34;http://www.amazon.com/Swatch-Silvertone-Wayfarer-Chronograph-SVBK4001AG/dp/B000KIE0TY&#34;&gt; a portable Internet device that can, on command, tell you what time it is.&lt;/a&gt;
-&lt;br /&gt;
-&lt;br /&gt;The magazine&amp;rsquo;s editors and contributors have worked at places like the @Home Network, Apple and Starwave, so they know the territory. In Formation&amp;rsquo;s editor and publisher, &lt;a href=&#34;http://www.linkedin.com/pub/0/1/b46&#34;&gt;David Temkin&lt;/a&gt;, sees the magazine taking on digital fetishism in much the same way &lt;a href=&#34;http://www.youtube.com/watch?v=SmZf48ZE8Jc&#34;&gt;Spy magazine riffed on the go-go 80&amp;rsquo;s&lt;/a&gt;. &amp;ldquo;Spy was outsiders looking for an in,&amp;rdquo; he says, in a line that will probably be repeated often during the magazine&amp;rsquo;s formative months. &amp;ldquo;In Formation is insiders looking for an out.&amp;rdquo;
-&lt;/blockquote&gt;&lt;p&gt;
-Issue #2 is a keeper, with stories on &amp;ldquo;The Internet Wants To KIll Me&amp;rdquo;, the Million Manager March, and a photo essay on the strip malls of Silicon Valley.    Plus this ad, from the &lt;a href=&#34;http://www.google.com/search?q=%22california+print+association%22&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;rls=org.mozilla:en-US:official&amp;amp;client=firefox-a&#34;&gt;California Print Association&lt;/a&gt;:
-&lt;/p&gt;&lt;blockquote&gt;
-Let&amp;rsquo;s be honest: the Internet is a cold, impersonal, cheerless place.  No amount of technology will ever make it more human.  All those clicks and URLs are confusing and hard to remember.  And did you know that 60% of the people who use search engines never find what they want?
-&lt;br /&gt;
-&lt;br /&gt;So, if you want a medium that can really make an impression, why not rely on the one that was &amp;ldquo;sticky&amp;rdquo; long before stickiness was good?  With no arcane plug-ins and no long download times, print has warmth, life, and a physical presence that the Internet can&amp;rsquo;t beat.
-&lt;br /&gt;
-&lt;br /&gt;PRINT: It just smells better!
-&lt;/blockquote&gt;&lt;p&gt;
-Party like it&amp;rsquo;s &lt;a href=&#34;http://www.city-data.com/zips/94115.html&#34;&gt;94115&lt;/a&gt;, 1999.
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/party-like-its-1999&#34; rel=&#34;tag&#34;&gt;party-like-its-1999&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/party-like-its-94115&#34; rel=&#34;tag&#34;&gt;party-like-its-94115&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/in-formation&#34; rel=&#34;tag&#34;&gt;in-formation&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/magazine&#34; rel=&#34;tag&#34;&gt;magazine&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>One of my dot-com era relics is issue #2 of the short-lived magazine In Formation. Here&amp;rsquo;s what the New York Times said about it in 1998: - the hypertext annotations are mine.  It&amp;rsquo;s not exactly Howard Beale, the mad anchor in Network,&amp;rdquo; deciding he&amp;rsquo;s opposed to corporate news operations, but a group of Silicon Valley wonks has taken the daring step of going public with an equally heretical notion.</description>
     </item>
     
     <item>
@@ -299,18 +143,7 @@ Party like it&amp;rsquo;s &lt;a href=&#34;http://www.city-data.com/zips/94115.ht
       <pubDate>Sun, 17 Feb 2008 21:49:05 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-02-17-jessica-bowman/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-&lt;a href=&#34;http://www.searchenginejournal.com/jessica-bowman-yahoos-senior-seo-manager-laid-off-on-the-market/6384/&#34;&gt;from Search Engine Journal&amp;rsquo;s Loren Baker:
-&lt;br /&gt;&lt;/a&gt;
-&lt;/p&gt;&lt;blockquote&gt;
-Among the 1,000 layoffs at Yahoo was that of &lt;a href=&#34;http://www.seminhouse.com/jessica-bowman-seo-job.html&#34;&gt;Jessica Bowman&lt;/a&gt;, who had the dual role of Senior SEO Manager and SEO Evangelist at Yahoo, and received her pinkslip this week.
-&lt;br /&gt;
-&lt;br /&gt;    As you know by now, life at Yahoo! wasn’t pleasant this week and I’m happy to report that that their in-house SEO program is now so good, that I was laid off!
-&lt;/blockquote&gt;&lt;p&gt;
-Jessica&amp;rsquo;s blog is &lt;a href=&#34;http://www.seminhouse.com/&#34;&gt;SEM / SEO In-house Blog&lt;/a&gt;, where she writes about the needs of people who are doing SEO in-house (rather than at an agency) and what that entails.
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/yahoo&#34; rel=&#34;tag&#34;&gt;yahoo&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/yhoo&#34; rel=&#34;tag&#34;&gt;yhoo&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/yahoo-alumni-association&#34; rel=&#34;tag&#34;&gt;yahoo-alumni-association&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/seo&#34; rel=&#34;tag&#34;&gt;seo&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/sem&#34; rel=&#34;tag&#34;&gt;sem&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/search&#34; rel=&#34;tag&#34;&gt;search&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>from Search Engine Journal&amp;rsquo;s Loren Baker:   Among the 1,000 layoffs at Yahoo was that of Jessica Bowman, who had the dual role of Senior SEO Manager and SEO Evangelist at Yahoo, and received her pinkslip this week. As you know by now, life at Yahoo! wasn’t pleasant this week and I’m happy to report that that their in-house SEO program is now so good, that I was laid off!</description>
     </item>
     
   </channel>

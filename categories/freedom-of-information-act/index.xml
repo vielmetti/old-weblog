@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/freedom-of-information-act/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Freedom Of Information Act on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/freedom-of-information-act/</link>
+    <description>Recent content in Freedom Of Information Act on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/freedom-of-information-act/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Dec 2013 09:47:59 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/freedom-of-information-act/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>MuckRock News interview: &#34;Sometimes the documents aren&#39;t the most important outcome&#34;</title>
@@ -14,14 +17,8 @@
       <pubDate>Fri, 27 Dec 2013 09:47:59 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-27-muckrock-news-interview-sometimes-the-documents-arent-the-most-important-outcome/</guid>
-      <description>&lt;p&gt;MuckRock&#39;s George Levine did an interview with me for MuckRock News. Here&#39;s the start:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In this week’s Requester’s Voice MuckRock goes hyperlocal with Ann Arbor’s Edward Vielmetti. From parking garages to sidewalks, Vielmetti is plugged in to the home of the Wolverines. He shows us how working with public documents should extend beyond federal fiddlings and can really have an impact on a local community. Formerly of AnnArbor.com, Vielmetti currently writes a weekly FOIA post for Damn Arbor. He is also working on a FOIA book The No-Nonsense Guide to the Michigan Freedom of Information Act.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can see more at MuckRock: &lt;a href=&#34;https://www.muckrock.com/news/archives/2013/dec/27/requesters-voice-edward-vielmetti-using-public-rec/&#34;&gt;Requester&#39;s Voice: Edward Vielmetti uses public records to spark local government &#39;soul searching&#39;&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>MuckRock&#39;s George Levine did an interview with me for MuckRock News. Here&#39;s the start:
+ In this week’s Requester’s Voice MuckRock goes hyperlocal with Ann Arbor’s Edward Vielmetti. From parking garages to sidewalks, Vielmetti is plugged in to the home of the Wolverines. He shows us how working with public documents should extend beyond federal fiddlings and can really have an impact on a local community. Formerly of AnnArbor.com, Vielmetti currently writes a weekly FOIA post for Damn Arbor.</description>
     </item>
     
     <item>
@@ -30,18 +27,8 @@
       <pubDate>Thu, 17 Oct 2013 11:24:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-17-ifoia-a-foia-letter-generator-and-request-tracker-from-the-reporters-committee-for-the-freedom-of-th/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0018be53970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b0018be53970d&#34; alt=&#34;Ifoia&#34; title=&#34;Ifoia&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b0018be53970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Reporters Committee for the Freedom of the Press (&lt;a href=&#34;http://www.rcfp.org&#34;&gt;RCFP&lt;/a&gt;) announced a new FOIA generator and FOIA request tracker, &#34;iFOIA&#34;, at the ONA &#39;13 conference. From their &lt;a href=&#34;http://www.rcfp.org/reporters-committee-launches-ifoia-electronic-information-request-filing-and-tracking-system&#34;&gt;press release&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The iFOIA resource, which is online at &lt;a href=&#34;http://www.ifoia.org&#34;&gt;www.ifoia.org&lt;/a&gt;, is an extension of the Reporters Committee’s popular FOIA Letter Generator, which has been a feature of the organization’s website since 1996. iFOIA can be used on a desktop or mobile device, and allows users to choose whether to keep their correspondence chains with government agencies confidential or share them with designated colleagues, such as editors and lawyers. It also includes a FOIA Wiki for feedback and discussions. Because it automatically organizes all of a reporter’s files, it is designed to help with lawsuits and agency appeals when government stonewalling presents no other option.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I sent my first request in this morning, a straightforward one that shouldn&#39;t require any payment or any appeal, and I&#39;m hopeful that it will work as easily as it seems to work. The site is in beta.&lt;/p&gt;
-
-&lt;p&gt;The other FOIA request system to compare it with is the now-venerable &lt;a href=&#34;http://www.muckrock.com&#34;&gt;Muckrock&lt;/a&gt;, which does a similar task. The biggest visible difference with Muckrock is that the iFOIA site doesn&#39;t appear to have a one-step straightforward way to share your FOIA request and results with the world. Muckrock serves as both a request and publication platform, and seems to be tuned to publicity and activism; the RCFP system looks like it&#39;s designed more for the journalist keeping their work private until it shows up in print.&lt;/p&gt;
-</description>
+      <description>The Reporters Committee for the Freedom of the Press (RCFP) announced a new FOIA generator and FOIA request tracker, &#34;iFOIA&#34;, at the ONA &#39;13 conference. From their press release:
+ The iFOIA resource, which is online at www.ifoia.org, is an extension of the Reporters Committee’s popular FOIA Letter Generator, which has been a feature of the organization’s website since 1996. iFOIA can be used on a desktop or mobile device, and allows users to choose whether to keep their correspondence chains with government agencies confidential or share them with designated colleagues, such as editors and lawyers.</description>
     </item>
     
     <item>
@@ -50,24 +37,9 @@
       <pubDate>Sat, 03 Aug 2013 14:22:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-03-is-the-northern-michigan-geologic-repository-association-a-public-body-under-michigan-foia/</guid>
-      <description>&lt;p&gt;The question from &lt;a href=&#34;http://www.miningjournal.net/page/content.detail/id/589393/FOIA-at-core-of-court-case.html?nav=5006&#34; target=&#34;_self&#34;&gt;a story in the Marquette Mining Journal&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;MARQUETTE - Marquette County Circuit Court Judge Thomas Solka heard oral arguments Thursday on a case involving whether the Northern Michigan Geologic Repository Association is a public body subject to producing financial information under the Freedom of Information Act.&lt;/p&gt;
-&lt;p&gt;The association is important to plaintiffs in the case because it was created under state law requirements by the Michigan Department of Environmental Quality, which makes it a public body by extension, the plaintiffs contend.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The association in question is the &lt;a href=&#34;https://www.michigan.gov/deq/0,4561,7-135-3311_4111_18442-168830--,00.html&#34; target=&#34;_self&#34;&gt;Northern Michigan Geologic Repository Assocation&lt;/a&gt;, described on a Michigan DEQ site as follows.&lt;/p&gt;
-&lt;blockquote&gt;The Geological Core and Sample Repository holds a &lt;br /&gt;collection of drill core and cuttings from 67 counties &lt;br /&gt;in Michigan, including all 15 counties from the Upper &lt;br /&gt;Peninsula. The purpose of the collection is to act as &lt;br /&gt;a &amp;quot;rock library&amp;quot; and make the collected material &lt;br /&gt;available to individual researchers and industry for &lt;br /&gt;geologic study. It is hoped that the collection will &lt;br /&gt;lead to increased mineral and fuel exploration and &lt;br /&gt;development in various parts of Michigan. Both the &lt;br /&gt;local and state economies may benefit by more jobs &lt;br /&gt;being created.&lt;/blockquote&gt;
-&lt;p&gt;The plaintiffs contend:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;The murky facts surrounding the Northern Michigan Geologic Repository Association exemplify the need for the Freedom of Information Act and the purpose for which it was enacted: to shine a light on the actions of government officials which directly impact the citizens whom they purport to represent,&amp;quot; said Jana Mathieu, the plaintiff&amp;#39;s attorney.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;More details from &lt;a href=&#34;http://savethewildup.org/2013/06/citizens-demand-federal-investigation-of-collusion-between-state-regulators-and-mining-industry/&#34; target=&#34;_self&#34;&gt;Save the Wild UP&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Near the Upper Peninsula District Office of the Department of Environmental Quality (DEQ) in Gwinn, this map taped to the wall of a large warehouse labels the facility a “State Warehouse.” Core samples are stored within, but the DEQ claims no further association with NMGRA, the non-profit that has leased the warehouse and is attempting to raise money to make it a state geologic repository.&lt;/strong&gt;&lt;/p&gt;
-&lt;div&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>The question from a story in the Marquette Mining Journal:
+ MARQUETTE - Marquette County Circuit Court Judge Thomas Solka heard oral arguments Thursday on a case involving whether the Northern Michigan Geologic Repository Association is a public body subject to producing financial information under the Freedom of Information Act.
+The association is important to plaintiffs in the case because it was created under state law requirements by the Michigan Department of Environmental Quality, which makes it a public body by extension, the plaintiffs contend.</description>
     </item>
     
     <item>
@@ -76,11 +48,9 @@
       <pubDate>Sun, 21 Jul 2013 21:07:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-07-21-foia-machine-kickstarter-is-rolling-right-along/</guid>
-      <description>&lt;p&gt;&lt;p&gt;With 25 days to go, the &lt;a href=&#34;http://kck.st/15DFqqb&#34; target=&#34;_self&#34;&gt;FOIA Machine kickstarter&lt;/a&gt; is almost 2x overfunded. They are looking to build a system for automatically tracking and managing FOIA requests.&lt;/p&gt;
-&lt;p&gt;I am not clear how this effort differs from the already existing MuckRock News system, but there&amp;#39;s room for innovation in the space because FOIA can be the world&amp;#39;s worst search engine and any help is welcomed.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;iframe frameborder=&#34;0&#34; height=&#34;360&#34; src=&#34;http://www.kickstarter.com/projects/cir/foia-machine/widget/video.html&#34; width=&#34;480&#34;&gt; &lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>With 25 days to go, the FOIA Machine kickstarter is almost 2x overfunded. They are looking to build a system for automatically tracking and managing FOIA requests.
+I am not clear how this effort differs from the already existing MuckRock News system, but there&amp;#39;s room for innovation in the space because FOIA can be the world&amp;#39;s worst search engine and any help is welcomed.
+&amp;#0160;</description>
     </item>
     
     <item>
@@ -89,15 +59,11 @@
       <pubDate>Mon, 04 Feb 2013 23:10:14 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-02-04-how-to-search-the-michigan-legislature-for-pending-legislation/</guid>
-      <description>&lt;p&gt;I&amp;#39;m trying my best to track every bill that affects Freedom of Information Act laws in Michigan.&lt;/p&gt;
-&lt;p&gt;The method runs as follows:&lt;/p&gt;
-&lt;p&gt;1. Go to the &lt;a href=&#34;http://www.legislature.mi.gov/&#34; target=&#34;_self&#34;&gt;Michigan Legislative Website&lt;/a&gt;, where bills and their status are shown.&lt;/p&gt;
-&lt;p&gt;2. Search bill text for &amp;quot;Freedom of information&amp;quot;.&lt;/p&gt;
-&lt;p&gt;3. Note with (dismay? amazement?) that 14 bills are found, 4 on the Senate side, 10 on the House side. Realize that this includes legislation that refers to FOIA laws but does not change them.&lt;/p&gt;
-&lt;p&gt;4. Realize that there&amp;#39;s no time at this particular instant to read through all the bills, but that needs to be done; save this post as a draft.&lt;/p&gt;
-&lt;p&gt;5. Realize that even a draft should be published, and publish it, hoping that I can come back later and zero in on a speedier approach.&lt;/p&gt;
-&lt;p&gt;The burden of diligence.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;m trying my best to track every bill that affects Freedom of Information Act laws in Michigan.
+The method runs as follows:
+1. Go to the Michigan Legislative Website, where bills and their status are shown.
+2. Search bill text for &amp;quot;Freedom of information&amp;quot;.
+3. Note with (dismay? amazement?) that 14 bills are found, 4 on the Senate side, 10 on the House side. Realize that this includes legislation that refers to FOIA laws but does not change them.</description>
     </item>
     
     <item>
@@ -106,8 +72,7 @@
       <pubDate>Sat, 20 Mar 2010 22:36:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-03-20-foia-the-worlds-worst-possible-search-engine/</guid>
-      <description>&lt;p&gt;In celebration of Sunshine Week, my AnnArbor.com story on &lt;a href=&#34;http://www.annarbor.com/vielmetti/sunshine-week/&#34;&gt;just how awful the FOIA process is&lt;/a&gt;. &amp;#0160;It would be easier and more profitable to lurk in hallways and root around in dumpsters.&lt;/p&gt;
-</description>
+      <description>In celebration of Sunshine Week, my AnnArbor.com story on just how awful the FOIA process is. &amp;#0160;It would be easier and more profitable to lurk in hallways and root around in dumpsters.</description>
     </item>
     
     <item>
@@ -116,8 +81,8 @@
       <pubDate>Sun, 08 Nov 2009 13:35:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-11-08-a-new-freedom-of-information-blog-starting/</guid>
-      <description>&lt;p&gt;I&amp;#39;ve been writing a &amp;quot;FOIA Friday&amp;quot; series at AnnArbor.com, and the thought has started to occur to me that it would be a lot easier to write it if I had another blog to use to cut and paste clippings into so that I had more material to work from.&lt;/p&gt;&lt;p&gt;So, prepare for a new FOIA blog at &lt;a href=&#34;http://vielmetti.typepad.com/foia&#34;&gt;http://vielmetti.typepad.com/foia&lt;/a&gt; which doesn&amp;#39;t have a clever name yet but will serve as a place to collect stuff that&amp;#39;s relevant and interesting to open government issues, yet out of scope for the newspaper.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;ve been writing a &amp;quot;FOIA Friday&amp;quot; series at AnnArbor.com, and the thought has started to occur to me that it would be a lot easier to write it if I had another blog to use to cut and paste clippings into so that I had more material to work from.
+So, prepare for a new FOIA blog at http://vielmetti.typepad.com/foia which doesn&amp;#39;t have a clever name yet but will serve as a place to collect stuff that&amp;#39;s relevant and interesting to open government issues, yet out of scope for the newspaper.</description>
     </item>
     
     <item>
@@ -126,8 +91,8 @@
       <pubDate>Thu, 07 May 2009 09:55:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-05-07-i-am-not-an-information-activist-or-a-civic-minded-data-freak-thank-you-very-much/</guid>
-      <description>&lt;p&gt;Let me explain to you why those terms don&amp;#39;t explain things very well.&lt;/p&gt;&lt;p&gt;I learned about public accounting from studying the works of Henry Carter Adams at the Interstate Commerce Commission by going through his correspondence and notebooks as stored at the Bentley Library.&amp;#0160; Adams was an economist who left Ann Arbor to go to DC to help regulate the railroads, and in particular to help deduce by careful study of required safety records which of several kinds of rail technology in use were most prone to accidents that would injure, cripple, or kill railroad workers and passengers.&lt;/p&gt;&lt;p&gt;Public accounting at the turn of the century was hard work.&amp;#0160; Not only did you have to come to some means of doing standard categorization for hundreds or thousands of categories of events and expenditures in a typical rail operation, but you also had to manage all that data flowing back to you as print and then reconstruct it into numbers.&amp;#0160; And then you had to make the case that one type of patented equipment was much more dangerous than another and that some private enterprise needed to be coerced, encouraged, or jawboned into making investments in public safety.&lt;/p&gt;&lt;p&gt;You would think that 100 plus years later, with all of our wonderful technology, that things would be better.&amp;#0160; You&amp;#39;d be wrong.&amp;#0160; Government organizations and publicly regulated institutions are still primarily putting together products designed to be printed, and in most cases there is very little thought put towards the use or reuse of the data hiding inside.&amp;#0160; &lt;/p&gt;&lt;p&gt;In one extreme, this shows up as hundred plus page long PDFs of scanned in images presented to board members to help them make decisions, including scanned in spreadsheets that have numerical errors that cannot be audited without rekeying.&amp;#0160; In another extreme, it means that no two public organizations that report the number of flu cases have precisely the same number, since their reporting cycles are different and no one is adding things up except at document preparation and print time.&amp;#0160; &lt;/p&gt;&lt;p&gt;You can&amp;#39;t count on critical public information being available in non-proprietary file formats, and you can&amp;#39;t count on non-critical public information being made openly available to the public at all.&lt;/p&gt;&lt;p&gt;It&amp;#39;s so bad that people trust Wikipedia more than they trust any other source, because at least with Wikipedia you know that what you&amp;#39;re looking at might be wrong and there&amp;#39;s a healthy dose of skepticism that can be dealt with by examining original documents.&lt;/p&gt;&lt;p&gt;So if I ask for that page of numbers as the spreadsheet it was originally, and a public records officer for a public body gives it to me as a bitmap, I&amp;#39;m going to ask again and keep asking publicly and perhaps uncomfortably until we both understand that this is a routine request and that compliance with routine requests is much easier than making everything an exception - because maybe, just maybe, I can replace that FOIA letter with a tiny shell script and we can just go about our business.&lt;/p&gt;
-</description>
+      <description>Let me explain to you why those terms don&amp;#39;t explain things very well.
+I learned about public accounting from studying the works of Henry Carter Adams at the Interstate Commerce Commission by going through his correspondence and notebooks as stored at the Bentley Library.&amp;#0160; Adams was an economist who left Ann Arbor to go to DC to help regulate the railroads, and in particular to help deduce by careful study of required safety records which of several kinds of rail technology in use were most prone to accidents that would injure, cripple, or kill railroad workers and passengers.</description>
     </item>
     
     <item>
@@ -136,23 +101,9 @@
       <pubDate>Mon, 09 Feb 2009 11:17:06 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-02-09-foia-letter-generators-how-to-ask-for-public-records-in-michigan-courteously-and-efficiently/</guid>
-      <description>&lt;p&gt;&lt;p&gt;There&amp;#39;s a set of simple applications that people have put together to create letter that request public records through the Freedom of Information Act.&amp;#0160; Here&amp;#39;s a collection of those sites, with a little commentary on each in part as they apply to requesting public records in Michigan.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.rcfp.org/foi_letter/generate.php&#34;&gt;FOI Letter Generator from the Reporters Committee for Freedom of the Press.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;This page generates letters for both federal and state agencies.&amp;#0160; On the federal side, it has separate forms for each of several dozen agencies; on the state side, it gives detailed instructions and references to state statutes for each of the 50 states plus DC.&amp;#0160; There&amp;#39;s sample language in each of several sections to smooth the path of triggering specific exemptions for fees based on public interest.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.rcfp.org/about.html&#34;&gt;The RCFP has been around since 1970:&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;The Reporters Committee for Freedom of the Press was created in 1970
-at a time when the nation&amp;#39;s news media faced a wave of government
-subpoenas asking reporters to name confidential sources.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;span size=&#34;2;&#34; style=&#34;font-family: verdana,arial,helvetica;&#34;&gt;&lt;font size=&#34;3&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://www.splc.org/foiletter.asp&#34;&gt;Fully Automated, Fill-in-the-Blanks State Open Records Law Request Letter Generator from the Student Press Law Center&lt;/a&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/span&gt;&lt;font size=&#34;3&#34;&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;&lt;font face=&#34;verdana,arial,helvetica&#34; size=&#34;2&#34;&gt; Welcome to the Student
-Press Law Center&amp;#39;s nationally recognized, automated open records law
-letter generator! Since its launch in 1997, our &lt;a href=&#34;http://www.splc.org/newsflash.asp?id=984&#34;&gt;unique letter generator&lt;/a&gt;
-has been used more than 100,000 times to assist journalists and other
-citizens obtain access to public records maintained by state or local
-government officials. The Student Press Law Center is happy to provide
-our letter generator free of charge as a public service. (If you would
-like to support our ability to continue and expand this service, &lt;a href=&#34;http://www.splc.org/give&#34;&gt;click here&lt;/a&gt;).&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;This is a one-page form.&amp;#0160; The Student Press Law Center shares an office with the Reporters Committee for Freedom of the Press, so it should be as accurate as the other.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;http://www.nfoic.org/foi-center&#34;&gt;National Freedom of Information Coalition&lt;/a&gt;, FOI Center&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;There is a set of sample letters here, and links to the above two letter generators.&amp;#0160; In addition there is a broad collection of FOI information mostly aimed at journalists, and more detailed information about FOIA requests in Missouri where this center is based.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;font face=&#34;Times New Roman&#34; size=&#34;4&#34;&gt;T&lt;strong&gt;he &lt;a href=&#34;http://www.mfoia.org/&#34;&gt;Michigan Freedom of Information Committee&lt;/a&gt; is a non-profit organization
-with a single focus:&lt;/strong&gt;
- &lt;/font&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;font face=&#34;Times New Roman&#34; size=&#34;3&#34;&gt;To ensure the public’s right to open access to government records and
-meetings, as provided by federal law and by Michigan’s Freedom of Information
-and Open Meetings acts.&lt;/font&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;&lt;br /&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>There&amp;#39;s a set of simple applications that people have put together to create letter that request public records through the Freedom of Information Act.&amp;#0160; Here&amp;#39;s a collection of those sites, with a little commentary on each in part as they apply to requesting public records in Michigan.
+FOI Letter Generator from the Reporters Committee for Freedom of the Press.
+This page generates letters for both federal and state agencies.&amp;#0160; On the federal side, it has separate forms for each of several dozen agencies; on the state side, it gives detailed instructions and references to state statutes for each of the 50 states plus DC.</description>
     </item>
     
     <item>
@@ -161,28 +112,7 @@ and Open Meetings acts.&lt;/font&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40
       <pubDate>Mon, 26 Jan 2009 16:48:24 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-01-26-president-obama-on-the-freedom-of-information-act/</guid>
-      <description>&lt;p&gt;From President Obama in his &lt;a href=&#34;http://www.whitehouse.gov/the_press_office/FreedomofInformationAct/&#34; target=&#34;_blank&#34;&gt;memo to the heads of federal agencies&lt;/a&gt;:
-&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;&lt;em&gt;A democracy requires accountability, and accountability requires
-transparency.&amp;#0160; As Justice Louis Brandeis wrote, “sunlight is said to be
-the best of disinfectants.”&amp;#0160; In our democracy, the Freedom of
-Information Act (FOIA), which encourages accountability through
-transparency, is the most prominent expression of a profound national
-commitment to ensuring an open Government.&amp;#0160; At the heart of that
-commitment is the idea that accountability is in the interest of the
-Government and the citizenry alike.&lt;/em&gt;&lt;/p&gt;
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;&lt;em&gt;The Freedom of Information Act should be administered with a
-clear presumption: In the face of doubt, openness prevails.&amp;#0160; The
-Government should not keep information confidential merely because
-public officials might be embarrassed by disclosure, because errors and
-failures might be revealed, or because of speculative or abstract
-fears.&amp;#0160; Nondisclosure should never be based on an effort to protect the
-personal interests of Government officials at the expense of those they
-are supposed to serve.&amp;#0160; In responding to requests under the FOIA,
-executive branch agencies (agencies) should act promptly and in a
-spirit of cooperation, recognizing that such agencies are servants of
-the public.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Jennifer Hall, board chair for the &lt;a href=&#34;http://a2dda.org&#34;&gt;Ann Arbor Downtown Development Authority&lt;/a&gt; for passing this along.&lt;/p&gt;
-</description>
+      <description>From President Obama in his memo to the heads of federal agencies: A democracy requires accountability, and accountability requires transparency.&amp;#0160; As Justice Louis Brandeis wrote, “sunlight is said to be the best of disinfectants.”&amp;#0160; In our democracy, the Freedom of Information Act (FOIA), which encourages accountability through transparency, is the most prominent expression of a profound national commitment to ensuring an open Government.&amp;#0160; At the heart of that commitment is the idea that accountability is in the interest of the Government and the citizenry alike.</description>
     </item>
     
   </channel>

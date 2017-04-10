@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/os-x/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Os X on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/os-x/</link>
+    <description>Recent content in Os X on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/os-x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jun 2015 16:53:10 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/os-x/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Docker&#39;s new RunC doesn&#39;t (yet?) work on Mac OS X</title>
@@ -14,18 +17,8 @@
       <pubDate>Mon, 22 Jun 2015 16:53:10 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-22-dockers-new-runc-doesnt-yet-work-on-mac-os-x-/</guid>
-      <description>&lt;p&gt;Docker has a new runtime environment that they are releasing called &lt;a href=&#34;http://blog.docker.com/2015/06/runc/&#34;&gt;runC&lt;/a&gt;. It&#39;s a &#34;lightweight universal plumbing&#34; that tries to encapsulate all of the Docker dependencies and infrastructure. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Because of Docker&#39;s start on Linux systems, it&#39;s been tricky to get it running under Mac OS X. Some tries to make it work depend on setting up virtual machines (with the likes of boot2docker) which makes it work at the cost of performance and flexibility. Docker on OS X has not been exceptionally easy though it does work once you commit to doing all of your Docker server work inside a VM&lt;/p&gt;
-
-&lt;p&gt;runC would be an answer to the problem of native Docker on OSX X, one might hope, but as of its first release it doesn&#39;t work. The first of what is probably many hurdles is the extensive use of the clone(2) system call instead of fork(2). This &lt;a href=&#34;http://files.meetup.com/10602292/See%20Docker%20from%20the%20Perspective%20of%20Linux%20Process.pdf&#34;&gt;presentation from Allen Sun at DaoCloud&lt;/a&gt; goes into the details of Docker&#39;s use of clone(2) from the perspective of Linux processes. It is notable that the OS X &#34;Darwin&#34; kernel doesn&#39;t have clone(2), and it&#39;s as far as I can tell not readily possible to mimic all of clone&#39;s semantics strictly by using fork in clever ways.&lt;/p&gt;
-
-&lt;p&gt;An open issue on Github is tracking &lt;a href=&#34;https://github.com/opencontainers/runc/issues/9&#34;&gt;Build fails on Mac OS X 10.9&lt;/a&gt;. I don&#39;t see an easy fix without work by Apple on their kernel.&lt;/p&gt;
-</description>
+      <description>Docker has a new runtime environment that they are releasing called runC. It&#39;s a &#34;lightweight universal plumbing&#34; that tries to encapsulate all of the Docker dependencies and infrastructure.  To build Docker we have re-used large quantities of plumbing: Linux, Go, lxc, aufs, lvm, iptables, virtualbox, vxlan, mesos, etcd, consul, systemd… the list goes on.
+ Because of Docker&#39;s start on Linux systems, it&#39;s been tricky to get it running under Mac OS X.</description>
     </item>
     
     <item>
@@ -34,23 +27,7 @@
       <pubDate>Fri, 29 May 2015 22:41:36 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-29-making-lag-monster-a-bit-less-laggy/</guid>
-      <description>&lt;p&gt;@tallervielmetti is using my old black Macbook. It&#39;s never been an exceptionally fast machine, but it&#39;s been super laggy of late, hence the name Lag Monster. &lt;/p&gt;
-
-&lt;p&gt;I installed all kinds of crap on that machine to test it out, and never uninstalled a lot of it. It turns out that some judicious uninstalls seemed to help a lot to keep the load average down. Some hints to my future self if these ever re-emerge:&lt;/p&gt;
-
-&lt;p&gt;BBLaunchAgent. Yes, relics of my old Blackberry still linger on, and to really and truly kill them I had to edit plists. See &lt;a href=&#34;https://discussions.apple.com/thread/2752009?start=0&amp;amp;tstart=0&#34;&gt;Can&#39;t delete BBLaunchAgent.app process&lt;/a&gt; for the eventual diff I applied. For a more exhaustive list of Blackberry-uninstalling tools see &lt;a href=&#34;https://blog.omgmog.net/post/removing-the-blackberry-desktop-software-for-mac-without-having-to-re-download-a-70mb-installer-from-blackberry/&#34;&gt;Removing the Blackberry Desktop Software for Mac without having to re-download a 70mb installer from Blackberry&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Jenkins. Some time in the distant past I installed it, and it launched under Java and ran and did nothing for years except contribute to lag. Killed by removing the install directory and rebooting.&lt;/p&gt;
-
-&lt;p&gt;Chrome. Lots of Chrome stuff takes up memory. Particularly contributing to lag was some Reddit page. &lt;/p&gt;
-
-&lt;p&gt;At the end we&#39;re at&lt;/p&gt;
-
-&lt;p&gt;Processes: 77 total, 2 running, 1 stuck, 74 sleeping, 355 threads      22:40:09
- Load Avg: 0.22, 0.67, 0.68  CPU usage: 17.75% user, 12.14% sys, 70.9% idle&lt;/p&gt;
-
-&lt;p&gt;Which is, I have to say, a lot better.&lt;/p&gt;
-</description>
+      <description>@tallervielmetti is using my old black Macbook. It&#39;s never been an exceptionally fast machine, but it&#39;s been super laggy of late, hence the name Lag Monster. I installed all kinds of crap on that machine to test it out, and never uninstalled a lot of it. It turns out that some judicious uninstalls seemed to help a lot to keep the load average down. Some hints to my future self if these ever re-emerge:</description>
     </item>
     
     <item>
@@ -59,24 +36,10 @@
       <pubDate>Fri, 24 Oct 2014 23:09:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-24-mac-os-1095-audio-problems-on-macbook-air/</guid>
-      <description>&lt;p&gt;Symptoms include no audio inputs when a headset is plugged in, but the built-in mic works fine when the headset is not plugged in.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo killall coreaudiod&lt;/code&gt; is one suggested fix.&lt;/p&gt;
-
-&lt;p&gt;This superuser.com article tells you how to &lt;a href=&#34;http://superuser.com/questions/647396/reload-mac-audio-drivers-without-rebooting&#34;&gt;reload Mac audio drivers without rebooting&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks to Mohan Kartha for helping sort this out; still not convinced I can adequately fix it with these tools, or even that I have diagnosed the issue. Some of the discussion is about a &#34;stuck optical switch&#34;.&lt;/p&gt;
-
-&lt;p&gt;Genius bar next.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: Genius bar helpfully scheduled an appointment. The folks at the Apple store helpfully let me try other headsets and other mics and other computers, and the problem seemed to be isolated to my computer.&lt;/p&gt;
-
-&lt;p&gt;In the meantime I poked and poked and eventually landed on a description of the &#34;Audio MIDI Setup&#34; utility. I dutifully clicked through to it to see what was up, adjusted a few things, and then found this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07a1c626970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07a1c626970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-10-29 at 11.13.41 AM&#34; title=&#34;Screen Shot 2014-10-29 at 11.13.41 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07a1c626970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Note that audio input is unhelpfully marked &#34;mute&#34;. When I unmute, everything works fine. Why on earth this only shows up deep in the MIDI setup of all places I&#39;m not sure; I know that I had fiddled around there before.&lt;/p&gt;
-</description>
+      <description>Symptoms include no audio inputs when a headset is plugged in, but the built-in mic works fine when the headset is not plugged in.
+sudo killall coreaudiod is one suggested fix.
+This superuser.com article tells you how to reload Mac audio drivers without rebooting.
+Thanks to Mohan Kartha for helping sort this out; still not convinced I can adequately fix it with these tools, or even that I have diagnosed the issue.</description>
     </item>
     
     <item>
@@ -85,9 +48,8 @@
       <pubDate>Sun, 23 Jun 2013 00:04:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-23-i-should-have-bought-more-memory-for-my-macbook-sooner/</guid>
-      <description>&lt;p&gt;Ever since upgrading my Mac to 10.6.8 I&amp;#39;ve been running into memory problems, especially when I have a lot of Chrome windows open. I solved this problem - or I seem to have - by upgrading from 2G to 4G of memory, with memory from &lt;a href=&#34;http://www.crucial.com/&#34; target=&#34;_self&#34;&gt;Crucial&lt;/a&gt;. Less than $100 spent, and the computer no longer starts to thrash when I have more than a few windows open.&lt;/p&gt;
-&lt;p&gt;Now of course it&amp;#39;s time to keep a lot more apps open to see what the new system limits are.&lt;/p&gt;
-</description>
+      <description>Ever since upgrading my Mac to 10.6.8 I&amp;#39;ve been running into memory problems, especially when I have a lot of Chrome windows open. I solved this problem - or I seem to have - by upgrading from 2G to 4G of memory, with memory from Crucial. Less than $100 spent, and the computer no longer starts to thrash when I have more than a few windows open.
+Now of course it&amp;#39;s time to keep a lot more apps open to see what the new system limits are.</description>
     </item>
     
     <item>
@@ -96,10 +58,9 @@
       <pubDate>Sun, 02 Jun 2013 13:17:59 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-02-reduce-file-size-of-pdfs-on-macs-with-previews-quartz-filter/</guid>
-      <description>&lt;p&gt;The screen capture should be self-explanatory; select &amp;quot;Save As&amp;quot;, &amp;quot;PDF&amp;quot;, &amp;quot;Reduce file size&amp;quot;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aaa46b7d970d-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-06-02 at 1.14.19 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192aaa46b7d970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192aaa46b7d970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-06-02 at 1.14.19 PM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Thanks to Marcy for the suggestion; she notes &amp;quot;I tell you, the cyber world is as finicky as we are.&amp;quot;&lt;/p&gt;
-</description>
+      <description>The screen capture should be self-explanatory; select &amp;quot;Save As&amp;quot;, &amp;quot;PDF&amp;quot;, &amp;quot;Reduce file size&amp;quot;.
+ 
+Thanks to Marcy for the suggestion; she notes &amp;quot;I tell you, the cyber world is as finicky as we are.&amp;quot;</description>
     </item>
     
     <item>
@@ -108,36 +69,7 @@
       <pubDate>Sat, 29 Dec 2012 17:32:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-12-29-technology-upgrades-are-a-tedious-but-necessary-task/</guid>
-      <description>&lt;p&gt;Technology upgrades are a tedious but necessary task.
-&lt;p&gt;
-I&amp;#39;m going through this now, with an upgrade from Mac OS 10.5.8 to Mac OS 10.6.8 on my black MacBook. The world decided in its infinite wisdom that &lt;a href=&#34;http://support.google.com/chrome/bin/answer.py?hl=en&amp;amp;answer=2599452&#34;&gt;10.5 was too old to keep supporting&lt;/a&gt;, and so quite a bit of software was starting to break. The promise is that 10.6.x will last a bit longer and keep my old 2008 vintage system running for a while longer.
-&lt;/p&gt;
-&lt;p&gt;
-Upgrades are always fraught with peril. In this case, it involved sticking a DVD in the drive, clicking a few times, and then waiting 45 minutes for the system to emerge in newly upgraded status. When you do something like that there&amp;#39;s a lot of faith you have to have that the people who put together the shiny DVD got every last thing right, that they didn&amp;#39;t forget to check some bit somewhere which in your case would turn your computer into a puddle of slag. I know that at some level it&amp;#39;s an irrational fear, yet I&amp;#39;ve bricked my share of hardware in my time and I&amp;#39;ve known the process of operating system upgrades to involve long late-night patching sessions to get everything to work.
-&lt;/p&gt;
-&lt;p&gt;
-There was no puddle of slag at the end of my upgrade, just a computer that looked about the same as it did before with no huge obvious changes, just a few cosmetic bits and the promise of future compatibility.
-&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m told that the typical Android phone that&amp;#39;s sold never gets an operating system upgrade from the vendor, and that the usual upgrade path is either to install a completely unsupported hacked up new software load or to scrap the phone and start afresh with new hardware. I haven&amp;#39;t lived in that world yet so I don&amp;#39;t have the experience of others to go through, just the general sense that unless you&amp;#39;re willing to delve into the details of &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;Cyanogenmod&lt;/a&gt; that you should be prepared to get a new phone every time your contract runs out.
-&lt;/p&gt;
-&lt;p&gt;
-Compared to operating system upgrades, application upgrades are relatively easy and low worry. With most consumer software that&amp;#39;s going through a rev cycle, these days you select &amp;quot;upgrade&amp;quot; from within the app and it magically replaces itself with a slightly newer version. This time I needed to update Chrome, and &lt;a href=&#34;http://support.google.com/chrome/bin/answer.py?hl=en&amp;amp;answer=1367288&#34;&gt;I had to descend to the operating system and delete one file&lt;/a&gt; to make the automated process work just fine.
-&lt;/p&gt;
-&lt;p&gt;
-The other task in my grand system upgrade effort has been to try to get &lt;a href=&#34;http://bluestacks.com/&#34;&gt;BlueStacks&lt;/a&gt; running. This is an app that runs Android apps on Mac OS X. It&amp;#39;s in beta, so I have some reason to understand when things don&amp;#39;t go instantly right, but I tried it out anyway and the install failed to come up with a working system within the amount of time I was willing to throw at it.
-&lt;/p&gt;
-&lt;p&gt;
-Just because I have part of a 10.6 upgrade done doesn&amp;#39;t mean that the whole thing is ready. The CD ships with 10.6.3, and you have to download a gigabyte-plus combo update to get to 10.6.8. The first time I did this the download was corrupted (?) so I tried  again with success. I don&amp;#39;t understand why, just enough to hit the &amp;quot;yes&amp;quot; button, and to type the error message exactly into Google when the error happens in the hopes that someone else has seen exactly the same problem.
-&lt;/p&gt;
-&lt;p&gt;
-What did we do before error messages could be looked up with such precision? Well, for one thing, there was usually some source code lying around so that you could read just what the context was for the error. If there was no source code to be had, then Usenet was sure to have someone who had seen the same failure mode. Google searching for failures just distributes out the task to a broader audience than ever, but there&amp;#39;s still the basic issue that when something goes wrong you have to rely on the goodness of people who are willing to air their systems difficulties in public in the hopes of righting them again.
-&lt;/p&gt;
-&lt;p&gt;
-Keeping a system running with current software is an ongoing job. I ended up only being able to do it after digging through a rats-nest tangle of cables in my basement, emerging victorious with a Firewire cable that allowed me to back up the Mac to the point where I was confident enough that I could insert the DVD, click &amp;quot;Yes&amp;quot;, and hope that someone in Cupertino tested every combination of equipment that one single updater was supposed to work on.
-&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>Technology upgrades are a tedious but necessary task.  I&amp;#39;m going through this now, with an upgrade from Mac OS 10.5.8 to Mac OS 10.6.8 on my black MacBook. The world decided in its infinite wisdom that 10.5 was too old to keep supporting, and so quite a bit of software was starting to break. The promise is that 10.6.x will last a bit longer and keep my old 2008 vintage system running for a while longer.</description>
     </item>
     
     <item>
@@ -146,11 +78,8 @@ Keeping a system running with current software is an ongoing job. I ended up onl
       <pubDate>Mon, 04 Jun 2012 15:48:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-06-04-the-problem-with-unreliablenetworks-is-that-you-have-to-engineer-extra-hard-to-be-able-to-make-use-of-them-and-you-still-ca/</guid>
-      <description>&lt;p&gt;The problem with unreliable networks is that you have to engineer extra hard to be able to make use of them, and you still can&amp;#39;t rely on them even when you do.&lt;/p&gt;
-&lt;p&gt;Consider the network connection that&amp;#39;s randomly working and not working. If the network were actually down, you could work with that, knowing that eventually it would be a time and place that you could reconnect. Until then you stay offline in airplane mode and just chill and enjoy it.&lt;/p&gt;
-&lt;p&gt;The maddening part of the network that doesn&amp;#39;t work is that instead of working with the network you end up working to repair the network, and its unreliablity neither gives you access nor downtime.  In other words, spotty wifi is bad, worse than no wifi at all.&lt;/p&gt;
-&lt;p&gt;(Posted on the occasion of the repair of my MacBook&amp;#39;s wifi card, which had been flaky for months.)&lt;/p&gt;
-</description>
+      <description>The problem with unreliable networks is that you have to engineer extra hard to be able to make use of them, and you still can&amp;#39;t rely on them even when you do.
+Consider the network connection that&amp;#39;s randomly working and not working. If the network were actually down, you could work with that, knowing that eventually it would be a time and place that you could reconnect. Until then you stay offline in airplane mode and just chill and enjoy it.</description>
     </item>
     
     <item>
@@ -159,25 +88,12 @@ Keeping a system running with current software is an ongoing job. I ended up onl
       <pubDate>Sun, 18 May 2008 20:27:33 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-05-18-freedom-to-go-o/</guid>
-      <description>&lt;p&gt;Through some random chance encounter on the net - that is to say,&lt;br /&gt;
-I don&#39;t remember why I found it - I&#39;m offline right now.&lt;/p&gt;
-
-&lt;p&gt;The tool of choice for going offline is a little Mac application&lt;br /&gt;
-called &lt;a href=&#34;http://www.ibiblio.org/fred/freedom/&#34;&gt;Freedom&lt;/a&gt;, which disables your Internet access for a specified&lt;br /&gt;
-period of time so that you can get things done.  Written by Fred &lt;br /&gt;
-Stutzman at UNC.&lt;/p&gt;
-
-&lt;blockquote&gt;
-Freedom enforces freedom; a reboot is the only circumvention of the Freedom time limit you specify. The hassle of rebooting means you&#39;re less likely to cheat, and you&#39;ll be more productive. Not rebooting is why we bought Apple computers in the first place. When first getting used to Freedom, I suggest using the software for short periods of time.
-&lt;/blockquote&gt;
-
-&lt;p&gt;It&#39;s a great idea, especially for the times when you find yourself&lt;br /&gt;
-overwhelmed by the 1000000000s of possible things to do when you&lt;br /&gt;
-are on line, and when reducing the number of options is key to actually&lt;br /&gt;
-accomplishing any one task.&lt;/p&gt;
-
-&lt;p&gt;(Obviously I&#39;m back online to post this!)&lt;/p&gt;
-</description>
+      <description>Through some random chance encounter on the net - that is to say,
+I don&#39;t remember why I found it - I&#39;m offline right now.
+The tool of choice for going offline is a little Mac application
+called Freedom, which disables your Internet access for a specified
+period of time so that you can get things done. Written by Fred Stutzman at UNC.
+ Freedom enforces freedom; a reboot is the only circumvention of the Freedom time limit you specify.</description>
     </item>
     
     <item>
@@ -186,35 +102,7 @@ accomplishing any one task.&lt;/p&gt;
       <pubDate>Wed, 05 Dec 2007 11:28:15 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-12-05-macbook-flicker/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-I have a Macbook, it&amp;rsquo;s partially broken right now.
-&lt;/p&gt;&lt;p&gt;
-There is a stripe of pixels top to bottom on the screen, about &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt; of the screen, running top to bottom that is flickering.  It&amp;rsquo;s not what Apple calls a &amp;ldquo;pixel anomaly&amp;rdquo;, since it&amp;rsquo;s not a single isolated spot; rather, it&amp;rsquo;s a big stripe.  It starts at the middle of the screen, and goes to the right from there.
-&lt;/p&gt;&lt;p&gt;
-I have Applecare (whew).
-&lt;/p&gt;&lt;p&gt;
-I ran TechTools Deluxe, their self-help diagnostic CD; all of the hardware that it tests checks out OK, including the video ram.
-&lt;/p&gt;&lt;p&gt;
-I double-checked the video issue at multiple screen resolutions, and it appears that the same screen stripe is fubar independent of resolution, which suggests that it&amp;rsquo;s a problem with the screen itself and not the circuitry driving it.  The external monitor looks fine.
-&lt;/p&gt;&lt;p&gt;
-@bdimcheff on Twitter noted that he had a similar problem which was &amp;ldquo;the bottom set of input circuitry on my LCD was falling off&amp;rdquo;.
-&lt;/p&gt;&lt;p&gt;
-On hold to Apple Support right now (1030am EST), estimated wait 15min plus.  I can still work.  &amp;ldquo;Please continue to hold for the next representative&amp;rdquo;.
-&lt;/p&gt;&lt;p&gt;
-I&amp;rsquo;m not going to fix it myself (did I mention Applecare)?  But here are some people who did replace a Mac laptop screen:
-&lt;/p&gt;&lt;p&gt;
-&lt;a href=&#34;http://tweakosx.com/index.php/2007/11/19/replace-macbook-screen-a-tutorial/&#34;&gt;Replace MacBook Screen - A Tutorial - Tweak OSX&lt;/a&gt;
-&lt;/p&gt;&lt;blockquote&gt;
-A client of mine sent me a MacBook with a broken screen. It was his daughter’s computer, and she had accidentally broken the screen. I told him I couldn’t help him repair the screen, and he should look to Apple to make the repair for him. I turns out that the repair is 90% of the cost of the computer itself.
-&lt;/blockquote&gt;&lt;p&gt;
-&amp;ldquo;Clear to me right now that it&amp;rsquo;s a hardware issue; don&amp;rsquo;t have to worry about it because it&amp;rsquo;s a hardware issue.  Need to send this one to our Apple Depot and have it fixed; the turnaround time is 5-7 business days.  Genius bar doesn&amp;rsquo;t have the parts to be sure and have it in stock, but you can ask them.  Box delivered by DHL, just the computer into it; they will deliver it back to us; call them if it&amp;rsquo;s ready for pickup.  Box valid for 30 business days; always back up the files.&amp;rdquo;
-&lt;/p&gt;&lt;p&gt;
-(sigh)
-&lt;/p&gt;&lt;p&gt;
-The next problem is to figure out a transitional period where I get a laptop for 5-7 days to work while my system is in the shop, and enough data and code on that laptop to make it work.  Without going into an exhaustive search for rentals, it appears that the value of a machine for one week as a rental is in the $250 range.
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/hardware&#34; rel=&#34;tag&#34;&gt;hardware&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/mac&#34; rel=&#34;tag&#34;&gt;mac&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/macbook&#34; rel=&#34;tag&#34;&gt;macbook&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/sad-mac&#34; rel=&#34;tag&#34;&gt;sad-mac&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>I have a Macbook, it&amp;rsquo;s partially broken right now.  There is a stripe of pixels top to bottom on the screen, about 1&amp;frasl;8 of the screen, running top to bottom that is flickering. It&amp;rsquo;s not what Apple calls a &amp;ldquo;pixel anomaly&amp;rdquo;, since it&amp;rsquo;s not a single isolated spot; rather, it&amp;rsquo;s a big stripe. It starts at the middle of the screen, and goes to the right from there.  I have Applecare (whew).</description>
     </item>
     
   </channel>

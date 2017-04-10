@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/</link>
+    <description>Recent content in Code on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2015 16:11:41 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agrep</title>
+      <link>http://vielmetti.github.io/code/agrep/</link>
+      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/agrep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Awk</title>
+      <link>http://vielmetti.github.io/code/awk/</link>
+      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/awk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>http://vielmetti.github.io/code/bash/</link>
+      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beautiful Soup</title>
+      <link>http://vielmetti.github.io/code/beautiful-soup/</link>
+      <pubDate>Fri, 26 Dec 2008 14:24:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/beautiful-soup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blossom</title>
+      <link>http://vielmetti.github.io/code/blossom/</link>
+      <pubDate>Mon, 24 Nov 2014 09:14:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/blossom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bluestacks</title>
+      <link>http://vielmetti.github.io/code/bluestacks/</link>
+      <pubDate>Sat, 29 Dec 2012 17:32:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/bluestacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bluez</title>
+      <link>http://vielmetti.github.io/code/bluez/</link>
+      <pubDate>Fri, 11 Sep 2015 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/bluez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bocker</title>
+      <link>http://vielmetti.github.io/code/bocker/</link>
+      <pubDate>Tue, 21 Jul 2015 18:48:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/bocker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cayley</title>
+      <link>http://vielmetti.github.io/code/cayley/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/cayley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chirp</title>
+      <link>http://vielmetti.github.io/code/chirp/</link>
+      <pubDate>Sun, 24 Nov 2013 16:45:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/chirp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Croppola</title>
+      <link>http://vielmetti.github.io/code/croppola/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/croppola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>http://vielmetti.github.io/code/django/</link>
+      <pubDate>Mon, 17 Nov 2008 11:07:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://vielmetti.github.io/code/docker/</link>
+      <pubDate>Fri, 11 Sep 2015 17:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dsniff</title>
+      <link>http://vielmetti.github.io/code/dsniff/</link>
+      <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/dsniff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dssim</title>
+      <link>http://vielmetti.github.io/code/dssim/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/dssim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Egroups</title>
+      <link>http://vielmetti.github.io/code/egroups/</link>
+      <pubDate>Thu, 06 Aug 2015 23:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/egroups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Etrakit</title>
+      <link>http://vielmetti.github.io/code/etrakit/</link>
+      <pubDate>Wed, 14 Oct 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/etrakit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facebook</title>
+      <link>http://vielmetti.github.io/code/facebook/</link>
+      <pubDate>Thu, 06 Aug 2015 23:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geojson</title>
+      <link>http://vielmetti.github.io/code/geojson/</link>
+      <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/geojson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://vielmetti.github.io/code/git/</link>
+      <pubDate>Tue, 22 Sep 2015 07:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Rebase</title>
+      <link>http://vielmetti.github.io/code/git-rebase/</link>
+      <pubDate>Tue, 22 Sep 2015 07:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/git-rebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github Issues</title>
+      <link>http://vielmetti.github.io/code/github-issues/</link>
+      <pubDate>Sat, 22 Aug 2015 23:55:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/github-issues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gnu Parallel</title>
+      <link>http://vielmetti.github.io/code/gnu-parallel/</link>
+      <pubDate>Wed, 24 Jun 2015 10:23:20 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/gnu-parallel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://vielmetti.github.io/code/go/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gopher</title>
+      <link>http://vielmetti.github.io/code/gopher/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/gopher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gqrx</title>
+      <link>http://vielmetti.github.io/code/gqrx/</link>
+      <pubDate>Sun, 23 Aug 2015 11:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/gqrx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gqrx Scan</title>
+      <link>http://vielmetti.github.io/code/gqrx-scan/</link>
+      <pubDate>Sun, 23 Aug 2015 11:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/gqrx-scan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huboard</title>
+      <link>http://vielmetti.github.io/code/huboard/</link>
+      <pubDate>Mon, 24 Nov 2014 09:14:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/huboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hyper G</title>
+      <link>http://vielmetti.github.io/code/hyper-g/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/hyper-g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imagemagick</title>
+      <link>http://vielmetti.github.io/code/imagemagick/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/imagemagick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joyent</title>
+      <link>http://vielmetti.github.io/code/joyent/</link>
+      <pubDate>Thu, 27 Jun 2013 00:58:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/joyent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jq</title>
+      <link>http://vielmetti.github.io/code/jq/</link>
+      <pubDate>Wed, 26 Aug 2015 00:40:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/jq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leaflet</title>
+      <link>http://vielmetti.github.io/code/leaflet/</link>
+      <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/leaflet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leafletr</title>
+      <link>http://vielmetti.github.io/code/leafletr/</link>
+      <pubDate>Mon, 02 Mar 2015 01:09:35 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/leafletr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Legistar</title>
+      <link>http://vielmetti.github.io/code/legistar/</link>
+      <pubDate>Wed, 14 Oct 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/legistar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Little Bird</title>
+      <link>http://vielmetti.github.io/code/little-bird/</link>
+      <pubDate>Wed, 22 Jul 2015 15:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/little-bird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lob</title>
+      <link>http://vielmetti.github.io/code/lob/</link>
+      <pubDate>Thu, 30 Jul 2015 01:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/lob/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lob.Com</title>
+      <link>http://vielmetti.github.io/code/lob.com/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/lob.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manta</title>
+      <link>http://vielmetti.github.io/code/manta/</link>
+      <pubDate>Thu, 27 Jun 2013 00:58:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/manta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meetup</title>
+      <link>http://vielmetti.github.io/code/meetup/</link>
+      <pubDate>Thu, 06 Aug 2015 23:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitmproxy</title>
+      <link>http://vielmetti.github.io/code/mitmproxy/</link>
+      <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/mitmproxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>http://vielmetti.github.io/code/mongodb/</link>
+      <pubDate>Wed, 26 Aug 2015 00:40:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openvpn</title>
+      <link>http://vielmetti.github.io/code/openvpn/</link>
+      <pubDate>Mon, 07 Sep 2015 00:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/openvpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://vielmetti.github.io/code/python/</link>
+      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://vielmetti.github.io/code/r/</link>
+      <pubDate>Fri, 24 Jul 2015 09:55:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Randomline</title>
+      <link>http://vielmetti.github.io/code/randomline/</link>
+      <pubDate>Sat, 27 Sep 2014 15:52:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/randomline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://vielmetti.github.io/code/raspberry-pi/</link>
+      <pubDate>Mon, 07 Sep 2015 00:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rgdal</title>
+      <link>http://vielmetti.github.io/code/rgdal/</link>
+      <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/rgdal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rrdtool</title>
+      <link>http://vielmetti.github.io/code/rrdtool/</link>
+      <pubDate>Wed, 26 Aug 2015 17:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/rrdtool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rubyful Soup</title>
+      <link>http://vielmetti.github.io/code/rubyful-soup/</link>
+      <pubDate>Fri, 26 Dec 2008 14:24:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/rubyful-soup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Runc</title>
+      <link>http://vielmetti.github.io/code/runc/</link>
+      <pubDate>Mon, 22 Jun 2015 16:53:10 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/runc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salt</title>
+      <link>http://vielmetti.github.io/code/salt/</link>
+      <pubDate>Mon, 07 Sep 2015 00:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/salt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salt Minion</title>
+      <link>http://vielmetti.github.io/code/salt-minion/</link>
+      <pubDate>Mon, 07 Sep 2015 00:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/salt-minion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selenium</title>
+      <link>http://vielmetti.github.io/code/selenium/</link>
+      <pubDate>Wed, 24 Jun 2015 12:58:34 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/selenium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shapely</title>
+      <link>http://vielmetti.github.io/code/shapely/</link>
+      <pubDate>Wed, 04 Mar 2015 11:14:50 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/shapely/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sips</title>
+      <link>http://vielmetti.github.io/code/sips/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/sips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snap Ci</title>
+      <link>http://vielmetti.github.io/code/snap-ci/</link>
+      <pubDate>Tue, 22 Sep 2015 07:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/snap-ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Squid</title>
+      <link>http://vielmetti.github.io/code/squid/</link>
+      <pubDate>Sun, 28 Jun 2015 15:23:26 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/squid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssim</title>
+      <link>http://vielmetti.github.io/code/ssim/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/ssim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supermemo</title>
+      <link>http://vielmetti.github.io/code/supermemo/</link>
+      <pubDate>Mon, 06 Jun 2011 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/supermemo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidy</title>
+      <link>http://vielmetti.github.io/code/tidy/</link>
+      <pubDate>Fri, 26 Dec 2008 14:24:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/tidy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travis Ci</title>
+      <link>http://vielmetti.github.io/code/travis-ci/</link>
+      <pubDate>Tue, 22 Sep 2015 07:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/travis-ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travisci</title>
+      <link>http://vielmetti.github.io/code/travisci/</link>
+      <pubDate>Wed, 16 Sep 2015 09:22:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/travisci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>http://vielmetti.github.io/code/twitter/</link>
+      <pubDate>Wed, 22 Jul 2015 15:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>http://vielmetti.github.io/code/vim/</link>
+      <pubDate>Wed, 05 Aug 2015 23:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vrml</title>
+      <link>http://vielmetti.github.io/code/vrml/</link>
+      <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/vrml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Waffle</title>
+      <link>http://vielmetti.github.io/code/waffle/</link>
+      <pubDate>Sat, 22 Aug 2015 23:55:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/waffle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wakatime</title>
+      <link>http://vielmetti.github.io/code/wakatime/</link>
+      <pubDate>Fri, 07 Aug 2015 23:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/wakatime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wc</title>
+      <link>http://vielmetti.github.io/code/wc/</link>
+      <pubDate>Thu, 27 Jun 2013 00:58:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/wc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xml2json</title>
+      <link>http://vielmetti.github.io/code/xml2json/</link>
+      <pubDate>Thu, 10 Sep 2015 15:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/xml2json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yahoo Groups</title>
+      <link>http://vielmetti.github.io/code/yahoo-groups/</link>
+      <pubDate>Thu, 06 Aug 2015 23:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/yahoo-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zenhub</title>
+      <link>http://vielmetti.github.io/code/zenhub/</link>
+      <pubDate>Mon, 24 Nov 2014 09:14:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/code/zenhub/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

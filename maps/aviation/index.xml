@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/aviation/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Aviation on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/aviation/</link>
+    <description>Recent content in Aviation on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/aviation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2014 10:32:30 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/aviation/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Chicago aviation donut</title>
@@ -14,14 +17,8 @@
       <pubDate>Fri, 26 Sep 2014 10:32:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-26-chicago-aviation-donut/</guid>
-      <description>&lt;p&gt;A fire at the Chicago air traffic control center (ZAU) forced rerouting of air traffic near O&#39;Hare and Midway airports. This picture, credit to Paul Saffo via Facebook, shows the impact. &lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d36e0970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb078d36e0970d img-responsive&#34; style=&#34;width: 453px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Ohare-donut&#34; title=&#34;Ohare-donut&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d36e0970d-500wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;This map is from the FAA - compare it for scale.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d6ab4970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb078d6ab4970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Zau_tier&#34; title=&#34;Zau_tier&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb078d6ab4970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>A fire at the Chicago air traffic control center (ZAU) forced rerouting of air traffic near O&#39;Hare and Midway airports. This picture, credit to Paul Saffo via Facebook, shows the impact. 
+This map is from the FAA - compare it for scale.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/jobs/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Jobs on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/jobs/</link>
+    <description>Recent content in Jobs on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Sep 2014 22:40:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Retcon your resume</title>
@@ -14,15 +17,9 @@
       <pubDate>Wed, 10 Sep 2014 22:40:22 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-10-retcon-your-resume/</guid>
-      <description>&lt;p&gt;So you&#39;re writing a resume or a CV or a biographical sketch. What do you need to say to make you into a superhero with a fantastic back story that hints at your future greatness?&lt;/p&gt;
-
-&lt;p&gt;Retcon comes from &#34;retroactive continuity&#34;, a plot device first used in comic books. See &lt;a href=&#34;http://www.urbandictionary.com/define.php?term=retcon&#34;&gt;Urban Dictionary&lt;/a&gt; for a fun definition.&lt;/p&gt;
-
-&lt;p&gt;I have a sneaking suspicion that once I go back far enough and create some retroactive continuity that I&#39;ll be able to describe my life as a set of 30-year projects, many of which are already in progress and that run in parallel and not just one after the other.
-Some short-term jobs can be reconned into parts of a longer narrative arc if you tell you stories right; that makes the resume shorter.&lt;/p&gt;
-
-&lt;p&gt;Goodness knows my work history is complex enough that some new hire HR operative is unlikely to make sense of it. Better to do the comic book treatment of it and cast myself in the best possible light for the circumstances.&lt;/p&gt;
-</description>
+      <description>So you&#39;re writing a resume or a CV or a biographical sketch. What do you need to say to make you into a superhero with a fantastic back story that hints at your future greatness?
+Retcon comes from &#34;retroactive continuity&#34;, a plot device first used in comic books. See Urban Dictionary for a fun definition.
+I have a sneaking suspicion that once I go back far enough and create some retroactive continuity that I&#39;ll be able to describe my life as a set of 30-year projects, many of which are already in progress and that run in parallel and not just one after the other.</description>
     </item>
     
     <item>
@@ -31,12 +28,10 @@ Some short-term jobs can be reconned into parts of a longer narrative arc if you
       <pubDate>Tue, 26 Jun 2012 11:32:34 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-06-26-jobs-in-ann-arbor-a-list-of-links-to-employer-web-sites-on-arborwiki/</guid>
-      <description>&lt;p&gt;As part of my search for work in Ann Arbor, I&amp;#39;ve been compiling a list of employers who maintain lists of open opportunities on their web sites. You can see the list here&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://arborwiki.org/city/Jobs&#34; target=&#34;_self&#34;&gt;http://arborwiki.org/city/Jobs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As of this writing there are about 60 employers listed, though not all of them have open positions at this time.&lt;/p&gt;
-&lt;p&gt;There&amp;#39;s a wide variety of online job postings systems being used by employers, ranging from the simple web page listing one or two positions to the unimaginably complex setup when an HR organization has hundreds of positions to fill worldwide.&lt;/p&gt;
-&lt;p&gt;Quite a few positions are filled without going through online job boards, of course - but it never hurts to see what&amp;#39;s posted and available.&lt;/p&gt;
-</description>
+      <description>As part of my search for work in Ann Arbor, I&amp;#39;ve been compiling a list of employers who maintain lists of open opportunities on their web sites. You can see the list here
+http://arborwiki.org/city/Jobs
+As of this writing there are about 60 employers listed, though not all of them have open positions at this time.
+There&amp;#39;s a wide variety of online job postings systems being used by employers, ranging from the simple web page listing one or two positions to the unimaginably complex setup when an HR organization has hundreds of positions to fill worldwide.</description>
     </item>
     
   </channel>

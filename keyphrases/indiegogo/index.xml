@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/indiegogo/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Indiegogo on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/indiegogo/</link>
+    <description>Recent content in Indiegogo on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/indiegogo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Dec 2013 15:13:56 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/indiegogo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Blimpy Burger Indiegogo campaign</title>
@@ -14,16 +17,10 @@
       <pubDate>Sat, 14 Dec 2013 15:13:56 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-14-blimpy-burger-indiegogo-campaign/</guid>
-      <description>&lt;p&gt;Blimpy Burger is running an Indiegogo campaign to help them reopen. Their location on Division Street in Ann Arbor was demolished to build student housing. &lt;/p&gt;
+      <description>Blimpy Burger is running an Indiegogo campaign to help them reopen. Their location on Division Street in Ann Arbor was demolished to build student housing. Find out more at http://www.indiegogo.com/projects/krazy-jim-s-blimpyburger - as of this writing they have raised $1,245 of a $60,000 goal.
+While you are thinking of that triple with blue cheese, brush up on your Blimpy ordering skills at Arborwiki&#39;s Blimpy Burger page.
 
-&lt;p&gt;Find out more at &lt;a href=&#34;http://www.indiegogo.com/projects/krazy-jim-s-blimpyburger&#34;&gt;http://www.indiegogo.com/projects/krazy-jim-s-blimpyburger&lt;/a&gt; - as of this writing they have raised $1,245 of a $60,000 goal.&lt;/p&gt;
-
-&lt;p&gt;While you are thinking of that triple with blue cheese, brush up on your Blimpy ordering skills at &lt;a href=&#34;http://arborwiki.org/Blimpy_Burger&#34;&gt;Arborwiki&#39;s Blimpy Burger page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b02f20965970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019b02f20965970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Blimpy-burger-facade-flickr-dokas-arborwiki&#34; title=&#34;Blimpy-burger-facade-flickr-dokas-arborwiki&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019b02f20965970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo from Arborwiki, credit to Flickr user dokas.&lt;/p&gt;
-</description>
+Photo from Arborwiki, credit to Flickr user dokas.</description>
     </item>
     
   </channel>

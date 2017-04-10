@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/aws/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Aws on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/aws/</link>
+    <description>Recent content in Aws on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2016 00:15:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>AWS Lambda for Python with &#34;Chalice&#34;</title>
@@ -14,44 +17,8 @@
       <pubDate>Thu, 13 Oct 2016 00:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-13-aws-lambda-with-chalice/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/awslabs/chalice&#34;&gt;Chalice&lt;/a&gt; is a microframework for Python for &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt;,
-similar in spirit to &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;. What does that even mean?&lt;/p&gt;
-
-&lt;p&gt;A framework is a set of libraries and coding conventions
-that makes development in a specific language for a specific
-task easier. That usually involves making some simplifying
-assumptions about the task you are trying to solve, and
-embedding those assumptions in your code so that you don&amp;rsquo;t
-have to spell out quite as much detail to get a task done.&lt;/p&gt;
-
-&lt;p&gt;A microframework is a small version of a framework, and the
-work echoes the current 2016 in-favor design principle of
-microservices, where instead of building some all-singing,
-all-dancing monolithic application that does everything,
-you figure out some components that can stand alone and be
-simplified away from the big thing so that they can change
-faster.&lt;/p&gt;
-
-&lt;p&gt;What do you do with a microframework for Python for AWS Lambda?
-Well, you develop microservices in Lambda. Lambda is a hosting
-environment on Amazon Web Services that is ideal for very
-short lived processes or even just function calls that last
-a few seconds (&amp;ldquo;micro&amp;rdquo;) and get just a few things done.&lt;/p&gt;
-
-&lt;p&gt;With Chalice, you are carefully guided through the process
-of setting up your first microservice in Python. It comes out of
-the box with sample code to do a &amp;ldquo;hello world&amp;rdquo; service, and
-from that sample code the entire set of Lambda packaging
-is built for you. There are a surprisingly large number of
-moving parts to actually get a Lambda function running;
-Chalice&amp;rsquo;s build system hides most of those from you at the start.&lt;/p&gt;
-
-&lt;p&gt;The code is available on Github, either to run as-is,
-to fork for your own edification, or simply to study.
-I&amp;rsquo;ve gotten as far as hello, world, but no farther than that
-yet. There are lots of warnings to the effect of &amp;ldquo;not
-yet ready for production use!&amp;rdquo; so use with care.&lt;/p&gt;
-</description>
+      <description>Chalice is a microframework for Python for AWS Lambda, similar in spirit to Flask. What does that even mean?
+A framework is a set of libraries and coding conventions that makes development in a specific language for a specific task easier. That usually involves making some simplifying assumptions about the task you are trying to solve, and embedding those assumptions in your code so that you don&amp;rsquo;t have to spell out quite as much detail to get a task done.</description>
     </item>
     
     <item>
@@ -60,65 +27,9 @@ yet ready for production use!&amp;rdquo; so use with care.&lt;/p&gt;
       <pubDate>Wed, 16 Dec 2015 12:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-12-16-openvpn-scaling/</guid>
-      <description>&lt;p&gt;Previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-11-20-openvpn-in-a-container/&#34;&gt;OpenVPN in a container&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Also previously: &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-12-04-split-tunnels-considered-harmful/&#34;&gt;Split tunnels considered harmful&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I have this running in a staging environment and a test
-environment; it properly isolates OpenVPN from the underlying
-operating system, and seems to do the right thing performing
-rather well. However, its biggest limitation is that
-it runs on a single host &amp;amp; thus provides neither
-high availability in the case of Amazon &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/&#34;&gt;funkiness&lt;/a&gt;
-nor scalability to handle lots of clients.&lt;/p&gt;
-
-&lt;p&gt;Getting this to be more reliable was a matter of tracking
-down the right systemd configuration. I&amp;rsquo;ll save systemd
-commentary for a separate post, saying only that it&amp;rsquo;s new,
-it&amp;rsquo;s not necessarily better for managing single machines,
-but I can see the advantages for consolidated management of
-big collections of machines.&lt;/p&gt;
-
-&lt;p&gt;Some OpenVPN config alternatives to pursue that look like they might do
-the right thing are as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cloudcoreo.com&#34;&gt;CloudCoreo&lt;/a&gt; has a setup based on the Amazon Elastic Load Balancer.
-They say&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Getting an OpenVPN config up and running in AWS is difficult. We&amp;rsquo;ve already done it for you in an HA, durable, self-healing way. This blog post details how.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The blog post is in two sections.
-&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn/&#34;&gt;Part one&lt;/a&gt; details how they
-configured autoscaling, elastic load balancing, name service, S3
-storage and policies, and security and IAM policies to set things
-up the way that you would want them within Amazon&amp;rsquo;s AWS.
-&lt;a href=&#34;http://blog.cloudcoreo.com/single-points-of-failure-openvpn-part-2-of-2/&#34;&gt;Part two&lt;/a&gt; goes on to describe the particular OpenVPN policy
-and routing setup, and there&amp;rsquo;s a bunch of policy there particularly
-with the use of split tunnels that you want to understand.&lt;/p&gt;
-
-&lt;p&gt;Their claim that they have
-&amp;ldquo;done it all for you&amp;rdquo; reflects a &lt;a href=&#34;http://hub.cloudcoreo.com/stack/servers-vpn_c6a65&#34;&gt;complete configuration&lt;/a&gt; available
-through their CloudCoreo system.&lt;/p&gt;
-
-&lt;p&gt;A second approach is detailed by &lt;a href=&#34;https://blog.zalando.com&#34;&gt;Zalando&lt;/a&gt;, a Berlin based retail fashion platform.
-Their article &lt;a href=&#34;https://tech.zalando.com/blog/building-an-openvpn-cluster-zalando-style/&#34;&gt;Building an OpenVPN Cluster, Zalando-Style&lt;/a&gt;
-uses dynamic routing to distribute routes, and the
-&lt;a href=&#34;http://www.nongnu.org/quagga/&#34;&gt;Quagga&lt;/a&gt; system as their software based router. This setup
-does not particularly depend on AWS features, and they
-claim that
-&amp;ldquo;With this set up, we have about 800 users (150 in parallel) and haven’t faced any performance issues at anytime, from anywhere!&amp;rdquo;
-It&amp;rsquo;s a bit more complex to set up, though the writeup
-makes it clear that because of the flexibility that dynamic
-routing gives you there&amp;rsquo;s the opportunity to construct
-firewall policies that follow the user quite independent
-of how they are connecting to the network.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system. (John Gall, Systemantics)&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Previously: OpenVPN in a container
+Also previously: Split tunnels considered harmful
+I have this running in a staging environment and a test environment; it properly isolates OpenVPN from the underlying operating system, and seems to do the right thing performing rather well. However, its biggest limitation is that it runs on a single host &amp;amp; thus provides neither high availability in the case of Amazon funkiness nor scalability to handle lots of clients.</description>
     </item>
     
     <item>
@@ -127,120 +38,8 @@ of how they are connecting to the network.&lt;/p&gt;
       <pubDate>Sun, 20 Sep 2015 09:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-09-20-aws-dynamodb-downtime-sunday-am/</guid>
-      <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;A distributed system is one in which the failure of a computer
-you didn&amp;rsquo;t even know existed can render your own computer unusable.
-&lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Amazon Web Services DynamoDB experienced downtime in the N Virginia
-availability zone early Sunday morning, September 20, 2015. As
-a result, a number of other AWS services inside N Virginia that
-depend on DynamoDB also had downtime. Companies and organizations
-that built services on top of those systems who didn&amp;rsquo;t have
-geographic load balancing were having problems as well.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: Amazon&amp;rsquo;s report &lt;a href=&#34;https://aws.amazon.com/message/5467D2/&#34;&gt;Summary of the Amazon DynamoDB Service Disruption and Related Impacts in the US-East Region&lt;/a&gt; is available as of September 23, 2015.&lt;/p&gt;
-
-&lt;p&gt;Affected services include at least CloudWatch, SES, SNS, SQS, SWS,
-AutoScale, Cloud Formation, Directory Service, Key Mgmt and Lambda,
-according to a report on Hacker News.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://status.aws.amazon.com/&#34;&gt;http://status.aws.amazon.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Reports from &lt;a href=&#34;https://www.twitter.com/ylastic&#34;&gt;@ylastic&lt;/a&gt; on Twitter
-have been helpful in keeping track of outages. &lt;a href=&#34;http://www.ylastic.com&#34;&gt;http://www.ylastic.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Down Detector has a page of AWS outages trouble reports, and
-details pulled from Twitter. &lt;a href=&#34;https://downdetector.com/status/aws-amazon-web-services&#34;&gt;https://downdetector.com/status/aws-amazon-web-services&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;When core infrastructure goes down, it tends to affect other platforms
-that depend on that core infrastructure and that hide it from their
-users. This in turn affects applications built on those platforms.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Docker: &amp;ldquo;We are currently seeing intermittent errors when pushing
-and pulling, related to issues that AWS is having. We are currently
-investigating the causes, and doing what we can to mitigate the
-problems.&amp;rdquo; @dockerstatus and &lt;a href=&#34;http://status.docker.com/&#34;&gt;http://status.docker.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Heroku: &amp;ldquo;Starting new dynos (unidling, one-off, scaling or
-restarting crashed apps, new releases) is still unavailable.&amp;rdquo; &amp;ldquo;Until
-this incident is resolved, you might be unable to open new support
-tickets with us. If you need to communicate with our support staff
-during this time, please email outage-support@heroku.com.&amp;rdquo; @herokustatus
-and &lt;a href=&#34;https://status.heroku.com/incidents/811&#34;&gt;https://status.heroku.com/incidents/811&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CircleCI: &amp;ldquo;Experiencing Issues with Heroku and AWS&amp;rdquo;. @circleci
-and &lt;a href=&#34;http://status.circleci.com/&#34;&gt;http://status.circleci.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;TravisCI: &amp;ldquo;Partial System Outage&amp;rdquo;. @traviscistatus and
-&lt;a href=&#34;https://www.traviscistatus.com/&#34;&gt;https://www.traviscistatus.com/&lt;/a&gt; After incident report
-at &lt;a href=&#34;https://www.traviscistatus.com/incidents/wzyhx97450f4&#34;&gt;https://www.traviscistatus.com/incidents/wzyhx97450f4&lt;/a&gt; ,
-&amp;ldquo;Degradations and outages due to AWS us-east-1 domino effect&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are a lot of applications built on AWS and on Heroku,
-which are at risk of downtime. A comprehensive list is probably
-impossible, but here are some reports, in alphabetical order.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Airbnb&lt;/li&gt;
-&lt;li&gt;Amazon Echo&lt;/li&gt;
-&lt;li&gt;Amazon Instant Video&lt;/li&gt;
-&lt;li&gt;AWS Console. The API is hosted in each region, so the command line worked, but the console is hosted out of us-east-1 and was unavailable.&lt;/li&gt;
-&lt;li&gt;AWS Support Tickets. Use this &lt;a href=&#34;http://www.amazon.com/gp/html-forms-controller/support-center-issues-u&#34;&gt;workaround&lt;/a&gt; ???&lt;/li&gt;
-&lt;li&gt;Buffer&lt;/li&gt;
-&lt;li&gt;Canopy. &amp;ldquo;Our iOS app is down due to the system-wide #AWSoutage. Updates will be provided soon.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Canva&lt;/li&gt;
-&lt;li&gt;Clickfunnels. &amp;ldquo;Our development team is aware of this, however, at this time, the only thing that we can do is wait until the issues at Amazon AWS are resolved completely.&amp;rdquo; &lt;a href=&#34;http://status.clickfunnels.com/&#34;&gt;http://status.clickfunnels.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;CoinSimple. &amp;ldquo;Widespread outage in Amazon Web Services is affecting several Internet services, including @CoinSimple. Please check here for updates.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;DuoLingo&lt;/li&gt;
-&lt;li&gt;FastSpring. &amp;ldquo;We were having some intermittent problems due to #awsoutage. The problem is being resolved by Amazon.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;GroupMe&lt;/li&gt;
-&lt;li&gt;HashiCorp. &amp;ldquo;Our infrastructure provider is experiencing issues which may cause our project websites to be inaccessible. Sorry for the inconvenience.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;IFTTT. &amp;ldquo;We have identified an issue with our service provider. We will continue to provide updates as more information becomes available.&amp;rdquo; &lt;a href=&#34;http://status.ifttt.com/incidents/xnbwnqj608hg&#34;&gt;http://status.ifttt.com/incidents/xnbwnqj608hg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;IMDB&lt;/li&gt;
-&lt;li&gt;Lightspeed POS. &amp;ldquo;Monitoring - Our service provider is experiencing a major issue with several of their services. Our engineers are working to reduce our reliance on these components until their issues are resolved. Some customers may experience slowness related to this problem.&amp;rdquo; &lt;a href=&#34;http://status.lightspeedretail.com/&#34;&gt;http://status.lightspeedretail.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mediacom&lt;/li&gt;
-&lt;li&gt;Medium. &amp;ldquo;Identified - We&amp;rsquo;re working to fix a major outage and will be back online as soon as possible.&amp;rdquo; &lt;a href=&#34;https://medium.statuspage.io/&#34;&gt;https://medium.statuspage.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Nest. &amp;ldquo;We’re investigating a service outage with the Nest mobile app and Cam services, and the team is working on a fix. Details to come.&amp;rdquo; &lt;a href=&#34;https://nest.com/support/#status&#34;&gt;https://nest.com/support/#status&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Netflix. &amp;ldquo;We are currently experiencing issues streaming on all devices.
-We are working to resolve the problem. We apologize for any inconvenience.&amp;rdquo; &lt;a href=&#34;https://help.netflix.com/help&#34;&gt;https://help.netflix.com/help&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper. &amp;ldquo;account related activities in Paper are down due to problems with our infrastructure provider #AWS&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Pocket.&lt;/li&gt;
-&lt;li&gt;Product Hunt. &amp;ldquo;Our servers are sick. We’re working on it right meow 😻&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Reddit.&lt;/li&gt;
-&lt;li&gt;Quandl. &amp;ldquo;The Quandl website and API are temporarily unavailable, due to problems at #AWS.&amp;rdquo;  &lt;a href=&#34;http://quandl.statuspage.io&#34;&gt;http://quandl.statuspage.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Shipt. &amp;ldquo;Unfortunately, we&amp;rsquo;re down right now with the #AWSOutage.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Social Flow&lt;/li&gt;
-&lt;li&gt;Takipi. &amp;ldquo;Due to an AWS outage, we&amp;rsquo;re experiencing some slowness and connectivity issues. Stay tuned for updates&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Tinder.&lt;/li&gt;
-&lt;li&gt;Twilio. &amp;ldquo;Update - We have established the DynamoDB backend in another AWS region and are re-routing requests from upstream services to the new region. We will provide another update once we verify that the requests are being serviced properly. &amp;rdquo; &lt;a href=&#34;http://status.twilio.com/&#34;&gt;http://status.twilio.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Viber. &amp;ldquo;We are experiencing disruptions in our service. We are working to resolve this issue. Sorry for the inconvenience.&amp;rdquo; &lt;a href=&#34;https://support.viber.com/&#34;&gt;https://support.viber.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;waffle.io &amp;ldquo;Experiencing Issues with Heroku&amp;rdquo; &lt;a href=&#34;http://status.waffle.io/&#34;&gt;http://status.waffle.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Walt Disney World app.&lt;/li&gt;
-&lt;li&gt;Wink.  &amp;ldquo;We are noticing increased connection issues for Wink users. Our engineers are working with Amazon to get this resolved ASAP.&amp;rdquo; &lt;a href=&#34;http://status.winkapp.com/&#34;&gt;http://status.winkapp.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Follow the discussion on Twitter on the #AWS hashtag, as well as
-#awsoutage and #awsdown . Twitter is unaffected by this outage,
-and Slack is also unaffected, which devops teams are both happy about.&lt;/p&gt;
-
-&lt;h3 id=&#34;news-coverage&#34;&gt;News coverage&lt;/h3&gt;
-
-&lt;p&gt;This &lt;a href=&#34;https://news.ycombinator.com/item?id=10247307&#34;&gt;Hacker News discussion&lt;/a&gt;
-is a good one as startups radio in their woes.&lt;/p&gt;
-
-&lt;p&gt;TNW: &lt;a href=&#34;http://thenextweb.com/insider/2015/09/20/amazon-web-services-goes-down-taking-netflix-reddit-pocket-and-more-with-it/&#34;&gt;Amazon Web Services goes down, taking Netflix, Reddit, Pocket and more with it&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Register: &lt;a href=&#34;http://www.theregister.co.uk/2015/09/20/aws_database_outage/&#34;&gt;AWS knocks Amazon, Netflix, Tinder and IMDb offline in MEGA data collapse; Cloudopocalypse stalks Sunday sofa surfers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;VentureBeat: &lt;a href=&#34;http://venturebeat.com/2015/09/20/amazons-aws-outage-takes-down-netflix-reddit-medium-and-more/&#34;&gt;Amazon’s AWS outage takes down Netflix, Reddit, Medium, and more
-&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>A distributed system is one in which the failure of a computer you didn&amp;rsquo;t even know existed can render your own computer unusable. Leslie Lamport, 1987
+ Amazon Web Services DynamoDB experienced downtime in the N Virginia availability zone early Sunday morning, September 20, 2015. As a result, a number of other AWS services inside N Virginia that depend on DynamoDB also had downtime. Companies and organizations that built services on top of those systems who didn&amp;rsquo;t have geographic load balancing were having problems as well.</description>
     </item>
     
   </channel>

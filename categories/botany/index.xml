@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/botany/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Botany on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/botany/</link>
+    <description>Recent content in Botany on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/botany/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2014 23:25:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/botany/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The impact of a deep freeze on the emerald ash borer</title>
@@ -14,44 +17,7 @@
       <pubDate>Tue, 07 Jan 2014 23:25:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-07-the-impact-of-a-deep-freeze-on-the-emerald-ash-borer/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5108be237970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a5108be237970c img-responsive&#34; alt=&#34;Agri-ohio-gov-adult-emerald-ash-borer&#34; title=&#34;Agri-ohio-gov-adult-emerald-ash-borer&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5108be237970c-800wi&#34; border=&#34;0&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It&#39;s bitter cold in the Ann Arbor area and throughout the country; temperatures have been below zero most of the last two days. &lt;/p&gt;
-
-&lt;p&gt;One of the things we&#39;re looking for a silver lining in super cold weather is its impact on bugs, especially invasive species like the &lt;strong&gt;emerald ash borer&lt;/strong&gt; that are not used to unusual weather. A story in the &lt;a href=&#34;http://thegazette.com/2014/01/07/ash-borer-larvae-in-iowa-will-survive-cold-snap-scientists-say/#sthash.ZsDtIacT.dpuf&#34;&gt;The Gazette (Cedar Rapids Iowa)&lt;/a&gt; has a description of the effects of extreme cold on these destructive beetles.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In Minnesota, where arctic outbreaks are colder, more frequent and last longer, they do inhibit the spread of the emerald ash borer, according to Lee Frelich, director of the University of Minnesota Center for Forest Ecology.&lt;/p&gt;
-  
-  &lt;p&gt;In parts of northern Minnesota and North Dakota, frequent, protracted cold spells may actually establish a zone in which ash trees can survive, Frelich said....&lt;/p&gt;
-  
-  &lt;p&gt;Citing recent research conducted in Minnesota, Frelich said 5 percent of emerald ash borer larvae die when exposed to a temperature of 0 degrees Fahrenheit. The mortality rate increased to 34 percent at 10 below, to 79 percent at 20 below and 98 percent at 30 below, according to that research.&lt;/p&gt;
-  
-  &lt;p&gt;However, the exposure must last at least several hours to overcome the insulating effect of the bark beneath which the larvae live.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;More details on &lt;a href=&#34;http://blogs.mprnews.org/updraft/2014/01/extreme-cold-may-wipe-out-high-percentage-emerald-ash-borer-larvae/&#34;&gt;Minnesota Public Radio News&lt;/a&gt;, again from Frelich:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I think the forecast temperatures that we will experience in the next several days will cause a lot of mortality for emerald ash borer in MN. Details below–probably more than you need. I looked up the most recent research this morning, because I figured I will get a lot of questions about this over the next week.&lt;/p&gt;
-  
-  &lt;p&gt;Winter mortality for emerald ash borer is definitely temperature dependent. The larvae can supercool to a certain point, but they die if they freeze, and there is variability in tolerance among individual insects. A recent study from the Forest Service (Venette and Abrahamson–see attached) in Minnesota showed that 5% of the insects die at 0F, 34% at -10F, 79% at -20F and 98% at -30F.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The recent study is &lt;a href=&#34;http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5191794.pdf&#34;&gt;Venette and Abrahamson, Cold Hardiness Of Emerald Ash Borer, AGRILUS PLANIPENNIS: A new perspective&lt;/a&gt;. The abstract:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This study was designed to assess the cold hardiness of emerald ash borer larvae, the 
-  overwintering stage of the insect. We began by measuring larval supercooling points, the 
-  temperatures at which larvae freeze. We found that larvae collected from naturally infested trees in St. Paul, MN between late October and early December had an average supercooling point of -25°C (-13°F). Research elsewhere indicates that when these insects freeze, they die. Our laboratory assessments of cold hardiness were confirmed during field tests. Naturally infested logs were held outdoors in St. Paul, MN (low winter air temp=-28°C) and near Grand Rapids, MN (-34°C) for ca. 5.5 weeks. Approximately 40% of larvae from logs in St. Paul were inactive or brown, both evidence of death; approximately 90% of larvae from logs near Grand Rapids were inactive or brown, compared with the approximately 10% that showed evidence of death prior to exposure or after being held under cool, non-lethal conditions. Overwintering mortality 
-  may help to minimize the damage caused by emerald ash borer in areas with extremely cold 
-  winter climates. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So there you go; the colder the weather, the more of the bugs die.&lt;/p&gt;
-
-&lt;p&gt;Image credit: http://www.agri.ohio.gov/eab/img/adulteab.jpg&lt;/p&gt;
-</description>
+      <description>It&#39;s bitter cold in the Ann Arbor area and throughout the country; temperatures have been below zero most of the last two days. One of the things we&#39;re looking for a silver lining in super cold weather is its impact on bugs, especially invasive species like the emerald ash borer that are not used to unusual weather. A story in the The Gazette (Cedar Rapids Iowa) has a description of the effects of extreme cold on these destructive beetles.</description>
     </item>
     
     <item>
@@ -60,8 +26,8 @@
       <pubDate>Sun, 06 Jun 2010 14:01:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-06-06-post-storm-mushroom-55/</guid>
-      <description>&lt;p class=&#34;flickr-yourcomment&#34;&gt;  &lt;/p&gt;&lt;p class=&#34;flickr-frame &#34;&gt;       &lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/4675282362/&#34;&gt;&lt;img alt=&#34;post-storm mushroom 5/5&#34; class=&#34;flickr-photo &#34; src=&#34;http://farm5.static.flickr.com/4032/4675282362_29c1b3a9af_t.jpg&#34; /&gt;&lt;/a&gt;&lt;br /&gt;     &lt;span class=&#34;flickr-caption&#34;&gt;&lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/4675282362/&#34;&gt;post-storm mushroom 5/5&lt;/a&gt;, originally uploaded by &lt;a href=&#34;http://www.flickr.com/people/edward-vielmetti/&#34;&gt;Edward Vielmetti&lt;/a&gt;.&lt;/span&gt;  &lt;/p&gt;        Big storms came through town and dumped somewhere between 2 and 4 inches of rain in the neighborhood. A morning walk showed a lot of mushrooms that came out including these unknown varieties growing on a dead (or partly dead) tree.&lt;p&gt;&lt;/p&gt;&lt;p class=&#34;flickr-postedby&#34;&gt;   &lt;a href=&#34;http://www.flickr.com/people/edward-vielmetti/&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;flickr-buddyicon &#34; height=&#34;24&#34; src=&#34;http://www.flickr.com/buddyicons/35034346184@N01.jpg&#34; width=&#34;24&#34; /&gt;&lt;/a&gt;Posted by &lt;a href=&#34;http://www.flickr.com/people/edward-vielmetti/&#34;&gt;Edward Vielmetti&lt;/a&gt; from &lt;a href=&#34;http://www.flickr.com/r/blogs&#34;&gt;Flickr&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;  &lt;a href=&#34;http://www.flickr.com/r/blogs&#34;&gt;&lt;img alt=&#34;flickr&#34; height=&#34;18&#34; src=&#34;http://www.flickr.com/images/flickr_logo_blog.gif&#34; style=&#34;border:none;&#34; width=&#34;41&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>post-storm mushroom 5/5, originally uploaded by Edward Vielmetti. Big storms came through town and dumped somewhere between 2 and 4 inches of rain in the neighborhood. A morning walk showed a lot of mushrooms that came out including these unknown varieties growing on a dead (or partly dead) tree.
+Posted by Edward Vielmetti from Flickr.</description>
     </item>
     
     <item>
@@ -70,13 +36,9 @@
       <pubDate>Sat, 02 May 2009 19:18:24 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-05-02-the-violets-growing-in-my-yard-make-me-happy/</guid>
-      <description>&lt;p&gt;They are nothing special, really, just ordinary lawn violets.&amp;#0160; I love them, and I love it when they come out in the spring time.&amp;#0160; When they appear I have warm memories of my &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/12/remembering_my_.html&#34;&gt;great aunt Gail Clark&lt;/a&gt; who kept violets at home and who was named after the plant.&lt;/p&gt;&lt;p&gt;Candied violets are said to be very easy - dip the violet flower in egg white and then in sugar.&lt;/p&gt;&lt;p&gt;More reading, of course:&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Prodigal Gardens May weblog has information about &lt;a href=&#34;http://www.prodigalgardens.info/may%20weblog.htm&#34;&gt;violets, dandelions, morels and wild asparagus in Wisconsin.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;A Traverse Forest Feast is the title of a My North magazine article about &lt;a href=&#34;http://www.mynorth.com/core/pagetools.php?pageid=5783&amp;amp;url=%2FMy-North%2FApril-2009%2FA-Traverse-Forest-Feast%2F&amp;amp;mode=print&#34;&gt;violets, dandelions, morels, ramps, mint, nettles, and wild leeks in the northern Lower Peninsula.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://books.google.com/books?id=-5m2Y2vUGvsC&#34;&gt;Sydney Farr in My Appalachia&lt;/a&gt; writes that the best time to go morel hunting is when the violets are in bloom after a spring rain.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;but best to just be outside&lt;/p&gt;
-</description>
+      <description>They are nothing special, really, just ordinary lawn violets.&amp;#0160; I love them, and I love it when they come out in the spring time.&amp;#0160; When they appear I have warm memories of my great aunt Gail Clark who kept violets at home and who was named after the plant.
+Candied violets are said to be very easy - dip the violet flower in egg white and then in sugar.
+More reading, of course:</description>
     </item>
     
     <item>
@@ -85,31 +47,8 @@
       <pubDate>Tue, 17 Feb 2009 14:39:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-02-17-woody-plants-identifying-the-trees-of-michigan/</guid>
-      <description>&lt;p&gt;Every year the U of Michigan teaches a Woody Plants class.&amp;#0160; I didn&amp;#39;t take it when I was in school, but my sister did, and it&amp;#39;s one of these legendary courses that people remember for a long time.&lt;/p&gt;&lt;p&gt;Here&amp;#39;s the links and notes I could find easily.&amp;#0160; It&amp;#39;s prompted by &lt;a href=&#34;http://annarborchronicle.com/2009/02/13/where-are-ann-arbors-trees/&#34;&gt;the Ann Arbor Chronicle&amp;#39;s story about the city of Ann Arbor tree inventory going on now,&lt;/a&gt; which I hope will yield a precise map of where all of the public juneberry trees are.&lt;/p&gt;&lt;p&gt;Course listing: &lt;a href=&#34;http://www.snre.umich.edu/node/349&#34;&gt;NRE 436: Woody Plants Biology and Identification&lt;/a&gt;&lt;/p&gt;&lt;p class=&#34;MsoNormal&#34; style=&#34;margin: 0in 0in 0pt 40px;&#34;&gt;&lt;font color=&#34;#000000&#34; face=&#34;Times New Roman&#34; size=&#34;3&#34;&gt;Woody
-Plants is an intensive field- and lecture-based learning experience, in
-which you will learn to identify 160 trees, shrub and vine species that
-are important in Michigan environments. You will learn about their
-taxonomy, distribution, habitat associations, and biogeographic history
-and how to identify them in their leafless winter condition. The lab
-component consists of weekly field trips in the Ann Arbor area, which
-include riparian and floodplain habitats, glacial lakes, moraines,
-bogs, fens and mesic forests. The lectures cover elementary aspects of
-plant identification, taxonomy and ecology; however, the broader themes
-include biogeographic history and the assembly of Michigan plant
-communities, both before and after major glaciations, ecological
-specializiation, and impacts of global warming and other anthropogenic
-environmental changes.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;a href=&#34;http://http://sitemaker.umich.edu/woodyplants/home&#34;&gt;Woody Plants - Sitemaker&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;The required textbook for Woody Plants is &lt;span style=&#34;text-decoration: underline;&#34;&gt;Michigan Trees&lt;/span&gt;
-by Burt V. Barnes and Warren H. Wagner. The authors taught the Woody
-Plants class from 1965 to 2005 and know their topic well. The books are
-available at Shaman Drum bookshop on 311 State Street.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.snre.umich.edu/profile/bvb&#34;&gt;Burt Barnes home page&lt;/a&gt; at SNRE&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;Undergraduate and graduate teaching in forest ecology; landscape
-ecology; natural history, and identification of Woody Plants. Research
-focuses on the theory and application of the landscape ecosystem
-approach. Studies emphasize spatial mapping of landscape ecosystems as
-the basis for conserving and managing ecosystems at multiple scales.
-Research on diversity of ecosystems and biota in upland, riverine, and
-wetland ecosystems. Specific areas include genetic and systematic
-studies of aspen species (genus &lt;em&gt;Populus&lt;/em&gt;), worldwide and comparative studies of east Asian and North American forests and species of the temperate zone.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://books.google.com/books?id=Mc0YAAAAYAAJ&amp;amp;printsec=frontcover&amp;amp;dq=michigan+trees&amp;amp;ei=rhGbSeCiDZicMq685KEP#PPP3,M1&#34;&gt;An early edition of Michigan Trees, in 1913, as seen on Google Books&lt;/a&gt; -&lt;/p&gt;&lt;div class=&#34;bookinfo_sectionwrap&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;div class=&#34;bookinfo_section_line book_title_line&#34;&gt;Michigan Trees: A Handbook of the Native and Most Important Introduced Species&lt;/div&gt;&lt;div class=&#34;bookinfo_section_line&#34;&gt;By Charles Herbert Otis&lt;/div&gt;&lt;div class=&#34;bookinfo_section_line&#34;&gt;Edition: 2&lt;/div&gt;&lt;div class=&#34;bookinfo_section_line&#34;&gt;Published by The Regents, 1913&lt;/div&gt;&lt;div class=&#34;bookinfo_section_line&#34;&gt;Original from Harvard University&lt;/div&gt;&lt;div class=&#34;bookinfo_section_line&#34;&gt;Digitized Apr 11, 2008&lt;/div&gt;&lt;div class=&#34;bookinfo_section_line&#34;&gt;246 pages&lt;/div&gt;&lt;/div&gt;&lt;p&gt; &lt;/p&gt;
-</description>
+      <description>Every year the U of Michigan teaches a Woody Plants class.&amp;#0160; I didn&amp;#39;t take it when I was in school, but my sister did, and it&amp;#39;s one of these legendary courses that people remember for a long time.
+Here&amp;#39;s the links and notes I could find easily.&amp;#0160; It&amp;#39;s prompted by the Ann Arbor Chronicle&amp;#39;s story about the city of Ann Arbor tree inventory going on now, which I hope will yield a precise map of where all of the public juneberry trees are.</description>
     </item>
     
     <item>
@@ -118,41 +57,18 @@ studies of aspen species (genus &lt;em&gt;Populus&lt;/em&gt;), worldwide and com
       <pubDate>Fri, 03 Oct 2008 14:04:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-10-03-first-frost-in/</guid>
-      <description>&lt;p&gt;Cover your tomatoes!&lt;/p&gt;
-
-&lt;p&gt;Here&#39;s this spring&#39;s suggestion list for &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/05/how-to-protect.html&#34;&gt;how to protect your tomatoes from frost.&amp;nbsp; &lt;/a&gt;More suggestions welcomed.&lt;/p&gt;
-
-&lt;p&gt;First frost warnings for 2008 follow; I got this message via the &lt;a href=&#34;http://www.EmergencyEmail.ORG&#34;&gt;Emergency Email Network&lt;/a&gt; (free).&lt;/p&gt;
-
-&lt;p&gt;
-MIZ069-070-075-076-082-083-&lt;/p&gt;
-
-&lt;div class=&#34;ArwC7c ckChnd&#34; id=&#34;:2xq&#34;&gt;&lt;wbr&gt;&lt;/wbr&gt;041200-&lt;br /&gt;
-/O.NEW.KDTX.FR.Y.0003.&lt;wbr&gt;&lt;/wbr&gt;081004T0600Z-081004T1200Z/&lt;br /&gt;
-OAKLAND-MACOMB-WASHTENAW-&lt;wbr&gt;&lt;/wbr&gt;WAYNE-LENAWEE-MONROE-&lt;br /&gt;
-INCLUDING THE CITIES OF.PONTIAC.WARREN.ANN ARBOR.&lt;br /&gt;
-DETROIT.ADRIAN.MONROE&lt;br /&gt;
-1214 PM EDT FRI OCT 3 2008&lt;br /&gt;
-&lt;br /&gt;
-FROST ADVISORY IN EFFECT FROM 2 AM TO 8 AM EDT SATURDAY.&lt;br /&gt;
-&lt;br /&gt;
-THE NATL WEATHER SVC IN DETROIT/PONTIAC HAS ISSUED A&lt;br /&gt;
-FROST ADVISORY.WHICH IS IN EFFECT FROM 2 AM TO 8 AM EDT&lt;br /&gt;
-SATURDAY.&lt;br /&gt;
-&lt;br /&gt;
-CLEAR SKIES &amp;amp; CALM WINDS WILL LEAD TO VERY COLD TEMPS&lt;br /&gt;
-TONIGHT. TEMPS ACROSS EXTREME SE MI WILL DROP&lt;br /&gt;
-INTO THE LOW TO MID 30S ALLOWING WIDESPREAD FROST TO DEVELOP.&lt;br /&gt;
-SOME OF THE MORE RURAL LOCATIONS FURTHER AWAY FROM THE GREATER DETROIT AREA&lt;br /&gt;
-MAY EVEN SEE TEMPS BRIEFLY DROP BELOW FREEZING.&lt;br /&gt;
-&lt;br /&gt;
-A FROST ADVISORY MEANS THAT FROST IS POSSIBLE. THOSE WITH&lt;br /&gt;
-AGRICULTURAL INTERESTS IN THE ADVISORY AREA ARE ADVISED TO TAKE&lt;br /&gt;
-MEASURES TO PROTECT TENDER VEGETATION. SENSITIVE OUTDOOR PLANTS&lt;br /&gt;
-MAY BE KILLED IF LEFT UNCOVERED.&lt;br /&gt;
-&lt;br /&gt;
-$$&lt;/div&gt;
-</description>
+      <description>Cover your tomatoes!
+Here&#39;s this spring&#39;s suggestion list for how to protect your tomatoes from frost.&amp;nbsp; More suggestions welcomed.
+First frost warnings for 2008 follow; I got this message via the Emergency Email Network (free).
+ MIZ069-070-075-076-082-083-
+041200-
+/O.NEW.KDTX.FR.Y.0003.081004T0600Z-081004T1200Z/
+OAKLAND-MACOMB-WASHTENAW-WAYNE-LENAWEE-MONROE-
+INCLUDING THE CITIES OF.PONTIAC.WARREN.ANN ARBOR.
+DETROIT.ADRIAN.MONROE
+1214 PM EDT FRI OCT 3 2008
+FROST ADVISORY IN EFFECT FROM 2 AM TO 8 AM EDT SATURDAY.
+THE NATL WEATHER SVC IN DETROIT/PONTIAC HAS ISSUED A</description>
     </item>
     
     <item>
@@ -161,12 +77,9 @@ $$&lt;/div&gt;
       <pubDate>Tue, 30 Sep 2008 11:10:18 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-30-how-to-get-rid/</guid>
-      <description>&lt;p&gt;We have a patch of land that should be doing something productive but instead is growing Japanese Knotweed.&amp;nbsp; I&#39;d like to fix that.&lt;/p&gt;
-
-&lt;p&gt;The simple description of how to deal with it seems to be to smother the affected area (using tarps or old carpets) and to do container gardening on top of that ground cover.&amp;nbsp; (&lt;a href=&#34;http://landscaping.about.com/cs/weedsdiseases/a/knotweed_2.htm&#34;&gt;ref about.com&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;It&#39;s time to think about it now, because I know that come May, it&#39;ll be growing with wild abandon.&lt;/p&gt;
-</description>
+      <description>We have a patch of land that should be doing something productive but instead is growing Japanese Knotweed.&amp;nbsp; I&#39;d like to fix that.
+The simple description of how to deal with it seems to be to smother the affected area (using tarps or old carpets) and to do container gardening on top of that ground cover.&amp;nbsp; (ref about.com)
+It&#39;s time to think about it now, because I know that come May, it&#39;ll be growing with wild abandon.</description>
     </item>
     
     <item>
@@ -175,52 +88,8 @@ $$&lt;/div&gt;
       <pubDate>Wed, 28 May 2008 14:22:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-05-28-how-to-plant-to/</guid>
-      <description>&lt;p&gt;In the &#34;try this next year&#34; category, here are some designs for a planter for tomatoes where you put the tomato seedlings in a bucket and then hang the bucket upside down.  Two advantages are obvious: one, that if there&#39;s frost, you can move the bucket out of the way, and two, you can grow in places where you don&#39;t have soil.&lt;/p&gt;
-
-&lt;p&gt;Three, I guess, is that you can plant something nice in the top of the pot and have it do double duty.&lt;/p&gt;
-
-&lt;p&gt;There&#39;s apparently television advertising for these things (which tells you how much TV I watch) but these look pretty easy.&lt;/p&gt;
-
-&lt;p&gt;without further ado:&lt;/p&gt;
-
-&lt;p&gt;from &lt;a href=&#34;http://greenthumbs.tribe.net/thread/5ea48cbb-5b2c-4320-8b70-e0e068cc58a9&#34;&gt;greenthumbs.tribe.net :&lt;/a&gt;&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-My 83 year old dad told me he use to grow upside down tomatoes in an old tin, they would put a small hole in the end of the tin (I guess a paint tin? not sure what type tin they used) and plant the tomato plant upside down and at the top of the tin they would plant a pepper plant. He said they flourished! I have the upside down container that I am going to plant my tomatoes and herbs in this spring...I can&#39;t wait!&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;the &lt;a href=&#34;http://www.michigan-sportsman.com/forum/showthread.php?p=2124372&#34;&gt;Michigan Sportsman Forums&lt;/a&gt; thread from Frantz:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-I had great success with tomato plants, but peppers did poorly. I drilled a single hole and fed my seedlings up through the bottom. This year I am making the hole a little bigger and putting the plant through the inside of the bucket and using some landscape cloth to gold it all in. Last year the buckets with chives, parsley and basil growing on the top side did better. I think because it held the water in better for the tomato roots.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;the comments on a &lt;a href=&#34;http://lifehacker.com/software/household/grow-your-tomatoes-upside-down-189767.php&#34;&gt;Lifehacker&lt;/a&gt; post:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Wow! If I knew there was a market for this, I would have had my grandmother patent it years ago. Since I was a little kid, she always grew her tomatoes upside-down -- by just using a simple plastic bucket &amp; a few strategically placed holes.&lt;/p&gt;
-
-&lt;p&gt;And, as an added bonus? She planted azaleas on the top, so it not only looked pretty, but it would keep the bugs &amp; other nasty critters from going after the tomato plant underneath.&lt;/p&gt;
-
-&lt;p&gt;We coulda been millionaires.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.instructables.com/id/SXE553TFDO29BWZ/&#34;&gt;Instructables&lt;/a&gt; has pictures, planting in a coco fiber pot:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-You will need the following materials:&lt;br /&gt;
--hanging coco basket with a hole in the bottom of the frame&lt;br /&gt;
--dirt (more on this later) I used peat moss, manure, and vermiculite&lt;br /&gt;
--something to hang it from (I used a Shepard&#39;s hook)&lt;br /&gt;
--and a tomato plant!!!!&lt;/p&gt;
-
-&lt;p&gt;The plant needs to be a baby plant, not one of those huge 1 gallon bucket plants.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.curbly.com/DIY-Maven/posts/1620-How-To-Make-An-Upside-Down-Tomato-Planter&#34;&gt;Curbly has an illustrated How To Make An Upside Down Tomato Planter &lt;/a&gt;&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Thank you for your DIY upside down tomato planter. It is the cheapest, most attractive one I&#39;ve seen online. I planted two with Bush Celebrity Tomatoes and a third one (the one in the middle) planted with Jalapenos. I planted Thai Basil, Italian Parsley, Purple Sage, Sweet Woodruff, Italian Oregano, and Sweet Basil in the top of the planter. I realized that my pots are hanging a too low, so I have to shorten the cord, but I think they came out pretty good! Can&#39;t wait to see if my tomaotes and jalapenos will grow good upside down!&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;There&#39;s some art to the companion planting too.&lt;br /&gt;
-&lt;/p&gt;
-</description>
+      <description>In the &#34;try this next year&#34; category, here are some designs for a planter for tomatoes where you put the tomato seedlings in a bucket and then hang the bucket upside down. Two advantages are obvious: one, that if there&#39;s frost, you can move the bucket out of the way, and two, you can grow in places where you don&#39;t have soil.
+Three, I guess, is that you can plant something nice in the top of the pot and have it do double duty.</description>
     </item>
     
     <item>
@@ -229,60 +98,11 @@ Thank you for your DIY upside down tomato planter. It is the cheapest, most attr
       <pubDate>Tue, 27 May 2008 15:37:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-05-27-how-to-protect/</guid>
-      <description>&lt;p&gt;Frost warnings for Ann Arbor for tonight; that&#39;s kind of late.&lt;/p&gt;
-
-&lt;p&gt;In the spirit of gardeners everywhere, here&#39;s some collected recommendations for dealing with frost damage in your garden.&lt;/p&gt;
-
-&lt;p&gt;From Zimbabwe and &lt;a href=&#34;http://www.farmradio.org/english/radio-scripts/34-7script_en.asp&#34;&gt;Farm Radio International&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-Protect Tomatoes from Frost
-
-&lt;p&gt;By Livai Matarirano, Zimbabawe&lt;/p&gt;
-
-&lt;p&gt;You can grow tomatoes even in cold weather. A farmer in Zimbabwe, Mr. Francis Handwa, uses cooking oil or milk bottles filled with water to keep tomato plants warm. This is a good alternative to covering tomatoes if used bottles are easy to get. Here is how he does it.&lt;/p&gt;
-
-&lt;p&gt;Francis fills cooking oil or milk bottles with water until they are three quarters full. While the plants are still young, he places the bottles upright on the ground among the tomatoes. He places one bottle beside every third plant in every other row. He makes sure that the neck of the bottle appears above the plants. When the plants get taller than the bottles he places stakes beside the tomato plants. He hangs a bottle on each stake with a string. The bottles hang 10 centimetres above the plants.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;from &lt;a href=&#34;http://www.gardenersnet.com/vegetable/tomato.htm&#34;&gt;GardenersNet:&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-Tomatoes like it hot! They will die if exposed to frost. Make sure to plant them after the last frost.
-
-&lt;p&gt;Tip#1: Cover your young seedling if frost is predicted. A simple and easy cover  for small seedlings is to buy large or extra large plastic disposable cups. Place them over the seedling at dusk, and remove them in the morning. There is usually little or no wind on nights with frost, so they are not easily tipped over.&lt;/p&gt;
-
-&lt;p&gt;Tip#2: If you get a light frost overnight and you did not cover up your plants. Go out early before the sun rises, and spray your plants with the garden hose. This melts the ice off the plants and may save them.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;From &lt;a href=&#34;http://www.tomatocasual.com/2007/09/26/how-to-continue-harvesting-your-tomatoes-after-a-frost/&#34;&gt;Tomato Casual&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-If a more serious frost is coming, cover your plants with something to keep the frost from ending up on the leaves. I like to use sheets but anything like plastic, sheeting, newspaper or other material that can be used like a gentle covering will suffice.
-
-&lt;p&gt;Leave the cover on until the temp breaks that frost level in the mid morning and your plants will be none the worse for wear. Do not, however, leave plastic on the plants in the hot sun as this is damaging to the tomato plant and all your attention will be wasted.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://rebeccasgardenblogs.blogspot.com/2006/09/protecting-tomatoes-from-frost.html&#34;&gt;Rebecca&#39;s Garden Blogs:&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-If you still have tomatoes on the vine, keep bed sheets on hand. When frost is in the forecast cover the vines early afternoon before the sun starts setting. This will help trap the daytime heat before the soil cools. Also, try to extend the sheets to cover as much ground as possible. I stretch mine out and put a stone on top to hold it in place. This creates a tee pee which too traps more warmth. Remove covering once the sun comes up. 
-&lt;/blockquote&gt;
-
-&lt;p&gt;From the Columbia Missourian, &lt;a href=&#34;http://www.columbiamissourian.com/stories/2008/04/28/put-plants-bed-blanket-tonight/&#34;&gt;Put plants to bed with a blanket tonight&lt;br /&gt;
-&lt;/a&gt;&lt;blockquote&gt;&lt;br /&gt;
-According to Sapp, it’s best to cover plants with cloth. A simple flannel bed sheet will do the trick, but make sure that it is lifted slightly off the plants so they have a little breathing room. Cardboard also works, Sapp said. Take a box, place it over low plants and flowers, and then open the box top during the day so the plants can soak up the sun.&lt;/p&gt;
-
-&lt;p&gt;Contrary to popular belief, Sapp said plastic isn’t the best option for covering plants because it doesn’t sufficiently shield them from frost. Stick with cloth and cardboard to save the seedlings.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;From Rutgers University, &lt;a href=&#34;http://ifplantscouldtalk.rutgers.edu/planttalk/article.asp?ID=12&#34;&gt;Planting and protecting warm season vegetables&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-Water walls- There are various clear plastic devices that have long tubes connected in a circle. Once the tubes are filled with water, they will stand up on their own and provide a great deal of frost protection for early tomatoes. The water filled tubes heat up during the day and retain heat during cold nights to protect plants. These thick water walls provide effective insulation to counter cool temperatures. The water walls need to be staked to prevent them from blowing over with strong winds. After frost dates have passed, these devices can be removed.
-&lt;/blockquote&gt;
-
-&lt;p&gt;Stay warm, and keep your tomatoes protected.&lt;/p&gt;
-</description>
+      <description>Frost warnings for Ann Arbor for tonight; that&#39;s kind of late.
+In the spirit of gardeners everywhere, here&#39;s some collected recommendations for dealing with frost damage in your garden.
+From Zimbabwe and Farm Radio International:
+ Protect Tomatoes from Frost By Livai Matarirano, Zimbabawe
+You can grow tomatoes even in cold weather. A farmer in Zimbabwe, Mr. Francis Handwa, uses cooking oil or milk bottles filled with water to keep tomato plants warm.</description>
     </item>
     
     <item>
@@ -291,29 +111,9 @@ Water walls- There are various clear plastic devices that have long tubes connec
       <pubDate>Fri, 25 Apr 2008 21:59:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-04-25-michigan-morel/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://morelmushroomhunting.com/morel_progression_sightings_map.htm&#34;&gt;&lt;img alt=&#34;Michigan_4_21_08b&#34; title=&#34;Michigan_4_21_08b&#34; src=&#34;http://vielmetti.typepad.com/vacuum/images/2008/04/25/michigan_4_21_08b.gif&#34; width=&#34;100&#34; height=&#34;92&#34; border=&#34;0&#34; style=&#34;float: left; margin: 0px 5px 5px 0px;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-You don&#39;t really think I&#39;m going to tell you where to pick morels, do you?  Even my mom won&#39;t tell me where she gets hers.&lt;/p&gt;
-
-&lt;p&gt;What I can share is some set of things that people are tracking for timing for when morels appear, and forums where this stuff is being discussed by experts.&lt;/p&gt;
-
-&lt;p&gt;There is a terrific list of &lt;a href=&#34;http://thegreatmorel.com/info.html&#34;&gt;morel mushroom information&lt;/a&gt; carefully collected by The Great Morel; lots to read, if you want to know more.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.michigan-sportsman.com/forum/showthread.php?p=2078720&#34;&gt;The Michigan Sportsman Forums&lt;/a&gt; report on &lt;a href=&#34;http://morelmushroomhunting.com/morel_progression_sightings_map.htm&#34;&gt;the Morel Progression Sightings Map&lt;/a&gt; for the year, which gives you big dots showing approximate locations.  This is a current April 25, 2008 selection.&lt;/p&gt;
-
-&lt;p&gt;Absolute Michigan&#39;s story on the &lt;a href=&#34;http://www.absolutemichigan.com/dig/michigan/michigan-morels-and-the-boyne-city-mushroom-festival/&#34;&gt;2007 Boyne City Mushroom Festival&lt;/a&gt; includes plenty of details.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.grayling-mi.com/morel.html&#34;&gt;Grayling, MI visitors bureau guide to the morels of Crawford County Michigan&lt;/a&gt; gives away details, but being coy, recommends that you bring your own log book and note where you found yours.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: Mike Gould of Ann Arbor has a story originally in the Ann Arbor Observer about &lt;a href=&#34;http://www.mondodyne.com/a2observer/morels.shtml&#34;&gt;Roonquest: the mushrooms that bloom in the spring&lt;/a&gt; about morel hunting near Charlevoix.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: More morel information by video at Youtube - see e.g. &lt;a href=&#34;http://www.youtube.com/user/VideoMorelHunting&#34;&gt; VideoMorelHunting&lt;/a&gt; collection of accounts and movies.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: &lt;a href=&#34;http://www.johndee.com/discuss/messages/58069/78392.html?1209500962&#34;&gt;Morel mushroom hunting in the Upper Peninsula&lt;/a&gt; w/report of nothing yet as of 4/25 in Menominee County.  thanks @frnash for the link&lt;/p&gt;
-
-&lt;p&gt;UPDATE: &lt;a href=&#34;http://www.superiorsights.com/recreation/morelmushrooms/morel.html&#34;&gt;Superior Sights on Morel Mushroom Picking in the Upper Peninsula&lt;/a&gt; says their favorite spot is northwest of Newberry, MI, in Luce County, and says that the best times in the UP for morels tend to be end of May to early June.  &lt;/p&gt;
-
-&lt;p&gt;UPDATE: The music of the &lt;a href=&#34;http://www.morelfest.com/attachments/File/music/-2-mushroomers_waltz_master.mp3&#34;&gt;Mushroomer&#39;s Waltz (MP3)&lt;/a&gt; comes from the &lt;a href=&#34;http://morelfest.com/&#34;&gt; National Morel Mushroom Festival in Boyne City, MI&lt;/a&gt;, May 15-18 2008.&lt;/p&gt;
-</description>
+      <description>You don&#39;t really think I&#39;m going to tell you where to pick morels, do you? Even my mom won&#39;t tell me where she gets hers.
+What I can share is some set of things that people are tracking for timing for when morels appear, and forums where this stuff is being discussed by experts.
+There is a terrific list of morel mushroom information carefully collected by The Great Morel; lots to read, if you want to know more.</description>
     </item>
     
   </channel>

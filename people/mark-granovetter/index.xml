@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/mark-granovetter/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Mark Granovetter on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/mark-granovetter/</link>
+    <description>Recent content in Mark Granovetter on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/mark-granovetter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jul 2015 14:01:15 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/mark-granovetter/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The weak ties of your social network are its greatest strength</title>
@@ -14,61 +17,8 @@
       <pubDate>Sun, 19 Jul 2015 14:01:15 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-weak-ties-of-your-social-network/</guid>
-      <description>&lt;p&gt;Lior Zoref has a new book out called
-&lt;a href=&#34;http://www.aadl.org/catalog/record/1471756&#34;&gt;Mindsharing: the art of crowdsourcing everything&lt;/a&gt;
-(Portfolio / Penguin, 2015). I have
-a copy of it from the Ann Arbor District Library which was on the
-new shelf at Mallett&amp;rsquo;s Creek on a sunny and hot summer Sunday
-afternoon. Mallett&amp;rsquo;s has good air conditioning, a very good spot
-to be on a warm day.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://media.aadl.org/covers/1471756_200.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The challenge of a book like this is picking out the good bits
-without repeating the author&amp;rsquo;s technique of using the word
-&amp;ldquo;Mindsharing&amp;rdquo; (capitalized) at every opportunity. I&amp;rsquo;ll try to
-unpack the approach with a simpler version of the
-strategy, which seems to boil down to this:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make lots of connections online, even with people who you don&amp;rsquo;t
-know very well&lt;/li&gt;
-&lt;li&gt;Ask them really good questions when you are trying to make a decision&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lots of connections is the biggest suggestion here; rather than
-get help from a small circle of trusted friends, the crowdsourcing
-approach to human improvement relies on good ideas coming from
-large or very large sets of people (at least 250), and relies on
-pulling in unexpectedly good recommendations from people who don&amp;rsquo;t
-know you very well.  Lior references Mark Granovetter&amp;rsquo;s &amp;ldquo;The Strength
-of Weak Ties&amp;rdquo; (1973) early on, but of course Granovetter didn&amp;rsquo;t
-know about Quora, Facebook, LinkedIn, and the host of other online
-properties and lists that allow for computer-mediated interaction
-with people at a distance.&lt;/p&gt;
-
-&lt;p&gt;There is an art to asking good questions that could fill a book.
-If you look on the biggest question-answering websites like Quora
-or Stack Exchange and start to follow along, you will quickly find
-that good questions get rewarded with positive feedback and bad
-questions (or impossible to answer questions) get ignored or criticized.
-Lior points out the there&amp;rsquo;s a very big difference between typing a query
-into a search engine and asking a live audience the same thing -
-the human element of the search allows a personal connection.&lt;/p&gt;
-
-&lt;p&gt;Lior is known for a TED talk (he brought an ox onstage) and is out
-promoting his book. The book itself feels like an ideal airplane
-read for someone who is aspiring to self-improvement, is facing a
-career change, and who hasn&amp;rsquo;t figured out what the point is quite
-yet with Facebook as a career tool.&lt;/p&gt;
-</description>
+      <description>Lior Zoref has a new book out called Mindsharing: the art of crowdsourcing everything (Portfolio / Penguin, 2015). I have a copy of it from the Ann Arbor District Library which was on the new shelf at Mallett&amp;rsquo;s Creek on a sunny and hot summer Sunday afternoon. Mallett&amp;rsquo;s has good air conditioning, a very good spot to be on a warm day.
+ The challenge of a book like this is picking out the good bits without repeating the author&amp;rsquo;s technique of using the word &amp;ldquo;Mindsharing&amp;rdquo; (capitalized) at every opportunity.</description>
     </item>
     
   </channel>

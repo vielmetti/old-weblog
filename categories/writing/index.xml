@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/writing/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Writing on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/writing/</link>
+    <description>Recent content in Writing on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jul 2015 18:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>We should do more blogging</title>
@@ -14,19 +17,9 @@
       <pubDate>Tue, 28 Jul 2015 18:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-28-we-should-do-more-blogging/</guid>
-      <description>&lt;p&gt;Blog every day, whether you want to or not.&lt;/p&gt;
-
-&lt;p&gt;Pick a topic, learn it well, and write about it as you learn it.
-Or pick a topic you know really well already and teach to it.
-Sometimes you can do both.&lt;/p&gt;
-
-&lt;p&gt;The time spent blogging can&amp;rsquo;t be any less worthwhile than time
-spent on Facebook or Twitter. The exchange is, instead of clicking
-the like button and the favorite button, you actually have to think
-a little bit and write something down that makes sense.&lt;/p&gt;
-
-&lt;hr/&gt;
-</description>
+      <description>Blog every day, whether you want to or not.
+Pick a topic, learn it well, and write about it as you learn it. Or pick a topic you know really well already and teach to it. Sometimes you can do both.
+The time spent blogging can&amp;rsquo;t be any less worthwhile than time spent on Facebook or Twitter. The exchange is, instead of clicking the like button and the favorite button, you actually have to think a little bit and write something down that makes sense.</description>
     </item>
     
     <item>
@@ -35,39 +28,8 @@ a little bit and write something down that makes sense.&lt;/p&gt;
       <pubDate>Sat, 25 Jul 2015 11:40:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-25-make-tidy/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been converting over old postings on this blog from Typepad.
-The data export and import was imperfect, and this meant that I&amp;rsquo;ve
-been poring over the data to figure out what keeps and what goes
-and what-not. It&amp;rsquo;s a chance to review old words.&lt;/p&gt;
-
-&lt;p&gt;One of the artifacts of the old hosting platform was a helpful at
-times system called &lt;a href=&#34;http://www.zemanta.com&#34;&gt;Zemanta&lt;/a&gt;. Zemanta would
-figure out what you were writing about and give you helpful suggestions
-for related links, both to things that you had written as well as
-to things other people had written.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve decided as part of the transformation of the old weblog into
-the new one to unlink those &amp;ldquo;related links&amp;rdquo;, in the hope that
-eventually Hugo&amp;rsquo;s own system will create some either algorithmically
-derived relations or at least an easier way to do that by hand.&lt;/p&gt;
-
-&lt;p&gt;In the meantime I&amp;rsquo;m looking closely at what Zemanta did so I can
-undo it. The first set of artifacts is a &amp;ldquo;fieldset&amp;rdquo; with its links,
-and that&amp;rsquo;s easy enough to search and destroy. Occasionally but not
-always I find my links decorated with a &lt;code&gt;class=&amp;quot;zem_slink&amp;quot;&lt;/code&gt; marker
-that&amp;rsquo;s a little harder to find. Most insidious so far was exactly
-one time where Zemanta (or Typepad) rewrote or wrote an Amazon link
-to include an affiliate link points to Zemanta, and not to me.&lt;/p&gt;
-
-&lt;p&gt;Rewriting 1500+ pages is going to take a while. The biggest question
-is unpublishing some of them, since time has passed and I don&amp;rsquo;t need
-to republish everything. There&amp;rsquo;s conversion from HTML to Markdown
-to remove the uglies, spelling errors to catch, next
-categories and taxonomies to fill, layout to work on, etc. At
-some point I need to sort out image management. But first I&amp;rsquo;m going
-to understand the consequences of previous convenience decisions
-I made to use Zemanta and to undo that decision.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been converting over old postings on this blog from Typepad. The data export and import was imperfect, and this meant that I&amp;rsquo;ve been poring over the data to figure out what keeps and what goes and what-not. It&amp;rsquo;s a chance to review old words.
+One of the artifacts of the old hosting platform was a helpful at times system called Zemanta. Zemanta would figure out what you were writing about and give you helpful suggestions for related links, both to things that you had written as well as to things other people had written.</description>
     </item>
     
     <item>
@@ -76,24 +38,9 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Sat, 01 Nov 2014 22:54:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-01-where-do-you-write-something-thats-longer-than-a-tweet-but-shorter-than-an-essay/</guid>
-      <description>&lt;p&gt;Where do you write something that&#39;s longer than a tweet, but shorter than an essay?&lt;/p&gt;
-
-&lt;p&gt;There&#39;s a space on the net for things that you put together that don&#39;t fit into a tweet, but that also don&#39;t really require a whole long essay.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve been writing these in my blog for years, and so I have a bit of infrastructure put together for organizing, collecting, and finding them again. A lot of people who are on Twitter don&#39;t have a blog, though, and so their fragments stay fragmentary or get lost in the mists of Twitter time.&lt;/p&gt;
-
-&lt;p&gt;There are plenty of places to post disconnected paragraphs online - you can stick them on Facebook (where they will be quickly seen and quickly lost), you can dump them into a Github gist (where only techies will be able to find them again), or - best of all - you can use your own web space in some blog-like time-sequenced away to push things into the world for later retrieval.&lt;/p&gt;
-
-&lt;p&gt;Some other people talking about this at the moment:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Gina Trapani: &lt;a href=&#34;http://scribbling.net/2014/10/16/short-form-blogging/&#34;&gt;I find tweets too reductionist and Medium pieces too bloviating&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Marco Arment: &lt;a href=&#34;http://www.marco.org/2014/11/01/short-form-blogging&#34;&gt;Too much of my writing in the last few years has gone exclusively into Twitter. I need to find a better balance.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Andy Baio: &lt;a href=&#34;http://waxy.org/2014/10/middling/&#34;&gt;I miss seeing people I admire post stuff longer than a tweet.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It was noted by several people that Tumblr fits this pattern well; alas, I don&#39;t Tumbl very well.&lt;/p&gt;
-</description>
+      <description>Where do you write something that&#39;s longer than a tweet, but shorter than an essay?
+There&#39;s a space on the net for things that you put together that don&#39;t fit into a tweet, but that also don&#39;t really require a whole long essay.
+I&#39;ve been writing these in my blog for years, and so I have a bit of infrastructure put together for organizing, collecting, and finding them again. A lot of people who are on Twitter don&#39;t have a blog, though, and so their fragments stay fragmentary or get lost in the mists of Twitter time.</description>
     </item>
     
     <item>
@@ -102,13 +49,8 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Wed, 01 Oct 2014 21:04:32 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-01-do-you-still-write-750-words-a-day/</guid>
-      <description>&lt;p&gt;I&amp;#39;m sure that I write way more than that in aggregate, but I&amp;#39;ve not been keeping up with what was once a habit I attempted: to write a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/750wordscom-a-writing-environment-for-a-daily-writing-exercise.html&#34; target=&#34;_self&#34;&gt;750 word essay&lt;/a&gt; every day.&lt;/p&gt;
-&lt;p&gt;I know that it&amp;#39;s possible to sit down with a single cup of coffee and a single idea and no distractions and crank out 500 words at a sitting. It helps if the coffee doesn&amp;#39;t spill, and if your todo list is in check, and if you have a full sized keyboard and not a tiny phone. The morning ritual of daily coffee and wifi usually produces something publishable, though often it&amp;#39;s much shorter. You might only clip and save and share a single tweet&amp;#39;s worth of someone else&amp;#39;s work and call that a success to capture the idea of the moment.&lt;/p&gt;
-&lt;p&gt;I don&amp;#39;t sit down and write all the time, though. There&amp;#39;s meetings to go to, code to struggle with, people to see, places to go, dinner to cook, and the endless slog of Internet to wade through. When I do have a chance to write to produce things, it&amp;#39;s often 50 words there, 10 words here, a click of a button there. It&amp;#39;s not always long, extended efforts.&lt;/p&gt;
-&lt;p&gt;The long, extended efforts are fun, don&amp;#39;t get me wrong, and they really focus the mind and help me think about topics for much longer than I would otherwise. The ideal writing environment gets all of the distractions out of the way and shuts out the beep-beep-beep of interrupts that otherwise drive my efforts. Getting away from interrupts turns out to be really hard work, and obtaining an uninterrupted stretch that allows such a focus is a rare treat.&lt;/p&gt;
-&lt;p&gt;What would you focus on if you had 750 words of uninterrupted focus every day? It should be enough to dig deep into a topic, not just to hit the surface but to wallow around in it, trying out lots of options.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;m cutting this self-reflective essay off at about 300 words, because there are 450 words that I&amp;#39;d rather apply to something else.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;m sure that I write way more than that in aggregate, but I&amp;#39;ve not been keeping up with what was once a habit I attempted: to write a 750 word essay every day.
+I know that it&amp;#39;s possible to sit down with a single cup of coffee and a single idea and no distractions and crank out 500 words at a sitting. It helps if the coffee doesn&amp;#39;t spill, and if your todo list is in check, and if you have a full sized keyboard and not a tiny phone.</description>
     </item>
     
     <item>
@@ -117,18 +59,8 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Tue, 23 Sep 2014 06:42:05 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-23-the-limits-of-the-small-screen-1/</guid>
-      <description>&lt;p&gt;I am operating with the limitation that I do not currently have a full sized keyboard and screen. The laptop accidentally ingested a cup of coffee. It is getting dried out and the bad bits reclaimed now, and in the meantime I am doing all my computing on either library computers or my Nexus 4 phone.&lt;/p&gt;
-
-&lt;p&gt;It is often awkward to compose messages and to write on such a small screen, but the screen size is not really the problem. What is much harder is the single finger worth of on screen keyboard that I have to get used to. I type really fast with all ten fingers and the small swipe keyboard on the phone is just slower and more error prone and more cumbersome. This affects my thinking too as I do not have a way to write as fast as I think.&lt;/p&gt;
-
-&lt;p&gt;The mobile web is surprisingly functional. Responsive design means that many web sites are readable on a small screen, and the plethora of app designs generally work pretty well. The mobile web however is better for very short messages (LOL BRB) and for consuming info and for executing simple commands. It is not designed for the essayist.&lt;/p&gt;
-
-&lt;p&gt;I have looked at a bunch of writing environments, and surprisingly this input window in the Typepad mobile app is one of the better off them. If there is a &#34;word processor&#34; for Android I have not found it yet. Instead I am ending up writing with only Markdown as a formatting language, and I am not using even that. Plain text all the way in a simple browser edit input window.&lt;/p&gt;
-
-&lt;p&gt;Writing in the small is possible, but it is not fun. I am looking forward to getting a full sized keyboard again.&lt;/p&gt;
-
-&lt;p&gt;(Note to self, the cup of coffee should always be to the far right of the keyboard, not on the near left.)&lt;/p&gt;
-</description>
+      <description>I am operating with the limitation that I do not currently have a full sized keyboard and screen. The laptop accidentally ingested a cup of coffee. It is getting dried out and the bad bits reclaimed now, and in the meantime I am doing all my computing on either library computers or my Nexus 4 phone.
+It is often awkward to compose messages and to write on such a small screen, but the screen size is not really the problem.</description>
     </item>
     
     <item>
@@ -137,22 +69,7 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Thu, 06 Feb 2014 01:17:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-02-06-long-form-writing-as-first-published-to-twitter/</guid>
-      <description>&lt;p&gt;I&#39;d like to do some long form writing, except that I&#39;d publish it on Twitter. I&#39;ll write essays as I&#39;d normally write them, making sure that sentences are 140 characters or less. The goal would be to encapsulate an entire argument in pithy sentences and make each one stand on its own. I have no doubt that it would be possible to write quite a few words this way, though you might lose some followers in the bargain.&lt;/p&gt;
-
-&lt;p&gt;The change of pace is that you&#39;re not trying to write your whole idea into any given 140 character fragment. You&#39;re looking to spin out a story that holds together over dozens of tweets, without being too distracted by the net you&#39;re writing within. Writing with a net watching can be distracting, but it can also be enlivening; somehow you must make use of the diversions. Some side conversations will give you ideas that you can later reclaim and recast as your own, when the time is right.&lt;/p&gt;
-
-&lt;p&gt;Twitter is a new medium within which to compose original writing, as every sentence you write there has its own URL and feedback loop. By publishing every sentence individually, you can write and then see feedback one line a time - a thought both inspiring and terrifying.&lt;/p&gt;
-
-&lt;p&gt;Oscar Wilde, &lt;a href=&#34;https://www.marxists.org/reference/archive/wilde-oscar/soul-man/&#34;&gt;The Soul of Man under Socialism&lt;/a&gt;, 1891. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The fact is, that the public have an insatiable curiosity to know everything, except what is worth knowing. Journalism, conscious of this, and having tradesman-like habits, supplies their demands.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&#39;ve been drafting first versions in vim so that I have a record of the whole context of what I&#39;m writing outside of Twitter. Drafting in vim gives me a chance to write a whole paragraph and then push it to Twitter as separate sentences, once it makes sense. I always edit again within Twitter, where every character is counted for you forcing you to make tough decisions about what not to say. The short format of Twitter leads to better writing, since you must omit needless words to make a complex idea fit into its allotment. &lt;/p&gt;
-
-&lt;p&gt;My writing is slower when I feel the compulsion to construct an argument that still makes sense when divided into pieces. It&#39;s easier to write quickly when you don&#39;t have to think about the reaction to every word and phrase. The feedback has prompted a handful of offline drafts before committing to publishing - even &#34;just&#34; to publishing to Twitter. &lt;/p&gt;
-</description>
+      <description>I&#39;d like to do some long form writing, except that I&#39;d publish it on Twitter. I&#39;ll write essays as I&#39;d normally write them, making sure that sentences are 140 characters or less. The goal would be to encapsulate an entire argument in pithy sentences and make each one stand on its own. I have no doubt that it would be possible to write quite a few words this way, though you might lose some followers in the bargain.</description>
     </item>
     
     <item>
@@ -161,12 +78,8 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Mon, 20 Jan 2014 15:28:36 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-20-the-slow-drip-of-progress/</guid>
-      <description>&lt;p&gt;Every once in a while, I come up with a really good idea. More often than not, I don&#39;t.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m content to work on systems that accommodate the work that leads to a steady sense of slow progress. The weblog piles one post upon another; every so often, the middle of the pile is most interesting, and you dust it off and bring it out again as if it were new. The wiki appreciates it when you fix a very small typo, change an &#34;an&#34; to an &#34;a&#34;, tidy up a caption or resize a photo.&lt;/p&gt;
-
-&lt;p&gt;Progress is more often than not measured very slowly, if at all. Just try not to go backwards. &lt;/p&gt;
-</description>
+      <description>Every once in a while, I come up with a really good idea. More often than not, I don&#39;t.
+I&#39;m content to work on systems that accommodate the work that leads to a steady sense of slow progress. The weblog piles one post upon another; every so often, the middle of the pile is most interesting, and you dust it off and bring it out again as if it were new.</description>
     </item>
     
     <item>
@@ -175,14 +88,8 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Sun, 19 Jan 2014 14:55:06 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-19-analysis-paralysis/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51124a97a970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a51124a97a970c img-responsive&#34; alt=&#34;Right-now-0-active-visitors-on-site&#34; title=&#34;Right-now-0-active-visitors-on-site&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51124a97a970c-800wi&#34; border=&#34;0&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I have a bunch of tools that tell me what people have looked at on the net, including Google Analytics, Google Webmaster Tools, Clicky, and some Twitter tools. It&#39;s fascinating to see people&#39;s attention move around and occasionally reanimate something that I wrote months or years ago.&lt;/p&gt;
-
-&lt;p&gt;What these tools don&#39;t easily do is tell me what to write about next. Yes, sometimes they suggest missing things that should be expanded on, and looking at Twitter stats is endlessly fascinating. But that&#39;s a large part of the problem - the endless fascination gets in the way of applying fingers to the keyboard and creating something brand new.&lt;/p&gt;
-
-&lt;p&gt;It&#39;s easy to get distracted by the sorts of things that are meant to help you out. It&#39;s hard to be analytical and dispassionate about your past work while at the same time you&#39;re trying to create new work. Not everything worth writing has to rank highly on a search engine or get lots of referral traffic; sometimes, you just need to create something even if it&#39;s only for you to stretch your fingers. &lt;/p&gt;
-</description>
+      <description>I have a bunch of tools that tell me what people have looked at on the net, including Google Analytics, Google Webmaster Tools, Clicky, and some Twitter tools. It&#39;s fascinating to see people&#39;s attention move around and occasionally reanimate something that I wrote months or years ago.
+What these tools don&#39;t easily do is tell me what to write about next. Yes, sometimes they suggest missing things that should be expanded on, and looking at Twitter stats is endlessly fascinating.</description>
     </item>
     
     <item>
@@ -191,12 +98,8 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Thu, 26 Dec 2013 14:50:41 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-26-the-first-draft-of-this-essay-was-140-characters-or-less/</guid>
-      <description>&lt;p&gt;From time to time I sit in front of a computer wanting to write, and nothing comes of the urge. Writing in a browser can be very hard work since every other open browser tab wants you to read, not write. You could easily spend hours clicking and not ever utter anything more complex than &#34;like&#34; or &#34;favorite&#34;.&lt;/p&gt;
-
-&lt;p&gt;The one place where writer&#39;s block never seems to be a problem is within Twitter, which for better or worse has been the home of 21,158 of my most pithy observations. Because the Twitter writing environment is so spare, it&#39;s relatively easy to produce something or react to something in a way that doesn&#39;t require a fully formed idea or any of the other agonies that accompany longer format writing.&lt;/p&gt;
-
-&lt;p&gt;Here is a recipe for writing more in this blog. Don&#39;t worry about how much you tweet, because you are treating those tweets as the short form of your work. When the muse is silent, go back to your own tweets and see which ones of them deserve to be longer. Even the stereotypical &#34;eating a sandwich&#34; tweet can be stretched into 200 words if you want, by turning that throwaway observation into a recipe. Almost anything worth visiting in 140 characters is worth revisiting in longer form; take advantage of the short form as a stockpile of ideas to pull from when it&#39;s time to write longer.&lt;/p&gt;
-</description>
+      <description>From time to time I sit in front of a computer wanting to write, and nothing comes of the urge. Writing in a browser can be very hard work since every other open browser tab wants you to read, not write. You could easily spend hours clicking and not ever utter anything more complex than &#34;like&#34; or &#34;favorite&#34;.
+The one place where writer&#39;s block never seems to be a problem is within Twitter, which for better or worse has been the home of 21,158 of my most pithy observations.</description>
     </item>
     
     <item>
@@ -205,20 +108,8 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Sun, 08 Dec 2013 19:30:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-08-how-to-write-amazing-posts-every-time-and-why-you-shouldnt/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.mackcollier.com/&#34;&gt;Mack Collier&lt;/a&gt; has an amazing post about how to write amazing posts. (&lt;a href=&#34;http://www.mackcollier.com/how-to-write-awesome-blog-posts/&#34;&gt;Here, go read it.&lt;/a&gt;) I&#39;m here to tell you why to listen to his advice but not to write like he does.&lt;/p&gt;
-
-&lt;p&gt;Collier calls for an amped-up style of blog writing, one that is full of lists and awesome photographs and cheerleading enthusiasm. That&#39;s a good style to recognize, and you&#39;ll see it in some of the most popular parts of the web - the Buzzfeed or Upworthy style, with headlines like &#34;New Dads Learned One Weird Tip To Make Their Blogs POP!&#34;  These are interesting and amazing the way a slow-motion televised car chase is amazing. They are not, however, how I write my weblog - and not a style for you, unless you are in a weird job where counting pageviews drives your wages.&lt;/p&gt;
-
-&lt;p&gt;The net has enough of the hyperkinetic blog fodder to go around. What it doesn&#39;t have, and needs, is bloggers who take an old-school approach to blog writing and who are careful and respectful of their audiences.&lt;/p&gt;
-
-&lt;p&gt;Blogging is about writing to pick up an audience, one that would read everything you had to say and comment on it. That means not only writing about what people might click on because their eye got caught by a headline, but also writing the day-in, day-out thematic and topical materials that someone who cares more than a little bit will follow along for detail.&lt;/p&gt;
-
-&lt;p&gt;Blogging is figuring out what sorts of regular obscure parts of the world that you cover and being a go-to resource for that issue when it comes up in the world. To illustrate, I bring you Dave Petley&#39;s &lt;a href=&#34;http://blogs.agu.org/landslideblog/&#34;&gt;Landslide Blog&lt;/a&gt;. You won&#39;t find awesome stock photography, but you will find a whole series of carefully selected photos that illustrate the stories he writes about landslides and their origin and effect. Or see the &lt;a href=&#34;http://somethingscrawlinginmyhair.com/&#34;&gt;Backyard Arthropod Project&lt;/a&gt;, which is a lovingly illustrated guide to the bugs of Atlantic Mine, MI with great macrophotography of bugs, beetles, insects, spiders, slugs, and more. There are dozens more like this, people who toil away in relative obscurity writing carefully about their craft, and I love them. It&#39;s a style that lends itself to slowly but surely being a recognized expert in your field. &lt;/p&gt;
-
-&lt;p&gt;I love weblogs that take a narrow view on some interesting part of the world and are thorough in how they document it. They don&#39;t need weird tricks or compelling lists or catchy copy to make their mark on the world. Rather, they illustrate and tell a whole series of stories that might never have been told before, told by someone who is expert in their corner of the world. Even though they might only get a few followers compared to Buzzfeed, they add a lot more to our understanding of the world.&lt;/p&gt;
-
-&lt;p&gt;(This is the topic of the 8 December 2013 #&lt;a href=&#34;http://tchat.io/rooms/blogchat&#34;&gt;blogchat&lt;/a&gt; chat, at 9pm Eastern time).&lt;/p&gt;
-</description>
+      <description>Mack Collier has an amazing post about how to write amazing posts. (Here, go read it.) I&#39;m here to tell you why to listen to his advice but not to write like he does.
+Collier calls for an amped-up style of blog writing, one that is full of lists and awesome photographs and cheerleading enthusiasm. That&#39;s a good style to recognize, and you&#39;ll see it in some of the most popular parts of the web - the Buzzfeed or Upworthy style, with headlines like &#34;</description>
     </item>
     
     <item>
@@ -227,20 +118,7 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Sun, 08 Dec 2013 16:37:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-08-how-many-publishable-words-can-you-write-in-a-day/</guid>
-      <description>&lt;p&gt;Here&#39;s a thought experiment. Sit down in the morning with a cup of coffee and a list of topics. Work through them, one at a time, coming up with and writing down 500 words or so on each topic. How many topics do you get to over the course of the day, and how long does it take you to write 500 words that make sense? Assume for the sake of argument that there&#39;s a typical number of distracting email, Twitter, and Facebook posts that you have to deal with. Each of the pieces that you are writing will need to contemplate a part of the net that might lead to its own distractions.&lt;/p&gt;
-
-&lt;p&gt;I am always impressed by people who have the ability to sit down and crank out clean copy that is ready for publication. It&#39;s not by any means easy to do this, and certainly every written work can be improved by judicious editing. I&#39;m thinking more of the remarkable skill where you can type as fast as you can for a short burst and have the resulting words make sense, flow nicely, and be worth posting to the world.&lt;/p&gt;
-
-&lt;p&gt;The practice I get doing this has a lot to do with blogging, where I want to capture the moment and some momentarily interesting topic and put my mark on it. This is not writing a novel, and not writing a little piece of a 20-page or 400-page non-fiction work; rather, it&#39;s somewhere between journalism and blogging. The work you are composing is temporarily interesting to a number of people in part because it has a good headline for Twitter and a body full of words that search engines like. You&#39;ve written news, but it&#39;s within the context of a blog, and because of that it&#39;s perfectly acceptable to leave questions unanswered and stories unresolved. It&#39;s what musician Michelle Shocked called the &#34;incomplete image&#34;, and perhaps you are waiting for someone with a longer deadline to write up the full story.&lt;/p&gt;
-
-&lt;p&gt;I know from experience that I can put together 500 words in a sitting on one topic without taking a break and without needing to consult an outline. The much more challenging part is making a long, coherent single narrative out of these intermediate pieces parts. The skill of impromptu essay writing is by no means the same as the skill of book writing, and the task of challenging yourself to come up with a story that moves the current understanding a bit forward is a challenge. &lt;/p&gt;
-
-&lt;p&gt;To some degree, I&#39;m willing to pad out those words with ample quotations from other sources, a sort of journalistic cut-and-paste that sifts through less well known sources to string together a story. (Of course the excerpts are carefully hyperlinked to avoid any suggestion of use without attribution.) Careful reuse of existing copy is one of the qualities that blogging can take advantage of that isn&#39;t generally OK in journalism circles. &lt;/p&gt;
-
-&lt;p&gt;If all you wrote were impromptu essays for the net, you&#39;d quickly find out what was a keeper by the traffic you were able to draw in. On a good day, I&#39;m happy to write three or four blog posts that either satisfy my own interest in preserving a bit of news or that advance some larger story or that answer a question that&#39;s on more than one person&#39;s mind right now. That would translate into 2000 words on a good day, and that doesn&#39;t sound like a lot. I think you&#39;d have to work hard to keep the hopper full of article ideas and to keep up the research that fed a constant stream of ideas to work from, and to work doubly hard to collect the sort of essay-sized chunks that would eventually tell a story that&#39;s longer and more carefully planned.&lt;/p&gt;
-
-&lt;p&gt;(Inspired by #writechat on Sunday, 8 December 2013.)&lt;/p&gt;
-</description>
+      <description>Here&#39;s a thought experiment. Sit down in the morning with a cup of coffee and a list of topics. Work through them, one at a time, coming up with and writing down 500 words or so on each topic. How many topics do you get to over the course of the day, and how long does it take you to write 500 words that make sense? Assume for the sake of argument that there&#39;s a typical number of distracting email, Twitter, and Facebook posts that you have to deal with.</description>
     </item>
     
     <item>
@@ -249,16 +127,7 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Sun, 08 Dec 2013 15:47:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-08-small-wins-and-writing-productivity/</guid>
-      <description>&lt;p&gt;I&#39;m intrigued of late by the notion of &#34;small wins&#34;. This is prompted by reading Wayne Baker&#39;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&#39;re really getting somewhere, even if on the grand scale it doesn&#39;t register yet.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A small win is a concrete, complete outcome of moderate importance. By itself, one small win may seem unimportant. A series of small wins at small but significant tasks, however, reveals a pattern that may attract allies, deter opponents, and lower resistance to subsequent proposals. A series of small wins is also more structurally sound than a large win because small wins are stable building blocks. Small wins are controllable opportunities that produce visible results. Once a small win has been accomplished, forces are set in motion that favor another small win. When a solution is put into place, the next solvable problem often becomes more visible. Additional resources flow toward winners, which means that slightly larger wins can be attempted.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Thus, rather than think about how hard it would be to produce a book of 80,000 words all in one sitting, it gets a lot easier to think how easy it would be to produce 400 words per day (on a topic of your choice naturally) for 200 days over the course of a year. I can bat out 100 words without thinking about it to answer an email message a dozen times a day. So capturing 80,000 words is simply a matter of doing that in some sensible order and not getting sidetracked by the need for everything to make 100% sense at the very beginning.&lt;/p&gt;
-
-&lt;p&gt;(originally published Monday, August 07, 2000)&lt;/p&gt;
-</description>
+      <description>I&#39;m intrigued of late by the notion of &#34;small wins&#34;. This is prompted by reading Wayne Baker&#39;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&#39;re really getting somewhere, even if on the grand scale it doesn&#39;t register yet.</description>
     </item>
     
     <item>
@@ -267,59 +136,7 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Thu, 21 Nov 2013 22:30:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-11-21-former-ann-arbor-public-schools-principal-accused-of-plagiarism/</guid>
-      <description>&lt;p&gt;I&#39;ll start with a confession: I don&#39;t think that plagiarism is as big a deal as some people do, especially when you are recycling your own words. (&#34;Self-plagiarism is style.&#34;) The best writers have a set of phrases that they love to use, and it&#39;s not unusual for them to pull something they&#39;ve done before and rework it a bit to suit the new occasion. This is especially true when you&#39;re writing formulaic work that&#39;s short. How many different very short birthday greetings can you send?&lt;/p&gt;
-
-&lt;p&gt;That said, educators are usually held to higher standards of writing than their students, and writing is expected to be something that they are good enough at that they don&#39;t need to crib from someone else&#39;s words.&lt;/p&gt;
-
-&lt;p&gt;With that as a preface, here&#39;s someone else&#39;s words about someone else using someone else&#39;s words, in this case a former AAPS principal (Sulura Jackson) who is now in Chapel Hill, NC. The reporting is from &lt;a href=&#34;http://www.indyweek.com/indyweek/chapel-hill-high-school-principal-accused-of-plagiarism/Content?oid=3770001&#34;&gt;Indy Week&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What they found is startling: Multiple documents obtained by the INDY that show Jackson—before and after her arrival at Chapel Hill High—lifted entire passages and letters from books, online articles and teaching resource guides. She used those passages without citation in staff memos, letters to students and even recommendation letters for colleagues, frequently passing them off as her words.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Of course, the world of education is full of web sites that are full of reusable forms and letters for communicating with students and teachers, like this &lt;a href=&#34;http://www.educationworld.com/tools_templates/index.shtml&#34;&gt;Education World&lt;/a&gt; page&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Communicate with parents by snail mail or e-mail with these editable and/or printable forms and letters.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Or the business world in general, with this set of &lt;a href=&#34;http://www.4hb.com/letters/index.html&#34;&gt;662 business letters&lt;/a&gt; - catchy titles like &#34;Apology to receiver of NSF check&#34; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When I received your letter of (date) with my check
-  attached marked &#34;insufficient funds&#34;, I called my bank
-  immediately.&lt;/p&gt;
-  
-  &lt;p&gt;The gentleman I spoke with, (name) , discovered
-  that the bank had failed to credit my account with a
-  substantial deposit I had made several days prior.&lt;/p&gt;
-  
-  &lt;p&gt;The bank has assured me that they will be sending you a
-  formal letter of apology for their error. Attached is my
-  check in the amount of $ to replace the dishonored
-  one you have returned.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Communications from authorities are often ritualistic, formulaic, and repetitious. Hopefully, though, they are not careless. Jackson was tripped up by this mistake:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Looking back, the alleged plagiarism might have gone unnoticed were it not for one careless sentence the Chapel Hill High School principal wrote in an October condolence letter to a teacher.&lt;/p&gt;
-  
-  &lt;p&gt;&#34;Everyone at Skyline is saddened to learn of the death of your mother,&#34; the letter said.&lt;/p&gt;
-  
-  &lt;p&gt;It seemed Sulura Jackson, who arrived in Chapel Hill this summer with a sparkling, lengthy résumé, had failed to remove the name of her former school, Skyline High, in Ann Arbor, Mich., from the text.&lt;/p&gt;
-  
-  &lt;p&gt;Teachers who spoke to the INDY on the condition that their names not be used for fear of retribution say the incident prompted them to dig deeper.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you&#39;re going to use a form letter, for goodness sake read the whole form and fill in all the blanks before sending it !&lt;/p&gt;
-
-&lt;p&gt;UPDATE: &lt;a href=&#34;http://www.indyweek.com/triangulator/archives/2013/11/21/whats-next-for-chhs-principal-accused-of-plagiarism&#34;&gt;Again from Indy Week&lt;/a&gt;: &#34;More evidence of Chapel Hill High plagiarism?&#34;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Members of the Chapel Hill-Carrboro City Schools Board of Education were already scheduled to meet tonight at the Lincoln Center in Chapel Hill. The board&#39;s agenda says members will discuss a personnel matter in closed session starting at 6 p.m. The public portion of the meeting begins at 7 p.m.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>I&#39;ll start with a confession: I don&#39;t think that plagiarism is as big a deal as some people do, especially when you are recycling your own words. (&#34;Self-plagiarism is style.&#34;) The best writers have a set of phrases that they love to use, and it&#39;s not unusual for them to pull something they&#39;ve done before and rework it a bit to suit the new occasion. This is especially true when you&#39;re writing formulaic work that&#39;s short.</description>
     </item>
     
     <item>
@@ -328,18 +145,8 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Fri, 27 Sep 2013 11:24:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-27-writers-block/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affa45ba4970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019affa45ba4970d&#34; alt=&#34;6571480-0-display&#34; title=&#34;6571480-0-display&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affa45ba4970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I&#39;m working on an assignment and I&#39;m stuck. This is an attempt to get unstuck.&lt;/p&gt;
-
-&lt;p&gt;The hardest part for me of working on assignments for someone else is the concern (justified or not) that the editor who is getting my work is going to be disappointed by it. I know that from past experience that&#39;s unlikely to happen on this particular gig - not that they won&#39;t see something to fix, but as long as it&#39;s turned in on time and is the right shape and size I&#39;ve had pretty good luck with getting the work approved.&lt;/p&gt;
-
-&lt;p&gt;It&#39;s very different writing for someone else than it is for myself. Blogging has its own trials and travails, but pleasing an editor is not one of them. Rather, there&#39;s a terrifying time when you hit &#34;publish&#34; and the world either sees your headline and says &#34;meh&#34; or they pick it up and share it with their friends.&lt;/p&gt;
-
-&lt;p&gt;Ultimately, most of my writing is for the world or for myself. I&#39;ve written here before about &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/unpolished-open-notebook.html&#34;&gt;keeping an open notebook&lt;/a&gt; and what that means for my tolerance for the incomplete image in my own writing. But when you&#39;re writing for someone else the whole package really wants to be neat and tidy and polished, and that brings with it a separate set of expectations.&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;Image from patent 6571480.&lt;/p&gt;
-</description>
+      <description>I&#39;m working on an assignment and I&#39;m stuck. This is an attempt to get unstuck.
+The hardest part for me of working on assignments for someone else is the concern (justified or not) that the editor who is getting my work is going to be disappointed by it. I know that from past experience that&#39;s unlikely to happen on this particular gig - not that they won&#39;t see something to fix, but as long as it&#39;s turned in on time and is the right shape and size I&#39;ve had pretty good luck with getting the work approved.</description>
     </item>
     
     <item>
@@ -348,39 +155,444 @@ I made to use Zemanta and to undo that decision.&lt;/p&gt;
       <pubDate>Tue, 13 Aug 2013 00:36:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-13-learning-markdown/</guid>
-      <description>&lt;p&gt;I have a feeling that I&#39;m going to be doing a lot more writing using the &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;
-language rather than using a web based rich text editor or plain HTML. Markdown
-is &lt;a href=&#34;http://help.typepad.com/using_markdown.html&#34;&gt;supported by Typepad&lt;/a&gt;, &lt;a href=&#34;http://octopress.org/docs/&#34;&gt;supported by Octopress&lt;/a&gt; (with a bunch of enhancements), &lt;a href=&#34;https://help.github.com/articles/github-flavored-markdown&#34;&gt;supported by Github&lt;/a&gt; (with a few changes to be more code-friendly), &lt;a href=&#34;https://github.com/plasticboy/vim-markdown&#34;&gt;supported by Vim&lt;/a&gt; (with colorizing of text),
-and &lt;a href=&#34;https://leanpub.com/help/manual&#34;&gt;supported by Leanpub&lt;/a&gt; (which turns them into EPUB and MOBI files). That&#39;s five
-for five for the environments I&#39;m working in the most, which suggests that it&#39;s
-worthwhile to learn all that I can.&lt;/p&gt;
+      <description>I have a feeling that I&#39;m going to be doing a lot more writing using the Markdown language rather than using a web based rich text editor or plain HTML. Markdown is supported by Typepad, supported by Octopress (with a bunch of enhancements), supported by Github (with a few changes to be more code-friendly), supported by Vim (with colorizing of text), and supported by Leanpub (which turns them into EPUB and MOBI files).</description>
+    </item>
+    
+    <item>
+      <title>RFC 3 on content standards (or lack of them) as a model for blogging</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-23-rfc-3-on-content-standards-or-lack-of-them-as-a-model-for-blogging/</link>
+      <pubDate>Sun, 23 Jun 2013 15:21:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-23-rfc-3-on-content-standards-or-lack-of-them-as-a-model-for-blogging/</guid>
+      <description>The original standards for the content of the RFC series, from RFC 3 by Steve Crocker, 1969. Note that these are also good standards for blogging.  CONTENT  The content of a NWG note may be any thought, suggestion, etc. related to the HOST software or other aspect of the network. Notes are encouraged to be timely rather than polished. Philosophical positions without examples or other specifics, specific suggestions or implementation techniques without introductory or background explication, and explicit questions without any attempted answers are all acceptable.</description>
+    </item>
+    
+    <item>
+      <title>Writing to remember, writing to forget</title>
+      <link>http://vielmetti.github.io/post/2013/2013-06-10-writing-to-remember-writing-to-forget/</link>
+      <pubDate>Mon, 10 Jun 2013 17:14:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-06-10-writing-to-remember-writing-to-forget/</guid>
+      <description>This weblog is an unpolished open notebook. It&amp;#39;s primarily full of two things: things I want to remember, and things I want to forget. Let me explain. A weblog is an augmented memory for those fleeting moments of life where you really wish you had some record of, and where you know that if you don&amp;#39;t write it down now it&amp;#39;ll be gone forever. It&amp;#39;s the capture place for that initial review of a piece of software you might or might not grow fond of, the record of what was talked about at a particularly interesting lunch meeting, or the color of a late spring sky (grey, with low clouds; good strawberry picking weather if the rain holds off, but not good for ripening the strawberries).</description>
+    </item>
+    
+    <item>
+      <title>Jay Gatsby - the Wikipedia page from 2009, as edited by Dan Murphy, before the wikivandals took over</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-24-jay-gatsby-the-wikipedia-page-from-2009-as-edited-by-dan-murphy-before-the-wikivandals-took-over/</link>
+      <pubDate>Fri, 24 May 2013 21:54:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-24-jay-gatsby-the-wikipedia-page-from-2009-as-edited-by-dan-murphy-before-the-wikivandals-took-over/</guid>
+      <description>Dan Murphy wrote this biography of the fictional character Jay Gatsby for Wikipedia in 2009. Since then, the anonymous hordes of Wikipedia editors have not improved upon the page. Here is the 23 October 2009 version of &amp;quot;Jay Gatsby&amp;quot;, which is much better written than the current edition.
+&amp;#0160;
+Jay Gatsby&amp;#0160;is the&amp;#0160;titular character&amp;#0160;of&amp;#0160;F. Scott Fitzgerald&amp;#39;s 1925 novel&amp;#0160;The Great Gatsby. The character has become an archetype of self-made American men seeking to join&amp;#0160;High society&amp;#0160;and the name has become synonymous with successful businessmen with shady pasts in the US.</description>
+    </item>
+    
+    <item>
+      <title>teaching your fingers to think</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-01-teaching-your-fingers-to-think/</link>
+      <pubDate>Wed, 01 May 2013 10:05:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-01-teaching-your-fingers-to-think/</guid>
+      <description>I do a lot of writing in vim these days, in part because my fingers already know how to make words move around on the page. I find it easier to do the work in a place where I can rely on muscle memory for routine changes rather than have to laboriously guide the mouse around to do edits.
+Once upon a time there was an outlining tool called MaxThink (it still exists, for Windows only) that applied the same kind of keyboard-heavy work to outline editing.</description>
+    </item>
+    
+    <item>
+      <title>Losing the categorical imperative</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-24-losing-the-categorical-imperative/</link>
+      <pubDate>Wed, 24 Apr 2013 00:46:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-24-losing-the-categorical-imperative/</guid>
+      <description>For a long time - over 2000 posts - I have been putting blog entries into categories. The categories used to live in a long list on the right sidebar. I&amp;rsquo;ve taken them out of the sidebar, and now they&amp;rsquo;re much less visible in the user interface to the point of being invisible unless you happen to search for them.
+I have touched enough categories to not be authoritative on any of them.</description>
+    </item>
+    
+    <item>
+      <title>Writing release notes for a new version of my Michigan FOIA book, using Leanpub</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-09-writing-release-notes-for-a-new-version-of-my-michigan-foia-book-using-leanpub/</link>
+      <pubDate>Tue, 09 Apr 2013 11:50:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-09-writing-release-notes-for-a-new-version-of-my-michigan-foia-book-using-leanpub/</guid>
+      <description>The book is my&amp;#0160;No-Nonsense Guide to the Michigan Freedom of Information Act (FOIA), which I&amp;#39;m publishing (early) and updating (as its written) using Leanpub. Here&amp;#39;s what I sent out to subscribers - all four of them! - this morning.
+I&amp;#39;m happy to have a chance to keep working on this, since even the smallest amount of money from new sales covers the direct costs &amp;#0160;of coffee to do the writing.</description>
+    </item>
+    
+    <item>
+      <title>note to self on the writing for the day</title>
+      <link>http://vielmetti.github.io/post/2013/2013-03-22-note-to-self-on-the-writing-for-the-day/</link>
+      <pubDate>Fri, 22 Mar 2013 22:58:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-03-22-note-to-self-on-the-writing-for-the-day/</guid>
+      <description>One cup of coffee generated about 1400 words. Of those, I needed about 1000. It took three hours to write the 1400 words, and two hours more to remove 400 of them. I hope I removed the right ones.
+It only took forty five words to summarize the day.</description>
+    </item>
+    
+    <item>
+      <title>Deletionism, or the grim reaper</title>
+      <link>http://vielmetti.github.io/post/2013/2013-01-02-deletionism-or-the-grim-reaper/</link>
+      <pubDate>Wed, 02 Jan 2013 12:24:28 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-01-02-deletionism-or-the-grim-reaper/</guid>
+      <description>There is a tremendous appeal to the deletionist point of view.  I spent some time this evening improving Wikipedia by suggesting that some of its less well written articles be removed. The task was relatively simple; hit the &amp;quot;random page&amp;quot; button, read the article, decide if it is so horrible as to be unencyclopedic, and if it is then paste in the &amp;quot;please delete this&amp;quot; template and hope for the best.</description>
+    </item>
+    
+    <item>
+      <title>A salute to Oulipo, providing inspiration since my keyboard is missing a key and I wonder if anyone will notice if I don&#39;t use it</title>
+      <link>http://vielmetti.github.io/post/2013/2013-01-01-a-salute-to-oulipo-providing-inspiration-since-my-keyboard-is-missing-a-key-and-i-wonder-if-anyone-w/</link>
+      <pubDate>Tue, 01 Jan 2013 14:43:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-01-01-a-salute-to-oulipo-providing-inspiration-since-my-keyboard-is-missing-a-key-and-i-wonder-if-anyone-w/</guid>
+      <description>A France-based school of writing called &amp;quot;Oulipo&amp;quot; embraces a use of constraints in formal writing in order to obtain an interesting result. A most famous case is an entire novel written missing a letter &amp;quot;e&amp;quot;, and a lot of work done on writing long, elaborate palindromes. By work&amp;#39;s end, you are just amazed it&amp;#39;s possible to meet constraints of a stringent writing format.  A constraint I am working under now is an absence of an &amp;quot;h&amp;quot; key on my keyboard.</description>
+    </item>
+    
+    <item>
+      <title>Blogging, memory and forgetting</title>
+      <link>http://vielmetti.github.io/post/2012/2012-12-28-750-words-on-blogging-memory-and-forgetting-ive-been-blogging-for-a-long-time-and-writing-online-for-longer-than-that-27/</link>
+      <pubDate>Fri, 28 Dec 2012 00:19:44 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-12-28-750-words-on-blogging-memory-and-forgetting-ive-been-blogging-for-a-long-time-and-writing-online-for-longer-than-that-27/</guid>
+      <description>750 words on blogging, memory and forgetting
+I&amp;#39;ve been blogging for a long time, and writing online for longer than that - 27 years of typing. In the process, a lot of it has been saved, and a lot of it has been discarded. I&amp;#39;m luckier than most to have a complete set of my writing since 2003 all in Typepad. Heaven help anyone who wrote seriously on Prodigy or Compuserve or Facebook and tried to save any of it permanently.</description>
+    </item>
+    
+    <item>
+      <title>In sitting down to write this, my goal is to write exactly one thousand words.</title>
+      <link>http://vielmetti.github.io/post/2012/2012-12-22-my-goal-sitting-down-to-write-this-is-to-write-a-thousand-words-exhorting-you-to-occasionally-sit-down-and-write-long-about/</link>
+      <pubDate>Sat, 22 Dec 2012 17:24:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-12-22-my-goal-sitting-down-to-write-this-is-to-write-a-thousand-words-exhorting-you-to-occasionally-sit-down-and-write-long-about/</guid>
+      <description>In sitting down to write this, my goal is to write exactly one thousand words. I exhort you to sit down and write long about something you are interested in rather than always confining your writing to the 140 character space that dominates contemporary social networks. Keep at it until you have reached some sizable target word count, and then trim it to size. It&amp;#39;s ok to repeat yourself along the way.</description>
+    </item>
+    
+    <item>
+      <title>How to write for multiple social media channels at once</title>
+      <link>http://vielmetti.github.io/post/2012/2012-11-12-how-to-write-for-multiple-social-media-channels-at-once/</link>
+      <pubDate>Mon, 12 Nov 2012 19:49:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-11-12-how-to-write-for-multiple-social-media-channels-at-once/</guid>
+      <description>I connected my Twitter feed to my Facebook feed; now I need to learn to write for both at once. Hard to do. Is there a way to be selective?
+One suggestion, from long-time blogger Prentiss Riddle, is to write things first in your weblog and then syndicate them out to wherever you want them to go. This is said to behave well with systems like Facebook that reward outbound clicks.</description>
+    </item>
+    
+    <item>
+      <title>Six tabs open, and a cup of coffee next to me</title>
+      <link>http://vielmetti.github.io/post/2012/2012-08-14-six-tabs-open-and-a-cup-of-coffee-next-to-me/</link>
+      <pubDate>Tue, 14 Aug 2012 10:06:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-08-14-six-tabs-open-and-a-cup-of-coffee-next-to-me/</guid>
+      <description>I&amp;#39;m working on a lot of things, or so it seems, but right now I just want to write.
+The working environment at the moment is the Chrome browser, with 6 tabs open. Two are Gmail accounts, one is Twitter, one is the Typepad dashboard from which I&amp;#39;m writing this, and one is a Google Analtyics window set to &amp;quot;real time&amp;quot; view for Arborwiki. A sixth tab is currently on Google search, but it varies from time to time.</description>
+    </item>
+    
+    <item>
+      <title>Prompting questions</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-21-prompting-questions/</link>
+      <pubDate>Thu, 21 Jun 2012 11:24:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-21-prompting-questions/</guid>
+      <description>For reference, here&amp;#39;s some prompting questions that are showing up in my social media streams. These change from time to time as online sites try to cajole, coerce, trigger or prompt people to participate online.
+Typepad wants me to share this post, and to &amp;quot;Enter a short message about your blog post to get people excited to come read it.&amp;quot;
 
-&lt;p&gt;Markdown is a fairly simple language, and it&#39;s relatively old in net terms (2004)
-so it&#39;s had time to mature. Maturing means both that there are well-documented
-core features that are invariant among all Markdown interpreters, as well as 
-sometimes incompatible details that show up when people extend the system.&lt;/p&gt;
-
-&lt;p&gt;Some popular interpreters include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.pell.portland.or.us/~orc/Code/discount/&#34;&gt;Discount&lt;/a&gt;, in C&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://dafoster.net/projects/rdiscount/&#34;&gt;RDiscount&lt;/a&gt;, in Ruby as a wrapper to Discount&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kramdown.rubyforge.org/&#34;&gt;kramdown&lt;/a&gt;, written in Ruby&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://maruku.rubyforge.org/&#34;&gt;Maruku&lt;/a&gt;, also written in Ruby; can render to LaTeX&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fletcherpenney.net/multimarkdown/&#34;&gt;MultiMarkdown&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://michelf.ca/projects/php-markdown/extra/&#34;&gt;PHP Markdown Extra&lt;/a&gt;, written in PHP with extensions to Markdown&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt;, a universal document converter with support for many formats&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jgm/peg-markdown&#34;&gt;peg-markdown&lt;/a&gt;, a fast parser in C&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/vmg/redcarpet&#34;&gt;Redcarpet&lt;/a&gt;, a Ruby gem&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And some popular editors for Mac OS X include:&lt;/p&gt;
-
-&lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mouapp.com/&#34;&gt;Mou&lt;/a&gt;, a Markdown editor for web developers&lt;/li&gt;&lt;/p&gt;
-
-&lt;p&gt;You&#39;ll find &lt;a href=&#34;http://mac.appstorm.net/roundups/productivity-roundups/35-markdown-apps-for-the-mac/&#34;&gt;reviews of 35 Markdown apps for Mac&lt;/a&gt; at Appstorm; I haven&#39;t tried them all (and probably never will).&lt;/p&gt;
-</description>
+Facebook is asking me &amp;quot;What&amp;#39;s the best thing that&amp;#39;s happened to you today?</description>
+    </item>
+    
+    <item>
+      <title>Writing as a way to introduce yourself</title>
+      <link>http://vielmetti.github.io/post/2012/2012-05-22-writing-as-a-way-to-introduce-yourself/</link>
+      <pubDate>Tue, 22 May 2012 11:03:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-05-22-writing-as-a-way-to-introduce-yourself/</guid>
+      <description>I&amp;#39;m in the midst of a job hunt, and so I expect that people I talk to who don&amp;#39;t know me very well will take a look at this weblog as part of the things they look for when trying to assess who I am or to help prepare them to make small talk as a part of discussion. This is a good and useful reason to write in a weblog, to make yourself easy to strike up a conversation with.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m not &#34;producing content&#34;, I&#39;m writing</title>
+      <link>http://vielmetti.github.io/post/2012/2012-05-01-im-not-producing-content-im-writing/</link>
+      <pubDate>Tue, 01 May 2012 12:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-05-01-im-not-producing-content-im-writing/</guid>
+      <description>For this blog, at least, I want to make it very clear: I&#39;m not &#34;producing content&#34;, I&#39;m writing. This may be in order to call out attention to the work of a friend or a client, it may be to scratch some particular itch for words that need to be said, and it may be because someone else&#39;s interests dovetail with mine. Generally I try to quote enough of what other people say to be fair to them, and to tell a part of a story that you can find only by chasing through the network looking to connect ideas together at their edges.</description>
+    </item>
+    
+    <item>
+      <title>Addicted to feedback</title>
+      <link>http://vielmetti.github.io/post/2011/2011-12-28-addicted-to-feedback/</link>
+      <pubDate>Wed, 28 Dec 2011 19:54:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-12-28-addicted-to-feedback/</guid>
+      <description>If I read Facebook for too long, I want to post short quips, &amp;quot;like&amp;quot; things, and generally let people know that I exist.
+If I read Twitter for too long, I want to post short quips, &amp;quot;favorite&amp;quot; things, and generally let people know that they exist.
+When I sit in front of Typepad ready to type, it&amp;#39;s not always for the short post, and often it&amp;#39;s not even for an audience.</description>
+    </item>
+    
+    <item>
+      <title>Grand resolutions vs tiny habits</title>
+      <link>http://vielmetti.github.io/post/2011/2011-12-21-grand-resolutions-vs-tiny-habits/</link>
+      <pubDate>Wed, 21 Dec 2011 21:40:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-12-21-grand-resolutions-vs-tiny-habits/</guid>
+      <description>BJ Fogg is hosting an online program in which he encourages people to produce three tiny habits that they can learn to do in the span of a week. One of the ones I&amp;#39;m trying to do, for instance, is to take my medicine after the kitchen is clean. That&amp;#39;s not a huge task - after all, the medicine cabinet is in the kitchen - but it&amp;#39;s one that anchors a little task in a place where I know I can make it happen.</description>
+    </item>
+    
+    <item>
+      <title>My draft folder is overflowing</title>
+      <link>http://vielmetti.github.io/post/2011/2011-12-11-my-draft-folder-is-overflowing/</link>
+      <pubDate>Sun, 11 Dec 2011 22:44:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-12-11-my-draft-folder-is-overflowing/</guid>
+      <description>Typepad has a very convenient &amp;quot;drafts&amp;quot; folder into which you can write things that aren&amp;#39;t ready for publication yet. My drafts folder is overflowing. I suppose that means that the editor in me is looking forward to reviewing them and sending them back for revisions.
+If you wait long enough between the time you write something and the time you publish it, it&amp;#39;s possible that you can make your writing enough better to be worth the wait.</description>
+    </item>
+    
+    <item>
+      <title>At the end of the notebook</title>
+      <link>http://vielmetti.github.io/post/2011/2011-11-27-at-the-end-of-the-notebook/</link>
+      <pubDate>Sun, 27 Nov 2011 22:18:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-11-27-at-the-end-of-the-notebook/</guid>
+      <description>Tasks to take on at the end of filling up a paper notebook.
+ Read through the whole thing, copying out the good parts. There are bound to be enough good parts that you want to save and remember some of them, and scanning them in is one way to preserve the rough qualities. Retyping a clean copy with additional notes inspired by the original is another way to manage that same task.</description>
+    </item>
+    
+    <item>
+      <title>You own your own words, but so do I</title>
+      <link>http://vielmetti.github.io/post/2011/2011-07-14-you-own-your-own-words-but-so-do-i/</link>
+      <pubDate>Thu, 14 Jul 2011 10:14:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-07-14-you-own-your-own-words-but-so-do-i/</guid>
+      <description>The ability (and the need) to edit other people&amp;#39;s words is a sign of power over them, especially when it can be done without leaving a trace.&amp;#0160;
+The WELL, one of the ur-communities online, has this bold fundamental statement of literary authority:
+ You own your own words. This means that you are responsible for the words that you post on the WELL and that reproduction of those words without your permission in any medium outside of the WELL&amp;#39;s conferencing system may be challenged by you, the author.</description>
+    </item>
+    
+    <item>
+      <title>My great weird ideas don&#39;t fit in 140 characters</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-09-my-great-weird-ideas-dont-fit-in-140-characters/</link>
+      <pubDate>Thu, 09 Jun 2011 09:09:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-09-my-great-weird-ideas-dont-fit-in-140-characters/</guid>
+      <description>I have a brainstorm and want to capture it in a bottle before it dissipates. It&amp;#39;s impossible to fit it into a box that allows too few words. A suitably complex thought asks for at least a couple of paragraphs to stretch out its feelers and see if it grabs ahold of anything.&amp;#0160;
+The Twitter input box doesn&amp;#39;t give the thought enough room to spark. It too quickly fizzles out, bumping into traffic and weather reports that ground it or pop culture that doesn&amp;#39;t pop for it.</description>
+    </item>
+    
+    <item>
+      <title>Re-editing old work</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-23-re-editing-old-work/</link>
+      <pubDate>Mon, 23 May 2011 14:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-23-re-editing-old-work/</guid>
+      <description>This weblog has more than 2000 posts in it, and from time to time I sift through it looking at old work looking to make it better.
+I can see that my writing improves to the extent that I believe that other people will read it. The best written pieces are publishable, at least in the modern web sense of publishable. The ones that need improvement usually need a new lead paragraph, a bunch of formatting cleanup, and some kind of conclusion.</description>
+    </item>
+    
+    <item>
+      <title>Publish quickly, edit at leisure, make the first version coherent.</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-19-first-version-coherent/</link>
+      <pubDate>Sat, 19 Mar 2011 22:13:44 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-19-first-version-coherent/</guid>
+      <description>Publish quickly. The network rewards the first person to show up on the scene to describe what is going on, and it&amp;#39;s important to get a version of that story underway promptly.&amp;#0160;
+Edit at leisure.&amp;#0160;The editing process takes time, and it shouldn&amp;#39;t be unduly rushed. If necessary, work at it one paragraph at a time, and publish each paragraph after it is finished. Every single piece of work can be improved at any time by an edit.</description>
+    </item>
+    
+    <item>
+      <title>This mini essay is exactly 140 words.</title>
+      <link>http://vielmetti.github.io/post/2011/2011-02-27-this-mini-essay-is-exactly-140-words/</link>
+      <pubDate>Sun, 27 Feb 2011 22:20:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-02-27-this-mini-essay-is-exactly-140-words/</guid>
+      <description>The world of Twitter has an infinite demand for your 140 character episodes, but it&amp;#39;s not a satisfying place to compose something that has depth or nuance to it. My daily column of 500 words on AnnArbor.com takes an hour or more to write, and I never have the sense that I can dash it off casually.
+Perhaps the best approach is to aim for a happy medium. What if the unit of composition is 140 words, not 140 characters?</description>
+    </item>
+    
+    <item>
+      <title>Hyperlinks subvert storytelling</title>
+      <link>http://vielmetti.github.io/post/2011/2011-02-26-readwrite-ratio/</link>
+      <pubDate>Sat, 26 Feb 2011 23:45:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-02-26-readwrite-ratio/</guid>
+      <description>You are given a day to produce something of interest. How much of that time should be spend reading, and how much time should be spent writing?
+There is a good argument to be made that you want to minimize your research budget and maximize the number of words produced. It&amp;#39;s hard to be a productive writer when the time is spent in the inbox deleting mail or on the net looking aimlessly for something of interest, for neither mode lends itself to long stretches of concentrated thought.</description>
+    </item>
+    
+    <item>
+      <title>AOL buys Huffington Post; also, piffle</title>
+      <link>http://vielmetti.github.io/post/2011/2011-02-07-aol-buys-huffington-post-also-piffle/</link>
+      <pubDate>Mon, 07 Feb 2011 00:54:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-02-07-aol-buys-huffington-post-also-piffle/</guid>
+      <description>Paid Content, on the New Yorker&amp;#39;s Auletta&amp;#39;s take on AOL:
+ Auletta, who dismisses most of AOL’s content as “piffle,” says “quality is a problem for the entire AOL (NYSE: AOL) empire.”&amp;#0160;
+ And some piffle from the Huffington Post, which has elevated the SEO of inane comments to a science:
+ Piffle.
+What unthinking right wing piffle.
+Piffle. Absolute piffle from the pifflinges­t of all British Rightwing, hate-monge­ring tabloids.&amp;#0160;</description>
+    </item>
+    
+    <item>
+      <title>spectral overseers as guides to good online behavior</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-12-spectral-overseers-as-guides-to-good-online-behavior/</link>
+      <pubDate>Mon, 12 Jul 2010 15:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-12-spectral-overseers-as-guides-to-good-online-behavior/</guid>
+      <description>James Poulos in a comment on Ricochet on the role of editors:
+Writers now have competing pressures -- to be witty, quick, ironic, noticeable, flip, to dispatch every clay pigeon tossed up by a culture pandemic with pigeons; but also to self-edit, to self-moderate, to be reticent at the right time, to pussyfoot expertly, to pick battles, to avoid perils, to besmirch rarely, to duck blame, to satisfy spectral overseers. This is a serious pickle, is it not?</description>
+    </item>
+    
+    <item>
+      <title>the margin is too small to contain this</title>
+      <link>http://vielmetti.github.io/post/2010/2010-05-30-the-margin-is-too-small-to-contain-this/</link>
+      <pubDate>Sun, 30 May 2010 22:03:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-05-30-the-margin-is-too-small-to-contain-this/</guid>
+      <description>I wanted to write something short and pithy and insightful for Facebook or Twitter or some other minimalist thing and couldn&amp;#39;t come up with anything. &amp;#0160;The ultrashort format is not suited to ruminations on things you don&amp;#39;t completely understand and are trying to work out in the process of writing about them.
+Instead I will go for a walk.
+Perhaps this is a rumination on the length of communications, their immediacy and the expected audience.</description>
+    </item>
+    
+    <item>
+      <title>finding buckets to refill regularly</title>
+      <link>http://vielmetti.github.io/post/2010/2010-03-14-finding-buckets-to-refill-regularly/</link>
+      <pubDate>Sun, 14 Mar 2010 22:03:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-03-14-finding-buckets-to-refill-regularly/</guid>
+      <description>Much of the writing I do these days has tags but not much in the way of categories. There are a few very broad categories that things can go into, but not much in the way of narrow ones, and the world of tags means that you can always think up one more new tag to apply rather than revisiting an old one.
+In some ways I miss the regular reinforcement obtained by the reminders that I&amp;#39;ve written on items in a category previously in the past.</description>
+    </item>
+    
+    <item>
+      <title>Back to the old name for this blog, &#34;Vacuum&#34;</title>
+      <link>http://vielmetti.github.io/post/2010/2010-02-05-ive-changed-the-title-of-this-blog-back-to-vacuum-since-all-of-the-extra-gobbledygook-was-making-it-hard-to-bookmark-things/</link>
+      <pubDate>Fri, 05 Feb 2010 22:39:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-02-05-ive-changed-the-title-of-this-blog-back-to-vacuum-since-all-of-the-extra-gobbledygook-was-making-it-hard-to-bookmark-things/</guid>
+      <description>I&#39;ve changed the title of this blog back to Vacuum, since all of the extra gobbledygook was making it hard to bookmark things.
+The &#34;quick compose&#34; part of Typepad makes it easier to post things that are short that don&#39;t have titles, so I don&#39;t get stuck figuring out what the title should be and I can just type. Later, when my editor hat goes on, I go back and fix things up and decide what a title might look like.</description>
+    </item>
+    
+    <item>
+      <title>Writing is like talking to the paper.</title>
+      <link>http://vielmetti.github.io/post/2009/2009-09-25-writing-is-like-talking-to-the-paper/</link>
+      <pubDate>Fri, 25 Sep 2009 15:11:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-09-25-writing-is-like-talking-to-the-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>on the virtue of cheap paper</title>
+      <link>http://vielmetti.github.io/post/2009/2009-06-22-on-the-virtue-of-cheap-paper/</link>
+      <pubDate>Mon, 22 Jun 2009 16:05:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-06-22-on-the-virtue-of-cheap-paper/</guid>
+      <description>At various times I&amp;#39;ve carried beautiful little notebooks in my pocket - fancy little bound volumes of paper designed to capture big thoughts and clever notions.&amp;#0160; So fancy (and expensive), in fact, that I felt bad about writing in them unless there was something so clever that it deserved being saved into perpetuity.
+It was thus reassuring and helpful to go into a big box office supply store and get a modest supply of cheap disposable spiral bound pads, with paper so cheap that it is clear that they are designed to be used and then tossed when you are done with them.</description>
+    </item>
+    
+    <item>
+      <title>Pretending to be on an airplane</title>
+      <link>http://vielmetti.github.io/post/2009/2009-06-02-pretending-to-be-on-an-airplane/</link>
+      <pubDate>Tue, 02 Jun 2009 13:13:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-06-02-pretending-to-be-on-an-airplane/</guid>
+      <description>I was on a trip to Rhode Island last week for a conference (RILA09). That gave me a chance to enter &amp;ldquo;airplane mode&amp;rdquo;, that rare time in my life when I have lots of time to spend in contemplation but very little network connectivity. And I have to say, I enjoy that time immensely, perhaps more than I enjoy any individual hour trying to be engaged with the net.</description>
+    </item>
+    
+    <item>
+      <title>Blog more, twitter less</title>
+      <link>http://vielmetti.github.io/post/2009/2009-05-15-blog-more-twitter-less/</link>
+      <pubDate>Fri, 15 May 2009 13:52:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-05-15-blog-more-twitter-less/</guid>
+      <description>Here&amp;#39;s an easy recipe for keeping your habits for writing longer format pieces than the 140 character limits of Twitter will allow.
+1.&amp;#0160; Write the pithy 140 character Twitter piece, though limit it for a few other technical reasons to 120 or so, better for others to copy.
+2.&amp;#0160; Use the headline as a key part of a longer piece that you&amp;#39;ve always wanted to write.&amp;#0160; It might be a punch line inside, it might be a jumping off point for an essay on something completely different, or it might simply be a straightforward summary.</description>
+    </item>
+    
+    <item>
+      <title>How to write for the web -</title>
+      <link>http://vielmetti.github.io/post/2009/2009-04-21-how-to-write-for-the-web-/</link>
+      <pubDate>Tue, 21 Apr 2009 07:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-04-21-how-to-write-for-the-web-/</guid>
+      <description>Writing for the Internet is not the same as writing for print.&amp;#0160; Here are ten rules of thumb that will help you shape your writing that&amp;#39;s designed for the screen and to help you adapt and reform words that were first printed out in ways that make them easier to manage.
+ The paragraph is the unit of composition.&amp;#0160; Keep your paragraphs together, making it possible to have any one of them pulled out and quoted in some other part of the internet without losing too much in the process.</description>
+    </item>
+    
+    <item>
+      <title>Note to future self: on planning ahead and making sense</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-05-note-to-self-on-organizing-communicating-and-noting-for-the-future/</link>
+      <pubDate>Wed, 05 Nov 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-05-note-to-self-on-organizing-communicating-and-noting-for-the-future/</guid>
+      <description>This blog serves a couple of functions, not all of which are sensibly part of the same easy to define train of thought. It&amp;rsquo;s &amp;ldquo;note to self&amp;rdquo;, or &amp;ldquo;note to future self&amp;rdquo;, for the sorts of things that I want to publicly remember so that I can find them again. It&amp;rsquo;s notes about places I&amp;rsquo;d aspire to be and events I&amp;rsquo;d like to go to. And some of it is research in progress, in which I get interested enough in something to write down what I find out about it and then wait for searchers to come up with good questions that find it (and more) so I can learn more.</description>
+    </item>
+    
+    <item>
+      <title>Blogger&#39;s secret: note to future self</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-06-bloggers-secret/</link>
+      <pubDate>Sat, 06 Sep 2008 14:28:19 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-06-bloggers-secret/</guid>
+      <description>Part of an occasional &amp;quot;blogger&#39;s secret&amp;quot; series.
+Write for yourself. Really, you are best off with an audience of one to start, and use your time and effort to write down things that you will want to read in a week or a month or a year. If you are interesting to your audience of one, you have some hope of being interesting to some other person somewhere else on the planet who is interested in you.</description>
+    </item>
+    
+    <item>
+      <title>The Blogger&#39;s Secret: Repetition is the very soul of the net</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-08-the-bloggers-se/</link>
+      <pubDate>Fri, 08 Aug 2008 23:46:05 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-08-the-bloggers-se/</guid>
+      <description>&amp;quot;Repetition the very soul of the net.&amp;quot;&amp;nbsp; alt.config
+&amp;quot;Self-plagiarism is style.&amp;quot;&amp;nbsp; Alfred Hitchcock.
+thus repeating a blog post from a while ago, which just came to mind as I was looking a postcard that someone sent to me in March after reading this list.
+Ten secrets to success (or, ten things that I aspire to doing regularly)  &amp;lt;p&amp;gt;  1.&amp;nbsp; Send a postcard.  2.&amp;nbsp; Go for a walk.  3.</description>
+    </item>
+    
+    <item>
+      <title>the blogger&#39;s secret: how to write a great weblog</title>
+      <link>http://vielmetti.github.io/post/2008/2008-07-22-the-bloggers-se/</link>
+      <pubDate>Tue, 22 Jul 2008 00:34:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-07-22-the-bloggers-se/</guid>
+      <description>&amp;quot;Write well, write often, and write with passion.&amp;quot; (Jack Shedd)
+Jack has more in a rant that&amp;#39;s making the rounds; the opposite of the great weblog is the &amp;quot;cheese food manufacturing&amp;quot; that Merlin Mann observes as dominating the world of &amp;quot;pro bloggers&amp;quot;.
+In some sense, this triple of {well, often, with passion} echoes the computer systems lament of {better, faster, cheaper} - &amp;quot;pick any two&amp;quot; is the easiest answer. It&amp;#39;s possible to write often and well, but what you get is a wire service, with a style guide that homogenizes the passion right out of the system.</description>
+    </item>
+    
+    <item>
+      <title>threequel === threequal - of movies, code, and the l33t</title>
+      <link>http://vielmetti.github.io/post/2008/2008-05-19-threequel-three/</link>
+      <pubDate>Mon, 19 May 2008 18:36:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-05-19-threequel-three/</guid>
+      <description>A few definitions for you, with citations from the wild; spelling is as in the original with Google counts of occurences, if possible.
+In short: threequel and 3quel are about movies; threequal is the &#34;===&#34; operator; 3qual is hacker speak. More or less.
+threequel (33,900): When I was a kid, I assumed all third installments in a horror series had to capitalize on the ability to turn the “3″ in the title into “3-D.</description>
+    </item>
+    
+    <item>
+      <title>The blogger&#39;s secret: how to be an expert about anything</title>
+      <link>http://vielmetti.github.io/post/2008/2008-05-07-the-bloggers-se/</link>
+      <pubDate>Wed, 07 May 2008 23:10:18 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-05-07-the-bloggers-se/</guid>
+      <description>You can be an expert with the blogger&#39;s secret:
+1. Pick a topic.
+2. Write about it twice a day.
+3. At the end of six months, you will be an expert.
+Note well: choose carefully what you want to be an expert about! It&#39;s mighty hard to be an expert about more than one thing this way, just because it consumes so much time.</description>
+    </item>
+    
+    <item>
+      <title>The power of the hand-written note</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-04-the-power-of-th/</link>
+      <pubDate>Tue, 04 Dec 2007 09:21:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-04-the-power-of-th/</guid>
+      <description>I used to send a lot more postcards, back in the day when I was on airplanes all the time.
+ Jason Womack sends this out in his newsletter recently, about holiday cards and card writing in general:  Chances are however you celebrate the closing of one year and the opening of another, you will connect with more people in your network during the holiday season. People wonder how I have time for it all.</description>
     </item>
     
   </channel>

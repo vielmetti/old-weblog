@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/mark-segal/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Mark Segal on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/mark-segal/</link>
+    <description>Recent content in Mark Segal on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/mark-segal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2011 08:09:59 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/mark-segal/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Mark Segal, National Security Agency, 3/30/2011, noon, at University of Michigan School of Information</title>
@@ -14,15 +17,9 @@
       <pubDate>Wed, 30 Mar 2011 08:09:59 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-03-30-mark-segal-nsa-umich-si-lunch/</guid>
-      <description>&lt;p&gt;Open to the public, lunch provided. From the news release:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Mark E. Segal, deputy director, Laboratory for Telecommunications Sciences at the National Security Agency, will present a talk on “Computer Science Research at the National Security Agency” on Wednesday, March 30 at noon in the Ehrlicher Room, 3100 North Quad.&lt;/p&gt;
-&lt;p&gt;Prior to joining NSA in 2007,&amp;#0160;Segal worked in the telecommunications industry for 18 years. He&amp;#0160;has conducted research in the areas of distributed computing, dependable systems, information assurance, and multimedia systems. He holds B.S., M.S., and Ph.D. degrees in computer and communications sciences from the University of Michigan.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e39cf2bf970b-pi&#34;&gt;&lt;img alt=&#34;Cid:image001.jpg@01CBEA1A&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e39cf2bf970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e39cf2bf970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Cid:image001.jpg@01CBEA1A&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Edward Vielmetti&amp;#39;s grandmother&amp;#39;s cousin, &lt;a href=&#34;http://www.nsa.gov/about/cryptologic_heritage/women/honorees/swift.shtml&#34; target=&#34;_self&#34;&gt;Katharine Swift&lt;/a&gt;, worked for the National Security Agency.&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Open to the public, lunch provided. From the news release:
+ Mark E. Segal, deputy director, Laboratory for Telecommunications Sciences at the National Security Agency, will present a talk on “Computer Science Research at the National Security Agency” on Wednesday, March 30 at noon in the Ehrlicher Room, 3100 North Quad.
+Prior to joining NSA in 2007,&amp;#0160;Segal worked in the telecommunications industry for 18 years. He&amp;#0160;has conducted research in the areas of distributed computing, dependable systems, information assurance, and multimedia systems.</description>
     </item>
     
   </channel>

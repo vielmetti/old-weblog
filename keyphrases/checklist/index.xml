@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/checklist/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Checklist on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/checklist/</link>
+    <description>Recent content in Checklist on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/checklist/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2015 16:11:41 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/checklist/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Levenshtein distance for approximate match</title>
@@ -14,73 +17,7 @@
       <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</guid>
-      <description>&lt;p&gt;The problem, simply stated, is that of typoes and inconsistent
-spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of
-text that you want to annotate with some metadata, like categories
-and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which
-tags you want to use, but you want to catch through some test or
-lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into
-a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
-will catch minor deviations from the norm and advise you when you
-should go back with a fresh pair of eyes and do an edit.
-The bigger problem is &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;deduplication&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;My first pass at a proposed solution was to look for a version of
-the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
-There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Udi Manber&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;[WM92a]
-Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
-Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
-1992), pp. 153-162.&lt;/p&gt;
-
-&lt;p&gt;Neither of these first lines of attack to see if someone had
-completely solved the problem before did the trick, but some
-searching around and a conversation with
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;John Hritz&lt;/span&gt;
-hit the neuron that remembered the algorithm called the
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Levenshtein distance&lt;/span&gt;.
-That led me to
-&lt;span style=&#34;background-color: #ffbfff;&#34;&gt;Wikibook: Algorithm Implementation&lt;/span&gt;,
-and its set of
-&lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
-was a very slow implementation in the bash shell included
-in that collection that was a cut and paste and two lines of
-code from being exactly what I needed. A little bit of glue
-code in awk and I was ready to go.&lt;/p&gt;
-
-&lt;p&gt;Now the problem with cut and paste two lines of code is that this
-particular implmentation is very slow, albeit correct. Given the
-choice between slow correct code and fast code that&amp;rsquo;s wrong (because
-of the bug that you don&amp;rsquo;t yet understand), I&amp;rsquo;ll take the slow code
-plus a comment and a writeup that describes how to make it faster.&lt;/p&gt;
-
-&lt;p&gt;What I&amp;rsquo;m really after is just the pairwise comparison of a set
-of words where the two words are close to each other. If the
-distance between two words is greater than some threshhold, I don&amp;rsquo;t need
-to go any further. That algorithmic shortcut isn&amp;rsquo;t in the library
-codes that I found.&lt;/p&gt;
-
-&lt;p&gt;The bigger question is how to write a
-checklist
-and implement it in code to make sure that a big body of work stays
-internally consistent. It&amp;rsquo;s one thing to have a
-categorization
-rule for your writers that says &amp;ldquo;always use the
-singular&amp;rdquo;, but very much something different to have Test 38 in
-your automated test corpus apply that rule and notice when it&amp;rsquo;s
-wrong.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Update 29 July 2015:
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Dennis Yurichev&lt;/span&gt; with a post
-&lt;a href=&#34;http://yurichev.com/blog/fuzzy_string/&#34;&gt;Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.&lt;/a&gt; shares some Python code to handle the
-case of automated checking against a probably correct dictionary. He uses this
-&lt;a href=&#34;https://pypi.python.org/pypi/python-Levenshtein/0.12.0&#34;&gt;python-Levenshtein&lt;/a&gt; module
-to do the hard work.&lt;/p&gt;
-</description>
+      <description>The problem, simply stated, is that of typoes and inconsistent spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of text that you want to annotate with some metadata, like categories and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which tags you want to use, but you want to catch through some test or lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into a field that really has &amp;ldquo;apple&amp;rdquo; most of the time.</description>
     </item>
     
     <item>
@@ -89,50 +26,12 @@ to do the hard work.&lt;/p&gt;
       <pubDate>Thu, 04 Feb 2010 00:25:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-02-04-checklists-eptitude-how-to-get-things-right-atul-gawande/</guid>
-      <description>&lt;p&gt;The Checklist Manifesto; &lt;a href=&#34;http://www.nytimes.com/2009/12/24/books/24book.html&#34;&gt;review&lt;/a&gt; in the New York Times.&lt;/p&gt;
+      <description>The Checklist Manifesto; review in the New York Times.
 
-&lt;p&gt;&lt;/p&gt;&lt;h4&gt;THE CHECKLIST MANIFESTO&lt;/h4&gt;&lt;h5&gt;How to Get Things Right&lt;/h5&gt;&lt;p&gt;Atul Gawande&lt;/p&gt;
-
-&lt;p&gt;Excerpt from Freakonomics review&lt;/p&gt;
-&lt;blockquote&gt;
-Even more interesting are the stories about Walmart’s response to Hurricane Katrina, and the real reason why David Lee Roth used to demand that there be a bowl of M&amp;amp;M’s with all the brown ones removed in his dressing room backstage.&lt;/blockquote&gt;
-
-&lt;p&gt;Times Online &lt;a href=&#34;http://entertainment.timesonline.co.uk/tol/arts_and_entertainment/books/book_reviews/article6995508.ece&#34;&gt;review&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;The surgeon-author was on the track of what might be described as a classic magic bullet — a low-tech way in a high-tech, expensive world in which lives might be saved and costs reduced. Gawande, using his own word, was searching for “eptitude” — the business of making sure that those with knowledge applied it effectively.&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;font size=&#34;3&#34;&gt;&lt;span style=&#34;font-size: 13px; line-height: 16px;&#34;&gt;&lt;a href=&#34;http://&#34;&gt;Google books preview&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-family: Helvetica, Arial, sans-serif;&#34;&gt;&lt;span style=&#34;line-height: 19px; font-size: medium;&#34;&gt;&lt;span size=&#34;3;&#34; style=&#34;font-family: Arial, Helvetica, sans-serif&#34;&gt;&lt;span style=&#34;font-size: 13px; line-height: 16px;&#34;&gt;First chapter is free; and it includes the word &amp;quot;eptitude&amp;quot;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;line-height: 19px; font-size: medium;&#34;&gt;&lt;font size=&#34;3&#34;&gt;&lt;span style=&#34;font-size: 13px; line-height: 16px;&#34;&gt;&lt;a href=&#34;http://www.projectcheck.org/checklist-for-checklists.html&#34;&gt;Checklist for checklists&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;The following checklist is designed to aid the checklist creation process and ensure that your checklist helps instead of hurts. &amp;#0160;It was created by Dr. Atul Gawande, the Brigham and Women&amp;#39;s Hospital Center for Surgery and Public Health Dissemination Team, and Dan Boorman of Boeing.&amp;quot;&lt;/blockquote&gt;
-
-&lt;p&gt;The nicest wiki implementation of checklists I&amp;#39;ve seen is at Sunshine Review, using the MediaWiki dpl extension.&lt;/p&gt;
-
-&lt;p&gt;Another review, in &lt;a href=&#34;https://www.indiacurrents.com/articles/2010/06/04/from-ignorance-to-ineptitude-to-eptitude&#34;&gt;India Currents&lt;/a&gt; 2010:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;But does novelty really matter when lives are at stake? In a
-recent New York Times article about implementing checklists, Dr.
-Peter Pronovost (whose contribution Gawande  acknowledges) exclaimed
-that “You would have thought I started World War III.” He then
-asserted that having nurses check to ensure that doctors washed
-their hands has “gotten infection rates down to almost zero in the
-ICU.” With success like that, patients are probably saying, “Thank
-you very much, Dr. Gawande. Your manifesto may not be War and Peace,
-but it has saved more lives than Tolstoy’s novel.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pronovost is interviewed in a Wall Street Journal article,
-&lt;a href=&#34;http://www.wsj.com/articles/SB10001424052748704364004576131963185893084&#34;&gt;The Secret to Fighting Infections&lt;/a&gt;,
-from 2011:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Dr. Pronovost&amp;rsquo;s boyish appearance and enthusiastic manner belie a steely determination to challenge the status quo in medicine. He hasn&amp;rsquo;t shied away from criticizing his peers for resisting safety and quality improvement efforts, a theme of his 2009 book &amp;ldquo;Safe Patients, Smart Hospitals.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+THE CHECKLIST MANIFESTOHow to Get Things RightAtul Gawande
+Excerpt from Freakonomics review
+ Even more interesting are the stories about Walmart’s response to Hurricane Katrina, and the real reason why David Lee Roth used to demand that there be a bowl of M&amp;amp;M’s with all the brown ones removed in his dressing room backstage. Times Online review
+The surgeon-author was on the track of what might be described as a classic magic bullet — a low-tech way in a high-tech, expensive world in which lives might be saved and costs reduced.</description>
     </item>
     
     <item>
@@ -141,8 +40,13 @@ from 2011:&lt;/p&gt;
       <pubDate>Mon, 29 Jun 2009 13:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-29-twelve-things-to-update-when-you-get-a-new-job/</guid>
-      <description>&lt;p&gt;A checklist for Monday.&lt;/p&gt;&lt;p&gt;1.&amp;#0160; Blog.&amp;#0160; Put a new photo in the sidebar, and update &amp;quot;about me&amp;quot; page.&lt;br /&gt;2.&amp;#0160; Twitter.&amp;#0160; New mini-bio, new photo, update the link as appropriate.&lt;br /&gt;3.&amp;#0160; Arborwiki. edit the &lt;a href=&#34;http://arborwiki.org/city/Edward_Vielmetti&#34;&gt;Edward Vielmetti&lt;/a&gt; page; that will be the &amp;quot;about me&amp;quot; link.&lt;br /&gt;4.&amp;#0160; LinkedIn.&amp;#0160; Create the new position, new title.&amp;#0160; Get a recommendation.&lt;br /&gt;5.&amp;#0160; Facebook.&amp;#0160; Make some clever remark, update photo, bio.&lt;br /&gt;6.&amp;#0160; Google profile.&amp;#0160; Google is probably keeping track of something.&lt;br /&gt;7.&amp;#0160; Google search.&amp;#0160; Look at all the results from the first page; update.&lt;br /&gt;8.&amp;#0160; Short URL.&amp;#0160; Find a URL shortening service, create a suitable landing page.&lt;br /&gt;9.&amp;#0160; Identify the canonical place where comments should go; link to that.&lt;br /&gt;10.&amp;#0160; Email lists.&amp;#0160; You&amp;#39;re on some; announce there.&amp;#0160; Be brief.&lt;br /&gt;11.&amp;#0160; Update your signature.&lt;br /&gt;12.&amp;#0160; New greeting on phone message.&lt;/p&gt;&lt;p&gt;I&amp;#39;m not sure about the order of these; the phone might be the first on the list.&lt;/p&gt;
-</description>
+      <description>A checklist for Monday.
+1.&amp;#0160; Blog.&amp;#0160; Put a new photo in the sidebar, and update &amp;quot;about me&amp;quot; page.
+2.&amp;#0160; Twitter.&amp;#0160; New mini-bio, new photo, update the link as appropriate.
+3.&amp;#0160; Arborwiki. edit the Edward Vielmetti page; that will be the &amp;quot;about me&amp;quot; link.
+4.&amp;#0160; LinkedIn.&amp;#0160; Create the new position, new title.&amp;#0160; Get a recommendation.
+5.&amp;#0160; Facebook.&amp;#0160; Make some clever remark, update photo, bio.
+6.&amp;#0160; Google profile.&amp;#0160; Google is probably keeping track of something.</description>
     </item>
     
     <item>
@@ -151,8 +55,11 @@ from 2011:&lt;/p&gt;
       <pubDate>Thu, 04 Dec 2008 11:37:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-12-04-community-organizers-checklist-weekly-lunch-meeting/</guid>
-      <description>&lt;p&gt;A checklist of things to do for the weekly lunch.&lt;/p&gt;&lt;p&gt;1.&amp;#0160; Day of the week: Mo - Tu - We - &lt;strong&gt;Th&lt;/strong&gt; - Fri&lt;br /&gt;2.&amp;#0160; Frequency: &lt;strong&gt;Every&lt;/strong&gt; - First - Second - Third - Fourth - Last - Even - Odd&lt;br /&gt;3.&amp;#0160; Location: &lt;strong&gt;Fixed&lt;/strong&gt; (Eastern Accents) - Floating - &lt;strong&gt;Alternate&lt;/strong&gt; (Ypsilanti TBD)&lt;br /&gt;4.&amp;#0160; Holiday schedule: Skip - &lt;strong&gt;Alternate Day&lt;/strong&gt; (Weds or Fri) - Alternate Week &lt;br /&gt;5.&amp;#0160; Summer schedule: Skip - Alternate Time - &lt;strong&gt;Alternate Location&lt;/strong&gt; (Ypsilanti TBD)&lt;br /&gt;6.&amp;#0160; Start time: &lt;strong&gt;11:30&lt;/strong&gt; &lt;strong&gt;11:45&lt;/strong&gt; 12:00 12:15&lt;br /&gt;7.&amp;#0160; Time zone: Eastern Time - &lt;strong&gt;Michigan Time&lt;/strong&gt; &lt;br /&gt;8.&amp;#0160; Meeting calendar: &lt;strong&gt;Yahoo Groups&lt;/strong&gt; - Google Calendar - Facebook - Upcoming - Alternate&lt;br /&gt;9.&amp;#0160; Email list: &lt;strong&gt;Yahoo Groups&lt;/strong&gt; - Google Groups - Hosted list - Self-run list - No list&lt;br /&gt;10.&amp;#0160; Facebook: &lt;strong&gt;Group&lt;/strong&gt; - Fan Page - Restaurant Fan Page&lt;br /&gt;11.&amp;#0160; Wiki: Socialtext - Mediawiki - Confluence - Other Wiki&lt;br /&gt;12.&amp;#0160; Civic wiki: &lt;strong&gt;Group page&lt;/strong&gt; - People pages&lt;br /&gt;13.&amp;#0160; Twitter: Group account - Followers &lt;/p&gt;&lt;p&gt;there&amp;#39;s more but lunch is starting. &lt;/p&gt;
-</description>
+      <description>A checklist of things to do for the weekly lunch.
+1.&amp;#0160; Day of the week: Mo - Tu - We - Th - Fri
+2.&amp;#0160; Frequency: Every - First - Second - Third - Fourth - Last - Even - Odd
+3.&amp;#0160; Location: Fixed (Eastern Accents) - Floating - Alternate (Ypsilanti TBD)
+4.&amp;#0160; Holiday schedule: Skip - Alternate Day (Weds or Fri) - Alternate Week 5.&amp;#0160; Summer schedule: Skip - Alternate Time - Alternate Location (Ypsilanti TBD)</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/fang-wu/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Fang Wu on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/fang-wu/</link>
+    <description>Recent content in Fang Wu on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/fang-wu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2008 11:50:07 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/fang-wu/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Novelty and collective attention / Huberman and Wu</title>
@@ -14,38 +17,7 @@
       <pubDate>Mon, 10 Mar 2008 11:50:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-03-10-novelty-and-col/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-If you wait long enough, it won&amp;rsquo;t be novel, and thus it won&amp;rsquo;t be worthwhile to pay attention to.  Thus by incorporating a delay loop into your news consumption you&amp;rsquo;ll miss a bunch of transient spikes of things that are no longer newsworthy.
-&lt;/p&gt;&lt;p&gt;
-&lt;a href=&#34;http://www.pnas.org/cgi/content/abstract/104/45/17599&#34;&gt;&lt;a href=&#34;http://www.pnas.org/cgi/content/abstract/104/45/17599&#34;&gt;http://www.pnas.org/cgi/content/abstract/104/45/17599&lt;/a&gt;
-&lt;br /&gt;&lt;/a&gt;
-&lt;/p&gt;&lt;blockquote&gt;
-&lt;a href=&#34;http://www.pnas.org/cgi/content/abstract/104/45/17599&#34;&gt;Novelty and collective attention
-&lt;br /&gt;&lt;/a&gt;
-&lt;br /&gt;Fang Wu and Bernardo A. Huberman*
-&lt;br /&gt;
-&lt;br /&gt;Information Dynamics Laboratory, HewlettPackard Laboratories, Palo
-&lt;br /&gt;Alto, CA 94304
-&lt;br /&gt;
-&lt;br /&gt;Edited by Harry L. Swinney, University of Texas, Austin, TX, and
-&lt;br /&gt;approved September 14, 2007 (received for review May 25, 2007)
-&lt;br /&gt;
-&lt;br /&gt;The subject of collective attention is central to an information age
-&lt;br /&gt;where millions of people are inundated with daily messages. It is thus
-&lt;br /&gt;of interest to understand how attention to novel items propagates and
-&lt;br /&gt;eventually fades among large populations. We have analyzed the
-&lt;br /&gt;dynamics of collective attention among 1 million users of an
-&lt;br /&gt;interactive web site, digg.com, devoted to thousands of novel news
-&lt;br /&gt;stories. The observations can be described by a dynamical model
-&lt;br /&gt;characterized by a single novelty factor. Our measurements indicate
-&lt;br /&gt;that novelty within groups decays with a stretched-exponential law,
-&lt;br /&gt;suggesting the existence of a natural time scale over which attention
-&lt;br /&gt;fades.
-&lt;br /&gt;
-&lt;br /&gt;(via dragomir radev)
-&lt;/blockquote&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/attention&#34; rel=&#34;tag&#34;&gt;attention&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/novelty&#34; rel=&#34;tag&#34;&gt;novelty&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/digg&#34; rel=&#34;tag&#34;&gt;digg&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>If you wait long enough, it won&amp;rsquo;t be novel, and thus it won&amp;rsquo;t be worthwhile to pay attention to. Thus by incorporating a delay loop into your news consumption you&amp;rsquo;ll miss a bunch of transient spikes of things that are no longer newsworthy.  http://www.pnas.org/cgi/content/abstract/104/45/17599   Novelty and collective attention  Fang Wu and Bernardo A. Huberman* Information Dynamics Laboratory, HewlettPackard Laboratories, Palo Alto, CA 94304 Edited by Harry L.</description>
     </item>
     
   </channel>

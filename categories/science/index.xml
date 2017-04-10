@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/science/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Science on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/science/</link>
+    <description>Recent content in Science on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2009 14:16:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/science/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Why the launch was scrubbed</title>
@@ -14,8 +17,12 @@
       <pubDate>Fri, 17 Jul 2009 14:16:09 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-07-17-why-the-launch-was-scrubbed/</guid>
-      <description>&lt;div&gt;notes from day 14 at &lt;a href=&#34;http://annarbor.com&#34;&gt;annarbor.com&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;p&gt;Why was the launch scrubbed this time?&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;div&gt;Hydrogen leaks (&lt;a href=&#34;http://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts127/launch/blog_scrub.html&#34;&gt;STS-127&lt;/a&gt;) (&lt;a href=&#34;http://www-pao.ksc.nasa.gov/kscpao/status/stsstat/1995/sep/9-28-95s.htm&#34;&gt;STS-73&lt;/a&gt;)&lt;/div&gt;&lt;div&gt;Thunderstorms (&lt;a href=&#34;http://science.ksc.nasa.gov/shuttle/missions/sts-93/mission-sts-93.html&#34;&gt;STS-93&lt;/a&gt;)&lt;/div&gt;&lt;div&gt;Problem circuit card in the pyrotechnic initiator controller (&lt;a href=&#34;http://www1.nasa.gov/mission_pages/shuttle/shuttlemissions/archives/sts-51.html&#34;&gt;STS-51&lt;/a&gt;)&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Perseid meteor shower&amp;#0160;(&lt;a href=&#34;http://www1.nasa.gov/mission_pages/shuttle/shuttlemissions/archives/sts-51.html&#34; style=&#34;color: blue; text-decoration: underline; cursor: pointer; &#34;&gt;STS-51&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;&lt;div&gt;I didn&amp;#39;t see a complete list of all possible reasons, but there are lots of problems that can happen when you launch into space. &amp;#0160;I watched two launches in the last few days - the SpaceX rocket which went up without a hitch, and the shuttle which went up on its 6th try, all very exciting to see.&lt;/div&gt;&lt;/div&gt;
-</description>
+      <description>notes from day 14 at annarbor.com
+Why was the launch scrubbed this time?
+
+Hydrogen leaks (STS-127) (STS-73)Thunderstorms (STS-93)Problem circuit card in the pyrotechnic initiator controller (STS-51)
+Perseid meteor shower&amp;#0160;(STS-51)
+I didn&amp;#39;t see a complete list of all possible reasons, but there are lots of problems that can happen when you launch into space. &amp;#0160;I watched two launches in the last few days - the SpaceX rocket which went up without a hitch, and the shuttle which went up on its 6th try, all very exciting to see.</description>
     </item>
     
   </channel>

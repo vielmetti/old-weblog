@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/michigan-elections/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Michigan Elections on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/michigan-elections/</link>
+    <description>Recent content in Michigan Elections on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/michigan-elections/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Nov 2008 13:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/michigan-elections/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Election 2008 and the internet: lessons learned</title>
@@ -14,13 +17,12 @@
       <pubDate>Thu, 06 Nov 2008 13:35:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-06-election-2008-and-the-internet-lessons-learned/</guid>
-      <description>&lt;p&gt;Two days after the election, and enough of the aftermath and peak traffic of the day has settled so that we can learn a few lessons from what happened.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;0. Party in the streets!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.shawnsninja.com/2008/11/05/students-march-on-ann-arbor-after-obama-wins-election/&#34;&gt;Shawn Smith&lt;/a&gt; captured this moment in Ann Arbor. &lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;object classid=&#34;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&#34; data=&#34;http://www.flickr.com/apps/video/stewart.swf?v=61761&#34; height=&#34;300&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;400&#34;&gt; &lt;param name=&#34;flashvars&#34; value=&#34;intl_lang=en-us&amp;amp;photo_secret=e4e78e1790&amp;amp;photo_id=3004839740&amp;amp;show_info_box=true&#34; /&gt; &lt;param name=&#34;movie&#34; value=&#34;http://www.flickr.com/apps/video/stewart.swf?v=61761&#34; /&gt; &lt;param name=&#34;bgcolor&#34; value=&#34;#000000&#34; /&gt; &lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34; /&gt;&lt;embed allowfullscreen=&#34;true&#34; bgcolor=&#34;#000000&#34; flashvars=&#34;intl_lang=en-us&amp;amp;photo_secret=e4e78e1790&amp;amp;photo_id=3004839740&amp;amp;flickr_show_info_box=true&#34; height=&#34;300&#34; src=&#34;http://www.flickr.com/apps/video/stewart.swf?v=61761&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;400&#34; /&gt;&lt;/object&gt;
+      <description>Two days after the election, and enough of the aftermath and peak traffic of the day has settled so that we can learn a few lessons from what happened.
+0. Party in the streets!
+Shawn Smith captured this moment in Ann Arbor. 
 
-&lt;/p&gt;&lt;p&gt;&lt;strong&gt;1.&amp;#0160; Design for infinite traffic.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Election reporting is perhaps the best reason to look at cloud computing as a system for dealing with peak load needs.&amp;#0160; Demand for election information is very intense for a few hours, and then goes away.&amp;#0160; Any system that you build that involves a stack of your own equipment sitting in some machine room is going to be too big for most of the time, and then too small when you need it most.&lt;/p&gt;&lt;p&gt;As an example, the fancy maps from &lt;a href=&#34;http://twittervotereport.com&#34;&gt;Twitter Vote Report&lt;/a&gt; were down mid-day, but came back up when they reconfigured the site.&amp;#0160; &lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;&lt;a href=&#34;http://twitter.com/votereport/status/990021531&#34;&gt;RT networkredux &amp;quot;@votereport increase to 8 3.0Ghz cores on the primary web VM seemed to steady things a bit.&amp;quot;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-As another example, Nate Silver&amp;#39;s &lt;a href=&#34;http://fivethirtyeight.com&#34;&gt;FiveThirtyEight.com&lt;/a&gt; is hosted on Google&amp;#39;s Blogger platform.&amp;#0160; How many cores did that site run on?&amp;#0160; As many as Google had available for the task.&amp;#0160; And when push came to shove, &lt;a href=&#34;http://www.contentious.com/2008/11/04/fivethirtyeightcom-runs-on-blogger-wha/&#34;&gt;Blogger wasn&amp;#39;t up to the task at the heat of the moment either.&lt;/a&gt;&lt;/p&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;We&amp;#39;re here and trying to publish, just can&amp;#39;t.&amp;#0160; They can&amp;#39;t handle the traffic.&amp;#0160; Sorry everybody.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;Election night is an enormously busy night; if there was ever a time to design for one day of traffic, this is it.&amp;#0160; I&amp;#39;m not sure how you can budget for infinite demand.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2.&amp;#0160; In 2008, every page is about the elections.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Whether it&amp;#39;s internet advertising, campaign coverage, partisan bickering, technology development, or just reporting on what&amp;#39;s going on around town, it seems like every page on the whole Internet was about the elections.&amp;#0160; It reminded me eerily of 1999, when every page was about the Year 2000, and a legion of programmers was employed fixing things; will the end of the 2008 campaign ad spend (&lt;a href=&#34;http://www.clickz.com/showPage.html?page=3631249&#34;&gt;projected at $17 million online&lt;/a&gt;) lead to the end of the web 2.0 era?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;3.&amp;#0160; Sending &amp;quot;I voted&amp;quot; to your network gets your network to vote.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;I don&amp;#39;t know this for sure; it&amp;#39;s hard to tell from anecdotal reports, but my sense is that people who are using systems like Facebook and Twitter which make it easy to report that they voted are more likely to get their friends to vote.&amp;#0160; &lt;/p&gt;&lt;p&gt;Facebook in particular made this easy with the &lt;a href=&#34;http://apps.facebook.com/causes/about&#34;&gt;Causes&lt;/a&gt; application that let you &amp;quot;donate your status message&amp;quot; in advance to pre-scheduled reminders to your friends to vote.&amp;#0160; &lt;a href=&#34;http://www.insidefacebook.com/2008/11/04/facebook-causes-helping-to-get-out-the-vote-on-election-day/&#34;&gt;This get out the vote effort was given front page status with a rolling ticker on election day.&lt;/a&gt;&amp;#0160; Causes recorded &lt;a href=&#34;http://apps.facebook.com/causes/election?m=bd6ad275&amp;amp;_fb_fromhash=a55921e67257c4c26608ca3f1d13fe3c&#34;&gt;1.7 million voters, who voted 70% to 21% for Obama,&lt;/a&gt; and now they know at least as much as any exit poll ever did.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://sethgodin.typepad.com/seths_blog/2008/11/marketing-lesso.html&#34;&gt;Seth Godin writes more on this topic.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;4.&amp;#0160; There are problems with voting systems everywhere.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The sad conclusion of watching Twitter and #votereport for a few hours makes it clear that as voting turnout increases, the chances for things to go wrong go up.&amp;#0160; Whether it&amp;#39;s inadequate support at polling places leading to long lines, bad line control putting people in the wrong line to vote, or problems with ballots or machines, it&amp;#39;s easy to find people who ran into snags and snafus.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://highearthorbit.com/amazing-vote-reports/&#34;&gt;Andrew Turner posts a recap of the amazing vote reports that the #votereport project gathered&lt;/a&gt; - both good stories and bad about how things worked.&amp;#0160; There&amp;#39;s a lot more to learn from that project and they have an awesome dataset to look at for review of where things went wrong (and where they went right). &lt;/p&gt;&lt;p&gt;&lt;strong&gt;5.&amp;#0160; Practice makes perfect.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;I voted using the Accumark system.&amp;#0160; It was mostly painless, helped in large part by having done it enough times that I knew what was likely to fail.&amp;#0160; The poll worker there knew that I needed to tear off the strip on top of the ballot before feeding it into the marking machine - the simple solution to most of the reported problems with the device - in part because this was my third time through this same precinct with the same voting machine and we figured it out before.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;6.&amp;#0160; (something about polls)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Nate Silver at &lt;a href=&#34;http://fivethirtyeight.com&#34;&gt;FiveThirtyEight.com&lt;/a&gt; is still going over the differences between poll data and actual vote counts, but it&amp;#39;s clear: there&amp;#39;s a widespread, systematic, and unpredictable difference between what people say they will do to pollsters and what they actually do in the voting booth.&amp;#0160;&amp;#0160; FiveThirtyEight did an amazing job at correcting for systematic poll bias, but even with all that there were still a few surprises (Indiana?!?) where you just couldn&amp;#39;t know.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.stat.columbia.edu/%7Egelman/research/unpublished/electionnight.pdf&#34;&gt;A paper by Andrew Gelman and Nate Silver circulated in the afternoon of election day,&lt;/a&gt; on statistics and conditional probabilities, predicting Obama 99% if he wins Virginia based on scenario analysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;7.&amp;#0160; Prepare ahead of time&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;My &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/11/michigan-2008-election-results.html&#34;&gt;Michigan Election Results&lt;/a&gt; page this year was easy to write because I had written the same page in previous elections, knew where the results would be, and knew crucially which search terms people would be using.&amp;#0160; I made it relevant before results came in by posting where the election parties would be.&amp;#0160; You know these things are going to happen because they happened before; there&amp;#39;s no reason to need to scramble at the last minute to put something together.&lt;/p&gt;&lt;p&gt;---&lt;br /&gt;Lessons learned from previous events, for better or worse:&lt;/p&gt;&lt;p&gt;Hurricane season - &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/09/gustav-social-m.html&#34;&gt;Gustav lessons learned&lt;/a&gt;&lt;br /&gt;Disaster relief and reporting - the process of the &lt;a href=&#34;http://oai.dtic.mil/oai/oai?verb=getRecord&amp;amp;metadataPrefix=html&amp;amp;identifier=ADA368651&#34;&gt;&amp;quot;after action review&amp;quot;&lt;/a&gt; as derived from US Army practice&lt;br /&gt;&lt;a href=&#34;http://www.emergentchaos.com/archives/2005/10/today_i_publicl.html&#34;&gt;Aviation safety compared to computer security&lt;/a&gt;&lt;/p&gt;
-</description>
+ 1.&amp;#0160; Design for infinite traffic.
+Election reporting is perhaps the best reason to look at cloud computing as a system for dealing with peak load needs.</description>
     </item>
     
     <item>
@@ -29,15 +31,10 @@ As another example, Nate Silver&amp;#39;s &lt;a href=&#34;http://fivethirtyeight
       <pubDate>Tue, 04 Nov 2008 08:34:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-04-votereport---ann-arbor-voting-reports-via-twitter/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Twitter is using an &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2007/11/what-does-mean-.html&#34;&gt;octothorpetag&lt;/a&gt; #votereport to mark voting reports today.&amp;#0160; There&amp;#39;s several systems downstream processing and mapping that data.&amp;#0160; See e.g. &lt;a href=&#34;http://votereport.us/&#34;&gt;votereport.us &lt;/a&gt;(simple log), &lt;a href=&#34;http://twittervotereport.com/&#34;&gt;twittervotereport.com (map)&lt;/a&gt;, and the &lt;a href=&#34;http://votereport.pbwiki.com/FrontPage&#34;&gt;Twitter vote report wiki &lt;/a&gt;(details for media and developers).&lt;/p&gt;&lt;p&gt;You can also get a pretty good point of view &lt;a href=&#34;http://search.twitter.com/search?q=ann+arbor&#34;&gt;via Twitter just searching for the string Ann Arbor&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Here&amp;#39;s reports as I&amp;#39;ve seen them so far this morning, times approx:&lt;/p&gt;&lt;p&gt;730am @&lt;a href=&#34;http://twitter.com/mollyali/statuses/989200811&#34;&gt;mollyali&lt;/a&gt;: Couple hundred people in line @ pioneer high, ann arbor. &lt;br /&gt;700am @&lt;a href=&#34;http://twitter.com/CharismaArts/statuses/989175518&#34;&gt;CharismaArts&lt;/a&gt;: lines already out the door at pcnt 3-4 and 3-7 in ann arbor&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;700am @&lt;a href=&#34;http://twitter.com/twbrandt/statuses/989164527&#34;&gt;twbrandt&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;Arrived at my polling place (Ann Arbor Twp hall) promptly at 7. Longest line I have ever seen&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;700am &lt;a href=&#34;http://twitter.com/jakewalker&#34; onclick=&#34;pageTracker._trackPageview(&amp;#39;/exit/to/jakewalker&amp;#39;);&#34; target=&#34;_blank&#34;&gt;@jakewalker&lt;/a&gt;: &lt;span class=&#34;msgtxt da&#34; id=&#34;msgtxt989160389&#34;&gt;Hundreds of students in line in &lt;strong&gt;ann&lt;/strong&gt; &lt;strong&gt;arbor&lt;/strong&gt; at 7am to &lt;a href=&#34;http://search.twitter.com/search?q=%23vote&#34;&gt;#vote&lt;/a&gt;. Hundreds.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&#34;msgtxt da&#34; id=&#34;msgtxt989160389&#34;&gt;Throughout the day, &lt;a href=&#34;http://annarborchronicle.com/2008/11/04/election-day-2008/&#34;&gt;the Ann Arbor Chronicle is reporting from the city&amp;#39;s polling places&lt;/a&gt;.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&#34;msgtxt da&#34; id=&#34;msgtxt989160389&#34;&gt;The &lt;a href=&#34;http://blog.mlive.com/a2politics/2008/11/voters_lined_up_early_at_ann_a.html&#34;&gt;Ann Arbor News has a story about morning voting lines and waits&lt;/a&gt;, with the all-too-predictable snoozesque comment blather.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&#34;msg&#34;&gt;
- &lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Twitter is using an octothorpetag #votereport to mark voting reports today.&amp;#0160; There&amp;#39;s several systems downstream processing and mapping that data.&amp;#0160; See e.g. votereport.us (simple log), twittervotereport.com (map), and the Twitter vote report wiki (details for media and developers).
+You can also get a pretty good point of view via Twitter just searching for the string Ann Arbor.
+Here&amp;#39;s reports as I&amp;#39;ve seen them so far this morning, times approx:
+730am @mollyali: Couple hundred people in line @ pioneer high, ann arbor.</description>
     </item>
     
     <item>
@@ -46,9 +43,11 @@ As another example, Nate Silver&amp;#39;s &lt;a href=&#34;http://fivethirtyeight
       <pubDate>Sun, 02 Nov 2008 00:21:22 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-02-free-on-election-day-a-sample/</guid>
-      <description>&lt;p&gt;&lt;p&gt;&lt;a href=&#34;http://www.electionstickers.com/&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;I voted sticker from electionstickers.com&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef010535cb6107970b &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010535cb6107970b-800wi&#34; title=&#34;01a7f3a82357408b4a9579639ab80185&#34; /&gt;sticker image from electionstickers.com&lt;/a&gt;
- &lt;/p&gt;&lt;p&gt;There is no way on earth this is going to be complete, but here&amp;#39;s something like a list.&amp;#0160; comments welcomed.&amp;#0160; here is an &lt;a href=&#34;http://www.npr.org/templates/story/story.php?storyId=96369959&#34;&gt;NPR story&lt;/a&gt; and interview with some background; some places require indication of voting, others will go on the honor system.&lt;/p&gt;&lt;p&gt;Local:&lt;br /&gt;(didn&amp;#39;t find anything special yet for Ann Arbor, but I&amp;#39;m sure there&amp;#39;s something)&lt;/p&gt;&lt;p&gt;National:&lt;br /&gt;Krispy Kreme: &lt;a href=&#34;http://current.newsweek.com/budgettravel/2008/10/free_krispy_kreme_donuts_on_el.html&#34;&gt;free donut&lt;/a&gt; (via Budget Travel / Newsweek / New York)&lt;br /&gt;Ben and Jerry&amp;#39;s: &lt;a href=&#34;http://www.benjerry.com/features/i_voted/&#34;&gt;free scoops&lt;/a&gt; 5p-8p (via New York)&lt;br /&gt;Starbucks: &lt;a href=&#34;http://blogs.starbucks.com/blogs/customer/archive/2008/10/31/free-Starbucks-for-voting.aspx&#34;&gt;free tall coffee&lt;/a&gt; (via srah)&lt;br /&gt;SitterCity: &lt;a href=&#34;http://www.hipmamasplace.com/2008/10/free-babysitting-on-election-day.html&#34;&gt;free or discounted babysitting&lt;/a&gt; (new subscribers only)&lt;/p&gt;&lt;p&gt;Regional:&lt;br /&gt;Austin, TX:&lt;a href=&#34;http://capmetroblog.blogspot.com/2008/10/ride-free-on-election-day.html&#34;&gt; free bus rides on Capital Metro&lt;/a&gt;; free &lt;a href=&#34;http://www.news8austin.com/content/your_news/default.asp?ArID=223265&#34;&gt;cab rides for seniors and the mobility impaired&lt;/a&gt;&lt;br /&gt;Chicago, IL: free coffee from &lt;a href=&#34;http://www.metropoliscoffee.com/&#34;&gt;Metropolis Coffee&lt;/a&gt;&lt;br /&gt;Fargo, ND: free &lt;a href=&#34;http://www.in-forum.com/News/articles/220182&#34;&gt;bus and paratransit rides&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Random:&lt;br /&gt;CREDO Mobile: &lt;a href=&#34;http://www.credomobile.com/misc/electionfreeday.aspx&#34;&gt;free calls&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>sticker image from electionstickers.com There is no way on earth this is going to be complete, but here&amp;#39;s something like a list.&amp;#0160; comments welcomed.&amp;#0160; here is an NPR story and interview with some background; some places require indication of voting, others will go on the honor system.
+Local:
+(didn&amp;#39;t find anything special yet for Ann Arbor, but I&amp;#39;m sure there&amp;#39;s something)
+National:
+Krispy Kreme: free donut (via Budget Travel / Newsweek / New York)</description>
     </item>
     
     <item>
@@ -57,71 +56,8 @@ As another example, Nate Silver&amp;#39;s &lt;a href=&#34;http://fivethirtyeight
       <pubDate>Wed, 22 Oct 2008 11:58:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-10-22-automark-proble/</guid>
-      <description>&lt;p&gt;Every year when I vote I use the Automark machines, which are designed for voters needing assistive voting technology at the polls.&amp;nbsp; At my polling place I seem to be the only person who ever uses them, so this is some way to do my bit of public service.&lt;/p&gt;
-
-&lt;p&gt;The last few times I have gone through this there have been problems.&amp;nbsp; The first time, I gave up and voted on a regular machine; the second time, I figured things out in time to vote with it.&amp;nbsp; This time I&#39;m going to get it right (I hope).&lt;/p&gt;
-
-&lt;p&gt;A recap of problems from previous times:&lt;/p&gt;
-
-&lt;p&gt;from May 2008, &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/05/ann-arbor-may-6.html&#34;&gt;Automark voting issues:&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;I got to the polling place a little bit earlier this time and tried
-it again. It misbehaved the same way, but this time there was time to
-figure it out, so the poll workers called in their expert who drove
-over to help figure it out. The solution ended up to be very simple:
-the detachable stub on the ballot must be detached before putting the
-ballot into the machine, despite the very clear instructions on that
-stub not to detach it, and with no visible instructions to detach it
-anywhere on the AutoMARK machine.&lt;/p&gt;
-
-&lt;p&gt;I was able to find with some digging an &lt;a href=&#34;http://www.michigan.gov/documents/sos/ElectionDayGuide_174575_7.pdf&#34;&gt;AutoMARK Troubleshooting Guide&lt;/a&gt;,
-which mentions two possible solutions: either remove the stub before
-putting the ballot into the machine, or program the machine to
-recognize the stub. I don&#39;t know whether this stub length programming
-is possible with the ballots we are using.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;If the ballot has a stub, 
-the stub length may not 
-have been entered into the 
-election setup information.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Note that the system did work with the sample ballot tested by the
-poll workers - but the sample ballot did not have a stub at the top! &lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Listing municipalties that are new to using AutoMARK is a huge catalog - this is just this season&#39;s clipping report.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.collegian.psu.edu/archive/2008/10/21/optical_scan_voting_machines_t.aspx&#34;&gt;Centre County, Pennsylvania (Penn State)&lt;/a&gt;: &lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Joyce McKinley, director of elections for Centre County, said voters
-shouldn&#39;t have any problems with the optical scan machines unless they
-overvote or undervote. &lt;/p&gt;
-
-&lt;p&gt;Overvoting happens if the voter has chosen more candidates than
-allowed, and undervoting is when voters choose fewer candidates than
-allowed. In those instances, voters can choose to have the ballot
-returned to them or accept the ballot as it is, McKinley said.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href=&#34;http://www.wsbt.com/news/local/30600929.html&#34;&gt;South Bend (St. Joseph County), Indiana (Notre Dame)&lt;/a&gt; (WSBT)&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&amp;quot;We don&#39;t know for sure that those votes are counted,&amp;quot; said Indiana
-University-South Bend Political Science Professor Dr. Elizabeth
-Bennion. &amp;quot;And, in the case of a close race, it would be very difficult
-to do any kind of a recount. So, I think there is real reason for
-concern.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;That &amp;quot;touch screen&amp;quot; technology is used to
-&amp;quot;automark&amp;quot; specialized ballots filled out by those with special needs
-in St. Joseph County. But the actual ballots aren&#39;t tallied or counted
-until the paper ballot marked by the machine is fed into the same
-optical scanner used by all other voters, said St. Joseph County Clerk
-Rita Glenn.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href=&#34;http://www.thedailyitemoflynn.com/articles/2008/10/06/news/news07.txt&#34;&gt;Saugus, MA&lt;/a&gt; (The Daily Item, Lynn MA)&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span class=&#34;content&#34;&gt;SAUGUS-This November, the town will once again
-set out AutoMARK Voter Assist Terminals at each polling place and, this
-time, Town Clerk Joanne Rappa hopes someone other than the poll workers
-will use them.&lt;br /&gt;&lt;br /&gt;AutoMARK terminals allow voters with just about
-any kind of handicap to cast their vote unaided in the polling
-locations just like every other voter. The problem, Rappa said, is
-while the town has had the machines since 2007 no one uses them. She
-said she suspects they go unused for one of two reasons, people aren’t
-aware the machines are available or don’t know how to use them.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href=&#34;http://www.kxmc.com/News/279909.asp&#34;&gt;&lt;span class=&#34;content&#34;&gt;South Dakota (KXMC via AP)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;YANKTON, S.D. (AP)&amp;nbsp; Secretary of State Chris Nelson says a
-problem that cropped up with touch-screen voting machines in the
-2006 election won&#39;t recur this year.&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp;States must have at least one touch-screen machine in each
-polling place so people with visual or other disabilities can cast
-their own ballot in secret.&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp;&lt;a class=&#34;kxInlineLink&#34; href=&#34;http://www.kxmc.com/t/south-dakota&#34; title=&#34;Click here to view all related stories&#34;&gt;South Dakota&lt;/a&gt;&#39;s AutoMARK machines merely mark a paper ballot that
-people review after they vote to ensure its accuracy.&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp;Nelson says there was a problem with the 17-inch-long ballots
-that were used in 2006.&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp;This year, the ballots are 14 inches long, and Nelson says the
-problem won&#39;t happen again.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;As always, vote early, and vote often.&lt;/p&gt;
-                        
-</description>
+      <description>Every year when I vote I use the Automark machines, which are designed for voters needing assistive voting technology at the polls.&amp;nbsp; At my polling place I seem to be the only person who ever uses them, so this is some way to do my bit of public service.
+The last few times I have gone through this there have been problems.&amp;nbsp; The first time, I gave up and voted on a regular machine; the second time, I figured things out in time to vote with it.</description>
     </item>
     
     <item>
@@ -130,24 +66,9 @@ problem won&#39;t happen again.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;As always, 
       <pubDate>Tue, 05 Aug 2008 20:50:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-05-michigan-electi/</guid>
-      <description>&lt;p&gt;UPDATE: &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/11/michigan-2008-election-results.html&#34;&gt;Michigan election results for the November 2008 general election&lt;/a&gt;, if you came here from a search.&lt;/p&gt;
-
-&lt;p&gt;The polls have closed, and results are just starting to trickle in at 8:30pm.   Here&#39;s some places to look for data.  (update: it&#39;s the next day and the votes are tallied)&lt;/p&gt;
-
-&lt;p&gt;The Michigan Secretary of State has &lt;a href=&#34;http://miboecfr.nictusa.com/election/results/08PRI/&#34;&gt;2008 Unofficial Michigan Primary Election Results&lt;/a&gt; for all state-wide races, state senators and representatives, and judicial races. They also have links to &lt;a href=&#34;http://www.michigan.gov/sos/0,1607,7-127-1633_8722-103241--,00.html&#34;&gt;Michigan primary election results by county&lt;/a&gt; connected to almost all of the county clerk sites maintained around the state.&lt;/p&gt;
-
-&lt;p&gt;In Washtenaw County, there&#39;s a page with &lt;a href=&#34;http://electionresults.ewashtenaw.org/aug2008/indexreport.html&#34;&gt;unofficial Washtenaw County election results for August 2008&lt;/a&gt;, including &lt;A href=&#34;http://electionresults.ewashtenaw.org/aug2008/cumulativereport.html&#34;&gt;cumulative results&lt;/a&gt; and a breakdown by race.  Notable contested races are the &lt;a href=&#34;http://electionresults.ewashtenaw.org/aug2008/canvassreport382.html&#34;&gt;Democratic primary Washtenaw Sheriff&lt;/a&gt; election, and the &lt;a href=&#34;http://electionresults.ewashtenaw.org/aug2008/canvassreport544.html&#34;&gt;15th District Judge&lt;/a&gt; race.   The &lt;a href=&#34;http://blog.mlive.com/annarbornews/2008/08/roundup_of_results_in_washtena.html&#34;&gt;Ann Arbor News has a roundup of results.&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.oakgov.com/crts0006/controller&#34;&gt;Oakland County non-partisan and proposal ballot results&lt;/a&gt; include a proposal for a tax to support the zoo, which passed.   The &lt;a href=&#34;http://www.freep.com/apps/pbcs.dll/article?AID=/20080806/NEWS15/80806019&#34;&gt;Detroit Free Press has complete 2008 August election results&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;All of the &lt;a href=&#34;http://www.co.marquette.mi.us/clerk/results-1.htm&#34;&gt;2008 Marquette County August primary&lt;/a&gt; results are on one page.  (Two friends from high school are both running for judge.)  I expect to see &lt;A href=&#34;http://www.miningjournal.net/&#34;&gt;voting results at the Marquette Mining Journal&lt;/a&gt;, but nothing there as of 9am Weds.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://twitter.com/DavidHelwig&#34;&gt;David Helwig&lt;/a&gt; (twitter) is covering the &lt;a href=&#34;http://sootoday.com/content/news/full_story.asp?StoryNumber=33725&#34;&gt;Chippewa County&lt;/a&gt; elections for &lt;a href=&#34;http://sootoday.com&#34;&gt;SooToday&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;More details as anything is notable.  &lt;/p&gt;
-
-&lt;p&gt;Several newspapers have coverage with Twitter - the &lt;a href=&#34;http://twitter.com/a2snooze&#34;&gt;Ann Arbor News&lt;/a&gt; has an (ahem) unofficial feed, and &lt;a href=&#34;http://twitter.com/mlive&#34;&gt;mLive&lt;/a&gt; does some state-wide coverage.  Other newspaper twitters are dead including the Flint Journal and the Detroit Free Press.&lt;/p&gt;
-</description>
+      <description>UPDATE: Michigan election results for the November 2008 general election, if you came here from a search.
+The polls have closed, and results are just starting to trickle in at 8:30pm. Here&#39;s some places to look for data. (update: it&#39;s the next day and the votes are tallied)
+The Michigan Secretary of State has 2008 Unofficial Michigan Primary Election Results for all state-wide races, state senators and representatives, and judicial races.</description>
     </item>
     
     <item>
@@ -156,41 +77,9 @@ problem won&#39;t happen again.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;As always, 
       <pubDate>Mon, 04 Aug 2008 16:13:04 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-08-04-michigan-sample/</guid>
-      <description>&lt;p&gt;The primaries in Michigan are tomorrow, August 5 2008.&lt;/p&gt;
-
-&lt;p&gt;If you want a sample ballot, go to the &lt;a href=&#34;http://www.michigan.gov/vote&#34;&gt;Michigan Voter Information Center&lt;/a&gt; run by the Michigan Secretary of State.  You&#39;ll put in your voter information, and it will come up with a list of elections on the ballot.  &lt;a href=&#34;http://publius.org&#34;&gt;Publius also generates Michigan sample ballots&lt;/a&gt;, as does the &lt;a href=&#34;http://thevoterguide3.mlive.com/?sfr&#34;&gt;MLive Voter Guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The list of &lt;a href=&#34;http://www.ewashtenaw.org/government/clerk_register/elections/el_precincts.html&#34;&gt;Washtenaw County precinct locations&lt;/a&gt; is kept by the County Clerk and Register of Deeds, Larry Kestenbaum.  He&#39;s running unopposed for re-election.  &lt;/p&gt;
-
-&lt;p&gt;I&#39;ll be voting again this year using the AUTOMARK machine set up for vision impaired voters.  My notes from last time &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/05/ann-arbor-may-6.html&#34;&gt;show the problems I had with the AUTOMARK machine&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-Note for next time: vote early (and vote often), and tear the stub off before inserting the ballot into the AutoMARK machine, despite all of the instructions to the contrary.
-&lt;/blockquote&gt;
-
-&lt;p&gt;My experience with AutoMARK is not unique - here&#39;s this season&#39;s clippings of people with problems:&lt;/p&gt;
-
-&lt;p&gt;Nassau County, NY: from the &lt;a href=&#34;http://www.opednews.com/articles/NYSTEC-Finds-NY-SBOE-Votin-by-Rady-Ananda-080711-393.html&#34;&gt;OpEd News&lt;/a&gt; site (some political blog)&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Nassau County purchased 450 ballot marking devices (BMDs) from Sequoia, at a cost of $12,000 each.  It reported that 85% of 240 machines were non-functional, one fifth of them damaged during shipment.  New York City also experienced software failure, when it tested ES&amp;S AutoMARK&#39;s BMD, as attested at the June 23rd NYC Government Services Committee, reported Nassau County Attorney Lori Barrett.   &lt;/p&gt;
-
-&lt;p&gt;Ballot marking devices allow disabled voters to vote independently, printing the ballot for them, and would fulfill NY&#39;s compliance with the Help America Vote Act.  Yet a substantial portion of BMDs received in Nassau registered a printer failure.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;San Francisco is sold uncertified AutoMARK systems: from &lt;a href=&#34;http://www.sfgov.org/site/elections_index.asp?id=70865&#34;&gt;the San Francisco Department of Elections&lt;/a&gt;:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-On August 21, 2007, the Secretary of State announced a public hearing to examine ES&amp;S&#39;s sale of uncertified AutoMARK machines to five California counties, including San Francisco.  In April 2006, San Francisco purchased 565 AutoMARKs from ES&amp;S for $6,185.89 per machine, paying a total purchase price of nearly $3.5 million.  Unbeknownst to San Francisco at the time of the purchase, and as later reported by the Secretary of State, these 565 machines (as well as 407 AutoMARKs sold to other California counties) were uncertified.&lt;br /&gt;
- &lt;br /&gt;
-Shortly after receiving the Secretary of State&#39;s statement, the Director of Elections confirmed that the voting machines ES&amp;S sold San Francisco in April 2006 for use in the June 2006 and subsequent elections were the uncertified AutoMARK Model A200 machines.  But at the time of the sale, ES&amp;S represented to San Francisco that it was providing AutoMARK Model A100 machines, which had been previously certified by the Secretary of State in August 2005, roughly seven months prior to San Francisco&#39;s purchase.  In fact, the machines ES&amp;S provided were AutoMARK Model A200 machines, which had not been certified by the Secretary of State.  Unaware that ES&amp;S&#39;s representations that the machines were certified were false, San Francisco unwittingly used what turned out to have been uncertified AutoMARK ballot marking machines in both the June 2006 and November 2006 elections. &lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;Ed Felten&#39;s Freedom to Tinker blog on &lt;a href=&#34;http://www.freedom-to-tinker.com/?p=1269&#34;&gt;California review of the ES&amp;S AutoMARK and M100&lt;/a&gt;:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-Yet still, they note that “We are not aware of any public device that has more flexibility in accommodating the wide range of physical and dexterity abilities that voters may have. The key, as always, is whether pollworkers and voters will be able to identify and implement the optimal input system without better guidance or expert support. In fact, it may be that the more flexible a system is, the more difficult it is for novices to navigate through the necessary choices for configuring the access options in order to arrive at the best solution.” One of their most striking findings was how long it took test subjects to use the system. Audio-only voters needed an average of almost 18 minutes to use the machine on a simplified ballot (minimum 10 minutes; maximum 35 minutes). Write-in votes were exceptionally difficult. And, again, this is arguably one of the best voting systems available, at least from an accessibility perspective.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;Vote early (you might need the extra time!)&lt;/p&gt;
-</description>
+      <description>The primaries in Michigan are tomorrow, August 5 2008.
+If you want a sample ballot, go to the Michigan Voter Information Center run by the Michigan Secretary of State. You&#39;ll put in your voter information, and it will come up with a list of elections on the ballot. Publius also generates Michigan sample ballots, as does the MLive Voter Guide.
+The list of Washtenaw County precinct locations is kept by the County Clerk and Register of Deeds, Larry Kestenbaum.</description>
     </item>
     
     <item>
@@ -199,42 +88,8 @@ Yet still, they note that “We are not aware of any public device that has more
       <pubDate>Tue, 06 May 2008 21:47:47 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-05-06-ann-arbor-may-6/</guid>
-      <description>&lt;p&gt;I&#39;ll link to election results when they go online here.  &lt;a href=&#34;http://www.ewashtenaw.org/government/clerk_register/elections/election_results&#34;&gt;The Washtenaw County site has the official results.&lt;/a&gt;  The &lt;A href=&#34;http://blog.mlive.com/annarbornews/2008/05/ann_arbor_millage_renewals_lea.html&#34;&gt;Ann Arbor News&lt;/a&gt; has coverage on the blog, but, true to form, they don&#39;t link to the official results site in their coverage.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://electionresults.ewashtenaw.org/may2008/cumulativereport.html&#34;&gt;Early returns&lt;/a&gt; (63% counted at 9:30pm) have both Ann Arbor millage proposals passing 3-1, and incumbent school board member Helen Gates-Bryant leading 2-1.  Voter turnout looks like it&#39;s going to be less than 10% county wide. &lt;/p&gt;
-
-&lt;p&gt;This is the second election that I&#39;ve tried to vote using the AutoMARK machines used to provide assistive technology for those with low vision.  The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/01/michigan-primar.html&#34;&gt;first time I tried this back in January I failed to make it work&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-The technological snafu was voting as though I was a vision-impaired voter and trying to use the AutoMARK machines provided for that purpose.... The machine marks ballots with audio prompting; it has awful industrial design, a very clumsy ballot shield, the poll workers had not run a real ballot through it all day (just a sample ballot), and when it spat back my ballot a half dozen times they directed me to the hand marked ballot booth rather than spoiling the ballot and starting with a new piece of paper.
-&lt;/blockquote&gt;
-
-&lt;p&gt;I got to the polling place a little bit earlier this time and tried it again.  It misbehaved the same way, but this time there was time to figure it out, so the poll workers called in their expert who drove over to help figure it out.  The solution ended up to be very simple: the detachable stub on the ballot must be detached before putting the ballot into the machine, despite the very clear instructions on that stub not to detach it, and with no visible instructions to detach it anywhere on the AutoMARK machine.&lt;/p&gt;
-
-&lt;p&gt;I was able to find with some digging a &lt;a href=&#34;http://www.michigan.gov/documents/sos/ElectionDayGuide_174575_7.pdf&#34;&gt;AutoMARK Troubleshooting Guide&lt;/a&gt;, which mentions two possible solutions: either remove the stub before putting the ballot into the machine, or program the machine to recognize the stub.  I don&#39;t know whether this stub length programming is possible with the ballots we are using.&lt;/p&gt;
-
-&lt;blockquote&gt;If the ballot has a stub, 
-the stub length may not 
-have been entered into the 
-election setup information.&lt;/blockquote&gt;
-
-&lt;p&gt;Note that the system did work with the sample ballot tested by the poll workers - but the sample ballot did not have a stub at the top!  &lt;/p&gt;
-
-&lt;p&gt;Note for next time: vote early (and vote often), and tear the stub off before inserting the ballot into the AutoMARK machine, despite all of the instructions to the contrary.&lt;/p&gt;
-
-&lt;p&gt;UPDATE:&lt;/p&gt;
-
-&lt;p&gt;More AutoMARK issues, as I find them around the net:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.adaweb.net/departments/ClerkAuditorRecorder/Response3.asp&#34;&gt;Ada County, ID&lt;/a&gt;:  &#34; About 90% of the precincts encountered problems testing the machines because the stub was still attached. This is clearly our fault. The ballots we trained with did not have stubs on them. We never thought about the significance of that and obviously the manufacturer did not consider that either&#34;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.co.contra-costa.ca.us/depart/sc/grandjury/0405/0504r1.pdf&#34;&gt;Contra Costa County, CA&lt;/a&gt;: &#34;During the March Election, the Grand Jury observed the following:  a. The perforation on the ballot stub, which the voter received, did not always tear cleanly, complicating insertion of the ballot into the scanner. &#34;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-</description>
+      <description>I&#39;ll link to election results when they go online here. The Washtenaw County site has the official results. The Ann Arbor News has coverage on the blog, but, true to form, they don&#39;t link to the official results site in their coverage.
+Early returns (63% counted at 9:30pm) have both Ann Arbor millage proposals passing 3-1, and incumbent school board member Helen Gates-Bryant leading 2-1. Voter turnout looks like it&#39;s going to be less than 10% county wide.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/radio/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Radio on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/radio/</link>
+    <description>Recent content in Radio on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/radio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jul 2015 12:39:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/radio/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Remembering Hazen Schumacher of Jazz Revisited</title>
@@ -14,28 +17,8 @@
       <pubDate>Sun, 19 Jul 2015 12:39:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-hazen-schumacher/</guid>
-      <description>&lt;p&gt;Hazen Schumacher was a radio broadcaster who hosted the popular
-&amp;ldquo;Jazz Revisited&amp;rdquo; show on NPR and Michigan Radio (WUOM) for 30 years.
-He died on July 18, 2015.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://localwiki.org/ann-arbor/Hazen_Schumacher&#34;&gt;Arborwiki&amp;rsquo;s page on Hazen Schumacher&lt;/a&gt;
-has memories of him and his program. The jazz collection that he assembled
-and all of the master tapes for the show are now at the
-&lt;a href=&#34;http://www.bixeibenhamburg.com/&#34;&gt;Jazz Museum Bix Eiben Hamburg&lt;/a&gt;,
-and 24 editions of the program are up online for your listening
-at &lt;a href=&#34;http://bixrevisited.com&#34;&gt;http://bixrevisited.com&lt;/a&gt; .&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Jazz Revisited has reached millions, giving Hazen a good claim
-to be America’s premier jazz educator.&amp;rdquo; (Art Hilgart - IAJRC Journal).
-Bix Eiben Hamburg presents 24 different shows at regular intervals
-for free listening. Dive into the wonderful world of classic Jazz.
-Become part of the great Jazz fan community that already regularly
-uses our service free of charge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/84464117&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&#34;https://vimeo.com/84464117&#34;&gt;A tribute to The Jazz Museum Bix Eiben Hamburg and Jazz Revisited&lt;/a&gt; from &lt;a href=&#34;https://vimeo.com/bixeiben&#34;&gt;Jazz-Museum Bixeibenhamburg&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;In remembrance of The Jazz Museum Bix Eiben Hamburg and a documentary report about the Jazz Revisited Radio Shows!&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>Hazen Schumacher was a radio broadcaster who hosted the popular &amp;ldquo;Jazz Revisited&amp;rdquo; show on NPR and Michigan Radio (WUOM) for 30 years. He died on July 18, 2015.
+Arborwiki&amp;rsquo;s page on Hazen Schumacher has memories of him and his program. The jazz collection that he assembled and all of the master tapes for the show are now at the Jazz Museum Bix Eiben Hamburg, and 24 editions of the program are up online for your listening at http://bixrevisited.</description>
     </item>
     
     <item>
@@ -44,31 +27,10 @@ uses our service free of charge.&lt;/p&gt;
       <pubDate>Sun, 19 Jul 2015 11:52:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-midland-g-227/</guid>
-      <description>&lt;p&gt;Midland G-227 GMRS radio, quantity two, a gift from the
-Wells-Becker Motorcycle Emporium in Dexter, Michigan.&lt;/p&gt;
-
-&lt;p&gt;I replaced batteries in both of them, they take 4xAAA.&lt;/p&gt;
-
-&lt;p&gt;Radio 1 successfully hears static when the (M) monitor
-button is depresssed; Radio 2 hears nothing.&lt;/p&gt;
-
-&lt;p&gt;A manual is at &lt;a href=&#34;http://www.manualslib.com/manual/396326/Midland-G-225.html&#34;&gt;http://www.manualslib.com/manual/396326/Midland-G-225.html&lt;/a&gt;
-which describes the frequencies of the 22 channels it can transmit on.
-A reasonable next step is to get my NooElec SDR tuner out and see if
-I can monitor a transmission. If Radio 2 transmits, I suspect a loose
-connection to the speaker.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Midland-G-227C2-7-Mile-22-Channel-Two-Way/dp/B00008JOMG&#34;&gt;Amazon reviews&lt;/a&gt;
-complain mostly that the range of the radios is not &amp;ldquo;7 miles&amp;rdquo; as
-marketed, but closer to &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; mile to 1 mile on land. That&amp;rsquo;s typical
-for this band as I understand it.&lt;/p&gt;
-
-&lt;p&gt;In the same gift also a Uniden labeled &amp;ldquo;Scramble&amp;rdquo; that has a NOAA
-weather logo on it, so it probably also monitors weather frequencies.
-Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
-
-&lt;p&gt;You can never have too many radios!&lt;/p&gt;
-</description>
+      <description>Midland G-227 GMRS radio, quantity two, a gift from the Wells-Becker Motorcycle Emporium in Dexter, Michigan.
+I replaced batteries in both of them, they take 4xAAA.
+Radio 1 successfully hears static when the (M) monitor button is depresssed; Radio 2 hears nothing.
+A manual is at http://www.manualslib.com/manual/396326/Midland-G-225.html which describes the frequencies of the 22 channels it can transmit on. A reasonable next step is to get my NooElec SDR tuner out and see if I can monitor a transmission.</description>
     </item>
     
     <item>
@@ -77,14 +39,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Sun, 17 May 2015 22:04:12 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</guid>
-      <description>&lt;p&gt;From the fix-it-yourself department, two successful radio repairs in one day.&lt;/p&gt;
-
-&lt;p&gt;For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. &lt;/p&gt;
-
-&lt;p&gt;For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again. I&#39;m especially happy about the Sony because I had feared that it was a complicated repair. There&#39;s some corrosion on the battery terminals and I might be forewarned that would be the first thing to look at again. A discussion of another repair is written up by &lt;a href=&#34;http://idlenot.com/?p=1481&#34;&gt;KE1RI&lt;/a&gt; to replace an audio capacitor, fortunately I haven&#39;t had to do that.&lt;/p&gt;
-
-&lt;p&gt;Both stations are tuned to R Havana Cuba&#39;s Sunday night programming on 6000 KHz.&lt;/p&gt;
-</description>
+      <description>From the fix-it-yourself department, two successful radio repairs in one day.
+For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again.</description>
     </item>
     
     <item>
@@ -93,12 +49,9 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Sun, 19 Apr 2015 21:06:09 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-04-19-w8um-14523-repeater-for-sunday-night-net-19-april-2015/</guid>
-      <description>&lt;p&gt;As seen with gqrx on my Mac.&lt;/p&gt;
+      <description>As seen with gqrx on my Mac.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77c1585970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c77c1585970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-04-19 at 8.15.39 PM&#34; title=&#34;Screen Shot 2015-04-19 at 8.15.39 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77c1585970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The readout on the radio says 145.2169 Mhz instead of 145.2300 Mhz, I think that means the receiver has drifted 16.1 KHz from peak, or perhaps the listed frequency is not what I&#39;m looking at.&lt;/p&gt;
-</description>
+The readout on the radio says 145.2169 Mhz instead of 145.2300 Mhz, I think that means the receiver has drifted 16.1 KHz from peak, or perhaps the listed frequency is not what I&#39;m looking at.</description>
     </item>
     
     <item>
@@ -107,20 +60,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Sat, 11 Apr 2015 22:54:18 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-04-11-2015-skywarn-training/</guid>
-      <description>&lt;p&gt;After three or four years of planning to get Skywarn training, this year I finally did it. The good folks at Washtenaw County Emergency Operations Center and at the National Weather Service in White Lake, MI did a training session at Pioneer High School. The class was concurrent with a Michigan ballroom dancing competition so there was music and festivities and accomplished looking dancers to enjoy before the class.&lt;/p&gt;
-
-&lt;p&gt;I was there with John Hritz KD8MKE and Ann Hanson. Ann captured the opening slide. There was a nifty online multiplayer game (can&#39;t recall the site it was built on) which had 95 people playing along from their smart phones!&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Skywarn Spotter Training in A2 now! Hanging w/ &lt;a href=&#34;https://twitter.com/vielmetti&#34;&gt;@vielmetti&lt;/a&gt; &lt;a href=&#34;https://twitter.com/jhritz&#34;&gt;@jhritz&lt;/a&gt; Thanks &lt;a href=&#34;https://twitter.com/NWSDetroit&#34;&gt;@NWSDetroit&lt;/a&gt; &lt;a href=&#34;http://t.co/0X078Jl5Dg&#34;&gt;pic.twitter.com/0X078Jl5Dg&lt;/a&gt;&lt;/p&gt;&amp;mdash; annyhanny (@annyhanny) &lt;a href=&#34;https://twitter.com/annyhanny/status/586890972371386368&#34;&gt;April 11, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;My spotter ID good for 2 years is 242.&lt;/p&gt;
-
-&lt;p&gt;I brought my radio to the event and made a contact from the car with Marty KD8RGL from Canton MI. We were both using 5 watt radios contacting the W8UM repeater in Ann Arbor - I&#39;m always surprised how well things work when they do work.&lt;/p&gt;
-
-&lt;p&gt;I discovered that it works a lot better to identify myself as &#34;Eddie&#34; when on the air. This because &#34;Ed&#34; gets misinterpreted as &#34;Andy&#34; all too often, and &#34;Edward&#34; seems awfully formal.&lt;/p&gt;
-</description>
+      <description>After three or four years of planning to get Skywarn training, this year I finally did it. The good folks at Washtenaw County Emergency Operations Center and at the National Weather Service in White Lake, MI did a training session at Pioneer High School. The class was concurrent with a Michigan ballroom dancing competition so there was music and festivities and accomplished looking dancers to enjoy before the class.
+I was there with John Hritz KD8MKE and Ann Hanson.</description>
     </item>
     
     <item>
@@ -129,20 +70,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Wed, 17 Dec 2014 15:36:26 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-12-17-listening-to-radio-havana-cuba-via-shortwave/</guid>
-      <description>&lt;p&gt;Radio Havana Cuba was one of my cold war era shortwave radio presets. I don&#39;t have a working shortwave radio of my own any more, and the miracle of the Internet means that you can now tune in broadcasts directly from the broadcaster without the inconvenience of shortwave tuning.&lt;/p&gt;
-
-&lt;p&gt;The best way really to listen to a station like R Havana Cuba is via shortwave. Here are a couple of ways that you can do that. Note that broadcasts in English are not 24 hours a day, and that shortwave reception varies widely by time of day and location of receiving station.&lt;/p&gt;
-
-&lt;p&gt;The key to do this is to acquaint yourself with &lt;a href=&#34;http://websdr.org/&#34;&gt;WebSDR&lt;/a&gt;, a project that allows multiple listeners to tune into the signal of a single wideband radio. You&#39;ll need to pick a receiver that has an antenna that covers the appropriate part of the broadcast band, and you&#39;ll need also a schedule for when the station is broadcasting.&lt;/p&gt;
-
-&lt;p&gt;Many shortwave schedules and stations can be located via &lt;a href=&#34;http://www.short-wave.info/&#34;&gt;short-wave.info&lt;/a&gt;.  &lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0abdf50970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; title=&#34;Screen Shot 2014-12-17 at 3.30.59 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0abdf50970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Given a schedule and a frequency, use WebSDR to find a suitable listening location. My two favorites for monitoring Havana are the original &lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;WedSDR at U Twente&lt;/a&gt; and &lt;a href=&#34;http://96.225.100.244:8902/&#34;&gt;K2SDR in New Jersey&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;Of course you can tune in via &lt;a href=&#34;http://tunein.com/radio/Radio-Havana-Cuba-p1687/&#34;&gt;TuneIn&lt;/a&gt; and get to the broadcast direct. The sound will be more clear, and the reception more reasonable. But there&#39;s really something to be said for experiencing broadcast radio through the medium of radio rather than this newfangled Internet thing.&lt;/p&gt;
-</description>
+      <description>Radio Havana Cuba was one of my cold war era shortwave radio presets. I don&#39;t have a working shortwave radio of my own any more, and the miracle of the Internet means that you can now tune in broadcasts directly from the broadcaster without the inconvenience of shortwave tuning.
+The best way really to listen to a station like R Havana Cuba is via shortwave. Here are a couple of ways that you can do that.</description>
     </item>
     
     <item>
@@ -151,16 +80,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Tue, 09 Dec 2014 01:03:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-12-09-some-notes-on-echolink-and-websdr/</guid>
-      <description>&lt;p&gt;Echolink is a system that lets amateur radio operators transmit from their computer, through a relay at a suitable Echolink server. You have to be a licensed ham to get on the network, and typically there&#39;s a two-way repeater set up to some radio station so that you can hear what&#39;s being said on RF and vice versa.&lt;/p&gt;
-
-&lt;p&gt;websdr is a system that lets anyone listen to a slice of radio spectrum. There are websdr servers running around the globe, each tuned in to some particular slice of the radio waves. Multiple people can tune in at the same time and hear their own piece of the airwaves.&lt;/p&gt;
-
-&lt;p&gt;The interesting thing happens when you connect these two systems together. Some small number of the websdr receivers tune into the 2 meter band, which is the typical band used by Echolink. Using Echolink (or in my case the Mac application Echomac) I identified an Echolink host in the vicinity of the websdr receiver, then connected to it. Sure enough, I was able to hear my call sign back in through the websdr front end.&lt;/p&gt;
-
-&lt;p&gt;This little image shows the result. Transmitted via DM0ZHS, and monitored at http://129.187.5.188:8901/ on 145237.50 kHz, I&#39;m sending from Isen, Germany and receiving the transmission at the Olympic Tower in Munich, Germany.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0a4d614970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0a4d614970c img-responsive&#34; style=&#34;width: 590px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-12-09 at 1.00.38 AM&#34; title=&#34;Screen Shot 2014-12-09 at 1.00.38 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0a4d614970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>Echolink is a system that lets amateur radio operators transmit from their computer, through a relay at a suitable Echolink server. You have to be a licensed ham to get on the network, and typically there&#39;s a two-way repeater set up to some radio station so that you can hear what&#39;s being said on RF and vice versa.
+websdr is a system that lets anyone listen to a slice of radio spectrum.</description>
     </item>
     
     <item>
@@ -169,38 +90,10 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Fri, 05 Sep 2014 21:35:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-05-essential-components-of-ann-arbor-weather-twitter/</guid>
-      <description>&lt;p&gt;Essential components of Ann Arbor Weather Twitter:&lt;/p&gt;
-
-&lt;p&gt;In an emergency, call 911.&lt;/p&gt;
-
-&lt;p&gt;911 trunk lines can go down in storms. The Ann Arbor non-emergency police number is (734) 994-2911, put it in your cell phone.&lt;/p&gt;
-
-&lt;p&gt;Sirens: City sirens are tested on the second Tuesdays of the month at 1 pm. A small handful of us notice this and tweet SIRENS. Generally siren activation in any quantity will prompt twitter chatter. &lt;/p&gt;
-
-&lt;p&gt;Hashtags: #miwx is primary, but I also watch or post to #annarbor and #skywarn.&lt;/p&gt;
-
-&lt;p&gt;Amateur radio: get your ham radio license (check), an inexpensive handheld 2m VHF radio (check), a decent antenna (check), and Skywarn spotter training (to do for 2015). During severe weather monitor N8DUY 145.15 Mhz, located at the corner of I-94 and M-14 in Scio Township. Someone, somewhere, should have a Broadcastify feed for a scanner listening to that channel with backup power and good solid Internet; that&#39;s a missing link right now.&lt;/p&gt;
-
-&lt;p&gt;Who to follow: you&#39;re going to have to figure some of that out by yourself, but the list https://twitter.com/vielmetti/lists/annarbor and https://twitter.com/vielmetti/lists/weather might be a good start.&lt;/p&gt;
-
-&lt;p&gt;Power outages: If you have a smart enough smart phone, get the DTE Energy mobile app. If not, add the DTE Energy number 800-477-4747 to your phone to report outages. Follow @dte_energy and use hashtag #poweroutage I guess. The DTE outage map: http://www.dteenergy.com/map/outage.html . A snapshot of the September 5, 2014 map is below after severe storms knocked out power to more than 10,000 subscribers in Ann Arbor.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e105e16970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73e105e16970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2014-09-05 at 10.05.48 PM&#34; title=&#34;Screen shot 2014-09-05 at 10.05.48 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e105e16970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Location: if you report severe weather or storm damage or a power outage, give a neighborhood name or a cross street. If you don&#39;t know every neighborhood, Arborwiki can be a good place to look them up. Find at least one other person who is geographically nearby to you and follow them - there&#39;s no where near the neighborhood density on Twitter that there is on Facebook or email, but in Ann Arbor at least the network is dense enough.&lt;/p&gt;
-
-&lt;p&gt;Cameras: Post your favorite weather photos or videos to your favorite social network. Note that the current structure of Twitter, Instagram, and Vine all lend themselves to real-time reporting in ways that Facebook does not, but Facebook and Youtube might reach more people over all if your post is interesting. Tag with your favorite hashtag.&lt;/p&gt;
-
-&lt;p&gt;Teenage Twitter: Adults and teens don&#39;t often mix on Twitter, so it&#39;s good to follow parents of teens who will relay news and give you a heads up about what&#39;s happening. As an alternative, create a Twitter list of teenagers and don&#39;t follow them but do check in when conditions warrant.&lt;/p&gt;
-
-&lt;p&gt;Adult Twitter: Teens and adults don&#39;t often mix on Twitter, so it&#39;s good to follow teenagers whose parents are also on Twitter who will similarly relay news.&lt;/p&gt;
-
-&lt;p&gt;College Twitter: Sometimes the U of Michigan seems like it&#39;s its own city within a city, but during severe weather the official @umich account will be aware of what&#39;s going on especially if there are alerts that need to go to all students.&lt;/p&gt;
-
-&lt;p&gt;Local government Twitter: In an emergency, call 911. The @a2gov account is not always monitored, but when it is monitored during weather it can be helpful to guide you through the maze of municipal issues to report a problem.&lt;/p&gt;
-
-&lt;p&gt;Real time lightning maps: Several services have real time or near real time lightning. I like the non-commercial blitzortung.org and its companion site lightningmaps.org . &lt;/p&gt;
-</description>
+      <description>Essential components of Ann Arbor Weather Twitter:
+In an emergency, call 911.
+911 trunk lines can go down in storms. The Ann Arbor non-emergency police number is (734) 994-2911, put it in your cell phone.
+Sirens: City sirens are tested on the second Tuesdays of the month at 1 pm. A small handful of us notice this and tweet SIRENS. Generally siren activation in any quantity will prompt twitter chatter. Hashtags: #miwx is primary, but I also watch or post to #annarbor and #skywarn.</description>
     </item>
     
     <item>
@@ -209,22 +102,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Tue, 25 Mar 2014 10:02:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-25-one-day-tech-class-saturday-may-3-2014-9a-3p-at-ann-arbor-hands-on-museum/</guid>
-      <description>&lt;p&gt;From Dan Romanchik KB6NU &lt;a href=&#34;&amp;#x6D;&amp;#x61;&amp;#x69;&amp;#x6C;&amp;#116;&amp;#x6F;:&amp;#x63;&amp;#x77;&amp;#103;&amp;#x65;&amp;#101;&amp;#x6B;&amp;#64;&amp;#x6B;&amp;#98;&amp;#x36;&amp;#x6E;&amp;#x75;&amp;#46;&amp;#99;&amp;#111;m&#34;&gt;&amp;#x63;&amp;#x77;&amp;#103;&amp;#x65;&amp;#101;&amp;#x6B;&amp;#64;&amp;#x6B;&amp;#98;&amp;#x36;&amp;#x6E;&amp;#x75;&amp;#46;&amp;#99;&amp;#111;m&lt;/a&gt; - lightly edited:&lt;/p&gt;
-
-&lt;p&gt;Dan Romanchik, KB6NU will be conducting the next One-Day Tech Class will be held on Saturday, May 3, 2014 from 9am to 3pm at  the Ann Arbor Hands-On Museum, 220 E. Ann St. Ann Arbor, MI 48104.  Immediately after the class, the Technician Class license exam will be administered. &lt;/p&gt;
-
-&lt;p&gt;Pre-registration is required, and there is a $10 fee to take the class. We often fill the class and have to put people on the waiting list. So, if you&#39;d like to take this class, you should send a check or money order sooner rather than later to reserve their spot. Dan&#39;s address is 1325 Orkney Drive, Ann Arbor, MI 48103. People can also pay via PayPal by sending $10 to cwgeek@kb6nu.com.&lt;/p&gt;
-
-&lt;p&gt;There is also a $15 fee to take the test. This fee is payable to the volunteer examiners just before they take the test. DO NOT send me the $15 exam fee.&lt;/p&gt;
-
-&lt;p&gt;Prospective students can download the study guide from &lt;a href=&#34;http://www.kb6nu.com/tech-manual&#34;&gt;www.kb6nu.com/tech-manual&lt;/a&gt;. Read through it a couple of times and take some online practice tests (URLs for practice test websites can be found in the study guide) before taking the test.  They greatly increase the chances that you will pass the test if you do some studying beforehand.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, please send an email to cwgeek@kb6nu.com or phone Dan at 734-930-6564.&lt;/p&gt;
-
-&lt;p&gt;73!&lt;/p&gt;
-
-&lt;p&gt;Dan Romanchik, KB6NU&lt;/p&gt;
-</description>
+      <description>From Dan Romanchik KB6NU &amp;#x63;&amp;#x77;&amp;#103;&amp;#x65;&amp;#101;&amp;#x6B;&amp;#64;&amp;#x6B;&amp;#98;&amp;#x36;&amp;#x6E;&amp;#x75;&amp;#46;&amp;#99;&amp;#111;m - lightly edited:
+Dan Romanchik, KB6NU will be conducting the next One-Day Tech Class will be held on Saturday, May 3, 2014 from 9am to 3pm at the Ann Arbor Hands-On Museum, 220 E. Ann St. Ann Arbor, MI 48104. Immediately after the class, the Technician Class license exam will be administered. Pre-registration is required, and there is a $10 fee to take the class. We often fill the class and have to put people on the waiting list.</description>
     </item>
     
     <item>
@@ -233,22 +112,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Fri, 13 Sep 2013 12:26:11 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-13-listening-to-baseball-online-with-global-tuners-radio/</guid>
-      <description>&lt;p&gt;It&#39;s not easy to do, but with a little bit of perseverance and a little bit of luck you may be able to listen to your favorite baseball team online without an MLB subscription by way of &lt;a href=&#34;http://www.globaltuners.com&#34;&gt;Global Tuners&lt;/a&gt;. Here&#39;s how it works (and why it&#39;s hard).&lt;/p&gt;
-
-&lt;p&gt;First, you&#39;ll need a &lt;a href=&#34;http://www.globaltuners.com&#34;&gt;Global Tuners&lt;/a&gt; account. This service provides you access to dozens of AM, FM, and short wave receivers around the world. The way it works is that the receivers are hooked up to a digital front end that lets you tune them remotely and that plays back the audio through the net. In general only one person can tune in at a time, so it&#39;s first come first served. &lt;/p&gt;
-
-&lt;p&gt;Second, you&#39;ll need to have some idea of which AM and FM stations your favorite team&#39;s radio network covers. For example, the &lt;a href=&#34;http://detroit.tigers.mlb.com/det/schedule/radioaffiliates.jsp&#34;&gt;Detroit Tigers radio network&lt;/a&gt; has AM and FM station ranging from Houghton in the U.P. to Toledo Ohio and Angola Indiana, and the &lt;a href=&#34;http://houston.astros.mlb.com/hou/schedule/radio_affiliates.jsp&#34;&gt;Houston Astros radio network&lt;/a&gt; also covers San Antonio and Shreveport. If the Tigers play the Astros, you can possibly tune to either network&#39;s stations - you&#39;ll either get home or away team coverage.&lt;/p&gt;
-
-&lt;p&gt;Finally, and here&#39;s the tricky part, you&#39;ll want to figure out which of the tuners covers which of the stations you are interested in. As it happens none of the tuners cover any stations that the Tigers routinely broadcast on, but the Astros are on KTKR 760 AM &lt;a href=&#34;http://www.ticket760.com/main.html&#34;&gt;Ticket 760&lt;/a&gt; in San Antonio, and there&#39;s a &lt;a href=&#34;http://www.globaltuners.com/receiver/info.php?r=1155&#34;&gt;receiver in San Antonio&lt;/a&gt; that might be free to listen through to them.&lt;/p&gt;
-
-&lt;p&gt;Figuring out radio channels can be weird - some stations have higher power and transmit over clear channels for long distances, and others don&#39;t cover much more ground than the city they are based in. So the &#34;best&#34; channel to tune in might be for a station that&#39;s powerful but far away. When you search through the MLB.com site for stations, look for the &#34;flagship&#34; station listed, which often broadcasts with higher power and over a greater distance than the other stations in the network. As an example, here&#39;s a report of &lt;a href=&#34;http://globaltuners.blogspot.com/2011/10/knbr.html&#34;&gt;hearing the San Francisco Giants&lt;/a&gt; from a tuner in Phoenix, AZ more than 600 miles away.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The signal was weak at a distance of over 650 miles, with little interference from other stations but some noise and fading.  Nonetheless, the content was usable and the station IDs clear.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The hobby of DXing gets an extra boost when you can tune in to radios that are far away. It&#39;s fun to scan the dial and hear what&#39;s out there. Most tuners have a band scan listing that you can see what&#39;s there. I listen to remote radio stations on &lt;a href=&#34;http://www.tunein.com&#34;&gt;Tunein&lt;/a&gt; as well, but there&#39;s not the same sense of being there when the reception is too perfect, and the baseball powers that be block internet-based games over regular radio channels.&lt;/p&gt;
-</description>
+      <description>It&#39;s not easy to do, but with a little bit of perseverance and a little bit of luck you may be able to listen to your favorite baseball team online without an MLB subscription by way of Global Tuners. Here&#39;s how it works (and why it&#39;s hard).
+First, you&#39;ll need a Global Tuners account. This service provides you access to dozens of AM, FM, and short wave receivers around the world.</description>
     </item>
     
     <item>
@@ -257,13 +122,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Mon, 10 Jun 2013 14:45:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-10-tunein-listen-to-broadcast-radio-from-all-over-the-world/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019103316b58970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Tunein-appicon-free&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019103316b58970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019103316b58970c-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Tunein-appicon-free&#34; /&gt;&lt;/a&gt;I&amp;#39;m fond of &lt;a href=&#34;http://www.tunein.com&#34; target=&#34;_self&#34;&gt;TuneIn&lt;/a&gt;, a free service that lets you tune in to radio broadcasts from all over the world. I used it last night to listen to Pacific Coast League AAA baseball, and I&amp;#39;ve previously tuned in hockey games, news stations from far-away places when there&amp;#39;s breaking news, and the occasional music channel.&lt;/p&gt;
-&lt;p&gt;One of the remarkable things about TuneIn is that they have program schedules for the stations they are following, and so you can get real time updates for what&amp;#39;s playing now and who&amp;#39;s playing whom. The front page rotates new songs that if you&amp;#39;re a quick click you can hear more or less in their entirety as they are being broadcast.&lt;/p&gt;
-&lt;p&gt;A particularly useful part of TuneIn is its &amp;quot;trending&amp;quot; tab, where it gives you real time feedback on which channels have the most activity. When people are listening primarily to music, it&amp;#39;s a slow news day; when the top station is an all-news local channel, there&amp;#39;s breaking news.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://play.google.com/store/apps/details?id=tunein.player&amp;amp;hl=en&#34; target=&#34;_self&#34;&gt;TuneIn Android app&lt;/a&gt; has nearly all of the features of the web site, and it takes advantage of knowing where you are to offer up local stations. In addition there&amp;#39;s a &amp;quot;TuneIn Radio Pro&amp;quot;, which gives you record and rewind for $4.99. There has to be a monetization strategy in there somewhere; they also serve up ads as you connect to some channels.&lt;/p&gt;
-&lt;p&gt;Recommended. For public safety scanner monitoring, &lt;a href=&#34;http://www.broadcastify.com/&#34; target=&#34;_self&#34;&gt;Broadcastify&lt;/a&gt; is a good complement.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;m fond of TuneIn, a free service that lets you tune in to radio broadcasts from all over the world. I used it last night to listen to Pacific Coast League AAA baseball, and I&amp;#39;ve previously tuned in hockey games, news stations from far-away places when there&amp;#39;s breaking news, and the occasional music channel.
+One of the remarkable things about TuneIn is that they have program schedules for the stations they are following, and so you can get real time updates for what&amp;#39;s playing now and who&amp;#39;s playing whom.</description>
     </item>
     
     <item>
@@ -272,9 +132,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Sat, 16 Mar 2013 22:51:35 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-16-the-strait-am-1610-the-station-detroit-electronic-vinyl-on-saturday-nights-10-pm-to-midnight/</guid>
-      <description>&lt;p&gt;One of my favorite radio shows is from an utterly obscure low power AM radio station in Hamtramck, which puts out an ultra lofi low power over-the-air signal on AM 1610 and a digital broadcast on &lt;a href=&#34;http://am1610.org&#34; target=&#34;_self&#34;&gt;http://am1610.org&lt;/a&gt; . The show is &amp;quot;The Strait&amp;quot;, which features Detroit electronic vinyl. It&amp;#39;s on Saturday nights from 10:00 p.m. to midnight, and it&amp;#39;s always worth a listen.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Some day I&amp;#39;ll get to Hamtramck and do an air check and make sure I can actually tune this in - I don&amp;#39;t know if they cover the whole city or just a piece of it.&lt;/p&gt;
-</description>
+      <description>One of my favorite radio shows is from an utterly obscure low power AM radio station in Hamtramck, which puts out an ultra lofi low power over-the-air signal on AM 1610 and a digital broadcast on http://am1610.org . The show is &amp;quot;The Strait&amp;quot;, which features Detroit electronic vinyl. It&amp;#39;s on Saturday nights from 10:00 p.m. to midnight, and it&amp;#39;s always worth a listen.&amp;#0160;
+Some day I&amp;#39;ll get to Hamtramck and do an air check and make sure I can actually tune this in - I don&amp;#39;t know if they cover the whole city or just a piece of it.</description>
     </item>
     
     <item>
@@ -283,12 +142,9 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Sun, 18 Nov 2012 21:48:59 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-11-18-listening-to-and-participating-in-the-w8um-net-for-sunday-november-18-2012/</guid>
-      <description>&lt;p&gt;My friend Dan &lt;a href=&#34;http://www.kb6nu.com/&#34; target=&#34;_self&#34;&gt;KB6NU&lt;/a&gt;&amp;#0160;was network control for the &lt;a href=&#34;http://www.umich.edu/~umarc/net/net.html&#34; target=&#34;_self&#34;&gt;W8UM net&lt;/a&gt; tonight at 8:00 p.m. Eastern&amp;#0160;(145.230 MHz, -600 kHz shift, 100 Hz PL). This was my first try at being on for the net, and so I waited patiently until my radio started making noises other than static.&lt;/p&gt;
-&lt;p&gt;After most everyone else checked in, I hit the transmit button and gave my call sign (KD8OQG) and was acknowledged by Dan.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Among other things discussed tonight:&lt;/p&gt;
-&lt;p&gt;The Amateur Radio Relay League&amp;#39;s &lt;a href=&#34;http://www.arrl.org/logbook-of-the-world&#34; target=&#34;_self&#34;&gt;Logbook of the World&lt;/a&gt;;&lt;br /&gt;Where to get amateur radio gear in Hawaii, for someone traveling there;&lt;br /&gt;The Monday, November 19 2012 performance of the &lt;a href=&#34;http://www.music.umich.edu/special_programs/youth/mye/MYEsymphonyorch.htm&#34; target=&#34;_self&#34;&gt;Michigan Youth Symphony Orchestra&lt;/a&gt; at Hill Auditorium.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;I mostly listened, but it was an enjoyable hour spent, and it&amp;#39;s always good to tune in to a good discussion.&lt;/p&gt;
-</description>
+      <description>My friend Dan KB6NU&amp;#0160;was network control for the W8UM net tonight at 8:00 p.m. Eastern&amp;#0160;(145.230 MHz, -600 kHz shift, 100 Hz PL). This was my first try at being on for the net, and so I waited patiently until my radio started making noises other than static.
+After most everyone else checked in, I hit the transmit button and gave my call sign (KD8OQG) and was acknowledged by Dan.&amp;#0160;
+Among other things discussed tonight:</description>
     </item>
     
     <item>
@@ -297,12 +153,8 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Tue, 13 Nov 2012 17:39:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-11-13-geek-tour-wcbn-fm-control-room-wednesday-november-14-2012/</guid>
-      <description>&lt;p&gt;a2geeks is hosting a tour of the WCBN-FM control room on Wednesday, November 14, 2012. Tours start at 5:30p, 6:30p, and 7:30p, and you should &lt;a href=&#34;http://a2geektour5control.eventbrite.com/&#34; target=&#34;_self&#34;&gt;RSVP for your space&lt;/a&gt;. (I&amp;#39;ll be at the 5:30pm tour.)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wcbn.org&#34; target=&#34;_self&#34;&gt;WCBN&lt;/a&gt; is an amazing student-run radio station at the University of Michigan, founded in 1972 and broadcasting from the basement of the Student Activities Building. Listen live to WCBN at 88.3 FM (all the way to the left on your dial) or &lt;a href=&#34;http://www.wcbn.org/listen.html&#34; target=&#34;_self&#34;&gt;online&lt;/a&gt;. You might need to go online to enjoy it if you live outside the transmission area - this map from the FCC shows an approximate radius of where the station can best be enjoyed, though I&amp;#39;m sure I&amp;#39;ve heard it from further away.&lt;/p&gt;
-&lt;p&gt;Map credit: &lt;a href=&#34;http://transition.fcc.gov/fcc-bin/fmq?call=WCBN&#34; target=&#34;_self&#34;&gt;FCC station database for WCBN-FM&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017ee51306e9970d-pi&#34;&gt;&lt;img alt=&#34;Picture 92&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017ee51306e9970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017ee51306e9970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 92&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>a2geeks is hosting a tour of the WCBN-FM control room on Wednesday, November 14, 2012. Tours start at 5:30p, 6:30p, and 7:30p, and you should RSVP for your space. (I&amp;#39;ll be at the 5:30pm tour.)
+WCBN is an amazing student-run radio station at the University of Michigan, founded in 1972 and broadcasting from the basement of the Student Activities Building. Listen live to WCBN at 88.3 FM (all the way to the left on your dial) or online.</description>
     </item>
     
     <item>
@@ -311,11 +163,97 @@ Indeed, if I tune both of them to channel 4, they hear each other.&lt;/p&gt;
       <pubDate>Tue, 02 Oct 2012 14:04:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-10-02-listening-to-five-channels-of-cbc-radio-2/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://music.cbc.ca/#/radio2/&#34; target=&#34;_self&#34;&gt;
-&lt;/a&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d3c75c439970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Picture 40&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017d3c75c439970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d3c75c439970c-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Picture 40&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://music.cbc.ca/#/radio2/&#34; target=&#34;_self&#34;&gt;CBC&amp;#39;s Radio 2&lt;/a&gt; has 5 channels of online music going at any time, reflecting the need to provide programming from the Atlantic Time Zone to the Pacific Time Zone. Newfoundland, a half hour east of the Atlantic Time Zone, gets a shout out from time to time but not its own time slot.&lt;/p&gt;
-&lt;p&gt;It&amp;#39;s nice to have a choice of five channels, because sometimes you want to have mid-day classical music, and some days you want to have afternoon popular music, and in this way you can just time-shift your listening all from the same page.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>CBC&amp;#39;s Radio 2 has 5 channels of online music going at any time, reflecting the need to provide programming from the Atlantic Time Zone to the Pacific Time Zone. Newfoundland, a half hour east of the Atlantic Time Zone, gets a shout out from time to time but not its own time slot.
+It&amp;#39;s nice to have a choice of five channels, because sometimes you want to have mid-day classical music, and some days you want to have afternoon popular music, and in this way you can just time-shift your listening all from the same page.</description>
+    </item>
+    
+    <item>
+      <title>Global Tuners - listening to far-off radio stations</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-14-global-tuners-listening-to-far-off-radio-stations/</link>
+      <pubDate>Thu, 14 Jun 2012 14:51:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-14-global-tuners-listening-to-far-off-radio-stations/</guid>
+      <description>Global Tuners is a worldwide project for people to share their shortwave radio receivers. There are about 50 tuners around the world, and once you create an account you can log in to each of them, change the tuning settings, and listen to the broadcasts that can be heard in that part of the world.
+
+I have an old shortwave set that was my stepdad&amp;rsquo;s, and so I&amp;rsquo;ve been trying to pull in stations from home.</description>
+    </item>
+    
+    <item>
+      <title>Chasing the elusive weather balloon</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-08-chasing-the-elusive-weather-balloon/</link>
+      <pubDate>Fri, 08 Jun 2012 08:26:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-08-chasing-the-elusive-weather-balloon/</guid>
+      <description>Thursday&amp;#39;s adventure was George Albercook&amp;#39;s launch and successful retrieval of a weather balloon, with a payload of radios, cameras, and GPS telemetry.
+Here&amp;#39;s a map of the telemetry that was visible through APRS.FI&amp;#0160;for the duration of the launch. The device is identified as KC8SBA. Note that for some reason tracking didn&amp;#39;t pick up until a few minutes after the launch, and the tracking was also silent for a while until just before the descent.</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor area FM radio, scanning left to right on your radio dial</title>
+      <link>http://vielmetti.github.io/post/2011/2011-11-17-ann-arbor-area-fm-radio/</link>
+      <pubDate>Thu, 17 Nov 2011 00:49:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-11-17-ann-arbor-area-fm-radio/</guid>
+      <description>A band scan from Ann Arbor, with notes especially on how to get ahold of the station if you like the tunes being played. This list is incomplete, because you can always have a better radio with a better antenna that can pick out one more low power station at the edge of its range. It&#39;s also incomplete, because it only points to stations I&#39;m likely to listen to, and because it&#39;s starting at the left edge of the dial.</description>
+    </item>
+    
+    <item>
+      <title>What do you tune into during severe weather?</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-29-severe-weather/</link>
+      <pubDate>Sun, 29 May 2011 22:02:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-29-severe-weather/</guid>
+      <description>I get all the news I need from the weather report. Here&amp;#39;s where I get the weather report from.
+Twitter, to chat with people who are also in their basements. The local hash tag is #miwx for severe weather. I have a list @vielmetti/weather that I follow for the news.
+Weather Underground for radar and forecasts and what not. I like the classic version of the user interface, which is busy and deep and which I know well enough to navigate.</description>
+    </item>
+    
+    <item>
+      <title>Spooky Talk on AM 1610 The Station</title>
+      <link>http://vielmetti.github.io/post/2011/2011-02-27-spooky-talk-on-am-1610-the-station/</link>
+      <pubDate>Sun, 27 Feb 2011 09:50:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-02-27-spooky-talk-on-am-1610-the-station/</guid>
+      <description>Spooky Talk is the talk show that&amp;#39;s spooky. It&amp;#39;s on weekly on AM 1610 The Station in Hamtramck on Sunday at midnight, after the 10 p.m. The Strait show which plays Detroit electronic vinyl.
+ </description>
+    </item>
+    
+    <item>
+      <title>Changing Gears, NPR project adding staff for Rustbelt local coverage</title>
+      <link>http://vielmetti.github.io/post/2010/2010-08-11-changing-gears-npr-project-adding-staff-for-rustbelt-local-coverage/</link>
+      <pubDate>Wed, 11 Aug 2010 00:34:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-08-11-changing-gears-npr-project-adding-staff-for-rustbelt-local-coverage/</guid>
+      <description>Award-winning journalists from public media, the Web and newspapers are now part of the Changing Gears team. via www.changinggears.info
+National Public Radio launching local coverage out of Cleveland, Ann Arbor, and Chicago.</description>
+    </item>
+    
+    <item>
+      <title>study for the ham radio exam</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-08-study-for-the-ham-radio-exam/</link>
+      <pubDate>Thu, 08 Jul 2010 02:06:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-08-study-for-the-ham-radio-exam/</guid>
+      <description>An online study guide should help.</description>
+    </item>
+    
+    <item>
+      <title>What to do before the network goes down: emergency preparation for Michigan summer storms</title>
+      <link>http://vielmetti.github.io/post/2009/2009-04-30-what-to-do-before-the-network-goes-down-emergency-preparation-for-michigan-summer-storms/</link>
+      <pubDate>Thu, 30 Apr 2009 12:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-04-30-what-to-do-before-the-network-goes-down-emergency-preparation-for-michigan-summer-storms/</guid>
+      <description>Every summer there are thunderstorms in southeastern Michigan, and every year some part of the networks (power, phone, cable, cell phone, traffic lights, twitter) go down.&amp;#0160; Here&amp;#39;s a roundup of some things you can add to your emergency communications checklist so that when the weather goes sour you are prepared to be safe.&amp;#0160; I&amp;#39;m leaving a few of them blank where I don&amp;#39;t know the answer, so check the comments on this for the fill in the blanks.</description>
+    </item>
+    
+    <item>
+      <title>Paul Harvey (as played by Rich Hall), 1987</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-28-paul-harvey-as-played-by-rich-hall-1987/</link>
+      <pubDate>Sat, 28 Feb 2009 22:53:09 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-28-paul-harvey-as-played-by-rich-hall-1987/</guid>
+      <description>Paul Harvey passed away today at the age of 90.
+Rich Hall played him on Saturday Night Live - a clip I can&#39;t find right now - and also in this 1987 Showtime special I found on Youtube.   Time Magazine&#39;s obituary talks a bit about the Rich Hall piece on SNL: A salesman for himself and his vision of the American dream, he was also a master peddler of many products, whose makers were as loyal to Harvey as his listeners.</description>
     </item>
     
   </channel>

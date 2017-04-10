@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/white-beans/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>White Beans on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/white-beans/</link>
+    <description>Recent content in White Beans on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/white-beans/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jan 2014 16:20:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/white-beans/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hoppin&#39; Giovanni (Rapini with white beans)</title>
@@ -14,18 +17,9 @@
       <pubDate>Thu, 02 Jan 2014 16:20:04 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-02-hoppin-giovanni-rapini-with-white-beans/</guid>
-      <description>&lt;p&gt;This simple dish of beans and greens comes from Mary Ann Esposito&#39;s &lt;a href=&#34;http://www.ciaoitalia.com/seasons/season-2200/episode-2221/broccoli-rabe-with-white-beans&#34;&gt;Ciao Italia&lt;/a&gt;. It&#39;s similar in many ways to the traditional &#34;Hoppin&#39; John&#34; served for good luck for the new year.&lt;/p&gt;
-
-&lt;h2&gt;Hoppin&#39; Giovanni&lt;/h2&gt;
-
-&lt;p&gt;Wash and chop a bunch of rapini (broccoli rabe). If you can&#39;t find rapini, some other mild green like turnip greens (or even kale) would work nicely.&lt;/p&gt;
-
-&lt;p&gt;Mince a shallot fine and saute in a large pan in olive oil until fragrant. Add a few generous pinches of red pepper flakes. Put the chopped rapini into the pan and cook until the greens are cooked through.&lt;/p&gt;
-
-&lt;p&gt;Drain and rinse a can of white beans (cannellini). When the greens are cooked through, add the beans and stir. You can add a little more olive oil to the pan at this point if you want to. Stir and then bring back up to heat.&lt;/p&gt;
-
-&lt;p&gt;Serve hot. This would go good with pasta.&lt;/p&gt;
-</description>
+      <description>This simple dish of beans and greens comes from Mary Ann Esposito&#39;s Ciao Italia. It&#39;s similar in many ways to the traditional &#34;Hoppin&#39; John&#34; served for good luck for the new year.
+Hoppin&#39; Giovanni Wash and chop a bunch of rapini (broccoli rabe). If you can&#39;t find rapini, some other mild green like turnip greens (or even kale) would work nicely.
+Mince a shallot fine and saute in a large pan in olive oil until fragrant.</description>
     </item>
     
   </channel>

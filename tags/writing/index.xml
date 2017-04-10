@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/writing/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Writing on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/writing/</link>
+    <description>Recent content in Writing on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jul 2015 15:47:24 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>diligently editing and converting for production</title>
@@ -14,54 +17,8 @@
       <pubDate>Wed, 15 Jul 2015 15:47:24 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-15-diligently-editing-and-converting-for-production/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m trying my best to get this blog ready for production.
-The tasks remaining include the following.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Get a reasonable home page with pagination. Somehow I need
-to provide some kind of access to almost 2000 posts, and they
-don&amp;rsquo;t all fit on a single page. Sort through the design to make
-old things reachable, and then worry next about the formatter.
-(This is done at least minimally, though the provided paginator
-interface uses a list structure that&amp;rsquo;s not nice. Still, it gets
-me to what I need to in a ping.) Open discussion on gohugo is
-&lt;a href=&#34;http://discuss.gohugo.io/t/pagination-and-group-by-date/1441/3&#34;&gt;Pagination and group by date&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Publish to Github Pages, using vielmetti.github.io. I did this
-once (using Octopress) so it should be straightforward to do it again.
-I already do have a proper github repo (or nearly proper, it may
-be missing some key bits). Done; don&amp;rsquo;t have a perfect build script
-yet, but there&amp;rsquo;s at least a start.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Import all sorts more nonsense here, including a bunch of Superpatron
-and Blogger&amp;rsquo;s Secret and FOIA Coordiator weblogs. There&amp;rsquo;s no particular
-reason not to make it all one big soup. Import from Typepad is problematic
-but not impossible and that would be a good addition to the supported work;
-in particular it&amp;rsquo;s not evidently possible to export Markdown from Typepad,
-just HTML.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Sort out theme issues so that I get a reasonable display for category
-and subcategory pages. I may have to write some things down by hand
-to get an understanding of what I really want. As it is right now
-those pages render as blank, in part because I need to convert a bunch
-of data imperfectly imported, which was throwing errors in my
-templates, which in turn was breaking the build. Dealing with the
-errored out builds is a question again for gohugo,
-&lt;a href=&#34;http://discuss.gohugo.io/t/taxononomy/1445&#34;&gt;taxononomy&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Deal with the date problems. Lots of dates got imported without a timezone,
-but that was not the real issue; the real issue was also that lots got
-imported with &amp;ldquo;layout: post&amp;rdquo;. Take that out and it seems to fix things.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Request a dump of the image cache from Typepad.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Implement, somehow, &amp;ldquo;edit on github&amp;rdquo; so that my workflow is easier.
-This might only be on the preview version. Some notes on the Hugo discussion
-forums
-describing how to do that are on
-&lt;a href=&#34;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&#34;&gt;How to implement “edit this page on github”?&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>I&amp;rsquo;m trying my best to get this blog ready for production. The tasks remaining include the following.
+ Get a reasonable home page with pagination. Somehow I need to provide some kind of access to almost 2000 posts, and they don&amp;rsquo;t all fit on a single page. Sort through the design to make old things reachable, and then worry next about the formatter. (This is done at least minimally, though the provided paginator interface uses a list structure that&amp;rsquo;s not nice.</description>
     </item>
     
     <item>
@@ -70,22 +27,9 @@ describing how to do that are on
       <pubDate>Fri, 26 Sep 2014 09:38:19 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-26-write-every-day/</guid>
-      <description>&lt;p&gt;How do you produce so much writing? It is simple. All you have to do is sit down every single day and write.&lt;/p&gt;
-
-&lt;p&gt;There is nothing like a daily deadline to focus the mind.&lt;/p&gt;
-
-&lt;p&gt;Weblogs do not impose an external deadline. No editor is asking you when your work is going to be ready, and no producer is going to feed you copy. It is just you up against the elements, bravely typing away alone and hoping that your focus is not distracted by systems problems.&lt;/p&gt;
-
-&lt;p&gt;Writing all the time is a habit. Some parts of the writing week are easy, when it is just you talking to the page and getting fully formed thoughts out as fast as the keyboard or screen will let you. Other days it&#39;s a struggle just to come up with anything that anyone would possibly want to read again.&lt;/p&gt;
-
-&lt;p&gt;The weblog is a mature writing format. The tools are not evolving, and new startups are not appearing with whizzy new high concept takes on the form. The fancy new school tools are for essayists (Medium) or for micro bloggers (Ello). I am happy to see incremental improvements at Typepad to make responsive designs easier to put together, but that is a refinement and not an evolutionary change.&lt;/p&gt;
-
-&lt;p&gt;Due to an unfortunate incident with a cup of coffee, my medium of choice at the moment is a mobile phone browser. The small screen gives me about a paragraph of text as context for my writing, and the input box on Typepad&#39;s dashboard is just competent enough to make this no harder than it should be.&lt;/p&gt;
-
-&lt;p&gt;I think about other things I wish I did every day, knowing full well that there are only so many daily habits you can sustain. Facebook wants to catch you every day on the birthday treadmill, your dentist wants you to floss your teeth, the pedometer wants to be logged, the dishes washed, the cats fed u.s.w. My morning wants a cup of coffee, and the daily coffee and WiFi lends itself to blogging. &lt;/p&gt;
-
-&lt;p&gt;I aspire to being a daily blogger, but I am not one. It is good to have goals.&lt;/p&gt;
-</description>
+      <description>How do you produce so much writing? It is simple. All you have to do is sit down every single day and write.
+There is nothing like a daily deadline to focus the mind.
+Weblogs do not impose an external deadline. No editor is asking you when your work is going to be ready, and no producer is going to feed you copy. It is just you up against the elements, bravely typing away alone and hoping that your focus is not distracted by systems problems.</description>
     </item>
     
     <item>
@@ -94,35 +38,7 @@ describing how to do that are on
       <pubDate>Fri, 28 Dec 2012 02:02:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-12-28-750wordscom-a-writing-environment-for-a-daily-writing-exercise/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://750words.com&#34;&gt;This system has you writing 750 words each day.
-&lt;/a&gt;
-&lt;p&gt;
-I&amp;#39;ve already written 750 words today, &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2012/12/750-words-on-blogging-memory-and-forgetting-ive-been-blogging-for-a-long-time-and-writing-online-for-longer-than-that-27.html&#34; target=&#34;_self&#34;&gt;a long essay on blogging, forgetting, and remembrance&lt;/a&gt;. It was pretty good, and I was pretty happy with it. At one point it was 830 words but I cut it down to size, removing a paragraph and tightening up a few phrases.
-&lt;/p&gt;
-&lt;p&gt;
-The goal of the 750 words site is to get you into a habit of writing that many words each and every day. It&amp;#39;s not necessary to publish them, but simply to get them down onto the screen. The technique is similar to the &amp;quot;&lt;a href=&#34;http://juliacameronlive.com/basic-tools/morning-pages/&#34; target=&#34;_self&#34;&gt;morning pages&lt;/a&gt;&amp;quot; of The Artist&amp;#39;s Way, but instead of pen and paper you type. By typing for long enough you get over the initial hurdle of getting anything down and instead start to get into a groove of reflection, introspection, creativity and insight. Or so that&amp;#39;s the thought.
-&lt;/p&gt;
-&lt;p&gt;
-I&amp;#39;m not certain that I can keep up with this over the long haul, but it&amp;#39;s an appealing construct to have a simple-minded goal that&amp;#39;s more productive than the alternative of playing solitaire, Flood It, or Sudoku. A Sudoku game eats up 20 minutes, which should be enough time to crank out most of a 750 word essay.
-&lt;/p&gt;
-&lt;p&gt;
-Hitting a precise word count improves my prose. I write something that&amp;#39;s too long, and then use some extra time to omit needless words until the total is the correct size. &amp;quot;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2005/01/fill_the_input_.html&#34; target=&#34;_self&#34;&gt;Fill the input box exactly&lt;/a&gt;&amp;quot; is the mantra, and it serves two masters. First, it allows you to write quickly knowing full well that there will be words to cut when you&amp;#39;re done. Second, it keeps the editorial role in abeyance until the whole piece has been worked to the end. It&amp;#39;s better to cut words only when there are too many of them.
-&lt;/p&gt;
-&lt;p&gt;
-The 750 Words writing environment is spare. There&amp;#39;s no formatting, no linking, no permalinks to worry about and no readers. It&amp;#39;s just you on the page, typing away madly with the word count goal at the bottom right hand corner. Writer&amp;#39;s block is the only barrier, and since there&amp;#39;s no expectation of publication it doesn&amp;#39;t even have to come out precisely right. Just keep typing until you are done with filling up the box.
-&lt;/p&gt;
-&lt;p&gt;
-I started to try to write an index to Vacuum as an exercise in organization, and what I found was that the tools I have for rereading the that text are too weak. What I really want to do is &lt;a href=&#34;http://help.typepad.com/back_up.html&#34; target=&#34;_self&#34;&gt;download the whole stinking mess&lt;/a&gt; and put it into some kind of file system that I can grep through. What words did I use, and when? Have I usefully repeated myself? Is there some clever phrase that gets used too much? All of that is easy enough to construct with the right text analysis environment, but very hard with just Google&amp;#39;s searching tools at my disposal.
-&lt;/p&gt;
-&lt;p&gt;
-Organizing a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2006/12/word_hoard.html&#34; target=&#34;_self&#34;&gt;word hoard&lt;/a&gt;, especially an exceptionally varied one, is very hard work. I have a shelf full of paper notebooks dating back to the 1990s with words in them that perhaps deserve to be unearthed and reanimated for the net, but it&amp;#39;s so hard to know without a very laborious process of reading through them one page at a time, puzzling out the inscriptions and deciding which would have been better forgotten. I know there&amp;#39;s interesting work there mixed in with the sketches and the odd lists of people to call.&lt;/p&gt;
-&lt;p&gt;Twenty words to go.&lt;/p&gt;
-&lt;p&gt;
-In conclusion, &lt;a href=&#34;http://750words.com&#34; target=&#34;_self&#34;&gt;750 words&lt;/a&gt; is a system which encourages you to write 750 words of disposable throwaway prose every day. If it turns out that you can reuse some of it, so much the better! I think this essay might have about 400 useful words in it, and I&amp;#39;ll try to pull them out for Vacuum.&lt;/p&gt;
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-&lt;p&gt;I ended up throwing away two whole paragraphs from the original edit of this essay, so the word count is only about 650. The time to edit the whole thing was almost as long as the time to write it.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>This system has you writing 750 words each day.   I&amp;#39;ve already written 750 words today, a long essay on blogging, forgetting, and remembrance. It was pretty good, and I was pretty happy with it. At one point it was 830 words but I cut it down to size, removing a paragraph and tightening up a few phrases.  The goal of the 750 words site is to get you into a habit of writing that many words each and every day.</description>
     </item>
     
     <item>
@@ -131,14 +47,8 @@ In conclusion, &lt;a href=&#34;http://750words.com&#34; target=&#34;_self&#34;&g
       <pubDate>Fri, 24 Jun 2011 10:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-24-unpolished-open-notebook/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Steve Crocker, &lt;a href=&#34;http://tools.ietf.org/html/rfc3&#34; target=&#34;_self&#34;&gt;Internet Request for Comments 3&lt;/a&gt;, from 1969: &amp;quot;There is a natural hesitancy to publish something unpolished, and we hope to ease this inhibition.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;From time to time, someone reads Vacuum and comments that the writing looks unpolished and incomplete. Why would you publish this kind of work, which obviously isn&amp;#39;t up to the standards that would let you sell it to someone for use in print? Why wouldn&amp;#39;t you hide it in your notebooks?&lt;/p&gt;
-&lt;p&gt;I&amp;#39;m using this weblog as a notebook, and publishing my notes for myself instead of always as a tightly edited, polished, finished work. By exposing this part of a process I hope to be prepared to find some way to make myself understood, even if I don&amp;#39;t completely understand myself immediately as I write through an issue or question. Thoughts go in, get refined as far as they need to be to make them coherent, and then go onto the net and into the world so that there&amp;#39;s room for the next piece to emerge.&lt;/p&gt;
-&lt;p&gt;The open notebook is going to be messy, but it also means that I have some hope of finding my own half-finished work and revisiting it years later; when I don&amp;#39;t do that, there&amp;#39;s always something lost. Writing this way lets me tune into ideas, spin them around for a bit until I have a clearer focus, and move on. In most cases, I&amp;#39;m not ready to make things shiny and neat, and I&amp;#39;m content to explore facets of an unpolished gem over a series of years.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Previously, because I put it out there in first draft format so that I could find it again: &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/03/first-version-coherent.html&#34; target=&#34;_self&#34;&gt;make the first version coherent&lt;/a&gt; (from 2011); &amp;#0160;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/09/creativity-vs-p.html&#34; target=&#34;_self&#34;&gt;creativity vs productivity&lt;/a&gt;&amp;#0160;(from 2008); on &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2007/04/shitty_first_dr.html&#34; target=&#34;_self&#34;&gt;shitty first drafts&lt;/a&gt; (from 2007); &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2004/05/my_quadrille_no.html&#34; target=&#34;_self&#34;&gt;wishing that my weblog looked more like my quadrille notebooks&lt;/a&gt; (from 2004).&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;br /&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;br /&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Steve Crocker, Internet Request for Comments 3, from 1969: &amp;quot;There is a natural hesitancy to publish something unpolished, and we hope to ease this inhibition.&amp;quot;
+From time to time, someone reads Vacuum and comments that the writing looks unpolished and incomplete. Why would you publish this kind of work, which obviously isn&amp;#39;t up to the standards that would let you sell it to someone for use in print? Why wouldn&amp;#39;t you hide it in your notebooks?</description>
     </item>
     
   </channel>

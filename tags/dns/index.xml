@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/dns/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Dns on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/dns/</link>
+    <description>Recent content in Dns on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2017 10:00:01 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Happy leap second (or mostly happy) and happy new year for 2017</title>
@@ -14,87 +17,10 @@
       <pubDate>Sun, 01 Jan 2017 10:00:01 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2017/2017-01-01-leap-second/</guid>
-      <description>
-
-&lt;p&gt;Happy new year, and from a technology perspective, also happy leap second.&lt;/p&gt;
-
-&lt;p&gt;[image: timekeeping for the leap second, from FSM Labs]
-&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Here&amp;#39;s a complete picture of &lt;a href=&#34;https://twitter.com/hashtag/leapsecond?src=hash&#34;&gt;#leapsecond&lt;/a&gt; 2016. &lt;a href=&#34;https://t.co/DFp6XgnPig&#34;&gt;pic.twitter.com/DFp6XgnPig&lt;/a&gt;&lt;/p&gt;&amp;mdash; FSMLabs (@FSMLabs) &lt;a href=&#34;https://twitter.com/FSMLabs/status/815589123121618944&#34;&gt;January 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;As always, when there&amp;rsquo;s a leap second, people get a chance to debug their
-timekeeping code. I guess if they happen frequently enough the code will
-get better exercise and some bugs will be shaken out. Every time
-some government messes with timekeeping, a small army of programmers gets
-a few hours of work to adjust their systems, with some occasional unplanned downtime.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.fsmlabs.com&#34;&gt;FSMLabs&lt;/a&gt; watched the time change closely, and their image above
-shows one peculiarity of reported time: Google&amp;rsquo;s NTP servers
-returned a time that was up to half a second off, slowly creeping
-out of sync with real time and then back into sync. They write
-in a recap, &lt;a href=&#34;http://www.fsmlabs.com/news/2017/01/01/2leapsecondskew2016.html&#34;&gt;Leapsecond 2016 complete&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;You can see that Google starts its 20 hour leap-second “skew” 10 hours before the event and then skews back to the real time. Everyone else stays correct and then has a short error as they “leap” the second and then come back into correct time.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;FSMLabs sells precision timekeeping equipment aimed at the financial
-industry.&lt;/p&gt;
-
-&lt;h3 id=&#34;leap-second-bugs&#34;&gt;Leap second bugs&lt;/h3&gt;
-
-&lt;p&gt;The biggest issue identified was at Cloudflare, a distributed system
-for web cachine.
-&lt;a href=&#34;https://www.cloudflarestatus.com/incidents/1fczgjmknplp&#34;&gt;Some DNS lookups causing 5xx errors due to leap second bug&lt;/a&gt;
-is the incident report.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Starting at 00:00 UTC on January 1, 2017, CNAME resolutions on some machines stopped working due to a bug triggered by the universal addition of one leap second, which affected both some authoritative DNS and origin DNS lookups, causing 5xx errors.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In the real world, the biggest reported issue that could be
-suspicious was reported by the BBC as &lt;a href=&#34;http://www.bbc.com/news/uk-38482746&#34;&gt;London ambulance service hit by new year fault&lt;/a&gt;,
-an account of computer system crashes at London Ambulance Service (LAS)
-that are peculiarly synchronized with the appearance of the leap second.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;It is understood the computer system crashed, so calls had to be recorded by pen and paper for nearly five hours on one of the busiest nights of the year.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;systemd-is-eating-the-world&#34;&gt;Systemd is eating the world&lt;/h3&gt;
-
-&lt;p&gt;Finally in timekeeping news and notes, the &lt;a href=&#34;https://coreos.com/os/docs/latest/configuring-date-and-timezone.html&#34;&gt;CoreOS help pages for timekeeping&lt;/a&gt;
-illustrate the importance of keeping good time within a computing cluster.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;CoreOS clusters use NTP to synchronize the clocks of member nodes, and all machines start an NTP client at boot. CoreOS versions later than 681.0.0 use systemd-timesyncd(8) as the default NTP client. Earlier versions used ntpd(8). Use systemctl to check which service is running:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&amp;ldquo;Systemd is eating the world&amp;rdquo;, and one of the things it has eaten is timekeeping.
-One of the old CoreOS bugs, &lt;a href=&#34;https://github.com/coreos/bugs/issues/391&#34;&gt;systemd-timesyncd not as precise as ntpd&lt;/a&gt;,
-reports that because of systemd-timesyncd&amp;rsquo;s less precise timekeeping there
-are problems with Deis and Ceph. The bug report is from 2015 and was closed
-due to inactivity, but if you have weird problems with CoreOS, Deis, and Ceph,
-check your clocks!&lt;/p&gt;
-
-&lt;h3 id=&#34;notes-and-references&#34;&gt;Notes and references&lt;/h3&gt;
-
-&lt;p&gt;The future timekeeping bug that&amp;rsquo;s most likely to create worldwide
-angst on the scale of Y2K is the
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Year_2038_problem&#34;&gt;Year 2038 problem&lt;/a&gt;,
-which I&amp;rsquo;m counting on helping fix to fund my retirement.&lt;/p&gt;
-
-&lt;p&gt;TimeAndDate News has a &lt;a href=&#34;https://www.timeanddate.com/news/time/&#34;&gt;time zone news&lt;/a&gt; feed,
-which is useful to track worldwide adjustments to and from Daylight Savings Time.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://community.ntppool.org/t/leap-second-2017-status/59&#34;&gt;NTP Pool leap second 2017 status&lt;/a&gt;
-reported that as of a few hours before the leap second, 3463 servers in the pool system were announcing the leap second and 933 were not.
-&lt;a href=&#34;https://community.ntppool.org/users/ask/activity&#34;&gt;Ask Bjørn Hansen&lt;/a&gt; maintains the pool since 2005.&lt;/p&gt;
-
-&lt;p&gt;Hail truechimers, exit falsetickers!&lt;/p&gt;
-
-&lt;h4 id=&#34;updated-2017-01-01t16-07-00-to-add-fsm-labs-london-ambulance-notes-headers&#34;&gt;Updated 2017-01-01T16:07:00 to add FSM Labs, London Ambulance notes, headers&lt;/h4&gt;
-</description>
+      <description>Happy new year, and from a technology perspective, also happy leap second.
+[image: timekeeping for the leap second, from FSM Labs] Here&amp;#39;s a complete picture of #leapsecond 2016. pic.twitter.com/DFp6XgnPig
+&amp;mdash; FSMLabs (@FSMLabs) January 1, 2017 
+As always, when there&amp;rsquo;s a leap second, people get a chance to debug their timekeeping code. I guess if they happen frequently enough the code will get better exercise and some bugs will be shaken out.</description>
     </item>
     
   </channel>

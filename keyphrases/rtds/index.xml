@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/rtds/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Rtds on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/rtds/</link>
+    <description>Recent content in Rtds on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/rtds/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2015 14:40:22 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/rtds/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Simulating a power grid with RTDS</title>
@@ -14,30 +17,9 @@
       <pubDate>Wed, 24 Jun 2015 14:40:22 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-24-simulating-a-power-grid-with-rtds/</guid>
-      <description>&lt;p&gt;Noted as an example of &#34;how do they do that&#34;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The RTDS simulates any user-defined electrical system with models of complex electrical components, such as transmission lines, generators and transformers. The components can be precisely defined to match your equipment characteristics. Through real-time simulation, your relay or control equipment is tested in closed-loop mode, acting on the simulated system as it would in the actual installation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.kinectrics.com/Solutions/Pages/real-time-digital-simulator-rtds.aspx&#34;&gt;Kinetrics&lt;/a&gt; has a page on RTDS describing how it&#39;s used. The vendor of the software is &lt;a href=&#34;https://www.rtds.com/&#34;&gt;RTDS Technologies&lt;/a&gt; which describes it also thusly:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are the pioneer and exclusive supplier of this custom hardware and software, which is specifically designed to perform real time electromagnetic transient simulations.&lt;/p&gt;
-  
-  &lt;p&gt;The Simulator operates continuously in real time while providing accurate results over a frequency range from DC to kilohertz range. It is used for closed loop testing of protective relay and control systems, power hardware in the loop studies, and much more.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www4vip.inl.gov/research/real-time-digital-simulator/&#34;&gt;Idaho National Laboratory has one of these simulators&lt;/a&gt;. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The system’s graphical user interface, proprietary software and mathematical algorithms can simulate any modern electric power grid configuration. As new equipment or components are added or subtracted from the simulator’s configuration, the model instantly updates. For example, INL researchers can run simulated system–failure scenarios such as a control system cyber intrusion or a physical damage event such as a terrorist attack or natural disaster and instantly detect the order and reasoning for why dedicated relays, breakers or substations failed.&lt;/p&gt;
-  
-  &lt;p&gt;The ability to simulate real–time power grid information is a key factor in detecting previously unknown vulnerabilities and providing emergency planners with a path forward for responding to grid failures. The RTDS Simulator enables power industry experts to define the network configuration and run real time tests for many aspects of service life allowing system problems to be discovered faster, and solutions to be designed and tested immediately.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Handy then that you don&#39;t need to have a real blackout to experiment with the effects of a blackout!&lt;/p&gt;
-</description>
+      <description>Noted as an example of &#34;how do they do that&#34;
+ The RTDS simulates any user-defined electrical system with models of complex electrical components, such as transmission lines, generators and transformers. The components can be precisely defined to match your equipment characteristics. Through real-time simulation, your relay or control equipment is tested in closed-loop mode, acting on the simulated system as it would in the actual installation.
+ Kinetrics has a page on RTDS describing how it&#39;s used.</description>
     </item>
     
   </channel>

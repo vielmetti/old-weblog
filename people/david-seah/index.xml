@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/david-seah/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>David Seah on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/david-seah/</link>
+    <description>Recent content in David Seah on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/david-seah/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Nov 2008 11:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/david-seah/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>on tracking the minimum aliquot of attention</title>
@@ -14,8 +17,10 @@
       <pubDate>Thu, 13 Nov 2008 11:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-13-on-tracking-the-minimum-aliquot-of-attention/</guid>
-      <description>&lt;p&gt;&lt;p&gt;on time tracking, in general, &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2007/02/its_hard_to_hav.html&#34;&gt;an observation from last year&lt;/a&gt;:&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;p&gt;It&amp;#39;s hard to have great weird ideas when you&amp;#39;re tracking every minute to determine who it gets billed to. The cognitive overhead of deciding which part of your brain gets dinged for each good thought gets in the way of flow.&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;br /&gt;&lt;/blockquote&gt;My days have a lot more specific time points where something needs to happen at a certain time, no compromises. &amp;#0160;School starts and ends at a certain time, and kids need to get out the door and get picked up. &amp;#0160;Any public transit I take has to allow for some amount of minor delays, and there&amp;#39;s dinner to cook in all of that. &amp;#0160;&lt;/div&gt;&lt;br /&gt;&lt;div&gt;My Mac is set to announce the time every quarter hour (to the amusement or annoyance of bystanders) and so part of my inner metronome knows how long that burst of time is. &amp;#0160;If I count the quarter hours of the day the typical daytime day has fewer of them than I would need to get everything done that might come in.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;I am finding myself revisiting time tracking systems, more to give me ambient awareness of time and how much time I can devote to something before the &amp;quot;save&amp;quot; or &amp;quot;publish&amp;quot; key needs to get hit. &amp;#0160;A minimum aliquot of 15 minutes, allowing a little bit of buffer between bursts of productivity, seems like it&amp;#39;s a plausible time chunk to track. &amp;#0160;I know from experience that I can type 300-500 words inside that time, and that&amp;#39;s enough for an extended capture of a single idea with enough loose ends noted to tie them to the next idea.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;An intriguing tool for helping visualize that process is &lt;a href=&#34;http://davidseah.com/tools/ett/alpha/&#34;&gt;David Seah&amp;#39;s Emergent Task Timer&lt;/a&gt;, which gives you a Flash application to help fill out a bubble chart of just exactly what it is you have been doing. &amp;#0160;Combine the quarter hour chime with the bubble chart and maybe just maybe you can figure out which of many possible incremental next step focus points will be sensible. &amp;#0160; The other helpful new to me tool is&amp;#0160;&lt;a href=&#34;http://lifehacker.com/5069708/gmail-labs-adds-google-calendar-other-gadgets-to-sidebar&#34;&gt;the &amp;quot;quick add&amp;quot; part of the Google Calendar sidebar that&amp;#39;s now in Google Mail&lt;/a&gt;, which lets me timestamp what actually happened in a calendar just by typing in a little box. &amp;#0160;&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>on time tracking, in general, an observation from last year:
+
+It&amp;#39;s hard to have great weird ideas when you&amp;#39;re tracking every minute to determine who it gets billed to. The cognitive overhead of deciding which part of your brain gets dinged for each good thought gets in the way of flow.
+My days have a lot more specific time points where something needs to happen at a certain time, no compromises.</description>
     </item>
     
   </channel>

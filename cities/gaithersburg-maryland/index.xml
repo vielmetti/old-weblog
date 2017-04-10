@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/gaithersburg-maryland/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Gaithersburg Maryland on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/gaithersburg-maryland/</link>
+    <description>Recent content in Gaithersburg Maryland on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/gaithersburg-maryland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jun 2008 16:56:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/gaithersburg-maryland/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Montgomery County, MD &#34;boil water&#34; map</title>
@@ -14,19 +17,12 @@
       <pubDate>Tue, 17 Jun 2008 16:56:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-17-montgomery-coun/</guid>
-      <description>&lt;p&gt;The Gaithersburg, MD area has a &#34;boil water&#34; advisory; note the interesting and good use of Google Maps to show the boundaries.  The image will click through to the live map.&lt;/p&gt;
+      <description>The Gaithersburg, MD area has a &#34;boil water&#34; advisory; note the interesting and good use of Google Maps to show the boundaries. The image will click through to the live map.
 
-&lt;p&gt;&lt;a href=&#34;http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=104251136986307601022.00044fce8f1d30eaf7307&#34;&gt;&lt;br /&gt;
-&lt;img alt=&#34;Picture_1&#34; title=&#34;Picture_1&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/17/picture_1.png&#34; border=&#34;0&#34;  /&gt;&lt;br /&gt;
-&lt;/a&gt;&lt;/p&gt;
+thanks to @genehack for the pointers that led me there.
+the news from the washington post:
 
-&lt;p&gt;thanks to &lt;a href=&#34;http://twitter.com/genehack&#34;&gt;@genehack&lt;/a&gt; for the pointers that led me there.&lt;/p&gt;
-
-&lt;p&gt;the news from the &lt;a href=&#34;http://www.washingtonpost.com/wp-dyn/content/story/2008/06/16/ST2008061600854.html&#34;&gt;washington post&lt;/a&gt;:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-A massive rupture in a 48-inch water main disrupted routines across large swaths of Montgomery County yesterday, forcing residents to scramble for sources of safe drinking water and prompting county officials to order about 700 restaurants not to prepare food.&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-</description>
+A massive rupture in a 48-inch water main disrupted routines across large swaths of Montgomery County yesterday, forcing residents to scramble for sources of safe drinking water and prompting county officials to order about 700 restaurants not to prepare food.</description>
     </item>
     
   </channel>

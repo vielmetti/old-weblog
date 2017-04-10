@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/miwx/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Miwx on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/miwx/</link>
+    <description>Recent content in Miwx on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/miwx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2014 21:35:52 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/miwx/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Essential components of Ann Arbor Weather Twitter</title>
@@ -14,38 +17,10 @@
       <pubDate>Fri, 05 Sep 2014 21:35:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-05-essential-components-of-ann-arbor-weather-twitter/</guid>
-      <description>&lt;p&gt;Essential components of Ann Arbor Weather Twitter:&lt;/p&gt;
-
-&lt;p&gt;In an emergency, call 911.&lt;/p&gt;
-
-&lt;p&gt;911 trunk lines can go down in storms. The Ann Arbor non-emergency police number is (734) 994-2911, put it in your cell phone.&lt;/p&gt;
-
-&lt;p&gt;Sirens: City sirens are tested on the second Tuesdays of the month at 1 pm. A small handful of us notice this and tweet SIRENS. Generally siren activation in any quantity will prompt twitter chatter. &lt;/p&gt;
-
-&lt;p&gt;Hashtags: #miwx is primary, but I also watch or post to #annarbor and #skywarn.&lt;/p&gt;
-
-&lt;p&gt;Amateur radio: get your ham radio license (check), an inexpensive handheld 2m VHF radio (check), a decent antenna (check), and Skywarn spotter training (to do for 2015). During severe weather monitor N8DUY 145.15 Mhz, located at the corner of I-94 and M-14 in Scio Township. Someone, somewhere, should have a Broadcastify feed for a scanner listening to that channel with backup power and good solid Internet; that&#39;s a missing link right now.&lt;/p&gt;
-
-&lt;p&gt;Who to follow: you&#39;re going to have to figure some of that out by yourself, but the list https://twitter.com/vielmetti/lists/annarbor and https://twitter.com/vielmetti/lists/weather might be a good start.&lt;/p&gt;
-
-&lt;p&gt;Power outages: If you have a smart enough smart phone, get the DTE Energy mobile app. If not, add the DTE Energy number 800-477-4747 to your phone to report outages. Follow @dte_energy and use hashtag #poweroutage I guess. The DTE outage map: http://www.dteenergy.com/map/outage.html . A snapshot of the September 5, 2014 map is below after severe storms knocked out power to more than 10,000 subscribers in Ann Arbor.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e105e16970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73e105e16970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2014-09-05 at 10.05.48 PM&#34; title=&#34;Screen shot 2014-09-05 at 10.05.48 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e105e16970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Location: if you report severe weather or storm damage or a power outage, give a neighborhood name or a cross street. If you don&#39;t know every neighborhood, Arborwiki can be a good place to look them up. Find at least one other person who is geographically nearby to you and follow them - there&#39;s no where near the neighborhood density on Twitter that there is on Facebook or email, but in Ann Arbor at least the network is dense enough.&lt;/p&gt;
-
-&lt;p&gt;Cameras: Post your favorite weather photos or videos to your favorite social network. Note that the current structure of Twitter, Instagram, and Vine all lend themselves to real-time reporting in ways that Facebook does not, but Facebook and Youtube might reach more people over all if your post is interesting. Tag with your favorite hashtag.&lt;/p&gt;
-
-&lt;p&gt;Teenage Twitter: Adults and teens don&#39;t often mix on Twitter, so it&#39;s good to follow parents of teens who will relay news and give you a heads up about what&#39;s happening. As an alternative, create a Twitter list of teenagers and don&#39;t follow them but do check in when conditions warrant.&lt;/p&gt;
-
-&lt;p&gt;Adult Twitter: Teens and adults don&#39;t often mix on Twitter, so it&#39;s good to follow teenagers whose parents are also on Twitter who will similarly relay news.&lt;/p&gt;
-
-&lt;p&gt;College Twitter: Sometimes the U of Michigan seems like it&#39;s its own city within a city, but during severe weather the official @umich account will be aware of what&#39;s going on especially if there are alerts that need to go to all students.&lt;/p&gt;
-
-&lt;p&gt;Local government Twitter: In an emergency, call 911. The @a2gov account is not always monitored, but when it is monitored during weather it can be helpful to guide you through the maze of municipal issues to report a problem.&lt;/p&gt;
-
-&lt;p&gt;Real time lightning maps: Several services have real time or near real time lightning. I like the non-commercial blitzortung.org and its companion site lightningmaps.org . &lt;/p&gt;
-</description>
+      <description>Essential components of Ann Arbor Weather Twitter:
+In an emergency, call 911.
+911 trunk lines can go down in storms. The Ann Arbor non-emergency police number is (734) 994-2911, put it in your cell phone.
+Sirens: City sirens are tested on the second Tuesdays of the month at 1 pm. A small handful of us notice this and tweet SIRENS. Generally siren activation in any quantity will prompt twitter chatter. Hashtags: #miwx is primary, but I also watch or post to #annarbor and #skywarn.</description>
     </item>
     
     <item>
@@ -54,20 +29,9 @@
       <pubDate>Sun, 29 May 2011 22:02:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-05-29-severe-weather/</guid>
-      <description>&lt;p&gt;I get all the news I need from the weather report. Here&amp;#39;s where I get the weather report from.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;, to chat with people who are also in their basements. The local hash tag is &lt;a href=&#34;https://twitter.com/#!/search/%23miwx&#34; target=&#34;_self&#34;&gt;#miwx&lt;/a&gt; for severe weather. I have a list &lt;a href=&#34;http://twitter.com/vielmetti/weather&#34; target=&#34;_self&#34;&gt;@vielmetti/weather&lt;/a&gt; that I follow for the news.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://wunderground.com&#34; target=&#34;_self&#34;&gt;Weather Underground&lt;/a&gt; for radar and forecasts and what not. I like the &lt;a href=&#34;http://classic.wunderground.com&#34; target=&#34;_self&#34;&gt;classic version of the user interface&lt;/a&gt;, which is busy and deep and which I know well enough to navigate. The &lt;a href=&#34;http://m.wund.com/&#34; target=&#34;_self&#34;&gt;minimalist mobile version of the site&lt;/a&gt;&amp;#0160;is starkly unbusy and works fine even on a relatively dumb smart phone. &amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SKYWARN&lt;/strong&gt;, the local ham radio emergency weather channel. The local repeater is&amp;#0160;&lt;a href=&#34;http://arborwiki.org/city/N8DUY&#34; target=&#34;_self&#34;&gt;N8DUY&lt;/a&gt;, located near I-94 and M-14 in Scio Township, available at&amp;#0160;145.150&amp;#0160;Mhz or via the&amp;#0160;&lt;a href=&#34;http://www.radioreference.com/apps/audio/?action=wp&amp;amp;feedId=5230&#34; target=&#34;_self&#34;&gt;Radio Reference relay online&lt;/a&gt;. This is the single best source of real time news during events.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;http://www.dteenergy.com/map/outage.html&#34; target=&#34;_self&#34;&gt;DTE Energy outage map&lt;/a&gt;&amp;#0160;is good for tracking storm damage starting about 30 minutes after the storm has gone through - you start to pick up which power outages will take a long time to fix. Note in this map below from Sunday, May 29, 2011, that the storm damage near Lansing ends at the DTE boundary; that doesn&amp;#39;t mean there isn&amp;#39;t more storm damage, only that I don&amp;#39;t have a map of the other.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88c2d284970d-pi&#34;&gt;&lt;img alt=&#34;Picture 22&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef014e88c2d284970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef014e88c2d284970d-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 22&#34; /&gt;&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Television&lt;/strong&gt;, which we don&amp;#39;t have for over the air reception. WDIV Channel 4 &amp;quot;Click On Detroit&amp;quot; has useful email weather alerts and a &lt;a href=&#34;http://detroit.justweather.com/&#34; target=&#34;_self&#34;&gt;Detroit JustWeather&lt;/a&gt; page, and WXYZ Channel 7&amp;#39;s &lt;a href=&#34;https://twitter.com/#!/search/%23backchannel&#34; target=&#34;_self&#34;&gt;#backchannel&lt;/a&gt; on Twitter always has good chatter from the news desk there.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AM/FM radio&lt;/strong&gt;. Locally the best bet is &lt;a href=&#34;http://weather.detroit.cbslocal.com/auto/wwjtvV4/MI/Detroit.html&#34; target=&#34;_self&#34;&gt;WWJ &amp;quot;News radio 950&lt;/a&gt;&amp;quot;, with traffic and weather together on the 8&amp;#39;s; it&amp;#39;s intended to be listened to while you are driving, and they do talk&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Weather band radio, &lt;/strong&gt;which speaks in a synthesized scary voice. There are receivers that only turn on when there is an alert in your area, but I don&amp;#39;t have one. &lt;a href=&#34;http://www.crh.noaa.gov/dtx/wxradio.php&#34; target=&#34;_self&#34;&gt;Details from National Weather Service Detroit&lt;/a&gt; about the network of weather radios in the area.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Weather facsimile&lt;/strong&gt;. Again, never have managed to do this, but if you have the right radio you can decode faxes with weather maps on the that are broadcast over the air. Also known as WEFAX, the technology dates from the 1920s. Details if you are good at such things from &lt;a href=&#34;http://www.nws.noaa.gov/om/marine/radiofax.htm&#34;&gt;National Weather Service marine forecast services&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You should be able to get real time notifications of severe weather even if you have no power, no cell tower, and no Internet; that&amp;#39;s why you have batteries for your radio.&lt;/p&gt;
-&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;405&#34; src=&#34;http://www.youtube.com/embed/K0oMPfigUWY&#34; width=&#34;500&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>I get all the news I need from the weather report. Here&amp;#39;s where I get the weather report from.
+Twitter, to chat with people who are also in their basements. The local hash tag is #miwx for severe weather. I have a list @vielmetti/weather that I follow for the news.
+Weather Underground for radar and forecasts and what not. I like the classic version of the user interface, which is busy and deep and which I know well enough to navigate.</description>
     </item>
     
   </channel>

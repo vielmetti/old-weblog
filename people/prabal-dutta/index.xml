@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/prabal-dutta/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Prabal Dutta on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/prabal-dutta/</link>
+    <description>Recent content in Prabal Dutta on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/prabal-dutta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2015 17:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/prabal-dutta/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Commuter North and South</title>
@@ -14,95 +17,10 @@
       <pubDate>Mon, 20 Jul 2015 17:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-20-commuter-north-and-south/</guid>
-      <description>&lt;p&gt;A bus labeled &amp;ldquo;TRAINING&amp;rdquo;. Don&amp;rsquo;t take that one.&lt;/p&gt;
-
-&lt;p&gt;Kayakers in bright yellow kayaks on the Huron River under the bridge on Fuller Road.&lt;/p&gt;
-
-&lt;p&gt;Would it be too much to ask to have wifi actually on the blue bus, or
-is it more reasonable to expect that people have cell data coverage
-everywhere and that wifi on the bus is for long haul buses like Megabus?&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m happy that with Hugo I can have a reasonably complete local blogging
-environment completely independent of having Internet access, so long as I have
-my computer with me. On the other hand doing live-blogging from a phone is
-not possible, not that it ever really was very practical with any previous setup).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&amp;ldquo;Your UMARC shack access code is &amp;hellip;&amp;rdquo; Achievement unlocked.&lt;/p&gt;
-
-&lt;p&gt;The todo list right now for the shack is very short - &amp;ldquo;get in&amp;rdquo;. Now that I&amp;rsquo;m
-in I should have a longer list. There is a lot of gear in that room
-to get familiar with, not least of which is HF equipment with tunable
-and movable antennas.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wired.com/2013/06/twitter-marius-eriksen-finagle/&#34;&gt;Why Twitter Has More Freedom To Innovate Than Google&lt;/a&gt; is a 2013 Wired Magazine writeup.
-Prominently featured are Marius Eriksen, Niels Provos, and Peter Honeyman.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This was in the early aughts, when Eriksen was an undergrad at
-Michigan, studying computer science under a professor and lovable
-eccentric named Peter Honeyman. Known as “Dr. Honey” among the
-undergrads and PhD students at his Center for Information Technology
-Integration, Honeyman was famous for making assignments without
-really making assignments. “He would develop a particular obsession,
-and he would give you random hints about it, but he wouldn’t actually
-tell you what to do,” Eriksen remembers. “You would end up collaborating
-with people on whatever it was, in this freeform way, without much
-direction at all.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I talked to one of Peter&amp;rsquo;s current students. Evan is looking at ways to
-direct RF energy at devices to make them fail in interesting ways.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Stanford, Berkeley, and the University of Michigan are working on the
-&lt;a href=&#34;http://it.slashdot.org/story/15/06/30/1917207/stanford-starts-the-secure-internet-of-things-project&#34;&gt;Secure Internet of Things Project (slashdot)&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Stanford, Berkeley, and the University of Michigan have now started
-the Secure Internet of Things Project, which aims to promote security
-and transparency for IoT devices. They hope to unite regulators,
-researchers, and manufacturers to ensure nascent internet-connected
-tech is developed in a way that respects customer privacy and choice.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The web site has more details at &lt;a href=&#34;http://iot.stanford.edu&#34;&gt;http://iot.stanford.edu&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;Among the presentations at the Secure Internet of Things Project Retreat
-in Half Moon Bay on June 5, 2015 was this by U of Michigan&amp;rsquo;s Prabal Dutta,
-&lt;a href=&#34;http://iot.stanford.edu/retreat15/sitp15-swhw.pdf&#34;&gt;State of the Field: Hardware and Systems&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;(embed deck here, if I can)
-&lt;hr /&gt;&lt;/p&gt;
-
-&lt;p&gt;The LP0965 Antenna is a Log Periodic PCB directional antenna, at 5-6dBi Gain.
-The design is from Kent Britain WA5VJB, and a
-&lt;a href=&#34;http://www.wa5vjb.com/pcb-pdfs/LP8565.pdf&#34;&gt;data sheet for the antenna&lt;/a&gt; describes its
-utility for signals from 850 Mhz to 6500 Mhz. See &lt;a href=&#34;http://wa5vjb.com&#34;&gt;http://wa5vjb.com&lt;/a&gt; for more
-circuit board antennas for use for hobby, wifi, microwave and cellular use.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Traffic jam on Fuller on the return trip, backed up all the way to the river.
-It took about 15 minutes to get through because of construction on westbound
-Fuller taking traffic to one lane. It would have been faster to take the Route 1
-AAATA bus via Pontiac Trail, even though it would have been a considerable detour,
-or to walk to Plymouth Road and take the 2 in.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There was a fire at the Michigan League this afternoon. No sign of any issues
-as I pass by this evening.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The question when taking Commuter South is always where to get off the bus. Today
-I&amp;rsquo;ll take it all the way to the end of its route.&lt;/p&gt;
-</description>
+      <description>A bus labeled &amp;ldquo;TRAINING&amp;rdquo;. Don&amp;rsquo;t take that one.
+Kayakers in bright yellow kayaks on the Huron River under the bridge on Fuller Road.
+Would it be too much to ask to have wifi actually on the blue bus, or is it more reasonable to expect that people have cell data coverage everywhere and that wifi on the bus is for long haul buses like Megabus?
+I&amp;rsquo;m happy that with Hugo I can have a reasonably complete local blogging environment completely independent of having Internet access, so long as I have my computer with me.</description>
     </item>
     
   </channel>

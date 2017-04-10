@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/insects/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Insects on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/insects/</link>
+    <description>Recent content in Insects on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/insects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 May 2012 00:21:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/insects/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Michigan Lyme disease and black-legged tick map</title>
@@ -14,9 +17,9 @@
       <pubDate>Mon, 14 May 2012 00:21:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-05-14-michigan-lyme-disease-and-black-legged-tick-map/</guid>
-      <description>&lt;p&gt;This map is from the Michigan Department of Community Health and was last updated in 2009; it shows counties with confirmed and with risk for Lyme disease based on populations of&amp;#0160;&lt;em&gt;Ixodes scapularis&lt;/em&gt;&amp;#0160;(Black-Legged Tick), the vector species for Lyme disease.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0167667a602f970b-pi&#34;&gt;&lt;img alt=&#34;Michigan-tick-map-SWmichigan_86161_7&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0167667a602f970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0167667a602f970b-500wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Michigan-tick-map-SWmichigan_86161_7&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&#34;http://www.michigan.gov/emergingdiseases/0,4579,7-186-25890_26143-95445--,00.html&#34; target=&#34;_self&#34;&gt;More details from Michigan.gov.&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>This map is from the Michigan Department of Community Health and was last updated in 2009; it shows counties with confirmed and with risk for Lyme disease based on populations of&amp;#0160;Ixodes scapularis&amp;#0160;(Black-Legged Tick), the vector species for Lyme disease.
+
+More details from Michigan.gov.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/deep-learning/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Deep Learning on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2016 15:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Derp Learning</title>
@@ -14,30 +17,9 @@
       <pubDate>Thu, 24 Nov 2016 15:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-11-24-derp-learning/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Derp Learning&amp;rdquo; is a categorization of the mistakes that &amp;ldquo;deep learning&amp;rdquo; techniques
-in artificial intelligence tend to make. It&amp;rsquo;s a typo, but also a deep insight into
-how complex systems fail.&lt;/p&gt;
-
-&lt;p&gt;Some examples to illustrate:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1412.1897&#34;&gt;Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images&lt;/a&gt;, 2014.
-Nguyen describes &amp;ldquo;fooling images&amp;rdquo; that deep neural networks misclassify after being
-trained with a training set. These images are straightforward to construct and
-will fool the network with high confidence.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.dailydot.com/debug/tay-racist-microsoft-twitter/&#34;&gt;Microsoft&amp;rsquo;s racist robot and the problem with AI development&lt;/a&gt;,
-The Daily Dot, 2016. Microsoft&amp;rsquo;s conversational chatbot &amp;ldquo;Tay&amp;rdquo; undergoes some unsupervised learning from Twitter,
-and emerges as a racist Holocaust denier.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bbc.com/news/technology-38092196?ocid=socialflow_twitter&#34;&gt;Convict-spotting algorithm criticised&lt;/a&gt;, BBC, 2016.
-A &lt;a href=&#34;https://arxiv.org/pdf/1611.04135v2.pdf&#34;&gt;paper&lt;/a&gt; from Wu and Zhang purports to find that
-Chinese faces can be automatically classified as criminal based on facial
-characteristics such as the curvature of the upper lip. This &amp;ldquo;research&amp;rdquo;
-hearkens back to the bad old days of phrenology when criminologists
-predicted behavior based on the bumps on people&amp;rsquo;s heads.&lt;/p&gt;
-
-&lt;p&gt;Artificial intelligence doesn&amp;rsquo;t kill people; training data kills people.&lt;/p&gt;
-</description>
+      <description>&amp;ldquo;Derp Learning&amp;rdquo; is a categorization of the mistakes that &amp;ldquo;deep learning&amp;rdquo; techniques in artificial intelligence tend to make. It&amp;rsquo;s a typo, but also a deep insight into how complex systems fail.
+Some examples to illustrate:
+Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images, 2014. Nguyen describes &amp;ldquo;fooling images&amp;rdquo; that deep neural networks misclassify after being trained with a training set. These images are straightforward to construct and will fool the network with high confidence.</description>
     </item>
     
   </channel>

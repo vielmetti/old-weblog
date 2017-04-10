@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/australia/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Australia on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/australia/</link>
+    <description>Recent content in Australia on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/australia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2011 22:57:57 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/australia/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Australia flood map, January 10, 2011</title>
@@ -14,34 +17,11 @@
       <pubDate>Sun, 09 Jan 2011 22:57:57 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-01-09-australia-flood-map-january-10-2011/</guid>
-      <description>&lt;p&gt;Source is the &lt;a href=&#34;http://www.bom.gov.au/australia/flood/&#34; target=&#34;_self&#34;&gt;Australia River and Rainfall Conditions&lt;/a&gt; page from the &lt;a href=&#34;http://www.bom.gov.au/index.shtml&#34; target=&#34;_self&#34;&gt;Australia Bureau of Meteorology&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0148c775a996970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;IDA00009&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0148c775a996970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0148c775a996970c-800wi&#34; title=&#34;IDA00009&#34; /&gt;&lt;/a&gt; &lt;br /&gt;Also of note is the 1 week rainfall map from the &lt;a href=&#34;http://www.bom.gov.au/climate/&#34; target=&#34;_self&#34;&gt;Climate&lt;/a&gt; page on the same source&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e16c0316970b-pi&#34;&gt;&lt;img alt=&#34;Latest&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e16c0316970b image-full&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e16c0316970b-800wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Latest&#34; /&gt;&lt;/a&gt; &lt;br /&gt;More maps and map collections:&lt;/p&gt;
-&lt;p&gt;VerySpatial: &lt;a href=&#34;http://veryspatial.com/2011/01/australian-flood-maps/&#34; target=&#34;_self&#34;&gt;Australian flood maps&lt;/a&gt;. A very good comprehensive collection of flood maps, from which several of the maps below are sourced.&lt;/p&gt;
-&lt;p&gt;Larvatus Proveo: &lt;a href=&#34;http://larvatusprodeo.net/2011/01/11/brisbane-flood-maps-and-up-to-date-flood-information/&#34; rel=&#34;bookmark&#34; title=&#34;Permanent Link: Brisbane flood maps and up to date flood information&#34;&gt;Brisbane flood maps and up to date flood information.&lt;/a&gt; Updated regularly with the latest from this Australian group blog.&lt;/p&gt;
-&lt;p&gt;The Guardian: &lt;a href=&#34;http://www.guardian.co.uk/world/interactive/2011/jan/03/australia-floods-queensland-map&#34; target=&#34;_self&#34;&gt;Australia floods, an interactive map.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Brisbane Business News: &lt;a href=&#34;http://www.brisbanebusinessfinance.com/images/1974_Flood_map.pdf&#34; target=&#34;_self&#34;&gt;1974 Flood map&lt;/a&gt; (pdf). Flood levels for Brisbane neighborhoods during the 1974 floods, showing where the riverbanks overflowed their banks.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://lexiphanic.com/floodmaps/&#34; target=&#34;_self&#34;&gt;Brisbane flood maps&lt;/a&gt;. Detailed maps, neighborhood by neighborhood, of predicted flooding; this site is a mirror, set up after the Brisbane City Council official site went down under heavy load. (pdfs)&lt;/p&gt;
-&lt;p&gt;NASA: &lt;a href=&#34;http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=48456&#34; target=&#34;_self&#34;&gt;Flooding in Rockhampton, Queensland&lt;/a&gt;. Satellite photography with false color showing the extent of the deluge.&lt;/p&gt;
-&lt;p&gt;World News Australia: &lt;a href=&#34;http://www.sbs.com.au/news/article/1458011/Queensland-flood-map&#34; target=&#34;_self&#34;&gt;Queensland flood map&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ABC: &lt;a href=&#34;http://queenslandfloods.crowdmap.com/&#34; target=&#34;_self&#34;&gt;Queensland flood map&lt;/a&gt;, a crowdsourced map.&lt;/p&gt;
-&lt;p&gt;Wikipedia: &lt;a href=&#34;http://en.wikipedia.org/wiki/2010–2011_Queensland_floods&#34; target=&#34;_self&#34;&gt;2010-2011 Queensland Floods&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Personal story, from the &amp;quot;City of Sound&amp;quot; weblog: &lt;a href=&#34;http://www.cityofsound.com/blog/2011/01/flood.html&#34; target=&#34;_self&#34;&gt;Flood&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I&amp;#39;m writing this by candlelight as the power at home went some 12 hours ago now. The irony of using an iPad by candlelight is not lost on me. The iPad is in &amp;#39;flight mode&amp;#39; to conserve power. Though &amp;#39;fight mode&amp;#39; might be better description, as we&amp;#39;re staying put rather than heading out of town. &amp;#39;Fight or flight mode&amp;#39; perhaps.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;On the air, &lt;a href=&#34;http://www.abc.net.au/southqld/&#34; target=&#34;_self&#34;&gt;ABC radio South Queensland&lt;/a&gt;&amp;#0160;has emergency coverage &lt;a href=&#34;http://www.abc.net.au/streaming/events/network2.asx&#34; target=&#34;_self&#34;&gt;streaming audio&lt;/a&gt;&amp;#0160;from their AM radio services.&lt;/p&gt;
-&lt;p&gt;Scanner is running on UStream, &amp;quot;&lt;a href=&#34;http://www.ustream.tv/channel/south-east-qld-flood-scanner&#34; target=&#34;_self&#34;&gt;South east qld flood scanner&lt;/a&gt;&amp;quot;, with audio from emergency services, and video from one of the tv networks (Sky news national?)&lt;/p&gt;
-&lt;p&gt;More audio/video, television from &lt;a href=&#34;http://www.abc.net.au/news/abcnews24/&#34; target=&#34;_self&#34;&gt;ABC News 24&lt;/a&gt;&amp;#0160;(global access).&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;
-&lt;object height=&#34;344&#34; width=&#34;425&#34;&gt;
-&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/kYUpkPTcqPY?fs=1&amp;amp;hl=en_US&amp;amp;rel=0&#34; /&gt;
-&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34; /&gt;
-&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&gt;&lt;embed allowfullscreen=&#34;true&#34; allowscriptaccess=&#34;always&#34; height=&#34;344&#34; src=&#34;http://www.youtube.com/v/kYUpkPTcqPY?fs=1&amp;amp;hl=en_US&amp;amp;rel=0&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;425&#34; /&gt;
-&lt;/object&gt;
-&lt;/p&gt;
-</description>
+      <description>Source is the Australia River and Rainfall Conditions page from the Australia Bureau of Meteorology.
+ Also of note is the 1 week rainfall map from the Climate page on the same source
+ More maps and map collections:
+VerySpatial: Australian flood maps. A very good comprehensive collection of flood maps, from which several of the maps below are sourced.
+Larvatus Proveo: Brisbane flood maps and up to date flood information.</description>
     </item>
     
     <item>
@@ -50,27 +30,9 @@
       <pubDate>Sun, 08 Feb 2009 10:21:57 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-02-08-australia-victoria-melbourne-area-february-2009-fire-map/</guid>
-      <description>&lt;p&gt;As pulled from the &lt;a href=&#34;http://google-au.blogspot.com/2009/02/mapping-victorian-fires.html&#34;&gt;Google Australia weblog&lt;/a&gt; on the fires in Australia goes into detail and has a live map of the fires, included below.&lt;/p&gt;
-&lt;script src=&#34;http://www.gmodules.com/ig/ifr?url=http://mapvisage.appspot.com/fires/vicfiresgadget.xml&amp;amp;synd=open&amp;amp;w=550&amp;amp;h=400&amp;amp;title=Victoria+Fires+Map&amp;amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;amp;output=js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;As a snapshot of this here&amp;#39;s what it looked like when I grabbed it this morning:
-&lt;br /&gt;
-&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01053718efce970b-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Picture 21&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef01053718efce970b image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01053718efce970b-800wi&#34; title=&#34;Picture 21&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;There&amp;#39;s more maps of fire in Australia at &lt;a href=&#34;http://www.aus-emaps.com/vic_fires.html&#34;&gt;aus-emaps&lt;/a&gt;; this is a link to static copies of maps, which is better than the live image because of heavy server load.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;http://maps.geog.umd.edu/website/Activefire_HTML/viewer.htm?MAP=AUS-ArcIMSparam&amp;amp;DATALIST=,wc,wco,auspa,mafd24,ER,&amp;amp;BANNER=aus_banner&amp;amp;ele_fire=fireAims&amp;amp;requiredMap=Australia&#34;&gt;University of Maryland / NASA MODIS view of Australian fires&lt;/a&gt; has satellite coverage as well as historical coverage so that you can get details on past days fire and previous years.&amp;#0160; &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.aus-emaps.com/about.html&#34;&gt;The best single source I could find for maps of Australia is aus-emaps.&lt;/a&gt; They say about themselves:&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;
-This site brings together a number of third party services to provide a single reference point to a comprehensive collection of online maps of Australia (whole-of-the-continent to street level) and location-specific information.
-
-Our online mapping service is intended to be operational 24/7, however, occasional disruptions may occur. We give no warranties as to its fitness for any purpose or availability since we have no control over services and content provided by others.
-
-This online mapping service may change at any time. See our terms of use for further details.
-
-Special thanks to Mike Williams for his inspirational tutorials and to Google Map Development Team for sharing source code to so many interesting applications. 
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;
-update: a fire map of Australia showing the fire seasons, from the &lt;a href=&#34;http://www.fire.uni-freiburg.de/&#34;&gt;global fire monitoring center at Uni Freiburg&lt;/a&gt;.
-&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011168542701970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Fireseasons&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef011168542701970c &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011168542701970c-800wi&#34; title=&#34;Fireseasons&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-</description>
+      <description>As pulled from the Google Australia weblog on the fires in Australia goes into detail and has a live map of the fires, included below.
+ As a snapshot of this here&amp;#39;s what it looked like when I grabbed it this morning: 
+There&amp;#39;s more maps of fire in Australia at aus-emaps; this is a link to static copies of maps, which is better than the live image because of heavy server load.</description>
     </item>
     
   </channel>

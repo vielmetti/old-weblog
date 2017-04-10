@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/terry-bean/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Terry Bean on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/terry-bean/</link>
+    <description>Recent content in Terry Bean on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/terry-bean/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Dec 2011 21:47:37 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/terry-bean/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The mental rolodex</title>
@@ -14,11 +17,8 @@
       <pubDate>Sat, 17 Dec 2011 21:47:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-12-17-associative-memory-and-the-mental-rolodex/</guid>
-      <description>&lt;p&gt;There&amp;#39;s a great use of the term in an LA Magazine review of &amp;quot;Run Lola Run&amp;quot;:&lt;/p&gt;
-&lt;blockquote&gt;Lola tosses her red phone up in the air and instantly goes through her mental Rolodex of possibilities. Faces flash on the screen. She decides to hit up her banker father and darts out of the house.&lt;/blockquote&gt;
-&lt;p&gt;Credits: the &amp;quot;mental rolodex&amp;quot; term is one I heard first from&amp;#0160;&lt;a href=&#34;http://trybean.com&#34;&gt;Terry Bean&lt;/a&gt;, who used it at an LA2M presentation. It&amp;#39;s also from&amp;#0160;&lt;a href=&#34;http://rebekahburgess.blogspot.com/&#34;&gt;Rebekah Burgess&amp;#39;s weblog of the same name&lt;/a&gt;, where she is doing a daily photograph and filing that away for reference.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;And kids, if you don&amp;#39;t know what a rolodex is, it&amp;#39;s from the days when people had land lines phones only and their phones were so dumb that they didn&amp;#39;t have an address book built into them. Instead, they wrote down phone numbers on little pieces of specially shaped paper, and those pieces of paper fit into a clever device that could be flipped through or (in ultra cool setup) spun like a Ferris wheel.&lt;/p&gt;
-</description>
+      <description>There&amp;#39;s a great use of the term in an LA Magazine review of &amp;quot;Run Lola Run&amp;quot;:
+Lola tosses her red phone up in the air and instantly goes through her mental Rolodex of possibilities. Faces flash on the screen. She decides to hit up her banker father and darts out of the house. Credits: the &amp;quot;mental rolodex&amp;quot; term is one I heard first from&amp;#0160;Terry Bean, who used it at an LA2M presentation.</description>
     </item>
     
   </channel>

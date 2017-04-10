@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/john-harnois/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>John Harnois on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/john-harnois/</link>
+    <description>Recent content in John Harnois on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/john-harnois/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Apr 2015 03:59:20 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/john-harnois/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>a2b3 lunch non-summary for 4th Thursday of April at Argus Farm Stop</title>
@@ -14,8 +17,7 @@
       <pubDate>Sat, 25 Apr 2015 03:59:20 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-04-25-a2b3-lunch-non-summary-for-4th-thursday-of-april-at-argus-farm-stop/</guid>
-      <description>&lt;p&gt;A nice lunch at &lt;a href=&#34;http://argusfarmstop.com&#34;&gt;Argus Farm Stop&lt;/a&gt;. I bought bread for the table, John Harnois supplied hard-boiled duck eggs from &lt;a href=&#34;https://localwiki.org/ann-arbor/Harnois_Farm&#34;&gt;Harnois Farm&lt;/a&gt;, and we had 9 at the table.&lt;/p&gt;
-</description>
+      <description>A nice lunch at Argus Farm Stop. I bought bread for the table, John Harnois supplied hard-boiled duck eggs from Harnois Farm, and we had 9 at the table.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/pop/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Pop on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/pop/</link>
+    <description>Recent content in Pop on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/pop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Jun 2008 12:09:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/pop/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Pop vs. soda: Michigan soft drink name map, with special attention to Upper Peninsula / Wisconsin border issues</title>
@@ -14,19 +17,12 @@
       <pubDate>Wed, 18 Jun 2008 12:09:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-18-pop-vs-soda-mic/</guid>
-      <description>&lt;p&gt;Two versions of this map, one showing survey details, the other aggregating by county.&lt;/p&gt;
+      <description>Two versions of this map, one showing survey details, the other aggregating by county.
 
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&#34;http://popvssoda.com:2998/&#34;&gt;&lt;img alt=&#34;Picture_2&#34; title=&#34;Picture_2&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/18/picture_2.png&#34; border=&#34;0&#34; style=&#34;float: left; margin: 0px 5px 5px 0px;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://popvssoda.com:2998/countystats/total-county.html&#34;&gt;&lt;br /&gt;
-&lt;img alt=&#34;Picture_4&#34; title=&#34;Picture_4&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/18/picture_4.png&#34; border=&#34;0&#34; style=&#34;float: left; margin: 0px 5px 5px 0px;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;p&gt;The great pop vs. soda controversy is a project that Alan McConchie did to survey regional use of generic names for soft drinks.  You&#39;ll see here clearly that Michigan is a &#34;pop&#34; state; the sharp Wisconsin vs. Upper Peninsula divide of soda vs. pop is notable.  You have to do pretty far south into Indiana to see &#34;coke&#34; as the generic.&lt;/p&gt;
 
-&lt;p&gt;Matthew Campbell from East Central University (Oklahoma) took this data set and organized it on county boundaries.  Again Wisconsin vs. UP is clear on the soda/pop scale.  I&#39;ll attribute that to a difference in state law: it&#39;s &#34;pop&#34; if you have to pay a 10 cent deposit on the can, and &#34;soda&#34; if you don&#39;t.&lt;/p&gt;
-</description>
+The great pop vs. soda controversy is a project that Alan McConchie did to survey regional use of generic names for soft drinks. You&#39;ll see here clearly that Michigan is a &#34;pop&#34; state; the sharp Wisconsin vs. Upper Peninsula divide of soda vs. pop is notable. You have to do pretty far south into Indiana to see &#34;</description>
     </item>
     
   </channel>

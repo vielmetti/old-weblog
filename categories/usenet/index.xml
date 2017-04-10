@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/usenet/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Usenet on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/usenet/</link>
+    <description>Recent content in Usenet on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/usenet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Oct 2014 08:42:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/usenet/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>tilde club, day 4: Usenet is back</title>
@@ -14,12 +17,8 @@
       <pubDate>Wed, 15 Oct 2014 08:42:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-15-tilde-club-day-4-usenet-is-back/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://tilde.club&#34;&gt;tilde.club&lt;/a&gt; now has Usenet news, of the very old fashioned sort where there is only a small handful of newsgroups and where people are still figuring out their newsreaders and news hosting systems and where there&#39;s no spam.&lt;/p&gt;
-
-&lt;p&gt;Instructions are at &lt;a href=&#34;http://tilde.club/~emv/usenet&#34;&gt;~emv/usenet&lt;/a&gt;, such as they are; looking to get enough people on board so that there&#39;s a reasonable next step of setting up a feed infrastructure of some kind eventually. The current set of directions are rather plain, but it will get more fancy, just fancy enough to bootstrap but not much more.&lt;/p&gt;
-
-&lt;p&gt;I miss Usenet terribly much, since it&#39;s a place where I spent a lot of time and made a lot of friends. It was horrible when it was deluged in the Eternal September, and it never really recovered. It&#39;s entirely possible that the network can be reconstructed in bits, one little system at a time very selectively feeding groups to other little systems, but it&#39;s going to take some work.&lt;/p&gt;
-</description>
+      <description>tilde.club now has Usenet news, of the very old fashioned sort where there is only a small handful of newsgroups and where people are still figuring out their newsreaders and news hosting systems and where there&#39;s no spam.
+Instructions are at ~emv/usenet, such as they are; looking to get enough people on board so that there&#39;s a reasonable next step of setting up a feed infrastructure of some kind eventually. The current set of directions are rather plain, but it will get more fancy, just fancy enough to bootstrap but not much more.</description>
     </item>
     
   </channel>

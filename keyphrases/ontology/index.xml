@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/ontology/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ontology on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/ontology/</link>
+    <description>Recent content in Ontology on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/ontology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 May 2008 10:00:03 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/ontology/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Reification is an ontological imperative</title>
@@ -14,62 +17,9 @@
       <pubDate>Mon, 19 May 2008 10:00:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-05-19-reification-is/</guid>
-      <description>&lt;p&gt;Reification is an ontological imperative.&lt;/p&gt;
-
-&lt;p&gt;I think that this might be some deep statement about the
-semantic web, but it&#39;s so deep that I really don&#39;t understand it.&lt;/p&gt;
-
-&lt;p&gt;Reification in this sense appears to have something to do with
-taking abstract concepts and making them concrete, turning 
-ad hoc heuristics into code, writing down a set of things into
-a list so that it can be machine processed and sorted, and 
-otherwise taking thoughts and ideas and turning them into bits.&lt;/p&gt;
-
-&lt;p&gt;Ontological has to do with categories and classification, the
-relationships between things, and especially how to create data
-structures to represent these.  In typical ontologies, the result
-is some data structure that looks like a graph, often but not
-necessarily a hierarchy, which puts things into buckets based
-on their essential features.&lt;/p&gt;
-
-&lt;p&gt;If I had to reprocess this through my own experience, it would
-have to do with the relationship between writing things down
-and sorting through them.  Fundamentally, if you are going to
-take a long list of abstractions and make them concrete, you
-get as a necessary side effect the ability to distinguish between
-them and group them into bunches based on attributes that may
-not have been explicit in the abstract conceptions of things.&lt;/p&gt;
-
-&lt;p&gt;To see someone else having thought through the repercussions of
-this, see:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.shirky.com/writings/ontology_overrated.html&#34;&gt;
-Clay Shirky, &#34;Ontology is overrated&#34;&lt;/a&gt;.  On tagging systems
-vs. hierarchical classification, and how it&#39;s OK to have tag
-collections from a bunch of people make sense of the identity
-of things on the net vs. having centralized catalogers do that.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.librarything.com/thingology/2006/07/tags-reading-and-listening-list.php&#34;&gt;
-Tim Spalding on Tags: A reading and listening list&lt;/a&gt;, from Thing-ology.
-Tim has addressed the problem of making explicit people&#39;s
-information about their own books in a way that makes
-collective information visible with LibraryThing, and there&#39;s
-a lot more to it than just saying &#34;tags rock!&#34;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.yourdonreport.com/index.php/2008/04/14/detroit-presentation-the-politics-of-metrics/&#34;&gt;Ed Yourdon, &#34;The Politics of Metrics&#34;&lt;/a&gt;, a talk he gave at the Software Best Practices conference in Detroit in April 2008.
-When the thing to be reified is the behavior of individuals, and
-the ontology that is applied is a measure of quality or success,
-there are all manner of messy politics and second-order effects
-that come into play.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://joechip.net/brian/2007/12/06/alive-to-the-extent/&#34;&gt;Brian Kerr channeling Christopher Alexander&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-“To seek the timeless way we first must know the quality without a number. There is a central quality which is the rooted criterion of life and the spirit of man, a town, a building, or a wilderness. This quality is objective and precise, but it cannot be numbered.”
-&lt;/blockquote&gt;
-
-&lt;p&gt;I write this down (reification), and then Typepad insists that I add a category to it (ontological imperative).  It landed in &#34;cyberinfrastructure&#34;, this weird bag of side effects of computerizing the world.&lt;/p&gt;
-</description>
+      <description>Reification is an ontological imperative.
+I think that this might be some deep statement about the semantic web, but it&#39;s so deep that I really don&#39;t understand it.
+Reification in this sense appears to have something to do with taking abstract concepts and making them concrete, turning ad hoc heuristics into code, writing down a set of things into a list so that it can be machine processed and sorted, and otherwise taking thoughts and ideas and turning them into bits.</description>
     </item>
     
   </channel>

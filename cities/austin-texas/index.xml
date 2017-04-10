@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/austin-texas/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Austin Texas on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/austin-texas/</link>
+    <description>Recent content in Austin Texas on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/austin-texas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2014 11:36:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/austin-texas/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>For yet another year, I&#39;m not at SXSW</title>
@@ -14,18 +17,7 @@
       <pubDate>Mon, 10 Mar 2014 11:36:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-10-for-yet-another-year-im-not-at-sxsw/</guid>
-      <description>&lt;p&gt;SXSW is &#34;spring break for geeks&#34;. Every year the nerd bird flies hundreds of people from San Francisco to Austin (and to be fair other airplanes fly other people from other places to Austin). There&#39;s a good solid week of product demos, parties, music, film, etc. &lt;/p&gt;
-
-&lt;p&gt;It sounds like fun, and I&#39;ve never gone. I&#39;m wondering what my alternate history would have been if I would have been a regular there - who would I know that I don&#39;t know now, what connections I&#39;d make, etc. &lt;/p&gt;
-
-&lt;p&gt;There are people who seem to exist solely to go to conferences. I&#39;m not one of them. My peak conference-going era was that of Usenix annual conferences and occasional NSF workshops around the NSFnet. It&#39;s fun, but exhausting, and it&#39;s hard to square up being out and about with the simple requirements of taking care of family at home.&lt;/p&gt;
-
-&lt;p&gt;So enjoy SXSW 2014! Twitter all about it! Tell us what interesting new companies are going to have a breakout moment (or not), and save a seat for me next year (which I probably won&#39;t go to). I&#39;m reminded that I didn&#39;t go in 2012 either.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;if you&amp;#39;re not at &lt;a href=&#34;https://twitter.com/search?q=%23sxsw&amp;amp;src=hash&#34;&gt;#sxsw&lt;/a&gt; let me summarize: utilikilt, ukulele, startup, kickball cancelled by rain, barbeque. &lt;a href=&#34;https://twitter.com/search?q=%23notatsxsw&amp;amp;src=hash&#34;&gt;#notatsxsw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/statuses/178887130687348736&#34;&gt;March 11, 2012&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>SXSW is &#34;spring break for geeks&#34;. Every year the nerd bird flies hundreds of people from San Francisco to Austin (and to be fair other airplanes fly other people from other places to Austin). There&#39;s a good solid week of product demos, parties, music, film, etc. It sounds like fun, and I&#39;ve never gone. I&#39;m wondering what my alternate history would have been if I would have been a regular there - who would I know that I don&#39;t know now, what connections I&#39;d make, etc.</description>
     </item>
     
   </channel>

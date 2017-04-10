@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/ann-arbor-city-planning-commission/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ann Arbor City Planning Commission on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/ann-arbor-city-planning-commission/</link>
+    <description>Recent content in Ann Arbor City Planning Commission on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/ann-arbor-city-planning-commission/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2014 22:25:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/ann-arbor-city-planning-commission/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Internet of Sump Pumps, and citizen opposition to Glendale Condos, at the Ann Arbor City Planning Commission - July 1, 2014</title>
@@ -14,23 +17,9 @@
       <pubDate>Tue, 01 Jul 2014 22:25:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-07-01-the-internet-of-sump-pumps-and-citizen-opposition-to-glendale-place-condos-ann-arbor-planning/</guid>
-      <description>&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Sumpy Status: The sump is full! This looks like a job for SUMPY MCPUMPERTON!&lt;/p&gt;&amp;mdash; Sumpy McPumperton (@GregsSumpPump) &lt;a href=&#34;https://twitter.com/GregsSumpPump/statuses/483779086377291776&#34;&gt;July 1, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;ANN ARBOR, July 1, 2014: The Ann Arbor City Planning Commission is considering the Glendale Condominiums, a proposed development at 312 Glendale Place. Neighbors came out in force to oppose the development, citing among other things the impact that the proposed new impervious surface would exacerbate the existing flooding events that have affected the nearby neighborhoods. The developer has proposed an above ground storm water retention system, using a pond to capture the runoff and retain water on site so that the water from the parking lots doesn&#39;t rush into neighbor basements.&lt;/p&gt;
-
-&lt;p&gt;A number of homeowners downstream from the development are already using sump pumps to keep their basements dry. Having a sump pump running in your basement continuously for hours or even days is not something that homeowners look forward to managing. Since the water flow through the entire system (Allen Creek) can make its way into basements anywhere downstream, the residents from the whole watershed have an interest in the issue.&lt;/p&gt;
-
-&lt;p&gt;The internet of sump pumps, if it were to exist, would give some overall understanding for city planners and water resources managers. It would let you know not only whether your sump pump is running, but also whether your neighbors pumps are running, and maybe also the total flows and total energy consumed by the pumping systems. If it existed - and it doesn&#39;t yet, not to my knowledge - we could make decisions about developments like this based on actual stormwater data and not anecdotes and stories.&lt;/p&gt;
-
-&lt;p&gt;There have been a number of attempts made by individual homeowners around the world to control their sump pumps or monitor their sump pumps with the current set of small internet devices like the Raspberry Pi. Expensive industrial pumps come with network interfaces like MODBUS that offer site managers control and integration into SCADA systems. To make this work you need level sensors, controllable pumps, moisture sensors, and other sensor and control infrastructure just to make the system work. Beyond that, you&#39;d want remote monitoring of the various sensor so that you could tell whether it&#39;s working or not and also generate pretty graphs and reports and urgent pages to your favorite plumber to bring the system back online if it fails.&lt;/p&gt;
-
-&lt;p&gt;The internet of sump pumps is in its infancy. You&#39;ll find home made systems like Greg&#39;s Sump Pump, aka Sumpy McPumperton, which tweets out its current status. You&#39;ll also find top-of-the-line systems with built-in hardwired internet connections and some kind of artificial intelligence. (Sumpy is pretty smart, though.)&lt;/p&gt;
-
-&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=superpatron-20&amp;marketplace=amazon&amp;region=US&amp;placement=B007R8I1BI&amp;asins=B007R8I1BI&amp;linkId=RJDFOYUGQBV67FQE&amp;show_border=true&amp;link_opens_in_new_window=true&#34;&gt;
-&lt;/iframe&gt;
-</description>
+      <description>Sumpy Status: The sump is full! This looks like a job for SUMPY MCPUMPERTON!
+&amp;mdash; Sumpy McPumperton (@GregsSumpPump) July 1, 2014 
+ANN ARBOR, July 1, 2014: The Ann Arbor City Planning Commission is considering the Glendale Condominiums, a proposed development at 312 Glendale Place. Neighbors came out in force to oppose the development, citing among other things the impact that the proposed new impervious surface would exacerbate the existing flooding events that have affected the nearby neighborhoods.</description>
     </item>
     
     <item>
@@ -39,16 +28,7 @@
       <pubDate>Thu, 08 Aug 2013 10:42:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-08-notes-from-the-ann-arbor-city-planning-commission-of-august-7-2013/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019104a61d3b970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;3325_Packard&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019104a61d3b970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019104a61d3b970c-800wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;3325_Packard&#34; /&gt;&lt;/a&gt;I went to the City Planning Commission meeting on Wednesday, August 7, 2013. Here&amp;#39;s a few notes. &lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;http://annarbor.com/news/ann-arbor-planning-commission-denies-rezoning-for-duplex-on-packard/&#34; target=&#34;_self&#34;&gt;AnnArbor.com story about the meeting&lt;/a&gt; and a &lt;a href=&#34;http://annarborchronicle.com/2013/08/07/rezoning-request-denied-for-3325-packard/&#34; target=&#34;_self&#34;&gt;Civic News Ticker from the Ann Arbor Chronicle&lt;/a&gt; focus on a vacant parcel on Packard near Platt that&amp;#39;s currently zoned for single-family residential. The owner of the property wants to put a duplex on the site, and asked to have the the parcel rezoned to a new zoning that would also allow duplexes. By a unanimous vote, the Planning Commission turned down the request, stating in the discussion both that the master plan envisioned single-family homes in that area and that they were not in the habit of doing &amp;quot;spot zoning&amp;quot; to change a single parcel. The petitioner was encouraged to consult with neighbors to see if an entire block front could be upzoned which would be more likely - though by no means guaranteed - to get approval.&lt;/p&gt;
-&lt;p&gt;An interesting bit of public commentary on this public hearing came from a neighbor, who did not express an opinion about the zoning request but did request that the property owners trim their trees, which are extending over to her roof.&lt;/p&gt;
-&lt;p&gt;I live in a neighborhood that has duplexes, and I have to say that they are perfectly in character in a mix of housing that includes single-family houses next door. Indeed, I can&amp;#39;t imagine a neighborhood situation where a duplex would be out of character anywhere in Ann Arbor, especially given modern duplex designs that look like single-family homes. It&amp;#39;s not atypical that on my block a neighbor lives in a home that was built as a single family home, was duplexed in the 1940s, and was unduplexed when she bought it.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;m also not sure that the master planning for the area in question makes any sense. Packard is an extraordinary busy street near Platt, and five lanes of traffic means that any single family home is going to be particularly attractive to a buyer. The part of Packard that I leave near is upzoned along quite a length, allowing for a mix of rental properties, small apartment buildings, offices and retail. It&amp;#39;s a good mix, and makes for a more interesting place to live. I&amp;#39;d think that even if the area in question stayed residential that it would be sensible to allow more density along Packard - not necessarily a 13 story high rise, but other dense residential or small-scale commerical or office property that characterizes the rest of the Packard corridor.&lt;/p&gt;
-&lt;p&gt;The zoning map below shows the parcel - it&amp;#39;s one of the ten residential lots on the north size of Packard, with commerical and apartment buildings across the street and offices and retail on the same side to the west.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901eb0344d970b-pi&#34;&gt;&lt;img alt=&#34;1202&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901eb0344d970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901eb0344d970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;1202&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>I went to the City Planning Commission meeting on Wednesday, August 7, 2013. Here&amp;#39;s a few notes. The AnnArbor.com story about the meeting and a Civic News Ticker from the Ann Arbor Chronicle focus on a vacant parcel on Packard near Platt that&amp;#39;s currently zoned for single-family residential. The owner of the property wants to put a duplex on the site, and asked to have the the parcel rezoned to a new zoning that would also allow duplexes.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/recipes/semolina/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Semolina on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/recipes/semolina/</link>
+    <description>Recent content in Semolina on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/recipes/semolina/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jan 2003 01:11:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/recipes/semolina/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>semolina pudding</title>
@@ -14,30 +17,10 @@
       <pubDate>Sun, 26 Jan 2003 01:11:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2003/2003-01-26-semolina-pudding/</guid>
-      <description>&lt;p&gt;January 26, 2003&lt;br /&gt;
-SEMOLINA PUDDING&lt;/p&gt;
-
-&lt;p&gt;Ingredients:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 cup sugar&lt;/li&gt;
-&lt;li&gt;1 cup milk&lt;/li&gt;
-&lt;li&gt;4 cups water&lt;/li&gt;
-&lt;li&gt;grated peel of 1 lemon (pref. organic)&lt;/li&gt;
-&lt;li&gt;1 cup semolina flour&lt;/li&gt;
-&lt;li&gt;cinnamon&lt;/li&gt;
-&lt;li&gt;raspberries or other berries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Directions:
-Mix sugar, milk, water and lemon peel in a pot or big saucepan. Heat until just about to boil, then gradually sprinkle in semolina flour, whisking the whole time to prevent lumps from forming. Allow mixture to thicken considerably. Remove from heat and pour into bowl, mold, or cupcake pan. Refrigerate for at least two hours. Pudding should be somewhat firmer than chocolate pudding, but less firm than jello.&lt;/p&gt;
-
-&lt;p&gt;When ready to serve, unmold pudding or leave in bowl and sprinkle with cinnamon. Top with raspberries or other fruit. Sugared raspberries are particularly nice when a little bit of sauce is formed and can be poured over the pudding.&lt;/p&gt;
-
-&lt;p&gt;The pudding has a texture that is somehow both agreeably grainy and smooth and is very cooling in the summertime. You can vary the milk:water ratio in the recipe, even to the point of omitting one or the other entirely.&lt;/p&gt;
-
-&lt;p&gt;(thanks to puddingmeister Deb for the recipe)&lt;/p&gt;
-</description>
+      <description>January 26, 2003
+SEMOLINA PUDDING
+Ingredients:
+ 1 cup sugar 1 cup milk 4 cups water grated peel of 1 lemon (pref. organic) 1 cup semolina flour cinnamon raspberries or other berries  Directions: Mix sugar, milk, water and lemon peel in a pot or big saucepan. Heat until just about to boil, then gradually sprinkle in semolina flour, whisking the whole time to prevent lumps from forming. Allow mixture to thicken considerably.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/forecast/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Forecast on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/forecast/</link>
+    <description>Recent content in Forecast on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/forecast/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2015 16:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/forecast/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Small multiples</title>
@@ -14,17 +17,10 @@
       <pubDate>Sun, 02 Aug 2015 16:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-08-02-small-multiples/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;background-color: #bfffff;&#34;&gt;James Corriea, Jr.&lt;/span&gt; has this nice illustration of the use of
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;small multiples&lt;/span&gt; in weather forecasting to show the progression
-of forecasts as they change.&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Day 1 outlook progression &lt;a href=&#34;https://twitter.com/hashtag/wiwx?src=hash&#34;&gt;#wiwx&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/miwx?src=hash&#34;&gt;#miwx&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ilwx?src=hash&#34;&gt;#ilwx&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ohwx?src=hash&#34;&gt;#ohwx&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/inwx?src=hash&#34;&gt;#inwx&lt;/a&gt; &lt;a href=&#34;http://t.co/HtLJQ6lOq0&#34;&gt;pic.twitter.com/HtLJQ6lOq0&lt;/a&gt;&lt;/p&gt;&amp;mdash; james correia jr (@jimmyc42) &lt;a href=&#34;https://twitter.com/jimmyc42/status/627933753986281472&#34;&gt;August 2, 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.juiceanalytics.com/writing/better-know-visualization-small-multiples/&#34;&gt;Better Know a Visualization: Small Multiples&lt;/a&gt; from Juice Analytics
-has some more examples - the original goes back to the work of
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Edward Tufte&lt;/span&gt;.&lt;/p&gt;
-</description>
+      <description>James Corriea, Jr. has this nice illustration of the use of small multiples in weather forecasting to show the progression of forecasts as they change.
+Day 1 outlook progression #wiwx #miwx #ilwx #ohwx #inwx pic.twitter.com/HtLJQ6lOq0
+&amp;mdash; james correia jr (@jimmyc42) August 2, 2015 
+Better Know a Visualization: Small Multiples from Juice Analytics has some more examples - the original goes back to the work of Edward Tufte.</description>
     </item>
     
   </channel>

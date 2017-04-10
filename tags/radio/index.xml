@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/radio/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Radio on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/radio/</link>
+    <description>Recent content in Radio on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/radio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2016 00:15:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/radio/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Using SDR.HU to listen to AM radio sports</title>
@@ -14,36 +17,8 @@
       <pubDate>Sun, 23 Oct 2016 00:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-23-sdr-hu-am-dx-baseball-and-football/</guid>
-      <description>&lt;p&gt;The Cubs won the pennant, and the Buckeyes lost to Penn State. I was able to listen to
-the radio calls of both of these through recievers connected to &lt;a href=&#34;http://sdr.hu&#34;&gt;sdr.hu&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Cubs radio call was from WMVP-AM, ESPN Chicago 1000. I had some practice listening
-to them through the Farmington Hills, MI SDR run by KB8SPI. That system is a KiwiSDR
-with a PA0RDT Mini-Whip, and it tunes from 0-30 Mhz including all of the longwave
-(broadcast AM) band. I also had a chance to pull in WTAM-AM Newsradio 1100 in Cleveland
-from the same receiver, though I had to work a bit to avoid adjacent channel interference
-from WCAR-AM 1090 in Detroit.&lt;/p&gt;
-
-&lt;p&gt;The Ohio State call was from WIMA-AM, Lima Ohio 1150. This was very easy to pick up from
-KH6ILT&amp;rsquo;s KiwiSDR in nearby Elida, OH. WIMA is part of the Ohio State IMG Sports Network,
-and it broadcasts all of the Buckeye football games. The signal is very strong (S9+30)
-and there is no interference from other stations. I was able to find this station from
-the &lt;a href=&#34;http://www.ohiostatebuckeyes.com/sports/m-footbl/spec-rel/radio-network.html&#34;&gt;list of Ohio State Buckeye radio stations&lt;/a&gt;,
-and it&amp;rsquo;s possible that this particular receiver might pick up other sports broadcasts as well;
-I&amp;rsquo;m also able to pull in WMVP-AM ESPN Chicago 1000 here.&lt;/p&gt;
-
-&lt;p&gt;Chasing AM radio sports is a lot of fun. Even if the major networks broadcast their
-video streams via cell phone apps for free from time to time - ESPN was showing
-the Ohio State game on their app at the end for free - it&amp;rsquo;s still useful to pick
-up the radio call. In this particular case the radio feed was a couple of plays
-ahead of the video, so I got about 45 seconds of lead time by listening to the radio.&lt;/p&gt;
-
-&lt;p&gt;The only small limitation about SDR.HU and its OpenWebRX software is that when I
-try to view it on a small cell-phone sized screen it doesn&amp;rsquo;t handle it very well.
-Note that these receivers are based on the Beaglebone hardware and can only handle
-four simultaneous listeners. With those two constraints in mind, it&amp;rsquo;s a great way
-to extend your listening reach.&lt;/p&gt;
-</description>
+      <description>The Cubs won the pennant, and the Buckeyes lost to Penn State. I was able to listen to the radio calls of both of these through recievers connected to sdr.hu.
+The Cubs radio call was from WMVP-AM, ESPN Chicago 1000. I had some practice listening to them through the Farmington Hills, MI SDR run by KB8SPI. That system is a KiwiSDR with a PA0RDT Mini-Whip, and it tunes from 0-30 Mhz including all of the longwave (broadcast AM) band.</description>
     </item>
     
     <item>
@@ -52,38 +27,8 @@ to extend your listening reach.&lt;/p&gt;
       <pubDate>Mon, 10 Oct 2016 16:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-10-nb-iot/</guid>
-      <description>&lt;p&gt;In the process of looking at embedded radio components, I came across
-the u-blox &lt;a href=&#34;https://www.u-blox.com/en/product/sara-n2&#34;&gt;SARA-N2&lt;/a&gt;, a low power
-device designed to provide low bandwidth cellular data coverage for
-Internet of Things devices - &amp;ldquo;low power consumption and extended coverage&amp;rdquo;
-being the operative buzzwords. Speeds are 227 Kbps down and 21 Kbps up,
-and it&amp;rsquo;s claimed to be &amp;ldquo;low power&amp;rdquo; though no specific power consumption
-figures are provided.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s built on NB-IoT standards that are
-&lt;a href=&#34;http://www.3gpp.org/news-events/3gpp-news/1785-nb_iot_complete&#34;&gt;standardized in June 2016&lt;/a&gt;
-by the 3GPP project and which are codified in their Release 13.&lt;/p&gt;
-
-&lt;p&gt;The first announcement of use of this system is by Telenor in Norway, using it
-for a &lt;a href=&#34;http://www.mynewsdesk.com/uk/telenor/pressreleases/first-in-norway-with-narrowband-iot-1590130&#34;&gt;smart parking&lt;/a&gt;
-demonstration application in the city of Trondheim.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The pilot commences in January 2017 and will test out how smart sensors can tell you where there is available parking, and in time make it possible to reserve a parking space on your mobile phone, obtain real-time information on when a space will be free and if necessary be guided to other parking spaces if it is full.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;No word yet on availability of dev boards for the SARA-N2. u-blox has been
-good about getting some of their technologies into the DIY marketplace, with
-the Particle Electron using their SARA‑G350, SARA‑U260 or SARA‑U270 chips,
-and the Hologram Dash with the LISA-U200, SARA‑U260 or SARA‑U270 chips.
-Still, u-blox&amp;rsquo;s product line is way bigger than the availability of
-consumer-focused components to try them out.&lt;/p&gt;
-
-&lt;p&gt;More NB-IoT news from &lt;a href=&#34;http://www.huawei.com/minisite/hwmbbf15/en/nb-iot-accelerating-cellular-iot.html&#34;&gt;Huawei&lt;/a&gt;
-(from 2015), &lt;a href=&#34;http://www.vodafone.com/content/index/what/technology-blog/nb-iot-will-connect.html&#34;&gt;Vodafone&lt;/a&gt;
-(indicating commerical rollout in 2017), and &lt;a href=&#34;http://www.gsma.com/connectedliving/narrow-band-internet-of-things-nb-iot/&#34;&gt;GSMA&lt;/a&gt;
-(a vendor forum).&lt;/p&gt;
-</description>
+      <description>In the process of looking at embedded radio components, I came across the u-blox SARA-N2, a low power device designed to provide low bandwidth cellular data coverage for Internet of Things devices - &amp;ldquo;low power consumption and extended coverage&amp;rdquo; being the operative buzzwords. Speeds are 227 Kbps down and 21 Kbps up, and it&amp;rsquo;s claimed to be &amp;ldquo;low power&amp;rdquo; though no specific power consumption figures are provided.
+It&amp;rsquo;s built on NB-IoT standards that are standardized in June 2016 by the 3GPP project and which are codified in their Release 13.</description>
     </item>
     
     <item>
@@ -92,31 +37,8 @@ consumer-focused components to try them out.&lt;/p&gt;
       <pubDate>Mon, 10 Oct 2016 15:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-10-sdr-hu-small-public-sdr/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://sdr.hu&#34;&gt;sdr.hu&lt;/a&gt; is the home base for OpenWebRX, a remote spectrum monitoring system
-written by Andras HA7ILM.&lt;/p&gt;
-
-&lt;p&gt;The system is designed to allow &lt;a href=&#34;https://github.com/simonyiszk/openwebrx&#34;&gt;OpenWebRX servers&lt;/a&gt;,
-running on RTL-SDR or HackRF hardware, to share their radio spectrum and allow remote tuning
-of the available radio bandwidth. A typical installation will allow up to four remote listeners
-to independently tune in, and the tuning filters allow the listener to independently control
-the bandwidth of the receiver.&lt;/p&gt;
-
-&lt;p&gt;A sample display shows WMVP-AM in Chicago monitored from SE Michigan.&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Listening to the ALDS on ESPN 1000, WMVP-AM Chicago. Baseball (and radio DXing) instead of politics. &lt;a href=&#34;https://t.co/qFUMHDlqti&#34;&gt;pic.twitter.com/qFUMHDlqti&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/785285239157370883&#34;&gt;October 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;The wide band version of this is the &lt;a href=&#34;http://kiwisdr.com/KiwiSDR/&#34;&gt;KiwiSDR&lt;/a&gt;, a BeagleBone
-based receiver which has been developed as a Kickstarter campaign. Look for those
-systems on the sdr.hu list with a receiver tunable between 0 and 30 Mhz. This covers
-all of the broadcast AM range plus shortwave broadcast and HF amateur bands.&lt;/p&gt;
-
-&lt;p&gt;sdr.hu is not the only system with links to web-tunable SDR receivers. &lt;a href=&#34;http://websdr.org&#34;&gt;websdr.org&lt;/a&gt;,
-hosted at U Twente in the Netherlands, has its own set of receiver software and hardware.
-Coverage is by no means universal, but between the two collections there are hours of
-DX listening ahead of you (including, for my purposes, lots of alternatives to pull in
-baseball playoff broadcasts).&lt;/p&gt;
-</description>
+      <description>sdr.hu is the home base for OpenWebRX, a remote spectrum monitoring system written by Andras HA7ILM.
+The system is designed to allow OpenWebRX servers, running on RTL-SDR or HackRF hardware, to share their radio spectrum and allow remote tuning of the available radio bandwidth. A typical installation will allow up to four remote listeners to independently tune in, and the tuning filters allow the listener to independently control the bandwidth of the receiver.</description>
     </item>
     
     <item>
@@ -125,151 +47,8 @@ baseball playoff broadcasts).&lt;/p&gt;
       <pubDate>Mon, 11 Jul 2016 13:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-07-11-full-stack-plane-spotting/</guid>
-      <description>
-
-&lt;p&gt;The task at hand is simple. Whenever a particular airplane is visible overhead,
-send out a tweet with that notice. Don&amp;rsquo;t repeat yourself with this announcement
-more than twice an hour, but try not to have too much lag in reporting.&lt;/p&gt;
-
-&lt;p&gt;The full stack of hardware and software to do this is not particularly
-complicated to use once you get it all running, but there are a series
-of issues and observations along the way that add to the complexity. I&amp;rsquo;ll
-walk through the whole thing start to finish, and let you know where I
-left off.&lt;/p&gt;
-
-&lt;p&gt;The basic toolkit is dump1090-mutability for plane spotting,
-Node-RED for wiring flows for data processing, and
-Docker to package up the bits that are stable.&lt;/p&gt;
-
-&lt;h2 id=&#34;plane-spotting&#34;&gt;Plane spotting&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/&#34;&gt;When last I wrote&lt;/a&gt;,
-I had &lt;a href=&#34;http://github.com/mutability/dump1090&#34;&gt;dump1090&lt;/a&gt;
-running on my MacBook. Since then, I&amp;rsquo;ve taken the same software and gotten
-the latest dev release going on a Raspberry Pi 2.&lt;/p&gt;
-
-&lt;p&gt;I switched to a smaller, simpler antenna, and the result was positive: instead of
-having a 40 to 50 nautical mile range, now I&amp;rsquo;m in the 60 to 65 nm range (about 110 km).
-It might also help that the Pi 2 is not really doing very much else. That
-particular Pi 2 setup is using a slightly back-rev version of the
-&lt;a href=&#34;http://blog.hypriot.com&#34;&gt;Hypriot&lt;/a&gt; software for the Pi, so it has all
-of the modern conveniences plus an instance of Docker on board. The
-temptation was to Dockerize everything, but I haven&amp;rsquo;t gone there yet;
-the available Docker prebuilt releases don&amp;rsquo;t have the bleeding edge of
-the dump1090-mutability code, and I want to see how the whole thing runs
-native for a while before containerizing it.&lt;/p&gt;
-
-&lt;p&gt;The snag that slowed down this deployment a little was Google&amp;rsquo;s decision
-to enforce an API key for personal use of Google Maps. In response, the
-very latest dump1090-mutability pulled out its Google Maps support, and
-went to &lt;a href=&#34;http://openlayers.org/&#34;&gt;OpenLayers&lt;/a&gt;. This new support gives
-access to all kinds of base maps, including some aviation-specific
-charts. (&amp;ldquo;Not for use in navigation.&amp;rdquo;)&lt;/p&gt;
-
-&lt;p&gt;Another piece of this was bringing up &lt;a href=&#34;http://www.lighttpd.net/&#34;&gt;lighttpd&lt;/a&gt;
-(&amp;ldquo;lighty&amp;rdquo;), a lightweight HTTP server that replaces the rickety
-built-in HTTP server that dump1090 had originally shipped with.
-Configuration following the supplied instructions was simple,
-and lighttpd looks like a very suitable system to put in place to
-serve HTTP on embedded-class system that need flexiblity but not
-a big footprint.&lt;/p&gt;
-
-&lt;p&gt;The other component in the Pi setup is an ADS-B feed to the excellent
-&lt;a href=&#34;http://planefinder.net&#34;&gt;Planefinder&lt;/a&gt; site. Planefinder provides a Debian
-package for setting up the feed, and it runs neatly with only a minimum
-of overhead. As a bonus you get free use of their apps, which are
-notable for running in much closer to real time than others I have seen.&lt;/p&gt;
-
-&lt;p&gt;The Pi does not yet have a working OpenVPN configuration, so I can&amp;rsquo;t get
-to it over the net directly. For that I plan to revisit the
-&lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-09-07-managing-raspberry-pi-openvpn-with-salt/&#34;&gt;SaltStack for Pi&lt;/a&gt;
-configuration I wrote up last September. In the interim, salt has
-been upgraded, and perhaps it will be a little more stable over bad
-connections; we&amp;rsquo;ll see.&lt;/p&gt;
-
-&lt;h2 id=&#34;data-analysis&#34;&gt;Data analysis&lt;/h2&gt;
-
-&lt;p&gt;dump1090 provides a data feed in a convenient JSON format, available
-through a URL on a standard configuruation. The ADS-B messages themselves
-are binary encoded, but the system brings them into JSON so that all
-of the downstream processing is very easy.&lt;/p&gt;
-
-&lt;p&gt;Data handling is so straightforward that you can do it all without
-needing any special-purpose processing nodes in IBM&amp;rsquo;s &lt;a href=&#34;http://nodered.org&#34;&gt;Node-RED&lt;/a&gt;.
-A standard HTTP in node polls the data at the pace that you choose,
-and a simple function pulls apart the record of all planes into
-individual records for each plane.&lt;/p&gt;
-
-&lt;p&gt;Getting Node-RED running is continuing to get easier over time.
-I&amp;rsquo;m doing prototyping work on my Macintosh again, using the
-new &lt;a href=&#34;https://blog.docker.com/2016/06/docker-mac-windows-public-beta/&#34;&gt;Docker for Mac&lt;/a&gt;
-setup to pick up a &lt;a href=&#34;https://hub.docker.com/r/cpswan/node-red/&#34;&gt;Node-RED container&lt;/a&gt;
-to do the work in. &lt;a href=&#34;https://kitematic.com/&#34;&gt;Kitematic&lt;/a&gt; comes with Docker for Mac,
-providing a convenient dashboard and interface to Docker Hub.&lt;/p&gt;
-
-&lt;p&gt;(Do note, however, that if you got Docker for Mac running a few months
-ago, you&amp;rsquo;ll need to go through a rebuild process to go to the latest
-beta. To &lt;a href=&#34;https://docs.docker.com/docker-for-mac/troubleshoot/#/recreate-or-update-your-containers-after-beta-18-upgrade&#34;&gt;recreate or update your containers after Beta 18 upgrade&lt;/a&gt;
-follow the provided instructions.)&lt;/p&gt;
-
-&lt;p&gt;Once you have both Node-RED and dump1090 running, connecting the
-two together is straightforward. I started with this
-&lt;a href=&#34;https://gist.github.com/dceejay/3288996fefdc3aef04846496277b6444&#34;&gt;gist from dceejay&lt;/a&gt; which
-provides the basic flow and feeds into a
-&lt;a href=&#34;http://flows.nodered.org/node/node-red-contrib-web-worldmap&#34;&gt;worldmap node&lt;/a&gt; that
-is a general programmable interface for putting things on a map. My
-&lt;a href=&#34;https://gist.github.com/vielmetti/6329ea5a49dadd2f106980a20727d16e&#34;&gt;updated dump1090 gist for Node-RED&lt;/a&gt;
-adapts the data for a slightly different format between dump1090 forks.&lt;/p&gt;
-
-&lt;p&gt;From here in it&amp;rsquo;s relatively clear sailing. Set up a flow downstream
-from the plane messages, using a filter node to match the name or
-ICAO hex code of the airplane that you want to track. Wire it through
-a delay filter to set the frequency of messages you want to
-allow through, and a formatting node to pretty up the message in
-a form suitable for Twitter output.&lt;/p&gt;
-
-&lt;h2 id=&#34;incomplete-image-and-next-steps&#34;&gt;Incomplete image and next steps.&lt;/h2&gt;
-
-&lt;p&gt;This is a relatively complex stack, but it all fits neatly on a Raspberry Pi 2,
-and with a little bit more elbow grease it should be possible to containerize
-everything so that it Just Works and can be made to reliably work again.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;d like to have OpenVPN running on the Pi 2, but it isn&amp;rsquo;t yet, pending
-rework of Salt to get that to a current version and to port all of the
-work I did from an earlier version.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m picking up planes from 60+ nm away, but I know that with a better
-antenna, bandpass filter, and amplifier that I can do better.
-&lt;a href=&#34;https://puck.nether.net/~jared/blog/?p=160&#34;&gt;Jared Mauch&amp;rsquo;s parts list&lt;/a&gt;
-would be the place to go for starters with a very modest budget of
-a couple of hundred bucks.&lt;/p&gt;
-
-&lt;p&gt;Reception is best if you have a clear view of the sky, which suggests
-an outdoors installation, powering the Pi with power over ethernet.&lt;/p&gt;
-
-&lt;p&gt;The system is running on a Pi 2, but reports from Jared and from Phil Karn KA9Q
-suggest that if you do upgrade the reception that it&amp;rsquo;s possible to
-saturate the Pi 2. Fortunately a Pi 3 does even better at the intended task.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m still figuring out what the very best way to create a Docker image
-that handles Node-RED, especially the installation of additional nodes
-and the management of flows. You&amp;rsquo;d like to have the whole thing suitably
-tidy that it could be all loaded in from the get-go.&lt;/p&gt;
-
-&lt;p&gt;dump1090-mutability is still mutating! It&amp;rsquo;s under active development,
-both at the presentation layer and at the decoder layer. So it would
-be appropriate to have the attitude for at least one development machine
-to be sure that you were ready to rebuild from source whenever.&lt;/p&gt;
-
-&lt;p&gt;If you only have half of this stack running (the Node-RED side) but no access
-to radios, you can find an existing dump1090 installation and pull the
-JSON from there. This is best done only via prior arrangement and only
-for testing purposes or for specific tasks. It&amp;rsquo;s easy to crank up Node-RED
-to poll a URL every second; don&amp;rsquo;t do that to a poor little Pi.&lt;/p&gt;
-
-&lt;p&gt;The planes I want to watch don&amp;rsquo;t take off very often - that&amp;rsquo;s the appeal
-of watching for them.&lt;/p&gt;
-</description>
+      <description>The task at hand is simple. Whenever a particular airplane is visible overhead, send out a tweet with that notice. Don&amp;rsquo;t repeat yourself with this announcement more than twice an hour, but try not to have too much lag in reporting.
+The full stack of hardware and software to do this is not particularly complicated to use once you get it all running, but there are a series of issues and observations along the way that add to the complexity.</description>
     </item>
     
     <item>
@@ -278,72 +57,8 @@ of watching for them.&lt;/p&gt;
       <pubDate>Sat, 02 Jul 2016 23:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-07-02-plane-finding-with-dump1090/</guid>
-      <description>&lt;p&gt;In March 2015 I wrote briefly about &lt;a href=&#34;http://vielmetti.github.io/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/&#34;&gt;plane spotting with dump1090&lt;/a&gt;.
-In short, many airplanes have ADS-B transponders which squawk out
-their location, airspeed, and current conditions, and you can pick
-up those transmissions using an inexpensive RTL-SDR tuner stick and
-a simple antenna.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been looking into this again to see if I can get a better
-understanding of how it works as well as to take advantage of a year plus
-of software development. Here&amp;rsquo;s a summary of the state of the art
-circa July 2016.&lt;/p&gt;
-
-&lt;p&gt;Hardware: I&amp;rsquo;m using a Nooelec NESDR Mini 2 tuner stick plugged into a MacBook Air
-as a portable plane-finding system. I have a Raspberry Pi 2 which looks
-like it could be a permanent installation for this, though the recommendation
-for busy skies is a Pi 3 which is enough faster to make a difference if you
-have a good antenna.&lt;/p&gt;
-
-&lt;p&gt;Antenna: The Mini 2 comes with a small whip antenna with a magnetic base, and I&amp;rsquo;m borrowing
-a larger antenna. There are scads of antenna designs out there for inexpensive
-small antennas tuned to 1090 Mhz, but I&amp;rsquo;m not there yet. There are also
-filters and amplifiers that can improve plane-finding capabilities; also not
-there yet.&lt;/p&gt;
-
-&lt;p&gt;Software: Here&amp;rsquo;s where I&amp;rsquo;ve made progress. The dump1090 software has been
-forked several times, each time with just a little bit more sophistication
-on the visual display as well as refinements of the decoding system. The
-one I&amp;rsquo;m using right now is a fork by &amp;ldquo;mutability&amp;rdquo;, available at
-&lt;a href=&#34;https://github.com/mutability/dump1090&#34;&gt;https://github.com/mutability/dump1090&lt;/a&gt; . It&amp;rsquo;s notable for being
-designed to run on a Raspberry Pi, as well as a bunch of small changes
-in the display that make it more pleasant to use than the older software
-I had been using.&lt;/p&gt;
-
-&lt;p&gt;Range: Just like I reported back in 2015, the typical results from my
-house are a range of 40-50 nautical miles in every direction. I haven&amp;rsquo;t
-yet taken the rig to my favorite plane-spotting cafe &amp;ndash; the Biggby at
-Platt and Ellsworth &amp;ndash; which has a clear view of the southern sky at
-a good elevation.&lt;/p&gt;
-
-&lt;p&gt;Tweaking the setup: Aside from changing out the hardware and relocating
-the antenna, the tweakable changes seem to be adjusting the gain control
-on the SDR. Initial experiments don&amp;rsquo;t give me strong conclusions as to
-what&amp;rsquo;s best. The reviews of a
-&lt;a href=&#34;https://www.amazon.com/ADS-B-1090MHz-Band-pass-SMA-Filter/dp/B010GBQXK8&#34;&gt;$20 band pass filter&lt;/a&gt; are
-promising for increasing the range.&lt;/p&gt;
-
-&lt;p&gt;Feeding the data elsewhere: One of the collective efforts around looking for
-airplanes is the ability to share the data with commerical and non-commericial
-systems that aggregate data from around the world. I&amp;rsquo;m digging
-&lt;a href=&#34;http://planefinder.net&#34;&gt;http://planefinder.net&lt;/a&gt; which has a nifty near-real-time feed of ADS-B
-and FAA and other international data for tracking flights. Planefinder is
-fast enough that I can hear an airplane overheard, check the display,
-and figure out which flight is there.&lt;/p&gt;
-
-&lt;p&gt;Satellite plane finding: The &lt;a href=&#34;https://directory.eoportal.org/web/eoportal/satellite-missions/g/gomx-3&#34;&gt;GOMX-3 satellite&lt;/a&gt;
-has an SDR with ADS-B reception and has successfully
-&lt;a href=&#34;http://www.airtrafficmanagement.net/2016/07/fr24-completes-satbased-adsb-tracking/&#34;&gt;fed data to Flightradar24&lt;/a&gt;,
-another commericial plane tracking system. ADS-B receivers are expected
-to be installed on the Iridium system over the next couple of years,
-which should over time provide improved global coverage and visibility
-into the current status of aircraft over oceans and the poles.&lt;/p&gt;
-
-&lt;p&gt;What it looks like: I don&amp;rsquo;t have a permanent installation running,
-but if you&amp;rsquo;re interested in the airspace above San Diego, you can
-see Phil Karn KA9Q&amp;rsquo;s system at &lt;a href=&#34;http://maggie.ka9q.net:8080/dump1090/gmap.html&#34;&gt;http://maggie.ka9q.net:8080/dump1090/gmap.html&lt;/a&gt;
-noting that he&amp;rsquo;s in easy range of picking traffic into LAX.&lt;/p&gt;
-</description>
+      <description>In March 2015 I wrote briefly about plane spotting with dump1090. In short, many airplanes have ADS-B transponders which squawk out their location, airspeed, and current conditions, and you can pick up those transmissions using an inexpensive RTL-SDR tuner stick and a simple antenna.
+I&amp;rsquo;ve been looking into this again to see if I can get a better understanding of how it works as well as to take advantage of a year plus of software development.</description>
     </item>
     
     <item>
@@ -352,37 +67,8 @@ noting that he&amp;rsquo;s in easy range of picking traffic into LAX.&lt;/p&gt;
       <pubDate>Thu, 14 Jan 2016 09:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-01-14-aprs-network-status/</guid>
-      <description>&lt;p&gt;APRS is the &amp;ldquo;Automatic Position Reporting Service&amp;rdquo;, a
-system for sharing information about the position of
-participating amateur radio stations. Clients transmit
-position reports on 144.39 Mhz; digipeaters repeat
-these reports to other monitoring stations; and various
-IGate sites monitor transmissions and send their findings
-to &lt;a href=&#34;http://aprs.fi&#34;&gt;aprs.fi&lt;/a&gt; which collects worldwide data.&lt;/p&gt;
-
-&lt;p&gt;In recent memory there has been an APRS digipeater in
-Chelsea, Michigan with wide area coverage, good enough
-to pick up travellers on I-94 west of Ann Arbor.
-The Chelsea digirepeater is currently off the air,
-which leaves a coverage gap.&lt;/p&gt;
-
-&lt;p&gt;There is one station within the city of Ann Arbor.
-&lt;a href=&#34;http://aprs.fi/info/a/KD8TDF&#34;&gt;KD8TDF&lt;/a&gt; is in southeast
-Ann Arbor (EN82dg). Its coverage is enough to pick up
-part of I-94 right adjacent to town. A second station,
-&lt;a href=&#34;http://aprs.fi/info/a/AB3DC-1&#34;&gt;AB3DC-1&lt;/a&gt; is the
-Ann Arbor/Ypsi Rx-iGate, w8pgw.org, right near St.
-Joe&amp;rsquo;s Hospital (EN82eg).&lt;/p&gt;
-
-&lt;p&gt;Discussion at last night&amp;rsquo;s ARROW meeting included a
-desire to experiment on 2 meters with digital modes.
-Dave New &lt;a href=&#34;http://www.qrz.com/DB/N8SBE&#34;&gt;N8SBE&lt;/a&gt; talked
-about software defined radio and GNU Radio, and demonstrated
-monitoring car key-fobs on UHF.&lt;/p&gt;
-
-&lt;p&gt;APRS is a very old and useful digital mode, and I
-am hopeful that local network conditions will improve.&lt;/p&gt;
-</description>
+      <description>APRS is the &amp;ldquo;Automatic Position Reporting Service&amp;rdquo;, a system for sharing information about the position of participating amateur radio stations. Clients transmit position reports on 144.39 Mhz; digipeaters repeat these reports to other monitoring stations; and various IGate sites monitor transmissions and send their findings to aprs.fi which collects worldwide data.
+In recent memory there has been an APRS digipeater in Chelsea, Michigan with wide area coverage, good enough to pick up travellers on I-94 west of Ann Arbor.</description>
     </item>
     
     <item>
@@ -391,22 +77,9 @@ am hopeful that local network conditions will improve.&lt;/p&gt;
       <pubDate>Wed, 13 Jan 2016 00:15:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-01-13-dave-new-n8sbe-sdr-at-arrow/</guid>
-      <description>&lt;p&gt;Dave New N8SBE will be speaking at the January 2016 meeting of
-the ARROW radio club on the topic of Software Defined Radio.&lt;/p&gt;
-
-&lt;p&gt;He will present an introduction to GNU Radio and the GNU Radio
-Companion visual programming environment, and the HackRF One Software
-Defined Transceiver from Great Scott Gadgets.&lt;/p&gt;
-
-&lt;p&gt;The demo will include a disucssion of receiver and transmitter flow
-graphs, as well as resources to learn more about
-digital signal processing using the HackRF One and GNU Radio.&lt;/p&gt;
-
-&lt;p&gt;ARROW meets Wednesday, January 13, 2016, from 7:00 p.m. to 9:00 p.m. at
-Washtenaw Community College, room BE-172 or nearby room.&lt;/p&gt;
-
-&lt;p&gt;For more details contact ARROW at &lt;a href=&#34;http://www.w8pgw.org/&#34;&gt;http://www.w8pgw.org/&lt;/a&gt; .&lt;/p&gt;
-</description>
+      <description>Dave New N8SBE will be speaking at the January 2016 meeting of the ARROW radio club on the topic of Software Defined Radio.
+He will present an introduction to GNU Radio and the GNU Radio Companion visual programming environment, and the HackRF One Software Defined Transceiver from Great Scott Gadgets.
+The demo will include a disucssion of receiver and transmitter flow graphs, as well as resources to learn more about digital signal processing using the HackRF One and GNU Radio.</description>
     </item>
     
     <item>
@@ -415,18 +88,10 @@ Washtenaw Community College, room BE-172 or nearby room.&lt;/p&gt;
       <pubDate>Fri, 29 May 2015 13:50:57 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-29-building-a-dipole-antenna-for-your-sdr-tuner-stick-from-an-old-set-of-headphones/</guid>
-      <description>&lt;p&gt;Some notes before I try to do the build.&lt;/p&gt;
-
-&lt;p&gt;The parts I have or know I can get: cheap earbud headphones, NooElec NESDR Mini 2 SDR tuner stick with whip antenna, Nokia 635 phone, antenna from an older NESDR Mini SDR tuner stick.&lt;/p&gt;
-
-&lt;p&gt;Parts I need: a short adapter cable that provides antenna in for the SDR stick as a headphone jack socket.&lt;/p&gt;
-
-&lt;p&gt;The SDR tuner comes with an antenna, but I want to replace it with a dipole - especially one cut to have a center point for FM broadcast on 88.3 (WCBN) and a second one for 2 meter ham radio on local repeaters (W8UM on 145.23 and N8DUY on 145.15). Some sort of adapter jack (or alligator clips) should be all I need.&lt;/p&gt;
-
-&lt;p&gt;I can test the antenna on my Nokia 635 which has an FM tuner connected with the headphone jack as the antenna, and the ideal situation will be to have an antenna that I can just plug either into my phone or into my SDR tuner interchangeably. Once I figure all that out, the next next step is to make these antenna inputs for other radios. One step at a time though.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ll be working from the tutorial &lt;a href=&#34;http://willus.com/author/antenna.shtml&#34;&gt;Making a Dipole FM Antenna&lt;/a&gt; on willus.com .&lt;/p&gt;
-</description>
+      <description>Some notes before I try to do the build.
+The parts I have or know I can get: cheap earbud headphones, NooElec NESDR Mini 2 SDR tuner stick with whip antenna, Nokia 635 phone, antenna from an older NESDR Mini SDR tuner stick.
+Parts I need: a short adapter cable that provides antenna in for the SDR stick as a headphone jack socket.
+The SDR tuner comes with an antenna, but I want to replace it with a dipole - especially one cut to have a center point for FM broadcast on 88.</description>
     </item>
     
     <item>
@@ -435,24 +100,8 @@ Washtenaw Community College, room BE-172 or nearby room.&lt;/p&gt;
       <pubDate>Mon, 30 Mar 2015 18:50:16 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-03-30-plane-spotting-some-quick-notes-on-a-new-software-defined-radio-setup/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0f877ad970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b8d0f877ad970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-29 at 9.50.47 PM&#34; title=&#34;Screen Shot 2015-03-29 at 9.50.47 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b8d0f877ad970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c76ed742970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c76ed742970b img-responsive&#34; style=&#34;width: 490px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-03-30 at 11.35.53 AM&#34; title=&#34;Screen Shot 2015-03-30 at 11.35.53 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c76ed742970b-500wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;A couple of years ago, I got one of the first-generation RTL-SDR USB software defined radio units. These inexpensive devices are originally designed as TV tuners, but clever radio hackers figured out how to turn them into software-defined radios that tune to a broad spectrum of radio.&lt;/p&gt;
-
-&lt;p&gt;After some experimental use I managed to cook the original unit which in its death throes no longer listened. The vendor (Nooelec) generously offered a modest discount on my next purchase, so I took them up on the 2d generation unit. Same form factor, bright blue in color, and the supplied antenna is a retractable whip with a magnetic base. As always it comes with no documentation and no software (you are expected to provide those).&lt;/p&gt;
-
-&lt;p&gt;I had previously used a version of &#34;gqrx&#34; as a radio receiver, in a package that had been built for the Mac. This time I thought I&#39;d build from source. I went to the &#39;homebrew&#39; port system and found a version that said it worked for OS X 10.10 (Yosemite), but I&#39;m on OS X 10.9 (Mavericks) and the build didn&#39;t work (it crapped out in building scipy). Reading the documentation more closely the distribution says it&#39;s available through Macports, so I installed that and did &#34;sudo port install gnuradio&#34; and &#34;sudo port install gqrx&#34;.&lt;/p&gt;
-
-&lt;p&gt;Macports is one of those amazing feats of modern software engineering where someone (or really a lot of people) have carefully and meticulously figured out how to take a package of source code and make it build, including tracing all of the dependencies upon which everything else needs to be built. For gqrx and GNU Radio this means (at the very bottom) that I had to have a working FORTRAN compiler so that I could compile the FORTRAN code hiding in the numerical analysis libraries. This brings me right back to the 1970s learning FORTRAN at Michigan Tech in their Summer Youth Program. I can&#39;t even imagine how old the code was that I compiled but it might actually date from then.&lt;/p&gt;
-
-&lt;p&gt;Everything did build just fine, and then I had a radio. The first test is always to tune into WCBN, which came in with a strong signal, and to key up my ham radio transmitter via Echolink to make the W8UM repeater make some noise, and to get some weather radio going. Everything I tried worked just fine and passed with flying colors, the gqrx software is more modern than it once was in a couple of very helpful ways.&lt;/p&gt;
-
-&lt;p&gt;Next was to grab one of the many versions of &#34;dump1090&#34; which uses the SDR radio to tune to aircraft ADS-B broadcasts that give you a version of aircraft radar. This also worked well, perhaps better than I could have expected. From home with an antenna in the middle of the house I could hear airplanes just north of Jackson, MI from Ann Arbor, MI (about 40 miles). I relocated to a cafe near the dog park (Ellsworth at Platt) that has a good view of the southern sky, and the same little bitty antenna pulled in reception from airplanes near Fort Wayne, IN (about 120 miles). &lt;/p&gt;
-
-&lt;p&gt;There&#39;s always more to try, of course. GNU Radio is a full toolkit for building your own radio design, complete with FM decoders and the like, and it has a fairly simple to understand user interface compared to how complex the underpinnings are (remember, FORTRAN). There&#39;s lots more software that uses the RTL-SDR libraries and even a port to the Raspberry Pi which I&#39;d like to try.&lt;/p&gt;
-</description>
+      <description>A couple of years ago, I got one of the first-generation RTL-SDR USB software defined radio units. These inexpensive devices are originally designed as TV tuners, but clever radio hackers figured out how to turn them into software-defined radios that tune to a broad spectrum of radio.
+After some experimental use I managed to cook the original unit which in its death throes no longer listened. The vendor (Nooelec) generously offered a modest discount on my next purchase, so I took them up on the 2d generation unit.</description>
     </item>
     
     <item>
@@ -461,416 +110,8 @@ Washtenaw Community College, room BE-172 or nearby room.&lt;/p&gt;
       <pubDate>Fri, 04 Apr 2014 01:43:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-04-04-tune-in-to-skywarn-nets-in-50-states-when-severe-weather-threatens/</guid>
-      <description>
-
-&lt;p&gt;This list of Skywarn nets is compiled from a &lt;a href=&#34;https://twitter.com/vielmetti/lists/skywarn&#34;&gt;list of Skywarn Twitter feeds&lt;/a&gt; and
-&lt;a href=&#34;http://www.broadcastify.com&#34;&gt;Broadcastify&lt;/a&gt; radio feeds. Networks are added when there is confirmed traffic.
-&lt;a href=&#34;https://www.twitter.com/KE4KMD/lists/skywarn&#34;&gt;KE4KMD&lt;/a&gt; maintains a similar list, which was used in part
-to develop this one. There is a &lt;a href=&#34;http://skywarn.org&#34;&gt;national Skywarn directory&lt;/a&gt; at Skywarn.org.&lt;/p&gt;
-
-&lt;p&gt;This list is sorted by state, and from there grouped regionally by National Weather Service forecast
-office directory. In some cases, NWS forecast areas cross state boundaries, and those are noted.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.afn.org/~afn09444/weather/skywarn.html&#34;&gt;Index to SKYWARN Web Pages on the Internet&lt;/a&gt; is from Todd L. Sherman KB4MHH and has been updated since 1996; it is an excellent reference. &lt;a href=&#34;http://wx5tvs.com/storm-spotters.html&#34;&gt;SKYWARN Storm Spotters&lt;/a&gt; from David Drummond is another national list.&lt;/p&gt;
-
-&lt;p&gt;For an account of the use of Twitter for SKYWARN activities, read &lt;a href=&#34;https://ams.confex.com/ams/41BC2WxWarn/webprogram/Paper225882.html&#34;&gt;#tSpotter: SKYWARN in the Social Media Age&lt;/a&gt; from the 2013
-AMS conference.&lt;/p&gt;
-
-&lt;p&gt;Details for 29 of 50 states compiled here as of April 5, 2014. The future plan is to integrate Skywarn, electric utility outage maps, and National Weather Service forecast info
-into a single collection, listing the 122 NWS forecast areas on a state by state basis, started June 21, 2016.&lt;/p&gt;
-
-&lt;h2 id=&#34;national-weather-service&#34;&gt;National Weather Service&lt;/h2&gt;
-
-&lt;p&gt;The National Weather Service has a number of Twitter accounts with detailed and timely information about severe weather. The service has
-forecasting offices with detailed forecasts for every part of the country, plus a set of national forecast offices.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Storm Prediction Center, @&lt;a href=&#34;https://twitter.com/NWSSPC&#34;&gt;NWSSPC&lt;/a&gt;. Mesoscale reports for outbreaks of severe weather, national
-forecast and fire maps, and detailed risk assessments. SPC uses the common hashtag of a two-character state name plus wx, e.g.
-#miwx for Michigan weather, in its reports.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tornado alerts, @&lt;a href=&#34;https://twitter.com/NWSTornado&#34;&gt;NWSTornado&lt;/a&gt;. Tornado forecasts, watches and warnings, and detailed maps
-with risk assessments for tornado-warned areas. Does not use hashtags.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;alabama-alwx&#34;&gt;&lt;a href=&#34;#alwx&#34;&gt;Alabama&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: &lt;a href=&#34;http://www.twitter.com/hashtag/alwx&#34;&gt;#alwx&lt;/a&gt;. Mobile area: &lt;a href=&#34;http://www.twitter.com/hashtag/mobwx&#34;&gt;#mobwx&lt;/a&gt;. Birmingham area: &lt;a href=&#34;http://twitter.com/hashtag/bmxwx&#34;&gt;#bmxwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.alabamaskywarn.org&#34;&gt;Alabama Skywarn Foundation&lt;/a&gt; has statewide connections and information.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.radioreference.com/apps/db/?aid=4234&#34;&gt;Alabama severe weather frequencies&lt;/a&gt; from Radio Reference.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nalsw.net/&#34;&gt;Skywarn North Alabama / Southern Middle Tennessee&lt;/a&gt; (WX4HUN) supports NWS Huntsville, Alabama. Twitter: @&lt;a href=&#34;https://twitter.com/WX4HUN_Skywarn&#34;&gt;WX4HUN_Skywarn&lt;/a&gt;, @&lt;a href=&#34;https://twitter.com/Activation_HUN&#34;&gt;Activation_HUN&lt;/a&gt;. Hashtag #&lt;a href=&#34;http://twitter.com/hashtag/hunwx&#34;&gt;HUNwx&lt;/a&gt;. Listen on Broadcastify, &lt;a href=&#34;http://www.broadcastify.com/listen/feed/11675&#34;&gt;N4IDX 146.960&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://alert-alabama.org/&#34;&gt;ALERT&lt;/a&gt; (Alabama Emergency Response Team) supports NWS Birmingham. Twitter: @&lt;a href=&#34;https://twitter.com/k4nws&#34;&gt;k4nws&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.eastalabamaskywarn.com/&#34;&gt;East Alabama Skywarn&lt;/a&gt; serves Lee County and surrounding counties.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.w4ap.org/modules.php?name=SkyWarn&#34;&gt;Central Alabama Skywarn&lt;/a&gt; serves the Montgomery area. W4AP 146.840 repeater, training net Thursdays 7:00 p.m. CT.&lt;/p&gt;
-
-&lt;h2 id=&#34;alaska-akwx&#34;&gt;&lt;a href=&#34;#akwx&#34;&gt;Alaska&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/akwx&#34;&gt;akwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;National Weather Service on Twitter: @&lt;a href=&#34;http://twitter.com/NWSJuneau&#34;&gt;NWSJuneau&lt;/a&gt;, @&lt;a href=&#34;http://twitter.com/NWSAnchorage&#34;&gt;NWSAnchorage&lt;/a&gt;, @&lt;a href=&#34;https://twitter.com/NWSFairbanks&#34;&gt;NWSFairbanks&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.kl7kc.com/index.html&#34;&gt;Arctic Amateur Radio Club&lt;/a&gt;, KL4KC.&lt;/p&gt;
-
-&lt;p&gt;NWS Fairbanks ham radio Skywarn station, &lt;a href=&#34;http://pafg.arh.noaa.gov/ham.php&#34;&gt;KL7FWX&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;arizona-azwx&#34;&gt;&lt;a href=&#34;#azwx&#34;&gt;Arizona&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/azwx&#34;&gt;azwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://skywarnaz.org/&#34;&gt;Skywarn Arizona Sector 1&lt;/a&gt; covers the Tucson area and is particularly active during monsoon season.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.copahams.org/skywarn-in-arizona.html&#34;&gt;Maricopa Amateur Radio Association&lt;/a&gt; covers the Phoenix area.&lt;/p&gt;
-
-&lt;h2 id=&#34;arkansas-arwx&#34;&gt;&lt;a href=&#34;#arwx&#34;&gt;Arkansas&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/arwx&#34;&gt;arwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.arkskywarn.org/&#34;&gt;Arkansas Skywarn&lt;/a&gt;, and a Twitter feed @&lt;a href=&#34;https://twitter.com/arkskywarn&#34;&gt;arkskywarn&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/5167&#34;&gt;CAREN&lt;/a&gt;, Central Arkansas Radio Emergency Net via Broadcastify. Little Rock area, monitored April 4, 2014.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.broadcastify.com/listen/feed/5419&#34;&gt;W5RHS&lt;/a&gt; SKYWARN Repeater 147.120 Mhz via Broadcastify. West of Benton Arkansas, Saline County, linked to other Arkansas Skywarn nets.&lt;/p&gt;
-
-&lt;h2 id=&#34;california&#34;&gt;California&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/cawx&#34;&gt;cawx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.swskywarn.org/&#34;&gt;Southwest California Skywarn&lt;/a&gt; serves the NWS San Diego office. Facebook: &lt;a href=&#34;https://www.facebook.com/SanDiegoCountySkywarn&#34;&gt;San Diego County Skywarn&lt;/a&gt;. Twitter: @&lt;a href=&#34;https://twitter.com/SnDgCo_Skywarn&#34;&gt;SnDgCo_Skywarn&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;colorado&#34;&gt;Colorado&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/cowx&#34;&gt;cowx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.w9tec.com/chaseradio/co.html&#34;&gt;Eastern Colorado Severe Weather Frequencies&lt;/a&gt; from W9TEC, last updated 1/2010.&lt;/p&gt;
-
-&lt;h2 id=&#34;connecticut&#34;&gt;Connecticut&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/ctwx&#34;&gt;ctwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ctskywarn.com/&#34;&gt;Connecticut Skywarn&lt;/a&gt; has maps of frequencies in use and reporting areas.&lt;/p&gt;
-
-&lt;h2 id=&#34;delaware&#34;&gt;Delaware&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/dewx&#34;&gt;dewx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;district-of-columbia&#34;&gt;District of Columbia&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/dcwx&#34;&gt;dcwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wx4lwx.org/&#34;&gt;National Capital Area Skywarn Support Group&lt;/a&gt; covers the Baltimore/Washington metro area. &lt;a href=&#34;http://www.erh.noaa.gov/lwx/skywarn/subnet.html&#34;&gt;WX4LWX&lt;/a&gt; frequency plan.&lt;/p&gt;
-
-&lt;h2 id=&#34;florida&#34;&gt;Florida&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/flwx&#34;&gt;flwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flaglerskywarn.org/&#34;&gt;Flagler Skywarn&lt;/a&gt;, Jacksonville area.&lt;/p&gt;
-
-&lt;h2 id=&#34;georgia&#34;&gt;Georgia&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/gawx&#34;&gt;gawx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;hawaii&#34;&gt;Hawaii&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/hiwx&#34;&gt;hiwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;idaho&#34;&gt;Idaho&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/idwx&#34;&gt;idwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;illinois&#34;&gt;Illinois&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;https://twitter.com/hashtag/ilwx&#34;&gt;ilwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;chicago-area-romeoville-il-lot&#34;&gt;Chicago area: Romeoville, IL (LOT)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;National Weather Service: #&lt;a href=&#34;https://twitter.com/NWSChicago&#34;&gt;NWSChicago&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/20531&#34;&gt;WA9WLN Waldofar Repeater Network&lt;/a&gt; covers southern suburban counties Cook, Will, Kankakee and Lake co IN for the National Weather Service
-Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/22600&#34;&gt;N9IAA Northwest Indiana Skywarn&lt;/a&gt; is monitored from Chicago, serving Jasper La Porte Lake Newton Porter Starke counties in Indiana.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://chicagolandskywarn.org/&#34;&gt;Chicagoland Skywarn&lt;/a&gt; covers the greater Chicago area. (Broadcastify feed is down).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.northernilskywarn.org/&#34;&gt;Northern Illinois Skywarn&lt;/a&gt; covers Boone and Winnebago counties.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.lakecountyskywarn.org/&#34;&gt;Lake County Skywarn&lt;/a&gt; serves Libertyville, IL. The repeater for Skywarn is run by &lt;a href=&#34;http://www.races.org/&#34;&gt;Lake County RACES/ARES&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Electric Utility: &lt;a href=&#34;https://www.comed.com/_layouts/comedsp/outagemap.aspx&#34;&gt;ComEd Outage Map&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;central-illinois-lincoln-il-ilx&#34;&gt;Central Illinois: Lincoln, IL (ILX)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Electric Utility: &lt;a href=&#34;http://apps.ameren.com/outage/outagemap.aspx?state=IL&#34;&gt;Ameren Illinois outage map&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;rest-of-the-state&#34;&gt;Rest of the state&lt;/h3&gt;
-
-&lt;p&gt;Southern Illinois weather forecast is from Paducah, Kentucky.&lt;/p&gt;
-
-&lt;h2 id=&#34;indiana&#34;&gt;Indiana&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;https://twitter.com/hashtag/inwx&#34;&gt;inwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;indianapolis-and-central-indiana-ind&#34;&gt;Indianapolis and Central Indiana (IND)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/6063&#34;&gt;Central Indiana Skywarn Repeater Net W9ICE&lt;/a&gt; is a 39 county system, based in Indianapolis.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.w9nws.org&#34;&gt;Central Indiana Skywarn&lt;/a&gt; is a web site from W9NWS.&lt;/li&gt;
-&lt;li&gt;Indianapolis area, served by &lt;a href=&#34;http://www.crh.noaa.gov/ind/&#34;&gt;NWS Indianapolis&lt;/a&gt;. Also &lt;a href=&#34;https://www.facebook.com/NWSIndianapolis&#34;&gt;Facebook&lt;/a&gt;, Twitter &lt;a href=&#34;https://twitter.com/NWSIndianapolis&#34;&gt;@NWSIndianapolis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Electric Utility: &lt;a href=&#34;http://outagemap.duke-energy.com/in/default.html&#34;&gt;Duke Energy Indiana outage map&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Electric Utility: &lt;a href=&#34;http://apps.iplpower.com/outages/OutageMap.aspx&#34;&gt;Indianapolis Power and Light outage map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Newspaper: &lt;a href=&#34;http://www.indystar.com/&#34;&gt;Indy Star&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Television: &lt;a href=&#34;http://www.wthr.com/&#34;&gt;WTHR 13&lt;/a&gt;, &lt;a href=&#34;http://fox59.com/&#34;&gt;Fox 59 WXIN&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;northern-indiana-north-webster-in-iwx&#34;&gt;Northern Indiana, North Webster IN (IWX)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.fwrc.info/index.php/skywarn&#34;&gt;Fort Wayne Radio Club SKYWARN&lt;/a&gt; is part of &lt;a href=&#34;http://www.imoskywarn.org/&#34;&gt;IMO Skywarn&lt;/a&gt;. IMO (&amp;ldquo;Indiana-Michigan-Ohio&amp;rdquo;) covers a 37 county warning area in northern Indiana, southernmost Michigan, and northwestern Ohio.&lt;/li&gt;
-&lt;li&gt;Electric Utility: &lt;a href=&#34;https://www.indianamichiganpower.com/outages/&#34;&gt;Indiana Michigan Power outage map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Electric Utility: &lt;a href=&#34;http://www.nipscooutages.com/WSSNisourceOutageMap/outagemap.html&#34;&gt;NIPSCO outage map&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;northwest-indiana-via-chicago-romeoville-il-lot&#34;&gt;Northwest Indiana, via Chicago/Romeoville IL (LOT)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/22600&#34;&gt;N9IAA Northwest Indiana Skywarn&lt;/a&gt; is monitored from Chicago, serving Jasper La Porte Lake Newton Porter Starke counties in Indiana.&lt;/li&gt;
-&lt;li&gt;Electric Utility: &lt;a href=&#34;http://www.nipscooutages.com/WSSNisourceOutageMap/outagemap.html&#34;&gt;NIPSCO outage map&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;iowa&#34;&gt;Iowa&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/iawx&#34;&gt;iawx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;kansas&#34;&gt;Kansas&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/kswx&#34;&gt;kswx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;kentucky&#34;&gt;Kentucky&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/kywx&#34;&gt;kywx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;louisiana&#34;&gt;Louisiana&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/lawx&#34;&gt;lawx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://nelaskywarn.org&#34;&gt;Northeast Louisiana Skywarn&lt;/a&gt;, Twitter @&lt;a href=&#34;https://twitter.com/nelaskywarn&#34;&gt;nelaskywarn&lt;/a&gt;. Web page is 404 on 4/5/14.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://info.louisiana.edu/mahler/skywarn/&#34;&gt;Lafayette SKYWARN Group&lt;/a&gt;. &lt;a href=&#34;http://info.louisiana.edu/mahler/r1.html&#34;&gt;537 System&lt;/a&gt; repeater, KF5VH on 145.370 MHz.&lt;/p&gt;
-
-&lt;h2 id=&#34;maine&#34;&gt;Maine&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/mewx&#34;&gt;mewx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;maryland&#34;&gt;Maryland&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/mdwx&#34;&gt;mdwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;massachusetts&#34;&gt;Massachusetts&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/mawx&#34;&gt;mawx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Taunton (Boston) area covers southern New England. Twitter: @&lt;a href=&#34;http://twitter.com/wx1box&#34;&gt;wx1box&lt;/a&gt;. &lt;a href=&#34;http://www.wx1box.org/&#34;&gt;WX1BOX Skywarn&lt;/a&gt; web site. Echolink &lt;em&gt;NEW-ENG&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;michigan-miwx&#34;&gt;&lt;a href=&#34;#miwx&#34;&gt;Michigan&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Statewide severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/miwx&#34;&gt;#miwx&lt;/a&gt;. Regional weather on &lt;a href=&#34;https://twitter.com/hashtag/wmiwx&#34;&gt;#wmiwx&lt;/a&gt; (Western Michigan), &lt;a href=&#34;https://twitter.com/hashtag/upwx&#34;&gt;#upwx&lt;/a&gt; (Upper Peninsula).&lt;/p&gt;
-
-&lt;p&gt;NOAA weather all hazards radio, &lt;a href=&#34;http://www.nws.noaa.gov/nwr/Maps/PHP/MI.php&#34;&gt;Michigan&lt;/a&gt; listings.&lt;/p&gt;
-
-&lt;h3 id=&#34;detroit-pontiac-ann-arbor-southeastern-michigan&#34;&gt;Detroit / Pontiac / Ann Arbor, Southeastern Michigan&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;@&lt;a href=&#34;https://twitter.com/NWSDetroit&#34;&gt;NWSDetroit&lt;/a&gt;: National Weather Service Detroit (DTX)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/19998&#34;&gt;Washtenaw County Skywarn&lt;/a&gt;, N8DUY 145.15 repeater. Ann Arbor area.&lt;/li&gt;
-&lt;li&gt;Electric utility: &lt;a href=&#34;http://dteenergy.com/map/outage.html&#34;&gt;DTE Energy outage map&lt;/a&gt; serves the majority of the NWS Detroit area.&lt;/li&gt;
-&lt;li&gt;Newspapers: &lt;a href=&#34;http://freep.com&#34;&gt;Detroit Free Press&lt;/a&gt;, &lt;a href=&#34;http://detnews.com&#34;&gt;Detroit News&lt;/a&gt;, &lt;a href=&#34;http://mlive.com/ann-arbor&#34;&gt;MLive Ann Arbor&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Radio: &lt;a href=&#34;http://detroit.cbslocal.com/&#34;&gt;WWJ 950&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Television: WXYZ 7&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;grand-rapids-kalamazoo-western-michigan-grr&#34;&gt;Grand Rapids / Kalamazoo / Western Michigan (GRR)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;@&lt;a href=&#34;https://twitter.com/NWSGrandRapids&#34;&gt;NWSGrandRapids&lt;/a&gt;: National Weather Service Grand Rapids MI (GRR)&lt;/li&gt;
-&lt;li&gt;Regional severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/wmiwx&#34;&gt;#wmiwx&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Electric utility: &lt;a href=&#34;https://www.consumersenergy.com/outagemap&#34;&gt;Consumers Energy outage map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Television: WZZM 13&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.kentcountyskywarn.org/&#34;&gt;Kent County Skywarn&lt;/a&gt; covers the Grand Rapids area. Facebook: &lt;a href=&#34;https://www.facebook.com/kcskywarn&#34;&gt;KentCounty Skywarn&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ottawaskywarn.org/&#34;&gt;Ottawa County Skywarn&lt;/a&gt;, Holland MI area. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13885&#34;&gt;K8DAA 147.060&lt;/a&gt; via Broadcastify&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.lansingarpsc.com/skywarn.html&#34;&gt;Lansing Area Skywarn&lt;/a&gt; covers Ingham County. &lt;a href=&#34;http://www.lansingarpsc.com/listenlive.html&#34;&gt;Okemos repeater&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;marquette-houghton-upper-peninsula-of-michigan&#34;&gt;Marquette / Houghton / Upper Peninsula of Michigan&lt;/h3&gt;
-
-&lt;p&gt;Regional severe weather on Twitter on &lt;a href=&#34;https://twitter.com/hashtag/upwx&#34;&gt;#upwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kcra-mi.net/skywarn/mission.html&#34;&gt;Upper Peninsula Skywarn&lt;/a&gt;, 15 counties in the UP. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/13447&#34;&gt;K8MDH 147.315 Mhz&lt;/a&gt;, Keewenaw County Skywarn/ARES via Broadcastify. &lt;/p&gt;
-
-&lt;h2 id=&#34;minnesota&#34;&gt;Minnesota&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/mnwx&#34;&gt;mnwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.metroskywarn.org/&#34;&gt;Metro Skywarn&lt;/a&gt; serves the Minneapolis / St Paul area. Twitter: @&lt;a href=&#34;https://twitter.com/metroskywarn&#34;&gt;metroskywarn&lt;/a&gt;. Feed: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/1796&#34;&gt;Metro Skywarn - South Metro Area&lt;/a&gt; via Broadcastify.&lt;/p&gt;
-
-&lt;h2 id=&#34;mississippi&#34;&gt;Mississippi&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/mswx&#34;&gt;mswx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.tupeloarc.org/skywarn.htm&#34;&gt;Northeast Mississippi Skywarn&lt;/a&gt; (Tupelo area) via Tupelo Amateur Radio Club.&lt;/p&gt;
-
-&lt;h2 id=&#34;missouri&#34;&gt;Missouri&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/mowx&#34;&gt;mowx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.broadcastify.com/listen/feed/773&#34;&gt;N0NWS 145.490&lt;/a&gt; MHz Southwest Missouri SkyWarn Severe Weather Net via Broadcastify. &lt;a href=&#34;https://www.facebook.com/SMRSSW&#34;&gt;SMSSW&lt;/a&gt; on Facebook.&lt;/p&gt;
-
-&lt;h2 id=&#34;montana&#34;&gt;Montana&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/mtwx&#34;&gt;mtwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;nebraska&#34;&gt;Nebraska&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/newx&#34;&gt;newx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;nevada&#34;&gt;Nevada&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/nvwx&#34;&gt;nvwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;new-hampshire&#34;&gt;New Hampshire&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/nhwx&#34;&gt;nhwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;new-jersey&#34;&gt;New Jersey&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/njwx&#34;&gt;njwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bergenskywarn.org/&#34;&gt;Bergen Skywarn&lt;/a&gt; covers Bergen and Passaic counties. Twitter: @&lt;a href=&#34;https://twitter.com/WX2BC&#34;&gt;WX2BC&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.capemayskywarn.net/&#34;&gt;Cape May County Skywarn&lt;/a&gt; is 147.42 simplex. &lt;/p&gt;
-
-&lt;h2 id=&#34;new-mexico&#34;&gt;New Mexico&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/nmwx&#34;&gt;nmwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;new-york&#34;&gt;New York&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/nywx&#34;&gt;nywx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nyc-skywarn.org/&#34;&gt;New York City Skywarn&lt;/a&gt;. &lt;/p&gt;
-
-&lt;h2 id=&#34;north-carolina&#34;&gt;North Carolina&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/ncwx&#34;&gt;ncwx&lt;/a&gt;. Wilmington area: #&lt;a href=&#34;http://tchat.io/rooms/ilmwx&#34;&gt;ilmwx&lt;/a&gt;. Eastern North Carolina: #&lt;a href=&#34;http://tchat.io/rooms/encwx&#34;&gt;encwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;SE North Carolina: &lt;a href=&#34;https://www.facebook.com/pages/RBC-Skywarn/296347410513805&#34;&gt;RBC Skywarn (Facebook)&lt;/a&gt;. Attached to &lt;a href=&#34;http://www.weather.gov/ilm/&#34;&gt;NWS Wilmington, NC&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ccskywarn.net/&#34;&gt;Central Carolina Skywarn&lt;/a&gt; web site. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/5620&#34;&gt;Monitor Central Carolina Skywarn&lt;/a&gt; WB4TQD on Broadcastify; serves Raleigh, NC and surrounding counties.&lt;/p&gt;
-
-&lt;h2 id=&#34;north-dakota&#34;&gt;North Dakota&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/ndwx&#34;&gt;ndwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ohio&#34;&gt;Ohio&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/ohwx&#34;&gt;ohwx&lt;/a&gt;. Cincinnati area #&lt;a href=&#34;http://tchat.io/rooms/cincywx&#34;&gt;cincywx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.severe-weather.org/&#34;&gt;Central Ohio Severe Weather Network&lt;/a&gt; supports NWS Wilmington, OH.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ccskywarn.org/&#34;&gt;Cuyahoga County Skywarn&lt;/a&gt; supports the Cleveland area. Twitter: @&lt;a href=&#34;https://twitter.com/CuyahogaSkywarn&#34;&gt;CuyahogaSkywarn&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cincinnati&#39;s &lt;a href=&#34;http://warn.org&#34;&gt;Weather Amateur Radio Network&lt;/a&gt; (WARN). Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/5096&#34;&gt;W8NWS&lt;/a&gt; on Broadcastify. 146.88 MHz. 17 counties surrounding Hamilton County, Ohio. Twitter: @&lt;a href=&#34;http://twitter.com/cincyskywarn&#34;&gt;CincySkywarn&lt;/a&gt;, #&lt;a href=&#34;http://twitter.com/hashtag/cincywx&#34;&gt;cincywx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;oklahoma&#34;&gt;Oklahoma&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/okwx&#34;&gt;okwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.radioreference.com/apps/db/?aid=1871&#34;&gt;Oklahoma weather frequencies&lt;/a&gt; on Radio Reference.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.okarkskywarn.org/&#34;&gt;Eastern Oklahoma / Northwestern Arkansas Skywarn&lt;/a&gt; is out of Tulsa, Oklahoma. Station [WX5TUL].&lt;/p&gt;
-
-&lt;h2 id=&#34;oregon&#34;&gt;Oregon&lt;/h2&gt;
-
-&lt;h2 id=&#34;pennsylvania&#34;&gt;Pennsylvania&lt;/h2&gt;
-
-&lt;h2 id=&#34;rhode-island&#34;&gt;Rhode Island&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/riwx&#34;&gt;riwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;south-carolina&#34;&gt;South Carolina&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/scwx&#34;&gt;scwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;south-dakota&#34;&gt;South Dakota&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/sdwx&#34;&gt;sdwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;tennessee&#34;&gt;Tennessee&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/tnwx&#34;&gt;tnwx&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.etskywarn.net/&#34;&gt;East Tennessee Skywarn&lt;/a&gt;, and a twitter feed @&lt;a href=&#34;https://twitter.com/etskywarn&#34;&gt;etskywarn&lt;/a&gt;. Knoxville area.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/MiddleTennesseeSkywarnSpotters&#34;&gt;Middle Tennessee Skywarn Spotters&lt;/a&gt; (Facebook; not active). Nashville area.
-&lt;a href=&#34;http://mtears.org/sns/&#34;&gt;MTEARS&lt;/a&gt; radio network. &lt;a href=&#34;http://nashvillesevereweather.com/&#34;&gt;Nashville Severe Weather&lt;/a&gt; web site, @&lt;a href=&#34;http://twitter.com/nashseverewx&#34;&gt;NashSevereWX&lt;/a&gt;. Spotter reports from Nashville, #&lt;a href=&#34;http://twitter.com/hashtag/tspotter&#34;&gt;tspotter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Memphis area: #&lt;a href=&#34;http://twitter.com/hashtag/memwx&#34;&gt;memwx&lt;/a&gt;. Spotter reports from Memphis, #&lt;a href=&#34;http://tchat.io/rooms/mspotter&#34;&gt;mspotter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;texas&#34;&gt;Texas&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/txwx&#34;&gt;txwx&lt;/a&gt;. Dallas/Fort Worth, #&lt;a href=&#34;http://www.tchat.io/rooms/dfwwx&#34;&gt;dfwwx&lt;/a&gt;. Lubbock, #&lt;a href=&#34;http://www.tchat.io/rooms/lubwx&#34;&gt;lubwx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Fort Worth / Dallas: @&lt;a href=&#34;http://twitter.com/wx5fwd&#34;&gt;wx5fwd&lt;/a&gt;, NWS Fort Worth Skywarn radio desk. &lt;a href=&#34;http://wx5fwd.org/&#34;&gt;WX5FWD SKYWARN Team&lt;/a&gt; web site. EchoLink conference &lt;em&gt;WX5FWD&lt;/em&gt; (372418).&lt;/p&gt;
-
-&lt;p&gt;Denton County: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/8307&#34;&gt;W5NGU 146.920&lt;/a&gt; via Broadcastify. &lt;a href=&#34;http://www.dcara.net/&#34;&gt;Denton County Amateur Radio Association&lt;/a&gt; web site. &lt;a href=&#34;http://www.denton-ares.org/&#34;&gt;Denton ARES&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Wichita County: &lt;a href=&#34;http://www.broadcastify.com/listen/feed/4682/&#34;&gt;Wichita County ARES 146.940&lt;/a&gt; via Broadcastify.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://skywarn.n4ki.us/&#34;&gt;East Texas Skywarn&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;utah&#34;&gt;Utah&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/utwx&#34;&gt;utwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;vermont&#34;&gt;Vermont&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://www.twitter.com/hashtag/vtwx&#34;&gt;vtwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;virginia&#34;&gt;Virginia&lt;/h2&gt;
-
-&lt;h2 id=&#34;washington-state&#34;&gt;Washington (state)&lt;/h2&gt;
-
-&lt;h2 id=&#34;west-virginia&#34;&gt;West Virginia&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Severe weather: &lt;a href=&#34;http://twitter.com/hashtag/wvwx&#34;&gt;#wvwx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;National Weather Service, Charleston, WV (RLX) on Twitter: &lt;a href=&#34;https://twitter.com/NWSCharlestonWV&#34;&gt;@NWSCharlestonWV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Electric Utiliity: &lt;a href=&#34;https://www.appalachianpower.com/outages/outageMap.aspx&#34;&gt;Appalachian Power outage map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Newspaper: &lt;a href=&#34;http://www.wvgazettemail.com/&#34;&gt;Charleston Gazette-Mail&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Television: &lt;a href=&#34;http://www.wvva.com/&#34;&gt;WVVA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;wisconsin&#34;&gt;Wisconsin&lt;/h2&gt;
-
-&lt;p&gt;Severe weather: #&lt;a href=&#34;http://twitter.com/hashtag/wiwx&#34;&gt;wiwx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mke-skywarn.org&#34;&gt;Milwaukee Area Skywarn Association&lt;/a&gt;, Twitter @&lt;a href=&#34;http://twitter.com/mkeskywarn&#34;&gt;mkeskywarn&lt;/a&gt;. Weather nets are on the 146.91 repeater; listen to the &lt;a href=&#34;http://www.mrc91.org/index.html&#34;&gt;Milwaukee Radio Club&lt;/a&gt; WI9MRC directly, or &lt;a href=&#34;https://www.broadcastify.com/listen/feed/12865&#34;&gt;WI9MRC 146.91&lt;/a&gt; on Broadcastify.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wx9grb.org/&#34;&gt;Packerland Amateur Skywarn Society&lt;/a&gt;, serving the Green Bay area. Twitter @&lt;a href=&#34;http://twitter.com/WX9GRBSkywarn&#34;&gt;WX9GRBSkywarn&lt;/a&gt;. Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/15791&#34;&gt;Green Bay Area Repeaters&lt;/a&gt; on Broadcastify.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.midwestsstrc.org/&#34;&gt;MidWest SSTRC&lt;/a&gt; covers the Madison area. Listen to &lt;a href=&#34;http://www.broadcastify.com/listen/feed/10414&#34;&gt;MidWest Amateur Severe Storm Tracking Response Center&lt;/a&gt; on Broadcastify.&lt;/p&gt;
-
-&lt;h2 id=&#34;wyoming&#34;&gt;Wyoming&lt;/h2&gt;
-</description>
+      <description>This list of Skywarn nets is compiled from a list of Skywarn Twitter feeds and Broadcastify radio feeds. Networks are added when there is confirmed traffic. KE4KMD maintains a similar list, which was used in part to develop this one. There is a national Skywarn directory at Skywarn.org.
+This list is sorted by state, and from there grouped regionally by National Weather Service forecast office directory. In some cases, NWS forecast areas cross state boundaries, and those are noted.</description>
     </item>
     
     <item>
@@ -879,24 +120,9 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
       <pubDate>Sun, 09 Feb 2014 02:23:19 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-02-09-decoding-radio-digital-modes-without-a-radio-using-websdr-and-fldigi/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to &amp;ldquo;listen&amp;rdquo; to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.&lt;/p&gt;
+      <description>I&amp;rsquo;m interested in decoding radio digital modes without actually having a radio. The idea is that by using a web-based software defined radio (to tune in the signals) and the fldigi program (to decode the signals) that I should be able to &amp;ldquo;listen&amp;rdquo; to digital modes and start to explore the digital parts of the amateur and broadcast radio bands.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a51167efb3970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Fldigi-HB9ERN&#34; title=&#34;Fldigi-HB9ERN&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a51167efb3970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I think I have all of the components, but I have yet to be able to get everything to work as expected. Here&amp;rsquo;s what I have:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;WebSDR&lt;/a&gt; from &lt;a href=&#34;http://websdr.ewi.utwente.nl:8901/&#34;&gt;http://websdr.ewi.utwente.nl:8901/&lt;/a&gt; . This is a software-defined radio tuning  to the radio airwaves at the University of Twente in the Netherlands; it runs in your browser. There are 87 of these systems running around the world, listed at &lt;a href=&#34;http://websdr.org/&#34;&gt;websdr.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.w1hkj.com/Fldigi.html&#34;&gt;fldigi&lt;/a&gt; from &lt;a href=&#34;http://www.w1hkj.com/Fldigi.html&#34;&gt;http://www.w1hkj.com/Fldigi.html&lt;/a&gt; . This software for Windows, Linux and OS X, runs on your local system and takes an audio signal and decodes it in one of many digital modes.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://code.google.com/p/soundflower/&#34;&gt;Soundflower&lt;/a&gt; from &lt;a href=&#34;https://code.google.com/p/soundflower/&#34;&gt;https://code.google.com/p/soundflower/&lt;/a&gt; . This is a Mac system extension that allows you to redirect the audio output of one program (e.g. your browser) into the audio input of another program (e.g. fldigi). Not strictly necessary because the fldigi can also just decode whatever it hears through the computer&amp;rsquo;s built in microphone. I picked up the recommendation from an article on &lt;a href=&#34;http://www.hamradioandvision.com/websdr-digital-modes/&#34;&gt;HamRadioAndVision&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A number of people have done Youtube videos describing what they are doing to make this work. For example, &lt;a href=&#34;http://www.oz9aec.net/index.php/component/content/article/63-sdr/290-fun-with-websdr-and-fldigi&#34;&gt;OZ9AEC&lt;/a&gt; has a 6 minute Youtube from 2009 shows reception in single channel and multichannel mode. He doesn&#39;t use Soundflower, just the built in mic of his Mac.&lt;/p&gt;
-
-&lt;p&gt;Not described here - and probably what I need to figure out next - are two key bits of information. Where do you tune to pick up digital signals? And, more importantly, which decoder do you use? It&#39;s not hard to pick out which modulation is being used if you have some practice, but as of this writing I couldn&#39;t readily tell you what WEFAX sounds like compared to RTTY. Still sorting through those details before I can claim to have mastered this.&lt;/p&gt;
-
-&lt;p&gt;Note also that this should work with a local software-defined radio as well, or even with a &#34;hardware-defined radio&#34; placed near your mic or patched in with a mic cable.&lt;/p&gt;
-</description>
+I think I have all of the components, but I have yet to be able to get everything to work as expected.</description>
     </item>
     
     <item>
@@ -905,10 +131,9 @@ Chicago/Romeoville office, LOT&lt;/p&gt;&lt;/li&gt;
       <pubDate>Sun, 02 Jun 2013 20:56:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-02-what-the-w8um-net-looks-like-in-software-defined-radio/</guid>
-      <description>&lt;p&gt;A sample screen grab from tonight&amp;#39;s W8UM net on 145.23. Please note that the radio I&amp;#39;m using looks like it&amp;#39;s out of tune a little bit, since I&amp;#39;m actually listening here on 145.217.&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ce9139f970b-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-06-02 at 8.07.22 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901ce9139f970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ce9139f970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-06-02 at 8.07.22 PM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;It was a good clear strong signal (the red/yellow line), even with the not very good antenna I have; it should be, since the transmitter is only about a mile from here.&lt;/p&gt;
-</description>
+      <description>A sample screen grab from tonight&amp;#39;s W8UM net on 145.23. Please note that the radio I&amp;#39;m using looks like it&amp;#39;s out of tune a little bit, since I&amp;#39;m actually listening here on 145.217.
+ 
+It was a good clear strong signal (the red/yellow line), even with the not very good antenna I have; it should be, since the transmitter is only about a mile from here.</description>
     </item>
     
   </channel>

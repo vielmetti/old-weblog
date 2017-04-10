@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/social-media/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Social Media on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/social-media/</link>
+    <description>Recent content in Social Media on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jun 2015 09:51:25 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/social-media/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Do you believe in life after Facebook?</title>
@@ -14,18 +17,8 @@
       <pubDate>Sat, 27 Jun 2015 09:51:25 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-27-do-you-believe-in-life-after-facebook/</guid>
-      <description>&lt;p&gt;I&#39;ve deleted Facebook from my phone, though I haven&#39;t closed out my account there. Look for me to be there less and here (on this blog) more.&lt;/p&gt;
-
-&lt;p&gt;Facebook is a never ending stream. You start to look at it, and you are never done. There&#39;s never a &#34;congratulations, you are all caught up&#34; message to be found. It&#39;s just too big to make sense of, and too much of a potential time sink.&lt;/p&gt;
-
-&lt;p&gt;I suspect that this hiatus will be temporary, as I have previously &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/10/twitter-zero.html&#34;&gt;quit Twitter&lt;/a&gt; and look at me now.&lt;/p&gt;
-
-&lt;p&gt;&#34;The only way to win is not to play.&#34; &lt;/p&gt;
-
-&lt;p&gt;With the time I have left from not being on Facebook I should be able to send more postcards, write more blog entries, sort through some accumulated paper, and what not. It&#39;s not like there&#39;s any shortage of other things to do in person and on the net.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: When I don&#39;t look at Facebook, I look at this weblog more; and when I look at this weblog, I do more tech stuff and less non-tech stuff. That&#39;s an OK balance.&lt;/p&gt;
-</description>
+      <description>I&#39;ve deleted Facebook from my phone, though I haven&#39;t closed out my account there. Look for me to be there less and here (on this blog) more.
+Facebook is a never ending stream. You start to look at it, and you are never done. There&#39;s never a &#34;congratulations, you are all caught up&#34; message to be found. It&#39;s just too big to make sense of, and too much of a potential time sink.</description>
     </item>
     
     <item>
@@ -34,41 +27,8 @@
       <pubDate>Mon, 30 Dec 2013 23:20:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-30-facebook-where-its-hard-to-keep-a-conversation-going-and-find-it-again-later/</guid>
-      <description>&lt;p&gt;I have taken to using Facebook as a place where I put a second copy
-of something I&#39;ve already written and published somewhere else.
-That ensures that in some way I&#39;ll be able to find it, probably by
-googling my blog posts. Things written on Facebook disappear into
-the ether too quickly (including &lt;a href=&#34;https://www.facebook.com/ourfounder/posts/10152097845036826&#34;&gt;this thread&lt;/a&gt; which will die quietly
-when we are all done with it).&lt;/p&gt;
-
-&lt;p&gt;Facebook Communities suffer from the problem that they don&#39;t really
-provide an equal forum for all people to share jointly in a topic
-discussion. Rather, they bias towards the moderator&#39;s interests,
-because only the posts from the moderator are visible for long
-enough to get any traffic.&lt;/p&gt;
-
-&lt;p&gt;The problem of how to build forum software is old and solved. The
-MTS Confer system and others that followed it like Picospan and &lt;a href=&#34;http://www.caucus.com&#34;&gt;Caucus&lt;/a&gt;
-lived in a world where you could create a long-running discussion
-that focused on one topic and where you could keep that topic mostly
-on-topic over an extended period of time. Facebook, in contrast, 
-feels more like a big chat room, where yesterday&#39;s posts scroll off
-into nothingness and where you can&#39;t get back to any discussion you
-once had - no matter how good it was.&lt;/p&gt;
-
-&lt;p&gt;Twitter doesn&#39;t give you the paragraph-sized chunks of discussion that
-you need to actually have an intelligent conversation, but it does 
-have long-lived hashtags that enable a community of interest to form
-and (with scheduled chats) thrive. It&#39;s possible to find people who
-you don&#39;t know who share an interest and to communicate with them in
-such a way that a simple enough search brings back something useful.
-Nothing on Facebook behaves that way.&lt;/p&gt;
-
-&lt;p&gt;Further reading -&lt;/p&gt;
-
-&lt;p&gt;See &lt;a href=&#34;https://www.facebook.com/ourfounder/posts/10152097845036826&#34;&gt;this thread&lt;/a&gt; on Facebook which prompted this post, started by
-&lt;a href=&#34;https://twitter.com/ourfounder&#34;&gt;Jim Benson&lt;/a&gt; and contributed to by &lt;a href=&#34;https://twitter.com/hrheingold&#34;&gt;Howard Rheingold&lt;/a&gt; and others.&lt;/p&gt;
-</description>
+      <description>I have taken to using Facebook as a place where I put a second copy of something I&#39;ve already written and published somewhere else. That ensures that in some way I&#39;ll be able to find it, probably by googling my blog posts. Things written on Facebook disappear into the ether too quickly (including this thread which will die quietly when we are all done with it).
+Facebook Communities suffer from the problem that they don&#39;t really provide an equal forum for all people to share jointly in a topic discussion.</description>
     </item>
     
     <item>
@@ -77,12 +37,8 @@ Nothing on Facebook behaves that way.&lt;/p&gt;
       <pubDate>Wed, 21 Aug 2013 23:49:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-21-taking-a-vow-of-silence-on-facebook/</guid>
-      <description>&lt;p&gt;I&#39;m still reading the darned thing, and sometimes I click on the links. But for now, at least, I&#39;m taking a vow of silence on Facebook. No poking people, no one-click birthday wishes, and no back-and-forth banter punctuated by screen refreshes hoping that there&#39;s something else of interest to look at.&lt;/p&gt;
-
-&lt;p&gt;I like you all out there in Facebook land, but something has to give, and I&#39;d rather be an old-school blogger that still puts out a post or two a week than an ace Facebook user with little to show for it after years of work except calluses on my fingers.&lt;/p&gt;
-
-&lt;p&gt;Ironically you will read this on Facebook, some of you at least, because I haven&#39;t yet figured out how or whether to disconnnect the automated Typepad-to-Facebook posting.&lt;/p&gt;
-</description>
+      <description>I&#39;m still reading the darned thing, and sometimes I click on the links. But for now, at least, I&#39;m taking a vow of silence on Facebook. No poking people, no one-click birthday wishes, and no back-and-forth banter punctuated by screen refreshes hoping that there&#39;s something else of interest to look at.
+I like you all out there in Facebook land, but something has to give, and I&#39;d rather be an old-school blogger that still puts out a post or two a week than an ace Facebook user with little to show for it after years of work except calluses on my fingers.</description>
     </item>
     
     <item>
@@ -91,22 +47,8 @@ Nothing on Facebook behaves that way.&lt;/p&gt;
       <pubDate>Tue, 11 Jun 2013 16:47:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-11-twitter-analytics-via-twitter-ads-account/</guid>
-      <description>&lt;p&gt;Twitter has built-in analytics, which you can reach through the &lt;a href=&#34;http://ads.twitter.com&#34; target=&#34;_self&#34;&gt;ads.twitter.com&lt;/a&gt; login. From it, you can see the following items. Note that this is intended as ways of tracking your promoted tweets, where you can pay moneys in order to have individual tweets show up for people who don&amp;#39;t follow you and where you can have your name featured prominently in suggested users.&lt;/p&gt;
-&lt;p&gt;The data, which matches up to the screen shot below:&lt;/p&gt;
-&lt;p&gt;1. What days and times you were mentioned in the Twitter stream, broken into 6 hr intervals.&lt;/p&gt;
-&lt;p&gt;2. When people followed and unfollowed you, also in 6 hour timeline intervals.&lt;/p&gt;
-&lt;p&gt;3. Your &amp;quot;best&amp;quot;, &amp;quot;good&amp;quot;, and &amp;quot;all&amp;quot; tweets, where best and good tweets have more favorites, retweets, or replies.&lt;/p&gt;
-&lt;p&gt;4. How many people clicked through on any link you have posted to Twitter.&lt;/p&gt;
-&lt;p&gt;5. Which of your tweets have been retweeted enough times to give you increased reach for those ones.&lt;/p&gt;
-&lt;p&gt;6. A CSV file with the header as follows; note that it doesn&amp;#39;t include click-through information.&lt;/p&gt;
-&lt;pre&gt;status_id,time,faves,retweets,replies,tweet text&lt;br /&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;br /&gt;&lt;/pre&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab044c93970d-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-06-11 at 4.30.39 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192ab044c93970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab044c93970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-06-11 at 4.30.39 PM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;More reaction:&lt;/p&gt;
-&lt;p&gt;Christopher Penn: &lt;a href=&#34;http://www.christopherspenn.com/2013/06/official-twitter-analytics-most-hidden-ever/&#34; target=&#34;_self&#34;&gt;It&amp;#39;s not much and it&amp;#39;s hard to find.&lt;/a&gt;&amp;#0160;Penn&amp;#39;s article also shows the analytics from the &amp;quot;followers&amp;quot; tab; I don&amp;#39;t have enough Twitter followers to draw conclusions from (snif).&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Twitter has built-in analytics, which you can reach through the ads.twitter.com login. From it, you can see the following items. Note that this is intended as ways of tracking your promoted tweets, where you can pay moneys in order to have individual tweets show up for people who don&amp;#39;t follow you and where you can have your name featured prominently in suggested users.
+The data, which matches up to the screen shot below:</description>
     </item>
     
     <item>
@@ -115,12 +57,15 @@ Nothing on Facebook behaves that way.&lt;/p&gt;
       <pubDate>Fri, 17 Oct 2008 23:12:45 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-10-17-note-to-self-tw/</guid>
-      <description>&lt;p&gt;as noted on a late friday night; selected, slightly edited, not credited.&lt;/p&gt;
-
-&lt;p&gt;&amp;quot;pick up absentee ballot&amp;quot;&lt;br /&gt;&amp;quot;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964716979&#34;&gt;leave the laptop closed if you don&#39;t want kittens posting on the Internets&amp;quot;&lt;br /&gt;&lt;/span&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964707414&#34;&gt;&amp;quot;700 kids + headache - advil = bad&amp;quot;&lt;/span&gt;&lt;br /&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964716979&#34;&gt;&amp;quot;go to sleep!&amp;quot;&lt;br /&gt;&amp;quot;&lt;/span&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964679851&#34;&gt;always write for me,always write for me.I am not a great writer, I am just passionate&amp;quot;&lt;br /&gt;&amp;quot;&lt;/span&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964670600&#34;&gt;must expand mixed drink repertoire&amp;quot;&lt;br /&gt;&amp;quot;stick to decaf after 5&amp;quot;&lt;br /&gt;&amp;quot;&lt;/span&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964636857&#34;&gt;remember wallet next time you go gift shopping&amp;quot;&lt;br /&gt;&amp;quot;&lt;/span&gt;&lt;span class=&#34;msgtxt nl&#34; id=&#34;msgtxt964625911&#34;&gt;Bring notepad or book&amp;quot;&lt;br /&gt;&amp;quot;Breathe&amp;quot;&lt;br /&gt;&amp;quot;&lt;/span&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964608393&#34;&gt;Turn off Blue-tooth headset when putting in Pocket&amp;quot;&lt;br /&gt;&amp;quot;&lt;/span&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964495962&#34;&gt;dont wear flip flops to a playground with a mulch ground.&amp;nbsp; Its annoying when the sticks go between your toes&amp;quot;&lt;br /&gt;&amp;quot;start running again&amp;quot;&lt;br /&gt;&amp;quot;&lt;/span&gt;&lt;span class=&#34;msgtxt en&#34; id=&#34;msgtxt964461888&#34;&gt;if ever in a presidential debate, don&#39;t stick tongue out&amp;quot;&lt;br /&gt;&lt;br /&gt;Note to self: if you want to write a twitter to yourself as a private message, you have to have two twitter accounts; it doesn&#39;t let you send a note to yourself (complains that you aren&#39;t following yourself, and you can&#39;t follow yourself).&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;t&lt;/p&gt;
-</description>
+      <description>as noted on a late friday night; selected, slightly edited, not credited.
+&amp;quot;pick up absentee ballot&amp;quot;
+&amp;quot;leave the laptop closed if you don&#39;t want kittens posting on the Internets&amp;quot;
+&amp;quot;700 kids + headache - advil = bad&amp;quot;
+&amp;quot;go to sleep!&amp;quot;
+&amp;quot;always write for me,always write for me.I am not a great writer, I am just passionate&amp;quot;
+&amp;quot;must expand mixed drink repertoire&amp;quot;
+&amp;quot;stick to decaf after 5&amp;quot;
+&amp;quot;remember wallet next time you go gift shopping&amp;quot;</description>
     </item>
     
     <item>
@@ -129,37 +74,21 @@ Nothing on Facebook behaves that way.&lt;/p&gt;
       <pubDate>Sun, 27 Jul 2008 17:13:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-07-27-come-follow-fol/</guid>
-      <description>&lt;p&gt;a round in three parts:&lt;/p&gt;
+      <description>a round in three parts:
+Part I:
+Come, follow, follow, follow,
+Follow, follow, follow me.
+Part II:
+Whither shall I follow, follow, follow,
+Whither shall I follow, follow thee.
+Part III:
+To the greenwood, to the greenwood,
+To the greenwood, greenwood tree.
+sources:
+KiDiddles song lyrics; includes a sound file, but not the same tune I&#39;m used to.
+transcribed by Cathy Russell; replaces &#34;greenwood&#34; with &#34;redwood&#34;.
 
-&lt;p&gt;Part I:&lt;br /&gt;
-Come, follow, follow, follow,&lt;br /&gt;
-Follow, follow, follow me.&lt;/p&gt;
-
-&lt;p&gt;Part II:&lt;br /&gt;
-Whither shall I follow, follow, follow,&lt;br /&gt;
-Whither shall I follow, follow thee.&lt;/p&gt;
-
-&lt;p&gt;Part III:&lt;br /&gt;
-To the greenwood, to the greenwood,&lt;br /&gt;
-To the greenwood, greenwood tree.&lt;/p&gt;
-
-&lt;p&gt;sources:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.kididdles.com/lyrics/c055.html&#34;&gt;KiDiddles song lyrics&lt;/a&gt;; includes a sound file, but not the same tune I&#39;m used to.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://members.tripod.com/tiny_dancer/follow.html&#34;&gt;transcribed by Cathy Russell&lt;/a&gt;; replaces &#34;greenwood&#34; with &#34;redwood&#34;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.livingrock.com/Lyrics-FollowMe.htm&#34;&gt;Wendy James&lt;/a&gt; w/religious lyrics.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bbc.co.uk/ww2peopleswar/stories/48/a1944948.shtml&#34;&gt;World War II recruiting chant for the Girls Training Corps&lt;/a&gt;, UK.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cs.rochester.edu/~nelson/cesium/cesium_songs.html#Come-Follow&#34;&gt;Come, Follow&lt;/a&gt; from the &#34;Songs of Cesium&#34;.  &#34;For non cesiophiles, cesium is the most electropositive and sublime element known, and as such merits praise, worship, its own newsgroup (alt.cesium), etc. etc.&#34;&lt;/p&gt;
-
-&lt;p&gt;plus this opaque JSTOR reference to &lt;a href=&#34;http://www.jstor.org/pss/731060&#34;&gt;The Restoration Catch&lt;/a&gt;.  &lt;/p&gt;
-
-&lt;p&gt;(reflecting on the variations of the &#34;follow&#34; command on various services like Twitter, Friendfeed, Plurk, Plaxo, LinkedIn, etc etc etc etc etc)&lt;/p&gt;
-</description>
+Wendy James w/religious lyrics.</description>
     </item>
     
     <item>
@@ -168,31 +97,8 @@ To the greenwood, greenwood tree.&lt;/p&gt;
       <pubDate>Wed, 18 Jun 2008 13:39:15 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-18-discovering-nat/</guid>
-      <description>&lt;p&gt;via &lt;a href=&#34;http://ubois.com&#34;&gt;archivist Jeff Ubois&lt;/a&gt;, this account of using needle sorting cards for human intelligence gathering:&lt;/p&gt;
-
-&lt;blockquote&gt;
-Alfred De Grazia, with Floyd Hunter and Paul Deutschmann, wrote a training manual in 1954 for the State Dept., &#34;DISCOVERING NATIONAL ELITES   A Manual of Methods for Discovering the Leadership of a Society and Its Vulnerabilities to Propaganda&#34; that includes an approach to social network analysis for &#34;propaganda-target analysis&#34; based on punch cards. It&#39;s now been declassified:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.grazian-archive.com/governing/Elite/F_34.html&#34;&gt;http://www.grazian-archive.com/governing/Elite/F_34.html&lt;/a&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.grazian-archive.com/governing/Elite/Table%20of%20Contents.html&#34;&gt;http://www.grazian-archive.com/governing/Elite/Table%20of%20Contents.html&lt;/a&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The rest of De Grazia&#39;s site is out there (though one might have said the same thing in 1954 if presented with a scheme for punch card analysis of social networks.)&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/18/picture_5.png&#34;&gt;&lt;img class=&#34;image-full&#34; alt=&#34;Picture_5&#34; title=&#34;Picture_5&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/18/picture_5.png&#34; border=&#34;0&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you look closely at this personnel record, it&#39;s eerily reminscent of the data structure of a LinkedIn record.  Note that &lt;a href=&#34;http://www.guardian.co.uk/media/2008/jun/18/digitalmedia.mediabusiness2&#34;&gt;LinkedIn just sold off a 5% slice for $53 million&lt;/a&gt;, giving them a nominal valuation of $1 billion; with 23 million membership records, that&#39;s about $40 per punchcard.&lt;/p&gt;
-
-&lt;p&gt;Kevin Kelly (re)discovered these cards recently and has a nice set with photos in his piece &lt;a href=&#34;http://www.kk.org/thetechnium/archives/2008/06/one_dead_media.php&#34;&gt;One Dead Media&lt;/a&gt;, noticing that nothing of this description was anything he could find anywhere:&lt;/p&gt;
-
-&lt;blockquote&gt;
-But prescient as it was, and as cool as these cards were, I searched the Net today for any sign of InDecks and was surprised to find no sellers on eBay, no fan sites, no collector sites, no historical web pages, and no evidence that anyone is still using them.  They are gone. Blasted out by the first computers. Bruce Sterling lists them in his Dead Media file, a catalog of defunct media devices and platforms.  They seem to be verifiably extinct.
-&lt;/blockquote&gt;
-
-&lt;p&gt;Believing that nothing really goes extinct, I challenge you to reinvent these in some useful, usable way.&lt;/p&gt;
-</description>
+      <description>via archivist Jeff Ubois, this account of using needle sorting cards for human intelligence gathering:
+ Alfred De Grazia, with Floyd Hunter and Paul Deutschmann, wrote a training manual in 1954 for the State Dept., &#34;DISCOVERING NATIONAL ELITES A Manual of Methods for Discovering the Leadership of a Society and Its Vulnerabilities to Propaganda&#34; that includes an approach to social network analysis for &#34;propaganda-target analysis&#34; based on punch cards. It&#39;s now been declassified:  http://www.</description>
     </item>
     
   </channel>

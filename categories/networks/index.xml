@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/networks/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Networks on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/networks/</link>
+    <description>Recent content in Networks on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/networks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2015 02:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/networks/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>mitmproxy</title>
@@ -14,33 +17,8 @@
       <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-31-mitmproxy/</guid>
-      <description>&lt;p&gt;In his &lt;a href=&#34;http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/&#34;&gt;An internet x-ray machine for the masses&lt;/a&gt;, Paul Ohm writes a lucid introduction to
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;mitmproxy&lt;/span&gt;,
-a man-in-the-middle proxy server that allows you to
-get between your browser and the Internet and poke at
-(and change) the traffic going between the two.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mitmproxy.org&#34;&gt;http://mitmproxy.org&lt;/a&gt; is the home of mitmproxy. It&amp;rsquo;s
-the work of &lt;span style=&#34;background-color: #bfffff;&#34;&gt;Aldo Cortesi&lt;/span&gt; and a cast of
-hundreds of contributors on github at &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;https://github.com/mitmproxy/mitmproxy&lt;/a&gt; .
-I used the OS X binary distribution from the download page.
-There&amp;rsquo;s also a nifty Dockerized version on
-Dockerhub as &lt;a href=&#34;https://registry.hub.docker.com/u/mitmproxy/mitmproxy/&#34;&gt;docker pull mitmproxy/mitmproxy&lt;/a&gt;
-to get you started quickly too.&lt;/p&gt;
-
-&lt;p&gt;Man-in-the-middle (or monkey-in-the-middle) systems are not
-new, of course, and Dug Song&amp;rsquo;s &lt;a href=&#34;http://www.monkey.org/~dugsong/dsniff/&#34;&gt;dsniff&lt;/a&gt;
-package dates to 1999. What we&amp;rsquo;ve learned in a decade and a half
-is that security through obscurity vanishes in the face of better
-tools for looking at network traffic as it&amp;rsquo;s going by with high
-level tools for making sense of what&amp;rsquo;s there.&lt;/p&gt;
-
-&lt;p&gt;As ever, all of these tools have both benign and malicious uses.
-If you can trick someone into using your proxy server for their
-traffic, all kinds of foolishness can result. Better is the use
-that you proxy your own traffic and behold all of the cookies,
-beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
-</description>
+      <description>In his An internet x-ray machine for the masses, Paul Ohm writes a lucid introduction to mitmproxy, a man-in-the-middle proxy server that allows you to get between your browser and the Internet and poke at (and change) the traffic going between the two.
+http://mitmproxy.org is the home of mitmproxy. It&amp;rsquo;s the work of Aldo Cortesi and a cast of hundreds of contributors on github at https://github.com/mitmproxy/mitmproxy . I used the OS X binary distribution from the download page.</description>
     </item>
     
     <item>
@@ -49,61 +27,8 @@ beacons, and ads that sneak into your everyday browsing experience.&lt;/p&gt;
       <pubDate>Sun, 19 Jul 2015 14:01:15 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-weak-ties-of-your-social-network/</guid>
-      <description>&lt;p&gt;Lior Zoref has a new book out called
-&lt;a href=&#34;http://www.aadl.org/catalog/record/1471756&#34;&gt;Mindsharing: the art of crowdsourcing everything&lt;/a&gt;
-(Portfolio / Penguin, 2015). I have
-a copy of it from the Ann Arbor District Library which was on the
-new shelf at Mallett&amp;rsquo;s Creek on a sunny and hot summer Sunday
-afternoon. Mallett&amp;rsquo;s has good air conditioning, a very good spot
-to be on a warm day.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://media.aadl.org/covers/1471756_200.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The challenge of a book like this is picking out the good bits
-without repeating the author&amp;rsquo;s technique of using the word
-&amp;ldquo;Mindsharing&amp;rdquo; (capitalized) at every opportunity. I&amp;rsquo;ll try to
-unpack the approach with a simpler version of the
-strategy, which seems to boil down to this:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make lots of connections online, even with people who you don&amp;rsquo;t
-know very well&lt;/li&gt;
-&lt;li&gt;Ask them really good questions when you are trying to make a decision&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lots of connections is the biggest suggestion here; rather than
-get help from a small circle of trusted friends, the crowdsourcing
-approach to human improvement relies on good ideas coming from
-large or very large sets of people (at least 250), and relies on
-pulling in unexpectedly good recommendations from people who don&amp;rsquo;t
-know you very well.  Lior references Mark Granovetter&amp;rsquo;s &amp;ldquo;The Strength
-of Weak Ties&amp;rdquo; (1973) early on, but of course Granovetter didn&amp;rsquo;t
-know about Quora, Facebook, LinkedIn, and the host of other online
-properties and lists that allow for computer-mediated interaction
-with people at a distance.&lt;/p&gt;
-
-&lt;p&gt;There is an art to asking good questions that could fill a book.
-If you look on the biggest question-answering websites like Quora
-or Stack Exchange and start to follow along, you will quickly find
-that good questions get rewarded with positive feedback and bad
-questions (or impossible to answer questions) get ignored or criticized.
-Lior points out the there&amp;rsquo;s a very big difference between typing a query
-into a search engine and asking a live audience the same thing -
-the human element of the search allows a personal connection.&lt;/p&gt;
-
-&lt;p&gt;Lior is known for a TED talk (he brought an ox onstage) and is out
-promoting his book. The book itself feels like an ideal airplane
-read for someone who is aspiring to self-improvement, is facing a
-career change, and who hasn&amp;rsquo;t figured out what the point is quite
-yet with Facebook as a career tool.&lt;/p&gt;
-</description>
+      <description>Lior Zoref has a new book out called Mindsharing: the art of crowdsourcing everything (Portfolio / Penguin, 2015). I have a copy of it from the Ann Arbor District Library which was on the new shelf at Mallett&amp;rsquo;s Creek on a sunny and hot summer Sunday afternoon. Mallett&amp;rsquo;s has good air conditioning, a very good spot to be on a warm day.
+ The challenge of a book like this is picking out the good bits without repeating the author&amp;rsquo;s technique of using the word &amp;ldquo;Mindsharing&amp;rdquo; (capitalized) at every opportunity.</description>
     </item>
     
     <item>
@@ -112,12 +37,9 @@ yet with Facebook as a career tool.&lt;/p&gt;
       <pubDate>Mon, 27 Jan 2014 10:44:42 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-27-27-january-2014-att-uverse-dns-server-problems/</guid>
-      <description>&lt;p&gt;On the morning of 27 January 2014, AT&amp;amp;T UVerse services appear to be suffering from DNS problems. A graph from &lt;a href=&#34;http://downdetector.com/status/att&#34;&gt;Down Detector&lt;/a&gt; suggests that the problem is widespread. The observation is that some sites will load but others won&#39;t (like Hulu, New Yorker, Reddit.)&lt;/p&gt;
+      <description>On the morning of 27 January 2014, AT&amp;amp;T UVerse services appear to be suffering from DNS problems. A graph from Down Detector suggests that the problem is widespread. The observation is that some sites will load but others won&#39;t (like Hulu, New Yorker, Reddit.)
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5115a9dd6970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a5115a9dd6970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Down-detector-att-2014-01-27-10.36.57-AM&#34; title=&#34;Down-detector-att-2014-01-27-10.36.57-AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5115a9dd6970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the suggestions given was to switch your DNS from the AT&amp;amp;T provided service to a third party, such as Google (8.8.8.8). On my Mac, go to System Preferences &gt; Network &gt; Advanced ... &gt; DNS and change the DNS server address.&lt;/p&gt;
-</description>
+One of the suggestions given was to switch your DNS from the AT&amp;amp;T provided service to a third party, such as Google (8.8.8.8). On my Mac, go to System Preferences  Network  Advanced .</description>
     </item>
     
     <item>
@@ -126,22 +48,9 @@ yet with Facebook as a career tool.&lt;/p&gt;
       <pubDate>Sun, 11 Aug 2013 13:05:25 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-11-arguments-for-the-elimination-of-facebook/</guid>
-      <description>&lt;p&gt;Several reasons why I am removing the Facebook from my phone.&lt;/p&gt;
-
-&lt;p&gt;Taking it off the screen will reduce my time on site, leaving more room for the rest of the net and the rest of the world.&lt;/p&gt;
-
-&lt;p&gt;If I need to write something short there is always Twitter. If I need to write something long there is Evernote for notes to self and this blog for notes to the world.&lt;/p&gt;
-
-&lt;p&gt;Facebook&#39;s ads are increasingly intrusive. It is easier to cope with the ads on Twitter.&lt;/p&gt;
-
-&lt;p&gt;It is easy to switch identity on the Twitter client so if I temporarily need to take the voice of Arborwiki or of Heikki Lunta it is easy. With Facebook I am expected to be me all the time.&lt;/p&gt;
-
-&lt;p&gt;The mobile Android Facebook client is bad at reminders of birthdays, so to do that I need to go to the desktop client anyways.&lt;/p&gt;
-
-&lt;p&gt;Time on Facebook generally is time away from blogging. True, the blog has fewer readers and less comments then an equal post on Facebook, but I am not writing this strictly to chase feedback.&lt;/p&gt;
-
-&lt;p&gt;It is always worthwhile to experiment with change, especially since it would be easy to change back.&lt;/p&gt;
-</description>
+      <description>Several reasons why I am removing the Facebook from my phone.
+Taking it off the screen will reduce my time on site, leaving more room for the rest of the net and the rest of the world.
+If I need to write something short there is always Twitter. If I need to write something long there is Evernote for notes to self and this blog for notes to the world.</description>
     </item>
     
     <item>
@@ -150,17 +59,8 @@ yet with Facebook as a career tool.&lt;/p&gt;
       <pubDate>Thu, 20 Jun 2013 00:59:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-20-the-last-telegram-in-india/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab55bf79970d-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;201082_india-telegraph-maury-catalogue-one&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192ab55bf79970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab55bf79970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;201082_india-telegraph-maury-catalogue-one&#34; /&gt;&lt;/a&gt;The telegraphy system in India is coming to an end in July 2013, &lt;a href=&#34;http://www.csmonitor.com/World/Asia-South-Central/2013/0614/India-to-end-state-run-telegram-service.-Stop&#34; target=&#34;_self&#34;&gt;reports&lt;/a&gt; The Christian Science Monitor:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;At the&amp;#0160;&lt;a href=&#34;http://www.csmonitor.com/tags/topic/Bharat+Sanchar+Nigam+Ltd.&#34; target=&#34;_self&#34;&gt;Bharat Sanchar Nigam Limited&lt;/a&gt;&amp;#0160;(BSNL),&amp;#0160;&lt;a href=&#34;http://www.csmonitor.com/tags/topic/India&#34; target=&#34;_self&#34;&gt;India&lt;/a&gt;&amp;#39;s state-owned telecom company, a message emerges from a dot matrix printer addressing a soldier&amp;#39;s Army unit in&amp;#0160;&lt;a href=&#34;http://www.csmonitor.com/tags/topic/Delhi&#34; target=&#34;_self&#34;&gt;Delhi&lt;/a&gt;.&amp;#0160;&amp;quot;GRANDMOTHER SERIOUS. 15 DAYS LEAVE EXTENSION,&amp;quot; it reads. It&amp;#39;s one of about 5,000 such missives still being sent every day by telegram – a format favored for its &amp;quot;sense of urgency and authenticity,&amp;quot; explains a BSNL official.&lt;/p&gt;
-&lt;p&gt;But the days of such communication are numbered: BSNL will send its last telegram message somewhere in India on July 14.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The history of the telegraph in India goes back to Dr William Brooke O&amp;#39;Shaughnessy, an Irish physician who linked Calcutta and Diamond Harbour via cable in 1853.&lt;/p&gt;
-&lt;p&gt;More reading: &lt;a href=&#34;http://articles.economictimes.indiatimes.com/2013-06-15/news/39993158_1_telegraph-morse-code-telegrams&#34;&gt;Economic Times&lt;/a&gt; on 160 years of Indian telegraph history; &lt;a href=&#34;http://www.dnaindia.com/mumbai/1848696/report-historic-telegram-signs-off&#34;&gt;DNA India&lt;/a&gt; on modern alternatives to the telegram.&lt;/p&gt;
-&lt;p&gt;In my reading queue: &amp;quot;Connecting the Nineteenth-Century World&amp;quot;, a ferociously expensive book on the 19th century telegram; and Richard Menke&amp;#39;s &amp;quot;Telegraphic Realism: Victorian Fiction and Other Information Systems&amp;quot; making its way home via Melcat.&lt;/p&gt;
-&lt;p&gt;Postage stamp images from the&amp;#0160;Arthur Maury Album and Catalogue of Postage Stamps and Telegraph Stamps, 1894, Paris, &lt;a href=&#34;http://www.stampcommunity.org/topic.asp?TOPIC_ID=8998&#34; target=&#34;_self&#34;&gt;via&lt;/a&gt; StampCommunity.&lt;/p&gt;
-</description>
+      <description>The telegraphy system in India is coming to an end in July 2013, reports The Christian Science Monitor:
+ At the&amp;#0160;Bharat Sanchar Nigam Limited&amp;#0160;(BSNL),&amp;#0160;India&amp;#39;s state-owned telecom company, a message emerges from a dot matrix printer addressing a soldier&amp;#39;s Army unit in&amp;#0160;Delhi.&amp;#0160;&amp;quot;GRANDMOTHER SERIOUS. 15 DAYS LEAVE EXTENSION,&amp;quot; it reads. It&amp;#39;s one of about 5,000 such missives still being sent every day by telegram – a format favored for its &amp;quot;sense of urgency and authenticity,&amp;quot; explains a BSNL official.</description>
     </item>
     
     <item>
@@ -169,11 +69,9 @@ yet with Facebook as a career tool.&lt;/p&gt;
       <pubDate>Mon, 17 Jun 2013 15:23:10 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-17-combinations/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab3ce829970d-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Tertius&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0192ab3ce829970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0192ab3ce829970d-120wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; title=&#34;Tertius&#34; /&gt;&lt;/a&gt;Sometimes, the best thing that you can do to help a project along is to identify another project with similar goals and make some introductions between people who should know each other.&lt;/p&gt;
-&lt;p&gt;Image from Graham Durant-Law, &amp;quot;&lt;a href=&#34;http://www.durantlaw.info/who-tertius-gaudens&#34; target=&#34;_self&#34;&gt;Who is tertius gaudens&lt;/a&gt;&amp;quot;.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Sometimes, the best thing that you can do to help a project along is to identify another project with similar goals and make some introductions between people who should know each other.
+Image from Graham Durant-Law, &amp;quot;Who is tertius gaudens&amp;quot;.
+&amp;#0160;</description>
     </item>
     
     <item>
@@ -182,17 +80,11 @@ yet with Facebook as a career tool.&lt;/p&gt;
       <pubDate>Mon, 29 Apr 2013 16:49:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-29-april-29-2013-windstream-outage/</guid>
-      <description>&lt;p&gt;This map, compiled from traffic to this weblog, paints an approximate picture of the distribution of problems from today&amp;#39;s &lt;a href=&#34;http://www.windstream.com&#34; target=&#34;_self&#34;&gt;Windstream&lt;/a&gt; outage. More official news (though sparse) is at the &lt;a href=&#34;http://news.windstream.com/&#34; target=&#34;_self&#34;&gt;news.windstream.com&lt;/a&gt; site.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017eeaae64b1970d-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-04-29 at 4.25.22 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017eeaae64b1970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017eeaae64b1970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-04-29 at 4.25.22 PM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;In the news:&lt;/p&gt;
-&lt;p&gt;From the &lt;a href=&#34;https://www.facebook.com/WindstreamCommunications&#34; target=&#34;_self&#34;&gt;WindstreamCommunications&lt;/a&gt; page on Facebook, about 4 p.m:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Service update: Our technicians continue to troubleshoot the issue in an attempt to resolve. We apologize for the inconvenience and will provide another update in an hour.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;From the Charlotte Observer: &lt;a href=&#34;http://www.charlotteobserver.com/2013/04/29/4011437/windstream-customers-company-report.html#storylink=cpy&#34;&gt;Windstream customers, company report outage&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-A number of Windstream Corp. customers in the greater Charlotte area are experiencing service outages affected by what the company is calling “a widespread outage affecting long-distance and toll-free call processing.”
-The outage occurred around 11:30 a.m., said company spokesman David Avery.
-Though the Arkansas-based company hasn’t stated how far the outage extends, posts on Twitter and Facebook suggest the outage is multi-state.
-&lt;/p&gt;
-</description>
+      <description>This map, compiled from traffic to this weblog, paints an approximate picture of the distribution of problems from today&amp;#39;s Windstream outage. More official news (though sparse) is at the news.windstream.com site.
+
+In the news:
+From the WindstreamCommunications page on Facebook, about 4 p.m:
+Service update: Our technicians continue to troubleshoot the issue in an attempt to resolve. We apologize for the inconvenience and will provide another update in an hour.</description>
     </item>
     
     <item>
@@ -201,24 +93,8 @@ Though the Arkansas-based company hasn’t stated how far the outage extends, po
       <pubDate>Fri, 17 Aug 2012 00:17:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-08-17-twitter-api-changes-cause-obvious-problems-for-developers/</guid>
-      <description>&lt;p&gt;My Twitter feed is full of worry about the changes to the Twitter API. (Yes, that probably means I should unfollow a few people so that it gets back to the baseline of &amp;quot;I&amp;#39;m eating a sandwich&amp;quot;.) Here&amp;#39;s some of the notable problems that people see with the new rules, which are going into effect over the next 6 months.&lt;/p&gt;
-&lt;p&gt;From Marco Arment, creator of Instapaper, &amp;quot;&lt;a href=&#34;http://www.marco.org/2012/08/16/twitter-api-changes&#34; target=&#34;_self&#34;&gt;Interpreting some of Twitter&amp;#39;s API changes&lt;/a&gt;&amp;quot; is a good overview of the challenges for a developer to comply with new rules while still innovating on their core application. His conclusion is stark:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Twitter has left themselves a lot of wiggle-room with the rules. Effectively, Twitter can decide your app is breaking a (potentially vague) rule at any time, or they can add a new rule that your app inadvertently breaks, and revoke your API access at any time. [...]&lt;/p&gt;
-&lt;p&gt;I sure as hell wouldn’t build a business on Twitter, and I don’t think I’ll even build any nontrivial&amp;#0160;&lt;em&gt;features&lt;/em&gt;&amp;#0160;on it anymore.&lt;/p&gt;
-&lt;p&gt;And if I were in the Twitter-client business, I’d start working on another product.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The new &lt;a href=&#34;http://app.net&#34; target=&#34;_self&#34;&gt;App.net&lt;/a&gt; has grand designs to be a Twitter clone, based on three elements: a solid realtime engine for data, a well defined open API, and a subscription supported model (rather than an advertising supported model) for making the whole thing pay. Dalton Caldwell&amp;#39;s manifesto is a worthwhile read, &amp;quot;&lt;a href=&#34;http://daltoncaldwell.com/an-audacious-proposal&#34; target=&#34;_self&#34;&gt;Announcing an audacious proposal&lt;/a&gt;&amp;quot;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I believe so deeply in the importance of having a financially sustainable realtime feed API &amp;amp; service that I am going to refocus App.net to become&amp;#0160;&lt;strong&gt;exactly that&lt;/strong&gt;. I have the experience, vision, infrastructure and team to do it. Additionally, we already have much of this built: a polished native iOS app, a robust technical infrastructure currently capable of handing ~200MM API calls per day with no code changes, and a developer-facing API provisioning, documentation and analytics system. This isn’t vaporware.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Not surprisingly, the &lt;a href=&#34;https://alpha.app.net/global/&#34; target=&#34;_self&#34;&gt;alpha.app.net channel&lt;/a&gt;&amp;#0160;is full of want to be superstar application developers figuring out how their new idea could work in this new space.&lt;/p&gt;
-&lt;p&gt;There are two applications that I use that could be affected by this set of changes. One is Pinboard, which is a bookmarking tool that (among other things) reads and archives my Twitter stream. Pinboard&amp;#39;s developer Maciej Ceglowski has a very funny, no holds barred &lt;a href=&#34;https://twitter.com/Pinboard&#34; target=&#34;_self&#34;&gt;Twitter account for Pinboard&lt;/a&gt;, where he among other things promotes his own service by retweeting posts from the accounts of his competitor Delicious. Here&amp;#39;s his take on app.net:&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01676952ae15970b-pi&#34;&gt;&lt;img alt=&#34;Picture 7&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01676952ae15970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01676952ae15970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 7&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;#39;d be sad if my Twitter backups didn&amp;#39;t work.&lt;/p&gt;
-&lt;p&gt;The unusual Twitter client that I use which is most likely to run up against the new look-and-feel guidelines of the Twitter API is &lt;a href=&#34;http://www.floodgap.com/software/ttytter/&#34; target=&#34;_self&#34;&gt;ttytter&lt;/a&gt;, a command line client written in Perl by Cameron Kaiser. It looks nothing like the official Twitter apps of any kind.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01761747085d970c-pi&#34;&gt;&lt;img alt=&#34;Picture 8&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01761747085d970c&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01761747085d970c-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 8&#34; /&gt;&lt;/a&gt;&lt;br /&gt;It&amp;#39;s hard enough to insist on API and look-and-feel rules with applications that are user configurable; imagine what it must be like to enforce those rules when the application is delivered as relatively easy to modify source code. How can you make sure people don&amp;#39;t break the rules if they can change their own code?&lt;/p&gt;
-&lt;p&gt;Twitter has some reasonable reasons to want to narrow the scope of what third parties can do with their service, but it&amp;#39;s not going to come without a fight. Expect a tug of war between innovation and conformity, and it&amp;#39;s safe to say that some of that innovation that comes at a high cost and low value to Twitter will be squashed out. I&amp;#39;ll be particularly interested in the delicate balance between value provided by Twitter to advertisers (who pay directly) and social media marketers (who often ride for free) on the service.&lt;/p&gt;
-</description>
+      <description>My Twitter feed is full of worry about the changes to the Twitter API. (Yes, that probably means I should unfollow a few people so that it gets back to the baseline of &amp;quot;I&amp;#39;m eating a sandwich&amp;quot;.) Here&amp;#39;s some of the notable problems that people see with the new rules, which are going into effect over the next 6 months.
+From Marco Arment, creator of Instapaper, &amp;quot;Interpreting some of Twitter&amp;#39;s API changes&amp;quot; is a good overview of the challenges for a developer to comply with new rules while still innovating on their core application.</description>
     </item>
     
     <item>
@@ -227,13 +103,9 @@ Though the Arkansas-based company hasn’t stated how far the outage extends, po
       <pubDate>Wed, 30 May 2012 22:27:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-05-30-distributed-systems-and-systems-failure-in-general/</guid>
-      <description>&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;div&gt;
-&lt;div&gt;&amp;quot;A distributed system is one in which the failure of a computer you didn&amp;#39;t even know existed can render your own computer unusable.&amp;quot; &lt;a href=&#34;http://research.microsoft.com/en-us/um/people/lamport/pubs/distributed-system.txt&#34; target=&#34;_self&#34;&gt;Leslie Lamport, 1987&lt;/a&gt;; though the same observation would be true for cloud computing today.&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://plus.google.com/u/1/114388360171023330683/posts/ZAgC1CB95kX&#34; target=&#34;_self&#34;&gt;Noted recently on this Google Plus thread&lt;/a&gt;; I don&amp;#39;t think I&amp;#39;ll quote the whole thing, but by referencing it here I&amp;#39;ll find it again at least for a while.&lt;/p&gt;
-</description>
+      <description>&amp;#0160;
+ &amp;quot;A distributed system is one in which the failure of a computer you didn&amp;#39;t even know existed can render your own computer unusable.&amp;quot; Leslie Lamport, 1987; though the same observation would be true for cloud computing today.  &amp;#0160;
+Noted recently on this Google Plus thread; I don&amp;#39;t think I&amp;#39;ll quote the whole thing, but by referencing it here I&amp;#39;ll find it again at least for a while.</description>
     </item>
     
     <item>
@@ -242,31 +114,11 @@ Though the Arkansas-based company hasn’t stated how far the outage extends, po
       <pubDate>Fri, 28 Jan 2011 01:21:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-01-28-egypt-disconnects-from-the-internet/</guid>
-      <description>&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e20d59c1970b-popup&#34; onclick=&#34;window.open( this.href, &amp;#39;_blank&amp;#39;, &amp;#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&amp;#39; ); return false&#34;&gt;&lt;img alt=&#34;Arbor-egypt-traffic-drop&#34; border=&#34;0&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef0147e20d59c1970b image-full&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef0147e20d59c1970b-800wi&#34; style=&#34;display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Arbor-egypt-traffic-drop&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Image credit: &lt;a href=&#34;http://www.arbornetworks.com&#34; target=&#34;_self&#34;&gt;Arbor Networks&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;From the Renesys blog, &amp;quot;&lt;a href=&#34;http://www.renesys.com/blog/2011/01/egypt-leaves-the-internet.shtml&#34; target=&#34;_self&#34;&gt;Egypt leaves the Internet&lt;/a&gt;&amp;quot;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;At 22:34 UTC (00:34am local time), Renesys observed the virtually simultaneous withdrawal of all routes to Egyptian networks in the Internet&amp;#39;s global routing table. Approximately 3,500 individual BGP routes were withdrawn, leaving no valid paths by which the rest of the world could continue to exchange Internet traffic with Egypt&amp;#39;s service providers. Virtually all of Egypt&amp;#39;s Internet addresses are now unreachable, worldwide.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Renesys has tracked other widespread Internet routing disruptions; the comments on that site are good.&lt;/p&gt;
-&lt;p&gt;The BGPmon blog is tracking this from the routing perspective, &amp;quot;&lt;a href=&#34;http://bgpmon.net/blog/?p=450&#34; target=&#34;_self&#34;&gt;Internet in Egypt offline&lt;/a&gt;&amp;quot;.&lt;/p&gt;
-&lt;p&gt;One ISP that appears to not be down is &lt;a href=&#34;http://noor.net/&#34; target=&#34;_self&#34;&gt;Noor.net&lt;/a&gt;, at least as of Friday midnight EST.&lt;/p&gt;
-&lt;p&gt;For another network perspective,&amp;#0160;&lt;a href=&#34;http://uptime.netcraft.com/perf/graph?collector=all&amp;amp;site=www.moiegypt.gov.eg&amp;amp;range=86400&#34; target=&#34;_self&#34;&gt;Netcraft is tracking reachability of Egyptian government sites&lt;/a&gt;&amp;#0160;that had been attacked by Anonymous.&lt;/p&gt;
-&lt;h3&gt;News coverage&lt;/h3&gt;
-&lt;p&gt;The Guardian has a live blog, &lt;a href=&#34;http://www.guardian.co.uk/world/blog/2011/jan/27/egypt-protests&#34; target=&#34;_self&#34;&gt;Protests in Egypt&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Al Jazeera has comprehensive news coverage, under the headline &lt;a href=&#34;http://english.aljazeera.net/indepth/spotlight/anger-in-egypt/&#34; target=&#34;_self&#34;&gt;Anger in Egypt&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The New York Times has new Egypt cables from Wikileaks, &lt;a href=&#34;http://www.nytimes.com/2011/01/28/world/middleeast/28diplo.html&#34; target=&#34;_self&#34;&gt;Cables show delicate US dealings with Egypt&amp;#39;s leaders&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;They show in detail how diplomats repeatedly raised concerns with Egyptian officials about jailed dissidents and bloggers, and kept tabs on reports of torture by the police. &amp;#0160;But they also reveal that relations with Mr. Mubarak warmed up because President Obama played down the public “name and shame” approach of the Bush administration.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;div&gt;&lt;a href=&#34;http://twitter.com/#!/Anon_VV&#34; title=&#34;Anonymous&#34;&gt;Anon_VV&lt;/a&gt;&amp;#0160;Anonymous&amp;#0160;&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;Everything ██is█████ ████ ████fine ███ █ ████ love. ████ █████ the ███ Egypt ███ ████ government ██&amp;#0160;&lt;a href=&#34;http://twitter.com/#!/search?q=%23jan25&#34; rel=&#34;nofollow&#34; title=&#34;#jan25&#34;&gt;#jan25&lt;/a&gt;&amp;#0160;&lt;a href=&#34;http://twitter.com/#!/search?q=%23Egypt&#34; rel=&#34;nofollow&#34; title=&#34;#Egypt&#34;&gt;#Egypt&lt;/a&gt;&amp;#0160;&lt;a href=&#34;http://twitter.com/#!/search?q=%23censorship&#34; rel=&#34;nofollow&#34; title=&#34;#censorship&#34;&gt;#censorship&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>&amp;#0160;
+
+Image credit: Arbor Networks.
+From the Renesys blog, &amp;quot;Egypt leaves the Internet&amp;quot;
+ At 22:34 UTC (00:34am local time), Renesys observed the virtually simultaneous withdrawal of all routes to Egyptian networks in the Internet&amp;#39;s global routing table. Approximately 3,500 individual BGP routes were withdrawn, leaving no valid paths by which the rest of the world could continue to exchange Internet traffic with Egypt&amp;#39;s service providers. Virtually all of Egypt&amp;#39;s Internet addresses are now unreachable, worldwide.</description>
     </item>
     
     <item>
@@ -275,8 +127,8 @@ Though the Arkansas-based company hasn’t stated how far the outage extends, po
       <pubDate>Tue, 12 May 2009 14:52:44 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-05-12-twitter-mutual-friends-exploring-mutual-and-reciprocal-relationships/</guid>
-      <description>&lt;p&gt;I put up a little project on github last night, &lt;a href=&#34;http://github.com/vielmetti/twitter-mutual-friends&#34;&gt;twitter mutual friends&lt;/a&gt;.&amp;#0160; This is the page that should serve as the reference point for it.&lt;/p&gt;&lt;p&gt;I started up the effort while trying to make sense of the &amp;quot;follow or don&amp;#39;t follow&amp;quot; decision when someone follows you.&amp;#0160; Certainly following everyone blindly is a bad mistake, but ignoring new followers is a bad mistake too, and sometimes you just need to prune back the following stream to leave room for new voices.&lt;/p&gt;&lt;p&gt;The existing Twitter feedback for these is very limited, based almost entirely on numerical counts.&amp;#0160; I thought I could do better by examining what kind of mutual relationships already existed between me and other people and to see if I could characterize folks based on who else they followed to know at least which part of my life they might have found me by.&lt;/p&gt;&lt;p&gt;Thus, the twitter mutual friends effort.&amp;#0160; The simplest version of this downloads two friend lists, and looks for overlap.&amp;#0160; The list of overlapping ids is walked through, noting who the overlapping people are, what their last twitter was, how many people they in turn were following, and the like.&amp;#0160; &lt;/p&gt;&lt;p&gt;You could look either at friends, followers, or mutual friend/follow pairs; you can derive things from the text of recent tweets from mutual friends, or their follow counts, or other second derivatives of mutuality or reciprocity.&amp;#0160; At some point there&amp;#39;s a nice visual of all of this, as well as some good textual analysis (&amp;quot;trending words in our mutual followers&amp;quot;).&amp;#0160; But as a start this is just an effort to get beyond simple counting and into network views of twitter.&lt;/p&gt;
-</description>
+      <description>I put up a little project on github last night, twitter mutual friends.&amp;#0160; This is the page that should serve as the reference point for it.
+I started up the effort while trying to make sense of the &amp;quot;follow or don&amp;#39;t follow&amp;quot; decision when someone follows you.&amp;#0160; Certainly following everyone blindly is a bad mistake, but ignoring new followers is a bad mistake too, and sometimes you just need to prune back the following stream to leave room for new voices.</description>
     </item>
     
     <item>
@@ -285,13 +137,8 @@ Though the Arkansas-based company hasn’t stated how far the outage extends, po
       <pubDate>Sat, 25 Apr 2009 23:31:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-04-25-dte-power-outage-on-25-april-2009-is-worst-in-oakland-county-michigan/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01156f5cb003970c-pi&#34; style=&#34;float: right;&#34;&gt;&lt;img alt=&#34;Bild 13&#34; class=&#34;at-xid-6a00d8341c4f1a53ef01156f5cb003970c &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01156f5cb003970c-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.google.com/finance?q=NYSE%3ADTE&#34;&gt;DTE Energy is Detroit Edison + Michigan Consolidated Gas.&lt;/a&gt;&lt;/p&gt;&lt;p&gt; This is a clipping from the &lt;a href=&#34;http://my.dteenergy.com/map/zipCodeOutageMap.pdf&#34;&gt;DTE power outage map&lt;/a&gt; pulled at 11:15pm on Saturday, 25 April 2009.&amp;#0160; If you have a network connection, you can get your own copy (as a PDF) from their web site.&amp;#0160; The color coding at a glance is simple: outage intensity goes pale blue, pale yellow, bright pink, bright orane, and angry red.&amp;#0160; No angry red on this map.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.theoaklandpress.com/&#34;&gt;The Oakland Press has news of Oakland County&lt;/a&gt;, so I&amp;#39;ll defer to them for details.&amp;#0160; The power outage story they wrote has &lt;a href=&#34;http://www.theoaklandpress.com/articles/2009/04/25/news/doc49f38aaf124c7258733673.txt&#34;&gt;a byline credit to Jerry Wolffe&lt;/a&gt;&lt;/p&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;There were at least 120,000 DTE Energy customers without electricity in
-Southeastern Michigan, said utility spokesman Scott Simons.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;The utility, which has 2.2 million electricity customers in the state,
-is calling in repair crews from other parts of the state and other
-states, Simons said.&lt;br /&gt;&lt;br /&gt;It will take at least a “couple of days” to restore power to customers, he predicted.&lt;br /&gt;&lt;br /&gt;Damage from the storm in Oakland County was extensive.&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;Damage extends to St Clair County - this report from 8pm Saturday from &lt;a href=&#34;http://twitter.com/btcomp&#34;&gt;Bob Thomas, twitter user @btcomp&lt;/a&gt;&lt;/p&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;span class=&#34;status-body&#34;&gt;&lt;span class=&#34;entry-content&#34;&gt;Power out in much
-of St. Clair County, Michigan (Port Huron) running generator to cycle
-refrig and freezers until 11pm &amp;amp; off till morning.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;I know that the &lt;a href=&#34;http://www.metroparks.com/parks/pk_kensington.php&#34;&gt;Kensington Metropark&lt;/a&gt; lost power part of the afternoon because the kids did not get to do the scheduled sheep-shearing; still a fun time.&lt;/p&gt;&lt;p&gt;Brighton, MI was hard hit in the first wave of storms, with soccer games cancelled or cut short and kids running for cover, per a conversation with a friend who was one of those who ran for cover.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://twitter.com/jayharris/status/1614044895&#34;&gt;Lansing Give Camp had a complete power outage&lt;/a&gt;, per @jayharris:&lt;/p&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;span class=&#34;status-body&#34;&gt;&lt;span class=&#34;entry-content&#34;&gt;Weather fail at #LansingGiveCamp. Complete power failure. Coding comes to a halt. Epic Fail of all Epic Fails.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;but subsequent accounts via twitter make it look like they abandoned their original venue and split up to a variety of locations that did have power and wifi and carried on as planned.&lt;/p&gt;&lt;div class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;span class=&#34;status-body&#34;&gt;&lt;span class=&#34;entry-content&#34;&gt;Thanks to Lansing Center and @&lt;a href=&#34;http://twitter.com/ehart67&#34;&gt;ehart67&lt;/a&gt; for helping out #LansingGiveCamp with relocation.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;All in all a typical summer thunderstorm with trees down, some dislocations and network failures, and quite a few adaptable people.&lt;/p&gt;
-</description>
+      <description>DTE Energy is Detroit Edison + Michigan Consolidated Gas.
+ This is a clipping from the DTE power outage map pulled at 11:15pm on Saturday, 25 April 2009.&amp;#0160; If you have a network connection, you can get your own copy (as a PDF) from their web site.&amp;#0160; The color coding at a glance is simple: outage intensity goes pale blue, pale yellow, bright pink, bright orane, and angry red.&amp;#0160; No angry red on this map.</description>
     </item>
     
     <item>
@@ -300,8 +147,9 @@ refrig and freezers until 11pm &amp;amp; off till morning.&lt;/span&gt;&lt;/span
       <pubDate>Tue, 03 Mar 2009 23:17:53 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-03-03-ipv6-over-social-network-a-facebook-application-for-routing-packets-over-friend-networks/</guid>
-      <description>&lt;div&gt;&lt;a href=&#34;http://www.hauwaerts.be/2009/02/24/ip-over-social-network/&#34;&gt;noted on Geert&amp;#39;s blog&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;p&gt;IP over Social Network is a Facebook application which allows any Facebook member to create its own IPv6 virtual router for free and build an IPv6 network over the Facebook Social Network!&lt;/p&gt;&lt;p&gt;Once you have created your virtual router by installing this free application, you can then add up to 12 interfaces (i.e. links) connected to your other friends’ routers. IPv6 packets can then be exchanged over those links and of course, like in all IP networks, can be routed to any destination over the network (including a special gateway to the IPv6 Internet of course)!&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;br /&gt;&lt;/blockquote&gt;&lt;p&gt;The next step, of course, is NNTP over IPv6 social network, so that you can use Facebook as infrastructure to do netnews; the sheer complexity of it all will ensure that whoever manages to figure it out will meet some niche demographic.&lt;/p&gt;&lt;br /&gt;&lt;div&gt;Thanks to &lt;a href=&#34;http://alpha.hec.be/~evyncke/&#34;&gt;Eric Vyncke&lt;/a&gt; for putting this all together; he managed to simulate a pretty good chunk of a Cisco router as a Facebook application, in case you need to learn how to configure a router there&amp;#39;s a command line for you to try out.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;be my frend&lt;/div&gt;&lt;div&gt;route my packits pleez&lt;/div&gt;
-</description>
+      <description>noted on Geert&amp;#39;s blog
+IP over Social Network is a Facebook application which allows any Facebook member to create its own IPv6 virtual router for free and build an IPv6 network over the Facebook Social Network!
+Once you have created your virtual router by installing this free application, you can then add up to 12 interfaces (i.e. links) connected to your other friends’ routers. IPv6 packets can then be exchanged over those links and of course, like in all IP networks, can be routed to any destination over the network (including a special gateway to the IPv6 Internet of course)!</description>
     </item>
     
     <item>
@@ -310,35 +158,10 @@ refrig and freezers until 11pm &amp;amp; off till morning.&lt;/span&gt;&lt;/span
       <pubDate>Wed, 28 Jan 2009 21:12:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-01-28-kentucky-power-outage-map-jan-28-2009-4pm/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.eon-us.com/storm/default.asp&#34;&gt;As found on the LG&amp;amp;E storm info page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Dated 1/28/2009, 4pm; the image itself does not have any watermarks, copyrights, or other credits, so any conclusions you draw will be your own.&amp;#0160; It does clearly show the extent of the storm, though I don&amp;#39;t know if the no-damage areas are outside of this power company&amp;#39;s service area or if they are really undamaged.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536ff9773970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Kentucky_map_0128400&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef010536ff9773970c image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef010536ff9773970c-800wi&#34; title=&#34;Kentucky_map_0128400&#34; /&gt;&lt;/a&gt;
- More Kentucky storm info news:&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.kentucky.com/787/story/674441.html&#34;&gt;Kentucky.com / Lexington Herald-Leader:&lt;/a&gt; &lt;/p&gt;&lt;h3&gt;525,000 without &lt;span style=&#34;font-size: 31px; font-family: Helvetica;&#34;&gt;&lt;/span&gt;power across Kentucky; governor asks for help&lt;/h3&gt;&lt;br /&gt;&lt;div style=&#34;margin-left: 40px;&#34;&gt;Kentucky Gov. Steve Beshear has asked the Obama administration for
-a federal emergency disaster declaration to deal with widespread power
-outages and cleanup from a powerful winter storm that hammered Kentucky
-this week.&lt;/div&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;The state, along with 68 counties and 36 cities, were
-operating under states of emergency as ice continued to drag down power
-lines and branches clogged roadways. &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.eon-us.com/storm/default.asp&#34;&gt;E.ON storm update 9pm Weds&lt;/a&gt;&lt;/p&gt;&lt;p class=&#34;newstitle&#34;&gt;
-&lt;strong&gt;Ice Storm Update&lt;/strong&gt; - updated 9 p.m., January 28&lt;/p&gt; 
-&lt;p&gt;A significant winter storm is currently affecting our service area.&lt;br /&gt;&lt;br /&gt;
-
-As of 9 p.m., 100,000 LG&amp;amp;E customers are without power. KU has 175,000 customers without power throughout the state.&lt;br /&gt;&lt;br /&gt;
-
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Overall, 5,800 wires are down, up about a thousand more than what were down as a result of the September 2008 wind storm.&lt;/li&gt;
-&lt;li&gt;We
-are pulling resources from the southern states of Georgia (1,100
-workers), Tennessee, North Carolina and South Carolina, as well as some
-from Michigan to assist with the restoration.&lt;/li&gt;
-&lt;li&gt;Estimating 7 to 10 days before full restoration will occur in LG&amp;amp;E&amp;#39;s service area.&lt;/li&gt;
-&lt;li&gt;Statewide, full restoration may take up to two weeks.&lt;/li&gt;
-&lt;li&gt;The
-potential exists for additional outages as the weight of snow and ice
-can be enough to snap or bend tree limbs, causing them to bring down
-power lines disrupting electrical service. In severe ice storms, the
-weight of large accumulations of ice on power lines themselves can
-cause the lines to fall without the involvement of trees.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.fox19.com/global/story.asp?s=9749925&#34;&gt;Fox 19 Cincinnati / Northern Kentucky:&amp;#0160; phone numbers to call utilities in the area&lt;/a&gt;&lt;/p&gt;&lt;p&gt;as always holler if you find any more utility power outage maps.&lt;/p&gt;
-</description>
+      <description>As found on the LG&amp;amp;E storm info page
+Dated 1/28/2009, 4pm; the image itself does not have any watermarks, copyrights, or other credits, so any conclusions you draw will be your own.&amp;#0160; It does clearly show the extent of the storm, though I don&amp;#39;t know if the no-damage areas are outside of this power company&amp;#39;s service area or if they are really undamaged.
+ More Kentucky storm info news:
+Kentucky.com / Lexington Herald-Leader: 525,000 without power across Kentucky; governor asks for help</description>
     </item>
     
     <item>
@@ -347,8 +170,264 @@ cause the lines to fall without the involvement of trees.&lt;/li&gt;
       <pubDate>Mon, 12 Jan 2009 12:04:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-01-12-bus-data-from-the-aata/</guid>
-      <description>&lt;p&gt;I now have a copy of the Google transit formatted data that the AATA provides to Google.  Let me know if you are interested.&lt;/p&gt;
-</description>
+      <description>I now have a copy of the Google transit formatted data that the AATA provides to Google. Let me know if you are interested.</description>
+    </item>
+    
+    <item>
+      <title>Phil Agre&#39;s &#34;Networking on the network&#34;</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-05-phil-agres-networking-on-the-network-/</link>
+      <pubDate>Mon, 05 Jan 2009 16:37:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-05-phil-agres-networking-on-the-network-/</guid>
+      <description>This piece by Phil Agre was originally designed as advice for graduate students, but it&amp;#39;s remarkably relevant for anyone who has had any of their time absorbed by the internets.&amp;#0160; Must reading.&amp;#0160; Networking on the Network:
+Here, then, are some of the fundamentals of professional networking. They will sound cumbersome and abstract. You will be able to skip some of the steps as you get established in your field, but if you are starting from zero then the process really is quite complicated.</description>
+    </item>
+    
+    <item>
+      <title>on the impact of winter storms on electrical reliability</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-01-on-the-impact-of-winter-storms-on-electrical-reliability/</link>
+      <pubDate>Thu, 01 Jan 2009 12:35:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-01-on-the-impact-of-winter-storms-on-electrical-reliability/</guid>
+      <description>who has seen the wind? Neither you nor I, But when I think of our freakin&amp;#39; power grid, I cry and cry and cry.&amp;#0160;&amp;#0160;&amp;#0160; @bibliophagist
+&amp;#0160;&amp;#0160;&amp;#0160; 
+apologies to Christina Georgina Rossetti
+
+More information:
+Reliability assessments, North American Electric Reliability Corporation</description>
+    </item>
+    
+    <item>
+      <title>DTE power outage on 28 December 2008 takes down AT&amp;T, iPhone wireless service</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-28-dte-power-outage-on-28-december-2008-takes-down-att-iphone-wireless-service/</link>
+      <pubDate>Sun, 28 Dec 2008 19:43:05 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-28-dte-power-outage-on-28-december-2008-takes-down-att-iphone-wireless-service/</guid>
+      <description>It was a dark and stormy night.&amp;nbsp; Suddenly, the power went out.
+The biggest effect: 210,000 DTE customers all over SE Michigan went dark.&amp;nbsp; Here&#39;s a piece of the map to give you an idea - click through for current map.
+The best DTE site for updates seems to be mobile.dteenergy.com, as much as there is a &#34;best&#34;.
+ The biggest side effect of this was an outage of the AT&amp;amp;T mobile network and as a result the iPhone network.</description>
+    </item>
+    
+    <item>
+      <title>How I stopped worrying and learned to love Twitter: five new strategies</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-23-how-i-stopped-worrying-and-learned-to-love-twitter/</link>
+      <pubDate>Tue, 23 Dec 2008 14:25:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-23-how-i-stopped-worrying-and-learned-to-love-twitter/</guid>
+      <description>A few weeks ago I zeroed out my Twitter follower stream and stopped following everyone.&amp;#0160; (&amp;quot;Twitter zero&amp;quot;, October 2008) Then I started again, slowly, building up some carefully selected and ever changing list of people to watch.&amp;#0160; It seemed like a good plan, Dunbar number and everything, and I thought I could balance things out at about 150.&amp;#0160; The amount of brain power needed to figure out whether I was watching someone got to be out of control, and Twitter got to be a burden again.</description>
+    </item>
+    
+    <item>
+      <title>Western Massachusetts power outage map - December 2008 ice storm edition</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-13-western-massachusetts-power-outage-map-december-2008-ice-storm-edition/</link>
+      <pubDate>Sat, 13 Dec 2008 23:20:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-13-western-massachusetts-power-outage-map-december-2008-ice-storm-edition/</guid>
+      <description>previously, Connecticut outages.
+Here&amp;#39;s the power outage map (current) from Western Massachusetts Electric Company after the December 2008 ice storm.&amp;#0160; Note that counties in gray are not part of WMECO&amp;#39;s service area and they may in fact be just as hard hit as surrounding counties.&amp;#0160; Local news coverage from the Worcester Telegram , Boston Globe .
+ </description>
+    </item>
+    
+    <item>
+      <title>Connecticut power outage map - 12 December 2008 ice storm edition</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-12-connecticut-power-outage-map-12-december-2008-ice-storm-edition/</link>
+      <pubDate>Fri, 12 Dec 2008 21:42:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-12-connecticut-power-outage-map-12-december-2008-ice-storm-edition/</guid>
+      <description>A snapshot of the Connecticut power outage map from Connecticut Light and Power, taken at 9pm Eastern on 12 December 2008 after a New England ice storm.</description>
+    </item>
+    
+    <item>
+      <title>Il Internetto, a fragment of an unfinished work by Giuseppe Verde</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-08-il-internetto-a-fragment-of-an-unfinished-work-by-giuseppe-verde/</link>
+      <pubDate>Mon, 08 Dec 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-08-il-internetto-a-fragment-of-an-unfinished-work-by-giuseppe-verde/</guid>
+      <description>LONG-LOST OPERATIC FRAGMENT COMES TO LIGHT
+ During the golden years of the Opera in Michigan, many of the great composers and librettists wandered through the glittering capital of the Midwestern risorgimento. Strangely, little of their output has been preserved, but recently, this fragment of the libretto from an unfinished work by the immortal Giuseppe Verde came to light, hidden behind a huge nude painting at the Odd Town Tavern. Wood-Charles is proud to bring to the music community even this crumbling shard of Verde&amp;#39;s never-performed Il Internetto.</description>
+    </item>
+    
+    <item>
+      <title>Community structure in large social and information networks, Michael Mahoney, Stanford, speaking at the University of Michigan on Friday, December 5, 2008, 11am-noon, CSE 3941</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-02-community-structure-in-large-social-and-information-networks-michael-mahoney-stanford-speaking-at-th/</link>
+      <pubDate>Tue, 02 Dec 2008 13:19:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-02-community-structure-in-large-social-and-information-networks-michael-mahoney-stanford-speaking-at-th/</guid>
+      <description>thanks to Lada Adamic for the heads up for this seminar on the U of Michigan campus.
+more about the speaker: an old home page at Yale; he&amp;#39;s ex Yahoo research; his current home page at Stanford.&amp;#0160; He has published a paper at arXiv that covers this material.&amp;#0160; A pull quote from that paper is:
+Our results suggest a significantly more refined picture of community structure in large networks than has been appreciated previously.</description>
+    </item>
+    
+    <item>
+      <title>web two point naught: watching the shutdown of free web 2.0 services</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</link>
+      <pubDate>Tue, 02 Dec 2008 10:11:09 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-02-web-two-point-naught-watching-the-shutdown-of-free-web-20-services/</guid>
+      <description>In recent days a number of modestly successful online social and productivity services have been scheduled for decommisioning. Pownce is being turned off as that team moves to Six Apart, and I Want Sandy is going away as Rael moves to Twitter. You will see more systems get acquired and shut down with graceful exits, and some exits will not be so graceful.
+There seem to be multiple common reasons why upstart systems get wiped out in times of economic crisis.</description>
+    </item>
+    
+    <item>
+      <title>Scott Page on diversity and organizational performance, November 21, 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-20-scott-page-on-diversity-and-organizational-performance-november-21-2008/</link>
+      <pubDate>Thu, 20 Nov 2008 21:17:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-20-scott-page-on-diversity-and-organizational-performance-november-21-2008/</guid>
+      <description>Achieving Extraordinary Organizational Performance Through Diversity
+Professor Scott Page, University of Michigan
+Friday, November 21, 1-2:15 p.m.
+Founders Room, Alumni Center
+200 Fletcher
+Why can teams of people find better solutions than brilliant individuals working alone? How does diversity improve an organization&amp;#39;s predictions, decisions, and problem-solving capabilities? Moving beyond the politics that cloud standard debates about diversity, Scott Page discusses why difference beats out homogeneity, whether you&amp;#39;re talking about citizens in a democracy or scientists in the laboratory, and why diversity trumps ability.</description>
+    </item>
+    
+    <item>
+      <title>Spam analytics: how effective are spam campaigns?</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-12-spam-analytics-how-effective-are-spam-campaigns/</link>
+      <pubDate>Wed, 12 Nov 2008 14:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-12-spam-analytics-how-effective-are-spam-campaigns/</guid>
+      <description>Just how good do you have to be in direct marketing to have a successful campaign when all of your messages are being delivered as spam?
+http://voices.washingtonpost.com/securityfix/2008/11/study_spam_still_profitable_at.html?hpid=sec-tech
+ Researchers Hijack Storm Worm to Track Profits
+A single response from 12 million e-mails is all it takes for spammers to turn annual profits of millions of dollars promoting knockoff pharmaceuticals, according to an unprecedented new study on the economics of spam.</description>
+    </item>
+    
+    <item>
+      <title>November 7-9, 2008: Language as a Complex Adaptive System, Ann Arbor, MI</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-29-november-7-9-2008-language-as-a-complex-adaptive-system-ann-arbor-mi/</link>
+      <pubDate>Wed, 29 Oct 2008 12:35:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-29-november-7-9-2008-language-as-a-complex-adaptive-system-ann-arbor-mi/</guid>
+      <description>The theme builds upon foundations laid by colleagues from different branches of linguistics, psychology, and complex systems. The speakers are active in their recognition of complexity in their respective areas, ranging from language usage, structure, and change, sociolinguistics, cognitive linguistics, anthropology, language evolution, first language acquisition, second language acquisition, psycholinguistics and language processing, language education, individual differences, and language testing.
+Conference Schedule is available at http://elicorpora.info/LLC/schedule
+(Free) Registration required
+Dates: November 7-9, 2008</description>
+    </item>
+    
+    <item>
+      <title>October 31, 2008: Ellen Levy, LinkedIn, &#34;Social vs. Professional Networks in a Globally-Connected, Knowledge-Based World&#34;, U of Michigan N Campus</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-22-october-31-2008-ellen-levy-linkedin-social-vs-professional-networks-in-a-globally-connected-knowledge-based-world-u/</link>
+      <pubDate>Wed, 22 Oct 2008 21:14:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-22-october-31-2008-ellen-levy-linkedin-social-vs-professional-networks-in-a-globally-connected-knowledge-based-world-u/</guid>
+      <description>NOTE: THIS SEMINAR WILL BE HELD IN STAMPS AUDITORIUM, WALGREEN DRAMA CENTER
+DATE: Friday, October, 31, 2008
+TIME: 3:00 to 4:00 p.m.
+ROOM: Stamps Auditorium, Walgreen Drama Center
+THE UNIVERSITY OF MICHIGAN
+Department of Electrical Engineering and Computer Science
+Computer Science and Engineering Division and
+College of Engineering Center for Entrepreneurship
+CSE AND CENTER FOR ENTREPRENEURSHIP STUDIES SEMINAR
+Social vs. Professional Networks in a Globally-Connected, Knowledge-Based World
+Ellen Levy, Vice President of Corporate Development and Strategy, LinkedIn</description>
+    </item>
+    
+    <item>
+      <title>twitter zero</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-08-twitter-zero/</link>
+      <pubDate>Wed, 08 Oct 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-08-twitter-zero/</guid>
+      <description>Disclaimer: I love Twitter - I love being in the flow of the world with the off hand comments of hundreds of friends around the world triggering all sorts of warm feelings and thoughts about how lucky I am to know so many people in so many places.
+For that very same reason, I&amp;#39;m working towards getting off Twitter, my &amp;quot;twitter zero&amp;quot; project, where I unfollow everyone I&amp;#39;ve been following.</description>
+    </item>
+    
+    <item>
+      <title>When did the internet go commercial, part two: &#34;buy now&#34;</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-01-when-did-the-in/</link>
+      <pubDate>Wed, 01 Oct 2008 01:01:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-01-when-did-the-in/</guid>
+      <description>A follow up on the earlier post about the commercialization of the internet -
+Once the basic data infrastructure of the Internet was open to commercial use - which starts in late 1991, and accelerates rapidly from there - you start to get slowly and then at a rapidly accelerating pace the appearance of businesses online who are selling things to people directly.
+Some milestones there as well:
+1993: Fry Multimedia launches web sites for Godiva, Ragu; mostly marketing and advertising not sales.</description>
+    </item>
+    
+    <item>
+      <title>#gno: organizing a network-wide chat on twitter</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-01-gno-organizing/</link>
+      <pubDate>Wed, 01 Oct 2008 00:06:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-01-gno-organizing/</guid>
+      <description>#gno stands for &amp;quot;Girl&#39;s Night Out&amp;quot;.&amp;nbsp; It&#39;s trending right now on search.twitter.com.&amp;nbsp; (Yes I am up late; but this is fascinating, I&#39;ve never seen this particular behavior on twitter before.)
+Sometimes you&#39;ll see topics trend on search.twitter.com when there are a lot of hipster people in some hipster city at some hipster tech conference.&amp;nbsp; A zillion people who are all mostly in the same building will use the same tag to post comments on the event.</description>
+    </item>
+    
+    <item>
+      <title>When did the internet go commercial?</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-30-when-did-the-in/</link>
+      <pubDate>Tue, 30 Sep 2008 23:27:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-30-when-did-the-in/</guid>
+      <description>A friend asks, &amp;quot;when did the Internet go commercial&amp;quot;?&amp;nbsp; Here&#39;s something of a timeline, incomplete, but footnoted as best I can.
+1987: UUNET launches as a non-profit providing Usenet feeds
+1989: Software Tool and Die in Boston, MA goes online as the first commercial Internet service provider.
+1990: UUNET, now for profit, launches Alternet, an IP network that accepts commercial traffic.
+1991: August, the Commercial Internet Exchange (CIX) connects CERFnet, PSInet, and Alternet</description>
+    </item>
+    
+    <item>
+      <title>relevance in social networks - a function of local density</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-14-relevance-in-so/</link>
+      <pubDate>Thu, 14 Feb 2008 01:26:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-14-relevance-in-so/</guid>
+      <description>This very interesting phrase gets exactly one search hit in Google, a use in the book &amp;ldquo;Network Analysis: Methodological Foundations&amp;rdquo; by Ulrik Brandes, Thomas Erlebach.
+I&amp;rsquo;m getting my copy via inter-library loan (yay Melcat) and hope to dig through it. The relevant chapter is on &amp;ldquo;local density&amp;rdquo;, which looks to have all kinds of NP-hard math about finding dense clusters, cliques, and inside networks.
+What makes a portion of a social network more relevant than the rest of it?</description>
+    </item>
+    
+    <item>
+      <title>Brent Hill, Google / Feedburner speaking in Ann Arbor, Dec 4 2007</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-04-brent-hill-goog/</link>
+      <pubDate>Tue, 04 Dec 2007 09:50:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-04-brent-hill-goog/</guid>
+      <description>A talk tonight, 12/4:  Ann Arbor SPARK Hi-Tech Tuesday: Google&#39;s Brent Hill Offers Everything You Want to Know About Blogs &amp;#38; RSS What: Google&#39;s Brent Hill presents &#34;Everything You Want to Know About Blogs &amp;#38; RSS&#34; When &amp;#38; Where: Tuesday, December 4, 2007, 5-7 p.m. at Google, McKinley Towne Center, 5th Floor, 201 S. Division, Ann Arbor Purpose: As content syndication on the web proliferates, audiences are becoming increasingly fragmented.</description>
+    </item>
+    
+    <item>
+      <title>NSFNET reunion, a perspective</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-03-nsfnet-reunion/</link>
+      <pubDate>Mon, 03 Dec 2007 22:34:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-03-nsfnet-reunion/</guid>
+      <description>I was at the NSFNET 20th reunion last week. Here&#39;s some notes after the fact.  I took good notes on URLs mentioned on delicious - look at http://del.icio.us/vielmetti/nsfnet to get the running commentary as I was trying to do it.  History is written by the winners, and thus the NSFNET history was written by the winners - the winners of the 1987 contract to manage it (Merit, MCI and IBM), and those who personally or corporately won out when the backbone was transformed from a research and educational network into a commercial one.</description>
+    </item>
+    
+    <item>
+      <title>Echo Cannonade to open the Erie Canal</title>
+      <link>http://vielmetti.github.io/post/2007/2007-11-29-echo-cannonade/</link>
+      <pubDate>Thu, 29 Nov 2007 15:36:35 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-11-29-echo-cannonade/</guid>
+      <description>The First Book of History, for Children and Youth&amp;#38;nbsp;By Samuel Griswold Goodrich  Source(s): Ian Frazier&amp;rsquo;s &amp;ldquo;Family,&amp;rdquo; 1994 via the Dead Media Project
+  A cannon-fire relay communicates and celebrates the opening of the Erie Canal. &amp;ldquo;In 1825, the first boat bound for New York City left Lake Erie and entered the newly completed Erie Canal. Observers at the point where the canal met the lake saw the boat and fired a cannon.</description>
+    </item>
+    
+    <item>
+      <title>Dave Mills on Routing in the Internet Swamp</title>
+      <link>http://vielmetti.github.io/post/2007/2007-11-29-dave-mills-on-r/</link>
+      <pubDate>Thu, 29 Nov 2007 11:14:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-11-29-dave-mills-on-r/</guid>
+      <description>I&amp;rsquo;m in DC for the NSFNET reunion - here&amp;rsquo;s a deck from 1999 that Dave Mills put together on the view of routing in the Internet in the 1980s.  | View| Upload your own</description>
+    </item>
+    
+    <item>
+      <title>Mark Lombardi, Global Networks</title>
+      <link>http://vielmetti.github.io/post/2003/2003-05-18-mark-lombardi-global-networks/</link>
+      <pubDate>Sun, 18 May 2003 12:25:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2003/2003-05-18-mark-lombardi-global-networks/</guid>
+      <description>Mark Lombardi&amp;rsquo;s amazing hand-drawn network maps of influence and corruption will be exhibited around North America over the next year. Curator Robert Hobbs has gathered 25 works for the traveling retrospective &amp;ndash; Global Networks. Coming to Ann Arbor in September and October of 2003. The page has exhibition dates and examples in miniature.
+(thanks Valdis)
+http://www.pierogi2000.com/artists/mark-lombardi/</description>
     </item>
     
   </channel>

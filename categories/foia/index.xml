@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/foia/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Foia on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/foia/</link>
+    <description>Recent content in Foia on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/foia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Oct 2013 12:03:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/foia/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>FOIA: inspection reports for downtown Ann Arbor street lights</title>
@@ -14,46 +17,10 @@
       <pubDate>Wed, 23 Oct 2013 12:03:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-23-foia-inspection-reports-for-downtown-ann-arbor-street-lights/</guid>
-      <description>&lt;p&gt;As sent to the Ann Arbor City Clerk, 23 October 2013:&lt;/p&gt;
-
-&lt;p&gt;To the clerk:&lt;/p&gt;
-
-&lt;p&gt;The City Council meeting of this week Tuesday (ed.: actually late Monday) had an extended
-discussion of street lighting in the downtown area, and council
-weighed the problems with rust on street lamps and decided not to
-spend money to replace them.&lt;/p&gt;
-
-&lt;p&gt;To follow up on this discussion, and motivated by the uncertainty at
-council about the state of the lighting, I&#39;d like to make this
-request.&lt;/p&gt;
-
-&lt;p&gt;Please provide the following records:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;The most recent inspection and safety reports for the eighty one
-(81) street lighting poles referenced in City Council item 13-1062
-that were proposed to be replaced, referencing the following Whereas
-clause:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&#34;Whereas: The Street Lights along Main Street between Huron and
-  William are rusting at the base posing a safety issue and are in need
-  of replacement; &#34;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Since this request is in the public interest, and since the records
-have been freshly examined for staff preparation for council, I expect
-that the records will be readily available at no charge.&lt;/p&gt;
-
-&lt;p&gt;I do not know if the records are in electronic form. If they are in
-paper form, and if duplication of records would be necessary to
-fulfill this request, please inform me before proceeding so that I can
-weigh the costs. If possible, if the records are in paper form I would
-like to examine them in person to avoid unnecessary costs.&lt;/p&gt;
-
-&lt;p&gt;Thanks for your prompt response to this request.&lt;/p&gt;
-</description>
+      <description>As sent to the Ann Arbor City Clerk, 23 October 2013:
+To the clerk:
+The City Council meeting of this week Tuesday (ed.: actually late Monday) had an extended discussion of street lighting in the downtown area, and council weighed the problems with rust on street lamps and decided not to spend money to replace them.
+To follow up on this discussion, and motivated by the uncertainty at council about the state of the lighting, I&#39;d like to make this request.</description>
     </item>
     
     <item>
@@ -62,16 +29,8 @@ like to examine them in person to avoid unnecessary costs.&lt;/p&gt;
       <pubDate>Thu, 19 Sep 2013 15:37:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-19-retrieving-foia-logs-a-study-in-contrasts/</guid>
-      <description>&lt;p&gt;I&#39;ve had the occasion to send out requests for FOIA logs to several local units of government. Here&#39;s my varied experience with these requests. I&#39;m not certain that I have perfected the standard query, and so you shouldn&#39;t necessarily show the non-responsiveness of any given agency as a ding on them - it might be me.&lt;/p&gt;
-
-&lt;p&gt;The FOIA log is a set of records associated with FOIA requests. Typically I&#39;ve been asking for copies of FOIA request letters, the cover letters of responses that are sent back, but not the full details of the relevant documents. If something particularly interesting comes as a result of this expedition through public records, a second request should be straightforward since you know that relevant records exist because someone else already got them.&lt;/p&gt;
-
-&lt;p&gt;One of the possible problems in asking for FOIA logs is if the public body in question has multiple parts of it that answer FOIA requests, and your seemingly simple request has to get allocated to multiple places. I think this is the reason that both the City of Ypsilanti and Wayne State University asked for more than $60 in fees to retrieve a month&#39;s worth of logs - I think, but am not certain, that the fees reflected the need to go both to the administrative side of routine FOIAs as well as to police department FOIAs for the same period.&lt;/p&gt;
-
-&lt;p&gt;The bright spot in all of this has been the City of Ann Arbor, which responds promptly and without fees for requests for city FOIA logs. Every single request is numbered, so that you can be certain that you&#39;re getting the whole set, and I specifically didn&#39;t ask for police logs in that case.&lt;/p&gt;
-
-&lt;p&gt;My naive assumption going into this was that every agency would be able to produce a stack of letters that they had received for FOIA requests with minimum cost and minimum search time. That proved not to be the case. I&#39;ll need to dig deeper the next time I send such a query in to make sure I&#39;m not inadvertently asked for too much.&lt;/p&gt;
-</description>
+      <description>I&#39;ve had the occasion to send out requests for FOIA logs to several local units of government. Here&#39;s my varied experience with these requests. I&#39;m not certain that I have perfected the standard query, and so you shouldn&#39;t necessarily show the non-responsiveness of any given agency as a ding on them - it might be me.
+The FOIA log is a set of records associated with FOIA requests. Typically I&#39;ve been asking for copies of FOIA request letters, the cover letters of responses that are sent back, but not the full details of the relevant documents.</description>
     </item>
     
     <item>
@@ -80,47 +39,8 @@ like to examine them in person to avoid unnecessary costs.&lt;/p&gt;
       <pubDate>Fri, 18 Mar 2011 11:24:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-03-18-foia-jobs-looking-for-all-of-your-ideas-on-foiachat/</guid>
-      <description>&lt;p&gt;I wrote a weekly &lt;a href=&#34;http://annarbor.com/vielmetti/foia-friday-index&#34;&gt;FOIA Friday&lt;/a&gt; column for AnnArbor.com for about a year. The position that I had was eliminated in layoffs in March 2011, as the Ann Arbor Chronicle&#39;s story &lt;a href=&#34;http://annarborchronicle.com/2011/03/13/history-repeats-at-annarbor-com/&#34;&gt;History Repeats at AnnArbor.com&lt;/a&gt; describes. Ironically, I was laid off the week before the newspaper industry promotes Sunshine Week, though I am certain that was just coincidence.&lt;/p&gt;
-&lt;p&gt;What do you do with all of this experience in dealing with the Freedom of Information Act? Here&#39;s a quick poll to generate some ideas. Feel free to add your own, if the one you want isn&#39;t listed or mentioned.&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&#34;http://widget.allourideas.org/foiajobs&#34; width=&#34;500&#34; height=&#34;350&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; &lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The poll is from the Princeton based &lt;a href=&#34;http://www.allourideas.org&#34;&gt;All Our Ideas&lt;/a&gt;, which is much niftier than any other survey research tool I&#39;ve used.&lt;/p&gt;
-&lt;script src=&#34;http://widgets.twimg.com/j/2/widget.js&#34;&gt;&lt;/script&gt;
-&lt;script&gt;
-new TWTR.Widget({
-  version: 2,
-  type: &#39;search&#39;,
-  search: &#39;#foiachat&#39;,
-  interval: 6000,
-  title: &#39;Weekly FOIAchat, Fridays 2-3p EST&#39;,
-  subject: &#39;#FOIAchat&#39;,
-  width: 500,
-  height: 250,
-  theme: {
-    shell: {
-      background: &#39;#8ec1da&#39;,
-      color: &#39;#ffffff&#39;
-    },
-    tweets: {
-      background: &#39;#ffffff&#39;,
-      color: &#39;#444444&#39;,
-      links: &#39;#1985b5&#39;
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: true,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: true,
-    toptweets: true,
-    behavior: &#39;default&#39;
-  }
-}).render().start();
-&lt;/script&gt;
-
-&lt;p&gt;&lt;em&gt;Edward Vielmetti writes the &lt;a href=&#34;http://vielmetti.typepad.com&#34;&gt;Vacuum&lt;/a&gt; weblog, which started in 1999, and organizes the &lt;a href=&#34;http://vielmetti.typepad.com/foia&#34;&gt;FOIA Coordinator&lt;/a&gt; weblog as well. Reach him by electronic mail at edward.vielmetti@gmaill.com&lt;/em&gt;.&lt;/p&gt;
-</description>
+      <description>I wrote a weekly FOIA Friday column for AnnArbor.com for about a year. The position that I had was eliminated in layoffs in March 2011, as the Ann Arbor Chronicle&#39;s story History Repeats at AnnArbor.com describes. Ironically, I was laid off the week before the newspaper industry promotes Sunshine Week, though I am certain that was just coincidence.
+What do you do with all of this experience in dealing with the Freedom of Information Act?</description>
     </item>
     
     <item>
@@ -129,98 +49,16 @@ new TWTR.Widget({
       <pubDate>Sat, 14 Mar 2009 02:03:56 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-03-14-records-request-ann-arbor-downtown-development-authority-parking-data/</guid>
-      <description>&lt;p&gt;&lt;h4&gt;update: broken links fixed to interview, thanks John Balogh for the heads up&lt;/h4&gt;
-&lt;div id=&#34;letter_text&#34;&gt;as sent by postal mail and email&lt;br /&gt;&lt;p class=&#34;letter&#34;&gt;March 14, 2009&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;Ann Arbor Downtown Development Authority
-&lt;br /&gt;
-150 South Fifth Avenue
-&lt;br /&gt;
-Suite 301
-&lt;br /&gt;
-Ann Arbor, MI 48104&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;strong&gt;RECORDS REQUEST&lt;/strong&gt;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;Dear Records Request Officer:&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;Pursuant to the state open records act, I request
-access to and copies of the continuously updated information about the
-current availability of parking structure occupancy and free spaces, as
-currently provided to the general public on the web page
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;a href=&#34;http://www.a2dda.org/parking__transportation/available_parking_spots/&#34;&gt;
-&lt;a href=&#34;http://www.a2dda.org/parking__transportation/available_parking_spots/&#34;&gt;http://www.a2dda.org/parking__transportation/available_parking_spots/&lt;/a&gt;
-&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-For your reference, this system is described in this interview
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;a href=&#34;http://www.homelessdave.com/tt20080411stephensmith.htm&#34;&gt;
-&lt;a href=&#34;http://www.homelessdave.com/tt20080411stephensmith.htm&#34;&gt;http://www.homelessdave.com/tt20080411stephensmith.htm&lt;/a&gt;
-&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-conducted by Mr. David Askins of the Ann Arbor Chronicle, in which a representative of a contractor for the DDA says:
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&amp;quot;SS: Oh, okay! Yeah, no, I haven&amp;#39;t had a lot of time to pay
-attention to our statistics yet, but I will at the end of this month.
-It just rolled out April 1st. Our area associations, I imagine, are
-going to want to embed this&amp;ndash;and we encourage them to&amp;ndash;in their own
-webpages. For instance, Main Street Area Association, and State Street
-Area Association. There are a lot of them, these associations and other
-organizations, who could really benefit from it, especially if you&amp;#39;re
-going to have an event, you&amp;#39;re telling your attendees to come downtown.
-&amp;quot;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Despite these assurances, our current requests are met with this error message:
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;&lt;h1&gt;Forbidden&lt;/h1&gt;
-&lt;br /&gt;
-&lt;p&gt;You don&amp;#39;t have permission to access /parking__transportation/available_parking_spots/
-&lt;br /&gt;
-on this server.&lt;/p&gt;
-&lt;br /&gt;
-&lt;hr /&gt;
-&lt;br /&gt;
-&lt;address&gt;Apache/2.2.4 (Unix) mod_ssl/2.2.4 OpenSSL/0.9.7a DAV/2 mod_jk/1.2.20 PHP/5.2.1 Server at a2dda.org Port 80&lt;/address&gt;
-&lt;br /&gt;
-.&lt;/p&gt;
-
-&lt;p&gt;&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;I am willing to pay up to a maximum of $20 in fees associated with the fulfillment of this request.
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;As the release of this data is in the public interest - indeed, is
-within the primary goal and charter of the DDA - I ask that these fees
-be waived.&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;If my request is denied in whole or part, I ask that you justify all deletions by reference to specific exemptions of the act.&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;Thank you for your assistance.&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;Sincerely,&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;&amp;#0160;&lt;/p&gt;
-&lt;p class=&#34;letter&#34;&gt;Edward Vielmetti&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>update: broken links fixed to interview, thanks John Balogh for the heads up as sent by postal mail and email
+March 14, 2009
+&amp;#0160;
+Ann Arbor Downtown Development Authority 150 South Fifth Avenue Suite 301 Ann Arbor, MI 48104
+&amp;#0160;
+&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;RECORDS REQUEST
+&amp;#0160;
+Dear Records Request Officer:
+&amp;#0160;
+Pursuant to the state open records act, I request access to and copies of the continuously updated information about the current availability of parking structure occupancy and free spaces, as currently provided to the general public on the web page</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/jack-dorsey/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Jack Dorsey on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/jack-dorsey/</link>
+    <description>Recent content in Jack Dorsey on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/jack-dorsey/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Feb 2009 15:42:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/jack-dorsey/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How twitter and gopher were born, (or) why you should make it work on the worst system first</title>
@@ -14,36 +17,8 @@
       <pubDate>Sun, 01 Feb 2009 15:42:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-02-01-how-twitter-and-gopher-were-born-or-why-you-should-make-it-work-on-the-worst-system-first/</guid>
-      <description>&lt;p&gt;this post on &amp;quot;&lt;a href=&#34;http://www.140characters.com/2009/01/30/how-twitter-was-born/&#34;&gt;how twitter was born&lt;/a&gt;&amp;quot; is making the rounds; thanks to &lt;a href=&#34;http://twitter.com/pzriddle&#34;&gt;Prentiss Riddle&lt;/a&gt; for alerting me to it.&amp;#0160;&amp;#0160; The best quote from it is the use case that involves the worst possible internet device in the world: text messages from a mobile phone.&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;I remember that @Jack’s first use case was city-related: telling people that the club he’s at is &lt;em&gt;happening&lt;/em&gt;.
-“I want to have a dispatch service that connects us on our phones using
-text.” His idea was to make it so simple that you don’t even think
-about what you’re doing, you just type something and send it. Typing
-something on your phone in those days meant you were probably messing
-with T9 text input, unless you were sporting a relatively rare
-smartphone. Even so, everyone in our group got the idea instantly and
-wanted it.&lt;/p&gt;&lt;p&gt;As a point of comparison, here&amp;#39;s&lt;a href=&#34;http://yourtech.typepad.com/main/2007/04/from_the_archiv.html&#34;&gt; part of the origin story for Gopher&lt;/a&gt;, the early 1990s internet system:&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;Full-text searching was like a new thing under the sun five years ago,&amp;quot; notes McCahill.&amp;#0160; &lt;/p&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;The
-two, with assistance from the newly formed Gopher Team, fine-tuned the
-prototype as music from Nirvana and Mudhoney blared in the background. &lt;/p&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;It
-was a fun time,&amp;quot; recalls team member Torrey. &amp;quot;It was a lot of late
-nights and weekends and a lot of beer, pizza and speed metal.&amp;quot; &lt;/p&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;Eventually, the team needed some files to dump into their baby Gopher so they could demonstrate its text-searching capability.&amp;#0160; &lt;/p&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;&amp;quot;We
-took the Usenet (the Internet&amp;#39;s newsgroup system) cookbook and put that
-into it,&amp;quot; says McCahill. &amp;quot;That was the first thing - so first the
-Gopher was serving recipes up. We figured everybody ate, and it was a
-good way of illustrating what full-text searching could do.&amp;quot; &lt;/p&gt;
-
-&lt;p style=&#34;margin-left: 40px;&#34;&gt;If
-you were looking for recipes with eggplant, you simply typed in the
-word and the application would locate every eggplant reference - a
-dazzling capability in 1991. &lt;/p&gt;&lt;p&gt;nothing quite like having a real use for the system you build while building it.&lt;/p&gt;
-</description>
+      <description>this post on &amp;quot;how twitter was born&amp;quot; is making the rounds; thanks to Prentiss Riddle for alerting me to it.&amp;#0160;&amp;#0160; The best quote from it is the use case that involves the worst possible internet device in the world: text messages from a mobile phone.
+I remember that @Jack’s first use case was city-related: telling people that the club he’s at is happening. “I want to have a dispatch service that connects us on our phones using text.</description>
     </item>
     
   </channel>

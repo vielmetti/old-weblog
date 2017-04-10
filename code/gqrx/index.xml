@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/code/gqrx/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Gqrx on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/code/gqrx/</link>
+    <description>Recent content in Gqrx on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/code/gqrx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Aug 2015 11:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/code/gqrx/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>GQRX based radio scanner with gqrx-scan</title>
@@ -14,26 +17,8 @@
       <pubDate>Sun, 23 Aug 2015 11:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-08-23-gqrx-scanner/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/khaytsus/gqrx-scan&#34;&gt;gqrx-scan&lt;/a&gt; is a Perl script
-that drives the remote control of the &lt;a href=&#34;http://gqrx.dk/&#34;&gt;gqrx&lt;/a&gt; software
-defined radio receiver to turn it into a scanner and automated recording tool.&lt;/p&gt;
-
-&lt;p&gt;The GQRX &lt;a href=&#34;http://gqrx.dk/doc/remote-control&#34;&gt;remote control protocol&lt;/a&gt; is
-well documented and fairly simple, which means that the bulk of the
-Perl script has to do with setting and getting options. You can drive
-your scanner from the GQRX configuration file, or you can monitor
-a specific band or range of frequencies. It will even toggle the record
-mode in GQRX so that you can save what you&amp;rsquo;re listening to a file.&lt;/p&gt;
-
-&lt;p&gt;Because the system is driven from a file, I would like to see more
-example files in the distribution - e.g. one that had all of the
-GMRS/FRS frequencies already typed in so that you could start scanning
-those bands immediately. But that&amp;rsquo;s a quibble, and more to the point
-that&amp;rsquo;s something that I can do next when the next time I&amp;rsquo;m ready to
-contribute to the project.&lt;/p&gt;
-
-&lt;p&gt;Credit goes to Github user &lt;a href=&#34;https://github.com/khaytsus&#34;&gt;khaytsus&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>gqrx-scan is a Perl script that drives the remote control of the gqrx software defined radio receiver to turn it into a scanner and automated recording tool.
+The GQRX remote control protocol is well documented and fairly simple, which means that the bulk of the Perl script has to do with setting and getting options. You can drive your scanner from the GQRX configuration file, or you can monitor a specific band or range of frequencies.</description>
     </item>
     
     <item>
@@ -42,12 +27,9 @@ contribute to the project.&lt;/p&gt;
       <pubDate>Sun, 19 Apr 2015 21:06:09 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-04-19-w8um-14523-repeater-for-sunday-night-net-19-april-2015/</guid>
-      <description>&lt;p&gt;As seen with gqrx on my Mac.&lt;/p&gt;
+      <description>As seen with gqrx on my Mac.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77c1585970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c77c1585970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-04-19 at 8.15.39 PM&#34; title=&#34;Screen Shot 2015-04-19 at 8.15.39 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c77c1585970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The readout on the radio says 145.2169 Mhz instead of 145.2300 Mhz, I think that means the receiver has drifted 16.1 KHz from peak, or perhaps the listed frequency is not what I&#39;m looking at.&lt;/p&gt;
-</description>
+The readout on the radio says 145.2169 Mhz instead of 145.2300 Mhz, I think that means the receiver has drifted 16.1 KHz from peak, or perhaps the listed frequency is not what I&#39;m looking at.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/richard-barbrook/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Richard Barbrook on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/richard-barbrook/</link>
+    <description>Recent content in Richard Barbrook on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/richard-barbrook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2016 23:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/richard-barbrook/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Mechanical slaves and the Californian ideology</title>
@@ -14,29 +17,9 @@
       <pubDate>Sun, 24 Apr 2016 23:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-04-24-mechanical-slaves/</guid>
-      <description>&lt;p&gt;Noted elsewhere, saved here for reference, from&lt;/p&gt;
-
-&lt;p&gt;Richard Barbrook and Andy Cameron,
-&lt;a href=&#34;http://www.imaginaryfutures.net/2007/04/17/the-californian-ideology-2/&#34;&gt;THE CALIFORNIAN IDEOLOGY&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;If human slaves are ultimately unreliable, then mechanical ones
-will have to be invented. The search for the holy grail of Artificial
-Intelligence reveals this desire for the Golem a strong and loyal
-slave whose skin is the colour of the earth and whose innards are
-made of sand. As in Asimov’s Robot novels, the techno-utopians
-imagine that it is possible to obtain slave like labour from inanimate
-machines. Yet, although technology can store or amplify labour, it
-can never remove the necessity for humans to invent, build and
-maintain these machines in the first place. Slave labour cannot be
-obtained without somebody being enslaved.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Read this and then think about Siri, Cortana, &amp;ldquo;Amy Ingram&amp;rdquo; and other
-long-suffering inanimate machines that we imbue so much personality
-into that some of us unknowingly
-&lt;a href=&#34;http://www.businessinsider.com/amy-ingram-personal-assistant-2015-7&#34;&gt;flirt with a robot&lt;/a&gt; because we are so charmed by their devotion.&lt;/p&gt;
-</description>
+      <description>Noted elsewhere, saved here for reference, from
+Richard Barbrook and Andy Cameron, THE CALIFORNIAN IDEOLOGY
+ If human slaves are ultimately unreliable, then mechanical ones will have to be invented. The search for the holy grail of Artificial Intelligence reveals this desire for the Golem a strong and loyal slave whose skin is the colour of the earth and whose innards are made of sand. As in Asimov’s Robot novels, the techno-utopians imagine that it is possible to obtain slave like labour from inanimate machines.</description>
     </item>
     
   </channel>

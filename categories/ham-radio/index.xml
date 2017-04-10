@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/ham-radio/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ham Radio on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/ham-radio/</link>
+    <description>Recent content in Ham Radio on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/ham-radio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jun 2014 11:31:21 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/ham-radio/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ann Arbor Field Day 2014</title>
@@ -14,14 +17,8 @@
       <pubDate>Tue, 24 Jun 2014 11:31:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-06-24-ann-arbor-field-day-2014/</guid>
-      <description>&lt;p&gt;Thanks to Dan KB6NU for these details of Field Day in Ann Arbor June 27-29 2014.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As for Field Day, It will be at the Ann Arbor Airport, near the soccer fields.  We&#39;ll be setting up antennas on Friday night, breakfast is at Mark&#39;s Midtown Coney Island down on State at 8 am Saturday, more setup will commence after breakfast, operating will start at 2pm Saturday and run through 2pm Sunday.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&#39;ll fill in with more details when I have them; I hope to get involved in the fun.&lt;/p&gt;
-</description>
+      <description>Thanks to Dan KB6NU for these details of Field Day in Ann Arbor June 27-29 2014.
+ As for Field Day, It will be at the Ann Arbor Airport, near the soccer fields. We&#39;ll be setting up antennas on Friday night, breakfast is at Mark&#39;s Midtown Coney Island down on State at 8 am Saturday, more setup will commence after breakfast, operating will start at 2pm Saturday and run through 2pm Sunday.</description>
     </item>
     
     <item>
@@ -30,10 +27,8 @@
       <pubDate>Sun, 23 Mar 2014 20:19:55 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-23-kilo-delta-8-oscar-quebec-golf/</guid>
-      <description>&lt;p&gt;Aka &lt;a href=&#34;http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3220083&#34;&gt;KD8OQG&lt;/a&gt;, my ham radio call sign.&lt;/p&gt;
-
-&lt;p&gt;I use it most frequently on Sunday nights, for the &lt;a href=&#34;http://www.umich.edu/~umarc/net/net.html&#34;&gt;W8UM net&lt;/a&gt; (145.230 MHz, -600 kHz shift, 100 Hz PL) every Sunday at 8 PM Eastern run by the University of Michigan Amateur Radio Club.&lt;/p&gt;
-</description>
+      <description>Aka KD8OQG, my ham radio call sign.
+I use it most frequently on Sunday nights, for the W8UM net (145.230 MHz, -600 kHz shift, 100 Hz PL) every Sunday at 8 PM Eastern run by the University of Michigan Amateur Radio Club.</description>
     </item>
     
   </channel>

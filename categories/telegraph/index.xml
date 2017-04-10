@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/telegraph/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Telegraph on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/telegraph/</link>
+    <description>Recent content in Telegraph on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/telegraph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jul 2008 00:34:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/telegraph/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The telegraph in literature</title>
@@ -14,15 +17,10 @@
       <pubDate>Wed, 23 Jul 2008 00:34:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-07-23-the-telegraph-i/</guid>
-      <description>&lt;p&gt;At one point I had &lt;a href=&#34;http://vielmetti.typepad.com/telegraph&#34;&gt;a whole blog devoted to collecting information about the telegraph&lt;/a&gt;; it&#39;s still there, but dormant.  Ah, passing interests.&lt;/p&gt;
+      <description>At one point I had a whole blog devoted to collecting information about the telegraph; it&#39;s still there, but dormant. Ah, passing interests.
+Along the way, I got this suggestion, which I share:
 
-&lt;p&gt;Along the way, I got this suggestion, which I share:&lt;br /&gt;
-&lt;blockquote&gt;&lt;br /&gt;
-&#34;If you&#39;re looking for &#34;telegraph literature&#34; (i.e. stories involving telegraphs) then you should certainly read &#34;&lt;a href=&#34;http://www.jimandellen.org/trollope/telegraphgirl.html&#34;&gt;The Telegraph Girl&lt;/a&gt;&#34; by Anthony Trollope and an accompanying article &#34;&lt;a href=&#34;http://www.jimandellen.org/trollope/nonfiction.TelegraphGirls.html&#34;&gt;The Young Women at the London Telegraph Office&lt;/a&gt;&#34; and then Kipling&#39;s story &#34;&lt;a href=&#34;http://www.benlo.com/ham/wireless.html&#34;&gt;Wireless&lt;/a&gt;.&#34;  &#34;&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;There is certainly more, which I may add to here from time to time, suggestions welcomed.&lt;/p&gt;
-</description>
+&#34;If you&#39;re looking for &#34;telegraph literature&#34; (i.e. stories involving telegraphs) then you should certainly read &#34;The Telegraph Girl&#34; by Anthony Trollope and an accompanying article &#34;The Young Women at the London Telegraph Office&#34; and then Kipling&#39;s story &#34;</description>
     </item>
     
   </channel>

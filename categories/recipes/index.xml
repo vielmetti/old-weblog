@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/recipes/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Recipes on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/recipes/</link>
+    <description>Recent content in Recipes on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/recipes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jul 2015 21:36:25 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/recipes/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>espresso over ice with a little half and half</title>
@@ -14,18 +17,8 @@
       <pubDate>Sun, 19 Jul 2015 21:36:25 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-19-espresso-over-ice-with-a-little-half-and-half/</guid>
-      <description>&lt;p&gt;A simple recipe that you can order from your favorite barista:
-an espresso shot over ice. Leave enough room to add a spot of
-half and half. Cold, refreshing, and very strong.&lt;/p&gt;
-
-&lt;p&gt;To try: a shot of espresso over shaved ice. I think this is
-doable at Ann Arbor Farmers Market where you&amp;rsquo;d go to the stall
-where a granny is selling shaved ice, and then walk a plain snow cone
-over to the Roos Roast stand for your espresso shot.&lt;/p&gt;
-
-&lt;p&gt;Inspired by a Facebook post from Allen Leibowitz in Texas ordering a snow cone
-and the surrounding commentary.&lt;/p&gt;
-</description>
+      <description>A simple recipe that you can order from your favorite barista: an espresso shot over ice. Leave enough room to add a spot of half and half. Cold, refreshing, and very strong.
+To try: a shot of espresso over shaved ice. I think this is doable at Ann Arbor Farmers Market where you&amp;rsquo;d go to the stall where a granny is selling shaved ice, and then walk a plain snow cone over to the Roos Roast stand for your espresso shot.</description>
     </item>
     
     <item>
@@ -34,69 +27,20 @@ and the surrounding commentary.&lt;/p&gt;
       <pubDate>Tue, 14 Jul 2015 20:55:47 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-14-the-hugo-cookbook/</guid>
-      <description>&lt;p&gt;Every technology for publishing eventually gets used to publish
-recipes. This collection of mine here is not an exception.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve marked up the recipes with the &amp;ldquo;recipe&amp;rdquo; category, and also
-created a &amp;ldquo;recipes&amp;rdquo; taxonomy with ingredients. It&amp;rsquo;s sort of like
-a subcategory but not really&amp;hellip;well it is as long as I am careful
-about it.&lt;/p&gt;
-
-&lt;p&gt;Previous attempts to do this include The Usenet Cookbook (from
-mod.recipes), alt.gourmand, and most favorite in my book the use
-of Gopher as a cookbook. It is said that an old Mac was portable
-enough to be set up in the kitchen to look up recipes.&lt;/p&gt;
-
-&lt;p&gt;What I want to do is set things up so that if the post is from the
-recipes category, then the recipes list will show up in the sidebar
-of that post, sorted alphabetically. I think I can make that work.&lt;/p&gt;
-</description>
+      <description>Every technology for publishing eventually gets used to publish recipes. This collection of mine here is not an exception.
+I&amp;rsquo;ve marked up the recipes with the &amp;ldquo;recipe&amp;rdquo; category, and also created a &amp;ldquo;recipes&amp;rdquo; taxonomy with ingredients. It&amp;rsquo;s sort of like a subcategory but not really&amp;hellip;well it is as long as I am careful about it.
+Previous attempts to do this include The Usenet Cookbook (from mod.recipes), alt.gourmand, and most favorite in my book the use of Gopher as a cookbook.</description>
     </item>
     
     <item>
       <title>Mac and Goat</title>
-      <link>http://vielmetti.github.io/post/Mac-and-Goat/</link>
+      <link>http://vielmetti.github.io/post/mac-and-goat/</link>
       <pubDate>Tue, 14 Jul 2015 20:51:00 +0000</pubDate>
       
-      <guid>http://vielmetti.github.io/post/Mac-and-Goat/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Mac and Goat&lt;/strong&gt; calls for goat cheese; we generally use a goat gouda or
-a goat cheddar, both of which are usually available at the local
-Trader Joe&amp;rsquo;s. Feel free to substitute any hard cheese that melts
-well in your recipe.&lt;/p&gt;
-
-&lt;p&gt;The dish also calls for rice pasta, but again feel free to substitute;
-you&amp;rsquo;re aiming for something like a rotini which handles the sauce well.&lt;/p&gt;
-
-&lt;p&gt;Preheat oven to 375 degrees. Take out a lasagna pan, which is
-what you&amp;rsquo;re going to assemble the dish in.&lt;/p&gt;
-
-&lt;h2 id=&#34;mac-and-goat&#34;&gt;Mac and Goat&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 lb. pasta&lt;/li&gt;
-&lt;li&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; lb. goat gouda, goat cheddar, or a nice aged gouda or cheddar&lt;/li&gt;
-&lt;li&gt;1 large can crushed tomatoes&lt;/li&gt;
-&lt;li&gt;bread crumbs&lt;/li&gt;
-&lt;li&gt;ground nutmeg&lt;/li&gt;
-&lt;li&gt;romano cheese&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Boil water for pasta; cook a pound or so of your favorite pasta,
-we use a rice rotini pasta in this one.&lt;/p&gt;
-
-&lt;p&gt;Shred the cheese fine in a food processor or with a hand grater.&lt;/p&gt;
-
-&lt;p&gt;When the pasta is done, drain it, and then put about half of it
-in the lasagna pan. Cover with about half of the cheese and half of
-the tomatoes. Put the rest of the pasta in, then more tomatoes and
-more cheese. Top with breadcrumbs and then sprinkle a little romano
-cheese on top and a few pinches of nutmeg for flavor.&lt;/p&gt;
-
-&lt;p&gt;Cook 20-25 minutes, until the top is lightly browned and the
-tomato sauce is bubbling.&lt;/p&gt;
-</description>
+      <guid>http://vielmetti.github.io/post/mac-and-goat/</guid>
+      <description>Mac and Goat calls for goat cheese; we generally use a goat gouda or a goat cheddar, both of which are usually available at the local Trader Joe&amp;rsquo;s. Feel free to substitute any hard cheese that melts well in your recipe.
+The dish also calls for rice pasta, but again feel free to substitute; you&amp;rsquo;re aiming for something like a rotini which handles the sauce well.
+Preheat oven to 375 degrees.</description>
     </item>
     
     <item>
@@ -105,22 +49,11 @@ tomato sauce is bubbling.&lt;/p&gt;
       <pubDate>Sun, 02 Nov 2014 00:45:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-02-chickpea-potato-and-tomato-stew-six-recipes-to-mix-and-match-from/</guid>
-      <description>&lt;p&gt;Haven&#39;t cooked any of these yet, but there&#39;s some recipes to work through:&lt;/p&gt;
-
-&lt;p&gt;Ricki Heller: &lt;a href=&#34;http://www.rickiheller.com/2011/03/anti-candida-sugar-free-gluten-free-vegan-chickpea-tomato-and-potato-stew-recipe/&#34;&gt;Chickpea, Potato and Tomato Stew&lt;/a&gt;. Uses tahini to enrich the sauce.&lt;/p&gt;
-
-&lt;p&gt;Fit Pregnancy: &lt;a href=&#34;http://www.fitpregnancy.com/nutrition/recipes/chickpea-potato-tomato-stew-chard&#34;&gt;Chickpea, Potato and Tomato Stew with Chard
-&lt;/a&gt;. With chard, paprika, parsley.&lt;/p&gt;
-
-&lt;p&gt;The First Mess: &lt;a href=&#34;http://www.thefirstmess.com/2013/09/26/moroccan-style-vegan-vegetable-chickpea-stew-recipe/&#34;&gt;moroccan-style vegetable + chickpea stew
-&lt;/a&gt;. Sweet potatoes instead of potatoes, and a cinnamon+coriander+cumin spice.&lt;/p&gt;
-
-&lt;p&gt;The Picky Eater: &lt;a href=&#34;http://pickyeaterblog.com/indian-vegetable-stew-yum/&#34;&gt;Indian Chickpea and Potato Stew&lt;/a&gt;. Curry is the flavor here, and cilantro replaces parsley.&lt;/p&gt;
-
-&lt;p&gt;Food and Wine: &lt;a href=&#34;http://www.foodandwine.com/recipes/new-potato-chickpea-and-tomato-stew&#34;&gt;New Potato, Chickpea and Tomato Stew&lt;/a&gt;. The surprise ingredient is chorizo.&lt;/p&gt;
-
-&lt;p&gt;Naturally Ella: &lt;a href=&#34;http://naturallyella.com/2011/12/05/sweet-potato-and-chickpea-stew-with-quinoa/&#34;&gt;Sweet Potato and Chickpea Stew with Quinoa&lt;/a&gt;. Quinoa is the novel grain.&lt;/p&gt;
-</description>
+      <description>Haven&#39;t cooked any of these yet, but there&#39;s some recipes to work through:
+Ricki Heller: Chickpea, Potato and Tomato Stew. Uses tahini to enrich the sauce.
+Fit Pregnancy: Chickpea, Potato and Tomato Stew with Chard . With chard, paprika, parsley.
+The First Mess: moroccan-style vegetable + chickpea stew . Sweet potatoes instead of potatoes, and a cinnamon+coriander+cumin spice.
+The Picky Eater: Indian Chickpea and Potato Stew. Curry is the flavor here, and cilantro replaces parsley.</description>
     </item>
     
     <item>
@@ -129,36 +62,10 @@ tomato sauce is bubbling.&lt;/p&gt;
       <pubDate>Wed, 15 Oct 2014 23:45:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-15-recipe-tortilla-casserole/</guid>
-      <description>&lt;p&gt;This comes out kind of like a lasagna and is designed the same way:
-lots of layers.&lt;/p&gt;
-
-&lt;p&gt;Ingredients:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;one package tortillas (whole wheat, corn, or flour)&lt;/li&gt;
-&lt;li&gt;one can tomatoes with chiles&lt;/li&gt;
-&lt;li&gt;one can black beans&lt;/li&gt;
-&lt;li&gt;1/2 jar corn relish&lt;/li&gt;
-&lt;li&gt;one package shredded cheese&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;assemble in layers, roughly as so:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;tortillas&lt;/li&gt;
-&lt;li&gt;tomatoes with chiles&lt;/li&gt;
-&lt;li&gt;tortillas&lt;/li&gt;
-&lt;li&gt;beans&lt;/li&gt;
-&lt;li&gt;cheese&lt;/li&gt;
-&lt;li&gt;tortillas&lt;/li&gt;
-&lt;li&gt;relish&lt;/li&gt;
-&lt;li&gt;cheese&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bake in a 350 degree oven; I left it in for about an hour, until the top was nicely browned and not singed.&lt;/p&gt;
-
-&lt;p&gt;Served 3 (one dinner guest opted out)&lt;/p&gt;
-</description>
+      <description>This comes out kind of like a lasagna and is designed the same way: lots of layers.
+Ingredients:
+ one package tortillas (whole wheat, corn, or flour) one can tomatoes with chiles one can black beans 1/2 jar corn relish one package shredded cheese  assemble in layers, roughly as so:
+ tortillas tomatoes with chiles tortillas beans cheese tortillas relish cheese  Bake in a 350 degree oven; I left it in for about an hour, until the top was nicely browned and not singed.</description>
     </item>
     
     <item>
@@ -167,76 +74,18 @@ lots of layers.&lt;/p&gt;
       <pubDate>Sun, 07 Sep 2014 18:08:41 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-07-nanas-beer-stew-recipe/</guid>
-      <description>&lt;p&gt;Beer Stew&lt;/p&gt;
-
-&lt;p&gt;From Tish Osborn- Originally from Ada Vielmetti (Nana) &amp;amp; Aunt Florence Burt&lt;/p&gt;
-
-&lt;p&gt;To serve @ 6 people, use:&lt;/p&gt;
-
-&lt;p&gt;4 lbs. Of good Stew Meat&lt;/p&gt;
-
-&lt;p&gt;2 lb. Onions, thickly sliced&lt;/p&gt;
-
-&lt;p&gt;Flour to dredge meat&lt;/p&gt;
-
-&lt;p&gt;Oil to brown meat, in a large skillet&lt;/p&gt;
-
-&lt;p&gt;6 cloves of garlic, finely chopped or crushed&lt;/p&gt;
-
-&lt;p&gt;3T Dark Brown Sugar&lt;/p&gt;
-
-&lt;p&gt;¼ cup red wine vinegar&lt;/p&gt;
-
-&lt;p&gt;½ cup chopped fresh parsley&lt;/p&gt;
-
-&lt;p&gt;2 small bay leaves, put in whole&lt;/p&gt;
-
-&lt;p&gt;1 t. dried thyme leaves.....  Or 2 tsps. of fresh&lt;/p&gt;
-
-&lt;p&gt;1 T. salt&lt;/p&gt;
-
-&lt;p&gt;Freshly ground black pepper to taste&lt;/p&gt;
-
-&lt;p&gt;2 bottles of GOOD beer.  I often use English Stout&lt;/p&gt;
-
-&lt;p&gt;2 10 ½ oz cans of Beef Broth [not Consume`]&lt;/p&gt;
-
-&lt;p&gt;[Dumpling mix…. recipe below, put on at end of cooking time.]&lt;/p&gt;
-
-&lt;p&gt;·        Cut beef into bite-size pieces.  Dredge in flour and brown in skillet with a little oil, before putting in an ovenproof casserole dish.  [I use a large roaster]&lt;/p&gt;
-
-&lt;p&gt;·        When all beef has been browned, add a little more oil, and sauté onion and garlic just until soft.&lt;/p&gt;
-
-&lt;p&gt;·        Add the onion and garlic to the casserole with the meat; except beer and broth.&lt;/p&gt;
-
-&lt;p&gt;·        Mix well.&lt;/p&gt;
-
-&lt;p&gt;·        Add broth to skillet to de-glaze pan.  Add all other ingredients, and stir to make sure sugar is dissolved. Pour over meat mixture and stir again. &lt;/p&gt;
-
-&lt;p&gt;·        Add beer.  Stir all together.&lt;/p&gt;
-
-&lt;p&gt;·        Cover casserole and cook at 325 degrees for @ 2-3 hours.&lt;/p&gt;
-
-&lt;p&gt;·        Note:  The stew will appear to be very runny.  The dumplings seem to absorb some of the liquid. &lt;/p&gt;
-
-&lt;p&gt;·        Mix dumplings together just before you are ready to serve stew.  Drop spoon dumplings on top of meat, put the lid back on the casserole and bake for 15 minutes without lifting lid.&lt;/p&gt;
-
-&lt;p&gt;·        Serve, and expect accolades. J&lt;/p&gt;
-
-&lt;p&gt;I often just mix up Bisquick dumplings....but here’s the original recipe.&lt;/p&gt;
-
-&lt;p&gt;[Optional Dumpling recipe]&lt;/p&gt;
-
-&lt;p&gt;2 cups sifted self-rising flour&lt;/p&gt;
-
-&lt;p&gt;¾ cup of milk&lt;/p&gt;
-
-&lt;p&gt;2T. Melted butter&lt;/p&gt;
-
-&lt;p&gt;A little chopped parsley if you like, for flavor.&lt;/p&gt;
-
-&lt;p&gt;Mix together and drop on the stew.  Cook 15 min as directed.&lt;/p&gt;
-</description>
+      <description>Beer Stew
+From Tish Osborn- Originally from Ada Vielmetti (Nana) &amp;amp; Aunt Florence Burt
+To serve @ 6 people, use:
+4 lbs. Of good Stew Meat
+2 lb. Onions, thickly sliced
+Flour to dredge meat
+Oil to brown meat, in a large skillet
+6 cloves of garlic, finely chopped or crushed
+3T Dark Brown Sugar
+¼ cup red wine vinegar
+½ cup chopped fresh parsley
+2 small bay leaves, put in whole</description>
     </item>
     
     <item>
@@ -245,21 +94,11 @@ lots of layers.&lt;/p&gt;
       <pubDate>Thu, 23 Jan 2014 15:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-23-greek_lemon_roa/</guid>
-      <description>&lt;p&gt;Part of a recipes collection.&lt;/p&gt;
-&lt;p&gt;This was part of dinner last week - yum! I don&amp;#39;t have the exact proportions in front of me so you&amp;#39;ll want to be prepared to improvise.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Potatoes&lt;/strong&gt;, peeled, cut to quarters; to fill lasagna pan; redskins would do well &lt;br /&gt;Juice of 3 &lt;strong&gt;lemons,&amp;#0160;&lt;/strong&gt;&lt;strong&gt;fresh squeezed&lt;/strong&gt;&amp;#0160;juice not stuff from bottles if you have it&amp;#0160;&lt;br /&gt;Greek &lt;strong&gt;oregano &lt;/strong&gt;(though Mexican oregano worked OK too) &lt;br /&gt;&lt;strong&gt;Olive oil&lt;/strong&gt; &lt;br /&gt;Water&lt;/p&gt;
-&lt;p&gt;Preheat oven to a good roasting temperature (450+ degrees).&lt;/p&gt;
-&lt;p&gt;Put the potatoes in the lasagna pan. Mix lemon juice, water, oregano, oil together; you are after something like a salad dressing, but since you&amp;#39;re baking it the water will go away, so make sure there&amp;#39;s enough oil. Besides, olive oil is good for you.&lt;/p&gt;
-&lt;p&gt;Pour the dressing over the potatoes, mix until everything is coated. Put in oven. Roast until starting to turn brown, about 40-50 minutes depending on your oven and your potatoes. If you don&amp;#39;t have a lot of oil in the dressing, you may need to turn to keep things from sticking.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ll bet it would be good to put a couple of organic lemon halves in there too to roast along with everything.&lt;/p&gt;
-&lt;p&gt;Remove from oven, test for doneness. Eat. Yum. Also good cold.&lt;/p&gt;
-&lt;p&gt;Some other lemon roasted potato recipes, for comparison: &lt;br /&gt;- &lt;a href=&#34;http://www.theatlantic.com/unbound/corby/ct2000-12.htm&#34;&gt;Corby&amp;#39;s Table&lt;/a&gt; from The Atlantic Monthly has a patates riganates recipe from a review of Aglaia Kremezi&amp;#39;s &amp;quot;Foods of the Greek Islands&amp;quot; &lt;br /&gt;- &lt;a href=&#34;http://www.sandisrecipecorner.com/recipe488H.htm&#34;&gt;Sandi&amp;#39;s Recipe Corner&lt;/a&gt;, adds stock &lt;br /&gt;- &lt;a href=&#34;http://www.dvo.com/recipe_pages/grilln/Greek_Garlic_and_Lemon_Roasted_Potatoes.html&#34;&gt;Cook&amp;#39;n&lt;/a&gt;, adds dill and roasts over wood chips &lt;br /&gt;- &lt;a href=&#34;http://www.autumnjade.com/recipes/133.htm&#34;&gt;Autumn Jade&lt;/a&gt;, basically the same with exact proportions &lt;br /&gt;- &lt;a href=&#34;http://www.globalgourmet.com/food/special/2001/greek/potatoes.html&#34;&gt;Global Gourmet&lt;/a&gt; calls these &lt;strong&gt;patates riganates&lt;/strong&gt; and adds garlic &lt;br /&gt;- &lt;a href=&#34;http://creampuffsinvenice.typepad.com/cream_puffs_in_venice/2006/04/some_lemony_spu.html&#34;&gt;&amp;quot;Cream Puffs in Venice&amp;quot; has some lemony spuds for you&lt;/a&gt;, adapted from &lt;a href=&#34;http://www.librarything.com/work/907079&#34;&gt;Cook This&lt;/a&gt; by Amy Rosen.&lt;/p&gt;
-&lt;p&gt;and I&amp;#39;m sure there are more recipes to be had!&lt;/p&gt;
-&lt;p&gt;UPDATE:&lt;/p&gt;
-&lt;p&gt;One more recipe to go with this if you have any cold leftovers. Put a bed of spring mixed greens on a plate; I like the Asian mix we found at Farmer&amp;#39;s Market. Cut some of these potatoes up and put on top. Add diced cubed cold roasted beets for color and flavor. Dress with some of the lemon-oil mix, with a little red wine vinegar added. Yum.&lt;/p&gt;
-
-&lt;p style=&#34;text-align: right; font-size: 10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/lemon&#34; rel=&#34;tag&#34;&gt;lemon&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/potatoes&#34; rel=&#34;tag&#34;&gt;potatoes&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/recipe&#34; rel=&#34;tag&#34;&gt;recipe&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Part of a recipes collection.
+This was part of dinner last week - yum! I don&amp;#39;t have the exact proportions in front of me so you&amp;#39;ll want to be prepared to improvise.&amp;#0160;
+Potatoes, peeled, cut to quarters; to fill lasagna pan; redskins would do well Juice of 3 lemons,&amp;#0160;fresh squeezed&amp;#0160;juice not stuff from bottles if you have it&amp;#0160;
+Greek oregano (though Mexican oregano worked OK too) Olive oil Water
+Preheat oven to a good roasting temperature (450+ degrees).</description>
     </item>
     
     <item>
@@ -268,24 +107,8 @@ lots of layers.&lt;/p&gt;
       <pubDate>Mon, 13 Jan 2014 19:42:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-13-recipe-roasted-broccoli-salad-with-rice-and-feta/</guid>
-      <description>&lt;h2&gt;Roasted broccoli salad with rice and feta&lt;/h2&gt;
-
-&lt;p&gt;For the rice: prepare 1.5 cups rice according to your taste. Do this first.&lt;/p&gt;
-
-&lt;p&gt;For the broccoli: Preheat oven to 425 degrees F. Cut a few heads of broccoli into bite sized florets. Mix in a bowl with olive oil, then place on a cookie sheet. Sprinkle sea salt on top. Roast 12-15 minutes until the broccoli is every so slightly browned on top.&lt;/p&gt;
-
-&lt;p&gt;For the garbanzos: Drain and rinse a can of garbanzos. Put in a small pot and cover with water. Heat until hot, then rinse again under cool water.&lt;/p&gt;
-
-&lt;p&gt;For the red peppers: Cut a red pepper into pieces about the size of a garbanzo bean.&lt;/p&gt;
-
-&lt;p&gt;For the dressing: Make a lemon vinaigrette with a little mint.&lt;/p&gt;
-
-&lt;p&gt;For the dressing: Some sweet chili paste, or gochujang, or your favorite spicy sauce.&lt;/p&gt;
-
-&lt;p&gt;For the feta: crumble some feta.&lt;/p&gt;
-
-&lt;p&gt;Serve in individual bowls on the table, for people to mix their own salads. If your family is like mine, someone will eat just rice and peppers and beans, someone else will prefer the salad without feta, someone will want a vinaigrette and someone else (me) will douse the whole thing with chili sauce. Enjoy!&lt;/p&gt;
-</description>
+      <description>Roasted broccoli salad with rice and feta For the rice: prepare 1.5 cups rice according to your taste. Do this first.
+For the broccoli: Preheat oven to 425 degrees F. Cut a few heads of broccoli into bite sized florets. Mix in a bowl with olive oil, then place on a cookie sheet. Sprinkle sea salt on top. Roast 12-15 minutes until the broccoli is every so slightly browned on top.</description>
     </item>
     
     <item>
@@ -294,20 +117,7 @@ lots of layers.&lt;/p&gt;
       <pubDate>Tue, 07 Jan 2014 21:54:47 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-07-oven-fried-potato-recipe/</guid>
-      <description>&lt;p&gt;Writing this down so I remember this one detail: to get fries the right size, cut a medium potato into 16 pieces. (Cut in 4 equal width slices, then cut each slice into 4 parts). It works pretty quickly once you get going, and the resulting fries get crispy much more so than potatoes cut into quarters. A sweet potato yields 32 fries, cut in half and then in fours and then in fours).&lt;/p&gt;
-
-&lt;p&gt;I put the raw potato strips into a big bowl, pour some olive oil on them, and mix until everything is nicely coated, then put them onto cookie sheets and cook for what seems like a long time in a 425 degree F oven. If you want equally crispy on both sides, turn them over part way through. They would be good with a sprinking of sea salt.&lt;/p&gt;
-
-&lt;p&gt;Some more recipes, not that you need much of a recipe.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://allrecipes.com/recipe/oven-fries/&#34;&gt;All Recipes&lt;/a&gt; uses a little sugar and a little cayenne.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.eatingwell.com/recipes/oven_fries.html&#34;&gt;Eating Well&lt;/a&gt; cuts into wedges (too big!) and adds dried thyme.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.instructables.com/id/Crispy-Oven-Baked-French-Fries/&#34;&gt;Instructables&lt;/a&gt; secret ingredient is cornstarch.&lt;/p&gt;
-
-&lt;p&gt;Hm, maybe you do need a recipe.&lt;/p&gt;
-</description>
+      <description>Writing this down so I remember this one detail: to get fries the right size, cut a medium potato into 16 pieces. (Cut in 4 equal width slices, then cut each slice into 4 parts). It works pretty quickly once you get going, and the resulting fries get crispy much more so than potatoes cut into quarters. A sweet potato yields 32 fries, cut in half and then in fours and then in fours).</description>
     </item>
     
     <item>
@@ -316,42 +126,8 @@ lots of layers.&lt;/p&gt;
       <pubDate>Sun, 29 Dec 2013 00:43:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-29-lentil-feta-and-olive-pasta-salad/</guid>
-      <description>&lt;p&gt;This delicious lentil, feta, and olive pasta salad is adapted from the cookbook &lt;a href=&#34;http://www.worldcat.org/title/best-125-meatless-pasta-dishes/oclc/24375167&#34;&gt;The Best 125 Meatless Pasta Dishes&lt;/a&gt; by &lt;a href=&#34;http://mindycooks.blogspot.com/&#34;&gt;Mindy Toomay&lt;/a&gt; and &lt;a href=&#34;http://www.librarything.com/author/geiskopfhadlersusann&#34;&gt;Susann Geiskopf-Hadler&lt;/a&gt;, published by &lt;a href=&#34;http://www.bookbusinessmag.com/article/setting-the-pace-prima-publishing-12266/1&#34;&gt;Prima Publishing&lt;/a&gt; in 1992.&lt;/p&gt;
-
-&lt;p&gt;Add 3 cups of water to 1.5 cups of lentils in a saucepan on the stove. Add 2 bay leaves. Bring to a boil and then cook 25-35 minutes until the lentils are done. Rinse under cold water and drain. Note: you&#39;ll want lentils that hold their shape in cooking; look for French lentils or &lt;a href=&#34;http://chowhound.chow.com/topics/855532&#34;&gt;lentils du Puy&lt;/a&gt; in the bulk section of your favorite grocer.&lt;/p&gt;
-
-&lt;p&gt;While the lentils are cooking, chop vegetables. Note that all vegetables are to be chopped small, so that they are not that much bigger than the lentils. For the vegetables:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;one bell pepper, green or red&lt;/li&gt;
-&lt;li&gt;1/3 cup sun dried tomatoes&lt;/li&gt;
-&lt;li&gt;1/2 cup Kalamata olives, pitted of course&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;While the lentils are cooking, wash a bunch of parsley, and run it through the food processor until it is chopped very fine.&lt;/p&gt;
-
-&lt;p&gt;While the lentils are cooking, make a salad dressing, which is a nice garlicky vinaigrette.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1/3 cup olive oil&lt;/li&gt;
-&lt;li&gt;1/3 cup red wine vinegar&lt;/li&gt;
-&lt;li&gt;1/4 cup water&lt;/li&gt;
-&lt;li&gt;1/4 cup lemon juice&lt;/li&gt;
-&lt;li&gt;2 medium cloves garlic, or more to taste, minced fine&lt;/li&gt;
-&lt;li&gt;1 tablespoon dried oregano&lt;/li&gt;
-&lt;li&gt;1/2 teaspoon salt&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Near the end of the lentil cooking time, put on pasta to cook. &lt;/p&gt;
-
-&lt;p&gt;Just before serving, dice or crumble some feta and put it into a separate bowl, in the case that you have dinner guests who don&#39;t care for feta.&lt;/p&gt;
-
-&lt;p&gt;Get a large bowl, and mix the lentils, vegetables, parsley, and dressing together in it.&lt;/p&gt;
-
-&lt;p&gt;Very delicious. Serve at room temperature.&lt;/p&gt;
-
-&lt;p&gt;Prep time - 45 to 60 minutes.&lt;/p&gt;
-</description>
+      <description>This delicious lentil, feta, and olive pasta salad is adapted from the cookbook The Best 125 Meatless Pasta Dishes by Mindy Toomay and Susann Geiskopf-Hadler, published by Prima Publishing in 1992.
+Add 3 cups of water to 1.5 cups of lentils in a saucepan on the stove. Add 2 bay leaves. Bring to a boil and then cook 25-35 minutes until the lentils are done. Rinse under cold water and drain.</description>
     </item>
     
     <item>
@@ -360,28 +136,8 @@ lots of layers.&lt;/p&gt;
       <pubDate>Thu, 26 Dec 2013 13:52:27 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-26-spicy-sweet-potato-and-black-bean-salad/</guid>
-      <description>&lt;p&gt;The key here is &#34;season to taste&#34;. We had more than 2 tsp of freshly made chipotle powder and I used it all, and it ended up being a bit more spicy than the normal food around our house (but still delicious).&lt;/p&gt;
-
-&lt;p&gt;The recipe also calls for roasted pasilla peppers, which we didn&#39;t have so we didn&#39;t use them. I&#39;m sure that any other roasted pepper would add to the flavor.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2 lbs sweet potatoes, boiled 7 minutes, peeled, cut into 1&#34; chunks&lt;/li&gt;
-&lt;li&gt;1/3 cup olive oil&lt;/li&gt;
-&lt;li&gt;juice of 1/2 lime&lt;/li&gt;
-&lt;li&gt;juice of 1/2 orange&lt;/li&gt;
-&lt;li&gt;1 tsp cumin&lt;/li&gt;
-&lt;li&gt;2 tsp chipotle chili powder&lt;/li&gt;
-&lt;li&gt;2 cans (15 oz each) of black beans, rinsed well and drained&lt;/li&gt;
-&lt;li&gt;1 bunch green onions, chopped&lt;/li&gt;
-&lt;li&gt;1 bunch cilantro, chopped&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Make a dressing of the olive oil, lime juice, orange juice, cumin, chipotle powder; mix well.&lt;/p&gt;
-
-&lt;p&gt;Combine the ingredients in a large bowl. I put half the sweet potatoes at the bottom, then one can of beans, then more sweet potatoes, then more beans, with green onions and cilantro at the top. Pour the dressing over and mix.&lt;/p&gt;
-
-&lt;p&gt;This works well the next day as leftovers, if you have any!&lt;/p&gt;
-</description>
+      <description>The key here is &#34;season to taste&#34;. We had more than 2 tsp of freshly made chipotle powder and I used it all, and it ended up being a bit more spicy than the normal food around our house (but still delicious).
+The recipe also calls for roasted pasilla peppers, which we didn&#39;t have so we didn&#39;t use them. I&#39;m sure that any other roasted pepper would add to the flavor.</description>
     </item>
     
     <item>
@@ -390,16 +146,7 @@ lots of layers.&lt;/p&gt;
       <pubDate>Mon, 16 Dec 2013 07:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-16-menu-plan-monday/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Monday: Lentil soup with tomatoes, bow tie pasta&lt;/li&gt;
-&lt;li&gt;Tuesday: Chili, tortillas, greens&lt;/li&gt;
-&lt;li&gt;Wednesday: Tabouli, roasted vegetables&lt;/li&gt;
-&lt;li&gt;Thursday: Hamburgers, buns, frozen vegetables&lt;/li&gt;
-&lt;li&gt;Friday: leftovers (everyone was out)&lt;/li&gt;
-&lt;li&gt;Saturday: Spanish rice, cucumber salad&lt;/li&gt;
-&lt;li&gt;Sunday: ?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Monday: Lentil soup with tomatoes, bow tie pasta Tuesday: Chili, tortillas, greens Wednesday: Tabouli, roasted vegetables Thursday: Hamburgers, buns, frozen vegetables Friday: leftovers (everyone was out) Saturday: Spanish rice, cucumber salad Sunday: ?  </description>
     </item>
     
     <item>
@@ -408,23 +155,10 @@ lots of layers.&lt;/p&gt;
       <pubDate>Sat, 21 Sep 2013 11:49:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-21-kohlrabi-and-apple-slaw-a-study-in-comparative-literature/</guid>
-      <description>&lt;p&gt;This recipe is assembled from a variety of sources; I&#39;ll update when I&#39;ve actually made it myself to report back.&lt;/p&gt;
-
-&lt;p&gt;The basic idea is that you make a dressing of mayo thinned with a little vinegar, and you use equal part shredded kohlrabi and shredded apple in the salad. Mustard is a common seasoning.&lt;/p&gt;
-
-&lt;p&gt;Some variations on the theme, with links to recipes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://allrecipes.com/recipe/kohlrabi-and-apple-slaw/&#34;&gt;AllRecipes&lt;/a&gt; adds prepared mustard, lemon juice, and sugar to the dressing&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.epicurious.com/recipes/food/views/Kohlrabi-and-Apple-Salad-with-Creamy-Mustard-Dressing-10693&#34;&gt;Epicurious&lt;/a&gt; replaces the mayo with heavy cream and adds some chopped parsley and mustard&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bostonorganics.com/kohlrabi-and-apple-slaw/re/kohlrabi-and-apple-slaw&#34;&gt;Boston Organics&lt;/a&gt; follows Epicurious but replaces parsley with mint&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.floatingkitchen.net/kohlrabi-slaw-kohl-slaw/&#34;&gt;The Floating Kitchen&lt;/a&gt; adds carrots, and replaces the mayo with Greek yogurt&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.marthastewart.com/354687/kohlrabi-slaw&#34;&gt;Martha Stewart&lt;/a&gt; dresses the slaw with olive oil and lemon juice and skips the mayo&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://edibletwincities.com/recipes-2013/kohlrabi-fennel-and-apple-slaw/&#34;&gt;Edible Twin Cities&lt;/a&gt; adds some fennel to the salad&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I could continue but this is enough meta-information to head to the kitchen.&lt;/p&gt;
-</description>
+      <description>This recipe is assembled from a variety of sources; I&#39;ll update when I&#39;ve actually made it myself to report back.
+The basic idea is that you make a dressing of mayo thinned with a little vinegar, and you use equal part shredded kohlrabi and shredded apple in the salad. Mustard is a common seasoning.
+Some variations on the theme, with links to recipes:
+ AllRecipes adds prepared mustard, lemon juice, and sugar to the dressing Epicurious replaces the mayo with heavy cream and adds some chopped parsley and mustard Boston Organics follows Epicurious but replaces parsley with mint The Floating Kitchen adds carrots, and replaces the mayo with Greek yogurt Martha Stewart dresses the slaw with olive oil and lemon juice and skips the mayo Edible Twin Cities adds some fennel to the salad  I could continue but this is enough meta-information to head to the kitchen.</description>
     </item>
     
     <item>
@@ -433,20 +167,9 @@ lots of layers.&lt;/p&gt;
       <pubDate>Sat, 20 Jul 2013 22:51:40 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-07-20-recipe-cole-slaw/</guid>
-      <description>&lt;p&gt;This recipe is easy and feeds a lot of people. I don&amp;#39;t tend to measure, so you&amp;#39;ll want to use proportions to your taste.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;One half head of green cabbage&lt;/li&gt;
-&lt;li&gt;Four carrots&lt;/li&gt;
-&lt;li&gt;Cider vinegar&lt;/li&gt;
-&lt;li&gt;Mayo&lt;/li&gt;
-&lt;li&gt;Salt&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Shred the cabbage using the slicing blade of your food processor. Put the cabbage in a large bowl. Shake some salt on top of the cabbage and mix it in.&lt;/p&gt;
-&lt;p&gt;Trim the carrots and grate them using the grating blade of your food processor. Add to the cabbage.&lt;/p&gt;
-&lt;p&gt;The dressing is a mixture of cider vinegar and mayo. Rather than mix them together first and then getting a dish dirty, I simply pour some cider vinegar over the top of the cabbage-carrot mixture, then add some mayo. Mix thoroughly until the cole slaw is lightly coated with the dressing.&lt;/p&gt;
-&lt;p&gt;Let sit at least an hour before serving. The cabbage and carrots will both lose a little moisture, so you&amp;#39;ll end up with more dressing than you started with.&lt;/p&gt;
-&lt;p&gt;Paired with pizza and two-buck chuck wine, this recipe will serve twelve.&lt;/p&gt;
-</description>
+      <description>This recipe is easy and feeds a lot of people. I don&amp;#39;t tend to measure, so you&amp;#39;ll want to use proportions to your taste.
+ One half head of green cabbage Four carrots Cider vinegar Mayo Salt  Shred the cabbage using the slicing blade of your food processor. Put the cabbage in a large bowl. Shake some salt on top of the cabbage and mix it in.
+Trim the carrots and grate them using the grating blade of your food processor.</description>
     </item>
     
     <item>
@@ -455,16 +178,424 @@ lots of layers.&lt;/p&gt;
       <pubDate>Sat, 13 Jul 2013 12:33:13 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-07-13-from-chekovs-gooseberries/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.eldritchpress.org/ac/gooseb.html&#34; target=&#34;_self&#34;&gt;Full text of Anton Chekov&amp;#39;s &amp;quot;Gooseberries&amp;quot; is available at Eldritch Press.&lt;/a&gt;&amp;#0160;An excerpt from this short story:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;But my point does not concern him so much as myself. I want to tell you what a change took place in me in those few hours while I was in his house. In the evening, while we were having tea, the cook laid a plateful of gooseberries on the table. They had not been bought, but were his own gooseberries, plucked for the first time since the bushes were planted. Nicholai Ivanich laughed with joy and for a minute or two he looked in silence at the gooseberries with tears in his eyes. He could not speak for excitement, then put one into his mouth, glanced at me in triumph, like a child at last being given its favourite toy, and said:&lt;/p&gt;
-&lt;p&gt;&amp;quot;&amp;#39;How good they are!&amp;#39;&lt;/p&gt;
-&lt;p&gt;&amp;quot;He went on eating greedily, and saying all the while:&lt;/p&gt;
-&lt;p&gt;&amp;quot;&amp;#39;How good they are! Do try one!&amp;#39;&lt;/p&gt;
-&lt;p&gt;&amp;quot;It was hard and sour, but, as Poushkin said, the illusion which exalts us is dearer to us than ten thousand truths. I saw a happy man, one whose dearest dream had come true, who had attained his goal in life, who had got what he wanted, and was pleased with his destiny and with himself....&amp;quot;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Full text of Anton Chekov&amp;#39;s &amp;quot;Gooseberries&amp;quot; is available at Eldritch Press.&amp;#0160;An excerpt from this short story:
+ &amp;quot;But my point does not concern him so much as myself. I want to tell you what a change took place in me in those few hours while I was in his house. In the evening, while we were having tea, the cook laid a plateful of gooseberries on the table. They had not been bought, but were his own gooseberries, plucked for the first time since the bushes were planted.</description>
+    </item>
+    
+    <item>
+      <title>Recipe: Asparagus with mushrooms</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-28-recipe-asparagus-with-mushrooms/</link>
+      <pubDate>Tue, 28 May 2013 06:32:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-28-recipe-asparagus-with-mushrooms/</guid>
+      <description>This simple asparagus with mushrooms dish is served with pasta. J doesn&amp;#39;t like linguini, so we made it with rotini. This comes together in a hurry - you can cook the whole thing up in the time it takes to boil the pasta.
+Ingredients:
+ Olive oil Two or three cloves of garlic Asparagus, about a pound Button mushrooms, about a pound Basil, dried or fresh White wine  Preparation:</description>
+    </item>
+    
+    <item>
+      <title>Expect the 2013 crop of juneberries to be a good one in Ann Arbor</title>
+      <link>http://vielmetti.github.io/post/2013/2013-05-23-expect-the-2013-crop-of-juneberries-to-be-a-good-one-in-ann-arbor/</link>
+      <pubDate>Thu, 23 May 2013 16:36:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-05-23-expect-the-2013-crop-of-juneberries-to-be-a-good-one-in-ann-arbor/</guid>
+      <description>That&amp;#39;s the word from Ann Arbor Chronicle contributor Linda Diane Feldt:
+ Service berries (aka June berries) appear to be on schedule. They taste like blueberries. Very edible. They will be ripe in two to three weeks [from May 23, 2013].&amp;#0160;
+ That puts a projected juneberry first picking date at about June 7, after the peonies start but before the u-pick strawberries are ready.
+More details on the Arborwiki Juneberries page.</description>
+    </item>
+    
+    <item>
+      <title>Recipes, or information for everybody</title>
+      <link>http://vielmetti.github.io/post/2013/2013-02-17-recipes-or-information-for-everybody/</link>
+      <pubDate>Sun, 17 Feb 2013 22:24:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-02-17-recipes-or-information-for-everybody/</guid>
+      <description>This weblog has accumulated a number of recipes over time. Here&amp;#39;s an index of sorts that makes it look like I&amp;#39;ve been writing a cookbook. (To be updated over time, as well.)
+ Apple pancake &amp;quot;Dutch baby&amp;quot; Bi bim bap, a marinade for the vegetables Black bean tortilla casserole Blueberry and basil recipes Blueberry muffins with cardamom Burmese tea salad Butternut squash&amp;#0160;(AnnArbor.com) Coconut fried rice YUM Coconut squash soup, Molly&amp;#39;s October Garlic Mustard for Earth Day&amp;#0160;(AnnArbor.</description>
+    </item>
+    
+    <item>
+      <title>Coconut fried rice YUM</title>
+      <link>http://vielmetti.github.io/post/2013/2013-02-17-coconut-fried-rice-yum/</link>
+      <pubDate>Sun, 17 Feb 2013 16:46:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-02-17-coconut-fried-rice-yum/</guid>
+      <description>Disclaimer: This is not a low-fat dish. But it is delicious.
+Coconut fried rice
+ Leftover rice Coconut oil Dessicated (dried) coconut flakes or powder Milk (I used almond milk to make this vegan) Sugar  Heat oil in pan. Add leftover rice and dried coconut flakes. Mix and stir and cook. When the mixture is hot, add some milk. Sprinkle sugar on top to taste. Stir until hot; you&amp;#39;ll know when it&amp;#39;s done when the dried coconut doesn&amp;#39;t taste dry.</description>
+    </item>
+    
+    <item>
+      <title>Middle eastern red lentil soup</title>
+      <link>http://vielmetti.github.io/post/2013/2013-02-11-middle-eastern-red-lentil-soup/</link>
+      <pubDate>Mon, 11 Feb 2013 22:26:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-02-11-middle-eastern-red-lentil-soup/</guid>
+      <description>Originally from Kate and Lynne, this recipe depends on red lentils (not green lentils) and generally can be made with ingredients already in stock in our house. Serve with pita and labneh (if you can manage to not eat all of the pita and labneh before dinner), and with a chopped green salad with a sumac vinagrette.
+Middle Eastern Red Lentil Soup  1 medium yellow onion chopped 2 cloves of garlic, minced or pressed 1 T olive oil 1 and 1/2 C red lentils (NOT brown) 8 C water 1 t salt fresh ground pepper 1 T ground cumin lemon juice, to taste  In a big pot, saute the onion and garlic in the olive oil until the onion is soft.</description>
+    </item>
+    
+    <item>
+      <title>When the boys bring home trout from the trout farm, there&#39;s no question that it&#39;s trout for dinner.</title>
+      <link>http://vielmetti.github.io/post/2012/2012-08-23-when-the-boys-bring-home-trout-from-the-trout-farm-theres-no-question-that-its-trout-for-dinner/</link>
+      <pubDate>Thu, 23 Aug 2012 00:10:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-08-23-when-the-boys-bring-home-trout-from-the-trout-farm-theres-no-question-that-its-trout-for-dinner/</guid>
+      <description>The recipe for cooking the trout was simple: foil, lemon, and basil. It would have done well with a bit of olive oil or butter in the foil to bring out the flavor; it probably could have used some salt, in retrospect.
+The fish had been cleaned but not filleted. I don&amp;#39;t have the tools or the knowledge to fillet a trout, but some people have it down pat; this video from &amp;quot;battlebauble&amp;quot; on YouTube looks convincing.</description>
+    </item>
+    
+    <item>
+      <title>Green beans with walnuts</title>
+      <link>http://vielmetti.github.io/post/2012/2012-07-23-green-beans-with-walnuts/</link>
+      <pubDate>Mon, 23 Jul 2012 00:59:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-07-23-green-beans-with-walnuts/</guid>
+      <description>More recipes! This was a part of tonight&amp;#39;s dinner.
+ Oil for sauteing Garlic Walnuts, halves or pieces Green beans, trimmed Oregano Lemon juice  Heat the oil in a large saucepan. Mince the garlic small, and add to the hot oil. Cook, stirring, until it smells great. Add the walnuts and stir fry until slightly browned or at least hot. Add the green beans and stir until coated with the oil.</description>
+    </item>
+    
+    <item>
+      <title>Kedgeree, or something quite similar to it</title>
+      <link>http://vielmetti.github.io/post/2012/2012-07-20-kedgeree-or-something-quite-similar-to-it/</link>
+      <pubDate>Fri, 20 Jul 2012 14:30:40 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-07-20-kedgeree-or-something-quite-similar-to-it/</guid>
+      <description>I cooked this recipe - inspired by the recipes I found for Kedgeree - last night. I don&amp;#39;t know what all of the boundaries are for an authentic recipe for this dish, which appears to have enough variety in the various descriptions of it that nearly anything with fish flaked into rice and spiced with Indian spices could be close.
+ 2 cups rice cooked in 4 cups water safflower oil; some recipes call for ghee 1 onion, chopped small; garlic if you like it spices: curry powder, mustard seed, and similar vegetables: chopped tomatoes, peas, etc 2 tablespoons lemon juice salt, pepper fish: cooked or canned fish, fresh or smoked; we used canned boneless salmon greens: minced parsley or cilantro; dried OK in a pinch hard boiled eggs for garnish  The method runs roughly as follows.</description>
+    </item>
+    
+    <item>
+      <title>forking the cookbook</title>
+      <link>http://vielmetti.github.io/post/2012/2012-05-29-forking-the-cookbook/</link>
+      <pubDate>Tue, 29 May 2012 22:34:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-05-29-forking-the-cookbook/</guid>
+      <description>The github style of software development has, unusually, embraced the &amp;quot;fork&amp;quot; as a way of encouraging software use and reuse. Rather than being tied to a single repository owned by a single maintainer who accepts or rejects patches at their whims, you can easily fork an entire project in github and then work on it on your own. Notably this is not seen as treasonous even if it means that plans diverge.</description>
+    </item>
+    
+    <item>
+      <title>Michigan vs Virginia Tech (Hoke vs Hokies) in Sugar Bowl, January 3, 2012 in New Orleans; also, sandwiches</title>
+      <link>http://vielmetti.github.io/post/2011/2011-12-04-sugar-bowl/</link>
+      <pubDate>Sun, 04 Dec 2011 22:18:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-12-04-sugar-bowl/</guid>
+      <description>Follow the coverage from all sides.
+National coverage: ESPN&#39;s WolverineNation coverage from beat writer Michael Rothstein. Michigan Wolverines Land Sugar Bowl.
+ It almost didn&#39;t happen, however. After finishing the regular season 10-2, the Wolverines needed help from other teams around the country on Saturday and from the pollsters on Sunday morning in order to be in this position -- and they received it.  On Virginia Tech, the Washington Post writes &#34;</description>
+    </item>
+    
+    <item>
+      <title>October 2011 recipes: quince</title>
+      <link>http://vielmetti.github.io/post/2011/2011-10-01-october-2011-recipes-quince/</link>
+      <pubDate>Sat, 01 Oct 2011 06:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-10-01-october-2011-recipes-quince/</guid>
+      <description>I promised myself in October 2010 that I&amp;#39;d write about things just enough in advance to make them work so that I could have some things to make close at hand from fresh produce at Farmer&amp;#39;s Market, and regretted that I didn&amp;#39;t have quince recipes ready.&amp;#0160; &amp;#0160;To remedy that, here&amp;#39;s a few.
+Quince caramel from Chez Pim. Poach quinces in syrup, use the quince syrup to make caramels. I&amp;#39;m not a candy thermometer owner, but it does sound delicious.</description>
+    </item>
+    
+    <item>
+      <title>rhubarb syrup, and what to make with it; and, conversely, how to avoid it</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-02-rhubarb/</link>
+      <pubDate>Thu, 02 Jun 2011 01:22:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-02-rhubarb/</guid>
+      <description>Working my way through the rhubarb recipe set, I find variations on what I made tonight, which was stewed rhubarb. If you were to separate the juice from the fruit, you&amp;#39;d get Rhubarb Syrup, as seen in the New York Times&amp;#0160;(water, vanilla pod, no sugar), The Kitchn&amp;#0160;(4c rhubarb, 1c sugar, 1c water, ginger root), Food in Jars&amp;#0160;(more sugar). Use as a flavoring in fizzy water, or in a fizzy drink.</description>
+    </item>
+    
+    <item>
+      <title>delicious ketchup</title>
+      <link>http://vielmetti.github.io/post/2010/2010-12-17-delicious-ketchup/</link>
+      <pubDate>Fri, 17 Dec 2010 22:01:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-12-17-delicious-ketchup/</guid>
+      <description>As an exercise for wanting to keep enough bookmarks in delicious, or more likely its crowd of descendants, I provide to you some delicious ketchup.
+The problem with a general Google search for ketchup is that there is so much ketchup out there - so many recipes, so many products, so much Heinz everywhere.
+The delicious search for ketchup for me was a directed search; I knew that one of those interesting magazines that comes from New York City had a story about ketchup once, and how it was the perfect food.</description>
+    </item>
+    
+    <item>
+      <title>Local, seasonal recipe guide</title>
+      <link>http://vielmetti.github.io/post/2010/2010-10-06-local-seasonal-recipe-guide/</link>
+      <pubDate>Wed, 06 Oct 2010 21:36:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-10-06-local-seasonal-recipe-guide/</guid>
+      <description>It&amp;#39;s harvest time, which means there are a lot of recipes you can do with food that you can buy locally. One thing that would help that a lot is finding the people who buy the same stuff you do, and who share the same tastes, and who can work with you to figure out how to stock up so you have enough on your shelves always to get a meal on the table.</description>
+    </item>
+    
+    <item>
+      <title>Black Bean Tortilla Casserole Recipe</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-16-black-bean-tortilla-casserole-recipe/</link>
+      <pubDate>Fri, 16 Jul 2010 13:30:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-16-black-bean-tortilla-casserole-recipe/</guid>
+      <description>This is the easiest possible black bean tortilla casserole that I could come up with. It is suitable for preparing ahead of time and putting in the oven with a timer. Adjust seasonings to taste.
+ via www.grouprecipes.com
+I signed up for GroupRecipes a million years ago, in Internet time; it&amp;#39;s still around. The tag line is &amp;quot;recipe discovery&amp;quot; and it has some really interesting ways of assembling a set of recipes that might be what you want to make so that you can go off on your own to make your own.</description>
+    </item>
+    
+    <item>
+      <title>Basil and blueberry recipes, theme and variations</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-04-basil-and-blueberry-recipes-theme-and-variations/</link>
+      <pubDate>Sun, 04 Jul 2010 17:57:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-04-basil-and-blueberry-recipes-theme-and-variations/</guid>
+      <description>According to the search logs, it&#39;s season for both. Here&#39;s a bunch of recipes that use both. The common third ingredient is citrus, either lime or lemon, either in the recipe or served as the with.
+Lemon cupcakes with blueberry basil filling. &amp;nbsp;from the blog A Good Appetite:
+ Blueberry Basil Sauce 1/3 cup frozen or fresh blueberries 1 T water 1/2 t lemon juice 1 1/2 T granulated sugar 6 large basil leaves, chopped  Blueberry, basil and rum cocktail, Art of Drink:</description>
+    </item>
+    
+    <item>
+      <title>Cauliflower Curry</title>
+      <link>http://vielmetti.github.io/post/2009/2009-12-06-cauliflower-curry/</link>
+      <pubDate>Sun, 06 Dec 2009 13:38:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-12-06-cauliflower-curry/</guid>
+      <description>Cauliflower Curry
+1 Tbs canola oil
+1 large onion, chopped
+2 8 oz packages savory baked tofu
+curry powder
+1 head cauliflower, cut into florets, steamed
+coconut milk, about half a can
+diced tomatoes, one small can
+Heat the canola oil over medium heat (6&amp;frasl;10).&amp;#0160; Add chopped onion.
+Cook until fragrant.&amp;#0160; Add curry powder - I generally sprinkle it
+lightly over the top - and stir until even more fragrant and colorful.</description>
+    </item>
+    
+    <item>
+      <title>Popcorn recipe, oil ripples, and Bénard-Marangoni convection</title>
+      <link>http://vielmetti.github.io/post/2009/2009-12-06-popcorn-recipe-oil-ripples-and-b%C3%A9nardmarangoni-convection/</link>
+      <pubDate>Sun, 06 Dec 2009 10:40:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-12-06-popcorn-recipe-oil-ripples-and-b%C3%A9nardmarangoni-convection/</guid>
+      <description>Popcorn
+canola oil
+popping corn
+Heat a sturdy deep pot with a lid to the same temperature you&amp;#39;d use for low temperature sauteing; on our stove it&amp;#39;s 6 of 10.&amp;#0160; When the pot is properly warmed up, pour a bit of oil on the bottom (about a tablespoon or a little more) and bring that up to heat.&amp;#0160; I know it&amp;#39;s at the right temperature when the thin layer of oil starts to form standing waves, ridges, or ripples.</description>
+    </item>
+    
+    <item>
+      <title>Molly&#39;s October coconut squash soup</title>
+      <link>http://vielmetti.github.io/post/2009/2009-10-17-mollys-october-coconut-squash-soup/</link>
+      <pubDate>Sat, 17 Oct 2009 21:37:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-10-17-mollys-october-coconut-squash-soup/</guid>
+      <description>Recipe adapted from directions and shopping hints from Molly at Farmer&#39;s Market.
+Molly&#39;s October squash soup
+Ingredients:
+ onion garlic ginger winter squash, peeled and diced (I used butternut and delicata) coconut milk diced tomatoes stock (vegetable or chicken)  Saute onion, garlic, and ginger in olive or coconut oil.&amp;nbsp; Add the squash, cook until everything smells nice and the squash is a little bit browned.&amp;nbsp;&amp;nbsp; Deglaze the pan with a little wine (I used rice wine), then add diced tomatoes, coconut milk, and hot stock.</description>
+    </item>
+    
+    <item>
+      <title>Stuffed peppers with leftover grains recipe</title>
+      <link>http://vielmetti.github.io/post/2009/2009-09-28-stuffed-peppers-with-leftover-grains-recipe/</link>
+      <pubDate>Mon, 28 Sep 2009 23:21:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-09-28-stuffed-peppers-with-leftover-grains-recipe/</guid>
+      <description>The basic idea is from Martha Rose &amp;quot;Fast Vegetarian Feasts&amp;quot; 1986, p. 103.&amp;#0160; It&amp;#39;s very simple, as befits her normal cooking.&amp;#0160; Cut the tops from peppers, clean them out, fill with a mix of leftover rice and beans and top with cheese.&amp;#0160; Bake 30 to 40 minutes, as long as it takes for things to get as soft as you want.
+I&amp;#39;m guessing I&amp;#39;ll end up using black beans; there&amp;#39;s rice from yesterday.</description>
+    </item>
+    
+    <item>
+      <title>Karnabeet recipe</title>
+      <link>http://vielmetti.github.io/post/2009/2009-09-27-karnabeet-recipe/</link>
+      <pubDate>Sun, 27 Sep 2009 10:38:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-09-27-karnabeet-recipe/</guid>
+      <description>Assembled from a few sources; not tried yet; this is approximate.
+ Blanch cauliflower and saute in olive oil until browned. Make a lemon-tahini-garlic sauce. Mix.&amp;#0160; Cook. &amp;#0160; Serve sprinkled with sumac and parsley.  Some alternatives:
+ Vegetarian Times roasts the cauliflower instead of sauteing Drum Like A Vegan adds rosemary, also roasts instead of sautes Gastronomical Three reviews the late, lamented La Zamaan which added pomegranate seeds Kitchen Chick looks at Zamaan Cafe (2011) with a photo of Ali Hijazi&amp;#39;s karnabeet  For Monday.</description>
+    </item>
+    
+    <item>
+      <title>purple beans for dinner; or, anthocyanin pigmentation in Phaseolus vulgaris</title>
+      <link>http://vielmetti.github.io/post/2009/2009-08-04-purple-beans-for-dinner-or-anthocyanin-pigmentation-in-phaseolus-vulgaris/</link>
+      <pubDate>Tue, 04 Aug 2009 23:45:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-08-04-purple-beans-for-dinner-or-anthocyanin-pigmentation-in-phaseolus-vulgaris/</guid>
+      <description>We had purple beans for dinner, from farmer&amp;#39;s market.&amp;#0160; I heated some olive oil in a pan and cooked them through until they had turned all green, and then salted them a little at the end.
+The recipe called for adding chopped almonds but it didn&amp;#39;t happen; instead I served the boys tofu that I had cut into cubes and boiled (boiling it improves the texture quite a bit, firming it up more to my liking).</description>
+    </item>
+    
+    <item>
+      <title>menu plan monday: first week of April</title>
+      <link>http://vielmetti.github.io/post/2009/2009-04-06-menu-plan-monday-first-week-of-april/</link>
+      <pubDate>Mon, 06 Apr 2009 13:13:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-04-06-menu-plan-monday-first-week-of-april/</guid>
+      <description>Some notes, more for myself than for you.
+Horseradish is now available at market; $4 for a jar from Grandma&amp;#39;s Kitchen.&amp;#0160; Grandma says hers is pure, not mixed with turnip as some would do.&amp;#0160; Farmers Market had a lot of produce - field greens and flowers were the big new crops.&amp;#0160; We had some tat soi from Shannon Brines that was very good in a stir fry.
+The phone on the farm in Homer, MI is answered only at 8am, if I read the handout right.</description>
+    </item>
+    
+    <item>
+      <title>Blueberry muffins with cardamom; some recipes, in the hopes that summer will arrive</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-20-blueberry-muffins-with-cardamom-some-recipes-in-the-hopes-that-summer-will-arrive/</link>
+      <pubDate>Fri, 20 Feb 2009 01:07:54 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-20-blueberry-muffins-with-cardamom-some-recipes-in-the-hopes-that-summer-will-arrive/</guid>
+      <description>I&amp;#39;m just going to keep posting about blueberries until I&amp;#39;m sure it&amp;#39;s going to be summer again; I think we have a few tubs still in the freezer.
+The search is for a blueberry muffin recipe with cardamom, and here&amp;#39;s some sample of same, to see what the variety is in the recipes so that perhaps some meta-recipe will emerge.&amp;#0160; Do be sure to read the first one through; it&amp;#39;s a moving memorial and a story of how we celebrate the end of someone&amp;#39;s life.</description>
+    </item>
+    
+    <item>
+      <title>Menu plan Monday: second week of January</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-12-menu-plan-monday-second-week-of-january/</link>
+      <pubDate>Mon, 12 Jan 2009 08:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-12-menu-plan-monday-second-week-of-january/</guid>
+      <description>A second try at menu plan Monday, written Sunday night.
+Farmer&amp;#39;s market on Saturday was eggs, apples, some good conversation and not much more food.&amp;#0160; We didn&amp;#39;t get there early enough for fresh greens from Brines Farm, and by the time we were there Wasem&amp;#39;s was out of donuts.&amp;#0160; Still a lot of fun.
+Food coop was pleasant, but I didn&amp;#39;t do most of my shopping there.&amp;#0160; Next week I&amp;#39;ll do shopping for spices there, since their selection is best and they are never out of stock of anything.</description>
+    </item>
+    
+    <item>
+      <title>Vegetarian &#34;Green Goddess&#34; dressing</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-11-vegetarian-green-goddess-dressing/</link>
+      <pubDate>Sun, 11 Jan 2009 21:18:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-11-vegetarian-green-goddess-dressing/</guid>
+      <description>Joy of Cooking, my go-to cookbook for some basic version of pretty much anything, has a recipe with anchovies for Green Goddess dressing.&amp;#0160; While I like anchovies, I really don&amp;#39;t cook with them at home.&amp;#0160; So I&amp;#39;m looking for alternatives for that same style dressing that use something else in its place.
+Some suggestions:
+for anchovies, substitute tarragon;
+for anchovies, substitute miso or fermented black beans;
+bacobits;
+A Green Goddess recipe from The Veggie Table with 1c fresh parsley</description>
+    </item>
+    
+    <item>
+      <title>bi bim bap - the marinade for the vegetables</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-30-bi-bim-bap-the-marinade-for-the-vegetables/</link>
+      <pubDate>Sun, 30 Nov 2008 22:21:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-30-bi-bim-bap-the-marinade-for-the-vegetables/</guid>
+      <description>Marinade for bi bim bap vegetables (carrots and spinach):
+2 cloves garlic peeled 2 green onions 5 tablespoons soy sauce 2 tablespoons sugar 2 tablespoons vegetable oil 1 teaspoon sesame seeds 1 tablespoon sesame oil 1&amp;frasl;8 teaspoon black pepper
+originally from Linda Sue Park&amp;rsquo;s Bee-Bim Bap!</description>
+    </item>
+    
+    <item>
+      <title>Baked Polenta: &#34;no-stir polenta sounds like no-water soup - possible but unlikely&#34;</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-01-baked-polenta-no-stir-polenta-sounds-like-no-water-soup---possible-but-unlikely/</link>
+      <pubDate>Sat, 01 Nov 2008 00:13:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-01-baked-polenta-no-stir-polenta-sounds-like-no-water-soup---possible-but-unlikely/</guid>
+      <description>The family recipes for polenta all involve stirring for a long time, but I didn&amp;#39;t want to do that.&amp;#0160; This alternative approach showed up in a search for the delicious tag polenta, from the blog Hungry Cravings - the so called Cheater Method Polenta.
+The critics were skeptical:
+Vaguery: @vielmetti no-stir polenta sounds like no-water soup. Possible, but unlikely. Good luck!
+but it turned out fine - no stir is an exaggeration, more like one or two stirs but not more than that.</description>
+    </item>
+    
+    <item>
+      <title>Radish salad with soy and sesame dressing</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-26-radish-salad-with-soy-and-sesame-dressing/</link>
+      <pubDate>Sun, 26 Oct 2008 00:33:25 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-26-radish-salad-with-soy-and-sesame-dressing/</guid>
+      <description>This is the simplest possible thing to make with a bunch of radishes fresh from farmers market ($1.25 this week).
+one bunch radishes
+vinegar
+soy sauce
+sesame oil
+Wash and trim the radishes.&amp;#0160; Slice thin, put in a bowl.&amp;#0160; Add vinegar (I used white vinegar, but rice vinegar would do well), soy sauce, and a little sesame oil; you&amp;#39;re after enough to moisten, not to cover.&amp;#0160; Let sit a few minutes before eating.</description>
+    </item>
+    
+    <item>
+      <title>Scrambled eggs with slow roasted tomatoes (炒鸡蛋西红柿)</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-14-scrambled-eggs/</link>
+      <pubDate>Tue, 14 Oct 2008 00:24:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-14-scrambled-eggs/</guid>
+      <description>I did the slow roasting during high tomato season, and there are a few quarts of them in the freezer.
+Wondering which recipes would show up for a search for &amp;quot;recipe egg tomato&amp;quot; on Twitter, I ended up much to my surprise on a Beijing travel web site, which had a recipe for Fried Egg and Tomato – Chǎo Jīdàn Xīhóngshì – 炒鸡蛋西红柿.
+Egg and tomato might sound like an odd combination, but this is a really common Chinese dish which can be found on the menu at every cheap and cheerful Chinese eatery in Beijing.</description>
+    </item>
+    
+    <item>
+      <title>Papaws, the Michigan banana</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-08-papaws-the-mich/</link>
+      <pubDate>Mon, 08 Sep 2008 10:03:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-08-papaws-the-mich/</guid>
+      <description>Paw paws go by lots of names: • Possumhaw • Dog-banana • Indian-banana • False banana • Custard-apple • Michigan banana • Hoosier banana • Ozark banana • Poor-man’s banana • Wild banana • Prairie banana • Nebraska banana • Indiana banana
+Zingerman&#39;s makes Paw Paw Gelato:
+One of the most exciting desserts this year is Paw Paw gelato. Last year I met someone who grows a large variety of Paw Paws and took my impression of them from this small wild-ish crop with limited yields to &amp;quot;how many do you want and what variety&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>How to freeze berries</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-24-how-to-freeze-b/</link>
+      <pubDate>Sun, 24 Aug 2008 15:49:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-24-how-to-freeze-b/</guid>
+      <description>Wash, drain, then spread in a single layer on a cookie sheet.&amp;nbsp; Freeze until solid and then use a spatula to carefully scrape them (whole) into freezer bags or tubs.
+Label, carefully.&amp;nbsp; &amp;quot;Beans, do not open until February&amp;quot;.&amp;nbsp; So that when it&#39;s February, you&#39;ll have something to look forward to, and so that the fridge monsters don&#39;t eat them before then.</description>
+    </item>
+    
+    <item>
+      <title>Blueberry Buffalo stew</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-04-blueberry-buffa/</link>
+      <pubDate>Mon, 04 Aug 2008 16:29:15 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-04-blueberry-buffa/</guid>
+      <description>Blueberry buffalo stew from Cooking Debauchery, via merathena on LJ:
+
+The blueberries melt into the stock producing the most delectable, mahogany colored broth and a fragrance the fills the house with the scents of fall. 
+We&#39;re vegetarians at home, so this is going to have to be someone else&#39;s potluck dish. There&#39;s buffalo raised in Michigan at Sprik Farms near Grand Rapids, and at TMZ Farm near Pinckney.</description>
+    </item>
+    
+    <item>
+      <title>Strawberries are in for the 2008 season</title>
+      <link>http://vielmetti.github.io/post/2008/2008-06-05-strawberries-ar/</link>
+      <pubDate>Thu, 05 Jun 2008 22:00:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-06-05-strawberries-ar/</guid>
+      <description>via arborparents, a report that strawberries are in at Rowe&#39;s Produce Farm - head there from the Rawsonville Road exit, south to Martz Rd between Ypsi and Belleville. Price of strawberries is $1.43/lb.
+www.rowesproducefarm.com
+UPDATE: Peas too!
+Hello Rowe&#39;s Produce Farm customers,
+SUGAR SNAP PEAS ARE NOW READY TO BE PICKED!!!!!
+We opened our first field of sugar snap peas for picking today and they are LOADED. Now is the time to pick!</description>
+    </item>
+    
+    <item>
+      <title>Potato pancakes (Latkes) recipe</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-06-potato-pancakes/</link>
+      <pubDate>Thu, 06 Dec 2007 08:29:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-06-potato-pancakes/</guid>
+      <description>This is the family latke recipe, perfected over time. Ten pounds of potatoes serves one neighborhood.
+Warning: the following recipe may be bad for your health and completely destructive of your kitchen!
+From a newspaper clipping in my recipe book, much amended by me over the years:
+POTATO PANCAKES Time: 20 minutes (More like two hours, unless you have multiple griddles)
+2 large eggs 3 cups grated drained, all-purpose potatoes (see below) 1/4 cup grated onion (see below) 1 teaspoon salt, more to taste (less) 2 to 4 tablespoons matzo meal, or as needed (I used whole wheat flour; you could also use breadcrumbs) Canola oil, for frying Applesauce and sour cream for serving, optional (mandatory!</description>
+    </item>
+    
+    <item>
+      <title>semolina pudding</title>
+      <link>http://vielmetti.github.io/post/2003/2003-01-26-semolina-pudding/</link>
+      <pubDate>Sun, 26 Jan 2003 01:11:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2003/2003-01-26-semolina-pudding/</guid>
+      <description>January 26, 2003
+SEMOLINA PUDDING
+Ingredients:
+ 1 cup sugar 1 cup milk 4 cups water grated peel of 1 lemon (pref. organic) 1 cup semolina flour cinnamon raspberries or other berries  Directions: Mix sugar, milk, water and lemon peel in a pot or big saucepan. Heat until just about to boil, then gradually sprinkle in semolina flour, whisking the whole time to prevent lumps from forming. Allow mixture to thicken considerably.</description>
+    </item>
+    
+    <item>
+      <title>Orzo salad</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-26-orzo-salad/</link>
+      <pubDate>Mon, 29 Jan 2001 00:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-26-orzo-salad/</guid>
+      <description>repeated from a recipe blog I used to keep, from 2001.
+A very simple orzo salad.
+ One pound orzo. 1 pint-size tub green olives 1 pint-size tub feta cheese 2 bunches parsley  Cook the orzo and rinse with cold water to remove the starch and stop it from cooking. Pit the olives, reserving the juice they came in. (It is key to have good olives for this recipe - we get good ones at Whole Foods or (better) the food coop, &amp;quot;french provencal with herbs&amp;quot;.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/thinkfluence/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Thinkfluence on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/thinkfluence/</link>
+    <description>Recent content in Thinkfluence on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/thinkfluence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jul 2015 15:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/thinkfluence/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Starting a trial of Little Bird</title>
@@ -14,50 +17,8 @@
       <pubDate>Wed, 22 Jul 2015 15:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-22-little-bird/</guid>
-      <description>&lt;p&gt;Little Bird is a system that helps you discover influencers
-and experts in any topic. I&amp;rsquo;m at the very start of a 7 day trial.
-Marshall Kirkpatrick is CEO of Little Bird, and he has been
-active on Twitter posting interesting ideas about influence
-marketing - and given that it seemed prudent to give the product a try.&lt;/p&gt;
-
-&lt;p&gt;Pricing is aimed at agencies, not individuals, so I&amp;rsquo;m going
-to look at this product through the eyes of people doing
-&amp;ldquo;social listening&amp;rdquo; for a living, tracking the messages that
-appear on a topic and either quietly making sense of what
-is happening or actively engaging with those people to try
-to influence their opinions. The single user price is out of
-my reach for an annual commitment, though I might keep it up
-for another month if I can find a specific task that warrants
-the extra tooling.&lt;/p&gt;
-
-&lt;p&gt;My first test with any social software is to point it at a domain
-that I know (Ann Arbor) and see what it unearths. Little Bird
-found for me 1000 influential accounts having to do with Ann Arbor,
-and in a boost to my ego it puts me in the top 50. Without understanding
-how the algorithms work it seems that it biases towards identifying
-busy accounts that post a lot of news, vs. the clever individual
-whose every post is good but who doesn&amp;rsquo;t post that often.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a style of posting which I would have to describe as
-&amp;ldquo;thinkfluential&amp;rdquo; which Little Bird has a nose for. The thinkfluencer
-will post frequently on a given topic, and a lot of people will
-retweet them and they will retweet a lot of people. Every message
-is relentlessly on message and you won&amp;rsquo;t find cat pictures or
-meeting banter mixed in. More often than not you&amp;rsquo;ll see the
-thinkfluence augmented by robots that post newsy things day and
-night, even when the thinkfluencer is away from the keyboard.
-There doesn&amp;rsquo;t even need to be any interaction at all with this
-&amp;ldquo;expert&amp;rdquo;, just a never-ending confluence of thinkfluence.&lt;/p&gt;
-
-&lt;p&gt;So I wish that Little Bird had another round of filters, to help me
-understand the question at scale &amp;ldquo;is this person really a bot&amp;rdquo;.
-The real utility for me of identifying expertise is not to pick
-out the high-frequency posting bot, but to suss out who on a topic
-is good at engaging on the things they know about. Bot identification
-is the Turing Test at work, and maybe just maybe there&amp;rsquo;s a set of
-computable metrics that you can build across a corpus of Twitter
-users to pull that out.&lt;/p&gt;
-</description>
+      <description>Little Bird is a system that helps you discover influencers and experts in any topic. I&amp;rsquo;m at the very start of a 7 day trial. Marshall Kirkpatrick is CEO of Little Bird, and he has been active on Twitter posting interesting ideas about influence marketing - and given that it seemed prudent to give the product a try.
+Pricing is aimed at agencies, not individuals, so I&amp;rsquo;m going to look at this product through the eyes of people doing &amp;ldquo;social listening&amp;rdquo; for a living, tracking the messages that appear on a topic and either quietly making sense of what is happening or actively engaging with those people to try to influence their opinions.</description>
     </item>
     
   </channel>

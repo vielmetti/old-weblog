@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/trebuchet/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Trebuchet on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/trebuchet/</link>
+    <description>Recent content in Trebuchet on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/trebuchet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2013 15:17:14 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/trebuchet/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Trebuchet at Tech Twilight 2013 at the Hands-On Museum</title>
@@ -14,10 +17,9 @@
       <pubDate>Tue, 21 May 2013 15:17:14 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-21-trebuchet-at-tech-twilight-2013-at-the-hands-on-museum/</guid>
-      <description>&lt;p&gt;Here&amp;#39;s S. demonstrating one of the trebuchets from Summers-Knoll School at Tech Twilight 2013, held at the Ann Arbor Hands On Museum. (Photo courtesy AAHOM).&lt;/p&gt;
-&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901c6c911e970b-pi&#34;&gt;&lt;img alt=&#34;Saul-tech-twilight-trebuchet-hands-on-museum-2013&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901c6c911e970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901c6c911e970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Saul-tech-twilight-trebuchet-hands-on-museum-2013&#34; /&gt;&lt;/a&gt;&lt;br /&gt;No, he didn&amp;#39;t fling anything indoors; that task was left to Dr. George and his ping pong ball cannon.&lt;/p&gt;
-</description>
+      <description>Here&amp;#39;s S. demonstrating one of the trebuchets from Summers-Knoll School at Tech Twilight 2013, held at the Ann Arbor Hands On Museum. (Photo courtesy AAHOM).
+ 
+No, he didn&amp;#39;t fling anything indoors; that task was left to Dr. George and his ping pong ball cannon.</description>
     </item>
     
   </channel>

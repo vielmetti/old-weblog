@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/meetup/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Meetup on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/meetup/</link>
+    <description>Recent content in Meetup on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Sep 2013 22:50:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Notes on Meetup</title>
@@ -14,20 +17,8 @@
       <pubDate>Tue, 24 Sep 2013 22:50:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-24-notes-on-meetup/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff96dcaa970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019aff96dcaa970b&#34; alt=&#34;Logo&#34; title=&#34;Logo&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff96dcaa970b-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;I&#39;ve started using &lt;a href=&#34;http://www.meetup.com&#34;&gt;Meetup.com&lt;/a&gt; to organize several groups. Here&#39;s some notes.&lt;/p&gt;
-
-&lt;p&gt;For the longest time I&#39;ve used a Yahoo Groups list to organize the &lt;a href=&#34;http://groups.yahoo.com/group/a2b3&#34;&gt;a2b3&lt;/a&gt; group, and that long-lived mailing list continues. It&#39;s great to have a mailing list, but it&#39;s kind of chatty as a lunch-planning-only effort. So the first of my Meetup groups is the &lt;a href=&#34;http://meetup.com/a2b3-lunch&#34;&gt;a2b3 meetup&lt;/a&gt; which is solely devoted to the tasks of providing an events listing and (most importantly) to plan lunch.&lt;/p&gt;
-
-&lt;p&gt;A brand new Meetup is the &lt;a href=&#34;http://meetup.com/a2civictech&#34;&gt;a2civictech&lt;/a&gt; Ann Arbor Civic Technology meetup, which had its first meeting the other night. This is a more classic meetup, one that tries to meet monthly rather than weekly, one that&#39;s similar to other groups around the country, and one where I&#39;m starting out from the perspective that I mostly don&#39;t know everyone who&#39;s going to be interested.&lt;/p&gt;
-
-&lt;p&gt;Meetup is a form of civic technology (for the purpose of organizing meetings). For a2civictech, I&#39;ve been able to use the function of annotating the photos from the meeting to remember who was there, and the little discussion forum around the event is just enough to prepare for meetings and remember what happened there. Meetup also allows you to track the input and output of money to the group, so it&#39;s reasonable to track expenses and reimbursement for even little bits of money.&lt;/p&gt;
-
-&lt;p&gt;The meetup system isn&#39;t free; a semi-annual fee of $72 applies. So by not being free it gives me the opportunity to have other folks help share in the cost of running things. a2civictech is sponsored in part by &lt;a href=&#34;http://a2geeks.org&#34;&gt;a2geeks&lt;/a&gt; and that&#39;s been a great plus in getting it going. You can also share in the roles of actually organizing things by giving co-conspirators some additional rights to manage things.&lt;/p&gt;
-
-&lt;p&gt;What strikes me the most is that Meetup is actually designed pretty well to help you successfully organize a meeting. I&#39;m so used to group-forming tools like Yahoo Groups and Google Groups where the goal is to have a discussion online and where the in-person efforts are a very late afterthought. The system comes with a checklist of all of the useful things you can do, and the automated emails for the event planner gently prompt you to do the right thing at the right time. There&#39;s obviously a lot of thought and evolution in this system which is a welcome change.&lt;/p&gt;
-
-&lt;p&gt;The verdict so far: worthwhile to continue for 6 months, and probably worth renewing.&lt;/p&gt;
-</description>
+      <description>I&#39;ve started using Meetup.com to organize several groups. Here&#39;s some notes.
+For the longest time I&#39;ve used a Yahoo Groups list to organize the a2b3 group, and that long-lived mailing list continues. It&#39;s great to have a mailing list, but it&#39;s kind of chatty as a lunch-planning-only effort. So the first of my Meetup groups is the a2b3 meetup which is solely devoted to the tasks of providing an events listing and (most importantly) to plan lunch.</description>
     </item>
     
   </channel>

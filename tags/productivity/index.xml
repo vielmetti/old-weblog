@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/productivity/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Productivity on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/productivity/</link>
+    <description>Recent content in Productivity on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jun 2015 23:06:54 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Gogs, a self-hosted Git server</title>
@@ -14,26 +17,9 @@
       <pubDate>Sat, 27 Jun 2015 23:06:54 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-27-gogs-a-self-hosted-git-server/</guid>
-      <description>&lt;p&gt;Gogs is a self-hosted Git server, an alternative to using Github as a for-pay hosted service or Gitlab as another self-hosted system. It&#39;s written in the Go language, and is said to be sparing of system resources.&lt;/p&gt;
+      <description>Gogs is a self-hosted Git server, an alternative to using Github as a for-pay hosted service or Gitlab as another self-hosted system. It&#39;s written in the Go language, and is said to be sparing of system resources.
 
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c7a5b824970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2015-06-27 at 11.01.35 PM&#34; title=&#34;Screen Shot 2015-06-27 at 11.01.35 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c7a5b824970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I&#39;m building it using Docker on a Raspberry Pi 2, thanks to the folks at Hypriot; the writeup is &lt;a href=&#34;http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/&#34;&gt;Run your own GitHub-like service with the help of Docker&lt;/a&gt;, and the file on Dockerhub is at &lt;a href=&#34;https://registry.hub.docker.com/u/hypriot/rpi-gogs-raspbian/&#34;&gt;hypriot/rpi-gogs-raspbian&lt;/a&gt;. The install went essentially as described; note that if you are using Avahi to provide a .local name service, you can avoid using IP addresses in configuration files and instead use names like &#34;black-pearl.local&#34; as your hostname.&lt;/p&gt;
-
-&lt;p&gt;Juan B. Rodriguez did a nice writeup of &lt;a href=&#34;http://jbrodriguez.io/gogs-an-alternative-to-gitlab/&#34;&gt;Gogs, an alternative to Gitlab&lt;/a&gt;, again with a Docker based installation description and a nice feature comparison.&lt;/p&gt;
-
-&lt;p&gt;After some poking around with Gogs I noted three substantial limitations, none of which are complete show-stoppers but which collectively give me pause about doing a wholesale replacement of Github with Gogs; and a fourth that gives me hope for some project that might address these issues but which might not end up being called Gogs.&lt;/p&gt;
-
-&lt;p&gt;First, there&#39;s no built-in wiki. I don&#39;t always use a wiki with a Github repository, and when I do I&#39;m not always thrilled by the minimalist features of Github&#39;s wiki, but it&#39;s mighty handy and I miss it right away. Gogs doesn&#39;t have a wiki, and though it&#39;s been an acknowledged issue for a long time it doesn&#39;t seem to have any forward movement.&lt;/p&gt;
-
-&lt;p&gt;Second, there&#39;s no built-in file editor. I&#39;m very used to the workflow where you see a file that has some small problem, you fork the repository right in the editor, type in your fix, save, and submit your patch to the maintainers. It&#39;s a very straightforward way of doing small things efficiently without dropping down to the command line, and the lack of it makes Gogs hard to understand how it would work in a mostly-web world.&lt;/p&gt;
-
-&lt;p&gt;Third, Gogs has a lot of obvious copying from Github, and I&#39;m uncertain about the whole ethos of wholesale replication of documentation. Sometimes there&#39;s not even an effort made to document what the system does and instead there&#39;s just a link to Github documentation. Self-hosted systems should have self-hosted documentation, and even if you&#39;re replicating someone else&#39;s system faithfully you still need to write up your own docs.&lt;/p&gt;
-
-&lt;p&gt;Fourth and finally, Gogs has been forked. &#34;gitea&#34; is &#34;Git with a cup of tea&#34;, and it seems to have a bunch of energy to fix things that the Gogs project is currently lacking. See &lt;a href=&#34;https://github.com/go-gitea/gitea&#34;&gt;the gitea project on Github&lt;/a&gt; and its corresponding &lt;a href=&#34;https://gitter.im/go-gitea/gitea&#34;&gt;gitter chat for gitea&lt;/a&gt;. gitea has not produced a release yet, but when it does I&#39;ll be sure to look for a reasonable packaging of it to try it out.&lt;/p&gt;
-
-&lt;p&gt;All of that said, I&#39;m happy to have found Gogs, and plan to poke through it some more and store some not-very-important files in it for a while until I get some confidence in it. I don&#39;t think it (or gitea) is an instant replacement for my hosted Github service, but for the narrow purpose of holding a private repository beyond what Github provides for its service plan it looks like a reasonable alternative now.&lt;/p&gt;
-</description>
+I&#39;m building it using Docker on a Raspberry Pi 2, thanks to the folks at Hypriot; the writeup is Run your own GitHub-like service with the help of Docker, and the file on Dockerhub is at hypriot/rpi-gogs-raspbian.</description>
     </item>
     
     <item>
@@ -42,15 +28,8 @@
       <pubDate>Fri, 12 Sep 2008 10:57:46 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-09-12-creativity-vs-p/</guid>
-      <description>&lt;p&gt;Merlin Mann has relaunched &lt;a href=&#34;http://www.43folders.com/&#34;&gt;43 Folders&lt;/a&gt;; he doesn&#39;t want to be the productivity guy any more, he wants to be the creativity guy.&amp;nbsp; It&#39;s a good choice.&lt;/p&gt;
-
-&lt;p&gt;He notes some essential tension between the demand of professional bloggers to produce immense quantities of on-topic dreck that generates a lot of page views, vs the wise craft of intense creative types who sweat the details to edit things down to a fine polish.&amp;nbsp; (Or something like that; it probably overstates the issue.)&amp;nbsp; And he bemoans the tendency of people to consume an endless stream of shitty first drafts as if that was the only thing worth doing:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;What worries me are the consequences of a diet comprised mostly of
-fake-connectedness, makebelieve insight, and unedited first drafts of &lt;em&gt;everything&lt;/em&gt;.
-I think it’s making us small. I know that whenever I become aware of
-it, I realize how small it can make me. So, I’ve come to despise it.&amp;nbsp; (from &lt;a href=&#34;http://www.kungfugrippe.com/post/48588149/better&#34;&gt;better)&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Since this post itself is a shitty first draft of a summary of what is probably 100 other things I&#39;ve thought about, I&#39;ll keep it short.&amp;nbsp; Sometimes, when you want to have deep insight into a topic, you have to immerse yourself in the details.&amp;nbsp; Your makebelieve insight and fake-connectedness are exercises in helping you understand the world, and even though sometimes the explanation that comes up doesn&#39;t really sound any more insightful than what your wikipedia-quoting eight year old can come up with, it came from you.&amp;nbsp; Sometimes, if you are really lucky, you get to reflect on a bunch of first drafts and turn them into second and third drafts - hurray!&amp;nbsp; But at least you got that thinking out into public in a format that can get some feedback.&amp;nbsp; The best way to have one good idea is to have a thousand ideas.&lt;/p&gt;
-
-&lt;p&gt;Recommended reading: Alex Osborn&#39;s 1949 &amp;quot;Your Creative Power: How To Use Imagination&amp;quot;.&lt;/p&gt;
-</description>
+      <description>Merlin Mann has relaunched 43 Folders; he doesn&#39;t want to be the productivity guy any more, he wants to be the creativity guy.&amp;nbsp; It&#39;s a good choice.
+He notes some essential tension between the demand of professional bloggers to produce immense quantities of on-topic dreck that generates a lot of page views, vs the wise craft of intense creative types who sweat the details to edit things down to a fine polish.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/mark-ej-newman/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Mark Ej Newman on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/mark-ej-newman/</link>
+    <description>Recent content in Mark Ej Newman on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/mark-ej-newman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Nov 2008 14:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/mark-ej-newman/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>2008 Election Maps: Wayne Baker on metaphors of color in Mark Newman&#39;s cartograms</title>
@@ -14,8 +17,7 @@
       <pubDate>Sat, 15 Nov 2008 14:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-15-2008-election-maps-wayne-baker-on-metaphors-of-color-in-mark-newmans-cartograms/</guid>
-      <description>&lt;p&gt;We&#39;ve seen lots of electoral maps, with the US colored various shades of red, blue, or purple.  The simplest ones just colorize the map; the most complex distort the map and refine the color space to show various aspects of the population, its voting patterns and changes over time.  &lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://kottke.org/plus/2008-election-maps/&#34;&gt;Jason Kottke has a good collection of 2008 election maps from all over the world,&lt;/a&gt; showing mostly the state of real time map software by newspapers, web sites, and television updated during the vote count.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www.readthespirit.com/ourvalues/2008/11/as-we-await-res.html&#34;&gt;Wayne Baker asks on his Our Values blog:&lt;br&gt;&lt;/a&gt;&lt;/p&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote class=&#34;webkit-indent-blockquote&#34; style=&#34;margin: 0 0 0 40px; border: none; padding: 0px;&#34;&gt;&lt;p&gt;&lt;span style=&#34;color: #333333; font-family: arial; line-height: normal; &#34;&gt;Take a moment, perhaps as you&#39;re watching election returns, to tell me what you think of our country right now. Think about this question: What color is America today?&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href=&#34;http://www-personal.umich.edu/~mejn/election/2008/&#34;&gt;Mark Newman has a collection of 2008 election cartograms&lt;/a&gt; that selectively distort the map to show how the electoral college and county by county variety in political preferences paint a distinctive landscape:&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;http://www-personal.umich.edu/~mejn/election/2008/&#34;&gt;&lt;img  alt=&#34;Mark Newman&#39;s election 2008 cartogram&#34; class=&#34; selected&#34; src=&#34;http://www-personal.umich.edu/~mejn/election/2008/countycartnonlin1024.png&#34; title=&#34;Mark Newman&#39;s election 2008 cartogram&#34;&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;http://www-personal.umich.edu/~mejn/election/2008/faq.html&lt;/p&gt;&lt;p&gt;http://www.npr.org/news/specials/votereport/map.html&lt;/p&gt;&lt;p&gt;http://www.fivethirtyeight.com/2008/11/whistling-past-bubba.html&lt;/p&gt;
-</description>
+      <description>We&#39;ve seen lots of electoral maps, with the US colored various shades of red, blue, or purple. The simplest ones just colorize the map; the most complex distort the map and refine the color space to show various aspects of the population, its voting patterns and changes over time. Jason Kottke has a good collection of 2008 election maps from all over the world, showing mostly the state of real time map software by newspapers, web sites, and television updated during the vote count.</description>
     </item>
     
   </channel>

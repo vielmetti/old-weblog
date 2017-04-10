@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/paul-ford/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Paul Ford on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/paul-ford/</link>
+    <description>Recent content in Paul Ford on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/paul-ford/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2013 14:03:42 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/paul-ford/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Writing - and publishing, early - with LeanPub</title>
@@ -14,20 +17,7 @@
       <pubDate>Mon, 11 Mar 2013 14:03:42 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-11-writing-and-publishing-early-with-leanpub/</guid>
-      <description>&lt;p&gt;I&amp;#39;m working on a book on the Michigan Freedom of Information Act, which is just about half done. You can see a copy on LeanPub at &lt;a href=&#34;http://leanpub.com/michigan-foia&#34; target=&#34;_self&#34;&gt;http://leanpub.com/michigan-foia&lt;/a&gt; . There are some sample chapters to download for free, or you can get the whole thing in its current draft state for a price that you choose. It&amp;#39;s as good a time as any to let people know about it, since this week is Sunshine Week 2013.&lt;/p&gt;
-&lt;p&gt;Every good project deserves some inspiration.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;From Paul Ford, &lt;a href=&#34;http://www.ftrain.com/wwic.html&#34;&gt;The Web Is a Customer Service Medium&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;That&amp;#39;s what I tell my Gutenbourgeois friends, if they&amp;#39;ll listen. I say: Create a service experience around what you publish and sell. Whatever “customer service” means when it comes to books and authors, figure it out and do it. Do it in partnership with your readers. Turn your readers into members. Not visitors, not subscribers; you want members. And then don&amp;#39;t just consult them, but give them tools to consult amongst themselves.&amp;#0160;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;From the &lt;a href=&#34;https://leanpub.com/manifesto&#34;&gt;Lean Publishing manifesto&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-Using the Lean Publishing approach helps you gauge reaction to your book, improve it, and judge whether you have product-market fit before pouring lots of effort into marketing the book.
-&lt;/blockquote&gt;
-&lt;p&gt;And, most pragmatically, from Bill Tozier, who noted that his work-in-progress &amp;quot;&lt;a href=&#34;https://leanpub.com/pragmaticGP&#34; target=&#34;_self&#34;&gt;Answer Factories: The Engineering of Useful Surprises&amp;quot;&lt;/a&gt; already has 44 readers who have paid for the privilege of early access to the draft.&lt;/p&gt;
-&lt;p&gt;I hope, of course, to be done with this project at some point, and to have it be sufficiently tidy and complete and well-edited to deserve being in print and not just a draft. My understanding of the topic expands as I see other people asking questions about FOIA and where I can go back to my manuscript and see if I&amp;#39;ve given them adequate accounts and advice. Perhaps the law changes fast enough, and my understanding of it is thin enough, that I&amp;#39;ll have to keep this a draft for a long time just to understand the various nooks and crannies of the practical use of Freedom of Information Act requests.&lt;/p&gt;
-&lt;p&gt;But in any case I do have a few readers (3 to date; hopefully more to come) and I can contact them directly and I know that the effort is more than just an exercise but really a way to work in partnership with readers to write a better guide.&lt;/p&gt;
-</description>
+      <description>I&amp;#39;m working on a book on the Michigan Freedom of Information Act, which is just about half done. You can see a copy on LeanPub at http://leanpub.com/michigan-foia . There are some sample chapters to download for free, or you can get the whole thing in its current draft state for a price that you choose. It&amp;#39;s as good a time as any to let people know about it, since this week is Sunshine Week 2013.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/john-roos/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>John Roos on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/john-roos/</link>
+    <description>Recent content in John Roos on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/john-roos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2009 23:55:44 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/john-roos/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to make linoleum block prints with the DIY HIPSTER</title>
@@ -14,11 +17,7 @@
       <pubDate>Mon, 27 Apr 2009 23:55:44 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-04-27-how-to-make-linoleum-block-prints-with-the-diy-hipster/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://roosroast.com&#34;&gt;John Roos from roosroast.com&lt;/a&gt; has an excellent short DIYHIPSTER how-to on linoleum block printing.
-&lt;/p&gt;
-&lt;object height=&#34;344&#34; width=&#34;425&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/c4tP4tNdGoc&amp;amp;hl=de&amp;amp;fs=1&#34;&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;true&#34;&gt;&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34;&gt;&lt;embed src=&#34;http://www.youtube.com/v/c4tP4tNdGoc&amp;amp;hl=de&amp;amp;fs=1&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; height=&#34;344&#34; width=&#34;425&#34;&gt;&lt;/object&gt;
-&lt;p&gt;See him in action at the Ann Arbor Farmer&#39;s Market.&lt;/p&gt;
-</description>
+      <description>John Roos from roosroast.com has an excellent short DIYHIPSTER how-to on linoleum block printing.  See him in action at the Ann Arbor Farmer&#39;s Market.</description>
     </item>
     
   </channel>

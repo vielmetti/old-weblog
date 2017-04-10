@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/recipes/bi-bim-bap/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Bi Bim Bap on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/recipes/bi-bim-bap/</link>
+    <description>Recent content in Bi Bim Bap on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/recipes/bi-bim-bap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Nov 2008 22:21:53 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/recipes/bi-bim-bap/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>bi bim bap - the marinade for the vegetables</title>
@@ -14,16 +17,9 @@
       <pubDate>Sun, 30 Nov 2008 22:21:53 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-30-bi-bim-bap-the-marinade-for-the-vegetables/</guid>
-      <description>&lt;p&gt;Marinade for bi bim bap vegetables (carrots and spinach):&lt;br&gt;&lt;br&gt;2 cloves garlic peeled
-&lt;br&gt;2 green onions
-&lt;br&gt;5 tablespoons soy sauce
-&lt;br&gt;2 tablespoons sugar
-&lt;br&gt;2 tablespoons vegetable oil
-&lt;br&gt;1 teaspoon sesame seeds
-&lt;br&gt;1 tablespoon sesame oil
-&lt;br&gt;&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt; teaspoon black pepper&lt;br&gt;&lt;br&gt;originally from Linda Sue Park&amp;rsquo;s Bee-Bim Bap!&lt;br&gt;&lt;br&gt;
-&lt;iframe src=&#34;http://rcm.amazon.com/e/cm?t=superpatron-20&amp;o=1&amp;p=8&amp;l=as1&amp;asins=0547076711&amp;md=10FE9736YVPPT7A0FBG2&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>Marinade for bi bim bap vegetables (carrots and spinach):
+2 cloves garlic peeled 2 green onions 5 tablespoons soy sauce 2 tablespoons sugar 2 tablespoons vegetable oil 1 teaspoon sesame seeds 1 tablespoon sesame oil 1&amp;frasl;8 teaspoon black pepper
+originally from Linda Sue Park&amp;rsquo;s Bee-Bim Bap!</description>
     </item>
     
   </channel>

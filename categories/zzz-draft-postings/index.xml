@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/zzz-draft-postings/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Zzz Draft Postings on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/zzz-draft-postings/</link>
+    <description>Recent content in Zzz Draft Postings on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/zzz-draft-postings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jul 2012 00:56:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/zzz-draft-postings/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>MOOC vs &#34;mook&#34;</title>
@@ -14,8 +17,7 @@
       <pubDate>Wed, 25 Jul 2012 00:56:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-07-25-mooc-vs-mook/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016768ba8e17970b-pi&#34;&gt;&lt;img alt=&#34;Picture 13&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef016768ba8e17970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef016768ba8e17970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 13&#34; /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01774395c7bf970d-pi&#34;&gt;&lt;img alt=&#34;Picture 14&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01774395c7bf970d&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01774395c7bf970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Picture 14&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -24,9 +26,8 @@
       <pubDate>Mon, 10 Oct 2011 11:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-10-10-nobody-can-compete-with-rapid-smart-giving-it-is-a-space-seldom-occupied/</guid>
-      <description>&lt;p&gt;Smart and fast giving and sharing makes a good network.&lt;/p&gt;
-&lt;p&gt;Credit the quote to &lt;a href=&#34;http://twitter.com/kevindoylejones&#34; target=&#34;_self&#34;&gt;Kevin Doyle Jones&lt;/a&gt;, as part of an exchange on Twitter with &lt;a href=&#34;http://vielmetti.typepad.com/rolodex/2011/12/jerry-michalski.html&#34; target=&#34;_self&#34;&gt;Jerry Michalski&lt;/a&gt;, questioning why someone would go to the trouble of putting out a big, interesting, free newsletter and then not expose some of its insights to the network beyond that of its current subscriber base.&lt;/p&gt;
-</description>
+      <description>Smart and fast giving and sharing makes a good network.
+Credit the quote to Kevin Doyle Jones, as part of an exchange on Twitter with Jerry Michalski, questioning why someone would go to the trouble of putting out a big, interesting, free newsletter and then not expose some of its insights to the network beyond that of its current subscriber base.</description>
     </item>
     
   </channel>

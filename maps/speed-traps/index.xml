@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/speed-traps/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Speed Traps on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/speed-traps/</link>
+    <description>Recent content in Speed Traps on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/speed-traps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jun 2008 11:01:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/speed-traps/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Trapster snapshot of speed traps in Ann Arbor (and the rest of the US)</title>
@@ -14,19 +17,7 @@
       <pubDate>Fri, 13 Jun 2008 11:01:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-06-13-trapster-snapsh/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.trapster.com&#34;&gt;&lt;br /&gt;
-&lt;img class=&#34;image-full&#34; alt=&#34;Picture_16&#34; title=&#34;Picture_16&#34; src=&#34;http://vielmetti.typepad.com/photos/uncategorized/2008/06/13/picture_16.png&#34; border=&#34;0&#34;  /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;br /&gt;
-At a previous employer&#39;s previous location, my office was on a street (Depot St) regularly used to speed through town.  Every day people would zoom to and from the hospital, and every day the AAPD would stop some fraction of them to give them tickets.  I was glad for it too - to cross Depot when cars are barreling along at 45 in a 30 zone was not fun.  Slow down already.&lt;br /&gt;
-&lt;/p&gt;&lt;br /&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.trapster.com&#34;&gt;Trapster&lt;/a&gt; is a national database of speed traps.  As a registered user, you contribute locations where police issue a lot of tickets; it gathers them up and maps them and shares them.  There&#39;s a mobile interface for the Symbian series of phones that uses their internal geolocation system to alert you when you&#39;re near one (video below).&lt;/p&gt;&lt;br /&gt;
-&lt;object width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/Qcm6yq68EpY&amp;hl=en&#34;&gt;&lt;/param&gt;&lt;embed src=&#34;http://www.youtube.com/v/Qcm6yq68EpY&amp;hl=en&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;425&#34; height=&#34;344&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;br /&gt;
-&lt;p&gt;&lt;br /&gt;
-Thanks to &lt;a href=&#34;http://del.icio.us/mckartha&#34;&gt;Mohan Kartha&lt;/a&gt; for the heads up.&lt;br /&gt;
-&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>At a previous employer&#39;s previous location, my office was on a street (Depot St) regularly used to speed through town. Every day people would zoom to and from the hospital, and every day the AAPD would stop some fraction of them to give them tickets. I was glad for it too - to cross Depot when cars are barreling along at 45 in a 30 zone was not fun.</description>
     </item>
     
   </channel>

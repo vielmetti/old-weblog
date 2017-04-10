@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/gadgets/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Gadgets on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/gadgets/</link>
+    <description>Recent content in Gadgets on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/gadgets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jul 2014 11:14:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/gadgets/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Acer C720 Chromebook as a Minecraft machine?</title>
@@ -14,27 +17,10 @@
       <pubDate>Tue, 29 Jul 2014 11:14:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-07-29-acer-c720-chromebook-as-a-minecraft-machine/</guid>
-      <description>&lt;p&gt;I&#39;m looking into getting an Acer C720 Chromebook as a next computer.&lt;/p&gt;
-
-&lt;p&gt;Shopping sources:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.google.com/intl/en-US/chrome/devices/acer-c720-chromebook.html#ac-c720&#34;&gt;Google&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/gp/offer-listing/B00FNPD1VW/ref=dp_olp_new?ie=UTF8&amp;amp;condition=new&#34;&gt;via Amazon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.newegg.com/Product/Product.aspx?Item=N82E16834314360&#34;&gt;Newegg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Prices vary; I had seen less than $175, but now (late July 2014) it&#39;s running about $200. &lt;/p&gt;
-
-&lt;p&gt;Of particular interest is the ability of this system to run Linux. Your choices are&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dnschneid/crouton&#34;&gt;Crouton&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://chrubuntu.blogspot.ca/&#34;&gt;Chrubuntu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Of especially particular interest is Minecraft on a Chromebook. Here&#39;s a &lt;A href=&#34;http://doctor-not-magician.blogspot.com/2014/01/minecraft-on-acer-c720-chromebook.html&#34;&gt;walk through of Minecraft on an Acer C720 with Crouton&lt;/a&gt;, which reports that &#34;[f]ull screen with all the graphical options turned up to full, you should see around 35 frames per second rising to 50 when all the chunks have loaded.&#34;&lt;/p&gt;
-</description>
+      <description>I&#39;m looking into getting an Acer C720 Chromebook as a next computer.
+Shopping sources:
+ Google via Amazon Newegg  Prices vary; I had seen less than $175, but now (late July 2014) it&#39;s running about $200. Of particular interest is the ability of this system to run Linux. Your choices are
+ Crouton Chrubuntu  Of especially particular interest is Minecraft on a Chromebook. Here&#39;s a walk through of Minecraft on an Acer C720 with Crouton, which reports that &#34;</description>
     </item>
     
     <item>
@@ -43,10 +29,8 @@
       <pubDate>Fri, 01 Jun 2012 15:30:38 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-06-01-on-bringing-the-laptop-into-the-shop-for-repairs/</guid>
-      <description>&lt;p&gt;My Mac is in the shop. It&amp;#39;s getting a new wifi card, and while they are at it they&amp;#39;ll replace the chipped case. The chip fixing means that labor is free for the wifi fixing so it&amp;#39;s a very reasonable cost.&lt;/p&gt;
-&lt;p&gt;The last time I had any kind of extended computer downtime I remember it being a strain, since I then had so much of my personal computing stuff actually on my computer. Now more than ever that&amp;#39;s not the case, and I get along just fine with occasional logins from library computer systems or even the ultra-basic stripped down version of apps that I get on my not-very-smart Blackberry.&lt;/p&gt;
-&lt;p&gt;At some point, everything that you care enough about is also in the cloud somewhere. That might be for backups, so that if you lose a system you can carry on with minimum restore time. It might be to increase the power of whatever web-enabled terminal you log into, so that whatever public system you connect to has most of your stuff even if that stuff is private. Mostly though things go into the cloud and stay there because all physical media are fragile. The consequences of relying on anything in your own possession - especially something that gets knocked around a bit - are too great, and it&amp;#39;s better to have those things also or primarily somewhere else that feels safe.&lt;/p&gt;
-</description>
+      <description>My Mac is in the shop. It&amp;#39;s getting a new wifi card, and while they are at it they&amp;#39;ll replace the chipped case. The chip fixing means that labor is free for the wifi fixing so it&amp;#39;s a very reasonable cost.
+The last time I had any kind of extended computer downtime I remember it being a strain, since I then had so much of my personal computing stuff actually on my computer.</description>
     </item>
     
     <item>
@@ -55,16 +39,11 @@
       <pubDate>Wed, 07 Jul 2010 23:35:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-07-07-art-on-a-shovel-some-sources-metalworking/</guid>
-      <description>&lt;p&gt;Getting ready for a &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2010/06/art-on-a-shovel-looking-forward-to-february.html&#34;&gt;February art on a shovel project&lt;/a&gt; (&#34;shovel ready!&#34;). Here&#39;s some sources of inspiration.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://art.johntunger.com/2009/04/masks-from-recy.html&#34;&gt;Masks from recycled shovel blades&lt;/a&gt;, John T. Unger.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.callane.com&#34;&gt;Plasma cut steel shovels&lt;/a&gt;, Cal Lane.&lt;/p&gt;
-
-&lt;p&gt;Shovel art, &lt;a href=&#34;http://www.irondesignsandsigns.com/metalart.html&#34;&gt;Texas Lone Star&lt;/a&gt;, Iron Signs and Designs.&lt;/p&gt;
-
-&lt;p&gt;Each of these involve some serious metalworking, generally with round point dirt shovel as the starting point.&lt;/p&gt;
-</description>
+      <description>Getting ready for a February art on a shovel project (&#34;shovel ready!&#34;). Here&#39;s some sources of inspiration.
+Masks from recycled shovel blades, John T. Unger.
+Plasma cut steel shovels, Cal Lane.
+Shovel art, Texas Lone Star, Iron Signs and Designs.
+Each of these involve some serious metalworking, generally with round point dirt shovel as the starting point.</description>
     </item>
     
   </channel>

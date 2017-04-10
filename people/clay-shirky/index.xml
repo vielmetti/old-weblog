@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/clay-shirky/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Clay Shirky on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/clay-shirky/</link>
+    <description>Recent content in Clay Shirky on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/clay-shirky/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2011 22:30:32 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/clay-shirky/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Read this, then stop reading.</title>
@@ -14,13 +17,10 @@
       <pubDate>Thu, 02 Jun 2011 22:30:32 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-02-read-this-then-stop-reading/</guid>
-      <description>&lt;p&gt;I&amp;#39;m noticing a curious pattern in some posts that I read from around the net that cause me to come to a dead stop in what I&amp;#39;m doing and leave the system I&amp;#39;m looking at.&lt;/p&gt;
-&lt;p&gt;Paul Jones&amp;#39;s&amp;#0160;&lt;a href=&#34;http://ibiblio.org/pjones/blog/category/noemail/&#34; target=&#34;_self&#34;&gt;#noemail&lt;/a&gt;&amp;#0160;crusade makes me close my Gmail browser tab.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Even a quick glimpse of &lt;a href=&#34;http://boingboing.net/2010/01/31/clay-shirky-on-infor.html&#34; target=&#34;_self&#34;&gt;Clay Shirky talking about information overload&lt;/a&gt; makes me want to hit the &amp;quot;mark all as read&amp;quot; button in Google Reader.&lt;/p&gt;
-&lt;p&gt;When I read xkcd&amp;#39;s &lt;a href=&#34;http://xkcd.com/862/&#34; target=&#34;_self&#34;&gt;Let Go&lt;/a&gt; cartoon it&amp;#39;s time to turn off the computer.&lt;/p&gt;
-&lt;p&gt;Listening to Le Tigre makes me want to get off the Internet entirely.&lt;/p&gt;
-&lt;p&gt;&lt;iframe frameborder=&#34;0&#34; height=&#34;405&#34; src=&#34;http://www.youtube.com/embed/DUmQf6rIB2w&#34; width=&#34;500&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>I&amp;#39;m noticing a curious pattern in some posts that I read from around the net that cause me to come to a dead stop in what I&amp;#39;m doing and leave the system I&amp;#39;m looking at.
+Paul Jones&amp;#39;s&amp;#0160;#noemail&amp;#0160;crusade makes me close my Gmail browser tab.&amp;#0160;
+Even a quick glimpse of Clay Shirky talking about information overload makes me want to hit the &amp;quot;mark all as read&amp;quot; button in Google Reader.
+When I read xkcd&amp;#39;s Let Go cartoon it&amp;#39;s time to turn off the computer.</description>
     </item>
     
   </channel>

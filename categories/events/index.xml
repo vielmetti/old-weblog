@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/events/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Events on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/events/</link>
+    <description>Recent content in Events on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Sep 2014 17:46:21 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Michigan Green Burial Conference, October 11, 2014</title>
@@ -14,9 +17,7 @@
       <pubDate>Tue, 30 Sep 2014 17:46:21 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-30-michigan-green-burial-conference-october-11-2014/</guid>
-      <description>&lt;p&gt;Please find below a poster for the Michigan Green Burial Conference, to be held Saturday, October 11, 2014 at Matthaei Botanical Gardens in Ann Arbor.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ea9cb7970b-pi&#34;&gt;&lt;img alt=&#34;Michigan-Green-Burial-Conference&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6ea9cb7970b img-responsive&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6ea9cb7970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Michigan-Green-Burial-Conference&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Please find below a poster for the Michigan Green Burial Conference, to be held Saturday, October 11, 2014 at Matthaei Botanical Gardens in Ann Arbor.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;</description>
     </item>
     
     <item>
@@ -25,8 +26,7 @@
       <pubDate>Sat, 13 Sep 2014 22:19:46 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-13-9x-all-hands-active-open-house/</guid>
-      <description>&lt;p&gt;Post the poster! &lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e158762970d-pi&#34;&gt;&lt;img alt=&#34;Openhouse-20140919-e1410474571147&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73e158762970d img-responsive&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73e158762970d-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Openhouse-20140919-e1410474571147&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Post the poster!</description>
     </item>
     
     <item>
@@ -35,18 +35,8 @@
       <pubDate>Sat, 13 Sep 2014 21:44:11 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-13-a-design-for-an-an-ann-arbor-events-channel-a2events-/</guid>
-      <description>&lt;p&gt;Here&#39;s a design for a low overhead way to post about events coming up in Ann Arbor. Follow &lt;a href=&#34;http://twitter.com/a2events&#34;&gt;@a2events on Twitter&lt;/a&gt; if you want to play along.&lt;/p&gt;
-
-&lt;p&gt;The first rule of business is that every event has to have a URL, and the more simple and direct the URL is the more likely it is that it&#39;s authoritative for the event. If an event doesn&#39;t have a URL yet, I&#39;ll blog about it here if I need to post about it.&lt;/p&gt;
-
-&lt;p&gt;The second rule of business is that I&#39;m not keeping a calendar, just a feed, and the feed is not going to be a 100% comprehensive feed; you have to be prepared to get events info from multiple sources and I&#39;m just one of them.&lt;/p&gt;
-
-&lt;p&gt;The third rule of business of course is that if you want to pay for this service we&#39;ll find a way to let you pay, though the specifics are TBD.&lt;/p&gt;
-
-&lt;p&gt;My basic idea for technology is to use a tag on my Pinboard account to feed a specific tag, and to use that tag to feed IFTTT to feed Twitter so that events get pushed out. I&#39;ll probably also use a Node-RED page to help construct something that does the right thing, and there will be a Slack channel on the a2b3 slack to do - something.&lt;/p&gt;
-
-&lt;p&gt;Thanks to Brian Kerr for having the foresight to reserve the name a2events.&lt;/p&gt;
-</description>
+      <description>Here&#39;s a design for a low overhead way to post about events coming up in Ann Arbor. Follow @a2events on Twitter if you want to play along.
+The first rule of business is that every event has to have a URL, and the more simple and direct the URL is the more likely it is that it&#39;s authoritative for the event. If an event doesn&#39;t have a URL yet, I&#39;ll blog about it here if I need to post about it.</description>
     </item>
     
     <item>
@@ -55,24 +45,13 @@
       <pubDate>Sun, 07 Sep 2014 22:03:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-07-7th-annual-lower-burns-park-block-party-sunday-september-28-2014-2p-6p-on-rose-between-golden-and-e-/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6db7392970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6db7392970b img-responsive&#34; style=&#34;width: 402px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2014-09-07 at 9.56.36 PM&#34; title=&#34;Screen shot 2014-09-07 at 9.56.36 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6db7392970b-450wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;What: 7th annual &lt;a href=&#34;http://arborwiki.org/Lower_Burns_Park&#34;&gt;Lower Burns Park&lt;/a&gt; &lt;a href=&#34;http://localwiki.net/ann-arbor/LoBuPa_Block_Party&#34;&gt;Block Party&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;When: Sunday, September 28th 2014 2 pm - 6 pm&lt;/p&gt;
-
-&lt;p&gt;(Rain Date: Sunday, October 5th, 2014)&lt;/p&gt;
-
-&lt;p&gt;Where: Rose Ave. between Golden Ave. and East Park Place.&lt;/p&gt;
-
-&lt;p&gt;Who: You, if you live in Lower Burns Park (E Stadium / State St / Packard / Dewey) or are near enough to appreciate it.&lt;/p&gt;
-
-&lt;p&gt;Why: Who doesn&#39;t like a block party!&lt;/p&gt;
-
-&lt;p&gt;There will be a bounce house there; please chip in a dollar to help out with that.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6db7481970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01b7c6db7481970b img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Lobupa party notice 2014&#34; title=&#34;Lobupa party notice 2014&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01b7c6db7481970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>What: 7th annual Lower Burns Park Block Party
+When: Sunday, September 28th 2014 2 pm - 6 pm
+(Rain Date: Sunday, October 5th, 2014)
+Where: Rose Ave. between Golden Ave. and East Park Place.
+Who: You, if you live in Lower Burns Park (E Stadium / State St / Packard / Dewey) or are near enough to appreciate it.
+Why: Who doesn&#39;t like a block party!
+There will be a bounce house there; please chip in a dollar to help out with that.</description>
     </item>
     
     <item>
@@ -81,20 +60,8 @@
       <pubDate>Sat, 06 Sep 2014 13:59:30 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-06-keeping-up-with-area-events-some-ann-arbor-calendars/</guid>
-      <description>&lt;p&gt;Every Thursday at the a2b3 lunch, we talk about upcoming events for the next week and month and season for the Ann Arbor area. It&#39;s a good way to hear about what&#39;s coming up, and to hear from people who are organizing events in the future who need help now for planning and gaining support.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve been unburdening my inbox of events notices by sending them out to Twitter. It strikes me that I could almost as easily do that here in this weblog, since there&#39;s an &#34;events&#34; category. The question is when you&#39;re trying to empty out an inbox what the quick path to &#34;pass along the news&#34; is, especially when you&#39;re not so well connected to the event that you might not even know enough to get the news promptly when things are cancelled.&lt;/p&gt;
-
-&lt;p&gt;The radio events calendar that I listen to is the WCBN-FM effort which is broadcast about eight times a day. &lt;a href=&#34;http://www.wcbn.org/events&#34;&gt;wcbn.org/events&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The monthly print calendar that&#39;s the easiest to follow is the Ann Arbor Observer calendar, with such a following that its deadline schedule drives booking decisions at venues around town. The online iteration of it lives at &lt;a href=&#34;http://annarborobserver.com&#34;&gt;annarborobserver.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The online calendar that was comprehensive beyond belief came from the Ann Arbor Chronicle, who aggregated online calendars from dozens of venue calendars. The Chronicle is closing shop, and so the long term true home of its calendar may change. &lt;a href=&#34;http://events.annarborchronicle.com/html&#34;&gt;events.annarborchronicle.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve been super surprised at how useful Meetup.com has been to find out about events happening around you, and to publicize upcoming events to people who are interested but who you don&#39;t already know.&lt;/p&gt;
-
-&lt;p&gt;Word of mouth is always the best way to get the word out; you&#39;re welcome to join us for lunch Thursdays. Pay for your own lunch, we have introductions at 12:30 p.m., and events are last on the agenda that tries very hard to end at or about 1:00 p.m. &lt;a href=&#34;http://www.meetup.com/a2b3-lunch&#34;&gt;www.meetup.com/a2b3-lunch&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Every Thursday at the a2b3 lunch, we talk about upcoming events for the next week and month and season for the Ann Arbor area. It&#39;s a good way to hear about what&#39;s coming up, and to hear from people who are organizing events in the future who need help now for planning and gaining support.
+I&#39;ve been unburdening my inbox of events notices by sending them out to Twitter. It strikes me that I could almost as easily do that here in this weblog, since there&#39;s an &#34;</description>
     </item>
     
     <item>
@@ -103,34 +70,26 @@
       <pubDate>Fri, 25 Jul 2014 15:37:54 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-07-25-ann-arbor-dda-operations-committee-meeting-agenda-wednesday-july-30-2014-1100-am-150-s-fifth-ave-ann/</guid>
-      <description>&lt;p style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&lt;br /&gt;Meeting of the DDA Operations Committee&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Wednesday, July 30, 2014 at 11:00 AM&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;strong&gt;DDA Office 150 S. Fifth Ave, Suite 301&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Suggested Agenda&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;strong&gt;&amp;#0160;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;1.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Ed Vielmetti, parking app demonstration&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;2.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Transportation&lt;/p&gt;
-&lt;p&gt;a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Michael Ford AAATA – pedestrian walkway request&lt;/p&gt;
-&lt;p&gt;b.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;WALLY downtown train station location recommendation&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;3.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Parking Operations&lt;/p&gt;
-&lt;p&gt;a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;DDA year to year comparison&lt;/p&gt;
-&lt;p&gt;b.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Art Fair 2014&lt;/p&gt;
-&lt;p&gt;c.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;2014 summer parking structure repair/maintenance details&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;4.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;New Business&lt;/p&gt;
-&lt;p&gt;a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Ann &amp;amp; Ashley commercial space build out analysis&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;5.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Old Business&lt;/p&gt;
-&lt;p&gt;a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Status of ambassador program&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;6.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Construction&lt;/p&gt;
-&lt;p&gt;a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Colliers Realty feedback on draft 4&lt;sup&gt;th&lt;/sup&gt;&amp;#0160;&amp;amp; William commercial build out design and operations financial assumptions&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>Meeting of the DDA Operations Committee
+Wednesday, July 30, 2014 at 11:00 AM
+DDA Office 150 S. Fifth Ave, Suite 301
+Suggested Agenda
+&amp;#0160;
+&amp;#0160;
+&amp;#0160;
+1.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Ed Vielmetti, parking app demonstration
+&amp;#0160;
+2.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Transportation
+a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Michael Ford AAATA – pedestrian walkway request
+b.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;WALLY downtown train station location recommendation
+&amp;#0160;
+3.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Parking Operations
+a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;DDA year to year comparison
+b.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Art Fair 2014
+c.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;2014 summer parking structure repair/maintenance details
+&amp;#0160;
+4.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;New Business
+a.&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;Ann &amp;amp; Ashley commercial space build out analysis&amp;#0160;</description>
     </item>
     
     <item>
@@ -139,23 +98,10 @@
       <pubDate>Fri, 04 Apr 2014 10:53:05 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-04-04-u-of-michigan-to-announce-historic-event-at-michigan-stadium/</guid>
-      <description>&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;BREAKING: Special Event Press Conference today @ Noon (EDT). Historic event to be held at Michigan Stadium. &lt;a href=&#34;https://twitter.com/search?q=%23BigHouse&amp;amp;src=hash&#34;&gt;#BigHouse&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michigan Tix Office (@umichtix) &lt;a href=&#34;https://twitter.com/umichtix/statuses/452084506975952896&#34;&gt;April 4, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;The working assumption is that this is the long-rumored summer soccer game between Manchester United and Real Madrid in August. From &lt;a href=&#34;http://www.crainsdetroit.com/article/20140403/NEWS/140409938/soccer-headed-to-big-house-manchester-united-real-madrid-to-play-in&#34;&gt;Crain&#39;s Detroit&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Global soccer powerhouses Manchester United — wearing its new Chevrolet-sponsored jerseys — and Real Madrid will square off at Michigan Stadium in Ann Arbor at 4 p.m. Aug. 2, two sources with direct knowledge of the situation told Crain’s this week.
-  The University of Michigan has scheduled a press conference for noon Friday to announce the game.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;UPDATE: Confirmed.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/search?q=%23mufc&amp;amp;src=hash&#34;&gt;#mufc&lt;/a&gt; face Real Madrid in the International Champions Cup, presented by &lt;a href=&#34;https://twitter.com/ChevroletFC&#34;&gt;@ChevroletFC&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/search?q=%23mutour&amp;amp;src=hash&#34;&gt;#mutour&lt;/a&gt; &lt;a href=&#34;http://t.co/6bTkIaqdoJ&#34;&gt;http://t.co/6bTkIaqdoJ&lt;/a&gt; &lt;a href=&#34;http://t.co/3DVqUwFD8q&#34;&gt;pic.twitter.com/3DVqUwFD8q&lt;/a&gt;&lt;/p&gt;&amp;mdash; Manchester United (@ManUtd) &lt;a href=&#34;https://twitter.com/ManUtd/statuses/452113689621966848&#34;&gt;April 4, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>BREAKING: Special Event Press Conference today @ Noon (EDT). Historic event to be held at Michigan Stadium. #BigHouse
+&amp;mdash; Michigan Tix Office (@umichtix) April 4, 2014 
+The working assumption is that this is the long-rumored summer soccer game between Manchester United and Real Madrid in August. From Crain&#39;s Detroit:
+ Global soccer powerhouses Manchester United — wearing its new Chevrolet-sponsored jerseys — and Real Madrid will square off at Michigan Stadium in Ann Arbor at 4 p.</description>
     </item>
     
     <item>
@@ -164,42 +110,7 @@
       <pubDate>Wed, 02 Apr 2014 22:37:24 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-04-02-april-2014-web-analytics-wednesday-at-enlighten-a-meeting-non-summary/</guid>
-      <description>&lt;p&gt;We had 11 in attendance for the April 2014 edition of the &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/&#34;&gt;Ann Arbor Web Analytics Wednesday&lt;/a&gt; group, which meets roughly monthly at &lt;a href=&#34;https://www.enlighten.com/&#34;&gt;Enlighten&lt;/a&gt; on the west side of Ann Arbor. This month&#39;s meeting was sponsored by &lt;a href=&#34;http://tealium.com/&#34;&gt;Tealium&lt;/a&gt;, a tag management vendor. Thanks to Chris Grant for being my co-organizer for the event. &lt;/p&gt;
-
-&lt;p&gt;I won&#39;t try to summarize what was said by whom in what order, because discussion went around and around the table a few times. What I will try to capture is some of the topics we talked about, or talked about wanting to talk about more at future meetings. This includes (in alphabetical order)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.businesscatalyst.com/&#34;&gt;Adobe Business Catalyst&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.adobe.com/solutions/digital-analytics.html&#34;&gt;Adobe SiteCatalyst&lt;/a&gt; (formerly Omniture)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.clicktale.com/&#34;&gt;Clicktale&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://clicky.com/100608222&#34;&gt;Clicky&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.crazyegg.com/&#34;&gt;Crazy Egg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Do you give people access to raw data?&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.edwardtufte.com/tufte/&#34;&gt;Edward Tufte&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.google.com/analytics/&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Michael Beasley&#39;s book on analytics, &lt;a href=&#34;http://www.amazon.com/Practical-Web-Analytics-User-Experience/dp/0124046193&#34;&gt;Practical Web Analytics for User Experience&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.mousestats.com/&#34;&gt;Mousestats&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://qualaroo.com/&#34;&gt;Qualaroo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.salesforcemarketingcloud.com/products/social-media-listening/&#34;&gt;Radian6&lt;/a&gt; from Salesforce&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.perceptualedge.com/&#34;&gt;Stephen Few&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tealium.com/&#34;&gt;Tealium&lt;/a&gt; tag management, this month&#39;s sponsor&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wolfram.com/language/&#34;&gt;Wolfram Language&lt;/a&gt;, for linguistic and sentiment analysis&lt;/li&gt;
-&lt;li&gt;analytics to inform application design&lt;/li&gt;
-&lt;li&gt;competitive analysis&lt;/li&gt;
-&lt;li&gt;confetti maps (from &lt;a href=&#34;http://www.crazyegg.com/&#34;&gt;Crazy Egg&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Correlogram&#34;&gt;correlogram&lt;/a&gt; to show what people do on your site&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Heat_map&#34;&gt;heat maps&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;information architecture&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://portfoliostud.io&#34;&gt;portfoliostud.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;social listening&lt;/li&gt;
-&lt;li&gt;stitching of user identity across devices&lt;/li&gt;
-&lt;li&gt;survey tools&lt;/li&gt;
-&lt;li&gt;tag management&lt;/li&gt;
-&lt;li&gt;user experience&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If any of these terms resonate with you, please consider coming to a future &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/&#34;&gt;Ann Arbor Web Analytics Wednesday&lt;/a&gt;! We organize with a &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/&#34;&gt;Meetup group&lt;/a&gt;, or you can go to the &lt;a href=&#34;http://www.webanalyticsdemystified.com/wednesday/&#34;&gt;Web Analytics Wednesday main page&lt;/a&gt; and find future dates.&lt;/p&gt;
-</description>
+      <description>We had 11 in attendance for the April 2014 edition of the Ann Arbor Web Analytics Wednesday group, which meets roughly monthly at Enlighten on the west side of Ann Arbor. This month&#39;s meeting was sponsored by Tealium, a tag management vendor. Thanks to Chris Grant for being my co-organizer for the event. I won&#39;t try to summarize what was said by whom in what order, because discussion went around and around the table a few times.</description>
     </item>
     
     <item>
@@ -208,28 +119,8 @@
       <pubDate>Mon, 24 Mar 2014 22:57:10 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-24-ann-arbor-mini-maker-faire-may-10-2014-washtenaw-community-college/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5118dc189970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a5118dc189970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;AnnArbor_MMF_logos_Wordpress&#34; title=&#34;AnnArbor_MMF_logos_Wordpress&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5118dc189970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Please share this Save the Date with your friends, family, neighbors, and colleagues across the area.&lt;/p&gt;
-
-&lt;p&gt;Now in its sixth year, the Ann Arbor Mini Maker Faire features dozens of makers from across the region and draws over three thousand members of the community for the day’s free events. Metalworkers, inventors, papermakers, artists, students, robot designers, enthusiasts and professional alike teach the public how they make their work. &lt;/p&gt;
-
-&lt;p&gt;Many participants come away with more than just inspiration, but new skills they can use to fuel their own creations and lasting connections to other makers and resources in the region.&lt;/p&gt;
-
-&lt;p&gt;May 10, 2014 marks the second time the Ann Arbor Mini Maker Faire will be hosted by Washtenaw Community College. This free, all-ages event features community members of all types who come together to display their ideas, projects, and inventions. &lt;/p&gt;
-
-&lt;p&gt;We will be seeking applications from people and groups with engaging, inspiring, and just plain cool projects.  Projects should have a focus on the process of creating, designing, and making - not just displaying a final product.  Makers of all ages and experience levels are encouraged to submit applications. We will begin seeking applications for makers in the next few weeks. &lt;/p&gt;
-
-&lt;p&gt;More Info&lt;/p&gt;
-
-&lt;p&gt;Check out our website (&lt;a href=&#34;http://www.a2makerfaire.com&#34;&gt;http://www.a2makerfaire.com&lt;/a&gt;) or our &lt;a href=&#34;https://www.facebook.com/pages/Ann-Arbor-Mini-Maker-Faire/185228104678&#34;&gt;Facebook page&lt;/a&gt; for more information, applications, and dates.&lt;/p&gt;
-
-&lt;p&gt;Organized by members of the Ann Arbor tech and arts communities such as a2geeks (&lt;a href=&#34;http://www.a2geeks.com&#34;&gt;http://www.a2geeks.com&lt;/a&gt;) and GO-Tech (&lt;a href=&#34;http://tech.groups.yahoo.com/group/notbago/&#34;&gt;http://tech.groups.yahoo.com/group/notbago/&lt;/a&gt;), the Ann Arbor Mini Maker Faire is a small, local version of the huge Bay-area Maker Faire, and is one of many faires across the country that happen year around. &lt;/p&gt;
-
-&lt;p&gt;If you have any questions about participating in or attending the Mini Maker Faire, please visit &lt;a href=&#34;http://www.a2makerfaire.com&#34;&gt;http://www.a2makerfaire.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;(Needs point of contact for questions via email)&lt;/p&gt;
-</description>
+      <description>Please share this Save the Date with your friends, family, neighbors, and colleagues across the area.
+Now in its sixth year, the Ann Arbor Mini Maker Faire features dozens of makers from across the region and draws over three thousand members of the community for the day’s free events. Metalworkers, inventors, papermakers, artists, students, robot designers, enthusiasts and professional alike teach the public how they make their work. Many participants come away with more than just inspiration, but new skills they can use to fuel their own creations and lasting connections to other makers and resources in the region.</description>
     </item>
     
     <item>
@@ -238,18 +129,7 @@
       <pubDate>Mon, 10 Mar 2014 11:36:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-10-for-yet-another-year-im-not-at-sxsw/</guid>
-      <description>&lt;p&gt;SXSW is &#34;spring break for geeks&#34;. Every year the nerd bird flies hundreds of people from San Francisco to Austin (and to be fair other airplanes fly other people from other places to Austin). There&#39;s a good solid week of product demos, parties, music, film, etc. &lt;/p&gt;
-
-&lt;p&gt;It sounds like fun, and I&#39;ve never gone. I&#39;m wondering what my alternate history would have been if I would have been a regular there - who would I know that I don&#39;t know now, what connections I&#39;d make, etc. &lt;/p&gt;
-
-&lt;p&gt;There are people who seem to exist solely to go to conferences. I&#39;m not one of them. My peak conference-going era was that of Usenix annual conferences and occasional NSF workshops around the NSFnet. It&#39;s fun, but exhausting, and it&#39;s hard to square up being out and about with the simple requirements of taking care of family at home.&lt;/p&gt;
-
-&lt;p&gt;So enjoy SXSW 2014! Twitter all about it! Tell us what interesting new companies are going to have a breakout moment (or not), and save a seat for me next year (which I probably won&#39;t go to). I&#39;m reminded that I didn&#39;t go in 2012 either.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;if you&amp;#39;re not at &lt;a href=&#34;https://twitter.com/search?q=%23sxsw&amp;amp;src=hash&#34;&gt;#sxsw&lt;/a&gt; let me summarize: utilikilt, ukulele, startup, kickball cancelled by rain, barbeque. &lt;a href=&#34;https://twitter.com/search?q=%23notatsxsw&amp;amp;src=hash&#34;&gt;#notatsxsw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/statuses/178887130687348736&#34;&gt;March 11, 2012&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>SXSW is &#34;spring break for geeks&#34;. Every year the nerd bird flies hundreds of people from San Francisco to Austin (and to be fair other airplanes fly other people from other places to Austin). There&#39;s a good solid week of product demos, parties, music, film, etc. It sounds like fun, and I&#39;ve never gone. I&#39;m wondering what my alternate history would have been if I would have been a regular there - who would I know that I don&#39;t know now, what connections I&#39;d make, etc.</description>
     </item>
     
     <item>
@@ -258,10 +138,7 @@
       <pubDate>Thu, 05 Sep 2013 11:02:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-05-homegrown-festival-saturday-september-7-2013-6p-10p-at-ann-arbor-farmers-market/</guid>
-      <description>&lt;p&gt;Here&#39;s the poster! More details about the program at the &lt;a href=&#34;http://www.homegrownfestival.org&#34;&gt;HomeGrown Festival&lt;/a&gt; home page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff3473d0970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019aff3473d0970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Homegrown&#34; title=&#34;Homegrown&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff3473d0970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>Here&#39;s the poster! More details about the program at the HomeGrown Festival home page.</description>
     </item>
     
     <item>
@@ -270,10 +147,7 @@
       <pubDate>Thu, 29 Aug 2013 23:58:43 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-29-largebeat-art-and-music-benefit-fundraiser-for-james-largebeat-gertz-who-is-fighting-lymphoma-weds-s/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://www.facebook.com/events/184675071710450/&#34;&gt;Largebeat Art and Music Benefit&lt;/a&gt; is a fundraiser to cover the medical expenses of James &lt;a href=&#34;http://arborwiki.org/Largebeat&#34;&gt;Largebeat&lt;/a&gt; Gertz who is fighting lymphoma. Wednesday September 4, 2013 at Arbor Brewing Company, doors open at 8:00 p.m. The poster is below!&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff15506d970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019aff15506d970c&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Largebeat-benefit&#34; title=&#34;Largebeat-benefit&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff15506d970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>The Largebeat Art and Music Benefit is a fundraiser to cover the medical expenses of James Largebeat Gertz who is fighting lymphoma. Wednesday September 4, 2013 at Arbor Brewing Company, doors open at 8:00 p.m. The poster is below!</description>
     </item>
     
     <item>
@@ -282,15 +156,9 @@
       <pubDate>Mon, 08 Jul 2013 15:13:14 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-07-08-noam-chomsky-corporatization-of-the-university-july-12-2013-at-rackham-auditorium-university-of-mich/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Noam Chomsky, an American linguist, philosopher, cognitive scientist, logician, historian, political critic, and activist, will be speaking about the Corporatization of the University for an hour on July 12th. &amp;nbsp;There will also be a question and answer session.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Tickets are free to GEO/LEO members and to AAUP members. General admission is $5. For tickets see &lt;a href=&#34;http://geochomsky-estw.eventbrite.com/&#34; target=&#34;_self&#34;&gt;Eventbrite&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;
-This event is co-sponsored by: American Association of University Professors-American Federation of Teachers Local 6075, American Federation of Teachers-Michigan, Coalition for Tuition Equality, Eastern Michigan University Federation of Teachers, Lecturers&amp;rsquo; Employee Organization, 2013 Linguistics Institute of the Linguistic Society of America, UM Philosophy Department, and the Washtenaw Community Action Team.&lt;/p&gt;
-&lt;p&gt;Chomsky spoke on the topic of &amp;ldquo;Academic Freedom and the Corporatization of Universities&amp;rdquo; at the U of Toronto Scarborough in 2011; here&amp;rsquo;s a 90 minute speech. I don&amp;rsquo;t expect that this event will be a repeat.&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/2HxRUc7BpUI?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;The track &amp;lsquo;Noam Chomsky&amp;rsquo; from the album &amp;lsquo;Trouble down south&amp;rsquo; by The Horsies, on Austin Throwdown Records.&lt;/p&gt;
-&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/-KnKTmqS6Sc?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>Noam Chomsky, an American linguist, philosopher, cognitive scientist, logician, historian, political critic, and activist, will be speaking about the Corporatization of the University for an hour on July 12th. &amp;nbsp;There will also be a question and answer session.&amp;nbsp;
+Tickets are free to GEO/LEO members and to AAUP members. General admission is $5. For tickets see Eventbrite.
+ This event is co-sponsored by: American Association of University Professors-American Federation of Teachers Local 6075, American Federation of Teachers-Michigan, Coalition for Tuition Equality, Eastern Michigan University Federation of Teachers, Lecturers&amp;rsquo; Employee Organization, 2013 Linguistics Institute of the Linguistic Society of America, UM Philosophy Department, and the Washtenaw Community Action Team.</description>
     </item>
     
     <item>
@@ -299,13 +167,9 @@ This event is co-sponsored by: American Association of University Professors-Ame
       <pubDate>Tue, 07 May 2013 21:41:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-07-a2geeks-2013-annual-meeting-thursday-may-16-2013-530-pm-at-ann-arbor-spark/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/events/519632611427608/&#34; target=&#34;_self&#34;&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901beb0df5970b-pi&#34;&gt;&lt;img alt=&#34;Jpeg&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901beb0df5970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901beb0df5970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Jpeg&#34; /&gt;&lt;/a&gt;&lt;br /&gt;From the Facebook event announcement:&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;a2geeks&amp;#39; third annual meeting is a gathering-of-the-geeks - inventors and innovators, makers and hackers, students and grandparents, town and gown. This event will also kick-off the A2Geeks Civic Apps Contest. Food and fun galore.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The event starts at 5:30 p.m. I&amp;#39;ll be there pitching the Civic Apps contest, which I&amp;#39;ve been working on for a while now to organize. See you there!&lt;/p&gt;
-</description>
+      <description>From the Facebook event announcement:
+ a2geeks&amp;#39; third annual meeting is a gathering-of-the-geeks - inventors and innovators, makers and hackers, students and grandparents, town and gown. This event will also kick-off the A2Geeks Civic Apps Contest. Food and fun galore.
+ The event starts at 5:30 p.m. I&amp;#39;ll be there pitching the Civic Apps contest, which I&amp;#39;ve been working on for a while now to organize. See you there!</description>
     </item>
     
     <item>
@@ -314,17 +178,401 @@ This event is co-sponsored by: American Association of University Professors-Ame
       <pubDate>Mon, 15 Apr 2013 09:59:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-15-ann-arbor-nerd-nite-wednesday-april-17-2013/</guid>
-      <description>&lt;p&gt;&lt;p&gt;Ann Arbor&amp;#39;s monthly Nerd Nite is coming Wednesday, April 17; doors open at 6:30pm for a 7:00pm event. Here&amp;#39;s a bit from the &lt;a href=&#34;http://annarbor.nerdnite.com&#34; target=&#34;_self&#34;&gt;Ann Arbor Nerd Nite web site&lt;/a&gt;&amp;#0160;which also has more in the way of details about the speakers and the format.&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&#34;http://annarbor.nerdnite.com/2013/04/05/wham-w00t-wednesday/&#34; rel=&#34;bookmark&#34; title=&#34;Permanent Link to Wham! W00t! Wednesday!&#34;&gt;Wham! W00t! Wednesday!&lt;/a&gt;&lt;/h2&gt;
-&lt;div&gt;
-&lt;p&gt;What up, A2nerds? We’re mixing things up a bit this month by bringing the nerdery to Wednesday. For those of you that are new to the fold,&amp;#0160;&lt;a href=&#34;http://annarbor.nerdnite.com/&#34;&gt;Nerd Nite&lt;/a&gt;&amp;#0160;is a monthly social event where nerds of all disciplines give 18-21 minute funny and informative talks while the audience drinks along and asks questions. We’ve heard&amp;#0160;&lt;a href=&#34;http://www.facebook.com/nerdniteannarbor&#34;&gt;good things&lt;/a&gt;&amp;#0160;about this shindig. So, what will we be learning about this time?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;W is for Water:&lt;/strong&gt;&amp;#0160;David Trossman will channel his inner Steve Zissou and guide us through Voyages of the Neo-Voyeurs: How They Observe Motion in the Ocean.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;W is for Writing:&lt;/strong&gt;&amp;#0160;Amy Wilson&amp;#0160;would Do Anything for Love and she’ll explain to us Why, in fact, Good Pop Music is Good Writing.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;W is for Whiskey:&lt;/strong&gt;&amp;#0160;Michelle Kydd, in Eau Whiskey, will help us see that whiskey isn’t just for drinking, but for smelling, too.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt;&amp;#0160;Wednesday, April 17 Doors at 6:30 Event at 7&lt;br /&gt;&lt;strong&gt;Where:&lt;/strong&gt;&amp;#0160;The Last Word,&amp;#0160;&lt;a href=&#34;https://maps.google.com/maps?q=301+W+Huron+St,+Ann+Arbor,+MI&amp;amp;hl=en&amp;amp;sll=45.00109,-86.270553&amp;amp;sspn=7.814605,19.709473&amp;amp;oq=301&amp;amp;hnear=301+W+Huron+St,+Ann+Arbor,+Washtenaw,+Michigan+48103&amp;amp;t=m&amp;amp;z=16&#34; target=&#34;_blank&#34; title=&#34;Map of 301 W. Huron St, Ann Arbor, MI&#34;&gt;301 W. Huron St.&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Wage:&lt;/strong&gt;&amp;#0160;$5&amp;#0160;&lt;a href=&#34;http://bit.ly/17hm4K8&#34; target=&#34;_blank&#34; title=&#34;Buy Tickets to Nerd Nite Ann Arbor&#34;&gt;Buy online&lt;/a&gt;! or at the door (cash/credit)&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Ann Arbor&amp;#39;s monthly Nerd Nite is coming Wednesday, April 17; doors open at 6:30pm for a 7:00pm event. Here&amp;#39;s a bit from the Ann Arbor Nerd Nite web site&amp;#0160;which also has more in the way of details about the speakers and the format.
+Wham! W00t! Wednesday!  What up, A2nerds? We’re mixing things up a bit this month by bringing the nerdery to Wednesday. For those of you that are new to the fold,&amp;#0160;Nerd Nite&amp;#0160;is a monthly social event where nerds of all disciplines give 18-21 minute funny and informative talks while the audience drinks along and asks questions.</description>
+    </item>
+    
+    <item>
+      <title>National Healthcare Decisions Day is April 16, 2013</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-13-national-healthcare-decisions-day-is-april-16-2013/</link>
+      <pubDate>Sat, 13 Apr 2013 21:30:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-13-national-healthcare-decisions-day-is-april-16-2013/</guid>
+      <description>Thanks to Merilynne Rush for notice of this event.
+National Healthcare Decisions Day is April 16.
+Join with other Americans across the country completing Advance Directives documents at an Advanced Directives Party at the Center for the Childbearing Year, 722 Brooks St., Ann Arbor  6:30 Drinks and hors d’oeuvres
+7:00 Presentation and Q &amp;amp; A
+8:00 Small Group discussion and filling out documents
+ Cost: $15 per person or $20 per family</description>
+    </item>
+    
+    <item>
+      <title>Michigan Football spring game 2013: parking restrictions in effect</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-12-michigan-football-spring-game-2013-parking-restrictions-in-effect/</link>
+      <pubDate>Fri, 12 Apr 2013 19:00:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-12-michigan-football-spring-game-2013-parking-restrictions-in-effect/</guid>
+      <description>Michigan Football has its spring football game on Saturday, April 13, 2013. The following map shows restricted parking areas near the stadium for the event. Move your car - or the city will move it for you.</description>
+    </item>
+    
+    <item>
+      <title>Yuri&#39;s Night in Ann Arbor, Friday April 12, 2013</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-11-yuris-night-in-ann-arbor-friday-april-12-2013/</link>
+      <pubDate>Thu, 11 Apr 2013 14:35:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-11-yuris-night-in-ann-arbor-friday-april-12-2013/</guid>
+      <description>From the a2geeks mailing list - added links are mine.
+Friday April 12th is&amp;#0160;Yuri&amp;#39;s Night&amp;#0160;- celebrating spaceflight on the anniversary of&amp;#0160;Yuri Gagarin&amp;#39;s&amp;#0160;flight in 1961, and the first space shuttle flight in 1981. The&amp;#0160;Ann Arbor District Library&amp;#0160;is bringing laptops running&amp;#0160;Kerbal Space Program&amp;#0160;(an awesomely fun space exploration sandbox game) to&amp;#0160;The Bar at 327 Braun Court. Come celebrate space exploration!</description>
+    </item>
+    
+    <item>
+      <title>Penny Stamps: Arduino creator Massimo Banzi, “Opensourcing Imagination,” Thursday, April 11, 2013 at Michigan Theater</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-10-penny-stamps-arduino-creator-massimo-banzi-opensourcing-imagination-thursday-april-11-2013-at-michig/</link>
+      <pubDate>Wed, 10 Apr 2013 11:04:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-10-penny-stamps-arduino-creator-massimo-banzi-opensourcing-imagination-thursday-april-11-2013-at-michig/</guid>
+      <description>From a press release from ORCI; added hyperlinks are mine.
+Posted on&amp;#0160;April 9, 2013&amp;#0160;by&amp;#0160;Dan Meisler  What:&amp;#0160;Penny Stamps College of Art and Design Distinguished Speaker Series featuring Massimo Banzi
+When:&amp;#0160;Thursday, April 11, 5:10 p.m.
+Where:&amp;#0160;Michigan Theater, 603 E. Liberty, Ann Arbor
+Cost: Free
+Interaction designer Massimo Banzi&amp;#0160;(@mbanzi) helped invent the Arduino, a tiny, easy-to-use open-source microcontroller that has inspired people around the world to make the coolest things they can imagine.</description>
+    </item>
+    
+    <item>
+      <title>Beer with Bloggers, organized by Mark Maynard. Corner Brewery, Ypsilanti, Tuesday April 9 2013 7-9pm</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-06-beer-with-bloggers-organized-by-mark-maynard-corner-brewery-ypsilanti-tuesday-april-9-2013-7-9pm/</link>
+      <pubDate>Sat, 06 Apr 2013 13:10:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-06-beer-with-bloggers-organized-by-mark-maynard-corner-brewery-ypsilanti-tuesday-april-9-2013-7-9pm/</guid>
+      <description>I&amp;#39;m planning to go to Beer with Bloggers, a get-together organized by Mark Maynard.
+ An event for Michigan bloggers of all stripes, and the people who love them... No formal agenda. Just lots of talking over beer about blogs, politics, food, culture and the state of independent media.
+ Hope to see you there!</description>
+    </item>
+    
+    <item>
+      <title>April 4-5, 2013: Visual Culture and Archives symposium hosted by the Bentley Historical Library at Rackham Amphitheature</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-03-april-4-5-2013-visual-culture-and-archives-symposium-hosted-by-the-bentley-historical-library-at-rac/</link>
+      <pubDate>Wed, 03 Apr 2013 08:12:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-03-april-4-5-2013-visual-culture-and-archives-symposium-hosted-by-the-bentley-historical-library-at-rac/</guid>
+      <description>The Bentley Historical Library is hosting a symposium on Visual Culture and Archives at Rackham Amphitheatre &amp;#0160;on the University of Michigan Central Campus on April 4-5. The event will be live tweeted with the hash tag #bhlvisual, and there&amp;#39;s live streaming of the talks. See the event home page for details.
+ 
+&amp;#0160;</description>
+    </item>
+    
+    <item>
+      <title>Mark Frauenfelder, &#34;Making Makers&#34;, April 5, 2013 at Chesebrough Auditorium, U of Michigan North Campus</title>
+      <link>http://vielmetti.github.io/post/2013/2013-04-02-mark-frauenfelder-making-makers-april-5-2013-at-chesebrough-auditorium-u-of-michigan-north-campus/</link>
+      <pubDate>Tue, 02 Apr 2013 16:38:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-04-02-mark-frauenfelder-making-makers-april-5-2013-at-chesebrough-auditorium-u-of-michigan-north-campus/</guid>
+      <description>As originally noted by Dale Grover to the GO-Tech mailing list:
+Mark Frauenfelder, editor-in-chief of Make Magazine and co-editor of the blog Boing Boing, will be giving a lecture &amp;quot;Making Makers&amp;quot; this Friday, April 5, 6-7:30 pm at the Chesebrough Auditorium, 220 Chrysler Center, 2121 Bonisteel Blvd, Ann Arbor MI 48109
+ (Map:&amp;#0160;http://www.engin.umich.edu/facilities/maps/chrysler.html)
+Free, open to public. Plan ahead for where you want to park; a number of lots are free parking after 5:00 pm.</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Spring CSA (Community Supported Agriculture) Fair, Sunday, March 24, 2013 at Pittsfield Grange</title>
+      <link>http://vielmetti.github.io/post/2013/2013-03-18-ann-arbor-spring-csa-community-supported-agriculture-fair-sunday-march-24-2013-at-pittsfield-grange/</link>
+      <pubDate>Mon, 18 Mar 2013 10:36:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-03-18-ann-arbor-spring-csa-community-supported-agriculture-fair-sunday-march-24-2013-at-pittsfield-grange/</guid>
+      <description>Kim Bayer asked me to pass this event along, which sounds like a great time if you are considering getting a CSA farm share for 2013 in the Ann Arbor area.
+---------------------------------
+Greetings
+Slow Food Huron Valley invites you to the first annual CSA Fair on Sunday, March 24, 2013 from 2-4pm at the Pittsfield Grange. It is free to attend, and more than 20 CSAs will be represented. Meet CSA farmers, find out which option works for you and sign up for the perfect CSA match - whether it&amp;#39;s vegetables, humanely raised meat, whole grains, prepared meals, frozen fruits and vegetables, and more!</description>
+    </item>
+    
+    <item>
+      <title>Jon Udell, &#34;Why Johnny Can&#39;t Syndicate&#34;, Friday January 18 2013, noon to 1:00 p.m., University of Michigan School of Information</title>
+      <link>http://vielmetti.github.io/post/2013/2013-01-17-jon-udell-why-johnny-cant-syndicate-friday-january-18-2013-umsi-umich-school-infomration/</link>
+      <pubDate>Thu, 17 Jan 2013 18:20:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2013/2013-01-17-jon-udell-why-johnny-cant-syndicate-friday-january-18-2013-umsi-umich-school-infomration/</guid>
+      <description>Copied from the event announcement:  Date and time:&amp;#0160; &amp;#0160;01/18/2013 -&amp;#0160;12:00pm&amp;#0160;-&amp;#0160;1:00pm     Location:&amp;#0160; &amp;#0160;Ehrlicher Room, 3100 North Quad      Speaker:&amp;#0160; &amp;#0160;Jon Udell      Sponsor:&amp;#0160; &amp;#0160;Yahoo, School of Information   In this lecture on &amp;quot;Why Johnny Can&amp;#39;t Syndicate,&amp;quot; speaker Jon Udell will review a case study — conducted in Ann Arbor and elsewhere — that uses the syndication of public calendars to explore what people do and don&amp;#39;t understand about the Web&amp;#39;s core principles, how we can enlarge that understanding, and why it matters that we do.</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Death Cafe series starts Saturday, November 17, 2012, 10:00 a.m.  at Eastern Accents</title>
+      <link>http://vielmetti.github.io/post/2012/2012-11-13-ann-arbor-death-cafe-series-starts-saturday-november-17-2012-1000-am-at-eastern-accents/</link>
+      <pubDate>Tue, 13 Nov 2012 14:03:53 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-11-13-ann-arbor-death-cafe-series-starts-saturday-november-17-2012-1000-am-at-eastern-accents/</guid>
+      <description>A Death Cafe is a safe place where people get together to talk about death and have tea and delicious cake. The idea originated in Switzerland as the &amp;quot;cafe mortel&amp;quot;, is organized from the UK, and has spread to France, Australia and the US. Events are low key, held in public places, and are safe and informal.&amp;#0160;
+The Ann Arbor Death Cafe is the first of these events to be held in Michigan.</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor District Library to circulate electronic music tools; Moog Foundation event August 1, 2012</title>
+      <link>http://vielmetti.github.io/post/2012/2012-07-30-ann-arbor-district-library-to-circulate-electronic-music-tools-moog-foundation-event-august-1-2012/</link>
+      <pubDate>Mon, 30 Jul 2012 10:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-07-30-ann-arbor-district-library-to-circulate-electronic-music-tools-moog-foundation-event-august-1-2012/</guid>
+      <description>Thanks to Eli Neiburger for the heads up for this event -&amp;#0160;
+The Ann Arbor District Library is launching a new circulating collection of&amp;#0160;electronic music tools, and they are brining &amp;quot;Dr. Bob&amp;#39;s Sound School&amp;quot;, a&amp;#0160;program of the Robert Moog Foundation, to AADL this Wednesday August 1, 2012.&amp;#0160;It&amp;#39;s an introduction to the principles of electronic sound synthesis,&amp;#0160;a little history of Moog, and a chance to get your hands on some&amp;#0160;seriously cool and unusual music tools.</description>
+    </item>
+    
+    <item>
+      <title>Transit of Venus: viewing opportunities near Ann Arbor on June 5, 2012</title>
+      <link>http://vielmetti.github.io/post/2012/2012-06-05-transit-of-venus-viewing-opportunities-near-ann-arbor-on-june-5-2012/</link>
+      <pubDate>Tue, 05 Jun 2012 12:08:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-06-05-transit-of-venus-viewing-opportunities-near-ann-arbor-on-june-5-2012/</guid>
+      <description>Some notes for this evening&amp;#39;s transit of Venus across the Sun.
+University Lowbrow Astronomers has a page full of Venus transit information for Ann Arbor area locals, including viewing parties at local observatories and at the Traverwood Library. The Great Lakes Association of Astronomy Clubs has a similar list of Venus transit viewing sites statewide if you want to meet up with others while watching.
+ Depending on your location, the 2012 transit will take place either June 5 or June 6.</description>
+    </item>
+    
+    <item>
+      <title>Ignite 6 Ann Arbor is Sunday, November 6, 2011!</title>
+      <link>http://vielmetti.github.io/post/2011/2011-11-03-ignite-6-ann-arbor-is-sunday-november-6-2011/</link>
+      <pubDate>Thu, 03 Nov 2011 23:12:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-11-03-ignite-6-ann-arbor-is-sunday-november-6-2011/</guid>
+      <description>Flier below. Details at the Ignite Ann Arbor site, RSVP at Eventbrite. Ignite Ann Arbor 6 will be held at Blau Auditorium, 701 Tappan Street, at 7pm on Sunday November 6th.</description>
+    </item>
+    
+    <item>
+      <title>Emancipation Proclamation at The Henry Ford, June 20-22 2011, 36 hours only</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-16-henry-ford-emancipation-proclamation/</link>
+      <pubDate>Thu, 16 Jun 2011 10:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-16-henry-ford-emancipation-proclamation/</guid>
+      <description>The Henry Ford has a special 36 hour showing of the original copy of the Emancipation Proclamation on loan from the National Archives, starting June 20, 2011 at 6:00 p.m. and continuing until June 22, 2011 at 6:00 a.m.&amp;#0160;
+The original document will&amp;#0160;only be available to the public for a limited time&amp;#0160;beginning the evening of Monday, June 20.&amp;#0160; Following a short opening ceremony, the document will be on display around-the-clock, straight through early Wednesday morning, June 22, when it will return to Washington DC.</description>
+    </item>
+    
+    <item>
+      <title>West Park grand opening, June 19 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-14-west-park-grand-opening-june-19-2011/</link>
+      <pubDate>Tue, 14 Jun 2011 16:02:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-14-west-park-grand-opening-june-19-2011/</guid>
+      <description>More Father&amp;#39;s Day events! West Park had a major construction project over the last year, and it&amp;#39;s now being unveiled complete with a grand ribbon cutting and the unveiling of the sculpture in the park.
+If you were at West Park during the recent monsoon rains you&amp;#39;ll appreciate that quite a bit of work went into stormwater handling, with very visible results.
+ </description>
+    </item>
+    
+    <item>
+      <title>Tour de Kids bicycle race, Sunday June 19, 2011, South U and East U in Ann Arbor</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-14-2011-tour-de-kids/</link>
+      <pubDate>Tue, 14 Jun 2011 15:49:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-14-2011-tour-de-kids/</guid>
+      <description>The Tour de Kids is an annual bicycle race for kids 3-12 held on South University on Father&amp;#39;s Day. This year it&amp;#39;s June 19. The poster and race map is below; details including registration information at www.tourdekids.org. Here&amp;#39;s a chance to run a loop around the Diag!
+Sponsors include St. Joe&amp;#39;s, IHA, Ann Arbor Bicycle Touring Society, and Wheels in Motion.
+ The cost is $10 for an individual and $20 for a family (up to 5 kids).</description>
+    </item>
+    
+    <item>
+      <title>Jerzy Drozd, Write With Images course at UMMA, June 11, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-08-jerzy-drozd-write-with-images-course-at-umma-june-11-2011/</link>
+      <pubDate>Wed, 08 Jun 2011 09:13:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-08-jerzy-drozd-write-with-images-course-at-umma-june-11-2011/</guid>
+      <description>This was such a great poster I had to put it up - register for the Write With Images class at the Ann Arbor Art Center.
+ </description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Mini Maker Faire 2011, Saturday June 4</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-29-ann-arbor-mini-maker-faire-2011-saturday-june-4/</link>
+      <pubDate>Sun, 29 May 2011 10:33:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-29-ann-arbor-mini-maker-faire-2011-saturday-june-4/</guid>
+      <description>Here&amp;#39;s the event poster; the web site is&amp;#0160;www.a2makerfaire.com/2011/&amp;#0160;Hope to see you there.
+ </description>
+    </item>
+    
+    <item>
+      <title>Kids Read Comics, Chelsea District Library, June 18-19, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-05-27-kids-read-comics-chelsea-district-library-june-18-19-2011/</link>
+      <pubDate>Fri, 27 May 2011 22:16:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-05-27-kids-read-comics-chelsea-district-library-june-18-19-2011/</guid>
+      <description>Here&amp;#39;s the poster for the Kids Read Comics&amp;#0160;event in Chelsea Michigan, June 18-19, 2011. More information, and printable posters for you to put up yourself in full-color glory, at kidsreadcomics.org . Organized by&amp;#0160;Edith Burney, this event is brought to you by the Chelsea District Library and is promised to take over all of historic downtown Chelsea with activities for kids and teens.&amp;#0160;
+As the event gets closer, follow @krcomics on Twitter for details.</description>
+    </item>
+    
+    <item>
+      <title>University of Michigan Men&#39;s Glee Club, 151st Annual Spring Concert, April 9, 2011, 8:00 p.m., Hill Auditorium with The Friars</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-31-ummgc-spring-151/</link>
+      <pubDate>Thu, 31 Mar 2011 07:17:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-31-ummgc-spring-151/</guid>
+      <description>Tickets are available now for the 151st Annual Spring Concert of the University of Michigan Men&amp;#39;s Glee Club, to be held at Hill Auditorium in Ann Arbor on April 9 at 8:00 p.m. Tickets are $18 and $15, $5 for students (general admission).
+For more information: http://www.ummgc.org.
+Edward Vielmetti knows the words to many obscure Michigan songs.</description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Greenbelt Commission, Land Acquisition Committee, meeting of April 5, 2010 cancelled</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-30-greenbelt-land-april-5-cancel/</link>
+      <pubDate>Wed, 30 Mar 2011 22:30:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-30-greenbelt-land-april-5-cancel/</guid>
+      <description>For more details on the Ann Arbor Greenbelt Program, see the City of Ann Arbor web page:&amp;#0160;http://www.a2gov.org/greenbelt/Pages/greenbelthome.aspx
+ Edward Vielmetti is a founder and charter member of Morels Unlimited, an unincorporated association dedicated to the preservation of habitat for morel mushrooms in Michigan and throughout the world.</description>
+    </item>
+    
+    <item>
+      <title>North Quad Community Open House, Thursday March 31, 2011, 3p-6p</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-30-north-quad-community-open-house/</link>
+      <pubDate>Wed, 30 Mar 2011 22:18:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-30-north-quad-community-open-house/</guid>
+      <description>From the news release:
+ This fall, students moved into the first U-M residence hall to open in more than 40 years. Throughout the first semester, the academic programs that are part of this new community moved in. Today, in addition to 450 residents, North Quad is home to the School of Information, the LSA Departments of Screen Arts and Cultures and Communication Studies, the Sweetland Center for Writing, the Global Scholars Program, the Language Resource Center and the Max Kade House.</description>
+    </item>
+    
+    <item>
+      <title>Mark Segal, National Security Agency, 3/30/2011, noon, at University of Michigan School of Information</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-30-mark-segal-nsa-umich-si-lunch/</link>
+      <pubDate>Wed, 30 Mar 2011 08:09:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-30-mark-segal-nsa-umich-si-lunch/</guid>
+      <description>Open to the public, lunch provided. From the news release:
+ Mark E. Segal, deputy director, Laboratory for Telecommunications Sciences at the National Security Agency, will present a talk on “Computer Science Research at the National Security Agency” on Wednesday, March 30 at noon in the Ehrlicher Room, 3100 North Quad.
+Prior to joining NSA in 2007,&amp;#0160;Segal worked in the telecommunications industry for 18 years. He&amp;#0160;has conducted research in the areas of distributed computing, dependable systems, information assurance, and multimedia systems.</description>
+    </item>
+    
+    <item>
+      <title>2011 Water Hill Music Fest, Sunday, May 1, 2-6pm in Ann Arbor</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-27-water-hill-music-fest-2011/</link>
+      <pubDate>Sun, 27 Mar 2011 14:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-27-water-hill-music-fest-2011/</guid>
+      <description>Details at WaterHill.ORG.
+
+Edward Vielmetti used to live on Fountain Street on Ann Arbor&amp;#39;s Water Hill, which is also sometimes known as the Mack School neighborhood.</description>
+    </item>
+    
+    <item>
+      <title>March 22 is World Water Day; tracking the Ann Arbor dioxane plume toward the Huron River</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-22-world-water-day/</link>
+      <pubDate>Tue, 22 Mar 2011 06:54:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-22-world-water-day/</guid>
+      <description>March 22 is World Water Day. The 2011 theme is Water for Cities: Responding to the Urban Challenge. The Ann Arbor District Library is hosting a 7:00 p.m. panel &amp;quot;Our Water, Our Future&amp;quot;, with&amp;#0160;Mike Wiley from the University of Michigan School of Natural Resources and Environment hosting.
+A recording of the event is available for viewing or download at the Ann Abor District Library.
+In Ann Arbor, the slow-moving but inexorable urban water supply problem is the spread of a dioxane plume towards the Huron River and the City of Ann Arbor&amp;#39;s drinking water supply source at Barton Pond.</description>
+    </item>
+    
+    <item>
+      <title>Brick Bash 2011: Ann Arbor Lego event March 19 at WCC</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-19-brick-bash-lego-2011/</link>
+      <pubDate>Sat, 19 Mar 2011 12:15:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-19-brick-bash-lego-2011/</guid>
+      <description>Brick Bash 2011 was March 19 at Washtenaw Community College in Ann Arbor Township. Show details are at BrickBash.com. I may have seen you there. The event is organized annually by&amp;#0160;Duane Collicott, who runs the Bricks For Brains&amp;#0160;organization that does educational, hands-on building exhibits with LEGO.
+From previous years, a photo set: Brick Bash 2008.
+Some highlights of this show; photos and links to come:
+Big layouts with trains from the Michigan LEGO Users Group and the Central Ohio LEGO Train Club.</description>
+    </item>
+    
+    <item>
+      <title>Events for the week of March 17, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-03-17-events-for-the-week-of-march-17-2011/</link>
+      <pubDate>Thu, 17 Mar 2011 16:39:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-03-17-events-for-the-week-of-march-17-2011/</guid>
+      <description>Every week at a2b3 I ask people to tell me about upcoming events. Here&amp;#39;s this week&amp;#39;s event calendar, mostly for events in and around Ann Arbor, Michigan. Note that it doesn&amp;#39;t include every possible thing going on, just what people tell me about, and what is interesting enough for me to notice and plan ahead for. I&amp;#39;ll be at some of these, I hope.
+If you have an event to share, leave it as a comment on this post.</description>
+    </item>
+    
+    <item>
+      <title>Detroit Maker Faire, July 30th &amp; 31st, 2011, The Henry Ford</title>
+      <link>http://vielmetti.github.io/post/2011/2011-02-27-detroit-maker-faire-july-30th-31st-2011-the-henry-ford/</link>
+      <pubDate>Sun, 27 Feb 2011 09:38:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-02-27-detroit-maker-faire-july-30th-31st-2011-the-henry-ford/</guid>
+      <description>Web site is up,&amp;#0160;http://makerfaire.com/detroit/2011/. I&amp;#39;ll see you there.
+&amp;#0160;
+&amp;#0160;</description>
+    </item>
+    
+    <item>
+      <title>danah boyd to speak at the U of Michigan John Seely Brown symposium, October 13, 2009</title>
+      <link>http://vielmetti.github.io/post/2009/2009-08-07-danah-boyd-to-speak-at-the-u-of-michigan-john-seely-brown-symposium-october-13-2009/</link>
+      <pubDate>Fri, 07 Aug 2009 15:06:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-08-07-danah-boyd-to-speak-at-the-u-of-michigan-john-seely-brown-symposium-october-13-2009/</guid>
+      <description>from the JSB Symposium web site at the U of Michigan School of Information:
+
+This year&amp;#39;s JSB Symposium featuring&amp;#0160;danah boyd, a social media researcher at Microsoft Research New England and a fellow at the Berkman Center for Internet and Society at Harvard Law School. Her talk will be on &amp;quot;Youth-Generated Culture: Growing Up in an Era of Social Media.&amp;quot;&amp;#0160;
+Note new location:&amp;#0160;The presentation will be at 2 p.m. Tuesday, Oct.</description>
+    </item>
+    
+    <item>
+      <title>How to remember birthdays, ED44 edition</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-08-how-to-remember-birthdays-ed44-edition/</link>
+      <pubDate>Mon, 08 Dec 2008 07:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-08-how-to-remember-birthdays-ed44-edition/</guid>
+      <description>If your birthday friend is in Ann Arbor, tell them about the list of deals you can get on your birthday in Ann Arbor kept on Arborwiki. &amp;#0160; There&amp;#39;s good eating to be had at a discount, breakfast lunch dinner and dessert.
+Two weeks ahead of time, get notified by Plaxo by email.&amp;#0160; That gives you enough time to update the email and postal address and send a postcard.&amp;#0160; (Note: the &amp;quot;everyone gets a postcard&amp;quot; bit is something I aspire to; still haven&amp;#39;t figured out all of the infrastructure yet, though I have a postcard project to track what I can.</description>
+    </item>
+    
+    <item>
+      <title>Widget Wednesday - Socialtext OpenSocial hackathon, November 12, 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-12-widget-wednesday/</link>
+      <pubDate>Wed, 12 Nov 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-12-widget-wednesday/</guid>
+      <description>Socialtext is organizing Widget Wednesday today.
+PALO ALTO, CA - November 5, 2008 - Socialtext, the Enterprise Social Software leader, today announced it will host Widget Wednesday on November 12, a distributed hackathon for widgets and mashups. Socialtext partners Box.net, Denodo, Newsgator, Meebo, Six Apart, Slideshare and others will participate in the hackathon to develop OpenSocial standard-based widgets and mashups on the Socialtext platform. Socialtext also announced that it will release all of the widgets it develops under an Open Source license -- to help partners, customers and developer community members create mashups leveraging Socialtext&amp;#39;s best-in-class REST API.</description>
+    </item>
+    
+    <item>
+      <title>coffee house coders: Wednesdays, 9pm-11pm Eastern, Espresso Royale Cafe, State St</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-05-coffee-house-coders-wednesdays-9pm-11pm-eastern-espresso-royale-cafe-state-st/</link>
+      <pubDate>Wed, 05 Nov 2008 14:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-05-coffee-house-coders-wednesdays-9pm-11pm-eastern-espresso-royale-cafe-state-st/</guid>
+      <description>Coffee House Coders is a programmer&amp;#39;s group that meets Wednesday nights at ERC State St in Ann Arbor.&amp;#0160; A large long table in the back hosts a dozen or so laptops, and the assembled crowd works on whatever code they are working on.
+Organized by Zach Steindler and Matt Pizzimenti, this group when I visited last week was mostly current and recent UM engineering students, with a few people from out of town visiting old friends.</description>
+    </item>
+    
+    <item>
+      <title>November 7-9, 2008: Language as a Complex Adaptive System, Ann Arbor, MI</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-29-november-7-9-2008-language-as-a-complex-adaptive-system-ann-arbor-mi/</link>
+      <pubDate>Wed, 29 Oct 2008 12:35:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-29-november-7-9-2008-language-as-a-complex-adaptive-system-ann-arbor-mi/</guid>
+      <description>The theme builds upon foundations laid by colleagues from different branches of linguistics, psychology, and complex systems. The speakers are active in their recognition of complexity in their respective areas, ranging from language usage, structure, and change, sociolinguistics, cognitive linguistics, anthropology, language evolution, first language acquisition, second language acquisition, psycholinguistics and language processing, language education, individual differences, and language testing.
+Conference Schedule is available at http://elicorpora.info/LLC/schedule
+(Free) Registration required
+Dates: November 7-9, 2008</description>
+    </item>
+    
+    <item>
+      <title>Fall 2008 Discardia, 22-29 September 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-28-fall-2008-disca/</link>
+      <pubDate>Sun, 28 Sep 2008 01:26:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-28-fall-2008-disca/</guid>
+      <description>Dinah made up a holiday called Discardia. She wrote:
+ I&amp;rsquo;ve decided to invent a new holiday called Discardia. It takes place in the time between the Solstices &amp;amp; Equinoxes and their following new moons. Discardia is celebrated by getting rid of stuff and ideas and habits you no longer need. On the Discardian new moon you don&amp;rsquo;t buy anything or bring anything into your home and enjoy the fact that you have enough.</description>
+    </item>
+    
+    <item>
+      <title>One Web Day is September 22</title>
+      <link>http://vielmetti.github.io/post/2008/2008-07-22-one-web-day-is/</link>
+      <pubDate>Tue, 22 Jul 2008 16:55:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-07-22-one-web-day-is/</guid>
+      <description>One Web Day is September 22; University of Michigan Law professor Susan Crawford is organizing it, with events and participation from around the world. It&#39;s &#34;Earth Day for the Internet&#34;.
+ Around the world, we&#39;re focusing attention on the importance of the internet to political participation - that&#39;s this year&#39;s theme. We&#39;re also encouraging people to talk about (and do something about) internet issues they&#39;re worried about - censorship, the digital divide, inadequate connectivity generally.</description>
+    </item>
+    
+    <item>
+      <title>Shiawassee River Paddle Event - May 18 2008 - Holly to Fenton, Michigan</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-30-shiawassee-rive/</link>
+      <pubDate>Sun, 30 Mar 2008 23:30:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-30-shiawassee-rive/</guid>
+      <description>Shiawassee River Paddle Event Sunday, May 18, 2008  Start : WaterWorks Park in Holly, Michigan  End : Strom Park in Fenton, Michigan  Distance : 7 scenic miles of numerous twists and turns  Canoe Rental available with Heavners Canoe Livery  Schedule :  10:00 am : On-site registration begins WaterWorks Building, Broad Street  11:30 am : Introductory Ceremony North side WaterWorks Park  11:45 am : Experienced Canoeists Start at Millpond, Broad Street  12:15 pm : Novice/Youth Canoeists Start at Millpond, Broad Street  12:45 pm : Kayak/ Single person canoeists Start on Shiawassee River, Broad Street  ** 1:15 pm : Leisure/fun paddle Start on Shiawassee River, Broad Street **  6:00 pm : Final river sweep completed  On-site availability of snacks and water.</description>
+    </item>
+    
+    <item>
+      <title>St Urho&#39;s Day in Detroit - Conga se Menne - Cranbrook - March 15, 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-15-st-urhos-day-in/</link>
+      <pubDate>Sat, 15 Mar 2008 01:46:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-15-st-urhos-day-in/</guid>
+      <description>For more St Urho&#39;s Day information see St Urho - Legendary Patron Saint of Finland  Happy St Urho&#39;s Day 2007 (last year&#39;s links) delicious tag urho  St Urho, of course, drove the grasshoppers out of Finland, saving the grape crop; his day is March 16, one day before St Patrick&#39;s, and two days after Pi Day (3.14).  15 (Sat) Conga Se Menne in concert, 8 p.m., Cranbrook Performing Arts Center, Bloomfield Hills, Mich.</description>
     </item>
     
   </channel>

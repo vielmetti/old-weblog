@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/caterina-fake/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Caterina Fake on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/caterina-fake/</link>
+    <description>Recent content in Caterina Fake on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/caterina-fake/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Mar 2008 22:44:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/caterina-fake/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>slimtimer - observing what you do, so that you can report on it later</title>
@@ -14,21 +17,7 @@
       <pubDate>Fri, 28 Mar 2008 22:44:28 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-03-28-slimtimer---obs/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-I need to be mindful of what I am doing all the time, so that things get done and I don&amp;rsquo;t just wander off into cyberspace. (Cyberspace, remember that, data gloves and VRML and the metaverse and all that?  Yeah.  There.)
-&lt;/p&gt;&lt;p&gt;
-There are two fundamental issues in time tracking for me: accurately logging the start and stop of each task, and determining which bucket of pre-assigned tasks it goes into (or determining that a new bucket needs to be allocated to describe that task).&lt;br /&gt;
-&lt;/p&gt;&lt;p&gt;
-There is a great interview of Caterina Fake by Tod Maffin on CBC Radio, back when Flickr was in Vancouver BC and new and hip and was Canadian content, and Caterina talked about Flickr&amp;rsquo;s use of tags in this way:
-&lt;/p&gt;&lt;blockquote&gt;
-&amp;ldquo;The way that most systems had worked prior to this sort of tagging system is that you would in advance of knowing what you were going to categorize had to put together a category list and that involves a lot of cognitive overhead that you really don&amp;rsquo;t want to engage in at the time uploading photographs and labeling them makes tagging so successful add tags on the spot you know beach sunset fire sand enter&amp;rdquo;
-&lt;/blockquote&gt;&lt;p&gt;
-it&amp;rsquo;s a rough transcript, but I&amp;rsquo;ve listened to this piece dozens of times and the phrase &amp;ldquo;cognitive overhead&amp;rdquo; sticks in my brain.  I don&amp;rsquo;t know where that piece is online, but it should be&amp;hellip;.
-&lt;/p&gt;&lt;p&gt;
-so, &lt;a href=&#34;http://slimtimer.com/users/home&#34;&gt;slimtimer&lt;/a&gt;.  &amp;ldquo;beach sunset fire sand&amp;rdquo; then start the timer.  never mind that you hadn&amp;rsquo;t planned in advance to go to the beach, you&amp;rsquo;ll account for that later.
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/slimtimer&#34; rel=&#34;tag&#34;&gt;slimtimer&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>I need to be mindful of what I am doing all the time, so that things get done and I don&amp;rsquo;t just wander off into cyberspace. (Cyberspace, remember that, data gloves and VRML and the metaverse and all that? Yeah. There.)  There are two fundamental issues in time tracking for me: accurately logging the start and stop of each task, and determining which bucket of pre-assigned tasks it goes into (or determining that a new bucket needs to be allocated to describe that task).</description>
     </item>
     
   </channel>

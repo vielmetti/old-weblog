@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/brent-hill/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Brent Hill on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/brent-hill/</link>
+    <description>Recent content in Brent Hill on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/brent-hill/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Dec 2007 09:50:16 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/brent-hill/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Brent Hill, Google / Feedburner speaking in Ann Arbor, Dec 4 2007</title>
@@ -14,24 +17,7 @@
       <pubDate>Tue, 04 Dec 2007 09:50:16 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-12-04-brent-hill-goog/</guid>
-      <description>&lt;p&gt;
-A talk tonight, 12/4:
-&lt;/p&gt;&lt;blockquote&gt;
-Ann Arbor SPARK Hi-Tech Tuesday: Google&#39;s Brent Hill Offers Everything You Want to Know About Blogs &amp;#38; RSS
-&lt;br /&gt;
-&lt;br /&gt;What:            Google&#39;s Brent Hill presents &#34;Everything You Want to Know About Blogs &amp;#38; RSS&#34;
-&lt;br /&gt;
-&lt;br /&gt;When &amp;#38; Where:    Tuesday, December 4, 2007, 5-7 p.m. at Google, McKinley Towne Center, 5th Floor, 201 S. Division, Ann Arbor
-&lt;br /&gt;
-&lt;br /&gt;Purpose:              As content syndication on the web proliferates, audiences are becoming increasingly fragmented.  How do marketers leverage RSS feeds to deliver targeted marketing messages?  And how do publishers measure and monetize their audience?
-&lt;br /&gt;
-&lt;br /&gt;Presenter:                Brent Hill is a team manager in the Global Media Solutions division at Google. Previously vice president of Advertising Services at FeedBurner, the market-leading feed management provider that was acquired by Google in 2007, Brent has worked in a variety of interactive marketing, e-commerce, and consumer services businesses.  He frequently speaks at industry events on the topic of advertising in syndicated content, and his insights have been published in Advertising Age, Adotas, and DMNews.  Brent received a Bachelor of Science in Finance from Bradley University, and an MBA from the University of Chicago.
-&lt;br /&gt;
-&lt;br /&gt;&lt;a href=&#34;http://annarboritzone.org/eventlist.asp?EventID=1250&#34;&gt;Information:    Registration is free. &lt;/a&gt;
-&lt;/blockquote&gt;&lt;p&gt;
-More infos: &lt;a href=&#34;http://www.feedburner.com/fb/a/about/people/hill&#34;&gt;Brent Hill bio&lt;/a&gt;, June 2007 interview reported by &lt;a href=&#34;http://publications.mediapost.com/index.cfm?fuseaction=Articles.san&amp;amp;s=62040&amp;amp;Nid=31176&amp;amp;p=356272&#34;&gt;Online Media Daily&lt;/a&gt;, 2006 interview at &lt;a href=&#34;http://internetmarketingvoodoo.com/2006/07/imv24-rss-advertising.html&#34;&gt;Internet Marketing Voodoo&lt;/a&gt;.
-&lt;/p&gt;
-</description>
+      <description>A talk tonight, 12/4:  Ann Arbor SPARK Hi-Tech Tuesday: Google&#39;s Brent Hill Offers Everything You Want to Know About Blogs &amp;#38; RSS What: Google&#39;s Brent Hill presents &#34;Everything You Want to Know About Blogs &amp;#38; RSS&#34; When &amp;#38; Where: Tuesday, December 4, 2007, 5-7 p.m. at Google, McKinley Towne Center, 5th Floor, 201 S. Division, Ann Arbor Purpose: As content syndication on the web proliferates, audiences are becoming increasingly fragmented.</description>
     </item>
     
   </channel>

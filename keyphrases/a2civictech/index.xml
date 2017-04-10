@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/a2civictech/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>A2civictech on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/a2civictech/</link>
+    <description>Recent content in A2civictech on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/a2civictech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2013 08:12:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/a2civictech/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The 3d Ann Arbor Civic Tech meetup - a writeup</title>
@@ -14,25 +17,7 @@
       <pubDate>Tue, 26 Nov 2013 08:12:41 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-11-26-the-3d-ann-arbor-civic-tech-meetup-a-writeup/</guid>
-      <description>&lt;p&gt;We had a good time and a lively discussion at the 3d Ann Arbor Civic Technology meetup. There were about 18 people in attendance, including the City of Ann Arbor CFO/CIO, the webmaster from Washtenaw County, several U of Michigan SI students, some townies, a fellow who drove down from Lansing who had organized Code Michigan hackathon, and a number of folks who were drawn in from Meetup. (who did I miss)&lt;/p&gt;
-
-&lt;p&gt;After everyone introduced themselves we did a few rounds of discussion of the projects that people were working on with public data as well as some talk about data that wasn&#39;t available in easy formats. Projects included&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the detailed data from the 1,4 Dioxane plume that is spreading under Ann Arbor&lt;/li&gt;
-&lt;li&gt;traffic crash facts and accident reports to inform pedestrian safety discussions&lt;/li&gt;
-&lt;li&gt;estimating rental property utility costs from crowdsourced data&lt;/li&gt;
-&lt;li&gt;liberating restaurant inspections from proprietary databases&lt;/li&gt;
-&lt;li&gt;data about dangerous buildings and nuisance properties&lt;/li&gt;
-&lt;li&gt;adopt-a-storm-drain&lt;/li&gt;
-&lt;li&gt;report from a &#34;data dive&#34; that looked at non-profit data in a hackathon&lt;/li&gt;
-&lt;li&gt;(what did I miss)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Not all of these projects were actively in development (several were &#34;gee wouldn&#39;t be nice if&#34;) and there was not one single effort that everyone focused on. Instead it was a healthy back and forth about a lot of possible directions.&lt;/p&gt;
-
-&lt;p&gt;We started at 7p and ended at 830p, and people stayed around talking until 9p. I&#39;m happy with the turnout and with the people who showed up, and am hopeful that the next meeting (in January) will be as well received. We had an offer to host it in a Washtenaw County facility for the next event.&lt;/p&gt;
-</description>
+      <description>We had a good time and a lively discussion at the 3d Ann Arbor Civic Technology meetup. There were about 18 people in attendance, including the City of Ann Arbor CFO/CIO, the webmaster from Washtenaw County, several U of Michigan SI students, some townies, a fellow who drove down from Lansing who had organized Code Michigan hackathon, and a number of folks who were drawn in from Meetup. (who did I miss)</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/journalism/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Journalism on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/journalism/</link>
+    <description>Recent content in Journalism on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/journalism/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Sep 2013 14:21:18 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/journalism/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Your town. Your take. Your drug dealers - all on Topix</title>
@@ -14,16 +17,9 @@
       <pubDate>Thu, 19 Sep 2013 14:21:18 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-19-your-town-your-take-your-drug-dealers-all-on-topix/</guid>
-      <description>&lt;p&gt;[Topix] is a web-based news aggregator and forum hosting site, based in Palo Alto, CA. They say about themselves:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Topix is the world’s largest community news website. You can read, talk about -- and even edit -- the news on over 360,000 of our news pages. Whatever your interests are, we have a news page for you!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Those interests can be quite wide-ranging, as seen by this discussion of &lt;a href=&#34;http://www.topix.com/forum/drug/oxycontin/THI9F0V07VFJGT90Q&#34;&gt;where to get heroin&lt;/a&gt;. And while I&#39;m not surprised when I see discussions of &lt;a href=&#34;http://www.forbes.com/sites/andygreenberg/2013/08/14/meet-the-dread-pirate-roberts-the-man-behind-booming-black-market-drug-website-silk-road/&#34;&gt;drug dealing on the dark networks&lt;/a&gt;, it&#39;s always a bit of a shock to see people typing this stuff into the clear on comment boards on a &#34;news website&#34;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff7d7e25970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019aff7d7e25970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen shot 2013-09-19 at 2.17.42 PM&#34; title=&#34;Screen shot 2013-09-19 at 2.17.42 PM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff7d7e25970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>[Topix] is a web-based news aggregator and forum hosting site, based in Palo Alto, CA. They say about themselves:
+ Topix is the world’s largest community news website. You can read, talk about -- and even edit -- the news on over 360,000 of our news pages. Whatever your interests are, we have a news page for you!
+ Those interests can be quite wide-ranging, as seen by this discussion of where to get heroin.</description>
     </item>
     
     <item>
@@ -32,20 +28,8 @@
       <pubDate>Wed, 18 Sep 2013 14:49:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-18-an-active-if-diffuse-media-ecosystem/</guid>
-      <description>&lt;p&gt;Anna Clark, writing in the &lt;a href=&#34;http://www.cjr.org/united_states_project/advance_changes_gears_ann_arbor_mlive.php?page=all&amp;amp;print=true&#34;&gt;Columbia Journalism Review&lt;/a&gt;, has a story about the end of AnnArbor.com and what sorts of alternatives people have when they are looking for news. I get a brief mention.&lt;/p&gt;
-
-&lt;p&gt;The question I want to explore is what does it mean to no longer have a single daily newspaper, or even a special daily comprehensive news web site, but instead to have a world where news about your home town is coming from lots of places. Further, I want to make very clear the difference between urgent breaking news and the sort of slog it out, cover it every day beat journalism that is mostly interesting in the aggregate.&lt;/p&gt;
-
-&lt;p&gt;Twitter has always been good for breaking news, whether it be local, national, or global. I&#39;m perfectly convinced that in the case of the 100-year flood, we&#39;ll be covered. There&#39;s enough individual people who are capable of writing about what&#39;s happening to them in enough local detail that if an issue is city or county wide, Ann Arbor will be notified. Newspapers always do their best work in response to crisis, and local bloggers, radio, and metro Detroit television will all chip in. If something horrible or wonderful happens, we&#39;re all good as far as news goes.&lt;/p&gt;
-
-&lt;p&gt;That can&#39;t be said for every town, by the way. When Marshall, Michigan had an Enbridge pipeline burst in its midst, there was no local news media to write about or blog about the weird hydrocarbon smell. Ann Arbor has enough of a &#34;diffuse media ecosystem&#34; that such things should be noticed! However, you can&#39;t even count on that - a long-seeping sewer spill in the Arboretum was unnoticed for weeks - you&#39;d hope that we&#39;d catch something faster here.&lt;/p&gt;
-
-&lt;p&gt;It&#39;s the problem of news that&#39;s not urgent that I&#39;m more worried about. Small retail businesses come and go, and you can&#39;t count on the Ann Arbor News to write about all of those retail changes. Crime, petty and otherwise, gets reported when the police department wants it to be reported, and thus you&#39;ll see a lot more Ypsilanti crime in the Ann Arbor paper than Ann Arbor crime just because of the willingness of YPD to share. The &lt;a href=&#34;http://www.annarborchronicle.com&#34;&gt;Ann Arbor Chronicle&lt;/a&gt; does a fine job of bird-dogging city council, but its ferociously detailed coverage only extends so far. The &lt;a href=&#34;http://www.annarborobserver.com&#34;&gt;Ann Arbor Observer&lt;/a&gt; only comes out monthly, but it routinely scoops the daily media.&lt;/p&gt;
-
-&lt;p&gt;Short of finding someone with more money than sense to start a new publication, what can  you do? The CJR story says that people turn to &#34;small independent news sites to fill in the gaps.&#34; As the Ann Arbor News shrinks, the opportunity to fill in the gaps should only grow. A narrowly focused topic that&#39;s interesting and that the dwindling mainstream media only gives cursory attention to would be perfect, and if you can give the world quick and accurate writing as well as compelling photography you&#39;ll be all set.&lt;/p&gt;
-
-&lt;p&gt;Small independent news sites are usually a labor of love, in some fashion. Notably they come and go as people&#39;s priorities change or as they age out of the &#34;independent grad student blogger&#34; demographic. It&#39;s almost the case that you need to recruit a new crop of writers every fall, purging your blogroll of the recently departed and scouring the net for the newest up-and-coming.So the local media infrastructure is active - there&#39;s no shortage of writing about Ann Arbor, both in local and in national publications. It&#39;s also incredibly diffuse, without a single dominant comprehensive news source that covers everything in detail. My best solution to date has to be tuned in to Twitter to catch what I can as it goes past, and write down what I see that&#39;s not getting enough notice so that I can contribute my small share.&lt;/p&gt;
-</description>
+      <description>Anna Clark, writing in the Columbia Journalism Review, has a story about the end of AnnArbor.com and what sorts of alternatives people have when they are looking for news. I get a brief mention.
+The question I want to explore is what does it mean to no longer have a single daily newspaper, or even a special daily comprehensive news web site, but instead to have a world where news about your home town is coming from lots of places.</description>
     </item>
     
     <item>
@@ -54,40 +38,7 @@
       <pubDate>Fri, 13 Sep 2013 11:07:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-13-changes-at-annarborcom-newspaper-rebrands-as-ann-arbor-news-shuts-down-website/</guid>
-      <description>&lt;p&gt;Disclaimer: I wrote for AnnArbor.com for about a year and a half, and I miss the daily morning deadlines that used to define my day. So when I heard that AnnArbor.com was shutting down its web site, moving new content to MLive, and rebranding as the Ann Arbor News, a little bit of worry was there. Would the owners scrub the site of that newspaper entirely in their quest to build something new? Were all of the URLs that I had collected for stories on &lt;a href=&#34;http://www.arborwiki.org&#34;&gt;Arborwiki&lt;/a&gt; going to suddenly go 404 on me? Was it going to be impossible for me to provide news clippings proving that I had produced a story every day for months on end? All a matter of concern.&lt;/p&gt;
-
-&lt;p&gt;Things are bad, but not as bad as they would seem.&lt;/p&gt;
-
-&lt;p&gt;All of the old content on AnnArbor.com is still there, but all of the navigation that would help you find it is gone. If you view the &lt;a href=&#34;http://annarbor.com&#34;&gt;AnnArbor.com&lt;/a&gt; home page through your web browser it will redirect to MLive. Fortunately, any deeper links within the site still work, so you can see e.g. my &lt;a href=&#34;http://www.annarbor.com/vielmetti/foia-friday-index/&#34;&gt;FOIA Friday index&lt;/a&gt; and all of the links there still work. There&#39;s even a search engine (using Google search) on that page.&lt;/p&gt;
-
-&lt;p&gt;If you &lt;a href=&#34;https://www.google.com/search?q=site%3Aannarbor.com+vielmetti&amp;amp;oq=site%3Aannarbor.com&amp;amp;aqs=chrome.0.69i59l2j69i57j69i58j69i61j69i59.1939j0&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8#psj=1&amp;amp;q=site:annarbor.com+vielmetti&#34;&gt;search Google&lt;/a&gt; for &#34;site:AnnArbor.com vielmetti&#34; you&#39;ll get back a page of links, but half of them won&#39;t work - any tag, category, or section in the old site redirects to MLive. This means that if you were a blogger and were carefully tagging your stuff so that it could be found again, all of that effort is gone.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, there&#39;s the &lt;a href=&#34;http://archive.org&#34;&gt;Internet Archive&lt;/a&gt;&#39;s &#34;Wayback Machine&#34; to the rescue, at least in part. That site faithfully and patiently scraped content from AnnArbor.com and stored it away forever, and it preserved enough of the links and surrounding content that it is possible to navigate up to a point. The Internet Archive&#39;s collection even includes the current temperature for the day that the page was saved! It&#39;s not perfect - some links will still break - but it&#39;s much better than nothing.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve never been a fan of the MLive site - it&#39;s slow, disorienting, and hard to search through and navigate. But it&#39;s what we now have, and I don&#39;t hold out any promise for radical reinvention of that system. Rather, I expect that Ann Arbor newspaper readers will get an increasingly thin product, watered down with repurposed statewide news and ever more devoid of local identity. Fortunately there&#39;s the &lt;a href=&#34;http://www.annarborchronicle.com&#34;&gt;Ann Arbor Chronicle&lt;/a&gt; bird-dogging civic meetings and the &lt;a href=&#34;http://www.annarborobserver.com&#34;&gt;Ann Arbor Observer&lt;/a&gt; observing changes in the area, so not all is lost.&lt;/p&gt;
-
-&lt;p&gt;Some more local views on the topic:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.damnarbor.com/2013/09/the-ann-arbor-news-is-back.html&#34;&gt;Damn Arbor&lt;/a&gt; notes that the Ann Arbor News is back, and his lead paragraph is worthwhile repeating.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Turritopsis nutricula, the immortal jellyfish, is unique among animals in that it can revert back to its clonal polyp stage after becoming sexually mature. In a similar process, The Com announced today that it would be reverting back to its previous state as the Ann Arbor News and reintegrating the MLive Media Group as part of MLive.com. It should be be noted The Com exists as a subsidiary of MLive.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://markmaynard.com/2013/09/my-thoughts-on-the-death-of-annarbor-com/&#34;&gt;Mark Maynard&lt;/a&gt; writes:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I know you might be tempted to be pissed off anew over today’s announcement, but I think it bears repeating that, at least in the short term, we need for M-Live and the new twice-weekly Ann Arbor News to be successful. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And the national point of view:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cjr.org/the_audit/advance_publications_scraps_an.php&#34;&gt;Columbia Journalism Review&lt;/a&gt; says &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Advance is now about to fold AnnArbor.com (the website) into MLive.com, the company’s Michigan portal based on its hideous website template. This is what’s on the homepage of MLive as I type. Prepare to shield your eyes.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Disclaimer: I wrote for AnnArbor.com for about a year and a half, and I miss the daily morning deadlines that used to define my day. So when I heard that AnnArbor.com was shutting down its web site, moving new content to MLive, and rebranding as the Ann Arbor News, a little bit of worry was there. Would the owners scrub the site of that newspaper entirely in their quest to build something new?</description>
     </item>
     
     <item>
@@ -96,9 +47,8 @@
       <pubDate>Mon, 05 Aug 2013 23:24:32 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-05-jeff-bezos-buys-the-washington-post/</guid>
-      <description>&lt;p&gt;My Twitter stream exploded with the news that Jeff Bezos of Amazon is buying the Washington Post for $250 million. This comes on the heels of the transaction that sent the Boston Globe to the owner of the Boston Red Sox for a mere $70 million. Mediagazer has perhaps the most &lt;a href=&#34;http://mediagazer.com/#a130805p20&#34; target=&#34;_self&#34;&gt;complete collection of links&lt;/a&gt; about the Bezos transaction.&lt;/p&gt;
-&lt;p&gt;Why on earth would you buy a newspaper? Perhaps to make money, perhaps to spend money, perhaps to have the outsized megaphone that a news organization still offers you in this the late age of print. Everyone will be watching the Post&amp;#39;s digital operations to see how it changes over time to incorporate the things that Bezos learned from tipping the book world upside down with the Kindle.&lt;/p&gt;
-</description>
+      <description>My Twitter stream exploded with the news that Jeff Bezos of Amazon is buying the Washington Post for $250 million. This comes on the heels of the transaction that sent the Boston Globe to the owner of the Boston Red Sox for a mere $70 million. Mediagazer has perhaps the most complete collection of links about the Bezos transaction.
+Why on earth would you buy a newspaper? Perhaps to make money, perhaps to spend money, perhaps to have the outsized megaphone that a news organization still offers you in this the late age of print.</description>
     </item>
     
     <item>
@@ -107,22 +57,8 @@
       <pubDate>Wed, 31 Jul 2013 00:48:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-07-31-layoffs-at-the-advance-owned-cleveland-plain-dealer-coming-july-31-2013/</guid>
-      <description>&lt;p&gt;News coverage: Romanesko,&amp;#0160;&lt;a href=&#34;http://jimromenesko.com/2013/07/30/cleveland-plain-dealer-layoffs-coming-tomorrow/&#34; target=&#34;_self&#34;&gt;CLEVELAND PLAIN DEALER LAYOFFS COMING TOMORROW&lt;/a&gt;. Affected employees will be notified by telephone.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;From approximately 8:00 a.m. to 10:00 a.m. tomorrow, July 31st, employees in the Editorial Department will receive a phone call notifying them that they are either being separated from employment on that date, or that they are not being separated from employment. Employees who are notified that they are not being separated should report for work at their next regularly scheduled time.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;News coverage: Poynter, &lt;a href=&#34;http://www.poynter.org/latest-news/mediawire/219691/plain-dealer-layoffs-coming-today/&#34; target=&#34;_self&#34;&gt;Plain Dealer Layoffs Coming Today&lt;/a&gt;. The story includes a timeline of other layoffs at the Plain Dealer and efforts by staff to resist downsizing.&lt;/p&gt;
-&lt;p&gt;A weblog covering changes in Cleveland: &lt;a href=&#34;http://www.pdnowwhat.com/&#34; target=&#34;_self&#34;&gt;PD Now What?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AP: &amp;#0160;&lt;a href=&#34;http://bigstory.ap.org/article/union-plain-dealer-cuts-third-newsroom-staff&#34; target=&#34;_self&#34;&gt;UNION: PLAIN DEALER CUTS THIRD OF NEWSROOM STAFF&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-Facebook: &lt;a href=&#34;https://www.facebook.com/SaveThePlainDealer&#34; target=&#34;_self&#34;&gt;Save the Plain Dealer&lt;/a&gt;. A quote from it:
-&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The &amp;quot;strategy&amp;quot; that Advance Publications is forcing on The Plain Dealer and its other newspapers is poorly conceived, disastrously executed, and is focused solely on profits, not responsible journalism and sound business practice. History will judge it harshly.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The Facebook page says about 50 reporters were let go, or about a third of the news room.&lt;/p&gt;
-&lt;p&gt;Remember, the Advance team also owns the New Orleans Times-Picayune and AnnArbor.com, so this kind of newsroom downsizing is part and parcel of standard practice there.&lt;/p&gt;
-</description>
+      <description>News coverage: Romanesko,&amp;#0160;CLEVELAND PLAIN DEALER LAYOFFS COMING TOMORROW. Affected employees will be notified by telephone.
+ From approximately 8:00 a.m. to 10:00 a.m. tomorrow, July 31st, employees in the Editorial Department will receive a phone call notifying them that they are either being separated from employment on that date, or that they are not being separated from employment. Employees who are notified that they are not being separated should report for work at their next regularly scheduled time.</description>
     </item>
     
     <item>
@@ -131,13 +67,7 @@ Facebook: &lt;a href=&#34;https://www.facebook.com/SaveThePlainDealer&#34; targe
       <pubDate>Mon, 27 Jun 2011 13:58:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-27-paraphrase-regurgitate-cut-and-paste/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Failure of the fourth estate.&amp;#0160;&lt;/strong&gt;Newspapers and websites all over the country have reported on the flooding and fire at Fort Calhoun, but most articles simply paraphrase and regurgitate information from the NRC and OPPD press releases, which aggregators and bloggers then, in turn, simply cut and paste. Even the&amp;#0160;&lt;em&gt;Omaha World-Herald&lt;/em&gt;&amp;#0160;didn&amp;#39;t send local reporters to cover the story; instead, the newspaper published an article on the recent fire written by Associated Press reporters &amp;ndash; based in Atlanta and Washington.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Dawn Stover&amp;#39;s piece &lt;a href=&#34;http://www.thebulletin.org/web-edition/columnists/dawn-stover/rising-water-falling-journalism&#34; target=&#34;_self&#34;&gt;Rising Water, Falling Journalism&lt;/a&gt;&amp;#0160;for the &lt;a href=&#34;http://www.thebulletin.org/&#34; target=&#34;_self&#34;&gt;Bulletin of the Atomic Scientists&lt;/a&gt;&amp;#0160;pokes a sharp stick in the eye of bloggers and journalists alike in failing to do original work when reporting on the risks to the public from flooding at the Fort Calhoun Nuclear Power Plant.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;See also: World Net Daily punking USA Today on a story about Delta Airlines and travel to Saudi Arabia, &lt;a href=&#34;http://www.poynter.org/latest-news/making-sense-of-news/137004/how-misinformation-spread-about-delta-jews-and-saudi-arabia-flights/&#34; target=&#34;_self&#34;&gt;described neatly by Adam Hochberg&lt;/a&gt; for Poynter.&lt;/p&gt;
-&lt;p&gt;Why oh why can&amp;#39;t we have a better press corps, asks &lt;a href=&#34;http://delong.typepad.com/sdj/better_press_corps/&#34; target=&#34;_self&#34;&gt;Brad DeLong&lt;/a&gt; and &lt;a href=&#34;http://www.delicious.com/cshalizi/why_oh_why_cant_we_have_a_better_press_corps&#34; target=&#34;_self&#34;&gt;Cosma Shalizi&lt;/a&gt;. The answer may be too painfully clear, if you stop to think too hard about it - in the face of content mills like Examiner and Patch, who on earth could afford to write something that took a long time to write for only a few page views?&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>Failure of the fourth estate.&amp;#0160;Newspapers and websites all over the country have reported on the flooding and fire at Fort Calhoun, but most articles simply paraphrase and regurgitate information from the NRC and OPPD press releases, which aggregators and bloggers then, in turn, simply cut and paste. Even the&amp;#0160;Omaha World-Herald&amp;#0160;didn&amp;#39;t send local reporters to cover the story; instead, the newspaper published an article on the recent fire written by Associated Press reporters &amp;ndash; based in Atlanta and Washington.</description>
     </item>
     
   </channel>

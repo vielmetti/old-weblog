@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/sysdig/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Sysdig on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/sysdig/</link>
+    <description>Recent content in Sysdig on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/sysdig/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Dec 2016 23:30:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/sysdig/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Watching containers with Portainer and Sysdig</title>
@@ -14,66 +17,10 @@
       <pubDate>Wed, 28 Dec 2016 23:30:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-12-28-watching-containers-with-portainer-and-sysdig/</guid>
-      <description>&lt;p&gt;[screen capture: csysdig running inside Portainer]&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Run &lt;a href=&#34;https://twitter.com/sysdig&#34;&gt;@sysdig&lt;/a&gt; CLI tool &amp;quot;csysdig&amp;quot; inside of a &lt;a href=&#34;https://twitter.com/portainerio&#34;&gt;@portainerio&lt;/a&gt; console window. Nice way to watch &lt;a href=&#34;https://twitter.com/docker&#34;&gt;@docker&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/coreos&#34;&gt;@coreos&lt;/a&gt; cc &lt;a href=&#34;https://twitter.com/mckartha&#34;&gt;@mckartha&lt;/a&gt; &lt;a href=&#34;https://t.co/hJGiHuJwKs&#34;&gt;pic.twitter.com/hJGiHuJwKs&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Vielmetti (@vielmetti) &lt;a href=&#34;https://twitter.com/vielmetti/status/814320562294181888&#34;&gt;December 29, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;The question to be answered is how to manage Docker containers - not
-just how to get them running, but also how to poke inside them while
-they are running to see what they are doing and make sure that you
-can make sense of what is happening while you develop or run in production.&lt;/p&gt;
-
-&lt;p&gt;At &lt;a href=&#34;http://vielmetti.github.io/post/2016/2016-12-19-tectonic-2016-trip-report/&#34;&gt;Tectonic&lt;/a&gt; I was introduced to one tool that handles Docker
-and Kubernetes container introspection, &lt;a href=&#34;http://sysdig.com&#34;&gt;Sysdig&lt;/a&gt;. From Twitter I
-also discovered &lt;a href=&#34;http://portainer.io&#34;&gt;Portainer&lt;/a&gt;, a nice system for container management.
-Having installed both Portainer and Sysdig, the interesting bit
-happens when you connect the together.&lt;/p&gt;
-
-&lt;p&gt;Portainer provides a very high level view of your container
-infrastructure, with an easy browser level access to see what
-containers you have loaded on the system, what&amp;rsquo;s running, and how
-to start or restart or pull new containers. Sysdig on the other
-hand has a very low level kernel&amp;rsquo;s eye view of the system, watching
-every system call and timing it and providing a system browser (with
-&amp;ldquo;csysdig&amp;rdquo;) that is reminiscent of faithful Unix tools like &amp;lsquo;htop&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;First, install each of them according to package instructions.
-As of this writing (December 2016) Portainer will run on Intel
-and ARM platforms, but Sysdig really wants to run on Intel only.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://portainer.readthedocs.io/en/latest/deployment.html&#34;&gt;Portainer install instructions&lt;/a&gt;
-will want you to pull the latest version (v1.11) and then
-set a password. The vision for Portainer product direction
-is full role based access control, so expect developments
-here; just know that for now, if you want an admin password
-to persist, you&amp;rsquo;ll have to persist the data in the filesystem
-or in a Docker storage volume. As installs go, this is pretty
-easy.&lt;/p&gt;
-
-&lt;p&gt;Next, you&amp;rsquo;ll want to follow the &lt;a href=&#34;http://www.sysdig.org/install/&#34;&gt;Sysdig install instructions&lt;/a&gt;
-for installing Sysdig in a container. We&amp;rsquo;re monitoring CoreOS,
-which makes the effort directly supported; I haven&amp;rsquo;t done Ubuntu yet.
-Sysdig wants to have a kernel module installed, and the CoreOS
-install effort takes advantage of automated new kernel builds whenever
-CoreOS does a new release.&lt;/p&gt;
-
-&lt;p&gt;Once both systems are up, connect them together. You&amp;rsquo;ll want to
-connect to a running sysdig container through the console, via
-the navigation path dashboard / containers / sysdig / console.
-Launch a console window on your Sysdig container, and in that console
-run &amp;ldquo;csysdig -pc&amp;rdquo;. You&amp;rsquo;ll have a view on the innards of your containers.&lt;/p&gt;
-
-&lt;p&gt;Now the biggest missing piece is the amount of this narrative
-given over to install instructions, rather than use instructions.
-Portainer has some very nice ways to install a variety of containerized
-applications, but it doesn&amp;rsquo;t know how to launch Sysdig in a single
-click, nor is it reasonable to naively assume that it can. Even once
-you get the command line invocation right there may be a pesky
-requirement to get kernel headers all exactly correct. Still, if
-possible that would be the direction I&amp;rsquo;d give to both organizations -
-make it easier to embed Sysdig tools and functions inside a Portainer framework.&lt;/p&gt;
-</description>
+      <description>[screen capture: csysdig running inside Portainer]
+Run @sysdig CLI tool &amp;quot;csysdig&amp;quot; inside of a @portainerio console window. Nice way to watch @docker and @coreos cc @mckartha pic.twitter.com/hJGiHuJwKs
+&amp;mdash; Edward Vielmetti (@vielmetti) December 29, 2016 
+The question to be answered is how to manage Docker containers - not just how to get them running, but also how to poke inside them while they are running to see what they are doing and make sure that you can make sense of what is happening while you develop or run in production.</description>
     </item>
     
   </channel>

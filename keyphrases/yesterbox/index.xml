@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/yesterbox/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Yesterbox on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/yesterbox/</link>
+    <description>Recent content in Yesterbox on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/yesterbox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2014 21:28:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/yesterbox/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Still answering yesterday&#39;s email; also doing yesterday&#39;s todos</title>
@@ -14,18 +17,8 @@
       <pubDate>Tue, 07 Jan 2014 21:28:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-01-07-still-answering-yesterdays-email-also-doing-yesterdays-todos/</guid>
-      <description>&lt;p&gt;I&#39;m a big fan of finite lists of things to do. It&#39;s hard to keep up with things that require an answer, and sometimes you need to let things slide until the next day. When you combine those two, you get &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/05/yesterbox-answer-yesterdays-email-today.html&#34;&gt;yesterbox&lt;/a&gt;. The basic idea is that you answer today&#39;s email tomorrow, so that you know when you get to the bottom of yesterday&#39;s mail you are really done.&lt;/p&gt;
-
-&lt;p&gt;The slight complication for this system for me is that I&#39;m also using a todo list which is supposed to capture everything I need to do. Alas, things go onto this list and stay there forever. How to reconcile the two?&lt;/p&gt;
-
-&lt;p&gt;What I&#39;m going to try, as best I can, is to deal with today&#39;s bright ideas about what I need to do but don&#39;t have time to do right now tomorrow. There will be a finite number of things to look at, and I can probably deal with some of them right away. I don&#39;t mean to kick the can down the road, but I also don&#39;t want to try to tackle everything I&#39;ve ever thought of doing all at once.&lt;/p&gt;
-
-&lt;p&gt;Inspired in part by the &lt;a href=&#34;http://www.wallofvoodoo.net/&#34;&gt;Wall of Voodoo&lt;/a&gt; song &#34;Tomorrow&#34;.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ll do it tomorrow / that seems like a pretty good idea to me&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;600&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/-eEfAGzgv18?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>I&#39;m a big fan of finite lists of things to do. It&#39;s hard to keep up with things that require an answer, and sometimes you need to let things slide until the next day. When you combine those two, you get yesterbox. The basic idea is that you answer today&#39;s email tomorrow, so that you know when you get to the bottom of yesterday&#39;s mail you are really done.
+The slight complication for this system for me is that I&#39;m also using a todo list which is supposed to capture everything I need to do.</description>
     </item>
     
   </channel>

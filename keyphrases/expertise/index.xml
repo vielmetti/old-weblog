@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/expertise/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Expertise on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/expertise/</link>
+    <description>Recent content in Expertise on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/expertise/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2015 22:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/expertise/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>expertise encapsulated into out of date memory banks</title>
@@ -14,35 +17,9 @@
       <pubDate>Mon, 03 Aug 2015 22:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-08-03-expertise/</guid>
-      <description>&lt;p&gt;In the case of experts &amp;ldquo;writing down what they know&amp;rdquo;, and
-incorporating that data into an expert system or knowledge base.&lt;/p&gt;
-
-&lt;p&gt;One of the challenges is expecting that the expert can write down
-everything that they know, all at once, in such a way that there&amp;rsquo;s
-no internal inconsistencies.&lt;/p&gt;
-
-&lt;p&gt;The world usually works in such a way that it&amp;rsquo;s changing fast enough
-that an expert with a written memory bank of a certain size is
-always holding as &amp;ldquo;true&amp;rdquo; in that memory bank something that is
-demonstrably false, just because the world shifts out from under
-them. Even if you have an iron-clad commitment to keeping the
-memory bank narrowly scoped and revisiting every element of it to
-refresh it periodically, the nature of written memory is to grow more and more
-out of date or to consume more and more resources to keep fresh.&lt;/p&gt;
-
-&lt;p&gt;The map is not the territory - and even if by some miracle the map
-at one time was perfectly matched with the world - the world changes
-fast enough that we can&amp;rsquo;t know any more than a small part of it.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Inspired by the impossible task of keeping a Localwiki fresh in
-the face of reflecting changes in a city, by Brian Eno&amp;rsquo;s quote
-&amp;ldquo;Forgetting is as important as remembering&amp;rdquo;, and by
-Jerry Michalski&amp;rsquo;s &amp;ldquo;The Brain&amp;rdquo; magnum opus. Of course I forget where I
-read the Eno quote, and a search for it turns up William James saying
-the same thing in 1892, but Eno is easier to remember as a source.&lt;/p&gt;
-</description>
+      <description>In the case of experts &amp;ldquo;writing down what they know&amp;rdquo;, and incorporating that data into an expert system or knowledge base.
+One of the challenges is expecting that the expert can write down everything that they know, all at once, in such a way that there&amp;rsquo;s no internal inconsistencies.
+The world usually works in such a way that it&amp;rsquo;s changing fast enough that an expert with a written memory bank of a certain size is always holding as &amp;ldquo;true&amp;rdquo; in that memory bank something that is demonstrably false, just because the world shifts out from under them.</description>
     </item>
     
     <item>
@@ -51,36 +28,8 @@ the same thing in 1892, but Eno is easier to remember as a source.&lt;/p&gt;
       <pubDate>Wed, 12 Mar 2014 21:32:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-12-proximity-and-distance/</guid>
-      <description>&lt;p&gt;The challenge of being an expert is that it is hard to be one in
-your own home town.&lt;/p&gt;
-
-&lt;p&gt;Expertise is valued when it comes from far away. The traveling
-scholar is special for their pure understanding of a difficult
-field, and they don&amp;rsquo;t incur the baggage of being a neighbor or even
-a friend. The distinguished visitor can be an exemplar of their
-craft, not distracted by any complicated local entanglements.&lt;/p&gt;
-
-&lt;p&gt;If you want to be recognized as an expert you need to be prepared
-to travel beyond where you are well understood out to the parts of
-the world where you are known solely for your expertise. Go beyond
-your narrow orbit and strike out to a place where your reputation
-is solid and where you are an example of the thing you call your
-own. Leave your own neighborhood behind, even if only to be seen
-elsewhere as an expert on neighborhoods.&lt;/p&gt;
-
-&lt;p&gt;Expertise is a funny thing. You don&amp;rsquo;t always get a chance to pick
-what you are good at, because that can come from the views of others.
-The further away those others are, the more likely they have some
-essential insight into your character that your close neighbors
-will never have. Look at yourself through the eyes of someone far
-away and see what special characteristics appear.&lt;/p&gt;
-
-&lt;p&gt;(Written mostly on a mobile phone while in a familiar cafe.)&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/vielmetti&#34;&gt;@vielmetti&lt;/a&gt; Truism: The further you are away, the more expert you become. Also, never a prophet in your hometown.&lt;/p&gt;&amp;mdash; Neal Kessler (@NealKessler) &lt;a href=&#34;https://twitter.com/NealKessler/statuses/443936415744024576&#34;&gt;March 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>The challenge of being an expert is that it is hard to be one in your own home town.
+Expertise is valued when it comes from far away. The traveling scholar is special for their pure understanding of a difficult field, and they don&amp;rsquo;t incur the baggage of being a neighbor or even a friend. The distinguished visitor can be an exemplar of their craft, not distracted by any complicated local entanglements.</description>
     </item>
     
   </channel>

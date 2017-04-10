@@ -1,81 +1,1751 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tracker</title>
+    <title>Categories on Vacuum weblog from Edward Vielmetti</title>
     <link>http://vielmetti.github.io/categories/</link>
-    <description>Recent content on tracker</description>
+    <description>Recent content in Categories on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2015 09:55:00 -0400</lastBuildDate>
-    <atom:link href="http://vielmetti.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2015 12:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Daily coffee and wifi at Argus Farm Stop</title>
-      <link>http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/</link>
-      <pubDate>Fri, 24 Jul 2015 09:55:00 -0400</pubDate>
+      <title>A2b3</title>
+      <link>http://vielmetti.github.io/categories/a2b3/</link>
+      <pubDate>Thu, 30 Jul 2015 12:30:00 -0400</pubDate>
       
-      <guid>http://vielmetti.github.io/post/2015/2015-07-24-daily-coffee-wifi-argus-farm-stop/</guid>
-      <description>&lt;p&gt;Daily coffee and wifi at Argus Farm Stop, outside in the sunshine
-under a lovely red umbrella canopy. Espresso over ice and a day-old
-olive twist. The view is of a Sky Trak lift at the construction
-site across moving materials to the back of The Mark, a building
-that&amp;rsquo;s going up where the car wash used to be.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The news of the day is a death on State Street. A young man was
-climbing over the skylights at the Nickels Arcade and fell to his
-death when the skylight glass gave way.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;On July 24, 1915, the SS Eastland was packed with employees from
-the Western Electric Hawthorne Works when it rolled over in
-the Chicago River. 844 passengers and crew lost their lives, making
-the Eastland disaster the worst shipwreck on the Great Lakes.
-See the &lt;a href=&#34;http://www.eastlanddisaster.org/&#34;&gt;Eastland Disaster Historical Society&lt;/a&gt;
-for extensive notes on and photos of the scene and its aftermath.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The next meeting of &lt;a href=&#34;http://www.meetup.com/a2civictech/&#34;&gt;a2civictech&lt;/a&gt;
-is coming up on Monday, July 27, 2015.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.literatibookstore.com/&#34;&gt;Literati Bookstore&lt;/a&gt; is open
-again after a water leak caused them to shut down.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;A few months ago I wrote a tiny R script that generates maps. The challenge
-today is to find a portable environment so that I can deploy this script
-on shared infrastructure. The project took 30 minutes of MacBook Air processor
-time running full blast parallel, and while I don&amp;rsquo;t care about wall clock time
-to complete the effort I do care about building something that I can hand
-off to someone else to run.&lt;/p&gt;
-
-&lt;p&gt;The hope is that the &lt;a href=&#34;https://github.com/rocker-org/ropensci&#34;&gt;ropensci&lt;/a&gt; Docker
-package from the Rocker project is the answer, or most of the answer, for this.
-Rocker has built R images where lots of useful packages have been installed,
-including systems where the install directions are a little bit complex.&lt;/p&gt;
-
-&lt;p&gt;With all complicated software environments the biggest challenge is dealing
-with dependencies. If you want to use the latest and greatest fast algorithms,
-you have to be prepared to spin up on what the cool kids are doing in the
-rest of their environment. If somehow you can jump to the edge of the development
-in the algorithm world without being tripped up by the hairy dependency graph
-that got you there, it can be a lot more fun.&lt;/p&gt;
-
-&lt;p&gt;So; install Docker on the Mac with &amp;lsquo;boot2docker&amp;rsquo;; then&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker pull rocker/ropensci
-docker run -it rocker/ropensci R
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and poof, you have an environment current to this month&amp;rsquo;s desktop of leading
-R developers.&lt;/p&gt;
-</description>
+      <guid>http://vielmetti.github.io/categories/a2b3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://vielmetti.github.io/categories/about/</link>
+      <pubDate>Tue, 14 Jul 2015 22:26:21 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Africa</title>
+      <link>http://vielmetti.github.io/categories/africa/</link>
+      <pubDate>Mon, 10 Nov 2014 00:30:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/africa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Americana</title>
+      <link>http://vielmetti.github.io/categories/americana/</link>
+      <pubDate>Sat, 08 Jun 2013 22:38:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/americana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytics</title>
+      <link>http://vielmetti.github.io/categories/analytics/</link>
+      <pubDate>Wed, 02 Apr 2014 22:37:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://vielmetti.github.io/categories/android/</link>
+      <pubDate>Tue, 30 Sep 2014 08:44:40 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor/</link>
+      <pubDate>Thu, 25 Jun 2015 21:18:11 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor City Council</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor-city-council/</link>
+      <pubDate>Mon, 04 May 2015 05:12:43 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor-city-council/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor City Planning Commission</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor-city-planning-commission/</link>
+      <pubDate>Tue, 01 Jul 2014 22:25:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor-city-planning-commission/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Daily Telegraph</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor-daily-telegraph/</link>
+      <pubDate>Tue, 18 Sep 2012 11:25:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor-daily-telegraph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Downtown Development Authority</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor-downtown-development-authority/</link>
+      <pubDate>Sat, 20 Sep 2014 13:49:55 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor-downtown-development-authority/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Farmers Market</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor-farmers-market/</link>
+      <pubDate>Sat, 27 Sep 2014 11:08:44 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor-farmers-market/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Public Schools</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor-public-schools/</link>
+      <pubDate>Wed, 10 Jun 2015 23:20:12 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor-public-schools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Arbor Transportation Authority</title>
+      <link>http://vielmetti.github.io/categories/ann-arbor-transportation-authority/</link>
+      <pubDate>Fri, 25 Jan 2013 10:32:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ann-arbor-transportation-authority/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apples</title>
+      <link>http://vielmetti.github.io/categories/apples/</link>
+      <pubDate>Mon, 28 Oct 2013 10:10:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/apples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>April</title>
+      <link>http://vielmetti.github.io/categories/april/</link>
+      <pubDate>Sun, 07 Apr 2013 22:21:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/april/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arborwiki</title>
+      <link>http://vielmetti.github.io/categories/arborwiki/</link>
+      <pubDate>Fri, 02 May 2014 14:18:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/arborwiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Art</title>
+      <link>http://vielmetti.github.io/categories/art/</link>
+      <pubDate>Sat, 25 Jan 2014 23:53:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>August</title>
+      <link>http://vielmetti.github.io/categories/august/</link>
+      <pubDate>Sun, 25 Aug 2013 22:13:19 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/august/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aviation</title>
+      <link>http://vielmetti.github.io/categories/aviation/</link>
+      <pubDate>Tue, 24 Mar 2015 18:44:16 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/aviation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Back To School</title>
+      <link>http://vielmetti.github.io/categories/back-to-school/</link>
+      <pubDate>Mon, 09 Feb 2009 00:18:28 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/back-to-school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Baseball</title>
+      <link>http://vielmetti.github.io/categories/baseball/</link>
+      <pubDate>Tue, 15 Oct 2013 21:01:28 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/baseball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>http://vielmetti.github.io/categories/bitcoin/</link>
+      <pubDate>Mon, 29 Jun 2015 02:31:08 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bloggers Secret</title>
+      <link>http://vielmetti.github.io/categories/bloggers-secret/</link>
+      <pubDate>Mon, 23 Dec 2013 01:32:13 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/bloggers-secret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blueberries</title>
+      <link>http://vielmetti.github.io/categories/blueberries/</link>
+      <pubDate>Tue, 03 Jul 2012 21:21:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/blueberries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>http://vielmetti.github.io/categories/books/</link>
+      <pubDate>Sun, 19 Jul 2015 14:01:15 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Botany</title>
+      <link>http://vielmetti.github.io/categories/botany/</link>
+      <pubDate>Tue, 07 Jan 2014 23:25:40 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/botany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridges</title>
+      <link>http://vielmetti.github.io/categories/bridges/</link>
+      <pubDate>Sat, 09 Aug 2014 21:44:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/bridges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calendar</title>
+      <link>http://vielmetti.github.io/categories/calendar/</link>
+      <pubDate>Tue, 04 Dec 2007 22:37:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/calendar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calendars</title>
+      <link>http://vielmetti.github.io/categories/calendars/</link>
+      <pubDate>Thu, 05 Jan 2012 20:16:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/calendars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canada</title>
+      <link>http://vielmetti.github.io/categories/canada/</link>
+      <pubDate>Fri, 14 Mar 2014 00:07:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/canada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categorization</title>
+      <link>http://vielmetti.github.io/categories/categorization/</link>
+      <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/categorization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chicago</title>
+      <link>http://vielmetti.github.io/categories/chicago/</link>
+      <pubDate>Sun, 12 Oct 2014 13:47:35 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/chicago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>China</title>
+      <link>http://vielmetti.github.io/categories/china/</link>
+      <pubDate>Wed, 23 Oct 2013 16:32:54 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/china/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christmas</title>
+      <link>http://vielmetti.github.io/categories/christmas/</link>
+      <pubDate>Wed, 25 Dec 2013 01:14:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/christmas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>http://vielmetti.github.io/categories/code/</link>
+      <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coffee</title>
+      <link>http://vielmetti.github.io/categories/coffee/</link>
+      <pubDate>Mon, 14 Oct 2013 23:40:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/coffee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Colorado</title>
+      <link>http://vielmetti.github.io/categories/colorado/</link>
+      <pubDate>Wed, 18 Sep 2013 21:58:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/colorado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://vielmetti.github.io/categories/community/</link>
+      <pubDate>Sat, 16 Mar 2013 23:14:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coworking</title>
+      <link>http://vielmetti.github.io/categories/coworking/</link>
+      <pubDate>Mon, 30 Jul 2012 15:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/coworking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Current Affairs</title>
+      <link>http://vielmetti.github.io/categories/current-affairs/</link>
+      <pubDate>Fri, 22 Oct 2010 19:30:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/current-affairs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>December</title>
+      <link>http://vielmetti.github.io/categories/december/</link>
+      <pubDate>Sat, 21 Dec 2013 16:28:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/december/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>http://vielmetti.github.io/categories/design/</link>
+      <pubDate>Sat, 01 Aug 2015 14:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detroit</title>
+      <link>http://vielmetti.github.io/categories/detroit/</link>
+      <pubDate>Wed, 11 Dec 2013 23:58:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/detroit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detroit Tigers</title>
+      <link>http://vielmetti.github.io/categories/detroit-tigers/</link>
+      <pubDate>Mon, 30 Jun 2014 23:54:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/detroit-tigers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dioxane</title>
+      <link>http://vielmetti.github.io/categories/dioxane/</link>
+      <pubDate>Tue, 26 Nov 2013 08:12:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/dioxane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discardia</title>
+      <link>http://vielmetti.github.io/categories/discardia/</link>
+      <pubDate>Tue, 02 Sep 2014 17:05:19 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/discardia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://vielmetti.github.io/categories/docker/</link>
+      <pubDate>Mon, 22 Jun 2015 16:53:10 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Earthquakes</title>
+      <link>http://vielmetti.github.io/categories/earthquakes/</link>
+      <pubDate>Sat, 02 May 2015 12:39:48 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/earthquakes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>http://vielmetti.github.io/categories/economics/</link>
+      <pubDate>Wed, 08 May 2013 13:09:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edmund Fitzgerald</title>
+      <link>http://vielmetti.github.io/categories/edmund-fitzgerald/</link>
+      <pubDate>Mon, 10 Nov 2014 01:00:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/edmund-fitzgerald/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Election Results</title>
+      <link>http://vielmetti.github.io/categories/election-results/</link>
+      <pubDate>Tue, 06 Nov 2012 11:35:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/election-results/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environment</title>
+      <link>http://vielmetti.github.io/categories/environment/</link>
+      <pubDate>Sun, 05 Oct 2008 22:45:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>http://vielmetti.github.io/categories/events/</link>
+      <pubDate>Tue, 30 Sep 2014 17:46:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expert</title>
+      <link>http://vielmetti.github.io/categories/expert/</link>
+      <pubDate>Wed, 12 Mar 2014 21:32:29 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/expert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Farmers Market</title>
+      <link>http://vielmetti.github.io/categories/farmers-market/</link>
+      <pubDate>Mon, 18 May 2009 14:32:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/farmers-market/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fathers Day</title>
+      <link>http://vielmetti.github.io/categories/fathers-day/</link>
+      <pubDate>Tue, 14 Jun 2011 16:09:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/fathers-day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>February</title>
+      <link>http://vielmetti.github.io/categories/february/</link>
+      <pubDate>Sat, 02 Feb 2013 06:35:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/february/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback Loop</title>
+      <link>http://vielmetti.github.io/categories/feedback-loop/</link>
+      <pubDate>Thu, 23 Aug 2012 17:33:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/feedback-loop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Festifools</title>
+      <link>http://vielmetti.github.io/categories/festifools/</link>
+      <pubDate>Sat, 06 Apr 2013 14:05:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/festifools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fire</title>
+      <link>http://vielmetti.github.io/categories/fire/</link>
+      <pubDate>Fri, 03 Jan 2014 12:39:11 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/fire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fitness</title>
+      <link>http://vielmetti.github.io/categories/fitness/</link>
+      <pubDate>Fri, 08 Aug 2008 23:30:55 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/fitness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Floods</title>
+      <link>http://vielmetti.github.io/categories/floods/</link>
+      <pubDate>Wed, 30 Apr 2014 16:01:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/floods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Foia</title>
+      <link>http://vielmetti.github.io/categories/foia/</link>
+      <pubDate>Wed, 23 Oct 2013 12:03:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/foia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food And Drink</title>
+      <link>http://vielmetti.github.io/categories/food-and-drink/</link>
+      <pubDate>Tue, 02 Jun 2015 00:25:49 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/food-and-drink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freedom Of Information Act</title>
+      <link>http://vielmetti.github.io/categories/freedom-of-information-act/</link>
+      <pubDate>Fri, 27 Dec 2013 09:47:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/freedom-of-information-act/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Futurism</title>
+      <link>http://vielmetti.github.io/categories/futurism/</link>
+      <pubDate>Sun, 20 May 2012 21:02:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/futurism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gadgets</title>
+      <link>http://vielmetti.github.io/categories/gadgets/</link>
+      <pubDate>Tue, 29 Jul 2014 11:14:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/gadgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Games</title>
+      <link>http://vielmetti.github.io/categories/games/</link>
+      <pubDate>Mon, 04 Oct 2010 20:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Garlic Mustard</title>
+      <link>http://vielmetti.github.io/categories/garlic-mustard/</link>
+      <pubDate>Tue, 16 Apr 2013 10:37:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/garlic-mustard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geology</title>
+      <link>http://vielmetti.github.io/categories/geology/</link>
+      <pubDate>Thu, 23 Apr 2015 03:55:49 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/geology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global Change</title>
+      <link>http://vielmetti.github.io/categories/global-change/</link>
+      <pubDate>Thu, 26 May 2011 22:06:35 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/global-change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Analytics</title>
+      <link>http://vielmetti.github.io/categories/google-analytics/</link>
+      <pubDate>Fri, 15 Nov 2013 20:06:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gopher</title>
+      <link>http://vielmetti.github.io/categories/gopher/</link>
+      <pubDate>Wed, 08 Oct 2014 13:43:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/gopher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Great Lakes</title>
+      <link>http://vielmetti.github.io/categories/great-lakes/</link>
+      <pubDate>Mon, 09 Nov 2009 14:27:47 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/great-lakes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Great Weird Ideas</title>
+      <link>http://vielmetti.github.io/categories/great-weird-ideas/</link>
+      <pubDate>Fri, 14 Nov 2014 18:27:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/great-weird-ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Halloween</title>
+      <link>http://vielmetti.github.io/categories/halloween/</link>
+      <pubDate>Sat, 29 Oct 2011 08:20:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/halloween/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ham Radio</title>
+      <link>http://vielmetti.github.io/categories/ham-radio/</link>
+      <pubDate>Tue, 24 Jun 2014 11:31:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ham-radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>House And Home</title>
+      <link>http://vielmetti.github.io/categories/house-and-home/</link>
+      <pubDate>Wed, 06 Jun 2012 23:09:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/house-and-home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How To</title>
+      <link>http://vielmetti.github.io/categories/how-to/</link>
+      <pubDate>Wed, 23 Jan 2013 22:42:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://vielmetti.github.io/categories/hugo/</link>
+      <pubDate>Tue, 14 Jul 2015 17:20:08 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huron River</title>
+      <link>http://vielmetti.github.io/categories/huron-river/</link>
+      <pubDate>Tue, 16 Jul 2013 12:40:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/huron-river/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identity</title>
+      <link>http://vielmetti.github.io/categories/identity/</link>
+      <pubDate>Mon, 29 Jun 2009 13:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/identity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ignite Ann Arbor</title>
+      <link>http://vielmetti.github.io/categories/ignite-ann-arbor/</link>
+      <pubDate>Thu, 14 Nov 2013 21:21:28 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ignite-ann-arbor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Security</title>
+      <link>http://vielmetti.github.io/categories/information-security/</link>
+      <pubDate>Mon, 10 Nov 2014 01:48:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/information-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure</title>
+      <link>http://vielmetti.github.io/categories/infrastructure/</link>
+      <pubDate>Mon, 26 Aug 2013 11:34:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/infrastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet History</title>
+      <link>http://vielmetti.github.io/categories/internet-history/</link>
+      <pubDate>Wed, 03 Jul 2013 16:51:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/internet-history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet Of Things</title>
+      <link>http://vielmetti.github.io/categories/internet-of-things/</link>
+      <pubDate>Fri, 03 Oct 2014 09:57:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/internet-of-things/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interurbans</title>
+      <link>http://vielmetti.github.io/categories/interurbans/</link>
+      <pubDate>Mon, 27 Dec 2010 11:15:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/interurbans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>January</title>
+      <link>http://vielmetti.github.io/categories/january/</link>
+      <pubDate>Thu, 08 Jan 2009 10:46:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/january/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>http://vielmetti.github.io/categories/japan/</link>
+      <pubDate>Sun, 22 Apr 2012 02:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jobs</title>
+      <link>http://vielmetti.github.io/categories/jobs/</link>
+      <pubDate>Wed, 10 Sep 2014 22:40:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Journalism</title>
+      <link>http://vielmetti.github.io/categories/journalism/</link>
+      <pubDate>Thu, 19 Sep 2013 14:21:18 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/journalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>July</title>
+      <link>http://vielmetti.github.io/categories/july/</link>
+      <pubDate>Wed, 17 Jul 2013 17:32:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/july/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>June</title>
+      <link>http://vielmetti.github.io/categories/june/</link>
+      <pubDate>Sun, 16 Jun 2013 23:56:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/june/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Juneberry</title>
+      <link>http://vielmetti.github.io/categories/juneberry/</link>
+      <pubDate>Wed, 08 May 2013 11:35:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/juneberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kids</title>
+      <link>http://vielmetti.github.io/categories/kids/</link>
+      <pubDate>Thu, 22 May 2008 16:22:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/kids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leadership</title>
+      <link>http://vielmetti.github.io/categories/leadership/</link>
+      <pubDate>Mon, 03 May 2010 10:20:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lifehacks</title>
+      <link>http://vielmetti.github.io/categories/lifehacks/</link>
+      <pubDate>Sun, 16 Jun 2013 17:39:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/lifehacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lightning</title>
+      <link>http://vielmetti.github.io/categories/lightning/</link>
+      <pubDate>Mon, 24 Oct 2011 05:22:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/lightning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>http://vielmetti.github.io/categories/links/</link>
+      <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maps</title>
+      <link>http://vielmetti.github.io/categories/maps/</link>
+      <pubDate>Wed, 24 Jun 2015 10:39:24 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>March</title>
+      <link>http://vielmetti.github.io/categories/march/</link>
+      <pubDate>Wed, 12 Mar 2014 16:52:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/march/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marginalia</title>
+      <link>http://vielmetti.github.io/categories/marginalia/</link>
+      <pubDate>Thu, 28 Mar 2013 00:54:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/marginalia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>http://vielmetti.github.io/categories/marketing/</link>
+      <pubDate>Mon, 20 Jul 2009 16:17:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marquette Michigan</title>
+      <link>http://vielmetti.github.io/categories/marquette-michigan/</link>
+      <pubDate>Tue, 03 Sep 2013 13:30:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/marquette-michigan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>May</title>
+      <link>http://vielmetti.github.io/categories/may/</link>
+      <pubDate>Fri, 03 May 2013 22:17:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/may/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory</title>
+      <link>http://vielmetti.github.io/categories/memory/</link>
+      <pubDate>Sat, 08 Jun 2013 22:31:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Menu Plan Monday</title>
+      <link>http://vielmetti.github.io/categories/menu-plan-monday/</link>
+      <pubDate>Tue, 31 May 2011 09:59:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/menu-plan-monday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan</title>
+      <link>http://vielmetti.github.io/categories/michigan/</link>
+      <pubDate>Fri, 21 Mar 2014 17:31:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Basketball</title>
+      <link>http://vielmetti.github.io/categories/michigan-basketball/</link>
+      <pubDate>Fri, 29 Mar 2013 22:26:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-basketball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Elections</title>
+      <link>http://vielmetti.github.io/categories/michigan-elections/</link>
+      <pubDate>Thu, 06 Nov 2008 13:35:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-elections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Football</title>
+      <link>http://vielmetti.github.io/categories/michigan-football/</link>
+      <pubDate>Wed, 01 Oct 2014 10:51:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-football/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Health Insurance</title>
+      <link>http://vielmetti.github.io/categories/michigan-health-insurance/</link>
+      <pubDate>Sun, 11 Jan 2009 00:07:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-health-insurance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Hockey</title>
+      <link>http://vielmetti.github.io/categories/michigan-hockey/</link>
+      <pubDate>Tue, 03 Apr 2012 06:57:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-hockey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Legislature</title>
+      <link>http://vielmetti.github.io/categories/michigan-legislature/</link>
+      <pubDate>Mon, 04 Feb 2013 23:10:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-legislature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Spiders</title>
+      <link>http://vielmetti.github.io/categories/michigan-spiders/</link>
+      <pubDate>Tue, 25 Nov 2008 11:56:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-spiders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michigan Technological University</title>
+      <link>http://vielmetti.github.io/categories/michigan-technological-university/</link>
+      <pubDate>Sat, 24 Jan 2009 23:01:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/michigan-technological-university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>http://vielmetti.github.io/categories/mobile/</link>
+      <pubDate>Thu, 29 Aug 2013 02:52:25 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movies</title>
+      <link>http://vielmetti.github.io/categories/movies/</link>
+      <pubDate>Thu, 09 May 2013 00:17:25 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Muppets</title>
+      <link>http://vielmetti.github.io/categories/muppets/</link>
+      <pubDate>Sun, 13 Sep 2009 11:49:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/muppets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mushrooms</title>
+      <link>http://vielmetti.github.io/categories/mushrooms/</link>
+      <pubDate>Tue, 15 Apr 2014 23:02:39 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/mushrooms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>http://vielmetti.github.io/categories/music/</link>
+      <pubDate>Mon, 20 Jul 2015 11:13:43 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Needs Photo</title>
+      <link>http://vielmetti.github.io/categories/needs-photo/</link>
+      <pubDate>Fri, 17 Jul 2015 11:03:04 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/needs-photo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nethistory</title>
+      <link>http://vielmetti.github.io/categories/nethistory/</link>
+      <pubDate>Wed, 08 May 2013 17:37:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/nethistory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networks</title>
+      <link>http://vielmetti.github.io/categories/networks/</link>
+      <pubDate>Fri, 31 Jul 2015 02:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Orleans</title>
+      <link>http://vielmetti.github.io/categories/new-orleans/</link>
+      <pubDate>Sat, 30 Aug 2008 18:13:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/new-orleans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Newspapers</title>
+      <link>http://vielmetti.github.io/categories/newspapers/</link>
+      <pubDate>Mon, 21 Nov 2011 23:35:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/newspapers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No Email</title>
+      <link>http://vielmetti.github.io/categories/no-email/</link>
+      <pubDate>Fri, 10 Jun 2011 18:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/no-email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>North Korea</title>
+      <link>http://vielmetti.github.io/categories/north-korea/</link>
+      <pubDate>Sun, 18 Dec 2011 22:36:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/north-korea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>November</title>
+      <link>http://vielmetti.github.io/categories/november/</link>
+      <pubDate>Sun, 06 Nov 2011 23:05:22 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/november/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numbers</title>
+      <link>http://vielmetti.github.io/categories/numbers/</link>
+      <pubDate>Mon, 04 Oct 2010 20:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/numbers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obituaries</title>
+      <link>http://vielmetti.github.io/categories/obituaries/</link>
+      <pubDate>Wed, 04 Mar 2015 20:19:04 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/obituaries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>October</title>
+      <link>http://vielmetti.github.io/categories/october/</link>
+      <pubDate>Mon, 08 Oct 2012 22:45:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/october/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Meetings Act</title>
+      <link>http://vielmetti.github.io/categories/open-meetings-act/</link>
+      <pubDate>Sat, 06 Jun 2009 15:14:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/open-meetings-act/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Os X</title>
+      <link>http://vielmetti.github.io/categories/os-x/</link>
+      <pubDate>Mon, 22 Jun 2015 16:53:10 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/os-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel</title>
+      <link>http://vielmetti.github.io/categories/parallel/</link>
+      <pubDate>Tue, 24 Feb 2009 01:20:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/parallel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parking Structures</title>
+      <link>http://vielmetti.github.io/categories/parking-structures/</link>
+      <pubDate>Tue, 16 Jul 2013 12:19:07 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/parking-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://vielmetti.github.io/categories/people/</link>
+      <pubDate>Thu, 08 May 2008 23:08:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>http://vielmetti.github.io/categories/photography/</link>
+      <pubDate>Wed, 18 Sep 2013 16:50:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poetry</title>
+      <link>http://vielmetti.github.io/categories/poetry/</link>
+      <pubDate>Sat, 16 May 2015 06:20:56 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Politics</title>
+      <link>http://vielmetti.github.io/categories/politics/</link>
+      <pubDate>Thu, 17 Feb 2011 00:33:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poll</title>
+      <link>http://vielmetti.github.io/categories/poll/</link>
+      <pubDate>Tue, 09 Jul 2013 13:43:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/poll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postcard</title>
+      <link>http://vielmetti.github.io/categories/postcard/</link>
+      <pubDate>Tue, 16 Jul 2013 11:58:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/postcard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power Outages</title>
+      <link>http://vielmetti.github.io/categories/power-outages/</link>
+      <pubDate>Wed, 24 Jun 2015 14:40:22 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/power-outages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>http://vielmetti.github.io/categories/productivity/</link>
+      <pubDate>Fri, 07 Aug 2015 23:45:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Professional Associations</title>
+      <link>http://vielmetti.github.io/categories/professional-associations/</link>
+      <pubDate>Tue, 13 Jul 2010 15:28:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/professional-associations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Health</title>
+      <link>http://vielmetti.github.io/categories/public-health/</link>
+      <pubDate>Tue, 08 Oct 2013 21:43:05 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/public-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Meetings</title>
+      <link>http://vielmetti.github.io/categories/public-meetings/</link>
+      <pubDate>Sun, 27 Mar 2011 19:46:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/public-meetings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radio</title>
+      <link>http://vielmetti.github.io/categories/radio/</link>
+      <pubDate>Sun, 19 Jul 2015 12:39:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recipes</title>
+      <link>http://vielmetti.github.io/categories/recipes/</link>
+      <pubDate>Sun, 19 Jul 2015 21:36:25 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/recipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Religion</title>
+      <link>http://vielmetti.github.io/categories/religion/</link>
+      <pubDate>Tue, 17 Jun 2008 23:06:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/religion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Methods</title>
+      <link>http://vielmetti.github.io/categories/research-methods/</link>
+      <pubDate>Thu, 09 Oct 2008 21:45:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/research-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rolodex</title>
+      <link>http://vielmetti.github.io/categories/rolodex/</link>
+      <pubDate>Thu, 25 Sep 2014 17:41:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/rolodex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sandwiches</title>
+      <link>http://vielmetti.github.io/categories/sandwiches/</link>
+      <pubDate>Wed, 07 Dec 2011 01:57:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/sandwiches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science</title>
+      <link>http://vielmetti.github.io/categories/science/</link>
+      <pubDate>Fri, 17 Jul 2009 14:16:09 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://vielmetti.github.io/categories/security/</link>
+      <pubDate>Mon, 03 Mar 2014 16:20:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>September</title>
+      <link>http://vielmetti.github.io/categories/september/</link>
+      <pubDate>Wed, 28 Aug 2013 00:36:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/september/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Small Wins</title>
+      <link>http://vielmetti.github.io/categories/small-wins/</link>
+      <pubDate>Tue, 02 Sep 2014 05:46:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/small-wins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snow Computing</title>
+      <link>http://vielmetti.github.io/categories/snow-computing/</link>
+      <pubDate>Wed, 08 Apr 2009 13:04:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/snow-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Media</title>
+      <link>http://vielmetti.github.io/categories/social-media/</link>
+      <pubDate>Sat, 27 Jun 2015 09:51:25 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spiders</title>
+      <link>http://vielmetti.github.io/categories/spiders/</link>
+      <pubDate>Sun, 05 Oct 2008 22:45:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/spiders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sports</title>
+      <link>http://vielmetti.github.io/categories/sports/</link>
+      <pubDate>Mon, 04 May 2009 08:48:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/sports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stadium Bridges</title>
+      <link>http://vielmetti.github.io/categories/stadium-bridges/</link>
+      <pubDate>Thu, 17 Nov 2011 23:43:47 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/stadium-bridges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strawberries</title>
+      <link>http://vielmetti.github.io/categories/strawberries/</link>
+      <pubDate>Wed, 22 May 2013 13:57:19 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/strawberries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summers Knoll School</title>
+      <link>http://vielmetti.github.io/categories/summers-knoll-school/</link>
+      <pubDate>Wed, 05 Sep 2012 09:39:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/summers-knoll-school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems</title>
+      <link>http://vielmetti.github.io/categories/systems/</link>
+      <pubDate>Fri, 21 Nov 2014 09:05:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telegraph</title>
+      <link>http://vielmetti.github.io/categories/telegraph/</link>
+      <pubDate>Wed, 23 Jul 2008 00:34:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/telegraph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>http://vielmetti.github.io/categories/testing/</link>
+      <pubDate>Wed, 24 Jun 2015 12:58:34 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thanksgiving</title>
+      <link>http://vielmetti.github.io/categories/thanksgiving/</link>
+      <pubDate>Sat, 15 Nov 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/thanksgiving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tornadoes</title>
+      <link>http://vielmetti.github.io/categories/tornadoes/</link>
+      <pubDate>Thu, 07 May 2015 20:44:35 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/tornadoes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Town Fauna</title>
+      <link>http://vielmetti.github.io/categories/town-fauna/</link>
+      <pubDate>Thu, 26 Dec 2013 21:44:12 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/town-fauna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>http://vielmetti.github.io/categories/travel/</link>
+      <pubDate>Fri, 23 Aug 2013 20:13:43 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trebuchet</title>
+      <link>http://vielmetti.github.io/categories/trebuchet/</link>
+      <pubDate>Tue, 21 May 2013 15:17:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/trebuchet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tsunami</title>
+      <link>http://vielmetti.github.io/categories/tsunami/</link>
+      <pubDate>Tue, 01 Apr 2014 20:54:05 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/tsunami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typepad</title>
+      <link>http://vielmetti.github.io/categories/typepad/</link>
+      <pubDate>Tue, 14 Jul 2015 13:33:15 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/typepad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University Of Michigan</title>
+      <link>http://vielmetti.github.io/categories/university-of-michigan/</link>
+      <pubDate>Fri, 04 Apr 2014 10:53:05 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/university-of-michigan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upper Peninsula</title>
+      <link>http://vielmetti.github.io/categories/upper-peninsula/</link>
+      <pubDate>Tue, 03 Sep 2013 13:30:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/upper-peninsula/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urban Chickens</title>
+      <link>http://vielmetti.github.io/categories/urban-chickens/</link>
+      <pubDate>Sun, 21 Jul 2013 20:46:54 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/urban-chickens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usenet</title>
+      <link>http://vielmetti.github.io/categories/usenet/</link>
+      <pubDate>Wed, 15 Oct 2014 08:42:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/usenet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vacuum</title>
+      <link>http://vielmetti.github.io/categories/vacuum/</link>
+      <pubDate>Wed, 27 Mar 2013 12:04:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/vacuum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vacuum Cleaners</title>
+      <link>http://vielmetti.github.io/categories/vacuum-cleaners/</link>
+      <pubDate>Fri, 09 Aug 2013 16:34:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/vacuum-cleaners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wayne State University Law School</title>
+      <link>http://vielmetti.github.io/categories/wayne-state-university-law-school/</link>
+      <pubDate>Mon, 26 Jan 2009 16:36:11 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/wayne-state-university-law-school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather</title>
+      <link>http://vielmetti.github.io/categories/weather/</link>
+      <pubDate>Sun, 02 Aug 2015 16:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/weather/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web/Tech</title>
+      <link>http://vielmetti.github.io/categories/web/tech/</link>
+      <pubDate>Sun, 18 Aug 2013 17:50:36 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/web/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weblogs</title>
+      <link>http://vielmetti.github.io/categories/weblogs/</link>
+      <pubDate>Sun, 28 Sep 2014 23:33:33 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/weblogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weird</title>
+      <link>http://vielmetti.github.io/categories/weird/</link>
+      <pubDate>Sun, 23 Jun 2013 16:28:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/weird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wiki</title>
+      <link>http://vielmetti.github.io/categories/wiki/</link>
+      <pubDate>Fri, 26 Sep 2014 16:33:52 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winter</title>
+      <link>http://vielmetti.github.io/categories/winter/</link>
+      <pubDate>Tue, 14 Dec 2010 22:14:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/winter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>http://vielmetti.github.io/categories/writing/</link>
+      <pubDate>Tue, 28 Jul 2015 18:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yooper</title>
+      <link>http://vielmetti.github.io/categories/yooper/</link>
+      <pubDate>Thu, 10 Nov 2011 21:12:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/yooper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ypsilanti</title>
+      <link>http://vielmetti.github.io/categories/ypsilanti/</link>
+      <pubDate>Mon, 12 Aug 2013 10:42:25 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/ypsilanti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zzz Draft Postings</title>
+      <link>http://vielmetti.github.io/categories/zzz-draft-postings/</link>
+      <pubDate>Wed, 25 Jul 2012 00:56:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/categories/zzz-draft-postings/</guid>
+      <description></description>
     </item>
     
   </channel>

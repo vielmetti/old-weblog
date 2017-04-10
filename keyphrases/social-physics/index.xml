@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/social-physics/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Social Physics on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/social-physics/</link>
+    <description>Recent content in Social Physics on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/social-physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Mar 2014 18:32:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/social-physics/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A review of Social Physics: How Good Ideas Spread — The Lessons from a New Science, Alex Pentland</title>
@@ -14,16 +17,8 @@
       <pubDate>Sun, 09 Mar 2014 18:32:41 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-09-a-review-of-social-physics-how-good-ideas-spread-the-lessons-from-a-new-science-alex-pentland/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d8b9061970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a73d8b9061970d img-responsive&#34; alt=&#34;Social-physics&#34; title=&#34;Social-physics&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a73d8b9061970d-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A review of &lt;a href=&#34;http://socialphysics.media.mit.edu/\&#34;&gt;Social Physics&lt;/a&gt;: How Good Ideas Spread — The Lessons from a New Science, Alex Pentland, 2014.&lt;/p&gt;
-
-&lt;p&gt;Pentland and his research group have appeared to have discovered a simple model of human behavior with great predictive power. By snooping on people&#39;s cell phones, they can reduce typical human interactions into a set of interacting finite state machines, and by noticing just how regular those behavioral patterns are they think they understand ideas. Quite evidently the populations they study live routine, predictable lives. (Perhaps we all do.)&lt;/p&gt;
-
-&lt;p&gt;My biggest criticism (&amp;amp; thus the non-recommendation for the book) is that the technologies for making these monitoring of human behavior that Pentland describes are dehumanizing and a grave insult to personal privacy. The authors vague promises of a personal data store that would broker our most personal information are unrealistic. If these plans pan out, we will always be watched over by machines that seek only to predict our patterns of behavior and exploit them. An &lt;a href=&#34;http://www.theatlantic.com/technology/archive/2014/02/welcome-to-algorithmic-prison/283985/&#34;&gt;algorithmic prison&lt;/a&gt; awaits us.&lt;/p&gt;
-
-&lt;p&gt;Every once in a while the author describes unexpected behavior by individuals thus modeled, and betrays an element of surprise that we might step out of our everyday paths into something his system doesn&#39;t contain. It&#39;s a glimmer of hope in a dystopian world that we might surprise our ever-present overseers and do something that their social physics does not anticipate.&lt;/p&gt;
-</description>
+      <description>A review of Social Physics: How Good Ideas Spread — The Lessons from a New Science, Alex Pentland, 2014.
+Pentland and his research group have appeared to have discovered a simple model of human behavior with great predictive power. By snooping on people&#39;s cell phones, they can reduce typical human interactions into a set of interacting finite state machines, and by noticing just how regular those behavioral patterns are they think they understand ideas.</description>
     </item>
     
   </channel>

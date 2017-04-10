@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/cities/ferguson-missouri/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ferguson Missouri on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/cities/ferguson-missouri/</link>
+    <description>Recent content in Ferguson Missouri on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/cities/ferguson-missouri/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Nov 2014 00:09:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/cities/ferguson-missouri/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>No fly zone over Ferguson affects airport traffic at Lambert-St Louis Airport</title>
@@ -14,24 +17,13 @@
       <pubDate>Tue, 25 Nov 2014 00:09:04 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-11-25-no-fly-zone-over-ferguson-affects-airport-traffic-at-lambert-st-louis-airport/</guid>
-      <description>&lt;p&gt;November 25, 2014, midnight. &lt;/p&gt;
+      <description>November 25, 2014, midnight. FAA has issued TFR affecting inbound flights. Airport is still open. Does not impact departures.
+&amp;mdash; Lambert-STL Airport (@flystl) November 25, 2014 
+FAA TFR, NOTAM : 4/0271 Location : FERGUSON, MO, Tuesday, November 25, 2014 UTC. Not for navigation.
 
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;FAA has issued TFR affecting inbound flights. Airport is still open. Does not impact departures.&lt;/p&gt;&amp;mdash; Lambert-STL Airport (@flystl) &lt;a href=&#34;https://twitter.com/flystl/status/537106706791415809&#34;&gt;November 25, 2014&lt;/a&gt;&lt;/blockquote&gt;
+Flightstats shows that traffic is being diverted from the airport.
 
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tfr.faa.gov/save_pages/sect_print_4_0271.html&#34;&gt;FAA TFR, NOTAM : 4/0271 Location : FERGUSON, MO, Tuesday, November 25, 2014 UTC&lt;/a&gt;. Not for navigation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07b45691970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07b45691970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Sect_4_0271&#34; title=&#34;Sect_4_0271&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07b45691970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flightstats.com/go/FlightStatus/flightStatusByAirport.do?airportCode=STL&amp;amp;airportQueryType=1&#34;&gt;Flightstats&lt;/a&gt; shows that traffic is being diverted from the airport.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07b456f2970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01bb07b456f2970d img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Screen Shot 2014-11-25 at 12.07.08 AM&#34; title=&#34;Screen Shot 2014-11-25 at 12.07.08 AM&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01bb07b456f2970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;The FAA has issued a TFR over &lt;a href=&#34;https://twitter.com/hashtag/Ferguson?src=hash&#34;&gt;#Ferguson&lt;/a&gt;. But unlike last time, commercial flights are diverting away from &lt;a href=&#34;https://twitter.com/flystl&#34;&gt;@flystl&lt;/a&gt;. &lt;a href=&#34;http://t.co/NL462dKAdg&#34;&gt;pic.twitter.com/NL462dKAdg&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jason Rabinowitz (@AirlineFlyer) &lt;a href=&#34;https://twitter.com/AirlineFlyer/status/537103307182198784&#34;&gt;November 25, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+The FAA has issued a TFR over #Ferguson. But unlike last time, commercial flights are diverting away from @flystl.</description>
     </item>
     
     <item>
@@ -40,24 +32,9 @@
       <pubDate>Thu, 11 Sep 2014 08:36:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-11-watching-the-ferguson-mo-city-council-meeting-on-fergusonccm/</guid>
-      <description>&lt;p&gt;Some selected accounts here give some flavor of the meeting; I wasn&#39;t watching it end to end, but there was a lot of traffic on the Twitter octothorpe #FergusonCCM that was notable.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nytimes.com/2014/09/10/us/outrage-and-calls-for-change-follow-ferguson-officials-into-council-meeting.html?_r=0&#34;&gt;New York Times&lt;/a&gt;: &#34;Outrage and Calls for Change Follow Ferguson Officials Into Council Meeting&#34;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;FERGUSON, Mo. — The first Ferguson City Council meeting since the police killing of Michael Brown one month ago erupted on Tuesday into an outpouring of grievances — accusations of racism, police harassment and government incompetence — as hundreds of residents made angry appeals for change.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.dailydot.com/politics/ferguson-city-council-meeting-on-twitter/&#34;&gt;Daily Dot&lt;/a&gt; account pulls in tweets from the meeting. &#34;Tweets chronicle disastrous Ferguson City Council meeting&#34;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&#34;What about Mike Brown?&#34;&lt;/p&gt;
-  
-  &lt;p&gt;It was one of the first questions posed at last night&#39;s tense city council meeting in Ferguson, Mo.—the first meeting since protests began a month ago over the death of Mike Brown.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you like tweets from city council meetings, there is a regular crew that tweets #a2council for the Ann Arbor City Council, and #oakmtg for the Oakland California municipal meetings.&lt;/p&gt;
-</description>
+      <description>Some selected accounts here give some flavor of the meeting; I wasn&#39;t watching it end to end, but there was a lot of traffic on the Twitter octothorpe #FergusonCCM that was notable.
+New York Times: &#34;Outrage and Calls for Change Follow Ferguson Officials Into Council Meeting&#34;
+ FERGUSON, Mo. — The first Ferguson City Council meeting since the police killing of Michael Brown one month ago erupted on Tuesday into an outpouring of grievances — accusations of racism, police harassment and government incompetence — as hundreds of residents made angry appeals for change.</description>
     </item>
     
     <item>
@@ -66,17 +43,7 @@
       <pubDate>Thu, 21 Aug 2014 20:06:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-08-21-making-sense-of-ferguson-missouri-via-the-st-louis-localwiki/</guid>
-      <description>&lt;p&gt;The St Louis, Missouri Localwiki - &lt;a href=&#34;http://localwiki.net/st-louis&#34;&gt;http://localwiki.net/st-louis&lt;/a&gt; - was mostly empty when the events in Ferguson, MO started on August 9, 2014 with the death of 18 year old student Michael Brown. As with any event where there&#39;s a lot that&#39;s going on in an unfamiliar area, I was drawn to making some sense of what was happening. This has been especially true when the coverage on the #&lt;a href=&#34;http://twitter.com/hashtag/ferguson&#34;&gt;ferguson&lt;/a&gt; hashtag overwhelmed my Twitter feed, which had been usually quiet at night.&lt;/p&gt;
-
-&lt;p&gt;The Localwiki crew - including Jason Denizac, Marina Kukso, Philip Neustrom, James Halliday, and others have been super helpful in filling in the blanks on the Localwiki map around Ferguson. It&#39;s been helpful to get one step away from the relentless outsider media scrum and read background pieces by local journalists from places like the 
-&lt;a href=&#34;http://localwiki.net/st-louis/Riverfront_Times&#34;&gt;Riverfront Times&lt;/a&gt;, the 
-&lt;a href=&#34;http://localwiki.net/st-louis/St._Louis_American&#34;&gt;St. Louis American&lt;/a&gt;, and the 
-&lt;a href=&#34;http://localwiki.net/st-louis/St._Louis_Post-Dispatch&#34;&gt;St. Louis Post-Dispatch&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;Writing and editing a localwiki has been a helpful way for me to process some of the difficult things that have gone on. It turns a helpless feeling into some sort of community engagement. I am conscious that I&#39;m not always going to be engaged in this effort at the level that I am now, so there&#39;s some extra care not to leave too many loose ends in the process. As of this writing (August 21, 2014) there are about 150 pages in the St. Louis Localwiki, which is just barely a start.&lt;/p&gt;
-
-&lt;p&gt;Ideally someone local to the scene would eventually happen upon the localwiki and find it useful, or someone who was comfortable in the localwiki space would move to the area and be drawn to it as a way to document their surroundings. To some extent I feel like as much of an outside tourist as the news media that parachuted into the area to cover events; yet it doesn&#39;t really feel that way so much. Time will tell.&lt;/p&gt;
-</description>
+      <description>The St Louis, Missouri Localwiki - http://localwiki.net/st-louis - was mostly empty when the events in Ferguson, MO started on August 9, 2014 with the death of 18 year old student Michael Brown. As with any event where there&#39;s a lot that&#39;s going on in an unfamiliar area, I was drawn to making some sense of what was happening. This has been especially true when the coverage on the #ferguson hashtag overwhelmed my Twitter feed, which had been usually quiet at night.</description>
     </item>
     
     <item>
@@ -85,34 +52,10 @@
       <pubDate>Wed, 13 Aug 2014 21:45:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-08-13-august-13-2014-live-from-ferguson-mo/</guid>
-      <description>&lt;p&gt;August 13, 2014: The events in Ferguson, Missouri continue to be tense. This is a developing situation.&lt;/p&gt;
-
-&lt;p&gt;2020 CST approx: LRAD noisemakers deployed. All live feeds appear to have gone down.&lt;/p&gt;
-
-&lt;p&gt;Live on the scene with Twitter photos and Vine videos is &lt;a href=&#34;https://twitter.com/AntonioFrench&#34;&gt;Antonio French&lt;/a&gt;, a St Louis alderman; he&#39;s been there since the start and is a trusted local voice.&lt;/p&gt;
-
-&lt;p&gt;Video feed, live: &lt;a href=&#34;http://www.ustream.tv/realalexjones&#34;&gt;The Real Alex Jones&lt;/a&gt;. Jones is a 9/11 truther and a conspiracy theorist; as of 2035 CST his feed is broadcasting in front of the QT. At approx 2040 the police give an order to disperse immediately; then there is loud noise and what sounds like tear gas. &lt;/p&gt;
-
-&lt;p&gt;Video feeds, live: &lt;a href=&#34;http://www.livestream.com/activistworldnewsnow&#34;&gt;Activist World News Now&lt;/a&gt; has the Alex Jones feed plus a second feed.&lt;/p&gt;
-
-&lt;p&gt;Television news: &lt;a href=&#34;http://fox2now.com/on-air/live-streaming-2/&#34;&gt;Fox 2 News live stream&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Radio interview: Robert Siegal &lt;a href=&#34;http://www.npr.org/2014/08/13/340153388/between-fergusons-police-and-population-a-racial-divide&#34;&gt;interviews&lt;/a&gt; Patricia Bynes &lt;a href=&#34;http://www.twitter.com/patricialicious&#34;&gt;@patricilicious&lt;/a&gt; about the situation for All Things Considered. 4 minutes.&lt;/p&gt;
-
-&lt;p&gt;Public records request: &lt;a href=&#34;http://www.aclu-mo.org/files/7914/0796/6939/2014-08-12_Sunshine_Request_2.pdf&#34;&gt;ACLU of Missouri&lt;/a&gt; request for incident report for Michael Brown death.&lt;/p&gt;
-
-&lt;p&gt;Huffington Post reporter, Washington Post reporter arrested. &lt;/p&gt;
-
-&lt;p&gt;Story, &lt;a href=&#34;http://www.huffingtonpost.com/2014/08/13/reporters-arrested-ferguson-ryan-reilly-wesley-lowery_n_5676841.html?utm_hp_ref=tw&#34;&gt;Huffington Post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;Ryan Reilly, the justice correspondent for The Huffington Post, and Washington Post reporter Wesley Lowery were working in a McDonald&#39;s when a SWAT team suddenly invaded the restaurant. Lowery said that Reilly had been &#34;assaulted&#34; by the officers, and that both of them had been detained. Reilly said that police told them that they were held for &#34;not packing their bags quick enough.&#34;&lt;/blockquote&gt;
-
-&lt;p&gt;Story, &lt;a href=&#34;http://www.washingtonpost.com/news/post-nation/wp/2014/08/13/washington-post-reporter-arrested-in-ferguson/?hpid=z3&#34;&gt;Washington Post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;Wesley Lowery, a reporter for The Washington Post who has been reporting on the unrest in Ferguson, Mo., was detained Wednesday evening by police in Ferguson. He and other reporters were working in a McDonald’s in Ferguson when about half a dozen police officers came into the restaurant, Lowery said. Some officers were in regular uniforms, while others were dressed in riot gear and carrying assault weapons. “It was tense,” Lowery said via telephone from the police station on Wednesday night. “I’ve been afraid several times while reporting on the ground here in Ferguson.”&lt;/blockquote&gt;
-
-&lt;p&gt;Scanners: &lt;a href=&#34;http://www.broadcastify.com/listen/ctid/1573&#34;&gt;St Louis County scanners on Broadcastify&lt;/a&gt;. Many public safety scanners are offline.&lt;/p&gt;
-</description>
+      <description>August 13, 2014: The events in Ferguson, Missouri continue to be tense. This is a developing situation.
+2020 CST approx: LRAD noisemakers deployed. All live feeds appear to have gone down.
+Live on the scene with Twitter photos and Vine videos is Antonio French, a St Louis alderman; he&#39;s been there since the start and is a trusted local voice.
+Video feed, live: The Real Alex Jones. Jones is a 9/11 truther and a conspiracy theorist; as of 2035 CST his feed is broadcasting in front of the QT.</description>
     </item>
     
     <item>
@@ -121,32 +64,9 @@
       <pubDate>Sun, 10 Aug 2014 22:16:13 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-08-10-listening-to-unrest-in-ferguson-mo-via-st-ann-mo-police-scanner/</guid>
-      <description>&lt;p&gt;August 10-11, 2014: It&#39;s a tense night in Ferguson, MO after last night&#39;s &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2014/08/ferguson-missouri-police-shoot-unarmed-student-michael-brown-18.html&#34;&gt;shooting of 18 year old Michael Brown.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;News account from the St Louis Post Dispatch, with photos: &lt;a href=&#34;http://www.stltoday.com/news/local/crime-and-courts/violence-breaks-out-near-site-of-vigil-for-teen-killed/article_f9d627dc-e3c8-5bde-b2ab-7f0a3d36a083.html&#34;&gt;Violence breaks out near site of vigil for teen killed by police&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-FERGUSON •  A day of protests and vigils Sunday for an unarmed black teenager who was shot to death by a Ferguson police officer erupted Sunday night with confrontations, looting and gunshots.
-&lt;/blockquote&gt;
-
-&lt;p&gt;To follow what&#39;s happening:&lt;/p&gt;
-
-&lt;p&gt;Scanner: The &lt;a href=&#34;http://www.broadcastify.com/listen/feed/11732&#34;&gt;St. Ann Police&lt;/a&gt; scanner feed has police activity. Canine units, riot gear being staged at a Target at this writing (21:40 Central Time). Scanner feed offline (23:06 CT). Broadcastify has &lt;a href=&#34;http://www.broadcastify.com/listen/ctid/1573&#34;&gt;St Louis County scanner feeds&lt;/a&gt; from multiple agencies. &lt;a href=&#34;http://www.broadcastify.com/listen/feed/4176&#34;&gt;N St Louis County Fire and EMS&lt;/a&gt; online (23:15 CT).&lt;/p&gt;
-
-&lt;p&gt;Twitter: St Louis alderman &lt;a href=&#34;https://twitter.com/AntonioFrench&#34;&gt;Antonio French&lt;/a&gt; is on the scene with measured commentary. He&#39;s also using Vine to provide frequent brief video clips from the scene.&lt;/p&gt;
-
-&lt;p&gt;Twitter: Patricia Bynes, &lt;a href=&#34;https://twitter.com/patricialicious&#34;&gt;@patricialicious&lt;/a&gt;, Democratic Committeewoman of Ferguson Township in St Louis County in MO. &lt;/p&gt;
-
-&lt;p&gt;Twitter: Brittany Noble, &lt;a href=&#34;https://twitter.com/BrittanyNoble&#34;&gt;@BrittanyNoble&lt;/a&gt;, KMOV reporter. &lt;/p&gt;
-
-&lt;p&gt;Twitter: The #ferguson hashtag, monitored via tchat.io: &lt;a href=&#34;http://www.tchat.io/rooms/ferguson&#34;&gt;http://www.tchat.io/rooms/ferguson&lt;/a&gt; monitored via the web app: &lt;a href=&#34;https://twitter.com/hashtag/ferguson&#34;&gt;https://twitter.com/hashtag/ferguson&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;News media: &lt;a href=&#34;http://new.livestream.com/ktvi/live&#34;&gt;KTVI Live&lt;/a&gt;, Fox 2 News. Live news stream via a cell phone camera of the scene.&lt;/p&gt;
-
-&lt;p&gt;News media: &lt;a href=&#34;http://hot1041stl.com/&#34;&gt;Hot 104.1&lt;/a&gt; is the St Louis MO hip hop station that has been covering the situation from the perspective of the community. Twitter at &lt;a href=&#34;https://twitter.com/Hot1041&#34;&gt;@Hot1041&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6224.393245579416!2d-90.278119!3d38.73624999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df4a20f20fed21%3A0x7aed46ed323f05a4!2sW+Florissant+Ave+%26+Ferguson+Ave%2C+Ferguson%2C+MO+63136!5e0!3m2!1sen!2sus!4v1407726831348&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34;&gt;&lt;/iframe&gt;
-</description>
+      <description>August 10-11, 2014: It&#39;s a tense night in Ferguson, MO after last night&#39;s shooting of 18 year old Michael Brown.
+News account from the St Louis Post Dispatch, with photos: Violence breaks out near site of vigil for teen killed by police.
+ FERGUSON • A day of protests and vigils Sunday for an unarmed black teenager who was shot to death by a Ferguson police officer erupted Sunday night with confrontations, looting and gunshots.</description>
     </item>
     
     <item>
@@ -155,46 +75,14 @@ FERGUSON •  A day of protests and vigils Sunday for an unarmed black teenager 
       <pubDate>Sat, 09 Aug 2014 22:45:47 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-08-09-ferguson-missouri-police-shoot-unarmed-student-michael-brown-18/</guid>
-      <description>&lt;p&gt;Who: Michael Brown, age 18.&lt;/p&gt;
-
-&lt;p&gt;What: Shot by Ferguson, Missouri police.&lt;/p&gt;
-
-&lt;p&gt;When: Brown was walking, unarmed, at 2:15 p.m. on Saturday, August 19, 2014.&lt;/p&gt;
-
-&lt;p&gt;Where: Ferguson, MO is 20 minutes northwest of St. Louis, MO.&lt;/p&gt;
-
-&lt;p&gt;Why: Unknown. The unnamed officer has been put on paid leave, and the St. Louis County, MO  Police will investigate.&lt;/p&gt;
-
-&lt;p&gt;Media:&lt;/p&gt;
-
-&lt;p&gt;KMOV 4, St Louis. &lt;a href=&#34;http://www.kmov.com/news/local/Heavy-police-presence--270609091.html&#34;&gt;Heavy police presence in Ferguson after fatal officer-involved shooting&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-    According to Stark, there are at least 100 police cars and numerous officers armed with M-16&#39;s in the area. Stark also says hundreds of people have gathered at the intersection of West Florissant Avenue and Canfield Drive to protest the incident. A large police force from 15 different departments responded, including riot-control officers.   
-&lt;/blockquote&gt;
-
-&lt;p&gt;St Louis Post Dispatch. &lt;a href=&#34;http://www.stltoday.com/news/local/crime-and-courts/calm-returns-to-scene-of-ferguson-shooting/article_04e3885b-4131-5e49-b784-33cd3acbe7f1.html&#34;&gt;Calm returns to scene of Ferguson shooting&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-FERGUSON • An uneasy peace has again settled over the Ferguson apartment complex where a recent Normandy High School graduate was shot dead Saturday afternoon by a Ferguson police officer.
-
-Tensions had flared briefly as darkness settled over the shooting site on Canfield Drive.
-
-But the scene is again calm, according to eyewitnesses.  
-&lt;/blockquote&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;The police have come into the community with dogs. &lt;a href=&#34;https://twitter.com/hashtag/ferguson?src=hash&#34;&gt;#ferguson&lt;/a&gt; &lt;a href=&#34;http://t.co/QWhlu0xEtB&#34;&gt;pic.twitter.com/QWhlu0xEtB&lt;/a&gt;&lt;/p&gt;&amp;mdash; The Dream Defenders (@Dreamdefenders) &lt;a href=&#34;https://twitter.com/Dreamdefenders/statuses/498292200955195392&#34;&gt;August 10, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Follow on Twitter:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/AntonioFrench&#34;&gt;@AntonioFrench&lt;/a&gt;, St Louis alderman.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;Protestors outside &lt;a href=&#34;https://twitter.com/hashtag/Ferguson?src=hash&#34;&gt;#Ferguson&lt;/a&gt; police department headquarters right now &lt;a href=&#34;http://t.co/sjHMxSulha&#34;&gt;pic.twitter.com/sjHMxSulha&lt;/a&gt;&lt;/p&gt;&amp;mdash; Antonio French (@AntonioFrench) &lt;a href=&#34;https://twitter.com/AntonioFrench/statuses/498302254190166016&#34;&gt;August 10, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>Who: Michael Brown, age 18.
+What: Shot by Ferguson, Missouri police.
+When: Brown was walking, unarmed, at 2:15 p.m. on Saturday, August 19, 2014.
+Where: Ferguson, MO is 20 minutes northwest of St. Louis, MO.
+Why: Unknown. The unnamed officer has been put on paid leave, and the St. Louis County, MO Police will investigate.
+Media:
+KMOV 4, St Louis. Heavy police presence in Ferguson after fatal officer-involved shooting.
+ According to Stark, there are at least 100 police cars and numerous officers armed with M-16&#39;s in the area.</description>
     </item>
     
   </channel>

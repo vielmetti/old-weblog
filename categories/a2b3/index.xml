@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/a2b3/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>A2b3 on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/a2b3/</link>
+    <description>Recent content in A2b3 on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/a2b3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2015 12:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/a2b3/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>a2b3 lunch non-summary at Blue Nile for 30 July 2015</title>
@@ -14,45 +17,8 @@
       <pubDate>Thu, 30 Jul 2015 12:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-30-a2b3-lunch-nonsummary/</guid>
-      <description>&lt;p&gt;Nice lunch today at the Blue Nile. We had 10 people for lunch, including two
-people (Azita Azadi and Tom Meloche) who had moved back to town from far away.
-I had the vegetarian plate which was delicious (love me some injera).&lt;/p&gt;
-
-&lt;p&gt;The question of the day was regarding postcards, something I&amp;rsquo;m thinking about
-quite a bit. With a modest (but still too big) amount of effort I can launch
-a postcard from the command line of my Mac. It&amp;rsquo;s got to be easier (so I don&amp;rsquo;t
-have to look up command line options) but the basic structure works pretty well.&lt;/p&gt;
-
-&lt;p&gt;Postcards are archaic, perhaps, and also perhaps more expensive per each than
-reaching someone through Facebook advertising. I do have to say though that I
-love sending them, and love receiving them in return. I&amp;rsquo;d love to do the experiment
-of $20 spent on Facebook vs $20 spent on postcards, and wonder what the return
-would be; or better yet, $20 spent on each and identify particular synergies between
-super-high-tech and old-fashioned.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;The card I got in the mail today was from Peter Honeyman and Lynn Chamberlain,
-two of my faithful correspondents. They sent a photo of the Pickle Barrel House Museum
-in Grand Marais, Michigan. The historic marker there reads:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Pioneer Cooperage Company of Chicago designed this small
-vacation cottage, which stood on the shores of nearby Sable Lake
-from 1926 until about 1937. It was built for William Donahey, creator
-of the Chicago Tribune cartoon story The Teenie Weenies. The house
-was constructed as a typical barrel would have been, only on a much
-larger scale. The main barrel contained a living area on the first
-floor and a bedroom on the second. A pantry connected this barrel
-to a smaller single-story one, which housed a kitchen. Donahey spent
-ten summers at the cottage with his wife, Mary, herself a noted
-author of children&amp;rsquo;s books. The structure was then moved to its
-current site and used as a tourist information center. The Pickle
-Barrel House is listed in the National Register of Historic Places.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Sounds like a destination for next time!&lt;/p&gt;
-</description>
+      <description>Nice lunch today at the Blue Nile. We had 10 people for lunch, including two people (Azita Azadi and Tom Meloche) who had moved back to town from far away. I had the vegetarian plate which was delicious (love me some injera).
+The question of the day was regarding postcards, something I&amp;rsquo;m thinking about quite a bit. With a modest (but still too big) amount of effort I can launch a postcard from the command line of my Mac.</description>
     </item>
     
     <item>
@@ -61,31 +27,8 @@ Barrel House is listed in the National Register of Historic Places.&lt;/p&gt;
       <pubDate>Thu, 16 Jul 2015 11:22:36 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-16-a2b3-lunch-at-ayses/</guid>
-      <description>&lt;p&gt;Eight of us met for lunch at &lt;a href=&#34;http://aysesturkishcafe.com/&#34;&gt;Ayse&amp;rsquo;s&lt;/a&gt; today. It was a normal
-Thursday in that regard, as that&amp;rsquo;s a pretty typical size for
-the lunch group these days.&lt;/p&gt;
-
-&lt;p&gt;We talked at question time about how we get big chunks of time
-to work on projects. One answer was to work early in the morning
-or late at night when there were fewer distractions. Gyll, a
-remodeling contractor, mentioned the use of checklists to make
-sure that the things that needed to get done got done. Among the
-tasks that took up lots more time than they deserved included
-dealing with the health insurance marketplace and with other
-healthcare providers for dealing with billing and accounting problems.&lt;/p&gt;
-
-&lt;p&gt;Three of the people at lunch were new to the table, but since Ann
-Arbor is bascially a small town, it was not a surprise to me that
-I had easily identifiable mutual friends with two of them.&lt;/p&gt;
-
-&lt;p&gt;Food was delicious, well prepared and well presented.&lt;/p&gt;
-
-&lt;p&gt;Next week we&amp;rsquo;ll be back at &lt;a href=&#34;https://localwiki.org/ann-arbor/Madras_Masala&#34;&gt;Madras Masala&lt;/a&gt;, as art fair will have
-ended and town will be more back to normal.&lt;/p&gt;
-
-&lt;p&gt;The big event coming up is &lt;a href=&#34;http://www.makerfairedetroit.com/&#34;&gt;Maker Faire Detroit&lt;/a&gt;, to be held at The
-Henry Ford in Dearborn.&lt;/p&gt;
-</description>
+      <description>Eight of us met for lunch at Ayse&amp;rsquo;s today. It was a normal Thursday in that regard, as that&amp;rsquo;s a pretty typical size for the lunch group these days.
+We talked at question time about how we get big chunks of time to work on projects. One answer was to work early in the morning or late at night when there were fewer distractions. Gyll, a remodeling contractor, mentioned the use of checklists to make sure that the things that needed to get done got done.</description>
     </item>
     
     <item>
@@ -94,8 +37,7 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Sat, 25 Apr 2015 03:59:20 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-04-25-a2b3-lunch-non-summary-for-4th-thursday-of-april-at-argus-farm-stop/</guid>
-      <description>&lt;p&gt;A nice lunch at &lt;a href=&#34;http://argusfarmstop.com&#34;&gt;Argus Farm Stop&lt;/a&gt;. I bought bread for the table, John Harnois supplied hard-boiled duck eggs from &lt;a href=&#34;https://localwiki.org/ann-arbor/Harnois_Farm&#34;&gt;Harnois Farm&lt;/a&gt;, and we had 9 at the table.&lt;/p&gt;
-</description>
+      <description>A nice lunch at Argus Farm Stop. I bought bread for the table, John Harnois supplied hard-boiled duck eggs from Harnois Farm, and we had 9 at the table.</description>
     </item>
     
     <item>
@@ -104,10 +46,8 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Fri, 24 Oct 2014 20:56:18 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-10-24-from-a2b3-this-week-at-ayses-courtyard-cafe/</guid>
-      <description>&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;he’s ed &lt;a href=&#34;https://twitter.com/vielmetti&#34;&gt;@vielmetti&lt;/a&gt;. he organizes lunch. &lt;a href=&#34;http://t.co/wUAWmeGgcX&#34;&gt;pic.twitter.com/wUAWmeGgcX&lt;/a&gt;&lt;/p&gt;&amp;mdash; peter honeyman (@peterhoneyman) &lt;a href=&#34;https://twitter.com/peterhoneyman/status/525316870463684608&#34;&gt;October 23, 2014&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>he’s ed @vielmetti. he organizes lunch. pic.twitter.com/wUAWmeGgcX
+&amp;mdash; peter honeyman (@peterhoneyman) October 23, 2014</description>
     </item>
     
     <item>
@@ -116,26 +56,8 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Thu, 11 Sep 2014 07:26:19 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-09-11-25-years-of-professionals-eating-lunch-together-on-a-regular-basis/</guid>
-      <description>&lt;p&gt;I wrote up a piece about how you might rewrite your resume to provide a &#34;retcon&#34; (&#34;retroactive continuity&#34;) treatment, which emphasizes reinterpreting past events in such a way that they look like part of a story with a narrative arc.&lt;/p&gt;
-
-&lt;p&gt;That got me to thinking about lunch, of course, and the little hoary old story I tell about when the a2b3 group started &#34;8 years ago&#34;. And I realize now that I can trace back continuity way longer than that.&lt;/p&gt;
-
-&lt;p&gt;Once upon a time, when Sun 3/50s roamed the earth, I worked at OTA Limited Partnership as a systems guy. The company traded options, and I was a junior part of the ops team that kept the trading systems running. I wrote some code, I did some sysadmin work, I debugged flaky Proteon routers, I made sure we had a Usenet newsfeed. Life was pretty good.&lt;/p&gt;
-
-&lt;p&gt;The market was open every hour that lunch was served, so it didn&#39;t really ever make sense to leave the building during trading hours. That mean that lunch was brought in for everyone every single day. We had an elaborate scoring system where instead of you always buying lunch for yourself, you&#39;d buy lunch for the team, and you&#39;d get tally marks on the board to make sure that you properly were credited plus or minus depending on the number of lunches you bought. The bookshelves had a big thick binder full of menus, and we had some favorites. &lt;/p&gt;
-
-&lt;p&gt;That was my first real experience with professionals eating lunch together on a routine basis, and I&#39;m still friends with the OTA crew, long after the last tally mark was erased. That dates to 1989 or so, which means I&#39;ve been eating lunch as a grownup for about 25 years.&lt;/p&gt;
-
-&lt;p&gt;I realize now that if I were ever to get a real job again, one of my interview questions would have to be &#34;what do you do for lunch around here&#34;. If the answer is wrong, I can&#39;t take the job. &lt;/p&gt;
-
-&lt;p&gt;Thanks to David Bloom for prodding me to tell more of a back story, and to my former daily lunch companions at OTA (including specifically John Hritz who is an a2b3 regular) for initiation into a professional lunch ritual.&lt;/p&gt;
-
-&lt;p&gt;You&#39;re invited for lunch at Bell&#39;s Diner on Thursday 9/11. The &lt;a href=&#34;http://www.meetup.com/a2b3-lunch&#34;&gt;a2b3 weekly lunch meetup group&lt;/a&gt; will let you say yes or no; if you&#39;re not coming, I&#39;ll still see your smiling face in the app, and it would be good to hear from you.&lt;/p&gt;
-
-&lt;p&gt;thanks again&lt;/p&gt;
-
-&lt;p&gt;Ed&lt;/p&gt;
-</description>
+      <description>I wrote up a piece about how you might rewrite your resume to provide a &#34;retcon&#34; (&#34;retroactive continuity&#34;) treatment, which emphasizes reinterpreting past events in such a way that they look like part of a story with a narrative arc.
+That got me to thinking about lunch, of course, and the little hoary old story I tell about when the a2b3 group started &#34;8 years ago&#34;. And I realize now that I can trace back continuity way longer than that.</description>
     </item>
     
     <item>
@@ -144,155 +66,8 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Sun, 30 Mar 2014 14:23:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-30-the-2014-conversation-prism-seen-through-the-eyes-of-the-a2b3-lunch/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5119281c0970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a5119281c0970c img-responsive&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;JESS3_BrianSolis_ConversationPrism4_WEB_2880x1800&#34; title=&#34;JESS3_BrianSolis_ConversationPrism4_WEB_2880x1800&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a5119281c0970c-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Developed in 2008 by Brian Solis, The [Conversation Prism] is a visual map of the social media landscape. It’s an ongoing study in digital ethnography that tracks dominant and promising social networks and organizes them by how they’re used in everyday life.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/05/the-conversation-prism-as-seen-through-the-eyes-of-the-a2b3-lunch.html&#34;&gt;In 2009&lt;/a&gt;, I wrote up how the a2b3 lunch organizes itself through the eye of the this system. I ran across it again, and decided to do a repeat.&lt;/p&gt;
-
-&lt;p&gt;[Conversation Prism]; https://conversationprism.com
-* Social networks: Facebook, Yahoo Groups&lt;/p&gt;
-
-&lt;p&gt;You&#39;ll see Yahoo Groups show up in lots of the entries, because the &lt;a href=&#34;http://groups.yahoo.com/group/a2b3&#34;&gt;a2b3 mailing list&lt;/a&gt; is the heart and soul of the whole effort. Facebook plays second fiddle, with a lot less people watching the &lt;a href=&#34;https://www.facebook.com/groups/2207503206/&#34;&gt;a2b3 group on Facebook&lt;/a&gt;, and a lot less traffic to that group.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Blog: Typepad&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;See the a2b3 &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/a2b3&#34;&gt;category on my Typepad blog&lt;/a&gt; . Mostly the specific thing that gets blogged about is the a2b3 lunch non-summaries, which I like going back to but which also take enough time to do that I don&#39;t always do them.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Crowd Wisdom: Yahoo Groups, lunch conversation&lt;/li&gt;
-&lt;li&gt;Questions and answers: Yahoo Groups, lunch conversation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The crowd is good about answering almost any reasonable question you throw at it, either at lunchtime or on the mailing list, and coming up with an answer. We don&#39;t need Quora or their ilk to get a good answer.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Comments: Disqus, Yahoo Groups, lunch conversation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I converted over this Typepad install to &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2014/03/the-next-major-change-for-this-weblog-is-converting-over-comments-to-disqus.html&#34;&gt;Disqus comments&lt;/a&gt;, but really, the comments are in the discussions on the mailing list and over lunch.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Social commerce: ?&lt;/li&gt;
-&lt;li&gt;Social marketplace: ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;No one yet has found a reason or a compelling method to sell things to each other, which is fine.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Social streams: Twitter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There is an &lt;a href=&#34;http://twitter.com/a2b3&#34;&gt;@a2b3 twitter feed&lt;/a&gt; that I very occasionally post to which has 500+ followers and only 150+ tweets. There&#39;s an opportunity to improve on that effort. If I could, I would automatically tweet out the stream from Meetup, but I haven&#39;t figured out yet how IFTTT plays with Meetup.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Location: Meetup, Foursquare&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.meetup.com/a2b3-lunch/&#34;&gt;a2b3 Meetup&lt;/a&gt; answers the question of &#34;where is lunch going to be&#34;, and provides nice maps. It&#39;s the one piece of the 2009 landscape that was missing, and I&#39;m happy with the results. Foursquare answers the question of &#34;where do you eat lunch&#34;. I put together a [map of recent a2b3 lunch spots on Foursquare] without too much work. Perhaps I&#39;ll start checking in on Foursquare.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nicheworking: ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What is this I don&#39;t even.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Enterprise: Slack&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The enterprisiest tool I have for lunch is the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2014/02/slack-first-impressions.html&#34;&gt;a2b3 Slack instance&lt;/a&gt;, a closed system (you&#39;re invited, just ask) which does chat (a la IRC) and newsfeed syndication. It&#39;s great as a tool, but it&#39;s not just the right fit for this particular group.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wiki: Arborwiki (Localwiki)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://localwiki.org&#34;&gt;Localwiki&lt;/a&gt; is a perfect fit for a local lunch group, because you can stash away answers to questions about the area as they come up and then refer back to them later as needed. &lt;a href=&#34;http://arborwiki.org&#34;&gt;Arborwiki&lt;/a&gt; has been running for 8+ years and has been a tremendous asset to a2b3.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Discussion and forums: Yahoo Groups&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://groups.yahoo.com/group/a2b3&#34;&gt;a2b3 Yahoo Group&lt;/a&gt; is the key to the whole system. Without it, I guess I&#39;d reconstruct a mailing list with Google Groups. Please don&#39;t ever ruin it, Yahoo!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Business: LinkedIn&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;LinkedIn groups can be tedious to manage, and their discussion forums never took off. However, it&#39;s an easy way to read people&#39;s resumes, so there&#39;s &lt;a href=&#34;https://www.linkedin.com/groups?featured=&amp;amp;gid=36174&#34;&gt;a LinkedIn group for a2b3&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Service networking: ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Not sure what this is.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reviews and ratings: Yahoo Groups, Arborwiki&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We don&#39;t need a separate review system when &lt;a href=&#34;http://arborwiki.org&#34;&gt;Arborwiki&lt;/a&gt; is there to either catch reviews or at least to point to same on Yelp. For real-time reviews in response to queries, there&#39;s the Yahoo group. Who&#39;s Angie?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Social curation: Pinterest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you &lt;a href=&#34;http://www.pinterest.com/vielmetti/a2b3/&#34;&gt;add a map to a Pinterest board&lt;/a&gt;, you can pin Foursquare locations and their photos. So I did.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Video: Youtube, I guess&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here&#39;s a &#34;how to organize lunch&#34; video from Ignite Ann Arbor 3.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;600&#34; height=&#34;450&#34; src=&#34;//www.youtube.com/embed/a5BS9_-UAYo?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Content / documents: a2docs (Scribd)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://a2docs.org&#34;&gt;a2docs&lt;/a&gt; is a place to stash government records for the Ann Arbor area. It&#39;s powered by &lt;a href=&#34;http://www.scribd.com/A2Docs/documents&#34;&gt;Scribd&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Events: Meetup&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Meetup is new to the group since 2013. Over the span of 6 months I&#39;ve used it to organize two dozen events. Meetup is a little bit pricy for what you get, but they have timing for meetup updates down pat and a very low-impact way of keeping people informed. Join the &lt;a href=&#34;http://www.meetup.com/a2b3-lunch/&#34;&gt;a2b3 Meetup&lt;/a&gt; to get weekly announcements of lunch locations.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Music: Soundcloud&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The official a2b3 chime (played at 12:30pm on Thursdays) is hosted on Soundcloud.&lt;/p&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;450&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/97501588&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;visual=true&#34;&gt;&lt;/iframe&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Livecasting: Ustream&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We don&#39;t livecast meetings as a rule, but if we did, it would probably be through Ustream which I&#39;ve used for other events.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Social bookmarks: pinboard.in&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://pinboard.in/t:a2b3&#34;&gt;a2b3 tag on pinboard&lt;/a&gt; captures bookmarks. Bookmarking is not from this decade, and thus it&#39;s not religiously kept up.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Influence: Klout, I guess&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I only say this because former a2b3 regular Joe Cothrel works at Lithium, which just acquired Klout.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Quantified self: ?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is all about keeping track of what you do (e.g. tracking exercise with a pedometer or a phone) and sharing that with yourself or the world. Several people in the group do this but we haven&#39;t all coalesced on any single platform to share.&lt;/p&gt;
-</description>
+      <description>Developed in 2008 by Brian Solis, The [Conversation Prism] is a visual map of the social media landscape. It’s an ongoing study in digital ethnography that tracks dominant and promising social networks and organizes them by how they’re used in everyday life.
+In 2009, I wrote up how the a2b3 lunch organizes itself through the eye of the this system. I ran across it again, and decided to do a repeat.</description>
     </item>
     
     <item>
@@ -301,12 +76,8 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Fri, 21 Mar 2014 16:48:57 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-21-a2b3-lunch-non-summary-for-march-20-2014/</guid>
-      <description>&lt;p&gt;The weekly a2b3 lunch met at Madras Masala on this the third Thursday of March. It&#39;s been our habit to meet at Madras on the 1st and 3rd Thursdays. The dining room is large and could seat a large party, but our typical lunch has rarely less than 6 and rarely more than 8 people there, which is just about perfect.&lt;/p&gt;
-
-&lt;p&gt;This week&#39;s tally was 6, which is just barely big enough to justify a formal round of introductions, but we did it anyway. The discussion, minus the introductions, ranged widely from the workings of lathes to the scene at Community High School to the everyday objects that we carry with us each day. I won&#39;t even try to summarize, there was just so much to say that we talked non-stop for 90 minutes and were still chatting at the end.&lt;/p&gt;
-
-&lt;p&gt;As always the food at Madras was good, and just spicy enough that some people who had been regulars aren&#39;t likely to come because the diet does not agree with them. To this end we are planning a west side visit to Chela&#39;s on March 27, 2014. &lt;a href=&#34;http://www.meetup.com/a2b3-lunch/events/168490202/&#34;&gt;See the details on Meetup&lt;/a&gt;, and hope to see you there.&lt;/p&gt;
-</description>
+      <description>The weekly a2b3 lunch met at Madras Masala on this the third Thursday of March. It&#39;s been our habit to meet at Madras on the 1st and 3rd Thursdays. The dining room is large and could seat a large party, but our typical lunch has rarely less than 6 and rarely more than 8 people there, which is just about perfect.
+This week&#39;s tally was 6, which is just barely big enough to justify a formal round of introductions, but we did it anyway.</description>
     </item>
     
     <item>
@@ -315,10 +86,8 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Thu, 03 Oct 2013 14:52:41 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-03-where-should-a2b3-eat-lunch-take-our-poll/</guid>
-      <description>&lt;p&gt;Take our lunch poll!&lt;/p&gt;
-
-&lt;iframe src=&#39;http://widget.allourideas.org/a2b3-lunch&#39; width=&#39;550&#39; height=&#39;650&#39; frameborder=&#39;0&#39; scrolling=&#39;no&#39;&gt;&lt;/iframe&gt;
-</description>
+      <description>Take our lunch poll!
+ </description>
     </item>
     
     <item>
@@ -327,20 +96,8 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Tue, 24 Sep 2013 22:50:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-24-notes-on-meetup/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  style=&#34;float: right;&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff96dcaa970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019aff96dcaa970b&#34; alt=&#34;Logo&#34; title=&#34;Logo&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019aff96dcaa970b-320wi&#34; style=&#34;margin: 0px 0px 5px 5px;&#34; /&gt;&lt;/a&gt;I&#39;ve started using &lt;a href=&#34;http://www.meetup.com&#34;&gt;Meetup.com&lt;/a&gt; to organize several groups. Here&#39;s some notes.&lt;/p&gt;
-
-&lt;p&gt;For the longest time I&#39;ve used a Yahoo Groups list to organize the &lt;a href=&#34;http://groups.yahoo.com/group/a2b3&#34;&gt;a2b3&lt;/a&gt; group, and that long-lived mailing list continues. It&#39;s great to have a mailing list, but it&#39;s kind of chatty as a lunch-planning-only effort. So the first of my Meetup groups is the &lt;a href=&#34;http://meetup.com/a2b3-lunch&#34;&gt;a2b3 meetup&lt;/a&gt; which is solely devoted to the tasks of providing an events listing and (most importantly) to plan lunch.&lt;/p&gt;
-
-&lt;p&gt;A brand new Meetup is the &lt;a href=&#34;http://meetup.com/a2civictech&#34;&gt;a2civictech&lt;/a&gt; Ann Arbor Civic Technology meetup, which had its first meeting the other night. This is a more classic meetup, one that tries to meet monthly rather than weekly, one that&#39;s similar to other groups around the country, and one where I&#39;m starting out from the perspective that I mostly don&#39;t know everyone who&#39;s going to be interested.&lt;/p&gt;
-
-&lt;p&gt;Meetup is a form of civic technology (for the purpose of organizing meetings). For a2civictech, I&#39;ve been able to use the function of annotating the photos from the meeting to remember who was there, and the little discussion forum around the event is just enough to prepare for meetings and remember what happened there. Meetup also allows you to track the input and output of money to the group, so it&#39;s reasonable to track expenses and reimbursement for even little bits of money.&lt;/p&gt;
-
-&lt;p&gt;The meetup system isn&#39;t free; a semi-annual fee of $72 applies. So by not being free it gives me the opportunity to have other folks help share in the cost of running things. a2civictech is sponsored in part by &lt;a href=&#34;http://a2geeks.org&#34;&gt;a2geeks&lt;/a&gt; and that&#39;s been a great plus in getting it going. You can also share in the roles of actually organizing things by giving co-conspirators some additional rights to manage things.&lt;/p&gt;
-
-&lt;p&gt;What strikes me the most is that Meetup is actually designed pretty well to help you successfully organize a meeting. I&#39;m so used to group-forming tools like Yahoo Groups and Google Groups where the goal is to have a discussion online and where the in-person efforts are a very late afterthought. The system comes with a checklist of all of the useful things you can do, and the automated emails for the event planner gently prompt you to do the right thing at the right time. There&#39;s obviously a lot of thought and evolution in this system which is a welcome change.&lt;/p&gt;
-
-&lt;p&gt;The verdict so far: worthwhile to continue for 6 months, and probably worth renewing.&lt;/p&gt;
-</description>
+      <description>I&#39;ve started using Meetup.com to organize several groups. Here&#39;s some notes.
+For the longest time I&#39;ve used a Yahoo Groups list to organize the a2b3 group, and that long-lived mailing list continues. It&#39;s great to have a mailing list, but it&#39;s kind of chatty as a lunch-planning-only effort. So the first of my Meetup groups is the a2b3 meetup which is solely devoted to the tasks of providing an events listing and (most importantly) to plan lunch.</description>
     </item>
     
     <item>
@@ -349,16 +106,9 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Wed, 11 Sep 2013 15:08:50 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-09-11-a2b3-september-12-2013-meetup/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.meetup.com/a2b3-weekly-Thursday-lunch-group/events/138747032/&#34; data-event=&#34;138747032&#34; class=&#34;mu-rsvp-btn&#34;&gt;RSVP&lt;/a&gt; now through Meetup.&lt;/p&gt;
-
-&lt;p&gt;Lunch at Madras Masala (Maynard St) for a2b3 this week, Thursday from about 11:45 a.m. to about 1:00 p.m.&lt;/p&gt;
-
-&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src=&#34;https://secure.meetup.com/3245529744623182445/script/api/mu.btns.js?id=igjj6e5ek67086svhlh1bblo1o&#34;;fjs.parentNode.insertBefore(js,fjs);}}(document,&#34;script&#34;,&#34;mu-bootjs&#34;);&lt;/script&gt;
-
-&lt;p&gt;The usual routine is to show up, fill up a plate with yummy food from the buffet, and sit down for discussion. At 12:30pm someone will note the time and then I&#39;ll make a round of introductions and ask a question to prompt conversation. &lt;/p&gt;
-
-&lt;p&gt;We&#39;ve had as many as 8 people for lunch and as few as 4 at Madras Masala, but the restaurant is flexible and if we were to get a huge crowd there&#39;s space.&lt;/p&gt;
-</description>
+      <description>RSVP now through Meetup.
+Lunch at Madras Masala (Maynard St) for a2b3 this week, Thursday from about 11:45 a.m. to about 1:00 p.m.
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src=&#34;https://secure.meetup.com/3245529744623182445/script/api/mu.btns.js?id=igjj6e5ek67086svhlh1bblo1o&#34;;fjs.parentNode.insertBefore(js,fjs);}}(document,&#34;script&#34;,&#34;mu-bootjs&#34;); The usual routine is to show up, fill up a plate with yummy food from the buffet, and sit down for discussion. At 12:30pm someone will note the time and then I&#39;ll make a round of introductions and ask a question to prompt conversation. We&#39;ve had as many as 8 people for lunch and as few as 4 at Madras Masala, but the restaurant is flexible and if we were to get a huge crowd there&#39;s space.</description>
     </item>
     
     <item>
@@ -367,10 +117,8 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Tue, 18 Jun 2013 23:47:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-06-18-a2b3-chime/</guid>
-      <description>&lt;p&gt;&lt;p&gt;The chime from the a2b3 weekly lunch meetings, as captured by Roger Rayle at Eastern Accents.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F97501588&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>The chime from the a2b3 weekly lunch meetings, as captured by Roger Rayle at Eastern Accents.
+&amp;nbsp;</description>
     </item>
     
     <item>
@@ -379,24 +127,10 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Thu, 28 Mar 2013 00:54:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-28-a-slow-moving-version-of-twitter-always-hand-write-your-tweets-before-sending-them/</guid>
-      <description>&lt;p&gt;A slow moving version of Twitter: always hand write your tweets before sending them.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d4257b39c970c-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017d4257b39c970c&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Slow-moving-version-of-twitter&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017d4257b39c970c-600wi&#34; alt=&#34;Slow-moving-version-of-twitter&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Bright idea? Write it down, photograph it, transcribe it, then (and only then) post to the network.&lt;/p&gt;
-&lt;p&gt;It&#39;s OK to wait quite a long time between initial idea and eventual posting. This also works for blog postings, or at least it should. Twitter happens to make it easy to do in one step for short posts.&lt;/p&gt;
-&lt;p&gt;Questions:&lt;/p&gt;
-&lt;p&gt;How will lunch work on Thursday at a new place? (A2B3 lost its regular restaurant, Eastern Accents, and we&#39;re meeting at Conor O&#39;Neill&#39;s instead.) Caroline is manager.&lt;/p&gt;
-&lt;p&gt;What do you want to have stored up so that you can respond quickly to something new after having already thought through it at leisure?&lt;/p&gt;
-&lt;p&gt;How important is the drawing? (Very.)&lt;/p&gt;
-&lt;p&gt;Can you focus on something long enough to make it worthwhile to construct a lengthy effort to assemble media to support it?&lt;/p&gt;
-&lt;p&gt;Marginalia:&lt;/p&gt;
-&lt;p&gt;Adam Grant&#39;s book &lt;a href=&#34;http://www.giveandtake.com/Home/AdamGrant&#34; target=&#34;_self&#34;&gt;Give and Take&lt;/a&gt;. Jerry Davis is interviewed. Look in the &lt;a href=&#34;http://www.nytimes.com/2013/03/31/magazine/is-giving-the-secret-to-getting-ahead.html?pagewanted=all&amp;amp;_r=1&amp;amp;&#34; target=&#34;_self&#34;&gt;March 31 NY Times Magazine.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Suggest it at the Ann Arbor District Library once I get online. It&#39;s too hard to fill out the suggestion form from my teeny tiny phone screen.&lt;/p&gt;
-&lt;p&gt;Jerry Michalski suggesting a similar piece on &#34;&lt;a href=&#34;http://www.stevepavlina.com/blog/2012/10/plodding-and-bursting/&#34; target=&#34;_self&#34;&gt;bursting vs plodding&lt;/a&gt;&#34; and the benefits of each, written by Steve Pavlina.&lt;/p&gt;
-&lt;p&gt;I&#39;m listening to electronica by Valdis Krebs.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F85186702&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;Afterword&lt;/p&gt;
-&lt;p&gt;&#34;I think Buddha is one line of work.&#34;&lt;/p&gt;
-</description>
+      <description>A slow moving version of Twitter: always hand write your tweets before sending them.
+
+Bright idea? Write it down, photograph it, transcribe it, then (and only then) post to the network.
+It&#39;s OK to wait quite a long time between initial idea and eventual posting. This also works for blog postings, or at least it should. Twitter happens to make it easy to do in one step for short posts.</description>
     </item>
     
     <item>
@@ -405,17 +139,11 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Mon, 18 Feb 2013 13:05:29 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-02-18-eastern-accents-is-closing-for-good-on-march-16-2013/</guid>
-      <description>&lt;p&gt;ANN ARBOR (Monday, February 18, 2013)&lt;/p&gt;
-&lt;p&gt;From a &lt;a href=&#34;https://docs.google.com/document/d/1mj9WSvmepDjNQxMvcNfznJjRBjFzlCS9J8jTHQrDi60/edit&#34; target=&#34;_self&#34;&gt;news release&lt;/a&gt; from Carol Sun of Eastern Accents.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong id=&#34;internal-source-marker_0.43474730011075735&#34;&gt;Eastern Accents will be closing its doors for good at 7:00 p.m. on Saturday, March 16, 2013 (end of the day). &amp;#0160;A long-simmering dispute with our landlord has finally come to a head, and we’ve decided that it is time for change.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Carol writes:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Feel free to help spread the word. &amp;#0160;We want to get the word out--especially to anyone who might have gift card values to redeem.&lt;/em&gt;&lt;br /&gt;
-&lt;div&gt;&lt;br /&gt;
-&lt;div&gt;&lt;em&gt;&lt;strong&gt;Thank you&lt;/strong&gt;&amp;#0160;for the years of support (if you recall, you were in the picture that appeared in the first article on Eastern Accents!) and the networking that you do that benefits Eastern Accents.&amp;#0160;&lt;/em&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;A2B3 will continue on Thursdays until the March 14, 2013 lunch, and then we&amp;#39;ll go into exile.&lt;/p&gt;
-</description>
+      <description>ANN ARBOR (Monday, February 18, 2013)
+From a news release from Carol Sun of Eastern Accents.&amp;#0160;
+Eastern Accents will be closing its doors for good at 7:00 p.m. on Saturday, March 16, 2013 (end of the day). &amp;#0160;A long-simmering dispute with our landlord has finally come to a head, and we’ve decided that it is time for change.
+Carol writes:
+Feel free to help spread the word. &amp;#0160;We want to get the word out--especially to anyone who might have gift card values to redeem.</description>
     </item>
     
     <item>
@@ -424,16 +152,9 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Fri, 25 Jan 2013 09:46:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-01-25-a2b3-meeting-non-summary-for-thursday-january-24-2013-at-eastern-accents/</guid>
-      <description>&lt;p&gt;A bunch of folks met for lunch on Thursday. Here&amp;#39;s some notes from that meeting.&lt;/p&gt;
-&lt;p&gt;I asked people how they stayed warm. They dress in layers, use solar thermal heating, wear sweaters, wear hats, huddle under electric blankets, and all manner of good adaptive Michigan behavior.&lt;/p&gt;
-&lt;p&gt;Some events coming up, each of which features some a2b3 group member. Some details elided in the interests of brevity, click to links for more details.&lt;/p&gt;
-&lt;p&gt;Already happened: Linda Diane Feldt spoke at Crazy Wisdom about the liver. &amp;quot;The liver is the largest and most critical organ for detoxifying the blood, moving lymph, and processing food and storing nutrients. I&amp;#39;m in awe of how well it functions, and how much it does.&amp;quot; About 18 people were at the event.&lt;/p&gt;
-&lt;p&gt;Friday night 1/24/13 is David Bloom and Friends playing lounge-jazz standards at Chelsea&amp;#39;s &amp;quot;Back to the Roots&amp;quot; cafe, &lt;a href=&#34;https://www.facebook.com/events/188090337997019/&#34; target=&#34;_self&#34;&gt;details on Facebook&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Thursday 1/31/13 2-8p at Burton Manor in Livonia is ACE &amp;#39;13, the Annual Collaboration for Entrepreneurs. &lt;a href=&#34;http://ace-event.org/&#34; target=&#34;_self&#34;&gt;Details on their web site&lt;/a&gt;; volunteer opportunities are available which I&amp;#39;m happy to help you track down if you&amp;#39;re interested.&lt;/p&gt;
-&lt;p&gt;Saturday 2/16/13 10a-noon at Eastern Accents is the 4th Death Cafe, led by Merilynne Rush. &lt;a href=&#34;http://www.deathcafe.com/2013/01/3rd-ann-arbor-death-cafe.html&#34; target=&#34;_self&#34;&gt;Notes on the 3d meeting are here&lt;/a&gt; with contact info and more details.&lt;/p&gt;
-&lt;p&gt;Wednesday 2/27/13 from 7pm to 8:30pm in the Multi-Purpose Room is Dan Romanchik about how to self-publish e-books, based on his experience with writing books on amateur radio. &lt;a href=&#34;http://www.aadl.org/events/list?id=17403&#34; target=&#34;_self&#34;&gt;Event details&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Thanks to everyone for coming!&lt;/p&gt;
-</description>
+      <description>A bunch of folks met for lunch on Thursday. Here&amp;#39;s some notes from that meeting.
+I asked people how they stayed warm. They dress in layers, use solar thermal heating, wear sweaters, wear hats, huddle under electric blankets, and all manner of good adaptive Michigan behavior.
+Some events coming up, each of which features some a2b3 group member. Some details elided in the interests of brevity, click to links for more details.</description>
     </item>
     
     <item>
@@ -442,12 +163,191 @@ Henry Ford in Dearborn.&lt;/p&gt;
       <pubDate>Fri, 30 Nov 2012 22:00:37 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-11-30-a2b3-non-summary-for-november-29-2012-/</guid>
-      <description>&lt;p&gt;Thanks to &lt;a href=&#34;http://www-personal.umich.edu/~pfa/&#34; target=&#34;_self&#34;&gt;Patricia F. Anderson&lt;/a&gt; for this non-summary of the November 29, 2012 A2B3 lunch at Eastern Accents.&amp;#0160;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Hi, folk!&lt;br /&gt;&lt;br /&gt;Yesterday saw a decent sized group for lunch, roughly a dozen.&amp;#0160;Conversation was, as usual, fascinating and diverse.&lt;br /&gt;&lt;br /&gt;General conversation included the search for a proper formalmythological &amp;quot;Muse&amp;quot; or Goddess as a kind of patron saint of geeks and&amp;#0160;code monkeys. A suggestion was Seshat, the Egyptian goddess of&lt;br /&gt;measurement, mathematics, and librarianship, known for her&amp;#0160;seven-pointed headdress and leopardskin dress.&lt;br /&gt;&lt;br /&gt;&amp;lt;&lt;a href=&#34;http://www.egyptianmyths.net/seshat.htm&#34; target=&#34;_blank&#34;&gt;http://www.egyptianmyths.net/seshat.htm&lt;/a&gt;&amp;gt;&lt;br /&gt;&amp;quot;Seshat carried many titles, such as &amp;quot;Lady of Builders&amp;quot;, &amp;quot;Mistress of&amp;#0160;the House of Books&amp;quot;, and &amp;quot;Foremost in the Library&amp;quot;.&amp;quot;&lt;br /&gt;&amp;lt;&lt;a href=&#34;http://en.wikipedia.org/wiki/File:Seshat.svg&#34; target=&#34;_blank&#34;&gt;http://en.wikipedia.org/wiki/File:Seshat.svg&lt;/a&gt;&amp;gt;&lt;br /&gt;&lt;br /&gt;Also mentioned was a recommendation for the book, &amp;quot;War of Art.&amp;quot;&lt;br /&gt;&amp;lt;&lt;a href=&#34;http://www.stevenpressfield.com/the-war-of-art/&#34; target=&#34;_blank&#34;&gt;http://www.stevenpressfield.com/the-war-of-art/&lt;/a&gt;&amp;gt;&lt;br /&gt;&lt;br /&gt;Main question focused on upcoming events, where to have events, and&amp;#0160;&amp;quot;December-y-type stuff&amp;quot;.&lt;br /&gt;&lt;br /&gt;Upcoming Events:&lt;br /&gt;&lt;br /&gt;- Ed&amp;#39;s birthday (see y&amp;#39;all next week!)&lt;br /&gt;- Kiwanis sale Fri-Sat 9-12&lt;br /&gt;- Workantile makers fest - January; Show and tell for makers&lt;br /&gt;- Xmas movies at Michigan Theater free on ... Sundays? mostly.&lt;br /&gt;&amp;lt;&lt;a href=&#34;http://www.michtheater.org/series/holiday-classic-film-series/&#34; target=&#34;_blank&#34;&gt;http://www.michtheater.org/series/holiday-classic-film-series/&lt;/a&gt;&amp;gt;&lt;br /&gt;&lt;br /&gt;Where to have an event:&lt;br /&gt;&lt;br /&gt;- Hathaway&amp;#39;s Hideaway&lt;/p&gt;
-&lt;p&gt;- Pittsfield Grange&lt;/p&gt;
-&lt;p&gt;- Need a wiki for meeting space in a2&lt;br /&gt;- Check ArborWiki: &amp;lt;&lt;a href=&#34;http://arborwiki.org/Places_to_have_a_meeting&#34; target=&#34;_blank&#34;&gt;http://arborwiki.org/Places_to_have_a_meeting&lt;/a&gt;&amp;gt;&lt;br /&gt;&lt;br /&gt;About Events:&lt;br /&gt;&lt;br /&gt;- Events as doorway to membership&lt;br /&gt;- &amp;quot;more focused on the diurnal&amp;quot;&lt;br /&gt;- Birthdays&lt;br /&gt;- Seinfeld avoidance syndrome&lt;br /&gt;- Marriage licenses will be trickier over the break between Xmas and New Years&lt;br /&gt;&lt;br /&gt;Mysterious &amp;quot;boundary marker&amp;quot; stone on Old West Side&lt;/p&gt;
-</description>
+      <description>Thanks to Patricia F. Anderson for this non-summary of the November 29, 2012 A2B3 lunch at Eastern Accents.&amp;#0160;
+Hi, folk!
+Yesterday saw a decent sized group for lunch, roughly a dozen.&amp;#0160;Conversation was, as usual, fascinating and diverse.
+General conversation included the search for a proper formalmythological &amp;quot;Muse&amp;quot; or Goddess as a kind of patron saint of geeks and&amp;#0160;code monkeys. A suggestion was Seshat, the Egyptian goddess of
+measurement, mathematics, and librarianship, known for her&amp;#0160;seven-pointed headdress and leopardskin dress.</description>
+    </item>
+    
+    <item>
+      <title>a2b3 lunch non-summary for 4th week of March 2012</title>
+      <link>http://vielmetti.github.io/post/2012/2012-03-25-a2b3-lunch-non-summary-for-4th-week-of-march-2012/</link>
+      <pubDate>Sun, 25 Mar 2012 06:55:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2012/2012-03-25-a2b3-lunch-non-summary-for-4th-week-of-march-2012/</guid>
+      <description>Name check!
+Thanks to +Gyll Stanford, +Steven W. Cornell,&amp;#0160;+Joel Vergun&amp;#0160;,&amp;#0160;+Patrick Haggood&amp;#0160;,&amp;#0160;+Dan Romanchik&amp;#0160;, +Linda Diane Feldt, +John Hritz,&amp;#0160;+Roger Rayle&amp;#0160;, +Dan Friedus, and +Brian Rice who made for good conversation at lunch last Thursday.
+In no particular order, we talked about the +a2b3 Amateur Radio Club (with Dan Romanchik as the likely point of contact), since we had a couple of people who were online listening to +Skywarn for the last tornado. There was also good discussion of fruit trees and the impact of unseasonable weather on the fruit crops, and at my end of the table some neat talk about underground clay irrigation systems.</description>
+    </item>
+    
+    <item>
+      <title>a2b3 meeting non-summary, June 2, 2011</title>
+      <link>http://vielmetti.github.io/post/2011/2011-06-02-a2b3-meeting-non-summary-june-2-2011/</link>
+      <pubDate>Thu, 02 Jun 2011 16:33:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2011/2011-06-02-a2b3-meeting-non-summary-june-2-2011/</guid>
+      <description>The a2b3 group met at Eastern Accents this Thursday, June 2, 2011. Here&amp;#39;s a summary of sorts.
+I took notes in a quadrille notebook   for the meeting, as an exercise in trying to keep better track of what was happening. The book is similar to what became popular on the University of Michigan campus during the 1980s, when university president and nuclear engineer James Duderstadt would bring quad notebooks to meetings, and everyone else followed suit quickly.</description>
+    </item>
+    
+    <item>
+      <title>How do you measure success?  Assessing 5 years of a2b3 lunch</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-15-how-do-you-measure-successthats-a-question-i-often-pose-at-the-beginning-of-projects-and-one-that-i-struggle-with-often-whe/</link>
+      <pubDate>Thu, 15 Jul 2010 12:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-15-how-do-you-measure-successthats-a-question-i-often-pose-at-the-beginning-of-projects-and-one-that-i-struggle-with-often-whe/</guid>
+      <description>That&amp;#39;s a question I often pose at the beginning of projects, and one that I struggle with often when there is no simple answer.&amp;#0160; Some reflection has me thinking it might be too simple a question to pose when goals are complex and long term and emergent.
+I&amp;#39;ll illustrate with a project that by some multiple measures has been successful so far, my weekly lunch meeting called a2b3.&amp;#0160; Every week we gather for lunch, people eat, they talk, they leave.</description>
+    </item>
+    
+    <item>
+      <title>a2b3 logo</title>
+      <link>http://vielmetti.github.io/post/2010/2010-06-05-a2b3-logo/</link>
+      <pubDate>Sat, 05 Jun 2010 21:44:37 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-06-05-a2b3-logo/</guid>
+      <description>for reference:
+The A2B3 logo design is by Laura Fisher of Mitten Artworks.
+The font is P22&amp;#39;s London Underground. &amp;#0160;Accept no substitutes.
+The stickers I printed were printed at VG Kids&amp;#0160;in Ypsilanti. &amp;#0160;We used a&amp;#0160;2.75&amp;quot; x 4.25&amp;quot; oval, and one of their standard templates.
+The hoodie with the top secret illuminati lining is still under construction.
+Update 6/13/10: Typekit has the P22 London Underground font, for $25/yr. &amp;#0160;Hmm.</description>
+    </item>
+    
+    <item>
+      <title>a2b3 non-summary for Thursday, Feb. 11, 2010</title>
+      <link>http://vielmetti.github.io/post/2010/2010-02-11-a2b3-nonsummary-for-thursday-feb-11-2010/</link>
+      <pubDate>Thu, 11 Feb 2010 22:55:32 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-02-11-a2b3-nonsummary-for-thursday-feb-11-2010/</guid>
+      <description>Attendance: 19. I had the udon noodles, which are new on the menu at Eastern Accents and quite good.
+My list of things to note from the day includes, but is not limited to:  Google&#39;s proposed fiber to the home project, and how to get it to Ann Arbor Susan Crawford is back in Ann Arbor from a stint in DC and teaching cyber law I&#39;m not sure that I wouldn&#39;t rather have a Droid phone than a Blackberry There is a super-nifty Droid app which is an exercise tracker w/maps Searching for low RPM motors that run on 2 AA batteries Next Tues.</description>
+    </item>
+    
+    <item>
+      <title>a2b3 Thursday lunch meeting ritual introduction as Ignite talk</title>
+      <link>http://vielmetti.github.io/post/2010/2010-02-10-a2b3-thursday-lunch-meeting-ritual-introduction-as-ignite-talk/</link>
+      <pubDate>Wed, 10 Feb 2010 22:39:11 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-02-10-a2b3-thursday-lunch-meeting-ritual-introduction-as-ignite-talk/</guid>
+      <description>I put in an application for Ignite 3 Ann Arbor. 5 minutes, 20 slides. The working structure for the talk is the 5 minute or so talk I give at the beginning of every a2b3 meeting, with the little ritual introduction of the group and the origin story and the monologue. I think it will work out; heaven knows that I&#39;ve had some practice.</description>
+    </item>
+    
+    <item>
+      <title>a2b3 non-summary for Thursday, July 16, 2009</title>
+      <link>http://vielmetti.github.io/post/2009/2009-07-16-a2b3-nonsummary-for-thursday-july-16-2009/</link>
+      <pubDate>Thu, 16 Jul 2009 23:54:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-07-16-a2b3-nonsummary-for-thursday-july-16-2009/</guid>
+      <description>Every Thursday I organize lunch, come hell, high water, or Art Fair. &amp;#0160;This time it was Art Fair.
+ Eastern Accents takes a vacation in the summer time so I was on my own to organize something somewhere else; and all of Ann Arbor is full of Art Fair food vendors, serving a wide range of cuisine ranging from elephant ears and funnel cakes to key lime limeade and coffee. &amp;#0160;(Water, $1 almost everywhere.</description>
+    </item>
+    
+    <item>
+      <title>a2b3 lunch non-summary, day 8</title>
+      <link>http://vielmetti.github.io/post/2009/2009-07-09-a2b3-lunch-nonsummary-day-8/</link>
+      <pubDate>Thu, 09 Jul 2009 14:30:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-07-09-a2b3-lunch-nonsummary-day-8/</guid>
+      <description>day 8 of notes on my new job at annarbor.com
+Almost every week for the last 4 years I&amp;#39;ve been organizing a Thursday lunch.&amp;#0160; It started with 4 people, and the mailing list now has almost 400; our record attendance at lunch was 41 but the typical table size is much like today, with 22 people sitting around a long table plus one person who came late sitting by themselves.&amp;#0160; As with any mostly-open lunch series, you get to know people bit by bit over time, and some people take a few weeks to gain the confidence to describe who they are to a group of strangers.</description>
+    </item>
+    
+    <item>
+      <title>@a2b3 non-summary for July 2, 2009: how to introduce lots of people; day 4</title>
+      <link>http://vielmetti.github.io/post/2009/2009-07-03-a2b3-nonsummary-for-july-2-2009-how-to-introduce-lots-of-people/</link>
+      <pubDate>Fri, 03 Jul 2009 10:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-07-03-a2b3-nonsummary-for-july-2-2009-how-to-introduce-lots-of-people/</guid>
+      <description>Not a summary of what was said, but more of some observations on process.
+Lunch was incredibly full today - we had upwards of 30, filled one entire side of the restaurant plus a second table of four.&amp;#0160; And becuase I asked a question that allowed a long answer, it took a full hour to get through everyone, and some people left early.
+In some sense that&amp;#39;s OK, if you believe in the open space &amp;quot;law of two feet&amp;quot;, and if you think that whoever shows up are the right people.</description>
+    </item>
+    
+    <item>
+      <title>&#34;the conversation prism&#34; as seen through the eyes of the a2b3 lunch</title>
+      <link>http://vielmetti.github.io/post/2009/2009-05-27-the-conversation-prism-as-seen-through-the-eyes-of-the-a2b3-lunch/</link>
+      <pubDate>Wed, 27 May 2009 14:51:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-05-27-the-conversation-prism-as-seen-through-the-eyes-of-the-a2b3-lunch/</guid>
+      <description>Today is a Twitter conference, so Twitter is full of good stuff people have been saving up.&amp;#0160; Here&amp;#39;s one: a &amp;quot;conversation prism&amp;quot; in bright happy colors showing a set of categories of tools, and how each one of them is occupied by some set of applications.&amp;#0160; Here&amp;#39;s a mapping of each of them onto the set of tools that I am using to keep a2b3 loosely connected.&amp;#0160; Sorry no links, didn&amp;#39;t have time to hyperlink everything</description>
+    </item>
+    
+    <item>
+      <title>a2b3 non-summary for 22 May 2009</title>
+      <link>http://vielmetti.github.io/post/2009/2009-05-22-a2b3-nonsummary-for-22-may-2009/</link>
+      <pubDate>Fri, 22 May 2009 12:30:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-05-22-a2b3-nonsummary-for-22-may-2009/</guid>
+      <description>On Thursday May 22 I had lunch with the a2b3 group for the 183d time.&amp;#0160; I&amp;#39;m writing that down as though it was a perfectly accurate number, just so that next week I can look it up and say that it will be the 184th time.
+Every week I host lunch on Thursdays at Eastern Accents in Ann Arbor.&amp;#0160; People start showing up at 11:30 or so, most everyone has ordered and sat down and pulled up however many tables we need by noon, and at 12:30 someone bangs on a glass and I stand up and give roughly this presentation.</description>
+    </item>
+    
+    <item>
+      <title>Organizations that don&#39;t exist yet, but should</title>
+      <link>http://vielmetti.github.io/post/2009/2009-03-13-organizations-that-dont-exist-yet-but-should/</link>
+      <pubDate>Fri, 13 Mar 2009 00:02:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-03-13-organizations-that-dont-exist-yet-but-should/</guid>
+      <description>National Association of Professional Lunch Organizers.&amp;#0160;&amp;#0160; For people who organize civic, professional, and industry meetings at lunchtime.&amp;#0160; Publishes a national directory of meeting times and locations organized by day of the week, and a guide to the tax laws on entertainment expenses with a handy records filing system for the lunch professional.&amp;#0160;&amp;#0160; Their for-profit software development spinoff, NAPLOsoft, produces mobile phone applications with customized daily alerts for travelers for professional lunch opportunities wherever they are.</description>
+    </item>
+    
+    <item>
+      <title>community organizer&#39;s checklist: weekly lunch meeting</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-04-community-organizers-checklist-weekly-lunch-meeting/</link>
+      <pubDate>Thu, 04 Dec 2008 11:37:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-04-community-organizers-checklist-weekly-lunch-meeting/</guid>
+      <description>A checklist of things to do for the weekly lunch.
+1.&amp;#0160; Day of the week: Mo - Tu - We - Th - Fri
+2.&amp;#0160; Frequency: Every - First - Second - Third - Fourth - Last - Even - Odd
+3.&amp;#0160; Location: Fixed (Eastern Accents) - Floating - Alternate (Ypsilanti TBD)
+4.&amp;#0160; Holiday schedule: Skip - Alternate Day (Weds or Fri) - Alternate Week 5.&amp;#0160; Summer schedule: Skip - Alternate Time - Alternate Location (Ypsilanti TBD)</description>
+    </item>
+    
+    <item>
+      <title>a2b3 anticipatory non-summary for November 13, 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-11-a2b3-non-summary-for-november-13-2008/</link>
+      <pubDate>Tue, 11 Nov 2008 14:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-11-a2b3-non-summary-for-november-13-2008/</guid>
+      <description>(graphic float left) a2b3 is a [noun phrase] organization that meets [frequency] for [meal] at [location] in [city]. &amp;#0160;&amp;#0160; It started in [year] and is modelled on [well known organization], which first started in [previous century] to provide [noble goal] for its [notable participants].&amp;#0160; This week&amp;#39;s a2b3 meeting [future perfect tense] held&amp;#0160; on Thursday, [date], [number] days [relative time] to [notable event].&amp;#0160; I had [meal description], which was delicious.&amp;#0160; The soup of the day was [soup name] (link to soup recipe).</description>
+    </item>
+    
+    <item>
+      <title>a2b3 non-summary for November 6, 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-06-a2b3-non-summary-for-november-6-2008/</link>
+      <pubDate>Thu, 06 Nov 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-06-a2b3-non-summary-for-november-6-2008/</guid>
+      <description>The weekly a2b3 meeting was held at Eastern Accents on Thursday, November 6, 2008, two days after the election of Barack Obama as the new President of the United States.&amp;#0160;&amp;#0160; I had ... and ..., which was delicious.&amp;#0160; The soup of the day was ...
+There were ... people in attendance, a turnout (helped, hurted) in part by a (rare) promotion of the event on Facebook.&amp;#0160; Facebook doesn&amp;#39;t have a repeating event structure, so to do this regularly I&amp;#39;d have to type it in every week; perhaps it&amp;#39;s worth that, perhaps not, I don&amp;#39;t know.</description>
+    </item>
+    
+    <item>
+      <title>what is a2b3?  genotypes, unicode characters, and lunch meetings</title>
+      <link>http://vielmetti.github.io/post/2008/2008-05-23-what-is-a2b3-ge/</link>
+      <pubDate>Fri, 23 May 2008 12:38:50 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-05-23-what-is-a2b3-ge/</guid>
+      <description>every once in a while you have to look at the net to see what other people say that you are. so here&#39;s that search for a2b3.
+First, all the things that don&#39;t relate to the lunch meeting:
+A2B3 is a rare genotype resulting from the inheritance of both A and B genes on one chromosome.
+The p16INK4a tumour suppressor protein inhibits a2b3 integrin-mediated cell spreading on vitronectin by blocking PKC-dependent localization of a2b3 to focal contacts</description>
+    </item>
+    
+    <item>
+      <title>a2b3 non-summary for 17 April 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-17-a2b3-non-summar/</link>
+      <pubDate>Thu, 17 Apr 2008 14:43:24 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-17-a2b3-non-summar/</guid>
+      <description>26 people for lunch today, plus 3 who weren&#39;t at the introductions. Thanks to everyone for coming.
+I&#39;m resuming a previous effort to do post-event &#34;non-summaries&#34;, just a few words about what everyone was up to. Even a non-summary with links takes a little time.
+Helene Gidley is organizing an Agile Groupies meeting Apr 30 5-7pm at Spark. (UPDATED)
+Phil Barr has a new job at Thomson Healthcare.
+Spencer Thomas has photos up at Sweetwaters from Festifools.</description>
     </item>
     
   </channel>

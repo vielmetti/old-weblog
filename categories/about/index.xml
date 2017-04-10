@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/about/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>About on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/about/</link>
+    <description>Recent content in About on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2015 22:26:21 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>a great many things</title>
@@ -14,46 +17,9 @@
       <pubDate>Tue, 14 Jul 2015 22:26:21 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-14-a-great-many-things/</guid>
-      <description>&lt;p&gt;This weblog, which may or may not ever see the
-light of day, is about a great many things.&lt;/p&gt;
-
-&lt;p&gt;There are other blogs waiting to be written that
-don&amp;rsquo;t have that infinite vista; they could easily
-be much more narrow. What, then, do you write about?
-Let&amp;rsquo;s count some of the options.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Docker on the Raspberry Pi, following Hypriot&amp;rsquo;s lead.&lt;/li&gt;
-&lt;li&gt;Just Docker in general, and Dockerizing various things.&lt;/li&gt;
-&lt;li&gt;Recipes, since I have a bunch already.&lt;/li&gt;
-&lt;li&gt;Power Outage Maps, in particular try to wrangle data from OpenEI here.&lt;/li&gt;
-&lt;li&gt;FOIA, espeically Michigan FOIA, to follow my book&lt;/li&gt;
-&lt;li&gt;Daily Coffee and Wifi, the usual random walk&lt;/li&gt;
-&lt;li&gt;Civic Technology, in whatever format that takes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;More and more it&amp;rsquo;s the case that the old &amp;ldquo;Vacuum&amp;rdquo; weblog is
-feeling vacuous - not enough interaction with people, and not
-the right platform to go deep on anything. And &amp;ldquo;Typepad&amp;rdquo; feels
-really old, especially compared to everything else.&lt;/p&gt;
-
-&lt;p&gt;Fortunately if I&amp;rsquo;m writing in Markdown I can mostly drop anything
-I want anywhere it wants to go.&lt;/p&gt;
-
-&lt;p&gt;The other great weird idea of course is to mimic the old print
-notebook with all kinds of nifty sidebars, one sidebar per item.&lt;/p&gt;
-
-&lt;p&gt;What do I want to have happen as a result of all of this not
-inconsiderable effort? Creative control to be sure, to be able
-to type something and see it appear exactly as desired on the
-screen. Community engagement is another, to be part of a group
-of people all working toward a common goal.&lt;/p&gt;
-
-&lt;p&gt;Of course the other thing that I could do is take some old weblog,
-revisit it, and republish it in some other format. Blogger&amp;rsquo;s Secret
-is the reasonable one to do that to. It has virutally no traffic
-now, but if I re-serialized it, it might do the trick.&lt;/p&gt;
-</description>
+      <description>This weblog, which may or may not ever see the light of day, is about a great many things.
+There are other blogs waiting to be written that don&amp;rsquo;t have that infinite vista; they could easily be much more narrow. What, then, do you write about? Let&amp;rsquo;s count some of the options.
+ Docker on the Raspberry Pi, following Hypriot&amp;rsquo;s lead. Just Docker in general, and Dockerizing various things. Recipes, since I have a bunch already.</description>
     </item>
     
     <item>
@@ -62,18 +28,7 @@ now, but if I re-serialized it, it might do the trick.&lt;/p&gt;
       <pubDate>Fri, 21 Mar 2014 00:26:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-21-the-next-major-change-for-this-weblog-is-converting-over-comments-to-disqus/</guid>
-      <description>&lt;p&gt;I&#39;m not ready to take it on yet, but my next plan here is to port
-the 2000+ comments that I have on this blog over to Disqus, and
-start using that instead of Typepad Comments. Expect that to happen
-in the next month or so. I think all I need is a practice session on
-a small blog to make sure I get the steps right, and a fast network
-connection to make sure the switch happens quickly when I upload the 
-new comment stream into Disqus.&lt;/p&gt;
-
-&lt;p&gt;As I understand it it&#39;s a one-way switch with no turning back.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://help.typepad.com/disqus.html&#34;&gt;Setting Up Disqus Commenting&lt;/a&gt; is the instructions.&lt;/p&gt;
-</description>
+      <description>I&#39;m not ready to take it on yet, but my next plan here is to port the 2000+ comments that I have on this blog over to Disqus, and start using that instead of Typepad Comments. Expect that to happen in the next month or so. I think all I need is a practice session on a small blog to make sure I get the steps right, and a fast network connection to make sure the switch happens quickly when I upload the new comment stream into Disqus.</description>
     </item>
     
     <item>
@@ -82,30 +37,9 @@ new comment stream into Disqus.&lt;/p&gt;
       <pubDate>Thu, 20 Mar 2014 22:43:32 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-20-a-new-responsive-design-for-this-weblog/</guid>
-      <description>&lt;p&gt;Thanks to the good folks at Typepad, I now have a
-responsive design for this blog. Their new &#34;Snap&#34;
-theme gives you one design that works well on devices
-of various sizes. I&#39;m liking it so far.&lt;/p&gt;
-
-&lt;p&gt;The one thing that I want to tweak is the design of
-the &#34;blockquote&#34; font size and weight:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Blockquote is here in bold, whereas I&#39;d prefer to make
-  it quite a bit less bold since I don&#39;t use it so much.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A somewhat trickier problem is that I&#39;m using &#34;Markdown&#34;
-as my composition tool within Typepad instead of HTML,
-and that works only somewhat well with the new automated
-summary system. If I use Markdown punctuation in the first
-paragraph or so of the text it shows up as punctuation rather
-than HTML rendered text in the summary body on the home page.
-That&#39;s a minor enough issue and one easy enough to fix if I
-had to that I&#39;m letting that slide.&lt;/p&gt;
-
-&lt;p&gt;More information: &lt;a href=&#34;http://everything.typepad.com/blog/2014/03/new-for-beta-users-a-responsive-design.html&#34;&gt;Snap responsive theme&lt;/a&gt; announcement on Typepad.com.&lt;/p&gt;
-</description>
+      <description>Thanks to the good folks at Typepad, I now have a responsive design for this blog. Their new &#34;Snap&#34; theme gives you one design that works well on devices of various sizes. I&#39;m liking it so far.
+The one thing that I want to tweak is the design of the &#34;blockquote&#34; font size and weight:
+ Blockquote is here in bold, whereas I&#39;d prefer to make it quite a bit less bold since I don&#39;t use it so much.</description>
     </item>
     
     <item>
@@ -114,19 +48,10 @@ had to that I&#39;m letting that slide.&lt;/p&gt;
       <pubDate>Tue, 31 Jul 2012 12:40:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-07-31-what-youre-likely-to-find-here/</guid>
-      <description>&lt;p&gt;I treat this weblog as an &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/unpolished-open-notebook.html&#34; target=&#34;_self&#34;&gt;unpolished open notebook&lt;/a&gt;, inspired by RFC 3 from 1969:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Steve Crocker,&amp;#0160;&lt;a href=&#34;http://tools.ietf.org/html/rfc3&#34; target=&#34;_self&#34;&gt;Internet Request for Comments 3&lt;/a&gt;, from 1969: &amp;quot;There is a natural hesitancy to publish something unpolished, and we hope to ease this inhibition.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;If you are looking for some more evidence of focus and polish, I&amp;#39;ve moved some of the writing that I&amp;#39;ve done on some topics to their own weblogs. See these:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://vielmetti.typepad.com/secret&#34; target=&#34;_self&#34;&gt;Blogger&amp;#39;s Secret&lt;/a&gt;, a sporadically active weblog about writing and expertise&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://vielmetti.typepad.com/foia&#34; target=&#34;_self&#34;&gt;FOIA Coordinator&lt;/a&gt;, a weekly weblog about the Freedom of Information Act&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://vielmetti.typepad.com/superpatron&#34; target=&#34;_self&#34;&gt;Superpatron&lt;/a&gt;, a mostly dormant but still interesting blog about libraries and books&lt;/li&gt;
-&lt;li&gt;A &lt;a href=&#34;http://pinterest.com/vielmetti/maps&#34; target=&#34;_self&#34;&gt;Pinterest board for maps&lt;/a&gt;, which sometimes show up in this blog&amp;#39;s &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/maps&#34; target=&#34;_self&#34;&gt;maps category&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Looking forward to hearing from you.&lt;/p&gt;
-&lt;p&gt;Edward Vielmetti, Ann Arbor MI&lt;/p&gt;
-&lt;p&gt;edward.vielmetti@gmail.com&lt;/p&gt;
-</description>
+      <description>I treat this weblog as an unpolished open notebook, inspired by RFC 3 from 1969:
+Steve Crocker,&amp;#0160;Internet Request for Comments 3, from 1969: &amp;quot;There is a natural hesitancy to publish something unpolished, and we hope to ease this inhibition.&amp;quot;
+If you are looking for some more evidence of focus and polish, I&amp;#39;ve moved some of the writing that I&amp;#39;ve done on some topics to their own weblogs. See these:
+ Blogger&amp;#39;s Secret, a sporadically active weblog about writing and expertise FOIA Coordinator, a weekly weblog about the Freedom of Information Act Superpatron, a mostly dormant but still interesting blog about libraries and books A Pinterest board for maps, which sometimes show up in this blog&amp;#39;s maps category  Looking forward to hearing from you.</description>
     </item>
     
     <item>
@@ -135,13 +60,7 @@ had to that I&#39;m letting that slide.&lt;/p&gt;
       <pubDate>Tue, 01 May 2012 12:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-05-01-im-not-producing-content-im-writing/</guid>
-      <description>&lt;p&gt;For this blog, at least, I want to make it very clear: I&#39;m not &#34;producing content&#34;, I&#39;m writing. This may be in order to call out attention to the work of a friend or a client, it may be to scratch some particular itch for words that need to be said, and it may be because someone else&#39;s interests dovetail with mine. Generally I try to quote enough of what other people say to be fair to them, and to tell a part of a story that you can find only by chasing through the network looking to connect ideas together at their edges.&lt;/p&gt;
-&lt;p&gt;One of the peculiar characteristics of writing for yourself and not just creating copy is that you end up finding things from your past that you still own enough to re-edit and rework as needed. A recent discussion on Twitter about paw paws helped me unearth &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2008/09/papaws-the-mich.html&#34; target=&#34;_self&#34;&gt;a 2008 collection of scrapbook entries about the fruit, its names, and how it tastes.&lt;/a&gt;&amp;nbsp;If I had produced this content for an employer (or an ex-employer), it would be long since frozen and old; but because it&#39;s just my writing, I can go back and make it better four years later.&lt;/p&gt;
-&lt;p&gt;I&#39;ve been happy with Typepad for a long time. Recently, some of the management changes at the organization that runs it have led to some changes in the marketing around the service, so that the relatively few old-school bloggers like me still on the system seem less and less to be the target audience, in favor of professional media people who have a certain number of words of content that they are obligated to produce before they move to the next task. I guess I can only be hopeful that the sorts of tools that are needed to crank out content on the job can also be used for old fashioned blogging where the deadlines are less definite and the goals more ambiguous.&lt;/p&gt;
-&lt;p&gt;- 30 -&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.metagrrrl.com/metagrrrl/2012/04/rt-vielmetti-typepad-im-not-producing-content-im-writing.html&#34; target=&#34;_self&#34;&gt;Thanks to Dinah Sanders (@metagrrrl) for the Typepad commentary&lt;/a&gt;. The paw paw discussion came and went on Twitter, as twitter things tend to do, without leaving too much of an obvious trace; &lt;a href=&#34;https://twitter.com/#!/MickiMaynard/status/196658685341220864&#34; target=&#34;_self&#34;&gt;Micki Maynard&lt;/a&gt; and Dave Askins were at the center of it. I tried to avoid bringing in any mention of &#34;discontent&#34;, and failed.&lt;/p&gt;
-&lt;p&gt;Disclaimer: nothing to disclaim at this time.&lt;/p&gt;
-</description>
+      <description>For this blog, at least, I want to make it very clear: I&#39;m not &#34;producing content&#34;, I&#39;m writing. This may be in order to call out attention to the work of a friend or a client, it may be to scratch some particular itch for words that need to be said, and it may be because someone else&#39;s interests dovetail with mine. Generally I try to quote enough of what other people say to be fair to them, and to tell a part of a story that you can find only by chasing through the network looking to connect ideas together at their edges.</description>
     </item>
     
     <item>
@@ -150,11 +69,8 @@ had to that I&#39;m letting that slide.&lt;/p&gt;
       <pubDate>Sun, 22 May 2011 20:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-05-22-about-/</guid>
-      <description>&lt;p&gt;This is the weblog of Edward Vielmetti in Ann Arbor, Michigan. It&amp;#39;s part of a continuous stream of writing online that started for the Internet in 1985, and that showed up here on Typepad in 2003 or so.&lt;/p&gt;
-&lt;p&gt;I have been interested in a great many things, which all have had something to do one way or the other with networks and internetworks at all levels - technical, political, social, biological, intellectual and commercial. Often, the only way to make sense of something is to write about it, and the log reflects that continuous stream of curiousity much more so than any desire to &amp;quot;publish&amp;quot;.&lt;/p&gt;
-&lt;p&gt;Quite a bit of this writing has been about Ann Arbor, and for a year and a half&lt;a href=&#34;http://annarbor.com/vielmetti&#34; target=&#34;_self&#34;&gt; I wrote a daily column for &amp;#0160;AnnArbor.com that was published online&lt;/a&gt;. That was a fascinating job, and it&amp;#39;s over; I&amp;#39;m currently seeking a new full-time position. &lt;a href=&#34;http://linkedin.com/in/edwardvielmetti&#34; target=&#34;_self&#34;&gt;You can see my online resume on LinkedIn&lt;/a&gt;, which makes some approximation of what a career in the Internet looks like.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;I took this weblog offline for a few months in early 2011 so that I could read through enough of it to do an edit on some of the categorization, add back in some old materials that deserved to be preserved, and unpublish a handful of mostly unread works that needed further editing. The editing job is woefully lacking in most blogging, and the opportunity to go offline for a bit and do a cleanup job is quite welcomed.&lt;/p&gt;
-</description>
+      <description>This is the weblog of Edward Vielmetti in Ann Arbor, Michigan. It&amp;#39;s part of a continuous stream of writing online that started for the Internet in 1985, and that showed up here on Typepad in 2003 or so.
+I have been interested in a great many things, which all have had something to do one way or the other with networks and internetworks at all levels - technical, political, social, biological, intellectual and commercial.</description>
     </item>
     
   </channel>

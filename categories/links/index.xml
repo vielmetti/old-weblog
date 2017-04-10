@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/links/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Links on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/links/</link>
+    <description>Recent content in Links on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jul 2015 13:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Library notes from Malletts Creek</title>
@@ -14,86 +17,8 @@
       <pubDate>Wed, 22 Jul 2015 13:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-22-library-notes/</guid>
-      <description>&lt;p&gt;Out for a bike ride to Malletts Creek Branch Library after a delicious lunch of
-BBQ at Ricewood.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;One of the challenges of low overhead custom postcard making is getting
-an image manipulation pipeline that kicks out photos that a appropriately
-cropped and sized. The latest challenge is identifying the single command
-line that will turn a photo from my phone&amp;rsquo;s camera into an appropriately
-sized image for the card with a minimum of cropping, distortion, and
-manual file transfers.&lt;/p&gt;
-
-&lt;p&gt;What I know doesn&amp;rsquo;t work is upload via Twitter, because the series of
-resizings generate visible compression artifacts.&lt;/p&gt;
-
-&lt;p&gt;I can upload from the phone to OneDrive, which gives me a photo of size
-2592 × 1456 pixels (1.78:1, 16:9). The target size is 1875 x 1275
-(1.47:1, 25:17), which is postcard format. I can keep all of the pixels
-in the image by letterboxing it, or I can crop off the edges. What I
-can&amp;rsquo;t really do is stretch the image to fit because it&amp;rsquo;s too far off.&lt;/p&gt;
-
-&lt;p&gt;Looking further at my camera software (Lumia Camera) it appears
-that I can also take photos at 4:3. There&amp;rsquo;s more experimenting to be done.&lt;/p&gt;
-
-&lt;p&gt;For more documentation, see &lt;a href=&#34;http://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/&#34;&gt;Efficient Image Resizing With ImageMagick&lt;/a&gt;,
-Dave Newton in Smashing Magazine, June 25, 2015. Dave goes through a
-professionally thorough view of resizing and resampling images for the web,
-comparing his results against Photoshop. For instance:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I tested 31 different settings for &lt;code&gt;-filter&lt;/code&gt; and got the best results
-with &lt;code&gt;Triangle&lt;/code&gt;. The Triangle resampling filter is also known as
-bilinear interpolation, which I discussed above. It determines pixel
-color by looking at a support area of neighboring pixels and produces
-a weighted average of their colors. I found it best to specify this
-support area at two pixels using the &lt;code&gt;-define filter:support=2&lt;/code&gt;
-setting.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Dave uses DSSIM from &lt;a href=&#34;https://pornel.net/dssim&#34;&gt;https://pornel.net/dssim&lt;/a&gt; to test his results.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This tool computes (dis)similarity between two PNG images using
-(my approximation of) algorithms approximating human vision.
-Comparison is done in L*a&lt;em&gt;b&lt;/em&gt; color space using a multi-scale variant
-of the SSIM algorithm.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There are sites that have automatic crop algorithms, though I haven&amp;rsquo;t
-yet found a package that&amp;rsquo;s usable without licensing. The interactive
-web site of &lt;a href=&#34;http://croppola.com/&#34;&gt;Croppola&lt;/a&gt; is one useful example of
-this genre.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Pittsburgh&amp;rsquo;s smallest jazz club is installed in a bus stop on Liberty
-Avenue, across from 9th Street.  The shelter was installed on July
-6 and will remain until late August 2015. From the
-&lt;a href=&#34;http://newpittsburghcourieronline.com/2015/07/09/the-worlds-smallest-jazz-club/&#34;&gt;New Pittsburgh Courier Online&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://awesomepgh.com/2015/01/15/award-36-pittsburghs-smallest-jazz-club/&#34;&gt;Awesome Pittsburgh&lt;/a&gt;’s trustees smiled unanimously when they decided
-to choose the proposal for one of 2014’s $1000 grants, envisioning
-a bus patron who pushes a button, only to have an iPod play jazz
-music from one of MCG Jazz’s Grammy Award winning recordings. The
-interior walls of a bus shelter will feature images of Pittsburgh’s
-jazz legends, and a blank “Your Face Here!” space to take a picture
-of yourself at “Pittsburgh’s Smallest Jazz Club.” Lamar Outdoor,
-owner of the bus shelters in Pittsburgh and Allegheny County, is
-already on board to help make the project happen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The project was done by &lt;a href=&#34;http://mcgjazz.org/&#34;&gt;MCG Jazz&lt;/a&gt; -
-&lt;a href=&#34;https://twitter.com/Amy_MCGJazz&#34;&gt;Amy Kline&lt;/a&gt; is their marketing manager.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Network issues at Malletts Creek branch were a good reason to exit back
-towards town.&lt;/p&gt;
-</description>
+      <description>Out for a bike ride to Malletts Creek Branch Library after a delicious lunch of BBQ at Ricewood.
+ One of the challenges of low overhead custom postcard making is getting an image manipulation pipeline that kicks out photos that a appropriately cropped and sized. The latest challenge is identifying the single command line that will turn a photo from my phone&amp;rsquo;s camera into an appropriately sized image for the card with a minimum of cropping, distortion, and manual file transfers.</description>
     </item>
     
     <item>
@@ -102,148 +27,8 @@ towards town.&lt;/p&gt;
       <pubDate>Tue, 21 Jul 2015 10:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-21-daily-coffee-wifi-erc-south-main/</guid>
-      <description>&lt;p&gt;Espresso over ice at ERC South Main. This is now my favorite summer drink.
-Served in a cup with enough ice and you get the makings of a very strong
-iced latte, just add a little half and half.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The work of the morning is finishing up yesterday&amp;rsquo;s work on sending
-postcards with Lob.com. Key to this effort is resizing your favorite
-images so that they meet the template. Fortunately I had the presence
-of mind seven years ago to
-&lt;a href=&#34;http://vielmetti.github.io/post/2008/2008-12-29-image-processing-on-the-mac-with-sips-imagemagick-watching-dte-restore-power-slowly/&#34;&gt;write up my notes on using sips and Imagemagick&lt;/a&gt;
-for image manipulation and that helped. In this case the magic incantation
-was&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sips -z 1275 1875 original.jpg --out new.jpg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t have a Mac, or want to do this on a server or container
-somewhere, you&amp;rsquo;ll want Imagemagick. That venerable program has a
-bazillion options, and you&amp;rsquo;ll find the image geometry options at
-&lt;a href=&#34;http://www.imagemagick.org/script/command-line-processing.php#geometry&#34;&gt;http://www.imagemagick.org/script/command-line-processing.php#geometry&lt;/a&gt; .
-Recreating this exact sips command is left as an exercise for the reader.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;That bit of image processing taken care of, the next iteration is to
-launch a few actual postcards into the ether. After having confirmed
-that everything goes OK on the test key, I sent out four cards. Estimated
-delivery date is July 30, so I&amp;rsquo;m expecting about a two week turnaround
-for feedback that I got everything right. Lob has card tracking so I guess
-the next step is to write the simple tools to know when things were
-delivered so that I can plan some phone calls.&lt;/p&gt;
-
-&lt;hr  /&gt;
-
-&lt;p&gt;My cousin Zorba has perhaps the best bio in the business.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;He has, in the course of his endeavors: been shot at by Navajos
-in Utah; seized and threatened at knifepoint by rednecks in Arkansas;
-chased by AK-47-toting soldiers in Hungary; run out of town by the
-Penitentes in Truchas; shaken down by the Federales in Baja, and
-forced to be rude to secure a cab in Rome. He has hung out of and
-over: planes, balloons, helicopters, boats, rafts, race cars,
-elevator shafts, too tall cliffs, and real deep canyons- and yet,
-he still has enthusiasm and a good attitude.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Jerry Davis asks why we still have academic journals:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Web has greatly reduced the barriers to entry for new journals
-and other platforms for communicating scientific output, and the
-number of journals continues to multiply. This leaves readers and
-authors with the daunting cognitive challenge of navigating the
-literature and discerning contributions that are both relevant and
-significant. Meanwhile, measures of journal impact that might guide
-the use of the literature have become more visible and consequential,
-leading to “impact gamesmanship” that renders the measures increasingly
-suspect.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The essay, published in &lt;a href=&#34;http://asq.sagepub.com/content/59/2/193&#34;&gt;Administrative Science Quarterly&lt;/a&gt; in June 2014, has the seeds of its own answer. Journals
-exist to enrich academic publishers.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Pay per Article - You may purchase this article for US$32.00. You
-must download your purchase, which is yours to keep, within 24
-hours.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&amp;rsquo;ll just ask Jerry for a preprint.&lt;/p&gt;
-
-&lt;p&gt;Previously (1995!) I get quoted in the Times Higher Education Supplement.
-The debate then centered around Stevan Harnad, an open access journal
-advocate who saw clearly the trend towards low cost electronic publications,
-thusly:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;It remains only to tally up these PostGutenberg values: If the
-world&amp;rsquo;s esoteric scholarly/scientific literature were available to
-everyone for free in electronic form, the first benefit to the
-author would be the great increase in the visibility, accessibility
-and hence the potential impact of his work (1). This would of course
-also be a benefit to all scholars when they are wearing their
-readers&amp;rsquo; rather than their authors&amp;rsquo; hats (2). Some fear that such
-a literature would be overwhelming and un-navigable, but stop and
-think: How do we currently manage it in paper? If the entire corpus
-were transferred to the Net, instead of our eyes and fingers and
-feet doing the walking to get to the papers or to get the papers
-to us, electronic directories containing everything could be searched
-using the kinds of keyword search already used today in searching
-electronic databases that contain the titles and abstracts (but not
-the articles) in the paper literature. Then, one more click, and
-you have the paper itself! Or clever &amp;ldquo;knowbots&amp;rdquo; (automatic search
-programmes) could be designed to go out instead of us and look for
-papers fitting our profile of interests, leaving us even more time
-to actually read what we want and to do our research, rather than
-running after the literature.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;My reply, &lt;a href=&#34;https://www.timeshighereducation.co.uk/features/harnad-versus-fuller-round-2/98502.article&#34;&gt;immortalized from the past&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Edward Vielmetti (bottom) uncontroversially points out that there
-is a lot of rubbish on the Internet; but he is sceptical of peer
-review as a solution.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The original commentary is lost in the mists of time, I hope.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There are two institutions that went by the name of GopherCon.
-(No, it&amp;rsquo;s not a furry convention; that&amp;rsquo;s Anthrocon.) One was
-from the early 1990s surrounding the Gopher internet browsing
-protocol; the other is for enthusiasts and programmers of the
-Go programming language. I am not aware of anyone who can claim
-to have gone to both events.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.databaseteam.org/10-database/0722cf77b51ab4ba.htm&#34;&gt;GopherCon 1995&lt;/a&gt;
-featured discussion of GopherVR and VRML for virtual reality in Gopher,
-the Hyper-G Information System for hypertext authoring, and an
-early morning session on Integrating Gopher and WWW.&lt;/p&gt;
-
-&lt;p&gt;GopherCon 2015 was in early July in Colorado. Of the items on
-the agenda this talk by Barak Michener was perhaps the most interesting
-to follow through on:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Written in Go, Cayley is a graph database based on technology
-behind Freebase.com. Starting with a short history of the inspirations
-behind Cayley, this talk will deep-dive into the moving parts of
-building a graph database, between the various query languages, the
-storage engines, and the iterator trees.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And of course this blog is now powered by Hugo which is written in Go
-so I&amp;rsquo;m learning a little about the Go template language as a side effect.&lt;/p&gt;
-</description>
+      <description>Espresso over ice at ERC South Main. This is now my favorite summer drink. Served in a cup with enough ice and you get the makings of a very strong iced latte, just add a little half and half.
+The work of the morning is finishing up yesterday&amp;rsquo;s work on sending postcards with Lob.com. Key to this effort is resizing your favorite images so that they meet the template. Fortunately I had the presence of mind seven years ago to write up my notes on using sips and Imagemagick for image manipulation and that helped.</description>
     </item>
     
     <item>
@@ -252,53 +37,7 @@ so I&amp;rsquo;m learning a little about the Go template language as a side effe
       <pubDate>Mon, 13 Jul 2009 04:06:10 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-07-13-links-for-2009-07-13/</guid>
-      <description>&lt;p&gt;&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.readwriteweb.com/archives/comments_dead_twitter_holds_smoking_gun.php&#34;&gt;Comments Dead, Twitter Holds Smoking Gun&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;At the recent Real-Time CrunchUp 2009, Khris Loux, CEO of one of the web&amp;#039;s largest commenting services, announced the
-&amp;quot;death of the comment&amp;quot;. This declaration was extremely significant as Loux&amp;#039;s JS-Kit is currently installed on over 600,000 sites. He blames the death on social media sites like Twitter and Flickr and the rise of &amp;quot;parallel channels away from [the] product&amp;quot;. In essence, dialogue has moved from a singular destination to a series of parallel but separate social networking channels.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/twitter&#34;&gt;twitter&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/comments&#34;&gt;comments&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://features.csmonitor.com/politics/2009/07/09/alaskas-tab-for-ethics-complaints-about-palin-19-million/&#34;&gt;Alaska’s tab for ethics complaints about Palin: $1.9 million | csmonitor.com&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;If public-records requests are expensive, the Palin administration’s practices help make them so, says Gregg Erickson, a Juneau economist and former state revenue official who publishes a specialized newsletter on Alaska budget issues.&lt;/p&gt;
-
-&lt;p&gt;“They have taken the position that a lawyer has to look at every single record before its release. If a lawyer has to look at it and review it, and maybe write a legal opinion on it, well, that’s going to be expensive,” says Mr. Erickson. Court fights also add to the costs, he says.&lt;/p&gt;
-
-&lt;p&gt;Citizens and journalists who sought public records have been socked with huge bills. At one point, the Palin administration presented the Associated Press with a bill of $45 million for copies of official state e-mails sent to Palin’s husband, to the McCain campaign, and to federal agencies.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/alaska&#34;&gt;alaska&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/palin%2Csarah&#34;&gt;palin,sarah&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/foia&#34;&gt;foia&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/ethics&#34;&gt;ethics&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/the-high-price-of-transparency&#34;&gt;the-high-price-of-transparency&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://stackoverflow.com/questions/434583/what-is-the-fastest-way-to-draw-an-image-from-discrete-pixel-values-in-python&#34;&gt;What is the fastest way to draw an image from discrete pixel values in Python? - Stack Overflow&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;I wish to draw an image based on computed pixel values, as a means to visualize some data. Essentially, I wish to take a 2-dimensional matrix of color triplets and render it.&lt;/p&gt;
-
-&lt;p&gt;Do note that this is not image processing, since I&amp;#039;m not transforming an existing image nor doing any sort of whole-image transformations, and it&amp;#039;s also not vector graphics as there is no pre-determined structure to the image I&amp;#039;m rendering- I&amp;#039;m probably going to be producing amorphous blobs of color one pixel at a time.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/python&#34;&gt;python&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/graph&#34;&gt;graph&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/image&#34;&gt;image&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/heatmap&#34;&gt;heatmap&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/numbers&#34;&gt;numbers&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/via%3Amahatm&#34;&gt;via:mahatm&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://annarbor.com/2009/07/on-gathering-feedback-in-person-and-online.html&#34;&gt;On gathering feedback, in person and online - AnnArbor.com&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;I like UserVoice, I really do; but it couldn&amp;#039;t stand up to a dedicated person spamming it with foul language over and over again, and until there&amp;#039;s enough spam control to deal with that operational issue in real time it&amp;#039;s just going to have to be de-emphasized for now. (suk)&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/uservoice&#34;&gt;uservoice&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarborcom&#34;&gt;annarborcom&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/comments&#34;&gt;comments&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/feedback&#34;&gt;feedback&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/be-careful-what-you-wish-for&#34;&gt;be-careful-what-you-wish-for&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://ubertwitter.com/bb/download.php&#34;&gt;ÜberTwitter Download&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Welcome! You are moments away from experiencing a truly advanced Twitter client developed especially for BlackBerry devices. We are in our third Beta test phase now, but encourage you to download and try this version as we continue to refine and develop the product.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/twitter&#34;&gt;twitter&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/mobile&#34;&gt;mobile&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/blackberry&#34;&gt;blackberry&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/beta&#34;&gt;beta&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.pbs.org/idealab/2009/06/saving-journalism-one-idea-at-a-time162.html&#34;&gt;MediaShift Idea Lab . Saving Journalism, One Idea at a Time | PBS&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;We&amp;#039;ve become accustomed to a media world dominated by monopolies and oligopolies. So we -- and especially the paid journalists who remain in the craft -- tend to imagine that just a few big institutions will rise from the sad rubble of the journalism business.&lt;/p&gt;
-
-&lt;p&gt;That&amp;#039;s not where it&amp;#039;s going, at least not anytime soon. We&amp;#039;re heading into an incredibly messy but also wonderful period of innovation and experimentation that combines technology and people and pushes great and outlandish ideas into the real world. The result will a huge number of failures but also a large number of successes.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/advertising&#34;&gt;advertising&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/business&#34;&gt;business&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/future&#34;&gt;future&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspapers&#34;&gt;newspapers&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/gillmor&#34;&gt;gillmor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/media&#34;&gt;media&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.apartmenttherapy.com/dc/hot-or-not/hot-or-not-stencil-graffiti-in-savannah-ga-067316&#34;&gt;Apartment Therapy DC | Hot or Not? Stencil Graffiti in Savannah GA&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Stencil Graffiti in Savannah GA: Hot or Not?&lt;br /&gt;
-    Hot: That little zebra is street art; walking by him would make me smile!&lt;br /&gt;
-    Not: That little zebra is defacing the beauty of that building; walking by him would make me scowl!&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/graffiti&#34;&gt;graffiti&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hot-or-not&#34;&gt;hot-or-not&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/zebra&#34;&gt;zebra&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/apartment-therapy&#34;&gt;apartment-therapy&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/via%3Ajyew&#34;&gt;via:jyew&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://open.salon.com/blog/future_of_journalism/2009/07/08/facts_dog_cleveland_newspaper_defender&#34;&gt;Facts dog Cleveland newspaper defender - The Future of Journalism - Open Salon&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;This blog is going to ask for your indulgence. It is frankly obsessed with the 15-minute video at Cleveland.com that both Katharine and I wrote about yesterday. We&amp;#039;re thinking of changing the name of this blog to the How Crazy Was That Cleveland Plain Dealer Video? Blog.&lt;/p&gt;
-
-&lt;p&gt;It&amp;#039;s just such a stunning example of newspaper-industry hubris and cluelessness. True confession: I&amp;#039;m writing about it for the second time, and I still haven&amp;#039;t made it past the 10-minute mark, where Cleveland Plain Dealer &amp;quot;reader representative&amp;quot; Ted Diadiun refers to bloggers as &amp;quot;a bunch of pipsqueaks.&amp;quot;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/cleveland&#34;&gt;cleveland&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/cleveland-plain-dealer&#34;&gt;cleveland-plain-dealer&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/blogging&#34;&gt;blogging&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/diadiun%2Cted&#34;&gt;diadiun,ted&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/we-need-a-better-press-corps&#34;&gt;we-need-a-better-press-corps&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/a-bunch-of-pipsqueaks&#34;&gt;a-bunch-of-pipsqueaks&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>Comments Dead, Twitter Holds Smoking Gun At the recent Real-Time CrunchUp 2009, Khris Loux, CEO of one of the web&amp;#039;s largest commenting services, announced the &amp;quot;death of the comment&amp;quot;. This declaration was extremely significant as Loux&amp;#039;s JS-Kit is currently installed on over 600,000 sites. He blames the death on social media sites like Twitter and Flickr and the rise of &amp;quot;parallel channels away from [the] product&amp;quot;. In essence, dialogue has moved from a singular destination to a series of parallel but separate social networking channels.</description>
     </item>
     
     <item>
@@ -307,58 +46,7 @@ so I&amp;rsquo;m learning a little about the Go template language as a side effe
       <pubDate>Thu, 09 Jul 2009 04:08:53 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-07-09-links-for-2009-07-09/</guid>
-      <description>&lt;p&gt;&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://bits.blogs.nytimes.com/2009/07/07/blogs-on-paper-idea-runs-out-of-steam/&#34;&gt;Blogs-on-Paper Idea Runs Out of Steam - Bits Blog - NYTimes.com&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Not hilarious. It makes sense. Over 90% of Politico’s revenue comes from its print edition, even though it’s only distributed in D.C. The truth is, as the CFOs of both the NYTimes and WSJ will tell you, print advertising, on a CPM basis, generates 75x more revenue than Web ads.
-— Patricia&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/blog&#34;&gt;blog&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/print&#34;&gt;print&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/politico&#34;&gt;politico&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/revenue-model&#34;&gt;revenue-model&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://blogs.law.harvard.edu/palfrey/category/citizen-editors/&#34;&gt;John Palfrey » Citizen Editors&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;In the past several weeks, I’ve been playing with a new format that my friends at TopTenSources developed. We’ve seen the Citizen Journalist; this idea is the Citizen Editor. Several of us have been using a new bookmarklet-style tool that makes it very easy to tag a story when you’re reading it, provide a bit of analysis, and have it posted to a dedicated website on the topic. It’s in many ways what lots of bloggers do anyway. I remember Dave Winer showing me an aspect of Manila that renders a river of news and then lets you check off stories that you want to appear somewhere — dead simple and fun; this idea is in the same vein, only using different tools and with a different output.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/aggregators&#34;&gt;aggregators&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/citizen-editors&#34;&gt;citizen-editors&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/winer%2Cdave&#34;&gt;winer,dave&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/news&#34;&gt;news&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/editor&#34;&gt;editor&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.cyberjournalist.net/engage-citizen-editors/&#34;&gt;Engage citizen editors&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Time was, newsrooms were instantly fact-checked by a handful of groups, sometimes with a political point of view, sometimes simply hobbyists and aficionados. Gun owners, railroad buffs, retired English teachers … we knew them fairly well.&lt;/p&gt;
-
-&lt;p&gt;Today, the Internet has brought countless communities of interest together. Some of them blog and some of them chat among themselves. They can connect with each other — and with us — using only a few keystrokes and the “send” button.&lt;/p&gt;
-
-&lt;p&gt;They are the citizen editors of our journalism.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/citizen-editors&#34;&gt;citizen-editors&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/fact-checking&#34;&gt;fact-checking&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspapers&#34;&gt;newspapers&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/editing&#34;&gt;editing&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.davecarrollmusic.com/story/united-breaks-guitars&#34;&gt;United Breaks Guitars | Dave Carroll Music.com&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;United has demonstrated they know how to keep their airline in the forefront of their customer’s minds and I wanted this project to expand upon that satirically. I’ve been done “being angry” for quite some time and, if anything, I should thank United. They’ve given me a creative outlet that has brought people together from around the world. We had a pile of laughs making the recording and the video while the images are spinning on how to make “United: Song 2” even better than the first. So, thanks United! If my guitar had to be smashed due to extreme negligence I’m glad it was you that did it. Now sit back and enjoy the show.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/unitedairlines&#34;&gt;unitedairlines&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/sonsofmaxwell&#34;&gt;sonsofmaxwell&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/song&#34;&gt;song&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/airline&#34;&gt;airline&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/music&#34;&gt;music&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/travel&#34;&gt;travel&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/dont-piss-off-that-singer-songwriter&#34;&gt;dont-piss-off-that-singer-songwriter&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://newsinnovation.com/2009/07/07/news-innovators-on-the-frontline-mgoblog-com/&#34;&gt;News Innovators on the Frontline: MGoBlog.com | News Innovation&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;The kind of people who are affected by The Ann Arbor News becoming annarbor.com are generally less hardcore about their sports coverage.&lt;/p&gt;
-
-&lt;p&gt;But with the transition to the web, they are promising to link out a lot, so having more of a two-way relationship with the local news sites would help, probably just in terms of Google ranking and maybe some traffic. Right now I link to them and The Free Press fairly often, and I don’t think I’ve ever received a link from any of those sources. That seems a little unbalanced.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/football&#34;&gt;football&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/umich&#34;&gt;umich&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/mgoblog&#34;&gt;mgoblog&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/mgoblue&#34;&gt;mgoblue&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/back-atcha-buddy&#34;&gt;back-atcha-buddy&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.freep.com/article/20090708/ENT08/90708055/1041/ent08&#34;&gt;Chef of Ann Arbor restaurant to compete on show | Freep.com | Detroit Free Press&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Chef Eve Aronoff — chef-owner of eve restaurant in Ann Arbor’s Kerrytown district — will compete this fall on Bravo’s “Top Chef: Las Vegas,” the sixth season of the top-rated cable series, the network announced today.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Aronoff, 40, was classically trained at Le Cordon Bleu in Paris, but her contemporary cooking style is known for its bold, exotic flavors and eclectic international influences that range from Cuba and Africa to Vietnam. Her intimate restaurant, opened in 2003, features a seasonally changing menu, an outstanding wine list and a casually sophisticated ambience.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/aronoff%2Ceve&#34;&gt;aronoff,eve&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/eve&#34;&gt;eve&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/food&#34;&gt;food&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/restaurant&#34;&gt;restaurant&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/top-chef-las-vegas&#34;&gt;top-chef-las-vegas&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://community.akoha.com/blog/&#34;&gt;~ Akoha - Come Play it Forward&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;We’re very pleased to announce that we’ve completely sold-out of our initial print run of VIP Starter Decks. Many thanks to all our players for making the first edition of the VIP Starter Kit such a success.&lt;/p&gt;
-
-&lt;p&gt;Based on feedback from the community we’ve taken this opportunity to improve the original VIP Starter Deck.&lt;/p&gt;
-
-&lt;p&gt;Along with being much shinier and easier to read we’ve added more of your favourite missions (”Thanks Someone”, “Make Someone Smile” and “Give Someone a Surprise Gift” and removed a couple of missions that weren’t getting as much love (”Send Drinks to a Couple in Love” and “Give a Compact Florescent Bulb”).&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/social&#34;&gt;social&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/startup&#34;&gt;startup&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/pay-it-forward&#34;&gt;pay-it-forward&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/lunch&#34;&gt;lunch&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/montreal&#34;&gt;montreal&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.vanityfair.com/politics/features/2009/08/wolff200908&#34;&gt;Michael Wolff on Politico | vanityfair.com&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Four old-media veterans may have solved the future of news with the Politico Web site, whose audience of six million obsessives and insiders consumes–and feeds–a real-time download of power data. The twist? Politico’s print version is what’s helped make it profitable.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/politics&#34;&gt;politics&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/internet&#34;&gt;internet&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hyper-fricking-local&#34;&gt;hyper-fricking-local&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/the-late-age-of-print&#34;&gt;the-late-age-of-print&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;https://www.adbusters.org/blogs/adbusters_blog/death_print.html&#34;&gt;The Death of Print | Adbusters Culturejammer Headquarters&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Relying on an advertiser-supported business model is archaic, not to mention dangerous. If it is to survive, the print industry needs to revisit the era when they answered to the reader. When they fought to bring down crooked politicians instead of fighting to clutch onto advertisers. As we can all see now, the advertisers were never loyal companions anyway.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/advertising&#34;&gt;advertising&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/print&#34;&gt;print&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/the-late-age-of-print&#34;&gt;the-late-age-of-print&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspapers&#34;&gt;newspapers&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/adbusters&#34;&gt;adbusters&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>Blogs-on-Paper Idea Runs Out of Steam - Bits Blog - NYTimes.com Not hilarious. It makes sense. Over 90% of Politico’s revenue comes from its print edition, even though it’s only distributed in D.C. The truth is, as the CFOs of both the NYTimes and WSJ will tell you, print advertising, on a CPM basis, generates 75x more revenue than Web ads. — Patricia (tags: blog newspaper print politico revenue-model)  John Palfrey » Citizen Editors In the past several weeks, I’ve been playing with a new format that my friends at TopTenSources developed.</description>
     </item>
     
     <item>
@@ -367,36 +55,7 @@ Aronoff, 40, was classically trained at Le Cordon Bleu in Paris, but her contemp
       <pubDate>Sat, 04 Jul 2009 04:05:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-07-04-links-for-2009-07-04/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://wire.rotoinfo.com/2009/06/30/lunchtime-prowl-grandy-or-charlie-fu-te-nis-pitches-big-als-back-and-shaving-cream-pies/&#34;&gt;Lunchtime Prowl: Grandy or Charlie, Fu-Te Ni&amp;#039;s Pitches, Big Al&amp;#039;s Back, and Shaving Cream Pies&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Here’s one of his latest posts at The Wayne Fontes Experience, about Dave Birkett leaving the Oakland Press’s Detroit Lions beat for a gig covering the Michigan Wolverines at the new AnnArbor.com.  It&amp;#039;s a big loss for Lions coverage, and it&amp;#039;s troubling to see good reporters (Danny Knobler, Jon Paul Morosi) move on.  Detroit sports fans are losing out.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/birkett%2Cdave&#34;&gt;birkett,dave&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/oakland-press&#34;&gt;oakland-press&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarborcom&#34;&gt;annarborcom&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/football&#34;&gt;football&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://wonderfullyflawed.com/2009/07/02/get-your-api-right/&#34;&gt;Get Your API Right « Trek&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Every project I’ve worked on in the last two years has heavily involved the use of web APIs. Libersy at the time (no idea about now) had an architecture that was extensively API based, even for communication between internal applications (an architecture I strongly argued against, bee tea dubs). Since then I’ve futzed with web APIs almost exclusively. From very narrow focused uses like University of Michigan’s Bluestream Service, to more broad but still fairly local APIs like the Ann Arbor District Library’s soon-to-be-updated API, all the way to APIs of major web applications like Twitter and Flickr.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/api&#34;&gt;api&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/design&#34;&gt;design&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/howto&#34;&gt;howto&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/restful&#34;&gt;restful&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rest&#34;&gt;rest&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/webservices&#34;&gt;webservices&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/via%3Atrek&#34;&gt;via:trek&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://whereabouts.eecs.umich.edu/&#34;&gt;Home - Whereabouts Project&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;This work is funded in part by the National Science Foundation under grant EIA-0303587 as &amp;quot;An Infrastructure for Wide Area Pervasive Computing&amp;quot; and by a grant from Intel.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or Intel.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/umich&#34;&gt;umich&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rfid&#34;&gt;rfid&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://talkingpoints.eecs.umich.edu/&#34;&gt;TalkingPoints: An RFID-based Orientation System for People With Blindness&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Its goal is explore the possibility of using technology as a means for blind individuals to orient themselves in both outdoor and interior spaces, and to learn more about their surroundings during their normal walking from place to place, or when they choose to explore an area to learn what&amp;#039;s nearby. Currently, we do this by tagging objects of interest with an RFID reader, and providing an RFID reader and computer to read the tags. Unlike ordinary RFID readers, the TalkingPoints reader speaks the information conveyed by the tag to the user.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rfid&#34;&gt;rfid&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/umich&#34;&gt;umich&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/via%3Atrek&#34;&gt;via:trek&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://annarborchronicle.com/2009/07/03/merchants-say-bring-back-the-beat-cops/&#34;&gt;The Ann Arbor Chronicle » Merchants Say Bring Back the Beat Cops&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Several people identified “Arthur” as one of the more aggressive panhandlers, known for walking with a single crutch. Rebecca Konieczny, owner of the Busy Hands yarn and gift store, said she’d gotten so mad that she followed him up and down Main Street, calling the police from her cell phone. Someone else suggested that perhaps merchants start carrying mace and pepper spray, to which Martelle responded: “I can’t condone the use of mace on the homeless population.”&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/downtown&#34;&gt;downtown&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/main-street-area-association&#34;&gt;main-street-area-association&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/arthur&#34;&gt;arthur&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/pictures-not-words&#34;&gt;pictures-not-words&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.slate.com/id/2219314/&#34;&gt;Lard: After decades of trying, its moment is finally here. - By Regina Schrambling - Slate Magazine&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Only one thing may put lard back on the slippery slope: Google the word as news, and it might as well be lard-fearing 1969 all over again. Newspaper food pages still routinely advise using olive or canola oils rather than &amp;quot;fattening&amp;quot; or &amp;quot;artery-clogging&amp;quot; lard. Or they print idiotic utterances like &amp;quot;you get all the lard you need at McDonald&amp;#039;s&amp;quot; (a chain that actually abandoned beef tallow for frying its fries only to be saddled with a trans-fatty substitute). Occasionally an article will make a valid point—lard is still anathema to vegetarians and halal observers—but more often there will be surprise that lard does not taste anything like pig.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/food&#34;&gt;food&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/lard&#34;&gt;lard&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/fat&#34;&gt;fat&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/bacon-butter&#34;&gt;bacon-butter&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/warning%3Anot-for-the-vegans&#34;&gt;warning:not-for-the-vegans&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.linuxjournal.com/content/handling-csv-files-python&#34;&gt;Handling CSV Files in Python | Linux Journal&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;As a buddy of mine always says &amp;quot;the nice thing about standards is that there&amp;#039;s so many to choose from&amp;quot;. Take CSV files for example. CSV, of course, stands for &amp;quot;Comma Separated Values&amp;quot;, more often than not though, it seems that CSV files use tabs to separate values rather than commas. And let&amp;#039;s not even mention field quoting. If you deal with CSV files and you use Python the csv module can make your life a bit easier.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/csv&#34;&gt;csv&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/python&#34;&gt;python&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description>Lunchtime Prowl: Grandy or Charlie, Fu-Te Ni&amp;#039;s Pitches, Big Al&amp;#039;s Back, and Shaving Cream Pies Here’s one of his latest posts at The Wayne Fontes Experience, about Dave Birkett leaving the Oakland Press’s Detroit Lions beat for a gig covering the Michigan Wolverines at the new AnnArbor.com. It&amp;#039;s a big loss for Lions coverage, and it&amp;#039;s troubling to see good reporters (Danny Knobler, Jon Paul Morosi) move on. Detroit sports fans are losing out.</description>
     </item>
     
     <item>
@@ -405,20 +64,7 @@ Aronoff, 40, was classically trained at Le Cordon Bleu in Paris, but her contemp
       <pubDate>Mon, 29 Jun 2009 04:05:33 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-29-links-for-2009-06-29/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://flowingdata.com/2009/06/23/20-visualizations-to-understand-crime/&#34;&gt;20 Visualizations to Understand Crime | FlowingData&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;While a lot of this crime data is kept confidential to respect people&amp;#039;s privacy, there&amp;#039;s still plenty of publicly available records. Here we take a look at twenty visualization examples that explore this data.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/crime&#34;&gt;crime&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/datamining&#34;&gt;datamining&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/visualization&#34;&gt;visualization&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/infographics&#34;&gt;infographics&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://pghtasted.blogspot.com/2009/04/rhubarb-upside-down-cake.html&#34;&gt;Pittsburgh Needs Eated.: Rhubarb Upside-Down Cake&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;I tried the &amp;quot;Rhubarb upside-down cake&amp;quot; on a whim, and was pleasantly surprised when the cake turned out perfectly. If other recipes turn out this well, I might buy the book. The content is well balanced and conveniently organized by season and ingredient.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/cake&#34;&gt;cake&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/recipe&#34;&gt;recipe&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.editorandpublisher.com/eandp/news/article_display.jsp?vnu_content_id=1003988341&#34;&gt;SPECIAL REPORT: When There&amp;#039;s No Print Edition, Do Readers Flock to the Web?&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Those interested in the vitality of newspapers — a topic that extends as far as the White House these days — are keeping a close eye on the P-I&amp;#039;s experiment, as Seattle is the first major newspaper to fully pull the plug on print and try to make a go of it online. Many other newspapers are tentatively moving in this direction. Perhaps they&amp;#039;re not kicking print to the curb completely, but they&amp;#039;re cutting back on editions and dropping weak days in print.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/print&#34;&gt;print&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/online&#34;&gt;online&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description>20 Visualizations to Understand Crime | FlowingData While a lot of this crime data is kept confidential to respect people&amp;#039;s privacy, there&amp;#039;s still plenty of publicly available records. Here we take a look at twenty visualization examples that explore this data. (tags: crime datamining visualization journalism infographics)  Pittsburgh Needs Eated.: Rhubarb Upside-Down Cake I tried the &amp;quot;Rhubarb upside-down cake&amp;quot; on a whim, and was pleasantly surprised when the cake turned out perfectly.</description>
     </item>
     
     <item>
@@ -427,28 +73,7 @@ Aronoff, 40, was classically trained at Le Cordon Bleu in Paris, but her contemp
       <pubDate>Sat, 27 Jun 2009 04:04:45 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-27-links-for-2009-06-27/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://mediactive.com/2009/06/26/what-pays-for-newspaper-journalism-not-the-cover-price/&#34;&gt;Mediactive » What Pays for Newspaper Journalism? Not the “Cover Price”&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Cowell doesn’t mention that the advertising is the most important part of the financial equation in paying for journalism, not the cover price. It has been so for as long as he’s been a journalist. The word “Advertise” appears three times on this Web page (and “Advertisements” once), but not in Cowell’s column.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/advertising&#34;&gt;advertising&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/money-its-a-gas&#34;&gt;money-its-a-gas&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://voices.washingtonpost.com/ombudsman-blog/2009/06/froomkin_departs_leaving_angry.html#more&#34;&gt;Ombudsman Blog - Froomkin Departs, Leaving Angry Loyalists And Questions&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Froomkin acknowledges the drop but told me much of it can be blamed on a change in format and poor promotion. He said that shifting White House Watch from a column to a blog when Obama took office was disruptive to his audience and &amp;quot;dramatically reduced the number of page views per reader.” He also said poor promotion, especially through links from the home page, had caused traffic to dip. “I felt that with adequate promotion, page views would have been much higher,” he said.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/froomkin&#34;&gt;froomkin&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/page-views&#34;&gt;page-views&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/paper-paper&#34;&gt;paper-paper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/dotcom&#34;&gt;dotcom&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/wapo&#34;&gt;wapo&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.nytimes.com/2005/06/29/world/europe/29iht-letter.html&#34;&gt;Alan Cowell: Letter from Britain - The New York Times&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Here, I should disclose an interest. I worked at Reuters for almost a decade. To my knowledge I was the last - or, as journalists prefer to say, one of the last - Reuters correspondents to file a dispatch by carrier pigeon. That was some years ago (or, as journalists prefer not to say, many years ago) and the birds that flew my dispatches in Zimbabwe&amp;#039;s Matabeleland revived the means of pretechnological communication first used by Reuters in the mid-19th century.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/cowell%2Calan&#34;&gt;cowell,alan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/matabeleland&#34;&gt;matabeleland&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/reuters&#34;&gt;reuters&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/carrier-pigeons&#34;&gt;carrier-pigeons&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/news&#34;&gt;news&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.nytimes.com/2009/06/27/world/europe/27iht-letter.html?_r=1&amp;amp;partner=rss&amp;amp;emc=rss&#34;&gt;Letter From Europe - Is Free News Really Worth the Price? - NYTimes.com&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;If this sounds highfalutin’, let me offer a personal counterpoint. As the last Reuters correspondent known to have to sent dispatches by carrier pigeon many years ago from Matabeleland, I thought, until events in Iran, that twittering was, quite literally, for the birds (birds other than my cooing messengers, of course).&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/news&#34;&gt;news&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/reuters&#34;&gt;reuters&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/carrier-pigeons&#34;&gt;carrier-pigeons&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/matabeleland&#34;&gt;matabeleland&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://awk.info/?tools/nbc&#34;&gt;awk.info » Naive Bayes Classifier&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Is less more? Can a few lines of gawk developed in a day or two stand in for a sophisticated state-of-the-art JAVA package? In the general case there may be software engineering advantages to working with rich languages like JAVA. However, in the specific case of a Naive Bayes classifier for discrete data, it is interesting to test if less is indeed more.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/classification&#34;&gt;classification&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/awk&#34;&gt;awk&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/bayesian&#34;&gt;bayesian&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/minimalism&#34;&gt;minimalism&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description>Mediactive » What Pays for Newspaper Journalism? Not the “Cover Price” Cowell doesn’t mention that the advertising is the most important part of the financial equation in paying for journalism, not the cover price. It has been so for as long as he’s been a journalist. The word “Advertise” appears three times on this Web page (and “Advertisements” once), but not in Cowell’s column. (tags: newspaper journalism advertising money-its-a-gas)  Ombudsman Blog - Froomkin Departs, Leaving Angry Loyalists And Questions Froomkin acknowledges the drop but told me much of it can be blamed on a change in format and poor promotion.</description>
     </item>
     
     <item>
@@ -457,35 +82,7 @@ Aronoff, 40, was classically trained at Le Cordon Bleu in Paris, but her contemp
       <pubDate>Fri, 26 Jun 2009 04:07:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-26-links-for-2009-06-26/</guid>
-      <description>&lt;p&gt;&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.niemanlab.org/2009/06/reinventing-classifieds-minnpost-launches-real-time-advertising/&#34;&gt;Reinventing classifieds: MinnPost launches “real-time advertising” » Nieman Journalism Lab&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;In a phone conversation this morning, Kramer described the project as “an effort to move beyond banner ads,” which have proven lucrative for the site, but also limited. MinnPost charges, on average, $15 per thousand impressions for its display advertising, but because the ads are for local businesses, they’re only served to readers in Minnesota. (That’s one reason the CPM is so good.) As a result, the site had several weeks this spring when marketers’ demand for advertising space exceeded the site’s supply of local readership.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/hyper-fricking-local&#34;&gt;hyper-fricking-local&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/advertising&#34;&gt;advertising&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspapers&#34;&gt;newspapers&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/ads&#34;&gt;ads&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/cpm&#34;&gt;cpm&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.nextnewsroom.com/profiles/blog/show?id=1625659%3ABlogPost%3A16039&amp;amp;xgs=1&#34;&gt;A Newsroom Organization - The Next Newsroom Project&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;would rather the journalists who work for me walk the dog and talk to their neighbors or hit their neighborhood coffee house, or head straight to court/city hall to see what&amp;#039;s happening rather than come in and cruise the wires and local newspapers.
-The great thing is technology allows us to have a virtual meeting online. Arm journalists with laptops, webcams and phones and call the editorial meeting wherever and whenever they are. Too long have journalists been removed from the people they serve. (If not in reality, at least in the minds and attitudes of our community members.)&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/media&#34;&gt;media&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspapers&#34;&gt;newspapers&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://blogs.reuters.com/reuters-editors/2009/06/24/rethinking-rights-accreditation-and-journalism-itself-in-the-age-of-twitter/&#34;&gt;Reuters Editors » Blog Archive » Rethinking rights, accreditation, and journalism itself in the age of Twitter | Blogs |&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;But the point, I hope, is clear.
-The old means of control don’t work.
-The old categories don’t work.
-The old ways of thinking won’t work.
-We all need to come to terms with that.&lt;/p&gt;
-
-&lt;p&gt;Fundamentally, the old media won’t control news dissemination in the future. And organisations can’t control access using old forms of accreditation any more.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/twitter&#34;&gt;twitter&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/future&#34;&gt;future&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/reuters&#34;&gt;reuters&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/olympics&#34;&gt;olympics&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/news&#34;&gt;news&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.unixuser.org/~euske/python/pdfminer/index.html&#34;&gt;PDFMiner&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;PDFMiner is a suite of programs that help extracting and analyzing text data of PDF documents. Unlike other PDF-related tools, it allows to obtain the exact location of texts in a page, as well as other extra information such as font information or ruled lines. It includes a PDF converter that can transform PDF files into other text formats (such as HTML). It has an extensible PDF parser that can be used for other purpoes instead of text analysis.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/pdf&#34;&gt;pdf&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/tools&#34;&gt;tools&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/software&#34;&gt;software&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/pdfminer&#34;&gt;pdfminer&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/parsing&#34;&gt;parsing&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/python&#34;&gt;python&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://liftlab.com/think/nova/2009/04/01/paper-direct/&#34;&gt;Pasta&amp;amp;Vinegar » Blog Archive » &amp;quot;Paper direct&amp;quot;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Encountered last week-end in Venice, Los Angeles. Still about press, I am fascinated by foreign press available as these A3 sheets of papers sold straight from the printer. Far from the complex e-paper technology, these very low-cost one-sided magazines show an interesting trend about the importance of physical artifacts. Besides, the name of this service (”paper direct”) is conspicuously relevant in these times of frenetic digitalization. Given that it’s printed locally, it’s an up-to-date instantiation (that prevent you from waiting two or three days to have the same newspaper coming from the guts of an Airbus/Boeing Cargo flight).&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/print&#34;&gt;print&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/print-on-demand&#34;&gt;print-on-demand&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>Reinventing classifieds: MinnPost launches “real-time advertising” » Nieman Journalism Lab In a phone conversation this morning, Kramer described the project as “an effort to move beyond banner ads,” which have proven lucrative for the site, but also limited. MinnPost charges, on average, $15 per thousand impressions for its display advertising, but because the ads are for local businesses, they’re only served to readers in Minnesota. (That’s one reason the CPM is so good.</description>
     </item>
     
     <item>
@@ -494,46 +91,7 @@ We all need to come to terms with that.&lt;/p&gt;
       <pubDate>Thu, 25 Jun 2009 04:06:27 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-25-links-for-2009-06-25/</guid>
-      <description>&lt;p&gt;&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://blog.echovar.com/?p=1365&#34;&gt;echovar » Blog Archive » Real-Time Writing: A Transvaluation of All Values&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;As a story plays out across the Network, as new information is uncovered, the inputs are routed through the mixing board of the writer’s keyboard. A writer must now listen to how the whole jam is sounding— the writer is a player down in the groove with other players. As we learn to write through a real-time medium, we’ll need to look to the values, standards and practices of live performance. But these performances aren’t necessarily the traditional one-to-many events unfolding within a proscenium. We’ll need to dig into the performance theories of Richard Schechner and the Happenings of Allan Kaprow; revive the thoughts of Michael Kirby and The Art of Time, and the work of Fluxus. The journey from text on a page to hypertext on the Network is not a small adjustment to a business model; it’s a transvaluation of all values.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/blog&#34;&gt;blog&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/technology&#34;&gt;technology&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/telegraph&#34;&gt;telegraph&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hypertext&#34;&gt;hypertext&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/writing&#34;&gt;writing&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.notorious-rob.com/2009/03/16/the-local-vs-localism-hyperlocal-media-wars/&#34;&gt;The Local vs. Localism: Hyperlocal Media Wars | Notorious R.O.B. - Conversations on Marketing, Technology, Real Estate&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Localism ain’t it, unless it undergoes a total transformation of focus away from trying to sell real estate.  The Local ain’t it, unless it too undergoes a transformation and embraces the community on which it is reporting — and in fact, actually does some, you know, reporting.  The answer may be in social media, like MaplewoodOnline and Baristanet, as more and more journalists leave the newspaper business (by choice or not) and end up having to learn whole new skills in web-based, local, community-powered media.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/localism&#34;&gt;localism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hyperlocal&#34;&gt;hyperlocal&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hyper-fricking-local&#34;&gt;hyper-fricking-local&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/news&#34;&gt;news&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/community&#34;&gt;community&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/media&#34;&gt;media&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.ontherecordpodcast.com/pr/otro/crisis-communications-online--social-media-usage-during-a-crisis-with-leysia-palen.aspx&#34;&gt;Crisis Communications Online: Social Media Usage during a Crisis with Leysia Palen - PR Podcast / On the Record&amp;hellip;Online PR Podcast&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Crisis communications used to be the handled exclusively through official channels like press releases, spokespeople and media relations. But today, through the power of socially distributed problem-solving, a first draft of history more nuanced and accurate than ever before is emerging from social media, and increasingly, people are turning to unofficial sources first, particularly in times of crisis.&lt;/p&gt;
-
-&lt;p&gt;In this episode, social media crisis communications researcher at the ConnectivIT Lab at the University of Colorado at Boulder Leysia Palen shares what she has learned about social media usage during a crisis, assessing the credibility of citizen journalism and user generated media during a crisis, and how organizations might align with unofficial back channels in the future.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/socialmedia&#34;&gt;socialmedia&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/communication&#34;&gt;communication&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/crisis&#34;&gt;crisis&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/palen%2Cleysia&#34;&gt;palen,leysia&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.kancoll.org/khq/1947/47_1_johnson.htm&#34;&gt;William Allen White: Country Editor, 1897-1914, by Walter Johnson, Kansas Historical Quarterly, February, 1947&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Although he had had to borrow money to buy the Gazette, his outside earnings soon freed him of any responsibility to Emporia&amp;#039;s wealthy for the Gazette&amp;#039;s editorial position. For the rest of his lifetime, he carried out the following editorial creed: &amp;quot;What we want, and what we shall have is the royal American privilege of living and dying in a country town, running a country newspaper, saying what we please when we please, how we please and to whom we please.&amp;quot;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/white%2Cwilliamallen&#34;&gt;white,williamallen&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/kansas&#34;&gt;kansas&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-1911&#34;&gt;party-like-its-1911&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/editorial-freedom&#34;&gt;editorial-freedom&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://howardowens.com/7343/imperative-localism-and-local-news&#34;&gt;The imperative of localism and local news | Howard Owens&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Once people could no longer pick up the local gazette and find out who was visiting from California and when Helen Carter was going to sell her famous peach pies, the papers became less relevant to their lives.&lt;/p&gt;
-
-&lt;p&gt;Without that relevancy, society and democracy suffered. People became not only less informed, but less involved in their communities.&lt;/p&gt;
-
-&lt;p&gt;Consider that 57 percent of Americans say that if their local newspaper went away, both online and in print, they wouldn&amp;#039;t miss it and it wouldn&amp;#039;t hurt the civic life of their towns. The numbers are just as dismal when the question is isolated just to regular newspaper readers. This is in keeping with an earlier Harris poll that found nearly two-thirds of Americans say their local newspaper doesn&amp;#039;t serve its community well.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/community&#34;&gt;community&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/local&#34;&gt;local&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspapers&#34;&gt;newspapers&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hyperlocal&#34;&gt;hyperlocal&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hyper-fricking-local&#34;&gt;hyper-fricking-local&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://howardowens.com/node/7347&#34;&gt;Newspapers started small, cheap and with different standards | Howard Owens&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;For more than a decade, we expected to build online news organizations that could support a super structure of the modern newspaper newsroom -- with the all the reporters and editors and big story packages (look at all the emphasis we put on big Flash multimedia productions) and that we could keep doing journalism just the way we always did it.&lt;/p&gt;
-
-&lt;p&gt;While we bemoaned shovelware (taking the same exact print story and repurposing it for the Web), we took little time to really examine what might might be different about online publishing that should change the way news is gathered and presented.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/newspapers&#34;&gt;newspapers&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/history&#34;&gt;history&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/future&#34;&gt;future&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/the-past-didnt-go-anywhere&#34;&gt;the-past-didnt-go-anywhere&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://mediamemo.allthingsd.com/20090624/what-happens-when-your-local-paper-goes-online-only-it-loses-most-of-its-staff/&#34;&gt;What Happens When Your Local Paper Goes Online-Only? It Loses Most of Its Staff | Peter Kafka | MediaMemo | AllThingsD&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;I’ve been asking Mark Josephson that question for months, and now he has an answer: Josephson, the CEO of local news platform Outside.in, figures the local, online-only newspaper of tomorrow,  for a decent-sized city, will have a staff of 20 people. That’s 20 people, period. Perhaps 6 of them will be “news gatherers.”&lt;/p&gt;
-
-&lt;p&gt;Josephson was kind enough to model his future newspaper in a spreadsheet for me, and I’ll get to that in a minute.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/outside.in&#34;&gt;outside.in&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/hyperlocal&#34;&gt;hyperlocal&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/businessmodel&#34;&gt;businessmodel&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/future&#34;&gt;future&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>echovar » Blog Archive » Real-Time Writing: A Transvaluation of All Values As a story plays out across the Network, as new information is uncovered, the inputs are routed through the mixing board of the writer’s keyboard. A writer must now listen to how the whole jam is sounding— the writer is a player down in the groove with other players. As we learn to write through a real-time medium, we’ll need to look to the values, standards and practices of live performance.</description>
     </item>
     
     <item>
@@ -542,55 +100,7 @@ We all need to come to terms with that.&lt;/p&gt;
       <pubDate>Tue, 23 Jun 2009 04:06:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-23-links-for-2009-06-23/</guid>
-      <description>&lt;p&gt;&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.saxpix.com/saxgalleries/historic/index.html&#34;&gt;Saxpix: Photography by Andy Sacks - Historic&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;photos of late 1960s Ann Arbor street protests&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-1968&#34;&gt;party-like-its-1968&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/protest&#34;&gt;protest&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/damn-hippies&#34;&gt;damn-hippies&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://adactio.com/journal/1586&#34;&gt;Adactio: Journal—Revealing Design Treasures from The Amazon&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;For a lot of products, such as alarm clocks, you’re only going to write a review if you have a negative experience. How does Amazon get people to write reviews? Most people don’t leave reviews. About 0.7% of people who buy something leave a review. But because Amazon has such a huge amount of customers, that equates to quite a lot. So the next time someone says, &amp;quot;we should have reviews; that works really well for Amazon,&amp;quot; you can respond with &amp;quot;sure, we should have customers too; that works really well for Amazon.&amp;quot;&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/design&#34;&gt;design&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/usability&#34;&gt;usability&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/conversion-rate&#34;&gt;conversion-rate&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/review&#34;&gt;review&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/comments&#34;&gt;comments&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.onthecommons.org/content.php?id=2458&#34;&gt;OnTheCommons.org » Back When Food Was Really Local&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;To browse through The Food of a Younger Land is to be transported into a time when mothers improvised recipes because of shortages of certain ingredients and fathers brought home fresh game from the woods and mussels from the ocean. The book describes the “sugaring off” parties in Vermont, where people hosted neighborhood celebrations as they finished off the annual tapping of sap from trees for maple syrup. It describes the making of persimmon beer among Mississippi African-Americans. In and around Darlington, South Carolina, people would host outdoor gatherings and serve “chicken bog,” a distinctive chicken-and-rice dish. Nebraskans loved buffalo barbeque and Wisconsin folks enjoyed sour-dough pancakes.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/food&#34;&gt;food&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/history&#34;&gt;history&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/locavore&#34;&gt;locavore&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/chicken-bog&#34;&gt;chicken-bog&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-193x&#34;&gt;party-like-its-193x&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.onlinetech.com/feed&#34;&gt;Ann Arbor City Hall Construction / webcam via onlinetech&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Live Video Feed of Ann Arbor City Hall&amp;#039;s Reconstruction
-(Your browser needs to support Windows Media Player)&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/webcam&#34;&gt;webcam&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/city-hall&#34;&gt;city-hall&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/construction&#34;&gt;construction&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://blog.syracuse.com/newstracker/2008/08/the_robert_knilands_interview.html&#34;&gt;The Robert Knilands interview - News Tracker Blog on syracuse.com&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;A conversation with one of the most outspoken voices on the subjects of newspaper design and editing. For more of his views, see www.wenalway.com.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/design&#34;&gt;design&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/blogs&#34;&gt;blogs&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/comments&#34;&gt;comments&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/wenalway&#34;&gt;wenalway&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://strange.corante.com/2008/07/21/name-calling-isnt-going-to-get-us-anywhere&#34;&gt;Strange Attractor » Blog Archive » Name calling isn’t going to get us anywhere&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Also, although John spends more time and slightly more emphasis on comments directed towards ‘curmudgeons’, I would say that the abuse that he saw hurled toward Jessica da Silva by veteran journalists isn’t isolated to comments on blogs. The commenter Robert Knilands (aka Wenalway) may seem your run-of-the-mill troll, but he expresses a virulent form of prejudice too frequently directed towards online and young journalists by some - and I stress, only some - print journalists. Robert Knilands says:&lt;/p&gt;
-
-&lt;p&gt;    It can’t survive, though, as long as young journos are getting opportunities they are unqualified for and posting ignorant blog entries. All that does is destroy the present and the future.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/wenalway&#34;&gt;wenalway&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/wretched-hive&#34;&gt;wretched-hive&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/comments&#34;&gt;comments&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://illinipundit.com/2007/06/11/wenalway-banned&#34;&gt;Wenalway Banned | IlliniPundit.com&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Wenalway is now banned from IlliniPundit.com.  He will not be allowed to post under this screen name, his real name, any other screen name, or anonymously.&lt;/p&gt;
-
-&lt;p&gt;I tried to reach an agreement with him, but I failed.  I apologize for having to take this step, but feel it&amp;#039;s necessary for us to continue to have any sort of polite discussions on this site.  If you disagree, please email me or post in this thread to discuss.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#039;ll be implementing some controls on him over the next few days.  In the meantime, please ignore any comments submitted by Wenalway. If you respond to his insults, I&amp;#039;ll eventually unpublish the response along with Wenalway&amp;#039;s garbage.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/wenalway&#34;&gt;wenalway&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/blog&#34;&gt;blog&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/comments&#34;&gt;comments&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/wretched-hive&#34;&gt;wretched-hive&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.globalnerdy.com/2008/12/30/the-air-forces-rules-of-engagement-for-blogging/&#34;&gt;The Air Force’s Rules of Engagement for Blogging [Updated] — Global Nerdy&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;You’ve probably seen many articles on companies and organizations saying that they take social media seriously. Here’s one such organization that you might not expect: the United States Air Force. Take a look at the Air Force Blog Assessment chart, reproduced below:&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/comments&#34;&gt;comments&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/blog&#34;&gt;blog&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/public-relations&#34;&gt;public-relations&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://asyourworldchanges.wordpress.com/2009/05/31/hear-me-stumble-around-white-house-recovery-and-data-gov-web-sites/&#34;&gt;Hear Me Stumble Around White House, Recovery, and Data GOV web sites « As Your World Changes&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Using recorded sessions, I analyze my techniques and problems. Sighted readers will experience some of the confusions and frustrations of a visually impaired person trying to learn the interaction and structure patterns of these website’s. Visually impaired users may glean some ways to avoid pitfalls and determine the value of these government information resources for their purposes. I complain about absence of headings, careless links, and tricky interactions beyond my capabilities although I appreciate the effort to provide high quality government information.&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/webdesign&#34;&gt;webdesign&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/government&#34;&gt;government&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/accessibility&#34;&gt;accessibility&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/screenreader&#34;&gt;screenreader&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/usability&#34;&gt;usability&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;li&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.boston.com/business/articles/2009/06/21/start_ups_stifled_by_noncompetes/?page=2&#34;&gt;Start-ups stifled by noncompetes - The Boston Globe&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;First, he looked at Michigan. During the decades of that state’s greatest economic growth, from 1915 to 1985, noncompete agreements were illegal. In 1985, the law changed - and Marx found that inventors were suddenly less likely to move from one company to another, and specialized inventors were much less likely to move. (I’d observe here that the last 25 years in Michigan have not been a good era to emulate.)&lt;/div&gt;&lt;br /&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/noncompete&#34;&gt;noncompete&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/invention&#34;&gt;invention&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/innovation&#34;&gt;innovation&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;
-            &lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>Saxpix: Photography by Andy Sacks - Historic photos of late 1960s Ann Arbor street protests (tags: annarbor michigan party-like-its-1968 protest damn-hippies)  Adactio: Journal—Revealing Design Treasures from The Amazon For a lot of products, such as alarm clocks, you’re only going to write a review if you have a negative experience. How does Amazon get people to write reviews? Most people don’t leave reviews. About 0.7% of people who buy something leave a review.</description>
     </item>
     
     <item>
@@ -599,16 +109,7 @@ We all need to come to terms with that.&lt;/p&gt;
       <pubDate>Fri, 19 Jun 2009 04:15:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-19-links-for-2009-06-19/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://thetransportpolitic.com/2009/06/15/hearings-today-on-hydrogen-solar-maglev-supertrain-for-michigan/&#34;&gt;Hearings Today on Hydrogen-Solar-Maglev Supertrain for Michigan « the transport politic&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Poor Michigan. How they can’t see the obvious insane B.S. of this plan is beyond me.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/maglev&#34;&gt;maglev&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/batshit-insane&#34;&gt;batshit-insane&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rail&#34;&gt;rail&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.detroitmakeithere.com/article/20090617/DM01/906179995/-1&#34;&gt;Detroit Make it Here | Blogging away the blight: Journalist starts a movement to remake Detroit neighborhood&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Neighborhood blogs and social media are particularly important at a time when daily and weekly papers are cutting just about everything to stay afloat, Morgan said. Consider Gannett Co. Inc.’s recent decisions to close the Birmingham, West Bloomfield, Troy, Southfield and Rochester editions of the Observer &amp;amp; Eccentric Newspapers; and replace the Ann Arbor News with a smaller news organization, annarbor.com, with print editions only twice a week.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/newspaper&#34;&gt;newspaper&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/blog&#34;&gt;blog&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/neighborhood&#34;&gt;neighborhood&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description>Hearings Today on Hydrogen-Solar-Maglev Supertrain for Michigan « the transport politic Poor Michigan. How they can’t see the obvious insane B.S. of this plan is beyond me. (tags: michigan maglev batshit-insane rail)  Detroit Make it Here | Blogging away the blight: Journalist starts a movement to remake Detroit neighborhood Neighborhood blogs and social media are particularly important at a time when daily and weekly papers are cutting just about everything to stay afloat, Morgan said.</description>
     </item>
     
     <item>
@@ -617,16 +118,7 @@ We all need to come to terms with that.&lt;/p&gt;
       <pubDate>Wed, 03 Jun 2009 04:07:24 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-03-links-for-2009-06-03/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.chicagotribune.com/news/politics/foia/&#34;&gt;FOIA information -- chicagotribune.com&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;good howto to manage FOIA requests in Illinois; many suggestions are relevant anywhere, though some of the details of the FOIA law vary from state to state&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/howto&#34;&gt;howto&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/chicago&#34;&gt;chicago&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/tools&#34;&gt;tools&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/foia&#34;&gt;foia&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/government&#34;&gt;government&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.socialmedia.biz/2009/05/29/social-media-success-doesnt-start-with-roi/&#34;&gt;Social media success doesn’t start with ROI&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;“What’s the ROI of your receptionist? What’s the ROI of your parking? What’s the ROI of the paint on the walls? What’s the ROI of the landscapers,” said Scott as he continued on his ‘I hate the ROI-obsessed business culture’ rant. “The idea that everything has to come back to a measurable ROI is ludicrous. ”&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/socialmedia&#34;&gt;socialmedia&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/research&#34;&gt;research&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/roi&#34;&gt;roi&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/le-roi-cest-moi&#34;&gt;le-roi-cest-moi&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/metrics&#34;&gt;metrics&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description>FOIA information -- chicagotribune.com good howto to manage FOIA requests in Illinois; many suggestions are relevant anywhere, though some of the details of the FOIA law vary from state to state (tags: howto chicago journalism tools foia government)  Social media success doesn’t start with ROI “What’s the ROI of your receptionist? What’s the ROI of your parking? What’s the ROI of the paint on the walls? What’s the ROI of the landscapers,” said Scott as he continued on his ‘I hate the ROI-obsessed business culture’ rant.</description>
     </item>
     
     <item>
@@ -635,36 +127,7 @@ We all need to come to terms with that.&lt;/p&gt;
       <pubDate>Tue, 02 Jun 2009 04:07:24 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-02-links-for-2009-06-02/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;https://www.visitvineyards.com/usa/usa-all/food/books-guides-food/wine-food-travel-book-reviews/book-review-under-pressure-cooking-sous-vide-thomas-keller&#34;&gt;VisitVineyards.com - Book review - Under Pressure: Cooking Sous Vide - Thomas Keller&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;So, standing in a bookshop with towers of cookery books inviting me on armchair culinary tours of just about everywhere, wondering what might come after Flavours of Southern Patagonia, my eye was drawn to a cover depicting rows of bright scarlet on a black background, that looked like an oil painting but turned out to be stalks of rhubarb. At first I thought they must be raw; no Sargasso sea of greenish-pink threads my mother used to overboil, and which - guided by Raymond Blanc - I can now cook intact. But not keep red.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/cookbook&#34;&gt;cookbook&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/vacuum&#34;&gt;vacuum&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/sous-vide&#34;&gt;sous-vide&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.britishlarder.co.uk/vanilla-sous-vide-rhubarb/&#34;&gt;Vanilla Sous-Vide Rhubarb recipe and food photography by Madalene Bonvini-Hamel Food Fanatic and chef From the British Larder - The British Larder&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Use this delicious vanilla sous-vide rhubarb on individual rhubarb tarts or serve with Fabien’s delicious buttermilk pudding. Keep the rhubarb and vanilla flavoured syrup and use to  glaze the rhubarb tarts or  as a base to make a delicious rhubarb and stem ginger sorbet. I also like to serve the vanilla sous-vide rhubarb cut in pieces for breakfast along with natural yoghurt, drizzle the vanilla rhubarb syrup over for that extra yumminess.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/vacuum&#34;&gt;vacuum&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/sous-vide&#34;&gt;sous-vide&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/recipe&#34;&gt;recipe&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/05/02/FDGFTPFEH11.DTL&#34;&gt;Cooking in a vacuum / A far cry from boil-in-a-bag, French sous vide technique mesmerizes Bay Area chefs&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Which is why Chris Whaley, chef at Picco in Larkspur, vacuum-seals rhubarb in a heat-proof plastic bag with white wine-vanilla syrup, gently poaches it in a water bath, and spoons it atop individual almond tarts. At first bite, the rhubarb seems uncooked because it&amp;#039;s so pleasingly crunchy. But it&amp;#039;s not at all stringy or tough. It&amp;#039;s just a whole new, delicious rhubarb.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/food&#34;&gt;food&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/cooking&#34;&gt;cooking&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/vacuum&#34;&gt;vacuum&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/sous-vide&#34;&gt;sous-vide&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://dspace.dial.pipex.com/town/lane/kal69/shop/pages/isbn613.htm&#34;&gt;Rhubarbaria - recipes for rhubarb&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Mary Prior has compiled an anthology of recipes ancient and modern that highlight rhubarb. It first came to us as a medicine but has successfully naturalized as a culinary favourite. Drawing on the cuisines of England, Scotland, Scandinavia and other parts of northern Europe, America and New Zealand, she provides a rhubarbaric dish for every occasion. There is particular emphasis on recipes from Shetland, because the author spends half the year on the islands and rhubarb has a special place in Shetland’s cookery.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/books&#34;&gt;books&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/recipes&#34;&gt;recipes&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/shetland&#34;&gt;shetland&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://people.virginia.edu/~pm9k/libsci/enemy.html&#34;&gt;Librarians as Enemies of Books by Randolph G. Adams&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;It is said that, upon one occasion, an academic person met Mr. A. Edward Newton. Newton has written extensively on the subject of book-collecting, and, as any dealer will attest, has probably done more to increase the appreciation and the reading of English literature than many a professor or librarian. To Newton the academic announced, &amp;quot;I am a scholar; to me a photostat is as good as the original.&amp;quot; Newton swiftly countered, &amp;quot;Any man who would make a remark like that, would probably just as soon kiss a pretty girl through a piece of plate glass.&amp;quot; The librarian should be careful how he makes light of the collector&amp;#039;s enthusiasm lest he reveal his own shortcomings.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/library&#34;&gt;library&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/books&#34;&gt;books&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/libraries&#34;&gt;libraries&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/technology&#34;&gt;technology&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/futurism&#34;&gt;futurism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/mass-digitization&#34;&gt;mass-digitization&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-1937&#34;&gt;party-like-its-1937&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://papertigernomore.blogspot.com/2009/04/guest-thoughts-from-sis-richard-deitsch.html&#34;&gt;Paper Tiger No More: Guest thoughts from SI&amp;#039;s Richard Deitsch on Wednesday&amp;#039;s AnnArbor.com forum&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;If I’m Champion, Dearing, Kraner or any of the suits speaking at these forums, I’m getting on the phone tomorrow with Gary Graca, the paper’s top editor and a sharp kid, and figuring out a creative way where both entities can benefit from each other financially and editorially.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarborcom&#34;&gt;annarborcom&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.tucsoncitizen.com/daily/local/116739.php&#34;&gt;What to expect from the new TucsonCitizen.com&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;design and business model notes for the new citizen-powered Gannett property in Tucson AZ&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/journalism&#34;&gt;journalism&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/tucscon&#34;&gt;tucscon&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/arizona&#34;&gt;arizona&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/via%3Ajoegermuska&#34;&gt;via:joegermuska&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description>VisitVineyards.com - Book review - Under Pressure: Cooking Sous Vide - Thomas Keller So, standing in a bookshop with towers of cookery books inviting me on armchair culinary tours of just about everywhere, wondering what might come after Flavours of Southern Patagonia, my eye was drawn to a cover depicting rows of bright scarlet on a black background, that looked like an oil painting but turned out to be stalks of rhubarb.</description>
     </item>
     
     <item>
@@ -673,54 +136,7 @@ We all need to come to terms with that.&lt;/p&gt;
       <pubDate>Mon, 01 Jun 2009 04:05:58 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-01-links-for-2009-06-01/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.wsjm.com/pages/4481628.php?contentType=4&amp;amp;contentId=4073022&#34;&gt;WSJM AM 1400 &amp;amp; FM 94.9 - Ripe For The Picking&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;It won&amp;#039;t be long before one of Southwest Michigan&amp;#039;s largest crops starts making an appearance at area farmer&amp;#039;s markets. MSU Extension District Fruit Educator Mark Longstroth says the region is one of the largest producers of strawberries in the state, and they&amp;#039;re typically ripe for picking in mid June.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/strawberries&#34;&gt;strawberries&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/june&#34;&gt;june&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/longstroth%2Cmark&#34;&gt;longstroth,mark&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://dianadyer.blogspot.com/2009/01/only-5-more-months-until-fresh-rhubarb.html&#34;&gt;Diana Dyer, MS, RD: Only 5 more months until fresh rhubarb!  / Lentils Curried with Rhubarb and Sweet Potatoes&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;So with only 5 months until we can harvest fresh rhubarb, we&amp;#039;d better keep eating our canned and frozen rhubarb. I&amp;#039;m going to be taking some of our canned stewed rhubarb to a Michigan Lady Food Bloggers &amp;quot;Summer in January&amp;quot; gathering where we are bringing food that reminds us of summer. However, there are many ways to use rhubarb in savory dishes. Here is a favorite of mine as it combines so many unusual flavors and healthy foods all in one dish! I took it to the last Slow Food book club. There was not much left over, but I was glad to see a little that I could take home to enjoy the next day.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/lentil&#34;&gt;lentil&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/curry&#34;&gt;curry&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/savory&#34;&gt;savory&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://nicolepeyrafitte.com/blog/2009/05/24/french-toast-with-duck-bacon-rhubarb-compote/&#34;&gt;French Toast with Duck Bacon &amp;amp; Rhubarb Compote&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;This is a delicious, unusual and quick brunch that I made for my friend Pat Smith visiting from Ann Arbor, MI. I like the balance between sweet, salt and tart tastes, as did Pat. French toast is something I knew in France as pain perdu or lost bread, I never had it for breakfast until I came to this country. There, it is always served as a dessert and mostly to use  up stale bread. My batter is pretty simple and the secret is in the bread: I use good french sourdough country bread. The duck bacon is of course from d’Artagnan, it’s slight gaminess reveals itself only after the pleasant tartness of the fresh rhubarb. There is no need for extra maple syrup as I sweeten the rhubarb compote with it.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/recipe&#34;&gt;recipe&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/bacon&#34;&gt;bacon&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/duck-bacon&#34;&gt;duck-bacon&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.aadl.org/cooks/7826&#34;&gt;Rhubarb Pie | Ann Arbor District Library&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Line an agate or white-lined pie plate with good pastry. Have all ready a pint of rhubarb, cut in thin slices. Beat an egg, and into it beat
-1 1/4 cups of sugar, 2 tablespoonfuls of flour and a scant 1/2 teaspoonful of salt, mixed together and stir the rhubarb into the mixture. Turn into lined plate, dot with bits of butter, and cover with pastry. Brush the lower edge of paste with water, before putting the upper crust in place, then press the edges together firmly, and brush over again with water. Bake
-in a moderate oven until the pastry is well browned.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/pie&#34;&gt;pie&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-1904&#34;&gt;party-like-its-1904&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.kitchenchick.com/2009/05/rhubarb-galette.html&#34;&gt;Kitchen Chick: Galette of Rhubarb&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Strawberries and rhubarb are the classic pairing that everyone knows about, but in Michigan, rhubarb is ready well before strawberry season. I wanted to find a simple recipe that used only rhubarb, but oddly so many of my cookbooks don&amp;#039;t feature rhubarb-only dessert recipes.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/recipes&#34;&gt;recipes&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/galette&#34;&gt;galette&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://splendidtable.publicradio.org/recipes/drink_rhubarbarita.shtml&#34;&gt;Rhubarbarita: The Splendid Table Recipe Box&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;On top of the ice, pour equal amounts of rhubarb juice and a tasty tequila like Patron Gold. I suggest that this is not the moment to be shy or to go light&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/recipes&#34;&gt;recipes&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/drink&#34;&gt;drink&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/cocktails&#34;&gt;cocktails&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.rhubarbinfo.com/&#34;&gt;The Rhubarb Compendium, Table of contents&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Rhubarb  is an wonderful plant, with many uses and application. a rhubarb plantSince June 1994 these web pages have been available to anyone interested in gaining an understanding and appreciation of this fine vegetable. This compendium is a collection of rhubarb information from many sources. Some of the information is from world wide web pages or postings to various news groups (rec.gardens, rec.food.cooking, rec.food.recipes), some is from my own personal rhubarb growing experience, and some has been directly contributed by friends, associates, and visitors to The Rhubarb Compendium.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/recipes&#34;&gt;recipes&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/rabarber&#34;&gt;rabarber&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/reference&#34;&gt;reference&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/howto&#34;&gt;howto&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-1994&#34;&gt;party-like-its-1994&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://thefarmersmarketer.com/michigan_spring_rhubarb.html&#34;&gt;Michigan Spring: Rhubarb | The Farmer&amp;#039;s Marketer&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;&amp;quot;The hothouse rhubarb industry prospered for decades. At one time root houses appeared on virtually every farm in Macomb County. The crop became so  important that in the late 1940s and early 1950s, an annual Rhubarb Festival was held in Utica, complete with a queen  and her court.  A headline in the Utica Sentinel in October 1953 proclaimed Utica the “Rhubarb Center of the World.”&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/utica&#34;&gt;utica&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/party-like-its-1953&#34;&gt;party-like-its-1953&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://motherskitchen.blogspot.com/2009/05/rhubarb-pie.html&#34;&gt;Mother&amp;#039;s Kitchen: Rhubarb Pie&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Here&amp;#039;s my recipe for rhubarb pie. Make it with a lattice top, because for some reason, that is what rhubarb pies always have. If you are pie crust phobic, a lattice top is very forgiving. All you need to do is cut your top crust into slices, and lay a row of slices on top of your pie. My favorite trick is to lay the center cross lattice first, weaving over and under. Then place the outboard cross lattices from that center stripe, weaving them opposite of the one next to it.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/pie&#34;&gt;pie&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/recipe&#34;&gt;recipe&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.farmersalmanac.com/recipes/a/what_can_you_do_with_an_armful_of_rhubarb&#34;&gt;Recipes :: What can you do with an armful of rhubarb? :: Farmers&amp;#039; Almanac&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Those who are self-conscious about using white crystal sugar can blend rhubarb with raisins, dates, prunes, honey, maple syrup, and even molasses. Consider other sour foods such as lemons, vinegar, sorrel, and sour cream. They make wonderful sweet and sour combinations: lemonade, chutneys, pickles, sweet and sour spareribs, Chinese hot and sour soup. Try substituting rhubarb, either raw, cooked, or as strained juice, in some of these dishes. Why not rhubarbade or rhubarb chutney?&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/rhubarb&#34;&gt;rhubarb&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/recipes&#34;&gt;recipes&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/sour-foods&#34;&gt;sour-foods&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2009/05/distraction-scatter-gather-focus-discardia-a-five-part-cycle.html&#34;&gt;Distraction, scatter, gather, focus, discardia: a five part cycle&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;Herein a recipe for producing what looks like some kind of careful long term reasonable insight into a question, but what is really a coping strategy for the complete inability to be attentive to anything for very long.&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/distraction&#34;&gt;distraction&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/attention&#34;&gt;attention&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/focus&#34;&gt;focus&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/discardia&#34;&gt;discardia&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description>WSJM AM 1400 &amp;amp; FM 94.9 - Ripe For The Picking It won&amp;#039;t be long before one of Southwest Michigan&amp;#039;s largest crops starts making an appearance at area farmer&amp;#039;s markets. MSU Extension District Fruit Educator Mark Longstroth says the region is one of the largest producers of strawberries in the state, and they&amp;#039;re typically ripe for picking in mid June. (tags: michigan strawberries june longstroth,mark)  Diana Dyer, MS, RD: Only 5 more months until fresh rhubarb!</description>
     </item>
     
     <item>
@@ -729,12 +145,371 @@ in a moderate oven until the pastry is well browned.&lt;/div&gt;
       <pubDate>Thu, 07 May 2009 04:06:20 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-05-07-links-for-2009-05-07/</guid>
-      <description>&lt;ul class=&#34;delicious&#34;&gt;&lt;li&gt;
-                &lt;div class=&#34;delicious-link&#34;&gt;&lt;a href=&#34;http://www.concentratemedia.com/videos/A2commuterchallenge0055.aspx?utm_campaign=How%20Do%20You%20Get%20To%20Work%3F&amp;amp;utm_medium=Email&amp;amp;utm_source=VerticalResponse&amp;amp;utm_term=Video%20%2F%20How%20Do%20You%20Get%20To%20Work%3F&#34;&gt;How Do You Get To Work?&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&#34;delicious-extended&#34;&gt;interviews of how people get where they are going&lt;/div&gt;
-                &lt;div class=&#34;delicious-tags&#34;&gt;(tags: &lt;a href=&#34;http://delicious.com/vielmetti/a2b3&#34;&gt;a2b3&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/video&#34;&gt;video&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/concentrate-media&#34;&gt;concentrate-media&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/transit&#34;&gt;transit&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/transportation&#34;&gt;transportation&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/travel&#34;&gt;travel&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/interview&#34;&gt;interview&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/michigan&#34;&gt;michigan&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/annarbor&#34;&gt;annarbor&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/ypsilanti&#34;&gt;ypsilanti&lt;/a&gt; &lt;a href=&#34;http://delicious.com/vielmetti/segway&#34;&gt;segway&lt;/a&gt;)&lt;/div&gt;
-            &lt;/li&gt;&lt;/ul&gt;
-</description>
+      <description> How Do You Get To Work? interviews of how people get where they are going (tags: a2b3 video concentrate-media transit transportation travel interview michigan annarbor ypsilanti segway)  </description>
+    </item>
+    
+    <item>
+      <title>Ed - review for August 2008</title>
+      <link>http://vielmetti.github.io/post/2008/2008-08-25-ed---review-for/</link>
+      <pubDate>Mon, 25 Aug 2008 22:44:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-08-25-ed---review-for/</guid>
+      <description>I get a lot of hits on this blog for the search term &amp;quot;ed&amp;quot;.&amp;nbsp; Here&#39;s something of a review of what else you would be looking for.
+NYSE: ED is Consolidated Edison. When the power goes out around New York City, there&#39;s a Con Ed power outage map with details.
+Ed Stevens lives on at Stuckeyville.com, though there are no plans of yet to re-release the 2000-2004 TV series on DVD.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-05-22</title>
+      <link>http://vielmetti.github.io/post/2008/2008-05-22-links-for-20-11/</link>
+      <pubDate>Thu, 22 May 2008 04:30:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-05-22-links-for-20-11/</guid>
+      <description>Rustbelt Intellectual: GREEN ACRES HERE I COME Brownfields are becoming greenfields, rubble strewn vacant lots are becoming gardens, and many cities now have neighborhood-based agribusinesses. Urban farmers are remaking parts of most Rustbelt cities. (tags: via:cshalizi ubifarm urbifarm deindustrialization agriculture food victory-gardens rustbelt philadelphia detroit)   Weirdness facilitation | Science Blogs &#34;bizarre behavior is just an emergent property of large groups of humans given the ability to communicate over long distances&#34;</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-04-23</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-23-links-for-200-8/</link>
+      <pubDate>Wed, 23 Apr 2008 04:32:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-23-links-for-200-8/</guid>
+      <description> Mapping US news stories by state and population great distorted map showing the distortion of the news coverage in the US, using a map style via Mark Newman (tags: maps visualization cartography neogeography map strangemaps)   Mark Maynard - update on the great ypsi bike-powered movie thing emergent organization around bicycle-powered cinema (tags: bike generator green movie power ypsilanti washtenaw-wow cinema via:strudeau)   </description>
+    </item>
+    
+    <item>
+      <title>links for 2008-04-22</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-22-links-for-200-7/</link>
+      <pubDate>Tue, 22 Apr 2008 04:33:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-22-links-for-200-7/</guid>
+      <description> Alan’s Blogometer: Burn Your Feed Reader How to bail out of Google Reader and other news readers - avoid the feed, browse instead. (tags: feed feeds productivity reader-zero)   blog.plazes.com » Blog Archive » Plazes adds Fire Eagle Support Automated self-surveillance; never be alone, everyone knows where you are. Sure, it&#39;s a neat technology hack, but do you want to be part of it? (tags: geo mobile plazes)   </description>
+    </item>
+    
+    <item>
+      <title>links for 9 april 2008 (by hand this time)</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-09-links-for-9-apr/</link>
+      <pubDate>Wed, 09 Apr 2008 23:18:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-09-links-for-9-apr/</guid>
+      <description>the usual deliciousing of links has paused for a while, but things still need to be linked; here&#39;s a brief narrative.
+Festifools 2008 photos are up (thanks to Myra Klarman) - quite a few awesome puppet pictures.
+I missed Festifools this year for a memorial service for Wilfred Kaplan, University of Michigan math professor emeritus and long time friend.&amp;nbsp; If you have a Mac with no passwords, you can still get in by booting to single user.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-04-04</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-04-links-for-200-3/</link>
+      <pubDate>Fri, 04 Apr 2008 04:31:01 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-04-links-for-200-3/</guid>
+      <description>AATA to Ypsi: Authority to cancel subsidies to city 04/03/08 The president of the Ann Arbor Transportation Authority told members of the Ypsilanti City Council Tuesday evening not to rely on subsidies from the transportation authority anymore.  (tags: annarbor ypsi ypsilanti bus transportation theride)   yarns made in Michigan An unknown reader of this blog put in a search query for &#34;yarns made in Michigan&#34; and got back a bad answer, since I didn&#39;t have a listing; here&#39;s what they should have seen.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-04-02</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-02-links-for-200-1/</link>
+      <pubDate>Wed, 02 Apr 2008 04:31:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-02-links-for-200-1/</guid>
+      <description>Bimbo&#39;s on the Hill and other lost Ann Arbor eateries | Ann Arbor District Library photos, lists and reviews of long-gone restaurants in Ann Arbor (tags: annarbor food restauarants reviews arborwiki aadl lost-ann-arbor)   Virgle: The Adventure of Many Lifetimes &#34;luxury cruise to mars&#34; - Google has been testing this Adwords copy for a long time (tags: luxury-cruise-to-mars)   More Frog Postcards From Finland These are all Carte Blanche Greetings Ltd.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-30</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-30-links-for-20-23/</link>
+      <pubDate>Sun, 30 Mar 2008 04:31:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-30-links-for-20-23/</guid>
+      <description>Uraku - Bowling Green, OH dol sot bi bim bop in ohio! (tags: bibimbop ohio dolsot via:choconancy food restaurant reviews)   Kanban; or, management by post-it note on using kanban as a software process management tool; note to self, review as a queue management process for proposal development (tags: kanban management 5s process systems postit software)   Economist.com - John Maeda debate on technology &#34;Having choice is good, especially when the available choices are all excellent ones.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-22</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-22-links-for-20-18/</link>
+      <pubDate>Sat, 22 Mar 2008 04:18:15 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-22-links-for-20-18/</guid>
+      <description>A VC: Working On Vacation &#34;Posted from the eliptical trainer&#34; (tags: career multitasking vc)   Synthesize new ideas constantly - Google Search &#34;How to think&#34; rule from Ed Boyden (tags: thinking cognition ideas novelty process ed-boyden google-search)   Learn how to learn (rapidly) - Google Search A second &#34;how to think&#34; dictum from Ed Boyton. This search right now comes up with several page one hits on how toddlers learn language.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-21</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-21-links-for-20-17/</link>
+      <pubDate>Fri, 21 Mar 2008 04:19:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-21-links-for-20-17/</guid>
+      <description> Cover story: Blown away As its popularity grew, a cottage industry began to develop called &#34;search arbitrage.&#34; (On GeoSign, and how a Google change wiped out their business overnight.) (tags: google dotcom fall arbitrage seo advertising canada)   &#34;john kenneth sixpack&#34; - Google Search how do economists view the common man? (tags: economics economists blogthis)   </description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-18</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-18-links-for-20-14/</link>
+      <pubDate>Tue, 18 Mar 2008 04:21:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-18-links-for-20-14/</guid>
+      <description>Scholz - Web 2.0 from an East German point of view If the TV news reports on East German television seemed outlandish to tourists, I wonder what the precarity of the labor dynamic of Web 2.0 and its hyperlocal news would look like to a visitor from a country that is not afflicted by capitalism. They would (tags: 2008 analysis web2.0 web20 essay firstmonday ossi)   Remembering Jean-Claude Vrinat.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-16</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-16-links-for-20-13/</link>
+      <pubDate>Sun, 16 Mar 2008 04:17:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-16-links-for-20-13/</guid>
+      <description> the Martian Entropy Band Ann Arbor band from the early 70s, lovingly recreated as a web site with history pulled in part from the John Sinclair archives (tags: party-like-its-1974 annarbor music mp3 a2b3 mike-gould)   Social Media in the 1990’s | Copy Brighter in a comment: &#34;Internet in the 90s was like the wild west: difficult but rewarding. Present day Internet is like kill-yourself suburbia: convenient but soul-sucking.&#34; (tags: party-like-its-199x socialmedia nethistory)   </description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-15</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-15-links-for-20-12/</link>
+      <pubDate>Sat, 15 Mar 2008 04:19:07 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-15-links-for-20-12/</guid>
+      <description>Paleo-Future: 1980s awesome blog showing the history of the views of the future; here&#39;s the 80s. (tags: futurism retrofuturism party-like-its-198x blog)   Update: Fire destroys part of building under construction - Latest from the Ann Arbor News - MLive.com Fire destroyed part of a three-story, eight-unit apartment building under construction in the 900 block of Church Street early today. (tags: annarbor michigan campus fire)   Six-Word Reviews of 763 SXSW Mp3s by Paul Ford - The Morning News So many songs, six words each (tags: awesome sxsw mp3 sixwords music reviews)   The Big Picture | Bear Stearns Gets NY Fed, JP Morgan BAILOUT Bear Stearns (BSC) stock meltdown today (off 50%), live blog of the play by play (tags: bsc bear-stearns stocks subprime meltdown liquidity teotwawki)   Reuters/Second Life » EXCLUSIVE - Rosedale to step down as Linden Lab CEO Employees choose which projects they want to work on, and bonuses are assigned by a system called the “Love Machine,” which lets employees praise their co-workers for completed tasks.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-14</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-14-links-for-20-11/</link>
+      <pubDate>Fri, 14 Mar 2008 04:18:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-14-links-for-20-11/</guid>
+      <description>The Frozen Car Project - Michigan Tech - Houghton MI Collaborative artists Mary Carothers and Sue Wrbican have used this blog to track the progress of freezing a 1978 Chevy Nova in a block of ice during January and February 2008. (tags: yooper blog car transportation ice frozen party-like-its-1978)   Michigan Local &amp; Small Business business – Economics &amp; Finance business Articles - MLive.com The revelation that a major real estate management firm is considering acquiring Ann Arbor&#39;s Pfizer campus put a spotlight on the role the University of Michigan is playing behind the scenes in the marketing process.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-06</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-06-links-for-200-4/</link>
+      <pubDate>Thu, 06 Mar 2008 03:18:36 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-06-links-for-200-4/</guid>
+      <description>Whitesalls on the web (tags: chelsea michigan blogs)   Science Fiction Oral History Association - SFOHA awesome project to collect and digitize and distribute archives of oral histories of the science fiction world. (tags: history scifi audio recordings mp3 podcast archives)   Shorty Shorty is a simple tool for creating shorter, human- readable links from long URLs. You install Shorty on your server, so the links you create with it never go away.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-05</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-05-links-for-200-3/</link>
+      <pubDate>Wed, 05 Mar 2008 03:17:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-05-links-for-200-3/</guid>
+      <description>&#34;invisible collage student&#34; - Google Search college - collage + &#34;invisible college&#34; + &#34;college student&#34;. (tags: invisible college collage student)   getDowntown Blog»Blog Archive » AATA’s Most Beautiful Bus Route? On the morning commute, sometimes fog fills the river valley like a sleepy white dragon. Afternoons, the river sparkles in the lowering sun. A rider gazing at it likely will conclude that the #3 is the AATA’s most beautiful route.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-03-01</title>
+      <link>http://vielmetti.github.io/post/2008/2008-03-01-links-for-2008/</link>
+      <pubDate>Sat, 01 Mar 2008 03:17:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-03-01-links-for-2008/</guid>
+      <description>Edge 238 - Social networks are like the eye We see clusters of happy and unhappy individuals in the social network like blinking lights in this complex fabric that is made up of people where some people are happy and some people are unhappy and there is a kind of gray zone between them. (tags: happiness socnet networks networking 2008 epidemiology via:heidigoseek socialnetworks)   Twitter / erica g: &#34;</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-28</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-28-links-for-20-21/</link>
+      <pubDate>Thu, 28 Feb 2008 03:27:26 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-28-links-for-20-21/</guid>
+      <description>globeandmail.com: Time to break the town-and-gown barrier It&#39;s more common for regions to export technology their universities create. (tags: academia community creativity culture development economics innovation university richard-florida town gown people-are-our-best-export)   Wooden Fleets and Star Fleet - bit.listserv.vpiej-l | Google Groups One of the things we will soon see is the rise of &#34;peripheral networked scholarship&#34; where every so often a displaced scholar will effect entire disciplines while operating almost entirely from within the networked environment.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-16</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-16-links-for-20-13/</link>
+      <pubDate>Sat, 16 Feb 2008 03:20:56 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-16-links-for-20-13/</guid>
+      <description>Michigan Libraries in postcards Much information comes from a recent discovery, Carnegie Libraries in Michigan. Most of the postcards below are of Carnegie buildings. (tags: michigan library postcard superpatron)   The Inconvienent Truth About Social Media Marketing &#34;Social media traffic does not monetize.&#34; or, how people with a limited understanding of the short term and long term value they are building mis-measure the long term strategic value of being in the center of a dense network (tags: advertising media socialmedia marketing seo eyeballs party-like-its-1999)   Arbor puts the cap on Ellacoya buy - Mass High Tech: The Journal of New England Technology: Arbor Networks Inc.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-14</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-14-links-for-20-11/</link>
+      <pubDate>Thu, 14 Feb 2008 03:21:08 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-14-links-for-20-11/</guid>
+      <description>Blog Juice - kentbrewster.com Here&#39;s a toolbar bookmarklet that looks for a MyBlogLog identifier on the page you&#39;re on, and uses the MyBlogLog API to dig out information about its reader roll. (tags: api blog bookmarklet mybloglog awesome)   The Obvious?: How the blogosphere stays healthy Some time ago I said that the only blogging guidelines we need are &#34;Don&#39;t write crap, don&#39;t link to crap and if you see someone else writing crap take them to task about it.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-13</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-13-links-for-20-10/</link>
+      <pubDate>Wed, 13 Feb 2008 03:18:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-13-links-for-20-10/</guid>
+      <description>The Coming Ad Revolution - WSJ.com The new model creates a more trusted environment for reaching high-value, frequent purchasers, whether of airline tickets, electronics, clothes or other items. Where does that leave the less-frequent purchasers? Probably looking to their friends rather th (tags: ads advertising agency behavioral facebook futures journalism legal newspaper privacy socialnetwork targeting tech todo toread trends wallstreet wsj)   Dalai Lama to deliver Lecture at University of Michigan The 14th Dalai Lama of Tibet will deliver a special Peter M.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-11</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-11-links-for-200-8/</link>
+      <pubDate>Mon, 11 Feb 2008 03:17:59 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-11-links-for-200-8/</guid>
+      <description>Johns Hopkins University Press | Books | The Mantra of Efficiency beneath efficiency&#39;s seemingly endless variety lies a common theme: the pursuit of mastery through techniques of surveillance, discipline, and control. (tags: efficiency productivity gtd surveillance control management disciple)   Online with Wireless Ypsi | Common Monkeyflower Of, course, now that Ed Vielmetti has picked up the scent, it should be all of five minutes before he&#39;s mobilized 1,000 Ann Arborites to do us one better.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-07</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-07-links-for-200-4/</link>
+      <pubDate>Thu, 07 Feb 2008 03:21:16 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-07-links-for-200-4/</guid>
+      <description>The Boom Was a Bust For Ordinary People - washingtonpost.com Growth, some of the economists are conceding in perplexity, has been &#34;decoupled&#34; from widely shared prosperity. (tags: economics labor dismal-science prosperity growth happiness)   Happiness: Enough Already | Newsweek Culture | Newsweek.com Wilson not only jumped off the happiness bandwagon—he also embraced his melancholy side and decided to blast a happiness movement that &#34;leads to half-lives, to bland existences,&#34;</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-06</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-06-links-for-200-3/</link>
+      <pubDate>Wed, 06 Feb 2008 03:21:55 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-06-links-for-200-3/</guid>
+      <description>Making traditional paczkis is an all-night affair - Michigan News, Updates, Photos &amp; Video | Detroit, Lansing - MLive.com Pawel Strozynski brings out glazed prune paczki from the kitchen at Amadeus Cafe and Restaurant this morning. (tags: amadeus paczki)   Schedule &amp; Location: Anne Lamott on shitty first drafts Now, practically even better news than that of short assignments is the idea of shitty first drafts. All good writers write them.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-02-02</title>
+      <link>http://vielmetti.github.io/post/2008/2008-02-02-links-for-2008/</link>
+      <pubDate>Sat, 02 Feb 2008 03:24:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-02-02-links-for-2008/</guid>
+      <description> East-cross.com » The Wireless Cool City (Reprise) Ypsilanti has a Meraki network up and running. Where are the high spots we need to hit to get it extended all the way to Ann Arbor? (tags: wireless ypsi ypsiarbor ypsilanti meraki wifi mesh networks cic community infrastructure)   599CD Tips &amp; Tricks - Excel VLOOKUP - 599CD.com damn, this is just what I needed (tags: vlookup excel howto)   </description>
+    </item>
+    
+    <item>
+      <title>links for 2008-01-28</title>
+      <link>http://vielmetti.github.io/post/2008/2008-01-28-links-for-20-19/</link>
+      <pubDate>Mon, 28 Jan 2008 03:19:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-01-28-links-for-20-19/</guid>
+      <description>NetworkX NetworkX (NX) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. (tags: network socnet framework python visualization graphviz)   Bubble glazing - thermal insulation using bubble wrap How about taking a product destined for a rubbish tip (disposable packaging) and turning it into window insulation that thermally outperforms double glazing at $2 per window? (tags: brrr cold bubble-wrap insulation glazing)   Digital Tools Help Users Save Energy, Study Finds - New York Times “I was astounded at times at the response we got from customers,” said Robert Pratt, a staff scientist at the Pacific Northwest National Laboratory and the program director for the demonstration project.</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-01-27</title>
+      <link>http://vielmetti.github.io/post/2008/2008-01-27-links-for-20-18/</link>
+      <pubDate>Sun, 27 Jan 2008 03:18:17 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-01-27-links-for-20-18/</guid>
+      <description>City of Ashland, Oregon - Easement The above named Grantor grants to the City of Ashland, Oregon, &#34;Grantee&#34;, a perpetual non-exclusive easement in gross to use, operate, inspect, repair, maintain and remove and replace a public pedestrian and bicycle easement (tags: easement bicycle oregon ashland)   Digg / Criscenti Dan Criscenti on Digg (tags: digg annarbor party-like-its-4810x)   Google opens shop on Main - Ann Arbor &#34;I have the phone number of the gentleman at Google who&#39;s in charge of the new building, and I can call him anytime I want,&#34;</description>
+    </item>
+    
+    <item>
+      <title>links for 2008-01-26</title>
+      <link>http://vielmetti.github.io/post/2008/2008-01-26-links-for-20-17/</link>
+      <pubDate>Sat, 26 Jan 2008 03:18:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-01-26-links-for-20-17/</guid>
+      <description> Trenary Outhouse Races say ya to da UP, eh? Trenary, home of Trenary Toast and the annual Outhouse Races. Photos from Da Yoopers Tourist Trap. wish there was a downstate port-a-potty race to go with it. (tags: trenary michigan yooper outhouse race pictures awesome party-like-its-49891)   </description>
+    </item>
+    
+    <item>
+      <title>links for 2008-01-25</title>
+      <link>http://vielmetti.github.io/post/2008/2008-01-25-links-for-20-16/</link>
+      <pubDate>Fri, 25 Jan 2008 03:19:27 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-01-25-links-for-20-16/</guid>
+      <description>Own Page One - Internet Yellow Pages vs. Google AdWords: Getting the most from whole Sales Cycle Jon argues that Google has “no reason” to buy a Yellow Pages company. Actually there is a very good reason for Google to purchase a Yellow Page company: visitors coming through Internet Yellow Pages (IYP) sources have different behavioral characterist (tags: yp iyp yellow-pages adwords personas analytics web-analytics-wednesday)   New Year&#39;s Gourmet Dinner Trek - Ann Arbor to Ypsilanti trek route along the huron river from ann arbor to ypsilanti, 13 miles mostly flat, it would be a good ice bike route.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-16</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-16-links-for-20-10/</link>
+      <pubDate>Sun, 16 Dec 2007 03:18:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-16-links-for-20-10/</guid>
+      <description>T-Mobile Shows Ignorance Blocking Twitter :: Off the Top :: vanderwal.net I pay T-Mobile for service, if they decide not to provide service I decide to take my business to a company that will provide service. (tags: t-mobile twitter service lack-of-service walled-garden android-where-are-you)   T-Mobile Turns Off Twitter? ev, biz, it&#39;s time to get acquired by some big company (yahoo, e.g.) so you can fight the cell phone wars.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-15</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-15-links-for-200-9/</link>
+      <pubDate>Sat, 15 Dec 2007 03:18:04 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-15-links-for-200-9/</guid>
+      <description>Word-of-the-Year Ritual Pauses for Puzzlement - The Lede - Breaking News - New York Times Blog &#34;w00t&#34; is what locavores type to each other when they finally find the locally grown buttered radishes they had been craving (tags: w00t locavore wordie eat-local)   Pedal-powered Bicycle Trainer Washes Clothes, Generates Electricity - Ecofriend The design describes the mechanical and electrical capabilities of peddle power. It’s a dual pedal power system, with a pedal powered washing machine spinning clothes dry, and a separate belt going to a generator for electricity.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-14</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-14-links-for-200-8/</link>
+      <pubDate>Fri, 14 Dec 2007 03:18:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-14-links-for-200-8/</guid>
+      <description>Walker Tracker Blog » Blog Archive » Walker Tracker API + Google Charts API: Awesome. using the walker tracker api plus the google charts api, a pointer to code samples (tags: google googlecharts walk walking walkertracker api code mashup awesome)   Vacuum: A Concise Summary of the Field of General Systemantics systems create systems people. (tags: systems systems-people systemantics john-gall)   Con-Way Freight expanding, moving to Ann Arbor Twp - Michigan Local &amp; Small Business News – Economics &amp; Finance News Articles - MLive.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-13</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-13-links-for-200-7/</link>
+      <pubDate>Thu, 13 Dec 2007 03:18:41 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-13-links-for-200-7/</guid>
+      <description>Msgr. Louis Cappo: 1919-2007 obituary in soo news (tags: father-louie marquette michigan yooper obituary obits)   Vegan Chocolate Cake (Moosewood via Recipezaar, with changes) every vegan loves to have a dessert they can eat, and the carnivores in the audience won&#39;t know the difference. good holiday party food. (tags: cake chocolate recipes vegan vegetarian potluck nondairy party food)   Social software · Are discussion forums the ultimate Enterprise 2.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-12</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-12-links-for-200-6/</link>
+      <pubDate>Wed, 12 Dec 2007 03:19:46 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-12-links-for-200-6/</guid>
+      <description>YouTube - Low-Cost Multi-touch Whiteboard using the Wii Remote cheap IR LED transmitters plus pens plus Wii sensor yields very cool whiteboard. (tags: awesome wii multitouch whiteboard remote lightpen)   DDOS attack &#39;really, really tested&#39; UltraDNS | The Register account of 2002 era attacks on the root name servers, no SLA payouts (tags: ultradns ddos bgp bgp-anycast party-like-its-2002 infrastructure infosec)   Gillig Corporation - Hybrid Bus hybrid bus technology (tags: automotive energy hybrid bus gillig via:saul)   Network Weaving: A Perplexing Economy valdis notes cleveland as a disconnected economy - no doubt SE Michigan looks the same way (tags: cleveland innovation economics socnet)   http://lol.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-05</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-05-links-for-200-2/</link>
+      <pubDate>Wed, 05 Dec 2007 03:19:02 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-05-links-for-200-2/</guid>
+      <description>pock-it : post-it note, glue on three sides = instant pocket via robotwisdom (tags: design creative post-it paper weak-adhesives)   719 West Washington Street | Ann Arbor District Library history of the property notes the presence of a chicken coop and orchards (tags: annarbor michigan history local-history chicken-coop)   Snow, sleet, snurr, floosh - Words to the Wise: Language and the Journal Sentinel Bruce Vielmetti, a city editor who hails from the Upper Peninsula of Michigan (a Yooper, as we call them), explained that sleet is frozen before it hits the ground, and freezing rain is liquid until it hits the ground.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-04</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-04-links-for-200-1/</link>
+      <pubDate>Tue, 04 Dec 2007 03:21:58 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-04-links-for-200-1/</guid>
+      <description>EconPapers: Agriculture, Environmental Services and Agro-Tourism in the Dominican Republic This paper analyzes the links between agriculture and tourism. A contingent valuation study assesses tourist’s willingness to pay (WTP) for agro-tourism and agriculture’s positive environmental services and related positive externalities. (tags: tourism agrotourism ecotourism dr do dominican-republic)   Meanwhile: Russia&#39;s last refuge: the blogosphere - Opinion - International Herald Tribune when a two month-old Russian start-up with the funky name of Sup (&#34;</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-12-02</title>
+      <link>http://vielmetti.github.io/post/2007/2007-12-02-links-for-2007/</link>
+      <pubDate>Sun, 02 Dec 2007 03:22:34 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-12-02-links-for-2007/</guid>
+      <description> Severed Unicorn Head Superstore : For All Of Your Severed Unicorn Head Needs a mark maynard production (tags: fun funny unicorn gifts shopping)   </description>
+    </item>
+    
+    <item>
+      <title>links for 2007-11-30</title>
+      <link>http://vielmetti.github.io/post/2007/2007-11-30-links-for-20-25/</link>
+      <pubDate>Fri, 30 Nov 2007 03:23:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-11-30-links-for-20-25/</guid>
+      <description>NYSERNet:About: In June 1985, a meeting of representatives of New York State’s leading academic institutions convenes at Cornell University to discuss the creation of a statewide electronic network to connect New York’s major research universities and corporations to (tags: nysernet nsfnet history 1985 newyork internet nethistory)   Office of Science and Technology Policy - John H. Marburger III Bio John H. Marburger, III, Science Adviser to the President and Director of the Office of Science and Technology Policy, (tags: john-marburger nsfnet ostp)   SIGUCCS 2000 Penny Crane Award - Jane Caviness Jane Caviness has had a productive and successful career in higher education and computing.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-11-29</title>
+      <link>http://vielmetti.github.io/post/2007/2007-11-29-links-for-20-24/</link>
+      <pubDate>Thu, 29 Nov 2007 03:20:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-11-29-links-for-20-24/</guid>
+      <description>Talking Back to Prozac - The New York Review of Books As the product of a guild whose members seek payment for treating whatever complaints are brought to them, the manual must be biased toward overmedicalizing so that both doctors and patients can be served under managed care. (tags: advertising marketing medical medicalization medicine mentalhealth pharma review toread)   Computer Randomly Plays Classical Music During normal operation or in Safe mode, your computer may play &amp;ldquo;Fur Elise&amp;rdquo; or &amp;ldquo;It&amp;rsquo;s a Small, Small World&amp;rdquo; seemingly at random.</description>
+    </item>
+    
+    <item>
+      <title>links for 2007-11-28</title>
+      <link>http://vielmetti.github.io/post/2007/2007-11-28-links-for-20-23/</link>
+      <pubDate>Wed, 28 Nov 2007 03:20:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2007/2007-11-28-links-for-20-23/</guid>
+      <description>Google Apps with the Ann Arbor Chamber of Commerce Two-hour interactive workshop to learn how Google Apps can transform how your organization collaborates and communicates featuring Scott Johnston from Google in Mountain View. (tags: scott-johnston event annarbor michigan google-apps wiki jotspot collaboration)   Homework Coma (Tipsy Texan) The bad news, obviously, is that I haven&#39;t had any spare time to write about drinks. Fortunately, things are not so bad that I haven&#39;t had time to drink drinks.</description>
     </item>
     
   </channel>

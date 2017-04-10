@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/sisyphus/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Sisyphus on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/sisyphus/</link>
+    <description>Recent content in Sisyphus on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/sisyphus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jan 2013 16:34:31 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/sisyphus/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>What is the goal of the Internet?</title>
@@ -14,28 +17,7 @@
       <pubDate>Wed, 02 Jan 2013 16:34:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-01-02-what-is-the-goal-of-the-internet/</guid>
-      <description>&lt;p&gt;Let&amp;#39;s assume for a moment that the Internet is a very large, elaborate, multi-player game. What are its winning conditions?
-&lt;p&gt;
-0. Make money fast. That proves to be difficult, but it&amp;#39;s been pitched so many times that it should go up front first. If you can&amp;#39;t make money quickly, then at least make the promise that you are growing something that will eventually make money even if it&amp;#39;s not making money now.&lt;/p&gt;
-&lt;p&gt;
-1. Increase the n. Find something of desire, and add to it. Games built into social network services (LinkedIn, Facebook, Twitter) behave this way, all in somewhat different details but all measured by simple increases in how many things you collect. Lots of systems have naive but effective ways of prompting you to continue simply by helping you count how much you have played so far.&lt;/p&gt;
-&lt;p&gt;
-2. Reduce the hop count. This is a network game players point of view, most easily visible to those with experience playing in the UUCP and Internet routing networks, but also to a certain degree on high-degree social networks. Find something far away of desire, and work systematically to bring it closer. For an added bonus, make the online equivalent of a back stage pass that quickly gets you access to a sense of intimacy that you would otherwise have to earn.&lt;/p&gt;
-&lt;p&gt;
-3. Decrease the n. Like Sisyphus, we work to reduce the size of our inbox daily. The seasonal holiday of Discardia is a good time to do a purge of whatever we no longer treasure, to make room for the things that are awesome. Good writing includes good editing, which means omitting needless words. At a social extreme are the deletionist Wikipedians, who believe that a better encyclopedia doesn&amp;#39;t include marginal and unimportant articles.&lt;/p&gt;
-&lt;p&gt;
-4. Reduce mean time to response. A well developed network gets a prompt, smart, generous response to queries. That&amp;#39;s hard to keep up 24x7, but when you are on you can be exceptional in your ability to gain trust. &amp;quot;The courtesy of a prompt response is appreciated.&amp;quot;&lt;/p&gt;
-&lt;p&gt;
-5. Increase bandwidth. It&amp;#39;s always better to have more bits streaming in, even if you aren&amp;#39;t using them all at once. The same goes for screen size and screen resolution - you can never have enough.&lt;/p&gt;
-&lt;p&gt;
-6. Reduce latency and lag. From first-person shooters to international video chat, lag and latency are your enemy. Work as hard as possible to trim milliseconds from your enviroment so that you can enjoy it in real time.&lt;/p&gt;
-&lt;p&gt;
-7. Increase the size of the lunch table. If you are having lunch with friends, you want the size of the table to fill the venue without overflowing. The restaurant will love you if you keep it full, and you&amp;#39;ll have that many more people to appreciate and think of.&lt;/p&gt;
-&lt;p&gt;
-8. Collect badges and prizes. Amassing credentials is a part of any good game, whether it be Foursquare mayorships at the local cafe or college degrees or professional certificates. Play the game until you prove that you have won it.&lt;/p&gt;
-&lt;p&gt;9. Be the first to experience something. Whether it&amp;#39;s making the first comment on a post, writing the first review of a new product, or going to a restaurant on opening night, the person who has the quick draw on the hot new item wins. There&amp;#39;s a benefit for novelty and being part of the in crowd that knows what&amp;#39;s new.&lt;/p&gt;
-&lt;p&gt;10. Outlast your rivals. Slow, plodding diligence is enough to win some races, where you simply wait for your counterparts to give up on the game that you&amp;#39;re playing. Your ability to keep at a task year upon year means that eventually your gray hair will be a mark of your genius, just because there&amp;#39;s no one else around to challenge your version of the story.&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>Let&amp;#39;s assume for a moment that the Internet is a very large, elaborate, multi-player game. What are its winning conditions?  0. Make money fast. That proves to be difficult, but it&amp;#39;s been pitched so many times that it should go up front first. If you can&amp;#39;t make money quickly, then at least make the promise that you are growing something that will eventually make money even if it&amp;#39;s not making money now.</description>
     </item>
     
     <item>
@@ -44,14 +26,8 @@
       <pubDate>Fri, 10 Jun 2011 18:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-10-noemail-alternatives/</guid>
-      <description>&lt;p&gt;The weekend is a low email diet, but somehow that&amp;#39;s difficult to do without explaining myself a little bit. Here&amp;#39;s some thoughts as to how I might do things the next time that I work through the world of weekend time, how I can get some more effective communications rather than just more frequent.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Short asynchronous private message&lt;/strong&gt;. A Twitter direct message works nicely for this, as does an SMS message. Email is better for short messages when you keep your subject and text short enough that the reader can see it all in their preview window.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Short asynchronous public message.&lt;/strong&gt;&amp;#0160;Twitter and Facebook both do a credible job of public messaging, though it all depends on what you mean by public. Email to a mailing list is reasonably public, sometimes, though sometimes people believe that it&amp;#39;s private and get surprised by email leaking. My favorite public format is the blog post, but I think that&amp;#39;s a sign of age; so few people use weblogs the way that I do that I feel like I&amp;#39;m from another planet.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Short synchronous private messages.&lt;/strong&gt;&amp;#0160;A rapid burst of SMS messages works neatly, and is how this usually works for me when doing last-minute schedule coordination by text message. Email is never synchronous, though it seems that way at times, and you don&amp;#39;t have anything like guaranteed delivery.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Short synchronous public message. &lt;/strong&gt;If I had to do this I&amp;#39;d say IRC, except I hate that system most of the time. A twitter hash tag is very similar to IRC. I&amp;#39;m told that LiveJournal deals well with this use case, for situations where you want real-time tracking of comments across multiple forums.&amp;#0160;I can&amp;#39;t think of an email application where this fits.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Long asynchronous private message. &lt;/strong&gt;This is one of the things that electronic mail can do well, and that most other online messaging systems do worse. I see a way to handle the world to reduce these by taking the positive versions of these and sending them out on paper, e.g. as postcards. If you can get documents out of long messages and into some kind of version control system or wiki, you can avoid the path of version skew as everyone shovels weirdly-named drafts at each other.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Long asynchronous public message&lt;/strong&gt;. You&amp;#39;re looking at it; my blog is where I need to be writing more when it&amp;#39;s time to put something into the world that might have use in the indefinite future.&lt;/p&gt;
-</description>
+      <description>The weekend is a low email diet, but somehow that&amp;#39;s difficult to do without explaining myself a little bit. Here&amp;#39;s some thoughts as to how I might do things the next time that I work through the world of weekend time, how I can get some more effective communications rather than just more frequent.
+Short asynchronous private message. A Twitter direct message works nicely for this, as does an SMS message.</description>
     </item>
     
     <item>
@@ -60,12 +36,9 @@
       <pubDate>Fri, 10 Jun 2011 18:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-10-noemail-recovery/</guid>
-      <description>&lt;p&gt;&lt;em&gt;&amp;quot;Sisyphus had it easy.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ll be off email starting Friday night and continuing to Sunday night; the second weekend in a row of a &amp;quot;no email&amp;quot; weekend. It wasn&amp;#39;t quite 100% offline the first weekend, since I&amp;#39;m so addicted, but I made a point of not clicking on any messages in my inbox and not sending any mail.&lt;/p&gt;
-&lt;p&gt;Part of the plan for not doing email is making sure that at the end of the time you can recover gracefully and not feel overwhelmed. This meant dealing with an entire boatload of messages all at once, processing a weekend&amp;#39;s worth of mail in a Sunday evening. That&amp;#39;s hardly fun, but it beats the alternative of working the email treadmill all weekend long.&lt;/p&gt;
-&lt;p&gt;The biggest thing I managed to do was slow down the rate of messages into my inbox at least a little by identifying one mailing list that I really like that I just don&amp;#39;t have the time to follow right now. It all by itself generates 20-40 messages a day, and even if those only take a few seconds to skip over, it&amp;#39;s too much of a burden of diligence to stay on top of it.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;I also realized that I don&amp;#39;t have secondary or tertiary communications paths to everyone who is in my inbox. I don&amp;#39;t know everyone&amp;#39;s phone number, I&amp;#39;m not sure I&amp;#39;m Facebook friends with them, they might or might not use Twitter, and many times I don&amp;#39;t have a postal address. I&amp;#39;d love to be able to say that for everyone who mattered I had three ways to signal them, just in case there was some need to be persistent to get a message through.&amp;#0160;&lt;/p&gt;
-</description>
+      <description>&amp;quot;Sisyphus had it easy.&amp;quot;
+I&amp;#39;ll be off email starting Friday night and continuing to Sunday night; the second weekend in a row of a &amp;quot;no email&amp;quot; weekend. It wasn&amp;#39;t quite 100% offline the first weekend, since I&amp;#39;m so addicted, but I made a point of not clicking on any messages in my inbox and not sending any mail.
+Part of the plan for not doing email is making sure that at the end of the time you can recover gracefully and not feel overwhelmed.</description>
     </item>
     
     <item>
@@ -74,19 +47,8 @@
       <pubDate>Sun, 14 Mar 2010 21:39:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-03-14-meaningless-indicators-of-progress/</guid>
-      <description>&lt;p&gt;It&amp;#39;s important to have tasks that provide unambiguous signals that you are making progress, even though individually those tasks do not seem significant.&lt;/p&gt;
-&lt;p&gt;Think of mindless mindfulness that lets you go diligently through a text and correct each of the small flaws that you notice. None of the flaws are burdensome, but there is need to accumulate evidence of care for a level of detail. Deep thought is not needed to do the work, but when it&amp;#39;s missing the lack is noted.&lt;/p&gt;
-&lt;p&gt;Progress is a hard thing to measure with any degree of certainty. &amp;#0160;&amp;quot;Increase the n&amp;quot; is one typical useful task, as though by heaping on one more of whatever it is that you are counting you can get one measure closer to ultimate success. &amp;#0160;&amp;quot;Decrease the n&amp;quot; is the other task, which generally for me is the Sisyphian task of emptying the inbox or washing the dishes. &amp;#0160;You&amp;#39;re never really done, and the only progress you note is that something happened today.&lt;/p&gt;
-&lt;p&gt;The meaningless indicator of progress can simply be the recognition that you have hit some temporary and attainable local high point to the day, and that even if tomorrow brings you back to a spot where you need to do more, you at least did what you needed to do today. &amp;#0160;Shining the sink is the domestic equivalent of inbox zero; yes, there still may be more to do tomorrow, but at least for today you&amp;#39;re at the bottom of what needs to be done.&lt;/p&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;Notes.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;m gaining an ever increasing appreciation for copy editors, and the thankless task of reading things before publishing them, saying &amp;quot;huh?&amp;quot;, and rewriting until you understand it.&lt;/p&gt;
-&lt;p&gt;The lyrics to &amp;quot;&lt;a href=&#34;http://www.scq.ubc.ca/increase-the-n/&#34;&gt;Increase the N&lt;/a&gt;&amp;quot; are from Science Creative Quarterly 4.&lt;/p&gt;
-&lt;p&gt;For &amp;quot;decrease the n&amp;quot;, I refer you to &lt;a href=&#34;http://www.metagrrrl.com/discardia/&#34;&gt;Discardia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In Greek mythology, Sisyphus was condemned to empty his email inbox each day, only to find it full the next day. &amp;#0160;See Doug Mann, &lt;a href=&#34;http://www.adjunctnation.com/magazine/article/563/&#34;&gt;The Electronic Myth of Sisyphus&lt;/a&gt;, 2006.&lt;/p&gt;
-&lt;p&gt;Shining the sink is from &lt;a href=&#34;http://www.flylady.net/pages/FLYingLessons_Shine.asp&#34;&gt;FlyLady&lt;/a&gt;. &amp;#0160;She recommends car wax in step 8.&lt;/p&gt;
-&lt;p&gt;Needless words were omitted by the editor.&lt;/p&gt;
-</description>
+      <description>It&amp;#39;s important to have tasks that provide unambiguous signals that you are making progress, even though individually those tasks do not seem significant.
+Think of mindless mindfulness that lets you go diligently through a text and correct each of the small flaws that you notice. None of the flaws are burdensome, but there is need to accumulate evidence of care for a level of detail. Deep thought is not needed to do the work, but when it&amp;#39;s missing the lack is noted.</description>
     </item>
     
   </channel>

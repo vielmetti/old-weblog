@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/recipes/coconut/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Coconut on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/recipes/coconut/</link>
+    <description>Recent content in Coconut on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/recipes/coconut/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2009 21:37:43 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/recipes/coconut/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Molly&#39;s October coconut squash soup</title>
@@ -14,35 +17,10 @@
       <pubDate>Sat, 17 Oct 2009 21:37:43 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-10-17-mollys-october-coconut-squash-soup/</guid>
-      <description>&lt;p&gt;Recipe adapted from directions and shopping hints from Molly at
-Farmer&#39;s Market.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Molly&#39;s October squash soup&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Ingredients:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;onion&lt;/li&gt;
-&lt;li&gt;garlic&lt;/li&gt;
-&lt;li&gt;ginger&lt;/li&gt;
-&lt;li&gt;winter squash, peeled and diced (I used butternut and delicata)&lt;/li&gt;
-&lt;li&gt;coconut milk&lt;/li&gt;
-&lt;li&gt;diced tomatoes&lt;/li&gt;
-&lt;li&gt;stock (vegetable or chicken)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;p&gt;Saute onion, garlic, and ginger in olive or coconut oil.&amp;nbsp;
-Add the squash, cook until everything smells nice and the squash is
-a little bit browned.&amp;nbsp;&amp;nbsp; Deglaze the pan with a little
-wine (I used rice wine), then add diced tomatoes, coconut milk, and
-hot stock.&lt;/p&gt;
-
-&lt;p&gt;Bring to a boil then simmer covered for a long time until
-everything is well cooked and soft.&amp;nbsp; Next time I&amp;rsquo;ll blend the
-soup so that it&amp;rsquo;s a puree, but we ate it tonight without doing
-that, and it was still delicious - much, much better than last
-year&amp;rsquo;s bland pumpkin soup attempt.&amp;nbsp; I&amp;rsquo;m sure it was the
-coconut!&lt;/p&gt;
-</description>
+      <description>Recipe adapted from directions and shopping hints from Molly at Farmer&#39;s Market.
+Molly&#39;s October squash soup
+Ingredients:
+ onion garlic ginger winter squash, peeled and diced (I used butternut and delicata) coconut milk diced tomatoes stock (vegetable or chicken)  Saute onion, garlic, and ginger in olive or coconut oil.&amp;nbsp; Add the squash, cook until everything smells nice and the squash is a little bit browned.&amp;nbsp;&amp;nbsp; Deglaze the pan with a little wine (I used rice wine), then add diced tomatoes, coconut milk, and hot stock.</description>
     </item>
     
   </channel>

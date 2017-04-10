@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/map-warper/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Map Warper on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/map-warper/</link>
+    <description>Recent content in Map Warper on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/map-warper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2009 22:34:51 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/map-warper/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Map Warper: stretch an old map to fit the new landscape</title>
@@ -14,16 +17,8 @@
       <pubDate>Wed, 24 Jun 2009 22:34:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-24-map-warper-stretch-an-old-map-to-fit-the-new-landscape/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.vizworld.com/2009/06/testing-map-warper-beta/&#34; target=&#34;_blank&#34;&gt;http://www.vizworld.com/2009/&lt;wbr /&gt;06/testing-map-warper-beta/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Maitri has a great write-up of Map Warper, a tool for taking old maps and stretching them (rectifying them) to match another base map.&amp;#0160; &lt;/p&gt;&lt;p class=&#34;blockquote&#34; style=&#34;margin-left: 40px;&#34;&gt;&lt;a href=&#34;http://thinkwhere.wordpress.com/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/thinkwhere.wordpress.com&amp;#39;);&#34;&gt;Tim Waters&lt;/a&gt; has developed an open source tool called &lt;a href=&#34;http://warper.geothings.net/&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/warper.geothings.net&amp;#39;);&#34;&gt;Map Warper (Beta)&lt;/a&gt; into which you can upload a scanned map, &lt;a href=&#34;http://www.photonics.com/directory/dictionary/lookup.asp?url=lookup&amp;amp;entrynum=5970&amp;amp;letter=g&#34; onclick=&#34;javascript:pageTracker._trackPageview(&amp;#39;/outbound/article/www.photonics.com&amp;#39;);&#34;&gt;georectify&lt;/a&gt;
-it and save it out as an image or a map layer.&amp;#0160; As a former resident of
-New Orleans, where a transparent recovery and historic preservation are
-daily uphill battles, this tool can be invaluable in saving and sharing
-ancient and new maps of the city’s original development and
-re-development since Hurricane Katrina and The Flood.&amp;#0160; The following
-shows how, in under ten minutes, I georectified an 1895 map of the
-French Quarter and Garden District of New Orleans and exported it to
-Google Maps.&lt;/p&gt;&lt;p&gt;Worth a look, especially if the bits of history you have collected include maps that don&amp;#39;t quite line up with the current street maps.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
-</description>
+      <description>http://www.vizworld.com/2009/06/testing-map-warper-beta/
+Maitri has a great write-up of Map Warper, a tool for taking old maps and stretching them (rectifying them) to match another base map.&amp;#0160; Tim Waters has developed an open source tool called Map Warper (Beta) into which you can upload a scanned map, georectify it and save it out as an image or a map layer.&amp;#0160; As a former resident of New Orleans, where a transparent recovery and historic preservation are daily uphill battles, this tool can be invaluable in saving and sharing ancient and new maps of the city’s original development and re-development since Hurricane Katrina and The Flood.</description>
     </item>
     
   </channel>

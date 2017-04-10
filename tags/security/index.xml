@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/security/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Security on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/security/</link>
+    <description>Recent content in Security on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2016 10:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Static vulnerability analysis tools for Docker containers</title>
@@ -14,89 +17,8 @@
       <pubDate>Fri, 28 Oct 2016 10:30:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-10-28-static-vulnerability-analysis/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;re developing in Docker, and you have a container with a lot of layers
-when you&amp;rsquo;re done. How do you make sure that you don&amp;rsquo;t have security vulnerabilities
-hiding somewhere inside there, especially if you are running a container that
-depends on something that depends on something that depends on something else?&lt;/p&gt;
-
-&lt;p&gt;The first step is to understand your own application, so that you can have some
-sense for how the dependencies that you have control over are impacted. This
-is actually a more difficult problem than you&amp;rsquo;d expect, since a lot of
-packages are in turn dependent on other packages and so on and so on.
-I&amp;rsquo;ve used &lt;a href=&#34;https://gemnasium.com/&#34;&gt;Gemnasium&lt;/a&gt; to help with this. It tracks
-Ruby, Node.js, Python, and PHP dependencies, and generates alerts when
-a package has a known issue that should trigger an update.
-The &lt;a href=&#34;https://nodesecurity.io/&#34;&gt;Node Security Project&lt;/a&gt; has a similar
-service, focused on Node.js, and has an integration directly into
-Github so that you can verify and validate every commit against their
-vulnerability analysis.&lt;/p&gt;
-
-&lt;p&gt;Next, make certain that your Dockerfiles are following best practices
-by checking them with &lt;a href=&#34;https://dockerbench.com/&#34;&gt;Docker Bench for Security&lt;/a&gt;,
-which is a portable shell script that checks for dozens of common
-practices that are good for security.&lt;/p&gt;
-
-&lt;p&gt;One of the difficult practices that&amp;rsquo;s common to Dockerfiles is the
-tendency for people to work their way around package managers in
-the install process, to avoid the sometimes hefty overhead of maintaining
-a package index. When you install a package with&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl | tar &amp;amp;&amp;amp; ./configure &amp;amp;&amp;amp; make install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;instead of RPM or apk or apt or your distribution&amp;rsquo;s favorite package
-manager, it can be very hard to keep track of precisely which version
-that incantation actually put into place.&lt;/p&gt;
-
-&lt;p&gt;Assuming that your application is now somehow clear from any issues under your
-direct control, the next step is to track down and understand operating
-system vulnerabilities. One approach that I&amp;rsquo;ve read about but not used
-yet is the open source &lt;a href=&#34;https://coreos.com/blog/vulnerability-analysis-for-containers/&#34;&gt;Clair&lt;/a&gt;
-from CoreOS. Clair does static analysis of containers, using a set of
-vulnerability databases that are parsed down to a Postgres database.
-There&amp;rsquo;s a certain amount of complexity in the whole thing, and as a
-result it&amp;rsquo;s not trivial to integrate this into a continuous integration
-process (though that task has been done at least once).&lt;/p&gt;
-
-&lt;p&gt;Docker has its own &lt;a href=&#34;https://docs.docker.com/docker-cloud/builds/image-scan/&#34;&gt;Docker Security Scanning&lt;/a&gt;,
-which is available to paid accounts.&lt;/p&gt;
-
-&lt;p&gt;One of the big issues in handling static analysis of Docker containers
-is that a popular and small Docker base image, Alpine Linux, is not
-covered by Clair in part because Alpine does not have a fully machine
-parsable vulnerability analysis database. The Clair project is
-&lt;a href=&#34;https://github.com/coreos/clair/issues/12&#34;&gt;working on the issue&lt;/a&gt;, but
-they are hampered in part by the small size of the Alpine team and
-their focus on code vs. documentation. From
-&lt;a href=&#34;http://lists.alpinelinux.org/alpine-devel/5231.html&#34;&gt;a post to alpine-devel in 2016&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;we try do more the actual work, than the paperwork ;-)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Doing continuous integration on a complex project with multiple open
-source dependencies can pose tricky issues, especially when you&amp;rsquo;re
-dealing with code that is at or near end of life. If you discover
-that the vulnerability is in a component that has been removed from
-active development, yet you depend on it, you may be forced to either
-live with a known bug or undertake expensive porting efforts to
-get back to a good state. For example, Node-RED used the &lt;code&gt;ws&lt;/code&gt;
-package from npm, at a version known to have a denial of service
-attack. &lt;a href=&#34;https://github.com/node-red/node-red/issues/931&#34;&gt;This issue persists&lt;/a&gt;
-as of late October 2016 because of the project&amp;rsquo;s desire to continue
-to support Raspberry Pi hardware with the default operating system load.
-The Pi&amp;rsquo;s base Raspbian system uses Node.js at 0.10 which is now
-obsolete, and the fixes to &lt;code&gt;ws&lt;/code&gt; don&amp;rsquo;t include 0.10 patches.&lt;/p&gt;
-
-&lt;p&gt;What exactly are you running, how do you know that it&amp;rsquo;s free of
-known issues, and how can you mitigate or fix the problems you
-find? It&amp;rsquo;s hard to do dynamic analysis at scale, because of
-the likelihood that bugs exist that can escape your testing
-environment. Static analysis looks like a reasonable alternative
-(assuming that the components themselves are well tested), but
-the increasingly layered nature of modern software development
-means that this is a hard, hard task.&lt;/p&gt;
-</description>
+      <description>You&amp;rsquo;re developing in Docker, and you have a container with a lot of layers when you&amp;rsquo;re done. How do you make sure that you don&amp;rsquo;t have security vulnerabilities hiding somewhere inside there, especially if you are running a container that depends on something that depends on something that depends on something else?
+The first step is to understand your own application, so that you can have some sense for how the dependencies that you have control over are impacted.</description>
     </item>
     
   </channel>

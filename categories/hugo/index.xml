@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/hugo/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Hugo on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/hugo/</link>
+    <description>Recent content in Hugo on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2015 17:20:08 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Publishing from Hugo to Github Pages</title>
@@ -14,54 +17,10 @@
       <pubDate>Tue, 14 Jul 2015 17:20:08 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-14-publishing-from-hugo-to-github-pages/</guid>
-      <description>&lt;p&gt;One of the challenges in getting things started is figuring
-out where the end product is going to live. Hugo has its own
-web server which is pretty nice, but since it generates static
-pages, the results can really go anywhere.&lt;/p&gt;
-
-&lt;p&gt;This tutorial goes through the process in excruciating detail&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;http://gohugo.io/tutorials/github-pages-blog/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;but somehow fails to make it easy. What I&amp;rsquo;d like is a publishing
-workflow that just like the normal Hugo workflow puts things online
-instantly once they are built.&lt;/p&gt;
-
-&lt;p&gt;This one deploys with CodeShip&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&#34;&gt;http://jice.lavocat.name/blog/2015/hugo-deployment-via-codeship/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And this one deploys with Wercker&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/tutorials/automated-deployments/&#34;&gt;http://gohugo.io/tutorials/automated-deployments/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Yet one more, with Github hooks and S3/Cloudfront; it depends on s3cmd.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/imperialwicket/imperialwicket.com&#34;&gt;https://github.com/imperialwicket/imperialwicket.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, one that focuses on the github side of things:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/chrisjacob/825950&#34;&gt;https://gist.github.com/chrisjacob/825950&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The approach I have runs like so, it assumes that you have
-a working directory &amp;ldquo;~/src/hugo&amp;rdquo; with your blog in it, and
-a target directory &amp;ldquo;~/src/vielmetti.github.io&amp;rdquo; set up for
-github pages.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd ~/src/hugo
-hugo -d ../vielmetti.github.io --theme=vacuum
-# wait to build, then
-cd ../vielmetti.github.io
-git add -A .
-git commit -m &amp;quot;build complete&amp;quot;
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;By having separate build directories like this you can keep the
-continuous build on your draft setup going, and then push a
-working version whenever you&amp;rsquo;re perfectly happy with the result.
-Not like anyone is really perfectly happy with any blog.&lt;/p&gt;
-</description>
+      <description>One of the challenges in getting things started is figuring out where the end product is going to live. Hugo has its own web server which is pretty nice, but since it generates static pages, the results can really go anywhere.
+This tutorial goes through the process in excruciating detail
+http://gohugo.io/tutorials/github-pages-blog/
+but somehow fails to make it easy. What I&amp;rsquo;d like is a publishing workflow that just like the normal Hugo workflow puts things online instantly once they are built.</description>
     </item>
     
     <item>
@@ -70,41 +29,11 @@ Not like anyone is really perfectly happy with any blog.&lt;/p&gt;
       <pubDate>Tue, 14 Jul 2015 13:33:15 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-14-converting-typepad-to-hugo/</guid>
-      <description>&lt;p&gt;The task of the night was getting a few years worth of Typepad posts
-into Hugo.&lt;/p&gt;
-
-&lt;p&gt;My first step was to convert to Jekyll format, which I did using this
-typepad_to_jekyll Ruby gem:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/koozie/typepad_to_jekyll&#34;&gt;https://github.com/koozie/typepad_to_jekyll&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You then need to do a few things to get the Jekyll files exactly right
-for Hugo:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Change the date format&lt;/li&gt;
-&lt;li&gt;Rewrite the Categories&lt;/li&gt;
-&lt;li&gt;Download and relink all of the images&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Changing the format for &amp;ldquo;date&amp;rdquo; was a one-liner in perl with the -i (&amp;ldquo;edit in
-place&amp;rdquo;) flag.  I didn&amp;rsquo;t get to the category rewrite or the image rescue yet.
-The approach I took was to simply hack on the output files, rather than
-change the source code to the typepad_to_jekyll program, but if you were
-serious about it you&amp;rsquo;d do the latter and fork it until it did the right thing.&lt;/p&gt;
-
-&lt;p&gt;Relinking all of the images requires opening a support ticket because Typepad
-does not have an easy image export. Actually image hosting is a real
-challenge and I don&amp;rsquo;t know exactly the right way to do it inside Hugo.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll need to adjust the theme or pick a new theme so that it only shows
-the first n posts on a page and then paginates, and I also need to adjust
-it so that it shows categories. The show everything approach is unreasonable
-when you have 1000s of pages to show off. On the other hand, the most
-reasonable themes that I can find that look nice don&amp;rsquo;t have pagination
-turned on by default. There&amp;rsquo;s some learning curve to roll my own, maybe
-one that has some kind of reasonable sidebar structure.&lt;/p&gt;
-</description>
+      <description>The task of the night was getting a few years worth of Typepad posts into Hugo.
+My first step was to convert to Jekyll format, which I did using this typepad_to_jekyll Ruby gem:
+https://github.com/koozie/typepad_to_jekyll
+You then need to do a few things to get the Jekyll files exactly right for Hugo:
+ Change the date format Rewrite the Categories Download and relink all of the images  Changing the format for &amp;ldquo;date&amp;rdquo; was a one-liner in perl with the -i (&amp;ldquo;edit in place&amp;rdquo;) flag.</description>
     </item>
     
     <item>
@@ -113,20 +42,8 @@ one that has some kind of reasonable sidebar structure.&lt;/p&gt;
       <pubDate>Tue, 14 Jul 2015 03:25:43 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/wow-that-is-fast/</guid>
-      <description>&lt;p&gt;So 634 pages from my Github Gollum based Wiki markup all got imported
-into Hugo and it rendered all of them in 828 ms, or basically under
-a second to pull in everything I&amp;rsquo;ve ever written. Astonishingly fast.&lt;/p&gt;
-
-&lt;p&gt;Alas, those files while they are in Markdown are not really ready for
-direct import, since they have [[double brackets]] everywhere that
-get uglified. The other limiting factor is the date marker that&amp;rsquo;s not
-included with them so they all show up as January 1, 0001 which is
-funny the first few times and then not funny.&lt;/p&gt;
-
-&lt;p&gt;Doesn&amp;rsquo;t Hugo have an import function? It does, for converting front
-matter. The closest for importing other things are the various Jekyll
-converters which aren&amp;rsquo;t really the same.&lt;/p&gt;
-</description>
+      <description>So 634 pages from my Github Gollum based Wiki markup all got imported into Hugo and it rendered all of them in 828 ms, or basically under a second to pull in everything I&amp;rsquo;ve ever written. Astonishingly fast.
+Alas, those files while they are in Markdown are not really ready for direct import, since they have [[double brackets]] everywhere that get uglified. The other limiting factor is the date marker that&amp;rsquo;s not included with them so they all show up as January 1, 0001 which is funny the first few times and then not funny.</description>
     </item>
     
   </channel>

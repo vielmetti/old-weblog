@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/dockercon-2015/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Dockercon 2015 on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/dockercon-2015/</link>
+    <description>Recent content in Dockercon 2015 on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/dockercon-2015/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2015 13:27:13 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/dockercon-2015/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>a few notes from Dockercon 2015, as seen via Twitter</title>
@@ -14,24 +17,10 @@
       <pubDate>Wed, 24 Jun 2015 13:27:13 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-24-a-few-notes-from-dockercon-2015-as-seen-via-twitter/</guid>
-      <description>&lt;p&gt;The annual conference for Docker, &lt;a href=&#34;http://www.dockercon.com/&#34;&gt;Dockercon&lt;/a&gt;, has been going on. A few highlights from the event as seen through Twitter - I was not there to attend it.&lt;/p&gt;
-
-&lt;p&gt;Docker is real on the Raspberry Pi through support for the ARM processor. &lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Awesome live demo of Docker on a Raspberry Pi by &lt;a href=&#34;https://twitter.com/Quintus23M&#34;&gt;@Quintus23M&lt;/a&gt; in the &lt;a href=&#34;https://twitter.com/hashtag/dockercon?src=hash&#34;&gt;#dockercon&lt;/a&gt; closing keynote. &lt;a href=&#34;http://t.co/DJfBtpcYws&#34;&gt;pic.twitter.com/DJfBtpcYws&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bridget Kromhout (@bridgetkromhout) &lt;a href=&#34;https://twitter.com/bridgetkromhout/status/613495958089785344&#34;&gt;June 23, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;More details from the presenter, &lt;a href=&#34;http://blog.hypriot.com/post/dockercon2015/&#34;&gt;Hypriot-Demo and challenge at DockerCon 2015&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Docker&#39;s plumbing is being spun out as &lt;a href=&#34;http://blog.docker.com/2015/06/runc/&#34;&gt;runC&lt;/a&gt;. The new infrastructure supports migration of containers from one server to another, illustrated through a Quake III demo.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;QuakeIII in a container, migrated seamlessly from Singapore to Amsterdam to London using &lt;a href=&#34;https://twitter.com/hashtag/runc?src=hash&#34;&gt;#runc&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/hashtag/dockercon?src=hash&#34;&gt;#dockercon&lt;/a&gt; &lt;a href=&#34;http://t.co/no3c0G1MDY&#34;&gt;pic.twitter.com/no3c0G1MDY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paul V. Novarese (@pvnovarese) &lt;a href=&#34;https://twitter.com/pvnovarese/status/613499654219526144&#34;&gt;June 24, 2015&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;For more highlights, see the &lt;a href=&#34;http://venturebeat.com/2015/06/22/everything-announced-at-dockercon-2015/&#34;&gt;Venturebeat roundup of Dockercon 2015&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The annual conference for Docker, Dockercon, has been going on. A few highlights from the event as seen through Twitter - I was not there to attend it.
+Docker is real on the Raspberry Pi through support for the ARM processor. Awesome live demo of Docker on a Raspberry Pi by @Quintus23M in the #dockercon closing keynote. pic.twitter.com/DJfBtpcYws
+&amp;mdash; Bridget Kromhout (@bridgetkromhout) June 23, 2015 
+More details from the presenter, Hypriot-Demo and challenge at DockerCon 2015.</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/maps/crowdsourcing/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Crowdsourcing on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/maps/crowdsourcing/</link>
+    <description>Recent content in Crowdsourcing on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/maps/crowdsourcing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Dec 2013 10:42:12 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/maps/crowdsourcing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Lansing, Michigan (LBWL) crowdsourced power outage map of 29 December 2013</title>
@@ -14,67 +17,7 @@
       <pubDate>Sun, 29 Dec 2013 10:42:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-29-lansing-michigan-lbwl-crowdsourced-power-outage-map-of-29-december-2013/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; hit the Lansing area hard,
-and the municipal power authority has not handled the resulting
-outages as well as citizens would have them do. &lt;/p&gt;
-
-&lt;p&gt;The Lansing, Michigan area has electrical service from LBWL,
-the &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt;. Even though the surrounding
-area is served by Consumers Energy, LBWL serves an area roughly
-encompassing Lansing and East Lansing. For one thing,
-LBWL does not maintain an outage map online, which is relatively 
-unusual in this day and age.&lt;/p&gt;
-
-&lt;p&gt;The map below is a crowd-sourced tracking of outages and
-restorations in the Lansing area. It&#39;s been put together
-under the lead of @&lt;a href=&#34;http://twitter.com/jsiarto&#34;&gt;jsiarto&lt;/a&gt; (Jeff Siarto) with the help of
-other Lansing area residents and with data pulled in part from
-the &lt;a href=&#34;https://www.facebook.com/LansingBWL&#34;&gt;LBWL Facebook page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01a3fb51d76a970b&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; title=&#34;Lansing-Michigan-LBWL-2013-12-29-outage-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01a3fb51d76a970b-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sources to look for more information -&lt;/p&gt;
-
-&lt;p&gt;I wrote up the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2013/12/ice-storm-of-december-21-22-2013-and-the-sperry-piltz-ice-accumulation-index.html&#34;&gt;ice storm of late December 2013&lt;/a&gt; with some maps of the 
-other damage to the area.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.lbwl.com/&#34;&gt;Lansing Board of Water and Light&lt;/a&gt; is a municipally owned public utility,
-governed by a Board of Commissioners. The board is made up of eight
-Lansing residents, each appointed for a four-year term on the board
-by the Mayor and confirmed by City Council.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://mapsengine.google.com/map/u/0/edit?mid=zQmyH1IIAz6Y.kuBivwl-Ve2I&#34;&gt;Lansing Area Power Outages map&lt;/a&gt; is a Google map, and this image
-is just a snapshot of it.&lt;/p&gt;
-
-&lt;p&gt;News coverage -&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wilx.com/news/headlines/East-Lansing-Resident-Creates-Public-BWL-Outage-Map-237336791.html&#34;&gt;WILX-TV&lt;/a&gt; - East Lansing Resident Creates Public BWL Outage Map&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unlike Consumers Energy and DTE, Lansing Board of Water and Light doesn&#39;t have a real time outage map for customers, but it&#39;s something the company is currently developing, according to company spokesperson Steve Serkaian.&lt;/p&gt;
-  
-  &lt;p&gt;&#34;We&#39;re working on a &#34;smart grid&#34; system that&#39;s similar to what other utilities offer, but it&#39;s something that costs a significant amount of money to implement,&#34; he said. &#34;But we have heard our customers loud and clear and we&#39;re committed to working on communicating with them better.&#34;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.lansingstatejournal.com/article/20131227/NEWS01/312270013/BWL-leader-We-heard-loud-clear-&#34;&gt;Lansing State Journal&lt;/a&gt; - Board of Water and Light: &#39;We have heard loud and clear&#39;; BWL promises to review its handling of the ice storm cleanup&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;(BWL General Manager J. Peter Lark) said BWL is running at “optimum” staffing levels. On Friday, he said, 30 crews were on the ground, a figure that includes 12 line crews and five tree-trimming crews. Crews are made up of two or three people, with most line crews using three.
-  The utility to date has brought in outside help from five other municipally owned utilities, but Lark said Friday he doesn’t plan to bring in more — at least one BWL employee would have to ride with the outside crew, and that would reduce the number of BWL crews in operation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://michiganradio.org/post/most-power-restored-michigan-lbwl-still-has-work-do&#34;&gt;Michigan Radio&lt;/a&gt; - Most power restored in Michigan, LBWL still has work to do&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most of those still without power are customers of Lansing’s public utility. Angry customers showed up at a company press conference yesterday to complain about the slow repairs. The number of Lansing Board of Water and Light customers without power actually increased yesterday as melting ice from tree limbs damaged more power lines.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://lansingonlinenews.com/news/5-lingering-questions-about-the-lansing-ice-storm-yours/&#34;&gt;Lansing Online News&lt;/a&gt; - 5 lingering questions about the Lansing ice storm – yours?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The press conference confirmed communication failures on the part of the officials involved. But when will that get better? Why not now? When will the outages be over? When will the community return to normal? When will the powers-that-be get their act together so people can make wise choices? Temperatures are expected to plunge into single digits tonight. What should people whose power is out do now? Move their families, especially the elderly and infirm, to other locations? Can people with pets still take them to the Ingham County Animal Shelter? When will those who should have the answers start communicating effectively?&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>The ice storm of late December 2013 hit the Lansing area hard, and the municipal power authority has not handled the resulting outages as well as citizens would have them do. The Lansing, Michigan area has electrical service from LBWL, the Lansing Board of Water and Light. Even though the surrounding area is served by Consumers Energy, LBWL serves an area roughly encompassing Lansing and East Lansing. For one thing, LBWL does not maintain an outage map online, which is relatively unusual in this day and age.</description>
     </item>
     
   </channel>

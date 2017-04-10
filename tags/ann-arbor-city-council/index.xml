@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/ann-arbor-city-council/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Ann Arbor City Council on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/ann-arbor-city-council/</link>
+    <description>Recent content in Ann Arbor City Council on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/ann-arbor-city-council/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2016 17:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/ann-arbor-city-council/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Daily coffee and wifi, September 6, 2016</title>
@@ -14,42 +17,8 @@
       <pubDate>Tue, 06 Sep 2016 17:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-09-06-daily-coffee/</guid>
-      <description>&lt;p&gt;Coffee and wifi (double espresso over ice) at the &amp;ldquo;dog park Biggby&amp;rdquo;,
-Platt Road at Ellsworth. It&amp;rsquo;s not an inconvenient location,
-and the very large south-facing windows are good to know about
-as the days get shorter.&lt;/p&gt;
-
-&lt;p&gt;More than 90 degrees outside, and I&amp;rsquo;m preparing to make dinner.
-The recipe is for &amp;ldquo;broccoli Calabrian style&amp;rdquo; from Martha Rose Shulman.
-I couldn&amp;rsquo;t find that exact recipe online, but this
-&lt;a href=&#34;http://www.italycookingschools.com/bucatini-con-broccoli-alla-calabresebucatini-broccoli-calabrian-style/&#34;&gt;Bucatini Con Broccoli Alla Calabrese&lt;/a&gt; is close.
-Substitute sunflower seeds for pine nuts.
-The key to it is that you don&amp;rsquo;t want to cook anything too long,
-because it&amp;rsquo;s hot out.&lt;/p&gt;
-
-&lt;p&gt;First day of the 2016 school year for the boys. S. is at Community High School,
-and J. had his first day at Tappan Middle School. I don&amp;rsquo;t write
-about them much, but it sounded like today was a good day all in all.&lt;/p&gt;
-
-&lt;p&gt;Two new front tires for the car - one of them was quite flat, and they
-were both quite worn.&lt;/p&gt;
-
-&lt;p&gt;A new venue for lunch, the &lt;a href=&#34;https://www.sessionrooma2.com/&#34;&gt;Session Room&lt;/a&gt; on Jackson Road in Scio Township.
-They have a very long list of beers which you can conveniently order
-in very small glasses (4 oz) to try out and enjoy.&lt;/p&gt;
-
-&lt;p&gt;The current challenge is to get an instance of Salt running in a
-Docker container, integrated with OpenVPN a la this
-&lt;a href=&#34;https://garthwaite.org/virtually-secure-with-openvpn-pillars-and-salt.html&#34;&gt;OpenVPN provisioning with Salt&lt;/a&gt; recipe. We currently think that the
-best way to manage this is to connect it to the Docker
-container via an &lt;a href=&#34;https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2/&#34;&gt;Elastic File System&lt;/a&gt; mount.
-A sub-challenge is finding the right way to run Salt in a container;
-tooling for this is awkward because you really to run some commands
-within the context of the container. Soon&amp;rsquo;s
-&lt;a href=&#34;https://github.com/thisissoon/Docker-Salt-Master&#34;&gt;Docker Salt Master&lt;/a&gt; looks like a start.&lt;/p&gt;
-
-&lt;p&gt;Tonight, Ann Arbor City Council. Follow along on the #&lt;a href=&#34;https://twitter.com/hashtag/a2council&#34;&gt;a2council&lt;/a&gt; hashtag on Twitter.&lt;/p&gt;
-</description>
+      <description>Coffee and wifi (double espresso over ice) at the &amp;ldquo;dog park Biggby&amp;rdquo;, Platt Road at Ellsworth. It&amp;rsquo;s not an inconvenient location, and the very large south-facing windows are good to know about as the days get shorter.
+More than 90 degrees outside, and I&amp;rsquo;m preparing to make dinner. The recipe is for &amp;ldquo;broccoli Calabrian style&amp;rdquo; from Martha Rose Shulman. I couldn&amp;rsquo;t find that exact recipe online, but this Bucatini Con Broccoli Alla Calabrese is close.</description>
     </item>
     
   </channel>

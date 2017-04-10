@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/steve-cisler/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Steve Cisler on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/steve-cisler/</link>
+    <description>Recent content in Steve Cisler on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/steve-cisler/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Aug 2013 23:52:52 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/steve-cisler/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Taking inventory of old Github projects</title>
@@ -14,52 +17,8 @@
       <pubDate>Mon, 12 Aug 2013 23:52:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-12-taking-inventory-of-old-github-projects/</guid>
-      <description>&lt;p&gt;Setting up &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; has given me a chance to look through some of
-&lt;a href=&#34;https://github.com/vielmetti&#34;&gt;my old Github repositories&lt;/a&gt; and re-assess what&#39;s there and how to 
-improve on them. &lt;/p&gt;
-
-&lt;p&gt;This is more like a wish list than an actual set of directions, and it
-reflects how much the world has moved since I first signed up for a
-github account.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/aadl-amazon-linky&#34;&gt;aadl-amazon-linky&lt;/a&gt; and &lt;a href=&#34;http://vielmetti.typepad.com/superpatron&#34;&gt;superpatron&lt;/a&gt;. Both of these are interfaces
-to the &lt;a href=&#34;http://aadl.org&#34;&gt;Ann Arbor District Library&lt;/a&gt; catalog, which has a very accessible
-programming interface with things like RSS feeds for catalog searches.
-I&#39;d like to go back and revisit two parts of this. One was a Greasemonkey
-plugin to put library results in Amazon; that should be a Chrome plugin.
-The second was a &#34;&lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/79567788/&#34;&gt;wall of books&lt;/a&gt;&#34; report displaying an RSS query as a
-page full of book cover images. Of the two, the second looks easiest to
-recreate; I just checked in some new code, &lt;a href=&#34;https://github.com/vielmetti/superpatron/blob/master/tools/wall-by-keyword.sh&#34;&gt;wall by keyword&lt;/a&gt;, which does
-the trick.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/vielmetti-shelltools&#34;&gt;vielmetti-shelltools&lt;/a&gt;. This is a small collection of shell scripts
-that I carry around with me and put on whatever system I happen to be
-working on. It would be worthwhile to go back through and compare
-what I used then with what I use now and refresh the collection.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/postcard&#34;&gt;postcard&lt;/a&gt;. This was a hopeful project to use various web-to-postcard
-APIs to generate custom postcards on the fly from the command line. Alas,
-several of those APIs have disappeared. The real action in this market is
-sending a real postcard from your iPhone or Android phone, with products
-like &lt;a href=&#34;http://postagramapp.com/&#34;&gt;Postagram&lt;/a&gt; leading the way. The other neat feature is to go to a drugstore
-and make an instant print, then stick a stamp on the back and mail it.
-(&lt;a href=&#34;http://communitynetworking2008.wordpress.com/&#34;&gt;Steve Cisler&lt;/a&gt; taught me that trick.)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/twitter-mutual-friends&#34;&gt;twitter-mutual-friends&lt;/a&gt;. Once upon a time, the Twitter API was so
-simple that you could write a useful application in four lines of shell
-script. Now the API has improved itself, and it&#39;s gotten a lot more 
-complicated. Look at simple apps like &lt;a href=&#34;https://github.com/gianu/latest_tweets&#34;&gt;latest_tweets&lt;/a&gt; by gianu to
-get an idea of what you&#39;re up against now.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vielmetti/mobile&#34;&gt;mobile&lt;/a&gt;. Again, once upon a time, I had a Blackberry phone which
-had the world&#39;s worst usable web browser. Fortunately there were enough
-web sites that had a minimalist presentation that I was able to put
-together a directory of workable sites, which I used for quite a while.
-Now I have an Android phone that runs Chrome as well as apps and I don&#39;t
-need the list of sites quite so much; still, it&#39;s worthwhile to have
-a place to collect them when I find them.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So when it&#39;s time to write some code here are some ideas for where
-to start again!&lt;/p&gt;
-</description>
+      <description>Setting up Octopress has given me a chance to look through some of my old Github repositories and re-assess what&#39;s there and how to improve on them. This is more like a wish list than an actual set of directions, and it reflects how much the world has moved since I first signed up for a github account.
+ aadl-amazon-linky and superpatron. Both of these are interfaces to the Ann Arbor District Library catalog, which has a very accessible programming interface with things like RSS feeds for catalog searches.</description>
     </item>
     
     <item>
@@ -68,11 +27,8 @@ to start again!&lt;/p&gt;
       <pubDate>Wed, 20 Oct 2010 20:25:05 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-10-20-my-year-without-the-internet-as-suggested-by-my-son/</guid>
-      <description>&lt;p&gt;&amp;quot;When you retire,&amp;quot; he says, &amp;quot;you should go offline for a whole year.&amp;quot;&lt;/p&gt;
-&lt;p&gt;The idea is to sell all of your computers, turn in your cell phone, and generally shun any computer technology. Perhaps you&amp;#39;ll still write, but it will be longhand or on a typewriter. If there&amp;#39;s a phone call to be made, you&amp;#39;ll have to be there to receive it, since there is no answering machine. No Twitter, no Facebook, no blogs. Whatever money you save in computing and telecom costs, you spend on pens and paper and postcards and stamps.&lt;/p&gt;
-&lt;p&gt;I&amp;#39;m not certain what this word &amp;quot;retire&amp;quot; means, but it&amp;#39;s an appealing idea. For me, it would mean rewinding the technology clock back to the early 1980s.&lt;/p&gt;
-&lt;p&gt;A piece of the inspiration for this is the late Steve Cisler&amp;#39;s &lt;a href=&#34;http://tingilinde.typepad.com/unconnected/&#34; target=&#34;_self&#34;&gt;unconnected&lt;/a&gt; project.&lt;/p&gt;
-</description>
+      <description>&amp;quot;When you retire,&amp;quot; he says, &amp;quot;you should go offline for a whole year.&amp;quot;
+The idea is to sell all of your computers, turn in your cell phone, and generally shun any computer technology. Perhaps you&amp;#39;ll still write, but it will be longhand or on a typewriter. If there&amp;#39;s a phone call to be made, you&amp;#39;ll have to be there to receive it, since there is no answering machine. No Twitter, no Facebook, no blogs.</description>
     </item>
     
   </channel>

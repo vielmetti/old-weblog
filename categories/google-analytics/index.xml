@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/google-analytics/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Google Analytics on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/google-analytics/</link>
+    <description>Recent content in Google Analytics on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Nov 2013 20:06:49 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ann Arbor Web Analytics Wednesday planning</title>
@@ -14,8 +17,7 @@
       <pubDate>Fri, 15 Nov 2013 20:06:49 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-11-15-ann-arbor-web-analytics-wednesday-planning/</guid>
-      <description>&lt;p&gt;I&#39;m working with a few other folks on setting up a relatively regular local group that has discussions of tools like Google Analytics and other systems used to instrument web sites and web applications. We&#39;re looking at a date in January 2014 to start, and a Wednesday as the day of the week we think might work best. Let me know if you&#39;re interested, or join the &lt;a href=&#34;http://www.meetup.com/Ann-Arbor-Web-Analytics-Wednesday/events/151859352/&#34;&gt;Ann Arbor Web Analytics Wednesday meetup&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>I&#39;m working with a few other folks on setting up a relatively regular local group that has discussions of tools like Google Analytics and other systems used to instrument web sites and web applications. We&#39;re looking at a date in January 2014 to start, and a Wednesday as the day of the week we think might work best. Let me know if you&#39;re interested, or join the Ann Arbor Web Analytics Wednesday meetup.</description>
     </item>
     
     <item>
@@ -24,11 +26,8 @@
       <pubDate>Wed, 13 Mar 2013 23:42:12 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-03-13-ill-miss-google-reader-but-its-no-longer-how-people-read-this-site/</guid>
-      <description>&lt;p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c37a66185970b-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-03-13 at 11.29.45 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef017c37a66185970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef017c37a66185970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-03-13 at 11.29.45 PM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;If my Google Analytics reporting is to be behaved, the peak of Google Reader usage for me was in mid 2008, and by early 2010 it had been reduced to background noise. I can understand based on this graph (and perhaps millions of other graphs like it) that it might be time to call it quits.&lt;/p&gt;
-&lt;p&gt;It looks like from other charts (that I won&amp;#39;t show here) that Twitter picked up the slack, as did Facebook.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html&#34; target=&#34;_self&#34;&gt;Google&amp;#39;s &amp;quot;sunset&amp;quot; announcement for Google Reader&lt;/a&gt;&amp;#0160;says that you can get your data out; I&amp;#39;m sure that at least one service will appear to let you load it in and carry on reading.&lt;/p&gt;
-</description>
+      <description>If my Google Analytics reporting is to be behaved, the peak of Google Reader usage for me was in mid 2008, and by early 2010 it had been reduced to background noise. I can understand based on this graph (and perhaps millions of other graphs like it) that it might be time to call it quits.
+It looks like from other charts (that I won&amp;#39;t show here) that Twitter picked up the slack, as did Facebook.</description>
     </item>
     
     <item>
@@ -37,18 +36,9 @@
       <pubDate>Wed, 19 Oct 2011 22:02:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-10-19-google-analytics-real-time-vs-mybloglog/</guid>
-      <description>&lt;blockquote&gt;
-  &lt;p&gt;We are writing to inform you that you have now been added to the beta for Google Analytics Real-Time! As we announced the Real-Time reports show you what is happening on your website as it happens.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Once upon a time, there was &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/02/mybloglog-is-officially-dead.html&#34;&gt;mybloglog&lt;/a&gt;. It was great, and then Yahoo bought it, gave it the big purple Yahoo squeeze of love, and then killed it.&lt;/p&gt;
-
-&lt;p&gt;Google now has a &lt;a href=&#34;http://analytics.blogspot.com/2011/09/whats-happening-on-your-site-right-now.html&#34;&gt;real time version of Google Analytics&lt;/a&gt;, which does some of the things that mybloglog once it. It tells you in real time what pages are being looked at, where people are coming from to look at them, and which keywords and referring sites are driving traffic. It scratches some of the same itch that mybloglog used to scratch, when there&#39;s some kind of burst of news and you want to know what&#39;s going on in real time and not on tomorrow&#39;s reporting.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/02/mybloglog-is-officially-dead.html&#34;&gt;mybloglog&lt;/a&gt; had something that GA doesn&#39;t have and really hasn&#39;t had: tracking of clicks not to the site you&#39;re looking at, but to something out there in the world that you linked to. That was great to use - and something that made it easy to see that you were successful as a blogger because you were driving traffic elsewhere. That&#39;s gone; maybe someone will build it, but maybe they won&#39;t.&lt;/p&gt;
-
-&lt;p&gt;As for the big purple squeeze of love, see also delicious, &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/09/delicious-mangled-by-carpetbaggers.html&#34;&gt;mangled by carpetbaggers&lt;/a&gt; after being abandoned by Yahoo. I have to wonder whether there&#39;s a web 3.0, the &lt;a href=&#34;http://www.whump.com/moreLikeThis/2007/02/23/bsg-corners-a-theory/&#34;&gt;clipped corner remake&lt;/a&gt; of web 2.0 properties that were acquired and then sunsetted.&lt;/p&gt;
-</description>
+      <description>We are writing to inform you that you have now been added to the beta for Google Analytics Real-Time! As we announced the Real-Time reports show you what is happening on your website as it happens.
+ Once upon a time, there was mybloglog. It was great, and then Yahoo bought it, gave it the big purple Yahoo squeeze of love, and then killed it.
+Google now has a real time version of Google Analytics, which does some of the things that mybloglog once it.</description>
     </item>
     
     <item>
@@ -57,12 +47,8 @@
       <pubDate>Thu, 24 Feb 2011 13:24:11 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-02-24-mybloglog-is-officially-dead/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;
-&lt;p&gt;You have been identified as a customer of Yahoo! MyBlogLog. We will officially discontinue Yahoo! MyBlogLog effective May 24, 2011. Your agreement with Yahoo!, to the extent that it applies to the Yahoo! MyBlogLog, will terminate on May 24, 2011.&amp;#0160;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It really died a few years ago, but this at least makes it official. I really liked the service when it was under active development, especially because it tracked click-through on links quite effectively; I am sure there is some way to replicate that using Google Analytics, but I didn&amp;#39;t get far enough into the new event tracking parts of it to make it work.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/edward-vielmetti/1225222620/&#34; title=&#34;MyBlogLog report on 4x6 card, Cornell Notes style by Edward Vielmetti, on Flickr&#34;&gt;&lt;img alt=&#34;MyBlogLog report on 4x6 card, Cornell Notes style&#34; height=&#34;390&#34; src=&#34;http://farm2.static.flickr.com/1429/1225222620_a4efdc22f0.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>You have been identified as a customer of Yahoo! MyBlogLog. We will officially discontinue Yahoo! MyBlogLog effective May 24, 2011. Your agreement with Yahoo!, to the extent that it applies to the Yahoo! MyBlogLog, will terminate on May 24, 2011.&amp;#0160;
+ It really died a few years ago, but this at least makes it official. I really liked the service when it was under active development, especially because it tracked click-through on links quite effectively; I am sure there is some way to replicate that using Google Analytics, but I didn&amp;#39;t get far enough into the new event tracking parts of it to make it work.</description>
     </item>
     
     <item>
@@ -71,8 +57,8 @@
       <pubDate>Thu, 24 Jun 2010 21:39:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-06-24-typepad-google-analytics-setup-snafu/</guid>
-      <description>&lt;p&gt;Noted:&lt;/p&gt;&lt;p&gt;I lost a few days of Google Analytics data because the setting I made here had an extra space at the end of the GA tracking code.&lt;/p&gt;
-</description>
+      <description>Noted:
+I lost a few days of Google Analytics data because the setting I made here had an extra space at the end of the GA tracking code.</description>
     </item>
     
     <item>
@@ -81,27 +67,8 @@
       <pubDate>Wed, 26 May 2010 22:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-05-26-how-do-you-measure-and-value-attention/</guid>
-      <description>&lt;p&gt;We measure things that are easy to measure about media, like&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;time on page, time on site
-&lt;/li&gt;
-&lt;li&gt;click through rate
-&lt;/li&gt;
-&lt;li&gt;conversion rate to some desired action
-&lt;/li&gt;
-&lt;li&gt;frequency of interaction
-&lt;/li&gt;
-&lt;li&gt;responsiveness of interaction
-&lt;/li&gt;
-&lt;li&gt;hot spots that are getting lots of attention
-&lt;/li&gt;
-&lt;li&gt;&amp;quot;lag&amp;quot;, whatever that is, but everyone knows what it is
-&lt;/li&gt;
-&lt;/ul&gt;
-
-In general, media that have small amounts of lag are good for gaming, because you can play many small bets and iteratively define a better result. As the amount of lag increases, the attention games change, and you start to get out of the realm of reality-based feedback and into the realm of ROI fictions, and systems that have enormous expensive command and
-control infrastructures.&amp;#0160;
-&lt;p&gt;It’s one thing to hack people’s attention about tomorrow if you start working on it today, and something very different to plan a campaign that results in their attention (or the fulfillment of their desire) 6 or 12 or 18 or 120 months hence.&amp;#0160;&lt;/p&gt;&lt;p&gt;Originally written for &lt;a href=&#34;http://twitter.com/kevindoylejones&#34;&gt;Kevin Doyle Jones&lt;/a&gt;, and published obscurely in 2007; rescued and republished with only minor edits 3 years hence.&lt;/p&gt;
-</description>
+      <description>We measure things that are easy to measure about media, like
+ time on page, time on site  click through rate  conversion rate to some desired action  frequency of interaction  responsiveness of interaction  hot spots that are getting lots of attention  &amp;quot;lag&amp;quot;, whatever that is, but everyone knows what it is   In general, media that have small amounts of lag are good for gaming, because you can play many small bets and iteratively define a better result.</description>
     </item>
     
     <item>
@@ -110,8 +77,8 @@ control infrastructures.&amp;#0160;
       <pubDate>Tue, 23 Jun 2009 13:35:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-23-wiki-wednesday-using-google-analytics-to-find-places-to-add-to-your-content/</guid>
-      <description>&lt;p&gt;Of course it isn&amp;#39;t Wednesday yet, but I&amp;#39;ll be a day early.&lt;/p&gt;&lt;p&gt;One of the things I&amp;#39;ve been tracking over at Arborwiki with our analytics install is the fraction of pages that people hit that don&amp;#39;t exist yet.&amp;#0160; These are marked on screen so that if you know what you are looking for you&amp;#39;ll recognize it, but often people don&amp;#39;t, so they click through and get a blank edit screen.&lt;/p&gt;&lt;p&gt;Every so often people do edit this page - but often they don&amp;#39;t.&amp;#0160; &lt;/p&gt;&lt;p&gt;A reasonable goal is to try to minimize the number of times people get frustrated, so one way to track that is to look at the fraction of pages over time where people hit a blank page and try to minimize that.&amp;#0160; Looking at it over the last 3 months it appears that 3.2% of page views go to a page that doesn&amp;#39;t exist yet - if you do a &amp;quot;Top Content&amp;quot; report, and then filter for the string &amp;quot;redlink&amp;quot;, you&amp;#39;ll get what you want.&lt;a href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011570540df2970c-pi&#34; style=&#34;display: inline;&#34;&gt;&lt;img alt=&#34;Picture 5&#34; border=&#34;0&#34; class=&#34;at-xid-6a00d8341c4f1a53ef011570540df2970c image-full &#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef011570540df2970c-800wi&#34; title=&#34;Picture 5&#34; /&gt;&lt;/a&gt; &lt;/p&gt;&lt;p&gt;One way to do continuous improvement, then, is to run a simple report for the pages on any given day, and look through them for ones where people clicked and didn&amp;#39;t find anything.&amp;#0160; Go to those wanted pages and search until you can put in something at least minimal for them.&lt;/p&gt;&lt;p&gt;Today&amp;#39;s crop of such pages includes the &lt;a href=&#34;http://arborwiki.org/city/Ann%20Arbor%20Wine%20Club&#34;&gt;Ann Arbor Wine Club&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Edward%20Burger&#34;&gt;Edward Burger&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Michael%20R.%20Reid&#34;&gt;Michael R. Reid&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Miles%20Street&#34;&gt;Miles Street&lt;/a&gt;, &lt;a href=&#34;http://arborwiki.org/city/Native%20Plant%20Nursery&#34;&gt;Native Plant Nursery&lt;/a&gt;, and &lt;a href=&#34;http://arborwiki.org/city/Oakland%20Cruisers&#34;&gt;Oakland Cruisers&lt;/a&gt;.&amp;#0160; With any small amount of diligence you can whittle away at the edges and reduce the failure rate over time.&lt;/p&gt;
-</description>
+      <description>Of course it isn&amp;#39;t Wednesday yet, but I&amp;#39;ll be a day early.
+One of the things I&amp;#39;ve been tracking over at Arborwiki with our analytics install is the fraction of pages that people hit that don&amp;#39;t exist yet.&amp;#0160; These are marked on screen so that if you know what you are looking for you&amp;#39;ll recognize it, but often people don&amp;#39;t, so they click through and get a blank edit screen.</description>
     </item>
     
   </channel>

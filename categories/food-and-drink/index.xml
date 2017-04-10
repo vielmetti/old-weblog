@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/categories/food-and-drink/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Food And Drink on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/categories/food-and-drink/</link>
+    <description>Recent content in Food And Drink on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/categories/food-and-drink/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jun 2015 00:25:49 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/categories/food-and-drink/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Gin and rhubarb</title>
@@ -14,18 +17,11 @@
       <pubDate>Tue, 02 Jun 2015 00:25:49 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-06-02-gin-and-rhubarb/</guid>
-      <description>&lt;p&gt;As noted elsewhere, gin and rhubarb are said to go well together.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://boozedandinfused.com/2012/05/30/a-tale-of-two-rhubarbs-and-some-gin/&#34;&gt;Boozed and Infused&lt;/a&gt; has two recipes, one for Rhubarb Gin and one for Rhubarb Orange Gin.&lt;/p&gt;
-
-&lt;p&gt;A &lt;a href=&#34;http://theyearinfood.com/2011/05/the-tippler-rhubarb-fennel-fizz.html&#34;&gt;Rhubarb Fennel Fizz&lt;/a&gt; is from The Year in Food.&lt;/p&gt;
-
-&lt;p&gt;I am promised that if I provide the rhubarb, that gin will be provided to me.&lt;/p&gt;
-
-&lt;p&gt;Can&#39;t talk about rhubarb without Rhabarberbarbara.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gG62zay3kck?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>As noted elsewhere, gin and rhubarb are said to go well together.
+Boozed and Infused has two recipes, one for Rhubarb Gin and one for Rhubarb Orange Gin.
+A Rhubarb Fennel Fizz is from The Year in Food.
+I am promised that if I provide the rhubarb, that gin will be provided to me.
+Can&#39;t talk about rhubarb without Rhabarberbarbara.</description>
     </item>
     
     <item>
@@ -34,14 +30,7 @@
       <pubDate>Fri, 15 Nov 2013 14:39:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-11-15-tasty-green-cafe-at-ann-arbor-city-hall/</guid>
-      <description>&lt;p&gt;If you&#39;re looking to bump into city employees and talk shop, there&#39;s no better place to stop in than at the &lt;a href=&#34;http://arborwiki.org/Tasty_Green_Cafe&#34;&gt;Tasty Green Cafe&lt;/a&gt; inside Ann Arbor City Hall. The menu includes the usual coffee drinks plus lunchtime choices like meat and spinach pies. There are three tables inside and a few more outside on the patio, and you get a nice view of the city hall fountain (which isn&#39;t running at the moment).&lt;/p&gt;
-
-&lt;p&gt;Lunch (a meat pie and a coke) was $5.01. &lt;/p&gt;
-
-&lt;p&gt;I talked briefly with City Attorney &lt;a href=&#34;http://arborwiki.org/Stephen_Postema&#34;&gt;Stephen Postema&lt;/a&gt; and his thoughts on proposed FOIA legislation coming from Lansing (he&#39;s skeptical). I told him about my new &lt;a href=&#34;http://www.damnarbor.com/2013/11/welcome-to-foia-friday.html&#34;&gt;FOIA Friday column on Damn Arbor&lt;/a&gt;, and he recognized Damn Arbor because it once wrote about his &lt;a href=&#34;http://www.damnarbor.com/2011/04/what-if-anything-is-hipster.html&#34;&gt;status as a hipster&lt;/a&gt; (he&#39;s not).&lt;/p&gt;
-
-&lt;p&gt;Environmental Coordinator &lt;a href=&#34;http://arborwiki.org/Matt_Naud&#34;&gt;Matt Naud&lt;/a&gt; and I talked about the upcoming &lt;a href=&#34;http://meetup.com/a2civictech&#34;&gt;a2civictech meetup&lt;/a&gt;, and he referred me to the &lt;a href=&#34;https://www.wegowise.com/&#34;&gt;WeGoWise&lt;/a&gt; program in Boston that&#39;s reducing people&#39;s energy and water bills - similar, in spirit at least, to the &lt;a href=&#34;https://dteenergy.mediaroom.com/index.php?s=26817&amp;amp;item=72330&#34;&gt;OPower insert&lt;/a&gt; in my recent DTE bill that told us we used a lot of electricity compared to our neighbors.&lt;/p&gt;
-</description>
+      <description>If you&#39;re looking to bump into city employees and talk shop, there&#39;s no better place to stop in than at the Tasty Green Cafe inside Ann Arbor City Hall. The menu includes the usual coffee drinks plus lunchtime choices like meat and spinach pies. There are three tables inside and a few more outside on the patio, and you get a nice view of the city hall fountain (which isn&#39;t running at the moment).</description>
     </item>
     
     <item>
@@ -50,58 +39,9 @@
       <pubDate>Tue, 08 Oct 2013 21:43:05 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-10-08-salmonella-heidelberg-outbreak-from-raw-chicken-from-foster-farms-and-the-cdc-and-the-usda-are-at-re/</guid>
-      <description>&lt;p&gt;&lt;a class=&#34;asset-img-link&#34;  href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affdf04b5970d-pi&#34;&gt;&lt;img class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef019affdf04b5970d&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; alt=&#34;100813-map&#34; title=&#34;100813-map&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef019affdf04b5970d-600wi&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let&#39;s start with the lead of the &lt;a href=&#34;http://www.npr.org/blogs/thesalt/2013/10/08/230486409/amidst-big-salmonella-outbreak-usda-says-it-s-on-the-job?sc=tw&amp;amp;cc=share&#34;&gt;NPR story&lt;/a&gt; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The U.S. Department of Agriculture has issued a health alert warning that an estimated 278 illnesses caused by Salmonella Heidelberg are associated with raw chicken produced by Foster Farms at three facilities in California.&lt;/p&gt;
-  
-  &lt;p&gt;The Centers for Disease Control and Prevention says illnesses have been reported in 17 states, with the vast majority — 78 percent — in California. The outbreak is ongoing, so it&#39;s possible that people are still being sickened by the chicken.&lt;/p&gt;
-  
-  &lt;p&gt;The CDC says about 42 percent of the people who&#39;ve gotten sick (among those for whom information is available) have been hospitalized. The strains of Salmonella Heidelberg that have made people sick are resistant to several commonly prescribed antibiotics. And according to the CDC, the resistance may increase the risk of hospitalization or make the illness tougher to treat.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;From the &lt;a href=&#34;http://www.fsis.usda.gov/wps/portal/fsis/newsroom/news-releases-statements-transcripts/news-release-archives-by-year/archive/2013/pha-100713&#34;&gt;USDA FSIS press release&lt;/a&gt; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This public health alert is being issued after an estimated 278 illnesses were recently reported in 18 states, predominantly in California.  The outbreak is continuing. The investigations indicate that consumption of Foster Farms brand chicken and other brand chicken produced at Foster Farms plants are the likely source of this outbreak of Salmonella Heidelberg infections. Illnesses were linked to Foster Farms brand chicken through epidemiologic, laboratory and traceback investigations conducted by local, state, and federal officials. The Centers for Disease Control and Prevention (CDC) is partnering with state health departments to monitor the outbreak while FSIS continues its investigation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;and from the &lt;a href=&#34;http://www.cdc.gov/salmonella/heidelberg-10-13/index.html&#34;&gt;CDC&#39;s MMWR report&lt;/a&gt;, a case count and map -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As of October 7, 2013, a total of 278 individuals infected with the outbreak strains of Salmonella Heidelberg have been reported from 17 states. Most of the ill persons (77%) have been reported from California. The number of ill persons identified in each state is as follows: Alaska (2), Arkansas (1), Arizona (11), California (213), Colorado (4), Connecticut (1), Florida (1), Hawaii (1), Idaho (2), Michigan (2), North Carolina (1), Nevada (8), Oregon (8), Texas (5), Utah (2), Washington (15) and Wisconsin (1).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;From &lt;a href=&#34;http://www.wzzm13.com/news/article/270175/2/Salmonella-outbreak-in-18-states-including-Michigan&#34;&gt;WZZM / USA Today&lt;/a&gt; -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The CDC has been hampered in tracing the outbreak because the government shutdown meant the agency had to shut down PulseNet, a national network of public health laboratories that looks for trends and matches reports to spot food-borne illness outbreaks. It&#39;s one of the agency&#39;s most important tools in detecting such problems.&lt;/p&gt;
-  
-  &lt;p&gt;&#34;We were trying to do this without the automatic system, and it was nearly impossible,&#34; Reynolds said. Seven of the eight staffers who run the system were furloughed. &#34;We were doing it by hand, and it just become untenable.&#34;&lt;/p&gt;
-  
-  &lt;p&gt;CDC director Thomas Frieden determined that not having PulseNet was resulting in &#34;an imminent threat to health and safety,&#34; a finding that allowed the agency to bring back the seven staffers, Reynolds said Tuesday. &#34;It&#39;s back up and running as of today.&#34;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;More about &lt;a href=&#34;http://www.cdc.gov/pulsenet/&#34;&gt;PulseNet&lt;/a&gt; - &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;PulseNet compares the &#39;DNA fingerprints&#39; of bacteria from patients to find clusters of disease that might represent unrecognized outbreaks. Health officials can&#39;t stop an outbreak, and industry and regulatory agencies can&#39;t make changes to our food and water delivery systems, if they don&#39;t know that outbreaks are occurring. That&#39;s where PulseNet comes in.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What does &lt;a href=&#34;http://fosterfarms.com/faq/faqfoodsafety.asp&#34;&gt;Foster Farms have to say&lt;/a&gt;?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Salmonella is naturally occurring in poultry and can be fully eradicated if raw product is properly handled and fully cooked,” said Dr. Robert O’Connor, the company’s food safety chief and head veterinarian. “All poultry producers strive to reduce bacterial presence, including Salmonella. We take food safety very seriously. When the incidence of illnesses linked to Salmonella increased, we wanted to know why and we have worked quickly to identify and implement additional controls. It is also important to reassure the public that the FSIS process has not been affected by the recent government shutdown.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Notably they also emphasize, in red:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;No Recall is in Effect. Products are Safe to Consume if Properly Handled and Fully Cooked.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Let&#39;s start with the lead of the NPR story -
+ The U.S. Department of Agriculture has issued a health alert warning that an estimated 278 illnesses caused by Salmonella Heidelberg are associated with raw chicken produced by Foster Farms at three facilities in California.
+The Centers for Disease Control and Prevention says illnesses have been reported in 17 states, with the vast majority — 78 percent — in California.</description>
     </item>
     
     <item>
@@ -110,9 +50,7 @@
       <pubDate>Wed, 14 Aug 2013 17:03:06 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-08-14-blimpy-burger-is-closing-its-closing-its-closing/</guid>
-      <description>&lt;p&gt;&lt;p&gt;In case you missed it, Blimpy Burger is closing; three stories in the dotcom should convince you of that. Read about how it was - and how it might be in the future - on &lt;a href=&#34;http://arborwiki.org/Blimpy_Burger&#34; target=&#34;_self&#34;&gt;Arborwiki&amp;#39;s Blimpy Burger page&lt;/a&gt;.&lt;/p&gt;
-&lt;a class=&#34;asset-img-link&#34; href=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ecb37e2970b-pi&#34;&gt;&lt;img alt=&#34;Screen shot 2013-08-14 at 4.58.07 PM&#34; class=&#34;asset  asset-image at-xid-6a00d8341c4f1a53ef01901ecb37e2970b&#34; src=&#34;http://vielmetti.typepad.com/.a/6a00d8341c4f1a53ef01901ecb37e2970b-600wi&#34; style=&#34;width: 600px; display: block; margin-left: auto; margin-right: auto;&#34; title=&#34;Screen shot 2013-08-14 at 4.58.07 PM&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
+      <description>In case you missed it, Blimpy Burger is closing; three stories in the dotcom should convince you of that. Read about how it was - and how it might be in the future - on Arborwiki&amp;#39;s Blimpy Burger page.</description>
     </item>
     
     <item>
@@ -121,24 +59,9 @@
       <pubDate>Tue, 28 May 2013 06:32:01 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-28-recipe-asparagus-with-mushrooms/</guid>
-      <description>&lt;p&gt;This simple asparagus with mushrooms dish is served with pasta. J doesn&amp;#39;t like linguini, so we made it with rotini. This comes together in a hurry - you can cook the whole thing up in the time it takes to boil the pasta.&lt;/p&gt;
-&lt;p&gt;Ingredients:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Olive oil&lt;/li&gt;
-&lt;li&gt;Two or three cloves of garlic&lt;/li&gt;
-&lt;li&gt;Asparagus, about a pound&lt;/li&gt;
-&lt;li&gt;Button mushrooms, about a pound&lt;/li&gt;
-&lt;li&gt;Basil, dried or fresh&lt;/li&gt;
-&lt;li&gt;White wine&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Preparation:&lt;/p&gt;
-&lt;p&gt;Boil water for pasta. When it&amp;#39;s hot, cook the pasta. There should be time to drain it after you&amp;#39;ve done the cooking of the asparagus.&lt;/p&gt;
-&lt;p&gt;Wash the asparagus, snap the tough ends, and slice on the bias into 1.5&amp;quot; pieces. Clean the mushrooms and cut each one in half.&lt;/p&gt;
-&lt;p&gt;Heat oil in a large frying pan on high. Fry the garlic until it&amp;#39;s light brown and smells great.&lt;/p&gt;
-&lt;p&gt;Add the asparagus to the frying pan and cook, stirring frequently, until the asparagus is bright green. Add the mushrooms and keep stirring. When the mushrooms are hot, add the white wine, stir, and cover.&lt;/p&gt;
-&lt;p&gt;The recipe called for basil, but I didn&amp;#39;t put it in because I was hurrying to get everything together.&lt;/p&gt;
-&lt;p&gt;The wine will deglaze the pan and make a nice sauce. Serve with pasta and white wine.&lt;/p&gt;
-</description>
+      <description>This simple asparagus with mushrooms dish is served with pasta. J doesn&amp;#39;t like linguini, so we made it with rotini. This comes together in a hurry - you can cook the whole thing up in the time it takes to boil the pasta.
+Ingredients:
+ Olive oil Two or three cloves of garlic Asparagus, about a pound Button mushrooms, about a pound Basil, dried or fresh White wine  Preparation:</description>
     </item>
     
     <item>
@@ -147,18 +70,13 @@
       <pubDate>Wed, 22 May 2013 17:38:02 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-05-22-sweetwaters-ginger-lemon-tea-recipe-or-at-least-something-close/</guid>
-      <description>&lt;p&gt;Here&amp;#39;s a few sources for recipes that are similar to what you get at Sweetwaters when you order a Ginger-Lemon Tea (one of my favorites).&lt;/p&gt;
-&lt;p&gt;From Coppertop Kitchen (a blog by someone who was a Sweetwaters barista): &lt;a href=&#34;http://coppertopkitchen.blogspot.com/2012/01/ginger-lemon-tea.html&#34; target=&#34;_self&#34;&gt;Ginger Lemon Tea&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;2 cups fresh lemon juice&lt;br /&gt;1 3- by 1-inch piece of fresh ginger, peeled and sliced thinly&lt;br /&gt;10 cups water&lt;br /&gt;1 cup honey&lt;br /&gt;&lt;br /&gt;Place lemon juice, ginger, and water in a large saucepan over medium heat, and bring to a boil.&amp;#0160; Boil for a couple of minutes, cover and remove from heat, and steep at least 30 minutes.&lt;/blockquote&gt;
-&lt;p&gt;From Food Network, &lt;a href=&#34;http://www.foodnetwork.com/recipes/lemon-ginger-tea-recipe/index.html?oc=linkback&#34; target=&#34;_self&#34;&gt;Lemon Ginger Tea&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;1 quart water&lt;br /&gt;Juice of 1 lemon&lt;br /&gt;1/4 cup freshly grated ginger&lt;br /&gt;1/4 cup honey&lt;br /&gt;Thin slices of lemon and lime for garnish&lt;/p&gt;
-&lt;p&gt;In a saucepan bring water to a boil. Add lemon juice, the squeezed lemon, and ginger. Let steep about 20 minutes. Stir in honey. Line a strainer with a thin wet cloth and strain tea into a pitcher.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;From The Ginger People&amp;#39;s &lt;a href=&#34;http://archive.constantcontact.com/fs087/1101564793691/archive/1102619855670.html&#34; target=&#34;_self&#34;&gt;newsletter&lt;/a&gt;, writing about Sweetwaters:&lt;/p&gt;
-&lt;blockquote&gt;They initially juiced their own ginger for the Ginger Lemon Tea but its increasing popularity eventually caused them to look for a commercially available ginger ingredient. After considering several options, they decided on The Ginger People&amp;#39;s ginger juice because of its high quality and intensely true ginger flavor. Their secret recipe, which now includes our ginger juice, is served either hot or cold, and is one of their top selling drinks.&lt;/blockquote&gt;
-&lt;p&gt;So there you go, the secret ingredient - you&amp;#39;ll have to &lt;a href=&#34;http://gingerpeople.com/ingredients&#34; target=&#34;_self&#34;&gt;buy it in industrial quantities&lt;/a&gt;, or juice your own.&lt;/p&gt;
-</description>
+      <description>Here&amp;#39;s a few sources for recipes that are similar to what you get at Sweetwaters when you order a Ginger-Lemon Tea (one of my favorites).
+From Coppertop Kitchen (a blog by someone who was a Sweetwaters barista): Ginger Lemon Tea
+2 cups fresh lemon juice
+1 3- by 1-inch piece of fresh ginger, peeled and sliced thinly
+10 cups water
+1 cup honey
+Place lemon juice, ginger, and water in a large saucepan over medium heat, and bring to a boil.</description>
     </item>
     
     <item>
@@ -167,10 +85,18 @@
       <pubDate>Thu, 31 May 2012 10:55:51 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-05-31-semolina-pudding/</guid>
-      <description>&lt;p&gt;&lt;span&gt;(originally posted January 26, 2003&lt;/span&gt;&amp;#0160;)&lt;/p&gt;
-&lt;p&gt;SEMOLINA PUDDING&lt;br /&gt;&lt;br /&gt;Ingredients:&lt;br /&gt;1 cup sugar&lt;br /&gt;1 cup milk&lt;br /&gt;4 cups water&lt;br /&gt;grated peel of 1 lemon (pref. organic)&lt;br /&gt;1 cup semolina flour&lt;br /&gt;cinnamon&lt;br /&gt;raspberries or other berries&lt;br /&gt;&lt;br /&gt;Directions:&lt;br /&gt;Mix sugar, milk, water and lemon peel in a pot or big saucepan. Heat until just about to boil, then gradually sprinkle in semolina flour, whisking the whole time to prevent lumps from forming. Allow mixture to thicken considerably. Remove from heat and pour into bowl, mold, or cupcake pan. Refrigerate for at least two hours. Pudding should be somewhat firmer than chocolate pudding, but less firm than jello.&lt;br /&gt;&lt;br /&gt;When ready to serve, unmold pudding or leave in bowl and sprinkle with cinnamon. Top with raspberries or other fruit. Sugared raspberries are particularly nice when a little bit of sauce is formed and can be poured over the pudding.&lt;br /&gt;&lt;br /&gt;The pudding has a texture that is somehow both agreeably grainy and smooth and is very cooling in the summertime. You can vary the milk:water ratio in the recipe, even to the point of omitting one or the other entirely.&lt;br /&gt;&lt;br /&gt;(thanks to puddingmeister Deb for the recipe)&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-</description>
+      <description>(originally posted January 26, 2003&amp;#0160;)
+SEMOLINA PUDDING
+Ingredients:
+1 cup sugar
+1 cup milk
+4 cups water
+grated peel of 1 lemon (pref. organic)
+1 cup semolina flour
+cinnamon
+raspberries or other berries
+Directions:
+Mix sugar, milk, water and lemon peel in a pot or big saucepan. Heat until just about to boil, then gradually sprinkle in semolina flour, whisking the whole time to prevent lumps from forming. Allow mixture to thicken considerably.</description>
     </item>
     
     <item>
@@ -179,20 +105,8 @@
       <pubDate>Wed, 28 Dec 2011 20:15:05 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-12-28-pasta-with-leeks-cashews-and-feta/</guid>
-      <description>&lt;p&gt;Dinner tonight was surprisingly good, especially because I didn&amp;#39;t have a recipe. All measurements approximate.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;one leek, white parts only, cleaned and cut into thin strips&lt;/li&gt;
-&lt;li&gt;olive oil&lt;/li&gt;
-&lt;li&gt;oregano&lt;/li&gt;
-&lt;li&gt;rice wine&amp;#0160;&lt;/li&gt;
-&lt;li&gt;cashews&lt;/li&gt;
-&lt;li&gt;feta, cubed&lt;/li&gt;
-&lt;li&gt;pasta (we used farfalle)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Heat the olive oil. Add the leeks to the pan, with a sprinkling of oregano on top. Cook the leeks until just browned. Deglaze the pan with a little rice wine. Add cashews and feta, return to the heat, and cook until the feta is warm and just starting to melt.&lt;/p&gt;
-&lt;p&gt;Serve over pasta.&lt;/p&gt;
-&lt;p&gt;Yum! Serves 2.&lt;/p&gt;
-</description>
+      <description>Dinner tonight was surprisingly good, especially because I didn&amp;#39;t have a recipe. All measurements approximate.
+ one leek, white parts only, cleaned and cut into thin strips olive oil oregano rice wine&amp;#0160; cashews feta, cubed pasta (we used farfalle)  Heat the olive oil. Add the leeks to the pan, with a sprinkling of oregano on top. Cook the leeks until just browned. Deglaze the pan with a little rice wine.</description>
     </item>
     
     <item>
@@ -201,8 +115,7 @@
       <pubDate>Fri, 23 Dec 2011 19:47:04 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-12-23-the-challenge-of-dinner/</guid>
-      <description>&lt;p&gt;Cooking dinner while I&amp;#39;m hungry just makes me hungrier.&lt;/p&gt;
-</description>
+      <description>Cooking dinner while I&amp;#39;m hungry just makes me hungrier.</description>
     </item>
     
     <item>
@@ -211,20 +124,9 @@
       <pubDate>Wed, 07 Dec 2011 01:57:03 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-12-07-the-daily-sandwich-serious-eats-on-sandwiches/</guid>
-      <description>&lt;p&gt;Serious Eats has a blog, &lt;a href=&#34;http://www.seriouseats.com/a_sandwich_a_day/&#34;&gt;A Sandwich A Day&lt;/a&gt;, with a nicely illustrated and well researched sandwich every single day.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In this great country of ours, one could eat a different sandwich every day of the year—so that&#39;s what we&#39;ll do. Here&#39;s A Sandwich a Day, our daily look at sandwiches around the country. Got a sandwich we should check out?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As a a part of this they note the &lt;a href=&#34;http://www.seriouseats.com/2011/08/the-grandwich-sandwich-competition-in-grand-rapids-michigan.html&#34;&gt;Grandwich competition in Grand Rapids&lt;/a&gt;, where 10 sandwich vendors competed for the best sandwich in town prize. The winner:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&#34;The G-Wrap&#34; from BOB-Bobarinos restaurant in downtown Grand Rapids, which featured crisp seared Big B Farms pulled pork, spiced barbecue sauce, locally-made Andouille sausage, and spicy pickle slaw on spiced naan. &#34;It wraps Grand Rapids up!&#34; said executive chef Jared Miller.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Love me some sammiches, and I&#39;m sure there&#39;s at least one Ann Arbor area sandwich worth mentioning in A Sandwich A Day. (I&#39;ll bet you could eat a different sandwich every day without leaving downtown Ann Arbor.)&lt;/p&gt;
-</description>
+      <description>Serious Eats has a blog, A Sandwich A Day, with a nicely illustrated and well researched sandwich every single day.
+ In this great country of ours, one could eat a different sandwich every day of the year—so that&#39;s what we&#39;ll do. Here&#39;s A Sandwich a Day, our daily look at sandwiches around the country. Got a sandwich we should check out?
+ As a a part of this they note the Grandwich competition in Grand Rapids, where 10 sandwich vendors competed for the best sandwich in town prize.</description>
     </item>
     
     <item>
@@ -233,22 +135,8 @@
       <pubDate>Sun, 04 Dec 2011 13:35:42 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-12-04-there-is-a-serious-lack-of-sandwich-reporting-on-this-blog/</guid>
-      <description>&lt;p&gt;And, if I am able to rectify the situation, I will &lt;a href=&#34;http://annarbor.com/business-review/long-awaited-subway-on-the-corner-of-packard-and-platt-opens/?cmpid=NL_DH_topicbox_headline&#34;&gt;share my profits with Jordan Miller&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I agree! There is a serious lack of sandwich reporting on this website. I, for one, love sandwiches. What if all the pet stories were sandwich stories instead? Everyone isn&#39;t into pets, but who doesn&#39;t like sandwiches? Not anyone I want living in my town. PS if [redacted] puts this advice into action, I expect a share of what is sure to be a tremendous surge in profits.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For who does not love sandwiches? They are compact, and amiable, and easy to pack for lunch. If you have a generous lunch budget, you have have someone else make you a sandwich of wide variety on the spot and enjoy it at your leisure.&lt;/p&gt;
-
-&lt;p&gt;Previous sandwich coverage here and elsewhere:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.annarbor.com/vielmetti/eat-well-at-any-deli-by-making-your-own-sandwich-1/&#34;&gt;Eat well at any deli by making your own sandwich&lt;/a&gt;, written for AnnArbor.com; please excuse the random punctuation marks.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.annarbor.com/vielmetti/monday-lunch-links-fried-egg-sandwich/&#34;&gt;Fried egg sandwich&lt;/a&gt;, also written for AnnArbor.com; please excuse the lack of photo.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2011/06/lack-of-discretion-is-the-better-part-of-twitter.html&#34;&gt;Lack of discretion is the better part of Twitter&lt;/a&gt;, on this blog: &#34;Your indiscretions make up for the rest of us who are content to describe where we are eating a sandwich.&#34;&lt;/p&gt;
-</description>
+      <description>And, if I am able to rectify the situation, I will share my profits with Jordan Miller.
+ I agree! There is a serious lack of sandwich reporting on this website. I, for one, love sandwiches. What if all the pet stories were sandwich stories instead? Everyone isn&#39;t into pets, but who doesn&#39;t like sandwiches? Not anyone I want living in my town. PS if [redacted] puts this advice into action, I expect a share of what is sure to be a tremendous surge in profits.</description>
     </item>
     
     <item>
@@ -257,11 +145,9 @@
       <pubDate>Sun, 12 Jun 2011 11:44:52 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-12-pancakes-take-our-poll/</guid>
-      <description>&lt;p&gt;&lt;iframe width=&#34;450&#34; src=&#34;http://widget.allourideas.org/pancakes?width=450&amp;amp;height=410&#34; height=&#34;410&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Recipes follow.&lt;/p&gt;
-&lt;p&gt;Basic pancake recipe:&lt;/p&gt;
-&lt;p&gt;Readers call &lt;a href=&#34;http://dinersjournal.blogs.nytimes.com/2008/12/24/recipe-of-the-day-everyday-pancakes/&#34;&gt;Mark Bittman&#39;s basic Everyday Pancakes recipe&lt;/a&gt;, from Christmas Eve in 2008, &#34;uninspired&#34;; that creates the necessary fermentation in the comments to generate 27 earnest responses with variations on a theme.&lt;/p&gt;
-</description>
+      <description>Recipes follow.
+Basic pancake recipe:
+Readers call Mark Bittman&#39;s basic Everyday Pancakes recipe, from Christmas Eve in 2008, &#34;uninspired&#34;; that creates the necessary fermentation in the comments to generate 27 earnest responses with variations on a theme.</description>
     </item>
     
     <item>
@@ -270,11 +156,7 @@
       <pubDate>Thu, 02 Jun 2011 01:22:38 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-06-02-rhubarb/</guid>
-      <description>&lt;p&gt;Working my way through the rhubarb recipe set, I find variations on what I made tonight, which was stewed rhubarb. If you were to separate the juice from the fruit, you&amp;#39;d get &lt;strong&gt;Rhubarb Syrup&lt;/strong&gt;, as seen in &lt;a href=&#34;http://tmagazine.blogs.nytimes.com/2010/07/01/case-study-rhubarb-syrup/&#34; target=&#34;_self&#34;&gt;the New York Times&lt;/a&gt;&amp;#0160;(water, vanilla pod, no sugar), &lt;a href=&#34;http://www.thekitchn.com/thekitchn/ingredients-fruit/homemade-pantry-rhubarb-syrup-084304&#34; target=&#34;_self&#34;&gt;The Kitchn&lt;/a&gt;&amp;#0160;(4c rhubarb, 1c sugar, 1c water, ginger root), &lt;a href=&#34;http://www.foodinjars.com/2009/05/rhubarb-syrup-recipe/&#34; target=&#34;_self&#34;&gt;Food in Jars&lt;/a&gt;&amp;#0160;(more sugar). Use as a flavoring in fizzy water, or in a fizzy drink.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rhubarb Daisy&lt;/strong&gt;, a drink made with this syrup (gin, lemon juice, soda, syrup) is seen in &lt;a href=&#34;http://thepauperedchef.com/article/homemade-rhubarb-syrup-and-rhubarb-daisy&#34; target=&#34;_self&#34;&gt;The Paupered Chef&lt;/a&gt;.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;You can use both parts of the straining operation when you&amp;#39;re done with stewed rhubarb. &amp;#0160;Take the now no longer fibrous bits and use as a &amp;quot;rustic jam&amp;quot;; add pectin to the syrup, and you get &lt;strong&gt;Rhubarb Jelly,&lt;/strong&gt; a la &lt;a href=&#34;http://www.tasteofhome.com/Recipes/Rhubarb-Jelly&#34; target=&#34;_self&#34;&gt;Taste of Home&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you won&amp;#39;t want to stew the rhubarb down entirely, the &lt;a href=&#34;http://www.peoplesfood.coop/recipes/rhubarb.php&#34; target=&#34;_self&#34;&gt;People&amp;#39;s Food Coop&lt;/a&gt; has this recipe for &lt;strong&gt;Rhubarb Poached in Red Wine&lt;/strong&gt;, and &lt;a href=&#34;http://thebittenword.typepad.com/thebittenword/2009/05/rice-pudding-with-poached-rhubarb.html&#34; target=&#34;_self&#34;&gt;The Bitten Word&lt;/a&gt;&amp;#0160;has a similar recipe pairing the rhubarb with rice pudding. To avoid stewing the rhubarb down entirely, aim for &lt;strong&gt;Roasted Rhubarb&lt;/strong&gt;, a la &lt;a href=&#34;http://wednesdaychef.typepad.com/the_wednesday_chef/2007/06/rose_grays_and_.html&#34; target=&#34;_self&#34;&gt;The Wednesday Chef&lt;/a&gt;, or a simple recipe from &lt;a href=&#34;http://www.doriegreenspan.com/2009/06/-tomorrow-ill-be-going.html&#34; target=&#34;_self&#34;&gt;Dorie Greenspan&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Working my way through the rhubarb recipe set, I find variations on what I made tonight, which was stewed rhubarb. If you were to separate the juice from the fruit, you&amp;#39;d get Rhubarb Syrup, as seen in the New York Times&amp;#0160;(water, vanilla pod, no sugar), The Kitchn&amp;#0160;(4c rhubarb, 1c sugar, 1c water, ginger root), Food in Jars&amp;#0160;(more sugar). Use as a flavoring in fizzy water, or in a fizzy drink.</description>
     </item>
     
     <item>
@@ -283,21 +165,9 @@
       <pubDate>Tue, 31 May 2011 09:59:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2011/2011-05-31-recipe-coconut-potato-curry/</guid>
-      <description>&lt;p&gt;This recipe is good for those days when you have dinner that might be postponed for a long time. The curry can be served quickly, but if you leave it on the stove longer the potatoes turn into a kind of delicious curry gravy for the garbanzos. We served it with greens, and it would have been good with a side of cauliflower as well.&lt;/p&gt;
-&lt;p&gt;Coconut-potato curry.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2-3 lbs potatoes, boiled, with 1 cup cooking water reserved&lt;/li&gt;
-&lt;li&gt;1 onion, chopped&lt;/li&gt;
-&lt;li&gt;Oil for frying&lt;/li&gt;
-&lt;li&gt;curry powder, to taste&lt;/li&gt;
-&lt;li&gt;1 can coconut milk&lt;/li&gt;
-&lt;li&gt;2 cans garbanzo beans, cooked and drained and rinsed&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Prepare potatoes by boiling them until done. Reserve some cooking water.&lt;/p&gt;
-&lt;p&gt;While the potatoes are boiling, fry a chopped onion in some oil on low heat. When the onion smells nice but is not brown, add the curry powder and cook, stirring, until fragrant.&lt;/p&gt;
-&lt;p&gt;Add the coconut milk to the curry mixture and stir until well mixed. Then add the garbanzoes, and cook covered on low heat.&lt;/p&gt;
-&lt;p&gt;When the potatoes are ready, add them to the garbanzo curry. Cut the potatoes into smaller pieces if they are too large. Keep covered, and add up to 1 cup potato water if the mixture gets too dry.&lt;/p&gt;
-</description>
+      <description>This recipe is good for those days when you have dinner that might be postponed for a long time. The curry can be served quickly, but if you leave it on the stove longer the potatoes turn into a kind of delicious curry gravy for the garbanzos. We served it with greens, and it would have been good with a side of cauliflower as well.
+Coconut-potato curry.
+ 2-3 lbs potatoes, boiled, with 1 cup cooking water reserved 1 onion, chopped Oil for frying curry powder, to taste 1 can coconut milk 2 cans garbanzo beans, cooked and drained and rinsed  Prepare potatoes by boiling them until done.</description>
     </item>
     
     <item>
@@ -306,21 +176,276 @@
       <pubDate>Fri, 17 Dec 2010 22:01:39 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2010/2010-12-17-delicious-ketchup/</guid>
-      <description>&lt;p&gt;As an exercise for wanting to keep enough bookmarks in delicious, or more likely its crowd of descendants, I provide to you some delicious ketchup.&lt;/p&gt;
-&lt;p&gt;The problem with a general Google search for ketchup is that there is so much ketchup out there - so many recipes, so many products, so much Heinz everywhere.&lt;/p&gt;
-&lt;p&gt;The delicious search for ketchup for me was a directed search; I knew that one of those interesting magazines that comes from New York City had a story about ketchup once, and how it was the perfect food.&lt;/p&gt;
-&lt;p&gt;What I was really after, and what I found readily (since 34 people have bookmarked it on pinboard) was Malcolm Gladwell&#39;s 2004 &lt;a href=&#34;http://www.gladwell.com/2004/2004_09_06_a_ketchup.html&#34; target=&#34;_self&#34;&gt;The Ketchup Conundrum&lt;/a&gt;. After finding that, I readily found Meg Favreau&#39;s &lt;a href=&#34;http://www.thesmartset.com/article/article07290902.aspx&#34; target=&#34;_self&#34;&gt;Playing Ketchup&lt;/a&gt;&amp;nbsp;and Johan Lehrer&#39;s &lt;a href=&#34;http://scienceblogs.com/cortex/2009/08/ketchup.php&#34; target=&#34;_self&#34;&gt;Ketchup&lt;/a&gt; from The Frontal Cortex.&lt;/p&gt;
-&lt;p&gt;As for recipes (other than &#34;buy a bottle of Heinz&#34;), try&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.foodnetwork.com/recipes/jamie-oliver/homemade-tomato-ketchup-recipe/index.html&#34; target=&#34;_self&#34;&gt;Jamie Oliver&#39;s homemade ketchup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;(your suggestion goes here)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;One of my search strategies in finding things that I had previously known about is to search for them with my name attached, e.g. a search for &#34;vielmetti ketchup&#34;. This is less about ego and more about retrieval; you can do the same with your favorite prolific blogger or news source (&#34;kottke ketchup&#34; generates an equally interesting set).&lt;/p&gt;
-&lt;p&gt;I wonder if you&#39;ve been getting enough ketchup.&lt;/p&gt;
-&lt;p&gt;
-(Prairie Home Companion &#34;ketchup&#34; skit went here, but it loaded soooo slowly.)
-&lt;/p&gt;
-</description>
+      <description>As an exercise for wanting to keep enough bookmarks in delicious, or more likely its crowd of descendants, I provide to you some delicious ketchup.
+The problem with a general Google search for ketchup is that there is so much ketchup out there - so many recipes, so many products, so much Heinz everywhere.
+The delicious search for ketchup for me was a directed search; I knew that one of those interesting magazines that comes from New York City had a story about ketchup once, and how it was the perfect food.</description>
+    </item>
+    
+    <item>
+      <title>Black Bean Tortilla Casserole Recipe</title>
+      <link>http://vielmetti.github.io/post/2010/2010-07-16-black-bean-tortilla-casserole-recipe/</link>
+      <pubDate>Fri, 16 Jul 2010 13:30:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2010/2010-07-16-black-bean-tortilla-casserole-recipe/</guid>
+      <description>This is the easiest possible black bean tortilla casserole that I could come up with. It is suitable for preparing ahead of time and putting in the oven with a timer. Adjust seasonings to taste.
+ via www.grouprecipes.com
+I signed up for GroupRecipes a million years ago, in Internet time; it&amp;#39;s still around. The tag line is &amp;quot;recipe discovery&amp;quot; and it has some really interesting ways of assembling a set of recipes that might be what you want to make so that you can go off on your own to make your own.</description>
+    </item>
+    
+    <item>
+      <title>Popcorn recipe, oil ripples, and Bénard-Marangoni convection</title>
+      <link>http://vielmetti.github.io/post/2009/2009-12-06-popcorn-recipe-oil-ripples-and-b%C3%A9nardmarangoni-convection/</link>
+      <pubDate>Sun, 06 Dec 2009 10:40:57 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-12-06-popcorn-recipe-oil-ripples-and-b%C3%A9nardmarangoni-convection/</guid>
+      <description>Popcorn
+canola oil
+popping corn
+Heat a sturdy deep pot with a lid to the same temperature you&amp;#39;d use for low temperature sauteing; on our stove it&amp;#39;s 6 of 10.&amp;#0160; When the pot is properly warmed up, pour a bit of oil on the bottom (about a tablespoon or a little more) and bring that up to heat.&amp;#0160; I know it&amp;#39;s at the right temperature when the thin layer of oil starts to form standing waves, ridges, or ripples.</description>
+    </item>
+    
+    <item>
+      <title>Karnabeet recipe</title>
+      <link>http://vielmetti.github.io/post/2009/2009-09-27-karnabeet-recipe/</link>
+      <pubDate>Sun, 27 Sep 2009 10:38:49 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-09-27-karnabeet-recipe/</guid>
+      <description>Assembled from a few sources; not tried yet; this is approximate.
+ Blanch cauliflower and saute in olive oil until browned. Make a lemon-tahini-garlic sauce. Mix.&amp;#0160; Cook. &amp;#0160; Serve sprinkled with sumac and parsley.  Some alternatives:
+ Vegetarian Times roasts the cauliflower instead of sauteing Drum Like A Vegan adds rosemary, also roasts instead of sautes Gastronomical Three reviews the late, lamented La Zamaan which added pomegranate seeds Kitchen Chick looks at Zamaan Cafe (2011) with a photo of Ali Hijazi&amp;#39;s karnabeet  For Monday.</description>
+    </item>
+    
+    <item>
+      <title>acorn pie</title>
+      <link>http://vielmetti.github.io/post/2009/2009-07-03-acorn-pie/</link>
+      <pubDate>Fri, 03 Jul 2009 00:32:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-07-03-acorn-pie/</guid>
+      <description>Acorn pie, acorn pie,
+Everybody wants a piece of
+Acorn pie.
+&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160; from the Acorn Pies weblog
+I don&amp;#39;t have a recipe just yet.</description>
+    </item>
+    
+    <item>
+      <title>south u. restaurant changes - four bits of Asian restaurant news</title>
+      <link>http://vielmetti.github.io/post/2009/2009-06-30-south-u-restaurant-changes-four-bits-of-asian-restaurant-news/</link>
+      <pubDate>Tue, 30 Jun 2009 17:28:21 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-06-30-south-u-restaurant-changes-four-bits-of-asian-restaurant-news/</guid>
+      <description>I got a chance to walk down South University this morning and noticed four restaurants underway with work but not open yet.
+Momo Tea&amp;#39;s owner and a contractor were in the store working on things, and didn&amp;#39;t yet have a date for when they were going to open.
+Miki is taking the space in U Towers where NYPD used to be, or where Orange Julius used to be, depending on your reference point for geography.</description>
+    </item>
+    
+    <item>
+      <title>Food safety in a power outage (American Red Cross, USDA, CDC et al)</title>
+      <link>http://vielmetti.github.io/post/2009/2009-04-28-food-safety-in-a-power-outage-american-red-cross-usda-cdc-et-al/</link>
+      <pubDate>Tue, 28 Apr 2009 12:57:23 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-04-28-food-safety-in-a-power-outage-american-red-cross-usda-cdc-et-al/</guid>
+      <description>If the power goes out for an extended period of time, some of your food can go bad.&amp;#0160; Here&amp;#39;s pointers to documents you can grab ahead of time and print out so that you can know how to sort through things.
+From the American Red Cross: Food safety in a power outage
+Sudden power outages can be frustrating and troublesome, especially when they are prolonged. Perishable foods should not be held above 40 degrees for more than 2 hours.</description>
+    </item>
+    
+    <item>
+      <title>Dutch baby apple pancake; and a March 2009 maple report from the UP</title>
+      <link>http://vielmetti.github.io/post/2009/2009-03-18-here-is-the-penzeys-apple-pancake-recipea-morph-from-the-dutch-baby----14-cup-butter--34-cup-all-purpose-flour--34-cup/</link>
+      <pubDate>Wed, 18 Mar 2009 08:06:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-03-18-here-is-the-penzeys-apple-pancake-recipea-morph-from-the-dutch-baby----14-cup-butter--34-cup-all-purpose-flour--34-cup/</guid>
+      <description>Here is the Penzey&amp;#39;s Apple Pancake recipe&amp;hellip;a morph from the Dutch Baby. &amp;#0160; 1&amp;frasl;4 cup butter&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160; 3&amp;frasl;4 cup all-purpose flour 3&amp;frasl;4 cup milk  1&amp;frasl;2 tsp salt 2 medium baking apples, peeled and thinly sliced&amp;#0160; (I used Braeburn apples) 3 Tbs sugar 1&amp;frasl;2 tsp ceylon cinnamon &amp;#0160; Preheat oven to 400.&amp;#0160; divide butter between two 9&amp;quot; pie plates and put them in the oven to melt the butter.&amp;#0160; Rotate to be sure that butter covers bottom and&amp;#0160; sides of pans.</description>
+    </item>
+    
+    <item>
+      <title>PCA Texas peanut factory - the former Jimmy Dean Meat sausage factory - in Plainview, TX closed</title>
+      <link>http://vielmetti.github.io/post/2009/2009-02-16-pca-texas-peanut-factory-the-former-jimmy-dean-meat-sausage-factory-in-plainview-tx-closed/</link>
+      <pubDate>Mon, 16 Feb 2009 00:38:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-02-16-pca-texas-peanut-factory-the-former-jimmy-dean-meat-sausage-factory-in-plainview-tx-closed/</guid>
+      <description>If you have a kid who eats peanut butter, you&amp;#39;ve been listening to news of the peanut recalls.&amp;#0160; And when your eight year old furrows his brow when you go shopping together and is concerned about salmonella in his peanuts, you&amp;#39;re concerned too.
+The latest bit of this story is the closing of the PCA plant in Plainview, TX.&amp;#0160; I was able to grab some old news stories about the opening of the plant, and to compare those with the stories that are running now.</description>
+    </item>
+    
+    <item>
+      <title>Caribou Coffee Company Inc. is recalling Caribou Fruit and Nut Blend Trail Mix because the product could be contaminated with salmonella.</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-30-caribou-coffee-company-inc-is-recalling-caribou-fruit-and-nut-blend-trail-mix-because-the-product-co/</link>
+      <pubDate>Fri, 30 Jan 2009 23:48:03 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-30-caribou-coffee-company-inc-is-recalling-caribou-fruit-and-nut-blend-trail-mix-because-the-product-co/</guid>
+      <description>As seen on the Raleigh News and Observer recalls page:
+Caribou Coffee Company Inc. is recalling Caribou Fruit and Nut Blend Trail Mix because the product could be contaminated with salmonella. This organism can cause serious and sometimes fatal infections, especially in young children, the elderly and those with weakened immune systems. No illnesses have been reported, according to the Minneapolis company. The recall involves the Caribou Fruit &amp;amp; Nut Blend Trail Mix, 3 ounce size, SKU No.</description>
+    </item>
+    
+    <item>
+      <title>I purchase Trader Joe&#39;s brand &#34;Cheddar Wisconsin Mild&#34; from the Ann Arbor store weekly on Sunday a.m.  Inevitably the cheese has started to grow mold in the package by the time I use it mid-week, well before the sell-by date.</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-20-i-purchase-trader-joes-brand-cheddar-wisconsin-mild-from-the-ann-arbor-store-weekly-on-sunday-am-ine/</link>
+      <pubDate>Tue, 20 Jan 2009 22:15:30 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-20-i-purchase-trader-joes-brand-cheddar-wisconsin-mild-from-the-ann-arbor-store-weekly-on-sunday-am-ine/</guid>
+      <description>I purchase Trader Joe&amp;#39;s brand &amp;quot;Cheddar Wisconsin Mild&amp;quot; from the Ann Arbor store weekly on Sunday a.m.&amp;#0160; Inevitably the cheese has started to grow mold in the package by the time I use it mid-week, well before the sell-by date.&amp;#0160; The latest incident was this week&amp;#39;s moldy cheese with a sell-by date of Feb 11.
+The UPC is 221563 502583 .
+If I didn&amp;#39;t know better, I&amp;#39;d suspect that a cheese slicing machine was not cleaned frequently enough, introducing mold into the product where it is cut.</description>
+    </item>
+    
+    <item>
+      <title>Recall the days when it was safe to eat peanut butter every day.</title>
+      <link>http://vielmetti.github.io/post/2009/2009-01-19-recall-the-days-when-it-was-safe-to-eat-peanut-butter-every-day/</link>
+      <pubDate>Mon, 19 Jan 2009 13:30:14 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2009/2009-01-19-recall-the-days-when-it-was-safe-to-eat-peanut-butter-every-day/</guid>
+      <description>I used to eat a peanut butter and jelly sandwich for lunch every single day in sixth grade.
+Here&amp;#39;s the current 1/19/09 recall information via the Emergency Email Network.
+FDA Issue definitive statement on Peanut Butter Salmonella - Do not eat guidelines   
+ 
+ &amp;lt;table align=&amp;quot;left&amp;quot; border=&amp;quot;0&amp;quot; cellpadding=&amp;quot;0&amp;quot; cellspacing=&amp;quot;0&amp;quot;&amp;gt; &amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt; &amp;lt;td class=&amp;quot;images&amp;quot;&amp;gt;  
+ 
+ &amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt; &amp;lt;font color=&amp;quot;#000000&amp;quot; face=&amp;quot;verdana,Arial, Helvetica, sans-serif&amp;quot; size=&amp;quot;2&amp;quot;&amp;gt;  January 18, 2009:</description>
+    </item>
+    
+    <item>
+      <title>embarassingly easy food, mich-mex style</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-07-embarassingly-easy-food-michmex-style/</link>
+      <pubDate>Sun, 07 Dec 2008 01:43:38 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-07-embarassingly-easy-food-michmex-style/</guid>
+      <description>The joke of course is that most of what passes for Mexican food outside of Mexicantown is really something else, and that there&amp;#39;s a lot of bland or just plain weird vaguely hispanic cuisine that gets sold as &amp;quot;mexican food&amp;quot; but is better described as &amp;quot;Mich-Mex&amp;quot;.&amp;#0160; e.g. &amp;quot;there are no good burritos in Michigan&amp;quot;.
+The kids were hungry tonight, and I had enough ingredients in the fridge to put a hot plate full of food for them in less than 25 minutes.</description>
+    </item>
+    
+    <item>
+      <title>How to get your grocery shopping done quickly and effectively</title>
+      <link>http://vielmetti.github.io/post/2008/2008-12-02-how-to-get-your-grocery-shopping-done-quickly-and-effectively/</link>
+      <pubDate>Tue, 02 Dec 2008 22:00:42 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-12-02-how-to-get-your-grocery-shopping-done-quickly-and-effectively/</guid>
+      <description>I&amp;#39;m doing the shopping these days - a farmer&amp;#39;s market and food coop run on Saturdays, and a Whole Foods and Trader Joe&amp;#39;s run on Sundays.&amp;#0160; Usually I have one or the other of the boys with me, and often there&amp;#39;s some amount of hurry to get the whole process done.
+I&amp;#39;m not used to doing grocery shopping, but going with the boys helps since they have been doing it all along.</description>
+    </item>
+    
+    <item>
+      <title>&#34;The Story of the Apple&#34;, Barrie Juniper on the history and evolution of apples</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-15-the-story-of-the-apple-barrie-juniper-on-the-history-and-evolution-of-apples/</link>
+      <pubDate>Sat, 15 Nov 2008 11:00:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-15-the-story-of-the-apple-barrie-juniper-on-the-history-and-evolution-of-apples/</guid>
+      <description>The Story of the Appleby Barrie Juniper (ISBN 0881927848) is a 2006 book which traces the evolution of the apple through time and tries to answer the question why of all things natural evolution resulted in a widely palatable fruit, where the natural variation of apple varieties gives only about 1% of the total being tasty.&amp;#0160; Barrie&amp;#39;s daughter, Sarah Juniper, runs The Apple Factor, an antique apple consultancy in the UK.</description>
+    </item>
+    
+    <item>
+      <title>Baked Polenta: &#34;no-stir polenta sounds like no-water soup - possible but unlikely&#34;</title>
+      <link>http://vielmetti.github.io/post/2008/2008-11-01-baked-polenta-no-stir-polenta-sounds-like-no-water-soup---possible-but-unlikely/</link>
+      <pubDate>Sat, 01 Nov 2008 00:13:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-11-01-baked-polenta-no-stir-polenta-sounds-like-no-water-soup---possible-but-unlikely/</guid>
+      <description>The family recipes for polenta all involve stirring for a long time, but I didn&amp;#39;t want to do that.&amp;#0160; This alternative approach showed up in a search for the delicious tag polenta, from the blog Hungry Cravings - the so called Cheater Method Polenta.
+The critics were skeptical:
+Vaguery: @vielmetti no-stir polenta sounds like no-water soup. Possible, but unlikely. Good luck!
+but it turned out fine - no stir is an exaggeration, more like one or two stirs but not more than that.</description>
+    </item>
+    
+    <item>
+      <title>Swiss pumpkin (and various baked whole stuffed pumpkin variants)</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-30-swiss-pumpkin-and-various-baked-whole-stuffed-pumpkin-variants/</link>
+      <pubDate>Thu, 30 Oct 2008 13:56:48 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-30-swiss-pumpkin-and-various-baked-whole-stuffed-pumpkin-variants/</guid>
+      <description>I haven&amp;#39;t made this yet, but it&amp;#39;s the recipe for tonight - this is notes to make sure that I&amp;#39;m ready for it.
+Ingredients
+1 pumpkin
+cheese
+bread
+milk
+something savory
+seasonings
+Methods
+Preheat the oven, boil water for tea.
+Slice the top off the pumpkin.&amp;#0160; Scoop out the pulp and seeds.
+Fill the pumpkin with a mix of bread (cubes), cheese (swiss is what I have), something savory (toasted nuts?</description>
+    </item>
+    
+    <item>
+      <title>Middle eastern lentil soup</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-27-middle-eastern-lentil-soup/</link>
+      <pubDate>Mon, 27 Oct 2008 23:13:06 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-27-middle-eastern-lentil-soup/</guid>
+      <description>Recipe credit: freddyknits, who writes about knitting (and importantly takes pictures of projects).
+This recipe comes close to what you&amp;#39;ll find as the soup in any of the middle eastern restaurants around town - easy to make (10 minutes chopping at the beginning), forgiving, easy to make in quantity, and sustaining on days when you get the first snow of the season.
+You&amp;#39;ll want to keep red lentils in stock in your pantry so that you can always make this soup in a pinch.</description>
+    </item>
+    
+    <item>
+      <title>seven random (food) facts</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-27-seven-random-food-facts/</link>
+      <pubDate>Mon, 27 Oct 2008 22:14:45 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-27-seven-random-food-facts/</guid>
+      <description>Inspired by Kate from Four Obsessions, here are seven food-related things to share.
+1.&amp;#0160;&amp;#0160; From an early age I was taught what was good to eat in the north woods and how to find it.&amp;#0160; If you&amp;#39;re walking with me and suddenly I dive into the bushes and come up with a handful of berries, you&amp;#39;ll understand.&amp;#0160; Locally this means that the first day of blueberry, raspberry, juneberry, and strawberry season are holidays, and I employ a small army of berry-picking advance scouts to keep me informed of when opening day is and how conditions are.</description>
+    </item>
+    
+    <item>
+      <title>Green beans with tomatoes and lemon juice and no white wine</title>
+      <link>http://vielmetti.github.io/post/2008/2008-10-26-green-beans-with-tomatoes-and-lemon-juice-and-no-white-wine/</link>
+      <pubDate>Sun, 26 Oct 2008 13:25:51 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-10-26-green-beans-with-tomatoes-and-lemon-juice-and-no-white-wine/</guid>
+      <description>The other name of this recipe is &amp;quot;fried last week&amp;#39;s vegetables&amp;quot;.&amp;#0160; It turned out pretty well.
+green beans
+tomatoes
+oil
+garlic
+dried basil
+lemon juice
+no white wine before noon on Sunday
+Wash and trim the green beans, chop the tomatoes, smash the garlic.
+Heat the oil in a big pan, saute the garlic, add the green beans, add the tomatoes.&amp;#0160; Sprinkle on dried basil.
+At some point the tomatoes will cook enough that the bottom of the pan will start to have browned tomatoey bits.</description>
+    </item>
+    
+    <item>
+      <title>bunny biscuit brief</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-12-bunny-biscuit-b/</link>
+      <pubDate>Fri, 12 Sep 2008 17:40:00 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-12-bunny-biscuit-b/</guid>
+      <description>Biscuits are easy to make, if you have the right recipe, especially the right recipe as amended several times over.&amp;nbsp; This recipe originates in a cookbook that I couldn&#39;t find the last time I made biscuits (hence this post, so I can find it again).&amp;nbsp; &amp;nbsp;
+The &amp;quot;bunny cutter&amp;quot; is an appropriately sized and shaped cookie cutter.&amp;nbsp; You may need to experiment with whatever is at hand.&amp;nbsp; When I made a different recipe (Joy of Cooking) that used (lots of) butter instead of oil, I used a different cutter, just to be sure that everyone knew there was a difference.</description>
+    </item>
+    
+    <item>
+      <title>Anelletti alla Vielmetti</title>
+      <link>http://vielmetti.github.io/post/2008/2008-09-07-anelletti-alla/</link>
+      <pubDate>Sun, 07 Sep 2008 19:32:31 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-09-07-anelletti-alla/</guid>
+      <description>This recipe is much too easy this time of year when tomatoes are in abundance and taste great; don&#39;t even think of doing it with winter styrofoam tomatoes.
+Sauce:
+A little olive oil
+Several tomatoes, cut into quarters or smaller
+Dried basil, only because you got to market too late to get fresh
+Heat the olive oil in a pan.&amp;nbsp; Add the quartered tomatoes - don&#39;t bother to skin or peel or seed them.</description>
+    </item>
+    
+    <item>
+      <title>Garlic Mustard in Michigan (via MSU IPM)</title>
+      <link>http://vielmetti.github.io/post/2008/2008-04-23-garlic-mustard/</link>
+      <pubDate>Wed, 23 Apr 2008 21:27:20 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-04-23-garlic-mustard/</guid>
+      <description>Garlic Mustard in Michigan, a report and information from Michigan State University:  Garlic mustard is an exotic invasive plant from Europe that invades woodland habitats in North America and impacts forest biodiversity. In some woodlands, dense stands of garlic mustard in the spring threaten showy spring blooming ephemerals like spring beauty, trilliums and trout lilies. Other research points toward potentially negative impacts on timber species and forest health. Many land managers consider it to be one of the most potentially harmful and difficult to control invasive plants in the region.</description>
+    </item>
+    
+    <item>
+      <title>Galbi tang at Maru - new Korean restaurant where Seoul Korner used to be</title>
+      <link>http://vielmetti.github.io/post/2008/2008-01-07-galbi-tang-at-m/</link>
+      <pubDate>Mon, 07 Jan 2008 23:43:10 +0000</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2008/2008-01-07-galbi-tang-at-m/</guid>
+      <description>Bob, Kim, Margaret and I went out for lunch at Maru today. Bob and Margaret had the bi bim bop, and Kim had a bento with spicy chicken (and a side of macaroni). I had the galbi tang, a big bowl of steaming delicious beef short rib soup for $9.  We talked about a bunch of things, and it was pleasant.  Maru is about $1 or $2 per dish more than Seoul Korner was, and for that extra you get table service, somewhat bigger portions, more banchan (we had 4 for 4 people), and a broader menu.</description>
     </item>
     
   </channel>

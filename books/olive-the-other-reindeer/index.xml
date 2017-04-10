@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/books/olive-the-other-reindeer/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Olive The Other Reindeer on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/books/olive-the-other-reindeer/</link>
+    <description>Recent content in Olive The Other Reindeer on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/books/olive-the-other-reindeer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Dec 2007 21:38:24 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/books/olive-the-other-reindeer/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Olive, the other reindeer</title>
@@ -14,14 +17,7 @@
       <pubDate>Thu, 06 Dec 2007 21:38:24 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2007/2007-12-06-olive-the-other/</guid>
-      <description>&lt;p&gt;&lt;p&gt;
-&lt;object width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;param name=&#34;movie&#34; value=&#34;http://www.youtube.com/v/-GgGwU7SwQQ&amp;rel=1&#34;&gt;&lt;/param&gt;&lt;param name=&#34;wmode&#34; value=&#34;transparent&#34;&gt;&lt;/param&gt;&lt;embed src=&#34;http://www.youtube.com/v/-GgGwU7SwQQ&amp;rel=1&#34; type=&#34;application/x-shockwave-flash&#34; wmode=&#34;transparent&#34; width=&#34;425&#34; height=&#34;355&#34;&gt;&lt;/embed&gt;&lt;/object&gt;
-&lt;/p&gt;&lt;p style=&#34;text-align:center;&#34;&gt;
-&lt;img src=&#34;http://ecx.images-amazon.com/images/I/11HFgwxEUTL.jpg&#34; /&gt;
-&lt;br /&gt;&lt;a href=&#34;http://www.amazon.com/gp/redirect.html%3FASIN=0811857190%26tag=superpatron-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0811857190%253FSubscriptionId=02ZH6J1W0649DTNS6002&#34;&gt;&amp;ldquo;Olive the Other Reindeer Deluxe Edition: Deluxe Edition!&amp;rdquo; (Vivian Walsh)&lt;/a&gt;
-&lt;/p&gt;
-&lt;!-- technorati tags start --&gt;&lt;p style=&#34;text-align:right;font-size:10px;&#34;&gt;Technorati Tags: &lt;a href=&#34;http://www.technorati.com/tag/olive&#34; rel=&#34;tag&#34;&gt;olive&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/reindeer&#34; rel=&#34;tag&#34;&gt;reindeer&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/olivetti-vielmetti&#34; rel=&#34;tag&#34;&gt;olivetti-vielmetti&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/dogs&#34; rel=&#34;tag&#34;&gt;dogs&lt;/a&gt;, &lt;a href=&#34;http://www.technorati.com/tag/woof-woof-woof&#34; rel=&#34;tag&#34;&gt;woof-woof-woof&lt;/a&gt;&lt;/p&gt;&lt;!-- technorati tags end --&gt;&lt;/p&gt;
-</description>
+      <description>&amp;ldquo;Olive the Other Reindeer Deluxe Edition: Deluxe Edition!&amp;rdquo; (Vivian Walsh) Technorati Tags: olive, reindeer, olivetti-vielmetti, dogs, woof-woof-woof</description>
     </item>
     
   </channel>

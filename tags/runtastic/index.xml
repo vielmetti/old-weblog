@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/runtastic/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Runtastic on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/runtastic/</link>
+    <description>Recent content in Runtastic on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/runtastic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Apr 2013 22:24:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/runtastic/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Runtastic and Cardiotrainer for Android, a brief review</title>
@@ -14,16 +17,9 @@
       <pubDate>Sun, 21 Apr 2013 22:24:11 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-04-21-runtastic-and-cardiotrainer-for-android-a-brief-review/</guid>
-      <description>&lt;p&gt;Runtastic is a workout tracking program for Android. It lets you keep track of where you have gone on your run, bike ride, or walk (or a bunch of other means of locomotion) and using the GPS in the phone makes some estimate of how far you&amp;#39;ve gone and how much effort you have expended.&amp;#0160;&lt;/p&gt;
-&lt;p&gt;I&amp;#39;ve also used Cardiotrainer for this purpose, which has a similar reason for being.&lt;/p&gt;
-&lt;p&gt;It&amp;#39;s really handy to have your device track where you go so that you get a nice map of your journey. Those trips where you&amp;#39;re trying to find your way through an unfamiliar neighborhood generate a trail of breadcrumbs you can follow, and it&amp;#39;s really helpful to have a good sense for how far away a mile is while walking. (For me, it&amp;#39;s a mile to the Michigan Union.)&lt;/p&gt;
-&lt;p&gt;Both Runtastic and Cardiotrainer have a synthesized voice to give you details of your progress as you go. Runtastic is rather more sparing in its narration, which I find just fine. Both systems allow you to log your progress to a variety of online media like Facebook.&lt;/p&gt;
-&lt;p&gt;I started out using Cardiotrainer, and it wanted me to log a trip every day and keep track of myself. When I used to wear a pedometer, that was really easy to do, and I could type in a few numbers every few days and feel like I was keeping up with myself. It doesn&amp;#39;t make sense to have any of these running all the time, and so I was fine with Runtastic keeping that detail in the background for me rather than the foreground.&lt;/p&gt;
-&lt;p&gt;Runtastic also has a feature, as of yet incompletely tested, that lets you know where your friends are right now on the map. That&amp;#39;s actually the feature I want more than any to test out, because it points to the possibility that you could use this for something even a little more like a real time channel for careful coordination of where people are and what they&amp;#39;re doing. I&amp;#39;m imagining getting lost and having this be helpful.&lt;/p&gt;
-&lt;p&gt;Runtastic:&amp;#0160;&lt;a href=&#34;http://www.runtastic.com/&#34; target=&#34;_self&#34;&gt;http://www.runtastic.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Cardiotrainer:&amp;#0160;&lt;a href=&#34;http://www.worksmartlabs.com/cardiotrainer/about.php&#34; target=&#34;_self&#34;&gt;http://www.worksmartlabs.com/cardiotrainer/about.php&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Both apps are free, and both have Pro or Paid versions that unlock a few more features.&lt;/p&gt;
-</description>
+      <description>Runtastic is a workout tracking program for Android. It lets you keep track of where you have gone on your run, bike ride, or walk (or a bunch of other means of locomotion) and using the GPS in the phone makes some estimate of how far you&amp;#39;ve gone and how much effort you have expended.&amp;#0160;
+I&amp;#39;ve also used Cardiotrainer for this purpose, which has a similar reason for being.
+It&amp;#39;s really handy to have your device track where you go so that you get a nice map of your journey.</description>
     </item>
     
   </channel>

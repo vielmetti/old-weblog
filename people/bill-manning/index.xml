@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/bill-manning/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Bill Manning on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/bill-manning/</link>
+    <description>Recent content in Bill Manning on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/bill-manning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Nov 2012 19:49:57 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/bill-manning/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to write for multiple social media channels at once</title>
@@ -14,13 +17,8 @@
       <pubDate>Mon, 12 Nov 2012 19:49:57 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2012/2012-11-12-how-to-write-for-multiple-social-media-channels-at-once/</guid>
-      <description>&lt;p&gt;I connected my Twitter feed to my Facebook feed; now I need to learn to write for both at once. Hard to do. Is there a way to be selective?&lt;/p&gt;
-&lt;p&gt;One suggestion, from long-time blogger &lt;a href=&#34;http://prentissriddle.com/&#34; target=&#34;_self&#34;&gt;Prentiss Riddle&lt;/a&gt;, is to write things first in your weblog and then syndicate them out to wherever you want them to go. This is said to behave well with systems like Facebook that reward outbound clicks. You can then push out whatever you want to write wherever and whenever you desire, and still own the original content in a place that you can control.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.linkedin.com/pub/bill-manning/2/b58/469&#34; target=&#34;_self&#34;&gt;Bill Manning&lt;/a&gt; suggests &lt;a href=&#34;http://streamified.com/&#34; target=&#34;_self&#34;&gt;Streamified&lt;/a&gt;, which is an aggregator that pulls together a variety of inbound streams and presents them attractively. &amp;quot;Add all of your&amp;#0160;&lt;a href=&#34;http://streamified.com/#social_streams&#34;&gt;social streams&lt;/a&gt;&amp;#0160;and watch them all come together in one place.&amp;quot;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://about.me/ryanburns&#34; target=&#34;_self&#34;&gt;Ryan Burns&lt;/a&gt; suggests &lt;a href=&#34;http://bufferapp.com/&#34; target=&#34;_self&#34;&gt;Buffer&lt;/a&gt; (bufferapp), which lets you write once and then push out those posts to multiple places. &amp;quot;Easily add great articles, pictures and videos to your Buffer and we automagically share them for you through the day!&amp;quot;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/juliewbee&#34; target=&#34;_self&#34;&gt;Julie Weatherbee&lt;/a&gt; notes (quite correctly) that simply replicating the same text in Twitter and Facebook is folly, because it doesn&amp;#39;t play to the strengths of either medium. Twitter&amp;#39;s @ references and # hashtags look foolish in a Facebook status, and if you have someone following you on both systems, they&amp;#39;ll find the duplicate efforts irritating. Twitter&amp;#39;s rapid fire, real time updates can overwhelm a Facebook feed easily.&lt;/p&gt;
-&lt;p&gt;The real challenge, though, is in designing for the writing style. The enforced 140 character limit of Twitter forces you to be pithy, but it also gets in the way of writing coherent sentences and paragraphs. Perhaps, as I have tried to do here, I can repurpose the original Twitter posting and use it as the lead paragraph of a longer essay that lives on Typepad and is excerpted for a Facebook post. As a writing design that&amp;#39;s a hard constraint, but as usual, the discipline of constraints lends itself to better writing if you can pull it off.&lt;/p&gt;
-</description>
+      <description>I connected my Twitter feed to my Facebook feed; now I need to learn to write for both at once. Hard to do. Is there a way to be selective?
+One suggestion, from long-time blogger Prentiss Riddle, is to write things first in your weblog and then syndicate them out to wherever you want them to go. This is said to behave well with systems like Facebook that reward outbound clicks.</description>
     </item>
     
   </channel>

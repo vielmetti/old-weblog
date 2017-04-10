@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/people/douglas-perlin/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Douglas Perlin on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/douglas-perlin/</link>
+    <description>Recent content in Douglas Perlin on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/people/douglas-perlin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2014 11:34:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/douglas-perlin/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Interview with Douglas Perlin, author of a2parking Android application</title>
@@ -14,50 +17,8 @@
       <pubDate>Tue, 25 Mar 2014 11:34:08 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2014/2014-03-25-interview-with-douglas-perlin-author-of-a2parking-android-application/</guid>
-      <description>&lt;p&gt;This interview of Douglas Perlin, author of the &lt;a href=&#34;http://vielmetti.typepad.com/vacuum/2014/03/a2parking-app-provides-android-users-with-access-to-real-time-information-about-ann-arbor-parking-st.html&#34;&gt;a2parking&lt;/a&gt; Android application for locating Ann Arbor parking structures, was done via email. It is lightly edited to include hyperlinks.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;When did you get the idea to do an a2parking application, and how long did it take you to go from idea to first version?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In October or November 2011 I was looking at the &lt;a href=&#34;http://a2dda.org&#34;&gt;a2dda website&lt;/a&gt; and happened to see the parking space availability on one of the pages.  I thought it would be nice to have a phone app that could pull up the parking availability data..  It took about a week or two to get the first version up on google play. The original version was kind of clunky I used &lt;a href=&#34;http://jsoup.org/&#34;&gt;jsoup&lt;/a&gt; to extract the data from a2dda web page and wrote a little code to clean it up.  &lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;How long has the software been out in the world?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The app was first published to google play on November 11, 2011.  Sometime around the opening of the new Library Lane parking structure the data and web page disappeared.  I guess a2dda or Republic Parking was upgrading the system.  I guess sometime around August 2013 the &lt;a href=&#34;http://www.a2dda.org/map/AADDACount.json&#34;&gt;data was made available through a JSON link&lt;/a&gt; but I wasn’t aware of it at that time.  For some reason in early March of this year I was thinking about removing the spaces page since it was coming up blank and just leaving the navigation page.  I logged into my Google app.things account and there was an email from Republic Parking informing me about the JSON data so I decided to upgrade the app and that&#39;s what you see now.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Who do you envision as using the system?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I guess I never really thought about it.  Probably someone from out of town looking for directions to parking structure. &lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Have you talked at all to the DDA or to Republic Parking?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I never talked to anyone at DDA or Republic Parking.  I did send email to DDA from my regular email account to find out what happened to the data in when it disappeared.  I got a quick response letting me know that the system was being upgraded.  The thing that really surprised me was when my app.things account received and email from Republic Parking with the JSON link information since I never really wrote to them and my email to the DDA was from a different account.  Not sure how they found out about the app.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Is there more information you&#39;d like to gather regarding parking data (e.g. pricing, trending of availability, historical or predictive numbers)?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The menu has an information screen choice which lists structures and lots and when one is tapped it will pull hours and pricing from the JSON link.  I’m not really tracking the trends or making predictions.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;What&#39;s your favorite parking place? Your favorite free place to park?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Hahaa! I’m a local. I’m pretty good at finding free places to park. That being said I prefer to take the bus and cabs when I come into town since its way cheaper than a DUI.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Tell a little bit about yourself and how you got started programming.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I’m retired. I was a Network Administrator/Network Security Officer for many years.  Programming is just a hobby and I’m pretty much of a hack at it since I don’t devote a lot of time to it. I started programming on an Apple II in basic. Then as time passed I moved on to more languages like Pascal, C, perl, and then Java. In the case of the parking app I just wanted to learn how to write a phone app.&lt;/p&gt;
-</description>
+      <description>This interview of Douglas Perlin, author of the a2parking Android application for locating Ann Arbor parking structures, was done via email. It is lightly edited to include hyperlinks.
+ When did you get the idea to do an a2parking application, and how long did it take you to go from idea to first version?  In October or November 2011 I was looking at the a2dda website and happened to see the parking space availability on one of the pages.</description>
     </item>
     
   </channel>

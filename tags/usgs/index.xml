@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/tags/usgs/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Usgs on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/usgs/</link>
+    <description>Recent content in Usgs on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/tags/usgs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2016 22:23:32 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/usgs/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>September 3, 2016 Oklahoma earthquakes</title>
@@ -14,29 +17,9 @@
       <pubDate>Mon, 05 Sep 2016 22:23:32 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2016/2016-09-05-oklahoma-earthquakes/</guid>
-      <description>&lt;p&gt;A magnitude 5.6 earthquake rattled oil country in Oklahoma
-on September 3, 2016 at 7:02 a.m. The quake&amp;rsquo;s epicenter was
-eight miles northwest of Pawnee, OK.  The &lt;a href=&#34;http://earthquake.usgs.gov/earthquakes/eventpage/us10006jxs#executive&#34;&gt;USGS&lt;/a&gt; maps of
-the quake are detailed.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.pawneenation.org/&#34;&gt;Pawnee Nation&lt;/a&gt; declared
-a state of emergency after ordering evacuations of damaged buildings
-in the area.&lt;/p&gt;
-
-&lt;p&gt;Historically, the incidence of earthquakes in Oklahoma is
-low, and there is concern in the state that these earthquakes
-are of man-made origin.&lt;/p&gt;
-
-&lt;p&gt;Previous quakes in the area have been linked to the use of
-injection wells to dispose of drilling waste. A March 2016
-&lt;a href=&#34;http://www.nytimes.com/2016/03/08/us/oklahoma-earthquakes-oil-gas-wells.html?_r=0&#34;&gt;New York Times&lt;/a&gt; story detailed the efforts of the state
-government to limit the use of these wells.&lt;/p&gt;
-
-&lt;p&gt;Local news coverage from &lt;a href=&#34;http://www.news9.com/story/33010965/earthquake-causes-damage-for-historic-pawnee-buildings&#34;&gt;News 9&lt;/a&gt;, KFOR &lt;a href=&#34;http://kfor.com/2016/09/03/pawnee-earthquake-damages-homes-historic-pawnee-nation-buildings/&#34;&gt;Newschannel 4&lt;/a&gt;, and
-&lt;a href=&#34;http://www.oklahoman.com/login?referer=/saturdays-5.6-magnitude-earthquake-ties-record-in-oklahoma/article/5516769&#34;&gt;The Oklahoman&lt;/a&gt;. Twitter is using the hashtag #&lt;a href=&#34;https://twitter.com/hashtag/okquake&#34;&gt;okquake&lt;/a&gt;,
-and &lt;a href=&#34;https://twitter.com/MattSchroyer&#34;&gt;Matthew Schroyer&lt;/a&gt; has an automated @&lt;a href=&#34;https://twitter.com/OKQuakeWatch&#34;&gt;OKQuakeWatch&lt;/a&gt; account
-tweeting USGS data about Oklahoma quakes.&lt;/p&gt;
-</description>
+      <description>A magnitude 5.6 earthquake rattled oil country in Oklahoma on September 3, 2016 at 7:02 a.m. The quake&amp;rsquo;s epicenter was eight miles northwest of Pawnee, OK. The USGS maps of the quake are detailed.
+The Pawnee Nation declared a state of emergency after ordering evacuations of damaged buildings in the area.
+Historically, the incidence of earthquakes in Oklahoma is low, and there is concern in the state that these earthquakes are of man-made origin.</description>
     </item>
     
   </channel>

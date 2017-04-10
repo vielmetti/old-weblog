@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/cheap-paper/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Cheap Paper on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/cheap-paper/</link>
+    <description>Recent content in Cheap Paper on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/cheap-paper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jun 2009 16:05:31 +0000</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/cheap-paper/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>on the virtue of cheap paper</title>
@@ -14,10 +17,8 @@
       <pubDate>Mon, 22 Jun 2009 16:05:31 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2009/2009-06-22-on-the-virtue-of-cheap-paper/</guid>
-      <description>&lt;p&gt;At various times I&amp;#39;ve carried beautiful little notebooks in my pocket - fancy little bound volumes of paper designed to capture big thoughts and clever notions.&amp;#0160; So fancy (and expensive), in fact, that I felt bad about writing in them unless there was something so clever that it deserved being saved into perpetuity.&lt;/p&gt;
-
-&lt;p&gt;It was thus reassuring and helpful to go into a big box office supply store and get a modest supply of cheap disposable spiral bound pads, with paper so cheap that it is clear that they are designed to be used and then tossed when you are done with them.&amp;#0160; That plus a supply of cheap pens means that I can have something in my pocket to write things down on and not have to worry that I have to be profound at all.&lt;/p&gt;
-</description>
+      <description>At various times I&amp;#39;ve carried beautiful little notebooks in my pocket - fancy little bound volumes of paper designed to capture big thoughts and clever notions.&amp;#0160; So fancy (and expensive), in fact, that I felt bad about writing in them unless there was something so clever that it deserved being saved into perpetuity.
+It was thus reassuring and helpful to go into a big box office supply store and get a modest supply of cheap disposable spiral bound pads, with paper so cheap that it is clear that they are designed to be used and then tossed when you are done with them.</description>
     </item>
     
   </channel>

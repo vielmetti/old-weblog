@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vacuum weblog from Edward Vielmetti</title>
-    <link>http://vielmetti.github.io/keyphrases/levenshtein-distance/index.xml</link>
-    <description>Recent content on Vacuum weblog from Edward Vielmetti</description>
+    <title>Levenshtein Distance on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/keyphrases/levenshtein-distance/</link>
+    <description>Recent content in Levenshtein Distance on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://vielmetti.github.io/keyphrases/levenshtein-distance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2015 16:11:41 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/keyphrases/levenshtein-distance/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Levenshtein distance for approximate match</title>
@@ -14,73 +17,7 @@
       <pubDate>Fri, 17 Jul 2015 16:11:41 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-07-17-levenshtein-distance-for-approximate-match/</guid>
-      <description>&lt;p&gt;The problem, simply stated, is that of typoes and inconsistent
-spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of
-text that you want to annotate with some metadata, like categories
-and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which
-tags you want to use, but you want to catch through some test or
-lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into
-a field that really has &amp;ldquo;apple&amp;rdquo; most of the time. A good algorithm
-will catch minor deviations from the norm and advise you when you
-should go back with a fresh pair of eyes and do an edit.
-The bigger problem is &lt;span style=&#34;background-color: #ffffbf;&#34;&gt;deduplication&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;My first pass at a proposed solution was to look for a version of
-the old Unix program &amp;ldquo;uniq&amp;rdquo; that would have an approximate match.
-There is also an old Unix program &amp;ldquo;agrep&amp;rdquo; (&amp;ldquo;approximate grep&amp;rdquo;) from
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Udi Manber&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;[WM92a]
-Wu S. and U. Manber, &amp;ldquo;Agrep - A Fast Approximate Pattern-Matching
-Tool,&amp;rdquo; Usenix Winter 1992 Technical Conference, San Francisco (January
-1992), pp. 153-162.&lt;/p&gt;
-
-&lt;p&gt;Neither of these first lines of attack to see if someone had
-completely solved the problem before did the trick, but some
-searching around and a conversation with
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;John Hritz&lt;/span&gt;
-hit the neuron that remembered the algorithm called the
-&lt;span style=&#34;background-color: #ffffbf;&#34;&gt;Levenshtein distance&lt;/span&gt;.
-That led me to
-&lt;span style=&#34;background-color: #ffbfff;&#34;&gt;Wikibook: Algorithm Implementation&lt;/span&gt;,
-and its set of
-&lt;a href=&#34;https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance&#34;&gt;Levenshtein distance code&lt;/a&gt;. It so happened that there
-was a very slow implementation in the bash shell included
-in that collection that was a cut and paste and two lines of
-code from being exactly what I needed. A little bit of glue
-code in awk and I was ready to go.&lt;/p&gt;
-
-&lt;p&gt;Now the problem with cut and paste two lines of code is that this
-particular implmentation is very slow, albeit correct. Given the
-choice between slow correct code and fast code that&amp;rsquo;s wrong (because
-of the bug that you don&amp;rsquo;t yet understand), I&amp;rsquo;ll take the slow code
-plus a comment and a writeup that describes how to make it faster.&lt;/p&gt;
-
-&lt;p&gt;What I&amp;rsquo;m really after is just the pairwise comparison of a set
-of words where the two words are close to each other. If the
-distance between two words is greater than some threshhold, I don&amp;rsquo;t need
-to go any further. That algorithmic shortcut isn&amp;rsquo;t in the library
-codes that I found.&lt;/p&gt;
-
-&lt;p&gt;The bigger question is how to write a
-checklist
-and implement it in code to make sure that a big body of work stays
-internally consistent. It&amp;rsquo;s one thing to have a
-categorization
-rule for your writers that says &amp;ldquo;always use the
-singular&amp;rdquo;, but very much something different to have Test 38 in
-your automated test corpus apply that rule and notice when it&amp;rsquo;s
-wrong.&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;Update 29 July 2015:
-&lt;span style=&#34;background-color: #bfffff;&#34;&gt;Dennis Yurichev&lt;/span&gt; with a post
-&lt;a href=&#34;http://yurichev.com/blog/fuzzy_string/&#34;&gt;Fuzzy string matching + simplest possible spellchecking + hunting for typos and misspellings in Wikipedia.&lt;/a&gt; shares some Python code to handle the
-case of automated checking against a probably correct dictionary. He uses this
-&lt;a href=&#34;https://pypi.python.org/pypi/python-Levenshtein/0.12.0&#34;&gt;python-Levenshtein&lt;/a&gt; module
-to do the hard work.&lt;/p&gt;
-</description>
+      <description>The problem, simply stated, is that of typoes and inconsistent spelling and pluraliziation. Let&amp;rsquo;s say you have a collection of text that you want to annotate with some metadata, like categories and tags. You don&amp;rsquo;t want to set aside ahead of time exactly which tags you want to use, but you want to catch through some test or lint step that you&amp;rsquo;ve done something wrong by typing &amp;ldquo;apples&amp;rdquo; into a field that really has &amp;ldquo;apple&amp;rdquo; most of the time.</description>
     </item>
     
   </channel>
