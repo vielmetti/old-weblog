@@ -22,6 +22,16 @@ The current set of systems that are an area of focus - and the places I draw fro
     </item>
     
     <item>
+      <title>Color coded words</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w19-5-color-coded-words/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w19-5-color-coded-words/</guid>
+      <description>When you bought your textbooks, did you evaluate them on how well color-coded the highlighting was in the used copies? If someone before you had turned the page into an angry fruit salad, the value of the text diminished. If instead they were careful and methodical and deft with the use of their marker, the text would be that much easier to read.
+I&amp;rsquo;m experimenting with color-coding here, in particular in three ways.</description>
+    </item>
+    
+    <item>
       <title>Systems for systems people</title>
       <link>http://vielmetti.github.io/post/2017/2017-w18-7-system/</link>
       <pubDate>Sun, 07 May 2017 23:00:00 -0400</pubDate>
@@ -136,6 +146,15 @@ The failures were reminiscent of the DynamoDB downtime of September 20, 2015, in
       <guid>http://vielmetti.github.io/post/2017/2017-w08-4-dogfooding/</guid>
       <description>To &amp;ldquo;dogfood&amp;rdquo; comes from the phrase &amp;ldquo;to eat your own dogfood&amp;rdquo;, giving the sense that you are not only producing a product but also consuming it as well. This is intended to show that you care so much about your customers success in using that product that you are willing to use it the way they are intended to use it.
 &amp;ldquo;Dogfooding&amp;rdquo; is thus shorthand for actually depending on something that you make yourself for sale.</description>
+    </item>
+    
+    <item>
+      <title>What is it that you do?</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w08-3-what-is-it-that-you-do/</link>
+      <pubDate>Wed, 22 Feb 2017 09:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w08-3-what-is-it-that-you-do/</guid>
+      <description>The question &amp;ldquo;What is it that you do&amp;rdquo; is a peculiarly Midwestern one, which admits most easily as an answer &amp;ldquo;I work in the mines&amp;rdquo; or &amp;ldquo;I work at Fords&amp;rdquo;. Much more interesting is the expected response to the California version of the query, which lets you talk about the places that you used to work so that you can put together a story that matches not only what you&amp;rsquo;re doing now but also selective bits and pieces of a work history to back it up.</description>
     </item>
     
     <item>
@@ -2212,7 +2231,7 @@ The SDR tuner comes with an antenna, but I want to replace it with a dipole - es
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</guid>
       <description>From the fix-it-yourself department, two successful radio repairs in one day.
-For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again.</description>
+For my dad Lewis Peters&amp;rsquo;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse.</description>
     </item>
     
     <item>
@@ -2221,7 +2240,8 @@ For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it bac
       <pubDate>Sat, 16 May 2015 06:20:56 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-16--the-rented-lakes-of-my-childhood-by-marge-piercy-from-made-in-detroit-knopf-2015/</guid>
-      <description>The rented lakes of my childhood by Marge Piercy  I remember the lakes of my Michigan childhood. Here they are called ponds. Lakes belonged to summer, two-week vacations that my father was granted by Westinghouse when we rented some cabin. Never mind the dishes with spiderweb cracks, the crooked aluminum sauce pans, the crusted black frying pans. Never mind the mattresses shaped like the letter V. Old jangling springs. Moldy bathrooms.</description>
+      <description>The rented lakes of my childhood by Marge Piercy
+ I remember the lakes of my Michigan childhood. Here they are called ponds. Lakes belonged to summer, two-week vacations that my father was granted by Westinghouse when we rented some cabin. Never mind the dishes with spiderweb cracks, the crooked aluminum sauce pans, the crusted black frying pans. Never mind the mattresses shaped like the letter V. Old jangling springs. Moldy bathrooms.</description>
     </item>
     
     <item>
@@ -5545,7 +5565,7 @@ Collier calls for an amped-up style of blog writing, one that is full of lists a
       <pubDate>Sun, 08 Dec 2013 15:47:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-08-small-wins-and-writing-productivity/</guid>
-      <description>I&#39;m intrigued of late by the notion of &#34;small wins&#34;. This is prompted by reading Wayne Baker&#39;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&#39;re really getting somewhere, even if on the grand scale it doesn&#39;t register yet.</description>
+      <description>I&amp;rsquo;m intrigued of late by the notion of small wins. This is prompted by reading Wayne Baker&amp;rsquo;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&amp;rsquo;re really getting somewhere, even if on the grand scale it doesn&amp;rsquo;t register yet.</description>
     </item>
     
     <item>
@@ -18088,7 +18108,7 @@ Organized by Zach Steindler and Matt Pizzimenti, this group when I visited last 
       <pubDate>Wed, 05 Nov 2008 11:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-05-note-to-self-on-organizing-communicating-and-noting-for-the-future/</guid>
-      <description>This blog serves a couple of functions, not all of which are sensibly part of the same easy to define train of thought. It&amp;rsquo;s &amp;ldquo;note to self&amp;rdquo;, or &amp;ldquo;note to future self&amp;rdquo;, for the sorts of things that I want to publicly remember so that I can find them again. It&amp;rsquo;s notes about places I&amp;rsquo;d aspire to be and events I&amp;rsquo;d like to go to. And some of it is research in progress, in which I get interested enough in something to write down what I find out about it and then wait for searchers to come up with good questions that find it (and more) so I can learn more.</description>
+      <description>This blog serves a couple of functions, not all of which are sensibly part of the same easy to define train of thought. It&amp;rsquo;s note to self, or note to future self, for the sorts of things that I want to publicly remember so that I can find them again. It&amp;rsquo;s notes about places I&amp;rsquo;d aspire to be and events I&amp;rsquo;d like to go to. And some of it is research in progress, in which I get interested enough in something to write down what I find out about it and then wait for searchers to come up with good questions that find it (and more) so I can learn more.</description>
     </item>
     
     <item>

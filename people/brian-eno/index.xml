@@ -6,10 +6,20 @@
     <description>Recent content in Brian Eno on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2015 22:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2017 11:30:00 -0400</lastBuildDate>
     
 	<atom:link href="http://vielmetti.github.io/people/brian-eno/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Oblique strategies as a service</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w12-4-oblique-strategy-as-a-service/</link>
+      <pubDate>Fri, 24 Mar 2017 11:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w12-4-oblique-strategy-as-a-service/</guid>
+      <description>In 1975, Brian Eno and Peter Schmidt collaborated on a card deck of strategies for overcoming creative blocks. This was produced in limited and somewhat varying editions, and when it escaped into the computing world at slightly later date, various electronic versions were produced (including one in FORTRAN). Prentiss Riddle noted some of this history in 2004.
+The &amp;lsquo;oblique&amp;rsquo; code is simple; a file with strategies, one per line, and a function to return a random line from that file.</description>
+    </item>
     
     <item>
       <title>expertise encapsulated into out of date memory banks</title>
