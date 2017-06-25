@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calendar on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/calendar/</link>
+    <description>Recent content in Calendar on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Jan 2017 09:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ISO 8601 date format and keeping track of weeks</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w03-5-iso-date-format/</link>
+      <pubDate>Fri, 20 Jan 2017 09:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w03-5-iso-date-format/</guid>
+      <description>Warning: objects in calendar are closer than they appear.
+I can never keep track of the day of the month, it seems. The watch on my wrist has a day marker, but it wants to have a 31 day month, and when we have 30 or 28 day months the day has to be manually adjusted. On the other hand, I have a keen sense for what day of the week it is.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dogfooding on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/dogfooding/</link>
+    <description>Recent content in Dogfooding on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Feb 2017 00:01:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/dogfooding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dogfooding</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w08-4-dogfooding/</link>
+      <pubDate>Thu, 23 Feb 2017 00:01:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w08-4-dogfooding/</guid>
+      <description>To &amp;ldquo;dogfood&amp;rdquo; comes from the phrase &amp;ldquo;to eat your own dogfood&amp;rdquo;, giving the sense that you are not only producing a product but also consuming it as well. This is intended to show that you care so much about your customers success in using that product that you are willing to use it the way they are intended to use it.
+&amp;ldquo;Dogfooding&amp;rdquo; is thus shorthand for actually depending on something that you make yourself for sale.</description>
+    </item>
+    
+  </channel>
+</rss>

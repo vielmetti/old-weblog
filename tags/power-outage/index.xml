@@ -6,10 +6,20 @@
     <description>Recent content in Power Outage on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jun 2011 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Mar 2017 14:30:00 -0500</lastBuildDate>
     
 	<atom:link href="http://vielmetti.github.io/tags/power-outage/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DTE power outage is worst in company history due to high winds</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w10-4-dte-power-outage/</link>
+      <pubDate>Thu, 09 Mar 2017 14:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w10-4-dte-power-outage/</guid>
+      <description>High winds hit southeastern Michigan on Wednesday, March 8 2017. As a result, many DTE customers lost power. Exact numbers are hard to come by, but DTE&amp;rsquo;s estimate is that about 800,000 customers were affected, making this the worst storm in company history.
+Even before the peak of the storm, the DTE infrastructure for notifying customers of outage status and gathering incident information from its customers failed. DTE&amp;rsquo;s web site was down for the better part of Wednesdsay, and when it came back up it only had the bare minimum of information, with no outage restoration times available and no public-facing map detail of outages.</description>
+    </item>
     
     <item>
       <title>Power outage maps for all 50 states plus as many other countries as I can find</title>

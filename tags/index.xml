@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>Analytics</title>
+      <link>http://vielmetti.github.io/tags/analytics/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:01 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Android</title>
       <link>http://vielmetti.github.io/tags/android/</link>
       <pubDate>Sun, 21 Apr 2013 22:24:11 +0000</pubDate>
@@ -185,7 +194,7 @@
     <item>
       <title>Aws</title>
       <link>http://vielmetti.github.io/tags/aws/</link>
-      <pubDate>Thu, 13 Oct 2016 00:15:00 -0400</pubDate>
+      <pubDate>Wed, 01 Mar 2017 10:00:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/tags/aws/</guid>
       <description></description>
@@ -269,6 +278,24 @@
       <pubDate>Tue, 06 Sep 2016 17:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/tags/broccoli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brownfield</title>
+      <link>http://vielmetti.github.io/tags/brownfield/</link>
+      <pubDate>Mon, 20 Feb 2017 23:45:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/brownfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calendar</title>
+      <link>http://vielmetti.github.io/tags/calendar/</link>
+      <pubDate>Fri, 20 Jan 2017 09:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/calendar/</guid>
       <description></description>
     </item>
     
@@ -480,6 +507,15 @@
     </item>
     
     <item>
+      <title>Dependencies</title>
+      <link>http://vielmetti.github.io/tags/dependencies/</link>
+      <pubDate>Sat, 01 Apr 2017 22:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/dependencies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Derek Mehraban</title>
       <link>http://vielmetti.github.io/tags/derek-mehraban/</link>
       <pubDate>Tue, 21 Jul 2015 16:57:00 -0400</pubDate>
@@ -588,11 +624,29 @@
     </item>
     
     <item>
+      <title>Dogfooding</title>
+      <link>http://vielmetti.github.io/tags/dogfooding/</link>
+      <pubDate>Thu, 23 Feb 2017 00:01:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/dogfooding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Don Blakeman</title>
       <link>http://vielmetti.github.io/tags/don-blakeman/</link>
       <pubDate>Sun, 06 Nov 2011 00:26:48 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/tags/don-blakeman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dte</title>
+      <link>http://vielmetti.github.io/tags/dte/</link>
+      <pubDate>Thu, 09 Mar 2017 14:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/dte/</guid>
       <description></description>
     </item>
     
@@ -759,6 +813,15 @@
     </item>
     
     <item>
+      <title>Faas</title>
+      <link>http://vielmetti.github.io/tags/faas/</link>
+      <pubDate>Fri, 24 Mar 2017 11:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/faas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Faye Amo</title>
       <link>http://vielmetti.github.io/tags/faye-amo/</link>
       <pubDate>Thu, 14 Jul 2011 19:21:49 +0000</pubDate>
@@ -842,7 +905,7 @@
     <item>
       <title>Github</title>
       <link>http://vielmetti.github.io/tags/github/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:00 -0400</pubDate>
+      <pubDate>Fri, 17 Mar 2017 09:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/tags/github/</guid>
       <description></description>
@@ -899,6 +962,15 @@
       <pubDate>Mon, 30 Mar 2015 18:50:16 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/tags/gqrx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greenfield</title>
+      <link>http://vielmetti.github.io/tags/greenfield/</link>
+      <pubDate>Mon, 20 Feb 2017 23:45:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/greenfield/</guid>
       <description></description>
     </item>
     
@@ -966,11 +1038,29 @@
     </item>
     
     <item>
+      <title>Identity</title>
+      <link>http://vielmetti.github.io/tags/identity/</link>
+      <pubDate>Wed, 22 Feb 2017 09:30:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/identity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ifttt</title>
       <link>http://vielmetti.github.io/tags/ifttt/</link>
       <pubDate>Thu, 17 Dec 2015 15:15:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/tags/ifttt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inbox Zero</title>
+      <link>http://vielmetti.github.io/tags/inbox-zero/</link>
+      <pubDate>Sun, 07 May 2017 11:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/inbox-zero/</guid>
       <description></description>
     </item>
     
@@ -1169,6 +1259,15 @@
       <pubDate>Fri, 30 Oct 2015 14:15:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/tags/macports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mad Libs</title>
+      <link>http://vielmetti.github.io/tags/mad-libs/</link>
+      <pubDate>Mon, 24 Apr 2017 22:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/mad-libs/</guid>
       <description></description>
     </item>
     
@@ -1661,7 +1760,7 @@
     <item>
       <title>Power Outage</title>
       <link>http://vielmetti.github.io/tags/power-outage/</link>
-      <pubDate>Thu, 09 Jun 2011 10:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Mar 2017 14:30:00 -0500</pubDate>
       
       <guid>http://vielmetti.github.io/tags/power-outage/</guid>
       <description></description>
@@ -1812,6 +1911,15 @@
     </item>
     
     <item>
+      <title>S3</title>
+      <link>http://vielmetti.github.io/tags/s3/</link>
+      <pubDate>Wed, 01 Mar 2017 10:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Salt</title>
       <link>http://vielmetti.github.io/tags/salt/</link>
       <pubDate>Tue, 06 Sep 2016 17:00:00 -0400</pubDate>
@@ -1880,6 +1988,15 @@
       <pubDate>Fri, 04 Apr 2014 01:43:17 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/tags/skywarn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Small Wins</title>
+      <link>http://vielmetti.github.io/tags/small-wins/</link>
+      <pubDate>Mon, 20 Feb 2017 22:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/small-wins/</guid>
       <description></description>
     </item>
     
@@ -1988,6 +2105,15 @@
       <pubDate>Tue, 14 Jul 2015 18:15:02 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/tags/sweet-potato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synaesthesia</title>
+      <link>http://vielmetti.github.io/tags/synaesthesia/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/synaesthesia/</guid>
       <description></description>
     </item>
     
@@ -2204,6 +2330,15 @@
       <pubDate>Wed, 15 Jul 2015 15:47:24 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wumpus</title>
+      <link>http://vielmetti.github.io/tags/wumpus/</link>
+      <pubDate>Tue, 16 May 2017 22:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/tags/wumpus/</guid>
       <description></description>
     </item>
     

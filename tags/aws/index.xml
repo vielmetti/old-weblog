@@ -6,10 +6,21 @@
     <description>Recent content in Aws on Vacuum weblog from Edward Vielmetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Oct 2016 00:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2017 10:00:00 -0500</lastBuildDate>
     
 	<atom:link href="http://vielmetti.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>February 28, 2017 AWS S3 downtime</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w09-3-aws-s3-downtime/</link>
+      <pubDate>Wed, 01 Mar 2017 10:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w09-3-aws-s3-downtime/</guid>
+      <description>Amazon Web Services had downtime yesterday. Their S3 storage service had what was described as elevated error rates in the US-East zone, and as a result failures started in other AWS services in US-East that depended on S3.
+The failures were reminiscent of the DynamoDB downtime of September 20, 2015, in that seemingly unrelated services share a common failure mode because of unforeseen interdependencies.
+ A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable.</description>
+    </item>
     
     <item>
       <title>AWS Lambda for Python with &#34;Chalice&#34;</title>

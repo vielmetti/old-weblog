@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S3 on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/s3/</link>
+    <description>Recent content in S3 on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2017 10:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>February 28, 2017 AWS S3 downtime</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w09-3-aws-s3-downtime/</link>
+      <pubDate>Wed, 01 Mar 2017 10:00:00 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w09-3-aws-s3-downtime/</guid>
+      <description>Amazon Web Services had downtime yesterday. Their S3 storage service had what was described as elevated error rates in the US-East zone, and as a result failures started in other AWS services in US-East that depended on S3.
+The failures were reminiscent of the DynamoDB downtime of September 20, 2015, in that seemingly unrelated services share a common failure mode because of unforeseen interdependencies.
+ A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable.</description>
+    </item>
+    
+  </channel>
+</rss>

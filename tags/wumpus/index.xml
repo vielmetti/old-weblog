@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wumpus on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/wumpus/</link>
+    <description>Recent content in Wumpus on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 May 2017 22:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/wumpus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Do next?</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w20-2-do-next/</link>
+      <pubDate>Tue, 16 May 2017 22:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w20-2-do-next/</guid>
+      <description>When I first used computer systems, there were a lot more user interfaces that felt like {{% key &amp;ldquo;adventure games&amp;rdquo; %}}. You&amp;rsquo;d be presented with a prompt, and the rest of the user interface would be largely concealed. It would be up to you to deduce a proper function of the system by trying all of the plausible responses to the prompt - including &amp;ldquo;help&amp;rdquo; or &amp;ldquo;?&amp;rdquo;, which might work but you would never really know until you tried them.</description>
+    </item>
+    
+  </channel>
+</rss>

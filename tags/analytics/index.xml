@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/analytics/</link>
+    <description>Recent content in Analytics on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Feb 2017 00:00:01 -0500</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abandoning analytics</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w08-2-abandoning-analytics/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:01 -0500</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w08-2-abandoning-analytics/</guid>
+      <description>I&amp;rsquo;ve stopped for the most part watching and caring about how many people view the various bits of writing I do.
+The analytical tools out there for measuring the net have their primary impetus the selling of advertising, and as such they have slowly but surely morphed to be less and less useful for the discovery of non-commerical intent.
+It used to be that Google Analytics would tell you the exact search terms that someone used to get to your page.</description>
+    </item>
+    
+  </channel>
+</rss>

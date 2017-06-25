@@ -17,7 +17,8 @@
       <pubDate>Fri, 01 Jan 9999 00:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/about-this-weblog/</guid>
-      <description>Edward Vielmetti has been writing the Vacuum weblog since 1999 from Ann Arbor, Michigan. The topics vary widely, with over 2000 entries in the whole collection. As much as possible, the first page has the current focus, but if you dig deep enough you&amp;rsquo;ll find lots of things that were interesting once and may be interesting again.
+      <description>Edward Vielmetti has been writing the Vacuum weblog since 1999 from Ann Arbor, Michigan. The topics vary widely, with over 2000 entries in the whole collection.
+In the interest of simplifying the presentation, some parts of this collection are currently offline, and the front page has some mix of meditation and detail.
 The current set of systems that are an area of focus - and the places I draw from for inspiration on each - are as follows.</description>
     </item>
     
@@ -27,7 +28,7 @@ The current set of systems that are an area of focus - and the places I draw fro
       <pubDate>Tue, 16 May 2017 22:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2017/2017-w20-2-do-next/</guid>
-      <description>When I first used computer systems, there were a lot more user interfaces that felt like adventure games. You&amp;rsquo;d be presented with a prompt, and the rest of the user interface would be largely concealed. It would be up to you to deduce a proper function of the system by trying all of the plausible responses to the prompt - including &amp;ldquo;help&amp;rdquo; or &amp;ldquo;?&amp;rdquo;, which might work but you would never really know.</description>
+      <description>When I first used computer systems, there were a lot more user interfaces that felt like {{% key &amp;ldquo;adventure games&amp;rdquo; %}}. You&amp;rsquo;d be presented with a prompt, and the rest of the user interface would be largely concealed. It would be up to you to deduce a proper function of the system by trying all of the plausible responses to the prompt - including &amp;ldquo;help&amp;rdquo; or &amp;ldquo;?&amp;rdquo;, which might work but you would never really know until you tried them.</description>
     </item>
     
     <item>
@@ -36,7 +37,7 @@ The current set of systems that are an area of focus - and the places I draw fro
       <pubDate>Sat, 13 May 2017 00:00:00 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2017/2017-w19-5-color-coded-words/</guid>
-      <description>When you bought your textbooks, did you evaluate them on how well color-coded the highlighting was in the used copies? If someone before you had turned the page into an angry fruit salad, the value of the text diminished. If instead they were careful and methodical and deft with the use of their marker, the text would be that much easier to read.
+      <description>When you bought your textbooks, did you evaluate them on how well {{% key &amp;ldquo;color-coded&amp;rdquo; %}} the highlighting was in the used copies? If someone before you had turned the page into an angry fruit salad, the value of the text diminished. If instead they were careful and methodical and deft with the use of their marker, the text would be that much easier to read.
 I&amp;rsquo;m experimenting with color-coding here, in particular in three ways.</description>
     </item>
     
@@ -529,6 +530,17 @@ The demo will include a disucssion of receiver and transmitter flow graphs, as w
       <description>The Oxford Flood Network is making a flood detection network in the UK, using low cost sensors and volunteers. They are sharing their code on Github and their results on the Flood_Network Twitter account.
 They encourage you to join their effort, and no high technology is necessary. The network incorporates both readings from automated sensors (about £250) as well as manual readings from gaugeboards or photos.
 New as of December 2015 is an interactive flood map.</description>
+    </item>
+    
+    <item>
+      <title>About this weblog</title>
+      <link>http://vielmetti.github.io/post/about-this-weblog-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/about-this-weblog-2016/</guid>
+      <description>Edward Vielmetti has been writing the Vacuum weblog since 1999 from Ann Arbor, Michigan. The topics vary widely, with over 2000 entries in the whole collection.
+In the interest of simplifying the presentation, some parts of this collection are currently offline, and the front page represents primarily current work and not a diversity of interests.
+The current set of systems that are an area of focus - and the places I draw from for inspiration on each - are as follows.</description>
     </item>
     
     <item>
@@ -2240,7 +2252,7 @@ The SDR tuner comes with an antenna, but I want to replace it with a dipole - es
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-17-two-repaired-shortwave-receivers-in-one-day-/</guid>
       <description>From the fix-it-yourself department, two successful radio repairs in one day.
-For my dad Lewis Peters&amp;rsquo;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse.</description>
+For my dad&#39;s old Kenwood R-2000, a replaced 100ma 5x20mm fuse brought it back to life. The antenna fuse search took a rather long time to get started, but the help of the UMARC club and Dean KD8VXR was enough to unearth the right part. For reference the Mouser part number is 693-0034.3107 for a Schurter fuse. For my old Sony ICF-2010, a fresh set of AA batteries for the computer was enough to get it going again.</description>
     </item>
     
     <item>
@@ -2249,8 +2261,7 @@ For my dad Lewis Peters&amp;rsquo;s old Kenwood R-2000, a replaced 100ma 5x20mm 
       <pubDate>Sat, 16 May 2015 06:20:56 -0400</pubDate>
       
       <guid>http://vielmetti.github.io/post/2015/2015-05-16--the-rented-lakes-of-my-childhood-by-marge-piercy-from-made-in-detroit-knopf-2015/</guid>
-      <description>The rented lakes of my childhood by Marge Piercy
- I remember the lakes of my Michigan childhood. Here they are called ponds. Lakes belonged to summer, two-week vacations that my father was granted by Westinghouse when we rented some cabin. Never mind the dishes with spiderweb cracks, the crooked aluminum sauce pans, the crusted black frying pans. Never mind the mattresses shaped like the letter V. Old jangling springs. Moldy bathrooms.</description>
+      <description>The rented lakes of my childhood by Marge Piercy  I remember the lakes of my Michigan childhood. Here they are called ponds. Lakes belonged to summer, two-week vacations that my father was granted by Westinghouse when we rented some cabin. Never mind the dishes with spiderweb cracks, the crooked aluminum sauce pans, the crusted black frying pans. Never mind the mattresses shaped like the letter V. Old jangling springs. Moldy bathrooms.</description>
     </item>
     
     <item>
@@ -5574,7 +5585,7 @@ Collier calls for an amped-up style of blog writing, one that is full of lists a
       <pubDate>Sun, 08 Dec 2013 15:47:07 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2013/2013-12-08-small-wins-and-writing-productivity/</guid>
-      <description>I&amp;rsquo;m intrigued of late by the notion of small wins. This is prompted by reading Wayne Baker&amp;rsquo;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&amp;rsquo;re really getting somewhere, even if on the grand scale it doesn&amp;rsquo;t register yet.</description>
+      <description>I&#39;m intrigued of late by the notion of &#34;small wins&#34;. This is prompted by reading Wayne Baker&#39;s book on social networks in which he quotes Karl Weick. Rather than try to solve big problems all at once, you attack them by making progress on a series of smaller more attainable goals. This keeps morale up and shows you that you&#39;re really getting somewhere, even if on the grand scale it doesn&#39;t register yet.</description>
     </item>
     
     <item>
@@ -18117,7 +18128,7 @@ Organized by Zach Steindler and Matt Pizzimenti, this group when I visited last 
       <pubDate>Wed, 05 Nov 2008 11:00:00 +0000</pubDate>
       
       <guid>http://vielmetti.github.io/post/2008/2008-11-05-note-to-self-on-organizing-communicating-and-noting-for-the-future/</guid>
-      <description>This blog serves a couple of functions, not all of which are sensibly part of the same easy to define train of thought. It&amp;rsquo;s note to self, or note to future self, for the sorts of things that I want to publicly remember so that I can find them again. It&amp;rsquo;s notes about places I&amp;rsquo;d aspire to be and events I&amp;rsquo;d like to go to. And some of it is research in progress, in which I get interested enough in something to write down what I find out about it and then wait for searchers to come up with good questions that find it (and more) so I can learn more.</description>
+      <description>This blog serves a couple of functions, not all of which are sensibly part of the same easy to define train of thought. It&amp;rsquo;s &amp;ldquo;note to self&amp;rdquo;, or &amp;ldquo;note to future self&amp;rdquo;, for the sorts of things that I want to publicly remember so that I can find them again. It&amp;rsquo;s notes about places I&amp;rsquo;d aspire to be and events I&amp;rsquo;d like to go to. And some of it is research in progress, in which I get interested enough in something to write down what I find out about it and then wait for searchers to come up with good questions that find it (and more) so I can learn more.</description>
     </item>
     
     <item>

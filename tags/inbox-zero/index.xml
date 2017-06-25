@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inbox Zero on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/tags/inbox-zero/</link>
+    <description>Recent content in Inbox Zero on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 May 2017 11:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/tags/inbox-zero/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inbox juggling, the Github system</title>
+      <link>http://vielmetti.github.io/post/2017/2017-w18-7-inbox-juggling/</link>
+      <pubDate>Sun, 07 May 2017 11:30:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2017/2017-w18-7-inbox-juggling/</guid>
+      <description>My method for keeping an inbox in check enough that it periodically hits a zero point relies heavily on having a second system in which to store bits of work in progress. In my case this is a private Github issue store which has now over 6900 issues in it, about 6800 of which have been closed.
+There&amp;rsquo;s not magic to this approach, other than relentless use of Github&amp;rsquo;s flexible issues management tool.</description>
+    </item>
+    
+  </channel>
+</rss>
