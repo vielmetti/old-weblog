@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wienke Giezeman on Vacuum weblog from Edward Vielmetti</title>
+    <link>http://vielmetti.github.io/people/wienke-giezeman/</link>
+    <description>Recent content in Wienke Giezeman on Vacuum weblog from Edward Vielmetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Sep 2015 23:15:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://vielmetti.github.io/people/wienke-giezeman/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LoraWAN and The Things Network</title>
+      <link>http://vielmetti.github.io/post/2015/2015-09-22-lorawan/</link>
+      <pubDate>Tue, 22 Sep 2015 23:15:00 -0400</pubDate>
+      
+      <guid>http://vielmetti.github.io/post/2015/2015-09-22-lorawan/</guid>
+      <description>LoraWAN is a long range low power wireless network designed for the Internet of Things. In Amsterdam, it&amp;rsquo;s the protocol of choice for The Things Network, a public access network that uses a chunk of wireless spectrum (858 Mhz) that&amp;rsquo;s licensed there for public use. Devices on that network are served by a dozen gateways that cover the entire city.
+Wienke Giezeman is the point of contact for this network and there is a Facebook network to discuss expansion to other cities.</description>
+    </item>
+    
+  </channel>
+</rss>
